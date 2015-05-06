@@ -5,30 +5,45 @@ import nl.siegmann.epublib.domain.Book
 import nl.siegmann.epublib.epub.EpubReader
 import java.io.FileInputStream
 import android.graphics.BitmapFactory
+import android.text.TextUtils
 import java.util.ArrayList
 import nl.siegmann.epublib.domain.TOCReference
 
 
 public class LocalReader(private val path: String) : BookReader {
 
-    private var book: Book? = null;
+    private var book: Book? = null
+
+    private var title: String = ""
+
+    private var author: String = ""
 
     override fun open() {
         book = EpubReader().readEpubLazy(path, "utf-8");
+        title = book!!.getTitle()
+        val authors = book!!.getMetadata().getAuthors()
+        author = "${authors.get(0).getFirstname()} ${authors.get(0).getLastname()}"
     }
 
     override fun close() {
         book = null;
     }
 
+    override fun release() {
+        title = ""
+        author = ""
+    }
+
     override fun getTitle(): String {
-        return book!!.getTitle();
+        return title
+    }
+
+    override fun getAuthor(): String {
+        return author
     }
 
     override fun getDisplayTitle(): String {
-        val title = book!!.getTitle()
-        val author = book!!.getMetadata().getAuthors()
-        val displayString = "$title\n$author\n"
+        val displayString = "${title}\n$author"
         return displayString;
     }
 

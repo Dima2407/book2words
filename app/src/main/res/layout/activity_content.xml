@@ -27,12 +27,6 @@
                 android:text="@string/action_split"/>
 
         <Button
-                android:id="@+id/text_translate"
-                android:layout_width="0.0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:text="@string/action_translate"/>
-        <Button
                 android:id="@+id/text_dictionary"
                 android:layout_width="0.0dp"
                 android:layout_weight="1"

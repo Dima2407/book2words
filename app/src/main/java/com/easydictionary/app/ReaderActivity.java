@@ -2,21 +2,19 @@ package com.easydictionary.app;
 
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.View;
 import android.webkit.JavascriptInterface;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.TextView;
-import nl.siegmann.epublib.domain.Book;
 import nl.siegmann.epublib.domain.Resource;
 import nl.siegmann.epublib.domain.Spine;
-import nl.siegmann.epublib.epub.EpubReader;
+import org.screens.BookSplitFragment;
 
 import java.io.*;
 import java.nio.charset.Charset;
@@ -35,10 +33,25 @@ public class ReaderActivity extends Activity {
     private BookReader reader;
     private String bookName;
 
+    public static final String FRAGMENT_TAG = "fragment3";
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
+
+        final Uri data = getIntent().getData();
+
+        Fragment fragment = getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
+        if (fragment == null) {
+            fragment = BookSplitFragment.Companion.create(data);
+
+            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+            transaction.add(android.R.id.content, fragment, FRAGMENT_TAG);
+            transaction.commit();
+        }
+
+        /*setContentView(R.layout.activity_main);
         bookView = (WebView) findViewById(android.R.id.text1);
         titleView = (TextView) findViewById(android.R.id.text2);
         WebSettings settings = bookView.getSettings();
@@ -85,7 +98,8 @@ public class ReaderActivity extends Activity {
 
             // Load Book from inputStream
 
-            Book book = (new EpubReader()).readEpub(epubInputStream, ENCODING);
+
+            Book book = new EpubReader().readEpub(epubInputStream, ENCODING);
             bookName = book.getTitle();
 
             reader = new BookReader(book.getSpine(), new BookFetcher() {
@@ -112,12 +126,12 @@ public class ReaderActivity extends Activity {
                     Log.d(TAG, "reading end");
                 }
             });
-            reader.start(57);
+            reader.start(0);
 
         } catch (IOException e) {
             Log.e(TAG, e.getMessage());
         }
-
+*/
     }
 
     private static final class BookReader implements BookPager {
