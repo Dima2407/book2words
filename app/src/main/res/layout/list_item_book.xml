@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/image_cover"
+            android:layout_width="64dip"
+            android:layout_height="64dip"/>
+
+    <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_cover"
+            android:layout_alignTop="@id/image_cover"/>
+    <TextView
+            android:id="@+id/text_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_title"
+            android:layout_alignLeft="@id/text_title"/>
+
+    <Button
+            android:id="@+id/button_split"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_author"
+            android:text="@string/action_split"/>
+
+    <Button
+            android:id="@+id/button_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_author"
+            android:layout_toRightOf="@id/button_split"
+            android:text="@string/action_read"/>
+
+    <Button
+            android:id="@+id/button_adapt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_author"
+            android:layout_toRightOf="@id/button_read"
+            android:text="@string/action_adapt"/>
+
+</RelativeLayout>

@@ -2,6 +2,7 @@ package org.models.split
 
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import com.easydictionary.app.SplitActivity
 import nl.siegmann.epublib.domain.Spine
 import org.book2dictionary.Logger
 import java.nio.charset.Charset

@@ -5,7 +5,7 @@ import android.text.TextUtils
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import com.easydictionary.app.TextSplitService
+import org.book2words.services.TextSplitService
 import nl.siegmann.epublib.domain.Spine
 import nl.siegmann.epublib.epub.EpubReader
 import org.book2dictionary.Logger
@@ -30,12 +30,7 @@ public class BookSplitter(private val path: String, private val surface: WebView
 
     public fun split(offset: Int = 0, length: Int = spine.size()) {
         val reader = WebViewBookReader(surface, spine, offset, length, ENCODING)
-        reader.start(object : HtmlBodyTextFetcher {
-            override fun processContent(text: String) {
-                Logger.debug("processContent() - ${text}")
-                reader.next()
-            }
-        })
+        reader.start(HtmlBodyTextFetcher(reader))
     }
 
     companion object {

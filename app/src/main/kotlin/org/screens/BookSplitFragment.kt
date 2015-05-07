@@ -10,6 +10,7 @@ import android.webkit.WebView
 import android.widget.TextView
 import com.easydictionary.app.R
 import nl.siegmann.epublib.domain.Book
+import org.book2words.dao.LibraryBook
 import org.models.split.BookSplitter
 import java.nio.charset.Charset
 
@@ -32,8 +33,8 @@ public class BookSplitFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val path : Uri = getArguments()!!.getParcelable(BOOK_PATH_KEY);
-        val splitter = BookSplitter(path.getPath(), surface as WebView);
+        val book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY);
+        val splitter = BookSplitter(book.getPath(), surface as WebView);
 
         titleView!!.setText(splitter.title)
         splitter.split()
@@ -43,7 +44,7 @@ public class BookSplitFragment : Fragment() {
 
         private val BOOK_PATH_KEY = "book"
 
-        public fun create(root: Uri): Fragment {
+        public fun create(root: LibraryBook): Fragment {
             val args = Bundle()
             args.putParcelable(BOOK_PATH_KEY, root)
 

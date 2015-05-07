@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
+            android:name="org.book2words.B2WApplication"
             android:allowBackup="true"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
@@ -25,7 +26,7 @@
                 android:name=".MarkActivity"
                 android:label="@string/title_activity_main"/>
         <activity
-                android:name=".ReaderActivity"
+                android:name=".SplitActivity"
                 android:label="@string/title_activity_main"/>
         <activity
                 android:name=".MainActivity"
@@ -38,10 +39,17 @@
         </activity>
 
         <service
-                android:name=".TextSplitService"
+                android:name="org.book2words.services.TextSplitService"
                 android:exported="false"/>
         <service
-                android:name=".TranslateService"
+                android:name="org.book2words.services.TranslateService"
+                android:exported="false"/>
+
+        <service
+                android:name="org.book2words.services.LibraryService"
+                android:exported="false"/>
+        <service
+                android:name="org.book2words.services.BookSyncService"
                 android:exported="false"/>
     </application>
 

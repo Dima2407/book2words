@@ -65,7 +65,7 @@ private abstract class BookReader(private val spine: Spine,
                 }
 
             } catch (e: IOException) {
-                e.printStackTrace()
+                Logger.error(e)
             } finally {
                 stream.close()
             }

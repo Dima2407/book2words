@@ -13,8 +13,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.easydictionary.app.MarkActivity
 import com.easydictionary.app.R
-import com.easydictionary.app.ReaderActivity
-import com.easydictionary.app.TranslateService
+import com.easydictionary.app.SplitActivity
+import org.book2words.services.TranslateService
 import org.book2dictionary.core.reader.BookReader
 
 
@@ -48,7 +48,7 @@ public class BookContentFragment : Fragment() {
     }
 
     private fun openReaderActivity() {
-        val intent = Intent(getActivity(), javaClass<ReaderActivity>())
+        val intent = Intent(getActivity(), javaClass<SplitActivity>())
         intent.setData(path)
         startActivity(intent)
     }

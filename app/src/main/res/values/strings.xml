@@ -8,6 +8,9 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="action_dictionary">Dictionary</string>
     <string name="action_translate">Translate</string>
-    <string name="action_split">Split</string>
+    <string name="action_split">prepare</string>
+    <string name="action_read">read</string>
+    <string name="action_adapt">adapt</string>
     <string name="prev"><![CDATA[<<<<]]></string>
+    <string name="action_sync">SYNC</string>
 </resources>

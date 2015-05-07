@@ -11,6 +11,7 @@ import android.widget.ListView;
 import org.book2dictionary.core.Dictionary;
 import org.book2dictionary.core.Provider;
 import org.book2dictionary.core.book.BookDictionary;
+import org.book2words.services.TranslateService;
 
 import java.util.ArrayList;
 import java.util.List;

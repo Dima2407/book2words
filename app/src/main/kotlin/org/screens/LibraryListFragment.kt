@@ -5,11 +5,20 @@ import android.app.ListFragment
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
+import android.view.*
 import android.widget.ArrayAdapter
+import android.widget.ImageView
 import android.widget.ListView
+import android.widget.TextView
 import com.easydictionary.app.Configs
 import com.easydictionary.app.ContentActivity
+import com.easydictionary.app.R
+import com.easydictionary.app.SplitActivity
+import com.nostra13.universalimageloader.core.ImageLoader
+import org.book2words.B2WApplication
+import org.book2words.Storage
+import org.book2words.dao.LibraryBook
+import org.book2words.services.LibraryService
 import org.models.LibraryFile
 import java.io.File
 import java.util.ArrayList
@@ -19,41 +28,39 @@ public class LibraryListFragment : ListFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setRetainInstance(true)
+        setHasOptionsMenu(true)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        setListAdapter(LibraryFileAdapter(getActivity(), files()))
+        val application = getActivity().getApplication() as B2WApplication
+        val items = application.getDaoSession().getLibraryBookDao().loadAll()
+        val adapter = LibraryFileAdapter(getActivity(), items)
+        setListAdapter(adapter)
     }
 
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
-        val file = l!!.getItemAtPosition(position) as LibraryFile
-        if (file.isBook()) {
-            val intent = Intent(getActivity(), javaClass<ContentActivity>())
-            intent.setData(file.asUri())
+        val file = l!!.getItemAtPosition(position) as LibraryBook
+        if (!file.getAdapted()) {
+            val intent = Intent(getActivity(), javaClass<SplitActivity>())
+            intent.putExtra(SplitActivity.EXTRA_BOOK, file)
             startActivity(intent)
-        } else {
-            val transaction = getFragmentManager().beginTransaction()
-            transaction.replace(android.R.id.content, LibraryListFragment.create(file.path), "root_files")
-            transaction.addToBackStack(null)
-            transaction.commit()
         }
     }
 
-    private fun files(): List<LibraryFile> {
-        val root = File(getDirectoryRoot())
-        val libraryFiles = ArrayList<LibraryFile>()
-        if (root.exists()) {
-            val files = root.listFiles()
-            for (file in files) {
-                val libraryFile = LibraryFile.create(file)
-                if (libraryFile != null) {
-                    libraryFiles.add(libraryFile)
-                }
-            }
-        }
-        return libraryFiles
+    override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
+        inflater!!.inflate(R.menu.menu_sync, menu);
+        super.onCreateOptionsMenu(menu, inflater)
     }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        if (item!!.getItemId() == R.id.action_sync) {
+            LibraryService.syncBooks(getActivity(), getDirectoryRoot())
+            return true;
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
 
     private fun getDirectoryRoot(): String {
         val arguments = getArguments()
@@ -77,5 +84,36 @@ public class LibraryListFragment : ListFragment() {
         }
     }
 
-    private class LibraryFileAdapter(context: Context, objects: List<LibraryFile>) : ArrayAdapter<LibraryFile>(context, android.R.layout.simple_list_item_1, objects)
+    private class LibraryFileAdapter(context: Context, objects: List<LibraryBook>)
+    : ArrayAdapter<LibraryBook>(context, -1, objects) {
+
+        override fun getView(position: Int, convertView: View?, parent: ViewGroup): View? {
+            var view = convertView;
+            if (view == null) {
+                view = View.inflate(getContext(), R.layout.list_item_book, null);
+            }
+            val titleView = view!!.findViewById(R.id.text_title) as TextView
+            val authorsView = view!!.findViewById(R.id.text_author) as TextView
+
+            val coverView = view!!.findViewById(R.id.image_cover) as ImageView
+
+            val item = getItem(position);
+            ImageLoader.getInstance().displayImage(Storage.imageCoverUri(item.getId()), coverView);
+            titleView.setText(item.getName())
+            authorsView.setText(item.getAuthors())
+
+
+
+            if(item.getAdapted()){
+                view!!.findViewById(R.id.button_adapt).setVisibility(View.GONE)
+                view!!.findViewById(R.id.button_read).setVisibility(View.VISIBLE)
+                view!!.findViewById(R.id.button_split).setVisibility(View.VISIBLE)
+            }else{
+                view!!.findViewById(R.id.button_adapt).setVisibility(View.VISIBLE)
+                view!!.findViewById(R.id.button_read).setVisibility(View.GONE)
+                view!!.findViewById(R.id.button_split).setVisibility(View.GONE)
+            }
+            return view
+        }
+    }
 }
