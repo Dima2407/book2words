@@ -51,6 +51,10 @@
         <service
                 android:name="org.book2words.services.BookSyncService"
                 android:exported="false"/>
+
+        <service
+                android:name="org.book2words.services.BookSplitService"
+                android:exported="false"/>
     </application>
 
 </manifest>

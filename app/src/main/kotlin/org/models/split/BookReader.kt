@@ -16,6 +16,10 @@ private abstract class BookReader(private val spine: Spine,
 
     abstract fun onFinished();
 
+    public fun getCurrent() : Int {
+        return current + 1
+    }
+
     fun next() {
         while (current++ < length) {
             if (current < length) {

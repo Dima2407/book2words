@@ -40,12 +40,7 @@ public class LibraryListFragment : ListFragment() {
     }
 
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
-        val file = l!!.getItemAtPosition(position) as LibraryBook
-        if (!file.getAdapted()) {
-            val intent = Intent(getActivity(), javaClass<SplitActivity>())
-            intent.putExtra(SplitActivity.EXTRA_BOOK, file)
-            startActivity(intent)
-        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
@@ -98,11 +93,17 @@ public class LibraryListFragment : ListFragment() {
             val coverView = view!!.findViewById(R.id.image_cover) as ImageView
 
             val item = getItem(position);
-            ImageLoader.getInstance().displayImage(Storage.imageCoverUri(item.getId()), coverView);
+            val coverUri = Storage.imageCoverUri(item.getId())
+
+            ImageLoader.getInstance().displayImage(coverUri, coverView);
             titleView.setText(item.getName())
             authorsView.setText(item.getAuthors())
 
-
+            view!!.findViewById(R.id.button_adapt).setOnClickListener({
+                val intent = Intent(getContext(), javaClass<SplitActivity>())
+                intent.putExtra(SplitActivity.EXTRA_BOOK, item)
+                getContext().startActivity(intent)
+            })
 
             if(item.getAdapted()){
                 view!!.findViewById(R.id.button_adapt).setVisibility(View.GONE)

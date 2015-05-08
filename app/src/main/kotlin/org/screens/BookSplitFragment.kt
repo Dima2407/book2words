@@ -34,7 +34,7 @@ public class BookSplitFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY);
-        val splitter = BookSplitter(book.getPath(), surface as WebView);
+        val splitter = BookSplitter(book, surface as WebView);
 
         titleView!!.setText(splitter.title)
         splitter.split()

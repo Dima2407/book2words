@@ -3,6 +3,7 @@ package org.book2words.services
 import android.app.IntentService
 import android.content.Context
 import android.content.Intent
+import android.support.v4.content.LocalBroadcastManager
 import net.sf.jazzlib
 import nl.siegmann.epublib.domain.Author
 import nl.siegmann.epublib.domain.Book
@@ -21,8 +22,13 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
 
     override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
-            val path = intent.getStringExtra(EXTRA_PATH)
-            prepareBook(path)
+            val action = intent.getAction();
+            if (ACTION_PREPARE.equals(action)) {
+                val path = intent.getStringExtra(EXTRA_PATH)
+                prepareBook(path)
+            } else if (ACTION_CLEAR.equals(action)) {
+                clear()
+            }
         }
     }
 
@@ -54,13 +60,16 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
 
             Logger.debug("prepareBook() ${id}")
             val coverImage = eBook.getCoverImage()
-            if(coverImage != null) {
+            if (coverImage != null) {
                 saveCover(id, coverImage)
             }
         } catch (e: IOException) {
             Logger.error(e)
         }
 
+        val localIntent = Intent(ACTION_PREPARED)
+        localIntent.putExtra(EXTRA_PATH, path)
+        LocalBroadcastManager.getInstance(this).sendBroadcast(localIntent);
 
     }
 
@@ -79,13 +88,33 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
         }
     }
 
+    private fun clear() {
+        Logger.debug("clear()")
+        Storage.clearCovers()
+        val application = getApplication() as B2WApplication
+
+        application.getDaoSession().getLibraryBookDao().deleteAll()
+    }
+
     companion object {
 
-        private val EXTRA_PATH = "_path"
+        private val ACTION_PREPARE = "org.book2words.intent.action.PREPARE"
+        private val ACTION_CLEAR = "org.book2words.intent.action.CLEAR"
+
+        public val ACTION_PREPARED: String = "org.book2words.intent.action.PREPARED"
+
+        public val EXTRA_PATH: String = "_path"
 
         public fun prepareBook(context: Context, path: String) {
             val intent = Intent(context, javaClass<BookSyncService>())
+            intent.setAction(ACTION_PREPARE)
             intent.putExtra(EXTRA_PATH, path)
+            context.startService(intent)
+        }
+
+        fun clear(context: Context) {
+            val intent = Intent(context, javaClass<BookSyncService>())
+            intent.setAction(ACTION_CLEAR)
             context.startService(intent)
         }
     }
