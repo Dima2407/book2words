@@ -20,7 +20,7 @@
                 android:label="@string/title_activity_content"
                 android:configChanges="orientation"/>
         <activity
-                android:name=".TranslateActivity"
+                android:name=".DictionaryActivity"
                 android:label="@string/title_activity_main"/>
         <activity
                 android:name=".MarkActivity"
