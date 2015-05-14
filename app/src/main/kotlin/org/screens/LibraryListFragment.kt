@@ -19,6 +19,7 @@ import org.book2words.B2WApplication
 import org.book2words.Storage
 import org.book2words.dao.LibraryBook
 import org.book2words.services.LibraryService
+import org.data.DataContext
 import org.models.LibraryFile
 import java.io.File
 import java.util.ArrayList
@@ -33,8 +34,7 @@ public class LibraryListFragment : ListFragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val application = getActivity().getApplication() as B2WApplication
-        val items = application.getDaoSession().getLibraryBookDao().loadAll()
+        val items = DataContext.getLibraryBookDao(this).loadAll()
         val adapter = LibraryFileAdapter(getActivity(), items)
         setListAdapter(adapter)
     }

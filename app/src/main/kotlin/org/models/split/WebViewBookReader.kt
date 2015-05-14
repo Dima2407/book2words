@@ -10,9 +10,8 @@ import java.nio.charset.Charset
 
 public class WebViewBookReader(private val surface: WebView,
                                private val spine: Spine,
-                               private val offset: Int = 0,
-                               private val length: Int = spine.size(),
-                               private val encoding: String) : BookReader(spine, offset, length ,encoding) {
+                               private val onRelease: ()-> Unit,
+                               private val encoding: String) : BookReader(spine ,encoding) {
     init {
         val settings = surface.getSettings()
         settings!!.setJavaScriptEnabled(true)
@@ -37,13 +36,14 @@ public class WebViewBookReader(private val surface: WebView,
         Logger.debug("onFinished()")
         surface.post {
             surface.removeJavascriptInterface(JAVASCRIPT_INTERFACE);
+            onRelease()
         };
     }
 
-    public fun start(fetcher : HtmlBodyTextFetcher){
+    public fun start(offset: Int = 0, length: Int = spine.size(), fetcher : HtmlBodyTextFetcher){
         surface.addJavascriptInterface(fetcher, JAVASCRIPT_INTERFACE);
         surface.reload();
-        super.start()
+        super.start(offset, length)
     }
 
     companion object {

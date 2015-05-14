@@ -81,7 +81,7 @@ public class TextSplitService extends Service {
     }
 
     public final Map<String, Map<String, Integer>> words = new LinkedHashMap<String, Map<String, Integer>>();
-    private final TextSplitter textSplitter = new TextSplitter();
+    private final TextSplitter textSplitter = TextSplitter.Companion.getInstance();
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -158,7 +158,7 @@ public class TextSplitService extends Service {
     }
 
     private void filterText(String name) {
-        Dictionary dictionaryProvider = Dictionary.OBJECT$.openUserDictionary(Provider.File, Configs.getBooksDirectory());
+        /*Dictionary dictionaryProvider = Dictionary.OBJECT$.openUserDictionary(Provider.File, Configs.getBooksDirectory());
         dictionaryProvider.prepare(false);
 
         Set<String> words = new TreeSet<String>();
@@ -185,7 +185,7 @@ public class TextSplitService extends Service {
 
         provider.prepare(true);
         int count = 0;
-        for (Chapter chapter : textSplitter.getChapters()) {
+        *//*for (Chapter chapter : textSplitter.getChapters()) {
             List<Paragraph> map = chapter.getParagraphs();
             if (chapter.isEmpty()) {
                 continue;
@@ -199,9 +199,9 @@ public class TextSplitService extends Service {
                 provider.add("");
             }
 
-        }
+        }*//*
         Log.d(TAG, "end " + count);
-        provider.release();
+        provider.release();*/
     }
 
     private void debugAll() {

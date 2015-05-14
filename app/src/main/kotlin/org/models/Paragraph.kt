@@ -1,8 +1,14 @@
 package org.models
 
-public class Paragraph(val words : MutableList<String> ){
+import java.io.Serializable
+
+public class Paragraph(val chapter : Chapter, private var size : Int = 0) : Serializable {
 
     override fun toString(): String {
-        return "${words}";
+        return "${chapter} - ${size}";
+    }
+
+    fun setSize(wordsCount: Int) {
+        size = wordsCount
     }
 }

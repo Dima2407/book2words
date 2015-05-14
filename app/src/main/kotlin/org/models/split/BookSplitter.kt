@@ -22,17 +22,22 @@ public class BookSplitter(private val libraryBook: LibraryBook, private val surf
 
     val title: String
 
+    val reader: WebViewBookReader
+
     init {
         val inputStream = FileInputStream(libraryBook.getPath())
 
         var book = EpubReader().readEpub(inputStream, ENCODING)
         title = book.getTitle()
         spine = book.getSpine()
+        reader = WebViewBookReader(surface, spine, {
+            BookSplitService.closeBook(surface.getContext(), libraryBook)
+        }, ENCODING)
+        BookSplitService.openBook(surface.getContext(), libraryBook)
     }
 
     public fun split(offset: Int = 0, length: Int = spine.size()) {
-        val reader = WebViewBookReader(surface, spine, offset, length, ENCODING)
-        reader.start(HtmlBodyTextFetcher({
+        reader.start(offset, length, HtmlBodyTextFetcher({
             val current = reader.getCurrent()
             Logger.debug("process() : ${current} - ${it}")
             BookSplitService.save(surface.getContext(), libraryBook.getId(), current, it)

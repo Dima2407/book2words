@@ -7,10 +7,12 @@ import java.io.IOException
 import java.io.InputStreamReader
 
 private abstract class BookReader(private val spine: Spine,
-                          private val offset: Int = 0,
-                          private val length: Int = spine.size(),
                           private val encoding: String) {
-    private var current = offset
+    private var current = 0
+
+    private var offset = 0
+
+    private var length = 0
 
     abstract fun onChapter(chapter: Int, text: String);
 
@@ -52,7 +54,10 @@ private abstract class BookReader(private val spine: Spine,
         }
     }
 
-    protected fun start() {
+    protected fun start(offset: Int = 0, length: Int = spine.size()) {
+        this.current = offset
+        this.offset = offset
+        this.length = length
         onChapter(current + 1, getText())
     }
 

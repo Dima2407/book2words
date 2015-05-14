@@ -4,7 +4,7 @@ import org.book2dictionary.core.Provider
 import org.book2dictionary.core.Dictionary
 
 public class UserDictionaryFactory {
-    class object {
+    companion  object {
 
         public fun create(provider: Provider, path: String): Dictionary {
             when (provider) {

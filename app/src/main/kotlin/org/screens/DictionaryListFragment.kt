@@ -11,6 +11,7 @@ import com.easydictionary.app.DictionaryActivity
 import com.easydictionary.app.R
 import org.book2words.B2WApplication
 import org.book2words.dao.LibraryDictionary
+import org.data.DataContext
 import java.util.ArrayList
 
 public class DictionaryListFragment : ListFragment() {
@@ -37,9 +38,8 @@ public class DictionaryListFragment : ListFragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val application = getActivity().getApplication() as B2WApplication
-        items = application.getDaoSession().getLibraryDictionaryDao().loadAll()
-        items.add(LibraryDictionary(0, "The Shinning", true, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
+        items = DataContext.getLibraryDictionaryDao(this).loadAll()
+        items = DataContext.getUserDictionaries()
         val adapter = LibraryDictionaryAdapter(getActivity(), items)
         setListAdapter(adapter)
     }

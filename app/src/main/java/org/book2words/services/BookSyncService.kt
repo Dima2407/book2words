@@ -13,6 +13,7 @@ import org.book2dictionary.Logger
 import org.book2words.B2WApplication
 import org.book2words.Storage
 import org.book2words.dao.LibraryBook
+import org.data.DataContext
 
 import java.io.*
 import java.util.zip.ZipFile
@@ -54,9 +55,7 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
             libraryBook.setAuthors(authorsString.toString())
             libraryBook.setPath(path)
 
-            val application = getApplication() as B2WApplication
-
-            val id = application.getDaoSession().getLibraryBookDao().insertOrReplace(libraryBook)
+            val id = DataContext.getLibraryBookDao(this).insertOrReplace(libraryBook)
 
             Logger.debug("prepareBook() ${id}")
             val coverImage = eBook.getCoverImage()
@@ -91,9 +90,7 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
     private fun clear() {
         Logger.debug("clear()")
         Storage.clearCovers()
-        val application = getApplication() as B2WApplication
-
-        application.getDaoSession().getLibraryBookDao().deleteAll()
+        DataContext.getLibraryBookDao(this).deleteAll()
     }
 
     companion object {

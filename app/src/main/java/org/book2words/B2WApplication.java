@@ -8,9 +8,12 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import org.book2words.dao.DaoMaster;
 import org.book2words.dao.DaoSession;
+import org.data.DaoHolder;
+import org.data.DataContext;
+import org.jetbrains.annotations.NotNull;
 
 
-public class B2WApplication extends Application {
+public class B2WApplication extends Application implements DaoHolder {
     private DaoSession daoSession;
 
     @Override
@@ -24,17 +27,18 @@ public class B2WApplication extends Application {
         config.tasksProcessingOrder(QueueProcessingType.LIFO);
         config.writeDebugLogs();
         ImageLoader.getInstance().init(config.build());
-        setupDatabase();
+
+        DataContext.Companion.setup(this);
     }
 
-    private void setupDatabase() {
-        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, "b2w", null);
-        SQLiteDatabase db = helper.getWritableDatabase();
-        DaoMaster daoMaster = new DaoMaster(db);
-        daoSession = daoMaster.newSession();
-    }
-
+    @Override
+    @NotNull
     public DaoSession getDaoSession() {
         return daoSession;
+    }
+
+    @Override
+    public void setDaoSession(@NotNull DaoSession newSession) {
+        daoSession = newSession;
     }
 }

@@ -20,6 +20,13 @@ public class Storage {
         return new File(root, index + ".chapter");
     }
 
+    public static File createWordsFile(long id) {
+        File root = new File(Environment.getExternalStorageDirectory(), ".b2w" + File.separator + "books" + File.separator + id);
+        root.mkdirs();
+
+        return new File(root, "book.words");
+    }
+
     public static void clearCovers() {
         File root = new File(Environment.getExternalStorageDirectory(), ".b2w" + File.separator + "covers");
         if (root.exists()) {

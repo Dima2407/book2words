@@ -10,7 +10,14 @@ public class Logger {
     public static final String TAG = "book2words";
 
     public static void debug(String message) {
+        debug(null, message);
+    }
+
+    public static void debug(String tag, String message) {
         if (debuggable) {
+            if (tag != null) {
+                message = String.format("%s - %s", tag, message);
+            }
             Log.d(TAG, message);
         }
     }
