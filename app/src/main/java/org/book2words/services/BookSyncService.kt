@@ -96,6 +96,7 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
     companion object {
 
         private val ACTION_PREPARE = "org.book2words.intent.action.PREPARE"
+
         private val ACTION_CLEAR = "org.book2words.intent.action.CLEAR"
 
         public val ACTION_PREPARED: String = "org.book2words.intent.action.PREPARED"

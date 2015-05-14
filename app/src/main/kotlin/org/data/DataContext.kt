@@ -36,7 +36,6 @@ public class DataContext {
             return getSession(context.getActivity())
         }
 
-
         public fun getLibraryBookDao<T : Activity>(context: T): LibraryBookDao {
             return getSession(context).getLibraryBookDao()
         }
@@ -65,6 +64,8 @@ public class DataContext {
         public fun getUserDictionaries(): MutableList<LibraryDictionary> {
             val items: MutableList<LibraryDictionary> = ArrayList();
             items.add(LibraryDictionary(0, "The Shinning", true, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
+            items.add(LibraryDictionary(0, "The Girl", false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
+            items.add(LibraryDictionary(0, "The Pet Samatary", false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
             return items
         }
     }

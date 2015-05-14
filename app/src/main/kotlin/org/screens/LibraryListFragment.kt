@@ -11,7 +11,6 @@ import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
 import com.easydictionary.app.Configs
-import com.easydictionary.app.ContentActivity
 import com.easydictionary.app.R
 import com.easydictionary.app.SplitActivity
 import com.nostra13.universalimageloader.core.ImageLoader
@@ -40,7 +39,13 @@ public class LibraryListFragment : ListFragment() {
     }
 
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
+        val book = l!!.getItemAtPosition(position) as LibraryBook
+        if (book.getAdapted()) {
 
+        } else {
+            val fragment = DictionaryDialogListFragment.create(book)
+            fragment.show(getActivity().getFragmentManager(), "dialog")
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
@@ -98,22 +103,6 @@ public class LibraryListFragment : ListFragment() {
             ImageLoader.getInstance().displayImage(coverUri, coverView);
             titleView.setText(item.getName())
             authorsView.setText(item.getAuthors())
-
-            view!!.findViewById(R.id.button_adapt).setOnClickListener({
-                val intent = Intent(getContext(), javaClass<SplitActivity>())
-                intent.putExtra(SplitActivity.EXTRA_BOOK, item)
-                getContext().startActivity(intent)
-            })
-
-            if(item.getAdapted()){
-                view!!.findViewById(R.id.button_adapt).setVisibility(View.GONE)
-                view!!.findViewById(R.id.button_read).setVisibility(View.VISIBLE)
-                view!!.findViewById(R.id.button_split).setVisibility(View.VISIBLE)
-            }else{
-                view!!.findViewById(R.id.button_adapt).setVisibility(View.VISIBLE)
-                view!!.findViewById(R.id.button_read).setVisibility(View.GONE)
-                view!!.findViewById(R.id.button_split).setVisibility(View.GONE)
-            }
             return view
         }
     }

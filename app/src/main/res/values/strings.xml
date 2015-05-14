@@ -10,7 +10,7 @@
     <string name="action_translate">Translate</string>
     <string name="action_split">prepare</string>
     <string name="action_read">read</string>
-    <string name="action_adapt">adapt</string>
+    <string name="dialog_dictionaries_message">Выберите словарь который можно использовать для распознавания слов в книге</string>
     <string name="prev"><![CDATA[<<<<]]></string>
     <string name="action_sync">SYNC</string>
 </resources>

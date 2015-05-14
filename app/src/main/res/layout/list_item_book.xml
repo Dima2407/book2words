@@ -22,27 +22,4 @@
             android:layout_below="@id/text_title"
             android:layout_alignLeft="@id/text_title"/>
 
-    <Button
-            android:id="@+id/button_split"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_author"
-            android:text="@string/action_split"/>
-
-    <Button
-            android:id="@+id/button_read"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_author"
-            android:layout_toRightOf="@id/button_split"
-            android:text="@string/action_read"/>
-
-    <Button
-            android:id="@+id/button_adapt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/text_author"
-            android:layout_toRightOf="@id/button_read"
-            android:text="@string/action_adapt"/>
-
 </RelativeLayout>

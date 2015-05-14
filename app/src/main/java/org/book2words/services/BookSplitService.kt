@@ -48,7 +48,14 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         textSplitter.clearWithApostrophe()
         textSplitter.clearWidelyUsed(getResources().getStringArray( R.array.widely_worlds))
         textSplitter.clearWithDuplicates()
-        textSplitter.clearFromDictionary(File("/storage/sdcard0/Books/user_dictionary.txt"))
+
+        val dictionaries = DataContext.getUserDictionaries()
+
+        dictionaries.forEach {
+            if(it.getUse()) {
+                textSplitter.clearFromDictionary(File(it.getPath()))
+            }
+        }
 
         textSplitter.release()
 
