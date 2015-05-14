@@ -1,10 +1,10 @@
-package org.models.split
+package org.book2words.models.split
 
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import com.easydictionary.app.SplitActivity
 import nl.siegmann.epublib.domain.Spine
-import org.book2dictionary.Logger
+import org.book2words.core.Logger
 import java.nio.charset.Charset
 
 

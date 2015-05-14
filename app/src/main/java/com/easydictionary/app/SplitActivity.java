@@ -4,21 +4,9 @@ package com.easydictionary.app;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
-import android.text.TextUtils;
-import android.util.Log;
-import android.webkit.JavascriptInterface;
-import android.webkit.WebView;
-import android.widget.TextView;
-import nl.siegmann.epublib.domain.Resource;
-import nl.siegmann.epublib.domain.Spine;
 import org.book2words.dao.LibraryBook;
-import org.screens.BookSplitFragment;
-
-import java.io.*;
-import java.nio.charset.Charset;
+import org.book2words.screens.BookSplitFragment;
 
 public class SplitActivity extends Activity {
 

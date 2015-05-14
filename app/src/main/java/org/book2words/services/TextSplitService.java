@@ -12,18 +12,14 @@ import com.easydictionary.app.Configs;
 import com.easydictionary.app.R;
 import org.book2dictionary.core.Dictionary;
 import org.book2dictionary.core.Provider;
-import org.book2dictionary.core.book.BookDictionary;
-import org.models.Chapter;
-import org.models.Paragraph;
-import org.models.Patterns;
-import org.models.TextSplitter;
+import org.book2words.models.Patterns;
+import org.book2words.models.TextSplitter;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 
 public class TextSplitService extends Service {

@@ -1,8 +1,8 @@
-package org.models.split
+package org.book2words.models.split
 
 import android.text.TextUtils
 import nl.siegmann.epublib.domain.Spine
-import org.book2dictionary.Logger
+import org.book2words.core.Logger
 import java.io.IOException
 import java.io.InputStreamReader
 

@@ -1,4 +1,4 @@
-package org.models.split
+package org.book2words.models.split
 
 import android.content.Context
 import android.text.TextUtils
@@ -8,7 +8,7 @@ import android.webkit.WebViewClient
 import org.book2words.services.TextSplitService
 import nl.siegmann.epublib.domain.Spine
 import nl.siegmann.epublib.epub.EpubReader
-import org.book2dictionary.Logger
+import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
 import org.book2words.services.BookSplitService
 import java.io.FileInputStream

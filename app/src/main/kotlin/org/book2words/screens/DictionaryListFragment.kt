@@ -1,4 +1,4 @@
-package org.screens
+package org.book2words.screens
 
 import android.app.ListFragment
 import android.content.Context
@@ -11,7 +11,7 @@ import com.easydictionary.app.DictionaryActivity
 import com.easydictionary.app.R
 import org.book2words.B2WApplication
 import org.book2words.dao.LibraryDictionary
-import org.data.DataContext
+import org.book2words.data.DataContext
 import java.util.ArrayList
 
 public class DictionaryListFragment : ListFragment() {

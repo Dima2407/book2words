@@ -1,4 +1,4 @@
-package org.screens
+package org.book2words.screens
 
 import android.app.AlertDialog
 import android.app.Dialog
@@ -9,7 +9,7 @@ import android.os.Bundle
 import com.easydictionary.app.R
 import com.easydictionary.app.SplitActivity
 import org.book2words.dao.LibraryBook
-import org.data.DataContext
+import org.book2words.data.DataContext
 
 public class DictionaryDialogListFragment : DialogFragment() {
 

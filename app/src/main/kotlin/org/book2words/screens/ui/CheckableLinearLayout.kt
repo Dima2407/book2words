@@ -1,4 +1,4 @@
-package org.screens.ui
+package org.book2words.screens.ui
 
 import android.content.Context
 import android.util.AttributeSet

@@ -5,7 +5,7 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import org.book2words.dao.LibraryDictionary;
-import org.screens.DictionaryFragment;
+import org.book2words.screens.DictionaryFragment;
 
 
 public class DictionaryActivity extends Activity {

@@ -1,4 +1,4 @@
-package org.screens
+package org.book2words.screens
 
 import android.app.Fragment
 import android.app.ListFragment
@@ -12,14 +12,15 @@ import android.widget.ListView
 import android.widget.TextView
 import com.easydictionary.app.Configs
 import com.easydictionary.app.R
+import com.easydictionary.app.ReaderActivity
 import com.easydictionary.app.SplitActivity
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.B2WApplication
-import org.book2words.Storage
+import org.book2words.core.Storage
 import org.book2words.dao.LibraryBook
 import org.book2words.services.LibraryService
-import org.data.DataContext
-import org.models.LibraryFile
+import org.book2words.data.DataContext
+import org.book2words.models.LibraryFile
 import java.io.File
 import java.util.ArrayList
 
@@ -41,7 +42,9 @@ public class LibraryListFragment : ListFragment() {
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
         val book = l!!.getItemAtPosition(position) as LibraryBook
         if (book.getAdapted()) {
-
+            val intent = Intent(getActivity(), javaClass<ReaderActivity>())
+            intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
+            startActivity(intent)
         } else {
             val fragment = DictionaryDialogListFragment.create(book)
             fragment.show(getActivity().getFragmentManager(), "dialog")

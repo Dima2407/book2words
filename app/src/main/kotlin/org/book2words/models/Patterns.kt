@@ -1,4 +1,4 @@
-package org.models
+package org.book2words.models
 
 import java.util.regex.Pattern
 

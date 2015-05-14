@@ -4,8 +4,8 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import org.screens.DictionaryListFragment;
-import org.screens.LibraryListFragment;
+import org.book2words.screens.DictionaryListFragment;
+import org.book2words.screens.LibraryListFragment;
 
 
 public class MainActivity extends Activity {

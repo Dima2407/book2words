@@ -1,7 +1,7 @@
-package org.models
+package org.book2words.models
 
 import org.book2dictionary
-import org.book2dictionary.Logger
+import org.book2words.core.Logger
 import java.io.File
 import java.io.FileInputStream
 import java.util.ArrayList
@@ -23,12 +23,12 @@ public class TextSplitter private () {
             offset = matcher.start(1);
             capitals.add(matcher.group(1).toLowerCase());
         }
-        Logger.debug("capitals " + capitals);
+        Logger.debug("capitals ${capitals}")
 
     }
 
     public fun split(key: String, text: String) {
-        Logger.debug("split chapter " + key);
+        Logger.debug("split chapter ${key}")
         val wordPattern = Patterns.WORD;
 
         val parts = text.split("\n+");
@@ -51,7 +51,7 @@ public class TextSplitter private () {
             }
             paragraph.setSize(wordsCount);
         }
-        Logger.debug("words " + words);
+        Logger.debug("words ${words}");
     }
 
     public fun clearCapital() {

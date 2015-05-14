@@ -1,4 +1,4 @@
-package org.screens
+package org.book2words.screens
 
 import android.app.Fragment
 import android.net.Uri
@@ -11,7 +11,7 @@ import android.widget.TextView
 import com.easydictionary.app.R
 import nl.siegmann.epublib.domain.Book
 import org.book2words.dao.LibraryBook
-import org.models.split.BookSplitter
+import org.book2words.models.split.BookSplitter
 import java.nio.charset.Charset
 
 

@@ -8,14 +8,10 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.IBinder
-import android.support.v4.app.NotificationCompat
 import android.support.v4.content.LocalBroadcastManager
 import com.easydictionary.app.R
-import org.book2dictionary.Logger
-import org.book2words.Storage
-
+import org.book2words.core.Logger
 import java.io.File
-import java.io.FileFilter
 import java.util.TreeSet
 
 public class LibraryService : Service() {

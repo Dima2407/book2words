@@ -4,20 +4,15 @@ import android.app.IntentService
 import android.content.Context
 import android.content.Intent
 import android.support.v4.content.LocalBroadcastManager
-import net.sf.jazzlib
-import nl.siegmann.epublib.domain.Author
-import nl.siegmann.epublib.domain.Book
+import net.sf.jazzlib.ZipFile
 import nl.siegmann.epublib.domain.Resource
 import nl.siegmann.epublib.epub.EpubReader
-import org.book2dictionary.Logger
-import org.book2words.B2WApplication
-import org.book2words.Storage
+import org.book2words.core.Logger
+import org.book2words.core.Storage
 import org.book2words.dao.LibraryBook
-import org.data.DataContext
-
-import java.io.*
-import java.util.zip.ZipFile
-
+import org.book2words.data.DataContext
+import java.io.FileOutputStream
+import java.io.IOException
 
 public class BookSyncService : IntentService(javaClass<BookSyncService>().getSimpleName()) {
 
@@ -37,7 +32,7 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
         Logger.debug("prepareBook() ${path}")
 
         try {
-            val eBook = EpubReader().readEpubLazy(jazzlib.ZipFile(path), "utf-8")
+            val eBook = EpubReader().readEpubLazy(ZipFile(path), "utf-8")
             val libraryBook = LibraryBook()
             libraryBook.setName(eBook.getTitle())
             val authorsString = StringBuilder()

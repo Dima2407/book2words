@@ -1,4 +1,4 @@
-package org.data
+package org.book2words.data
 
 import android.app.Application
 import org.book2words.dao.DaoSession

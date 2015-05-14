@@ -1,15 +1,13 @@
 package org.book2words;
 
 import android.app.Application;
-import android.database.sqlite.SQLiteDatabase;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
-import org.book2words.dao.DaoMaster;
 import org.book2words.dao.DaoSession;
-import org.data.DaoHolder;
-import org.data.DataContext;
+import org.book2words.data.DaoHolder;
+import org.book2words.data.DataContext;
 import org.jetbrains.annotations.NotNull;
 
 

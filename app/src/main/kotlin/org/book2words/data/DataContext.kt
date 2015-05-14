@@ -1,4 +1,4 @@
-package org.data
+package org.book2words.data
 
 import android.app.Activity
 import android.app.Application

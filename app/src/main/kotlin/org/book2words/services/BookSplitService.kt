@@ -4,12 +4,11 @@ import android.app.IntentService
 import android.content.Context
 import android.content.Intent
 import com.easydictionary.app.R
-import org.book2dictionary.Logger
-import org.book2words.B2WApplication
-import org.book2words.Storage
+import org.book2words.core.Logger
+import org.book2words.core.Storage
 import org.book2words.dao.LibraryBook
-import org.data.DataContext
-import org.models.TextSplitter
+import org.book2words.data.DataContext
+import org.book2words.models.TextSplitter
 import java.io.File
 import java.io.FileOutputStream
 import java.io.ObjectOutputStream
@@ -40,7 +39,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     }
 
     private fun stopBook(book : LibraryBook) {
-        Logger.debug(TAG, "stopBook(${book.getId()})")
+        Logger.debug("stopBook(${book.getId()})", TAG )
 
         val textSplitter = TextSplitter.getInstance()
 
@@ -65,7 +64,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         bos.flush()
         bos.close()
 
-        Logger.debug(TAG, "stopBook(${book.getId()})")
+        Logger.debug("stopBook(${book.getId()})", TAG)
 
         book.setAdapted(true)
 
@@ -73,12 +72,12 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     }
 
     private fun startBook(book : LibraryBook) {
-        Logger.debug(TAG, "startBook(${book.getId()})")
+        Logger.debug("startBook(${book.getId()})", TAG)
         TextSplitter.getInstance().release()
     }
 
     private fun saveText(id: Long, index: Int, text: String) {
-        Logger.debug(TAG, "saveText(${id}) - ${index}")
+        Logger.debug("saveText(${id}) - ${index}", TAG)
         val file = Storage.createChapterFile(id, index);
         val bos = FileOutputStream(file).writer(Charsets.UTF_8)
         bos.write(text)
