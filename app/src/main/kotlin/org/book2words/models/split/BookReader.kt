@@ -7,7 +7,7 @@ import java.io.IOException
 import java.io.InputStreamReader
 
 private abstract class BookReader(private val spine: Spine,
-                          private val encoding: String) {
+                                  private val encoding: String) {
     private var current = 0
 
     private var offset = 0
@@ -18,7 +18,7 @@ private abstract class BookReader(private val spine: Spine,
 
     abstract fun onFinished();
 
-    public fun getCurrent() : Int {
+    public fun getCurrent(): Int {
         return current + 1
     }
 
@@ -66,21 +66,22 @@ private abstract class BookReader(private val spine: Spine,
         val resource = spine.getResource(current)
         val string = StringBuilder()
         try {
-            val stream = resource.getInputStream().buffered()
+            val stream = resource.getInputStream()
             try {
-                val reader = InputStreamReader(stream, encoding);
+                val reader = stream.reader(encoding).buffered(4096);
                 reader.forEachLine {
                     string.append(it)
                 }
-
+            } catch (e: Exception) {
+                Logger.error(e)
             } finally {
                 stream.close()
             }
 
-        } catch (e: IOException) {
-            e.printStackTrace()
+        } catch (e: Exception) {
+            Logger.error(e)
+        }finally{
+            return string.toString()
         }
-
-        return string.toString()
     }
 }

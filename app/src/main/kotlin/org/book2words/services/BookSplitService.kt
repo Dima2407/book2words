@@ -4,13 +4,15 @@ import android.app.IntentService
 import android.content.Context
 import android.content.Intent
 import com.easydictionary.app.R
+import com.google.gson.Gson
 import org.book2words.core.Logger
-import org.book2words.core.Storage
+import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
 import java.io.File
 import java.io.FileOutputStream
+import java.io.FileWriter
 import java.io.ObjectOutputStream
 
 public class BookSplitService : IntentService(javaClass<BookSplitService>().getSimpleName()) {
@@ -56,17 +58,23 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
             }
         }
 
-        textSplitter.release()
 
-        val file = Storage.createWordsFile(book.getId());
-        val bos = ObjectOutputStream(FileOutputStream(file))
-        bos.writeObject(textSplitter.words)
+
+        val file = FileStorage.createWordsFile(book.getId());
+        val bos = FileOutputStream(file).buffered().writer("UTF-8")
+        val serializer = Gson()
+        serializer.toJson(textSplitter.words, bos)
+
         bos.flush()
         bos.close()
 
         Logger.debug("stopBook(${book.getId()})", TAG)
 
         book.setAdapted(true)
+        book.setCurrentChapter(1)
+        book.setCountChapter(textSplitter.size())
+
+        textSplitter.release()
 
         DataContext.getLibraryBookDao(this).update(book)
     }
@@ -77,8 +85,8 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     }
 
     private fun saveText(id: Long, index: Int, text: String) {
-        Logger.debug("saveText(${id}) - ${index}", TAG)
-        val file = Storage.createChapterFile(id, index);
+        Logger.debug("saveText(${index}) - ${id}", TAG)
+        val file = FileStorage.createChapterFile(id, index);
         val bos = FileOutputStream(file).writer(Charsets.UTF_8)
         bos.write(text)
         bos.flush()
@@ -86,9 +94,10 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     }
 
     private fun splitText(index: Int, text: String){
+        Logger.debug("saveText(${index}) - ${text}", TAG)
         val textSplitter = TextSplitter.getInstance()
         textSplitter.findCapital(text)
-        textSplitter.split("${index}", text);
+        textSplitter.split(index, text);
     }
 
     companion object {

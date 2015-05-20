@@ -1,55 +1,51 @@
 package org.book2words.core
 
-import android.os.Environment
-
-import java.io.File
+import android.content.Context
+import com.easydictionary.app.R
+import org.book2words.models.LibraryLevel
+import org.book2words.models.LibraryUser
 
 public class Storage {
+
     companion object {
+        private val NAME = "user_storage"
 
-        public fun createCoverFile(id: Long, extension: String): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}covers")
-            root.mkdirs()
+        private val FIRST_NAME = "_first_name"
 
-            return File(root, "${id}${extension}")
-        }
+        private val LAST_NAME = "_last_name"
 
-        public fun createChapterFile(id: Long, index: Int): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${id}")
-            root.mkdirs()
+        private val LEVEL = "_level"
 
-            return File(root, "${index}.chapter")
-        }
+        private var current : LibraryUser? = null
 
-        public fun createWordsFile(id: Long): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${id}")
-            root.mkdirs()
-
-            return File(root, "book.words")
-        }
-
-        public fun clearCovers() {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}covers")
-            if (root.exists()) {
-                val files = root.listFiles()
-                for (f in files) {
-                    f.delete()
-                }
+        public fun saveUser(context : Context, user : LibraryUser): LibraryUser {
+            current = LibraryUser(user)
+            if(current != null){
+                val preferences = context.getSharedPreferences(NAME, Context.MODE_PRIVATE)
+                val editor = preferences.edit()
+                editor.putString(FIRST_NAME, current!!.firstName)
+                editor.putString(LAST_NAME, current!!.lastName)
+                editor.putInt(LEVEL, current!!.level.level)
+                editor.commit()
             }
+            return current as LibraryUser
         }
 
-        public fun imageCoverUri(id: Long): String {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}covers")
-            var file = File(root, "${id}.jpg")
-            if (file.exists()) {
-                return "file://${file.getAbsolutePath()}"
-            } else {
-                file = File(root, "${id}.png")
-                if (file.exists()) {
-                    return "file://${file.getAbsolutePath()}"
-                }
+        public fun getUser(context : Context): LibraryUser {
+            if(current == null){
+                val preferences = context.getSharedPreferences(NAME, Context.MODE_PRIVATE)
+                val firstName = preferences.getString(FIRST_NAME, context.getString(R.string.unknown))
+                val lastName = preferences.getString(FIRST_NAME, context.getString(R.string.unknown))
+                val level = preferences.getInt(LEVEL, 0)
+                current = LibraryUser(firstName, lastName, from(level))
             }
-            return ""
+            return current as LibraryUser
+        }
+
+        private fun from(level: Int): LibraryLevel {
+            return LibraryLevel.values().first() {
+                it.level == level
+            }
         }
     }
 }

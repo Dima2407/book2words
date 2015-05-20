@@ -39,6 +39,11 @@ public class DictionaryDialogListFragment : DialogFragment() {
         return builder.create();
     }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        book = getArguments().getParcelable(EXTRA_BOOK)
+    }
+
     private fun openSplitActivity() {
         val intent = Intent(getActivity(), javaClass<SplitActivity>())
         intent.putExtra(SplitActivity.EXTRA_BOOK, book)

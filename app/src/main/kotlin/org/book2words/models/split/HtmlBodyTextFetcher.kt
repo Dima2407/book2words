@@ -7,6 +7,7 @@ public class HtmlBodyTextFetcher(private val onProcess: (text : String)-> Unit) 
 
     JavascriptInterface
     public fun processContent(text: String){
+        Logger.debug("processContent() - ${text}")
         onProcess(text)
     }
 }

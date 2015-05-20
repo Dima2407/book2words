@@ -37,7 +37,7 @@ public class BookSplitFragment : Fragment() {
         val splitter = BookSplitter(book, surface as WebView);
 
         titleView!!.setText(splitter.title)
-        splitter.split()
+        splitter.split(0, 10)
     }
 
     companion object {

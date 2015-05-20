@@ -2,6 +2,9 @@ package org.book2words.models
 
 import org.book2dictionary
 import org.book2words.core.Logger
+import org.book2words.models.book.Chapter
+import org.book2words.models.book.Paragraph
+import org.book2words.models.book.Word
 import java.io.File
 import java.io.FileInputStream
 import java.util.ArrayList
@@ -14,6 +17,7 @@ public class TextSplitter private () {
     private val capitals = LinkedHashSet<String>();
 
     public  val words : MutableSet<Word> = LinkedHashSet();
+    private var size = 0;
 
     public fun findCapital(text: String) {
         val wordPattern = Patterns.CAPITAL_WORD;
@@ -27,31 +31,27 @@ public class TextSplitter private () {
 
     }
 
-    public fun split(key: String, text: String) {
+    public fun split(key: Int, text: String) {
         Logger.debug("split chapter ${key}")
         val wordPattern = Patterns.WORD;
 
         val parts = text.split("\n+");
-        var chapter = Chapter(key, parts.size());
-        for (paragraphText in parts) {
-            val paragraph = Paragraph(chapter)
-
-            val matcher = wordPattern.matcher(paragraphText);
-            var wordsCount = 0;
+        parts.forEach {
+            val matcher = wordPattern.matcher(it);
             while (matcher.find()) {
                 val w = matcher.group(1)
                 var word = words.firstOrNull {
                     it.value.equalsIgnoreCase(w)
                 }
                 if(word == null){
-                    words.add(Word(w, paragraph))
-                }else {
-                    word!!.bindParagraph(paragraph)
+                    word = Word(w)
+                    words.add(word as Word)
                 }
+                word!!.addKey(key)
             }
-            paragraph.setSize(wordsCount);
         }
         Logger.debug("words ${words}");
+        size++
     }
 
     public fun clearCapital() {
@@ -89,21 +89,22 @@ public class TextSplitter private () {
     }
 
     private fun clear(condition: (input: String) -> Boolean) {
-        Logger.debug("clear ${words.size()}");
+        Logger.debug("clear ${words.size()}")
         val iterator = words.iterator()
         while(iterator.hasNext()){
             val word = iterator.next();
             if (condition(word.value)) {
-                Logger.debug("remove ${word}");
+                Logger.debug("remove ${word}")
                 iterator.remove();
             }
         }
-        Logger.debug("clear ${words.size()}");
+        Logger.debug("clear ${words.size()}")
     }
 
     public fun release() {
         words.clear()
-        capitals.clear();
+        capitals.clear()
+        size = 0
     }
 
     companion object {
@@ -122,5 +123,9 @@ public class TextSplitter private () {
         clear {
             words.contains(it.toLowerCase())
         }
+    }
+
+    public fun size(): Int {
+        return size
     }
 }

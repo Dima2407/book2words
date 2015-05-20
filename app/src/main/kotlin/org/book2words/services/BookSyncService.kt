@@ -8,7 +8,7 @@ import net.sf.jazzlib.ZipFile
 import nl.siegmann.epublib.domain.Resource
 import nl.siegmann.epublib.epub.EpubReader
 import org.book2words.core.Logger
-import org.book2words.core.Storage
+import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
 import java.io.FileOutputStream
@@ -37,11 +37,10 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
             libraryBook.setName(eBook.getTitle())
             val authorsString = StringBuilder()
             val authors = eBook.getMetadata().getAuthors()
-            for (i in authors.indices) {
-                val a = authors.get(i)
-                authorsString.append(a.getFirstname())
+            authors.forEachIndexed { (i, author) ->
+                authorsString.append(author.getFirstname())
                 authorsString.append(" ")
-                authorsString.append(a.getLastname())
+                authorsString.append(author.getLastname())
                 if (i != authors.size() - 1) {
                     authorsString.append(", ")
                 }
@@ -68,7 +67,7 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
     }
 
     private fun saveCover(id: Long, coverImage: Resource) {
-        val coverFile = Storage.createCoverFile(id, coverImage.getMediaType().getDefaultExtension())
+        val coverFile = FileStorage.createCoverFile(id, coverImage.getMediaType().getDefaultExtension())
         Logger.debug("saveCover() ${coverFile.getAbsolutePath()}")
         val bis = coverImage.getInputStream().buffered()
         val bos = FileOutputStream(coverFile).buffered()
@@ -84,7 +83,7 @@ public class BookSyncService : IntentService(javaClass<BookSyncService>().getSim
 
     private fun clear() {
         Logger.debug("clear()")
-        Storage.clearCovers()
+        FileStorage.clearCovers()
         DataContext.getLibraryBookDao(this).deleteAll()
     }
 

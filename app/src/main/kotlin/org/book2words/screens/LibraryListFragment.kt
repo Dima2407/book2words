@@ -16,11 +16,10 @@ import com.easydictionary.app.ReaderActivity
 import com.easydictionary.app.SplitActivity
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.B2WApplication
-import org.book2words.core.Storage
+import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.services.LibraryService
 import org.book2words.data.DataContext
-import org.book2words.models.LibraryFile
 import java.io.File
 import java.util.ArrayList
 
@@ -101,7 +100,7 @@ public class LibraryListFragment : ListFragment() {
             val coverView = view!!.findViewById(R.id.image_cover) as ImageView
 
             val item = getItem(position);
-            val coverUri = Storage.imageCoverUri(item.getId())
+            val coverUri = FileStorage.imageCoverUri(item.getId())
 
             ImageLoader.getInstance().displayImage(coverUri, coverView);
             titleView.setText(item.getName())

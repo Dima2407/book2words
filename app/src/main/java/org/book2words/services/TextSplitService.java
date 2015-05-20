@@ -130,7 +130,7 @@ public class TextSplitService extends Service {
 
     private void splitText(String key, String input_text) {
         textSplitter.findCapital(input_text);
-        textSplitter.split(key, input_text);
+       // textSplitter.split(key, input_text);
 
         /*String[] text = input_text.split(RegexDictionary.words("[^\\w+'`’]"));
         Map<String, Integer> words = new LinkedHashMap<String, Integer>();
