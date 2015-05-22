@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.easydictionary.app">
+        package="org.book2words">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
-            android:name="org.book2words.B2WApplication"
+            android:name=".B2WApplication"
             android:allowBackup="true"
             android:icon="@drawable/ic_launcher"
             android:label="@string/app_name"
@@ -33,18 +33,18 @@
         </activity>
 
         <service
-                android:name="org.book2words.services.BookReadService"
+                android:name=".services.BookReadService"
                 android:exported="false"/>
         <service
-                android:name="org.book2words.services.TranslateService"
-                android:exported="false"/>
-
-        <service
-                android:name="org.book2words.services.LibraryService"
+                android:name=".services.TranslateService"
                 android:exported="false"/>
 
         <service
-                android:name="org.book2words.services.BookSplitService"
+                android:name=".services.LibraryService"
+                android:exported="false"/>
+
+        <service
+                android:name=".services.BookSplitService"
                 android:exported="false"/>
     </application>
 

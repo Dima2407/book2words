@@ -13,7 +13,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.easydictionary.app.R
+import org.book2words.R
 import org.book2words.dao.LibraryBook
 import org.book2words.models.book.ParagraphAdapted
 import org.book2words.services.BookReadService

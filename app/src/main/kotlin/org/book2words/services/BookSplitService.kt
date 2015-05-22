@@ -5,8 +5,8 @@ import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import com.easydictionary.app.MainActivity
-import com.easydictionary.app.R
+import org.book2words.MainActivity
+import org.book2words.R
 import com.google.gson.Gson
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger

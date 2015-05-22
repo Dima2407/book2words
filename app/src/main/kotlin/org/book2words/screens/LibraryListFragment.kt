@@ -12,9 +12,9 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
-import com.easydictionary.app.Configs
-import com.easydictionary.app.R
-import com.easydictionary.app.ReaderActivity
+import org.book2words.Configs
+import org.book2words.R
+import org.book2words.ReaderActivity
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook

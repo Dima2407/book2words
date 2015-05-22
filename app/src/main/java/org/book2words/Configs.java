@@ -1,4 +1,4 @@
-package com.easydictionary.app;
+package org.book2words;
 
 import org.book2dictionary.core.Provider;
 

@@ -13,7 +13,7 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.widget.ProgressBar
 import android.widget.TextView
-import com.easydictionary.app.R
+import org.book2words.R
 import org.book2words.dao.LibraryBook
 import org.book2words.services.BookReadService
 

@@ -1,9 +1,10 @@
-package com.easydictionary.app;
+package org.book2words;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import org.book2words.R;
 import org.book2words.screens.DictionaryListFragment;
 import org.book2words.screens.LibraryListFragment;
 

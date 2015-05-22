@@ -1,4 +1,4 @@
-package com.easydictionary.app;
+package org.book2words;
 
 import android.app.Activity;
 import android.app.Fragment;

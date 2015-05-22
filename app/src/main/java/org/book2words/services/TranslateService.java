@@ -6,18 +6,13 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
-import android.text.TextUtils;
 import android.util.Log;
-import com.easydictionary.app.Configs;
+import org.book2words.Configs;
 import org.book2dictionary.core.*;
 import org.book2dictionary.core.book.BookDictionary;
-import org.book2words.translate.TranslateProvider;
-import org.book2words.translate.TranslateProviderFactory;
-import org.book2words.translate.core.DictionaryResult;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 
 public class TranslateService extends Service {

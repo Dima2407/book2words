@@ -6,8 +6,8 @@ import android.app.DialogFragment
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
-import com.easydictionary.app.R
-import com.easydictionary.app.SplitActivity
+import org.book2words.R
+import org.book2words.SplitActivity
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
 

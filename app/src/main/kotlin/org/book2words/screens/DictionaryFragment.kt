@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.AbsListView
 import android.widget.ArrayAdapter
 import android.widget.SimpleAdapter
-import com.easydictionary.app.R
+import org.book2words.R
 import org.book2words.dao.LibraryDictionary
 import java.io.FileInputStream
 import java.util.ArrayList

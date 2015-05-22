@@ -20,7 +20,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.easydictionary.app"
+        applicationId "org.book2words"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1

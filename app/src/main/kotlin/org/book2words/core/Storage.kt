@@ -1,7 +1,7 @@
 package org.book2words.core
 
 import android.content.Context
-import com.easydictionary.app.R
+import org.book2words.R
 import org.book2words.models.LibraryLevel
 import org.book2words.models.LibraryUser
 

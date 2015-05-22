@@ -7,8 +7,8 @@ import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import com.easydictionary.app.DictionaryActivity
-import com.easydictionary.app.R
+import org.book2words.DictionaryActivity
+import org.book2words.R
 import org.book2words.B2WApplication
 import org.book2words.dao.LibraryDictionary
 import org.book2words.data.DataContext

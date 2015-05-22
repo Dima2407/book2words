@@ -6,8 +6,8 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
-import com.easydictionary.app.MainActivity
-import com.easydictionary.app.R
+import org.book2words.MainActivity
+import org.book2words.R
 import net.sf.jazzlib.ZipFile
 import nl.siegmann.epublib.domain.Resource
 import nl.siegmann.epublib.epub.EpubReader
