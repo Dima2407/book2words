@@ -63,7 +63,6 @@ public class LibraryListFragment : ListFragment() {
         return super.onOptionsItemSelected(item)
     }
 
-
     private fun getDirectoryRoot(): String {
         val arguments = getArguments()
         if (arguments != null) {

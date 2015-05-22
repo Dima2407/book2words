@@ -14,11 +14,11 @@ public class FileStorage {
             return File(root, "${id}${extension}")
         }
 
-        public fun createChapterFile(id: Long, index: Int): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${id}")
+        public fun createChapterFile(bookId: Long, chapter: Int, index : Int): File {
+            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${bookId}")
             root.mkdirs()
 
-            return File(root, "${index}.chapter")
+            return File(root, "${chapter}-${index}.chapter")
         }
 
         public fun createWordsFile(id: Long): File {

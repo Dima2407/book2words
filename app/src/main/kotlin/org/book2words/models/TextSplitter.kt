@@ -1,22 +1,17 @@
 package org.book2words.models
 
-import org.book2dictionary
 import org.book2words.core.Logger
-import org.book2words.models.book.Chapter
-import org.book2words.models.book.Paragraph
 import org.book2words.models.book.Word
 import java.io.File
 import java.io.FileInputStream
-import java.util.ArrayList
 import java.util.LinkedHashSet
 import java.util.TreeSet
-import java.util.regex.Pattern
 
 public class TextSplitter private () {
 
     private val capitals = LinkedHashSet<String>();
 
-    public  val words : MutableSet<Word> = LinkedHashSet();
+    public val words: MutableSet<Word> = LinkedHashSet();
     private var size = 0;
 
     public fun findCapital(text: String) {
@@ -27,7 +22,7 @@ public class TextSplitter private () {
             offset = matcher.start(1);
             capitals.add(matcher.group(1).toLowerCase());
         }
-        Logger.debug("capitals ${capitals}")
+        Logger.debug("capitals = ${capitals.size()}")
 
     }
 
@@ -36,21 +31,23 @@ public class TextSplitter private () {
         val wordPattern = Patterns.WORD;
 
         val parts = text.split("\n+");
-        parts.forEach {
-            val matcher = wordPattern.matcher(it);
+        parts.forEachIndexed { i, item ->
+            val matcher = wordPattern.matcher(item);
             while (matcher.find()) {
                 val w = matcher.group(1)
+                val start = matcher.start(1)
+                val end = matcher.end(1)
                 var word = words.firstOrNull {
                     it.value.equalsIgnoreCase(w)
                 }
-                if(word == null){
+                if (word == null) {
                     word = Word(w)
                     words.add(word as Word)
                 }
-                word!!.addKey(key)
+                word!!.addParagraph(key, i / 20, start, end)
             }
         }
-        Logger.debug("words ${words}");
+        Logger.debug("words = ${words.size()}");
         size++
     }
 
@@ -91,7 +88,7 @@ public class TextSplitter private () {
     private fun clear(condition: (input: String) -> Boolean) {
         Logger.debug("clear ${words.size()}")
         val iterator = words.iterator()
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             val word = iterator.next();
             if (condition(word.value)) {
                 Logger.debug("remove ${word}")

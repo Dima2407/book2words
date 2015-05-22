@@ -6,8 +6,8 @@ import java.util.ArrayList
 import java.util.TreeSet
 
 public class Word(value: String) : Comparable<Word>, Serializable {
-    SerializedName("i")
-    public val keys: MutableSet<Int> = TreeSet()
+    SerializedName("p")
+    public val paragraphs: MutableList<Paragraph> = ArrayList()
     SerializedName("v")
     public val value: String;
 
@@ -19,8 +19,8 @@ public class Word(value: String) : Comparable<Word>, Serializable {
         return value.compareTo(other.value.toLowerCase())
     }
 
-    public fun addKey(key: Int) {
-        keys.add(key)
+    public fun addParagraph(chapter: Int, section: Int, start: Int, end : Int) {
+        paragraphs.add(Paragraph("${chapter}-${section}", start, end ))
     }
 
     override fun toString(): String {

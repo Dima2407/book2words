@@ -5,15 +5,14 @@ import android.content.Context
 import android.content.Intent
 import com.easydictionary.app.R
 import com.google.gson.Gson
-import org.book2words.core.Logger
 import org.book2words.core.FileStorage
+import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
+import java.io.BufferedWriter
 import java.io.File
 import java.io.FileOutputStream
-import java.io.FileWriter
-import java.io.ObjectOutputStream
 
 public class BookSplitService : IntentService(javaClass<BookSplitService>().getSimpleName()) {
     override fun onHandleIntent(intent: Intent?) {
@@ -22,11 +21,11 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
             when (action) {
                 OPEN_ACTION -> {
-                    val book : LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
+                    val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
                     startBook(book)
                 }
                 CLOSE_ACTION -> {
-                    val book : LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
+                    val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
                     stopBook(book)
                 }
                 SPLIT_ACTION -> {
@@ -40,25 +39,23 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         }
     }
 
-    private fun stopBook(book : LibraryBook) {
-        Logger.debug("stopBook(${book.getId()})", TAG )
+    private fun stopBook(book: LibraryBook) {
+        Logger.debug("stopBook(${book.getId()})", TAG)
 
         val textSplitter = TextSplitter.getInstance()
 
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
-        textSplitter.clearWidelyUsed(getResources().getStringArray( R.array.widely_worlds))
+        textSplitter.clearWidelyUsed(getResources().getStringArray(R.array.widely_worlds))
         textSplitter.clearWithDuplicates()
 
         val dictionaries = DataContext.getUserDictionaries()
 
         dictionaries.forEach {
-            if(it.getUse()) {
+            if (it.getUse()) {
                 textSplitter.clearFromDictionary(File(it.getPath()))
             }
         }
-
-
 
         val file = FileStorage.createWordsFile(book.getId());
         val bos = FileOutputStream(file).buffered().writer("UTF-8")
@@ -79,21 +76,34 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         DataContext.getLibraryBookDao(this).update(book)
     }
 
-    private fun startBook(book : LibraryBook) {
+    private fun startBook(book: LibraryBook) {
         Logger.debug("startBook(${book.getId()})", TAG)
         TextSplitter.getInstance().release()
     }
 
     private fun saveText(id: Long, index: Int, text: String) {
         Logger.debug("saveText(${index}) - ${id}", TAG)
-        val file = FileStorage.createChapterFile(id, index);
-        val bos = FileOutputStream(file).writer(Charsets.UTF_8)
-        bos.write(text)
-        bos.flush()
-        bos.close()
+        val parts = text.split("\n+");
+        var file: File?;
+        var bos: BufferedWriter? = null;
+        parts.forEachIndexed { i, paragraph ->
+            if (i % 20 == 0) {
+                if (bos != null) {
+                    bos!!.close()
+                }
+                file = FileStorage.createChapterFile(id, index, i / 20);
+                bos = FileOutputStream(file).writer(Charsets.UTF_8).buffered()
+            }
+            bos!!.write(paragraph)
+            bos!!.newLine()
+            bos!!.flush()
+        }
+        if (bos != null) {
+            bos!!.close()
+        }
     }
 
-    private fun splitText(index: Int, text: String){
+    private fun splitText(index: Int, text: String) {
         Logger.debug("saveText(${index}) - ${text}", TAG)
         val textSplitter = TextSplitter.getInstance()
         textSplitter.findCapital(text)
@@ -117,7 +127,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         public fun save(context: Context, id: Long, index: Int, text: String) {
             val intent = Intent(context, javaClass<BookSplitService>());
             intent.setAction(SPLIT_ACTION)
-            intent.putExtra(EXTRA_ID, id);
+            intent.putExtra(EXTRA_ID, id)
             intent.putExtra(EXTRA_INDEX, index)
             intent.putExtra(EXTRA_TEXT, text)
             context.startService(intent)
@@ -126,14 +136,14 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         public fun openBook(context: Context, book: LibraryBook) {
             val intent = Intent(context, javaClass<BookSplitService>());
             intent.setAction(OPEN_ACTION)
-            intent.putExtra(EXTRA_BOOK, book);
+            intent.putExtra(EXTRA_BOOK, book)
             context.startService(intent)
         }
 
         public fun closeBook(context: Context, book: LibraryBook) {
             val intent = Intent(context, javaClass<BookSplitService>());
             intent.setAction(CLOSE_ACTION)
-            intent.putExtra(EXTRA_BOOK, book);
+            intent.putExtra(EXTRA_BOOK, book)
             context.startService(intent)
         }
     }

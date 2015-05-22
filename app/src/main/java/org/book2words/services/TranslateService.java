@@ -10,11 +10,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import com.easydictionary.app.Configs;
 import org.book2dictionary.core.*;
-import com.easydictionary.app.core.translate.DictionaryResult;
-import com.easydictionary.app.core.translate.TranslateHandler;
-import com.easydictionary.app.core.translate.TranslateProvider;
-import com.easydictionary.app.core.translate.TranslateProviderFactory;
 import org.book2dictionary.core.book.BookDictionary;
+import org.book2words.translate.TranslateProvider;
+import org.book2words.translate.TranslateProviderFactory;
+import org.book2words.translate.core.DictionaryResult;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -112,7 +111,7 @@ public class TranslateService extends Service {
     }
 
     private void translateText(String key) {
-        final BookDictionary provider = Dictionary.OBJECT$.<BookDictionary>openBookDictionary(Provider.ExelFile, Configs.getBooksDirectory(), key);
+        /*final BookDictionary provider = Dictionary.OBJECT$.<BookDictionary>openBookDictionary(Provider.ExelFile, Configs.getBooksDirectory(), key);
         try {
 
             provider.prepare(true);
@@ -161,7 +160,7 @@ public class TranslateService extends Service {
         } finally {
             Log.d(TAG, "release");
             provider.release();
-        }
+        }*/
 
     }
 

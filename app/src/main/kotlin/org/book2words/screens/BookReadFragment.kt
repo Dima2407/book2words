@@ -8,13 +8,14 @@ import android.content.Intent
 import android.content.ServiceConnection
 import android.os.Bundle
 import android.os.IBinder
-import android.text.Html
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.easydictionary.app.R
 import org.book2words.dao.LibraryBook
+import org.book2words.models.book.ParagraphAdapted
 import org.book2words.services.BookReadService
 
 public class BookReadFragment : ListFragment() {
@@ -75,7 +76,7 @@ public class BookReadFragment : ListFragment() {
         }
     }
 
-    private class ParagraphAdapter(context: Context, items: List<String>) : ArrayAdapter<String>(context, -1, items) {
+    private class ParagraphAdapter(context: Context, items: List<ParagraphAdapted>) : ArrayAdapter<ParagraphAdapted>(context, -1, items) {
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup): View? {
             var view = convertView;
@@ -83,9 +84,18 @@ public class BookReadFragment : ListFragment() {
                 view = View.inflate(getContext(), R.layout.list_item_paragraph, null);
             }
             val titleView = view!!.findViewById(R.id.text_text) as TextView
+            val wordsView = view!!.findViewById(R.id.text_words) as LinearLayout
             val item = getItem(position)
 
-            titleView.setText(Html.fromHtml(item))
+            titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
+            wordsView.removeAllViews()
+            item.getWords().forEach {
+                val textView = TextView(getContext())
+                textView.setPadding(6, 6, 6, 6)
+                textView.setText(it.word)
+                textView.setBackgroundColor(it.color)
+                wordsView.addView(textView)
+            }
             return view
         }
     }
