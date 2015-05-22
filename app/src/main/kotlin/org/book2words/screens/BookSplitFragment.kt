@@ -1,25 +1,50 @@
 package org.book2words.screens
 
 import android.app.Fragment
-import android.net.Uri
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import android.content.ServiceConnection
 import android.os.Bundle
+import android.os.IBinder
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebView
+import android.widget.ProgressBar
 import android.widget.TextView
 import com.easydictionary.app.R
-import nl.siegmann.epublib.domain.Book
 import org.book2words.dao.LibraryBook
-import org.book2words.models.split.BookSplitter
-import java.nio.charset.Charset
+import org.book2words.services.BookReadService
 
 
 public class BookSplitFragment : Fragment() {
 
     private var surface: WebView? = null
 
-    private var titleView :TextView? = null
+    private var titleView: TextView? = null
+
+    private var progressView: ProgressBar? = null
+
+    private var reader: BookReadService.BookReaderBinder ? = null
+
+    private var book: LibraryBook? = null;
+
+    private var bound = false
+
+    private val connection = object : ServiceConnection {
+
+        override public fun onServiceConnected(className: ComponentName, service: IBinder) {
+            reader = service as BookReadService.BookReaderBinder
+            bound = true;
+            split()
+        }
+
+        override public fun onServiceDisconnected(arg0: ComponentName) {
+            bound = false;
+        }
+    }
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_split, null);
@@ -27,17 +52,44 @@ public class BookSplitFragment : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        titleView = view!!.findViewById(android.R.id.text2) as TextView
+        titleView = view!!.findViewById(R.id.text_title) as TextView
+        progressView = view!!.findViewById(R.id.progress_split) as ProgressBar
         surface = view!!.findViewById(android.R.id.text1) as WebView
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY);
-        val splitter = BookSplitter(book, surface as WebView);
+        book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY);
+    }
 
-        titleView!!.setText(splitter.title)
-        splitter.split(0, 10)
+    override fun onStart() {
+        super.onStart()
+        val intent = Intent(getActivity(), javaClass<BookReadService>())
+        getActivity().bindService(intent, connection, Context.BIND_AUTO_CREATE);
+    }
+
+    override fun onStop() {
+        super.onStop()
+        if (bound) {
+            getActivity().unbindService(connection);
+            bound = false;
+        }
+    }
+
+    private fun split() {
+        reader!!.split(book as LibraryBook, surface as WebView,
+                onPrepared = {
+                    title, size ->
+                    titleView!!.setText(title)
+                    progressView!!.setIndeterminate(false)
+                    progressView!!.setMax(size)
+                    progressView!!.setProgress(0)
+                }, onProgress = {
+            i, max ->
+            progressView!!.setProgress(i)
+        }, onReleased = {
+            getActivity().finish()
+        })
     }
 
     companion object {

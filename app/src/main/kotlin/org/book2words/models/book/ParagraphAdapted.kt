@@ -7,7 +7,6 @@ import android.text.Spanned
 import android.text.style.BackgroundColorSpan
 import java.io.Serializable
 import java.util.TreeSet
-import java.util.regex.Pattern
 
 public class ParagraphAdapted(val original: String) : Serializable {
 
@@ -31,15 +30,16 @@ public class ParagraphAdapted(val original: String) : Serializable {
         return adapted
     }
 
-    public fun modify(word: String) {
-        val pattern = Pattern.compile("(${word})", Pattern.CASE_INSENSITIVE)
-        val matcher = pattern.matcher(adapted)
+    public fun modify(pIndex: Int, chapterId: String, word: Word) {
         val color = colors[words.size()]
-        while (matcher.find()) {
-            val start = matcher.start(1)
-            val end = matcher.end(1)
+        val words = word.paragraphs.filter {
+            pIndex == it.index && chapterId == it.key
+        }
+        words.forEach {
+            val start = it.start
+            val end = it.end
             adapted.setSpan(BackgroundColorSpan(color), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            words.add(WordAdapted(start, word, color))
+            this.words.add(WordAdapted(start, word.value, color))
         }
     }
 

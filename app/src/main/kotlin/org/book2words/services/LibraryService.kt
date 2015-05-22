@@ -1,86 +1,88 @@
 package org.book2words.services
 
+import android.app.IntentService
 import android.app.Notification
-import android.app.NotificationManager
-import android.app.Service
-import android.content.BroadcastReceiver
+import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
 import android.os.IBinder
-import android.support.v4.content.LocalBroadcastManager
+import com.easydictionary.app.MainActivity
 import com.easydictionary.app.R
+import net.sf.jazzlib.ZipFile
+import nl.siegmann.epublib.domain.Resource
+import nl.siegmann.epublib.epub.EpubReader
+import org.book2words.core.FileStorage
 import org.book2words.core.Logger
+import org.book2words.dao.LibraryBook
+import org.book2words.data.DataContext
 import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
 import java.util.TreeSet
+import java.util.concurrent.CountDownLatch
+import java.util.concurrent.Executors
 
-public class LibraryService : Service() {
+public class LibraryService : IntentService(javaClass<LibraryService>().getSimpleName()) {
 
-    private val books = TreeSet<String>();
+    private val bookSyncExecutor = Executors.newFixedThreadPool(4)
+
+    private val NOTIFICATION_ID = 100
 
     override fun onBind(intent: Intent): IBinder? {
         return null
     }
 
-    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+    override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
-            val action = intent.getAction();
+            val action = intent.getAction()
             if (ACTION_SYNC == action) {
+
+                val notificationIntent = Intent(this, javaClass<MainActivity>())
+                val pendingIntent = PendingIntent.getActivity(this, 0,
+                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                val builder = Notification.Builder(this)
+                builder.setSmallIcon(R.drawable.ic_launcher)
+                builder.setContentTitle("Library processing")
+                builder.setProgress(100, 0, true);
+                builder.setContentIntent(pendingIntent)
+
+                startForeground(NOTIFICATION_ID, builder.build());
+
+
                 val path = intent.getStringExtra(EXTRA_ROOT)
-                findUserBooks(File(path))
-                syncUserBooks()
+                val books = TreeSet<String>()
+                findUserBooks(File(path), books)
+                clearUserBooks()
+                syncUserBooks(books)
             }
         }
-        return super.onStartCommand(intent, flags, startId)
     }
 
-    private fun syncUserBooks() {
-        Logger.debug("syncUserBooks()")
-        BookSyncService.clear(this)
-
-        val mNotifyMgr = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-
-        val maxBooks = books.size();
-        val builder = Notification.Builder(this)
-        builder.setSmallIcon(R.drawable.ic_launcher)
-        builder.setContentTitle("Books Processing")
-        builder.setProgress(maxBooks, 0, false);
-
-        mNotifyMgr.notify(100, builder.build())
-
-        books.size()
-
-        LocalBroadcastManager.getInstance(this).registerReceiver(object : BroadcastReceiver() {
-            override fun onReceive(context: Context, intent: Intent) {
-                val path = intent.getStringExtra(BookSyncService.EXTRA_PATH)
-                if(books.remove(path)){
-                    Logger.debug("syncCompleted() ${path}")
-                    val progress = maxBooks - books.size()
-                    Logger.debug("syncCompleted() ${progress}")
-                    builder.setProgress(maxBooks, progress, false)
-                    mNotifyMgr.notify(100, builder.build())
-                }
-                if (books.isEmpty()) {
-                    Logger.debug("syncCompleted()")
-                    mNotifyMgr.cancel(100)
-                }
-            }
-        }, IntentFilter(BookSyncService.ACTION_PREPARED))
-
+    private fun syncUserBooks(books: Set<String>) {
+        Logger.debug("syncUserBooks() ${books.size()}")
+        val counter = CountDownLatch(books.size() - 1)
         books.forEach {
-            BookSyncService.prepareBook(this, it)
+            bookSyncExecutor.submit({
+                prepareBook(it)
+                counter.countDown()
+            })
         }
+        counter.await()
+
+        Logger.debug("syncUserBooks() - completed ${books.size()}")
+
+        sendBroadcast(Intent(ACTION_PREPARED))
     }
 
-    private fun findUserBooks(root: File) {
+    private fun findUserBooks(root: File, books: MutableSet<String>) {
         Logger.debug("findUserBooks() ${root}")
         val files = root.listFiles {
             !it.isHidden() && (it.isDirectory() || it.getName().endsWith(".epub"))
         }
-
         files!!.forEach {
             if (it.isDirectory()) {
-                findUserBooks(it)
+                findUserBooks(it, books)
             } else {
                 books.add(it.getAbsolutePath())
             }
@@ -88,7 +90,68 @@ public class LibraryService : Service() {
 
     }
 
+    private fun prepareBook(path: String) {
+        Logger.debug("prepareBook() ${path}")
+        try {
+            val eBook = EpubReader().readEpubLazy(ZipFile(path), "utf-8")
+            val libraryBook = LibraryBook()
+            libraryBook.setName(eBook.getTitle())
+            val authorsString = StringBuilder()
+            val authors = eBook.getMetadata().getAuthors()
+            authors.forEachIndexed { i, author ->
+                authorsString.append(author.getFirstname())
+                authorsString.append(" ")
+                authorsString.append(author.getLastname())
+                if (i != authors.size() - 1) {
+                    authorsString.append(", ")
+                }
+            }
+
+            Logger.debug("prepareBook() ${authorsString}")
+
+            libraryBook.setAuthors(authorsString.toString())
+            libraryBook.setPath(path)
+
+            val id = DataContext.getLibraryBookDao(this).insertOrReplace(libraryBook)
+
+            Logger.debug("prepareBook() ${id}")
+            val coverImage = eBook.getCoverImage()
+            if (coverImage != null) {
+                saveCover(id, coverImage)
+            }
+        } catch (e: IOException) {
+            Logger.error(e)
+        }
+
+    }
+
+    private fun saveCover(id: Long, coverImage: Resource) {
+        val coverFile = FileStorage.createCoverFile(id, coverImage.getMediaType().getDefaultExtension())
+        Logger.debug("saveCover() ${coverFile.getAbsolutePath()}")
+        val bis = coverImage.getInputStream().buffered()
+        val bos = FileOutputStream(coverFile).buffered()
+        try {
+            bis.copyTo(bos, 2048)
+        } catch (e: IOException) {
+            Logger.error(e)
+        } finally {
+            bis.close()
+            bos.close()
+        }
+    }
+
+    private fun clearUserBooks() {
+        Logger.debug("clearUserBooks()")
+        FileStorage.clearCovers()
+        DataContext.getLibraryBookDao(this).deleteAll()
+        sendBroadcast(Intent(ACTION_CLEARED))
+    }
+
     companion object {
+
+        public val ACTION_PREPARED: String = "org.book2words.intent.action.PREPARED"
+
+        public val ACTION_CLEARED: String = "org.book2words.intent.action.CLEARED"
 
         private val ACTION_SYNC = "org.book2words.intent.action.SYNC"
 

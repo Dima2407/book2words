@@ -19,8 +19,8 @@ public class Word(value: String) : Comparable<Word>, Serializable {
         return value.compareTo(other.value.toLowerCase())
     }
 
-    public fun addParagraph(chapter: Int, section: Int, start: Int, end : Int) {
-        paragraphs.add(Paragraph("${chapter}-${section}", start, end ))
+    public fun addParagraph(index :Int, chapter: Int, section: Int, start: Int, end : Int) {
+        paragraphs.add(Paragraph(index, "${chapter}-${section}", start, end ))
     }
 
     override fun toString(): String {

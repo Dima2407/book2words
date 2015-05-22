@@ -44,7 +44,7 @@ public class TextSplitter private () {
                     word = Word(w)
                     words.add(word as Word)
                 }
-                word!!.addParagraph(key, i / 20, start, end)
+                word!!.addParagraph(i % 20, key, i / 20, start, end)
             }
         }
         Logger.debug("words = ${words.size()}");

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">EasyDictionary</string>
+    <string name="app_name">b2w</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Save</string>
     <string name="title_activity_content">ContentActivity</string>

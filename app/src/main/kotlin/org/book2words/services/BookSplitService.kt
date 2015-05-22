@@ -1,8 +1,11 @@
 package org.book2words.services
 
 import android.app.IntentService
+import android.app.Notification
+import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import com.easydictionary.app.MainActivity
 import com.easydictionary.app.R
 import com.google.gson.Gson
 import org.book2words.core.FileStorage
@@ -15,26 +18,54 @@ import java.io.File
 import java.io.FileOutputStream
 
 public class BookSplitService : IntentService(javaClass<BookSplitService>().getSimpleName()) {
+
+    private val NOTIFICATION_ID = 101
+
     override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
             val action = intent.getAction()
 
+            val builder = Notification.Builder(this)
+            builder.setSmallIcon(R.drawable.ic_launcher)
+            builder.setProgress(100, 0, true);
+
+            val notificationIntent = Intent(this, javaClass<MainActivity>())
+            val pendingIntent = PendingIntent.getActivity(this, 0,
+                    notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+
+            builder.setContentIntent(pendingIntent)
+            startForeground(NOTIFICATION_ID, builder.build());
+
             when (action) {
                 OPEN_ACTION -> {
                     val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
+
+                    builder.setContentTitle("Adapting ${book.getName()}")
+                    startForeground(NOTIFICATION_ID, builder.build());
+
                     startBook(book)
+
                 }
                 CLOSE_ACTION -> {
                     val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
+
+                    builder.setContentTitle("Adapting ${book.getName()}")
+                    startForeground(NOTIFICATION_ID, builder.build());
+
                     stopBook(book)
                 }
                 SPLIT_ACTION -> {
                     val id = intent.getLongExtra(EXTRA_ID, 0)
                     val index = intent.getIntExtra(EXTRA_INDEX, 0)
                     val text = intent.getStringExtra(EXTRA_TEXT)
+
+                    builder.setContentTitle("Processing ${index} chapter")
+                    startForeground(NOTIFICATION_ID, builder.build());
+
                     saveText(id, index, text)
                     splitText(index, text)
                 }
+
             }
         }
     }
@@ -104,7 +135,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     }
 
     private fun splitText(index: Int, text: String) {
-        Logger.debug("saveText(${index}) - ${text}", TAG)
+        Logger.debug("splitText(${index})", TAG)
         val textSplitter = TextSplitter.getInstance()
         textSplitter.findCapital(text)
         textSplitter.split(index, text);

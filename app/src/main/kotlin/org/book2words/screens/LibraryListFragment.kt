@@ -2,8 +2,10 @@ package org.book2words.screens
 
 import android.app.Fragment
 import android.app.ListFragment
+import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
 import android.os.Bundle
 import android.view.*
 import android.widget.ArrayAdapter
@@ -13,17 +15,38 @@ import android.widget.TextView
 import com.easydictionary.app.Configs
 import com.easydictionary.app.R
 import com.easydictionary.app.ReaderActivity
-import com.easydictionary.app.SplitActivity
 import com.nostra13.universalimageloader.core.ImageLoader
-import org.book2words.B2WApplication
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
-import org.book2words.services.LibraryService
 import org.book2words.data.DataContext
-import java.io.File
-import java.util.ArrayList
+import org.book2words.services.LibraryService
 
 public class LibraryListFragment : ListFragment() {
+
+    private var adapter: LibraryFileAdapter? = null
+
+    private val receiver = object : BroadcastReceiver () {
+        override fun onReceive(context: Context, intent: Intent) {
+            val action = intent.getAction()
+            when (action) {
+                LibraryService.ACTION_CLEARED -> {
+                    clearData()
+                }
+                LibraryService.ACTION_PREPARED -> {
+                    loadData()
+                }
+            }
+        }
+    }
+
+    private fun clearData() {
+        adapter!!.clear()
+    }
+
+    private fun loadData() {
+        val items = DataContext.getLibraryBookDao(this).loadAll()
+        adapter!!.addAll(items)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,7 +57,7 @@ public class LibraryListFragment : ListFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val items = DataContext.getLibraryBookDao(this).loadAll()
-        val adapter = LibraryFileAdapter(getActivity(), items)
+        adapter = LibraryFileAdapter(getActivity(), items)
         setListAdapter(adapter)
     }
 
@@ -43,10 +66,10 @@ public class LibraryListFragment : ListFragment() {
         if (book.getAdapted()) {
             val intent = Intent(getActivity(), javaClass<ReaderActivity>())
             intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
-            startActivity(intent)
+            startActivityForResult(intent, 0)
         } else {
             val fragment = DictionaryDialogListFragment.create(book)
-            fragment.show(getActivity().getFragmentManager(), "dialog")
+            fragment.show(getFragmentManager(), "dialog")
         }
     }
 
@@ -83,6 +106,20 @@ public class LibraryListFragment : ListFragment() {
             fragment.setArguments(args)
             return fragment
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val intentFilter = IntentFilter()
+        intentFilter.addAction(LibraryService.ACTION_PREPARED)
+        intentFilter.addAction(LibraryService.ACTION_CLEARED)
+        getActivity().registerReceiver(receiver,
+                intentFilter)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        getActivity().unregisterReceiver(receiver)
     }
 
     private class LibraryFileAdapter(context: Context, objects: List<LibraryBook>)
