@@ -4,8 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import org.book2words.R;
-import org.book2words.screens.DictionaryListFragment;
+import org.book2words.screens.DictionarySettingsFragment;
 import org.book2words.screens.LibraryListFragment;
 
 
@@ -27,7 +26,7 @@ public class MainActivity extends Activity {
     private void loadMenuFragment(String tag) {
         Fragment fragment = getFragmentManager().findFragmentByTag(tag);
         if (fragment == null) {
-            fragment = new DictionaryListFragment();
+            fragment = new DictionarySettingsFragment();
 
             FragmentTransaction transaction = getFragmentManager().beginTransaction();
             transaction.add(R.id.dictionary_frame, fragment, tag);

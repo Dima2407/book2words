@@ -38,7 +38,7 @@ public class ParagraphAdapted(val original: String) : Serializable {
         words.forEach {
             val start = it.start
             val end = it.end
-            adapted.setSpan(BackgroundColorSpan(color), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+            adapted.setSpan(BackgroundColorSpan(color), start + 1, end + 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
             this.words.add(WordAdapted(start, word.value, color))
         }
     }

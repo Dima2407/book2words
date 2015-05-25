@@ -4,8 +4,6 @@ import android.app.Activity
 import android.app.Application
 import android.app.Fragment
 import android.app.Service
-import android.content.Context
-import org.book2words.B2WApplication
 import org.book2words.dao.*
 import java.util.ArrayList
 
@@ -63,9 +61,9 @@ public class DataContext {
         Deprecated
         public fun getUserDictionaries(): MutableList<LibraryDictionary> {
             val items: MutableList<LibraryDictionary> = ArrayList();
-            items.add(LibraryDictionary(0, "The Shinning", true, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
-            items.add(LibraryDictionary(0, "The Girl", false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
-            items.add(LibraryDictionary(0, "The Pet Samatary", false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
+            items.add(LibraryDictionary(0, "The Shinning", true, false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
+            items.add(LibraryDictionary(0, "The Girl", false, false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
+            items.add(LibraryDictionary(0, "The Pet Samatary", false, false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
             return items
         }
     }

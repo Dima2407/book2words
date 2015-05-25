@@ -13,4 +13,10 @@
     <string name="dialog_dictionaries_message">Выберите словарь который можно использовать для распознавания слов в книге</string>
     <string name="unknown">Unknown</string>
     <string name="action_sync">SYNC</string>
+    <string name="button_save">Save</string>
+    <string name="use">Use</string>
+    <string name="skip">Skip</string>
+    <string name="login_hint">Input login</string>
+    <string name="password_hint">Input password</string>
+    <string name="login">Login</string>
 </resources>

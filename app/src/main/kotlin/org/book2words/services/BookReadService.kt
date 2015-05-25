@@ -17,6 +17,7 @@ import org.book2words.models.book.WordAdapted
 import org.book2words.models.split.BookSplitter
 import org.book2words.translate.TranslateProvider
 import org.book2words.translate.TranslateProviderFactory
+import org.book2words.translate.core.DictionaryResult
 import java.io.FileInputStream
 import java.util.ArrayList
 import java.util.concurrent.Executors
@@ -45,7 +46,7 @@ public class BookReadService : Service() {
 
                 val chapter = 7
 
-                val section = 3
+                val section = 1
 
                 val chapterId = "${chapter}-${section}"
 
@@ -111,14 +112,16 @@ public class BookReadService : Service() {
             }
         }
 
-        public fun translate(word: String) {
+        public fun translate(word: String, onTranslated: (input: String, result: DictionaryResult?) -> Unit) {
             val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, "en", "ru")
             translateProvider.translate(word, { input, result ->
-
+                handler.post({
+                    onTranslated(input, result)
+                })
             })
         }
 
-        public fun add(word: String) {
+        public fun addToDictionary(word: String) {
 
         }
 

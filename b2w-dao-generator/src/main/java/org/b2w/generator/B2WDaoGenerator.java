@@ -7,7 +7,7 @@ import de.greenrobot.daogenerator.Schema;
 
 public class B2WDaoGenerator {
     public static void main(String[] args) throws Exception {
-        Schema schema = new Schema(4, "org.book2words.dao");
+        Schema schema = new Schema(5, "org.book2words.dao");
         schema.enableKeepSectionsByDefault();
 
         Entity book = schema.addEntity("LibraryBook");
@@ -25,6 +25,7 @@ public class B2WDaoGenerator {
         dictionary.addIdProperty();
         dictionary.addStringProperty("name").notNull();
         dictionary.addBooleanProperty("use").notNull();
+        dictionary.addBooleanProperty("readonly").notNull();
         dictionary.addIntProperty("size").notNull();
         dictionary.addStringProperty("path").notNull().unique();
         dictionary.implementsInterface("Parcelable");

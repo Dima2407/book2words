@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
             android:name=".B2WApplication"
@@ -14,17 +15,22 @@
         <activity
                 android:name=".ReaderActivity"
                 android:label="@string/app_name"
-                android:screenOrientation="landscape">
-        </activity>
+                android:screenOrientation="landscape"/>
         <activity
                 android:name=".DictionaryActivity"
-                android:label="@string/title_activity_main"/>
+                android:label="@string/app_name"/>
         <activity
                 android:name=".SplitActivity"
-                android:label="@string/title_activity_main"/>
+                android:label="@string/app_name"/>
+
         <activity
                 android:name=".MainActivity"
-                android:label="@string/title_activity_main">
+                android:label="@string/app_name"/>
+
+        <activity
+                android:name=".SplashActivity"
+                android:label="@string/app_name"
+                android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -46,6 +52,10 @@
         <service
                 android:name=".services.BookSplitService"
                 android:exported="false"/>
+
+        <service android:name="com.backendless.AndroidService" />
+
+        <service android:name=".services.B2WService"/>
     </application>
 
 </manifest>

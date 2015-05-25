@@ -3,7 +3,7 @@ package org.book2words.translate.yandex
 import com.google.gson.annotations.SerializedName
 import org.book2words.translate.core
 
-private class Translate : org.book2words.translate.core.Translate {
+private class Translate : core.Translate {
     SerializedName("text")
     private var text: String? = null
 
@@ -19,5 +19,9 @@ private class Translate : org.book2words.translate.core.Translate {
 
     override fun getMeans(): Array<out core.Mean>? {
         return means
+    }
+
+    override fun toString(): String {
+        return text as String
     }
 }

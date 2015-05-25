@@ -7,7 +7,7 @@ class YandexDictionaryResult : DictionaryResult {
     SerializedName("def")
     private val definitions: Array<Definition>? = null
 
-    override fun result(): Array<out org.book2words.translate.core.Definition>? {
+    override fun results(): Array<out org.book2words.translate.core.Definition>? {
         return definitions
     }
 

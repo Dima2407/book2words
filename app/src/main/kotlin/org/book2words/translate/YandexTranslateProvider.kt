@@ -3,21 +3,17 @@ package org.book2words.translate
 import android.os.Handler
 import android.os.HandlerThread
 import com.google.gson.Gson
-import org.apache.http.HttpResponse
-import org.apache.http.NameValuePair
-import org.apache.http.client.HttpClient
-import org.apache.http.client.methods.HttpGet
-import org.apache.http.client.utils.URLEncodedUtils
 import org.apache.http.impl.client.DefaultHttpClient
-import org.apache.http.message.BasicNameValuePair
+import org.book2words.core.Logger
 import org.book2words.translate.core.DictionaryResult
-import org.book2words.translate.yandex
 import org.book2words.translate.yandex.YandexDictionaryResult
-
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
-import java.util.LinkedList
+import java.net.HttpURLConnection
+import java.net.URL
+import java.net.URLEncoder
+import java.util.HashMap
 
 private class YandexTranslateProvider(private val from: String, private val to: String) : TranslateProvider {
 
@@ -32,7 +28,7 @@ private class YandexTranslateProvider(private val from: String, private val to: 
         this.gson = Gson()
     }
 
-    override fun translate(input: String, onTranslated:  (input: String, result: DictionaryResult?) -> Unit) {
+    override fun translate(input: String, onTranslated: (input: String, result: DictionaryResult?) -> Unit) {
 
         if (handler == null && !handlerThread.isAlive()) {
             handlerThread.start()
@@ -49,25 +45,42 @@ private class YandexTranslateProvider(private val from: String, private val to: 
     }
 
     private fun translate(input: String): DictionaryResult? {
-        val params = LinkedList<NameValuePair>()
-        params.add(BasicNameValuePair("key", API_KEY))
-        params.add(BasicNameValuePair("lang", "${from}-${to}"))
-        params.add(BasicNameValuePair("text", input))
+        val params = HashMap<String, Any>()
+        params.put("key", API_KEY)
+        params.put("lang", URLEncoder.encode("${from}-${to}", "utf-8"))
+        params.put("text", URLEncoder.encode(input, "utf-8"))
 
-        val paramString = URLEncodedUtils.format(params, "utf-8")
+        val queryString = StringBuilder(QUERY + "?")
 
-        val request = HttpGet(QUERY + "?" + paramString)
-
-        var result: YandexDictionaryResult? = null
-        try {
-            val response = client.execute(request)
-            val reader = BufferedReader(InputStreamReader(response.getEntity().getContent()))
-            result = gson.fromJson<YandexDictionaryResult>(reader, javaClass<YandexDictionaryResult>())
-
-        } catch (e: IOException) {
-            e.printStackTrace()
+        var index = 0
+        params.forEach {
+            queryString.append(it.getKey())
+            queryString.append("=")
+            queryString.append(it.getValue())
+            if (index < params.size() - 1) {
+                queryString.append("&")
+            }
+            index++
         }
-
+        Logger.debug(queryString.toString())
+        val url = URL(queryString.toString());
+        val connection = url.openConnection() as HttpURLConnection
+        connection.setReadTimeout(10000)
+        connection.setConnectTimeout(15000)
+        connection.setRequestMethod("GET")
+        connection.setDoInput(true)
+        // Starts the query
+        connection.connect();
+        val responseCode = connection.getResponseCode();
+        var result: YandexDictionaryResult? = null
+        if (responseCode == HttpURLConnection.HTTP_OK) {
+            try {
+                val reader = BufferedReader(InputStreamReader(connection.getInputStream()))
+                result = gson.fromJson<YandexDictionaryResult>(reader, javaClass<YandexDictionaryResult>())
+            } catch(e: IOException) {
+                Logger.error(e)
+            }
+        }
         return result
     }
 

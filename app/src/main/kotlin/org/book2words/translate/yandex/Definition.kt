@@ -24,7 +24,14 @@ private class Definition : org.book2words.translate.core.Definition {
         return transcription
     }
 
-    override fun getTranslates(): Array<out org.book2words.translate.core.Translate> ? {
-        return translates
+    override fun getTranslate(): String? {
+        val result = StringBuilder()
+        translates!!.forEachIndexed { i, translate ->
+            result.append(translate.getText())
+            if (i < translates!!.size() - 1 ) {
+                result.append(";")
+            }
+        }
+        return result.toString()
     }
 }
