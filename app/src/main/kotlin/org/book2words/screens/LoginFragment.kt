@@ -41,7 +41,6 @@ public class LoginFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        Backendless.UserService.isValidLogin()
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -75,8 +74,8 @@ public class LoginFragment : Fragment() {
     private fun login() {
         val login = loginView!!.getText().toString()
         val password = passwordView!!.getText().toString()
-        B2WService.login(getActivity(), "qwerty@qwerty.com", "qwerty", object : B2WHandler<Boolean> () {
-            override fun onResult(success: Boolean, data: Boolean) {
+        B2WService.login(getActivity(), "qwerty@qwerty.com", "qwerty", object : B2WHandler<Backendless> () {
+            override fun onResult(success: Boolean, data: Backendless) {
                 val intent = Intent(getActivity(), javaClass<MainActivity>())
                 startActivity(intent)
             }

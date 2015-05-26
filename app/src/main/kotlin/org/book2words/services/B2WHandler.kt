@@ -12,14 +12,14 @@ public abstract class B2WHandler<T> : Handler(), B2WResponseWaiter<T> {
 
         public val RESULT_FAILED: Int = -100
 
-        public fun send(receiver: Messenger, success: Boolean, data: Any?): Boolean {
+        public fun send<T>(receiver: Messenger, success: Boolean, data: T?): Boolean {
             if (success) {
                 return sendSuccess(receiver, data)
             }
             return sendError(receiver, data)
         }
 
-        public fun sendSuccess(receiver: Messenger, data: Any?): Boolean {
+        public fun sendSuccess<T>(receiver: Messenger, data: T?): Boolean {
             val message = Message.obtain()
             message.arg1 = RESULT_OK
             message.obj = data
@@ -32,7 +32,7 @@ public abstract class B2WHandler<T> : Handler(), B2WResponseWaiter<T> {
             return false
         }
 
-        public fun sendError(receiver: Messenger, data: Any?): Boolean {
+        public fun sendError<T>(receiver: Messenger, data: T?): Boolean {
             val message = Message.obtain()
             message.arg1 = RESULT_FAILED
             message.obj = data

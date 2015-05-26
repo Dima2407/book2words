@@ -6,13 +6,8 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
-import android.util.Log;
-import org.book2words.Configs;
-import org.book2dictionary.core.*;
-import org.book2dictionary.core.book.BookDictionary;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class TranslateService extends Service {
@@ -29,15 +24,6 @@ public class TranslateService extends Service {
     private HandlerThread handlerThread;
 
     private Handler handler;
-
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        handlerThread = new HandlerThread(TranslateService.class.getSimpleName());
-        handlerThread.start();
-        handler = new Handler(handlerThread.getLooper());
-
-    }
 
     public static void translate(Context context, String key) {
         Intent intent = new Intent(context, TranslateService.class);
@@ -64,10 +50,20 @@ public class TranslateService extends Service {
     }
 
     @Override
+    public void onCreate() {
+        super.onCreate();
+        handlerThread = new HandlerThread(TranslateService.class.getSimpleName());
+        handlerThread.start();
+        handler = new Handler(handlerThread.getLooper());
+
+    }
+
+    @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
 
+/*
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (intent != null) {
@@ -106,7 +102,8 @@ public class TranslateService extends Service {
     }
 
     private void translateText(String key) {
-        /*final BookDictionary provider = Dictionary.OBJECT$.<BookDictionary>openBookDictionary(Provider.ExelFile, Configs.getBooksDirectory(), key);
+        */
+/*final BookDictionary provider = Dictionary.OBJECT$.<BookDictionary>openBookDictionary(Provider.ExelFile, Configs.getBooksDirectory(), key);
         try {
 
             provider.prepare(true);
@@ -155,7 +152,8 @@ public class TranslateService extends Service {
         } finally {
             Log.d(TAG, "release");
             provider.release();
-        }*/
+        }*//*
+
 
     }
 
@@ -222,5 +220,6 @@ public class TranslateService extends Service {
         super.onDestroy();
     }
 
+*/
 
 }

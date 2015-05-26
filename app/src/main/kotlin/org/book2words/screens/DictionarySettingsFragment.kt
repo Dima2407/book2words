@@ -9,11 +9,16 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
+import android.widget.SeekBar
 import android.widget.Switch
 import android.widget.TextView
 import org.book2words.DictionaryActivity
 import org.book2words.R
+import org.book2words.SelectFolderActivity
 import org.book2words.dao.LibraryDictionary
+import org.book2words.data.Configs
+import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import java.util.ArrayList
 
@@ -21,7 +26,11 @@ public class DictionarySettingsFragment : Fragment() {
 
     private var items: MutableList<LibraryDictionary> = ArrayList();
 
-    private var listView: RecyclerView? = null;
+    private var listView: RecyclerView? = null
+
+    private var paragraphsView: SeekBar? = null
+    private var paragraphsSplitView: TextView? = null
+    private var rootView : EditText? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,12 +38,45 @@ public class DictionarySettingsFragment : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_dictionary, null);
+        return inflater.inflate(R.layout.fragment_dictionary, null)
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listView = view!!.findViewById(android.R.id.list) as RecyclerView;
+        listView = view!!.findViewById(android.R.id.list) as RecyclerView
+        paragraphsView = view!!.findViewById(R.id.seek_paragraphs) as SeekBar
+        paragraphsSplitView = view!!.findViewById(R.id.text_paragraphs) as TextView
+
+        val configs = ConfigsContext.getConfigs(getActivity())
+        paragraphsSplitView!!.setText("${configs.getCurrentParagraphsInStep()}")
+        paragraphsView!!.setMax(configs.getMaxParagraphsInStep() / configs.getParagraphsInStep())
+        paragraphsView!!.setProgress(configs.getCurrentParagraphsInStep() / configs.getParagraphsInStep())
+        paragraphsView!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
+                val paragraphs = progress * configs.getParagraphsInStep()
+                paragraphsSplitView!!.setText("$paragraphs")
+                configs.setCurrentParagraphsInStep(paragraphs)
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar?) {
+
+            }
+
+            override fun onStopTrackingTouch(seekBar: SeekBar) {
+
+            }
+
+        })
+        rootView = view!!.findViewById(R.id.edit_root) as EditText
+        view!!.findViewById(R.id.button_select).setOnClickListener({
+            startActivityForResult(Intent(getActivity(), javaClass<SelectFolderActivity>()), 0)
+        })
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val configs = ConfigsContext.getConfigs(getActivity())
+        rootView!!.setText(Configs.getRelativePath(configs.getCurrentRoot()))
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -59,10 +101,10 @@ public class DictionarySettingsFragment : Fragment() {
             p0!!.titleView.setText(item.getName())
             p0!!.countView.setText("${item.getSize()}")
 
-            p0!!.useView.setEnabled(item.getReadonly())
+            p0!!.useView.setEnabled(!item.getReadonly())
             p0!!.useView.setChecked(item.getUse())
             p0.useView.setOnCheckedChangeListener { compoundButton, b ->
-                if(b != item.getUse()){
+                if (b != item.getUse()) {
                     item.setUse(b)
                     DataContext.getLibraryDictionaryDao(context).update(item)
                 }

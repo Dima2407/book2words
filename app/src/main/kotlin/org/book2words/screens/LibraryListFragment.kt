@@ -12,12 +12,12 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
-import org.book2words.Configs
+import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
 import org.book2words.ReaderActivity
-import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
+import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.services.LibraryService
 
@@ -80,30 +80,19 @@ public class LibraryListFragment : ListFragment() {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         if (item!!.getItemId() == R.id.action_sync) {
-            LibraryService.syncBooks(getActivity(), getDirectoryRoot())
+            val configs = ConfigsContext.getConfigs(getActivity())
+            LibraryService.syncBooks(getActivity(), configs.getCurrentRoot())
             return true;
         }
         return super.onOptionsItemSelected(item)
-    }
-
-    private fun getDirectoryRoot(): String {
-        val arguments = getArguments()
-        if (arguments != null) {
-            return arguments.getString(DIRECTORY_ROOT_KEY, Configs.getBooksDirectory())
-        }
-        return Configs.getBooksDirectory()
     }
 
     companion object {
 
         private val DIRECTORY_ROOT_KEY = "dir_root"
 
-        public fun create(root: String): Fragment {
-            val args = Bundle()
-            args.putString(DIRECTORY_ROOT_KEY, root)
-
+        public fun create(): Fragment {
             val fragment = LibraryListFragment()
-            fragment.setArguments(args)
             return fragment
         }
     }

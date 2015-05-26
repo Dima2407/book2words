@@ -19,4 +19,7 @@
     <string name="login_hint">Input login</string>
     <string name="password_hint">Input password</string>
     <string name="login">Login</string>
+    <string name="select">Select</string>
+    <string name="pars_in_parts">Paragraphs in partition</string>
+    <string name="back">Up</string>
 </resources>

@@ -6,20 +6,10 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.IBinder;
-import android.text.TextUtils;
-import android.util.Log;
-import org.book2words.Configs;
-import org.book2words.R;
-import org.book2dictionary.core.Dictionary;
-import org.book2dictionary.core.Provider;
-import org.book2words.models.Patterns;
 import org.book2words.models.TextSplitter;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.*;
-import java.util.regex.Matcher;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 
 public class TextSplitService extends Service {
@@ -34,19 +24,10 @@ public class TextSplitService extends Service {
     private static final String EXTRA_TEXT = "_text";
     private static final String EXTRA_BOOK = "_book";
     private static final String TAG = TextSplitService.class.getSimpleName();
-
+    public final Map<String, Map<String, Integer>> words = new LinkedHashMap<String, Map<String, Integer>>();
+    private final TextSplitter textSplitter = TextSplitter.Companion.getInstance();
     private HandlerThread handlerThread;
-
     private Handler handler;
-
-    @Override
-    public void onCreate() {
-        super.onCreate();
-        handlerThread = new HandlerThread(TextSplitService.class.getSimpleName());
-        handlerThread.start();
-        handler = new Handler(handlerThread.getLooper());
-
-    }
 
     public static void clearDictionary(Context context) {
         Intent intent = new Intent(context, TextSplitService.class);
@@ -76,14 +57,21 @@ public class TextSplitService extends Service {
         context.startService(intent);
     }
 
-    public final Map<String, Map<String, Integer>> words = new LinkedHashMap<String, Map<String, Integer>>();
-    private final TextSplitter textSplitter = TextSplitter.Companion.getInstance();
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        handlerThread = new HandlerThread(TextSplitService.class.getSimpleName());
+        handlerThread.start();
+        handler = new Handler(handlerThread.getLooper());
+
+    }
 
     @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
 
+/*
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (intent != null) {
@@ -132,7 +120,8 @@ public class TextSplitService extends Service {
         textSplitter.findCapital(input_text);
        // textSplitter.split(key, input_text);
 
-        /*String[] text = input_text.split(RegexDictionary.words("[^\\w+'`’]"));
+        */
+/*String[] text = input_text.split(RegexDictionary.words("[^\\w+'`’]"));
         Map<String, Integer> words = new LinkedHashMap<String, Integer>();
         for (String s : text) {
             String word = s.toLowerCase().trim();
@@ -150,11 +139,13 @@ public class TextSplitService extends Service {
         }
         this.words.put(key, words);
         Log.d(TAG, String.format("%s --- %d / %d", key, words.size(), text.length));
-        Log.d(TAG, String.format("%s --- %.2f", key, (float) words.size() / text.length));*/
+        Log.d(TAG, String.format("%s --- %.2f", key, (float) words.size() / text.length));*//*
+
     }
 
     private void filterText(String name) {
-        /*Dictionary dictionaryProvider = Dictionary.OBJECT$.openUserDictionary(Provider.File, Configs.getBooksDirectory());
+        */
+/*Dictionary dictionaryProvider = Dictionary.OBJECT$.openUserDictionary(Provider.File, Configs.getBooksDirectory());
         dictionaryProvider.prepare(false);
 
         Set<String> words = new TreeSet<String>();
@@ -181,7 +172,9 @@ public class TextSplitService extends Service {
 
         provider.prepare(true);
         int count = 0;
-        *//*for (Chapter chapter : textSplitter.getChapters()) {
+        *//*
+*/
+/*for (Chapter chapter : textSplitter.getChapters()) {
             List<Paragraph> map = chapter.getParagraphs();
             if (chapter.isEmpty()) {
                 continue;
@@ -196,8 +189,11 @@ public class TextSplitService extends Service {
             }
 
         }*//*
+*/
+/*
         Log.d(TAG, "end " + count);
-        provider.release();*/
+        provider.release();*//*
+
     }
 
     private void debugAll() {
@@ -338,5 +334,6 @@ public class TextSplitService extends Service {
             return builder.toString();
         }
     }
+*/
 
 }

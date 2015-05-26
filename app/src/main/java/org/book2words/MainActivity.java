@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
     private void loadContentFragment(String tag) {
         Fragment fragment = getFragmentManager().findFragmentByTag(tag);
         if (fragment == null) {
-            fragment = LibraryListFragment.Companion.create(Configs.getBooksDirectory());
+            fragment = LibraryListFragment.Companion.create();
 
             FragmentTransaction transaction = getFragmentManager().beginTransaction();
             transaction.add(R.id.content_frame, fragment, tag);

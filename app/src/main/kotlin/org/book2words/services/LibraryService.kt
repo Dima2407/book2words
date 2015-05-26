@@ -6,11 +6,11 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
-import org.book2words.MainActivity
-import org.book2words.R
 import net.sf.jazzlib.ZipFile
 import nl.siegmann.epublib.domain.Resource
 import nl.siegmann.epublib.epub.EpubReader
+import org.book2words.MainActivity
+import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
@@ -161,6 +161,13 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             val intent = Intent(context, javaClass<LibraryService>())
             intent.setAction(ACTION_SYNC)
             intent.putExtra(EXTRA_ROOT, path)
+            context.startService(intent)
+        }
+
+        public fun syncBooks(context: Context, path: File) {
+            val intent = Intent(context, javaClass<LibraryService>())
+            intent.setAction(ACTION_SYNC)
+            intent.putExtra(EXTRA_ROOT, path.getAbsolutePath())
             context.startService(intent)
         }
     }

@@ -48,7 +48,7 @@ public class B2WService : Service() {
                 if (backendlessFault.getCode() == "3033") {
                     Backendless.UserService.login(login, password, object : AsyncCallback<BackendlessUser> {
                         override fun handleResponse(aBoolean: BackendlessUser?) {
-                            B2WHandler.send(callback, aBoolean as Boolean, null)
+                            B2WHandler.sendSuccess(callback, aBoolean)
                         }
 
                         override fun handleFault(backendlessFault: BackendlessFault) {

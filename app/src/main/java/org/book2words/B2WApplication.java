@@ -6,13 +6,13 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import org.book2words.dao.DaoSession;
-import org.book2words.data.DaoHolder;
-import org.book2words.data.DataContext;
+import org.book2words.data.*;
 import org.jetbrains.annotations.NotNull;
 
 
-public class B2WApplication extends Application implements DaoHolder {
+public class B2WApplication extends Application implements DaoHolder, ConfigsHolder {
     private DaoSession daoSession;
+    private Configs configs;
 
     @Override
     public void onCreate() {
@@ -27,6 +27,7 @@ public class B2WApplication extends Application implements DaoHolder {
         ImageLoader.getInstance().init(config.build());
 
         DataContext.Companion.setup(this);
+        configs = ConfigsContext.Companion.setup(this);
     }
 
     @Override
@@ -38,5 +39,11 @@ public class B2WApplication extends Application implements DaoHolder {
     @Override
     public void setDaoSession(@NotNull DaoSession newSession) {
         daoSession = newSession;
+    }
+
+    @NotNull
+    @Override
+    public Configs getConfigs() {
+        return configs;
     }
 }

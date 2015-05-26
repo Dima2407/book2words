@@ -26,7 +26,7 @@ public class TextSplitter private () {
 
     }
 
-    public fun split(key: Int, text: String) {
+    public fun split(key: Int, text: String, paragraphs: Int) {
         Logger.debug("split chapter ${key}")
         val wordPattern = Patterns.WORD;
 
@@ -44,7 +44,7 @@ public class TextSplitter private () {
                     word = Word(w)
                     words.add(word as Word)
                 }
-                word!!.addParagraph(i % 20, key, i / 20, start, end)
+                word!!.addParagraph(i % paragraphs, key, i / paragraphs, start, end)
             }
         }
         Logger.debug("words = ${words.size()}");

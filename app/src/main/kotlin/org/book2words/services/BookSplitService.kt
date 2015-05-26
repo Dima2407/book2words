@@ -5,12 +5,13 @@ import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
+import com.google.gson.Gson
 import org.book2words.MainActivity
 import org.book2words.R
-import com.google.gson.Gson
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
+import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
 import java.io.BufferedWriter
@@ -117,12 +118,13 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         val parts = text.split("\n+");
         var file: File?;
         var bos: BufferedWriter? = null;
+        val configs = ConfigsContext.getConfigs(this)
         parts.forEachIndexed { i, paragraph ->
-            if (i % 20 == 0) {
+            if (i % configs.getParagraphsInStep() == 0) {
                 if (bos != null) {
                     bos!!.close()
                 }
-                file = FileStorage.createChapterFile(id, index, i / 20);
+                file = FileStorage.createChapterFile(id, index, i / configs.getParagraphsInStep());
                 bos = FileOutputStream(file).writer(Charsets.UTF_8).buffered()
             }
             bos!!.write(paragraph)
@@ -138,7 +140,8 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         Logger.debug("splitText(${index})", TAG)
         val textSplitter = TextSplitter.getInstance()
         textSplitter.findCapital(text)
-        textSplitter.split(index, text);
+        val configs = ConfigsContext.getConfigs(this)
+        textSplitter.split(index, text, configs.getCurrentParagraphsInStep());
     }
 
     companion object {

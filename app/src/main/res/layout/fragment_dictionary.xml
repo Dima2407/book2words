@@ -7,9 +7,47 @@
               android:paddingTop="@dimen/activity_vertical_margin"
               android:paddingBottom="@dimen/activity_vertical_margin">
 
-    <TextView
+    <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <EditText
+                android:id="@+id/edit_root"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/button_select"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/select"
+                android:layout_weight="1"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pars_in_parts"
+                android:layout_alignParentLeft="true"
+                android:lines="1"/>
+        <SeekBar
+                android:id="@+id/seek_paragraphs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_paragraphs"/>
+        <TextView
+                android:id="@+id/text_paragraphs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:lines="1"/>
+
+    </RelativeLayout>
 
     <android.support.v7.widget.RecyclerView
             android:id="@android:id/list"
