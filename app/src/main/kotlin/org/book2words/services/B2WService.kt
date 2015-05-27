@@ -10,6 +10,10 @@ import com.backendless.Backendless
 import com.backendless.BackendlessUser
 import com.backendless.async.callback.AsyncCallback
 import com.backendless.exceptions.BackendlessFault
+import org.book2words.core.Logger
+import org.book2words.dao.LibraryBook
+import org.book2words.dao.LibraryDictionary
+import org.book2words.data.DataContext
 
 public class B2WService : Service() {
     override fun onBind(intent: Intent): IBinder? {
@@ -18,16 +22,31 @@ public class B2WService : Service() {
 
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
         val action = intent.getAction()
-        val callback: Messenger = intent.getParcelableExtra(EXTRA_WAITER)
+        val callback: Messenger? = intent.getParcelableExtra(EXTRA_WAITER)
         when (action) {
             ACTION_CHECK_LOGIN -> {
-                checkLogin(callback)
+                checkLogin(callback!!)
             }
 
             ACTION_LOGIN -> {
                 val login = intent.getStringExtra(EXTRA_LOGIN)
                 val password = intent.getStringExtra(EXTRA_PASSWORD)
-                login(login, password, callback)
+                login(login, password, callback!!)
+            }
+            ACTION_CREATE_DICTIONARY -> {
+                val dictionaryTitle = intent.getStringExtra(EXTRA_DICTIONARY)
+                val dictionary = LibraryDictionary(dictionaryTitle)
+                Backendless.Persistence.mapTableToClass("Dictionaries", javaClass<LibraryDictionary>())
+                Backendless.Persistence.save(dictionary, object : AsyncCallback<LibraryDictionary> {
+                    override fun handleResponse(p0: LibraryDictionary?) {
+                        DataContext.getLibraryDictionaryDao(this@B2WService).insertOrReplace(p0)
+                    }
+
+                    override fun handleFault(p0: BackendlessFault?) {
+                        Logger.error(p0!!.getMessage())
+                    }
+
+                })
             }
         }
         return Service.START_STICKY
@@ -60,7 +79,6 @@ public class B2WService : Service() {
                 }
             }
         });
-
     }
 
     private fun checkLogin(callback: Messenger) {
@@ -92,12 +110,22 @@ public class B2WService : Service() {
     companion object {
         private val ACTION_CHECK_LOGIN: String = "org.book2words.intent.action.CHECK_LOGIN"
         private val ACTION_LOGIN: String = "org.book2words.intent.action.LOGIN"
+        private val ACTION_CREATE_DICTIONARY: String = "org.book2words.intent.action.CREATE_DICTIONARY"
+        private val ACTION_REMOVE_DICTIONARY: String = "org.book2words.intent.action.REMOVE_DICTIONARY"
+        private val ACTION_UPDATE_DICTIONARY: String = "org.book2words.intent.action.UPDATE_DICTIONARY"
 
+        private val ACTION_CREATE_BOOK: String = "org.book2words.intent.action.CREATE_BOOK"
+        private val ACTION_REMOVE_BOOK: String = "org.book2words.intent.action.REMOVE_BOOK"
+        private val ACTION_UPDATE_BOOK: String = "org.book2words.intent.action.UPDATE_BOOK"
+        
         private val EXTRA_WAITER: String = "_messenger"
 
         private val EXTRA_LOGIN: String = "_login"
 
         private val EXTRA_PASSWORD: String = "_password"
+
+        private val EXTRA_DICTIONARY: String = "_dictionary"
+        private val EXTRA_BOOK: String = "_book"
 
         public fun checkLogin(context: Context, callback: Handler) {
             val intent = Intent(context, javaClass<B2WService>())
@@ -112,6 +140,46 @@ public class B2WService : Service() {
             intent.putExtra(EXTRA_LOGIN, login)
             intent.putExtra(EXTRA_PASSWORD, password)
             intent.putExtra(EXTRA_WAITER, Messenger(callback))
+            context.startService(intent)
+        }
+
+        public fun addDictionary(context: Context, dictionary: LibraryDictionary, callback: Handler? = null) {
+            val intent = Intent(context, javaClass<B2WService>())
+            intent.setAction(ACTION_CREATE_DICTIONARY)
+            intent.putExtra(EXTRA_DICTIONARY, dictionary)
+            if (callback != null) {
+                intent.putExtra(EXTRA_WAITER, Messenger(callback))
+            }
+            context.startService(intent)
+        }
+
+        public fun removeDictionary(context: Context, dictionary: LibraryDictionary, callback: Handler? = null) {
+            val intent = Intent(context, javaClass<B2WService>())
+            intent.setAction(ACTION_REMOVE_DICTIONARY)
+            intent.putExtra(EXTRA_DICTIONARY, dictionary)
+            if (callback != null) {
+                intent.putExtra(EXTRA_WAITER, Messenger(callback))
+            }
+            context.startService(intent)
+        }
+
+        public fun updateDictionary(context: Context, dictionary: LibraryDictionary, callback: Handler? = null) {
+            val intent = Intent(context, javaClass<B2WService>())
+            intent.setAction(ACTION_UPDATE_DICTIONARY)
+            intent.putExtra(EXTRA_DICTIONARY, dictionary)
+            if (callback != null) {
+                intent.putExtra(EXTRA_WAITER, Messenger(callback))
+            }
+            context.startService(intent)
+        }
+
+        public fun updateBook(context: Context, book: LibraryBook, callback: Handler? = null) {
+            val intent = Intent(context, javaClass<B2WService>())
+            intent.setAction(ACTION_UPDATE_BOOK)
+            intent.putExtra(EXTRA_BOOK, book)
+            if (callback != null) {
+                intent.putExtra(EXTRA_WAITER, Messenger(callback))
+            }
             context.startService(intent)
         }
     }

@@ -12,7 +12,7 @@ import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.TextView
-import com.backendless.Backendless
+import com.backendless.BackendlessUser
 import org.book2words.MainActivity
 import org.book2words.R
 import org.book2words.services.B2WHandler
@@ -74,8 +74,8 @@ public class LoginFragment : Fragment() {
     private fun login() {
         val login = loginView!!.getText().toString()
         val password = passwordView!!.getText().toString()
-        B2WService.login(getActivity(), "qwerty@qwerty.com", "qwerty", object : B2WHandler<Backendless> () {
-            override fun onResult(success: Boolean, data: Backendless) {
+        B2WService.login(getActivity(), "qwerty@qwerty.com", "qwerty", object : B2WHandler<BackendlessUser> () {
+            override fun onResult(success: Boolean, data: BackendlessUser) {
                 val intent = Intent(getActivity(), javaClass<MainActivity>())
                 startActivity(intent)
             }

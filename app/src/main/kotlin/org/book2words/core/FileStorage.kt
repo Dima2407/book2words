@@ -14,7 +14,7 @@ public class FileStorage {
             return File(root, "${id}${extension}")
         }
 
-        public fun createChapterFile(bookId: Long, chapter: Int, index : Int): File {
+        public fun createChapterFile(bookId: Long, chapter: Int, index: Int): File {
             val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${bookId}")
             root.mkdirs()
 
@@ -50,6 +50,13 @@ public class FileStorage {
                 }
             }
             return ""
+        }
+
+        public fun createDictionaryFile(id: String): File {
+            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}dictionaries")
+            root.mkdirs()
+
+            return File(root, "${id}.dictionary")
         }
     }
 }

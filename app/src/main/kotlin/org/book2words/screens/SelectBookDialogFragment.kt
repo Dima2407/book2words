@@ -1,6 +1,5 @@
 package org.book2words.screens
 
-import android.app.Activity
 import android.app.Fragment
 import android.content.Context
 import android.os.Bundle
@@ -14,14 +13,15 @@ import android.widget.TextView
 import org.book2words.R
 import org.book2words.data.Configs
 import org.book2words.data.ConfigsContext
+import org.book2words.services.LibraryService
 import java.io.File
 
-public class SelectFolderDialogFragment : Fragment() {
+public class SelectBookDialogFragment : Fragment() {
 
     private var directoriesView: ListView? = null
     private var selectedView: EditText? = null
     private var currentRoot: File? = null
-    private var selectedRoot: File? = null
+    private var selectedFile: File? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_root, null)
@@ -30,14 +30,13 @@ public class SelectFolderDialogFragment : Fragment() {
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view!!.findViewById(android.R.id.button1).setOnClickListener({
-            val configs = ConfigsContext.getConfigs(getActivity())
-            configs.setCurrentRoot(selectedRoot!!)
-            getActivity().setResult(Activity.RESULT_OK)
+            if (selectedFile != null) {
+                LibraryService.addBook(getActivity(), selectedFile!!)
+            }
             getActivity().finish()
         })
 
         view!!.findViewById(android.R.id.button2).setOnClickListener({
-            getActivity().setResult(Activity.RESULT_CANCELED)
             getActivity().finish()
         })
 
@@ -45,18 +44,20 @@ public class SelectFolderDialogFragment : Fragment() {
         selectedView = view!!.findViewById(R.id.edit_root) as EditText
         view!!.findViewById(R.id.button_back).setOnClickListener({
             if (Configs.getRelativePath(currentRoot!!) != "/") {
+                selectedFile = null
                 currentRoot = currentRoot!!.getParentFile()
                 updateView()
             }
         })
         directoriesView!!.setOnItemClickListener { adapterView, view, i, l ->
             val item = adapterView.getItemAtPosition(i) as File
-            if (selectedRoot == item) {
-                updateView()
+            if (item.isDirectory()) {
+                currentRoot = item
+                selectedFile = null
             } else {
-                selectedRoot = item
-                selectedView!!.setText(Configs.getRelativePath(selectedRoot!!))
+                selectedFile = item
             }
+            updateView()
         }
     }
 
@@ -64,18 +65,21 @@ public class SelectFolderDialogFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         val configs = ConfigsContext.getConfigs(getActivity())
         currentRoot = configs.getCurrentRoot()
-        selectedRoot = configs.getCurrentRoot()
         updateView()
     }
 
     private fun updateView() {
-        selectedRoot = currentRoot
-        selectedView!!.setText(Configs.getRelativePath(currentRoot!!))
-        val directories = currentRoot!!.listFiles({ file ->
-            file.isDirectory() && !file.isHidden()
-        })
-        val directoriesAdapter = DirectoriesAdapter(getActivity(), directories)
-        directoriesView!!.setAdapter(directoriesAdapter)
+        if (selectedFile != null) {
+            selectedView!!.setText(Configs.getRelativePath(selectedFile!!))
+        } else {
+            selectedView!!.setText(Configs.getRelativePath(currentRoot!!))
+            val directories = currentRoot!!.listFiles({ file ->
+                val ext = file.extension
+                (file.isDirectory() || ext.equals("epub")) && !file.isHidden()
+            })
+            val directoriesAdapter = DirectoriesAdapter(getActivity(), directories)
+            directoriesView!!.setAdapter(directoriesAdapter)
+        }
     }
 
 

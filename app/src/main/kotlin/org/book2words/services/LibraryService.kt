@@ -18,13 +18,8 @@ import org.book2words.data.DataContext
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
-import java.util.TreeSet
-import java.util.concurrent.CountDownLatch
-import java.util.concurrent.Executors
 
 public class LibraryService : IntentService(javaClass<LibraryService>().getSimpleName()) {
-
-    private val bookSyncExecutor = Executors.newFixedThreadPool(4)
 
     private val NOTIFICATION_ID = 100
 
@@ -43,58 +38,29 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
                 val builder = Notification.Builder(this)
                 builder.setSmallIcon(R.drawable.ic_launcher)
-                builder.setContentTitle("Library processing")
+                builder.setContentTitle("Book processing")
                 builder.setProgress(100, 0, true);
                 builder.setContentIntent(pendingIntent)
 
                 startForeground(NOTIFICATION_ID, builder.build());
 
-
                 val path = intent.getStringExtra(EXTRA_ROOT)
-                val books = TreeSet<String>()
-                findUserBooks(File(path), books)
-                clearUserBooks()
-                syncUserBooks(books)
+
+                val libraryBook = LibraryBook()
+
+                prepareBook(libraryBook, path)
+
+                sendBroadcast(Intent(ACTION_PREPARED))
             }
         }
     }
 
-    private fun syncUserBooks(books: Set<String>) {
-        Logger.debug("syncUserBooks() ${books.size()}")
-        val counter = CountDownLatch(books.size() - 1)
-        books.forEach {
-            bookSyncExecutor.submit({
-                prepareBook(it)
-                counter.countDown()
-            })
-        }
-        counter.await()
 
-        Logger.debug("syncUserBooks() - completed ${books.size()}")
-
-        sendBroadcast(Intent(ACTION_PREPARED))
-    }
-
-    private fun findUserBooks(root: File, books: MutableSet<String>) {
-        Logger.debug("findUserBooks() ${root}")
-        val files = root.listFiles {
-            !it.isHidden() && (it.isDirectory() || it.getName().endsWith(".epub"))
-        }
-        files!!.forEach {
-            if (it.isDirectory()) {
-                findUserBooks(it, books)
-            } else {
-                books.add(it.getAbsolutePath())
-            }
-        }
-
-    }
-
-    private fun prepareBook(path: String) {
+    private fun prepareBook(libraryBook: LibraryBook, path: String) {
         Logger.debug("prepareBook() ${path}")
         try {
             val eBook = EpubReader().readEpubLazy(ZipFile(path), "utf-8")
-            val libraryBook = LibraryBook()
+
             libraryBook.setName(eBook.getTitle())
             val authorsString = StringBuilder()
             val authors = eBook.getMetadata().getAuthors()
@@ -140,13 +106,6 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
         }
     }
 
-    private fun clearUserBooks() {
-        Logger.debug("clearUserBooks()")
-        FileStorage.clearCovers()
-        DataContext.getLibraryBookDao(this).deleteAll()
-        sendBroadcast(Intent(ACTION_CLEARED))
-    }
-
     companion object {
 
         public val ACTION_PREPARED: String = "org.book2words.intent.action.PREPARED"
@@ -157,14 +116,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
         private val EXTRA_ROOT = "_root"
 
-        public fun syncBooks(context: Context, path: String) {
-            val intent = Intent(context, javaClass<LibraryService>())
-            intent.setAction(ACTION_SYNC)
-            intent.putExtra(EXTRA_ROOT, path)
-            context.startService(intent)
-        }
-
-        public fun syncBooks(context: Context, path: File) {
+        public fun addBook(context: Context, path: File) {
             val intent = Intent(context, javaClass<LibraryService>())
             intent.setAction(ACTION_SYNC)
             intent.putExtra(EXTRA_ROOT, path.getAbsolutePath())

@@ -9,15 +9,12 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.EditText
 import android.widget.SeekBar
 import android.widget.Switch
 import android.widget.TextView
 import org.book2words.DictionaryActivity
 import org.book2words.R
-import org.book2words.SelectFolderActivity
 import org.book2words.dao.LibraryDictionary
-import org.book2words.data.Configs
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import java.util.ArrayList
@@ -30,7 +27,6 @@ public class DictionarySettingsFragment : Fragment() {
 
     private var paragraphsView: SeekBar? = null
     private var paragraphsSplitView: TextView? = null
-    private var rootView : EditText? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -67,22 +63,15 @@ public class DictionarySettingsFragment : Fragment() {
             }
 
         })
-        rootView = view!!.findViewById(R.id.edit_root) as EditText
-        view!!.findViewById(R.id.button_select).setOnClickListener({
-            startActivityForResult(Intent(getActivity(), javaClass<SelectFolderActivity>()), 0)
-        })
     }
 
     override fun onResume() {
         super.onResume()
-        val configs = ConfigsContext.getConfigs(getActivity())
-        rootView!!.setText(Configs.getRelativePath(configs.getCurrentRoot()))
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         items = DataContext.getLibraryDictionaryDao(this).loadAll()
-        items = DataContext.getUserDictionaries()
         val adapter = LibraryDictionaryAdapter(getActivity(), items)
 
         listView!!.setHasFixedSize(true);

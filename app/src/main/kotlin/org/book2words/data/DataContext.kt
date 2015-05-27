@@ -4,8 +4,10 @@ import android.app.Activity
 import android.app.Application
 import android.app.Fragment
 import android.app.Service
-import org.book2words.dao.*
-import java.util.ArrayList
+import org.book2words.dao.DaoMaster
+import org.book2words.dao.DaoSession
+import org.book2words.dao.LibraryBookDao
+import org.book2words.dao.LibraryDictionaryDao
 
 public class DataContext {
 
@@ -56,15 +58,6 @@ public class DataContext {
 
         public fun getLibraryDictionaryDao<T : Fragment>(context: T): LibraryDictionaryDao {
             return getSession(context).getLibraryDictionaryDao()
-        }
-
-        Deprecated
-        public fun getUserDictionaries(): MutableList<LibraryDictionary> {
-            val items: MutableList<LibraryDictionary> = ArrayList();
-            items.add(LibraryDictionary(0, "The Shinning", true, false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
-            items.add(LibraryDictionary(0, "The Girl", false, false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
-            items.add(LibraryDictionary(0, "The Pet Samatary", false, false, 100, "/storage/sdcard0/Books/user_dictionary.txt"))
-            return items
         }
     }
 }

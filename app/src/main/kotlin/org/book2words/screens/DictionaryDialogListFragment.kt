@@ -28,7 +28,7 @@ public class DictionaryDialogListFragment : DialogFragment() {
                 openSplitActivity()
             }
         })
-        val dictionaries = DataContext.getUserDictionaries()
+        val dictionaries = DataContext.getLibraryDictionaryDao(getActivity()).loadAll()
         val marks = BooleanArray(dictionaries.size())
         val items = Array(dictionaries.size(), {
             marks.set(it, dictionaries.get(it).getUse())

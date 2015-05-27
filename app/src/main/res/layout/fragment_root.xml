@@ -24,7 +24,10 @@
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:editable="false"
-                android:layout_weight="1"/>
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:lines="1"/>
     </LinearLayout>
 
     <ListView

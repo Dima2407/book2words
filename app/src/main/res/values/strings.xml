@@ -12,7 +12,7 @@
     <string name="action_read">read</string>
     <string name="dialog_dictionaries_message">Выберите словарь который можно использовать для распознавания слов в книге</string>
     <string name="unknown">Unknown</string>
-    <string name="action_sync">SYNC</string>
+    <string name="action_sync">Add</string>
     <string name="button_save">Save</string>
     <string name="use">Use</string>
     <string name="skip">Skip</string>

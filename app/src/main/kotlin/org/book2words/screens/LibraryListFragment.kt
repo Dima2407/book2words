@@ -15,9 +15,9 @@ import android.widget.TextView
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
 import org.book2words.ReaderActivity
+import org.book2words.SelectFolderActivity
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
-import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.services.LibraryService
 
@@ -29,9 +29,6 @@ public class LibraryListFragment : ListFragment() {
         override fun onReceive(context: Context, intent: Intent) {
             val action = intent.getAction()
             when (action) {
-                LibraryService.ACTION_CLEARED -> {
-                    clearData()
-                }
                 LibraryService.ACTION_PREPARED -> {
                     loadData()
                 }
@@ -39,11 +36,8 @@ public class LibraryListFragment : ListFragment() {
         }
     }
 
-    private fun clearData() {
-        adapter!!.clear()
-    }
-
     private fun loadData() {
+        adapter!!.clear()
         val items = DataContext.getLibraryBookDao(this).loadAll()
         adapter!!.addAll(items)
     }
@@ -64,12 +58,17 @@ public class LibraryListFragment : ListFragment() {
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
         val book = l!!.getItemAtPosition(position) as LibraryBook
         if (book.getAdapted()) {
-            val intent = Intent(getActivity(), javaClass<ReaderActivity>())
-            intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
-            startActivityForResult(intent, 0)
+            if(book.getRead()){
+                val intent = Intent(getActivity(), javaClass<ReaderActivity>())
+                intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
+                startActivityForResult(intent, 0)
+            } else {
+                val fragment = DictionaryCreateDialogFragment.create(book)
+                fragment.show(getFragmentManager(), "fragment:dictionary_create")
+            }
         } else {
             val fragment = DictionaryDialogListFragment.create(book)
-            fragment.show(getFragmentManager(), "dialog")
+            fragment.show(getFragmentManager(), "fragment:dictionary_list")
         }
     }
 
@@ -79,17 +78,14 @@ public class LibraryListFragment : ListFragment() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if (item!!.getItemId() == R.id.action_sync) {
-            val configs = ConfigsContext.getConfigs(getActivity())
-            LibraryService.syncBooks(getActivity(), configs.getCurrentRoot())
+        if (item!!.getItemId() == R.id.action_add) {
+            startActivityForResult(Intent(getActivity(), javaClass<SelectFolderActivity>()), 0)
             return true;
         }
         return super.onOptionsItemSelected(item)
     }
 
     companion object {
-
-        private val DIRECTORY_ROOT_KEY = "dir_root"
 
         public fun create(): Fragment {
             val fragment = LibraryListFragment()
@@ -121,10 +117,17 @@ public class LibraryListFragment : ListFragment() {
             }
             val titleView = view!!.findViewById(R.id.text_title) as TextView
             val authorsView = view!!.findViewById(R.id.text_author) as TextView
+            val wordsView = view!!.findViewById(R.id.text_words) as TextView
 
             val coverView = view!!.findViewById(R.id.image_cover) as ImageView
 
             val item = getItem(position);
+            if(item.getAdapted()){
+                wordsView.setVisibility(View.VISIBLE)
+                wordsView.setText("${item.getUnknownWords()} / ${item.getAllWords()}")
+            }else{
+                wordsView.setVisibility(View.GONE)
+            }
             val coverUri = FileStorage.imageCoverUri(item.getId())
 
             ImageLoader.getInstance().displayImage(coverUri, coverView);

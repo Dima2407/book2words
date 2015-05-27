@@ -11,8 +11,11 @@ public class TextSplitter private () {
 
     private val capitals = LinkedHashSet<String>();
 
+    private val partitions = LinkedHashSet<String>();
+
     public val words: MutableSet<Word> = LinkedHashSet();
-    private var size = 0;
+
+    private var allWordsCount = 0;
 
     public fun findCapital(text: String) {
         val wordPattern = Patterns.CAPITAL_WORD;
@@ -21,6 +24,7 @@ public class TextSplitter private () {
         while (matcher.find(offset)) {
             offset = matcher.start(1);
             capitals.add(matcher.group(1).toLowerCase());
+            allWordsCount++
         }
         Logger.debug("capitals = ${capitals.size()}")
 
@@ -44,11 +48,13 @@ public class TextSplitter private () {
                     word = Word(w)
                     words.add(word as Word)
                 }
-                word!!.addParagraph(i % paragraphs, key, i / paragraphs, start, end)
+                val partition = "${key}-${i / paragraphs}"
+                partitions.add(partition)
+                word!!.addParagraph(i % paragraphs, partition, start, end)
+                allWordsCount++
             }
         }
         Logger.debug("words = ${words.size()}");
-        size++
     }
 
     public fun clearCapital() {
@@ -79,12 +85,6 @@ public class TextSplitter private () {
         }
     }
 
-    public fun clearWords(words: Set<String>) {
-        clear {
-            words.contains(it.toLowerCase())
-        }
-    }
-
     private fun clear(condition: (input: String) -> Boolean) {
         Logger.debug("clear ${words.size()}")
         val iterator = words.iterator()
@@ -101,7 +101,8 @@ public class TextSplitter private () {
     public fun release() {
         words.clear()
         capitals.clear()
-        size = 0
+        partitions.clear()
+        allWordsCount = 0
     }
 
     companion object {
@@ -122,7 +123,19 @@ public class TextSplitter private () {
         }
     }
 
-    public fun size(): Int {
-        return size
+    public fun getAllFoundWordsCount(): Int {
+        return allWordsCount
+    }
+
+    public fun getUniqueWordsCount(): Int {
+        return capitals.size() + words.size()
+    }
+
+    fun getUnknownWordsCount(): Int {
+        return words.size()
+    }
+
+    fun getPartitionsCount(): Int {
+        return partitions.size()
     }
 }

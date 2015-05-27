@@ -3,7 +3,6 @@ package org.book2words.models.book
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 import java.util.ArrayList
-import java.util.TreeSet
 
 public class Word(value: String) : Comparable<Word>, Serializable {
     SerializedName("p")
@@ -19,8 +18,8 @@ public class Word(value: String) : Comparable<Word>, Serializable {
         return value.compareTo(other.value.toLowerCase())
     }
 
-    public fun addParagraph(index :Int, chapter: Int, section: Int, start: Int, end : Int) {
-        paragraphs.add(Paragraph(index, "${chapter}-${section}", start, end ))
+    public fun addParagraph(index :Int, partition: String, start: Int, end : Int) {
+        paragraphs.add(Paragraph(index, partition, start, end ))
     }
 
     override fun toString(): String {

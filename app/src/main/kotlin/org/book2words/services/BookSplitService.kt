@@ -11,6 +11,7 @@ import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
+import org.book2words.dao.LibraryDictionaryDao
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
@@ -76,17 +77,25 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
         val textSplitter = TextSplitter.getInstance()
 
+        book.setAdapted(true)
+        book.setAllWords(textSplitter.getAllFoundWordsCount())
+        book.setUniqueWords(textSplitter.getUniqueWordsCount())
+
+        book.setCurrentPartition(1)
+        book.setCountPartitions(textSplitter.getPartitionsCount())
+
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
         textSplitter.clearWidelyUsed(getResources().getStringArray(R.array.widely_worlds))
         textSplitter.clearWithDuplicates()
 
-        val dictionaries = DataContext.getUserDictionaries()
+        val dictionaries = DataContext.getLibraryDictionaryDao(this)
+                .queryBuilder()
+                .where(LibraryDictionaryDao.Properties.Use.eq(true))
+                .list()
 
         dictionaries.forEach {
-            if (it.getUse()) {
-                textSplitter.clearFromDictionary(File(it.getPath()))
-            }
+            textSplitter.clearFromDictionary(it.getPath())
         }
 
         val file = FileStorage.createWordsFile(book.getId());
@@ -99,13 +108,13 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
         Logger.debug("stopBook(${book.getId()})", TAG)
 
-        book.setAdapted(true)
-        book.setCurrentChapter(1)
-        book.setCountChapter(textSplitter.size())
+        book.setUnknownWords(textSplitter.getUnknownWordsCount())
 
         textSplitter.release()
 
         DataContext.getLibraryBookDao(this).update(book)
+
+        sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
     }
 
     private fun startBook(book: LibraryBook) {

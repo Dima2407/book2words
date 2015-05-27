@@ -18,6 +18,10 @@ public class Logger {
             Log.i(TAG, message)
         }
 
+        public fun error(message: String) {
+            Log.e(TAG, message, null)
+        }
+
         public fun error(e: Throwable) {
             error("", e)
         }
