@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.widget.EditText
 import org.book2words.R
 import org.book2words.dao.LibraryBook
-import org.book2words.services.B2WService
+import org.book2words.services.net.B2WService
 
 public class DictionaryCreateDialogFragment : DialogFragment() {
 

@@ -1,4 +1,4 @@
-package org.book2words.services
+package org.book2words.services.net
 
 import android.os.Handler
 import android.os.Message

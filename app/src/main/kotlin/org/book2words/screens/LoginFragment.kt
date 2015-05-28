@@ -15,8 +15,8 @@ import android.widget.TextView
 import com.backendless.BackendlessUser
 import org.book2words.MainActivity
 import org.book2words.R
-import org.book2words.services.B2WHandler
-import org.book2words.services.B2WService
+import org.book2words.services.net.B2WHandler
+import org.book2words.services.net.B2WService
 
 public class LoginFragment : Fragment() {
 

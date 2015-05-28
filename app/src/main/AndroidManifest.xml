@@ -54,7 +54,7 @@
 
         <service android:name="com.backendless.AndroidService" />
 
-        <service android:name=".services.B2WService"/>
+        <service android:name=".services.net.B2WService"/>
     </application>
 
 </manifest>

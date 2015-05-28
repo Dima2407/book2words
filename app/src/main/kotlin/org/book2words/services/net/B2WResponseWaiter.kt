@@ -1,4 +1,4 @@
-package org.book2words.services
+package org.book2words.services.net
 
 public trait B2WResponseWaiter<T> {
 

@@ -20,8 +20,8 @@ import org.book2words.SplitActivity
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
-import org.book2words.services.B2WService
 import org.book2words.services.LibraryService
+import org.book2words.services.net.B2WService
 
 public class LibraryListFragment : ListFragment() {
 

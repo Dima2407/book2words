@@ -6,8 +6,8 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import org.book2words.screens.LoginFragment;
-import org.book2words.services.B2WHandler;
-import org.book2words.services.B2WService;
+import org.book2words.services.net.B2WHandler;
+import org.book2words.services.net.B2WService;
 
 
 public class SplashActivity extends Activity {

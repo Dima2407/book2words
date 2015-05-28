@@ -17,7 +17,7 @@ import org.book2words.R
 import org.book2words.dao.LibraryDictionary
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
-import org.book2words.services.B2WService
+import org.book2words.services.net.B2WService
 import java.util.ArrayList
 
 public class DictionarySettingsFragment : Fragment() {
