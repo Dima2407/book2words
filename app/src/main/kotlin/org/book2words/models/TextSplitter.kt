@@ -111,15 +111,17 @@ public class TextSplitter private () {
     }
 
     public fun clearFromDictionary(path: File) {
-        val bos = FileInputStream(path).reader(Charsets.UTF_8).buffered()
-        val words = TreeSet<String>()
-        bos.forEachLine {
-            words.add(it.toLowerCase())
-        }
-        bos.close()
+        if (path.exists()) {
+            val bos = FileInputStream(path).reader(Charsets.UTF_8).buffered()
+            val words = TreeSet<String>()
+            bos.forEachLine {
+                words.add(it.toLowerCase())
+            }
+            bos.close()
 
-        clear {
-            words.contains(it.toLowerCase())
+            clear {
+                words.contains(it.toLowerCase())
+            }
         }
     }
 

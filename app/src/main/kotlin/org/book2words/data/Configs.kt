@@ -42,6 +42,8 @@ public class Configs (private val preferences: SharedPreferences) {
         private val MAX_PARAGRAPHS_IN_STEP = "_max_paragraphs_in_step"
         private val CURRENT_PARAGRAPHS_IN_STEP = "_current_paragraphs_in_step"
         private val CURRENT_ROOT = "_current_root"
+        private val CURRENT_USER_ID = "_current_user_id"
+
 
         public fun getRelativePath(file: File): String {
             val storageDirectory = Environment.getExternalStorageDirectory().getAbsolutePath()
@@ -49,5 +51,15 @@ public class Configs (private val preferences: SharedPreferences) {
             val path = root.substring(storageDirectory.length())
             return if (path.length() == 0) "/" else path
         }
+    }
+
+
+    fun setUserId(objectId: String) {
+        preferences.edit()
+                .putString(CURRENT_USER_ID, objectId).commit()
+    }
+
+    fun getUserId(): String {
+        return preferences.getString(CURRENT_USER_ID, "4AD0BA02-B8CF-29F6-FFC9-AF57765C5A00")
     }
 }

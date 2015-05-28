@@ -16,9 +16,11 @@ import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
 import org.book2words.ReaderActivity
 import org.book2words.SelectFolderActivity
+import org.book2words.SplitActivity
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
+import org.book2words.services.B2WService
 import org.book2words.services.LibraryService
 
 public class LibraryListFragment : ListFragment() {
@@ -57,19 +59,25 @@ public class LibraryListFragment : ListFragment() {
 
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
         val book = l!!.getItemAtPosition(position) as LibraryBook
-        if (book.getAdapted()) {
-            if(book.getRead()){
-                val intent = Intent(getActivity(), javaClass<ReaderActivity>())
-                intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
-                startActivityForResult(intent, 0)
-            } else {
-                val fragment = DictionaryCreateDialogFragment.create(book)
-                fragment.show(getFragmentManager(), "fragment:dictionary_create")
-            }
-        } else {
-            val fragment = DictionaryDialogListFragment.create(book)
-            fragment.show(getFragmentManager(), "fragment:dictionary_list")
-        }
+        //if (book.getAdapted()) {
+         //   openReadActivity(book)
+        //} else {
+            val dictionaryTitle = "${book.getName()} - ${book.getAuthors()}"
+            B2WService.addDictionary(getActivity(), dictionaryTitle)
+            openSplitActivity(book)
+        //}
+    }
+
+    private fun openReadActivity(book: LibraryBook) {
+        val intent = Intent(getActivity(), javaClass<ReaderActivity>())
+        intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
+        startActivityForResult(intent, 0)
+    }
+
+    private fun openSplitActivity(book: LibraryBook) {
+        val intent = Intent(getActivity(), javaClass<SplitActivity>())
+        intent.putExtra(SplitActivity.EXTRA_BOOK, book)
+        startActivity(intent)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
@@ -122,10 +130,10 @@ public class LibraryListFragment : ListFragment() {
             val coverView = view!!.findViewById(R.id.image_cover) as ImageView
 
             val item = getItem(position);
-            if(item.getAdapted()){
+            if (item.getAdapted()) {
                 wordsView.setVisibility(View.VISIBLE)
                 wordsView.setText("${item.getUnknownWords()} / ${item.getAllWords()}")
-            }else{
+            } else {
                 wordsView.setVisibility(View.GONE)
             }
             val coverUri = FileStorage.imageCoverUri(item.getId())

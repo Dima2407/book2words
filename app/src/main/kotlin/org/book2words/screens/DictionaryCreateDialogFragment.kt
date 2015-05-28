@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.widget.EditText
 import org.book2words.R
 import org.book2words.dao.LibraryBook
-import org.book2words.dao.LibraryDictionary
 import org.book2words.services.B2WService
 
 public class DictionaryCreateDialogFragment : DialogFragment() {
@@ -27,14 +26,11 @@ public class DictionaryCreateDialogFragment : DialogFragment() {
         });
         builder.setPositiveButton(android.R.string.yes, object : DialogInterface.OnClickListener {
             override fun onClick(dialog: DialogInterface, which: Int) {
-                book.setRead(true)
-
                 B2WService.updateBook(getActivity(), book)
 
                 val dictionaryTitle = editText.getText().toString()
 
-                val dictionary = LibraryDictionary(dictionaryTitle)
-                B2WService.addDictionary(getActivity(), dictionary)
+                B2WService.addDictionary(getActivity(), dictionaryTitle)
             }
         })
         builder.setView(editText)

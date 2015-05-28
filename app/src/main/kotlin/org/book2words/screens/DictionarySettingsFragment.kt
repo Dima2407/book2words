@@ -17,6 +17,7 @@ import org.book2words.R
 import org.book2words.dao.LibraryDictionary
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
+import org.book2words.services.B2WService
 import java.util.ArrayList
 
 public class DictionarySettingsFragment : Fragment() {
@@ -71,6 +72,7 @@ public class DictionarySettingsFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        B2WService.loadDictionaries(getActivity())
         items = DataContext.getLibraryDictionaryDao(this).loadAll()
         val adapter = LibraryDictionaryAdapter(getActivity(), items)
 
