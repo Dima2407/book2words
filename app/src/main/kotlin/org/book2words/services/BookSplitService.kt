@@ -15,8 +15,6 @@ import org.book2words.dao.LibraryDictionaryDao
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
-import java.io.BufferedWriter
-import java.io.File
 import java.io.FileOutputStream
 
 public class BookSplitService : IntentService(javaClass<BookSplitService>().getSimpleName()) {
@@ -64,8 +62,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
                     builder.setContentTitle("Processing ${index} chapter")
                     startForeground(NOTIFICATION_ID, builder.build());
 
-                    saveText(id, index, text)
-                    splitText(index, text)
+                    splitText(id, index, text)
                 }
 
             }
@@ -77,7 +74,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
         val textSplitter = TextSplitter.getInstance()
 
-        book.setAdapted(true)
+        book.setAdapted(LibraryBook.ADAPTED)
         book.setAllWords(textSplitter.getAllFoundWordsCount())
         book.setUniqueWords(textSplitter.getUniqueWordsCount())
 
@@ -119,38 +116,36 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
     private fun startBook(book: LibraryBook) {
         Logger.debug("startBook(${book.getId()})", TAG)
+        book.setAdapted(LibraryBook.ADAPTING)
+
+        DataContext.getLibraryBookDao(this).update(book)
+
+        sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
+
+        FileStorage.clearBook(book.getId())
         TextSplitter.getInstance().release()
     }
 
-    private fun saveText(id: Long, index: Int, text: String) {
-        Logger.debug("saveText(${index}) - ${id}", TAG)
-        val parts = text.split("\n+");
-        var file: File?;
-        var bos: BufferedWriter? = null;
-        val configs = ConfigsContext.getConfigs(this)
-        parts.forEachIndexed { i, paragraph ->
-            if (i % configs.getParagraphsInStep() == 0) {
-                if (bos != null) {
-                    bos!!.close()
-                }
-                file = FileStorage.createChapterFile(id, index, i / configs.getParagraphsInStep());
-                bos = FileOutputStream(file).writer(Charsets.UTF_8).buffered()
-            }
-            bos!!.write(paragraph)
-            bos!!.newLine()
-            bos!!.flush()
-        }
-        if (bos != null) {
-            bos!!.close()
-        }
-    }
-
-    private fun splitText(index: Int, text: String) {
+    private fun splitText(id: Long, index: Int, text: String) {
         Logger.debug("splitText(${index})", TAG)
         val textSplitter = TextSplitter.getInstance()
         textSplitter.findCapital(text)
         val configs = ConfigsContext.getConfigs(this)
-        textSplitter.split(index, text, configs.getCurrentParagraphsInStep());
+        val partitions = textSplitter.toPartitions(index, text, configs.getCurrentParagraphsInStep())
+        partitions.forEach {
+            val partition = it.getValue()
+            textSplitter.split(partition)
+
+            val file = FileStorage.createChapterFile(id, textSplitter.getPartitionsCount())
+            val bos = FileOutputStream(file).writer(Charsets.UTF_8).buffered()
+            partition.forEach {
+                bos.write(it)
+                bos.newLine()
+                bos.flush()
+            }
+            bos.close()
+        }
+
     }
 
     companion object {

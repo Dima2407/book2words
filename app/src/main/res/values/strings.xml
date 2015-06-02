@@ -22,4 +22,6 @@
     <string name="select">Select</string>
     <string name="pars_in_parts">Paragraphs in partition</string>
     <string name="back">Up</string>
+    <string name="prev">Previous</string>
+    <string name="next">Next</string>
 </resources>

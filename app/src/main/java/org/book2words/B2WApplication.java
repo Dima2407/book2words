@@ -10,9 +10,10 @@ import org.book2words.data.*;
 import org.jetbrains.annotations.NotNull;
 
 
-public class B2WApplication extends Application implements DaoHolder, ConfigsHolder {
+public class B2WApplication extends Application implements DaoHolder, PreferenceHolder {
     private DaoSession daoSession;
     private Configs configs;
+    private CacheDictionary dictionary;
 
     @Override
     public void onCreate() {
@@ -28,6 +29,7 @@ public class B2WApplication extends Application implements DaoHolder, ConfigsHol
 
         DataContext.Companion.setup(this);
         configs = ConfigsContext.Companion.setup(this);
+        dictionary = DictionaryContext.Companion.setup(this);
     }
 
     @Override
@@ -45,5 +47,11 @@ public class B2WApplication extends Application implements DaoHolder, ConfigsHol
     @Override
     public Configs getConfigs() {
         return configs;
+    }
+
+    @NotNull
+    @Override
+    public CacheDictionary getDictionary() {
+        return dictionary;
     }
 }

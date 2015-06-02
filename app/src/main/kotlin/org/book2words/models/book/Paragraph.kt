@@ -5,7 +5,7 @@ import java.io.Serializable
 
 public class Paragraph(
         SerializedName("i") val index: Int,
-        SerializedName("k") val key: String,
+        SerializedName("k") val key: Int,
         SerializedName("s") val start: Int,
         SerializedName("e") val end: Int) : Serializable {
 

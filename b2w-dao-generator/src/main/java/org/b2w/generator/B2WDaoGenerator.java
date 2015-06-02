@@ -7,14 +7,14 @@ import de.greenrobot.daogenerator.Schema;
 
 public class B2WDaoGenerator {
     public static void main(String[] args) throws Exception {
-        Schema schema = new Schema(9, "org.book2words.dao");
+        Schema schema = new Schema(11, "org.book2words.dao");
         schema.enableKeepSectionsByDefault();
 
         Entity book = schema.addEntity("LibraryBook");
         book.addIdProperty();
         book.addStringProperty("name").notNull();
         book.addStringProperty("authors").notNull();
-        book.addBooleanProperty("adapted").notNull();
+        book.addIntProperty("adapted").notNull();
         book.addIntProperty("currentPartition").notNull();
         book.addIntProperty("countPartitions").notNull();
         book.addIntProperty("allWords").notNull();

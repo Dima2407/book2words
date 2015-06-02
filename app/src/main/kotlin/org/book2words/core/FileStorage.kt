@@ -14,18 +14,28 @@ public class FileStorage {
             return File(root, "${id}${extension}")
         }
 
-        public fun createChapterFile(bookId: Long, chapter: Int, index: Int): File {
+        public fun createChapterFile(bookId: Long, index: Int): File {
             val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${bookId}")
             root.mkdirs()
 
-            return File(root, "${chapter}-${index}.chapter")
+            return File(root, "${index}.partition")
         }
 
-        public fun createWordsFile(id: Long): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${id}")
+        public fun createWordsFile(bookId: Long): File {
+            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${bookId}")
             root.mkdirs()
 
             return File(root, "book.words")
+        }
+
+        public fun clearBook(bookId: Long) {
+            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}books${File.separator}${bookId}")
+
+            if (root.exists()) {
+                root.listFiles().forEach {
+                    it.delete()
+                }
+            }
         }
 
         public fun clearCovers() {
@@ -57,6 +67,20 @@ public class FileStorage {
             root.mkdirs()
 
             return File(root, "${id}.dictionary")
+        }
+
+        public fun deleteCover(id: Long) {
+            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}covers")
+            root.mkdirs()
+            val pattern = "${id}\\.(png|jpg)"
+            var files = root.listFiles({ file, name ->
+                name.matches(pattern)
+            })
+            if (files != null) {
+                files.forEach {
+                    it.delete()
+                }
+            }
         }
     }
 }

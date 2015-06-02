@@ -11,6 +11,7 @@ import com.google.gson.reflect.TypeToken
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
+import org.book2words.data.DictionaryContext
 import org.book2words.models.book.ParagraphAdapted
 import org.book2words.models.book.Word
 import org.book2words.models.book.WordAdapted
@@ -25,42 +26,47 @@ import java.util.concurrent.Executors
 public class BookReadService : Service() {
 
     override fun onBind(intent: Intent): IBinder? {
-        return BookReaderBinder()
+        return BookReaderBinder(this)
     }
 
-    public class BookReaderBinder : Binder() {
+    public class BookReaderBinder(private val service: Service) : Binder() {
 
         private val handler = Handler()
 
         private val executor = Executors.newSingleThreadExecutor()
 
-        public fun take(book: LibraryBook, callback: (paragraphs: List<ParagraphAdapted>, words: List<Word>) -> Unit) {
+        private var words: MutableList<Word>? = null
 
+        public fun prepare(book: LibraryBook, callback: () -> Unit) {
             executor.execute({
                 var file = FileStorage.createWordsFile(book.getId());
                 val bos = FileInputStream(file).buffered().reader("UTF-8")
                 val serializer = Gson()
-                val words = serializer.fromJson<List<Word>>(bos,
-                        object : TypeToken<List<Word>>() {}.getType())
+                words = serializer.fromJson<MutableList<Word>>(bos,
+                        object : TypeToken<MutableList<Word>>() {}.getType())
                 bos.close()
 
-                val chapter = 7
+                handler.post({
+                    callback()
+                })
+            })
+        }
 
-                val section = 1
+        public fun take(bookId: Long, partition: Int, callback: (paragraphs: List<ParagraphAdapted>, words: List<Word>) -> Unit) {
 
-                val chapterId = "${chapter}-${section}"
+            executor.execute({
 
-                Logger.debug("words = ${chapter} - ${words.size()}")
+                Logger.debug("words = ${partition} - ${words!!.size()}")
 
-                val ws = words.filter {
+                val ws = words!!.filter {
                     it.paragraphs.any {
-                        it.key == chapterId
+                        it.key == partition
                     }
                 }
 
-                Logger.debug("words = ${chapter} - ${ws.size()}")
+                Logger.debug("words = ${partition} - ${ws.size()}")
 
-                file = FileStorage.createChapterFile(book.getId(), chapter, section)
+                val file = FileStorage.createChapterFile(bookId, partition)
                 val stream = FileInputStream(file).reader("utf-8").buffered()
                 val pars = ArrayList<ParagraphAdapted>()
                 var index = 0
@@ -70,7 +76,7 @@ public class BookReadService : Service() {
 
                     ws.forEach {
                         Logger.debug("word(${index})- ${it}")
-                        paragraph.modify(index, chapterId, it)
+                        paragraph.modify(index, partition, it)
                     }
 
                     pars.add(paragraph)
@@ -113,7 +119,8 @@ public class BookReadService : Service() {
         }
 
         public fun translate(word: String, onTranslated: (input: String, result: DictionaryResult?) -> Unit) {
-            val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, "en", "ru")
+            val cacheDictionary = DictionaryContext.getConfigs(service)
+            val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, "en", "ru")
             translateProvider.translate(word, { input, result ->
                 handler.post({
                     onTranslated(input, result)
@@ -121,12 +128,12 @@ public class BookReadService : Service() {
             })
         }
 
-        public fun addToDictionary(word: String) {
+        public fun addToDictionary(word: WordAdapted) {
 
         }
 
         public fun remove(word: WordAdapted) {
-
+            words!!.remove(word)
         }
     }
 }

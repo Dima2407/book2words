@@ -37,7 +37,7 @@ public class CreateDictionaryCommand(private val configs: Configs, private val c
             override fun handleResponse(p0: BackendlessCollection<LibraryDictionary>?) {
                 Logger.debug("handleResponse() - ${p0!!.getData().size()}", TAG)
                 if (p0.getData().isNotEmpty()) {
-                    DataContext.getLibraryDictionaryDao(context).insertOrIgnoreInTx(p0!!.getData())
+                    DataContext.getLibraryDictionaryDao(context).insertOrIgnoreInTx(p0.getData())
                     if(callback != null){
                         B2WHandler.sendSuccess(callback, p0.getData())
                     }
@@ -50,7 +50,7 @@ public class CreateDictionaryCommand(private val configs: Configs, private val c
                         override fun handleResponse(p0: LibraryDictionary.Builder?) {
                             Logger.debug("handleResponse() - ${p0!!.getName()}", TAG)
                             DataContext.getLibraryDictionaryDao(context)
-                                    .insertOrReplace(p0!!.build())
+                                    .insertOrReplace(p0.build())
                             if(callback != null){
                                 val list = ArrayList<LibraryDictionary>()
                                 list.add(p0.build())

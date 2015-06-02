@@ -30,7 +30,7 @@ public class ParagraphAdapted(val original: String) : Serializable {
         return adapted
     }
 
-    public fun modify(pIndex: Int, chapterId: String, word: Word) {
+    public fun modify(pIndex: Int, chapterId: Int, word: Word) {
         val color = colors[words.size()]
         val words = word.paragraphs.filter {
             pIndex == it.index && chapterId == it.key
@@ -38,8 +38,20 @@ public class ParagraphAdapted(val original: String) : Serializable {
         words.forEach {
             val start = it.start
             val end = it.end
-            adapted.setSpan(BackgroundColorSpan(color), start + 1, end + 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-            this.words.add(WordAdapted(start, word.value, color))
+            adapted.setSpan(BackgroundColorSpan(color), start + 1, end + 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            this.words.add(WordAdapted(start, end, word.value, color))
+        }
+    }
+
+    public fun removeWord(word: WordAdapted) {
+        val removed = words.remove(word)
+        if (removed) {
+            adapted.clearSpans()
+            words.forEach {
+                val start = it.start
+                val end = it.end
+                adapted.setSpan(BackgroundColorSpan(it.color), start + 1, end + 1, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            }
         }
     }
 

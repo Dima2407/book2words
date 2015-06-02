@@ -1,21 +1,24 @@
 package org.book2words.models
 
 import org.book2words.core.Logger
+import org.book2words.models.book.Partition
 import org.book2words.models.book.Word
 import java.io.File
 import java.io.FileInputStream
 import java.util.LinkedHashSet
+import java.util.TreeMap
 import java.util.TreeSet
+import java.util.regex.Pattern
 
-public class TextSplitter private () {
+public class TextSplitter private constructor() {
 
-    private val capitals = LinkedHashSet<String>();
+    private val capitals = LinkedHashSet<String>()
 
-    private val partitions = LinkedHashSet<String>();
+    public val words: MutableSet<Word> = LinkedHashSet()
 
-    public val words: MutableSet<Word> = LinkedHashSet();
+    private var allWordsCount = 0
 
-    private var allWordsCount = 0;
+    private var partitions = 0
 
     public fun findCapital(text: String) {
         val wordPattern = Patterns.CAPITAL_WORD;
@@ -27,16 +30,30 @@ public class TextSplitter private () {
             allWordsCount++
         }
         Logger.debug("capitals = ${capitals.size()}")
-
     }
 
-    public fun split(key: Int, text: String, paragraphs: Int) {
-        Logger.debug("split chapter ${key}")
-        val wordPattern = Patterns.WORD;
+    public fun toPartitions(key: Int, text: String, partitionSize: Int): TreeMap<String, Partition> {
 
-        val parts = text.split("\n+");
-        parts.forEachIndexed { i, item ->
-            val matcher = wordPattern.matcher(item);
+        Logger.debug("split chapter ${key}")
+
+        val paragraphs = text.split(Pattern.compile("\n+"))
+        val partitions = TreeMap<String, Partition>()
+        paragraphs.forEachIndexed { i, item ->
+            val p = "${key}-${i / partitionSize}"
+            val partition = partitions.getOrPut<String, Partition>(p, {
+                Partition(p)
+            })
+            partition.add(item)
+        }
+        Logger.debug("chapter ${key} - contains ${partitions.size()} partitions")
+        return partitions
+    }
+
+    public fun split(partition: Partition) {
+        val wordPattern = Patterns.WORD
+        partitions++
+        partition.forEachIndexed { i, item ->
+            val matcher = wordPattern.matcher(item)
             while (matcher.find()) {
                 val w = matcher.group(1)
                 val start = matcher.start(1)
@@ -48,9 +65,7 @@ public class TextSplitter private () {
                     word = Word(w)
                     words.add(word as Word)
                 }
-                val partition = "${key}-${i / paragraphs}"
-                partitions.add(partition)
-                word!!.addParagraph(i % paragraphs, partition, start, end)
+                word!!.addParagraph(i, partitions, start, end)
                 allWordsCount++
             }
         }
@@ -101,7 +116,7 @@ public class TextSplitter private () {
     public fun release() {
         words.clear()
         capitals.clear()
-        partitions.clear()
+        partitions = 0
         allWordsCount = 0
     }
 
@@ -133,11 +148,11 @@ public class TextSplitter private () {
         return capitals.size() + words.size()
     }
 
-    fun getUnknownWordsCount(): Int {
+    public fun getUnknownWordsCount(): Int {
         return words.size()
     }
 
-    fun getPartitionsCount(): Int {
-        return partitions.size()
+    public fun getPartitionsCount(): Int {
+        return partitions
     }
 }

@@ -14,9 +14,9 @@ import android.widget.ListView
 import android.widget.TextView
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
-import org.book2words.ReaderActivity
 import org.book2words.SelectFolderActivity
 import org.book2words.SplitActivity
+import org.book2words.activities.ReaderActivity
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
@@ -59,13 +59,13 @@ public class LibraryListFragment : ListFragment() {
 
     override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
         val book = l!!.getItemAtPosition(position) as LibraryBook
-        //if (book.getAdapted()) {
-         //   openReadActivity(book)
-        //} else {
+        if (book.getAdapted() == LibraryBook.ADAPTED) {
+            openReadActivity(book)
+        } else if(book.getAdapted() == LibraryBook.NONE){
             val dictionaryTitle = "${book.getName()} - ${book.getAuthors()}"
             B2WService.addDictionary(getActivity(), dictionaryTitle)
             openSplitActivity(book)
-        //}
+        }
     }
 
     private fun openReadActivity(book: LibraryBook) {
@@ -124,13 +124,13 @@ public class LibraryListFragment : ListFragment() {
                 view = View.inflate(getContext(), R.layout.list_item_book, null);
             }
             val titleView = view!!.findViewById(R.id.text_title) as TextView
-            val authorsView = view!!.findViewById(R.id.text_author) as TextView
-            val wordsView = view!!.findViewById(R.id.text_words) as TextView
+            val authorsView = view.findViewById(R.id.text_author) as TextView
+            val wordsView = view.findViewById(R.id.text_words) as TextView
 
-            val coverView = view!!.findViewById(R.id.image_cover) as ImageView
+            val coverView = view.findViewById(R.id.image_cover) as ImageView
 
             val item = getItem(position);
-            if (item.getAdapted()) {
+            if (item.getAdapted() == LibraryBook.ADAPTED) {
                 wordsView.setVisibility(View.VISIBLE)
                 wordsView.setText("${item.getUnknownWords()} / ${item.getAllWords()}")
             } else {

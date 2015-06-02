@@ -1,46 +1,27 @@
 package org.book2words.screens
 
 import android.app.Fragment
-import android.content.ComponentName
 import android.content.Context
-import android.content.Intent
-import android.content.ServiceConnection
 import android.os.Bundle
-import android.os.IBinder
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import org.book2words.R
-import org.book2words.dao.LibraryBook
+import org.book2words.activities.ReaderScreen
 import org.book2words.models.book.ParagraphAdapted
-import org.book2words.screens.ui.DefinitionView
+import org.book2words.models.book.WordAdapted
+import org.book2words.screens.ui.WordView
 import org.book2words.services.BookReadService
 
 public class BookReadFragment : Fragment() {
 
-    private var reader: BookReadService.BookReaderBinder ? = null
-
-    private val connection = object : ServiceConnection {
-
-        override public fun onServiceConnected(className: ComponentName, service: IBinder) {
-            reader = service as BookReadService.BookReaderBinder
-            bound = true;
-            read()
-        }
-
-        override public fun onServiceDisconnected(arg0: ComponentName) {
-            bound = false;
-        }
-    }
-
-    private var bound = false
-    private var book: LibraryBook? = null;
-    private var listView: RecyclerView? = null;
-
+    private var listView: RecyclerView? = null
+    private var progressView : View? = null
+    private var id: Long = -1
+    private var index: Int = -1
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_read, null);
@@ -48,45 +29,43 @@ public class BookReadFragment : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listView = view!!.findViewById(android.R.id.list) as RecyclerView;
-    }
-
-    override fun onStart() {
-        super.onStart()
-        val intent = Intent(getActivity(), javaClass<BookReadService>())
-        getActivity().bindService(intent, connection, Context.BIND_AUTO_CREATE);
-    }
-
-    override fun onStop() {
-        super.onStop()
-        if (bound) {
-            getActivity().unbindService(connection);
-            bound = false;
-        }
+        listView = view!!.findViewById(android.R.id.list) as RecyclerView
+        progressView = view!!.findViewById(R.id.frame_progress)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        book = getArguments().getParcelable(EXTRA_BOOK)
-        listView!!.setHasFixedSize(true);
+        listView!!.setHasFixedSize(true)
 
-        listView!!.setLayoutManager(LinearLayoutManager(getActivity()));
+        listView!!.setLayoutManager(LinearLayoutManager(getActivity()))
+        val arguments = getArguments()
+        id = arguments.getLong(EXTRA_ID)
+        index = arguments.getInt(EXTRA_INDEX)
+        read()
     }
 
     private fun read() {
-        reader!!.take(book as LibraryBook, { lines, words ->
-            listView!!.setAdapter(ParagraphAdapter(getActivity(), reader as BookReadService.BookReaderBinder, lines))
+        listView!!.setVisibility(View.GONE)
+        progressView!!.setVisibility(View.VISIBLE)
+        val reader = (getActivity() as ReaderScreen).getReader()
+        reader.take(id, index, { lines, words ->
+            listView!!.setAdapter(ParagraphAdapter(getActivity(), reader, lines))
+            listView!!.setVisibility(View.VISIBLE)
+            progressView!!.setVisibility(View.GONE)
         })
     }
 
     companion object {
-        private val EXTRA_BOOK = "book"
 
-        public fun create(book: LibraryBook): Fragment {
-            val args = Bundle()
-            args.putParcelable(EXTRA_BOOK, book)
-
+        private val EXTRA_ID = "_id"
+        private val EXTRA_INDEX = "_index"
+        public fun create(id: Long, index: Int): Fragment {
             val fragment = BookReadFragment()
+
+            val args = Bundle()
+            args.putLong(EXTRA_ID, id)
+            args.putInt(EXTRA_INDEX, index)
+
             fragment.setArguments(args)
             return fragment
         }
@@ -97,32 +76,34 @@ public class BookReadFragment : Fragment() {
             return items.size()
         }
 
-        override fun onBindViewHolder(p0: ParagraphViewHolder?, p1: Int) {
+        override fun onBindViewHolder(holder: ParagraphViewHolder?, p1: Int) {
             val item = items[p1]
-            p0!!.titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
-            p0!!.wordsView.removeAllViews()
+            holder!!.titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
+            holder.wordsView.removeAllViews()
             item.getWords().forEach {
-                val word = it.word
-                val rootView = View.inflate(context, R.layout.list_item_word, null) as ViewGroup
-                rootView.findViewById(R.id.button_save).setOnClickListener({
-                    binder.addToDictionary(word)
-                })
-                val textView = rootView.findViewById(R.id.progress_loading)
-                textView.setVisibility(View.VISIBLE)
-                p0!!.wordsView.addView(rootView)
-                binder.translate(word, {
-                    input, results ->
-                    textView.setVisibility(View.GONE)
-                    results!!.results()!!.forEach {
+                val rootView = WordView(context)
+                rootView.setOnWordSaveListener { view, s ->
+                    removeWord(s!!)
+                    binder.remove(s)
+                }
+                rootView.setWord(it)
+                if (!it.translated) {
 
-                        val definitionView = DefinitionView(context)
-                        definitionView.setDefinition(it)
-                        rootView.addView(definitionView)
-                    }
-                })
-
-                rootView.setBackgroundColor(it.color)
+                    binder.translate(it.word, {
+                        input, results ->
+                        it.setDefinitions(results!!.results())
+                        rootView.showDefinitions()
+                    })
+                }
+                holder.wordsView.addView(rootView)
             }
+        }
+
+        private fun removeWord(word: WordAdapted) {
+            items.forEach {
+                it.removeWord(word)
+            }
+            notifyDataSetChanged()
         }
 
         override fun onCreateViewHolder(p0: ViewGroup?, p1: Int): ParagraphViewHolder? {
@@ -135,11 +116,11 @@ public class BookReadFragment : Fragment() {
 
     private class ParagraphViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val titleView: TextView
-        val wordsView: LinearLayout
+        val wordsView: ViewGroup
 
         init {
             titleView = view.findViewById(R.id.text_text) as TextView
-            wordsView = view.findViewById(R.id.text_words) as LinearLayout
+            wordsView = view.findViewById(R.id.text_words) as ViewGroup
         }
     }
 }

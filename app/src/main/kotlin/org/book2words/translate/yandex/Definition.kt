@@ -29,7 +29,7 @@ private class Definition : org.book2words.translate.core.Definition {
         translates!!.forEachIndexed { i, translate ->
             result.append(translate.getText())
             if (i < translates!!.size() - 1 ) {
-                result.append(";")
+                result.append("; ")
             }
         }
         return result.toString()

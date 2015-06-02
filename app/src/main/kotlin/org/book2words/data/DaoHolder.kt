@@ -1,9 +1,8 @@
 package org.book2words.data
 
-import android.app.Application
 import org.book2words.dao.DaoSession
 
-public trait DaoHolder {
+public interface DaoHolder {
     fun setDaoSession(newSession: DaoSession)
     fun getDaoSession(): DaoSession
 

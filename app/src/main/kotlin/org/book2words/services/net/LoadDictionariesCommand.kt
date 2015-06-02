@@ -32,7 +32,7 @@ private class LoadDictionariesCommand(private val configs: Configs, private val 
             override fun handleResponse(p0: BackendlessCollection<LibraryDictionary>?) {
                 Logger.debug("handleResponse() : ${p0!!.getData().size()}")
                 DataContext.getLibraryDictionaryDao(context)
-                        .insertOrIgnoreInTx(p0!!.getData())
+                        .insertOrIgnoreInTx(p0.getData())
                 if(callback != null){
                     B2WHandler.sendSuccess(callback, p0.getData())
                 }

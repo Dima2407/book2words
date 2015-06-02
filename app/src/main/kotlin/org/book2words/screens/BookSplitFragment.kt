@@ -53,8 +53,8 @@ public class BookSplitFragment : Fragment() {
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         titleView = view!!.findViewById(R.id.text_title) as TextView
-        progressView = view!!.findViewById(R.id.progress_split) as ProgressBar
-        surface = view!!.findViewById(android.R.id.text1) as WebView
+        progressView = view.findViewById(R.id.progress_split) as ProgressBar
+        surface = view.findViewById(android.R.id.text1) as WebView
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

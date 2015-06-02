@@ -84,6 +84,8 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             val coverImage = eBook.getCoverImage()
             if (coverImage != null) {
                 saveCover(id, coverImage)
+            } else {
+                FileStorage.deleteCover(id)
             }
         } catch (e: IOException) {
             Logger.error(e)

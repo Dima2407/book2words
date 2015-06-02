@@ -2,7 +2,7 @@ package org.book2words.translate
 
 import org.book2words.translate.core.DictionaryResult
 
-public trait TranslateProvider {
+public interface TranslateProvider {
     public enum class Provider {
         YANDEX
     }

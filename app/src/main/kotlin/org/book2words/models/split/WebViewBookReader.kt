@@ -2,10 +2,8 @@ package org.book2words.models.split
 
 import android.webkit.WebView
 import android.webkit.WebViewClient
-import org.book2words.SplitActivity
 import nl.siegmann.epublib.domain.Spine
 import org.book2words.core.Logger
-import java.nio.charset.Charset
 
 
 public class WebViewBookReader(private val surface: WebView,
@@ -16,7 +14,7 @@ public class WebViewBookReader(private val surface: WebView,
         surface.post {
             val settings = surface.getSettings()
             settings!!.setJavaScriptEnabled(true)
-            settings!!.setDefaultTextEncodingName(encoding)
+            settings.setDefaultTextEncodingName(encoding)
 
             surface.setWebViewClient(object : WebViewClient() {
                 override fun onPageFinished(view: WebView?, url: String?) {

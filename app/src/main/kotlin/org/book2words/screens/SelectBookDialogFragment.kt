@@ -36,13 +36,13 @@ public class SelectBookDialogFragment : Fragment() {
             getActivity().finish()
         })
 
-        view!!.findViewById(android.R.id.button2).setOnClickListener({
+        view.findViewById(android.R.id.button2).setOnClickListener({
             getActivity().finish()
         })
 
-        directoriesView = view!!.findViewById(android.R.id.list) as ListView
-        selectedView = view!!.findViewById(R.id.edit_root) as EditText
-        view!!.findViewById(R.id.button_back).setOnClickListener({
+        directoriesView = view.findViewById(android.R.id.list) as ListView
+        selectedView = view.findViewById(R.id.edit_root) as EditText
+        view.findViewById(R.id.button_back).setOnClickListener({
             if (Configs.getRelativePath(currentRoot!!) != "/") {
                 selectedFile = null
                 currentRoot = currentRoot!!.getParentFile()

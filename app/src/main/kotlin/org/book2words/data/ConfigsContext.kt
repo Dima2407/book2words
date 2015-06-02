@@ -10,13 +10,13 @@ public class ConfigsContext {
     companion object {
         private val NAME = "configs"
 
-        public fun setup<T : Application> (context: T): Configs where T : ConfigsHolder {
+        public fun setup<T : Application> (context: T): Configs where T : PreferenceHolder {
             val sharedPreferences = context.getSharedPreferences(NAME, Context.MODE_PRIVATE)
             return Configs(sharedPreferences)
         }
 
         public fun getConfigs<T : Application>(context: T): Configs {
-            val application = context as ConfigsHolder
+            val application = context as PreferenceHolder
             return application.getConfigs()
         }
 

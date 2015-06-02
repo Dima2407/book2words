@@ -3,8 +3,8 @@ package org.book2words.translate
 import android.os.Handler
 import android.os.HandlerThread
 import com.google.gson.Gson
-import org.apache.http.impl.client.DefaultHttpClient
 import org.book2words.core.Logger
+import org.book2words.data.CacheDictionary
 import org.book2words.translate.core.DictionaryResult
 import org.book2words.translate.yandex.YandexDictionaryResult
 import java.io.BufferedReader
@@ -15,15 +15,16 @@ import java.net.URL
 import java.net.URLEncoder
 import java.util.HashMap
 
-private class YandexTranslateProvider(private val from: String, private val to: String) : TranslateProvider {
+private class YandexTranslateProvider(private val dictionary: CacheDictionary,
+                                      private val from: String,
+                                      private val to: String) : TranslateProvider {
 
-    private val client = DefaultHttpClient()
     private val gson: Gson
 
     private var handler: Handler? = null
     private val handlerThread: HandlerThread
 
-    {
+    init {
         this.handlerThread = HandlerThread("YandexTranslateProvider")
         this.gson = Gson()
     }
@@ -45,6 +46,11 @@ private class YandexTranslateProvider(private val from: String, private val to: 
     }
 
     private fun translate(input: String): DictionaryResult? {
+        val cached = dictionary.take(input)
+        if (cached != null) {
+            return gson.fromJson<YandexDictionaryResult>(cached,
+                    javaClass<YandexDictionaryResult>())
+        }
         val params = HashMap<String, Any>()
         params.put("key", API_KEY)
         params.put("lang", URLEncoder.encode("${from}-${to}", "utf-8"))
@@ -76,7 +82,13 @@ private class YandexTranslateProvider(private val from: String, private val to: 
         if (responseCode == HttpURLConnection.HTTP_OK) {
             try {
                 val reader = BufferedReader(InputStreamReader(connection.getInputStream()))
-                result = gson.fromJson<YandexDictionaryResult>(reader, javaClass<YandexDictionaryResult>())
+                val resonse = StringBuilder()
+                reader.forEachLine {
+                    resonse.append(it)
+                }
+                result = gson.fromJson<YandexDictionaryResult>(resonse.toString(),
+                        javaClass<YandexDictionaryResult>())
+                dictionary.save(input, resonse.toString())
             } catch(e: IOException) {
                 Logger.error(e)
             }

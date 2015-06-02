@@ -24,16 +24,7 @@ public class Configs (private val preferences: SharedPreferences) {
     }
 
     public fun getCurrentRoot(): java.io.File {
-        val path = preferences.getString(CURRENT_ROOT, null)
-        if (path == null) {
-            return Environment.getExternalStorageDirectory()
-        }
-        return File(path)
-    }
-
-    public fun setCurrentRoot(selectedRoot: File) {
-        preferences.edit()
-                .putString(CURRENT_ROOT, selectedRoot.getAbsolutePath()).commit()
+        return Environment.getExternalStorageDirectory()
     }
 
     companion object {
@@ -41,7 +32,6 @@ public class Configs (private val preferences: SharedPreferences) {
         private val PARAGRAPHS_IN_STEP = "_paragraphs_in_step"
         private val MAX_PARAGRAPHS_IN_STEP = "_max_paragraphs_in_step"
         private val CURRENT_PARAGRAPHS_IN_STEP = "_current_paragraphs_in_step"
-        private val CURRENT_ROOT = "_current_root"
         private val CURRENT_USER_ID = "_current_user_id"
 
 

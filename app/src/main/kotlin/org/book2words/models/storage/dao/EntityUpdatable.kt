@@ -1,5 +1,5 @@
 package org.book2words.models.storage.dao
 
-public trait EntityUpdatable<T> {
+public interface EntityUpdatable<T> {
     fun update(item : T)
 }

@@ -12,7 +12,7 @@ public object Patterns {
     val WORD = Pattern.compile("\\b((([a-zA-Z'`’]+-)*[a-zA-Z'`’]+){3,})\\b");
 
     public fun buildDuplicates(): String {
-        val alphabet = array("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
+        val alphabet = arrayOf("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
         val builder = StringBuilder()
         for (i in alphabet.indices) {
             val character = alphabet[i]

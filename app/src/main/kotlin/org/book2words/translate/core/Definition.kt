@@ -1,6 +1,6 @@
 package org.book2words.translate.core
 
-public trait Definition {
+public interface Definition {
     public fun getText(): String?
 
     public fun getTranscription(): String?
