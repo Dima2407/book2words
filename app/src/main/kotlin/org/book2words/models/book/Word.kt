@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 import java.util.ArrayList
 
-public class Word(value: String) : Comparable<Word>, Serializable {
+public open class Word(value: String) : Comparable<Word>, Serializable {
     SerializedName("p")
     public val paragraphs: MutableList<Paragraph> = ArrayList()
     SerializedName("v")
@@ -27,6 +27,6 @@ public class Word(value: String) : Comparable<Word>, Serializable {
     }
 
     override fun equals(other: Any?): Boolean {
-        return value.equalsIgnoreCase(other.toString())
+        return value.equals(other.toString(), ignoreCase = true)
     }
 }

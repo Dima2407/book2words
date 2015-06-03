@@ -2,8 +2,6 @@ package org.book2words.screens
 
 import android.app.Fragment
 import android.content.ComponentName
-import android.content.Context
-import android.content.Intent
 import android.content.ServiceConnection
 import android.os.Bundle
 import android.os.IBinder
@@ -15,6 +13,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import org.book2words.R
 import org.book2words.dao.LibraryBook
+import org.book2words.services.BookAdapterBinder
 import org.book2words.services.BookReadService
 
 
@@ -26,7 +25,7 @@ public class BookSplitFragment : Fragment() {
 
     private var progressView: ProgressBar? = null
 
-    private var reader: BookReadService.BookReaderBinder ? = null
+    private var reader: BookAdapterBinder? = null
 
     private var book: LibraryBook? = null;
 
@@ -35,7 +34,7 @@ public class BookSplitFragment : Fragment() {
     private val connection = object : ServiceConnection {
 
         override public fun onServiceConnected(className: ComponentName, service: IBinder) {
-            reader = service as BookReadService.BookReaderBinder
+            reader = service as BookAdapterBinder
             bound = true;
             split()
         }
@@ -64,8 +63,7 @@ public class BookSplitFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        val intent = Intent(getActivity(), javaClass<BookReadService>())
-        getActivity().bindService(intent, connection, Context.BIND_AUTO_CREATE);
+        BookReadService.bindForAdapt(getActivity(), connection, book!!)
     }
 
     override fun onStop() {
@@ -77,18 +75,18 @@ public class BookSplitFragment : Fragment() {
     }
 
     private fun split() {
-        reader!!.split(book as LibraryBook, surface as WebView,
-                onPrepared = {
-                    title, size ->
-                    titleView!!.setText(title)
-                    progressView!!.setIndeterminate(false)
-                    progressView!!.setMax(size)
-                    progressView!!.setProgress(0)
-                }, onProgress = {
-            i, max ->
-            progressView!!.setProgress(i)
+        reader!!.prepare(surface!!, onPrepared = {
+            title, size ->
+            titleView!!.setText(title)
+            progressView!!.setIndeterminate(false)
+            progressView!!.setMax(size)
+            progressView!!.setProgress(0)
         }, onReleased = {
             getActivity().finish()
+        })
+        reader!!.start(onProgress = {
+            i, max ->
+            progressView!!.setProgress(i)
         })
     }
 

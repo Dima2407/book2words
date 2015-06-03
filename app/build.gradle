@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '0.12.200'
+    ext.kotlin_version = '0.12.213'
     repositories {
         jcenter()
         mavenCentral()
@@ -25,7 +25,7 @@ android {
     defaultConfig {
         applicationId "org.book2words"
         minSdkVersion 14
-        targetSdkVersion 21
+        targetSdkVersion 16
         versionCode 1
         versionName "1.0"
     }
@@ -52,9 +52,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.1.1'
     compile 'com.android.support:recyclerview-v7:22.1.1'
     compile 'com.google.code.gson:gson:2.3.1'
-    compile 'org.jetbrains.kotlin:kotlin-stdlib:0.11.91.1'
-    compile 'org.jetbrains.kotlin:kotlin-runtime:0.11.91.1'
     compile project(':android-observable-bindings')
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.3'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-runtime:$kotlin_version"
 }

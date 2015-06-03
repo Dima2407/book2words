@@ -5,7 +5,6 @@ import android.app.ListFragment
 import android.os.Bundle
 import android.widget.AbsListView
 import android.widget.ArrayAdapter
-import android.widget.SimpleAdapter
 import org.book2words.R
 import org.book2words.dao.LibraryDictionary
 import java.io.FileInputStream
@@ -16,8 +15,8 @@ public class DictionaryFragment : ListFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val args = getArguments();
-        if (args != null) {
-            val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY);
+        val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY);
+        if(book.getId() != -1L){
             val bos = FileInputStream(book.getPath()).reader(Charsets.UTF_8).buffered()
 
             val list = ArrayList<String>();
@@ -29,7 +28,7 @@ public class DictionaryFragment : ListFragment() {
                     android.R.layout.simple_list_item_checked, android.R.id.text1,
                     list))
             getListView().setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE)
-        } else {
+        }else {
             val strings = getResources().getStringArray(R.array.widely_worlds)
             setListAdapter(ArrayAdapter(
                     getActivity(),

@@ -1,7 +1,9 @@
 package org.book2words.screens
 
+import android.app.Activity
 import android.app.Fragment
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,9 +13,9 @@ import android.widget.EditText
 import android.widget.ListView
 import android.widget.TextView
 import org.book2words.R
+import org.book2words.SelectFileActivity
 import org.book2words.data.Configs
 import org.book2words.data.ConfigsContext
-import org.book2words.services.LibraryService
 import java.io.File
 
 public class SelectBookDialogFragment : Fragment() {
@@ -22,6 +24,7 @@ public class SelectBookDialogFragment : Fragment() {
     private var selectedView: EditText? = null
     private var currentRoot: File? = null
     private var selectedFile: File? = null
+    private var extension = ""
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_root, null)
@@ -31,12 +34,17 @@ public class SelectBookDialogFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         view!!.findViewById(android.R.id.button1).setOnClickListener({
             if (selectedFile != null) {
-                LibraryService.addBook(getActivity(), selectedFile!!)
+                val intent = Intent()
+                intent.putExtra(SelectFileActivity.EXTRA_OUTPUT, selectedFile!!.getAbsolutePath())
+                getActivity().setResult(Activity.RESULT_OK, intent)
+            } else {
+                getActivity().setResult(Activity.RESULT_CANCELED)
             }
             getActivity().finish()
         })
 
         view.findViewById(android.R.id.button2).setOnClickListener({
+            getActivity().setResult(Activity.RESULT_CANCELED)
             getActivity().finish()
         })
 
@@ -63,6 +71,7 @@ public class SelectBookDialogFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        extension = getArguments().getString(EXTRA_EXTENSION)
         val configs = ConfigsContext.getConfigs(getActivity())
         currentRoot = configs.getCurrentRoot()
         updateView()
@@ -75,7 +84,7 @@ public class SelectBookDialogFragment : Fragment() {
             selectedView!!.setText(Configs.getRelativePath(currentRoot!!))
             val directories = currentRoot!!.listFiles({ file ->
                 val ext = file.extension
-                (file.isDirectory() || ext.equals("epub")) && !file.isHidden()
+                (file.isDirectory() || ext.equals(extension)) && !file.isHidden()
             })
             val directoriesAdapter = DirectoriesAdapter(getActivity(), directories)
             directoriesView!!.setAdapter(directoriesAdapter)
@@ -95,6 +104,18 @@ public class SelectBookDialogFragment : Fragment() {
             val name = getItem(position).getName()
             textView.setText(name)
             return view
+        }
+    }
+
+    companion object {
+        private val EXTRA_EXTENSION = "_extension"
+        public fun create(extension: String): Fragment {
+            val fragment = SelectBookDialogFragment()
+            val args = Bundle()
+            args.putString(EXTRA_EXTENSION, extension)
+
+            fragment.setArguments(args)
+            return fragment
         }
     }
 }

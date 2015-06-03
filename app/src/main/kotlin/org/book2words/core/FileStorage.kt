@@ -1,6 +1,7 @@
 package org.book2words.core
 
 import android.os.Environment
+import org.book2words.dao.LibraryBook
 
 import java.io.File
 
@@ -19,6 +20,30 @@ public class FileStorage {
             root.mkdirs()
 
             return File(root, "${index}.partition")
+        }
+
+        public fun createDictionaryFile(book: LibraryBook): File {
+            return createDictionaryFile(book.getDictionaryName())
+        }
+
+
+        public fun createDictionaryFile(id: String): File {
+            val root = createDictionaryDirectory()
+
+            return File(root, "${id}.dictionary")
+        }
+
+        public fun createExportFile(): File {
+            val root = File(Environment.getExternalStorageDirectory(), "b2w.zip")
+
+            return root
+        }
+
+        public fun createDictionaryDirectory(): File {
+            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}dictionaries")
+            root.mkdirs()
+
+            return root
         }
 
         public fun createWordsFile(bookId: Long): File {
@@ -60,13 +85,6 @@ public class FileStorage {
                 }
             }
             return ""
-        }
-
-        public fun createDictionaryFile(id: String): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}dictionaries")
-            root.mkdirs()
-
-            return File(root, "${id}.dictionary")
         }
 
         public fun deleteCover(id: Long) {

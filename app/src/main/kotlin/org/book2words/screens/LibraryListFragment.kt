@@ -1,5 +1,6 @@
 package org.book2words.screens
 
+import android.app.Activity
 import android.app.Fragment
 import android.app.ListFragment
 import android.content.BroadcastReceiver
@@ -14,14 +15,15 @@ import android.widget.ListView
 import android.widget.TextView
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
-import org.book2words.SelectFolderActivity
+import org.book2words.SelectFileActivity
 import org.book2words.SplitActivity
 import org.book2words.activities.ReaderActivity
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
+import org.book2words.dao.LibraryDictionary
 import org.book2words.data.DataContext
 import org.book2words.services.LibraryService
-import org.book2words.services.net.B2WService
+import java.io.File
 
 public class LibraryListFragment : ListFragment() {
 
@@ -61,9 +63,9 @@ public class LibraryListFragment : ListFragment() {
         val book = l!!.getItemAtPosition(position) as LibraryBook
         if (book.getAdapted() == LibraryBook.ADAPTED) {
             openReadActivity(book)
-        } else if(book.getAdapted() == LibraryBook.NONE){
-            val dictionaryTitle = "${book.getName()} - ${book.getAuthors()}"
-            B2WService.addDictionary(getActivity(), dictionaryTitle)
+        } else if (book.getAdapted() == LibraryBook.NONE) {
+            val dictionary = LibraryDictionary(book.getDictionaryName())
+            DataContext.getLibraryDictionaryDao(getActivity()).insertOrIgnore(dictionary)
             openSplitActivity(book)
         }
     }
@@ -87,13 +89,42 @@ public class LibraryListFragment : ListFragment() {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         if (item!!.getItemId() == R.id.action_add) {
-            startActivityForResult(Intent(getActivity(), javaClass<SelectFolderActivity>()), 0)
+            val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
+            intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "epub")
+            startActivityForResult(intent, REQUEST_CODE_BOOK)
+            return true;
+        }
+        if (item!!.getItemId() == R.id.action_import) {
+            val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
+            intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "zip")
+            startActivityForResult(intent, REQUEST_CODE_IMPORT)
+            return true;
+        }
+        if (item!!.getItemId() == R.id.action_export) {
+            LibraryService.export(getActivity())
             return true;
         }
         return super.onOptionsItemSelected(item)
     }
 
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        if (resultCode == Activity.RESULT_OK) {
+            if (REQUEST_CODE_BOOK == requestCode) {
+                val path = data!!.getStringExtra(SelectFileActivity.EXTRA_OUTPUT)
+                LibraryService.addBook(getActivity(), File(path))
+            }
+            if (REQUEST_CODE_IMPORT == requestCode) {
+                val path = data!!.getStringExtra(SelectFileActivity.EXTRA_OUTPUT)
+                LibraryService.import(getActivity(), File(path))
+            }
+        }
+        super.onActivityResult(requestCode, resultCode, data)
+    }
+
     companion object {
+
+        private val REQUEST_CODE_IMPORT = 10
+        private val REQUEST_CODE_BOOK = 20
 
         public fun create(): Fragment {
             val fragment = LibraryListFragment()

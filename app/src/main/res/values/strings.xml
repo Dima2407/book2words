@@ -12,7 +12,9 @@
     <string name="action_read">read</string>
     <string name="dialog_dictionaries_message">Выберите словарь который можно использовать для распознавания слов в книге</string>
     <string name="unknown">Unknown</string>
-    <string name="action_sync">Add</string>
+    <string name="action_add_book">Add book</string>
+    <string name="action_import_dictionaries">Import dictionaries</string>
+    <string name="action_export_dictionaries">Export dictionaries</string>
     <string name="button_save">Save</string>
     <string name="use">Use</string>
     <string name="skip">Skip</string>
@@ -24,4 +26,6 @@
     <string name="back">Up</string>
     <string name="prev">Previous</string>
     <string name="next">Next</string>
+    <string name="default_dictionary">Default</string>
+    <string name="action_menu">Menu</string>
 </resources>

@@ -1,7 +1,7 @@
 package org.book2words.activities
 
-import org.book2words.services.BookReadService
+import org.book2words.services.BookReaderBinder
 
 public interface ReaderScreen {
-    fun getReader() : BookReadService.BookReaderBinder
+    fun getReader() : BookReaderBinder
 }

@@ -83,7 +83,8 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
-        textSplitter.clearWidelyUsed(getResources().getStringArray(R.array.widely_worlds))
+        val strings = getResources().getStringArray(R.array.widely_worlds)
+        textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
         val dictionaries = DataContext.getLibraryDictionaryDao(this)

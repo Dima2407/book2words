@@ -16,8 +16,12 @@ import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
 import org.book2words.data.DataContext
 import java.io.File
+import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.io.IOException
+import java.util.zip.ZipEntry
+import java.util.zip.ZipInputStream
+import java.util.zip.ZipOutputStream
 
 public class LibraryService : IntentService(javaClass<LibraryService>().getSimpleName()) {
 
@@ -44,14 +48,85 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
                 startForeground(NOTIFICATION_ID, builder.build());
 
-                val path = intent.getStringExtra(EXTRA_ROOT)
+                val path = intent.getStringExtra(EXTRA_PATH)
 
                 val libraryBook = LibraryBook()
 
                 prepareBook(libraryBook, path)
 
                 sendBroadcast(Intent(ACTION_PREPARED))
+            } else if (ACTION_EXPORT == action) {
+                val notificationIntent = Intent(this, javaClass<MainActivity>())
+                val pendingIntent = PendingIntent.getActivity(this, 0,
+                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                val builder = Notification.Builder(this)
+                builder.setSmallIcon(R.drawable.ic_launcher)
+                builder.setContentTitle("Dictionaries exporting")
+                builder.setProgress(100, 0, true);
+                builder.setContentIntent(pendingIntent)
+
+                startForeground(NOTIFICATION_ID, builder.build());
+
+                exportDictionaries()
+            }else if (ACTION_IMPORT == action) {
+                val notificationIntent = Intent(this, javaClass<MainActivity>())
+                val pendingIntent = PendingIntent.getActivity(this, 0,
+                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                val builder = Notification.Builder(this)
+                builder.setSmallIcon(R.drawable.ic_launcher)
+                builder.setContentTitle("Dictionaries exporting")
+                builder.setProgress(100, 0, true);
+                builder.setContentIntent(pendingIntent)
+
+                startForeground(NOTIFICATION_ID, builder.build());
+
+                val path = intent.getStringExtra(EXTRA_PATH)
+
+                importDictionaries(File(path))
             }
+        }
+    }
+
+    private fun exportDictionaries() {
+        val root = FileStorage.createDictionaryDirectory()
+        val files = root.listFiles()
+        if (!files.isEmpty()) {
+            val stream = ZipOutputStream(FileOutputStream(FileStorage.createExportFile()))
+            files.forEach {
+                val entry = ZipEntry(it.getName())
+                stream.putNextEntry(entry)
+                val fileStream = FileInputStream(it)
+                val array = ByteArray(2048)
+                var read = fileStream.read(array)
+                while (read != -1) {
+                    stream.write(array, 0, read)
+                    read = fileStream.read(array)
+                }
+                fileStream.close()
+                stream.closeEntry()
+            }
+            stream.close()
+        }
+    }
+
+    private fun importDictionaries(file: File) {
+        val stream = ZipInputStream(FileInputStream(file))
+        var zipEntry = stream.getNextEntry()
+        while (zipEntry != null) {
+            val name = zipEntry.getName()
+            //TODO : insert to db
+            val dictionaryFile = FileStorage.createDictionaryFile(name)
+            val fileOutputStream = FileOutputStream(dictionaryFile, true)
+            val array = ByteArray(2048)
+            var read = stream.read(array)
+            while (read != -1) {
+                fileOutputStream.write(array, 0, read)
+                read = stream.read(array)
+            }
+            fileOutputStream.close()
+            stream.closeEntry()
         }
     }
 
@@ -114,14 +189,29 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
         public val ACTION_CLEARED: String = "org.book2words.intent.action.CLEARED"
 
+        private val ACTION_IMPORT = "org.book2words.intent.action.IMPORT"
+        private val ACTION_EXPORT = "org.book2words.intent.action.EXPORT"
         private val ACTION_SYNC = "org.book2words.intent.action.SYNC"
 
-        private val EXTRA_ROOT = "_root"
+        private val EXTRA_PATH = "_root"
 
         public fun addBook(context: Context, path: File) {
             val intent = Intent(context, javaClass<LibraryService>())
             intent.setAction(ACTION_SYNC)
-            intent.putExtra(EXTRA_ROOT, path.getAbsolutePath())
+            intent.putExtra(EXTRA_PATH, path.getAbsolutePath())
+            context.startService(intent)
+        }
+
+        public fun export(context: Context) {
+            val intent = Intent(context, javaClass<LibraryService>())
+            intent.setAction(ACTION_EXPORT)
+            context.startService(intent)
+        }
+
+        public fun import(context: Context, path: File) {
+            val intent = Intent(context, javaClass<LibraryService>())
+            intent.setAction(ACTION_IMPORT)
+            intent.putExtra(EXTRA_PATH, path.getAbsolutePath())
             context.startService(intent)
         }
     }

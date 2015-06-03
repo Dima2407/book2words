@@ -18,8 +18,15 @@ public class WordAdapted(val start: Int,
         if (other == null) {
             return false
         }
-        val o = other as WordAdapted
-        return word.equalsIgnoreCase(o.word)
+        if(other is Word){
+            val o = other
+            return word.equals(o.value, ignoreCase = true)
+        }
+        if(other is WordAdapted) {
+            val o = other
+            return word.equals(o.word, ignoreCase = true)
+        }
+        return false
     }
 
     public fun setDefinitions(defs: Array<out Definition>?) {

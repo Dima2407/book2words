@@ -14,14 +14,12 @@ import org.book2words.activities.ReaderScreen
 import org.book2words.models.book.ParagraphAdapted
 import org.book2words.models.book.WordAdapted
 import org.book2words.screens.ui.WordView
-import org.book2words.services.BookReadService
+import org.book2words.services.BookReaderBinder
 
 public class BookReadFragment : Fragment() {
 
     private var listView: RecyclerView? = null
     private var progressView : View? = null
-    private var id: Long = -1
-    private var index: Int = -1
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_read, null);
@@ -38,9 +36,6 @@ public class BookReadFragment : Fragment() {
         listView!!.setHasFixedSize(true)
 
         listView!!.setLayoutManager(LinearLayoutManager(getActivity()))
-        val arguments = getArguments()
-        id = arguments.getLong(EXTRA_ID)
-        index = arguments.getInt(EXTRA_INDEX)
         read()
     }
 
@@ -48,7 +43,7 @@ public class BookReadFragment : Fragment() {
         listView!!.setVisibility(View.GONE)
         progressView!!.setVisibility(View.VISIBLE)
         val reader = (getActivity() as ReaderScreen).getReader()
-        reader.take(id, index, { lines, words ->
+        reader.read({ lines, words ->
             listView!!.setAdapter(ParagraphAdapter(getActivity(), reader, lines))
             listView!!.setVisibility(View.VISIBLE)
             progressView!!.setVisibility(View.GONE)
@@ -57,21 +52,14 @@ public class BookReadFragment : Fragment() {
 
     companion object {
 
-        private val EXTRA_ID = "_id"
-        private val EXTRA_INDEX = "_index"
-        public fun create(id: Long, index: Int): Fragment {
+        public fun create(): Fragment {
             val fragment = BookReadFragment()
 
-            val args = Bundle()
-            args.putLong(EXTRA_ID, id)
-            args.putInt(EXTRA_INDEX, index)
-
-            fragment.setArguments(args)
             return fragment
         }
     }
 
-    private class ParagraphAdapter(private val context: Context, private val binder: BookReadService.BookReaderBinder, private val items: List<ParagraphAdapted>) : RecyclerView.Adapter<ParagraphViewHolder>() {
+    private class ParagraphAdapter(private val context: Context, private val binder: BookReaderBinder, private val items: List<ParagraphAdapted>) : RecyclerView.Adapter<ParagraphViewHolder>() {
         override fun getItemCount(): Int {
             return items.size()
         }

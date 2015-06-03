@@ -22,7 +22,6 @@ import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
 import org.book2words.screens.loaders.BaseObserver
 import org.book2words.screens.loaders.ObservableLoader
-import org.book2words.services.net.B2WService
 import java.util.ArrayList
 
 public class DictionarySettingsFragment : ObservableListFragment<LibraryDictionary>() {
@@ -74,8 +73,6 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        B2WService.loadDictionaries(getActivity())
-
         val adapter = LibraryDictionaryAdapter(getActivity())
         setListAdapter(adapter)
 
@@ -117,6 +114,11 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
                 intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item);
                 context.startActivity(intent)
             })
+            p0.itemView.setOnClickListener({
+                val intent = Intent(context, javaClass<DictionaryActivity>())
+                intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item)
+                context.startActivity(intent)
+            })
         }
 
         override fun onCreateViewHolder(p0: ViewGroup?, p1: Int): DictionaryViewHolder? {
@@ -141,12 +143,21 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
 
     private class DictionariesLoader(private val context: Activity) : ObservableLoader<LibraryDictionary>(context) {
         override fun createObserver(): BroadcastReceiver {
-            return BaseObserver(this, "")
+            return BaseObserver(this,
+                    LibraryDictionary.ACTION_UPDATED,
+                    LibraryDictionary.ACTION_CREATED,
+                    LibraryDictionary.ACTION_DELETED)
         }
 
         override fun loadInBackground(): List<LibraryDictionary> {
-            return DataContext.getLibraryDictionaryDao(context).loadAll()
-        }
+            val dictionaries = ArrayList<LibraryDictionary>()
+            val title = context.getString(R.string.default_dictionary)
+            val size = context.getResources().getInteger(R.integer.default_dictionary)
+            dictionaries.add(LibraryDictionary(-1, title, true, true, size))
 
+            val stored = DataContext.getLibraryDictionaryDao(context).loadAll()
+            dictionaries.addAll(stored)
+            return dictionaries
+        }
     }
 }
