@@ -5,7 +5,6 @@ import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import com.google.gson.Gson
 import org.book2words.MainActivity
 import org.book2words.R
 import org.book2words.core.FileStorage
@@ -81,6 +80,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         book.setCurrentPartition(1)
         book.setCountPartitions(textSplitter.getPartitionsCount())
 
+        Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}")
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
         val strings = getResources().getStringArray(R.array.widely_worlds)
@@ -96,12 +96,17 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
             textSplitter.clearFromDictionary(it.getPath())
         }
 
-        val file = FileStorage.createWordsFile(book.getId());
-        val bos = FileOutputStream(file).buffered().writer("UTF-8")
-        val serializer = Gson()
-        serializer.toJson(textSplitter.words, bos)
+        Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}")
 
-        bos.flush()
+        val file = FileStorage.createWordsFile(book.getId());
+        val bos = FileOutputStream(file).bufferedWriter("UTF-8")
+
+        val words = textSplitter.getWords()
+        words.forEach {
+            bos.appendln(it.toSeparatedString(";"))
+            bos.flush()
+        }
+
         bos.close()
 
         Logger.debug("stopBook(${book.getId()})", TAG)
@@ -113,9 +118,11 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         DataContext.getLibraryBookDao(this).update(book)
 
         sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
+        Logger.debug("time store ${(System.currentTimeMillis() - time) / 1000}")
     }
 
     private fun startBook(book: LibraryBook) {
+        time = System.currentTimeMillis()
         Logger.debug("startBook(${book.getId()})", TAG)
         book.setAdapted(LibraryBook.ADAPTING)
 
@@ -130,18 +137,19 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     private fun splitText(id: Long, index: Int, text: String) {
         Logger.debug("splitText(${index})", TAG)
         val textSplitter = TextSplitter.getInstance()
-        textSplitter.findCapital(text)
         val configs = ConfigsContext.getConfigs(this)
+        textSplitter.findCapital(text)
         val partitions = textSplitter.toPartitions(index, text, configs.getCurrentParagraphsInStep())
         partitions.forEach {
             val partition = it.getValue()
+            textSplitter.nextPartition()
+
             textSplitter.split(partition)
 
             val file = FileStorage.createChapterFile(id, textSplitter.getPartitionsCount())
-            val bos = FileOutputStream(file).writer(Charsets.UTF_8).buffered()
+            val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
             partition.forEach {
-                bos.write(it)
-                bos.newLine()
+                bos.appendln(it)
                 bos.flush()
             }
             bos.close()
@@ -150,6 +158,9 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
     }
 
     companion object {
+
+        Deprecated
+        var time = 0L
 
         private val TAG = javaClass<BookSplitService>().getSimpleName()
 

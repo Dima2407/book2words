@@ -3,8 +3,6 @@ package org.book2words.services
 import android.app.Service
 import android.os.Binder
 import android.os.Handler
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
@@ -25,13 +23,24 @@ import java.util.concurrent.Executors
 
 public class BookReaderBinder(
         private val book: LibraryBook,
-        private val service: Service) : Binder() {
+        private val service: Service) : Binder(), BookBinder {
+    override fun release() {
+        val file = FileStorage.createWordsFile(book.getId());
+        val bos = FileOutputStream(file).bufferedWriter("UTF-8")
+
+        words.forEach {
+            bos.appendln(it.toSeparatedString(";"))
+            bos.flush()
+        }
+
+        bos.close()
+    }
 
     private val handler = Handler()
 
     private val executor = Executors.newSingleThreadExecutor()
 
-    private var words: MutableList<Word>? = null
+    private var words: MutableList<Word> = ArrayList()
     private var dictionary : LibraryDictionary? = null
 
     public fun prepare(callback: () -> Unit) {
@@ -41,11 +50,11 @@ public class BookReaderBinder(
                     .queryBuilder()
                     .where(LibraryDictionaryDao.Properties.Name.eq(book.getDictionaryName())).unique()
 
-            var file = FileStorage.createWordsFile(book.getId());
-            val bos = FileInputStream(file).buffered().reader("UTF-8")
-            val serializer = Gson()
-            words = serializer.fromJson<MutableList<Word>>(bos,
-                    object : TypeToken<MutableList<Word>>() {}.getType())
+            var file = FileStorage.createWordsFile(book.getId())
+            val bos = FileInputStream(file).bufferedReader("UTF-8")
+            bos.forEachLine {
+                words.add(Word.fromSeparatedString(it, ";"))
+            }
             bos.close()
 
             handler.post({
@@ -106,7 +115,7 @@ public class BookReaderBinder(
     }
 
     public fun remove(word: WordAdapted) {
-        words!!.remove(word)
+        words.remove(word)
         dictionary!!.setSize(dictionary!!.getSize() + 1)
         DataContext.getLibraryDictionaryDao(service).update(dictionary)
         val writer = FileOutputStream(FileStorage.createDictionaryFile(book), true)

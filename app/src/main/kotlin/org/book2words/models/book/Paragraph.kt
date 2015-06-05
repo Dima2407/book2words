@@ -16,4 +16,8 @@ public class Paragraph(
         val o = other as Paragraph
         return key.equals(o.key)
     }
+
+    override fun toString(): String {
+        return "${index},${key},${start},${end}"
+    }
 }

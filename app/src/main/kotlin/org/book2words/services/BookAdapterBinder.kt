@@ -10,7 +10,10 @@ import java.util.concurrent.Executors
 
 public class BookAdapterBinder(
         private val book: LibraryBook,
-        private val service: Service) : Binder() {
+        private val service: Service) : Binder() , BookBinder{
+    override fun release() {
+
+    }
 
     private val handler = Handler()
 

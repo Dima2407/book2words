@@ -18,8 +18,8 @@ public open class Word(value: String) : Comparable<Word>, Serializable {
         return value.compareTo(other.value.toLowerCase())
     }
 
-    public fun addParagraph(index :Int, partition: Int, start: Int, end : Int) {
-        paragraphs.add(Paragraph(index, partition, start, end ))
+    public fun addParagraph(index: Int, partition: Int, start: Int, end: Int) {
+        paragraphs.add(Paragraph(index, partition, start, end))
     }
 
     override fun toString(): String {
@@ -28,5 +28,27 @@ public open class Word(value: String) : Comparable<Word>, Serializable {
 
     override fun equals(other: Any?): Boolean {
         return value.equals(other.toString(), ignoreCase = true)
+    }
+
+    public fun toSeparatedString(separator: String): String {
+        return "${value}${separator}${paragraphs.joinToString(separator)}"
+    }
+
+    companion object {
+        public fun fromSeparatedString(input: String, separator: String): Word {
+            val sequence = input.splitToSequence(separator)
+            val value = sequence.elementAt(0)
+            val word = Word(value)
+            val regex = ",".toRegex()
+            sequence.forEachIndexed { i, s ->
+                if (i >= 1) {
+                    val strings = s.split(regex)
+                    word.addParagraph(strings[0].toInt(),
+                            strings[1].toInt(),
+                            strings[2].toInt(), strings[3].toInt())
+                }
+            }
+            return word
+        }
     }
 }

@@ -14,11 +14,10 @@ import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
+import org.book2words.dao.LibraryDictionary
 import org.book2words.data.DataContext
-import java.io.File
-import java.io.FileInputStream
-import java.io.FileOutputStream
-import java.io.IOException
+import java.io.*
+import java.util.TreeSet
 import java.util.zip.ZipEntry
 import java.util.zip.ZipInputStream
 import java.util.zip.ZipOutputStream
@@ -69,14 +68,14 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
                 startForeground(NOTIFICATION_ID, builder.build());
 
                 exportDictionaries()
-            }else if (ACTION_IMPORT == action) {
+            } else if (ACTION_IMPORT == action) {
                 val notificationIntent = Intent(this, javaClass<MainActivity>())
                 val pendingIntent = PendingIntent.getActivity(this, 0,
                         notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
 
                 val builder = Notification.Builder(this)
                 builder.setSmallIcon(R.drawable.ic_launcher)
-                builder.setContentTitle("Dictionaries exporting")
+                builder.setContentTitle("Dictionaries importing")
                 builder.setProgress(100, 0, true);
                 builder.setContentIntent(pendingIntent)
 
@@ -95,7 +94,9 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
         if (!files.isEmpty()) {
             val stream = ZipOutputStream(FileOutputStream(FileStorage.createExportFile()))
             files.forEach {
-                val entry = ZipEntry(it.getName())
+                val name = it.nameWithoutExtension
+                Logger.debug("export - ${name}")
+                val entry = ZipEntry(name)
                 stream.putNextEntry(entry)
                 val fileStream = FileInputStream(it)
                 val array = ByteArray(2048)
@@ -116,17 +117,43 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
         var zipEntry = stream.getNextEntry()
         while (zipEntry != null) {
             val name = zipEntry.getName()
-            //TODO : insert to db
+            Logger.debug("import - ${name}")
+
             val dictionaryFile = FileStorage.createDictionaryFile(name)
-            val fileOutputStream = FileOutputStream(dictionaryFile, true)
+
+            val os = ByteArrayOutputStream()
             val array = ByteArray(2048)
             var read = stream.read(array)
             while (read != -1) {
-                fileOutputStream.write(array, 0, read)
+                os.write(array, 0, read)
                 read = stream.read(array)
             }
-            fileOutputStream.close()
             stream.closeEntry()
+
+            val result = os.toString()
+            val lines = TreeSet(result.lines())
+
+            if(dictionaryFile.exists()){
+                val freader = FileInputStream(dictionaryFile).bufferedReader(Charsets.UTF_8)
+                freader.forEachLine {
+                    lines.add(it)
+                }
+                freader.close()
+            }
+
+            val writer = FileOutputStream(dictionaryFile).bufferedWriter(Charsets.UTF_8)
+            lines.forEach {
+                writer.appendln(it)
+                writer.flush()
+            }
+            writer.close()
+
+            val libraryDictionary = LibraryDictionary(name)
+            libraryDictionary.setSize(lines.size())
+            DataContext.getLibraryDictionaryDao(this@LibraryService)
+                    .insertOrReplace(libraryDictionary)
+
+            zipEntry = stream.getNextEntry()
         }
     }
 

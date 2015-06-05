@@ -33,6 +33,10 @@ public class FileStorage {
             return File(root, "${id}.dictionary")
         }
 
+        public fun getDictionaryNameFromFile(id: String): String {
+            return File(id).nameWithoutExtension
+        }
+
         public fun createExportFile(): File {
             val root = File(Environment.getExternalStorageDirectory(), "b2w.zip")
 

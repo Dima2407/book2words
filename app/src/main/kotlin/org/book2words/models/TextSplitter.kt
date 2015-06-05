@@ -5,6 +5,7 @@ import org.book2words.models.book.Partition
 import org.book2words.models.book.Word
 import java.io.File
 import java.io.FileInputStream
+import java.util.LinkedHashMap
 import java.util.LinkedHashSet
 import java.util.TreeMap
 import java.util.TreeSet
@@ -14,7 +15,7 @@ public class TextSplitter private constructor() {
 
     private val capitals = LinkedHashSet<String>()
 
-    public val words: MutableSet<Word> = LinkedHashSet()
+    private val words: MutableMap<String, Word> = LinkedHashMap()
 
     private var allWordsCount = 0
 
@@ -49,27 +50,25 @@ public class TextSplitter private constructor() {
         return partitions
     }
 
+    public fun nextPartition(){
+        partitions++
+    }
+
     public fun split(partition: Partition) {
         val wordPattern = Patterns.WORD
-        partitions++
         partition.forEachIndexed { i, item ->
             val matcher = wordPattern.matcher(item)
             while (matcher.find()) {
                 val w = matcher.group(1)
                 val start = matcher.start(1)
                 val end = matcher.end(1)
-                var word = words.firstOrNull {
-                    it.value.equalsIgnoreCase(w)
-                }
-                if (word == null) {
-                    word = Word(w)
-                    words.add(word as Word)
-                }
-                word!!.addParagraph(i, partitions, start, end)
+                var word = words.getOrPut<String, Word>(w.toLowerCase(),  {
+                    Word(w)
+                })
+                word.addParagraph(i, partitions, start, end)
                 allWordsCount++
             }
         }
-        Logger.debug("words = ${words.size()}");
     }
 
     public fun clearCapital() {
@@ -102,15 +101,11 @@ public class TextSplitter private constructor() {
 
     private fun clear(condition: (input: String) -> Boolean) {
         Logger.debug("clear ${words.size()}")
-        val iterator = words.iterator()
-        while (iterator.hasNext()) {
-            val word = iterator.next();
-            if (condition(word.value)) {
-                Logger.debug("remove ${word}")
-                iterator.remove();
-            }
+        val keys = words.filterKeys { condition(it) }
+        keys.forEach {
+            words.remove(it.getKey())
         }
-        Logger.debug("clear ${words.size()}")
+        Logger.debug("cleared ${words.size()}")
     }
 
     public fun release() {
@@ -154,5 +149,9 @@ public class TextSplitter private constructor() {
 
     public fun getPartitionsCount(): Int {
         return partitions
+    }
+
+    public fun getWords(): Collection<Word>{
+        return words.values()
     }
 }
