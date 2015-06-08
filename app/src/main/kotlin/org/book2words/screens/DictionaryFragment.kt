@@ -14,14 +14,17 @@ public class DictionaryFragment : ListFragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val args = getArguments();
-        val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY);
+        val args = getArguments()
+        val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY)
         if(book.getId() != -1L){
-            val bos = FileInputStream(book.getPath()).reader(Charsets.UTF_8).buffered()
-
-            val list = ArrayList<String>();
-            bos.forEachLine {
-                list.add(it);
+            val file = book.getPath()
+            val list = ArrayList<String>()
+            if(file.exists()) {
+                val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
+                bos.forEachLine {
+                    list.add(it)
+                }
+                bos.close()
             }
             setListAdapter(ArrayAdapter(
                     getActivity(),

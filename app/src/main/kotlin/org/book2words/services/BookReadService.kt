@@ -15,7 +15,7 @@ public class BookReadService : Service() {
 
     override fun onBind(intent: Intent): IBinder? {
         val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
-        var binder: IBinder? = null
+        var binder: BookBinder? = null
         val action = intent.getAction()
         if (ACTION_READ.equals(action)) {
             binder = BookReaderBinder(book, this)
@@ -39,8 +39,9 @@ public class BookReadService : Service() {
         val action = intent?.getAction()
         Logger.debug("onUnbind() ${action}")
         if(action != null){
-            val binder = bounded.get(action)
+            val binder = bounded[action]
             if(binder != null){
+                bounded.remove(action)
                 binder.release()
             }
         }

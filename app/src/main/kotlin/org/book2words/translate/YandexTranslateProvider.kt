@@ -7,9 +7,7 @@ import org.book2words.core.Logger
 import org.book2words.data.CacheDictionary
 import org.book2words.translate.core.DictionaryResult
 import org.book2words.translate.yandex.YandexDictionaryResult
-import java.io.BufferedReader
 import java.io.IOException
-import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 import java.net.URLEncoder
@@ -53,8 +51,8 @@ private class YandexTranslateProvider(private val dictionary: CacheDictionary,
         }
         val params = HashMap<String, Any>()
         params.put("key", API_KEY)
-        params.put("lang", URLEncoder.encode("${from}-${to}", "utf-8"))
-        params.put("text", URLEncoder.encode(input, "utf-8"))
+        params.put("lang", URLEncoder.encode("${from}-${to}", Charsets.UTF_8.name()))
+        params.put("text", URLEncoder.encode(input, Charsets.UTF_8.name()))
 
         val queryString = StringBuilder(QUERY + "?")
 
@@ -81,7 +79,7 @@ private class YandexTranslateProvider(private val dictionary: CacheDictionary,
         var result: YandexDictionaryResult? = null
         if (responseCode == HttpURLConnection.HTTP_OK) {
             try {
-                val reader = BufferedReader(InputStreamReader(connection.getInputStream()))
+                val reader = connection.getInputStream().bufferedReader(Charsets.UTF_8)
                 val resonse = StringBuilder()
                 reader.forEachLine {
                     resonse.append(it)

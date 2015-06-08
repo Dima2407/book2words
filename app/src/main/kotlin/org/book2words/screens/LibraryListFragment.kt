@@ -66,6 +66,7 @@ public class LibraryListFragment : ListFragment() {
         } else if (book.getAdapted() == LibraryBook.NONE) {
             val dictionary = LibraryDictionary(book.getDictionaryName())
             DataContext.getLibraryDictionaryDao(getActivity()).insertOrIgnore(dictionary)
+            getActivity().sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
             openSplitActivity(book)
         }
     }

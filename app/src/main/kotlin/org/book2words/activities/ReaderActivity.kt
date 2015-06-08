@@ -5,6 +5,7 @@ import android.content.ComponentName
 import android.content.ServiceConnection
 import android.os.Bundle
 import android.os.IBinder
+import android.widget.ProgressBar
 import android.widget.TextView
 import org.book2words.R
 import org.book2words.dao.LibraryBook
@@ -20,7 +21,7 @@ public class ReaderActivity : Activity(), ReaderScreen {
 
     private var bound = false
     private var reader: BookReaderBinder ? = null
-    private var progressView: TextView? = null
+    private var progressLoading: ProgressBar? = null
     private var book: LibraryBook? = null
     private val connection = object : ServiceConnection {
 
@@ -47,7 +48,6 @@ public class ReaderActivity : Activity(), ReaderScreen {
         book = getIntent().getParcelableExtra(EXTRA_BOOK)
         val titleView = findViewById(R.id.text_title) as TextView
         titleView.setText(book!!.getName())
-        progressView = findViewById(R.id.text_progress) as TextView
         findViewById(R.id.button_previous).setOnClickListener({
             goToPrevious()
         })
@@ -55,10 +55,14 @@ public class ReaderActivity : Activity(), ReaderScreen {
         findViewById(R.id.button_next).setOnClickListener({
             goToNext()
         })
+        progressLoading = findViewById(R.id.progress_loading) as ProgressBar
     }
 
     private fun loadPartition() {
-        progressView!!.setText("${book!!.getCurrentPartition()}/${book!!.getCountPartitions()}")
+        progressLoading!!.setIndeterminate(false)
+        val book = reader!!.getBook()
+        progressLoading!!.setMax(book.getCountPartitions())
+        progressLoading!!.setProgress(book.getCurrentPartition())
         var fragment = BookReadFragment.create()
 
         val transaction = getFragmentManager().beginTransaction()

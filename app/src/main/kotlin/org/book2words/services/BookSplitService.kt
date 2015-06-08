@@ -99,7 +99,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}")
 
         val file = FileStorage.createWordsFile(book.getId());
-        val bos = FileOutputStream(file).bufferedWriter("UTF-8")
+        val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
         val words = textSplitter.getWords()
         words.forEach {

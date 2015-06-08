@@ -3,8 +3,6 @@ package org.book2words.models.split
 import android.text.TextUtils
 import nl.siegmann.epublib.domain.Spine
 import org.book2words.core.Logger
-import java.io.IOException
-import java.io.InputStreamReader
 
 private abstract class BookReader(private val spine: Spine,
                                   private val encoding: String) {
@@ -68,7 +66,7 @@ private abstract class BookReader(private val spine: Spine,
         try {
             val stream = resource.getInputStream()
             try {
-                val reader = stream.reader(encoding).buffered(4096);
+                val reader = stream.bufferedReader(encoding);
                 reader.forEachLine {
                     string.append(it)
                 }

@@ -122,7 +122,7 @@ public class TextSplitter private constructor() {
 
     public fun clearFromDictionary(path: File) {
         if (path.exists()) {
-            val bos = FileInputStream(path).reader(Charsets.UTF_8).buffered()
+            val bos = FileInputStream(path).bufferedReader(Charsets.UTF_8)
             val words = TreeSet<String>()
             bos.forEachLine {
                 words.add(it.toLowerCase())

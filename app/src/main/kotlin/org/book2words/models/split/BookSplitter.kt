@@ -5,7 +5,6 @@ import nl.siegmann.epublib.epub.EpubReader
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
 import java.io.FileInputStream
-import java.nio.charset.Charset
 
 public class BookSplitter(private val libraryBook: LibraryBook) {
 
@@ -38,6 +37,6 @@ public class BookSplitter(private val libraryBook: LibraryBook) {
     }
 
     companion object {
-        private val ENCODING = Charset.forName("utf-8").name()
+        private val ENCODING = Charsets.UTF_8.name()
     }
 }

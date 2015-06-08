@@ -1,6 +1,7 @@
 package org.book2words.services
 
 import android.app.Service
+import android.content.Intent
 import android.os.Binder
 import android.os.Handler
 import org.book2words.core.FileStorage
@@ -26,7 +27,7 @@ public class BookReaderBinder(
         private val service: Service) : Binder(), BookBinder {
     override fun release() {
         val file = FileStorage.createWordsFile(book.getId());
-        val bos = FileOutputStream(file).bufferedWriter("UTF-8")
+        val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
         words.forEach {
             bos.appendln(it.toSeparatedString(";"))
@@ -51,7 +52,7 @@ public class BookReaderBinder(
                     .where(LibraryDictionaryDao.Properties.Name.eq(book.getDictionaryName())).unique()
 
             var file = FileStorage.createWordsFile(book.getId())
-            val bos = FileInputStream(file).bufferedReader("UTF-8")
+            val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
             bos.forEachLine {
                 words.add(Word.fromSeparatedString(it, ";"))
             }
@@ -78,7 +79,7 @@ public class BookReaderBinder(
             Logger.debug("words = ${book.getCurrentPartition()} - ${ws.size()}")
 
             val file = FileStorage.createChapterFile(book.getId(), book.getCurrentPartition())
-            val stream = FileInputStream(file).reader("utf-8").buffered()
+            val stream = FileInputStream(file).bufferedReader(Charsets.UTF_8)
             val pars = ArrayList<ParagraphAdapted>()
             var index = 0
             stream.forEachLine {
@@ -123,6 +124,7 @@ public class BookReaderBinder(
         writer.appendln(word.word)
         writer.flush()
         writer.close()
+        service.sendBroadcast(Intent(LibraryDictionary.ACTION_UPDATED))
     }
 
     public fun previousPartition(): Boolean {
@@ -143,5 +145,9 @@ public class BookReaderBinder(
             return true
         }
         return false
+    }
+
+    public fun getBook(): LibraryBook {
+        return book
     }
 }

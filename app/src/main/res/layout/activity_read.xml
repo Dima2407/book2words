@@ -3,24 +3,18 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               android:padding="@dimen/activity_horizontal_margin">
-    <LinearLayout
+    <ProgressBar
+            android:id="@+id/progress_loading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:indeterminate="true"/>
 
-        <TextView
-                android:id="@+id/text_title"
-                android:layout_width="0.0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"/>
-        <TextView
-                android:id="@+id/text_progress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right|top"/>
-
-    </LinearLayout>
+    <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
 
     <FrameLayout
             android:id="@+id/frame_text"

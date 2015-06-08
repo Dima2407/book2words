@@ -153,6 +153,8 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             DataContext.getLibraryDictionaryDao(this@LibraryService)
                     .insertOrReplace(libraryDictionary)
 
+            sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
+
             zipEntry = stream.getNextEntry()
         }
     }
@@ -161,7 +163,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
     private fun prepareBook(libraryBook: LibraryBook, path: String) {
         Logger.debug("prepareBook() ${path}")
         try {
-            val eBook = EpubReader().readEpubLazy(ZipFile(path), "utf-8")
+            val eBook = EpubReader().readEpubLazy(ZipFile(path), Charsets.UTF_8.name())
 
             libraryBook.setName(eBook.getTitle())
             val authorsString = StringBuilder()
