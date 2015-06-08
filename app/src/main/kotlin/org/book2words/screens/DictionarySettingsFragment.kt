@@ -5,7 +5,6 @@ import android.content.BroadcastReceiver
 import android.content.Intent
 import android.content.Loader
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -29,8 +28,6 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
         return DictionariesLoader(getActivity())
     }
 
-    private var listView: RecyclerView? = null
-
     private var paragraphsView: SeekBar? = null
     private var paragraphsSplitView: TextView? = null
 
@@ -45,9 +42,8 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listView = view!!.findViewById(android.R.id.list) as RecyclerView
-        paragraphsView = view.findViewById(R.id.seek_paragraphs) as SeekBar
-        paragraphsSplitView = view.findViewById(R.id.text_paragraphs) as TextView
+        paragraphsView = view!!.findViewById(R.id.seek_paragraphs) as SeekBar
+        paragraphsSplitView = view!!.findViewById(R.id.text_paragraphs) as TextView
 
         val configs = ConfigsContext.getConfigs(getActivity())
         paragraphsSplitView!!.setText("${configs.getCurrentParagraphsInStep()}")
@@ -75,50 +71,29 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
         super.onActivityCreated(savedInstanceState)
         val adapter = LibraryDictionaryAdapter(getActivity())
         setListAdapter(adapter)
+    }
 
-        listView!!.setHasFixedSize(true);
-
-        listView!!.setLayoutManager(LinearLayoutManager(getActivity()))
-        listView!!.setAdapter(adapter)
+    override fun onItemClick(item: LibraryDictionary, position: Int, id: Long) {
+        val intent = Intent(getActivity(), javaClass<DictionaryActivity>())
+        intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item)
+        startActivity(intent)
     }
 
     private class LibraryDictionaryAdapter(
-            private val context: Activity) : RecyclerView.Adapter<DictionaryViewHolder>(),
-            ObservableAdapter<LibraryDictionary> {
-        override fun onLoadFinished(data: List<LibraryDictionary>?) {
-            items.addAll(data!!)
-            notifyDataSetChanged()
-        }
+            private val context: Activity) :
+            ObservableAdapter<LibraryDictionary, DictionaryViewHolder>() {
+        override fun onBindViewHolder(holder: DictionaryViewHolder, item: LibraryDictionary, position: Int) {
+            holder.titleView.setText(item.getName())
+            holder.countView.setText("${item.getSize()}")
 
-        private val items: MutableList<LibraryDictionary> = ArrayList()
-        override fun getItemCount(): Int {
-            return items.size()
-        }
-
-        override fun onBindViewHolder(p0: DictionaryViewHolder?, p1: Int) {
-            val item = items[p1]
-            p0!!.titleView.setText(item.getName())
-            p0.countView.setText("${item.getSize()}")
-
-            p0.useView.setEnabled(!item.getReadonly())
-            p0.useView.setChecked(item.getUse())
-            p0.useView.setOnCheckedChangeListener { compoundButton, b ->
+            holder.useView.setEnabled(!item.getReadonly())
+            holder.useView.setChecked(item.getUse())
+            holder.useView.setOnCheckedChangeListener { compoundButton, b ->
                 if (b != item.getUse()) {
                     item.setUse(b)
                     DataContext.getLibraryDictionaryDao(context).update(item)
                 }
             }
-
-            p0.itemView.setOnClickListener({
-                val intent = Intent(context, javaClass<DictionaryActivity>())
-                intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item);
-                context.startActivity(intent)
-            })
-            p0.itemView.setOnClickListener({
-                val intent = Intent(context, javaClass<DictionaryActivity>())
-                intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item)
-                context.startActivity(intent)
-            })
         }
 
         override fun onCreateViewHolder(p0: ViewGroup?, p1: Int): DictionaryViewHolder? {

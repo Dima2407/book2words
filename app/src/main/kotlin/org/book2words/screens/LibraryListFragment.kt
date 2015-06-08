@@ -2,16 +2,14 @@ package org.book2words.screens
 
 import android.app.Activity
 import android.app.Fragment
-import android.app.ListFragment
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.content.IntentFilter
+import android.content.Loader
 import android.os.Bundle
+import android.support.v7.widget.RecyclerView
 import android.view.*
-import android.widget.ArrayAdapter
 import android.widget.ImageView
-import android.widget.ListView
 import android.widget.TextView
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
@@ -22,28 +20,17 @@ import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryBook
 import org.book2words.dao.LibraryDictionary
 import org.book2words.data.DataContext
+import org.book2words.screens.core.ObservableAdapter
+import org.book2words.screens.core.ObservableListFragment
+import org.book2words.screens.loaders.BaseObserver
+import org.book2words.screens.loaders.ObservableLoader
 import org.book2words.services.LibraryService
 import java.io.File
 
-public class LibraryListFragment : ListFragment() {
+public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
-    private var adapter: LibraryFileAdapter? = null
-
-    private val receiver = object : BroadcastReceiver () {
-        override fun onReceive(context: Context, intent: Intent) {
-            val action = intent.getAction()
-            when (action) {
-                LibraryService.ACTION_PREPARED -> {
-                    loadData()
-                }
-            }
-        }
-    }
-
-    private fun loadData() {
-        adapter!!.clear()
-        val items = DataContext.getLibraryBookDao(this).loadAll()
-        adapter!!.addAll(items)
+    override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<LibraryBook>>? {
+        return BooksLoader(getActivity())
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,20 +41,31 @@ public class LibraryListFragment : ListFragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val items = DataContext.getLibraryBookDao(this).loadAll()
-        adapter = LibraryFileAdapter(getActivity(), items)
+        val adapter = LibraryFileAdapter(getActivity())
         setListAdapter(adapter)
     }
 
-    override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
-        val book = l!!.getItemAtPosition(position) as LibraryBook
-        if (book.getAdapted() == LibraryBook.ADAPTED) {
-            openReadActivity(book)
-        } else if (book.getAdapted() == LibraryBook.NONE) {
-            val dictionary = LibraryDictionary(book.getDictionaryName())
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.fragment_books, null, false)
+    }
+
+    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        view!!.findViewById(R.id.button_add).setOnClickListener({
+            val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
+            intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "epub")
+            startActivityForResult(intent, REQUEST_CODE_BOOK)
+        })
+    }
+
+    override fun onItemClick(item: LibraryBook, position: Int, id: Long) {
+        if (item.getAdapted() == LibraryBook.ADAPTED) {
+            openReadActivity(item)
+        } else if (item.getAdapted() == LibraryBook.NONE) {
+            val dictionary = LibraryDictionary(item.getDictionaryName())
             DataContext.getLibraryDictionaryDao(getActivity()).insertOrIgnore(dictionary)
             getActivity().sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
-            openSplitActivity(book)
+            openSplitActivity(item)
         }
     }
 
@@ -133,47 +131,52 @@ public class LibraryListFragment : ListFragment() {
         }
     }
 
-    override fun onResume() {
-        super.onResume()
-        val intentFilter = IntentFilter()
-        intentFilter.addAction(LibraryService.ACTION_PREPARED)
-        intentFilter.addAction(LibraryService.ACTION_CLEARED)
-        getActivity().registerReceiver(receiver,
-                intentFilter)
-    }
-
-    override fun onPause() {
-        super.onPause()
-        getActivity().unregisterReceiver(receiver)
-    }
-
-    private class LibraryFileAdapter(context: Context, objects: List<LibraryBook>)
-    : ArrayAdapter<LibraryBook>(context, -1, objects) {
-
-        override fun getView(position: Int, convertView: View?, parent: ViewGroup): View? {
-            var view = convertView;
-            if (view == null) {
-                view = View.inflate(getContext(), R.layout.list_item_book, null);
-            }
-            val titleView = view!!.findViewById(R.id.text_title) as TextView
-            val authorsView = view.findViewById(R.id.text_author) as TextView
-            val wordsView = view.findViewById(R.id.text_words) as TextView
-
-            val coverView = view.findViewById(R.id.image_cover) as ImageView
-
-            val item = getItem(position);
+    private class LibraryFileAdapter(private val context: Context) :
+            ObservableAdapter<LibraryBook, BookViewHolder>() {
+        override fun onBindViewHolder(holder: BookViewHolder, item : LibraryBook, position: Int) {
             if (item.getAdapted() == LibraryBook.ADAPTED) {
-                wordsView.setVisibility(View.VISIBLE)
-                wordsView.setText("${item.getUnknownWords()} / ${item.getAllWords()}")
+                holder.wordsView.setVisibility(View.VISIBLE)
+                holder.wordsView.setText("${item.getUnknownWords()} / ${item.getAllWords()}")
             } else {
-                wordsView.setVisibility(View.GONE)
+                holder.wordsView.setVisibility(View.GONE)
             }
             val coverUri = FileStorage.imageCoverUri(item.getId())
 
-            ImageLoader.getInstance().displayImage(coverUri, coverView);
-            titleView.setText(item.getName())
-            authorsView.setText(item.getAuthors())
-            return view
+            ImageLoader.getInstance().displayImage(coverUri, holder.coverView)
+            holder.titleView.setText(item.getName())
+            holder.authorsView.setText(item.getAuthors())
+        }
+
+        override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
+            val view = LayoutInflater.from(context)
+                    .inflate(R.layout.list_item_book, parent, false);
+            val vh = BookViewHolder(view);
+            return vh;
+        }
+    }
+
+    private class BookViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val titleView: TextView
+        val authorsView: TextView
+        val wordsView: TextView
+        val coverView : ImageView
+
+        init {
+            titleView = view.findViewById(R.id.text_title) as TextView
+            wordsView = view.findViewById(R.id.text_words) as TextView
+            authorsView = view.findViewById(R.id.text_author) as TextView
+            coverView = view.findViewById(R.id.image_cover) as ImageView
+        }
+    }
+
+    private class BooksLoader(private val context: Activity) : ObservableLoader<LibraryBook>(context) {
+        override fun createObserver(): BroadcastReceiver {
+            return BaseObserver(this, LibraryService.ACTION_PREPARED,
+                    LibraryService.ACTION_CLEARED)
+        }
+
+        override fun loadInBackground(): List<LibraryBook> {
+            return DataContext.getLibraryBookDao(context).loadAll()
         }
     }
 }
