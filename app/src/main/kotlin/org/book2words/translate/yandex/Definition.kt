@@ -34,4 +34,13 @@ private class Definition : org.book2words.translate.core.Definition {
         }
         return result.toString()
     }
+
+    override fun getTranslateShort(): String? {
+        val result = StringBuilder()
+        translates!!.forEachIndexed { i, translate ->
+            result.append(translate.getText())
+            result.append("; ")
+        }
+        return result.toString()
+    }
 }

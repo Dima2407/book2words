@@ -20,6 +20,7 @@ import org.book2words.translate.core.DictionaryResult
 import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.util.ArrayList
+import java.util.concurrent.CountDownLatch
 import java.util.concurrent.Executors
 
 public class BookReaderBinder(
@@ -42,7 +43,7 @@ public class BookReaderBinder(
     private val executor = Executors.newSingleThreadExecutor()
 
     private var words: MutableList<Word> = ArrayList()
-    private var dictionary : LibraryDictionary? = null
+    private var dictionary: LibraryDictionary? = null
 
     public fun prepare(callback: () -> Unit) {
         executor.execute({
@@ -109,6 +110,29 @@ public class BookReaderBinder(
                 onTranslated(input, result)
             })
         })
+    }
+
+    public fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
+        val cacheDictionary = DictionaryContext.getConfigs(service)
+        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, "en", "ru")
+        executor.execute {
+            val counter = CountDownLatch(paragraph.getWords().size())
+            paragraph.getWords().forEach {
+                if (!it.translated) {
+                    translateProvider.translate(it.word, { input, result ->
+                        it.setDefinitions(result!!.results())
+                        counter.countDown()
+                    })
+                } else {
+                    counter.countDown()
+                }
+            }
+            counter.await()
+            handler.post({
+                onTranslated()
+            })
+        }
+
     }
 
     public fun add(word: WordAdapted) {

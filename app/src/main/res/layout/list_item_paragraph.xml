@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="horizontal"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="6dp">
     <TextView
             android:id="@+id/text_text"
-            android:layout_width="0.0dp"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:layout_weight="2"
-            android:padding="6dp"
-            android:textSize="20sp"
-            android:textIsSelectable="true"/>
+            android:textSize="24sp"
+            android:layout_toLeftOf="@+id/text_words"/>
+
     <LinearLayout
             android:id="@+id/text_words"
             android:orientation="vertical"
-            android:layout_width="0.0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-    </LinearLayout>
-</LinearLayout>
+            android:layout_width="200.0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text_text"
+            android:layout_alignBottom="@+id/text_text"
+            android:layout_marginLeft="6dp"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

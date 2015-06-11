@@ -19,7 +19,7 @@ import org.book2words.services.BookReaderBinder
 public class BookReadFragment : Fragment() {
 
     private var listView: RecyclerView? = null
-    private var progressView : View? = null
+    private var progressView: View? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_read, null);
@@ -66,25 +66,21 @@ public class BookReadFragment : Fragment() {
 
         override fun onBindViewHolder(holder: ParagraphViewHolder?, p1: Int) {
             val item = items[p1]
-            holder!!.titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
-            holder.wordsView.removeAllViews()
-            item.getWords().forEach {
-                val rootView = WordView(context)
-                rootView.setOnWordSaveListener { view, s ->
-                    removeWord(s!!)
-                    binder.remove(s)
+            holder!!.wordsView.removeAllViews()
+            binder.translate(item, {
+                item.getWords().forEach {
+                    if (it.hasDefinition) {
+                        val rootView = WordView(context)
+                        rootView.setOnWordClickListener { word ->
+                            removeWord(word!!)
+                            binder.remove(word)
+                        }
+                        rootView.setWord(it)
+                        holder.wordsView.addView(rootView)
+                    }
                 }
-                rootView.setWord(it)
-                if (!it.translated) {
-
-                    binder.translate(it.word, {
-                        input, results ->
-                        it.setDefinitions(results!!.results())
-                        rootView.showDefinitions()
-                    })
-                }
-                holder.wordsView.addView(rootView)
-            }
+                holder!!.titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
+            })
         }
 
         private fun removeWord(word: WordAdapted) {

@@ -6,4 +6,6 @@ public interface Definition {
     public fun getTranscription(): String?
 
     public fun getTranslate(): String?
+
+    public fun getTranslateShort(): String?
 }
