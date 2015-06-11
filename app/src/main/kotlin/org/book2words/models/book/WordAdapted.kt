@@ -3,9 +3,12 @@ package org.book2words.models.book
 import android.graphics.Typeface
 import android.text.SpannableStringBuilder
 import android.text.Spanned
+import android.text.TextPaint
+import android.text.style.ClickableSpan
 import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
+import android.view.View
 import org.book2words.translate.core.Definition
 
 public class WordAdapted(val start: Int,
@@ -20,6 +23,11 @@ public class WordAdapted(val start: Int,
     private val foregroundSpan = ForegroundColorSpan(color)
     private val styleSpan = StyleSpan(Typeface.ITALIC)
     private val sizeSpan = RelativeSizeSpan(0.5f)
+    private var clickSpan: ClickableSpan ? = null
+
+    private var transcriptionStart = 0
+
+    private var transcriptionEnd = 0;
 
     override fun compareTo(other: WordAdapted): Int {
         return start - other.start
@@ -56,7 +64,7 @@ public class WordAdapted(val start: Int,
         return definitions?.get(0)?.getTranscription()
     }
 
-    fun applySpannable(adapted: SpannableStringBuilder, offset: Int): Int {
+    fun applySpannable(adapted: SpannableStringBuilder, offset: Int, onWordClickListener: ((word: WordAdapted) -> Unit)? = null): Int {
         val start = start + 1 + offset
         val end = end + 1 + offset
         if (hasDefinition) {
@@ -64,8 +72,14 @@ public class WordAdapted(val start: Int,
 
             adapted.insert(end, trans)
             adapted.setSpan(foregroundSpan, start, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            if (onWordClickListener != null) {
+                clickSpan = WordClickSpan(this, onWordClickListener)
+                adapted.setSpan(clickSpan, start, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            }
             adapted.setSpan(styleSpan, end, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
             adapted.setSpan(sizeSpan, end, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            transcriptionStart = end
+            transcriptionEnd = end + trans.length()
             return offset + trans.length()
         }
         return offset
@@ -74,6 +88,18 @@ public class WordAdapted(val start: Int,
     fun removeSpannable(adapted: SpannableStringBuilder) {
         adapted.removeSpan(foregroundSpan)
         adapted.removeSpan(styleSpan)
-        //adapted.removeSpan(sizeSpan)
+        adapted.removeSpan(sizeSpan)
+        adapted.removeSpan(clickSpan)
+        adapted.replace(transcriptionStart, transcriptionEnd, "")
+    }
+
+    private class WordClickSpan(private val wordAdapted: WordAdapted, private val function: (WordAdapted) -> Unit) : ClickableSpan() {
+        override fun onClick(widget: View) {
+            function(wordAdapted)
+        }
+
+        override fun updateDrawState(ds: TextPaint) {
+
+        }
     }
 }

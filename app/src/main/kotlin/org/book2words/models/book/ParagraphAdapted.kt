@@ -13,6 +13,8 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
 
     private val words: MutableSet<WordAdapted> = TreeSet()
 
+    private var onWordClickListener: ((word: WordAdapted?) -> Unit)? = null
+
     private val colors = arrayOf(
             "#E57373",
             "#F06292",
@@ -87,7 +89,7 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
         var offset = 0;
         adapted.clearSpans()
         words.forEach {
-            offset = it.applySpannable(adapted, offset)
+            offset = it.applySpannable(adapted, offset, onWordClickListener)
         }
         ready = true
     }
@@ -102,5 +104,9 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
 
     fun getWords(): MutableSet<WordAdapted> {
         return words
+    }
+
+    public fun setOnWordClickListener(onWordClickListener: ((word: WordAdapted?) -> Unit)?) {
+        this.onWordClickListener = onWordClickListener
     }
 }

@@ -1,10 +1,13 @@
 package org.book2words.screens
 
+import android.app.AlertDialog
 import android.app.Fragment
 import android.content.Context
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.text.Html
+import android.text.method.LinkMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -79,8 +82,47 @@ public class BookReadFragment : Fragment() {
                         holder.wordsView.addView(rootView)
                     }
                 }
+                item.setOnWordClickListener { word ->
+                    showWordDialog(word!!, {
+                        removeWord(word)
+                        binder.remove(word)
+                    })
+                }
                 holder!!.titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
+                holder!!.titleView.setMovementMethod(LinkMovementMethod.getInstance())
             })
+        }
+
+        private fun showWordDialog(word: WordAdapted, onIKnowClickListener: () -> Unit) {
+            val definitions = word.getDefinitions()
+            if (definitions != null && definitions.isNotEmpty()) {
+
+                val content = StringBuilder()
+
+                definitions.forEachIndexed { i, it ->
+                    content.append(it.getText())
+                    content.append(" - ")
+                    content.append("<b>[ ")
+                    content.append(it.getTranscription())
+                    content.append(" ]</b>")
+                    content.append(" - ")
+                    content.append("<i>")
+                    content.append(it.getTranslate())
+                    content.append("</i>")
+                    if (i < definitions.size() - 1) {
+                        content.append("<br/>")
+                    }
+                }
+                val builder = AlertDialog.Builder(context)
+                builder.setTitle(R.string.app_name)
+                builder.setMessage(Html.fromHtml(content.toString()))
+                        .setPositiveButton(R.string.i_know, { dialog, id ->
+                            onIKnowClickListener()
+                        })
+                        .setNegativeButton(android.R.string.ok, null);
+                val dialog = builder.create()
+                dialog.show()
+            }
         }
 
         private fun removeWord(word: WordAdapted) {
