@@ -21,12 +21,17 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_title"
             android:layout_alignLeft="@+id/text_title"/>
-
     <TextView
-            android:id="@+id/text_words"
-            android:layout_width="match_parent"
+            android:id="@+id/text_language"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_author"
-            android:layout_alignLeft="@id/text_title"/>
+            android:layout_alignLeft="@+id/text_title"/>
+    <TextView
+            android:id="@+id/text_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_language"
+            android:layout_alignParentRight="true"/>
 
 </RelativeLayout>

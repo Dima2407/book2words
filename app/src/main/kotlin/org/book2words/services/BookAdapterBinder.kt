@@ -3,7 +3,6 @@ package org.book2words.services
 import android.app.Service
 import android.os.Binder
 import android.os.Handler
-import android.webkit.WebView
 import org.book2words.dao.LibraryBook
 import org.book2words.models.split.BookSplitter
 import java.util.concurrent.Executors
@@ -25,11 +24,10 @@ public class BookAdapterBinder(
         splitter = BookSplitter(book)
     }
 
-    public fun prepare(surface: WebView,
-                       onPrepared: (title: String, length: Int) -> Unit,
+    public fun prepare(onPrepared: (title: String, length: Int) -> Unit,
                        onReleased: () -> Unit) {
         executor.execute {
-            splitter.prepare(surface, onPrepared = { t, i ->
+            splitter.prepare(onPrepared = { t, i ->
                 handler.post({
                     onPrepared(t, i)
                 })

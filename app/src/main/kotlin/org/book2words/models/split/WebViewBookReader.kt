@@ -15,7 +15,6 @@ public class WebViewBookReader(private val surface: WebView,
             val settings = surface.getSettings()
             settings!!.setJavaScriptEnabled(true)
             settings.setDefaultTextEncodingName(encoding)
-
             surface.setWebViewClient(object : WebViewClient() {
                 override fun onPageFinished(view: WebView?, url: String?) {
                     view!!.loadUrl(JAVASCRIPT_GET_BODY_INNER_TEXT)
@@ -28,7 +27,7 @@ public class WebViewBookReader(private val surface: WebView,
     override fun onChapter(chapter: Int, text: String) {
         Logger.debug("onChapter(${chapter})")
         surface.post {
-            Logger.debug("loadData(${encoding})")
+            Logger.debug("loadData(${text})")
             surface.loadData(text, MIME_TYPE, encoding);
         }
     }
@@ -41,13 +40,12 @@ public class WebViewBookReader(private val surface: WebView,
         };
     }
 
-    public fun start(offset: Int = 0, length: Int = spine.size(), fetcher : HtmlBodyTextFetcher){
+    override fun start(offset: Int, length: Int, fetcher: BodyTextFetcher?) {
         surface.post {
             surface.addJavascriptInterface(fetcher, JAVASCRIPT_INTERFACE);
             surface.reload();
             super.start(offset, length)
         }
-
     }
 
     companion object {

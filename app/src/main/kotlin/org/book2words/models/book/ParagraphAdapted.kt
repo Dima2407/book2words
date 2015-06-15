@@ -5,9 +5,11 @@ import android.text.Spannable
 import android.text.SpannableStringBuilder
 import org.book2words.core.Logger
 import java.io.Serializable
+import java.util.ArrayList
 import java.util.TreeSet
 
 public class ParagraphAdapted(val original: String, var ready: Boolean = false) : Serializable {
+    var translated: Boolean = false
 
     private var adapted = SpannableStringBuilder("\t${original}")
 
@@ -17,53 +19,101 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
 
     private val colors = arrayOf(
             "#E57373",
-            "#F06292",
-            "#BA68C8",
             "#9575CD",
-            "#7986CB",
-            "#64B5F6",
             "#4FC3F7",
-            "#4DD0E1",
-            "#4DB6AC",
             "#81C784",
-            "#AED581",
-            "#DCE775",
             "#FFF176",
-            "#FFD54F",
-            "#FFB74D",
             "#FF8A65",
-            "#FFCDD2",
-            "#F8BBD0",
-            "#E1BEE7",
-            "#D1C4E9",
-            "#C5CAE9",
-            "#BBDEFB",
-            "#B3E5FC",
-            "#B2EBF2",
-            "#B2DFDB",
-            "#C8E6C9",
-            "#DCEDC8",
-            "#F0F4C3",
-            "#FFF9C4",
-            "#FFECB3",
-            "#FFE0B2",
-            "#FFCCBC",
-            "#EF9A9A",
-            "#F48FB1",
-            "#CE93D8",
-            "#B39DDB",
-            "#9FA8DA",
-            "#90CAF9",
-            "#81D4FA",
-            "#80DEEA",
-            "#80CBC4",
-            "#A5D6A7",
-            "#C5E1A5",
-            "#E6EE9C",
-            "#FFF59D",
-            "#FFE082",
-            "#FFCC80",
-            "#FFAB91")
+            "#F06292",
+            "#7986CB",
+            "#4DD0E1",
+            "#AED581",
+            "#FFD54F",
+            "#BA68C8",
+            "#64B5F6",
+            "#4DB6AC",
+            "#DCE775",
+            "#FFB74D",
+            "#F44336",
+            "#673AB7",
+            "#03A9F4",
+            "#4CAF50",
+            "#FFEB3B",
+            "#FF5722",
+            "#E91E63",
+            "#3F51B5",
+            "#00BCD4",
+            "#8BC34A",
+            "#FFC107",
+            "#9C27B0",
+            "#2196F3",
+            "#009688",
+            "#CDDC39",
+            "#FF9800",
+            "#D32F2F",
+            "#512DA8",
+            "#0288D1",
+            "#388E3C",
+            "#FBC02D",
+            "#E64A19",
+            "#C2185B",
+            "#303F9F",
+            "#0097A7",
+            "#689F38",
+            "#FFA000",
+            "#7B1FA2",
+            "#1976D2",
+            "#00796B",
+            "#AFB42B",
+            "#F57C00",
+            "#B71C1C",
+            "#311B92",
+            "#01579B",
+            "#1B5E20",
+            "#F57F17",
+            "#BF360C",
+            "#880E4F",
+            "#1A237E",
+            "#006064",
+            "#33691E",
+            "#FF6F00",
+            "#4A148C",
+            "#0D47A1",
+            "#004D40",
+            "#827717",
+            "#E65100",
+            "#D50000",
+            "#6200EA",
+            "#01579B",
+            "#00C853",
+            "#FFD600",
+            "#DD2C00",
+            "#C51162",
+            "#304FFE",
+            "#00B8D4",
+            "#64DD17",
+            "#FFAB00",
+            "#AA00FF",
+            "#2962FF",
+            "#00BFA5",
+            "#AEEA00",
+            "#FF6D00",
+            "#FF1744",
+            "#651FFF",
+            "#00B0FF",
+            "#00E676",
+            "#FFEA00",
+            "#FF3D00",
+            "#F50057",
+            "#3D5AFE",
+            "#00E5FF",
+            "#76FF03",
+            "#FFC400",
+            "#D500F9",
+            "#2979FF",
+            "#1DE9B6",
+            "#C6FF00",
+            "#FF9100")
 
     public fun getAdapted(): Spannable {
         if (!ready) {
@@ -75,13 +125,14 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
     public fun modify(pIndex: Int, chapterId: Int, word: Word) {
         val color = Color.parseColor(colors[words.size()])
         Logger.debug("color " + color)
-        val words = word.paragraphs.filter {
+        val founds = word.paragraphs.filter {
             pIndex == it.index && chapterId == it.key
         }
-        words.forEach {
+        founds.forEach {
             val start = it.start
             val end = it.end
-            this.words.add(WordAdapted(start, end, word.value, color))
+            val wordAdapted = WordAdapted(start, end, word.value, color)
+            this.words.add(wordAdapted)
         }
     }
 
@@ -94,16 +145,28 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
         ready = true
     }
 
-    public fun removeWord(word: WordAdapted): Boolean {
-        val removed = words.remove(word)
-        if (removed) {
-            word.removeSpannable(adapted)
+    public fun removeWord(word: WordAdapted) {
+        val removed = TreeSet(words.filter { it.word.equals(word.word, ignoreCase = true) }).reverse()
+        removed.forEach {
+            val success = words.remove(it)
+            if (success) {
+                it.removeSpannable(adapted)
+            }
         }
-        return removed
     }
 
-    fun getWords(): MutableSet<WordAdapted> {
+    fun getWords(): Set<WordAdapted> {
         return words
+    }
+
+    fun getRightWords(): Collection<WordAdapted> {
+        val unique = ArrayList<WordAdapted>()
+        words.forEach {
+            if (it.hasDefinition && !unique.contains(it)) {
+                unique.add(it)
+            }
+        }
+        return unique
     }
 
     public fun setOnWordClickListener(onWordClickListener: ((word: WordAdapted?) -> Unit)?) {

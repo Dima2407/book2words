@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="widely_worlds">
+    <string-array name="worlds_english">
         <item>the</item>
         <item>about</item>
         <item>and</item>

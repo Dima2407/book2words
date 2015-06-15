@@ -74,8 +74,8 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         val textSplitter = TextSplitter.getInstance()
 
         book.setAdapted(LibraryBook.ADAPTED)
-        book.setAllWords(textSplitter.getAllFoundWordsCount())
-        book.setUniqueWords(textSplitter.getUniqueWordsCount())
+        book.setWordsCount(textSplitter.getAllFoundWordsCount())
+        book.setUniqueWordsCount(textSplitter.getUniqueWordsCount())
 
         book.setCurrentPartition(1)
         book.setCountPartitions(textSplitter.getPartitionsCount())
@@ -83,7 +83,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}")
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
-        val strings = getResources().getStringArray(R.array.widely_worlds)
+        val strings = getResources().getStringArray(R.array.worlds_english)
         textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
@@ -93,7 +93,9 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
                 .list()
 
         dictionaries.forEach {
-            textSplitter.clearFromDictionary(it.getPath())
+            if(book.getLanguage().equals(it.getLanguage())) {
+                textSplitter.clearFromDictionary(it.getPath())
+            }
         }
 
         Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}")
@@ -111,7 +113,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
         Logger.debug("stopBook(${book.getId()})", TAG)
 
-        book.setUnknownWords(textSplitter.getUnknownWordsCount())
+        book.setUnknownWordsCount(textSplitter.getUnknownWordsCount())
 
         textSplitter.release()
 

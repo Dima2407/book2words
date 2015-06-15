@@ -9,7 +9,6 @@ import java.util.LinkedHashMap
 import java.util.LinkedHashSet
 import java.util.TreeMap
 import java.util.TreeSet
-import java.util.regex.Pattern
 
 public class TextSplitter private constructor() {
 
@@ -37,11 +36,11 @@ public class TextSplitter private constructor() {
 
         Logger.debug("split chapter ${key}")
 
-        val paragraphs = text.split(Pattern.compile("\n+"))
+        val paragraphs = text.split("\n+".toRegex())
         val partitions = TreeMap<String, Partition>()
         paragraphs.forEachIndexed { i, item ->
             val p = "${key}-${i / partitionSize}"
-            val partition = partitions.getOrPut<String, Partition>(p, {
+            val partition = partitions.getOrPut(p, {
                 Partition(p)
             })
             partition.add(item)
@@ -62,7 +61,7 @@ public class TextSplitter private constructor() {
                 val w = matcher.group(1)
                 val start = matcher.start(1)
                 val end = matcher.end(1)
-                var word = words.getOrPut<String, Word>(w.toLowerCase(),  {
+                var word = words.getOrPut(w.toLowerCase(),  {
                     Word(w)
                 })
                 word.addParagraph(i, partitions, start, end)

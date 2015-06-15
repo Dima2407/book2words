@@ -94,7 +94,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
         if (!files.isEmpty()) {
             val stream = ZipOutputStream(FileOutputStream(FileStorage.createExportFile()))
             files.forEach {
-                val name = it.nameWithoutExtension
+                val name = it.getName()
                 Logger.debug("export - ${name}")
                 val entry = ZipEntry(name)
                 stream.putNextEntry(entry)
@@ -116,10 +116,10 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
         val stream = ZipInputStream(FileInputStream(file))
         var zipEntry = stream.getNextEntry()
         while (zipEntry != null) {
-            val name = zipEntry.getName()
-            Logger.debug("import - ${name}")
+            val entryName = zipEntry.getName()
+            Logger.debug("import - ${entryName}")
 
-            val dictionaryFile = FileStorage.createDictionaryFile(name)
+            val dictionaryFile = FileStorage.createDictionaryFile(entryName)
 
             val os = ByteArrayOutputStream()
             val array = ByteArray(2048)
@@ -148,7 +148,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             }
             writer.close()
 
-            val libraryDictionary = LibraryDictionary(name)
+            val libraryDictionary = LibraryDictionary(dictionaryFile.nameWithoutExtension, dictionaryFile.extension)
             libraryDictionary.setSize(lines.size())
             DataContext.getLibraryDictionaryDao(this@LibraryService)
                     .insertOrReplace(libraryDictionary)
@@ -176,9 +176,10 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
                     authorsString.append(", ")
                 }
             }
-
+            val language = eBook.getMetadata().getLanguage()
             Logger.debug("prepareBook() ${authorsString}")
 
+            libraryBook.setLanguage(language)
             libraryBook.setAuthors(authorsString.toString())
             libraryBook.setPath(path)
 

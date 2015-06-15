@@ -30,8 +30,8 @@ public class BookReadFragment : Fragment() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listView = view!!.findViewById(android.R.id.list) as RecyclerView
-        progressView = view!!.findViewById(R.id.frame_progress)
+        listView = view?.findViewById(android.R.id.list) as RecyclerView
+        progressView = view?.findViewById(R.id.frame_progress)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -69,28 +69,40 @@ public class BookReadFragment : Fragment() {
 
         override fun onBindViewHolder(holder: ParagraphViewHolder?, p1: Int) {
             val item = items[p1]
-            holder!!.wordsView.removeAllViews()
-            binder.translate(item, {
-                item.getWords().forEach {
-                    if (it.hasDefinition) {
-                        val rootView = WordView(context)
-                        rootView.setOnWordClickListener { word ->
-                            removeWord(word!!)
-                            binder.remove(word)
-                        }
-                        rootView.setWord(it)
-                        holder.wordsView.addView(rootView)
-                    }
+            holder?.wordsView?.removeAllViews()
+            if (item.translated) {
+                holder?.loadingView?.setVisibility(View.GONE)
+                holder?.contentView?.setVisibility(View.VISIBLE)
+                bindData(holder, item)
+            } else {
+                holder?.loadingView?.setVisibility(View.VISIBLE)
+                holder?.contentView?.setVisibility(View.GONE)
+                binder.translate(item, {
+                    item.translated = true
+                    holder?.loadingView?.setVisibility(View.GONE)
+                    holder?.contentView?.setVisibility(View.VISIBLE)
+                    bindData(holder, item)
+                })
+            }
+        }
+
+        private fun bindData(holder: ParagraphViewHolder?, item: ParagraphAdapted) {
+            item.getRightWords().forEach {
+                val rootView = WordView(context)
+                rootView.setOnWordClickListener { word ->
+                    removeWord(word!!)
+                    binder.remove(word)
                 }
-                item.setOnWordClickListener { word ->
-                    showWordDialog(word!!, {
-                        removeWord(word)
-                        binder.remove(word)
-                    })
-                }
-                holder!!.titleView.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
-                holder!!.titleView.setMovementMethod(LinkMovementMethod.getInstance())
-            })
+                rootView.setWord(it)
+                holder?.wordsView?.addView(rootView)
+            }
+            item.setOnWordClickListener { word ->
+                showWordDialog(word!!, {
+                    removeWord(word)
+                    binder.remove(word)
+                })
+            }
+            holder?.titleView?.setText(item.getAdapted(), TextView.BufferType.SPANNABLE)
         }
 
         private fun showWordDialog(word: WordAdapted, onIKnowClickListener: () -> Unit) {
@@ -143,10 +155,15 @@ public class BookReadFragment : Fragment() {
     private class ParagraphViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val titleView: TextView
         val wordsView: ViewGroup
+        val loadingView: View
+        val contentView: View
 
         init {
             titleView = view.findViewById(R.id.text_text) as TextView
             wordsView = view.findViewById(R.id.text_words) as ViewGroup
+            loadingView = view.findViewById(R.id.progress_loading)
+            contentView = view.findViewById(R.id.content_frame)
+            titleView.setMovementMethod(LinkMovementMethod.getInstance())
         }
     }
 }

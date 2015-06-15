@@ -9,6 +9,7 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
 import android.view.View
+import org.book2words.core.Logger
 import org.book2words.translate.core.Definition
 
 public class WordAdapted(val start: Int,
@@ -30,10 +31,12 @@ public class WordAdapted(val start: Int,
     private var transcriptionEnd = 0;
 
     override fun compareTo(other: WordAdapted): Int {
+        Logger.debug("compareTo " + word)
         return start - other.start
     }
 
     override fun equals(other: Any?): Boolean {
+        Logger.debug("equals " + word)
         if (other == null) {
             return false
         }

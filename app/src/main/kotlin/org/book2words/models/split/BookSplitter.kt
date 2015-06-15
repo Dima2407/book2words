@@ -1,6 +1,5 @@
 package org.book2words.models.split
 
-import android.webkit.WebView
 import nl.siegmann.epublib.epub.EpubReader
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
@@ -8,18 +7,18 @@ import java.io.FileInputStream
 
 public class BookSplitter(private val libraryBook: LibraryBook) {
 
-    private var reader: WebViewBookReader? = null
+    private var reader: BookReader? = null
 
     private var size = 0
 
-    public fun prepare(surface: WebView, onPrepared: (title: String, length: Int) -> Unit, onReleased: () -> Unit) {
+    public fun prepare(onPrepared: (title: String, length: Int) -> Unit, onReleased: () -> Unit) {
         val inputStream = FileInputStream(libraryBook.getPath())
 
         var book = EpubReader().readEpub(inputStream, ENCODING)
         val title = book.getTitle()
         val spine = book.getSpine()
         size = spine.size()
-        reader = WebViewBookReader(surface, spine, {
+        reader = TagBookReader(spine, {
             onReleased()
         }, ENCODING)
 
@@ -27,9 +26,9 @@ public class BookSplitter(private val libraryBook: LibraryBook) {
     }
 
     public fun split(offset: Int = 0, length: Int = size, onSpiltProgress: (current: Int, length: Int, text: String) -> Unit) {
-        reader!!.start(offset, length, HtmlBodyTextFetcher({
+        reader!!.start(offset, length, HtmlTagContentFetcher({
             val current = reader!!.getCurrent()
-            Logger.debug("process() : ${current}")
+            Logger.debug("process() : ${it}")
             onSpiltProgress(current, length, it)
             reader!!.next()
 

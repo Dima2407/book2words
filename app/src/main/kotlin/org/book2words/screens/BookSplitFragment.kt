@@ -8,7 +8,6 @@ import android.os.IBinder
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebView
 import android.widget.ProgressBar
 import android.widget.TextView
 import org.book2words.R
@@ -18,8 +17,6 @@ import org.book2words.services.BookReadService
 
 
 public class BookSplitFragment : Fragment() {
-
-    private var surface: WebView? = null
 
     private var titleView: TextView? = null
 
@@ -53,7 +50,6 @@ public class BookSplitFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         titleView = view!!.findViewById(R.id.text_title) as TextView
         progressView = view.findViewById(R.id.progress_split) as ProgressBar
-        surface = view.findViewById(android.R.id.text1) as WebView
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -75,7 +71,7 @@ public class BookSplitFragment : Fragment() {
     }
 
     private fun split() {
-        reader!!.prepare(surface!!, onPrepared = {
+        reader!!.prepare(onPrepared = {
             title, size ->
             titleView!!.setText(title)
             progressView!!.setIndeterminate(false)

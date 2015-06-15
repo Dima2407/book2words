@@ -128,7 +128,7 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
             val dictionaries = ArrayList<LibraryDictionary>()
             val title = context.getString(R.string.default_dictionary)
             val size = context.getResources().getInteger(R.integer.default_dictionary)
-            dictionaries.add(LibraryDictionary(-1, title, true, true, size))
+            dictionaries.add(LibraryDictionary(-1, title, true, true, "en" ,size))
 
             val stored = DataContext.getLibraryDictionaryDao(context).loadAll()
             dictionaries.addAll(stored)

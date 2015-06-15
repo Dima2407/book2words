@@ -59,6 +59,8 @@ private abstract class BookReader(private val spine: Spine,
         onChapter(current + 1, getText())
     }
 
+    public abstract fun start(offset: Int = 0, length: Int = spine.size(), fetcher : BodyTextFetcher? = null)
+
     private fun getText(): String {
         Logger.debug("getText() ${current}")
         val resource = spine.getResource(current)

@@ -20,14 +20,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:indeterminate="true"
-            style="@android:style/Widget.ProgressBar.Horizontal"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
             />
-
-    <WebView
-            android:id="@android:id/text1"
-            android:layout_width="match_parent"
-            android:layout_height="0.0dip"
-            android:layout_weight="1"
-            android:visibility="gone"/>
 
 </LinearLayout>

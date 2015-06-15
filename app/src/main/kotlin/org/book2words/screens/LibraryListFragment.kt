@@ -62,7 +62,7 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         if (item.getAdapted() == LibraryBook.ADAPTED) {
             openReadActivity(item)
         } else if (item.getAdapted() == LibraryBook.NONE) {
-            val dictionary = LibraryDictionary(item.getDictionaryName())
+            val dictionary = LibraryDictionary(item.getDictionaryName(), item.getLanguage())
             DataContext.getLibraryDictionaryDao(getActivity()).insertOrIgnore(dictionary)
             getActivity().sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
             openSplitActivity(item)
@@ -87,19 +87,19 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if (item!!.getItemId() == R.id.action_add) {
+        if (item?.getItemId() == R.id.action_add) {
             val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
             intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "epub")
             startActivityForResult(intent, REQUEST_CODE_BOOK)
             return true;
         }
-        if (item!!.getItemId() == R.id.action_import) {
+        if (item?.getItemId() == R.id.action_import) {
             val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
             intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "zip")
             startActivityForResult(intent, REQUEST_CODE_IMPORT)
             return true;
         }
-        if (item!!.getItemId() == R.id.action_export) {
+        if (item?.getItemId() == R.id.action_export) {
             LibraryService.export(getActivity())
             return true;
         }
@@ -133,10 +133,10 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     private class LibraryFileAdapter(private val context: Context) :
             ObservableAdapter<LibraryBook, BookViewHolder>() {
-        override fun onBindViewHolder(holder: BookViewHolder, item : LibraryBook, position: Int) {
+        override fun onBindViewHolder(holder: BookViewHolder, item: LibraryBook, position: Int) {
             if (item.getAdapted() == LibraryBook.ADAPTED) {
                 holder.wordsView.setVisibility(View.VISIBLE)
-                holder.wordsView.setText("${item.getUnknownWords()} / ${item.getAllWords()}")
+                holder.wordsView.setText("${item.getUnknownWordsCount()} / ${item.getWordsCount()}")
             } else {
                 holder.wordsView.setVisibility(View.GONE)
             }
@@ -145,6 +145,7 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
             ImageLoader.getInstance().displayImage(coverUri, holder.coverView)
             holder.titleView.setText(item.getName())
             holder.authorsView.setText(item.getAuthors())
+            holder.languageView.setText(item.getLanguage())
         }
 
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
@@ -158,12 +159,14 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     private class BookViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val titleView: TextView
         val authorsView: TextView
+        val languageView: TextView
         val wordsView: TextView
-        val coverView : ImageView
+        val coverView: ImageView
 
         init {
             titleView = view.findViewById(R.id.text_title) as TextView
             wordsView = view.findViewById(R.id.text_words) as TextView
+            languageView = view.findViewById(R.id.text_language) as TextView
             authorsView = view.findViewById(R.id.text_author) as TextView
             coverView = view.findViewById(R.id.image_cover) as ImageView
         }

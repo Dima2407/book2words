@@ -7,7 +7,7 @@ import de.greenrobot.daogenerator.Schema;
 
 public class B2WDaoGenerator {
     public static void main(String[] args) throws Exception {
-        Schema schema = new Schema(12, "org.book2words.dao");
+        Schema schema = new Schema(1, "org.book2words.dao");
         schema.enableKeepSectionsByDefault();
 
         Entity book = schema.addEntity("LibraryBook");
@@ -17,10 +17,10 @@ public class B2WDaoGenerator {
         book.addIntProperty("adapted").notNull();
         book.addIntProperty("currentPartition").notNull();
         book.addIntProperty("countPartitions").notNull();
-        book.addIntProperty("allWords").notNull();
-        book.addIntProperty("uniqueWords").notNull();
-        book.addIntProperty("capitalWords").notNull();
-        book.addIntProperty("unknownWords").notNull();
+        book.addIntProperty("wordsCount").notNull();
+        book.addIntProperty("uniqueWordsCount").notNull();
+        book.addIntProperty("unknownWordsCount").notNull();
+        book.addStringProperty("language").notNull();
         book.addStringProperty("path").notNull().unique();
         book.implementsInterface("Parcelable");
 
@@ -29,6 +29,7 @@ public class B2WDaoGenerator {
         dictionary.addStringProperty("name").notNull().unique();
         dictionary.addBooleanProperty("use").notNull();
         dictionary.addBooleanProperty("readonly").notNull();
+        dictionary.addStringProperty("language").notNull();
         dictionary.addIntProperty("size").notNull();
         dictionary.implementsInterface("Parcelable");
 

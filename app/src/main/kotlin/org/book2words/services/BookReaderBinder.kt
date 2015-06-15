@@ -104,7 +104,7 @@ public class BookReaderBinder(
 
     public fun translate(word: String, onTranslated: (input: String, result: DictionaryResult?) -> Unit) {
         val cacheDictionary = DictionaryContext.getConfigs(service)
-        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, "en", "ru")
+        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, book.getLanguage(), "ru")
         translateProvider.translate(word, { input, result ->
             handler.post({
                 onTranslated(input, result)
@@ -114,7 +114,7 @@ public class BookReaderBinder(
 
     public fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
         val cacheDictionary = DictionaryContext.getConfigs(service)
-        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, "en", "ru")
+        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, book.getLanguage(), "ru")
         executor.execute {
             val counter = CountDownLatch(paragraph.getWords().size())
             paragraph.getWords().forEach {

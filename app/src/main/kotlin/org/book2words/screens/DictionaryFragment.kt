@@ -32,7 +32,7 @@ public class DictionaryFragment : ListFragment() {
                     list))
             getListView().setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE)
         }else {
-            val strings = getResources().getStringArray(R.array.widely_worlds)
+            val strings = getResources().getStringArray(R.array.worlds_english)
             setListAdapter(ArrayAdapter(
                     getActivity(),
                     android.R.layout.simple_list_item_1, android.R.id.text1,

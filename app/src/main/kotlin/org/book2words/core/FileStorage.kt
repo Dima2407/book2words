@@ -23,14 +23,18 @@ public class FileStorage {
         }
 
         public fun createDictionaryFile(book: LibraryBook): File {
-            return createDictionaryFile(book.getDictionaryName())
+            return createDictionaryFile(book.getDictionaryName(), book.getLanguage())
         }
 
 
-        public fun createDictionaryFile(id: String): File {
+        public fun createDictionaryFile(id: String, language : String): File {
+            return createDictionaryFile("${id}.${language}")
+        }
+
+        public fun createDictionaryFile(fileName: String): File {
             val root = createDictionaryDirectory()
 
-            return File(root, "${id}.dictionary")
+            return File(root, fileName)
         }
 
         public fun getDictionaryNameFromFile(id: String): String {
