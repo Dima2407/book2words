@@ -7,7 +7,7 @@ public object Patterns {
 
     val DUPLICATES = Pattern.compile(buildDuplicates(), Pattern.CASE_INSENSITIVE);
 
-    val CAPITAL_WORD = Pattern.compile("[^.!?]\\s\\b([A-Z][a-z'`’]+)\\b");
+    val CAPITAL_WORD = Pattern.compile("[^.!?'`\"-]\\s\\b([A-Z][a-z'`’]+)\\b");
 
     val WORD = Pattern.compile("\\b((([a-zA-Z'`’]+-)*[a-zA-Z'`’]+){3,})\\b");
 

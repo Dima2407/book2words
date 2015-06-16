@@ -10,12 +10,6 @@
             style="@android:style/Widget.Holo.ProgressBar.Horizontal"
             android:indeterminate="true"/>
 
-    <TextView
-            android:id="@+id/text_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"/>
-
     <FrameLayout
             android:id="@+id/frame_text"
             android:layout_width="match_parent"

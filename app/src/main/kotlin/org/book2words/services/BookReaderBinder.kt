@@ -85,14 +85,17 @@ public class BookReaderBinder(
             var index = 0
             stream.forEachLine {
                 Logger.debug("line(${index})- ${it}")
-                val paragraph = ParagraphAdapted(it)
 
-                ws.forEach {
-                    Logger.debug("word(${index})- ${it}")
-                    paragraph.modify(index, book.getCurrentPartition(), it)
+                if(!it.trim().isEmpty()) {
+                    val paragraph = ParagraphAdapted(it)
+
+                    ws.forEach {
+                        Logger.debug("word(${index})- ${it}")
+                        paragraph.modify(index, book.getCurrentPartition(), it)
+                    }
+
+                    pars.add(paragraph)
                 }
-
-                pars.add(paragraph)
                 index++
             }
             handler.post({

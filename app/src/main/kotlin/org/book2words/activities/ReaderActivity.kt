@@ -6,7 +6,6 @@ import android.content.ServiceConnection
 import android.os.Bundle
 import android.os.IBinder
 import android.widget.ProgressBar
-import android.widget.TextView
 import org.book2words.R
 import org.book2words.dao.LibraryBook
 import org.book2words.screens.BookReadFragment
@@ -46,8 +45,6 @@ public class ReaderActivity : Activity(), ReaderScreen {
         super<Activity>.onCreate(savedInstanceState)
         setContentView(R.layout.activity_read)
         book = getIntent().getParcelableExtra(EXTRA_BOOK)
-        val titleView = findViewById(R.id.text_title) as TextView
-        titleView.setText(book!!.getName())
         findViewById(R.id.button_previous).setOnClickListener({
             goToPrevious()
         })

@@ -1,8 +1,9 @@
 package org.book2words.screens
 
+import android.app.Activity
 import android.app.AlertDialog
 import android.app.Fragment
-import android.content.Context
+import android.graphics.Point
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -62,7 +63,19 @@ public class BookReadFragment : Fragment() {
         }
     }
 
-    private class ParagraphAdapter(private val context: Context, private val binder: BookReaderBinder, private val items: List<ParagraphAdapted>) : RecyclerView.Adapter<ParagraphViewHolder>() {
+    private class ParagraphAdapter(
+            private val context: Activity,
+            private val binder: BookReaderBinder,
+            private val items: List<ParagraphAdapted>) : RecyclerView.Adapter<ParagraphViewHolder>() {
+        val size: Point = Point()
+
+        init {
+            context.getWindowManager()
+                    .getDefaultDisplay()
+                    .getSize(size)
+        }
+
+
         override fun getItemCount(): Int {
             return items.size()
         }
@@ -70,6 +83,8 @@ public class BookReadFragment : Fragment() {
         override fun onBindViewHolder(holder: ParagraphViewHolder?, p1: Int) {
             val item = items[p1]
             holder?.wordsView?.removeAllViews()
+            val layoutParams = holder?.wordsView?.getLayoutParams()
+            layoutParams?.width = size.x / 3
             if (item.translated) {
                 holder?.loadingView?.setVisibility(View.GONE)
                 holder?.contentView?.setVisibility(View.VISIBLE)

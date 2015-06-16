@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.graphics.Color
 import android.text.Html
+import android.text.TextUtils
 import android.widget.TextView
 import org.book2words.R
 import org.book2words.models.book.WordAdapted
@@ -18,6 +19,7 @@ public class WordView(context: Context) : TextView(context) {
         setPadding(6, 6, 6, 6)
         setMaxLines(2)
         setTextColor(Color.BLACK)
+        setEllipsize(TextUtils.TruncateAt.END)
         this.setOnClickListener {
             val definitions = word!!.getDefinitions()
             if (definitions != null && definitions.isNotEmpty()) {
