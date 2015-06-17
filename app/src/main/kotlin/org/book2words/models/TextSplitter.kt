@@ -6,13 +6,12 @@ import org.book2words.models.book.Word
 import java.io.File
 import java.io.FileInputStream
 import java.util.LinkedHashMap
-import java.util.LinkedHashSet
 import java.util.TreeMap
 import java.util.TreeSet
 
 public class TextSplitter private constructor() {
 
-    private val capitals = LinkedHashSet<String>()
+    private val capitals: MutableMap<String, Int> = LinkedHashMap()
 
     private val words: MutableMap<String, Word> = LinkedHashMap()
 
@@ -26,7 +25,9 @@ public class TextSplitter private constructor() {
         var offset = 0;
         while (matcher.find(offset)) {
             offset = matcher.start(1);
-            capitals.add(matcher.group(1).toLowerCase());
+            val word = matcher.group(1).toLowerCase()
+            val value = capitals.getOrElse(word, { 0 })
+            capitals.put(word, value + 1)
             allWordsCount++
         }
         Logger.debug("capitals = ${capitals.size()}")
@@ -49,7 +50,7 @@ public class TextSplitter private constructor() {
         return partitions
     }
 
-    public fun nextPartition(){
+    public fun nextPartition() {
         partitions++
     }
 
@@ -61,7 +62,7 @@ public class TextSplitter private constructor() {
                 val w = matcher.group(1)
                 val start = matcher.start(1)
                 val end = matcher.end(1)
-                var word = words.getOrPut(w.toLowerCase(),  {
+                var word = words.getOrPut(w.toLowerCase(), {
                     Word(w)
                 })
                 word.addParagraph(i, partitions, start, end)
@@ -71,8 +72,9 @@ public class TextSplitter private constructor() {
     }
 
     public fun clearCapital() {
+        val words = capitals.filterValues { it >= Patterns.MAX_CAPITALS }
         clear {
-            capitals.contains(it.toLowerCase())
+            words.contains(it.toLowerCase())
         }
     }
 
@@ -150,7 +152,7 @@ public class TextSplitter private constructor() {
         return partitions
     }
 
-    public fun getWords(): Collection<Word>{
+    public fun getWords(): Collection<Word> {
         return words.values()
     }
 }

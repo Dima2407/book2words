@@ -1,11 +1,11 @@
 package org.book2words.translate.core
 
 public interface Definition {
-    public fun getText(): String?
+    public fun getText(): String
 
-    public fun getTranscription(): String?
+    public fun getTranscription(): String
 
-    public fun getTranslate(): String?
+    public fun getPos(): String
 
-    public fun getTranslateShort(): String?
+    public fun getTranslate(): String
 }

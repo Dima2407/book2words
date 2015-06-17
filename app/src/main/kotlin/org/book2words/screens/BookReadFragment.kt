@@ -47,8 +47,8 @@ public class BookReadFragment : Fragment() {
         listView!!.setVisibility(View.GONE)
         progressView!!.setVisibility(View.VISIBLE)
         val reader = (getActivity() as ReaderScreen).getReader()
-        reader.read({ lines, words ->
-            listView!!.setAdapter(ParagraphAdapter(getActivity(), reader, lines))
+        reader.read({ paragraphs ->
+            listView!!.setAdapter(ParagraphAdapter(getActivity(), reader, paragraphs))
             listView!!.setVisibility(View.VISIBLE)
             progressView!!.setVisibility(View.GONE)
         })
@@ -102,17 +102,19 @@ public class BookReadFragment : Fragment() {
         }
 
         private fun bindData(holder: ParagraphViewHolder?, item: ParagraphAdapted) {
-            item.getRightWords().forEach {
-                val rootView = WordView(context)
-                rootView.setOnWordClickListener { word ->
-                    removeWord(word!!)
-                    binder.remove(word)
+            item.getWords().forEach {
+                val word = it
+                val rootView = WordView(context, word)
+                rootView.setOnClickListener {
+                    showWordDialog(word, {
+                        removeWord(word)
+                        binder.remove(word)
+                    })
                 }
-                rootView.setWord(it)
                 holder?.wordsView?.addView(rootView)
             }
             item.setOnWordClickListener { word ->
-                showWordDialog(word!!, {
+                showWordDialog(word, {
                     removeWord(word)
                     binder.remove(word)
                 })
@@ -121,28 +123,11 @@ public class BookReadFragment : Fragment() {
         }
 
         private fun showWordDialog(word: WordAdapted, onIKnowClickListener: () -> Unit) {
-            val definitions = word.getDefinitions()
-            if (definitions != null && definitions.isNotEmpty()) {
-
-                val content = StringBuilder()
-
-                definitions.forEachIndexed { i, it ->
-                    content.append(it.getText())
-                    content.append(" - ")
-                    content.append("<b>[ ")
-                    content.append(it.getTranscription())
-                    content.append(" ]</b>")
-                    content.append(" - ")
-                    content.append("<i>")
-                    content.append(it.getTranslate())
-                    content.append("</i>")
-                    if (i < definitions.size() - 1) {
-                        content.append("<br/>")
-                    }
-                }
+            val definitions = word.getDefinitionsFull()
+            if (definitions.isNotEmpty()) {
                 val builder = AlertDialog.Builder(context)
                 builder.setTitle(R.string.app_name)
-                builder.setMessage(Html.fromHtml(content.toString()))
+                builder.setMessage(Html.fromHtml(definitions))
                         .setPositiveButton(R.string.i_know, { dialog, id ->
                             onIKnowClickListener()
                         })

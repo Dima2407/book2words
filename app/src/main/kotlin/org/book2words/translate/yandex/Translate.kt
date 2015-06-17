@@ -1,27 +1,24 @@
 package org.book2words.translate.yandex
 
+import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
-import org.book2words.translate.core
 
-private class Translate : core.Translate {
+private class Translate {
     SerializedName("text")
-    private var text: String? = null
+    var text: String = ""
 
     SerializedName("pos")
-    private var pos: String? = null
+    var pos: String = ""
 
-    SerializedName("mean")
-    private var means: Array<Mean>? = null
+    //SerializedName("mean")
+    Expose
+    var means: Array<Mean>? = null
 
-    override fun getText(): String? {
-        return text
-    }
+    //SerializedName("syn")
+    Expose
+    var syns: Array<Syn>? = null
 
-    override fun getMeans(): Array<out core.Mean>? {
-        return means
-    }
-
-    override fun toString(): String {
-        return text as String
-    }
+    //SerializedName("ex")
+    Expose
+    var examples: Array<Example>? = null
 }

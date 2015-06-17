@@ -1,14 +1,20 @@
 package org.book2words.models.book
 
+import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
+import org.book2words.translate.core.Definition
 import java.io.Serializable
 import java.util.ArrayList
 
 public open class Word(value: String) : Comparable<Word>, Serializable {
     SerializedName("p")
-    public val paragraphs: MutableList<Paragraph> = ArrayList()
+    val paragraphs: MutableList<Paragraph> = ArrayList()
     SerializedName("v")
-    public val value: String;
+    val value: String;
+    Expose
+    var definitions: Array<out Definition>? = null
+    Expose
+    var translated: Boolean = false
 
     init {
         this.value = value.toLowerCase();
@@ -50,5 +56,9 @@ public open class Word(value: String) : Comparable<Word>, Serializable {
             }
             return word
         }
+    }
+
+    fun hasDefinitions(): Boolean {
+        return definitions != null && definitions!!.isNotEmpty()
     }
 }

@@ -17,17 +17,10 @@
         <item>am</item>
         <item>of</item>
         <item>now</item>
-        <item>have</item>
-        <item>has</item>
-        <item>had</item>
         <item>over</item>
         <item>you</item>
         <item>make</item>
         <item>he</item>
-        <item>be</item>
-        <item>was</item>
-        <item>were</item>
-        <item>been</item>
         <item>in</item>
         <item>time</item>
         <item>not</item>
@@ -37,10 +30,6 @@
         <item>who</item>
         <item>his</item>
         <item>want</item>
-        <item>do</item>
-        <item>does</item>
-        <item>did</item>
-        <item>done</item>
         <item>here</item>
         <item>tell</item>
         <item>told</item>
@@ -98,18 +87,7 @@
         <item>are</item>
         <item>turn</item>
         <item>can</item>
-        <item>go</item>
-        <item>went</item>
-        <item>gone</item>
-        <item>get</item>
-        <item>got</item>
         <item>open</item>
-        <item>give</item>
-        <item>gave</item>
-        <item>given</item>
-        <item>know</item>
-        <item>knew</item>
-        <item>known</item>
         <item>ask</item>
         <item>move</item>
         <item>see</item>
@@ -118,8 +96,6 @@
         <item>stand</item>
         <item>stood</item>
         <item>will</item>
-        <item>find</item>
-        <item>found</item>
         <item>into</item>
         <item>again</item>
         <item>little</item>
@@ -130,30 +106,21 @@
         <item>try</item>
         <item>still</item>
         <item>an</item>
-        <item>hear</item>
-        <item>heard</item>
-        <item>come</item>
-        <item>came</item>
         <item>walk</item>
         <item>think</item>
         <item>thought</item>
         <item>before</item>
         <item>so</item>
-        <item>leave</item>
-        <item>left</item>
         <item>down</item>
         <item>your</item>
         <item>them</item>
         <item>long</item>
         <item>sit</item>
         <item>sat</item>
-        <item>let</item>
         <item>would</item>
         <item>should</item>
         <item>call</item>
         <item>new</item>
-        <item>feel</item>
-        <item>felt</item>
         <item>close</item>
         <item>anything</item>
         <item>very</item>
@@ -166,8 +133,6 @@
         <item>point</item>
         <item>any</item>
         <item>small</item>
-        <item>hold</item>
-        <item>held</item>
         <item>happen</item>
         <item>work</item>
         <item>wall</item>
@@ -184,9 +149,6 @@
         <item>lit</item>
         <item>maybe</item>
         <item>than</item>
-        <item>fall</item>
-        <item>fell</item>
-        <item>fallen</item>
         <item>after</item>
         <item>own</item>
         <item>far</item>
@@ -232,7 +194,6 @@
         <item>because</item>
         <item>water</item>
         <item>three</item>
-        <item>cut</item>
         <item>talk</item>
         <item>help</item>
         <item>mean</item>
@@ -243,12 +204,7 @@
         <item>show</item>
         <item>showed</item>
         <item>shown</item>
-        <item>keep</item>
-        <item>kept</item>
         <item>place</item>
-        <item>begin</item>
-        <item>began</item>
-        <item>begun</item>
         <item>shake</item>
         <item>shook</item>
         <item>shaken</item>
@@ -256,9 +212,6 @@
         <item>seem</item>
         <item>inside</item>
         <item>wait</item>
-        <item>break</item>
-        <item>broke</item>
-        <item>broken</item>
         <item>need</item>
         <item>ever</item>
         <item>moment</item>

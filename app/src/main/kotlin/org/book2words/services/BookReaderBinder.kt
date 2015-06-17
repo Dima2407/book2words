@@ -14,9 +14,7 @@ import org.book2words.data.DictionaryContext
 import org.book2words.models.book.ParagraphAdapted
 import org.book2words.models.book.Word
 import org.book2words.models.book.WordAdapted
-import org.book2words.translate.TranslateProvider
-import org.book2words.translate.TranslateProviderFactory
-import org.book2words.translate.core.DictionaryResult
+import org.book2words.translate.Dictionary
 import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.util.ArrayList
@@ -26,11 +24,20 @@ import java.util.concurrent.Executors
 public class BookReaderBinder(
         private val book: LibraryBook,
         private val service: Service) : Binder(), BookBinder {
+    val onlineDictionary: Dictionary
+    val verbsDictionary: Dictionary
+
+    init {
+        val cacheDictionary = DictionaryContext.getConfigs(service)
+        onlineDictionary = Dictionary.createOnline(cacheDictionary, book.getLanguage())
+        verbsDictionary = Dictionary.createVerbs(service)
+    }
+
     override fun release() {
         val file = FileStorage.createWordsFile(book.getId());
         val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
-        words.forEach {
+        unknownWords.forEach {
             bos.appendln(it.toSeparatedString(";"))
             bos.flush()
         }
@@ -42,7 +49,7 @@ public class BookReaderBinder(
 
     private val executor = Executors.newSingleThreadExecutor()
 
-    private var words: MutableList<Word> = ArrayList()
+    private var unknownWords: MutableList<Word> = ArrayList()
     private var dictionary: LibraryDictionary? = null
 
     public fun prepare(callback: () -> Unit) {
@@ -55,7 +62,7 @@ public class BookReaderBinder(
             var file = FileStorage.createWordsFile(book.getId())
             val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
             bos.forEachLine {
-                words.add(Word.fromSeparatedString(it, ";"))
+                unknownWords.add(Word.fromSeparatedString(it, ";"))
             }
             bos.close()
 
@@ -65,19 +72,19 @@ public class BookReaderBinder(
         })
     }
 
-    public fun read(callback: (paragraphs: List<ParagraphAdapted>, words: List<Word>) -> Unit) {
+    public fun read(callback: (paragraphs: List<ParagraphAdapted>) -> Unit) {
 
         executor.execute({
 
-            Logger.debug("words = ${book.getCurrentPartition()} - ${words!!.size()}")
+            Logger.debug("words = ${book.getCurrentPartition()} - ${unknownWords.size()}")
 
-            val ws = words!!.filter {
+            val words = unknownWords.filter {
                 it.paragraphs.any {
                     it.key == book.getCurrentPartition()
                 }
             }
 
-            Logger.debug("words = ${book.getCurrentPartition()} - ${ws.size()}")
+            Logger.debug("words = ${book.getCurrentPartition()} - ${words.size()}")
 
             val file = FileStorage.createChapterFile(book.getId(), book.getCurrentPartition())
             val stream = FileInputStream(file).bufferedReader(Charsets.UTF_8)
@@ -86,10 +93,10 @@ public class BookReaderBinder(
             stream.forEachLine {
                 Logger.debug("line(${index})- ${it}")
 
-                if(!it.trim().isEmpty()) {
+                if (!it.trim().isEmpty()) {
                     val paragraph = ParagraphAdapted(it)
 
-                    ws.forEach {
+                    words.forEach {
                         Logger.debug("word(${index})- ${it}")
                         paragraph.modify(index, book.getCurrentPartition(), it)
                     }
@@ -99,32 +106,30 @@ public class BookReaderBinder(
                 index++
             }
             handler.post({
-                callback(pars, ws)
+                callback(pars)
             })
         })
 
-    }
-
-    public fun translate(word: String, onTranslated: (input: String, result: DictionaryResult?) -> Unit) {
-        val cacheDictionary = DictionaryContext.getConfigs(service)
-        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, book.getLanguage(), "ru")
-        translateProvider.translate(word, { input, result ->
-            handler.post({
-                onTranslated(input, result)
-            })
-        })
     }
 
     public fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
-        val cacheDictionary = DictionaryContext.getConfigs(service)
-        val translateProvider = TranslateProviderFactory.create(TranslateProvider.Provider.YANDEX, cacheDictionary, book.getLanguage(), "ru")
         executor.execute {
             val counter = CountDownLatch(paragraph.getWords().size())
             paragraph.getWords().forEach {
-                if (!it.translated) {
-                    translateProvider.translate(it.word, { input, result ->
-                        it.setDefinitions(result!!.results())
-                        counter.countDown()
+                val word = it
+                if (!word.isTranslated()) {
+                    verbsDictionary.find(word.getValue(), { input, result ->
+                        if (result.isNotEmpty()) {
+                            word.setDefinitions(result)
+                            counter.countDown()
+                        } else {
+                            if (!word.isTranslated()) {
+                                onlineDictionary.find(word.getValue(), { input, result ->
+                                    word.setDefinitions(result)
+                                    counter.countDown()
+                                })
+                            }
+                        }
                     })
                 } else {
                     counter.countDown()
@@ -143,12 +148,12 @@ public class BookReaderBinder(
     }
 
     public fun remove(word: WordAdapted) {
-        words.remove(word)
+        unknownWords.remove(word)
         dictionary!!.setSize(dictionary!!.getSize() + 1)
         DataContext.getLibraryDictionaryDao(service).update(dictionary)
         val writer = FileOutputStream(FileStorage.createDictionaryFile(book), true)
                 .bufferedWriter(Charsets.UTF_8)
-        writer.appendln(word.word)
+        writer.appendln(word.getValue())
         writer.flush()
         writer.close()
         service.sendBroadcast(Intent(LibraryDictionary.ACTION_UPDATED))

@@ -9,17 +9,12 @@ import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
 import android.view.View
-import org.book2words.core.Logger
 import org.book2words.translate.core.Definition
 
-public class WordAdapted(val start: Int,
-                         val end: Int,
-                         val word: String,
-                         val color: Int,
-                         var translated: Boolean = false,
-                         var hasDefinition: Boolean = false) : Comparable<WordAdapted> {
-
-    private var definitions: Array<out Definition>? = null
+public class WordAdapted(private val start: Int,
+                         private val end: Int,
+                         private val word: Word,
+                         private val color: Int) : Comparable<WordAdapted> {
 
     private val foregroundSpan = ForegroundColorSpan(color)
     private val styleSpan = StyleSpan(Typeface.ITALIC)
@@ -31,47 +26,36 @@ public class WordAdapted(val start: Int,
     private var transcriptionEnd = 0;
 
     override fun compareTo(other: WordAdapted): Int {
-        Logger.debug("compareTo " + word)
         return start - other.start
     }
 
     override fun equals(other: Any?): Boolean {
-        Logger.debug("equals " + word)
         if (other == null) {
             return false
         }
         if (other is Word) {
             val o = other
-            return word.equals(o.value, ignoreCase = true)
+            return word.equals(o)
         }
         if (other is WordAdapted) {
             val o = other
-            return word.equals(o.word, ignoreCase = true)
+            return word.equals(o.word)
         }
         return false
     }
 
-    public fun setDefinitions(defs: Array<out Definition>?) {
-        if (!translated) {
-            definitions = defs
+    public fun setDefinitions(definitions: Array<out Definition>) {
+        if (!word.translated) {
+            word.definitions = definitions
         }
-        hasDefinition = defs != null && defs.isNotEmpty()
-        translated = true
-    }
-
-    fun getDefinitions(): Array<out Definition>? {
-        return definitions
-    }
-
-    fun getTranscription(): String? {
-        return definitions?.get(0)?.getTranscription()
+        word.translated = true
     }
 
     fun applySpannable(adapted: SpannableStringBuilder, offset: Int, onWordClickListener: ((word: WordAdapted) -> Unit)? = null): Int {
         val start = start + 1 + offset
         val end = end + 1 + offset
-        if (hasDefinition) {
-            val trans = " [${getTranscription()}]"
+        if (word.hasDefinitions()) {
+            val trans = " [${word.definitions?.get(0)?.getTranscription()}]"
 
             adapted.insert(end, trans)
             adapted.setSpan(foregroundSpan, start, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
@@ -104,5 +88,63 @@ public class WordAdapted(val start: Int,
         override fun updateDrawState(ds: TextPaint) {
 
         }
+    }
+
+    fun isTranslated(): Boolean {
+        return word.translated
+    }
+
+    fun getDefinitionsFull(): String {
+        val definitions = word.definitions
+        val content = StringBuilder()
+        if (definitions != null && definitions.isNotEmpty()) {
+            definitions.forEachIndexed { i, it ->
+                content.append(it.getText())
+                content.append(" - ")
+                content.append("<b>[ ")
+                content.append(it.getTranscription())
+                content.append(" ]</b>")
+                content.append(" - ")
+                content.append("(")
+                content.append(it.getPos())
+                content.append(")")
+                content.append(" ")
+                content.append("<i>")
+                content.append(it.getTranslate())
+                content.append("</i>")
+                if (i < definitions.size() - 1) {
+                    content.append("<br/>")
+                }
+            }
+        }
+        return content.toString()
+    }
+
+    fun getDefinitionsShort(): String {
+        val definitions = word.definitions
+        val content = StringBuilder()
+        if (definitions != null && definitions.isNotEmpty()) {
+            definitions.forEachIndexed { i, it ->
+                content.append("<i>")
+                content.append(it.getTranslate())
+                content.append("</i>")
+                if (i < definitions.size() - 1) {
+                    content.append("<br/>")
+                }
+            }
+        }
+        return content.toString()
+    }
+
+    fun getValue(): String {
+        return word.value
+    }
+
+    override fun toString(): String {
+        return getValue()
+    }
+
+    fun getColor(): Int {
+        return color
     }
 }

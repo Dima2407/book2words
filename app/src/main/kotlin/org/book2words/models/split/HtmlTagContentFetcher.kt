@@ -6,7 +6,7 @@ public class HtmlTagContentFetcher(private val onProcess: (text: String) -> Unit
 
     private val bodyPattern = "<body[^>]*>(.*)<\\/body>".toPattern()
     private val skipTag = "(<[^>]*>)|(<\\/[^>]+>)".toRegex()
-    private val lineSeparator = "(<\\/p>)|(<br[^>]*>)".toRegex()
+    private val lineSeparator = "(<\\/blockquote>)|(<\\/p>)|(<br[^>]*>)".toRegex()
     private val linesClearSeparator = "([^\\s])([\\s]*\n+[\\s]*)([^\\s])".toRegex()
 
     override public fun processContent(text: String) {

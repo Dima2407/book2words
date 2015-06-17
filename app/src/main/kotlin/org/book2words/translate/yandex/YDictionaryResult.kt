@@ -1,14 +1,14 @@
 package org.book2words.translate.yandex
 
 import com.google.gson.annotations.SerializedName
+import org.book2words.translate.core.Definition
 import org.book2words.translate.core.DictionaryResult
 
-class YandexDictionaryResult : DictionaryResult {
+class YDictionaryResult : DictionaryResult {
     SerializedName("def")
-    private val definitions: Array<Definition>? = null
+    val definitions: Array<YDefinition> = arrayOf()
 
-    override fun results(): Array<out org.book2words.translate.core.Definition>? {
+    override fun getResults(): Array<out Definition> {
         return definitions
     }
-
 }
