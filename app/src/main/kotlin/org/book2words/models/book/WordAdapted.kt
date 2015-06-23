@@ -147,4 +147,8 @@ public class WordAdapted(private val start: Int,
     fun getColor(): Int {
         return color
     }
+
+    fun hasDefinitions(): Boolean {
+        return word.hasDefinitions()
+    }
 }

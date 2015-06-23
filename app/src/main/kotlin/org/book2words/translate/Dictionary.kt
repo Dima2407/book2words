@@ -7,6 +7,8 @@ import org.book2words.translate.core.Definition
 public interface Dictionary {
     public fun find(input: String, onFound: (input: String, definitions: Array<out Definition>) -> Unit)
 
+    public fun find(input: String): Array<out Definition>
+
     companion object {
         private val TARGET = "ru"
         public fun createOnline(cache: CacheDictionary, from: String): Dictionary {

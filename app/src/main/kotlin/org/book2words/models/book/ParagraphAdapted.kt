@@ -183,6 +183,16 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
         return unique
     }
 
+    fun getNotTranslatedWords(): Collection<WordAdapted> {
+        val unique = ArrayList<WordAdapted>()
+        words.forEach {
+            if (!unique.contains(it) && !it.isTranslated()) {
+                unique.add(it)
+            }
+        }
+        return unique
+    }
+
     public fun setOnWordClickListener(onWordClickListener: ((word: WordAdapted) -> Unit)?) {
         this.onWordClickListener = onWordClickListener
     }

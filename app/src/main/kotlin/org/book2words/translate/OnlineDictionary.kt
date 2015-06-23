@@ -1,7 +1,5 @@
 package org.book2words.translate
 
-import android.os.Handler
-import android.os.HandlerThread
 import com.google.gson.Gson
 import org.book2words.core.Logger
 import org.book2words.data.CacheDictionary
@@ -13,44 +11,70 @@ import java.net.HttpURLConnection
 import java.net.URL
 import java.net.URLEncoder
 import java.util.HashMap
+import java.util.concurrent.Executors
 
 private class OnlineDictionary(private val dictionary: CacheDictionary,
                                private val from: String,
                                private val to: String) : Dictionary {
 
-    private val gson: Gson
+    private val deserializer = Gson()
 
-    private var handler: Handler? = null
-    private val handlerThread: HandlerThread
+    private val verbPast = "(\\w{3,})ed$".toPattern()
 
-    init {
-        this.handlerThread = HandlerThread("OblineTranslateProvider")
-        this.gson = Gson()
-    }
+    private val plural = "(\\w{3,})s$".toPattern()
+
+    private val plurals = "(\\w{3,})es$".toPattern()
+
+    private val verbContinuous = "(\\w{3,})ing$".toPattern()
+
+    private var executor = Executors.newSingleThreadExecutor();
 
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
-
-        if (handler == null && !handlerThread.isAlive()) {
-            handlerThread.start()
-            handler = Handler(handlerThread.getLooper())
-        }
-
-        handler!!.post({
-            Logger.debug("online : ${input}")
-            val result = translate(input)
-            val definitions = result.getResults()
-            onFound(input, definitions);
+        executor.submit({
+            var defs = find(input)
+            if(defs.isEmpty()){
+                val matcher = verbPast.matcher(input)
+                if(matcher.matches()){
+                    defs = find(matcher.group(1));
+                }
+            }
+            if(defs.isEmpty()){
+                val matcher = plural.matcher(input)
+                if(matcher.matches()){
+                    defs = find(matcher.group(1))
+                }
+            }
+            if(defs.isEmpty()){
+                val matcher = plurals.matcher(input)
+                if(matcher.matches()){
+                    defs = find(matcher.group(1))
+                }
+            }
+            if(defs.isEmpty()){
+                val matcher = verbContinuous.matcher(input)
+                if(matcher.matches()){
+                    defs = find(matcher.group(1))
+                }
+            }
+            onFound(input, defs);
         })
+    }
+
+    override fun find(input: String): Array<out Definition> {
+        Logger.debug("find - ${input}", TAG)
+        val result = translate(input)
+        return result.getResults()
     }
 
     private fun translate(input: String): DictionaryResult {
         val cached = dictionary.take(input)
         if (cached != null) {
-            return gson.fromJson(cached,
+            Logger.debug("find at cache - ${input}", TAG)
+            return deserializer.fromJson(cached,
                     javaClass<YDictionaryResult>())
         }
         val queryString = buildQueryString(input)
-        Logger.debug(queryString)
+        Logger.debug("query string - ${queryString}", TAG)
         var result: DictionaryResult = YDictionaryResult()
         try {
             val url = URL(queryString)
@@ -69,9 +93,11 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
                     reader.forEachLine {
                         resonse.append(it)
                     }
-                    result = gson.fromJson(resonse.toString(),
+                    result = deserializer.fromJson(resonse.toString(),
                             javaClass<YDictionaryResult>())
-                    dictionary.save(input, resonse.toString())
+                    if(result.getResults().isNotEmpty()) {
+                        dictionary.save(input, resonse.toString())
+                    }
                 } catch(e: IOException) {
                     Logger.error(e)
                 }
@@ -105,7 +131,8 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
 
     companion object {
 
-        private val API_KEY ="dict.1.1.20150121T133416Z.012b4f6033891237.6f0842fdef230f439d6de551d88d58831e4203e3";
+        private val TAG = javaClass<OnlineDictionary>().getSimpleName()
+        private val API_KEY = "dict.1.1.20150121T133416Z.012b4f6033891237.6f0842fdef230f439d6de551d88d58831e4203e3";
         //private val API_KEY = "dict.1.1.20150106T111220Z.9a21fb953b9a84b1.b2c75f2ccb09ec04eff11a41590d35894dcf6124"
 
         private val QUERY = "https://dictionary.yandex.net/api/v1/dicservice.json/lookup"

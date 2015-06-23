@@ -1,49 +1,40 @@
 package org.book2words.translate;
 
 import android.content.res.Resources
-import android.os.Handler
-import android.os.HandlerThread
 import org.book2words.R
 import org.book2words.core.Logger
 import org.book2words.translate.core.Definition
 import org.w3c.dom.Node
 import org.w3c.dom.NodeList
 import org.xml.sax.InputSource
+import java.util.concurrent.Executors
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathFactory
 
 private class WrongVerbsDictionary(private val resources: Resources) : Dictionary {
 
-    val xPath = XPathFactory.newInstance().newXPath()
+    private val xPath = XPathFactory.newInstance().newXPath()
+    private var executor = Executors.newSingleThreadExecutor();
 
     override fun find(input: String, onFound: (String, Array<out Definition>) -> Unit) {
-        if (handler == null && !handlerThread.isAlive()) {
-            handlerThread.start()
-            handler = Handler(handlerThread.getLooper())
-        }
-
-        handler!!.post({
-            val source = InputSource(resources.openRawResource(R.raw.wrong_verbs))
-            val expression = "/defs/d[@v='${input}']"
-            Logger.debug("check wrong-verb : ${input}")
-            val nodes = xPath.evaluate(expression, source, XPathConstants.NODESET) as NodeList?
-            var items = arrayOf<Definition>()
-            if (nodes != null) {
-                items = Array(nodes.getLength(), {
-                    val node = nodes.item(it)
-                    VerbDefinition(node)
-                })
-            }
-            onFound(input, items);
+        executor.submit({
+            onFound(input, find(input));
         })
-
     }
 
-    private var handler: Handler? = null
-    private val handlerThread: HandlerThread
-
-    init {
-        this.handlerThread = HandlerThread("WrongVerbsDictionary")
+    override fun find(input: String): Array<out Definition> {
+        val source = InputSource(resources.openRawResource(R.raw.wrong_verbs))
+        val expression = "/defs/d[@v='${input}']"
+        Logger.debug("find verb : ${input}")
+        val nodes = xPath.evaluate(expression, source, XPathConstants.NODESET) as NodeList?
+        var items = arrayOf<Definition>()
+        if (nodes != null) {
+            items = Array(nodes.getLength(), {
+                val node = nodes.item(it)
+                VerbDefinition(node)
+            })
+        }
+        return items
     }
 
     private class VerbDefinition(definition: Node) : Definition {

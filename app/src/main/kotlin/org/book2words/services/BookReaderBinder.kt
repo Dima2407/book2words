@@ -114,26 +114,22 @@ public class BookReaderBinder(
 
     public fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
         executor.execute {
-            val counter = CountDownLatch(paragraph.getWords().size())
-            paragraph.getWords().forEach {
+            val counter = CountDownLatch(paragraph.getNotTranslatedWords().size())
+            paragraph.getNotTranslatedWords().forEach {
                 val word = it
-                if (!word.isTranslated()) {
-                    verbsDictionary.find(word.getValue(), { input, result ->
-                        if (result.isNotEmpty()) {
-                            word.setDefinitions(result)
-                            counter.countDown()
-                        } else {
-                            if (!word.isTranslated()) {
-                                onlineDictionary.find(word.getValue(), { input, result ->
-                                    word.setDefinitions(result)
-                                    counter.countDown()
-                                })
-                            }
+                verbsDictionary.find(word.getValue(), { input, result ->
+                    if (result.isNotEmpty()) {
+                        word.setDefinitions(result)
+                        counter.countDown()
+                    } else {
+                        if (!word.isTranslated()) {
+                            onlineDictionary.find(word.getValue(), { input, result ->
+                                word.setDefinitions(result)
+                                counter.countDown()
+                            })
                         }
-                    })
-                } else {
-                    counter.countDown()
-                }
+                    }
+                })
             }
             counter.await()
             handler.post({
