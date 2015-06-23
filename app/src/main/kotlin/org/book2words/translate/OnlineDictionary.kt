@@ -19,11 +19,9 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
 
     private val deserializer = Gson()
 
-    private val verbPast = "(\\w{3,})ed$".toPattern()
+    private val verbPast = "((\\w{3,})e?)d$".toPattern()
 
-    private val plural = "(\\w{3,})s$".toPattern()
-
-    private val plurals = "(\\w{3,})es$".toPattern()
+    private val plurals = "((\\w{2,})e?)s$".toPattern()
 
     private val verbContinuous = "(\\w{3,})ing$".toPattern()
 
@@ -32,27 +30,38 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({
             var defs = find(input)
-            if(defs.isEmpty()){
+            if (defs.isEmpty()) {
                 val matcher = verbPast.matcher(input)
-                if(matcher.matches()){
-                    defs = find(matcher.group(1));
+                if (matcher.matches()) {
+                    var word = matcher.group(2)
+                    defs = find(word)
+                    if (defs.isEmpty()) {
+                        val newWord = matcher.group(1)
+                        if (word.length() != newWord.length()) {
+                            defs = find(newWord)
+                        }
+                    }
                 }
             }
-            if(defs.isEmpty()){
-                val matcher = plural.matcher(input)
-                if(matcher.matches()){
-                    defs = find(matcher.group(1))
-                }
-            }
-            if(defs.isEmpty()){
+            if (defs.isEmpty()) {
                 val matcher = plurals.matcher(input)
-                if(matcher.matches()){
-                    defs = find(matcher.group(1))
+                if (matcher.matches()) {
+                    val word = matcher.group(1)
+                    defs = find(word)
+                    if (defs.isEmpty()) {
+                        val wordWithoutES = matcher.group(2)
+                        if (word.length() != wordWithoutES.length()) {
+                            defs = find(wordWithoutES)
+                            /*if (defs.isEmpty() && wordWithoutES[wordWithoutES.length() - 1] == 'i'){
+                                defs = find()
+                            }*/
+                        }
+                    }
                 }
             }
-            if(defs.isEmpty()){
+            if (defs.isEmpty()) {
                 val matcher = verbContinuous.matcher(input)
-                if(matcher.matches()){
+                if (matcher.matches()) {
                     defs = find(matcher.group(1))
                 }
             }
@@ -95,7 +104,7 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
                     }
                     result = deserializer.fromJson(resonse.toString(),
                             javaClass<YDictionaryResult>())
-                    if(result.getResults().isNotEmpty()) {
+                    if (result.getResults().isNotEmpty()) {
                         dictionary.save(input, resonse.toString())
                     }
                 } catch(e: IOException) {
