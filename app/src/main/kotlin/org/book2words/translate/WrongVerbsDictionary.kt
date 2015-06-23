@@ -25,7 +25,7 @@ private class WrongVerbsDictionary(private val resources: Resources) : Dictionar
         handler!!.post({
             val source = InputSource(resources.openRawResource(R.raw.wrong_verbs))
             val expression = "/defs/d[@v='${input}']"
-            Logger.debug("wrong-verb : ${input}")
+            Logger.debug("check wrong-verb : ${input}")
             val nodes = xPath.evaluate(expression, source, XPathConstants.NODESET) as NodeList?
             var items = arrayOf<Definition>()
             if (nodes != null) {
@@ -48,7 +48,7 @@ private class WrongVerbsDictionary(private val resources: Resources) : Dictionar
 
     private class VerbDefinition(definition: Node) : Definition {
         private val text: String
-        private var pos: String = ""
+        private var pos: String
         private var transcription: String
         private var translates: String
 
@@ -57,6 +57,13 @@ private class WrongVerbsDictionary(private val resources: Resources) : Dictionar
             text = attributes.getNamedItem("v").getNodeValue()
             transcription = attributes.getNamedItem("ts").getNodeValue()
             translates = attributes.getNamedItem("tr").getNodeValue()
+            pos = attributes.getNamedItem("p").getNodeValue()
+            val time = attributes.getNamedItem("t")?.getNodeValue()
+            if (time == "ps") {
+                pos = "${pos} - past simple"
+            } else if (time == "pp") {
+                pos = "${pos} - past participle"
+            }
         }
 
         override fun getText(): String {

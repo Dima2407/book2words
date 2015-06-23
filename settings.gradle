@@ -1,1 +1,1 @@
-include ':app', ':b2w-dao-generator', ':green-dao-core', ':android-observable-bindings'
+include ':app', ':b2w-dao-generator', ':green-dao-core'

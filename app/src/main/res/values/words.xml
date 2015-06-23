@@ -6,9 +6,6 @@
         <item>and</item>
         <item>man</item>
         <item>a</item>
-        <item>take</item>
-        <item>took</item>
-        <item>taken</item>
         <item>to</item>
         <item>just</item>
         <item>i</item>
@@ -19,7 +16,6 @@
         <item>now</item>
         <item>over</item>
         <item>you</item>
-        <item>make</item>
         <item>he</item>
         <item>in</item>
         <item>time</item>
@@ -31,8 +27,6 @@
         <item>his</item>
         <item>want</item>
         <item>here</item>
-        <item>tell</item>
-        <item>told</item>
         <item>on</item>
         <item>with</item>
         <item>off</item>
@@ -82,19 +76,12 @@
         <item>no</item>
         <item>good</item>
         <item>back</item>
-        <item>say</item>
-        <item>said</item>
         <item>are</item>
         <item>turn</item>
         <item>can</item>
         <item>open</item>
         <item>ask</item>
         <item>move</item>
-        <item>see</item>
-        <item>saw</item>
-        <item>seen</item>
-        <item>stand</item>
-        <item>stood</item>
         <item>will</item>
         <item>into</item>
         <item>again</item>
@@ -107,16 +94,12 @@
         <item>still</item>
         <item>an</item>
         <item>walk</item>
-        <item>think</item>
-        <item>thought</item>
         <item>before</item>
         <item>so</item>
         <item>down</item>
         <item>your</item>
         <item>them</item>
         <item>long</item>
-        <item>sit</item>
-        <item>sat</item>
         <item>would</item>
         <item>should</item>
         <item>call</item>
@@ -136,8 +119,6 @@
         <item>happen</item>
         <item>work</item>
         <item>wall</item>
-        <item>run</item>
-        <item>ran</item>
         <item>black</item>
         <item>never</item>
         <item>step</item>
@@ -145,14 +126,11 @@
         <item>window</item>
         <item>even</item>
         <item>life</item>
-        <item>light</item>
-        <item>lit</item>
         <item>maybe</item>
         <item>than</item>
         <item>after</item>
         <item>own</item>
         <item>far</item>
-        <item>put</item>
         <item>yes</item>
         <item>under</item>
         <item>stop</item>
@@ -196,18 +174,10 @@
         <item>three</item>
         <item>talk</item>
         <item>help</item>
-        <item>mean</item>
-        <item>meant</item>
         <item>pull</item>
         <item>smile</item>
         <item>feet</item>
-        <item>show</item>
-        <item>showed</item>
-        <item>shown</item>
         <item>place</item>
-        <item>shake</item>
-        <item>shook</item>
-        <item>shaken</item>
         <item>fire</item>
         <item>seem</item>
         <item>inside</item>
@@ -233,8 +203,6 @@
         <item>name</item>
         <item>follow</item>
         <item>stare</item>
-        <item>meet</item>
-        <item>met</item>
         <item>nod</item>
         <item>use</item>
         <item>great</item>
@@ -243,8 +211,5 @@
         <item>sound</item>
         <item>gun</item>
         <item>really</item>
-        <item>speak</item>
-        <item>spoke</item>
-        <item>spoken</item>
     </string-array>
 </resources>
