@@ -3,12 +3,12 @@ package org.book2words.screens
 import android.app.Fragment
 import android.app.ListFragment
 import android.os.Bundle
-import android.widget.AbsListView
 import android.widget.ArrayAdapter
 import org.book2words.R
 import org.book2words.dao.LibraryDictionary
 import java.io.FileInputStream
 import java.util.ArrayList
+import java.util.TreeSet
 
 public class DictionaryFragment : ListFragment() {
 
@@ -16,9 +16,9 @@ public class DictionaryFragment : ListFragment() {
         super.onActivityCreated(savedInstanceState)
         val args = getArguments()
         val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY)
+        val list = TreeSet<String>()
         if(book.getId() != -1L){
             val file = book.getPath()
-            val list = ArrayList<String>()
             if(file.exists()) {
                 val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
                 bos.forEachLine {
@@ -26,18 +26,14 @@ public class DictionaryFragment : ListFragment() {
                 }
                 bos.close()
             }
-            setListAdapter(ArrayAdapter(
-                    getActivity(),
-                    android.R.layout.simple_list_item_checked, android.R.id.text1,
-                    list))
-            getListView().setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE)
         }else {
             val strings = getResources().getStringArray(R.array.worlds_english)
-            setListAdapter(ArrayAdapter(
-                    getActivity(),
-                    android.R.layout.simple_list_item_1, android.R.id.text1,
-                    strings))
+            list.addAll(strings)
         }
+        setListAdapter(ArrayAdapter(
+                getActivity(),
+                android.R.layout.simple_list_item_1, android.R.id.text1,
+                ArrayList(list)))
     }
 
     companion object {

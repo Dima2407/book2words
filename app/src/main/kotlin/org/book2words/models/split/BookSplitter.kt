@@ -27,9 +27,11 @@ public class BookSplitter(private val libraryBook: LibraryBook) {
 
     public fun split(offset: Int = 0, length: Int = size, onSpiltProgress: (current: Int, length: Int, text: String) -> Unit) {
         reader!!.start(offset, length, HtmlTagContentFetcher({
-            val current = reader!!.getCurrent()
-            Logger.debug("process() : ${it}")
-            onSpiltProgress(current, length, it)
+            if(!it.isBlank()){
+                val current = reader!!.getCurrent()
+                Logger.debug("process() : ${it}")
+                onSpiltProgress(current, length, it)
+            }
             reader!!.next()
 
         }))

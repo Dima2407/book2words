@@ -13,7 +13,7 @@ public class EnglishDictionary(service: Service) : Dictionary {
 
     private val verbs = VerbsDictionary(service.getResources())
 
-    private var executor = Executors.newSingleThreadExecutor()
+    private var executor = Executors.newFixedThreadPool(4)
 
     override fun find(input: String, onFound: (String, Array<out Definition>) -> Unit) {
         executor.execute {

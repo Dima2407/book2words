@@ -80,10 +80,11 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         book.setCurrentPartition(1)
         book.setCountPartitions(textSplitter.getPartitionsCount())
 
-        Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}")
+        Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}", TAG)
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
         val strings = getResources().getStringArray(R.array.worlds_english)
+        Logger.debug("default words ${strings.size()}", TAG)
         textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
@@ -93,12 +94,12 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
                 .list()
 
         dictionaries.forEach {
-            if(book.getLanguage().equals(it.getLanguage())) {
+            if (book.getLanguage().equals(it.getLanguage())) {
                 textSplitter.clearFromDictionary(it.getPath())
             }
         }
 
-        Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}")
+        Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)
 
         val file = FileStorage.createWordsFile(book.getId());
         val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
@@ -120,7 +121,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         DataContext.getLibraryBookDao(this).update(book)
 
         sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
-        Logger.debug("time store ${(System.currentTimeMillis() - time) / 1000}")
+        Logger.debug("time store ${(System.currentTimeMillis() - time) / 1000}", TAG)
     }
 
     private fun startBook(book: LibraryBook) {

@@ -176,7 +176,7 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
     fun getWords(): Collection<WordAdapted> {
         val unique = ArrayList<WordAdapted>()
         words.forEach {
-            if (!unique.contains(it)) {
+            if (!unique.contains(it) && it.hasDefinitions()) {
                 unique.add(it)
             }
         }

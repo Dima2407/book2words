@@ -102,7 +102,7 @@ public class BookReadFragment : Fragment() {
         }
 
         private fun bindData(holder: ParagraphViewHolder?, item: ParagraphAdapted) {
-            item.getWords().filter { it.hasDefinitions() }.forEach {
+            item.getWords().forEach {
                 val word = it
                 val rootView = WordView(context, word)
                 rootView.setOnClickListener {
