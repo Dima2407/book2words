@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="mA" p="noun" ts="mɑː" tr="мА; мама"/>
+    <d v="macabre" p="adjective" ts="məˈkɑːbr" tr="жуткий"/>
+    <d v="macaroni" p="noun" ts="mækəˈrəʊnɪ" tr="макароны"/>
+    <d v="macaroni" p="adjective" ts="mækəˈrəʊnɪ" tr="макаронный"/>
+    <d v="mace" p="noun" ts="meɪs" tr="булава; палица"/>
+    <d v="machine" p="noun" ts="məˈʃiːn" tr="машина"/>
+    <d v="machine" p="adjective" ts="məˈʃiːn" tr="машинный"/>
+    <d v="machine gun" p="noun" ts="məˈʃiːn gʌn" tr="пулемет"/>
+    <d v="machinery" p="noun" ts="məˈʃiːnərɪ" tr="техника; машина; механизм"/>
+    <d v="machinery" p="adjective" ts="məˈʃiːnərɪ" tr="машинный"/>
+    <d v="machinist" p="noun" ts="məˈʃiːnɪst" tr="машинист; механик; швея"/>
+    <d v="machinist" p="participle" ts="məˈʃiːnɪst" tr="рабочий у станка"/>
+    <d v="macho" p="noun" ts="ˈmɑːʧəʊ" tr="мачо"/>
+    <d v="macho" p="adjective" ts="ˈmɑːʧəʊ" tr="мужественный"/>
+    <d v="mackerel" p="noun" ts="ˈmækrəl" tr="скумбрия"/>
+    <d v="macro" p="noun" ts="ˈmækrəʊ" tr="макрос; макроуровень; макроэкономика; макроопределение; макроэлемент"/>
+    <d v="macro" p="adjective" ts="ˈmækrəʊ" tr="макроэкономический"/>
+    <d v="macrocosm" p="noun" ts="ˈmækrəkɔzm" tr="макрокосм; макромир"/>
+    <d v="mad" p="adjective" ts="mæd" tr="безумный; сумасшедший"/>
+    <d v="mad" p="noun" ts="mæd" tr="ум"/>
+    <d v="mad" p="verb" ts="mæd" tr="злиться; сходить с ума; обезуметь; бесить; взбеситься; сводить с ума"/>
+    <d v="mad" p="participle" ts="mæd" tr="обезумевший; помешанный"/>
+    <d v="madam" p="noun" ts="ˈmædəm" tr="мадам; госпожа; сударыня"/>
+    <d v="madden" p="noun" ts="mædn" tr="Мэдден"/>
+    <d v="madden" p="verb" ts="mædn" tr="бесить; раздражать"/>
+    <d v="maddening" p="participle" ts="ˈmædnɪŋ" tr="сводящий"/>
+    <d v="made" p="participle" ts="meɪd"
+       tr="сделанный; изготовленный; выполненный; произведенный; внесенный; достигнутый; изготавливаемый; делаемый"/>
+    <d v="madhouse" p="noun" ts="ˈmædhaʊs" tr="сумасшедший дом"/>
+    <d v="madhouse" p="adjective" ts="ˈmædhaʊs" tr="сумасшедший"/>
+    <d v="madly" p="adverb" ts="ˈmædlɪ" tr="безумно"/>
+    <d v="madman" p="adjective" ts="ˈmædmən" tr="сумасшедший"/>
+    <d v="madman" p="noun" ts="ˈmædmən" tr="безумец"/>
+    <d v="madness" p="noun" ts="ˈmædnɪs" tr="безумие"/>
+    <d v="madness" p="adjective" ts="ˈmædnɪs" tr="безумный"/>
+    <d v="maelstrom" p="noun" ts="ˈmeɪlstrəʊm" tr="водоворот"/>
+    <d v="mafia" p="noun" ts="ˈmæfɪə" tr="мафия; мафиози"/>
+    <d v="mafia" p="adjective" ts="ˈmæfɪə" tr="мафиозный"/>
+    <d v="magazine" p="noun" ts="mægəˈziːn" tr="журнал; магазин; склад боеприпасов"/>
+    <d v="magazine" p="adjective" ts="mægəˈziːn" tr="журнальный; магазинный"/>
+    <d v="magenta" p="adjective" ts="məˈʤentə" tr="пурпурный"/>
+    <d v="magenta" p="noun" ts="məˈʤentə" tr="фуксин"/>
+    <d v="maggot" p="noun" ts="ˈmægət" tr="личинка; блажь"/>
+    <d v="magic" p="noun" ts="ˈmæʤɪk" tr="магия; очарование"/>
+    <d v="magic" p="adjective" ts="ˈmæʤɪk" tr="волшебный"/>
+    <d v="magical" p="adjective" ts="ˈmæʤɪkəl" tr="магический"/>
+    <d v="magical" p="noun" ts="ˈmæʤɪkəl" tr="волшебство"/>
+    <d v="magical" p="adverb" ts="ˈmæʤɪkəl" tr="магически"/>
+    <d v="magically" p="adjective" ts="ˈmæʤɪklɪ" tr="волшебный"/>
+    <d v="magically" p="adverb" ts="ˈmæʤɪklɪ" tr="магически; волшебно"/>
+    <d v="magically" p="noun" ts="ˈmæʤɪklɪ" tr="по волшебству"/>
+    <d v="magician" p="noun" ts="məˈʤɪʃn" tr="маг; волшебник; фокусник"/>
+    <d v="magistrate" p="noun" ts="ˈmæʤɪstreɪt" tr="судья; мировой судья; должностное лицо"/>
+    <d v="magistrate" p="adjective" ts="ˈmæʤɪstreɪt" tr="магистратский"/>
+    <d v="magnanimity" p="noun" ts="mægnəˈnɪmɪtɪ" tr="великодушие"/>
+    <d v="magnanimous" p="adjective" ts="mægˈnænɪməs" tr="великодушный"/>
+    <d v="magnate" p="noun" ts="ˈmægneɪt" tr="магнат"/>
+    <d v="magnesium" p="noun" ts="mægˈniːzjəm" tr="магний"/>
+    <d v="magnesium" p="adjective" ts="mægˈniːzjəm" tr="магниевый"/>
+    <d v="magnet" p="noun" ts="ˈmægnɪt" tr="магнит"/>
+    <d v="magnet" p="adjective" ts="ˈmægnɪt" tr="магнитный"/>
+    <d v="magnetic" p="adjective" ts="mægˈnetɪk" tr="магнитный; притягательный"/>
+    <d v="magnetic tape" p="noun" ts="mægˈnetɪk teɪp" tr="магнитная лента; магнитная пленка"/>
+    <d v="magnetism" p="noun" ts="ˈmægnɪtɪzm" tr="магнетизм; обаяние; магнитные свойства; привлекательность"/>
+    <d v="magnetize" p="verb" ts="ˈmægnɪtaɪz"
+       tr="намагничивать; намагнитить; магнетизировать; гипнотизировать; привлекать"/>
+    <d v="magnetize" p="noun" ts="ˈmægnɪtaɪz" tr="намагничивание"/>
+    <d v="magnification" p="noun" ts="mægnɪfɪˈkeɪʃn" tr="увеличение"/>
+    <d v="magnificence" p="noun" ts="mægˈnɪfɪsns" tr="великолепие"/>
+    <d v="magnificent" p="adjective" ts="mægˈnɪfɪsnt" tr="великолепный; умопомрачительный"/>
+    <d v="magnificent" p="participle" ts="mægˈnɪfɪsnt" tr="потрясающий"/>
+    <d v="magnificently" p="adverb" ts="mægˈnɪfɪsntlɪ" tr="великолепно; величественно"/>
+    <d v="magnify" p="verb" ts="ˈmægnɪfaɪ" tr="увеличить; возвеличить; усиливать; преувеличивать"/>
+    <d v="magnifying glass" p="noun" ts="ˈmægnɪfaɪɪŋˈglɑːs" tr="увеличительное стекло"/>
+    <d v="magnitude" p="noun" ts="ˈmægnɪtjuːd" tr="величина; масштаб; магнитуда; значимость"/>
+    <d v="magnolia" p="noun" ts="mægˈnəʊljə" tr="магнолия; лимонник"/>
+    <d v="magpie" p="noun" ts="ˈmægpaɪ" tr="сорока"/>
+    <d v="mahogany" p="noun" ts="məˈhɔgənɪ" tr="красное дерево; дерево"/>
+    <d v="maid" p="noun" ts="meɪd" tr="горничная; дева"/>
+    <d v="maiden" p="noun" ts="meɪdn" tr="дева; снегурочка; девичья"/>
+    <d v="maiden" p="adjective" ts="meɪdn" tr="девичий"/>
+    <d v="maiden" p="numeral" ts="meɪdn" tr="первый"/>
+    <d v="maiden name" p="noun" ts="meɪdn neɪm" tr="девичья фамилия; девичье имя"/>
+    <d v="maiden voyage" p="noun" ts="meɪdn ˈvɔɪɪʤ" tr="первый рейс; первое плавание"/>
+    <d v="mail" p="noun" ts="meɪl" tr="почта; кольчуга"/>
+    <d v="mail" p="adjective" ts="meɪl" tr="почтовый"/>
+    <d v="mailbox" p="noun" ts="ˈmeɪlbɔks" tr="ящик"/>
+    <d v="mailbox" p="adjective" ts="ˈmeɪlbɔks" tr="почтовый"/>
+    <d v="mailing" p="noun" ts="ˈmeɪlɪŋ" tr="рассылка"/>
+    <d v="mailing" p="adjective" ts="ˈmeɪlɪŋ" tr="почтовый"/>
+    <d v="mailing list" p="noun" ts="ˈmeɪlɪŋ lɪst"
+       tr="рассылка; список рассылки; почтовая рассылка; лист рассылки; почтовый список"/>
+    <d v="mailman" p="noun" ts="ˈmeɪlmæn" tr="почтальон"/>
+    <d v="mail order" p="noun" ts="ˈmeɪlɔːdə" tr="почтовый заказ; почтовый перевод; заказ по почте"/>
+    <d v="maim" p="verb" ts="meɪm" tr="калечить; покалечить"/>
+    <d v="maim" p="noun" ts="meɪm" tr="увечье"/>
+    <d v="main" p="adjective" ts="meɪn" tr="основный; главный"/>
+    <d v="main" p="noun" ts="meɪn" tr="магистраль; океан"/>
+    <d v="mainframe" p="noun" ts="ˈmeɪnfreɪm" tr="мэйнфрейм; ЭВМ; универсальная ЭВМ"/>
+    <d v="mainframe" p="adjective" ts="ˈmeɪnfreɪm" tr="универсальный"/>
+    <d v="mainland" p="adjective" ts="ˈmeɪnlənd" tr="материковый"/>
+    <d v="mainland" p="noun" ts="ˈmeɪnlənd" tr="материк"/>
+    <d v="mainly" p="noun" ts="ˈmeɪnlɪ" tr="в основном"/>
+    <d v="mainly" p="adjective" ts="ˈmeɪnlɪ" tr="главный"/>
+    <d v="mainly" p="adverb" ts="ˈmeɪnlɪ" tr="преимущественно"/>
+    <d v="mainly" p="parenthetic" ts="ˈmeɪnlɪ" tr="главное"/>
+    <d v="mainstay" p="noun" ts="ˈmeɪnsteɪ" tr="опора; главная опора"/>
+    <d v="mainstream" p="adjective" ts="ˈmeɪnstriːm" tr="основный; обычный; среднеценовой"/>
+    <d v="mainstream" p="noun" ts="ˈmeɪnstriːm"
+       tr="направление; мейнстрим; основное направление; основное русло; господствующая тенденция; главный поток"/>
+    <d v="mainstream" p="participle" ts="ˈmeɪnstriːm" tr="господствующий"/>
+    <d v="maintain" p="verb" ts="meɪnˈteɪn"
+       tr="поддерживать; сохранить; утверждать; обслуживать; содержать; отстаивать"/>
+    <d v="maintain" p="noun" ts="meɪnˈteɪn" tr="поддержание"/>
+    <d v="maintenance" p="noun" ts="ˈmeɪntənəns"
+       tr="обслуживание; обеспечение; поддержание; содержание; текущий ремонт; утверждение"/>
+    <d v="maintenance" p="adjective" ts="ˈmeɪntənəns" tr="ремонтный"/>
+    <d v="maintenance" p="participle" ts="ˈmeɪntənəns" tr="обслуживающий"/>
+    <d v="majestic" p="adjective" ts="məˈʤestɪk" tr="величественный; волшебный; державный"/>
+    <d v="majestically" p="adverb" ts="məˈʤestɪklɪ" tr="величественно"/>
+    <d v="Majesty" p="noun" ts="ˈmæʤɪstɪ" tr="величество; величие; величавость"/>
+    <d v="major" p="adjective" ts="ˈmeɪʤə" tr="основный; крупный; важный; крупнейший"/>
+    <d v="major" p="noun" ts="ˈmeɪʤə" tr="майор"/>
+    <d v="majority" p="noun" ts="məˈʤɔrɪtɪ" tr="большинство; совершеннолетие"/>
+    <d v="majority" p="adjective" ts="məˈʤɔrɪtɪ" tr="мажоритарный"/>
+    <d v="make" p="verb" ts="meɪk"
+       tr="сделать; заставить; внести; совершить; заработать; прилагать; готовить; войти; определять; считать; успеть; есть; поспеть"/>
+    <d v="make" p="noun" ts="meɪk" tr="производство; марка; модель; изделие; фасон"/>
+    <d v="maker" p="noun" ts="ˈmeɪkə" tr="производитель; векселедатель"/>
+    <d v="makeshift" p="adjective" ts="ˈmeɪkʃɪft" tr="самодельный; временный"/>
+    <d v="makeshift" p="noun" ts="ˈmeɪkʃɪft" tr="паллиатив; замена"/>
+    <d v="makeup" p="noun" ts="ˈmeɪkʌp" tr="макияж; состав; верстка; подпитка; гример"/>
+    <d v="makeup" p="verb" ts="ˈmeɪkʌp" tr="накраситься; накрасить"/>
+    <d v="making" p="noun" ts="ˈmeɪkɪŋ" tr="принятие; изготовление; создание; зарабатывание; делание"/>
+    <d v="making" p="participle" ts="ˈmeɪkɪŋ"
+       tr="делающий; составляющий; производящий; сделавший; совершающий; вносящий; создающий"/>
+    <d v="malady" p="noun" ts="ˈmælədɪ" tr="болезнь"/>
+    <d v="malaise" p="noun" ts="mæˈleɪz" tr="недомогание"/>
+    <d v="malaria" p="noun" ts="məˈlɛərɪə" tr="малярия"/>
+    <d v="male" p="noun" ts="meɪl" tr="мужчина"/>
+    <d v="male" p="adjective" ts="meɪl" tr="мужской"/>
+    <d v="male" p="participle" ts="meɪl" tr="охватываемый"/>
+    <d v="male chauvinism" p="noun" ts="meɪl ˈʃəʊvɪnɪzm" tr="мужской шовинизм"/>
+    <d v="malevolence" p="noun" ts="məˈlevələns" tr="злоба; злорадство; злопыхательство"/>
+    <d v="malevolent" p="adjective" ts="məˈlevələnt" tr="злобный"/>
+    <d v="malfunction" p="noun" ts="mælˈfʌŋkʃn"
+       tr="неисправность; неправильная работа; неисправная работа; неправильное функционирование; дисфункция; неправильное срабатывание"/>
+    <d v="malice" p="noun" ts="ˈmælɪs" tr="злоба; Мэлис; умысел; ехидство; коварство"/>
+    <d v="malice" p="adjective" ts="ˈmælɪs" tr="злой"/>
+    <d v="malicious" p="adjective" ts="məˈlɪʃəs" tr="вредоносный; злой"/>
+    <d v="maliciously" p="adverb" ts="məˈlɪʃəslɪ" tr="злонамеренно; злобно; злостно; ехидно; злоумышленно"/>
+    <d v="malign" p="adjective" ts="məˈlaɪn" tr="злокачественный; пагубный; злой"/>
+    <d v="malign" p="verb" ts="məˈlaɪn" tr="клеветать; оклеветать"/>
+    <d v="malignancy" p="noun" ts="məˈlɪgnənsɪ"
+       tr="злокачественная опухоль; пагубность; злобность; зловредность; малигнизация"/>
+    <d v="malignancy" p="adjective" ts="məˈlɪgnənsɪ" tr="злокачественный"/>
+    <d v="malignant" p="adjective" ts="məˈlɪgnənt" tr="злокачественный; злостный; болезнетворный"/>
+    <d v="mall" p="noun" ts="mɔːl" tr="центр; торговый центр; Молл; место для гулянья"/>
+    <d v="mallard" p="noun" ts="ˈmæləd" tr="кряква"/>
+    <d v="mallet" p="noun" ts="ˈmælɪt" tr="молоток; деревянный молоток"/>
+    <d v="malnourished" p="noun" ts="mælˈnʌrɪʃt" tr="недоедание; от недоедания"/>
+    <d v="malnutrition" p="noun" ts="ˈmælnjuːˈtrɪʃn" tr="недоедание; нарушение питания"/>
+    <d v="malpractice" p="noun" ts="ˈmælˈpræktɪs"
+       tr="халатность; злоупотребление; преступная небрежность врача; противозаконное действие"/>
+    <d v="malt" p="noun" ts="mɔːlt" tr="солод"/>
+    <d v="malt" p="adjective" ts="mɔːlt" tr="солодовый"/>
+    <d v="mama" p="noun" ts="məˈmɑː" tr="мама"/>
+    <d v="mammal" p="noun" ts="ˈmæməl" tr="млекопитающее"/>
+    <d v="mammoth" p="noun" ts="ˈmæməθ" tr="мамонт; мамонтов; мамонтенок"/>
+    <d v="mammoth" p="adjective" ts="ˈmæməθ" tr="гигантский; мамонтовый"/>
+    <d v="man" p="noun" ts="mæn" tr="человек; слуга; рабочий; шашка"/>
+    <d v="man" p="verb" ts="mæn" tr="занять"/>
+    <d v="manacle" p="noun" ts="ˈmænəkl" tr="наручники"/>
+    <d v="manage" p="verb" ts="ˈmænɪʤ" tr="управлять; удаться; суметь; справиться; обойтись; ухитряться"/>
+    <d v="manage" p="noun" ts="ˈmænɪʤ" tr="управление"/>
+    <d v="manage" p="participle" ts="ˈmænɪʤ" tr="управляющий"/>
+    <d v="manageable" p="adjective" ts="ˈmænɪʤəbl" tr="управляемый; выполнимый; послушный; смирный"/>
+    <d v="manageable" p="participle" ts="ˈmænɪʤəbl" tr="контролируемый; поддающийся управлению; податливый"/>
+    <d v="management" p="noun" ts="ˈmænɪʤmənt" tr="управление; заведование"/>
+    <d v="management" p="adjective" ts="ˈmænɪʤmənt" tr="управленческий"/>
+    <d v="manager" p="noun" ts="ˈmænɪʤə" tr="менеджер; руководитель; хозяин; импресарио"/>
+    <d v="managerial" p="adjective" ts="mænəˈʤɪərɪəl" tr="управленческий; директорский"/>
+    <d v="managerial" p="noun" ts="mænəˈʤɪərɪəl" tr="управление"/>
+    <d v="managerial" p="participle" ts="mænəˈʤɪərɪəl" tr="руководящий"/>
+    <d v="Mandarin" p="noun" ts="ˈmændərɪn" tr="мандарин; мандаринское наречие"/>
+    <d v="Mandarin" p="noun" ts="ˈmændərɪn" tr="мандарин; мандаринское наречие"/>
+    <d v="mandate" p="noun" ts="ˈmændeɪt" tr="мандат; наказ"/>
+    <d v="mandate" p="verb" ts="ˈmændeɪt" tr="поручить"/>
+    <d v="mandatory" p="adjective" ts="ˈmændətərɪ" tr="обязательный; мандатный"/>
+    <d v="mandatory" p="noun" ts="ˈmændətərɪ" tr="обязательность"/>
+    <d v="mane" p="noun" ts="meɪn" tr="грива"/>
+    <d v="maneuver" p="noun" ts="məˈnuːvər" tr="маневр"/>
+    <d v="maneuver" p="verb" ts="məˈnuːvər" tr="маневрировать"/>
+    <d v="maneuver" p="adjective" ts="məˈnuːvər" tr="маневренный"/>
+    <d v="mange" p="noun" ts="meɪnʤ" tr="чесотка; манга"/>
+    <d v="manger" p="noun" ts="ˈmeɪnʤə" tr="ясли; менеджер"/>
+    <d v="mangle" p="noun" ts="mæŋgl" tr="каландр; каток"/>
+    <d v="mangle" p="verb" ts="mæŋgl" tr="калечить; рубить"/>
+    <d v="mango" p="noun" ts="ˈmæŋgəʊ" tr="манго"/>
+    <d v="mangrove" p="adjective" ts="ˈmæŋgrəʊv" tr="мангровый"/>
+    <d v="mangrove" p="noun" ts="ˈmæŋgrəʊv" tr="мангровые заросли; мангры"/>
+    <d v="mangy" p="adjective" ts="ˈmeɪnʤɪ" tr="паршивый; шелудивый; облезлый"/>
+    <d v="manhole" p="noun" ts="ˈmænhəʊl" tr="люк; смотровой колодец; канализационный люк; Смотровое отверстие"/>
+    <d v="manhood" p="noun" ts="ˈmænhʊd" tr="мужественность; возмужалость"/>
+    <d v="manhood" p="adjective" ts="ˈmænhʊd" tr="мужской"/>
+    <d v="manhunt" p="noun" ts="ˈmænhʌnt" tr="охота на человека; преследование"/>
+    <d v="mania" p="noun" ts="ˈmeɪnjə" tr="мания"/>
+    <d v="maniac" p="noun" ts="ˈmeɪnɪæk" tr="маньяк"/>
+    <d v="maniac" p="adjective" ts="ˈmeɪnɪæk" tr="маниакальный"/>
+    <d v="maniac" p="participle" ts="ˈmeɪnɪæk" tr="помешанный"/>
+    <d v="maniacal" p="adjective" ts="məˈnaɪəkəl" tr="маниакальный"/>
+    <d v="manic" p="adjective" ts="ˈmænɪk" tr="маниакальный; безумный"/>
+    <d v="manic" p="noun" ts="ˈmænɪk" tr="маньяк"/>
+    <d v="manicure" p="noun" ts="ˈmænɪkjʊə" tr="маникюр"/>
+    <d v="manicurist" p="noun" ts="ˈmænɪkjʊərɪst" tr="маникюр; маникюрша"/>
+    <d v="manifest" p="verb" ts="ˈmænɪfest" tr="проявляться; проявлять; обнародовать; появляться"/>
+    <d v="manifest" p="noun" ts="ˈmænɪfest" tr="манифест"/>
+    <d v="manifest" p="participle" ts="ˈmænɪfest" tr="проявленный; проявляющийся; явленный; проявляющий"/>
+    <d v="manifest" p="adjective" ts="ˈmænɪfest" tr="явный"/>
+    <d v="manifestation" p="noun" ts="mænɪfesˈteɪʃn" tr="проявление; обнародование"/>
+    <d v="manifesto" p="noun" ts="mænɪˈfestəʊ" tr="манифест"/>
+    <d v="manifold" p="noun" ts="ˈmænɪfəʊld" tr="многообразие; коллектор; трубопровод"/>
+    <d v="manifold" p="adjective" ts="ˈmænɪfəʊld" tr="разнообразный; коллекторный"/>
+    <d v="manipulate" p="verb" ts="məˈnɪpjʊleɪt"
+       tr="манипулировать; управлять; обрабатывать; воздействовать; подтасовывать; умело обращаться; подделывать"/>
+    <d v="manipulate" p="noun" ts="məˈnɪpjʊleɪt" tr="манипулирование"/>
+    <d v="manipulation" p="noun" ts="mənɪpjʊˈleɪʃn" tr="манипуляция; подтасовка"/>
+    <d v="manipulative" p="adjective" ts="məˈnɪpjʊlətɪv" tr="манипулятивный; манипуляционный"/>
+    <d v="manipulative" p="verb" ts="məˈnɪpjʊlətɪv" tr="манипулировать"/>
+    <d v="manipulative" p="noun" ts="məˈnɪpjʊlətɪv" tr="манипулирование"/>
+    <d v="manipulative" p="participle" ts="məˈnɪpjʊlətɪv" tr="манипулирующий"/>
+    <d v="mankind" p="noun" ts="ˈmænkaɪnd" tr="человечество; мужчины"/>
+    <d v="mankind" p="adjective" ts="ˈmænkaɪnd" tr="общечеловеческий"/>
+    <d v="manliness" p="noun" ts="ˈmænlɪnɪs" tr="мужественность"/>
+    <d v="manly" p="adjective" ts="ˈmænlɪ" tr="мужественный"/>
+    <d v="manned" p="participle" ts="mænd" tr="пилотируемый"/>
+    <d v="mannequin" p="noun" ts="ˈmænɪkɪn" tr="манекен"/>
+    <d v="manner" p="noun" ts="ˈmænə" tr="образ; манера; способ; порядок; род"/>
+    <d v="mannerism" p="noun" ts="ˈmænərɪzm" tr="манера; маньеризм; манерность"/>
+    <d v="manor" p="noun" ts="ˈmænə" tr="усадьба"/>
+    <d v="manor" p="adjective" ts="ˈmænə" tr="усадебный; барский"/>
+    <d v="manpower" p="noun" ts="ˈmænpaʊə" tr="рабочая сила; трудовые ресурсы; кадры; живая сила"/>
+    <d v="manpower" p="adjective" ts="ˈmænpaʊə" tr="людской; трудовой"/>
+    <d v="mansion" p="noun" ts="mænʃn" tr="особняк; усадьба; обитель; дворец; хоромы; большой дом"/>
+    <d v="manslaughter" p="noun" ts="ˈmænˈslɔːtə" tr="убийство; непредумышленное убийство"/>
+    <d v="mantel" p="noun" ts="mæntl" tr="каминная полка; камин; кожух; обшивка"/>
+    <d v="mantel" p="adjective" ts="mæntl" tr="каминный"/>
+    <d v="mantelpiece" p="noun" ts="ˈmæntlpiːs" tr="камин; каминная доска"/>
+    <d v="mantelpiece" p="adjective" ts="ˈmæntlpiːs" tr="каминный"/>
+    <d v="mantle" p="noun" ts="mæntl" tr="мантия; хламида; покров; калильная сетка; кожух"/>
+    <d v="mantle" p="adjective" ts="mæntl" tr="мантийный"/>
+    <d v="mantra" p="noun" ts="ˈmæntrɪ" tr="мантра"/>
+    <d v="manual" p="noun" ts="ˈmænjʊəl" tr="руководство; пособие"/>
+    <d v="manual" p="adjective" ts="ˈmænjʊəl" tr="ручной"/>
+    <d v="manually" p="adverb" ts="ˈmænjʊəlɪ" tr="вручную"/>
+    <d v="manually" p="adjective" ts="ˈmænjʊəlɪ" tr="ручной"/>
+    <d v="manufacture" p="noun" ts="mænjʊˈfækʧə" tr="производство"/>
+    <d v="manufacture" p="verb" ts="mænjʊˈfækʧə" tr="производить; изготовить; обрабатывать"/>
+    <d v="manufacturer" p="noun" ts="mænjʊˈfækʧərə" tr="производитель; промышленник; предприниматель; заводчик"/>
+    <d v="manufacturing" p="noun" ts="mænjʊˈfækʧərɪŋ" tr="производство"/>
+    <d v="manufacturing" p="adjective" ts="mænjʊˈfækʧərɪŋ" tr="производственный"/>
+    <d v="manufacturing" p="participle" ts="mænjʊˈfækʧərɪŋ" tr="производящий; выпускающий"/>
+    <d v="manure" p="noun" ts="məˈnjʊə" tr="навоз"/>
+    <d v="manure" p="adjective" ts="məˈnjʊə" tr="навозный"/>
+    <d v="manure" p="verb" ts="məˈnjʊə" tr="удобрять"/>
+    <d v="manuscript" p="noun" ts="ˈmænjʊskrɪpt" tr="рукопись"/>
+    <d v="manuscript" p="adjective" ts="ˈmænjʊskrɪpt" tr="рукописный"/>
+    <d v="many" p="pronoun" ts="ˈmenɪ" tr="многие"/>
+    <d v="many" p="numeral" ts="ˈmenɪ" tr="много"/>
+    <d v="Maori" p="noun" ts="ˈmaʊrɪ" tr="маори"/>
+    <d v="map" p="noun" ts="mæp" tr="карта"/>
+    <d v="map" p="verb" ts="mæp" tr="сопоставить"/>
+    <d v="maple" p="noun" ts="meɪpl" tr="клен"/>
+    <d v="maple" p="adjective" ts="meɪpl" tr="кленовый"/>
+    <d v="Mar" p="verb" ts="mɑː" tr="портить; повредить; омрачать; ударить; искажать"/>
+    <d v="marathon" p="noun" ts="ˈmərəθən" tr="марафон"/>
+    <d v="marathon" p="adjective" ts="ˈmərəθən" tr="марафонский"/>
+    <d v="marble" p="noun" ts="mɑːbl" tr="мрамор; шарик"/>
+    <d v="marble" p="adjective" ts="mɑːbl" tr="мраморный"/>
+    <d v="March" p="noun" ts="mɑːʧ" tr="март; марш; ход; маршировка"/>
+    <d v="March" p="adjective" ts="mɑːʧ" tr="мартовский; походный; маршевый"/>
+    <d v="March" p="verb" ts="mɑːʧ" tr="маршировать"/>
+    <d v="March" p="noun" ts="mɑːʧ" tr="март; марш; ход; маршировка"/>
+    <d v="March" p="adjective" ts="mɑːʧ" tr="мартовский; походный; маршевый"/>
+    <d v="March" p="verb" ts="mɑːʧ" tr="маршировать"/>
+    <d v="mare" p="noun" ts="mɛə" tr="кобыла"/>
+    <d v="margarine" p="noun" ts="mɑːʤəˈriːn" tr="маргарин"/>
+    <d v="margin" p="noun" ts="ˈmɑːʤɪn" tr="маржа; поле; край; запас; граница; наценка; допустимый предел; полоса"/>
+    <d v="margin" p="adjective" ts="ˈmɑːʤɪn" tr="маржинальный"/>
+    <d v="marginal" p="adjective" ts="ˈmɑːʤɪnəl" tr="маргинальный; предельный; незначительный"/>
+    <d v="marginal" p="noun" ts="ˈmɑːʤɪnəl" tr="на полях"/>
+    <d v="marginally" p="adverb" ts="ˈmɑːʤɪnəlɪ" tr="незначительно; косвенно"/>
+    <d v="margin of error" p="noun" ts="ˈmɑːʤɪn ɔv ˈerə" tr="предел погрешности"/>
+    <d v="marijuana" p="noun" ts="mærɪˈhwɑːnə" tr="марихуана"/>
+    <d v="Marina" p="noun" ts="məˈriːnə" tr="Марина; пристань"/>
+    <d v="marinade" p="noun" ts="mærɪˈneɪd" tr="маринад"/>
+    <d v="marinade" p="verb" ts="mærɪˈneɪd" tr="мариновать"/>
+    <d v="marinate" p="verb" ts="ˈmærɪneɪt" tr="мариновать"/>
+    <d v="marine" p="adjective" ts="məˈriːn" tr="морской"/>
+    <d v="marine" p="noun" ts="məˈriːn" tr="пехотинец; морской пехотинец; Марина"/>
+    <d v="marine" p="adjective" ts="məˈriːn" tr="морской"/>
+    <d v="marine" p="noun" ts="məˈriːn" tr="пехотинец; морской пехотинец; Марина"/>
+    <d v="marine corps" p="noun" ts="məˈriːn kɔː" tr="морская пехота; морской корпус; корпус морской пехоты"/>
+    <d v="mariner" p="noun" ts="ˈmærɪnə" tr="моряк; Маринер; матрос"/>
+    <d v="marionette" p="noun" ts="mærɪəˈnet" tr="марионетка"/>
+    <d v="marionette" p="adjective" ts="mærɪəˈnet" tr="кукольный"/>
+    <d v="marital" p="adjective" ts="ˈmærɪtl" tr="семейный"/>
+    <d v="marital status" p="noun" ts="ˈmærɪtl ˈsteɪtəs"
+       tr="семейное положение; семейный статус; гражданское состояние"/>
+    <d v="maritime" p="adjective" ts="ˈmærɪtaɪm" tr="морской"/>
+    <d v="mark" p="noun" ts="mɑːk" tr="знак; марк; отметка; оценка; след; веха; пятно; показатель; уровень"/>
+    <d v="mark" p="verb" ts="mɑːk" tr="отмечать; пометить; обозначить; метить; размечать; характеризовать; запоминать"/>
+    <d v="markdown" p="noun" ts="ˈmɑːkdaʊn" tr="уценка"/>
+    <d v="marked" p="noun" ts="mɑːkt" tr="пометка"/>
+    <d v="marked" p="adjective" ts="mɑːkt" tr="заметный"/>
+    <d v="marked" p="participle" ts="mɑːkt"
+       tr="отмеченный; помеченный; обозначенный; маркированный; выраженный; отмечаемый; ознаменовавшийся"/>
+    <d v="marker" p="noun" ts="ˈmɑːkə" tr="маркер; отметка; закладка"/>
+    <d v="market" p="noun" ts="ˈmɑːkɪt" tr="рынок; спрос"/>
+    <d v="market" p="adjective" ts="ˈmɑːkɪt" tr="рыночный"/>
+    <d v="market" p="verb" ts="ˈmɑːkɪt" tr="продавать"/>
+    <d v="marketability" p="noun" ts="mɑːkɪtəˈbɪlɪtɪ" tr="товарность; реализуемость"/>
+    <d v="marketable" p="adjective" ts="ˈmɑːkɪtəbl" tr="товарный; ходкий"/>
+    <d v="marketer" p="noun" ts="ˈmɑːkɪtər" tr="маркетолог; продавец; специалист по маркетингу"/>
+    <d v="marketing" p="noun" ts="ˈmɑːkɪtɪŋ" tr="маркетинг; торговля"/>
+    <d v="marketing" p="adjective" ts="ˈmɑːkɪtɪŋ" tr="маркетинговый"/>
+    <d v="marketplace" p="noun" ts="ˈmɑːkɪtpleɪs" tr="рынок; базарная площадь; торговая площадка"/>
+    <d v="market research" p="noun" ts="ˈmɑːkɪt rɪˈsɜːʧ"
+       tr="маркетинговое исследование; исследование рынка; рыночное исследование; изучение рынка; изучение рыночной конъюнктуры; маркетинговое исследование рынка"/>
+    <d v="marking" p="noun" ts="ˈmɑːkɪŋ" tr="маркировка; нанесение; расцветка"/>
+    <d v="marking" p="adjective" ts="ˈmɑːkɪŋ" tr="маркировочный"/>
+    <d v="marksman" p="noun" ts="ˈmɑːksmən" tr="стрелок; меткий стрелок"/>
+    <d v="markup" p="noun" ts="ˈmɑːkʌp" tr="разметка; наценка; накрутка"/>
+    <d v="marmalade" p="noun" ts="ˈmɑːməleɪd" tr="мармелад; джем"/>
+    <d v="maroon" p="adjective" ts="məˈruːn" tr="бордовый; коричневый"/>
+    <d v="marquee" p="noun" ts="mɑːˈkiː" tr="шатер; выделяющая рамка; большая палатка"/>
+    <d v="marriage" p="noun" ts="ˈmærɪʤ" tr="брак; свадьба; супружество; соединение; тесный Союз"/>
+    <d v="marriage" p="adjective" ts="ˈmærɪʤ" tr="брачный"/>
+    <d v="married" p="adverb" ts="ˈmærɪd" tr="замуж"/>
+    <d v="married" p="noun" ts="ˈmærɪd" tr="брак; в браке"/>
+    <d v="married" p="adjective" ts="ˈmærɪd" tr="женатый"/>
+    <d v="married" p="participle" ts="ˈmærɪd" tr="женившийся"/>
+    <d v="marrow" p="noun" ts="ˈmærəʊ" tr="мозг; кабачок; сущность"/>
+    <d v="marrow" p="adjective" ts="ˈmærəʊ" tr="костный"/>
+    <d v="marry" p="verb" ts="ˈmærɪ"
+       tr="жениться; выйти замуж; пожениться; венчать; обвенчать; соединять; выдавать замуж"/>
+    <d v="marry" p="noun" ts="ˈmærɪ" tr="брак"/>
+    <d v="Mars" p="noun" ts="mɑːz" tr="Марс; марсоход"/>
+    <d v="marsh" p="noun" ts="mɑːʃ" tr="болото; марш"/>
+    <d v="marsh" p="adjective" ts="mɑːʃ" tr="болотный"/>
+    <d v="marshal" p="noun" ts="ˈmɑːʃəl" tr="маршал; пристав; шериф"/>
+    <d v="marshal" p="verb" ts="ˈmɑːʃəl" tr="выстраивать"/>
+    <d v="marshmallow" p="noun" ts="mɑːʃˈmæləʊ" tr="зефир; проскурняк"/>
+    <d v="marshy" p="adjective" ts="ˈmɑːʃɪ" tr="болотистый"/>
+    <d v="marsupial" p="adjective" ts="mɑːˈsjuːpjəl" tr="сумчатый"/>
+    <d v="Mart" p="noun" ts="mɑːt" tr="витрина; рынок; киоск; торговый центр; аукционный зал"/>
+    <d v="martial" p="adjective" ts="ˈmɑːʃəl" tr="боевой"/>
+    <d v="martial" p="noun" ts="ˈmɑːʃəl" tr="единоборство"/>
+    <d v="martial art" p="noun" ts="ˈmɑːʃəl ɑːt"
+       tr="боевое искусство; единоборство; воинское искусство; вид боевого искусства; Восточное боевое искусство"/>
+    <d v="martial law" p="noun" ts="ˈmɑːʃəl lɔː"
+       tr="военное положение; введение военного положения; осадное положение"/>
+    <d v="martial law" p="verb" ts="ˈmɑːʃəl lɔː" tr="ввести военное положение"/>
+    <d v="Martian" p="noun" ts="ˈmɑːʃjən" tr="марсианин; Марс"/>
+    <d v="Martian" p="adjective" ts="ˈmɑːʃjən" tr="марсианский"/>
+    <d v="martyr" p="noun" ts="ˈmɑːtə" tr="мученик; страдалец"/>
+    <d v="martyr" p="adjective" ts="ˈmɑːtə" tr="мученический"/>
+    <d v="martyr" p="verb" ts="ˈmɑːtə" tr="замучить"/>
+    <d v="martyrdom" p="noun" ts="ˈmɑːtədəm" tr="мученичество; мученическая смерть; мученик; мучение"/>
+    <d v="martyrdom" p="adjective" ts="ˈmɑːtədəm" tr="мученический"/>
+    <d v="marvel" p="verb" ts="ˈmɑːvəl" tr="удивляться"/>
+    <d v="marvel" p="noun" ts="ˈmɑːvəl" tr="чудо; удивление; диво; замечательная вещь"/>
+    <d v="marvelous" p="adjective" ts="ˈmɑːvələs" tr="чудесный; прекрасный; удивительный"/>
+    <d v="marvelous" p="participle" ts="ˈmɑːvələs" tr="потрясающий"/>
+    <d v="marvelous" p="noun" ts="ˈmɑːvələs" tr="чудо"/>
+    <d v="Marxism" p="noun" ts="ˈmɑːksɪzm" tr="марксизм"/>
+    <d v="Marxist" p="adjective" ts="ˈmɑːksɪst" tr="марксистский"/>
+    <d v="Marxist" p="noun" ts="ˈmɑːksɪst" tr="марксист; марксистско"/>
+    <d v="mascara" p="noun" ts="mæsˈkɑːrə" tr="тушь; тушь для ресниц"/>
+    <d v="mascot" p="noun" ts="ˈmæskət" tr="талисман"/>
+    <d v="masculine" p="adjective" ts="ˈmɑːskjʊlɪn" tr="мужской"/>
+    <d v="masculine" p="noun" ts="ˈmɑːskjʊlɪn" tr="мужественность"/>
+    <d v="masculinity" p="noun" ts="mæskjʊˈlɪnɪtɪ" tr="мужественность; маскулинность"/>
+    <d v="mash" p="noun" ts="mæʃ" tr="пюре; маш; месиво; сусло; картофельное пюре; затор; пульпа"/>
+    <d v="mash" p="verb" ts="mæʃ" tr="размять; раздавить"/>
+    <d v="mask" p="noun" ts="mɑːsk" tr="маска"/>
+    <d v="mask" p="verb" ts="mɑːsk" tr="маскировать"/>
+    <d v="masking tape" p="noun" ts="ˈmɑːskɪŋ teɪp" tr="малярная лента"/>
+    <d v="masochism" p="noun" ts="ˈmæzəkɪzm" tr="мазохизм"/>
+    <d v="masochist" p="noun" ts="ˈmæsəkɪst" tr="мазохист"/>
+    <d v="masochistic" p="adjective" ts="mæsəˈkɪstɪk" tr="мазохистский"/>
+    <d v="Mason" p="noun" ts="meɪsn" tr="Мейсон; масон"/>
+    <d v="Mason" p="noun" ts="meɪsn" tr="Мейсон; масон"/>
+    <d v="masonry" p="noun" ts="ˈmeɪsnrɪ" tr="кладка; каменная кладка; масонство; каменщик"/>
+    <d v="masonry" p="adjective" ts="ˈmeɪsnrɪ" tr="каменный; кладочный"/>
+    <d v="masquerade" p="noun" ts="mæskəˈreɪd" tr="маскарад"/>
+    <d v="mass" p="adjective" ts="mæs" tr="массовый"/>
+    <d v="mass" p="noun" ts="mæs" tr="масса; месса; массовость; груда; массирование"/>
+    <d v="mass" p="verb" ts="mæs" tr="массировать"/>
+    <d v="mass" p="adjective" ts="mæs" tr="массовый"/>
+    <d v="mass" p="noun" ts="mæs" tr="масса; месса; массовость; груда; массирование"/>
+    <d v="mass" p="verb" ts="mæs" tr="массировать"/>
+    <d v="massacre" p="noun" ts="ˈmæsəkə" tr="резня; убийство"/>
+    <d v="massacre" p="verb" ts="ˈmæsəkə" tr="расправиться"/>
+    <d v="massage" p="noun" ts="ˈmæsɑːʒ" tr="массаж"/>
+    <d v="massage" p="adjective" ts="ˈmæsɑːʒ" tr="массажный"/>
+    <d v="massage" p="verb" ts="ˈmæsɑːʒ" tr="массировать"/>
+    <d v="masseur" p="noun" ts="mæˈsɜː" tr="массажист"/>
+    <d v="masseuse" p="noun" ts="mæˈsɜːz" tr="массажистка"/>
+    <d v="massive" p="adjective" ts="ˈmæsɪv" tr="массовый; массивный; огромный; масштабный; плотный"/>
+    <d v="mass media" p="noun" ts="mæs ˈmedɪə" tr="СМИ"/>
+    <d v="mass production" p="noun" ts="mæs prəˈdʌkʃn"
+       tr="массовое производство; серийное производство; массовый выпуск; серийный выпуск"/>
+    <d v="mast" p="noun" ts="mɑːst" tr="мачта"/>
+    <d v="mast" p="adjective" ts="mɑːst" tr="мачтовый"/>
+    <d v="master" p="noun" ts="ˈmɑːstə"
+       tr="мастер; хозяин; магистр; господин; оригинал; владыка; ведущий; шаблон; Христос"/>
+    <d v="master" p="adjective" ts="ˈmɑːstə" tr="главный; магистерский; хозяйский; контрольный"/>
+    <d v="master" p="verb" ts="ˈmɑːstə" tr="освоить; овладеть; управлять; справиться; одолеть"/>
+    <d v="master" p="participle" ts="ˈmɑːstə" tr="руководящий"/>
+    <d v="masterful" p="adjective" ts="ˈmɑːstəfʊl" tr="мастерский; властный"/>
+    <d v="masterful" p="adverb" ts="ˈmɑːstəfʊl" tr="мастерски"/>
+    <d v="master key" p="noun" ts="ˈmɑːstə kiː" tr="главный ключ; отмычка"/>
+    <d v="mastermind" p="noun" ts="ˈmɑːstəmaɪnd" tr="вдохновитель; руководитель"/>
+    <d v="mastermind" p="verb" ts="ˈmɑːstəmaɪnd" tr="руководить"/>
+    <d v="master of ceremonies" p="noun" ts="ˈmɑːstərəvˈserɪmənɪz" tr="конферансье; церемониймейстер"/>
+    <d v="masterpiece" p="noun" ts="ˈmɑːstəpiːs" tr="шедевр"/>
+    <d v="master plan" p="noun" ts="ˈmɑːstə plæn" tr="генеральный план; Генеральная схема; основной план"/>
+    <d v="master&apos;s degree" p="noun" ts="ˈmɑːstə&apos;ses dɪˈgriː" tr="магистр"/>
+    <d v="mastery" p="noun" ts="ˈmɑːstərɪ" tr="мастерство; овладение; господство; совершенное владение"/>
+    <d v="masturbate" p="verb" ts="ˈmæstəbeɪt" tr="мастурбировать; онанировать"/>
+    <d v="masturbation" p="noun" ts="mæstəˈbeɪʃn" tr="мастурбация; онанизм"/>
+    <d v="masturbation" p="verb" ts="mæstəˈbeɪʃn" tr="мастурбировать"/>
+    <d v="mat" p="noun" ts="mæt" tr="коврик; Мэт; мат; ВСУ; паспарту; подставка; матовость"/>
+    <d v="mat" p="adjective" ts="mæt" tr="матовый"/>
+    <d v="mat" p="participle" ts="mæt" tr="матированный"/>
+    <d v="match" p="noun" ts="mæʧ" tr="матч; соответствие; совпадение; пара; брак; ровня; под стать"/>
+    <d v="match" p="verb" ts="mæʧ"
+       tr="соответствовать; подходить; сравниться; подобрать; сочетать; противостоять; состязаться; выравнивать; сосватать"/>
+    <d v="match" p="participle" ts="mæʧ" tr="совпадающий"/>
+    <d v="matchbook" p="noun" ts="ˈmæʧbʊk" tr="спичечный коробок"/>
+    <d v="matchbox" p="adjective" ts="ˈmæʧbɒks" tr="спичечный"/>
+    <d v="matchbox" p="noun" ts="ˈmæʧbɒks" tr="спичечный коробок"/>
+    <d v="matchless" p="adjective" ts="ˈmæʧlɪs" tr="несравненный"/>
+    <d v="matchmaker" p="noun" ts="ˈmæʧmeɪkə" tr="Сват; сваха"/>
+    <d v="matchmaking" p="noun" ts="ˈmæʧmeɪkɪŋ" tr="сватовство"/>
+    <d v="matchstick" p="noun" ts="ˈmæʧstɪk" tr="спичка"/>
+    <d v="mate" p="noun" ts="meɪt"
+       tr="товарищ; помощник; друг; мат; супруг; мате; ответная часть; сопряжение; помощник капитана; самка; вторая половинка; однокурсник; самец"/>
+    <d v="mate" p="verb" ts="meɪt" tr="сопрягать; спаривать"/>
+    <d v="material" p="noun" ts="məˈtɪərɪəl" tr="материал; данные"/>
+    <d v="material" p="adjective" ts="məˈtɪərɪəl" tr="материальный; существенный"/>
+    <d v="materialism" p="noun" ts="məˈtɪərɪəlɪzm" tr="материализм"/>
+    <d v="materialist" p="noun" ts="məˈtɪərɪəlɪst" tr="материалист"/>
+    <d v="materialist" p="adjective" ts="məˈtɪərɪəlɪst" tr="материалистический"/>
+    <d v="materialistic" p="adjective" ts="mətɪərɪəˈlɪstɪk" tr="материалистический; материальный"/>
+    <d v="materialize" p="verb" ts="məˈtɪərɪəlaɪz" tr="материализовать; реализовать; осуществиться; состояться"/>
+    <d v="materialize" p="adverbial participle" ts="məˈtɪərɪəlaɪz" tr="материализовавшись"/>
+    <d v="materialize" p="noun" ts="məˈtɪərɪəlaɪz" tr="материализация"/>
+    <d v="maternal" p="adjective" ts="məˈtɜːnl" tr="материнский"/>
+    <d v="maternal" p="noun" ts="məˈtɜːnl" tr="мать"/>
+    <d v="maternity" p="noun" ts="məˈtɜːnɪtɪ" tr="материнство; роддом"/>
+    <d v="maternity" p="adjective" ts="məˈtɜːnɪtɪ" tr="родильный; декретный"/>
+    <d v="math" p="noun" ts="mæθ" tr="математика; математические операции"/>
+    <d v="math" p="adjective" ts="mæθ" tr="математический"/>
+    <d v="mathematical" p="adjective" ts="mæθɪˈmætɪkəl" tr="математический"/>
+    <d v="mathematical" p="noun" ts="mæθɪˈmætɪkəl" tr="математика"/>
+    <d v="mathematically" p="adverb" ts="mæθəˈmætɪklɪ" tr="математически"/>
+    <d v="mathematician" p="noun" ts="mæθɪməˈtɪʃn" tr="математик"/>
+    <d v="mathematics" p="noun" ts="mæθɪˈmætɪks" tr="математика"/>
+    <d v="matinee" p="noun" ts="ˈmætɪneɪ" tr="утренник; дневной спектакль"/>
+    <d v="matriarch" p="noun" ts="ˈmeɪtrɪɑːk" tr="матриарх"/>
+    <d v="matriarchy" p="noun" ts="ˈmeɪtrɪɑːkɪ" tr="матриархат"/>
+    <d v="matrimonial" p="adjective" ts="mætrɪˈməʊnjəl" tr="супружеский; матримониальный"/>
+    <d v="matrimony" p="noun" ts="ˈmætrɪmənɪ" tr="брак"/>
+    <d v="matron" p="noun" ts="ˈmeɪtrən" tr="матрона; надзирательница; медсестра; смотрительница; экономка"/>
+    <d v="matte" p="adjective" ts="mæt" tr="матовый"/>
+    <d v="matte" p="noun" ts="mæt" tr="штейн; матовость"/>
+    <d v="matted" p="adjective" ts="ˈmætɪd" tr="матовый"/>
+    <d v="matter" p="noun" ts="ˈmætə" tr="вопрос; материя; гной"/>
+    <d v="matter" p="verb" ts="ˈmætə" tr="значить; обстоять"/>
+    <d v="matting" p="noun" ts="ˈmætɪŋ" tr="матирование; рогожка"/>
+    <d v="matting" p="participle" ts="ˈmætɪŋ" tr="матирующий"/>
+    <d v="mattress" p="noun" ts="ˈmætrɪs" tr="матрас"/>
+    <d v="mature" p="adjective" ts="məˈtjʊə" tr="зрелый; продуманный; готовый"/>
+    <d v="mature" p="verb" ts="məˈtjʊə" tr="созреть; взрослеть; возмужать; наступать; назреть"/>
+    <d v="mature" p="noun" ts="məˈtjʊə" tr="зрелость; взросление"/>
+    <d v="mature" p="participle" ts="məˈtjʊə" tr="сформировавшийся; созревший"/>
+    <d v="maturity" p="noun" ts="məˈtjʊərɪtɪ" tr="зрелость; созревание; завершенность"/>
+    <d v="maturity" p="adjective" ts="məˈtjʊərɪtɪ" tr="зрелый"/>
+    <d v="maudlin" p="adjective" ts="ˈmɔːdlɪn" tr="сентиментальный; слезливый"/>
+    <d v="maul" p="noun" ts="mɔːl" tr="мол; кувалда"/>
+    <d v="maul" p="verb" ts="mɔːl" tr="терзать"/>
+    <d v="mausoleum" p="noun" ts="mɔːsəˈlɪəm" tr="мавзолей"/>
+    <d v="mauve" p="adjective" ts="məʊv" tr="лиловый"/>
+    <d v="Maverick" p="noun" ts="ˈmævərɪk" tr="мэверик; диссидент; скиталец; бродяга"/>
+    <d v="mawkish" p="adjective" ts="ˈmɔːkɪʃ" tr="слезливый; сентиментальный"/>
+    <d v="max" p="noun" ts="mæks" tr="макс; максимум"/>
+    <d v="max" p="adjective" ts="mæks" tr="максимальный"/>
+    <d v="Maxim" p="noun" ts="ˈmæksɪm" tr="Максим; Максима; сентенция; принцип; изречение"/>
+    <d v="maximize" p="verb" ts="ˈmæksɪmaɪz"
+       tr="максимизировать; увеличить; максимально увеличить; развернуть; увеличивать до крайности"/>
+    <d v="maximize" p="adjective" ts="ˈmæksɪmaɪz" tr="максимальный"/>
+    <d v="maximize" p="noun" ts="ˈmæksɪmaɪz" tr="максимизация"/>
+    <d v="maximum" p="adjective" ts="ˈmæksɪməm" tr="максимальный"/>
+    <d v="maximum" p="noun" ts="ˈmæksɪməm" tr="максимум"/>
+    <d v="may" p="verb" ts="meɪ" tr="мочь"/>
+    <d v="may" p="noun" ts="meɪ" tr="май"/>
+    <d v="may" p="predicative" ts="meɪ" tr="можно"/>
+    <d v="may" p="adjective" ts="meɪ" tr="майский; Первомайский"/>
+    <d v="may" p="verb" ts="meɪ" tr="мочь"/>
+    <d v="may" p="noun" ts="meɪ" tr="май"/>
+    <d v="may" p="predicative" ts="meɪ" tr="можно"/>
+    <d v="may" p="adjective" ts="meɪ" tr="майский; Первомайский"/>
+    <d v="maybe" p="adverb" ts="ˈmeɪbiː" tr="возможно"/>
+    <d v="maybe" p="adjective" ts="ˈmeɪbiː" tr="возможный"/>
+    <d v="maybe" p="particle" ts="ˈmeɪbiː" tr="авось"/>
+    <d v="mayhem" p="noun" ts="ˈmeɪhem" tr="хаос; увечье; погром"/>
+    <d v="Mayo" p="noun" ts="ˈmeɪəʊ" tr="Майо; майонез"/>
+    <d v="mayonnaise" p="noun" ts="meɪəˈneɪz" tr="майонез"/>
+    <d v="mayonnaise" p="adjective" ts="meɪəˈneɪz" tr="майонезный"/>
+    <d v="mayor" p="noun" ts="mɛə" tr="мэр"/>
+    <d v="maze" p="noun" ts="meɪz" tr="лабиринт"/>
+    <d v="MB" p="noun" ts="m" tr="Мбайт"/>
+    <d v="meadow" p="noun" ts="ˈmedəʊ" tr="луг; поляна; луговина"/>
+    <d v="meadow" p="adjective" ts="ˈmedəʊ" tr="луговой"/>
+    <d v="meager" p="adjective" ts="ˈmiːgər" tr="скудный"/>
+    <d v="meal" p="noun" ts="miːl" tr="еда; блюдо; обед; трапеза; шрот; мука крупного помола; застолье"/>
+    <d v="meal" p="verb" ts="miːl" tr="поесть"/>
+    <d v="mealtime" p="noun" ts="ˈmiːltaɪm" tr="прием пищи; время приема пищи"/>
+    <d v="mean" p="verb" ts="miːn" tr="означать; иметь в виду; намереваться; думать"/>
+    <d v="mean" p="noun" ts="miːn" tr="помощь; средства; середина; в виду; межень"/>
+    <d v="mean" p="adjective" ts="miːn" tr="средний; захудалый; подлый; низкий; скупой; недоброжелательный; скаредный"/>
+    <d v="meander" p="noun" ts="mɪˈændə" tr="меандр; извилина"/>
+    <d v="meander" p="verb" ts="mɪˈændə" tr="извиваться; блуждать"/>
+    <d v="meaning" p="noun" ts="ˈmiːnɪŋ" tr="значение"/>
+    <d v="meaning" p="participle" ts="ˈmiːnɪŋ" tr="значащий; подразумевающий"/>
+    <d v="meaning" p="adjective" ts="ˈmiːnɪŋ" tr="многозначительный"/>
+    <d v="meaningful" p="adjective" ts="ˈmiːnɪŋfʊl" tr="значимый; содержательный; осмысленный"/>
+    <d v="meaningful" p="noun" ts="ˈmiːnɪŋfʊl" tr="смысл; осмысленность"/>
+    <d v="meaningfully" p="adverb" ts="ˈmiːnɪŋfəlɪ" tr="многозначительно; осмысленно; содержательно; значимо"/>
+    <d v="meaningless" p="adjective" ts="ˈmiːnɪŋlɪs" tr="бессмысленный"/>
+    <d v="meaningless" p="noun" ts="ˈmiːnɪŋlɪs" tr="смысл"/>
+    <d v="meaningless" p="verb" ts="ˈmiːnɪŋlɪs" tr="иметь смысла"/>
+    <d v="meaningless" p="participle" ts="ˈmiːnɪŋlɪs" tr="не значащий"/>
+    <d v="means" p="noun" ts="miːnz" tr="средства"/>
+    <d v="meant" p="participle" ts="ment" tr="предназначенный"/>
+    <d v="meantime" p="noun" ts="ˈmiːnˈtaɪm" tr="между тем"/>
+    <d v="meanwhile" p="pronoun" ts="ˈmiːnˈwaɪl" tr="то; пока что"/>
+    <d v="meanwhile" p="noun" ts="ˈmiːnˈwaɪl" tr="между тем"/>
+    <d v="measles" p="noun" ts="miːzlz" tr="корь"/>
+    <d v="measles" p="adjective" ts="miːzlz" tr="коревой"/>
+    <d v="measly" p="adjective" ts="ˈmiːzlɪ" tr="жалкий; коревой"/>
+    <d v="measurable" p="adjective" ts="ˈmeʒərəbl" tr="измеримый; ощутимый; умеренный"/>
+    <d v="measurable" p="participle" ts="ˈmeʒərəbl" tr="поддающийся; поддающийся измерению"/>
+    <d v="measurable" p="verb" ts="ˈmeʒərəbl" tr="поддаваться измерению"/>
+    <d v="measure" p="noun" ts="ˈmeʒə" tr="мера; измерение; мерка; размер; такт"/>
+    <d v="measure" p="verb" ts="ˈmeʒə" tr="измерить; оценивать; отмерять; иметь размеры; соразмерять"/>
+    <d v="measure" p="participle" ts="ˈmeʒə" tr="измеряющий"/>
+    <d v="measurement" p="noun" ts="ˈmeʒəmənt" tr="измерение; обмер; система мер"/>
+    <d v="measurement" p="adjective" ts="ˈmeʒəmənt" tr="измерительный"/>
+    <d v="measuring cup" p="noun" ts="ˈmeʒərɪŋ kʌp" tr="мерная чашка; мерный стаканчик"/>
+    <d v="meat" p="noun" ts="miːt" tr="мясо; пища"/>
+    <d v="meat" p="adjective" ts="miːt" tr="мясной"/>
+    <d v="meatball" p="noun" ts="ˈmiːtbɔːl" tr="Фрикаделька; тефтель"/>
+    <d v="meatloaf" p="noun" ts="ˈmiːtləf" tr="мясной рулет"/>
+    <d v="meaty" p="adjective" ts="ˈmiːtɪ" tr="мясистый; мясной; содержательный"/>
+    <d v="Mecca" p="noun" ts="ˈmekə" tr="Мекка"/>
+    <d v="Mecca" p="noun" ts="ˈmekə" tr="Мекка"/>
+    <d v="mechanic" p="noun" ts="mɪˈkænɪk" tr="механик; ремесленник"/>
+    <d v="mechanic" p="adjective" ts="mɪˈkænɪk" tr="механический"/>
+    <d v="mechanical" p="adjective" ts="mɪˈkænɪkəl" tr="механический; технический; механистический; автоматический"/>
+    <d v="mechanical" p="adverb" ts="mɪˈkænɪkəl" tr="механически"/>
+    <d v="mechanical" p="noun" ts="mɪˈkænɪkəl" tr="механика"/>
+    <d v="mechanically" p="adverb" ts="mɪˈkænɪklɪ" tr="механически"/>
+    <d v="mechanically" p="adjective" ts="mɪˈkænɪklɪ" tr="механический"/>
+    <d v="mechanics" p="noun" ts="mɪˈkænɪks" tr="механика; автомеханик"/>
+    <d v="mechanism" p="noun" ts="ˈmekənɪzm" tr="механизм; устройство; механицизм"/>
+    <d v="mechanization" p="noun" ts="mekənaɪˈzeɪʃn" tr="механизация"/>
+    <d v="mechanize" p="verb" ts="ˈmekənaɪz" tr="механизировать"/>
+    <d v="mechanize" p="noun" ts="ˈmekənaɪz" tr="механизация"/>
+    <d v="medal" p="noun" ts="medl" tr="медаль"/>
+    <d v="medalist" p="noun" ts="ˈmedəlɪst" tr="медалист"/>
+    <d v="medallion" p="noun" ts="mɪˈdæljən" tr="медальон"/>
+    <d v="meddle" p="verb" ts="medl" tr="вмешаться; лезть"/>
+    <d v="meddlesome" p="adjective" ts="ˈmedlsəm" tr="надоедливый"/>
+    <d v="media" p="noun" ts="ˈmedɪə" tr="СМИ; медиа"/>
+    <d v="media" p="adjective" ts="ˈmedɪə" tr="массовый; медийный"/>
+    <d v="median" p="adjective" ts="ˈmiːdjən" tr="медианный"/>
+    <d v="median" p="noun" ts="ˈmiːdjən" tr="медиана"/>
+    <d v="mediate" p="noun" ts="ˈmiːdɪɪt" tr="посредник"/>
+    <d v="mediate" p="verb" ts="ˈmiːdɪɪt" tr="посредничать; опосредовать; урегулировать"/>
+    <d v="mediate" p="adjective" ts="ˈmiːdɪɪt" tr="опосредованный; промежуточный"/>
+    <d v="mediation" p="noun" ts="miːdɪˈeɪʃn" tr="посредничество; опосредование; посредство"/>
+    <d v="mediation" p="adjective" ts="miːdɪˈeɪʃn" tr="посреднический"/>
+    <d v="mediator" p="noun" ts="ˈmiːdɪeɪtə" tr="посредник; медиатор; ходатай"/>
+    <d v="Medicaid" p="noun" ts="ˈmedɪkeɪtɪd" tr="медпомощь"/>
+    <d v="medical" p="adjective" ts="ˈmedɪkəl" tr="медицинский; лекарственный"/>
+    <d v="medical" p="noun" ts="ˈmedɪkəl" tr="медицина"/>
+    <d v="medical examiner" p="noun" ts="ˈmedɪkəl ɪgˈzæmɪnə" tr="медицинский эксперт; судмедэксперт; медэксперт"/>
+    <d v="medically" p="adjective" ts="ˈmedɪklɪ" tr="медицинский"/>
+    <d v="medically" p="noun" ts="ˈmedɪklɪ" tr="с медицинской точки; с медицинской"/>
+    <d v="medically" p="adverb" ts="ˈmedɪklɪ" tr="медицински"/>
+    <d v="Medicare" p="noun" ts="ˈmedɪkɛə" tr="Медикер; медицинская помощь; Бесплатная медицинская помощь"/>
+    <d v="medication" p="noun" ts="medɪˈkeɪʃn" tr="лекарство; медикаментозное лечение"/>
+    <d v="medication" p="adjective" ts="medɪˈkeɪʃn" tr="лекарственный"/>
+    <d v="medicinal" p="adjective" ts="meˈdɪsɪnl" tr="лекарственный; лечебный"/>
+    <d v="medicine" p="noun" ts="ˈmedsɪn" tr="медицина; лекарство"/>
+    <d v="medicine" p="adjective" ts="ˈmedsɪn" tr="лекарственный"/>
+    <d v="medieval" p="adjective" ts="medɪˈiːvəl" tr="средневековый"/>
+    <d v="medieval" p="noun" ts="medɪˈiːvəl" tr="средневековье"/>
+    <d v="mediocre" p="adjective" ts="ˈmiːdɪəʊkə" tr="посредственный; бесталанный; бездарный; средненький"/>
+    <d v="mediocre" p="noun" ts="ˈmiːdɪəʊkə" tr="посредственность"/>
+    <d v="mediocrity" p="noun" ts="miːdɪˈɔkrɪtɪ" tr="посредственность; бездарность; заурядность; серость; бездарь"/>
+    <d v="mediocrity" p="adjective" ts="miːdɪˈɔkrɪtɪ" tr="посредственный"/>
+    <d v="meditate" p="verb" ts="ˈmedɪteɪt" tr="медитировать; размышлять; замышлять; созерцать; затевать"/>
+    <d v="meditate" p="noun" ts="ˈmedɪteɪt" tr="медитация"/>
+    <d v="meditation" p="noun" ts="medɪˈteɪʃn" tr="медитация; раздумье"/>
+    <d v="Mediterranean" p="adjective" ts="medɪtəˈreɪnjən" tr="средиземноморский"/>
+    <d v="Mediterranean" p="noun" ts="medɪtəˈreɪnjən" tr="Средиземноморье"/>
+    <d v="medium" p="adjective" ts="ˈmiːdjəm" tr="средний"/>
+    <d v="medium" p="noun" ts="ˈmiːdjəm" tr="среда; средство; медиум; середина; посредник; растворитель"/>
+    <d v="medley" p="noun" ts="ˈmedlɪ" tr="попурри; месиво; смесь"/>
+    <d v="meek" p="adjective" ts="miːk" tr="кроткий"/>
+    <d v="meekly" p="adverb" ts="ˈmiːklɪ" tr="кротко; покорно; робко"/>
+    <d v="meekness" p="noun" ts="ˈmiːknɪs" tr="кротость; смирение"/>
+    <d v="meet" p="verb" ts="miːt"
+       tr="встретить; соответствовать; удовлетворять; собираться; повстречаться; сходиться; оплачивать"/>
+    <d v="meet" p="noun" ts="miːt" tr="встреча; удовлетворение; с концами; соревнование"/>
+    <d v="meet" p="participle" ts="miːt" tr="отвечающий; соответствующий"/>
+    <d v="meeting" p="noun" ts="ˈmiːtɪŋ" tr="совещание; встреча; стык; дуэль"/>
+    <d v="meeting" p="adjective" ts="ˈmiːtɪŋ" tr="встречный"/>
+    <d v="meetinghouse" p="adjective" ts="ˈmiːtɪŋhaʊs" tr="молитвенный"/>
+    <d v="meetinghouse" p="noun" ts="ˈmiːtɪŋhaʊs" tr="молитвенный дом"/>
+    <d v="meg" p="noun" ts="meg" tr="Мег; Мэг"/>
+    <d v="megabyte" p="noun" ts="ˈmegəbaɪt" tr="мегабайт"/>
+    <d v="megalomania" p="noun" ts="ˈmegələʊˈmeɪnjə" tr="мания; мания величия"/>
+    <d v="megalomaniac" p="noun" ts="megələˈmeɪnɪæk" tr="мания; мания величия"/>
+    <d v="megaphone" p="noun" ts="ˈmegəfəʊn" tr="МегаФон; рупор; громкоговоритель"/>
+    <d v="megaton" p="noun" ts="ˈmegətʌn" tr="мегатонна"/>
+    <d v="melancholy" p="noun" ts="ˈmelənkəlɪ" tr="меланхолия; тоска; грусть; подавленность"/>
+    <d v="melancholy" p="adjective" ts="ˈmelənkəlɪ" tr="печальный"/>
+    <d v="meld" p="verb" ts="meld" tr="слиться"/>
+    <d v="melee" p="noun" ts="ˈmeleɪ" tr="ближний бой; бой; рукопашная схватка; свалка"/>
+    <d v="melee" p="adjective" ts="ˈmeleɪ" tr="ближний"/>
+    <d v="mellow" p="adjective" ts="ˈmeləʊ" tr="мягкий"/>
+    <d v="melodic" p="adjective" ts="mɪˈlɔdɪk" tr="мелодичный"/>
+    <d v="melodious" p="adjective" ts="mɪˈləʊdjəs" tr="мелодичный; певучий"/>
+    <d v="melodrama" p="noun" ts="ˈmeləʊdrɑːmə" tr="мелодрама; театральность"/>
+    <d v="melodramatic" p="adjective" ts="meləʊdrəˈmætɪk" tr="мелодраматический"/>
+    <d v="melodramatic" p="noun" ts="meləʊdrəˈmætɪk" tr="мелодрама"/>
+    <d v="melody" p="noun" ts="ˈmelədɪ" tr="мелодия; мелодичность"/>
+    <d v="melon" p="noun" ts="ˈmelən" tr="дыня; бахчеводство"/>
+    <d v="melon" p="adjective" ts="ˈmelən" tr="дынный"/>
+    <d v="melt" p="noun" ts="melt" tr="расплав; таяние"/>
+    <d v="melt" p="verb" ts="melt" tr="таять; растопить; раствориться; переплавить; стаять; умиляться"/>
+    <d v="melt" p="adjective" ts="melt" tr="плавленый"/>
+    <d v="meltdown" p="noun" ts="ˈmeltdaʊn" tr="кризис; крах; расплавление"/>
+    <d v="melting pot" p="noun" ts="ˈmeltɪŋ pɔt" tr="плавильный котел; тигель"/>
+    <d v="member" p="noun" ts="ˈmembə" tr="член; участник"/>
+    <d v="membership" p="noun" ts="ˈmembəʃɪp" tr="членство; членский состав; количество членов; рядовые члены"/>
+    <d v="membership" p="adjective" ts="ˈmembəʃɪp" tr="членский"/>
+    <d v="membrane" p="noun" ts="ˈmembreɪn" tr="мембрана; перепонка; плева"/>
+    <d v="membrane" p="adjective" ts="ˈmembreɪn" tr="мембранный"/>
+    <d v="memento" p="noun" ts="mɪˈmentəʊ" tr="сувенир; напоминание"/>
+    <d v="memento" p="adjective" ts="mɪˈmentəʊ" tr="памятный"/>
+    <d v="memo" p="noun" ts="ˈmiːməʊ" tr="записка; памятка"/>
+    <d v="memorabilia" p="noun" ts="memərəˈbiːlɪə" tr="реликвии"/>
+    <d v="memorable" p="adjective" ts="ˈmemərəbl" tr="памятный"/>
+    <d v="memorable" p="participle" ts="ˈmemərəbl" tr="запоминающийся; запомнившийся"/>
+    <d v="memorably" p="adverb" ts="ˈmemərəblɪ" tr="памятно; незабываемо"/>
+    <d v="memorandum" p="noun" ts="meməˈrændəm" tr="меморандум; учредительный договор; докладная записка"/>
+    <d v="memorial" p="noun" ts="mɪˈmɔːrɪəl" tr="мемориал; поминовение; записка"/>
+    <d v="memorial" p="adjective" ts="mɪˈmɔːrɪəl" tr="мемориальный"/>
+    <d v="memorial day" p="noun" ts="mɪˈmɔːrɪəl deɪ" tr="день памяти; день поминовения; памятный день"/>
+    <d v="memorize" p="verb" ts="ˈmeməraɪz" tr="запомнить; увековечивать память; вызубрить"/>
+    <d v="memorize" p="noun" ts="ˈmeməraɪz" tr="запоминание"/>
+    <d v="memory" p="noun" ts="ˈmemərɪ" tr="память; запоминающее устройство; запись"/>
+    <d v="menace" p="noun" ts="ˈmenəs" tr="угроза"/>
+    <d v="menace" p="verb" ts="ˈmenəs" tr="угрожать"/>
+    <d v="menacing" p="adjective" ts="ˈmenəsɪŋ" tr="угрожающий"/>
+    <d v="menagerie" p="noun" ts="mɪˈnæʤərɪ" tr="зверинец"/>
+    <d v="mend" p="verb" ts="mend"
+       tr="исправить; чинить; исправлять; наладить; латать; поправляться; ремонтировать; зашить; штопать"/>
+    <d v="mend" p="noun" ts="mend" tr="улучшение"/>
+    <d v="menial" p="noun" ts="ˈmiːnjəl" tr="слуга"/>
+    <d v="meningitis" p="noun" ts="menɪnˈʤaɪtɪs" tr="менингит"/>
+    <d v="menopause" p="noun" ts="ˈmenəʊpɔːz" tr="менопауза"/>
+    <d v="menopause" p="adjective" ts="ˈmenəʊpɔːz" tr="климактерический"/>
+    <d v="men&apos;s room" p="noun" ts="men&apos;ses ruːm" tr="мужской туалет"/>
+    <d v="menstrual" p="adjective" ts="ˈmenstrʊəl" tr="менструальный; ежемесячный"/>
+    <d v="menstrual" p="noun" ts="ˈmenstrʊəl" tr="менструация"/>
+    <d v="menstruate" p="noun" ts="ˈmenstrʊeɪt" tr="менструация"/>
+    <d v="menstruate" p="verb" ts="ˈmenstrʊeɪt" tr="менструировать"/>
+    <d v="menstruation" p="noun" ts="menstrʊˈeɪʃn" tr="менструация"/>
+    <d v="menstruation" p="adjective" ts="menstrʊˈeɪʃn" tr="менструальный"/>
+    <d v="mental" p="adjective" ts="mentl" tr="психический; подбородочный; ненормальный"/>
+    <d v="mental" p="noun" ts="mentl" tr="псих"/>
+    <d v="mentality" p="noun" ts="menˈtælɪtɪ" tr="менталитет; мышление; психика; интеллект; мировосприятие"/>
+    <d v="mentally" p="adverb" ts="ˈmentəlɪ" tr="психически; мысленно; умственно; душевно"/>
+    <d v="mentally" p="adjective" ts="ˈmentəlɪ" tr="психический; душевнобольной"/>
+    <d v="menthol" p="noun" ts="ˈmenθɔl" tr="ментол"/>
+    <d v="menthol" p="adjective" ts="ˈmenθɔl" tr="ментоловый"/>
+    <d v="mention" p="verb" ts="menʃn" tr="упоминать; сказать; затрагивать"/>
+    <d v="mention" p="noun" ts="menʃn" tr="упоминание; помин"/>
+    <d v="mention" p="participle" ts="menʃn" tr="упомянутый"/>
+    <d v="mentor" p="noun" ts="ˈmentɔː" tr="наставник; наставница; руководитель; наставничество"/>
+    <d v="mentor" p="adjective" ts="ˈmentɔː" tr="менторский"/>
+    <d v="mentor" p="verb" ts="ˈmentɔː" tr="наставлять"/>
+    <d v="menu" p="noun" ts="ˈmenjuː" tr="меню"/>
+    <d v="meow" p="verb" ts="miːˈaʊ" tr="мяукать; мяукнуть"/>
+    <d v="meow" p="interjection" ts="miːˈaʊ" tr="мяу"/>
+    <d v="meow" p="noun" ts="miːˈaʊ" tr="мяуканье"/>
+    <d v="mercenary" p="noun" ts="ˈmɜːsɪnərɪ" tr="наемник; наемничество; контрактник"/>
+    <d v="mercenary" p="adjective" ts="ˈmɜːsɪnərɪ" tr="корыстный; наемный; торгашеский"/>
+    <d v="merchandise" p="noun" ts="ˈmɜːʧəndaɪz" tr="товар; атрибутика; мерчандайзинг"/>
+    <d v="merchandise" p="verb" ts="ˈmɜːʧəndaɪz" tr="торговать"/>
+    <d v="merchant" p="noun" ts="ˈmɜːʧənt" tr="купец"/>
+    <d v="merchant" p="adjective" ts="ˈmɜːʧənt" tr="торговый"/>
+    <d v="merciful" p="adjective" ts="ˈmɜːsɪfʊl" tr="милосердный"/>
+    <d v="merciful" p="noun" ts="ˈmɜːsɪfʊl" tr="милосердие"/>
+    <d v="mercifully" p="adverb" ts="ˈmɜːsɪfəlɪ" tr="милостиво; милосердно"/>
+    <d v="mercifully" p="noun" ts="ˈmɜːsɪfəlɪ" tr="к счастью"/>
+    <d v="merciless" p="adjective" ts="ˈmɜːsɪlɪs" tr="беспощадный"/>
+    <d v="mercilessly" p="adverb" ts="ˈmɜːsɪlɪslɪ" tr="безжалостно; нещадно"/>
+    <d v="mercury" p="noun" ts="ˈmɜːkjʊrɪ" tr="ртуть"/>
+    <d v="mercury" p="adjective" ts="ˈmɜːkjʊrɪ" tr="ртутный; РТУТЬСОДЕРЖАЩИЙ"/>
+    <d v="mercury" p="noun" ts="ˈmɜːkjʊrɪ" tr="ртуть"/>
+    <d v="mercury" p="adjective" ts="ˈmɜːkjʊrɪ" tr="ртутный; РТУТЬСОДЕРЖАЩИЙ"/>
+    <d v="mercy" p="noun" ts="ˈmɜːsɪ" tr="милость; пощада; жалость; счастье"/>
+    <d v="mercy" p="adjective" ts="ˈmɜːsɪ" tr="милосердный"/>
+    <d v="mere" p="adjective" ts="mɪə" tr="простой; сущий"/>
+    <d v="mere" p="noun" ts="mɪə" tr="озеро"/>
+    <d v="merely" p="particle" ts="ˈmɪəlɪ" tr="лишь; просто"/>
+    <d v="merely" p="adjective" ts="ˈmɪəlɪ" tr="простой"/>
+    <d v="merely" p="adverb" ts="ˈmɪəlɪ" tr="чисто; попросту"/>
+    <d v="merge" p="noun" ts="mɜːʤ" tr="слияние"/>
+    <d v="merge" p="verb" ts="mɜːʤ" tr="объединить; слиться; слить; соединить; поглощать; раствориться"/>
+    <d v="merge" p="adverbial participle" ts="mɜːʤ" tr="сливаясь; объединяясь"/>
+    <d v="merger" p="noun" ts="ˈmɜːʤə" tr="слияние"/>
+    <d v="meridian" p="noun" ts="məˈrɪdɪən" tr="меридиан"/>
+    <d v="meridian" p="adjective" ts="məˈrɪdɪən" tr="меридиональный; полуденный"/>
+    <d v="meringue" p="noun" ts="məˈræŋ" tr="меренга"/>
+    <d v="merit" p="noun" ts="ˈmerɪt" tr="заслуга"/>
+    <d v="merit" p="verb" ts="ˈmerɪt" tr="заслуживать"/>
+    <d v="merit" p="participle" ts="ˈmerɪt" tr="заслуживающий"/>
+    <d v="mermaid" p="noun" ts="ˈmɜːmeɪd" tr="русалка; русалочка; сирена; наяда"/>
+    <d v="merrily" p="adverb" ts="ˈmerɪlɪ" tr="весело"/>
+    <d v="merriment" p="noun" ts="ˈmerɪmənt" tr="веселье"/>
+    <d v="merry" p="adjective" ts="ˈmerɪ" tr="веселый; веселенький"/>
+    <d v="merry" p="noun" ts="ˈmerɪ" tr="Мерри; весельчак; черешня"/>
+    <d v="merry" p="verb" ts="ˈmerɪ" tr="веселиться"/>
+    <d v="mesh" p="noun" ts="meʃ" tr="сетка; петля; отверстие; зацепление; западня"/>
+    <d v="mesh" p="adjective" ts="meʃ" tr="сетчатый"/>
+    <d v="mesmerize" p="verb" ts="ˈmezməraɪz" tr="гипнотизировать; очаровывать"/>
+    <d v="mess" p="noun" ts="mes"
+       tr="беспорядок; бардак; каша; столовая; месиво; кавардак; неприятность; кутерьма; чехарда; кушанье"/>
+    <d v="mess" p="verb" ts="mes" tr="испортить; возиться; связываться; запутаться; напутать; повозиться; пачкать"/>
+    <d v="message" p="noun" ts="ˈmesɪʤ" tr="сообщение; послание; идея; посыл; миссия"/>
+    <d v="messenger" p="noun" ts="ˈmesɪnʤə" tr="посланник; посыльный; пейджер; рассыльный; связной; предвестник"/>
+    <d v="messenger" p="adjective" ts="ˈmesɪnʤə" tr="курьерский"/>
+    <d v="Messiah" p="noun" ts="mɪˈsaɪə" tr="Мессия"/>
+    <d v="messy" p="adjective" ts="ˈmesɪ" tr="грязный; беспорядочный; запутанный; неряшливый"/>
+    <d v="messy" p="noun" ts="ˈmesɪ" tr="беспорядок"/>
+    <d v="messy" p="adverb" ts="ˈmesɪ" tr="неаккуратно"/>
+    <d v="met" p="participle" ts="met" tr="встреченный; встречаемый"/>
+    <d v="metabolic" p="adjective" ts="metəˈbɔlɪk" tr="метаболический"/>
+    <d v="metabolic" p="noun" ts="metəˈbɔlɪk" tr="обмен"/>
+    <d v="metabolism" p="noun" ts="meˈtæbəlɪzm" tr="метаболизм; вещество; обменные процессы"/>
+    <d v="metal" p="noun" ts="metl" tr="металл; металлопродукция; металлоизделия; щебень; Гарт"/>
+    <d v="metal" p="adjective" ts="metl" tr="металлический; металлообрабатывающий"/>
+    <d v="metallic" p="adjective" ts="mɪˈtælɪk" tr="металлический"/>
+    <d v="metallic" p="participle" ts="mɪˈtælɪk" tr="металлизированный"/>
+    <d v="metallurgist" p="noun" ts="meˈtæləʤɪst" tr="металлург"/>
+    <d v="metallurgy" p="noun" ts="meˈtæləʤɪ" tr="металлургия"/>
+    <d v="metallurgy" p="adjective" ts="meˈtæləʤɪ" tr="металлургический"/>
+    <d v="metamorphosis" p="noun" ts="metəˈmɔːfəsɪs" tr="метаморфоза; превращение"/>
+    <d v="metaphor" p="noun" ts="ˈmetəfə" tr="метафора"/>
+    <d v="metaphor" p="adjective" ts="ˈmetəfə" tr="метафорический"/>
+    <d v="metaphorical" p="adjective" ts="metəˈfɔrɪkəl" tr="метафорический; метафоричный"/>
+    <d v="metaphorical" p="noun" ts="metəˈfɔrɪkəl" tr="метафора"/>
+    <d v="metaphorical" p="adverb" ts="metəˈfɔrɪkəl" tr="метафорически"/>
+    <d v="metaphorically" p="adverb" ts="metəˈfɒrɪklɪ" tr="метафорически; метафорично"/>
+    <d v="metaphorically" p="noun" ts="metəˈfɒrɪklɪ" tr="метафора"/>
+    <d v="metaphysical" p="adjective" ts="metəˈfɪzɪkəl" tr="метафизический"/>
+    <d v="metaphysics" p="noun" ts="metəˈfɪzɪks" tr="метафизика"/>
+    <d v="mete" p="verb" ts="miːt" tr="вершить; отмерять; назначать"/>
+    <d v="meteor" p="noun" ts="ˈmiːtjə" tr="метеор"/>
+    <d v="meteoric" p="adjective" ts="miːtɪˈɔrɪk" tr="метеорный; ослепительный; метеорический"/>
+    <d v="meteorite" p="noun" ts="ˈmiːtjəraɪt" tr="метеорит"/>
+    <d v="meteorological" p="adjective" ts="miːtjərəˈlɔʤɪkəl" tr="метеорологический"/>
+    <d v="meteorological" p="noun" ts="miːtjərəˈlɔʤɪkəl" tr="метеостанция"/>
+    <d v="meteorologist" p="noun" ts="miːtɪəˈrɒləʤɪst" tr="метеоролог"/>
+    <d v="meteorology" p="noun" ts="miːtjəˈrɔləʤɪ" tr="метеорология; метеорологические условия"/>
+    <d v="meteorology" p="adjective" ts="miːtjəˈrɔləʤɪ" tr="метеорологический"/>
+    <d v="meter" p="noun" ts="ˈmiːtə" tr="метр; счетчик"/>
+    <d v="meter" p="adjective" ts="ˈmiːtə" tr="метровый"/>
+    <d v="methadone" p="noun" ts="ˈmeθədən" tr="метадон"/>
+    <d v="methadone" p="adjective" ts="ˈmeθədən" tr="метадоновый"/>
+    <d v="methane" p="noun" ts="ˈmiːθeɪn" tr="метан"/>
+    <d v="methane" p="adjective" ts="ˈmiːθeɪn" tr="метановый"/>
+    <d v="method" p="noun" ts="ˈmeθəd" tr="метод; система; классификация"/>
+    <d v="methodical" p="adjective" ts="mɪˈθɔdɪkəl" tr="методический"/>
+    <d v="methodically" p="adverb" ts="mɪˈθɒdɪklɪ" tr="методично; методически"/>
+    <d v="Methodist" p="noun" ts="ˈmeθədɪst" tr="методист"/>
+    <d v="Methodist" p="adjective" ts="ˈmeθədɪst" tr="методистский"/>
+    <d v="methodological" p="adjective" ts="meθədəˈlɒʤɪkl" tr="методологический"/>
+    <d v="methodology" p="noun" ts="meθəˈdɔləʤɪ" tr="методология"/>
+    <d v="methodology" p="adjective" ts="meθəˈdɔləʤɪ" tr="методический"/>
+    <d v="meticulous" p="adjective" ts="mɪˈtɪkjʊləs" tr="тщательный; скрупулезный; педантичный"/>
+    <d v="meticulously" p="adverb" ts="mɪˈtɪkjʊləslɪ" tr="тщательно"/>
+    <d v="metric" p="adjective" ts="ˈmetrɪk" tr="метрический"/>
+    <d v="metric" p="noun" ts="ˈmetrɪk" tr="метрика; показатель"/>
+    <d v="metro" p="noun" ts="ˈmetrəʊ" tr="метро"/>
+    <d v="metropolis" p="noun" ts="mɪˈtrɔpəlɪs" tr="мегаполис; Метрополис; метрополия; крупный город"/>
+    <d v="Metropolitan" p="noun" ts="metrəˈpɔlɪtən" tr="митрополит; метрополитен; метрополия; мегаполис"/>
+    <d v="Metropolitan" p="adjective" ts="metrəˈpɔlɪtən" tr="столичный"/>
+    <d v="mettle" p="noun" ts="metl" tr="характер; пыл"/>
+    <d v="Mexican" p="adjective" ts="ˈmeksɪkən" tr="мексиканский"/>
+    <d v="Mexican" p="noun" ts="ˈmeksɪkən" tr="мексиканец"/>
+    <d v="mezzanine" p="noun" ts="ˈmetsəniːn" tr="антресоль; бельэтаж; полуэтаж"/>
+    <d v="mezzanine" p="adjective" ts="ˈmetsəniːn" tr="мезонинный"/>
+    <d v="microbe" p="noun" ts="ˈmaɪkrəʊb" tr="микроб"/>
+    <d v="microbiology" p="noun" ts="ˈmaɪkrəʊbaɪˈɔləʤɪ" tr="микробиология"/>
+    <d v="microbiology" p="adjective" ts="ˈmaɪkrəʊbaɪˈɔləʤɪ" tr="микробиологический"/>
+    <d v="microchip" p="noun" ts="ˈmaɪkrəʊʧɪp" tr="микрочип; микросхема"/>
+    <d v="microcosm" p="noun" ts="ˈmaɪkrəʊkɔzm" tr="микрокосм; микромир"/>
+    <d v="microfiche" p="noun" ts="ˈmaɪkrəʊfiːʃ" tr="микрофиша"/>
+    <d v="microfilm" p="noun" ts="ˈmaɪkrəʊfɪlm" tr="микрофильм; микрофильмирование"/>
+    <d v="microorganism" p="noun" ts="ˈmaɪkrəʊˈɔːgənɪzm" tr="микроорганизм"/>
+    <d v="microphone" p="noun" ts="ˈmaɪkrəfəʊn" tr="микрофон"/>
+    <d v="microphone" p="adjective" ts="ˈmaɪkrəfəʊn" tr="микрофонный"/>
+    <d v="microprocessor" p="noun" ts="maɪkrəˈprəʊsesər" tr="микропроцессор"/>
+    <d v="microprocessor" p="adjective" ts="maɪkrəˈprəʊsesər" tr="микропроцессорный"/>
+    <d v="microscope" p="noun" ts="ˈmaɪkrəskəʊp" tr="микроскоп"/>
+    <d v="microscope" p="adjective" ts="ˈmaɪkrəskəʊp" tr="микроскопический"/>
+    <d v="microscopic" p="adjective" ts="maɪkrəsˈkɔpɪk" tr="микроскопический"/>
+    <d v="microwave" p="adjective" ts="ˈmaɪkrəʊweɪv" tr="микроволновый"/>
+    <d v="microwave" p="noun" ts="ˈmaɪkrəʊweɪv" tr="СВЧ; микроволна"/>
+    <d v="midair" p="noun" ts="ˈmɪdeər" tr="воздух"/>
+    <d v="midday" p="noun" ts="ˈmɪddeɪ" tr="полдень"/>
+    <d v="midday" p="adjective" ts="ˈmɪddeɪ" tr="полуденный; полдневный"/>
+    <d v="middle" p="adjective" ts="mɪdl" tr="средний"/>
+    <d v="middle" p="noun" ts="mɪdl" tr="середина; Золотая середина; талия"/>
+    <d v="middle age" p="noun" ts="mɪdl eɪʤ" tr="средний возраст"/>
+    <d v="middle ages" p="noun" ts="mɪdl ˈeɪʤɪz" tr="средневековье"/>
+    <d v="middle America" p="noun" ts="mɪdl əˈmerɪkə" tr="средняя Америка"/>
+    <d v="middle class" p="noun" ts="mɪdl klɑːs" tr="средний класс; средний слой; среднее сословие"/>
+    <d v="middle East" p="noun" ts="mɪdl iːst" tr="ближний Восток; средний Восток; средняя Азия"/>
+    <d v="middleman" p="noun" ts="ˈmɪdlmæn" tr="посредник; комиссионер"/>
+    <d v="middleman" p="adjective" ts="ˈmɪdlmæn" tr="посреднический"/>
+    <d v="middle name" p="noun" ts="mɪdl neɪm" tr="отчество; второе имя; среднее имя"/>
+    <d v="middle school" p="noun" ts="mɪdl skuːl" tr="средняя школа"/>
+    <d v="midget" p="noun" ts="ˈmɪʤɪt" tr="карлик"/>
+    <d v="midget" p="adjective" ts="ˈmɪʤɪt" tr="малолитражный; миниатюрный"/>
+    <d v="midnight" p="noun" ts="ˈmɪdnaɪt" tr="полночь"/>
+    <d v="midnight" p="adjective" ts="ˈmɪdnaɪt" tr="полуночный"/>
+    <d v="midriff" p="noun" ts="ˈmɪdrɪf" tr="талия; диафрагма"/>
+    <d v="midst" p="noun" ts="mɪdst" tr="среда; разгар; середина; гуща"/>
+    <d v="midsummer" p="noun" ts="ˈmɪdˈsʌmə" tr="середина лета; Лиго; летнее солнцестояние; разгар лета"/>
+    <d v="midterm" p="adjective" ts="ˈmɪdtɜːm" tr="среднесрочный"/>
+    <d v="midway" p="noun" ts="ˈmɪdˈweɪ" tr="полпути; Мидуэй"/>
+    <d v="midweek" p="noun" ts="mɪdˈwiːk" tr="середина недели"/>
+    <d v="Midwest" p="noun" ts="mɪdˈwest" tr="средний запад; запад"/>
+    <d v="Midwestern" p="noun" ts="mɪdˈwestn" tr="средний запад; запад"/>
+    <d v="midwife" p="noun" ts="ˈmɪdwaɪf" tr="акушерка; повивальная бабка"/>
+    <d v="midwinter" p="noun" ts="ˈmɪdˈwɪntə" tr="середина зимы"/>
+    <d v="might" p="verb" ts="maɪt" tr="мочь"/>
+    <d v="might" p="predicative" ts="maɪt" tr="можно"/>
+    <d v="might" p="noun" ts="maɪt" tr="мощь"/>
+    <d v="mighty" p="adjective" ts="ˈmaɪtɪ" tr="могучий; сильный; громадный"/>
+    <d v="mighty" p="noun" ts="ˈmaɪtɪ" tr="могущество"/>
+    <d v="mighty" p="adverb" ts="ˈmaɪtɪ" tr="очень"/>
+    <d v="migraine" p="noun" ts="ˈmiːgreɪn" tr="мигрень"/>
+    <d v="migrant" p="noun" ts="ˈmaɪgrənt" tr="мигрант"/>
+    <d v="migrant" p="participle" ts="ˈmaɪgrənt" tr="мигрирующий; кочующий"/>
+    <d v="migrate" p="verb" ts="maɪˈgreɪt" tr="мигрировать; перейти; переселиться; уезжать; кочевать"/>
+    <d v="migrate" p="noun" ts="maɪˈgreɪt" tr="миграция"/>
+    <d v="migration" p="noun" ts="maɪˈgreɪʃn" tr="миграция"/>
+    <d v="migration" p="adjective" ts="maɪˈgreɪʃn" tr="миграционный"/>
+    <d v="migratory" p="adjective" ts="ˈmaɪgrətərɪ" tr="миграционный"/>
+    <d v="migratory" p="participle" ts="ˈmaɪgrətərɪ" tr="мигрирующий"/>
+    <d v="Mike" p="noun" ts="maɪk" tr="майк; микрофон"/>
+    <d v="Mike" p="verb" ts="maɪk" tr="бездельничать"/>
+    <d v="mild" p="adjective" ts="maɪld" tr="мягкий; легкий; неострый; несильный"/>
+    <d v="mildew" p="noun" ts="ˈmɪldjuː" tr="плесень; милдью"/>
+    <d v="mildly" p="adverb" ts="ˈmaɪldlɪ" tr="мягко"/>
+    <d v="mildness" p="noun" ts="ˈmaɪldnɪs" tr="мягкость"/>
+    <d v="mile" p="noun" ts="maɪl" tr="миля"/>
+    <d v="mile" p="adjective" ts="maɪl" tr="мильный"/>
+    <d v="mileage" p="noun" ts="ˈmaɪlɪʤ" tr="пробег; расстояние в милях"/>
+    <d v="miles" p="noun" ts="maɪlz" tr="Майлз"/>
+    <d v="milestone" p="noun" ts="ˈmaɪlstəʊn" tr="веха; рубеж; контрольная точка"/>
+    <d v="milieu" p="noun" ts="ˈmiːljɜː" tr="среда"/>
+    <d v="militancy" p="noun" ts="ˈmɪlɪtənsɪ" tr="воинственность; боевик; активизм"/>
+    <d v="militant" p="noun" ts="ˈmɪlɪtənt" tr="боевик; активист"/>
+    <d v="militant" p="adjective" ts="ˈmɪlɪtənt" tr="воинствующий; активный"/>
+    <d v="militarism" p="noun" ts="ˈmɪlɪtərɪzm" tr="милитаризм"/>
+    <d v="military" p="adjective" ts="ˈmɪlɪtərɪ" tr="военный"/>
+    <d v="military" p="noun" ts="ˈmɪlɪtərɪ" tr="военнослужащие; войска; военщина"/>
+    <d v="militate" p="verb" ts="ˈmɪlɪteɪt" tr="препятствовать; воевать"/>
+    <d v="militia" p="noun" ts="mɪˈlɪʃə" tr="милиция; вооруженное формирование; дружина"/>
+    <d v="militia" p="adjective" ts="mɪˈlɪʃə" tr="милицейский"/>
+    <d v="milk" p="noun" ts="mɪlk" tr="молоко"/>
+    <d v="milk" p="adjective" ts="mɪlk" tr="молочный"/>
+    <d v="milk" p="verb" ts="mɪlk" tr="доить; эксплуатировать"/>
+    <d v="milk chocolate" p="noun" ts="mɪlk ˈʧɔkəlɪt" tr="молочный шоколад"/>
+    <d v="milkman" p="noun" ts="ˈmɪlkmən" tr="молочник"/>
+    <d v="milk shake" p="noun" ts="mɪlk ʃeɪk" tr="молочный коктейль"/>
+    <d v="milky" p="adjective" ts="ˈmɪlkɪ" tr="Млечный; молочный"/>
+    <d v="milky" p="noun" ts="ˈmɪlkɪ" tr="молочный цвет"/>
+    <d v="milky way" p="noun" ts="ˈmɪlkɪ weɪ" tr="Млечный путь"/>
+    <d v="mill" p="noun" ts="mɪl" tr="мельница; завод; дробилка; фрезер"/>
+    <d v="mill" p="adjective" ts="mɪl" tr="мельничный; фабричный"/>
+    <d v="mill" p="verb" ts="mɪl" tr="перемалывать; фрезеровать"/>
+    <d v="Millennium" p="noun" ts="mɪˈlenɪəm" tr="тысячелетие; золотой век"/>
+    <d v="Millennium" p="adjective" ts="mɪˈlenɪəm" tr="тысячелетний"/>
+    <d v="milligram" p="noun" ts="ˈmɪlɪgræm" tr="миллиграмм"/>
+    <d v="milliliter" p="noun" ts="ˈmɪləliːtər" tr="миллилитр"/>
+    <d v="millimeter" p="noun" ts="ˈmɪlɪmiːtər" tr="миллиметр"/>
+    <d v="millimeter" p="adjective" ts="ˈmɪlɪmiːtər" tr="миллиметровый"/>
+    <d v="milliner" p="noun" ts="ˈmɪlɪnə" tr="модистка"/>
+    <d v="million" p="noun" ts="ˈmɪljən" tr="млн"/>
+    <d v="million" p="numeral" ts="ˈmɪljən" tr="миллион"/>
+    <d v="millionaire" p="noun" ts="mɪljəˈnɛə" tr="миллионер; миллионерша"/>
+    <d v="millionth" p="noun" ts="ˈmɪlɪənθ" tr="миллионная доля"/>
+    <d v="MIME" p="noun" ts="maɪm" tr="МИМ; пантомима; мимика"/>
+    <d v="MIME" p="verb" ts="maɪm" tr="имитировать"/>
+    <d v="mimic" p="verb" ts="ˈmɪmɪk" tr="имитировать; передразнить; мимикрировать; пародировать; обезьянничать"/>
+    <d v="mimic" p="adjective" ts="ˈmɪmɪk" tr="мимический; подражательный"/>
+    <d v="mimic" p="noun" ts="ˈmɪmɪk" tr="имитация; мнемосхема"/>
+    <d v="mimicry" p="noun" ts="ˈmɪmɪkrɪ" tr="мимика; мимикрия; подражание"/>
+    <d v="mince" p="noun" ts="mɪns" tr="фарш"/>
+    <d v="mince" p="adjective" ts="mɪns" tr="рубленый"/>
+    <d v="mince" p="verb" ts="mɪns" tr="рубить; смягчать"/>
+    <d v="mincemeat" p="noun" ts="ˈmɪnsmiːt" tr="фарш; мясной фарш"/>
+    <d v="mind" p="noun" ts="maɪnd" tr="ум; вид; мысль; мнение; дух; память; намерение; умственные способности"/>
+    <d v="mind" p="verb" ts="maɪnd"
+       tr="помнить; возражать; передумать; заниматься; смотреть; заботиться; остерегаться"/>
+    <d v="mindful" p="adverbial participle" ts="ˈmaɪndfʊl" tr="памятуя; сознавая"/>
+    <d v="mindful" p="verb" ts="ˈmaɪndfʊl" tr="учитывать"/>
+    <d v="mindful" p="adjective" ts="ˈmaɪndfʊl" tr="внимательный"/>
+    <d v="mindful" p="participle" ts="ˈmaɪndfʊl" tr="помнящий"/>
+    <d v="mindless" p="adjective" ts="ˈmaɪndlɪs" tr="бессмысленный; бездумный"/>
+    <d v="mine" p="noun" ts="maɪn" tr="шахта; мина; копи; подкоп"/>
+    <d v="mine" p="adverbial participle" ts="maɪn" tr="моя"/>
+    <d v="mine" p="adjective" ts="maɪn" tr="минный; шахтный; горнодобывающий"/>
+    <d v="mine" p="verb" ts="maɪn" tr="добывать; минировать; заминировать"/>
+    <d v="mine" p="participle" ts="maɪn" tr="принадлежащий мне"/>
+    <d v="minefield" p="noun" ts="ˈmaɪnfiːld" tr="минное поле"/>
+    <d v="miner" p="noun" ts="ˈmaɪnə" tr="Шахтер; горняк; рудокоп; старатель; добытчик"/>
+    <d v="miner" p="adjective" ts="ˈmaɪnə" tr="шахтерский"/>
+    <d v="mineral" p="adjective" ts="ˈmɪnərəl" tr="минеральный"/>
+    <d v="mineral" p="noun" ts="ˈmɪnərəl" tr="минерал; руда"/>
+    <d v="mineral water" p="noun" ts="ˈmɪnərəl ˈwɔːtə" tr="минеральная вода; минералка"/>
+    <d v="mingle" p="verb" ts="mɪŋgl" tr="смешаться; общаться"/>
+    <d v="mingle" p="adverbial participle" ts="mɪŋgl" tr="смешиваясь"/>
+    <d v="mingle" p="noun" ts="mɪŋgl" tr="смешение"/>
+    <d v="miniature" p="adjective" ts="ˈmɪnjəʧə" tr="миниатюрный"/>
+    <d v="miniature" p="noun" ts="ˈmɪnjəʧə" tr="миниатюра; макет; миниатюрность; заставка"/>
+    <d v="minimal" p="adjective" ts="ˈmɪnɪml" tr="минимальный"/>
+    <d v="minimal" p="noun" ts="ˈmɪnɪml" tr="минимум"/>
+    <d v="minimally" p="adverb" ts="ˈmɪnɪməlɪ" tr="минимально"/>
+    <d v="minimally" p="noun" ts="ˈmɪnɪməlɪ" tr="минимум"/>
+    <d v="minimize" p="verb" ts="ˈmɪnɪmaɪz" tr="минимизировать; свернуть; доводить до минимума"/>
+    <d v="minimize" p="noun" ts="ˈmɪnɪmaɪz" tr="минимизация; сворачивание"/>
+    <d v="minimum" p="adjective" ts="ˈmɪnɪməm" tr="минимальный"/>
+    <d v="minimum" p="noun" ts="ˈmɪnɪməm" tr="минимум"/>
+    <d v="minimum wage" p="noun" ts="ˈmɪnɪməm weɪʤ"
+       tr="минимальная заработная плата; минимальная зарплата; минимальная оплата; минимальная оплата труда"/>
+    <d v="mining" p="adjective" ts="ˈmaɪnɪŋ" tr="горнодобывающий; горный; рудничный"/>
+    <d v="mining" p="noun" ts="ˈmaɪnɪŋ" tr="добыча; интеллектуальный анализ; минирование"/>
+    <d v="mining" p="participle" ts="ˈmaɪnɪŋ" tr="добывающий"/>
+    <d v="miniskirt" p="noun" ts="ˈmɪnɪskɜːt" tr="миниюбка"/>
+    <d v="Minister" p="noun" ts="ˈmɪnɪstə" tr="министр; служитель; посланник; исполнитель"/>
+    <d v="Minister" p="verb" ts="ˈmɪnɪstə" tr="служить; помогать"/>
+    <d v="Ministerial" p="adjective" ts="mɪnɪsˈtɪərɪəl" tr="министерский; служебный"/>
+    <d v="Ministerial" p="noun" ts="mɪnɪsˈtɪərɪəl" tr="уровень министров"/>
+    <d v="Ministry" p="noun" ts="ˈmɪnɪstrɪ" tr="Министерство; духовенство; пастырство; кабинет министров"/>
+    <d v="minivan" p="noun" ts="ˈmɪnɪvæn" tr="минивэн"/>
+    <d v="mink" p="noun" ts="mɪŋk" tr="норка"/>
+    <d v="mink" p="adjective" ts="mɪŋk" tr="норковый"/>
+    <d v="minnow" p="noun" ts="ˈmɪnəʊ" tr="гольян; пескарь; блесна; мелкая рыбешка"/>
+    <d v="minor" p="adjective" ts="ˈmaɪnə" tr="незначительный; младший; минорный; грустный"/>
+    <d v="minor" p="noun" ts="ˈmaɪnə" tr="несовершеннолетний; минор"/>
+    <d v="minority" p="noun" ts="maɪˈnɔrɪtɪ" tr="меньшинство; несовершеннолетие; меньшая часть; меньшее число"/>
+    <d v="minority" p="adjective" ts="maɪˈnɔrɪtɪ" tr="миноритарный"/>
+    <d v="minstrel" p="noun" ts="ˈmɪnstrəl" tr="менестрель; певец"/>
+    <d v="mint" p="noun" ts="mɪnt" tr="мята; монетный двор; чеканка"/>
+    <d v="mint" p="adjective" ts="mɪnt" tr="монетный; мятный; новый"/>
+    <d v="mint" p="verb" ts="mɪnt" tr="чеканить"/>
+    <d v="minty" p="adjective" ts="ˈmɪnɪtɪ" tr="мятный"/>
+    <d v="minus" p="noun" ts="ˈmaɪnəs" tr="минус"/>
+    <d v="minus" p="adjective" ts="ˈmaɪnəs" tr="отрицательный"/>
+    <d v="minuscule" p="adjective" ts="ˈmɪnəskjuːl" tr="незначительный; крошечный"/>
+    <d v="minuscule" p="noun" ts="ˈmɪnəskjuːl" tr="минускул"/>
+    <d v="minus sign" p="noun" ts="ˈmaɪnəs saɪn" tr="минус; знак минуса"/>
+    <d v="minute" p="noun" ts="ˈmɪnɪt" tr="минута; момент"/>
+    <d v="minute" p="adjective" ts="ˈmɪnɪt" tr="минутный; мельчайший; подробный"/>
+    <d v="miracle" p="noun" ts="ˈmɪrəkl" tr="чудо; диво; удивительная вещь"/>
+    <d v="miracle" p="adjective" ts="ˈmɪrəkl" tr="чудесный"/>
+    <d v="miraculous" p="adjective" ts="mɪˈrækjʊləs" tr="чудесный; чудотворный"/>
+    <d v="miraculous" p="noun" ts="mɪˈrækjʊləs" tr="чудо"/>
+    <d v="miraculously" p="adverb" ts="mɪˈrækjʊləslɪ" tr="чудом; чудесно"/>
+    <d v="miraculously" p="noun" ts="mɪˈrækjʊləslɪ" tr="чудо"/>
+    <d v="Mirage" p="noun" ts="ˈmɪrɑːʒ" tr="мираж; марево"/>
+    <d v="mire" p="noun" ts="ˈmaɪə" tr="болото"/>
+    <d v="mire" p="verb" ts="ˈmaɪə" tr="увязнуть; втянуть"/>
+    <d v="mirror" p="noun" ts="ˈmɪrə" tr="зеркало; отображение"/>
+    <d v="mirror" p="adjective" ts="ˈmɪrə" tr="зеркальный"/>
+    <d v="mirror" p="verb" ts="ˈmɪrə" tr="отражать"/>
+    <d v="mirth" p="noun" ts="mɜːθ" tr="веселье"/>
+    <d v="misadventure" p="noun" ts="ˈmɪsədˈvenʧə" tr="злоключение"/>
+    <d v="misappropriate" p="verb" ts="ˈmɪsəˈprəʊprɪeɪt" tr="присвоить; незаконно присваивать; незаконно присвоить"/>
+    <d v="misappropriation" p="noun" ts="ˈmɪsəprəʊprɪˈeɪʃn" tr="присвоение; неправомерное присвоение"/>
+    <d v="misbehave" p="verb" ts="ˈmɪsbɪˈheɪv" tr="плохо себя вести; шалить"/>
+    <d v="misbehavior" p="noun" ts="mɪsbɪˈheɪvɪər" tr="проступок"/>
+    <d v="miscalculate" p="verb" ts="ˈmɪsˈkælkjʊleɪt" tr="просчитаться; прогадать; просчитывать"/>
+    <d v="miscalculation" p="noun" ts="ˈmɪskælkjʊˈleɪʃn" tr="просчет"/>
+    <d v="miscarriage" p="noun" ts="mɪsˈkærɪʤ"
+       tr="выкидыш; ошибка; судебная ошибка; невынашивание беременности; неудача"/>
+    <d v="miscarriage of justice" p="noun" ts="mɪsˈkærɪʤ ɔv ˈʤʌstɪs" tr="судебная ошибка"/>
+    <d v="miscarry" p="noun" ts="mɪsˈkærɪ" tr="выкидыш"/>
+    <d v="miscarry" p="verb" ts="mɪsˈkærɪ" tr="выкинуть"/>
+    <d v="miscellaneous" p="adjective" ts="mɪsɪˈleɪnjəs" tr="разный"/>
+    <d v="miscellaneous" p="participle" ts="mɪsɪˈleɪnjəs" tr="смешанный"/>
+    <d v="mischief" p="noun" ts="ˈmɪsʧɪf" tr="беда; зло; вред; озорство; проказа; озорник"/>
+    <d v="mischief" p="verb" ts="ˈmɪsʧɪf" tr="вредить"/>
+    <d v="mischief" p="adjective" ts="ˈmɪsʧɪf" tr="бедовый"/>
+    <d v="mischievous" p="adjective" ts="ˈmɪsʧɪvəs" tr="озорной; вредный; лукавый; злонамеренный"/>
+    <d v="mischievous" p="noun" ts="ˈmɪsʧɪvəs" tr="проказник"/>
+    <d v="misconception" p="noun" ts="ˈmɪskənˈsepʃn" tr="заблуждение; недоразумение"/>
+    <d v="misconception" p="adjective" ts="ˈmɪskənˈsepʃn" tr="ошибочный"/>
+    <d v="misconduct" p="noun" ts="mɪsˈkɔndʌkt"
+       tr="проступок; неправомерное действие; неправомерное поведение; ненадлежащее поведение; нарушение дисциплины; должностное преступление"/>
+    <d v="misconduct" p="adjective" ts="mɪsˈkɔndʌkt" tr="неправомерный"/>
+    <d v="misconstrue" p="verb" ts="ˈmɪskənˈstruː" tr="истолковать; неправильно истолковать"/>
+    <d v="misdemeanor" p="noun" ts="mɪsdɒmˈɪnər" tr="проступок"/>
+    <d v="miser" p="noun" ts="ˈmaɪzə" tr="скряга; скупец; жмот"/>
+    <d v="miser" p="adjective" ts="ˈmaɪzə" tr="скупой"/>
+    <d v="miserable" p="adjective" ts="ˈmɪzərəbl" tr="жалкий; несчастный; горемычный; плохой"/>
+    <d v="miserably" p="adverb" ts="ˈmɪzərəblɪ" tr="горемычно; ужасно; печально; несчастно; жалко"/>
+    <d v="misery" p="noun" ts="ˈmɪzərɪ" tr="страдание; несчастье; нищета; горе; ничтожество; убогость; нытик"/>
+    <d v="misfit" p="noun" ts="ˈmɪsfɪt" tr="неудачник; плохо сидящее платье"/>
+    <d v="misfortune" p="noun" ts="mɪsˈfɔːʧən" tr="несчастье; неудача; невезение"/>
+    <d v="misgiving" p="noun" ts="mɪsˈgɪvɪŋ" tr="опасение"/>
+    <d v="misguided" p="participle" ts="mɪsˈgaɪdɪd" tr="введенный в заблуждение; обманутый"/>
+    <d v="mishap" p="noun" ts="ˈmɪshæp" tr="неудача; происшествие"/>
+    <d v="misinform" p="verb" ts="ˈmɪsɪnˈfɔːm" tr="дезинформировать"/>
+    <d v="misinform" p="noun" ts="ˈmɪsɪnˈfɔːm" tr="дезинформация"/>
+    <d v="misinterpret" p="verb" ts="ˈmɪsɪnˈtɜːprɪt" tr="истолковать; неправильно интерпретировать; искажать"/>
+    <d v="misinterpretation" p="noun" ts="ˈmɪsɪntɜːprɪˈteɪʃn"
+       tr="толкование; неправильное толкование; неверное толкование; неверное истолкование"/>
+    <d v="misjudge" p="verb" ts="ˈmɪsˈʤʌʤ" tr="недооценить"/>
+    <d v="misjudgment" p="noun" ts="mɪsˈʤʌʤmənt" tr="просчет"/>
+    <d v="mislead" p="noun" ts="mɪsˈliːd" tr="заблуждение; в заблуждение"/>
+    <d v="mislead" p="verb" ts="mɪsˈliːd"
+       tr="вводить в заблуждение; ввести в заблуждение; дезориентировать; сбивать с пути"/>
+    <d v="misleading" p="noun" ts="mɪsˈliːdɪŋ" tr="заблуждение; в заблуждение"/>
+    <d v="misleading" p="participle" ts="mɪsˈliːdɪŋ" tr="вводящий в заблуждение"/>
+    <d v="misleading" p="adjective" ts="mɪsˈliːdɪŋ" tr="обманчивый; ложный"/>
+    <d v="misled" p="participle" ts="mɪsˈled" tr="обманутый"/>
+    <d v="mismanage" p="verb" ts="ˈmɪsˈmænɪʤ" tr="плохо управлять; портить"/>
+    <d v="mismanagement" p="noun" ts="ˈmɪsˈmænɪʤmənt"
+       tr="бесхозяйственность; неправильное управление; неумелое руководство; плохое руководство"/>
+    <d v="mismatch" p="noun" ts="mɪsˈmæʧ" tr="несоответствие"/>
+    <d v="mismatch" p="verb" ts="mɪsˈmæʧ" tr="не соответствовать"/>
+    <d v="misogynist" p="noun" ts="mɪˈsɒʤɪnɪst" tr="женоненавистник"/>
+    <d v="misogyny" p="noun" ts="maɪˈsɔʤɪnɪ" tr="женоненавистничество"/>
+    <d v="misprint" p="noun" ts="ˈmɪsˈprɪnt" tr="опечатка"/>
+    <d v="mispronounce" p="verb" ts="ˈmɪsprəˈnaʊns" tr="неправильно произносить"/>
+    <d v="mispronunciation" p="noun" ts="ˈmɪsprənʌnsɪˈeɪʃn" tr="неправильное произношение"/>
+    <d v="misquote" p="verb" ts="ˈmɪsˈkwəʊt" tr="неправильно цитировать"/>
+    <d v="misread" p="verb" ts="ˈmɪsˈriːd" tr="истолковывать; неправильно читать"/>
+    <d v="misrepresent" p="verb" ts="ˈmɪsreprɪˈzent" tr="искажать"/>
+    <d v="misrepresent" p="noun" ts="ˈmɪsreprɪˈzent" tr="искажение"/>
+    <d v="misrepresentation" p="noun" ts="ˈmɪsreprɪzenˈteɪʃn"
+       tr="искажение; искажение фактов; введение в заблуждение; неправильное представление"/>
+    <d v="miss" p="verb" ts="mɪs"
+       tr="пропустить; упустить; скучать; не хватать; промахнуться; опоздать; промазать; прозевать; недосчитаться; проморгать; избежать; не услышать; выпустить"/>
+    <d v="miss" p="noun" ts="mɪs" tr="мисс; промах; пропуск; отсутствие; барышня; потеря; осечка; девушка"/>
+    <d v="miss" p="verb" ts="mɪs"
+       tr="пропустить; упустить; скучать; не хватать; промахнуться; опоздать; промазать; прозевать; недосчитаться; проморгать; избежать; не услышать; выпустить"/>
+    <d v="miss" p="noun" ts="mɪs" tr="мисс; промах; пропуск; отсутствие; барышня; потеря; осечка; девушка"/>
+    <d v="missile" p="noun" ts="ˈmɪsaɪl" tr="ракета"/>
+    <d v="missile" p="adjective" ts="ˈmɪsaɪl" tr="ракетный; метательный"/>
+    <d v="missing" p="adjective" ts="ˈmɪsɪŋ" tr="недостающий; отсутствующий"/>
+    <d v="missing" p="noun" ts="ˈmɪsɪŋ" tr="пропажа"/>
+    <d v="missing" p="participle" ts="ˈmɪsɪŋ" tr="пропавший; отсутствовавший; пропущенный; исчезнувший"/>
+    <d v="mission" p="noun" ts="mɪʃn" tr="миссия; задача; предназначение; командировка"/>
+    <d v="mission" p="adjective" ts="mɪʃn" tr="миссионерский"/>
+    <d v="missionary" p="noun" ts="ˈmɪʃnərɪ" tr="миссионер; миссионерство; миссионерка; посланник"/>
+    <d v="missionary" p="adjective" ts="ˈmɪʃnərɪ" tr="миссионерский"/>
+    <d v="misspell" p="noun" ts="mɪsˈspel" tr="опечатка"/>
+    <d v="misspelling" p="noun" ts="mɪsˈspelɪŋ" tr="опечатка; неправильное написание"/>
+    <d v="misstep" p="noun" ts="mɪˈstep" tr="оплошность; неверный шаг"/>
+    <d v="misstep" p="adjective" ts="mɪˈstep" tr="неверный"/>
+    <d v="mist" p="noun" ts="mɪst" tr="туман; пасмурность; изморось"/>
+    <d v="mistake" p="noun" ts="mɪsˈteɪk" tr="ошибка"/>
+    <d v="mistake" p="verb" ts="mɪsˈteɪk" tr="ошибиться; путать"/>
+    <d v="mistake" p="adjective" ts="mɪsˈteɪk" tr="ошибочный"/>
+    <d v="mistaken" p="adverb" ts="mɪsˈteɪkən" tr="ошибочно"/>
+    <d v="mistakenly" p="adverb" ts="mɪsˈteɪkənlɪ" tr="ошибочно; неуместно"/>
+    <d v="mistakenly" p="noun" ts="mɪsˈteɪkənlɪ" tr="ошибка; по ошибке"/>
+    <d v="mister" p="noun" ts="ˈmɪstə" tr="господин"/>
+    <d v="mistletoe" p="noun" ts="ˈmɪsltəʊ" tr="омела"/>
+    <d v="mistreat" p="verb" ts="mɪsˈtriːt" tr="плохо обращаться; дурно обращаться; плохо относиться"/>
+    <d v="mistreatment" p="noun" ts="mɪsˈtriːtmənt" tr="жестокое обращение; обращение; дурное обращение"/>
+    <d v="mistress" p="noun" ts="ˈmɪstrɪs"
+       tr="хозяйка; любовница; госпожа; возлюбленная; владычица; мастерица; фаворитка; учительница; искусница"/>
+    <d v="mistrust" p="noun" ts="ˈmɪsˈtrʌst" tr="недоверие"/>
+    <d v="mistrust" p="verb" ts="ˈmɪsˈtrʌst" tr="не доверять; сомневаться"/>
+    <d v="misty" p="adjective" ts="ˈmɪstɪ" tr="туманный; смутный"/>
+    <d v="misty" p="noun" ts="ˈmɪstɪ" tr="Мисти"/>
+    <d v="misunderstand" p="verb" ts="ˈmɪsʌndəˈstænd" tr="не понимать; неправильно понять; ошибиться"/>
+    <d v="misunderstand" p="noun" ts="ˈmɪsʌndəˈstænd" tr="непонимание"/>
+    <d v="misunderstanding" p="noun" ts="ˈmɪsʌndəˈstændɪŋ" tr="недоразумение; размолвка"/>
+    <d v="misunderstood" p="adverb" ts="ˈmɪsʌndəˈstʊd" tr="неправильно"/>
+    <d v="misunderstood" p="adjective" ts="ˈmɪsʌndəˈstʊd" tr="непонятый"/>
+    <d v="misunderstood" p="noun" ts="ˈmɪsʌndəˈstʊd" tr="непонимание"/>
+    <d v="misunderstood" p="participle" ts="ˈmɪsʌndəˈstʊd" tr="не понятый"/>
+    <d v="misuse" p="noun" ts="ˈmɪsˈjuːs" tr="злоупотребление; неправильное употребление; неверное использование"/>
+    <d v="misuse" p="verb" ts="ˈmɪsˈjuːs" tr="злоупотреблять; неправильно использовать; неправильно употреблять"/>
+    <d v="mite" p="noun" ts="maɪt" tr="клещ; лепта; полушка; грош"/>
+    <d v="mitigate" p="noun" ts="ˈmɪtɪgeɪt" tr="смягчение; снижение"/>
+    <d v="mitigate" p="verb" ts="ˈmɪtɪgeɪt" tr="смягчить; уменьшить; умерять"/>
+    <d v="mitigation" p="noun" ts="mɪtɪˈgeɪʃn" tr="смягчение"/>
+    <d v="MITT" p="noun" ts="mɪt" tr="Митт; рукавица; рука"/>
+    <d v="mitten" p="noun" ts="mɪtn" tr="рукавица"/>
+    <d v="mix" p="noun" ts="mɪks" tr="смесь; смешивание"/>
+    <d v="mix" p="verb" ts="mɪks"
+       tr="смешать; смешивать; смешаться; мешать; общаться; примешивать; подмешивать; вращаться; скрещивать; сходиться"/>
+    <d v="mix" p="adverbial participle" ts="mɪks" tr="смешиваясь"/>
+    <d v="mixed" p="adjective" ts="mɪkst" tr="смешанный; неоднозначный; разнородный"/>
+    <d v="mixed" p="adverbial participle" ts="mɪkst" tr="смешиваясь"/>
+    <d v="mixed" p="adverb" ts="mɪkst" tr="вперемешку; вперемежку"/>
+    <d v="mixed" p="noun" ts="mɪkst" tr="в смеси"/>
+    <d v="mixed" p="participle" ts="mɪkst" tr="перемешанный; смешенный; смешиваемый; микшированный; смешавшийся"/>
+    <d v="mixed marriage" p="noun" ts="mɪkst ˈmærɪʤ" tr="смешанный брак"/>
+    <d v="mixer" p="noun" ts="ˈmɪksə" tr="смеситель; миксер; микшер; бетономешалка"/>
+    <d v="mixer" p="adjective" ts="ˈmɪksə" tr="смесительный"/>
+    <d v="mixture" p="noun" ts="ˈmɪksʧə" tr="смесь; смешение; микстура"/>
+    <d v="moan" p="verb" ts="məʊn" tr="стонать; застонать; постанывать; жаловаться; канючить; оплакивать"/>
+    <d v="moan" p="noun" ts="məʊn" tr="стон"/>
+    <d v="moat" p="noun" ts="məʊt" tr="ров"/>
+    <d v="mob" p="noun" ts="mɔb" tr="толпа; моб; мафия; шайка"/>
+    <d v="mob" p="verb" ts="mɔb" tr="толпиться"/>
+    <d v="mobile" p="adjective" ts="ˈməʊbaɪl" tr="мобильный; подвижной; изменчивый"/>
+    <d v="mobile" p="noun" ts="ˈməʊbaɪl" tr="мобильник"/>
+    <d v="mobile home" p="noun" ts="ˈməʊbaɪl həʊm" tr="мобильный дом; передвижной дом"/>
+    <d v="mobility" p="noun" ts="məʊˈbɪlɪtɪ"
+       tr="мобильность; подвижность; удобоподвижность; маневренность; изменчивость"/>
+    <d v="mobilization" p="noun" ts="məʊbɪlaɪˈzeɪʃn" tr="мобилизация"/>
+    <d v="mobilization" p="adjective" ts="məʊbɪlaɪˈzeɪʃn" tr="мобилизационный"/>
+    <d v="mobilization" p="verb" ts="məʊbɪlaɪˈzeɪʃn" tr="мобилизовать"/>
+    <d v="mobilize" p="verb" ts="ˈməʊbɪlaɪz" tr="мобилизовать; привлечь"/>
+    <d v="mobilize" p="noun" ts="ˈməʊbɪlaɪz" tr="мобилизация; мобилизировать"/>
+    <d v="mock" p="verb" ts="mɔk" tr="издеваться; высмеять; передразнивать; пародировать"/>
+    <d v="mock" p="noun" ts="mɔk" tr="макет; насмешка; инсценировка; пародия"/>
+    <d v="mock" p="adjective" ts="mɔk" tr="притворный; насмешливый; пародийный"/>
+    <d v="mockery" p="noun" ts="ˈmɔkərɪ" tr="издевательство; пародия; стеб"/>
+    <d v="Mockingbird" p="noun" ts="ˈmɒkɪŋbɜːd" tr="пересмешник"/>
+    <d v="modal" p="adjective" ts="məʊdl" tr="модальный; мультимодальный"/>
+    <d v="modal" p="participle" ts="məʊdl" tr="касающийся формы"/>
+    <d v="mode" p="noun" ts="məʊd" tr="режим; способ; вид; мода; модус; тональность; образ действий"/>
+    <d v="model" p="noun" ts="mɔdl" tr="модель; эталон; натурщица; натурщик"/>
+    <d v="model" p="adjective" ts="mɔdl" tr="модельный"/>
+    <d v="model" p="verb" ts="mɔdl" tr="моделировать; лепить; формировать"/>
+    <d v="modeling" p="noun" ts="ˈmɔdlɪŋ" tr="моделирование; лепка; макетирование; моделировка"/>
+    <d v="modeling" p="adjective" ts="ˈmɔdlɪŋ" tr="модельный"/>
+    <d v="modeling" p="participle" ts="ˈmɔdlɪŋ" tr="моделирующий"/>
+    <d v="modem" p="noun" ts="ˈməʊdəm" tr="модем"/>
+    <d v="modem" p="adjective" ts="ˈməʊdəm" tr="модемный"/>
+    <d v="moderate" p="adjective" ts="ˈmɔdərɪt" tr="умеренный; средний; посредственный"/>
+    <d v="moderate" p="verb" ts="ˈmɔdərɪt"
+       tr="умерить; модерировать; смягчить; умерять; сдерживать; председательствовать"/>
+    <d v="moderate" p="participle" ts="ˈmɔdərɪt" tr="сдержанный"/>
+    <d v="moderate" p="noun" ts="ˈmɔdərɪt" tr="умеренность"/>
+    <d v="moderately" p="adverb" ts="ˈmɒdərətlɪ" tr="умеренно"/>
+    <d v="moderately" p="noun" ts="ˈmɒdərətlɪ" tr="в меру"/>
+    <d v="moderation" p="noun" ts="mɔdəˈreɪʃn"
+       tr="умеренность; модерация; сдержанность; замедление; сдерживание; регулирование"/>
+    <d v="moderation" p="adjective" ts="mɔdəˈreɪʃn" tr="умеренный"/>
+    <d v="moderator" p="noun" ts="ˈmɔdəreɪtə" tr="модератор; замедлитель; посредник; регулятор"/>
+    <d v="modern" p="adjective" ts="ˈmɔdən" tr="современный"/>
+    <d v="modern" p="noun" ts="ˈmɔdən" tr="модерн"/>
+    <d v="modernity" p="noun" ts="mɔˈdɜːnɪtɪ" tr="современность; современный характер"/>
+    <d v="modernization" p="noun" ts="mɒdənaɪˈzeɪʃn" tr="модернизация"/>
+    <d v="modernize" p="noun" ts="ˈmɔdənaɪz" tr="модернизация"/>
+    <d v="modernize" p="verb" ts="ˈmɔdənaɪz" tr="модернизировать"/>
+    <d v="modest" p="adjective" ts="ˈmɔdɪst" tr="скромный; благопристойный"/>
+    <d v="modest" p="adverb" ts="ˈmɔdɪst" tr="поскромнее"/>
+    <d v="modestly" p="adverb" ts="ˈmɒdɪstlɪ" tr="скромно; умеренно"/>
+    <d v="modestly" p="adjective" ts="ˈmɒdɪstlɪ" tr="скромный"/>
+    <d v="modesty" p="noun" ts="ˈmɔdɪstɪ" tr="скромность; благопристойность; застенчивость"/>
+    <d v="modicum" p="noun" ts="ˈmɔdɪkəm" tr="толика; чуточка"/>
+    <d v="modification" p="noun" ts="mɔdɪfɪˈkeɪʃn" tr="изменение; внесение изменений"/>
+    <d v="modifier" p="noun" ts="ˈmɒdɪfaɪər" tr="модификатор"/>
+    <d v="modify" p="verb" ts="ˈmɔdɪfaɪ" tr="изменить; доработать; откорректировать; смягчать"/>
+    <d v="modify" p="noun" ts="ˈmɔdɪfaɪ" tr="изменение"/>
+    <d v="modify" p="participle" ts="ˈmɔdɪfaɪ" tr="модифицируемый"/>
+    <d v="modular" p="adjective" ts="ˈmɒdjʊlər" tr="модульный"/>
+    <d v="modulate" p="verb" ts="ˈmɔdjʊleɪt" tr="модулировать"/>
+    <d v="modulate" p="noun" ts="ˈmɔdjʊleɪt" tr="модуляция"/>
+    <d v="modulation" p="noun" ts="mɔdjʊˈleɪʃn" tr="модуляция; перелив"/>
+    <d v="module" p="noun" ts="ˈmɔdjuːl" tr="модуль"/>
+    <d v="module" p="adjective" ts="ˈmɔdjuːl" tr="модульный"/>
+    <d v="mohair" p="noun" ts="ˈməʊhɛə" tr="мохер"/>
+    <d v="mohair" p="adjective" ts="ˈməʊhɛə" tr="мохеровый"/>
+    <d v="moist" p="adjective" ts="mɔɪst" tr="влажный; сырой"/>
+    <d v="moist" p="noun" ts="mɔɪst" tr="Мойст; Мокрист; влага"/>
+    <d v="moisten" p="verb" ts="ˈmɔɪsn" tr="смочить; увлажнять"/>
+    <d v="moisten" p="noun" ts="ˈmɔɪsn" tr="увлажнение"/>
+    <d v="moisture" p="noun" ts="ˈmɔɪsʧə" tr="влага; увлажнение; влагомер"/>
+    <d v="moisture" p="adjective" ts="ˈmɔɪsʧə" tr="влагостойкий"/>
+    <d v="moisturizer" p="noun" ts="ˈmɔɪsʧəraɪzər" tr="увлажнитель; увлажняющие средства; увлажнение"/>
+    <d v="moisturizer" p="participle" ts="ˈmɔɪsʧəraɪzər" tr="увлажняющий"/>
+    <d v="molar" p="adjective" ts="ˈməʊlə" tr="молярный; коренной"/>
+    <d v="molar" p="noun" ts="ˈməʊlə" tr="моляр"/>
+    <d v="molasses" p="noun" ts="məʊˈlæsɪz" tr="меласса; патока"/>
+    <d v="mold" p="noun" ts="məʊld" tr="плесень; грибок; слепок"/>
+    <d v="mold" p="verb" ts="məʊld" tr="отлить; лепить; формовать"/>
+    <d v="mold" p="adjective" ts="məʊld" tr="литьевой"/>
+    <d v="molding" p="noun" ts="ˈməʊldɪŋ" tr="формование; литье; молдинг"/>
+    <d v="molding" p="adjective" ts="ˈməʊldɪŋ" tr="формовочный"/>
+    <d v="moldy" p="adjective" ts="ˈməʊldɪ" tr="заплесневелый"/>
+    <d v="moldy" p="noun" ts="ˈməʊldɪ" tr="плесень"/>
+    <d v="moldy" p="verb" ts="ˈməʊldɪ" tr="заплесневеть"/>
+    <d v="moldy" p="participle" ts="ˈməʊldɪ" tr="заплесневевший"/>
+    <d v="mole" p="noun" ts="məʊl" tr="крот; моль; родинка; бородавка"/>
+    <d v="molecular" p="adjective" ts="məʊˈlekjʊlə" tr="молекулярный"/>
+    <d v="molecule" p="noun" ts="ˈmɔlɪkjuːl" tr="молекула"/>
+    <d v="molecule" p="adjective" ts="ˈmɔlɪkjuːl" tr="молекулярный"/>
+    <d v="molest" p="verb" ts="məʊˈlest" tr="приставать; досаждать; растлить"/>
+    <d v="molestation" p="noun" ts="məʊlesˈteɪʃn" tr="домогательство; растление малолетних; назойливость"/>
+    <d v="molester" p="noun" ts="məˈlestər" tr="растлитель"/>
+    <d v="mollify" p="verb" ts="ˈmɔlɪfaɪ" tr="смягчить"/>
+    <d v="mollusk" p="noun" ts="ˈmɒləsk" tr="моллюск"/>
+    <d v="molt" p="noun" ts="məʊlt" tr="линька"/>
+    <d v="molt" p="verb" ts="məʊlt" tr="линять"/>
+    <d v="molten" p="participle" ts="ˈməʊltən" tr="расплавленный; литый"/>
+    <d v="molten" p="adjective" ts="ˈməʊltən" tr="жидкий"/>
+    <d v="molten" p="noun" ts="ˈməʊltən" tr="расплав"/>
+    <d v="mom" p="noun" ts="mɑːm" tr="мама"/>
+    <d v="mom" p="adjective" ts="mɑːm" tr="мамин"/>
+    <d v="moment" p="noun" ts="ˈməʊmənt" tr="момент; мгновение; минута; значение"/>
+    <d v="momentarily" p="noun" ts="ˈməʊməntərɪlɪ" tr="мгновение; на мгновение"/>
+    <d v="momentarily" p="adverb" ts="ˈməʊməntərɪlɪ" tr="моментально; однократно; ежеминутно"/>
+    <d v="momentary" p="adjective" ts="ˈməʊməntərɪ"
+       tr="мгновенный; сиюминутный; кратковременный; минутный; мимолетный; моментный"/>
+    <d v="momentous" p="adjective" ts="məʊˈmentəs" tr="важный; знаменательный"/>
+    <d v="momentum" p="noun" ts="məʊˈmentəm"
+       tr="импульс; темп; инерция; движущая сила; количество движения; кинетическая энергия"/>
+    <d v="momma" p="noun" ts="məˈmɑː" tr="мама"/>
+    <d v="mommy" p="noun" ts="ˈmæmɪ" tr="мама"/>
+    <d v="monarch" p="noun" ts="ˈmɔnək" tr="монарх"/>
+    <d v="monarchy" p="noun" ts="ˈmɔnəkɪ" tr="монархия; самодержавие"/>
+    <d v="monastery" p="noun" ts="ˈmɔnəstərɪ" tr="монастырь"/>
+    <d v="monastery" p="adjective" ts="ˈmɔnəstərɪ" tr="монастырский"/>
+    <d v="monastic" p="adjective" ts="məˈnæstɪk" tr="монашеский"/>
+    <d v="monastic" p="noun" ts="məˈnæstɪk" tr="монашество"/>
+    <d v="Monday" p="noun" ts="ˈmʌndɪ" tr="понедельник"/>
+    <d v="monetary" p="adjective" ts="ˈmʌnɪtərɪ" tr="денежный; монетный"/>
+    <d v="money" p="noun" ts="ˈmʌnɪ" tr="деньги; выигрыш"/>
+    <d v="money" p="adjective" ts="ˈmʌnɪ" tr="денежный"/>
+    <d v="money market" p="noun" ts="ˈmʌnɪ ˈmɑːkɪt" tr="денежный рынок; валютный рынок; рынок денег"/>
+    <d v="money order" p="noun" ts="ˈmʌnɪ ˈɔːdə" tr="денежный перевод; платежное поручение"/>
+    <d v="mongrel" p="noun" ts="ˈmʌŋgrəl" tr="дворняга; ублюдок; полукровка; помесь"/>
+    <d v="mongrel" p="adjective" ts="ˈmʌŋgrəl" tr="беспородный"/>
+    <d v="moniker" p="noun" ts="ˈmɔnɪkə" tr="кличка; моникер; специальное имя; имя"/>
+    <d v="monitor" p="noun" ts="ˈmɔnɪtə" tr="монитор; мониторинг; наставник; варан"/>
+    <d v="monitor" p="verb" ts="ˈmɔnɪtə" tr="контролировать"/>
+    <d v="monk" p="noun" ts="mʌŋk" tr="монах; инок"/>
+    <d v="monk" p="adjective" ts="mʌŋk" tr="преподобный; монашеский"/>
+    <d v="monk" p="participle" ts="mʌŋk" tr="монашествующий"/>
+    <d v="monkey" p="noun" ts="ˈmʌŋkɪ" tr="обезьяна; проказник"/>
+    <d v="monkey" p="adjective" ts="ˈmʌŋkɪ" tr="обезьяний"/>
+    <d v="monkey" p="verb" ts="ˈmʌŋkɪ" tr="дурачиться"/>
+    <d v="mono" p="noun" ts="ˈmɔnəʊ" tr="моно"/>
+    <d v="mono" p="adjective" ts="ˈmɔnəʊ" tr="монофонический; монохромный"/>
+    <d v="monochrome" p="adjective" ts="ˈmɔnəkrəʊm" tr="монохромный"/>
+    <d v="monochrome" p="noun" ts="ˈmɔnəkrəʊm" tr="монохромность"/>
+    <d v="monogamous" p="adjective" ts="məˈnɒgəməs" tr="моногамный"/>
+    <d v="monogamy" p="noun" ts="mɔˈnɔgəmɪ" tr="моногамия; единобрачие; моногамность"/>
+    <d v="monogram" p="noun" ts="ˈmɔnəgræm" tr="монограмма"/>
+    <d v="monolingual" p="adjective" ts="mɒnəˈlɪŋgwəl" tr="одноязычный"/>
+    <d v="monolith" p="noun" ts="ˈmɔnəʊlɪθ" tr="монолит"/>
+    <d v="monolith" p="adjective" ts="ˈmɔnəʊlɪθ" tr="монолитный"/>
+    <d v="monolithic" p="adjective" ts="mɔnəʊˈlɪθɪk" tr="монолитный"/>
+    <d v="monologue" p="noun" ts="ˈmɔnəlɔg" tr="монолог"/>
+    <d v="monologue" p="adjective" ts="ˈmɔnəlɔg" tr="монологический"/>
+    <d v="monopolization" p="noun" ts="mənɒpəlaɪˈzeɪʃn" tr="монополизация"/>
+    <d v="monopolize" p="verb" ts="məˈnɔpəlaɪz" tr="монополизировать"/>
+    <d v="monopoly" p="noun" ts="məˈnɔpəlɪ" tr="монополия; монополист"/>
+    <d v="monopoly" p="adjective" ts="məˈnɔpəlɪ" tr="монопольный"/>
+    <d v="monorail" p="adjective" ts="ˈmɔnəʊreɪl" tr="монорельсовый"/>
+    <d v="monorail" p="noun" ts="ˈmɔnəʊreɪl" tr="монорельс"/>
+    <d v="monosyllable" p="adjective" ts="ˈmɔnəˈsɪləbl" tr="односложный"/>
+    <d v="monosyllable" p="noun" ts="ˈmɔnəˈsɪləbl" tr="односложное слово"/>
+    <d v="monotone" p="adjective" ts="ˈmɔnətəʊn" tr="монотонный; однотонный"/>
+    <d v="monotone" p="noun" ts="ˈmɔnətəʊn" tr="монотонность"/>
+    <d v="monotonous" p="adjective" ts="məˈnɔtnəs" tr="монотонный"/>
+    <d v="monotonous" p="noun" ts="məˈnɔtnəs" tr="однообразие"/>
+    <d v="monotonously" p="adverb" ts="məˈnɒtənəslɪ" tr="монотонно; однообразно"/>
+    <d v="monotony" p="noun" ts="məˈnɔtnɪ" tr="однообразие; однообразность; скука"/>
+    <d v="monsoon" p="noun" ts="mɔnˈsuːn" tr="муссон; сезон дождей"/>
+    <d v="monsoon" p="adjective" ts="mɔnˈsuːn" tr="муссонный"/>
+    <d v="monster" p="noun" ts="ˈmɔnstə" tr="монстр; изверг"/>
+    <d v="monster" p="adjective" ts="ˈmɔnstə" tr="чудовищный"/>
+    <d v="monstrosity" p="noun" ts="mɔnsˈtrɔsɪtɪ" tr="чудовище; уродство; чудовищность"/>
+    <d v="monstrous" p="adjective" ts="ˈmɔnstrəs" tr="чудовищный"/>
+    <d v="montage" p="noun" ts="mɔnˈtɑːʒ" tr="монтаж; фотомонтаж; калейдоскоп"/>
+    <d v="month" p="noun" ts="mʌnθ" tr="месяц"/>
+    <d v="monthly" p="adjective" ts="ˈmʌnθlɪ" tr="ежемесячный"/>
+    <d v="monthly" p="noun" ts="ˈmʌnθlɪ" tr="раз в месяц"/>
+    <d v="monument" p="noun" ts="ˈmɔnjʊmənt" tr="памятник"/>
+    <d v="monumental" p="adjective" ts="mɔnjʊˈmentl" tr="монументальный"/>
+    <d v="monumental" p="noun" ts="mɔnjʊˈmentl" tr="монументальность"/>
+    <d v="Moo" p="verb" ts="muː" tr="мычать"/>
+    <d v="Moo" p="noun" ts="muː" tr="мычание"/>
+    <d v="mood" p="noun" ts="muːd" tr="настроение; лад; наклонение; тональность"/>
+    <d v="moodily" p="adverb" ts="ˈmuːdɪlɪ" tr="угрюмо"/>
+    <d v="moodiness" p="noun" ts="ˈmuːdɪnəs" tr="капризность"/>
+    <d v="Moody" p="noun" ts="ˈmuːdɪ" tr="Муди"/>
+    <d v="Moody" p="adjective" ts="ˈmuːdɪ" tr="угрюмый; капризный"/>
+    <d v="moon" p="noun" ts="muːn" tr="луна; новолуние; Мун"/>
+    <d v="moon" p="adjective" ts="muːn" tr="лунный"/>
+    <d v="moonbeam" p="adjective" ts="ˈmuːnbiːm" tr="лунный"/>
+    <d v="moonbeam" p="noun" ts="ˈmuːnbiːm" tr="лунный луч"/>
+    <d v="moonlight" p="noun" ts="ˈmuːnlaɪt" tr="лунный свет"/>
+    <d v="moonlight" p="adjective" ts="ˈmuːnlaɪt" tr="лунный"/>
+    <d v="moonlight" p="verb" ts="ˈmuːnlaɪt" tr="подрабатывать"/>
+    <d v="moonlighting" p="participle" ts="ˈmuːnlaɪtɪŋ" tr="подрабатывающий"/>
+    <d v="moonlit" p="adjective" ts="ˈmuːnlɪt" tr="лунный"/>
+    <d v="moor" p="noun" ts="mʊə" tr="мавр; болото; Моор; причал"/>
+    <d v="moor" p="verb" ts="mʊə" tr="причалить; пришвартоваться; пришвартовать"/>
+    <d v="moose" p="noun" ts="muːs" tr="лось; лосиха; американский лось"/>
+    <d v="moose" p="adjective" ts="muːs" tr="Лосиный"/>
+    <d v="moot" p="adjective" ts="muːt" tr="спорный"/>
+    <d v="MOP" p="invariant" ts="mɔp" tr="СС"/>
+    <d v="MOP" p="noun" ts="mɔp" tr="швабра; копна"/>
+    <d v="MOP" p="verb" ts="mɔp" tr="вытереть; зачистить; подтирать"/>
+    <d v="mope" p="verb" ts="məʊp" tr="хандрить"/>
+    <d v="mope" p="noun" ts="məʊp" tr="мно"/>
+    <d v="moral" p="adjective" ts="ˈmɔrəl" tr="моральный; внутренний; нравоучительный; добродетельный"/>
+    <d v="moral" p="noun" ts="ˈmɔrəl" tr="мораль"/>
+    <d v="morale" p="noun" ts="mɔˈrɑːl"
+       tr="моральный дух; мораль; боевой дух; дух; моральное состояние; моральный климат"/>
+    <d v="morale" p="adjective" ts="mɔˈrɑːl" tr="моральный"/>
+    <d v="moralist" p="noun" ts="ˈmɔrəlɪst" tr="моралист"/>
+    <d v="moralistic" p="adjective" ts="mɒrəˈlɪstɪk" tr="моралистический; морализаторский"/>
+    <d v="morality" p="noun" ts="məˈrælɪtɪ" tr="мораль; нравственное поведение; моралите"/>
+    <d v="morality" p="adjective" ts="məˈrælɪtɪ" tr="моральный"/>
+    <d v="morally" p="adverb" ts="ˈmɔrəlɪ" tr="морально"/>
+    <d v="morally" p="noun" ts="ˈmɔrəlɪ" tr="в нравственном отношении; по всей видимости"/>
+    <d v="moral support" p="noun" ts="ˈmɔrəl səˈpɔːt" tr="моральная поддержка"/>
+    <d v="morass" p="noun" ts="məˈræs" tr="болото"/>
+    <d v="moratorium" p="noun" ts="mɔrəˈtɔːrɪəm" tr="мораторий"/>
+    <d v="morbid" p="adjective" ts="ˈmɔːbɪd" tr="болезненный; мрачный"/>
+    <d v="more" p="adverb" ts="mɔː" tr="более; уже; побольше; больше"/>
+    <d v="more" p="adjective" ts="mɔː" tr="добавочный"/>
+    <d v="moreover" p="adverb" ts="mɔːˈrəʊvə" tr="более; более того; причем"/>
+    <d v="moreover" p="noun" ts="mɔːˈrəʊvə" tr="кроме того"/>
+    <d v="moreover" p="preposition" ts="mɔːˈrəʊvə" tr="кроме"/>
+    <d v="mores" p="noun" ts="ˈməʊriːz" tr="нравы"/>
+    <d v="morgue" p="noun" ts="mɔːg" tr="морг"/>
+    <d v="Mormon" p="noun" ts="ˈmɔːmən" tr="мормон"/>
+    <d v="Mormon" p="adjective" ts="ˈmɔːmən" tr="мормонский"/>
+    <d v="morning" p="noun" ts="ˈmɔːnɪŋ" tr="утро; утренник"/>
+    <d v="morning" p="adjective" ts="ˈmɔːnɪŋ" tr="утренний"/>
+    <d v="morning sickness" p="noun" ts="ˈmɔːnɪŋ ˈsɪknɪs" tr="утренняя тошнота; утреннее недомогание"/>
+    <d v="moron" p="noun" ts="ˈmɔːrɔn" tr="идиот; дебил"/>
+    <d v="moron" p="adjective" ts="ˈmɔːrɔn" tr="слабоумный"/>
+    <d v="moronic" p="adjective" ts="məˈrɒnɪk" tr="идиотский; дебильный"/>
+    <d v="morose" p="adjective" ts="məˈrəʊs" tr="угрюмый"/>
+    <d v="morphine" p="noun" ts="ˈmɔːfiːn" tr="морфин"/>
+    <d v="Morse code" p="noun" ts="mɔːs kəʊd" tr="Морзе; азбука Морзе; код Морзе"/>
+    <d v="morsel" p="noun" ts="ˈmɔːsəl" tr="кусочек"/>
+    <d v="mortal" p="adjective" ts="mɔːtl" tr="смертный; бренный; ужасный"/>
+    <d v="mortal" p="noun" ts="mɔːtl" tr="человек"/>
+    <d v="mortal" p="participle" ts="mɔːtl" tr="тленный"/>
+    <d v="mortality" p="noun" ts="mɔːˈtælɪtɪ" tr="смертность; земная жизнь"/>
+    <d v="mortally" p="adverb" ts="ˈmɔːtəlɪ" tr="смертельно"/>
+    <d v="mortar" p="noun" ts="ˈmɔːtə"
+       tr="раствор; миномет; ступка; строительная смесь; мортира; известковый раствор; известь"/>
+    <d v="mortar" p="adjective" ts="ˈmɔːtə" tr="минометный; растворный"/>
+    <d v="mortgage" p="adjective" ts="ˈmɔːgɪʤ" tr="ипотечный"/>
+    <d v="mortgage" p="noun" ts="ˈmɔːgɪʤ" tr="ипотека; залог"/>
+    <d v="mortgage" p="verb" ts="ˈmɔːgɪʤ" tr="закладывать"/>
+    <d v="mortician" p="noun" ts="mɔːˈtɪʃn" tr="гробовщик"/>
+    <d v="mortification" p="noun" ts="mɔːtɪfɪˈkeɪʃn"
+       tr="умерщвление; умерщвление плоти; унижение; огорчение; подавление; гангрена; омертвение"/>
+    <d v="mortify" p="verb" ts="ˈmɔːtɪfaɪ" tr="умерщвлять; унизить; обижать; омертветь"/>
+    <d v="mortuary" p="noun" ts="ˈmɔːtjʊərɪ" tr="морг; могильник; покойницкая"/>
+    <d v="mortuary" p="adjective" ts="ˈmɔːtjʊərɪ" tr="погребальный"/>
+    <d v="mosaic" p="noun" ts="məʊˈzeɪɪk" tr="мозаика"/>
+    <d v="mosaic" p="adjective" ts="məʊˈzeɪɪk" tr="мозаичный; Моисеев"/>
+    <d v="mosque" p="noun" ts="mɔsk" tr="мечеть"/>
+    <d v="mosquito" p="noun" ts="məsˈkiːtəʊ" tr="комар; комаров; комарик"/>
+    <d v="mosquito" p="adjective" ts="məsˈkiːtəʊ" tr="москитный; комариный"/>
+    <d v="moss" p="noun" ts="mɔs" tr="мох; Мосс; плаун"/>
+    <d v="moss" p="adjective" ts="mɔs" tr="Моховой"/>
+    <d v="mossy" p="adjective" ts="ˈmɔsɪ" tr="замшелый; мшистый"/>
+    <d v="mossy" p="participle" ts="ˈmɔsɪ" tr="поросший мхом"/>
+    <d v="most" p="pronoun" ts="məʊst" tr="самый; само"/>
+    <d v="most" p="adjective" ts="məʊst" tr="большой"/>
+    <d v="most" p="adverb" ts="məʊst" tr="больше всего; весьма"/>
+    <d v="most" p="noun" ts="məʊst" tr="в высшей степени"/>
+    <d v="mostly" p="noun" ts="ˈməʊstlɪ" tr="в основном"/>
+    <d v="mostly" p="adjective" ts="ˈməʊstlɪ" tr="главный"/>
+    <d v="mostly" p="adverb" ts="ˈməʊstlɪ" tr="преимущественно"/>
+    <d v="Motel" p="noun" ts="məʊˈtel" tr="мотель"/>
+    <d v="moth" p="noun" ts="mɔθ" tr="мотылек; моль; шелкопряд; ночная бабочка"/>
+    <d v="mothball" p="verb" ts="ˈmɔθˈbɔːl" tr="законсервировать"/>
+    <d v="mother" p="noun" ts="ˈmʌðə" tr="мать; источник"/>
+    <d v="mother" p="adjective" ts="ˈmʌðə" tr="родной"/>
+    <d v="mother" p="verb" ts="ˈmʌðə" tr="родить; лелеять"/>
+    <d v="motherboard" p="noun" ts="ˈmʌðəbɔːd" tr="материнская плата; плата"/>
+    <d v="motherfucker" p="noun" ts="ˈmʌðəfʌkər" tr="ублюдок"/>
+    <d v="motherhood" p="noun" ts="ˈmʌðəhʊd" tr="материнство"/>
+    <d v="motherly" p="adjective" ts="ˈmʌðəlɪ" tr="материнский"/>
+    <d v="mother nature" p="noun" ts="ˈmʌðə ˈneɪʧə" tr="матушка-природа; мать-природа"/>
+    <d v="mother&apos;s day" p="noun" ts="ˈmʌðə&apos;ses deɪ" tr="день матери"/>
+    <d v="mother tongue" p="noun" ts="ˈmʌðə tʌŋ" tr="родной язык"/>
+    <d v="mother tongue" p="adjective" ts="ˈmʌðə tʌŋ" tr="родной"/>
+    <d v="motif" p="noun" ts="məʊˈtiːf" tr="мотив"/>
+    <d v="motion" p="noun" ts="məʊʃn" tr="движение; предложение; походка; кал; марионетка"/>
+    <d v="motionless" p="adjective" ts="ˈməʊʃənlɪs" tr="неподвижный"/>
+    <d v="motionless" p="noun" ts="ˈməʊʃənlɪs" tr="без движения"/>
+    <d v="motionless" p="adverbial participle" ts="ˈməʊʃənlɪs" tr="застыв; не шевелясь"/>
+    <d v="motion picture" p="noun" ts="ˈməʊʃənˈpɪkʧə" tr="кинофильм; движущееся изображение"/>
+    <d v="motivate" p="verb" ts="ˈməʊtɪveɪt" tr="мотивировать; стимулировать; двигать; заинтересовать; обосновывать"/>
+    <d v="motivate" p="noun" ts="ˈməʊtɪveɪt" tr="мотивация"/>
+    <d v="motivated" p="participle" ts="ˈməʊtɪveɪtɪd" tr="мотивированный; заинтересованный"/>
+    <d v="motivation" p="noun" ts="məʊtɪˈveɪʃn" tr="мотивация; стимулирование; целеустремленность; движущая сила"/>
+    <d v="motive" p="noun" ts="ˈməʊtɪv" tr="мотив"/>
+    <d v="motive" p="participle" ts="ˈməʊtɪv" tr="движущий"/>
+    <d v="motive" p="adjective" ts="ˈməʊtɪv" tr="двигательный"/>
+    <d v="motive" p="verb" ts="ˈməʊtɪv" tr="мотивировать"/>
+    <d v="motley" p="adjective" ts="ˈmɔtlɪ" tr="пестрый"/>
+    <d v="motley" p="noun" ts="ˈmɔtlɪ" tr="попурри; шутовской костюм"/>
+    <d v="motor" p="noun" ts="ˈməʊtə" tr="двигатель; автомобиль; моторчик"/>
+    <d v="motor" p="adjective" ts="ˈməʊtə" tr="моторный"/>
+    <d v="motorbike" p="noun" ts="ˈməʊtəbaɪk" tr="мотоцикл"/>
+    <d v="motorbike" p="adjective" ts="ˈməʊtəbaɪk" tr="мотоциклетный"/>
+    <d v="motorboat" p="noun" ts="ˈməʊtəbəʊt" tr="катер"/>
+    <d v="motorboat" p="adjective" ts="ˈməʊtəbəʊt" tr="моторный"/>
+    <d v="motorcade" p="noun" ts="ˈməʊtəkeɪd" tr="кортеж; автомобильный кортеж"/>
+    <d v="motorcycle" p="noun" ts="ˈməʊtəˈsaɪkl" tr="мотоцикл"/>
+    <d v="motorcycle" p="adjective" ts="ˈməʊtəˈsaɪkl" tr="мотоциклетный"/>
+    <d v="motorcyclist" p="noun" ts="ˈməʊtəsaɪklɪst" tr="мотоциклист"/>
+    <d v="motorist" p="noun" ts="ˈməʊtərɪst" tr="автомобилист"/>
+    <d v="motorized" p="adjective" ts="ˈməʊtəraɪzd" tr="моторизованный"/>
+    <d v="motorized" p="participle" ts="ˈməʊtəraɪzd" tr="моторизированный"/>
+    <d v="motor vehicle" p="noun" ts="ˈməʊtə ˈviːɪkl"
+       tr="автомашина; автотранспортные средства; автомобильный транспорт; механическое транспортное средство"/>
+    <d v="motor vehicle" p="adjective" ts="ˈməʊtə ˈviːɪkl" tr="автотранспортный"/>
+    <d v="motto" p="noun" ts="ˈmɔtəʊ" tr="девиз"/>
+    <d v="mound" p="noun" ts="maʊnd" tr="курган; холм; бугорок"/>
+    <d v="mound" p="verb" ts="maʊnd" tr="насыпать"/>
+    <d v="mount" p="noun" ts="maʊnt" tr="гора; крепление; Маунт; лошадь под седлом; паспарту"/>
+    <d v="mount" p="verb" ts="maʊnt" tr="монтировать; подниматься; крепить"/>
+    <d v="mount" p="participle" ts="maʊnt" tr="монтируемый"/>
+    <d v="mount" p="noun" ts="maʊnt" tr="гора; крепление; Маунт; лошадь под седлом; паспарту"/>
+    <d v="mount" p="verb" ts="maʊnt" tr="монтировать; подниматься; крепить"/>
+    <d v="mount" p="participle" ts="maʊnt" tr="монтируемый"/>
+    <d v="mountain" p="noun" ts="ˈmaʊntɪn" tr="гора; куча; масса"/>
+    <d v="mountain" p="adjective" ts="ˈmaʊntɪn" tr="горный; Нагорный"/>
+    <d v="mountain bike" p="noun" ts="ˈmaʊntɪn baɪk" tr="горный велосипед"/>
+    <d v="mountaineer" p="noun" ts="maʊntɪˈnɪə" tr="альпинист; горец"/>
+    <d v="mountaineering" p="noun" ts="maʊntɪˈnɪərɪŋ" tr="альпинизм; горный туризм"/>
+    <d v="mountaineering" p="adjective" ts="maʊntɪˈnɪərɪŋ" tr="альпинистский"/>
+    <d v="mountain lion" p="noun" ts="ˈmaʊntɪn ˈlaɪən" tr="горный лев; пума"/>
+    <d v="mountainous" p="adjective" ts="ˈmaʊntɪnəs" tr="горный; Нагорный; громадный"/>
+    <d v="mountainside" p="noun" ts="ˈmaʊntɪnsaɪd" tr="склон; склон горы"/>
+    <d v="mounted" p="adjective" ts="ˈmaʊntɪd" tr="конный"/>
+    <d v="mounted" p="participle" ts="ˈmaʊntɪd"
+       tr="установленный; смонтированный; монтируемый; вмонтированный; устанавливаемый; закрепленный"/>
+    <d v="mounting" p="noun" ts="ˈmaʊntɪŋ" tr="монтаж"/>
+    <d v="mounting" p="adjective" ts="ˈmaʊntɪŋ" tr="монтажный"/>
+    <d v="mourn" p="verb" ts="mɔːn" tr="оплакивать; плакать; носить траур"/>
+    <d v="mourn" p="noun" ts="mɔːn" tr="траур"/>
+    <d v="mourner" p="participle" ts="ˈmɔːnə" tr="скорбящий"/>
+    <d v="mourner" p="noun" ts="ˈmɔːnə" tr="плакальщик"/>
+    <d v="mournful" p="adjective" ts="ˈmɔːnfʊl" tr="скорбный; печальный; заунывный"/>
+    <d v="mournfully" p="adverb" ts="ˈmɔːnfəlɪ" tr="печально; скорбно"/>
+    <d v="mourning" p="noun" ts="ˈmɔːnɪŋ" tr="траур; скорбь; плач; сетование"/>
+    <d v="mourning" p="adjective" ts="ˈmɔːnɪŋ" tr="траурный"/>
+    <d v="mourning" p="participle" ts="ˈmɔːnɪŋ" tr="скорбящий; оплакивающий"/>
+    <d v="mouse" p="noun" ts="maʊs" tr="мышь"/>
+    <d v="mouse" p="adjective" ts="maʊs" tr="мышиный"/>
+    <d v="mousse" p="noun" ts="muːs" tr="мусс"/>
+    <d v="mousy" p="noun" ts="ˈmaʊsɪ" tr="мышка"/>
+    <d v="mouth" p="noun" ts="maʊθ" tr="рот; уста; устье; ротовая полость; вход; горловина; отверстие; зев; раструб"/>
+    <d v="mouth" p="adjective" ts="maʊθ" tr="ротовой"/>
+    <d v="mouth" p="verb" ts="maʊθ" tr="изрекать; жевать"/>
+    <d v="mouthful" p="noun" ts="ˈmaʊθfʊl" tr="глоток; рот; кусок; полный рот"/>
+    <d v="mouthpiece" p="noun" ts="ˈmaʊθpiːs" tr="мундштук; рупор; выразитель; глашатай; уста; загубник"/>
+    <d v="mouthwash" p="noun" ts="ˈmaʊθwɒʃ" tr="полоскание; полоскание рта"/>
+    <d v="movable" p="adjective" ts="ˈmuːvəbl" tr="подвижной; движимый"/>
+    <d v="movable" p="noun" ts="ˈmuːvəbl" tr="движимость"/>
+    <d v="move" p="verb" ts="muːv"
+       tr="двигаться; переехать; переместить; перемещаться; перейти; перенести; передвинуть; действовать; трогать; вращаться; побуждать; волновать; обращаться; растрогать; вносить; вызывать"/>
+    <d v="move" p="noun" ts="muːv" tr="движение; шаг"/>
+    <d v="movement" p="noun" ts="ˈmuːvmənt" tr="движение; передвижение; изменение; переезд; оживление; ритм"/>
+    <d v="mover" p="noun" ts="ˈmuːvə" tr="двигатель; движенец; тягач; инициатор; движущая сила; источник энергии"/>
+    <d v="movie" p="noun" ts="ˈmuːvɪ" tr="фильм; кино; видеофайл"/>
+    <d v="movie theater" p="noun" ts="ˈmuːvɪ ˈθɪətə" tr="кинотеатр"/>
+    <d v="moving" p="noun" ts="ˈmuːvɪŋ" tr="перемещение; переезд"/>
+    <d v="moving" p="adjective" ts="ˈmuːvɪŋ" tr="подвижной; трогательный; двигательный"/>
+    <d v="moving" p="adverbial participle" ts="ˈmuːvɪŋ" tr="продвигаясь; передвигаясь"/>
+    <d v="moving" p="participle" ts="ˈmuːvɪŋ"
+       tr="двигающийся; скользящий; движущийся; перемещающийся; передвигающийся; волнующий; перемещающий; продвигающийся"/>
+    <d v="mow" p="verb" ts="maʊ" tr="косить; постричь; жать"/>
+    <d v="mow" p="noun" ts="maʊ" tr="сеновал"/>
+    <d v="mower" p="noun" ts="ˈməʊə" tr="косилка; косец"/>
+    <d v="ms" p="noun" ts="mɪz" tr="мс; госпожа"/>
+    <d v="ms" p="invariant" ts="mɪz" tr="РС"/>
+    <d v="much" p="numeral" ts="mʌʧ" tr="много"/>
+    <d v="much" p="particle" ts="mʌʧ" tr="гораздо; намного"/>
+    <d v="much" p="pronoun" ts="mʌʧ" tr="многое"/>
+    <d v="much" p="adjective" ts="mʌʧ" tr="большой"/>
+    <d v="much" p="adverb" ts="mʌʧ" tr="сильно; почти"/>
+    <d v="muck" p="noun" ts="mʌk" tr="гадость; грязь; навоз; дрянь"/>
+    <d v="muck" p="verb" ts="mʌk" tr="испортить"/>
+    <d v="mucous" p="noun" ts="ˈmjuːkəs" tr="слизистая"/>
+    <d v="mucous" p="adjective" ts="ˈmjuːkəs" tr="слизистый"/>
+    <d v="mucus" p="noun" ts="ˈmjuːkəs" tr="слизь"/>
+    <d v="mucus" p="adjective" ts="ˈmjuːkəs" tr="слизистый"/>
+    <d v="mud" p="noun" ts="mʌd" tr="грязь"/>
+    <d v="mud" p="adjective" ts="mʌd" tr="грязевой; грязный; глиняный"/>
+    <d v="muddle" p="noun" ts="mʌdl" tr="путаница"/>
+    <d v="muddle" p="verb" ts="mʌdl" tr="путать"/>
+    <d v="muddy" p="adjective" ts="ˈmʌdɪ" tr="грязный; мутный"/>
+    <d v="muddy" p="noun" ts="ˈmʌdɪ" tr="грязь"/>
+    <d v="muddy" p="verb" ts="ˈmʌdɪ" tr="мутить; замутить"/>
+    <d v="muddy" p="participle" ts="ˈmʌdɪ" tr="замутненный; помутившийся"/>
+    <d v="mudslide" p="noun" ts="ˈmʌdslaɪd" tr="оползень"/>
+    <d v="muff" p="noun" ts="mʌf" tr="муфта"/>
+    <d v="muffin" p="noun" ts="ˈmʌfɪn" tr="булочка; кекс; горячая сдоба"/>
+    <d v="muffle" p="verb" ts="mʌfl" tr="заглушить; закутаться"/>
+    <d v="muffle" p="noun" ts="mʌfl" tr="муфель"/>
+    <d v="muffled" p="adjective" ts="mʌfld" tr="приглушенный"/>
+    <d v="muffled" p="adverb" ts="mʌfld" tr="приглушенно; глухо"/>
+    <d v="muffler" p="noun" ts="ˈmʌflə" tr="глушитель; шарф; кашне"/>
+    <d v="mug" p="noun" ts="mʌg" tr="кружка; рожа; фотография; рожица; харя"/>
+    <d v="mug" p="verb" ts="mʌg" tr="ограбить; зубрить"/>
+    <d v="mugger" p="noun" ts="ˈmʌgə" tr="грабитель"/>
+    <d v="mugging" p="noun" ts="ˈmʌgɪŋ" tr="грабеж; хулиганство"/>
+    <d v="muggy" p="adjective" ts="ˈmʌgɪ" tr="душный"/>
+    <d v="Muhammad" p="noun" ts="məˈhæmɪd" tr="Мухаммад"/>
+    <d v="mulatto" p="noun" ts="mjuːˈlætəʊ" tr="мулат; мулатка"/>
+    <d v="mulch" p="noun" ts="mʌlʧ" tr="мульча; мульчирование"/>
+    <d v="mulch" p="verb" ts="mʌlʧ" tr="мульчировать"/>
+    <d v="mule" p="noun" ts="mjuːl" tr="мул"/>
+    <d v="mull" p="verb" ts="mʌl" tr="обдумывать; перепутать"/>
+    <d v="mull" p="noun" ts="mʌl" tr="Малл"/>
+    <d v="multicultural" p="adjective" ts="mʌltɪˈkʌlʧərəl" tr="мультикультурный; поликультурный; многокультурный"/>
+    <d v="multilateral" p="adjective" ts="ˈmʌltɪˈlætərəl" tr="многосторонний"/>
+    <d v="multimedia" p="adjective" ts="mʌltɪˈmiːdɪə" tr="мультимедийный"/>
+    <d v="multimedia" p="noun" ts="mʌltɪˈmiːdɪə" tr="мультимедиа"/>
+    <d v="multimillionaire" p="noun" ts="ˈmʌltɪmɪljəˈnɛə" tr="мультимиллионер"/>
+    <d v="multiple" p="numeral" ts="ˈmʌltɪpl" tr="несколько"/>
+    <d v="multiple" p="adjective" ts="ˈmʌltɪpl" tr="множественный; многократный; многочисленный; составной"/>
+    <d v="multiple" p="noun" ts="ˈmʌltɪpl" tr="множество; кратное"/>
+    <d v="multiple-choice" p="noun" ts="ˈmʌltɪpl-ʧɔɪs" tr="множественный выбор"/>
+    <d v="multiple sclerosis" p="noun" ts="ˈmʌltɪpl sklɪəˈrəʊsɪs" tr="рассеянный склероз; множественный склероз"/>
+    <d v="multiplex" p="noun" ts="ˈmʌltɪpleks" tr="мультиплекс"/>
+    <d v="multiplex" p="adjective" ts="ˈmʌltɪpleks" tr="многозальный; сложный; многократный"/>
+    <d v="multiplex" p="verb" ts="ˈmʌltɪpleks" tr="мультиплексировать"/>
+    <d v="multiplex" p="participle" ts="ˈmʌltɪpleks" tr="мультиплексированный"/>
+    <d v="multiplication" p="noun" ts="mʌltɪplɪˈkeɪʃn" tr="умножение"/>
+    <d v="multiplicity" p="noun" ts="mʌltɪˈplɪsɪtɪ"
+       tr="кратность; множественность; многообразие; многочисленность; сложность"/>
+    <d v="multiply" p="verb" ts="ˈmʌltɪplaɪ"
+       tr="умножить; размножать; умножиться; преумножить; множить; преумножать; помножить; перемножить; перемножать"/>
+    <d v="multiply" p="noun" ts="ˈmʌltɪplaɪ" tr="умножение"/>
+    <d v="multiply" p="adverbial participle" ts="ˈmʌltɪplaɪ" tr="размножаясь"/>
+    <d v="multitude" p="noun" ts="ˈmʌltɪtjuːd" tr="множество; народ"/>
+    <d v="multitude" p="adjective" ts="ˈmʌltɪtjuːd" tr="многочисленный"/>
+    <d v="mumble" p="verb" ts="mʌmbl" tr="пробормотать; промямлить; мямлить"/>
+    <d v="mumble" p="noun" ts="mʌmbl" tr="бормотание"/>
+    <d v="mumbo jumbo" p="noun" ts="ˈmʌmbəʊˈʤʌmbəʊ" tr="фетиш"/>
+    <d v="mummify" p="verb" ts="ˈmʌmɪfaɪ" tr="мумифицировать"/>
+    <d v="mummy" p="noun" ts="ˈmʌmɪ" tr="мумия; мама; мумие"/>
+    <d v="mumps" p="noun" ts="mʌmps" tr="свинка"/>
+    <d v="munch" p="noun" ts="mʌnʧ" tr="Мунк"/>
+    <d v="munch" p="verb" ts="mʌnʧ" tr="жевать"/>
+    <d v="mundane" p="adjective" ts="ˈmʌndeɪn" tr="мирской; обыденный"/>
+    <d v="mundane" p="participle" ts="ˈmʌndeɪn" tr="приземленный"/>
+    <d v="municipal" p="adjective" ts="mjuːˈnɪsɪpəl" tr="муниципальный"/>
+    <d v="municipality" p="noun" ts="mjuːnɪsɪˈpælɪtɪ" tr="муниципалитет"/>
+    <d v="mural" p="noun" ts="ˈmjʊərəl" tr="роспись"/>
+    <d v="mural" p="adjective" ts="ˈmjʊərəl" tr="стенной"/>
+    <d v="murder" p="noun" ts="ˈmɜːdə" tr="убийство; караул"/>
+    <d v="murder" p="verb" ts="ˈmɜːdə" tr="убить; коверкать"/>
+    <d v="murderer" p="noun" ts="ˈmɜːdərə" tr="убийца; человекоубийца"/>
+    <d v="murderous" p="adjective" ts="ˈmɜːdərəs" tr="убийственный; кровавый"/>
+    <d v="murderous" p="noun" ts="ˈmɜːdərəs" tr="убийца"/>
+    <d v="murky" p="adjective" ts="ˈmɜːkɪ" tr="темный; мутный"/>
+    <d v="murmur" p="noun" ts="ˈmɜːmə" tr="ропот; шум"/>
+    <d v="murmur" p="verb" ts="ˈmɜːmə" tr="роптать; бормотать; журчать"/>
+    <d v="muscle" p="noun" ts="mʌsl" tr="мышца; сила"/>
+    <d v="muscle" p="adjective" ts="mʌsl" tr="мышечный; мускулистый"/>
+    <d v="muscular" p="adjective" ts="ˈmʌskjʊlə" tr="мышечный; мускулистый; сильный"/>
+    <d v="muscular" p="noun" ts="ˈmʌskjʊlə" tr="мускулатура"/>
+    <d v="muse" p="noun" ts="mjuːz" tr="муза; задумчивость; размышление"/>
+    <d v="muse" p="verb" ts="mjuːz" tr="размышлять; задумчиво смотреть"/>
+    <d v="museum" p="noun" ts="mjuːˈzɪəm" tr="музей"/>
+    <d v="museum" p="adjective" ts="mjuːˈzɪəm" tr="музейный"/>
+    <d v="mush" p="noun" ts="mʌʃ" tr="каша; кашица; слащавость; чепуха"/>
+    <d v="mushroom" p="noun" ts="ˈmʌʃrʊm" tr="гриб; грибник; Груздь"/>
+    <d v="mushroom" p="adjective" ts="ˈmʌʃrʊm" tr="грибной"/>
+    <d v="mushy" p="adjective" ts="ˈmʌʃɪ" tr="мягкий; слащавый; пористый"/>
+    <d v="music" p="noun" ts="ˈmjuːzɪk" tr="музыка; ноты; оркестр"/>
+    <d v="music" p="adjective" ts="ˈmjuːzɪk" tr="музыкальный"/>
+    <d v="musical" p="adjective" ts="ˈmjuːzɪkəl" tr="музыкальный"/>
+    <d v="musical" p="noun" ts="ˈmjuːzɪkəl" tr="мюзикл"/>
+    <d v="musician" p="noun" ts="mjuːˈzɪʃn" tr="музыкант"/>
+    <d v="musk" p="noun" ts="mʌsk" tr="мускус; кабарга"/>
+    <d v="musket" p="noun" ts="ˈmʌskɪt" tr="мушкет"/>
+    <d v="Muslim" p="noun" ts="ˈmʊslɪm" tr="мусульманин"/>
+    <d v="Muslim" p="adjective" ts="ˈmʊslɪm" tr="мусульманский"/>
+    <d v="muss" p="noun" ts="mʌs" tr="мусс; беспорядок"/>
+    <d v="muss" p="verb" ts="mʌs" tr="взъерошить; путать"/>
+    <d v="mussel" p="noun" ts="mʌsl" tr="мидия"/>
+    <d v="must" p="adjective" ts="mʌst" tr="должный"/>
+    <d v="must" p="verb" ts="mʌst" tr="требоваться"/>
+    <d v="must" p="noun" ts="mʌst" tr="сусло; требование; муст; плесень"/>
+    <d v="Mustang" p="noun" ts="ˈmʌstæŋ" tr="мустанг"/>
+    <d v="mustard" p="noun" ts="ˈmʌstəd" tr="горчица; иприт"/>
+    <d v="mustard" p="adjective" ts="ˈmʌstəd" tr="горчичный"/>
+    <d v="muster" p="verb" ts="ˈmʌstə" tr="собрать; набраться"/>
+    <d v="muster" p="noun" ts="ˈmʌstə" tr="сбор; перекличка; скопление"/>
+    <d v="musty" p="adjective" ts="ˈmʌstɪ" tr="затхлый"/>
+    <d v="musty" p="noun" ts="ˈmʌstɪ" tr="плесень"/>
+    <d v="musty" p="participle" ts="ˈmʌstɪ" tr="прокисший"/>
+    <d v="mutability" p="noun" ts="mjuːtəˈbɪlɪtɪ" tr="изменчивость; изменяемость"/>
+    <d v="mutable" p="adjective" ts="ˈmjuːtəbl" tr="изменчивый; мутабельный"/>
+    <d v="mutant" p="noun" ts="ˈmjuːtənt" tr="мутант"/>
+    <d v="mutant" p="participle" ts="ˈmjuːtənt" tr="мутированный"/>
+    <d v="mutate" p="verb" ts="mjuːˈteɪt" tr="мутировать; видоизменяться"/>
+    <d v="mutate" p="noun" ts="mjuːˈteɪt" tr="мутация"/>
+    <d v="mutation" p="noun" ts="mjuːˈteɪʃn" tr="мутация; изменение"/>
+    <d v="mutation" p="verb" ts="mjuːˈteɪʃn" tr="мутировать"/>
+    <d v="mute" p="adjective" ts="mjuːt" tr="немой; безмолвный; безгласный"/>
+    <d v="mute" p="verb" ts="mjuːt" tr="отключить; приглушить; отключить звук; молчать; онеметь"/>
+    <d v="mute" p="noun" ts="mjuːt" tr="отключение звука; сурдинка"/>
+    <d v="mute" p="participle" ts="mjuːt" tr="онемевший"/>
+    <d v="muted" p="adjective" ts="ˈmjuːtɪd" tr="приглушенный"/>
+    <d v="mutely" p="adverb" ts="ˈmjuːtlɪ" tr="молча"/>
+    <d v="mutilate" p="verb" ts="ˈmjuːtɪleɪt" tr="калечить; уродовать"/>
+    <d v="mutilation" p="noun" ts="mjuːtɪˈleɪʃn"
+       tr="увечье; членовредительство; нанесение увечий; искажение; расчленение"/>
+    <d v="mutinous" p="adjective" ts="ˈmjuːtɪnəs" tr="мятежный"/>
+    <d v="mutiny" p="noun" ts="ˈmjuːtɪnɪ" tr="мятеж"/>
+    <d v="mutiny" p="verb" ts="ˈmjuːtɪnɪ" tr="взбунтоваться"/>
+    <d v="mutt" p="noun" ts="mʌt" tr="Матт; дворняга; собачонка; остолоп; дурак; болван"/>
+    <d v="mutter" p="verb" ts="ˈmʌtə" tr="бормотать; ворчать"/>
+    <d v="mutter" p="noun" ts="ˈmʌtə" tr="бормотание; ворчание"/>
+    <d v="mutton" p="noun" ts="mʌtn" tr="баранина; овца"/>
+    <d v="mutton" p="adjective" ts="mʌtn" tr="бараний"/>
+    <d v="mutual" p="adjective" ts="ˈmjuːtjʊəl" tr="взаимный; совместный"/>
+    <d v="mutual" p="noun" ts="ˈmjuːtjʊəl" tr="взаимопомощь; взаимоуважение; взаиморасчет"/>
+    <d v="mutual fund" p="noun" ts="ˈmjuːtjʊəl fʌnd"
+       tr="взаимный фонд; паевой инвестиционный фонд; паевой фонд; инвестиционный фонд; совместный фонд; взаимный инвестиционный фонд"/>
+    <d v="mutually" p="adjective" ts="ˈmjuːtjʊəlɪ" tr="взаимовыгодный; взаимосогласованный"/>
+    <d v="mutually" p="adverb" ts="ˈmjuːtjʊəlɪ" tr="взаимно; обоюдно"/>
+    <d v="muzzle" p="noun" ts="mʌzl" tr="морда; дуло; жерло"/>
+    <d v="muzzle" p="adjective" ts="mʌzl" tr="дульный"/>
+    <d v="my" p="pronoun" ts="maɪ" tr="мой; я; свой"/>
+    <d v="myopic" p="adjective" ts="maɪˈɔpɪk" tr="близорукий"/>
+    <d v="myriad" p="noun" ts="ˈmɪrɪəd" tr="множество; несметное количество; несметное число; огромное множество"/>
+    <d v="myriad" p="adjective" ts="ˈmɪrɪəd" tr="бесчисленный"/>
+    <d v="myself" p="pronoun" ts="maɪˈself" tr="я"/>
+    <d v="mysterious" p="adjective" ts="mɪsˈtɪərɪəs" tr="таинственный; непостижимый; неведомый"/>
+    <d v="mysterious" p="noun" ts="mɪsˈtɪərɪəs" tr="загадка"/>
+    <d v="mysteriously" p="adverb" ts="mɪˈstɪərɪəslɪ" tr="таинственно; загадочно"/>
+    <d v="mystery" p="noun" ts="ˈmɪstərɪ" tr="тайна; мистика"/>
+    <d v="mystery" p="adjective" ts="ˈmɪstərɪ" tr="таинственный; тайный"/>
+    <d v="mystic" p="adjective" ts="ˈmɪstɪk" tr="мистический; таинственный"/>
+    <d v="mystic" p="noun" ts="ˈmɪstɪk" tr="мистик"/>
+    <d v="mystical" p="adjective" ts="ˈmɪstɪkl" tr="мистический"/>
+    <d v="mystical" p="adverb" ts="ˈmɪstɪkl" tr="мистически"/>
+    <d v="mysticism" p="noun" ts="ˈmɪstɪsɪzm" tr="мистицизм"/>
+    <d v="mystify" p="verb" ts="ˈmɪstɪfaɪ" tr="мистифицировать; озадачивать; заинтриговать"/>
+    <d v="mystique" p="noun" ts="mɪsˈtiːk" tr="таинственность; мистика"/>
+    <d v="myth" p="noun" ts="mɪθ" tr="миф; вымысел; мифологема"/>
+    <d v="mythical" p="adjective" ts="ˈmɪθɪkəl" tr="мифический; вымышленный"/>
+    <d v="mythological" p="adjective" ts="mɪθəˈlɔʤɪkəl" tr="мифологический"/>
+    <d v="mythology" p="noun" ts="mɪˈθɔləʤɪ" tr="мифология"/>
+
+</defs>

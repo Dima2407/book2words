@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="quack" p="noun" ts="kwæk" tr="шарлатан; знахарь; кряканье"/>
+    <d v="quack" p="verb" ts="kwæk" tr="крякать"/>
+    <d v="quad" p="noun" ts="kwɔd" tr="квад; квадроцикл; четверка; четверной прыжок"/>
+    <d v="quad" p="adjective" ts="kwɔd" tr="четверной"/>
+    <d v="quadrangle" p="noun" ts="ˈkwɔdræŋgl" tr="четырехугольник"/>
+    <d v="quadrangle" p="adjective" ts="ˈkwɔdræŋgl" tr="четырехугольный"/>
+    <d v="quadrant" p="noun" ts="ˈkwɔdrənt" tr="квадрант; сектор"/>
+    <d v="quadrilateral" p="adjective" ts="kwɔdrɪˈlætərəl" tr="четырехсторонний"/>
+    <d v="quadrilateral" p="noun" ts="kwɔdrɪˈlætərəl" tr="четырехугольник; четырехсторонняя платформа"/>
+    <d v="quadruped" p="adjective" ts="ˈkwɔdrʊped" tr="четвероногий"/>
+    <d v="quadruple" p="adjective" ts="ˈkwɔdrʊpl" tr="четырехместный; четверной; четырехкратный"/>
+    <d v="quadruple" p="noun" ts="ˈkwɔdrʊpl" tr="четверка"/>
+    <d v="quadruple" p="verb" ts="ˈkwɔdrʊpl" tr="учетверить; учетверять"/>
+    <d v="quadruple" p="participle" ts="ˈkwɔdrʊpl" tr="учетверенный"/>
+    <d v="quagmire" p="noun" ts="ˈkwægmaɪə" tr="трясина; затруднительное положение"/>
+    <d v="quail" p="noun" ts="kweɪl" tr="перепел"/>
+    <d v="quail" p="adjective" ts="kweɪl" tr="перепелиный"/>
+    <d v="quail" p="verb" ts="kweɪl" tr="дрогнуть"/>
+    <d v="quaint" p="adjective" ts="kweɪnt" tr="причудливый; странный; старомодный"/>
+    <d v="quake" p="noun" ts="kweɪk" tr="землетрясение; толчок"/>
+    <d v="quake" p="verb" ts="kweɪk" tr="дрожать; колебаться"/>
+    <d v="qualification" p="noun" ts="kwɔlɪfɪˈkeɪʃn" tr="квалификация; ценз; оговорка; диплом; определение"/>
+    <d v="qualification" p="adjective" ts="kwɔlɪfɪˈkeɪʃn" tr="квалификационный"/>
+    <d v="qualified" p="adjective" ts="ˈkwɔlɪfaɪd" tr="квалифицированный"/>
+    <d v="qualified" p="noun" ts="ˈkwɔlɪfaɪd" tr="квалификация"/>
+    <d v="qualified" p="participle" ts="ˈkwɔlɪfaɪd" tr="пригодный"/>
+    <d v="qualifier" p="noun" ts="ˈkwɒlɪfaɪər" tr="квалификатор; классификатор; ограничитель"/>
+    <d v="qualify" p="verb" ts="ˈkwɔlɪfaɪ"
+       tr="квалифицировать; подпадать; уточнить; определять; удостоиться; называть"/>
+    <d v="qualify" p="noun" ts="ˈkwɔlɪfaɪ" tr="квалификация"/>
+    <d v="qualify" p="adjective" ts="ˈkwɔlɪfaɪ" tr="квалификационный"/>
+    <d v="qualitative" p="adjective" ts="ˈkwɔlɪtətɪv" tr="качественный"/>
+    <d v="quality" p="noun" ts="ˈkwɔlɪtɪ" tr="качество; сорт; тембр"/>
+    <d v="quality" p="adjective" ts="ˈkwɔlɪtɪ" tr="качественный"/>
+    <d v="quality control" p="noun" ts="ˈkwɔlɪtɪ kənˈtrəʊl"
+       tr="контроль качества; проверка качества; управление качеством; контроль за качеством; качественный контроль; контроль над качеством; контроль качества продукции"/>
+    <d v="quandary" p="noun" ts="ˈkwɔndərɪ" tr="затруднительное положение; затруднение"/>
+    <d v="quantifier" p="noun" ts="ˈkwɒntɪfaɪər" tr="квантификатор; квантор"/>
+    <d v="quantify" p="adjective" ts="ˈkwɔntɪfaɪ" tr="количественный"/>
+    <d v="quantify" p="noun" ts="ˈkwɔntɪfaɪ" tr="количественная оценка"/>
+    <d v="quantify" p="verb" ts="ˈkwɔntɪfaɪ"
+       tr="определить; количественно оценить; квантифицировать; оценить количественно"/>
+    <d v="quantitative" p="adjective" ts="ˈkwɔntɪtətɪv" tr="количественный"/>
+    <d v="quantity" p="noun" ts="ˈkwɔntɪtɪ" tr="количество"/>
+    <d v="quantity" p="adjective" ts="ˈkwɔntɪtɪ" tr="количественный"/>
+    <d v="quantum leap" p="noun" ts="ˈkwɔntəm liːp"
+       tr="квантовый скачок; скачок; качественный скачок; квантовый прыжок"/>
+    <d v="quarantine" p="noun" ts="ˈkwɔrəntiːn" tr="карантин"/>
+    <d v="quarantine" p="adjective" ts="ˈkwɔrəntiːn" tr="карантинный"/>
+    <d v="quarantine" p="verb" ts="ˈkwɔrəntiːn" tr="изолировать"/>
+    <d v="quark" p="noun" ts="kwɑːk" tr="кварк; творог"/>
+    <d v="quarrel" p="noun" ts="ˈkwɔrəl" tr="ссора"/>
+    <d v="quarrel" p="verb" ts="ˈkwɔrəl"
+       tr="ссориться; поссориться; враждовать; рассориться; перессориться; ссорить; придираться"/>
+    <d v="quarrelsome" p="adjective" ts="ˈkwɔrəlsəm" tr="сварливый; драчливый; неуживчивый"/>
+    <d v="quarry" p="noun" ts="ˈkwɔrɪ" tr="карьер; дичь; намеченная жертва"/>
+    <d v="quarry" p="adjective" ts="ˈkwɔrɪ" tr="карьерный"/>
+    <d v="quarry" p="verb" ts="ˈkwɔrɪ" tr="добывать"/>
+    <d v="quart" p="noun" ts="kwɔːt" tr="кварта"/>
+    <d v="quarter" p="noun" ts="ˈkwɔːtə" tr="квартал; помещение; квартира; сторона; четвертак; пощада"/>
+    <d v="quarter" p="adjective" ts="ˈkwɔːtə" tr="квартальный"/>
+    <d v="quarter" p="verb" ts="ˈkwɔːtə" tr="четвертовать"/>
+    <d v="quarterback" p="noun" ts="ˈkwɔːtəbæk" tr="защитник; квотербек"/>
+    <d v="quarterfinal" p="noun" ts="kwɔːtəˈfaɪnl" tr="четвертьфинал"/>
+    <d v="quarterfinal" p="adjective" ts="kwɔːtəˈfaɪnl" tr="четвертьфинальный"/>
+    <d v="quarterly" p="adjective" ts="ˈkwɔːtəlɪ" tr="ежеквартальный"/>
+    <d v="quarterly" p="noun" ts="ˈkwɔːtəlɪ" tr="раз в квартал; журнал"/>
+    <d v="quarters" p="noun" ts="ˈkwɔːtəz" tr="помещение"/>
+    <d v="quartet" p="noun" ts="kwɔːˈtet" tr="квартет"/>
+    <d v="quartz" p="adjective" ts="kwɔːts" tr="кварцевый"/>
+    <d v="quartz" p="noun" ts="kwɔːts" tr="кварц"/>
+    <d v="quash" p="verb" ts="kwɔʃ" tr="отменить; подавить"/>
+    <d v="quaver" p="noun" ts="ˈkweɪvə" tr="дрожь"/>
+    <d v="quay" p="noun" ts="kiː" tr="набережная; причал"/>
+    <d v="quay" p="adjective" ts="kiː" tr="причальный"/>
+    <d v="queasiness" p="noun" ts="ˈkwiːzɪnəs" tr="тошнота"/>
+    <d v="queasy" p="noun" ts="ˈkwiːzɪ" tr="тошнота"/>
+    <d v="queasy" p="adjective" ts="ˈkwiːzɪ" tr="тошнотворный; щепетильный; привередливый; слабый"/>
+    <d v="queen" p="noun" ts="kwiːn" tr="королева; матка; богиня"/>
+    <d v="queen" p="verb" ts="kwiːn" tr="править"/>
+    <d v="queer" p="adjective" ts="kwɪə" tr="странный; подозрительный; чудаковатый; гомосексуальный"/>
+    <d v="queer" p="noun" ts="kwɪə" tr="гей"/>
+    <d v="quell" p="verb" ts="kwel" tr="подавить; успокоить"/>
+    <d v="quell" p="noun" ts="kwel" tr="подавление"/>
+    <d v="quench" p="verb" ts="kwenʧ" tr="утолить; угасить; погасить; гасить; подавить"/>
+    <d v="quench" p="noun" ts="kwenʧ" tr="утоление; закалка"/>
+    <d v="query" p="noun" ts="ˈkwɪərɪ" tr="запрос; вопрос"/>
+    <d v="query" p="verb" ts="ˈkwɪərɪ" tr="запрашивать"/>
+    <d v="quest" p="noun" ts="kwest" tr="квест; поиск; стремление; странствие"/>
+    <d v="quest" p="adjective" ts="kwest" tr="квестовой"/>
+    <d v="quest" p="verb" ts="kwest" tr="искать"/>
+    <d v="question" p="noun" ts="ˈkwesʧən" tr="вопрос"/>
+    <d v="question" p="verb" ts="ˈkwesʧən" tr="спрашивать; допросить; исследовать; возражать"/>
+    <d v="question" p="adjective" ts="ˈkwesʧən" tr="вопросительный"/>
+    <d v="questionable" p="adjective" ts="ˈkwesʧənəbl" tr="сомнительный"/>
+    <d v="questionable" p="noun" ts="ˈkwesʧənəbl" tr="сомнение; под вопросом"/>
+    <d v="question mark" p="noun" ts="ˈkwesʧən mɑːk" tr="вопросительный знак; знак вопроса"/>
+    <d v="question mark" p="adjective" ts="ˈkwesʧən mɑːk" tr="вопросительный"/>
+    <d v="questionnaire" p="noun" ts="kwestɪəˈnɛə" tr="вопросник; анкетирование"/>
+    <d v="questionnaire" p="adjective" ts="kwestɪəˈnɛə" tr="опросный"/>
+    <d v="quibble" p="noun" ts="kwɪbl" tr="придирка; каламбур; софизм; увертка"/>
+    <d v="quibble" p="verb" ts="kwɪbl" tr="придираться"/>
+    <d v="quiche" p="noun" ts="kiːʃ" tr="Киш"/>
+    <d v="quick" p="adjective" ts="kwɪk" tr="быстрый; краткий; живой; острый; расторопный; находчивый"/>
+    <d v="quick" p="noun" ts="kwɪk" tr="быстрота"/>
+    <d v="quicken" p="verb" ts="ˈkwɪkən" tr="ускорить; оживить; оживотворить; оживать"/>
+    <d v="quickie" p="noun" ts="ˈkwɪkɪ" tr="халтура"/>
+    <d v="quickly" p="adverb" ts="ˈkwɪklɪ" tr="быстро; поспешно; поскорей"/>
+    <d v="quickly" p="adjective" ts="ˈkwɪklɪ" tr="быстрый"/>
+    <d v="quicksand" p="noun" ts="ˈkwɪksænd" tr="зыбучий песок; плывун"/>
+    <d v="quicksand" p="adjective" ts="ˈkwɪksænd" tr="зыбучий"/>
+    <d v="quiet" p="adjective" ts="ˈkwaɪət" tr="тихий; негромкий; скромный; тайный"/>
+    <d v="quiet" p="noun" ts="ˈkwaɪət" tr="тишина; спокойствие"/>
+    <d v="quiet" p="verb" ts="ˈkwaɪət" tr="успокоиться; успокоить; замолчать"/>
+    <d v="quiet" p="participle" ts="ˈkwaɪət" tr="скрытый"/>
+    <d v="quietly" p="adverb" ts="ˈkwaɪətlɪ" tr="спокойно; тихонько; незаметно; бесшумно; молча; потихонечку"/>
+    <d v="quietly" p="adjective" ts="ˈkwaɪətlɪ" tr="негромкий"/>
+    <d v="quietness" p="noun" ts="ˈkwaɪətnɪs" tr="тишина; спокойствие; бесшумность"/>
+    <d v="quill" p="noun" ts="kwɪl" tr="перо; игла; птичье перо; зубочистка"/>
+    <d v="quill" p="verb" ts="kwɪl" tr="гофрировать"/>
+    <d v="quilt" p="noun" ts="kwɪlt" tr="одеяло; стеганое одеяло; лоскутное шитье"/>
+    <d v="quilt" p="adjective" ts="kwɪlt" tr="лоскутный"/>
+    <d v="quilt" p="verb" ts="kwɪlt" tr="стегать"/>
+    <d v="quintessence" p="noun" ts="kwɪnˈtesns" tr="квинтэссенция"/>
+    <d v="quintessential" p="noun" ts="kwɪntɪˈsenʃəl" tr="квинтэссенция"/>
+    <d v="quintessential" p="adjective" ts="kwɪntɪˈsenʃəl" tr="наиболее существенный"/>
+    <d v="quintet" p="noun" ts="kwɪnˈtet" tr="квинтет; пятерка"/>
+    <d v="quip" p="noun" ts="kwɪp" tr="колкость; острота; саркастическое замечание; софизм"/>
+    <d v="quirk" p="noun" ts="kwɜːk" tr="причуда; особенность; бзик; выверт; игра слов; галтель"/>
+    <d v="quirky" p="adjective" ts="ˈkwɜːkɪ" tr="причудливый; ушлый"/>
+    <d v="quit" p="verb" ts="kwɪt" tr="выйти; бросить; прекратить; уйти; сдаваться; завязать"/>
+    <d v="quit" p="noun" ts="kwɪt" tr="выход; увольнение"/>
+    <d v="quit" p="participle" ts="kwɪt" tr="прекращенный"/>
+    <d v="quit" p="adjective" ts="kwɪt" tr="свободный"/>
+    <d v="quite" p="adverb" ts="kwaɪt" tr="вполне; довольно; весьма"/>
+    <d v="quitter" p="noun" ts="ˈkwɪtə" tr="трус; лодырь; прогульщик"/>
+    <d v="quiver" p="noun" ts="ˈkwɪvə" tr="колчан; дрожь"/>
+    <d v="quiver" p="verb" ts="ˈkwɪvə" tr="дрожать; трепетать"/>
+    <d v="quixotic" p="adjective" ts="kwɪkˈsɔtɪk" tr="донкихотский"/>
+    <d v="quiz" p="noun" ts="kwɪz" tr="викторина; тест; контрольный опрос; чудак; насмешник"/>
+    <d v="quizzical" p="adjective" ts="ˈkwɪzɪkəl" tr="насмешливый; лукавый"/>
+    <d v="quorum" p="noun" ts="ˈkwɔːrəm" tr="кворум"/>
+    <d v="quota" p="noun" ts="ˈkwəʊtə" tr="квота"/>
+    <d v="quotable" p="noun" ts="ˈkwəʊtəbl" tr="цитирование"/>
+    <d v="quotation" p="noun" ts="kwəʊˈteɪʃn" tr="котировка; цена"/>
+    <d v="quotation" p="adjective" ts="kwəʊˈteɪʃn" tr="котировальный"/>
+    <d v="quote" p="noun" ts="kwəʊt" tr="цитата; смета"/>
+    <d v="quote" p="verb" ts="kwəʊt" tr="цитировать; котировать"/>
+    <d v="quote" p="participle" ts="kwəʊt" tr="цитируемый"/>
+    <d v="quotient" p="noun" ts="ˈkwəʊʃənt" tr="коэффициент; частное"/>
+
+</defs>

@@ -11,7 +11,7 @@ import java.util.concurrent.Executors
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathFactory
 
-private class WrongVerbsDictionary(private val resources: Resources) : Dictionary {
+private class VerbsDictionary(private val resources: Resources) : Dictionary {
 
     private val xPath = XPathFactory.newInstance().newXPath()
     private var executor = Executors.newSingleThreadExecutor();
@@ -25,19 +25,19 @@ private class WrongVerbsDictionary(private val resources: Resources) : Dictionar
     override fun find(input: String): Array<out Definition> {
         val source = InputSource(resources.openRawResource(R.raw.wrong_verbs))
         val expression = "/defs/d[@v='${input}']"
-        Logger.debug("find verb : ${input}")
+        Logger.debug("find verb : ${input}", TAG)
         val nodes = xPath.evaluate(expression, source, XPathConstants.NODESET) as NodeList?
         var items = arrayOf<Definition>()
         if (nodes != null) {
             items = Array(nodes.getLength(), {
                 val node = nodes.item(it)
-                VerbDefinition(node)
+                WordDefinition(node)
             })
         }
         return items
     }
 
-    private class VerbDefinition(definition: Node) : Definition {
+    private class WordDefinition(definition: Node) : Definition {
         private val text: String
         private var pos: String
         private var transcription: String
@@ -72,5 +72,10 @@ private class WrongVerbsDictionary(private val resources: Resources) : Dictionar
         override fun getTranslate(): String {
             return translates
         }
+    }
+
+    companion object {
+
+        private val TAG = javaClass<VerbsDictionary>().getSimpleName()
     }
 }

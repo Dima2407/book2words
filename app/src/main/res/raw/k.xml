@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="kaleidoscope" p="noun" ts="kəˈlaɪdəskəʊp" tr="калейдоскоп"/>
+    <d v="kangaroo" p="noun" ts="kæŋgəˈruː" tr="кенгуру"/>
+    <d v="karat" p="noun" ts="ˈkærət" tr="карат"/>
+    <d v="karate" p="noun" ts="kəˈrɑːtɪ" tr="каратэ"/>
+    <d v="karma" p="noun" ts="ˈkɑːmə" tr="карма"/>
+    <d v="karma" p="adjective" ts="ˈkɑːmə" tr="кармический"/>
+    <d v="kayak" p="noun" ts="ˈkaɪæk" tr="байдарка"/>
+    <d v="keel" p="noun" ts="kiːl" tr="киль; корабль"/>
+    <d v="keel" p="adjective" ts="kiːl" tr="килевой"/>
+    <d v="keen" p="adjective" ts="kiːn" tr="острый; тонкий; чуткий; трескучий"/>
+    <d v="keen" p="verb" ts="kiːn" tr="стремиться; увлекаться; причитать"/>
+    <d v="keen" p="participle" ts="kiːn" tr="заинтересованный; увлеченный; стремящийся; увлекающийся"/>
+    <d v="keen" p="noun" ts="kiːn" tr="Кин; плач"/>
+    <d v="keenly" p="adverb" ts="ˈkiːnlɪ" tr="остро"/>
+    <d v="keenness" p="noun" ts="ˈkiːnɪs" tr="острота; чуткость; увлеченность; смекалка"/>
+    <d v="keep" p="verb" ts="kiːp"
+       tr="держать; сохранить; оставить; иметь; соблюдать; сдержать; содержать; охранять; скрывать; жить; работать; праздновать; задерживать; повиноваться; не отдавать"/>
+    <d v="keep" p="noun" ts="kiːp" tr="вести; содержание"/>
+    <d v="keeper" p="noun" ts="ˈkiːpə" tr="хранитель; сторож; владетель; владелец; содержатель; блюститель; санитар"/>
+    <d v="keeping" p="noun" ts="ˈkiːpɪŋ" tr="сохранение; ведение; хранение; удержание; владение"/>
+    <d v="keeping" p="participle" ts="ˈkiːpɪŋ" tr="хранящий; сохраняющий; держащий"/>
+    <d v="keepsake" p="noun" ts="ˈkiːpseɪk" tr="сувенир; подарок на память"/>
+    <d v="keg" p="noun" ts="keg" tr="бочонок"/>
+    <d v="kennel" p="noun" ts="kenl" tr="питомник; конура; псарня"/>
+    <d v="kennel" p="adjective" ts="kenl" tr="кинологический"/>
+    <d v="kept" p="participle" ts="kept"
+       tr="сохраненный; хранимый; хранившийся; сохраняемый; сохранившийся; удерживаемый"/>
+    <d v="kernel" p="noun" ts="kɜːnl" tr="ядро; зерно; стержень; суть"/>
+    <d v="kerosene" p="noun" ts="ˈkerəsiːn" tr="керосин"/>
+    <d v="kerosene" p="adjective" ts="ˈkerəsiːn" tr="керосиновый"/>
+    <d v="ketchup" p="noun" ts="ˈkeʧəp" tr="кетчуп"/>
+    <d v="kettle" p="noun" ts="ketl" tr="котел"/>
+    <d v="key" p="adjective" ts="kiː" tr="ключевой; основный"/>
+    <d v="key" p="noun" ts="kiː" tr="ключ; клавиша; тональность; шпонка; риф"/>
+    <d v="key" p="participle" ts="kiː" tr="ведущий"/>
+    <d v="keyboard" p="noun" ts="ˈkiːbɔːd" tr="клавиатура; синтезатор"/>
+    <d v="keyboard" p="adjective" ts="ˈkiːbɔːd" tr="клавишный"/>
+    <d v="keyhole" p="noun" ts="ˈkiːhəʊl" tr="замочная скважина; скважина"/>
+    <d v="keynote" p="noun" ts="ˈkiːnəʊt" tr="лейтмотив; основной доклад; ключевая нота"/>
+    <d v="key ring" p="noun" ts="kiː rɪŋ" tr="брелок; кольцо для ключей"/>
+    <d v="khaki" p="noun" ts="ˈkɑːkɪ" tr="хаки; цвет хаки"/>
+    <d v="kick" p="noun" ts="kɪk" tr="пинок; удар; кайф; удар ногой; отдача; футболист"/>
+    <d v="kick" p="verb" ts="kɪk"
+       tr="пнуть; надрать; выгнать; вышвырнуть; вышибить; лягать; избавиться; вышвыривать; умереть; надирать; ударять ногой; брыкать"/>
+    <d v="kickback" p="noun" ts="ˈkɪkbæk" tr="откат; взятка; бурная реакция"/>
+    <d v="kid" p="noun" ts="kɪd" tr="ребенок; парень; козленок; лайка"/>
+    <d v="kid" p="adjective" ts="kɪd" tr="молодой"/>
+    <d v="kid" p="verb" ts="kɪd" tr="обманывать"/>
+    <d v="kiddie" p="adjective" ts="ˈkɪdɪ" tr="детский"/>
+    <d v="kidnap" p="verb" ts="ˈkɪdnæp" tr="похитить"/>
+    <d v="kidnap" p="noun" ts="ˈkɪdnæp" tr="похищение"/>
+    <d v="kidnapper" p="noun" ts="ˈkɪdnæpə" tr="похититель; похититель людей"/>
+    <d v="kidnapping" p="noun" ts="ˈkɪdnæpɪŋ" tr="похищение; похищение людей"/>
+    <d v="kidney" p="noun" ts="ˈkɪdnɪ" tr="почка"/>
+    <d v="kidney" p="adjective" ts="ˈkɪdnɪ" tr="почечный"/>
+    <d v="kidney bean" p="noun" ts="ˈkɪdnɪˈbiːn" tr="фасоль; фасоль почки"/>
+    <d v="kill" p="verb" ts="kɪl" tr="убить; уморить; сбить; заглушить; ликвидировать; отключить; гасить"/>
+    <d v="kill" p="noun" ts="kɪl" tr="убийство; добыча"/>
+    <d v="kill" p="participle" ts="kɪl" tr="убивший; убивающий"/>
+    <d v="killer" p="noun" ts="ˈkɪlə" tr="убийца; гангстер"/>
+    <d v="killer" p="adjective" ts="ˈkɪlə" tr="убийственный"/>
+    <d v="killing" p="noun" ts="ˈkɪlɪŋ" tr="убийство; уничтожение"/>
+    <d v="killing" p="participle" ts="ˈkɪlɪŋ" tr="убивающий; убивший"/>
+    <d v="killing" p="adjective" ts="ˈkɪlɪŋ" tr="смертоносный; убийственный; умопомрачительный"/>
+    <d v="kiln" p="noun" ts="kɪln" tr="печь"/>
+    <d v="kiln" p="adjective" ts="kɪln" tr="печной"/>
+    <d v="kilo" p="noun" ts="ˈkiːləʊ" tr="килограмм"/>
+    <d v="kilo" p="adjective" ts="ˈkiːləʊ" tr="килограммовый"/>
+    <d v="kilobyte" p="noun" ts="ˈkɪləbaɪt" tr="килобайт"/>
+    <d v="kilogram" p="noun" ts="ˈkɪləʊgræm" tr="килограмм"/>
+    <d v="kilogram" p="adjective" ts="ˈkɪləʊgræm" tr="килограммовый"/>
+    <d v="kilometer" p="noun" ts="ˈkɪləʊmiːtə" tr="километр"/>
+    <d v="kilometer" p="adjective" ts="ˈkɪləʊmiːtə" tr="километровый"/>
+    <d v="kilowatt" p="noun" ts="ˈkɪləʊwɔt" tr="кВт"/>
+    <d v="kilt" p="noun" ts="kɪlt" tr="килт; юбка в складку"/>
+    <d v="kimono" p="noun" ts="kɪˈməʊnəʊ" tr="кимоно"/>
+    <d v="kin" p="noun" ts="kɪn" tr="родственник; Кин"/>
+    <d v="kin" p="adjective" ts="kɪn" tr="родственный; родовой"/>
+    <d v="kin" p="participle" ts="kɪn" tr="подобный"/>
+    <d v="kind" p="noun" ts="kaɪnd" tr="вид; разновидность; сорт; природа"/>
+    <d v="kind" p="adjective" ts="kaɪnd" tr="добрый; добрейший; мягкий; сердечный"/>
+    <d v="kindergarten" p="noun" ts="ˈkɪndəgɑːtn" tr="сад; детский сад"/>
+    <d v="kindhearted" p="adjective" ts="ˈkaɪndhɑːtɪd" tr="добросердечный; мягкосердечный"/>
+    <d v="kindle" p="verb" ts="kɪndl" tr="разжечь; зажигать; разгореться; зажечься"/>
+    <d v="kindle" p="noun" ts="kɪndl" tr="разжигание"/>
+    <d v="kindling" p="noun" ts="ˈkɪndlɪŋ" tr="разжигание"/>
+    <d v="kindling" p="participle" ts="ˈkɪndlɪŋ" tr="разжигающий"/>
+    <d v="kindly" p="adverb" ts="ˈkaɪndlɪ" tr="любезно; пожалуйста; доброжелательно; хорошо"/>
+    <d v="kindly" p="adjective" ts="ˈkaɪndlɪ" tr="добрый"/>
+    <d v="kindly" p="noun" ts="ˈkaɪndlɪ" tr="просьба; доброта; с удовольствием"/>
+    <d v="kindness" p="noun" ts="ˈkaɪndnɪs" tr="доброта; добро; мягкосердечие; ласка; доброе дело; одолжение"/>
+    <d v="kindred" p="adjective" ts="ˈkɪndrɪd" tr="родственный; сходный"/>
+    <d v="kindred" p="noun" ts="ˈkɪndrɪd" tr="родство; колено; родственники; род"/>
+    <d v="kinfolk" p="noun" ts="ˈɪnfəʊk" tr="родня"/>
+    <d v="king" p="noun" ts="kɪŋ" tr="царь; кинг; дамка; властитель; магнат"/>
+    <d v="king" p="verb" ts="kɪŋ" tr="править; повелевать"/>
+    <d v="Kingdom" p="noun" ts="ˈkɪŋdəm" tr="Королевство; царство"/>
+    <d v="Kingfisher" p="noun" ts="ˈkɪŋfɪʃə" tr="зимородок"/>
+    <d v="kingpin" p="noun" ts="ˈkɪŋpɪn" tr="наркобарон; главная фигура"/>
+    <d v="kink" p="noun" ts="kɪŋk" tr="кинк; излом; перегиб; петля; перекручивание; заскок"/>
+    <d v="kink" p="verb" ts="kɪŋk" tr="перекрутить"/>
+    <d v="kinky" p="adjective" ts="ˈkɪŋkɪ" tr="курчавый; странный"/>
+    <d v="kiosk" p="noun" ts="ˈkɪɔsk" tr="киоск"/>
+    <d v="kiss" p="verb" ts="kɪs" tr="поцеловать; поцеловаться"/>
+    <d v="kiss" p="noun" ts="kɪs" tr="поцелуй; безе"/>
+    <d v="kit" p="noun" ts="kɪt" tr="комплект; Кит; снаряжение; ремкомплект; сумка; сумка с инструментом"/>
+    <d v="kitchen" p="noun" ts="ˈkɪʧɪn" tr="кухня"/>
+    <d v="kitchen" p="adjective" ts="ˈkɪʧɪn" tr="кухонный"/>
+    <d v="kite" p="noun" ts="kaɪt" tr="кайт; змей; воздушный змей"/>
+    <d v="kitten" p="noun" ts="kɪtn" tr="котенок; киска"/>
+    <d v="kitty" p="noun" ts="ˈkɪtɪ" tr="Китти; Кити; киска; котенок"/>
+    <d v="kitty" p="adjective" ts="ˈkɪtɪ" tr="кошачий"/>
+    <d v="kiwi" p="noun" ts="ˈkiːwiː" tr="киви; новозеландец"/>
+    <d v="Kleenex" p="noun" ts="ˈkliːneks" tr="бумажный носовой платок"/>
+    <d v="kleptomaniac" p="noun" ts="kleptəʊˈmeɪnɪæk" tr="клептоман"/>
+    <d v="knack" p="noun" ts="næk" tr="дар; ловкость; уловка"/>
+    <d v="knapsack" p="noun" ts="ˈnæpsæk" tr="рюкзак"/>
+    <d v="knead" p="verb" ts="niːd" tr="замесить; месить; размять; мять; массировать; растирать"/>
+    <d v="knee" p="noun" ts="niː" tr="колено"/>
+    <d v="knee" p="adjective" ts="niː" tr="коленный"/>
+    <d v="kneecap" p="noun" ts="ˈniːkæp" tr="наколенник"/>
+    <d v="knee-deep" p="noun" ts="ˈniːˈdiːp" tr="колено"/>
+    <d v="kneel" p="verb" ts="niːl"
+       tr="преклонить; опуститься на колени; склониться; стоять на коленях; присесть; становиться на колени"/>
+    <d v="knickers" p="noun" ts="ˈnɪkəz" tr="трусики"/>
+    <d v="knickknack" p="noun" ts="ˈnɪknæk" tr="безделушка"/>
+    <d v="knife" p="noun" ts="naɪf" tr="нож; рубильник; скребок"/>
+    <d v="knife" p="adjective" ts="naɪf" tr="ножевой"/>
+    <d v="knight" p="noun" ts="naɪt" tr="рыцарь; конь; Витязь"/>
+    <d v="knight" p="adjective" ts="naɪt" tr="рыцарский"/>
+    <d v="knit" p="adjective" ts="nɪt" tr="трикотажный"/>
+    <d v="knit" p="verb" ts="nɪt" tr="вязать; срастаться; сращивать; штопать"/>
+    <d v="knit" p="noun" ts="nɪt" tr="трикотаж"/>
+    <d v="knitting" p="noun" ts="ˈnɪtɪŋ" tr="вязание; вязанье"/>
+    <d v="knitting" p="adjective" ts="ˈnɪtɪŋ" tr="трикотажный"/>
+    <d v="knitting" p="participle" ts="ˈnɪtɪŋ" tr="вяжущий"/>
+    <d v="knitting needle" p="noun" ts="ˈnɪtɪŋ niːdl" tr="спица"/>
+    <d v="knob" p="noun" ts="nɔb" tr="ручка; шишка; головка; выпуклость; башка; холмик"/>
+    <d v="knobby" p="adjective" ts="ˈnɔbɪ" tr="узловатый; бугристый"/>
+    <d v="knock" p="verb" ts="nɔk"
+       tr="постучать; сбить; выбить; стучаться; выбивать; повалить; вышибить; вышибать; валить; задавить; стукнуться; ошеломлять"/>
+    <d v="knock" p="noun" ts="nɔk" tr="стук; детонация; выбивание"/>
+    <d v="knocker" p="noun" ts="ˈnɔkə" tr="дверной молоток"/>
+    <d v="knockout" p="noun" ts="ˈnɒkaʊt" tr="нокаут"/>
+    <d v="knockout" p="adjective" ts="ˈnɒkaʊt" tr="сногсшибательный"/>
+    <d v="knoll" p="noun" ts="nəʊl" tr="холм"/>
+    <d v="knot" p="noun" ts="nɔt" tr="узел; сучок; кучка; сук; удавка; бант; шишка; нарост; загвоздка"/>
+    <d v="knot" p="verb" ts="nɔt" tr="завязывать; жениться"/>
+    <d v="knotty" p="adjective" ts="ˈnɔtɪ" tr="запутанный; узловатый"/>
+    <d v="knotty" p="participle" ts="ˈnɔtɪ" tr="сучковатый"/>
+    <d v="know" p="verb" ts="nəʊ" tr="знать; уметь; отличать; иметь представление"/>
+    <d v="knowing" p="noun" ts="ˈnəʊɪŋ" tr="знание; познание; понимание"/>
+    <d v="knowing" p="adjective" ts="ˈnəʊɪŋ" tr="ловкий"/>
+    <d v="knowing" p="adverbial participle" ts="ˈnəʊɪŋ" tr="ведая"/>
+    <d v="knowing" p="participle" ts="ˈnəʊɪŋ" tr="знающий; понимающий; познавший"/>
+    <d v="knowingly" p="adverb" ts="ˈnəʊɪŋlɪ" tr="сознательно; намеренно; понимающе; искусно"/>
+    <d v="knowledge" p="noun" ts="ˈnɔlɪʤ" tr="знание; знакомство; эрудиция; известие"/>
+    <d v="knowledgeable" p="participle" ts="ˈnɔlɪʤəbl" tr="знающий; хорошо осведомленный"/>
+    <d v="knowledgeable" p="adjective" ts="ˈnɔlɪʤəbl" tr="опытный"/>
+    <d v="knowledgeable" p="noun" ts="ˈnɔlɪʤəbl" tr="знание"/>
+    <d v="known" p="participle" ts="nəʊn" tr="известный; познанный"/>
+    <d v="known" p="adverb" ts="nəʊn" tr="известно"/>
+    <d v="knuckle" p="noun" ts="nʌkl" tr="костяшка; костяшка пальца; сустав пальца; ножка; огузок"/>
+    <d v="Koran" p="noun" ts="kɔˈrɑːn" tr="Коран"/>
+    <d v="Korean" p="adjective" ts="kəˈrɪən" tr="корейский"/>
+    <d v="Korean" p="noun" ts="kəˈrɪən" tr="Корея"/>
+    <d v="kosher" p="adjective" ts="ˈkəʊʃər" tr="кошерный"/>
+    <d v="kowtow" p="noun" ts="ˈkaʊˈtaʊ" tr="поклон; низкий поклон"/>
+    <d v="kowtow" p="verb" ts="ˈkaʊˈtaʊ" tr="раболепствовать"/>
+    <d v="kudos" p="noun" ts="ˈkjuːdɔs" tr="слава; престижность"/>
+    <d v="kW" p="noun" ts="kw" tr="кВт"/>
+</defs>

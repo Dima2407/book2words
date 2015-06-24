@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="oaf" p="noun" ts="əʊf" tr="олух; дурачок"/>
+    <d v="oak" p="noun" ts="əʊk" tr="дуб"/>
+    <d v="oak" p="adjective" ts="əʊk" tr="дубовый"/>
+    <d v="oar" p="noun" ts="ɔː" tr="весло"/>
+    <d v="oar" p="verb" ts="ɔː" tr="грести"/>
+    <d v="oasis" p="noun" ts="əʊˈeɪsɪs" tr="оазис"/>
+    <d v="oat" p="noun" ts="əʊt" tr="овес"/>
+    <d v="oat" p="adjective" ts="əʊt" tr="овсяный"/>
+    <d v="oath" p="noun" ts="əʊθ" tr="клятва"/>
+    <d v="oatmeal" p="noun" ts="ˈəʊtmiːl" tr="овсянка; овсяная мука"/>
+    <d v="oatmeal" p="adjective" ts="ˈəʊtmiːl" tr="овсяный"/>
+    <d v="obedience" p="noun" ts="əˈbiːdjəns" tr="послушание; подчинение; послушность"/>
+    <d v="obedience" p="verb" ts="əˈbiːdjəns" tr="повиноваться"/>
+    <d v="obedience" p="adjective" ts="əˈbiːdjəns" tr="послушный"/>
+    <d v="obedient" p="adjective" ts="əˈbiːdjənt" tr="послушный"/>
+    <d v="obedient" p="verb" ts="əˈbiːdjənt" tr="повиноваться"/>
+    <d v="obedient" p="noun" ts="əˈbiːdjənt" tr="послушание"/>
+    <d v="obediently" p="adverb" ts="əˈbiːdɪəntlɪ" tr="послушно"/>
+    <d v="obese" p="noun" ts="əʊˈbiːs" tr="ожирение"/>
+    <d v="obese" p="adjective" ts="əʊˈbiːs" tr="тучный"/>
+    <d v="obese" p="verb" ts="əʊˈbiːs" tr="страдать ожирением"/>
+    <d v="obese" p="participle" ts="əʊˈbiːs" tr="страдающий ожирением"/>
+    <d v="obesity" p="noun" ts="əʊˈbiːsɪtɪ" tr="ожирение"/>
+    <d v="obey" p="verb" ts="əˈbeɪ" tr="повиноваться; подчиняться; слушаться; соблюдать"/>
+    <d v="obey" p="noun" ts="əˈbeɪ" tr="повиновение"/>
+    <d v="obituary" p="noun" ts="əˈbɪtjʊərɪ" tr="некролог"/>
+    <d v="obituary" p="adjective" ts="əˈbɪtjʊərɪ" tr="похоронный"/>
+    <d v="object" p="noun" ts="ˈɔbʤɪkt" tr="объект; дополнение"/>
+    <d v="object" p="adjective" ts="ˈɔbʤɪkt" tr="объектный"/>
+    <d v="object" p="verb" ts="ˈɔbʤɪkt" tr="возражать"/>
+    <d v="objection" p="noun" ts="əbˈʤekʃn" tr="возражение; неодобрение; недостаток; нелюбовь"/>
+    <d v="objection" p="verb" ts="əbˈʤekʃn" tr="возражать"/>
+    <d v="objectionable" p="adjective" ts="əbˈʤekʃnəbl" tr="нежелательный; неприятный; спорный"/>
+    <d v="objective" p="noun" ts="əbˈʤektɪv" tr="цель; объектив"/>
+    <d v="objective" p="adjective" ts="əbˈʤektɪv" tr="объективный; целевой; предметный; реальный"/>
+    <d v="objectively" p="adverb" ts="əbˈʤektɪvlɪ" tr="объективно; предметно"/>
+    <d v="objectivity" p="noun" ts="ɔbʤekˈtɪvɪtɪ" tr="объективность; предметность"/>
+    <d v="objectivity" p="adjective" ts="ɔbʤekˈtɪvɪtɪ" tr="объективный"/>
+    <d v="objector" p="noun" ts="əbˈʤektə" tr="отказник; возражение"/>
+    <d v="objector" p="participle" ts="əbˈʤektə" tr="возражающий"/>
+    <d v="obligate" p="verb" ts="ˈɔblɪgeɪt" tr="обязывать"/>
+    <d v="obligation" p="noun" ts="ɔblɪˈgeɪʃn" tr="обязательство; обязательность"/>
+    <d v="obligatory" p="adjective" ts="ɔˈblɪgətərɪ" tr="обязательный"/>
+    <d v="obligatory" p="participle" ts="ɔˈblɪgətərɪ" tr="обязывающий"/>
+    <d v="oblige" p="verb" ts="əˈblaɪʤ" tr="обязывать; заставлять; угодить"/>
+    <d v="obliged" p="participle" ts="əˈblaɪʤd" tr="обязанный"/>
+    <d v="obliging" p="adjective" ts="əˈblaɪʤɪŋ" tr="услужливый; любезный; обязательный"/>
+    <d v="obliging" p="participle" ts="əˈblaɪʤɪŋ" tr="обязывающий"/>
+    <d v="obligingly" p="adverb" ts="əˈblaɪʤɪŋlɪ" tr="услужливо; любезно; послушно"/>
+    <d v="oblique" p="adjective" ts="əˈbliːk" tr="косой; косвенный"/>
+    <d v="oblique" p="participle" ts="əˈbliːk" tr="скошенный"/>
+    <d v="obliterate" p="verb" ts="əˈblɪtəreɪt" tr="уничтожить; стереть"/>
+    <d v="obliteration" p="noun" ts="əblɪtəˈreɪʃn" tr="уничтожение; облитерация; забвение"/>
+    <d v="oblivion" p="noun" ts="əˈblɪvɪən" tr="забвение"/>
+    <d v="oblivious" p="verb" ts="əˈblɪvɪəs" tr="забывать"/>
+    <d v="oblivious" p="adjective" ts="əˈblɪvɪəs" tr="забывчивый; безразличный; рассеянный"/>
+    <d v="oblivious" p="participle" ts="əˈblɪvɪəs" tr="забывший"/>
+    <d v="oblong" p="adjective" ts="ˈɔblɔŋ" tr="продолговатый"/>
+    <d v="oblong" p="participle" ts="ˈɔblɔŋ" tr="вытянутый"/>
+    <d v="obnoxious" p="adjective" ts="əbˈnɔkʃəs" tr="отвратительный; несносный"/>
+    <d v="oboe" p="noun" ts="ˈəʊbəʊ" tr="гобой"/>
+    <d v="obscene" p="adjective" ts="ɔbˈsiːn" tr="непристойный; нецензурный"/>
+    <d v="obscene" p="adverb" ts="ɔbˈsiːn" tr="нецензурно"/>
+    <d v="obscenity" p="noun" ts="ɔbˈsiːnɪtɪ" tr="непристойность; непотребство"/>
+    <d v="obscure" p="adjective" ts="əbˈskjʊə" tr="неясный; малоизвестный; темный; незаметный"/>
+    <d v="obscure" p="verb" ts="əbˈskjʊə" tr="скрывать; заслонять; затемнять; затенять; затмить; загораживать"/>
+    <d v="obscure" p="participle" ts="əbˈskjʊə" tr="скрытый"/>
+    <d v="obscurity" p="noun" ts="əbˈskjʊərɪtɪ"
+       tr="безвестность; мрак; неясность; темнота; незаметность; безызвестность; непонятность"/>
+    <d v="observable" p="participle" ts="əbˈzɜːvəbl" tr="наблюдаемый"/>
+    <d v="observable" p="adjective" ts="əbˈzɜːvəbl" tr="заметный; обозримый"/>
+    <d v="observance" p="noun" ts="əbˈzɜːvəns" tr="соблюдение; обряд"/>
+    <d v="observant" p="adjective" ts="əbˈzɜːvənt" tr="наблюдательный; внимательный; исполнительный"/>
+    <d v="observant" p="participle" ts="əbˈzɜːvənt" tr="соблюдающий; исполняющий"/>
+    <d v="observant" p="noun" ts="əbˈzɜːvənt" tr="наблюдательность"/>
+    <d v="observation" p="noun" ts="ɔbzɜːˈveɪʃn" tr="наблюдение; замечание; соображение; наблюдательность"/>
+    <d v="observation" p="adjective" ts="ɔbzɜːˈveɪʃn" tr="наблюдательный"/>
+    <d v="observatory" p="noun" ts="əbˈzɜːvətrɪ" tr="обсерватория; наблюдательный пункт"/>
+    <d v="observatory" p="adjective" ts="əbˈzɜːvətrɪ" tr="наблюдательный"/>
+    <d v="observe" p="verb" ts="əbˈzɜːv" tr="наблюдать; соблюдать; заметить; соблюсти; пронаблюдать"/>
+    <d v="observe" p="noun" ts="əbˈzɜːv" tr="наблюдение"/>
+    <d v="observer" p="noun" ts="əbˈzɜːvə" tr="наблюдатель"/>
+    <d v="obsess" p="verb" ts="əbˈses" tr="преследовать; овладеть"/>
+    <d v="obsessed" p="participle" ts="əbˈsest" tr="преследованный; помешанный; увлеченный"/>
+    <d v="obsession" p="noun" ts="əbˈseʃn" tr="одержимость; навязчивая идея; помешательство; одержание; мысль"/>
+    <d v="obsessive" p="adjective" ts="əbˈsesɪv" tr="навязчивый"/>
+    <d v="obsessive" p="noun" ts="əbˈsesɪv" tr="одержимость"/>
+    <d v="obsessively" p="adverb" ts="əbˈsesɪvlɪ" tr="одержимо"/>
+    <d v="obsolescence" p="noun" ts="ɒbsəˈlesns" tr="устаревание; моральный износ"/>
+    <d v="obsolete" p="adjective" ts="ˈɔbsəliːt" tr="устаревший"/>
+    <d v="obsolete" p="verb" ts="ˈɔbsəliːt" tr="устареть"/>
+    <d v="obsolete" p="participle" ts="ˈɔbsəliːt" tr="отживший; вышедший из употребления; атрофированный"/>
+    <d v="obstacle" p="noun" ts="ˈɔbstəkl" tr="препятствие; тормоз"/>
+    <d v="obstetrician" p="noun" ts="ɔbsteˈtrɪʃn" tr="акушер"/>
+    <d v="obstetrician" p="adjective" ts="ɔbsteˈtrɪʃn" tr="акушерский"/>
+    <d v="obstetrics" p="noun" ts="ɔbˈstetrɪks" tr="акушерство"/>
+    <d v="obstetrics" p="adjective" ts="ɔbˈstetrɪks" tr="акушерский"/>
+    <d v="obstinacy" p="noun" ts="ˈɔbstɪnəsɪ" tr="упрямство; упорство; неуступчивость"/>
+    <d v="obstinate" p="adjective" ts="ˈɔbstɪnɪt" tr="упрямый; упорный"/>
+    <d v="obstinate" p="verb" ts="ˈɔbstɪnɪt" tr="упрямиться"/>
+    <d v="obstinate" p="noun" ts="ˈɔbstɪnɪt" tr="упрямец"/>
+    <d v="obstinately" p="adverb" ts="ˈɒbstɪnətlɪ" tr="упрямо"/>
+    <d v="obstruct" p="verb" ts="əbˈstrʌkt" tr="препятствовать; затруднять; блокировать; заслонять; загромождать"/>
+    <d v="obstruct" p="noun" ts="əbˈstrʌkt" tr="препятствование"/>
+    <d v="obstruction" p="noun" ts="əbˈstrʌkʃn" tr="препятствие; обструкция; завал; воспрепятствование; запор"/>
+    <d v="obstructive" p="adjective" ts="əbˈstrʌktɪv" tr="обструктивный"/>
+    <d v="obstructive" p="participle" ts="əbˈstrʌktɪv" tr="препятствующий"/>
+    <d v="obtain" p="verb" ts="əbˈteɪn" tr="получить; получать; приобрести; добиться; добыть; испросить; существовать"/>
+    <d v="obtain" p="noun" ts="əbˈteɪn" tr="получение"/>
+    <d v="obtainable" p="adjective" ts="əbˈteɪnəbl" tr="доступный"/>
+    <d v="obtrusive" p="adjective" ts="əbˈtruːsɪv" tr="навязчивый"/>
+    <d v="obtrusive" p="participle" ts="əbˈtruːsɪv" tr="выступающий"/>
+    <d v="obtuse" p="adjective" ts="əbˈtjuːs" tr="тупой; бестолковый"/>
+    <d v="obvious" p="adjective" ts="ˈɔbvɪəs" tr="очевидный; вполне понятный"/>
+    <d v="obvious" p="adverb" ts="ˈɔbvɪəs" tr="налицо"/>
+    <d v="obviously" p="adverb" ts="ˈɒbvɪəslɪ" tr="явно; конечно; очевидно; естественно"/>
+    <d v="obviously" p="parenthetic" ts="ˈɒbvɪəslɪ" tr="разумеется"/>
+    <d v="obviously" p="noun" ts="ˈɒbvɪəslɪ" tr="с очевидностью"/>
+    <d v="occasion" p="noun" ts="əˈkeɪʒən" tr="случай; повод"/>
+    <d v="occasion" p="verb" ts="əˈkeɪʒən" tr="вызывать"/>
+    <d v="occasional" p="adjective" ts="əˈkeɪʒənl" tr="случайный"/>
+    <d v="occasional" p="adverb" ts="əˈkeɪʒənl" tr="иногда; периодически"/>
+    <d v="occasionally" p="adverb" ts="əˈkeɪʒnəlɪ" tr="иногда; периодически"/>
+    <d v="occasionally" p="noun" ts="əˈkeɪʒnəlɪ" tr="время от времени"/>
+    <d v="occult" p="adjective" ts="ɔˈkʌlt" tr="оккультный; тайный"/>
+    <d v="occupancy" p="noun" ts="ˈɔkjʊpənsɪ"
+       tr="размещение; заполняемость; занятость; занятие; аренда; загруженность"/>
+    <d v="occupant" p="noun" ts="ˈɔkjʊpənt" tr="обитатель; оккупант; пассажир"/>
+    <d v="occupation" p="noun" ts="ɔkjʊˈpeɪʃn" tr="оккупация; занятие; род деятельности"/>
+    <d v="occupation" p="adjective" ts="ɔkjʊˈpeɪʃn" tr="оккупационный"/>
+    <d v="occupational" p="adjective" ts="ɔkjʊˈpeɪʃənl" tr="профессиональный; оккупационный"/>
+    <d v="occupational" p="noun" ts="ɔkjʊˈpeɪʃənl" tr="трудотерапия"/>
+    <d v="occupied" p="adverb" ts="ˈɒkjʊpaɪd" tr="занято"/>
+    <d v="occupied" p="participle" ts="ˈɒkjʊpaɪd" tr="оккупированный; занятый; занимаемый; занимающийся"/>
+    <d v="occupy" p="verb" ts="ˈɔkjʊpaɪ" tr="занимать; оккупировать; захватить; населять; завладевать"/>
+    <d v="occur" p="verb" ts="əˈkɜː" tr="происходить; проявляться; протекать; залегать; попадаться"/>
+    <d v="occurrence" p="noun" ts="əˈkʌrəns"
+       tr="появление; случай; явление; вхождение; наличие; залегание; местонахождение; месторождение"/>
+    <d v="ocean" p="noun" ts="əʊʃn" tr="океан; масса"/>
+    <d v="ocean" p="adjective" ts="əʊʃn" tr="океанский"/>
+    <d v="oceanic" p="adjective" ts="əʊʃɪˈænɪk" tr="океанический"/>
+    <d v="oceanic" p="noun" ts="əʊʃɪˈænɪk" tr="океан"/>
+    <d v="oceanography" p="noun" ts="əʊʃjəˈnɔgrəfɪ" tr="океанография"/>
+    <d v="octagon" p="noun" ts="ˈɔktəgən" tr="восьмиугольник; Октагон; восьмерик"/>
+    <d v="octagonal" p="adjective" ts="ɔkˈtægənl" tr="восьмиугольный"/>
+    <d v="octave" p="noun" ts="ˈɔktɪv" tr="октава"/>
+    <d v="October" p="noun" ts="ɔkˈtəʊbə" tr="октябрь"/>
+    <d v="October" p="adjective" ts="ɔkˈtəʊbə" tr="Октябрьский"/>
+    <d v="octopus" p="noun" ts="ˈɔktəpəs" tr="осьминог; спрут"/>
+    <d v="odd" p="adjective" ts="ɔd" tr="странный; лишний; непарный; мудреный"/>
+    <d v="odd" p="noun" ts="ɔd" tr="странность"/>
+    <d v="oddity" p="noun" ts="ˈɔdɪtɪ" tr="странность; курьез; причуда; чудак; чудаковатость"/>
+    <d v="oddly" p="adverb" ts="ˈɔdlɪ" tr="странно; любопытно"/>
+    <d v="oddness" p="noun" ts="əˈdnəs" tr="странность"/>
+    <d v="odds" p="noun" ts="ɔdz" tr="Фора; шансы; вероятность; перевес; неравенство; разница"/>
+    <d v="ode" p="noun" ts="əʊd" tr="ода"/>
+    <d v="odious" p="adjective" ts="ˈəʊdjəs" tr="одиозный; отвратительный; ненавистный"/>
+    <d v="odious" p="noun" ts="ˈəʊdjəs" tr="одиозность"/>
+    <d v="odometer" p="noun" ts="əʊˈdɔmɪtə" tr="одометр; пробег"/>
+    <d v="odor" p="noun" ts="ˈəʊdə" tr="запах"/>
+    <d v="Odyssey" p="noun" ts="ˈɔdɪsɪ" tr="Одиссея"/>
+    <d v="of" p="preposition" ts="ɔv" tr="из; от; в; о; по; об; у; относительно"/>
+    <d v="off" p="preposition" ts="ɔf" tr="с; от"/>
+    <d v="off" p="adverb" ts="ɔf" tr="прочь; поодаль"/>
+    <d v="off" p="particle" ts="ɔf" tr="вон"/>
+    <d v="offbeat" p="adjective" ts="ˈɔfbiːt" tr="неординарный"/>
+    <d v="offend" p="verb" ts="əˈfend" tr="обидеть; обидеться; раздражать; нарушить; погрешить"/>
+    <d v="offend" p="noun" ts="əˈfend" tr="оскорбление"/>
+    <d v="offender" p="noun" ts="əˈfendə" tr="правонарушитель; оскорбитель"/>
+    <d v="offender" p="participle" ts="əˈfendə" tr="провинившийся"/>
+    <d v="offense" p="noun" ts="əˈfens" tr="преступление; обида"/>
+    <d v="offensive" p="adjective" ts="əˈfensɪv" tr="наступательный; оскорбительный; неприятный"/>
+    <d v="offensive" p="noun" ts="əˈfensɪv" tr="наступление; нападающий"/>
+    <d v="offensive" p="participle" ts="əˈfensɪv" tr="атакующий"/>
+    <d v="offensively" p="adverb" ts="əˈfensɪvlɪ" tr="обидно; оскорбительно"/>
+    <d v="offer" p="verb" ts="ˈɔfə" tr="предлагать; являться; возносить"/>
+    <d v="offer" p="noun" ts="ˈɔfə" tr="предложение; предоставление"/>
+    <d v="offer" p="participle" ts="ˈɔfə" tr="предложивший"/>
+    <d v="offering" p="noun" ts="ˈɔfərɪŋ" tr="предложение; приношение; размещение; подношение"/>
+    <d v="offering" p="participle" ts="ˈɔfərɪŋ" tr="предлагающий; предоставляющий; предложивший"/>
+    <d v="offhand" p="adverb" ts="ˈɔfˈhænd" tr="экспромтом; бесцеремонно; небрежно"/>
+    <d v="offhand" p="adjective" ts="ˈɔfˈhænd" tr="бесцеремонный; импровизированный"/>
+    <d v="office" p="noun" ts="ˈɔfɪs" tr="офис; служба; обязанность; здание; обряд"/>
+    <d v="office" p="adjective" ts="ˈɔfɪs" tr="офисный; канцелярский"/>
+    <d v="officer" p="noun" ts="ˈɔfɪsə" tr="офицер; сотрудник"/>
+    <d v="officer" p="adjective" ts="ˈɔfɪsə" tr="офицерский"/>
+    <d v="officer" p="verb" ts="ˈɔfɪsə" tr="командовать"/>
+    <d v="official" p="adjective" ts="əˈfɪʃəl" tr="официальный"/>
+    <d v="official" p="noun" ts="əˈfɪʃəl" tr="чиновник"/>
+    <d v="officially" p="adverb" ts="əˈfɪʃəlɪ" tr="официально"/>
+    <d v="officiate" p="noun" ts="əˈfɪʃɪeɪt" tr="судейство"/>
+    <d v="officious" p="adjective" ts="əˈfɪʃəs" tr="официозный; назойливый; услужливый"/>
+    <d v="offset" p="noun" ts="ˈɔfset"
+       tr="смещение; зачет; корректор; отступ; противовес; отпрыск; побег; отвод; контраст"/>
+    <d v="offset" p="adjective" ts="ˈɔfset" tr="офсетный"/>
+    <d v="offset" p="verb" ts="ˈɔfset" tr="компенсировать; возместить"/>
+    <d v="offset" p="participle" ts="ˈɔfset" tr="компенсированный"/>
+    <d v="offshoot" p="noun" ts="ˈɔfʃuːt" tr="ответвление; отпрыск; боковая ветвь"/>
+    <d v="offshore" p="adjective" ts="ˈɔfˈʃɔː" tr="оффшорный; морской"/>
+    <d v="offshore" p="noun" ts="ˈɔfˈʃɔː" tr="шельф; оффшор; в море; в открытом море"/>
+    <d v="offspring" p="noun" ts="ˈɔfsprɪŋ" tr="потомство; детище; порождение; плод"/>
+    <d v="offstage" p="noun" ts="ˈɔfˈsteɪʤ" tr="за сценой; со сцены"/>
+    <d v="often" p="adverb" ts="ɔfn" tr="часто"/>
+    <d v="often" p="adjective" ts="ɔfn" tr="нередкий"/>
+    <d v="often" p="noun" ts="ɔfn" tr="много раз"/>
+    <d v="ogle" p="noun" ts="əʊgl" tr="глазки; Огл"/>
+    <d v="ogle" p="verb" ts="əʊgl" tr="строить глазки; глазеть"/>
+    <d v="ogre" p="noun" ts="ˈəʊgə" tr="Огре; людоед; великан"/>
+    <d v="Oh" p="interjection" ts="əʊ" tr="ах; ох; ой"/>
+    <d v="ohm" p="noun" ts="əʊm" tr="ом"/>
+    <d v="oil" p="noun" ts="ɔɪl" tr="нефть"/>
+    <d v="oil" p="adjective" ts="ɔɪl" tr="нефтяной"/>
+    <d v="oil" p="verb" ts="ɔɪl" tr="смазывать"/>
+    <d v="oiled" p="adjective" ts="ɔɪld" tr="промасленный"/>
+    <d v="oiled" p="participle" ts="ɔɪld" tr="смазанный"/>
+    <d v="oilfield" p="noun" ts="ˈɔɪlfiːld" tr="месторождение"/>
+    <d v="oilfield" p="adjective" ts="ˈɔɪlfiːld" tr="нефтепромысловый"/>
+    <d v="oil painting" p="noun" ts="ɔɪl ˈpeɪntɪŋ" tr="масляная живопись"/>
+    <d v="oil slick" p="noun" ts="ɔɪl slɪk" tr="нефтяное пятно"/>
+    <d v="oil well" p="noun" ts="ɔɪl wel" tr="нефтяная скважина"/>
+    <d v="oily" p="adjective" ts="ˈɔɪlɪ" tr="жирный; маслянистый; нефтесодержащий; льстивый; вкрадчивый"/>
+    <d v="oily" p="participle" ts="ˈɔɪlɪ" tr="замасленный"/>
+    <d v="ointment" p="noun" ts="ˈɔɪntmənt" tr="мазь; притирание"/>
+    <d v="OK" p="invariant" ts="əʊˈkeɪ" tr="ОК"/>
+    <d v="OK" p="adverb" ts="əʊˈkeɪ" tr="хорошо"/>
+    <d v="OK" p="noun" ts="əʊˈkeɪ" tr="порядок"/>
+    <d v="okay" p="noun" ts="ˈəʊˈkeɪ" tr="в порядке"/>
+    <d v="okay" p="verb" ts="ˈəʊˈkeɪ" tr="возражать"/>
+    <d v="okra" p="noun" ts="ˈəʊkrə" tr="бамия; окра"/>
+    <d v="old" p="adjective" ts="əʊld" tr="старый; пожилой; прежний; давний; опытный; закоренелый; поношенный"/>
+    <d v="old" p="noun" ts="əʊld" tr="старик; старина; прошлое"/>
+    <d v="old" p="participle" ts="əʊld" tr="бывший"/>
+    <d v="old age" p="noun" ts="əʊld eɪʤ" tr="старость; пожилой возраст; преклонный возраст"/>
+    <d v="olden" p="noun" ts="ˈəʊldən" tr="старина"/>
+    <d v="olden" p="adjective" ts="ˈəʊldən" tr="древний"/>
+    <d v="olden" p="adverb" ts="ˈəʊldən" tr="издавна"/>
+    <d v="old Testament" p="noun" ts="əʊld ˈtestəmənt" tr="ветхий завет; старый завет"/>
+    <d v="old Testament" p="adjective" ts="əʊld ˈtestəmənt" tr="ветхозаветный"/>
+    <d v="old world" p="noun" ts="ˈəʊldˈwɜːld" tr="старый свет; старый мир; древний мир"/>
+    <d v="olive" p="adjective" ts="ˈɔlɪv" tr="оливковый"/>
+    <d v="olive" p="noun" ts="ˈɔlɪv" tr="оливка"/>
+    <d v="olive oil" p="noun" ts="ˈɔlɪv ɔɪl" tr="оливковое масло"/>
+    <d v="Olympic" p="adjective" ts="əʊˈlɪmpɪk" tr="Олимпийский"/>
+    <d v="Olympic" p="noun" ts="əʊˈlɪmpɪk" tr="олимпиада"/>
+    <d v="Olympic games" p="noun" ts="əˈlɪmpɪk geɪmz" tr="Олимпийские игры; проведение Олимпийских игр"/>
+    <d v="Ombudsman" p="noun" ts="ˈɒmbʊdzmæn" tr="омбудсмен"/>
+    <d v="omelet" p="noun" ts="ˈɔmlɪɪ" tr="омлет"/>
+    <d v="omen" p="noun" ts="ˈəʊmen" tr="предзнаменование; примета"/>
+    <d v="ominous" p="adjective" ts="ˈɔmɪnəs" tr="зловещий; угрожающий"/>
+    <d v="ominously" p="adverb" ts="ˈɒmɪnəslɪ" tr="зловеще"/>
+    <d v="omission" p="noun" ts="əˈmɪʃn" tr="упущение; опущение; недоработка"/>
+    <d v="omit" p="verb" ts="əˈmɪt"
+       tr="опустить; пропустить; пропускать; исключить; пренебрегать; не включать; умалчивать; убрать; не упоминать"/>
+    <d v="omnipotence" p="noun" ts="ɔmˈnɪpətəns" tr="всемогущество; всесилие; всевластие"/>
+    <d v="omniscience" p="noun" ts="ɔmˈnɪsɪəns" tr="всеведение; всезнание"/>
+    <d v="omniscient" p="adjective" ts="ɔmˈnɪsɪənt" tr="всеведущий"/>
+    <d v="omniscient" p="noun" ts="ɔmˈnɪsɪənt" tr="всеведение"/>
+    <d v="on" p="preposition" ts="ɔn" tr="на; по; о; об; за; относительно; у; касательно"/>
+    <d v="once" p="adverb" ts="wʌns" tr="сразу; только; однажды"/>
+    <d v="once" p="noun" ts="wʌns" tr="раз; один раз; после того"/>
+    <d v="once" p="particle" ts="wʌns" tr="еще"/>
+    <d v="once" p="adjective" ts="wʌns" tr="лишний"/>
+    <d v="once" p="adverbial participle" ts="wʌns" tr="оказавшись; попав"/>
+    <d v="oncoming" p="adjective" ts="ˈɔnkʌmɪŋ" tr="встречный; предстоящий"/>
+    <d v="oncoming" p="participle" ts="ˈɔnkʌmɪŋ" tr="приближающийся; надвигающийся"/>
+    <d v="oncoming" p="noun" ts="ˈɔnkʌmɪŋ" tr="приближение"/>
+    <d v="one" p="pronoun" ts="wʌn" tr="один; какой-то; некий; некто"/>
+    <d v="one" p="adjective" ts="wʌn" tr="единый"/>
+    <d v="one" p="numeral" ts="wʌn" tr="первый"/>
+    <d v="onerous" p="adjective" ts="ˈɔnərəs" tr="обременительный; возмездный"/>
+    <d v="oneself" p="particle" ts="wʌnˈself" tr="себе"/>
+    <d v="onetime" p="adjective" ts="ˈwʌntaɪm" tr="одноразовый"/>
+    <d v="onetime" p="participle" ts="ˈwʌntaɪm" tr="бывший"/>
+    <d v="ongoing" p="adjective" ts="ˈɒngəʊɪŋ" tr="постоянный"/>
+    <d v="ongoing" p="participle" ts="ˈɒngəʊɪŋ" tr="продолжающийся; проводимый; осуществляемый"/>
+    <d v="onion" p="noun" ts="ˈʌnjən" tr="лук"/>
+    <d v="onion" p="adjective" ts="ˈʌnjən" tr="луковый"/>
+    <d v="onlooker" p="noun" ts="ˈɔnlʊkə" tr="зритель; зевака"/>
+    <d v="only" p="particle" ts="ˈəʊnlɪ" tr="только"/>
+    <d v="only" p="adjective" ts="ˈəʊnlɪ" tr="единственный"/>
+    <d v="only" p="adverb" ts="ˈəʊnlɪ" tr="исключительно"/>
+    <d v="only" p="conjunction" ts="ˈəʊnlɪ" tr="но"/>
+    <d v="only" p="pronoun" ts="ˈəʊnlɪ" tr="что"/>
+    <d v="only child" p="noun" ts="ˈəʊnlɪ ʧaɪld"
+       tr="единственный ребенок; только ребенок; единственный сын; единственная дочь; единственное дитя"/>
+    <d v="onrush" p="noun" ts="ˈɔnrʌʃ" tr="стремительное развитие; натиск"/>
+    <d v="onset" p="noun" ts="ˈɔnset" tr="начало"/>
+    <d v="onslaught" p="noun" ts="ˈɔnslɔːt" tr="натиск; нападение; бешеная атака"/>
+    <d v="onto" p="preposition" ts="ˈɔntʊ" tr="на"/>
+    <d v="onus" p="noun" ts="ˈəʊnəs" tr="бремя"/>
+    <d v="onward" p="adverb" ts="ˈɔnwəd" tr="вперед"/>
+    <d v="onward" p="adjective" ts="ˈɔnwəd" tr="дальнейший"/>
+    <d v="onward" p="participle" ts="ˈɔnwəd" tr="продвигающийся"/>
+    <d v="onwards" p="adverb" ts="ˈɔnwədz" tr="далее"/>
+    <d v="oodles" p="noun" ts="uːdlz" tr="огромное количество"/>
+    <d v="ooze" p="verb" ts="uːz" tr="сочиться; утекать"/>
+    <d v="ooze" p="noun" ts="uːz" tr="тина"/>
+    <d v="opal" p="noun" ts="ˈəʊpəl" tr="опал"/>
+    <d v="opal" p="adjective" ts="ˈəʊpəl" tr="опаловый"/>
+    <d v="opaque" p="adjective" ts="əʊˈpeɪk" tr="непрозрачный; непроницаемый; светонепроницаемый; тупой"/>
+    <d v="opaque" p="noun" ts="əʊˈpeɪk" tr="непрозрачность"/>
+    <d v="open" p="adjective" ts="ˈəʊpən" tr="открытый"/>
+    <d v="open" p="verb" ts="ˈəʊpən" tr="открыть; раскрыть; начинать; основывать"/>
+    <d v="open" p="participle" ts="ˈəʊpən" tr="доступный; отрытый"/>
+    <d v="open" p="noun" ts="ˈəʊpən" tr="открывание; отверстие"/>
+    <d v="open" p="adverb" ts="ˈəʊpən" tr="сознательно"/>
+    <d v="opener" p="noun" ts="ˈəʊpnə" tr="открывалка; открывание; сошник; открыватель"/>
+    <d v="opener" p="participle" ts="ˈəʊpnə" tr="открывающий"/>
+    <d v="open house" p="noun" ts="ˈəʊpən haʊs" tr="открытый дом; день открытых дверей"/>
+    <d v="opening" p="noun" ts="ˈəʊpnɪŋ"
+       tr="открытие; отверстие; вакансия; щель; вступление; канал; благоприятная возможность"/>
+    <d v="opening" p="participle" ts="ˈəʊpnɪŋ" tr="открывающий; открывающийся; открывший"/>
+    <d v="opening" p="adjective" ts="ˈəʊpnɪŋ" tr="вступительный; начальный"/>
+    <d v="opening" p="numeral" ts="ˈəʊpnɪŋ" tr="первый"/>
+    <d v="openly" p="adverb" ts="ˈəʊpnlɪ" tr="открыто"/>
+    <d v="openly" p="participle" ts="ˈəʊpnlɪ" tr="в открытую"/>
+    <d v="openness" p="noun" ts="ˈəʊpnnɪs" tr="открытость"/>
+    <d v="open season" p="noun" ts="ˈəʊpən siːzn" tr="открытый сезон"/>
+    <d v="opera" p="noun" ts="ˈɔpərə" tr="опера"/>
+    <d v="opera" p="adjective" ts="ˈɔpərə" tr="оперный"/>
+    <d v="operable" p="adjective" ts="ˈɔpərəbl" tr="работоспособный; операбельный"/>
+    <d v="operable" p="participle" ts="ˈɔpərəbl" tr="исправный; действующий"/>
+    <d v="opera house" p="noun" ts="ˈɔpərə haʊs" tr="оперный театр; опера; оперный дом; дом оперы"/>
+    <d v="opera house" p="adjective" ts="ˈɔpərə haʊs" tr="оперный"/>
+    <d v="operate" p="verb" ts="ˈɔpəreɪt" tr="работать; управлять; оперировать"/>
+    <d v="operate" p="noun" ts="ˈɔpəreɪt" tr="работа"/>
+    <d v="operate" p="adjective" ts="ˈɔpəreɪt" tr="управляемый"/>
+    <d v="operatic" p="adjective" ts="ɔpəˈrætɪk" tr="оперный"/>
+    <d v="operating room" p="noun" ts="ˈɔpəreɪtɪŋ ruːm" tr="операционная комната; операционная; операционный зал"/>
+    <d v="operating system" p="noun" ts="ˈɔpəreɪtɪŋ ˈsɪstɪm" tr="операционная система; действующая система"/>
+    <d v="operation" p="noun" ts="ɔpəˈreɪʃn" tr="работа; операция"/>
+    <d v="operation" p="adjective" ts="ɔpəˈreɪʃn" tr="эксплуатационный"/>
+    <d v="operational" p="adjective" ts="ɔpəˈreɪʃənl" tr="оперативный"/>
+    <d v="operational" p="noun" ts="ɔpəˈreɪʃənl" tr="эксплуатация"/>
+    <d v="operational" p="participle" ts="ɔpəˈreɪʃənl" tr="действующий; работающий"/>
+    <d v="operationally" p="adverb" ts="ˈɒpəreɪʃnəlɪ" tr="оперативно"/>
+    <d v="operative" p="adjective" ts="ˈɔpərətɪv" tr="оперативный; действенный"/>
+    <d v="operative" p="noun" ts="ˈɔpərətɪv" tr="оперативник; оперативность"/>
+    <d v="operative" p="participle" ts="ˈɔpərətɪv" tr="действующий"/>
+    <d v="operator" p="noun" ts="ˈɔpəreɪtə" tr="оператор; эксплуатант; радист; телефонист; механик; телеграфист"/>
+    <d v="operator" p="adjective" ts="ˈɔpəreɪtə" tr="операторский"/>
+    <d v="ophthalmologist" p="noun" ts="ɔfθælˈmɔləʤɪst" tr="офтальмолог"/>
+    <d v="ophthalmology" p="noun" ts="ɔfθælˈmɔləʤɪ" tr="офтальмология"/>
+    <d v="ophthalmology" p="adjective" ts="ɔfθælˈmɔləʤɪ" tr="офтальмологический"/>
+    <d v="opinion" p="noun" ts="əˈpɪnjən" tr="мнение"/>
+    <d v="opinionated" p="adjective" ts="əˈpɪnjəneɪtɪd" tr="самоуверенный; упрямый; своевольный"/>
+    <d v="opinion poll" p="noun" ts="əˈpɪnjən pəʊl" tr="опрос общественного мнения; социологический опрос; соцопрос"/>
+    <d v="opium" p="noun" ts="ˈəʊpjəm" tr="опиум"/>
+    <d v="opium" p="adjective" ts="ˈəʊpjəm" tr="опийный"/>
+    <d v="opossum" p="noun" ts="əˈpɔsəm" tr="опоссум; сумчатая крыса"/>
+    <d v="opponent" p="noun" ts="əˈpəʊnənt" tr="противник; оппонент; соперник"/>
+    <d v="opportune" p="adjective" ts="ˈɔpətjuːn" tr="своевременный; благоприятный"/>
+    <d v="opportune" p="participle" ts="ˈɔpətjuːn" tr="подходящий"/>
+    <d v="opportunism" p="noun" ts="ˈɔpətjuːnɪzm" tr="оппортунизм"/>
+    <d v="opportunist" p="noun" ts="ˈɔpətjuːnɪst" tr="оппортунист; авантюрист"/>
+    <d v="opportunist" p="adjective" ts="ˈɔpətjuːnɪst" tr="оппортунистический"/>
+    <d v="opportunistic" p="adjective" ts="ɒpətjuːˈnɪstɪk" tr="оппортунистический; конъюнктурный"/>
+    <d v="opportunity" p="noun" ts="ɔpəˈtjuːnɪtɪ" tr="возможность"/>
+    <d v="oppose" p="verb" ts="əˈpəʊz" tr="противостоять; возражать; препятствовать; отвергать"/>
+    <d v="oppose" p="noun" ts="əˈpəʊz" tr="противодействие"/>
+    <d v="opposed" p="adjective" ts="əˈpəʊzd" tr="противоположный; враждебный"/>
+    <d v="opposed" p="participle" ts="əˈpəʊzd" tr="противостоящий; противный"/>
+    <d v="opposite" p="adjective" ts="ˈɔpəzɪt" tr="противоположный"/>
+    <d v="opposite" p="preposition" ts="ˈɔpəzɪt" tr="напротив; против"/>
+    <d v="opposite" p="noun" ts="ˈɔpəzɪt" tr="противоположность; коллега"/>
+    <d v="opposite" p="adverb" ts="ˈɔpəzɪt" tr="наоборот"/>
+    <d v="opposite" p="participle" ts="ˈɔpəzɪt" tr="противолежащий"/>
+    <d v="opposition" p="noun" ts="ɔpəˈzɪʃn"
+       tr="оппозиция; противостояние; противопоставление; противовключение; противление"/>
+    <d v="opposition" p="adjective" ts="ɔpəˈzɪʃn" tr="оппозиционный"/>
+    <d v="oppress" p="verb" ts="əˈpres" tr="угнетать; давить"/>
+    <d v="oppress" p="noun" ts="əˈpres" tr="угнетение"/>
+    <d v="oppressed" p="participle" ts="əˈprest" tr="угнетенный; угнетаемый; притесняемый"/>
+    <d v="oppression" p="noun" ts="əˈpreʃn" tr="угнетение; тирания; подавленность; угнетенность"/>
+    <d v="oppressive" p="adjective" ts="əˈpresɪv" tr="деспотический; репрессивный; тяжелый; тягостный"/>
+    <d v="oppressive" p="participle" ts="əˈpresɪv" tr="гнетущий; давящий; подавляющий"/>
+    <d v="oppressive" p="noun" ts="əˈpresɪv" tr="угнетение"/>
+    <d v="oppressive" p="verb" ts="əˈpresɪv" tr="угнетать; давить"/>
+    <d v="oppressor" p="noun" ts="əˈpresə" tr="угнетатель; притеснитель"/>
+    <d v="opt" p="verb" ts="ɔpt" tr="выбрать; решить; отказаться; уклоняться"/>
+    <d v="optic" p="adjective" ts="ˈɔptɪk" tr="оптический"/>
+    <d v="optical" p="adjective" ts="ˈɔptɪkəl" tr="оптический"/>
+    <d v="optical" p="adverb" ts="ˈɔptɪkəl" tr="оптически"/>
+    <d v="optical illusion" p="noun" ts="ˈɔptɪkəl ɪˈluːʒən"
+       tr="оптическая иллюзия; оптический обман; обман; обман зрения"/>
+    <d v="optician" p="noun" ts="ɔpˈtɪʃn" tr="оптик; окулист"/>
+    <d v="optimism" p="noun" ts="ˈɔptɪmɪzm" tr="оптимизм; оптимистичность"/>
+    <d v="optimist" p="noun" ts="ˈɔptɪmɪst" tr="оптимист"/>
+    <d v="optimistic" p="adjective" ts="ɔptɪˈmɪstɪk" tr="оптимистичный"/>
+    <d v="optimistically" p="adverb" ts="ɒptɪˈmɪstɪklɪ" tr="оптимистично"/>
+    <d v="optimistically" p="noun" ts="ɒptɪˈmɪstɪklɪ" tr="оптимизм; с оптимизмом"/>
+    <d v="optimum" p="adjective" ts="ˈɔptɪməm" tr="оптимальный"/>
+    <d v="optimum" p="noun" ts="ˈɔptɪməm" tr="оптимум; наиболее благоприятные условия"/>
+    <d v="option" p="noun" ts="ɔpʃn" tr="вариант; опцион; оптация"/>
+    <d v="optional" p="adjective" ts="ˈɔpʃənl" tr="дополнительный; опциональный"/>
+    <d v="optometrist" p="noun" ts="ɒpˈtɒmətrɪst" tr="оптометрист; окулист"/>
+    <d v="opulence" p="noun" ts="ˈɔpjʊləns" tr="богатство; роскошь; состоятельность"/>
+    <d v="opulent" p="adjective" ts="ˈɔpjʊlənt" tr="роскошный; богатый"/>
+    <d v="or" p="conjunction" ts="ɔː" tr="или"/>
+    <d v="or" p="conjunction" ts="ɔː" tr="или"/>
+    <d v="oral" p="adjective" ts="ˈɔːrəl" tr="устный; оральный"/>
+    <d v="oral" p="noun" ts="ˈɔːrəl" tr="полость рта"/>
+    <d v="orally" p="adverb" ts="ˈɔːrəlɪ" tr="устно; внутрь"/>
+    <d v="orally" p="adjective" ts="ˈɔːrəlɪ" tr="пероральный"/>
+    <d v="orally" p="noun" ts="ˈɔːrəlɪ" tr="в устной форме"/>
+    <d v="orange" p="adjective" ts="ˈɔrɪnʤ" tr="оранжевый; рыжий"/>
+    <d v="orange" p="noun" ts="ˈɔrɪnʤ" tr="апельсин"/>
+    <d v="orangutan" p="noun" ts="ˈɔːrəŋˈuːtæn" tr="орангутанг"/>
+    <d v="oration" p="noun" ts="ɔːˈreɪʃn" tr="речь"/>
+    <d v="orator" p="noun" ts="ˈɔrətə" tr="оратор; Златоуст"/>
+    <d v="oratory" p="noun" ts="ˈɔrətərɪ" tr="красноречие; часовня"/>
+    <d v="oratory" p="adjective" ts="ˈɔrətərɪ" tr="ораторский"/>
+    <d v="orbit" p="noun" ts="ˈɔːbɪt" tr="орбита; глазная впадина; сфера"/>
+    <d v="orbital" p="adjective" ts="ˈɔːbɪtl" tr="орбитальный"/>
+    <d v="orbital" p="noun" ts="ˈɔːbɪtl" tr="орбита"/>
+    <d v="orchard" p="noun" ts="ˈɔːʧəd" tr="сад; фруктовый сад"/>
+    <d v="orchard" p="adjective" ts="ˈɔːʧəd" tr="садовый"/>
+    <d v="orchestra" p="noun" ts="ˈɔːkɪstrə" tr="оркестр; партер"/>
+    <d v="orchestra" p="adjective" ts="ˈɔːkɪstrə" tr="оркестровый"/>
+    <d v="orchestral" p="adjective" ts="ɔːˈkestrəl" tr="оркестровый"/>
+    <d v="orchestrate" p="verb" ts="ˈɔːkɪstreɪt"
+       tr="организовать; оркестровать; управлять; дирижировать; инструментовать"/>
+    <d v="orchestration" p="noun" ts="ɔːkesˈtreɪʃn" tr="оркестровка"/>
+    <d v="orchid" p="noun" ts="ˈɔːkɪd" tr="орхидея"/>
+    <d v="ordain" p="verb" ts="ɔːˈdeɪn" tr="рукоположить; предопределить; предписывать; назначить"/>
+    <d v="ordain" p="noun" ts="ɔːˈdeɪn" tr="рукоположение"/>
+    <d v="ordeal" p="noun" ts="ɔːˈdiːl" tr="испытание; тяжелое испытание; мучение"/>
+    <d v="order" p="noun" ts="ˈɔːdə"
+       tr="порядок; заказ; приказ; орден; строй; отряд; род; спокойствие; степень; Устав; ранг; разрешение; исправность"/>
+    <d v="order" p="verb" ts="ˈɔːdə" tr="заказать; приказать; предписывать; назначать; направлять"/>
+    <d v="orderly" p="participle" ts="ˈɔːdəlɪ" tr="упорядоченный; организованный; дисциплинированный"/>
+    <d v="orderly" p="adjective" ts="ˈɔːdəlɪ"
+       tr="аккуратный; планомерный; стройный; правильный; спокойный; дежурный; благонравный"/>
+    <d v="orderly" p="noun" ts="ˈɔːdəlɪ" tr="санитар; ординарец; дневальный; вестовой"/>
+    <d v="orderly" p="verb" ts="ˈɔːdəlɪ" tr="упорядочить"/>
+    <d v="ordinal" p="adjective" ts="ˈɔːdɪnl" tr="порядковый"/>
+    <d v="ordinal" p="noun" ts="ˈɔːdɪnl" tr="порядковый номер"/>
+    <d v="ordinance" p="noun" ts="ˈɔːdɪnəns" tr="постановление; таинство"/>
+    <d v="ordinarily" p="adverb" ts="ˈɔːdnrɪlɪ" tr="обычно"/>
+    <d v="ordinary" p="adjective" ts="ˈɔːdnrɪ" tr="обычный"/>
+    <d v="ordinary" p="noun" ts="ˈɔːdnrɪ" tr="обыденность; дежурное блюдо"/>
+    <d v="ordination" p="noun" ts="ɔːdɪˈneɪʃn" tr="рукоположение"/>
+    <d v="ore" p="noun" ts="ɔː" tr="руда; металл"/>
+    <d v="ore" p="adjective" ts="ɔː" tr="рудный"/>
+    <d v="organ" p="noun" ts="ˈɔːgən" tr="орган"/>
+    <d v="organ" p="adjective" ts="ˈɔːgən" tr="органный"/>
+    <d v="organic" p="adjective" ts="ɔːˈgænɪk" tr="органический"/>
+    <d v="organically" p="adverb" ts="ɔːˈgænɪklɪ" tr="органично"/>
+    <d v="organism" p="noun" ts="ˈɔːgənɪzm" tr="организм"/>
+    <d v="organist" p="noun" ts="ˈɔːgənɪst" tr="органист"/>
+    <d v="organization" p="noun" ts="ɔːgənaɪˈzeɪʃn" tr="организация; устройство; формирование; организм"/>
+    <d v="organization" p="adjective" ts="ɔːgənaɪˈzeɪʃn" tr="организационный"/>
+    <d v="organizational" p="adjective" ts="ɔːgənaɪˈzeɪʃnl" tr="организационный; внутриорганизационный"/>
+    <d v="organize" p="verb" ts="ˈɔːgənaɪz" tr="организовать; устраивать; наладить; делать органическим"/>
+    <d v="organize" p="noun" ts="ˈɔːgənaɪz" tr="организация"/>
+    <d v="organized" p="adjective" ts="ˈɔːgənaɪzd" tr="организованный"/>
+    <d v="organizer" p="noun" ts="ˈɔːgənaɪzə" tr="организатор"/>
+    <d v="orgasm" p="noun" ts="ˈɔːgæzm" tr="оргазм"/>
+    <d v="orgy" p="noun" ts="ˈɔːʤɪ" tr="оргия; вакханалия; разгул"/>
+    <d v="orient" p="verb" ts="ˈɔːrɪənt" tr="ориентироваться; ориентировать"/>
+    <d v="orient" p="noun" ts="ˈɔːrɪənt" tr="Восток; ориентация"/>
+    <d v="orient" p="adjective" ts="ˈɔːrɪənt" tr="восточный"/>
+    <d v="orient" p="verb" ts="ˈɔːrɪənt" tr="ориентироваться; ориентировать"/>
+    <d v="orient" p="noun" ts="ˈɔːrɪənt" tr="Восток; ориентация"/>
+    <d v="orient" p="adjective" ts="ˈɔːrɪənt" tr="восточный"/>
+    <d v="oriental" p="adjective" ts="ɔːrɪˈentl" tr="восточный"/>
+    <d v="oriental" p="noun" ts="ɔːrɪˈentl" tr="востоковедение; азиат; житель Востока"/>
+    <d v="oriental" p="adjective" ts="ɔːrɪˈentl" tr="восточный"/>
+    <d v="oriental" p="noun" ts="ɔːrɪˈentl" tr="востоковедение; азиат; житель Востока"/>
+    <d v="orientation" p="noun" ts="ɔːrɪenˈteɪʃn" tr="ориентация; ориентирование"/>
+    <d v="orientation" p="adjective" ts="ɔːrɪenˈteɪʃn" tr="ознакомительный"/>
+    <d v="oriented" p="adjective" ts="ˈɔːrɪentɪd" tr="ориентированный"/>
+    <d v="oriented" p="noun" ts="ˈɔːrɪentɪd" tr="ориентация"/>
+    <d v="oriented" p="participle" ts="ˈɔːrɪentɪd" tr="сориентированный; ориентирующийся"/>
+    <d v="origin" p="noun" ts="ˈɔrɪʤɪn" tr="происхождение; исток; возникновение; первоначало"/>
+    <d v="origin" p="adjective" ts="ˈɔrɪʤɪn" tr="исходный"/>
+    <d v="original" p="adjective" ts="əˈrɪʤənl" tr="оригинальный; первоначальный; новый"/>
+    <d v="original" p="noun" ts="əˈrɪʤənl" tr="оригинал; оригинальность; первоисточник; чудак"/>
+    <d v="originality" p="noun" ts="ərɪʤɪˈnælɪtɪ" tr="оригинальность; новизна; подлинность; своеобразность"/>
+    <d v="originally" p="adverb" ts="əˈrɪʤɪnəlɪ" tr="первоначально; оригинально"/>
+    <d v="originally" p="noun" ts="əˈrɪʤɪnəlɪ" tr="выходец; по происхождению"/>
+    <d v="originate" p="verb" ts="əˈrɪʤɪneɪt" tr="происходить; создаваться"/>
+    <d v="originate" p="noun" ts="əˈrɪʤɪneɪt" tr="происхождение"/>
+    <d v="Oriole" p="noun" ts="ˈɔːrɪəʊl" tr="иволга"/>
+    <d v="ornament" p="noun" ts="ˈɔːnəmənt" tr="орнамент"/>
+    <d v="ornament" p="verb" ts="ˈɔːnəmənt" tr="украшать"/>
+    <d v="ornamental" p="adjective" ts="ɔːnəˈmentl" tr="декоративный"/>
+    <d v="ornamental" p="noun" ts="ɔːnəˈmentl" tr="украшение; декоративность"/>
+    <d v="ornate" p="participle" ts="ɔːˈneɪt" tr="украшенный; богато украшенный; изукрашенный"/>
+    <d v="ornate" p="adjective" ts="ɔːˈneɪt" tr="декоративный; витиеватый"/>
+    <d v="ornately" p="adverb" ts="ɔːˈneɪtlɪ" tr="витиевато"/>
+    <d v="ornithologist" p="noun" ts="ɔːnɪˈθɔləʤɪst" tr="орнитолог"/>
+    <d v="ornithology" p="noun" ts="ɔːnɪˈθɔləʤɪ" tr="орнитология"/>
+    <d v="orphan" p="noun" ts="ˈɔːfən" tr="сирота; сиротка"/>
+    <d v="orphan" p="adjective" ts="ˈɔːfən" tr="бесхозный; сиротский"/>
+    <d v="orphan" p="participle" ts="ˈɔːfən" tr="осиротевший"/>
+    <d v="orphanage" p="noun" ts="ˈɔːfənɪʤ" tr="детский дом; приют; сиротский приют; детский приют; сиротство"/>
+    <d v="orphanage" p="adjective" ts="ˈɔːfənɪʤ" tr="детский"/>
+    <d v="orthodontist" p="noun" ts="ɔːθəˈdɒntɪst" tr="ортодонт"/>
+    <d v="Orthodox" p="adjective" ts="ˈɔːθədɔks" tr="православный"/>
+    <d v="Orthodox" p="noun" ts="ˈɔːθədɔks" tr="православие"/>
+    <d v="Orthodoxy" p="noun" ts="ˈɔːθədɔksɪ" tr="православие; ортодоксальность"/>
+    <d v="Orthodoxy" p="adjective" ts="ˈɔːθədɔksɪ" tr="православный"/>
+    <d v="orthopedics" p="noun" ts="ɔːθəˈpiːdɪks" tr="ортопедия"/>
+    <d v="Oscar" p="noun" ts="ˈɒskər" tr="Оскар"/>
+    <d v="ostentation" p="noun" ts="ɔstenˈteɪʃn" tr="хвастовство; показная роскошь; показуха"/>
+    <d v="ostentatious" p="adjective" ts="ɔstenˈteɪʃəs" tr="показной; нарочитый"/>
+    <d v="ostentatiously" p="adverb" ts="ɒstenˈteɪʃəslɪ" tr="демонстративно"/>
+    <d v="ostracism" p="noun" ts="ˈɔstrəsɪzm" tr="остракизм"/>
+    <d v="ostracize" p="verb" ts="ˈɔstrəsaɪz" tr="подвергнуть остракизму"/>
+    <d v="ostrich" p="noun" ts="ˈɔstrɪʧ" tr="страус"/>
+    <d v="ostrich" p="adjective" ts="ˈɔstrɪʧ" tr="страусиный"/>
+    <d v="other" p="adjective" ts="ˈʌðə" tr="чужой; разный; дополнительный"/>
+    <d v="other" p="numeral" ts="ˈʌðə" tr="второй"/>
+    <d v="other" p="adverb" ts="ˈʌðə" tr="иначе"/>
+    <d v="other" p="noun" ts="ˈʌðə" tr="с другом"/>
+    <d v="otherwise" p="adverb" ts="ˈʌðəwaɪz" tr="иначе"/>
+    <d v="otherwise" p="adjective" ts="ˈʌðəwaɪz" tr="противный"/>
+    <d v="otherwise" p="noun" ts="ˈʌðəwaɪz" tr="в противном случае; в остальном; в других отношениях"/>
+    <d v="otherwise" p="pronoun" ts="ˈʌðəwaɪz" tr="иное"/>
+    <d v="otter" p="noun" ts="ˈɔtə" tr="выдра"/>
+    <d v="ounce" p="noun" ts="aʊns" tr="унция; капля; ИРБИС"/>
+    <d v="our" p="pronoun" ts="ˈaʊə" tr="наш; мы"/>
+    <d v="ours" p="pronoun" ts="ˈaʊəz" tr="наш; мы"/>
+    <d v="oust" p="verb" ts="aʊst" tr="вытеснить; изгнать; выгнать"/>
+    <d v="oust" p="noun" ts="aʊst" tr="вытеснение"/>
+    <d v="ouster" p="noun" ts="ˈaʊstə" tr="свержение; изгнание"/>
+    <d v="out" p="preposition" ts="aʊt" tr="из; вне"/>
+    <d v="out" p="adverb" ts="aʊt" tr="наружу"/>
+    <d v="out" p="verb" ts="aʊt" tr="выбраться; уехать"/>
+    <d v="out" p="particle" ts="aʊt" tr="вон"/>
+    <d v="out" p="noun" ts="aʊt" tr="недостаток"/>
+    <d v="outage" p="noun" ts="ˈaʊtɪʤ" tr="перебой; отключение; отключение электроэнергии"/>
+    <d v="Outback" p="adjective" ts="ˈaʊtbæk" tr="малонаселенный"/>
+    <d v="Outback" p="noun" ts="ˈaʊtbæk" tr="захолустье"/>
+    <d v="outbid" p="verb" ts="aʊtˈbɪd" tr="превзойти; перекупать; перекупить; перебить"/>
+    <d v="outboard motor" p="noun" ts="ˈaʊtbɔːd ˈməʊtə" tr="подвесной мотор; лодочный мотор; подвесной двигатель"/>
+    <d v="outbreak" p="noun" ts="ˈaʊtbreɪk" tr="вспышка; начало; выброс; восстание; массовое появление"/>
+    <d v="outburst" p="noun" ts="ˈaʊtbɜːst" tr="вспышка; порыв; разгул; прорыв; выпад; выходка"/>
+    <d v="outcast" p="noun" ts="ˈaʊtkɑːst" tr="изгой; изгнанник; маргинал"/>
+    <d v="outcast" p="adjective" ts="ˈaʊtkɑːst" tr="отверженный"/>
+    <d v="outcast" p="participle" ts="ˈaʊtkɑːst" tr="изгнанный"/>
+    <d v="outclass" p="verb" ts="aʊtˈklɑːs" tr="превосходить"/>
+    <d v="outcome" p="noun" ts="ˈaʊtkʌm" tr="результат; развязка; выход"/>
+    <d v="outcome" p="adjective" ts="ˈaʊtkʌm" tr="итоговый"/>
+    <d v="outcry" p="noun" ts="ˈaʊtkraɪ" tr="протест; крик; резонанс; громкий крик"/>
+    <d v="outdated" p="adjective" ts="aʊtˈdeɪtɪd" tr="устаревший; старомодный"/>
+    <d v="outdistance" p="verb" ts="aʊtˈdɪstəns" tr="опередить"/>
+    <d v="outdo" p="verb" ts="aʊtˈduː" tr="превзойти; опередить"/>
+    <d v="outdoor" p="adjective" ts="ˈaʊtdɔː" tr="наружный; открытый; напольный"/>
+    <d v="outdoor" p="noun" ts="ˈaʊtdɔː" tr="на открытом воздухе; открытый воздух; на улице"/>
+    <d v="outdoors" p="noun" ts="ˈaʊtˈdɔːz" tr="воздух; улица"/>
+    <d v="outer" p="adjective" ts="ˈaʊtə" tr="внешний; космический"/>
+    <d v="outer space" p="noun" ts="ˈaʊtə speɪs"
+       tr="космическое пространство; космос; открытый космос; внешнее пространство; внешний космос"/>
+    <d v="outfit" p="noun" ts="ˈaʊtfɪt"
+       tr="одежда; снаряжение; наряд; предприятие; группа; подразделение; часть; агрегат"/>
+    <d v="outfit" p="verb" ts="ˈaʊtfɪt" tr="оборудовать; экипировать"/>
+    <d v="outgoing" p="adverbial participle" ts="aʊtˈgəʊɪŋ" tr="исходя"/>
+    <d v="outgoing" p="participle" ts="aʊtˈgəʊɪŋ"
+       tr="исходящий; уходящий; отходящий; выходящий; отбывающий; уезжающий"/>
+    <d v="outgrow" p="verb" ts="aʊtˈgrəʊ" tr="перерасти; вырастать"/>
+    <d v="outgrowth" p="noun" ts="ˈaʊtgrəʊθ" tr="нарост; продукт"/>
+    <d v="outhouse" p="noun" ts="ˈaʊthaʊs" tr="флигель; сортир; сарай"/>
+    <d v="outing" p="noun" ts="ˈaʊtɪŋ" tr="прогулка"/>
+    <d v="outlandish" p="adjective" ts="aʊtˈlændɪʃ" tr="диковинный; заморский; глухой"/>
+    <d v="outlast" p="verb" ts="aʊtˈlɑːst" tr="пережить"/>
+    <d v="outlaw" p="noun" ts="ˈaʊtlɔː" tr="разбойник; преступник; изгой; изгнанник"/>
+    <d v="outlaw" p="verb" ts="ˈaʊtlɔː" tr="запретить; объявить вне закона; объявлять вне закона"/>
+    <d v="outlaw" p="adjective" ts="ˈaʊtlɔː" tr="незаконный"/>
+    <d v="outlaw" p="participle" ts="ˈaʊtlɔː" tr="поставленный вне закона"/>
+    <d v="outlay" p="noun" ts="ˈaʊtleɪ" tr="расходы; затрата; издержки"/>
+    <d v="outlay" p="verb" ts="ˈaʊtleɪ" tr="тратить"/>
+    <d v="outlet" p="noun" ts="ˈaʊtlet" tr="выход; розетка; отделение; отдушина; рынок сбыта; сток"/>
+    <d v="outlet" p="adjective" ts="ˈaʊtlet" tr="выходной"/>
+    <d v="outline" p="noun" ts="ˈaʊtlaɪn"
+       tr="контур; план; набросок; Аннотация; черта; очерк; канва; основные принципы"/>
+    <d v="outline" p="verb" ts="ˈaʊtlaɪn" tr="изложить; обрисовать; наметить"/>
+    <d v="outline" p="adjective" ts="ˈaʊtlaɪn" tr="контурный; эскизный"/>
+    <d v="outlive" p="verb" ts="aʊtˈlɪv" tr="пережить"/>
+    <d v="outlook" p="noun" ts="ˈaʊtlʊk" tr="перспектива; мировоззрение; взгляд; программа Outlook; наблюдение"/>
+    <d v="outlook" p="adjective" ts="ˈaʊtlʊk" tr="мировоззренческий"/>
+    <d v="outlying" p="adjective" ts="ˈaʊtlaɪɪŋ" tr="отдаленный; окраинный"/>
+    <d v="outlying" p="noun" ts="ˈaʊtlaɪɪŋ" tr="окраина"/>
+    <d v="outmaneuver" p="verb" ts="aʊtməˈnuːvər" tr="перехитрить"/>
+    <d v="outmoded" p="adjective" ts="ˈaʊtˈməʊdɪd" tr="устаревший; старомодный"/>
+    <d v="outmoded" p="participle" ts="ˈaʊtˈməʊdɪd" tr="вышедший из моды"/>
+    <d v="outnumber" p="verb" ts="aʊtˈnʌmbə" tr="превосходить; численно превосходить"/>
+    <d v="out of" p="preposition" ts="aʊt ɔv" tr="из; вне"/>
+    <d v="outpatient" p="adjective" ts="ˈaʊtpeɪʃnt" tr="амбулаторный"/>
+    <d v="outperform" p="verb" ts="aʊtpəˈfɔːm" tr="превосходить; обогнать"/>
+    <d v="outpost" p="noun" ts="ˈaʊtpəʊst" tr="форпост; аванпост"/>
+    <d v="outpouring" p="noun" ts="ˈaʊtpɔːrɪŋ" tr="излияние"/>
+    <d v="output" p="noun" ts="ˈaʊtpʊt" tr="выход; производство; вывод; продукция; результат; мощность"/>
+    <d v="output" p="adjective" ts="ˈaʊtpʊt" tr="выходной"/>
+    <d v="outrage" p="noun" ts="ˈaʊtreɪʤ" tr="возмущение; надругательство; произвол; безобразие; злодеяние"/>
+    <d v="outrage" p="participle" ts="ˈaʊtreɪʤ" tr="возмущенный"/>
+    <d v="outrage" p="verb" ts="ˈaʊtreɪʤ" tr="оскорблять; надругаться; преступать"/>
+    <d v="outraged" p="participle" ts="ˈaʊtreɪʤd" tr="возмущенный; оскорбленный; разгневанный"/>
+    <d v="outrageous" p="adjective" ts="aʊtˈreɪʤəs" tr="возмутительный; неистовый"/>
+    <d v="outrageous" p="noun" ts="aʊtˈreɪʤəs" tr="эпатаж; безобразие"/>
+    <d v="outrageously" p="adverb" ts="aʊtˈreɪʤəslɪ" tr="возмутительно; вопиюще; безобразно"/>
+    <d v="outreach" p="noun" ts="ˈaʊtriːʧ" tr="аутрич; охват; пропаганда; благовестие; вылет"/>
+    <d v="outreach" p="adjective" ts="ˈaʊtriːʧ" tr="просветительский; информационно-пропагандистский"/>
+    <d v="outright" p="adjective" ts="ˈaʊtraɪt" tr="прямой; откровенный; полный"/>
+    <d v="outright" p="adverb" ts="ˈaʊtraɪt" tr="прямо; наповал; совершенно"/>
+    <d v="outright" p="participle" ts="ˈaʊtraɪt" tr="открытый"/>
+    <d v="outrun" p="verb" ts="aʊtˈrʌn" tr="опережать; обогнать; убежать; оторваться"/>
+    <d v="outset" p="noun" ts="ˈaʊtset" tr="начало"/>
+    <d v="outshine" p="verb" ts="aʊtˈʃaɪn" tr="затмить"/>
+    <d v="outside" p="noun" ts="ˈaʊtˈsaɪd" tr="предел; за пределами; улица; на улице; на дворе; внешность; на воздухе"/>
+    <d v="outside" p="preposition" ts="ˈaʊtˈsaɪd" tr="вне; кроме"/>
+    <d v="outside" p="adverb" ts="ˈaʊtˈsaɪd" tr="снаружи; наружу"/>
+    <d v="outside" p="adjective" ts="ˈaʊtˈsaɪd" tr="внешний; крайний"/>
+    <d v="outside" p="participle" ts="ˈaʊtˈsaɪd" tr="входящий"/>
+    <d v="outside of" p="preposition" ts="ˈaʊtˈsaɪd ɔv" tr="вне; снаружи"/>
+    <d v="outside of" p="noun" ts="ˈaʊtˈsaɪd ɔv" tr="за пределами; за рамками"/>
+    <d v="outsider" p="noun" ts="ˈaʊtˈsaɪdə" tr="аутсайдер; чужак; сторонний наблюдатель; неспециалист; профан"/>
+    <d v="outsider" p="adjective" ts="ˈaʊtˈsaɪdə" tr="посторонний"/>
+    <d v="outskirts" p="noun" ts="ˈaʊtskɜːts" tr="окраина; околица"/>
+    <d v="outsmart" p="verb" ts="aʊtˈsmɑːt" tr="перехитрить"/>
+    <d v="outsourcing" p="noun" ts="aʊtˈsɔːsɪŋ" tr="аутсорсинг"/>
+    <d v="outsourcing" p="adjective" ts="aʊtˈsɔːsɪŋ" tr="аутсорсинговый"/>
+    <d v="outspoken" p="adjective" ts="aʊtˈspəʊkən" tr="откровенный"/>
+    <d v="outspoken" p="adverb" ts="aʊtˈspəʊkən" tr="откровенно"/>
+    <d v="outspoken" p="participle" ts="aʊtˈspəʊkən" tr="выраженный"/>
+    <d v="outspokenness" p="noun" ts="aʊtˈspəʊkənes" tr="откровенность"/>
+    <d v="outstanding" p="adjective" ts="aʊtˈstændɪŋ" tr="выдающийся; нерешенный; непогашенный"/>
+    <d v="outstanding" p="participle" ts="aʊtˈstændɪŋ" tr="выдающий; потрясающий"/>
+    <d v="outstretched" p="participle" ts="aʊtˈstreʧt" tr="протянутый; вытянутый"/>
+    <d v="outstrip" p="verb" ts="aʊtˈstrɪp" tr="опережать"/>
+    <d v="outward" p="adjective" ts="ˈaʊtwəd" tr="внешний; показной"/>
+    <d v="outward" p="participle" ts="ˈaʊtwəd" tr="направленный наружу; видимый"/>
+    <d v="outward" p="noun" ts="ˈaʊtwəd" tr="внешность"/>
+    <d v="outwardly" p="adverb" ts="ˈaʊtwədlɪ" tr="внешне"/>
+    <d v="outwards" p="adverb" ts="ˈaʊtwədz" tr="наружу"/>
+    <d v="outweigh" p="verb" ts="aʊtˈweɪ" tr="перевешивать; превышать"/>
+    <d v="outwit" p="verb" ts="aʊtˈwɪt" tr="перехитрить"/>
+    <d v="oval" p="adjective" ts="ˈəʊvəl" tr="овальный"/>
+    <d v="oval" p="noun" ts="ˈəʊvəl" tr="овал"/>
+    <d v="ovarian" p="noun" ts="əˈveərɪən" tr="яичник"/>
+    <d v="ovarian" p="adjective" ts="əˈveərɪən" tr="овариальный"/>
+    <d v="ovary" p="noun" ts="ˈəʊvərɪ" tr="яичник"/>
+    <d v="ovation" p="noun" ts="əʊˈveɪʃn" tr="овация"/>
+    <d v="oven" p="noun" ts="ʌvn" tr="печь; духовой шкаф"/>
+    <d v="oven" p="adjective" ts="ʌvn" tr="печной"/>
+    <d v="over" p="preposition" ts="ˈəʊvə" tr="над; за; по; через; сверх; относительно; касательно"/>
+    <d v="over" p="adverb" ts="ˈəʊvə" tr="более; свыше; снова; старше; слишком"/>
+    <d v="over" p="noun" ts="ˈəʊvə" tr="в течение"/>
+    <d v="over" p="adjective" ts="ˈəʊvə" tr="чрезмерный; верхний"/>
+    <d v="overall" p="adjective" ts="ˈəʊvərɔːl" tr="общий"/>
+    <d v="overall" p="noun" ts="ˈəʊvərɔːl" tr="комбинезон"/>
+    <d v="overbearing" p="adjective" ts="əʊvəˈbɛərɪŋ" tr="властный"/>
+    <d v="overboard" p="noun" ts="ˈəʊvəbɔːd" tr="борт; за борт"/>
+    <d v="overcast" p="adjective" ts="ˈəʊvəkɑːst" tr="пасмурный"/>
+    <d v="overcast" p="noun" ts="ˈəʊvəkɑːst" tr="облачность; сплошная облачность"/>
+    <d v="overcast" p="participle" ts="ˈəʊvəkɑːst" tr="покрытый облаками"/>
+    <d v="overcharge" p="noun" ts="ˈəʊvəˈʧɑːʤ" tr="перегрузка; перезаряд"/>
+    <d v="overcharge" p="verb" ts="ˈəʊvəˈʧɑːʤ" tr="перегружать; перезаряжать"/>
+    <d v="overcoat" p="noun" ts="ˈəʊvəkəʊt" tr="пальто"/>
+    <d v="overcome" p="verb" ts="əʊvəˈkʌm"
+       tr="преодолеть; победить; превзойти; пережить; переломить; охватить; истощить"/>
+    <d v="overcome" p="noun" ts="əʊvəˈkʌm" tr="преодоление"/>
+    <d v="overcome" p="participle" ts="əʊvəˈkʌm" tr="преодоленный; побежденный; отжатый; преодолеваемый"/>
+    <d v="overcompensation" p="noun" ts="əʊvəkɒmpenˈseɪʃn" tr="гиперкомпенсация"/>
+    <d v="overcrowded" p="participle" ts="əʊvəˈkraʊdɪd" tr="переполненный"/>
+    <d v="overdo" p="verb" ts="əʊvəˈduː"
+       tr="переусердствовать; перебарщивать; злоупотреблять; пережаривать; преувеличивать; пережарить"/>
+    <d v="overdone" p="participle" ts="əʊvəˈdʌn" tr="преувеличенный"/>
+    <d v="overdone" p="adjective" ts="əʊvəˈdʌn" tr="утрированный"/>
+    <d v="overdose" p="noun" ts="ˈəʊvədəʊs" tr="передозировка"/>
+    <d v="overdraw" p="verb" ts="ˈəʊvəˈdrɔː" tr="преувеличивать"/>
+    <d v="overdue" p="participle" ts="ˈəʊvəˈdjuː" tr="просроченный; назревший"/>
+    <d v="overdue" p="adjective" ts="ˈəʊvəˈdjuː" tr="запоздалый"/>
+    <d v="overeat" p="verb" ts="ˈəʊvərˈiːt" tr="переедать; объесться; переесть"/>
+    <d v="overestimate" p="verb" ts="əʊvəˈrestɪmeɪt" tr="переоценить"/>
+    <d v="overestimate" p="noun" ts="əʊvəˈrestɪmeɪt" tr="завышение"/>
+    <d v="overextended" p="participle" ts="ˈəʊvərɪksˈtendɪd" tr="затянутый"/>
+    <d v="overflow" p="noun" ts="ˈəʊvəfləʊ" tr="переполнение; перелив; переток; разлив; избыток"/>
+    <d v="overflow" p="verb" ts="ˈəʊvəfləʊ"
+       tr="переполнять; переполниться; разливаться; перетекать; переливаться через край; заливать"/>
+    <d v="overflow" p="adjective" ts="ˈəʊvəfləʊ" tr="переливной; сливной"/>
+    <d v="overgrown" p="participle" ts="ˈəʊvəˈgrəʊn" tr="заросший; поросший; переросший"/>
+    <d v="overgrown" p="verb" ts="ˈəʊvəˈgrəʊn" tr="обрасти"/>
+    <d v="overhang" p="noun" ts="ˈəʊvəhæŋ" tr="свес; навес; нависание; выступ; вылет"/>
+    <d v="overhang" p="verb" ts="ˈəʊvəhæŋ" tr="нависать; свешивать"/>
+    <d v="overhang" p="adverbial participle" ts="ˈəʊvəhæŋ" tr="свесив"/>
+    <d v="overhaul" p="noun" ts="ˈəʊvəhɔːl" tr="капитальный ремонт; ремонт; тщательный осмотр"/>
+    <d v="overhaul" p="verb" ts="ˈəʊvəhɔːl" tr="ремонтировать; пересмотреть; перестроить; догнать"/>
+    <d v="overhead" p="adjective" ts="ˈəʊvehed" tr="верхний; мостовой"/>
+    <d v="overhead" p="noun" ts="ˈəʊvehed" tr="голова; накладные; перекрытие"/>
+    <d v="overhead" p="participle" ts="ˈəʊvehed" tr="накладной"/>
+    <d v="overhead projector" p="noun" ts="ˈəʊvehed prəˈʤektə" tr="оверхед-проектор; диапроектор"/>
+    <d v="overhear" p="verb" ts="əʊvəˈhɪə" tr="подслушать; нечаянно услышать"/>
+    <d v="overjoyed" p="noun" ts="əʊvəˈʤɔɪd" tr="от радости"/>
+    <d v="overland" p="adjective" ts="ˈəʊvəlænd" tr="сухопутный"/>
+    <d v="overland" p="noun" ts="ˈəʊvəlænd" tr="по суше"/>
+    <d v="overlap" p="noun" ts="əʊvəˈlæp"
+       tr="перекрытие; совпадение; дублирование; частичное совпадение; нахлест; перехлест"/>
+    <d v="overlap" p="verb" ts="əʊvəˈlæp"
+       tr="перекрывать; совпадать; частично совпадать; пересекать; перекликаться; частично покрывать"/>
+    <d v="overlap" p="adverbial participle" ts="əʊvəˈlæp" tr="пересекаясь"/>
+    <d v="overload" p="noun" ts="ˈəʊvələʊd" tr="перегрузка"/>
+    <d v="overload" p="verb" ts="ˈəʊvələʊd" tr="перегружать"/>
+    <d v="overload" p="participle" ts="ˈəʊvələʊd" tr="перегруженный"/>
+    <d v="overlook" p="verb" ts="əʊvəˈlʊk"
+       tr="упускать; забывать; обозревать; просмотреть; упускать из виду; пропускать; возвышаться; обойти"/>
+    <d v="overly" p="adverb" ts="ˈəʊvəlɪ" tr="слишком"/>
+    <d v="overnight" p="noun" ts="ˈəʊvəˈnaɪt" tr="ночь; овернайт; одночасье; на ночь; в одночасье; с вечера"/>
+    <d v="overnight" p="adjective" ts="ˈəʊvəˈnaɪt" tr="ночной"/>
+    <d v="overnight" p="adverb" ts="ˈəʊvəˈnaɪt" tr="внезапно; ночью"/>
+    <d v="overnight" p="verb" ts="ˈəʊvəˈnaɪt" tr="ночевать"/>
+    <d v="overpass" p="noun" ts="ˈəʊvəpɑːs" tr="путепровод"/>
+    <d v="overpass" p="verb" ts="ˈəʊvəpɑːs" tr="преодолеть; превышать"/>
+    <d v="overpopulated" p="adjective" ts="əʊvəˈpɒpjʊleɪtɪd" tr="перенаселенный"/>
+    <d v="overpopulation" p="noun" ts="ˈəʊvəpɔpjʊˈleɪʃn" tr="перенаселение"/>
+    <d v="overpower" p="verb" ts="əʊvəˈpaʊə" tr="пересилить; одолеть; подавлять; сломить"/>
+    <d v="overpowering" p="adjective" ts="əʊvəˈpaʊərɪŋ" tr="непреодолимый"/>
+    <d v="overpowering" p="participle" ts="əʊvəˈpaʊərɪŋ" tr="подавляющий"/>
+    <d v="overrate" p="verb" ts="əʊvəˈreɪt" tr="переоценивать"/>
+    <d v="overrated" p="participle" ts="əʊvəˈreɪtɪd" tr="переоцененный"/>
+    <d v="overreact" p="verb" ts="ˈəʊvərɪækt" tr="слишком остро реагировать; излишне бурно реагировать"/>
+    <d v="overridden" p="participle" ts="əʊvəˈrɪdn" tr="переопределенный"/>
+    <d v="override" p="verb" ts="əʊvəˈraɪd"
+       tr="переопределить; отменять; перекрывать; отвергать; перезаписать; обойти; задавить; перевешивать; перегрузить; попирать; переехать"/>
+    <d v="overriding" p="adjective" ts="əʊvəˈraɪdɪŋ" tr="главный"/>
+    <d v="overriding" p="noun" ts="əʊvəˈraɪdɪŋ" tr="переопределение"/>
+    <d v="overrule" p="verb" ts="əʊvəˈruːl" tr="отменить; отклонить; господствовать"/>
+    <d v="overrun" p="noun" ts="əʊvəˈrʌn" tr="перерасход; переполнение; перебег"/>
+    <d v="overrun" p="verb" ts="əʊvəˈrʌn" tr="захватить; наводнять"/>
+    <d v="overseas" p="noun" ts="ˈəʊvəˈsiːz" tr="за рубежом; рубеж; за морем"/>
+    <d v="overseas" p="adjective" ts="ˈəʊvəˈsiːz" tr="зарубежный"/>
+    <d v="oversee" p="verb" ts="ˈəʊvəˈsiː" tr="контролировать"/>
+    <d v="overseen" p="participle" ts="ˈəʊvəˈsiːn" tr="контролируемый; курируемый"/>
+    <d v="overseer" p="noun" ts="ˈəʊvəsɪə" tr="надзиратель; надсмотрщик; смотритель; контролер; наблюдатель"/>
+    <d v="overseer" p="participle" ts="ˈəʊvəsɪə" tr="надзирающий"/>
+    <d v="overshadow" p="verb" ts="əʊvəˈʃædəʊ" tr="затмить; осенить; заслонять; омрачать; омрачить"/>
+    <d v="overshadow" p="noun" ts="əʊvəˈʃædəʊ" tr="тень"/>
+    <d v="overshoot" p="verb" ts="ˈəʊvəˈʃuːt" tr="проскочить; промахнуться"/>
+    <d v="overshoot" p="noun" ts="ˈəʊvəˈʃuːt" tr="перескок"/>
+    <d v="oversight" p="noun" ts="ˈəʊvəsaɪt" tr="надзор; оплошность; недосмотр"/>
+    <d v="oversight" p="adjective" ts="ˈəʊvəsaɪt" tr="надзорный"/>
+    <d v="oversight" p="participle" ts="ˈəʊvəsaɪt" tr="контролирующий"/>
+    <d v="oversimplification" p="noun" ts="əʊvəˈsɪmplɪfɪkeɪʃn" tr="упрощение; чрезмерное упрощение"/>
+    <d v="oversimplify" p="verb" ts="əʊvəˈsɪmplɪfaɪ" tr="упрощать; чрезмерно упрощать"/>
+    <d v="oversized" p="adjective" ts="ˈəʊvəsaɪzd" tr="негабаритный; сверхгабаритный"/>
+    <d v="oversized" p="adverb" ts="ˈəʊvəsaɪzd" tr="больше обычного размера"/>
+    <d v="oversleep" p="verb" ts="ˈəʊvəˈsliːp" tr="проспать; переспать"/>
+    <d v="overstate" p="verb" ts="ˈəʊvəˈsteɪt" tr="преувеличивать; завысить"/>
+    <d v="overstep" p="verb" ts="ˈəʊvəˈstep" tr="переступить; перешагнуть"/>
+    <d v="overt" p="adjective" ts="ˈəʊvɜːt" tr="явный; откровенный"/>
+    <d v="overt" p="participle" ts="ˈəʊvɜːt" tr="открытый"/>
+    <d v="overtake" p="verb" ts="ˈəʊvəˈteɪk"
+       tr="обогнать; догнать; настичь; настигать; опередить; объехать; нагонять; овладевать"/>
+    <d v="overtake" p="noun" ts="ˈəʊvəˈteɪk" tr="обгон"/>
+    <d v="overtaken" p="participle" ts="ˈəʊvəˈteɪkən" tr="обгоняемый; застигнутый; настигнутый"/>
+    <d v="overthrow" p="noun" ts="ˈəʊvəθrəʊ" tr="свержение; поражение"/>
+    <d v="overthrow" p="verb" ts="ˈəʊvəθrəʊ" tr="свергнуть; опрокинуть; ниспровергать; скинуть; уничтожать"/>
+    <d v="overthrown" p="participle" ts="əʊvəˈθrəʊn" tr="свергнутый"/>
+    <d v="overtime" p="adjective" ts="ˈəʊvətaɪm" tr="сверхурочный"/>
+    <d v="overtime" p="noun" ts="ˈəʊvətaɪm" tr="дополнительное время"/>
+    <d v="overtly" p="adverb" ts="ˈəʊvɜːtlɪ" tr="открыто"/>
+    <d v="overtone" p="noun" ts="ˈəʊvətəʊn" tr="обертон; подтекст; оттенок"/>
+    <d v="overture" p="noun" ts="ˈəʊvətjʊə" tr="увертюра; инициатива; попытка"/>
+    <d v="overturn" p="verb" ts="ˈəʊvətɜːn"
+       tr="отменить; переворачивать; опрокинуть; перевернуться; опрокидывать; опровергнуть; опрокидываться"/>
+    <d v="overturn" p="noun" ts="ˈəʊvətɜːn" tr="переворот; опрокидывание"/>
+    <d v="overview" p="noun" ts="ˈəʊvəvjuː" tr="обзор"/>
+    <d v="overview" p="adjective" ts="ˈəʊvəvjuː" tr="обзорный"/>
+    <d v="overweight" p="noun" ts="ˈəʊvəweɪt" tr="избыточный вес; перевес; излишек веса"/>
+    <d v="overweight" p="adjective" ts="ˈəʊvəweɪt" tr="избыточный; грузный"/>
+    <d v="overwhelm" p="verb" ts="əʊvəˈwelm"
+       tr="подавлять; захлестнуть; сокрушить; ошеломить; перегрузить; завалить; заваливать; переполнить; поглотить; потрясать; заливать; обуревать; сразить; разорять"/>
+    <d v="overwhelmed" p="participle" ts="əʊvəˈwelmd" tr="переполненный; ошеломленный; пораженный"/>
+    <d v="overwhelming" p="adjective" ts="əʊvəˈwelmɪŋ" tr="ошеломляющий; непреодолимый; непомерный; несметный"/>
+    <d v="overwhelming" p="participle" ts="əʊvəˈwelmɪŋ" tr="подавляющий; преобладающий"/>
+    <d v="overwhelmingly" p="noun" ts="əʊvəˈwelmɪŋlɪ"
+       tr="подавляющее большинство; в подавляющем большинстве; в подавляющем большинстве случаев"/>
+    <d v="overwhelmingly" p="adverb" ts="əʊvəˈwelmɪŋlɪ" tr="преимущественно; чрезвычайно; подавляюще"/>
+    <d v="overwork" p="noun" ts="əʊvəˈwɜːk" tr="переутомление; непосильный труд"/>
+    <d v="overwork" p="verb" ts="əʊvəˈwɜːk" tr="переутомлять; переработать"/>
+    <d v="overworked" p="participle" ts="əʊvəˈwɜːkt" tr="перегруженный; перегруженный работой"/>
+    <d v="overwrought" p="participle" ts="ˈəʊvəˈrɔːt" tr="переутомленный"/>
+    <d v="owe" p="adjective" ts="əʊ" tr="должный"/>
+    <d v="owe" p="verb" ts="əʊ" tr="задолжать"/>
+    <d v="owe" p="noun" ts="əʊ" tr="долг; должник"/>
+    <d v="owl" p="noun" ts="aʊl" tr="сова; полуночник; олух"/>
+    <d v="own" p="adjective" ts="əʊn" tr="собственный; оригинальный"/>
+    <d v="own" p="verb" ts="əʊn" tr="владеть; иметь; признавать"/>
+    <d v="own" p="participle" ts="əʊn" tr="любимый"/>
+    <d v="owner" p="noun" ts="ˈəʊnə" tr="владелец; обладатель"/>
+    <d v="ownership" p="noun" ts="ˈəʊnəʃɪp" tr="собственность; принадлежность"/>
+    <d v="ox" p="noun" ts="ɔks" tr="вол"/>
+    <d v="oxen" p="noun" ts="ˈɔksən" tr="рогатый скот"/>
+    <d v="oxide" p="noun" ts="ˈɔksaɪd" tr="оксид"/>
+    <d v="oxide" p="adjective" ts="ˈɔksaɪd" tr="оксидный"/>
+    <d v="oxidize" p="verb" ts="ˈɔksɪdaɪz" tr="окисляться; окислиться"/>
+    <d v="oxidize" p="noun" ts="ˈɔksɪdaɪz" tr="окисление"/>
+    <d v="oxygen" p="noun" ts="ˈɔksɪʤən" tr="кислород"/>
+    <d v="oxygen" p="adjective" ts="ˈɔksɪʤən" tr="кислородный"/>
+    <d v="oyster" p="noun" ts="ˈɔɪstə" tr="устрица; вешенка"/>
+    <d v="oyster" p="adjective" ts="ˈɔɪstə" tr="устричный"/>
+    <d v="ozone" p="noun" ts="ˈəʊzəʊn" tr="озон"/>
+    <d v="ozone" p="adjective" ts="ˈəʊzəʊn" tr="озоновый"/>
+    <d v="ozone layer" p="noun" ts="ˈəʊzəʊn ˈleɪə" tr="озоновый слой"/>
+
+</defs>

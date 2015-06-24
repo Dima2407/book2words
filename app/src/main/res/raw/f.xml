@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="fabric" p="noun" ts="ˈfæbrɪk" tr="ткань; материал; структура; остов; выделка"/>
+    <d v="fabric" p="adjective" ts="ˈfæbrɪk" tr="тканевый; матерчатый"/>
+    <d v="fabricate" p="verb" ts="ˈfæbrɪkeɪt"
+       tr="изготовить; изготавливать; сфабриковать; выдумывать; фальсифицировать"/>
+    <d v="fabricate" p="noun" ts="ˈfæbrɪkeɪt" tr="изготовление"/>
+    <d v="fabrication" p="noun" ts="fæbrɪˈkeɪʃn" tr="изготовление; выдумка; фальсификация"/>
+    <d v="fabulous" p="adjective" ts="ˈfæbjʊləs" tr="сказочный; невероятный; великолепный; легендарный; изумительный"/>
+    <d v="fabulous" p="participle" ts="ˈfæbjʊləs" tr="потрясающий"/>
+    <d v="fabulous" p="adverb" ts="ˈfæbjʊləs" tr="потрясающе"/>
+    <d v="facade" p="noun" ts="fəˈsɑːd" tr="фасад; видимость; показуха; внешний вид"/>
+    <d v="facade" p="adjective" ts="fəˈsɑːd" tr="фасадный"/>
+    <d v="face" p="noun" ts="feɪs"
+       tr="лицо; грань; поверхность; лицевая сторона; забой; торец; фасад; циферблат; гримаса; срез"/>
+    <d v="face" p="verb" ts="feɪs" tr="сталкиваться; грозить; облицовывать"/>
+    <d v="face" p="adjective" ts="feɪs" tr="лицевой"/>
+    <d v="faceless" p="adjective" ts="ˈfeɪsləs" tr="безликий"/>
+    <d v="face-lift" p="noun" ts="feɪs-lɪft" tr="подтяжка; подтяжка лица"/>
+    <d v="facet" p="noun" ts="ˈfæsɪt" tr="грань; аспект; фаска"/>
+    <d v="facet" p="verb" ts="ˈfæsɪt" tr="гранить; огранить"/>
+    <d v="facetious" p="adjective" ts="fəˈsiːʃəs" tr="шутливый"/>
+    <d v="face value" p="noun" ts="ˈfeɪsvæljuː" tr="номинальная стоимость; номинал"/>
+    <d v="facial" p="noun" ts="ˈfeɪʃəl" tr="лицо; мимика"/>
+    <d v="facial" p="adjective" ts="ˈfeɪʃəl" tr="лицевой"/>
+    <d v="facile" p="adjective" ts="ˈfæsaɪl" tr="поверхностный; поспешный"/>
+    <d v="facilitate" p="verb" ts="fəˈsɪlɪteɪt" tr="способствовать; облегчить"/>
+    <d v="facilitate" p="noun" ts="fəˈsɪlɪteɪt" tr="облегчение; содействие"/>
+    <d v="facilitate" p="participle" ts="fəˈsɪlɪteɪt" tr="облегчающий"/>
+    <d v="facility" p="noun" ts="fəˈsɪlɪtɪ"
+       tr="объект; установка; учреждение; оборудование; благоприятные условия; гибкость"/>
+    <d v="facsimile" p="adjective" ts="fækˈsɪmɪlɪ" tr="факсимильный"/>
+    <d v="facsimile" p="noun" ts="fækˈsɪmɪlɪ" tr="факсимиле"/>
+    <d v="fact" p="noun" ts="fækt" tr="факт; дело; событие"/>
+    <d v="faction" p="noun" ts="fækʃn" tr="фракция; группировка; клика"/>
+    <d v="factor" p="noun" ts="ˈfæktə" tr="фактор; коэффициент; момент; агент; движущая сила; комиссионер"/>
+    <d v="factor" p="adjective" ts="ˈfæktə" tr="факторный"/>
+    <d v="factory" p="noun" ts="ˈfæktərɪ" tr="завод; заводик; фактория"/>
+    <d v="factory" p="adjective" ts="ˈfæktərɪ" tr="заводский"/>
+    <d v="factual" p="adjective" ts="ˈfækʧʊəl" tr="фактический; фактографический"/>
+    <d v="faculty" p="noun" ts="ˈfækəltɪ" tr="факультет; способность; право"/>
+    <d v="faculty" p="adjective" ts="ˈfækəltɪ" tr="факультетский"/>
+    <d v="fad" p="noun" ts="fæd" tr="причуда; увлечение; мода; преходящее увлечение"/>
+    <d v="fade" p="verb" ts="feɪd"
+       tr="исчезать; увядать; угасать; выцветать; тускнеть; погаснуть; померкнуть; замирать; выгорать; стираться; стихнуть; постепенно исчезать; линять; расплываться"/>
+    <d v="fade" p="participle" ts="feɪd" tr="исчезающий"/>
+    <d v="fag" p="noun" ts="fæg" tr="пидор; сигарета"/>
+    <d v="faggot" p="noun" ts="ˈfægət" tr="гомик; вязанка; гомосексуалист"/>
+    <d v="Fahrenheit" p="noun" ts="ˈfærənhaɪt" tr="Фаренгейт; термометр Фаренгейта"/>
+    <d v="fail" p="verb" ts="feɪl"
+       tr="не удаться; не смочь; потерпеть неудачу; провалиться; провалить; потерпеть; недоставать; не сработать; выйти из строя; изменить; ослабевать; не иметь успеха; покинуть"/>
+    <d v="fail" p="noun" ts="feɪl" tr="неудача; ошибка"/>
+    <d v="fail" p="adjective" ts="feɪl" tr="неудачный"/>
+    <d v="failing" p="noun" ts="ˈfeɪlɪŋ" tr="недостаток; неудача"/>
+    <d v="failing" p="adjective" ts="ˈfeɪlɪŋ" tr="неудачный; неисправный"/>
+    <d v="failure" p="noun" ts="ˈfeɪljə"
+       tr="неудача; сбой; отказ; недостаточность; неспособность; разрушение; отсутствие; несостоятельность; срыв; неудачник; небрежность"/>
+    <d v="failure" p="adjective" ts="ˈfeɪljə" tr="неудачный"/>
+    <d v="faint" p="adjective" ts="feɪnt" tr="слабый"/>
+    <d v="faint" p="noun" ts="feɪnt" tr="обморок; слабость"/>
+    <d v="faint" p="verb" ts="feɪnt" tr="потерять сознание; ослабеть; упасть в обморок"/>
+    <d v="faint" p="participle" ts="feɪnt" tr="ослабевший"/>
+    <d v="fair" p="adjective" ts="fɛə"
+       tr="справедливый; прекрасный; светлый; ярмарочный; попутный; значительный; чистый; благоприятный; средний; посредственный"/>
+    <d v="fair" p="noun" ts="fɛə" tr="ярмарка; честность; красавица"/>
+    <d v="fairground" p="noun" ts="ˈfeəgraʊnd" tr="выставочный комплекс; ярмарочная площадь"/>
+    <d v="fairground" p="adjective" ts="ˈfeəgraʊnd" tr="ярмарочный"/>
+    <d v="fairly" p="adverb" ts="ˈfɛəlɪ" tr="довольно; достаточно; справедливо; объективно; фактически"/>
+    <d v="fairy" p="noun" ts="ˈfɛərɪ" tr="фея; эльф; гомосексуалист"/>
+    <d v="fairy" p="adjective" ts="ˈfɛərɪ" tr="сказочный"/>
+    <d v="fairy tale" p="noun" ts="ˈfɛərɪ teɪl" tr="сказка"/>
+    <d v="faith" p="noun" ts="feɪθ" tr="вера; вероисповедание; слово; честность"/>
+    <d v="faithful" p="adjective" ts="ˈfeɪθfʊl" tr="верный; правоверный"/>
+    <d v="faithful" p="noun" ts="ˈfeɪθfʊl" tr="верующий; верность; благоверный"/>
+    <d v="faithful" p="participle" ts="ˈfeɪθfʊl" tr="заслуживающий доверия"/>
+    <d v="faithfully" p="adverb" ts="ˈfeɪθfʊlɪ" tr="верно; добросовестно"/>
+    <d v="faithfully" p="particle" ts="ˈfeɪθfʊlɪ" tr="точно"/>
+    <d v="faithfully" p="noun" ts="ˈfeɪθfʊlɪ" tr="верность; с верностью"/>
+    <d v="faithfulness" p="noun" ts="ˈfeɪθfʊlnɪs" tr="верность"/>
+    <d v="faithless" p="adjective" ts="ˈfeɪθlɪs" tr="неверный"/>
+    <d v="fake" p="adjective" ts="feɪk" tr="поддельный; бутафорский"/>
+    <d v="fake" p="noun" ts="feɪk" tr="подделка"/>
+    <d v="fake" p="verb" ts="feɪk" tr="подделать; подделывать; притворяться; имитировать; инсценировать; сфабриковать"/>
+    <d v="fake" p="participle" ts="feɪk" tr="фальсифицированный; выдуманный"/>
+    <d v="falcon" p="noun" ts="ˈfɔːlkən" tr="Сокол"/>
+    <d v="falcon" p="adjective" ts="ˈfɔːlkən" tr="Соколиный"/>
+    <d v="fall" p="noun" ts="fɔːl" tr="падение; осень; водопад; впадение; уклон; фал"/>
+    <d v="fall" p="verb" ts="fɔːl"
+       tr="падать; попасть; влюбиться; приходиться; выпасть; впадать; спадать; валить; гибнуть; ниспадать; спускаться; оседать; потерпеть крах"/>
+    <d v="fall" p="adjective" ts="fɔːl" tr="осенний"/>
+    <d v="fallacious" p="adjective" ts="fəˈleɪʃəs" tr="ошибочный"/>
+    <d v="fallacy" p="noun" ts="ˈfæləsɪ" tr="заблуждение; ошибочность; софизм; ложный вывод; обманчивость"/>
+    <d v="fallen" p="participle" ts="ˈfɔːlən" tr="проваливающийся"/>
+    <d v="fallible" p="verb" ts="ˈfæləbl" tr="ошибаться"/>
+    <d v="fallout" p="noun" ts="ˈfɔːlaʊt" tr="выпадение"/>
+    <d v="false" p="adjective" ts="fɔːls" tr="ложный; фальшивый; лживый; подвесной; мнимый"/>
+    <d v="false" p="noun" ts="fɔːls" tr="ложь; фальшивка"/>
+    <d v="false" p="adverb" ts="fɔːls" tr="фальшиво"/>
+    <d v="falsehood" p="noun" ts="ˈfɔːlshʊd" tr="ложь; ложность; кривда; вероломство"/>
+    <d v="falsetto" p="noun" ts="fɔːlˈsetəʊ" tr="фальцет"/>
+    <d v="falsetto" p="adjective" ts="fɔːlˈsetəʊ" tr="фальцетный"/>
+    <d v="falsification" p="noun" ts="ˈfɔːlsɪfɪˈkeɪʃn" tr="фальсификация"/>
+    <d v="falsify" p="verb" ts="ˈfɔːlsɪfaɪ" tr="фальсифицировать; подделывать"/>
+    <d v="falsify" p="noun" ts="ˈfɔːlsɪfaɪ" tr="фальсификация"/>
+    <d v="falsity" p="noun" ts="ˈfɔːlsɪtɪ" tr="ложность; фальшивость"/>
+    <d v="falter" p="verb" ts="ˈfɔːltə" tr="дрогнуть; запнуться; колебаться; пошатнуться; запинаться; давать сбои"/>
+    <d v="faltering" p="adjective" ts="ˈfɔːltərɪŋ" tr="прерывистый; неуверенный; нерешительный"/>
+    <d v="faltering" p="adverbial participle" ts="ˈfɔːltərɪŋ" tr="запинаясь"/>
+    <d v="fame" p="noun" ts="feɪm" tr="слава"/>
+    <d v="fame" p="verb" ts="feɪm" tr="прославиться"/>
+    <d v="famed" p="adjective" ts="feɪmd" tr="прославленный; знаменитый"/>
+    <d v="familiar" p="adjective" ts="fəˈmɪljə" tr="знакомый; привычный; фамильярный"/>
+    <d v="familiar" p="verb" ts="fəˈmɪljə" tr="ознакомиться"/>
+    <d v="familiar" p="participle" ts="fəˈmɪljə" tr="ознакомленный"/>
+    <d v="familiar" p="noun" ts="fəˈmɪljə" tr="близкий друг"/>
+    <d v="familiarity" p="noun" ts="fəmɪlɪˈærɪtɪ"
+       tr="знакомство; знание; фамильярность; панибратство; известность; привычность"/>
+    <d v="familiarity" p="adjective" ts="fəmɪlɪˈærɪtɪ" tr="знакомый"/>
+    <d v="familiarize" p="verb" ts="fəˈmɪljəraɪz" tr="ознакомиться; ознакомить"/>
+    <d v="familiarize" p="noun" ts="fəˈmɪljəraɪz" tr="ознакомление"/>
+    <d v="familiarly" p="adverb" ts="fəˈmɪljəlɪ" tr="фамильярно; бесцеремонно"/>
+    <d v="family" p="noun" ts="ˈfæmɪlɪ" tr="семья; семейка; Содружество"/>
+    <d v="family" p="adjective" ts="ˈfæmɪlɪ" tr="семейный; фамильный"/>
+    <d v="family doctor" p="noun" ts="ˈfæmɪlɪ ˈdɔktə"
+       tr="семейный врач; семейный доктор; домашний врач; домашний доктор"/>
+    <d v="family name" p="noun" ts="ˈfæmɪlɪ neɪm" tr="фамилия"/>
+    <d v="family room" p="noun" ts="ˈfæmɪlɪ ruːm" tr="семейная комната"/>
+    <d v="family tree" p="noun" ts="ˈfæmɪlɪ triː"
+       tr="родословная; генеалогическое древо; семейное древо; фамильное дерево; древо семьи"/>
+    <d v="famine" p="noun" ts="ˈfæmɪn" tr="голод; голодание"/>
+    <d v="famous" p="adjective" ts="ˈfeɪməs" tr="известный; замечательный"/>
+    <d v="famous" p="noun" ts="ˈfeɪməs" tr="известность; знаменитость"/>
+    <d v="famous" p="participle" ts="ˈfeɪməs" tr="прославленный; прославившийся; славящийся"/>
+    <d v="famous" p="verb" ts="ˈfeɪməs" tr="прославиться"/>
+    <d v="famously" p="adjective" ts="ˈfeɪməslɪ" tr="знаменитый"/>
+    <d v="famously" p="adverb" ts="ˈfeɪməslɪ" tr="лихо; отлично"/>
+    <d v="fan" p="noun" ts="fæn" tr="поклонник; вентилятор; фан; веер; опахало; веялка"/>
+    <d v="fan" p="adjective" ts="fæn" tr="фанатский; веерный"/>
+    <d v="fan" p="verb" ts="fæn" tr="раздувать; обмахивать; обвевать"/>
+    <d v="fanatic" p="noun" ts="fəˈnætɪk" tr="фанатик; изувер"/>
+    <d v="fanatic" p="adjective" ts="fəˈnætɪk" tr="фанатический"/>
+    <d v="fanatical" p="adjective" ts="fəˈnætɪkəl" tr="фанатичный; фанатический"/>
+    <d v="fanatical" p="noun" ts="fəˈnætɪkəl" tr="фанатик"/>
+    <d v="fanatical" p="adverb" ts="fəˈnætɪkəl" tr="фанатически"/>
+    <d v="fanatically" p="adverb" ts="fəˈnætɪklɪ" tr="фанатично"/>
+    <d v="fanaticism" p="noun" ts="fəˈnætɪsɪzm" tr="фанатизм; изуверство"/>
+    <d v="fanciful" p="adjective" ts="ˈfænsɪfʊl" tr="причудливый; капризный"/>
+    <d v="fancy" p="noun" ts="ˈfænsɪ" tr="фантазия; прихоть; вкус; галантерея"/>
+    <d v="fancy" p="adjective" ts="ˈfænsɪ" tr="модный; причудливый; маскарадный; орнаментальный"/>
+    <d v="fancy" p="verb" ts="ˈfænsɪ" tr="нравиться; воображать; полюбиться; предполагать"/>
+    <d v="fancy" p="participle" ts="ˈfænsɪ" tr="приглянувшийся"/>
+    <d v="fanfare" p="noun" ts="ˈfænfɛə" tr="фанфара"/>
+    <d v="fang" p="noun" ts="fæŋ" tr="клык; ядовитый зуб; корень зуба"/>
+    <d v="Fanny" p="noun" ts="ˈfænɪ" tr="Фанни; задница"/>
+    <d v="fantasize" p="verb" ts="ˈfæntɪsaɪz" tr="фантазировать; пофантазировать"/>
+    <d v="fantastic" p="adjective" ts="fænˈtæstɪk" tr="фантастический; великолепный; сказовый; нереальный"/>
+    <d v="fantastic" p="noun" ts="fænˈtæstɪk" tr="фантастика"/>
+    <d v="fantastic" p="adverb" ts="fænˈtæstɪk" tr="фантастически"/>
+    <d v="fantastic" p="participle" ts="fænˈtæstɪk" tr="потрясающий"/>
+    <d v="fantastically" p="adverb" ts="fænˈtæstɪklɪ" tr="фантастически; сказочно"/>
+    <d v="fantastically" p="adjective" ts="fænˈtæstɪklɪ" tr="фантастический"/>
+    <d v="fantasy" p="noun" ts="ˈfæntəsɪ" tr="фантазия; фэнтези; фантастика; иллюзия; игра воображения; каприз"/>
+    <d v="fantasy" p="adjective" ts="ˈfæntəsɪ" tr="фантастический"/>
+    <d v="far" p="adjective" ts="fɑː" tr="дальний; Дальневосточный"/>
+    <d v="far" p="verb" ts="fɑː" tr="касаться"/>
+    <d v="faraway" p="adjective" ts="ˈfɑːrəweɪ" tr="далекий"/>
+    <d v="farce" p="noun" ts="fɑːs" tr="фарс; фарш"/>
+    <d v="farcical" p="adjective" ts="ˈfɑːsɪkəl" tr="фарсовый; нелепый"/>
+    <d v="farcical" p="noun" ts="ˈfɑːsɪkəl" tr="фарс"/>
+    <d v="fare" p="noun" ts="fɛə" tr="тариф; плата за проезд; стоимость проезда; пассажир; пища"/>
+    <d v="fare" p="verb" ts="fɛə" tr="поживать; быть; ехать; питаться"/>
+    <d v="fare" p="adjective" ts="fɛə" tr="тарифный"/>
+    <d v="far East" p="noun" ts="fɑː iːst" tr="дальний Восток; далекий Восток"/>
+    <d v="far East" p="adjective" ts="fɑː iːst" tr="Дальневосточный"/>
+    <d v="farewell" p="verb" ts="ˈfɛəˈwel" tr="прощать; попрощаться"/>
+    <d v="farewell" p="adjective" ts="ˈfɛəˈwel" tr="прощальный"/>
+    <d v="farewell" p="noun" ts="ˈfɛəˈwel" tr="прощание"/>
+    <d v="farewell" p="adverbial participle" ts="ˈfɛəˈwel" tr="прощаясь"/>
+    <d v="farm" p="noun" ts="fɑːm" tr="ферма; хозяйство; совхоз; фермерское хозяйство; питомник"/>
+    <d v="farm" p="adjective" ts="fɑːm" tr="фермерский"/>
+    <d v="farm" p="verb" ts="fɑːm" tr="обрабатывать землю"/>
+    <d v="farmer" p="noun" ts="ˈfɑːmə" tr="фермер; земледелец; арендатор; откупщик"/>
+    <d v="farmer" p="adjective" ts="ˈfɑːmə" tr="фермерский"/>
+    <d v="farmhouse" p="noun" ts="ˈfɑːmhaʊs" tr="ферма; фермерский дом; крестьянский дом"/>
+    <d v="farmhouse" p="adjective" ts="ˈfɑːmhaʊs" tr="фермерский"/>
+    <d v="farming" p="noun" ts="ˈfɑːmɪŋ"
+       tr="сельское хозяйство; фермерство; фермерское хозяйство; выращивание; животноводство; занятие сельским хозяйством"/>
+    <d v="farming" p="adjective" ts="ˈfɑːmɪŋ" tr="сельскохозяйственный; земледельческий"/>
+    <d v="farmyard" p="noun" ts="ˈfɑːmjɑːd" tr="скотный двор; двор фермы"/>
+    <d v="fart" p="verb" ts="fɑːt" tr="пукать; пернуть"/>
+    <d v="fart" p="noun" ts="fɑːt" tr="пердун; пук"/>
+    <d v="farther" p="adverb" ts="ˈfɑːðə" tr="дальше"/>
+    <d v="farther" p="adjective" ts="ˈfɑːðə" tr="далекий; более далекий"/>
+    <d v="fascinate" p="verb" ts="ˈfæsɪneɪt" tr="очаровывать; восхищать; захватывать"/>
+    <d v="fascinating" p="adjective" ts="ˈfæsɪneɪtɪŋ" tr="увлекательный; очаровательный; удивительный"/>
+    <d v="fascinating" p="participle" ts="ˈfæsɪneɪtɪŋ" tr="захватывающий; завораживающий; потрясающий"/>
+    <d v="fascinating" p="adverb" ts="ˈfæsɪneɪtɪŋ" tr="завораживающе"/>
+    <d v="fascination" p="noun" ts="fæsɪˈneɪʃn"
+       tr="очарование; увлечение; увлекательность; привлекательность; очарованность"/>
+    <d v="fascism" p="noun" ts="ˈfæʃɪzm" tr="фашизм"/>
+    <d v="fascist" p="adjective" ts="ˈfæʃɪst" tr="фашистский"/>
+    <d v="fascist" p="noun" ts="ˈfæʃɪst" tr="фашист"/>
+    <d v="fashion" p="noun" ts="fæʃn" tr="мода; модница"/>
+    <d v="fashion" p="adjective" ts="fæʃn" tr="модный"/>
+    <d v="fashion" p="verb" ts="fæʃn" tr="фасонировать; моделировать"/>
+    <d v="fashionable" p="adjective" ts="ˈfæʃnəbl" tr="модный"/>
+    <d v="fashionable" p="noun" ts="ˈfæʃnəbl" tr="мода"/>
+    <d v="fashionably" p="adverb" ts="ˈfæʃnəblɪ" tr="модно"/>
+    <d v="fast" p="adjective" ts="fɑːst" tr="быстрый; постный; шустрый; прочный; легкомысленный"/>
+    <d v="fast" p="verb" ts="fɑːst" tr="поститься"/>
+    <d v="fast" p="noun" ts="fɑːst" tr="пост"/>
+    <d v="fast" p="participle" ts="fɑːst" tr="постящийся"/>
+    <d v="fasten" p="verb" ts="fɑːsn"
+       tr="крепиться; закрепить; пристегнуть; завязать; скреплять; крепить; пристегивать; нацепить; прикрутить; прикручивать; устремлять"/>
+    <d v="fasten" p="noun" ts="fɑːsn" tr="крепление"/>
+    <d v="fastener" p="noun" ts="ˈfɑːsnə" tr="застежка; крепежная деталь; крепежный элемент"/>
+    <d v="fastener" p="adjective" ts="ˈfɑːsnə" tr="крепежный"/>
+    <d v="fastening" p="noun" ts="ˈfɑːsnɪŋ" tr="крепление; связывание"/>
+    <d v="fastening" p="adjective" ts="ˈfɑːsnɪŋ" tr="крепежный"/>
+    <d v="fastening" p="participle" ts="ˈfɑːsnɪŋ" tr="крепящийся"/>
+    <d v="fast food" p="noun" ts="fɑːst fuːd" tr="быстрое питание; быстрая еда; быстрая пища"/>
+    <d v="fast-forward" p="noun" ts="fɑːst-ˈfɔːwəd" tr="быстрая перемотка"/>
+    <d v="fast-forward" p="verb" ts="fɑːst-ˈfɔːwəd" tr="перемотать"/>
+    <d v="fastidious" p="adjective" ts="fəsˈtɪdɪəs" tr="привередливый; брезгливый"/>
+    <d v="fat" p="noun" ts="fæt" tr="жир; толстяк; ожирение; полнота"/>
+    <d v="fat" p="adjective" ts="fæt" tr="жирный; упитанный; богатый"/>
+    <d v="fat" p="participle" ts="fæt" tr="обезжиренный; откормленный"/>
+    <d v="fatal" p="adjective" ts="feɪtl" tr="смертельный; пагубный; непоправимый; неизбежный"/>
+    <d v="fatal" p="noun" ts="feɪtl" tr="летальный исход"/>
+    <d v="fatalism" p="noun" ts="ˈfeɪtəlɪzm" tr="фатализм"/>
+    <d v="fatalistic" p="adjective" ts="feɪtəˈlɪstɪk" tr="фаталистический"/>
+    <d v="fatality" p="noun" ts="fəˈtælɪtɪ" tr="смертность; гибель; фатальность; несчастье; обреченность"/>
+    <d v="fatally" p="adverb" ts="ˈfeɪtəlɪ" tr="смертельно; фатально; пагубно"/>
+    <d v="fatally" p="adjective" ts="ˈfeɪtəlɪ" tr="роковой"/>
+    <d v="fate" p="noun" ts="feɪt" tr="судьба; удел; смерть"/>
+    <d v="fateful" p="adjective" ts="ˈfeɪtfʊl" tr="роковой; зловещий; пророческий; решительный"/>
+    <d v="father" p="noun" ts="ˈfɑːðə" tr="отец; предок; покровитель"/>
+    <d v="father" p="verb" ts="ˈfɑːðə" tr="производить"/>
+    <d v="father" p="noun" ts="ˈfɑːðə" tr="отец; предок; покровитель"/>
+    <d v="father" p="verb" ts="ˈfɑːðə" tr="производить"/>
+    <d v="fatherhood" p="noun" ts="ˈfɑːðəhʊd" tr="отцовство"/>
+    <d v="fatherly" p="adjective" ts="ˈfɑːðəlɪ" tr="отеческий"/>
+    <d v="fatherly" p="adverb" ts="ˈfɑːðəlɪ" tr="отечески"/>
+    <d v="father&apos;s day" p="noun" ts="ˈfɑːðə&apos;ses deɪ" tr="день отца"/>
+    <d v="fathom" p="verb" ts="ˈfæðəm" tr="понять; проникнуть"/>
+    <d v="fathom" p="noun" ts="ˈfæðəm" tr="сажень; морская сажень"/>
+    <d v="fatigue" p="noun" ts="fəˈtiːg" tr="усталость; Роба"/>
+    <d v="fatigue" p="adjective" ts="fəˈtiːg" tr="усталостный; усталый"/>
+    <d v="fatigue" p="verb" ts="fəˈtiːg" tr="устать; утомлять; изнурять"/>
+    <d v="fatten" p="verb" ts="fætn" tr="откармливать; жиреть; толстеть"/>
+    <d v="fattening" p="noun" ts="ˈfætnɪŋ" tr="откорм"/>
+    <d v="fatty" p="adjective" ts="ˈfætɪ" tr="жирный"/>
+    <d v="fatty" p="noun" ts="ˈfætɪ" tr="толстяк; толстушка"/>
+    <d v="fatuous" p="adjective" ts="ˈfætjʊəs" tr="глупый"/>
+    <d v="faucet" p="noun" ts="ˈfɔːsɪt" tr="смеситель; кран"/>
+    <d v="fault" p="noun" ts="fɔːlt" tr="вина; неисправность; ошибка; недостаток; разлом; перебой; сброс; провинность"/>
+    <d v="fault" p="adjective" ts="fɔːlt" tr="виноватый"/>
+    <d v="fault" p="verb" ts="fɔːlt" tr="придраться; придираться; винить"/>
+    <d v="faultless" p="adjective" ts="ˈfɔːltlɪs" tr="безупречный"/>
+    <d v="faulty" p="adjective" ts="ˈfɔːltɪ" tr="неисправный; ошибочный; порочный; сбойный"/>
+    <d v="faulty" p="noun" ts="ˈfɔːltɪ" tr="неисправность"/>
+    <d v="faulty" p="participle" ts="ˈfɔːltɪ" tr="испорченный"/>
+    <d v="fauna" p="noun" ts="ˈfɔːnə" tr="фауна"/>
+    <d v="fauna" p="adjective" ts="ˈfɔːnə" tr="животный"/>
+    <d v="favor" p="noun" ts="ˈfeɪvə" tr="польза; благосклонность; предпочтение; благоприятствование"/>
+    <d v="favor" p="verb" ts="ˈfeɪvə" tr="благоприятствовать; предпочитать; одобрять; жаловать"/>
+    <d v="favorable" p="adjective" ts="ˈfeɪvərəbl" tr="благоприятный"/>
+    <d v="favorable" p="participle" ts="ˈfeɪvərəbl" tr="благоприятствующий"/>
+    <d v="favorably" p="adverb" ts="ˈfeɪvərəblɪ" tr="благоприятно; положительно; благожелательно"/>
+    <d v="favorably" p="adjective" ts="ˈfeɪvərəblɪ" tr="благоприятный"/>
+    <d v="favorite" p="participle" ts="ˈfeɪvərɪt" tr="любимый; избранный; понравившийся"/>
+    <d v="favorite" p="noun" ts="ˈfeɪvərɪt" tr="фаворит"/>
+    <d v="favorite" p="adjective" ts="ˈfeɪvərɪt" tr="любимейший"/>
+    <d v="favoritism" p="noun" ts="ˈfeɪvərɪtɪzəm" tr="фаворитизм"/>
+    <d v="fawn" p="noun" ts="fɔːn" tr="олененок"/>
+    <d v="fawn" p="verb" ts="fɔːn" tr="лебезить; заискивать"/>
+    <d v="Fax" p="noun" ts="fækts" tr="факс"/>
+    <d v="Fax" p="adjective" ts="fækts" tr="факсимильный"/>
+    <d v="faze" p="verb" ts="feɪz" tr="беспокоить"/>
+    <d v="FBI" p="noun" ts="fbɪ" tr="ФБР"/>
+    <d v="fear" p="noun" ts="fɪə" tr="страх; вероятность"/>
+    <d v="fear" p="verb" ts="fɪə" tr="бояться; ожидать"/>
+    <d v="fearful" p="adjective" ts="ˈfɪəfʊl" tr="страшный; боязливый"/>
+    <d v="fearful" p="verb" ts="ˈfɪəfʊl" tr="бояться"/>
+    <d v="fearful" p="noun" ts="ˈfɪəfʊl" tr="страх"/>
+    <d v="fearful" p="participle" ts="ˈfɪəfʊl" tr="напуганный; пугающий; боящийся; полный страха"/>
+    <d v="fearfully" p="adverb" ts="ˈfɪəfəlɪ" tr="испуганно; страшно"/>
+    <d v="fearfully" p="noun" ts="ˈfɪəfəlɪ" tr="со страхом"/>
+    <d v="fearless" p="adjective" ts="ˈfɪəlɪs" tr="бесстрашный"/>
+    <d v="fearless" p="noun" ts="ˈfɪəlɪs" tr="бесстрашие"/>
+    <d v="fearlessly" p="adverb" ts="ˈfɪələslɪ" tr="бесстрашно"/>
+    <d v="fearlessness" p="noun" ts="ˈfɪələsnəs" tr="бесстрашие"/>
+    <d v="feasibility" p="noun" ts="fiːzəˈbɪlɪtɪ" tr="целесообразность; реалистичность"/>
+    <d v="feasible" p="adjective" ts="ˈfiːzəbl" tr="возможный; осуществимый; посильный; обоснованный; технологичный"/>
+    <d v="feasible" p="participle" ts="ˈfiːzəbl" tr="реализуемый"/>
+    <d v="feast" p="noun" ts="fiːst" tr="праздник; пир; наслаждение"/>
+    <d v="feast" p="verb" ts="fiːst" tr="пировать; праздновать; насыщаться; наслаждаться; угощать"/>
+    <d v="feast" p="adjective" ts="fiːst" tr="праздничный"/>
+    <d v="feat" p="noun" ts="fiːt" tr="подвиг; навык"/>
+    <d v="feat" p="adjective" ts="fiːt" tr="ратный"/>
+    <d v="feather" p="noun" ts="ˈfeðə" tr="перо; Перу; растушевка; шпонка; гребень; пустячок; дичь"/>
+    <d v="feather" p="adjective" ts="ˈfeðə" tr="перьевой"/>
+    <d v="feathery" p="adjective" ts="ˈfeðərɪ" tr="пернатый; перистый"/>
+    <d v="feature" p="noun" ts="ˈfiːʧə" tr="особенность; функция; характеристика"/>
+    <d v="feature" p="verb" ts="ˈfiːʧə" tr="отличаться; показывать; изображать; обрисовывать"/>
+    <d v="February" p="noun" ts="ˈfebrʊərɪ" tr="февраль"/>
+    <d v="February" p="adjective" ts="ˈfebrʊərɪ" tr="февральский"/>
+    <d v="fecal" p="adjective" ts="fiːkl" tr="фекальный"/>
+    <d v="feces" p="noun" ts="ˈfiːsiːz" tr="кал; фекалии; испражнения"/>
+    <d v="fed" p="noun" ts="fed" tr="ФРС"/>
+    <d v="fed" p="participle" ts="fed" tr="поданный; накормленный; питаемый; подаваемый"/>
+    <d v="fed" p="noun" ts="fed" tr="ФРС"/>
+    <d v="fed" p="participle" ts="fed" tr="поданный; накормленный; питаемый; подаваемый"/>
+    <d v="federal" p="adjective" ts="ˈfedərəl" tr="федеральный"/>
+    <d v="federalism" p="noun" ts="ˈfedərəlɪzəm" tr="федерализм"/>
+    <d v="federal reserve system" p="noun" ts="ˈfedərəl rɪˈzɜːv ˈsɪstɪm" tr="Федеральная резервная система"/>
+    <d v="federate" p="adjective" ts="ˈfedərɪt" tr="Федеративный"/>
+    <d v="Federation" p="noun" ts="fedəˈreɪʃn" tr="Федерация; Союз; объединение"/>
+    <d v="fee" p="noun" ts="fiː" tr="плата; сбор; взнос; гонорар"/>
+    <d v="fee" p="verb" ts="fiː" tr="кормить"/>
+    <d v="feeble" p="adjective" ts="fiːbl" tr="слабый; жалкий"/>
+    <d v="feed" p="verb" ts="fiːd" tr="кормить; прокормить; пасти; подавать; скормить"/>
+    <d v="feed" p="noun" ts="fiːd" tr="корм; подача; канал; кормление"/>
+    <d v="feed" p="adjective" ts="fiːd" tr="кормовой; комбикормовый; загрузочный"/>
+    <d v="feedback" p="adjective" ts="ˈfiːdbæk" tr="обратный"/>
+    <d v="feedback" p="noun" ts="ˈfiːdbæk" tr="отзыв; отдача"/>
+    <d v="feeding" p="noun" ts="ˈfiːdɪŋ" tr="кормление; скармливание; кормушка"/>
+    <d v="feeding" p="adjective" ts="ˈfiːdɪŋ" tr="кормовой"/>
+    <d v="feeding" p="participle" ts="ˈfiːdɪŋ" tr="питающий; кормящий; питающийся; подающий"/>
+    <d v="feel" p="verb" ts="fiːl"
+       tr="чувствовать; ощущать; считать; почувствовать себя; пощупать; нащупать; прощупывать"/>
+    <d v="feel" p="noun" ts="fiːl" tr="ощущение; осязание"/>
+    <d v="feeler" p="noun" ts="ˈfiːlə" tr="щупальце; пробный шар"/>
+    <d v="feeling" p="noun" ts="ˈfiːlɪŋ" tr="чувство; сознание; интуиция"/>
+    <d v="feeling" p="adjective" ts="ˈfiːlɪŋ" tr="чувствительный"/>
+    <d v="feign" p="verb" ts="feɪn" tr="притвориться; симулировать; изображать"/>
+    <d v="feint" p="noun" ts="feɪnt" tr="финт; ложный выпад; обманный маневр; притворство"/>
+    <d v="feisty" p="adjective" ts="ˈfaɪstɪ" tr="злющий"/>
+    <d v="feline" p="adjective" ts="ˈfiːlaɪn" tr="кошачий"/>
+    <d v="feline" p="noun" ts="ˈfiːlaɪn" tr="кошка"/>
+    <d v="fell" p="adverbial participle" ts="fel" tr="выпав; рухнув"/>
+    <d v="fell" p="participle" ts="fel" tr="упавший; попавший; выпавший; попавшийся; свалившийся"/>
+    <d v="fell" p="verb" ts="fel" tr="валить; срубить"/>
+    <d v="fell" p="noun" ts="fel" tr="шкура; гора"/>
+    <d v="fell" p="adjective" ts="fel" tr="свирепый"/>
+    <d v="fellow" p="noun" ts="ˈfeləʊ"
+       tr="товарищ; парень; человек; соотечественник; друг; стипендиат; молодец; попутчик; однокурсник; бедолага"/>
+    <d v="fellow" p="adjective" ts="ˈfeləʊ" tr="ближний"/>
+    <d v="fellowship" p="noun" ts="ˈfeləʊʃɪp"
+       tr="стипендия; общение; братство; Содружество; членство; чувство товарищества"/>
+    <d v="fellowship" p="verb" ts="ˈfeləʊʃɪp" tr="общаться"/>
+    <d v="felon" p="noun" ts="ˈfelən" tr="преступник; панариций"/>
+    <d v="felony" p="noun" ts="ˈfelənɪ" tr="преступление; уголовное преступление; тяжкое преступление"/>
+    <d v="felt" p="noun" ts="felt" tr="войлок; сукно"/>
+    <d v="felt" p="adjective" ts="felt" tr="войлочный"/>
+    <d v="felt" p="participle" ts="felt" tr="ощущаемый"/>
+    <d v="female" p="noun" ts="ˈfiːmeɪl" tr="женщина; матка"/>
+    <d v="female" p="adjective" ts="ˈfiːmeɪl" tr="женский"/>
+    <d v="feminine" p="adjective" ts="ˈfemɪnɪn" tr="женский; женоподобный"/>
+    <d v="feminine" p="noun" ts="ˈfemɪnɪn" tr="женственность"/>
+    <d v="femininity" p="noun" ts="femɪˈnɪnɪtɪ" tr="женственность"/>
+    <d v="feminism" p="noun" ts="ˈfemɪnɪzm" tr="феминизм"/>
+    <d v="feminist" p="noun" ts="ˈfemɪnɪst" tr="феминистка; феминист"/>
+    <d v="feminist" p="adjective" ts="ˈfemɪnɪst" tr="феминистский"/>
+    <d v="fence" p="noun" ts="fens" tr="забор"/>
+    <d v="fence" p="verb" ts="fens" tr="оградить; огородить; фехтовать; отгородить; огораживать; загораживать"/>
+    <d v="fence" p="adjective" ts="fens" tr="заборный"/>
+    <d v="fencing" p="noun" ts="ˈfensɪŋ" tr="фехтование; огораживание"/>
+    <d v="fencing" p="adjective" ts="ˈfensɪŋ" tr="фехтовальный"/>
+    <d v="fend" p="verb" ts="fend" tr="заботиться; парировать; отражать; постоять; защищаться; отгонять"/>
+    <d v="fender" p="noun" ts="ˈfendə" tr="крыло; кранец; обвайзер"/>
+    <d v="ferment" p="noun" ts="ˈfɜːment" tr="фермент; брожение; закваска; волнение"/>
+    <d v="ferment" p="verb" ts="ˈfɜːment" tr="бродить; заквашивать; перебродить; выхаживать"/>
+    <d v="fermentation" p="noun" ts="fɜːmenˈteɪʃn" tr="брожение"/>
+    <d v="fermentation" p="adjective" ts="fɜːmenˈteɪʃn" tr="бродильный"/>
+    <d v="fermented" p="participle" ts="fəˈmentɪd" tr="ферментированный; заквашенный"/>
+    <d v="fern" p="noun" ts="fɜːn" tr="папоротник"/>
+    <d v="ferocious" p="adjective" ts="fəˈrəʊʃəs" tr="свирепый; яростный"/>
+    <d v="ferociously" p="adverb" ts="fəˈrəʊʃəslɪ" tr="свирепо"/>
+    <d v="ferocity" p="noun" ts="fəˈrɔsɪtɪ" tr="свирепость; жестокость"/>
+    <d v="ferret" p="noun" ts="ˈferɪt" tr="хорек"/>
+    <d v="ferret" p="verb" ts="ˈferɪt" tr="выискивать; разыскивать; разнюхивать"/>
+    <d v="Ferris wheel" p="noun" ts="ˈferɪsˈwiːl" tr="колесо обозрения; чертово колесо"/>
+    <d v="ferry" p="noun" ts="ˈferɪ" tr="паром; перевоз"/>
+    <d v="ferry" p="adjective" ts="ˈferɪ" tr="паромный"/>
+    <d v="ferry" p="verb" ts="ˈferɪ" tr="перевозить; переправлять; перегонять"/>
+    <d v="fertile" p="adjective" ts="ˈfɜːtaɪl" tr="плодородный; плодовитый; изобильный"/>
+    <d v="fertile" p="participle" ts="ˈfɜːtaɪl" tr="плодоносящий"/>
+    <d v="fertile" p="noun" ts="ˈfɜːtaɪl" tr="плодовитость"/>
+    <d v="fertility" p="noun" ts="fɜːˈtɪlɪtɪ" tr="рождаемость; плодородие; плодовитость"/>
+    <d v="fertilization" p="noun" ts="fɜːtɪlaɪˈzeɪʃn" tr="оплодотворение; удобрение"/>
+    <d v="fertilize" p="verb" ts="ˈfɜːtɪlaɪz" tr="удобрять; оплодотворять"/>
+    <d v="fertilize" p="noun" ts="ˈfɜːtɪlaɪz" tr="оплодотворение"/>
+    <d v="fertilizer" p="noun" ts="ˈfɜːtɪlaɪzə" tr="удобрение; опылитель; оплодотворитель"/>
+    <d v="fervent" p="adjective" ts="ˈfɜːvənt" tr="пылкий; горячий; задорный; усердный; ревностный"/>
+    <d v="fervent" p="participle" ts="ˈfɜːvənt" tr="пылающий"/>
+    <d v="fervently" p="adverb" ts="ˈfɜːvəntlɪ" tr="горячо; усердно; задорно"/>
+    <d v="fervor" p="noun" ts="ˈfɜːvər" tr="пыл; рвение; пафос; задор"/>
+    <d v="fest" p="noun" ts="fest" tr="фестиваль; Фест"/>
+    <d v="fester" p="verb" ts="ˈfestə" tr="гноиться; тлеть; загноиться; мучить"/>
+    <d v="fester" p="noun" ts="ˈfestə" tr="нагноение"/>
+    <d v="festival" p="noun" ts="ˈfestəvəl" tr="фестиваль; праздник"/>
+    <d v="festival" p="adjective" ts="ˈfestəvəl" tr="фестивальный"/>
+    <d v="festive" p="adjective" ts="ˈfestɪv" tr="праздничный"/>
+    <d v="festive" p="noun" ts="ˈfestɪv" tr="праздничность"/>
+    <d v="festivity" p="noun" ts="fesˈtɪvɪtɪ" tr="торжество; гуляние"/>
+    <d v="festivity" p="adjective" ts="fesˈtɪvɪtɪ" tr="праздничный"/>
+    <d v="fetal" p="noun" ts="fiːtl" tr="плод; эмбрион"/>
+    <d v="fetal" p="adjective" ts="fiːtl" tr="фетальный"/>
+    <d v="fetal position" p="noun" ts="fiːtl pəˈzɪʃn" tr="поза эмбриона"/>
+    <d v="fetch" p="verb" ts="feʧ" tr="принести; взять; достать; получать; извлекать; доставить; вызывать; выручать"/>
+    <d v="fetch" p="noun" ts="feʧ" tr="выборка"/>
+    <d v="fetching" p="noun" ts="ˈfeʧɪŋ" tr="выборка"/>
+    <d v="fetching" p="adjective" ts="ˈfeʧɪŋ" tr="привлекательный"/>
+    <d v="fete" p="noun" ts="feɪt" tr="праздник"/>
+    <d v="fetid" p="adjective" ts="ˈfetɪd" tr="зловонный"/>
+    <d v="fetish" p="noun" ts="ˈfiːtɪʃ" tr="фетиш; идол; амулет"/>
+    <d v="fetish" p="adjective" ts="ˈfiːtɪʃ" tr="фетишистский"/>
+    <d v="fetter" p="noun" ts="ˈfetə" tr="оковы"/>
+    <d v="fetter" p="verb" ts="ˈfetə" tr="сковывать"/>
+    <d v="fetus" p="noun" ts="ˈfiːtəs" tr="плод; зародыш"/>
+    <d v="feud" p="noun" ts="fjuːd" tr="вражда; месть"/>
+    <d v="feud" p="verb" ts="fjuːd" tr="враждовать"/>
+    <d v="feudal" p="adjective" ts="fjuːdl" tr="феодальный; крепостной"/>
+    <d v="feudal" p="noun" ts="fjuːdl" tr="феодал"/>
+    <d v="feudalism" p="noun" ts="ˈfjuːdəlɪzm" tr="феодализм; крепостничество"/>
+    <d v="fever" p="noun" ts="ˈfiːvə" tr="лихорадка; повышение температуры"/>
+    <d v="fever" p="verb" ts="ˈfiːvə" tr="лихорадить"/>
+    <d v="fever" p="adjective" ts="ˈfiːvə" tr="лихорадочный"/>
+    <d v="feverish" p="adjective" ts="ˈfiːvərɪʃ" tr="лихорадочный; горячечный"/>
+    <d v="feverish" p="verb" ts="ˈfiːvərɪʃ" tr="лихорадить"/>
+    <d v="feverish" p="noun" ts="ˈfiːvərɪʃ" tr="жар"/>
+    <d v="feverishly" p="adverb" ts="ˈfiːvərɪʃlɪ" tr="лихорадочно"/>
+    <d v="few" p="numeral" ts="fjuː" tr="несколько"/>
+    <d v="few" p="adjective" ts="fjuː" tr="немногочисленный"/>
+    <d v="few" p="noun" ts="fjuː" tr="незначительное число"/>
+    <d v="FEZ" p="noun" ts="fez" tr="СЭЗ; феска"/>
+    <d v="fiance" p="noun" ts="fɪˈɑːnseɪ" tr="жених"/>
+    <d v="fiancee" p="noun" ts="fɪˈɑːnseɪ" tr="невеста"/>
+    <d v="fiasco" p="noun" ts="fɪˈæskəʊ" tr="фиаско; провал"/>
+    <d v="Fiat" p="noun" ts="ˈfaɪæt" tr="Фиат; указ"/>
+    <d v="fib" p="noun" ts="fɪb" tr="компания FIB; выдумка"/>
+    <d v="fib" p="verb" ts="fɪb" tr="приврать; привирать"/>
+    <d v="fibber" p="noun" ts="ˈfɪbə" tr="выдумщик; враль"/>
+    <d v="fiber" p="noun" ts="faɪbə" tr="волокно"/>
+    <d v="fiber" p="adjective" ts="faɪbə" tr="волоконный; оптоволоконный; фибровый"/>
+    <d v="fiberglass" p="noun" ts="ˈfaɪbəglɑːs" tr="стекловолокно; стеклоткань"/>
+    <d v="fiberglass" p="adjective" ts="ˈfaɪbəglɑːs" tr="стеклопластиковый; стекловолоконный"/>
+    <d v="fibrous" p="adjective" ts="ˈfaɪbrəs" tr="волокнистый"/>
+    <d v="fibrous" p="noun" ts="ˈfaɪbrəs" tr="волокно"/>
+    <d v="fickle" p="adjective" ts="fɪkl" tr="непостоянный; переменчивый"/>
+    <d v="fickle" p="noun" ts="fɪkl" tr="переменчивость"/>
+    <d v="fiction" p="noun" ts="fɪkʃn"
+       tr="фантастика; вымысел; художественная литература; небылица; художественное произведение; чтиво"/>
+    <d v="fiction" p="adjective" ts="fɪkʃn" tr="художественный"/>
+    <d v="fictional" p="adjective" ts="ˈfɪkʃənl" tr="вымышленный; художественный"/>
+    <d v="fictional" p="participle" ts="ˈfɪkʃənl" tr="выдуманный"/>
+    <d v="fictitious" p="adjective" ts="fɪkˈtɪʃəs" tr="фиктивный"/>
+    <d v="fictitious" p="participle" ts="fɪkˈtɪʃəs" tr="воображаемый"/>
+    <d v="fictitious" p="noun" ts="fɪkˈtɪʃəs" tr="фикция"/>
+    <d v="fiddle" p="noun" ts="fɪdl" tr="скрипка"/>
+    <d v="fiddle" p="verb" ts="fɪdl" tr="возиться"/>
+    <d v="fiddler" p="noun" ts="ˈfɪdlə" tr="скрипач"/>
+    <d v="fidelity" p="noun" ts="fɪˈdelɪtɪ" tr="верность; точность; принципиальность; точность воспроизведения"/>
+    <d v="fidget" p="verb" ts="ˈfɪʤɪt" tr="ерзать; нервировать"/>
+    <d v="fidget" p="noun" ts="ˈfɪʤɪt" tr="непоседа; беспокойное состояние"/>
+    <d v="fidgety" p="adjective" ts="ˈfɪʤɪtɪ" tr="суетливый; беспокойный; вертлявый"/>
+    <d v="fidgety" p="verb" ts="ˈfɪʤɪtɪ" tr="понервничать"/>
+    <d v="field" p="noun" ts="fiːld" tr="область; нива; поприще; возбуждение; грунт; луг; фон"/>
+    <d v="field" p="adjective" ts="fiːld" tr="полевой"/>
+    <d v="field day" p="noun" ts="fiːld deɪ" tr="день поля; полевой день"/>
+    <d v="field hockey" p="noun" ts="ˈfiːldhɔkɪ" tr="хоккей; хоккей на траве"/>
+    <d v="field test" p="noun" ts="fiːld test" tr="полевое испытание; полевой тест"/>
+    <d v="field trip" p="noun" ts="fiːld trɪp" tr="полевая экскурсия; полевая поездка"/>
+    <d v="fieldwork" p="adjective" ts="ˈfiːldwɜːk" tr="полевой"/>
+    <d v="fieldwork" p="noun" ts="ˈfiːldwɜːk" tr="полевая работа"/>
+    <d v="fiend" p="noun" ts="fiːnd" tr="дьявол; изверг; исчадие; исчадие ада"/>
+    <d v="fiendish" p="adjective" ts="ˈfiːndɪʃ" tr="дьявольский; жестокий"/>
+    <d v="fierce" p="adjective" ts="fɪəs" tr="свирепый; ожесточенный"/>
+    <d v="fierce" p="noun" ts="fɪəs" tr="ярость"/>
+    <d v="fiercely" p="adverb" ts="ˈfɪəslɪ" tr="яростно"/>
+    <d v="fiery" p="adjective" ts="ˈfaɪərɪ" tr="огненный"/>
+    <d v="fiery" p="participle" ts="ˈfaɪərɪ" tr="горящий; воспламеняющийся"/>
+    <d v="Fiesta" p="noun" ts="ˈfjestɑː" tr="Фиеста; праздник"/>
+    <d v="fifteen" p="numeral" ts="ˈfɪfˈtiːn" tr="пятнадцать; полтора; пятнадцатый"/>
+    <d v="fifteen" p="adjective" ts="ˈfɪfˈtiːn" tr="пятнадцатилетний"/>
+    <d v="fifteen" p="noun" ts="ˈfɪfˈtiːn" tr="полтора десятка"/>
+    <d v="fifteenth" p="numeral" ts="ˈfˈɪftiːnθ" tr="пятнадцатый"/>
+    <d v="fifth" p="numeral" ts="fɪfθ" tr="пятый"/>
+    <d v="fifth" p="noun" ts="fɪfθ" tr="Квинта"/>
+    <d v="fiftieth" p="numeral" ts="ˈfɪftɪɪθ" tr="пятидесятый"/>
+    <d v="fiftieth" p="noun" ts="ˈfɪftɪɪθ" tr="пятидесятилетие"/>
+    <d v="fifty" p="numeral" ts="ˈfɪftɪ" tr="пятьдесят"/>
+    <d v="fifty" p="noun" ts="ˈfɪftɪ" tr="полсотни"/>
+    <d v="Fig" p="noun" ts="fɪg" tr="рис; инжир; фига; ФПГ; винная ягода; Шиш"/>
+    <d v="Fig" p="adjective" ts="fɪg" tr="фиговый"/>
+    <d v="Fig" p="verb" ts="fɪg" tr="наряжать"/>
+    <d v="fight" p="noun" ts="faɪt" tr="борьба; бой; драка; битва; поединок; задор"/>
+    <d v="fight" p="verb" ts="faɪt" tr="бороться; сражаться; сопротивляться; отстаивать; побороть"/>
+    <d v="fight" p="adjective" ts="faɪt" tr="бойцовский"/>
+    <d v="fighter" p="noun" ts="ˈfaɪtə" tr="боец; истребитель"/>
+    <d v="fighting" p="noun" ts="ˈfaɪtɪŋ" tr="борьба; бой; драка; тушение"/>
+    <d v="fighting" p="adjective" ts="ˈfaɪtɪŋ" tr="боевой"/>
+    <d v="fighting" p="participle" ts="ˈfaɪtɪŋ" tr="борющийся; сражающийся; воюющий; дравшийся; дерущийся"/>
+    <d v="fighting" p="adverbial participle" ts="ˈfaɪtɪŋ" tr="дерясь"/>
+    <d v="figment" p="noun" ts="ˈfɪgmənt" tr="плод; вымысел"/>
+    <d v="figurative" p="adjective" ts="ˈfɪgjʊrətɪv"
+       tr="фигуративный; образный; фигуральный; метафорический; переносный; пластический; живописный"/>
+    <d v="figuratively" p="adverb" ts="ˈfɪgjərətɪvlɪ" tr="образно"/>
+    <d v="figure" p="noun" ts="ˈfɪgə" tr="рисунок; цифра; фигура; деятель"/>
+    <d v="figure" p="verb" ts="ˈfɪgə" tr="подумать; фигурировать; оценивать; изображать; подсчитывать"/>
+    <d v="figurehead" p="noun" ts="ˈfɪgəhed" tr="подставное лицо; фигура; номинальный глава; Носовая фигура"/>
+    <d v="figurehead" p="adjective" ts="ˈfɪgəhed" tr="номинальный; подставной"/>
+    <d v="figure of speech" p="noun" ts="ˈfɪgə ɔv spiːʧ" tr="фигура речи"/>
+    <d v="filament" p="noun" ts="ˈfɪləmənt" tr="нить; волокно; нить накала; лампа накаливания"/>
+    <d v="Filch" p="verb" ts="fɪlʧ" tr="стащить; стянуть"/>
+    <d v="file" p="noun" ts="faɪl" tr="файл; дело; картотека; шеренга; вертикаль; колонна; пилочка"/>
+    <d v="file" p="adjective" ts="faɪl" tr="файловый"/>
+    <d v="file" p="verb" ts="faɪl" tr="представлять; пилить; подпиливать"/>
+    <d v="filibuster" p="noun" ts="ˈfɪlɪbʌstə" tr="флибустьер; пират"/>
+    <d v="filigree" p="adjective" ts="ˈfɪlɪgriː" tr="филигранный"/>
+    <d v="filigree" p="noun" ts="ˈfɪlɪgriː" tr="филигрань"/>
+    <d v="fill" p="verb" ts="fɪl"
+       tr="заполнить; залить; занимать; заправить; выполнять; набить; насыщать; пломбировать"/>
+    <d v="fill" p="noun" ts="fɪl" tr="заполнение; насыпь"/>
+    <d v="fill" p="participle" ts="fɪl" tr="заполненный; заполняемый"/>
+    <d v="fillet" p="noun" ts="ˈfɪlɪt" tr="филе; багет; скругление; галтель; штапик; ободок; кромка"/>
+    <d v="fillet" p="adjective" ts="ˈfɪlɪt" tr="филейный"/>
+    <d v="filling" p="noun" ts="ˈfɪlɪŋ"
+       tr="заполнение; начинка; наполнитель; завалка; засыпка; фарш; наполняемость; насыпка; уток"/>
+    <d v="filling" p="adjective" ts="ˈfɪlɪŋ" tr="заправочный"/>
+    <d v="filling" p="participle" ts="ˈfɪlɪŋ" tr="заполняющий; наполняющий; заполнивший; заполняющийся"/>
+    <d v="filling station" p="noun" ts="ˈfɪlɪŋ steɪʃn" tr="АЗС; автозаправочная станция; заправочная станция"/>
+    <d v="filly" p="noun" ts="ˈfɪlɪ" tr="кобылка"/>
+    <d v="film" p="noun" ts="fɪlm" tr="фильм; пленка; кино; кинопрокат; дымка"/>
+    <d v="film" p="adjective" ts="fɪlm" tr="пленочный; съемочный; кинематографический"/>
+    <d v="film" p="verb" ts="fɪlm" tr="снимать; экранизировать"/>
+    <d v="film" p="participle" ts="fɪlm" tr="снятый"/>
+    <d v="filmmaker" p="noun" ts="ˈfɪlmeɪkər" tr="режиссер; создатель фильма"/>
+    <d v="filmy" p="adjective" ts="ˈfɪlmɪ" tr="пленчатый; тонкий"/>
+    <d v="filter" p="noun" ts="ˈfɪltə" tr="фильтр; фильтрация"/>
+    <d v="filter" p="verb" ts="ˈfɪltə" tr="фильтровать; отфильтровать; просачиваться"/>
+    <d v="filter" p="participle" ts="ˈfɪltə" tr="фильтрующий"/>
+    <d v="filter" p="adjective" ts="ˈfɪltə" tr="фильтровальный"/>
+    <d v="filth" p="noun" ts="fɪlθ" tr="грязь; гадость; мразь; разврат; дерьмо; пошлость; сквернословие"/>
+    <d v="filthy" p="adjective" ts="ˈfɪlθɪ" tr="грязный; мерзкий; непристойный"/>
+    <d v="filthy" p="participle" ts="ˈfɪlθɪ" tr="замызганный"/>
+    <d v="fin" p="noun" ts="fɪn" tr="плавник; ребро; оперение"/>
+    <d v="finagle" p="verb" ts="fɪˈneɪgl" tr="надувать"/>
+    <d v="final" p="adjective" ts="faɪnl" tr="окончательный; заключительный"/>
+    <d v="final" p="noun" ts="faɪnl" tr="финал"/>
+    <d v="final" p="participle" ts="faɪnl" tr="решающий"/>
+    <d v="finale" p="noun" ts="fɪˈnɑːlɪ" tr="финал"/>
+    <d v="finalist" p="noun" ts="ˈfaɪnəlɪst" tr="финалист"/>
+    <d v="finality" p="noun" ts="faɪˈnælɪtɪ" tr="завершенность; окончательность; окончательный характер"/>
+    <d v="finalize" p="verb" ts="ˈfaɪnəlaɪz" tr="завершить; доработать; окончательно доработать"/>
+    <d v="finalize" p="noun" ts="ˈfaɪnəlaɪz" tr="завершение"/>
+    <d v="finally" p="adverb" ts="ˈfaɪnəlɪ" tr="наконец"/>
+    <d v="finally" p="noun" ts="ˈfaɪnəlɪ" tr="в конце концов"/>
+    <d v="finance" p="noun" ts="faɪˈnæns" tr="финансы; доходы"/>
+    <d v="finance" p="adjective" ts="faɪˈnæns" tr="финансовый"/>
+    <d v="finance" p="verb" ts="faɪˈnæns" tr="финансировать"/>
+    <d v="financial" p="adjective" ts="faɪˈnænʃəl" tr="финансовый"/>
+    <d v="financially" p="adjective" ts="faɪˈnænʃəlɪ" tr="финансовый"/>
+    <d v="financially" p="adverb" ts="faɪˈnænʃəlɪ" tr="финансово"/>
+    <d v="financially" p="noun" ts="faɪˈnænʃəlɪ" tr="в финансовом плане; в финансовом"/>
+    <d v="financier" p="noun" ts="faɪˈnænsɪə" tr="финансист"/>
+    <d v="financing" p="noun" ts="ˈfaɪnænsɪŋ" tr="финансирование"/>
+    <d v="financing" p="participle" ts="ˈfaɪnænsɪŋ" tr="финансирующий"/>
+    <d v="finch" p="noun" ts="fɪnʧ" tr="зяблик; вьюрок"/>
+    <d v="find" p="verb" ts="faɪnd"
+       tr="найти; считать; обрести; встретить; найтись; подобрать; застать; подыскать; устанавливать; выделять; вычислять"/>
+    <d v="find" p="noun" ts="faɪnd" tr="находка"/>
+    <d v="finder" p="noun" ts="ˈfaɪndə"
+       tr="искатель; видоискатель; дальномер; радиопеленгатор; программа Finder; эхолот"/>
+    <d v="finding" p="noun" ts="ˈfaɪndɪŋ" tr="вывод; поиск; обнаружение; определение; констатация; фурнитура"/>
+    <d v="finding" p="participle" ts="ˈfaɪndɪŋ" tr="находящий; нашедший"/>
+    <d v="fine" p="adjective" ts="faɪn" tr="прекрасный; тонкий; мелкий; острый; сухой; высокопробный"/>
+    <d v="fine" p="noun" ts="faɪn" tr="штраф"/>
+    <d v="fine" p="verb" ts="faɪn" tr="оштрафовать"/>
+    <d v="fine" p="participle" ts="faɪn" tr="возвышенный"/>
+    <d v="finely" p="adverb" ts="ˈfaɪnlɪ" tr="мелко"/>
+    <d v="finely" p="particle" ts="ˈfaɪnlɪ" tr="точно"/>
+    <d v="fine print" p="noun" ts="faɪn prɪnt" tr="мелкий шрифт"/>
+    <d v="finesse" p="noun" ts="fɪˈnes" tr="утонченность; тонкость; ловкость; хитрость; прорезывание"/>
+    <d v="finger" p="noun" ts="ˈfɪŋgə" tr="палец; штифт; стрелка"/>
+    <d v="fingernail" p="noun" ts="fɪŋgəˈneɪl" tr="ноготь"/>
+    <d v="fingerprint" p="noun" ts="ˈfɪŋgəprɪnt" tr="отпечаток; отпечаток пальца"/>
+    <d v="fingerprint" p="adjective" ts="ˈfɪŋgəprɪnt" tr="дактилоскопический"/>
+    <d v="fingertip" p="noun" ts="ˈfɪŋgətɪp" tr="палец; кончик пальца"/>
+    <d v="finish" p="verb" ts="ˈfɪnɪʃ"
+       tr="закончить; завершить; закончиться; прикончить; добить; отделывать; доводить до конца"/>
+    <d v="finish" p="noun" ts="ˈfɪnɪʃ" tr="отделка; окончание; финиш; завершение; законченность"/>
+    <d v="finish" p="adjective" ts="ˈfɪnɪʃ" tr="финишный"/>
+    <d v="finished" p="adjective" ts="ˈfɪnɪʃt" tr="законченный"/>
+    <d v="finished" p="participle" ts="ˈfɪnɪʃt" tr="завершенный; отделанный; конченный; завершившийся; обработанный"/>
+    <d v="finished" p="noun" ts="ˈfɪnɪʃt" tr="отделка"/>
+    <d v="finite" p="adjective" ts="ˈfaɪnaɪt" tr="конечный"/>
+    <d v="finite" p="noun" ts="ˈfaɪnaɪt" tr="конечность"/>
+    <d v="fir" p="noun" ts="fɜː" tr="пихта; ких; мех"/>
+    <d v="fir" p="adjective" ts="fɜː" tr="еловый; пихтовый"/>
+    <d v="fire" p="noun" ts="ˈfaɪə" tr="огонь; пожар; пожаробезопасность; жар; воодушевление; свечение"/>
+    <d v="fire" p="adjective" ts="ˈfaɪə" tr="пожарный; огненный"/>
+    <d v="fire" p="verb" ts="ˈfaɪə"
+       tr="стрелять; уволить; выстрелить; поджигать; обжигать; выпалить; зажечься; топить; возбуждать; воодушевлять"/>
+    <d v="fire alarm" p="noun" ts="ˈfaɪə əˈlɑːm"
+       tr="пожарная сигнализация; пожарная тревога; противопожарная сигнализация"/>
+    <d v="firearm" p="noun" ts="ˈfaɪərɑːm" tr="огнестрельное оружие; оружие"/>
+    <d v="firearm" p="adjective" ts="ˈfaɪərɑːm" tr="огнестрельный"/>
+    <d v="firebrand" p="noun" ts="ˈfaɪəbrænd" tr="зачинщик; смутьян; головешка"/>
+    <d v="firecracker" p="noun" ts="ˈfaɪəkrækər" tr="петарда"/>
+    <d v="fire department" p="noun" ts="ˈfaɪə dɪˈpɑːtmənt"
+       tr="пожарная служба; пожарная часть; пожарная охрана; пожарное управление; пожарный департамент; пожарное отделение; противопожарная служба"/>
+    <d v="fire engine" p="noun" ts="ˈfaɪə ˈenʤɪn" tr="пожарная машина; пожарный автомобиль"/>
+    <d v="fire escape" p="noun" ts="ˈfaɪə ɪsˈkeɪp" tr="пожарная лестница; пожарный выход"/>
+    <d v="fire extinguisher" p="noun" ts="ˈfaɪə ɪksˈtɪŋgwɪʃə" tr="огнетушитель"/>
+    <d v="firefighter" p="adjective" ts="ˈfaɪəfaɪtər" tr="пожарный"/>
+    <d v="firefighter" p="noun" ts="ˈfaɪəfaɪtər" tr="пожарник"/>
+    <d v="firefly" p="noun" ts="ˈfaɪəflaɪ" tr="светлячок; светляк"/>
+    <d v="fire hydrant" p="noun" ts="ˈfaɪə ˈhaɪdrənt" tr="пожарный гидрант"/>
+    <d v="fireman" p="adjective" ts="ˈfaɪəmən" tr="пожарный"/>
+    <d v="fireman" p="noun" ts="ˈfaɪəmən" tr="пожарник; кочегар"/>
+    <d v="fireplace" p="noun" ts="ˈfaɪəpleɪs" tr="камин"/>
+    <d v="fireplace" p="adjective" ts="ˈfaɪəpleɪs" tr="каминный"/>
+    <d v="fireproof" p="adjective" ts="ˈfaɪəpruːf" tr="огнезащитный; огнеупорный"/>
+    <d v="fireside" p="noun" ts="ˈfaɪəsaɪd" tr="камин"/>
+    <d v="fire station" p="noun" ts="ˈfaɪə steɪʃn" tr="пожарная станция; пожарное депо"/>
+    <d v="firewall" p="noun" ts="ˈfaɪəwɔːl" tr="брандмауэр; сетевой экран"/>
+    <d v="firewall" p="adjective" ts="ˈfaɪəwɔːl" tr="межсетевой"/>
+    <d v="firewood" p="noun" ts="ˈfaɪəwʊd" tr="дрова; растопка"/>
+    <d v="firewood" p="adjective" ts="ˈfaɪəwʊd" tr="дровяной"/>
+    <d v="fireworks" p="noun" ts="ˈfaɪəwɜːks" tr="фейерверк; пиротехнические изделия; программа Fireworks"/>
+    <d v="fireworks" p="adjective" ts="ˈfaɪəwɜːks" tr="пиротехнический"/>
+    <d v="firing line" p="noun" ts="ˈfaɪərɪŋ laɪn" tr="линия огня; огневой рубеж"/>
+    <d v="firing squad" p="noun" ts="ˈfaɪərɪŋskwɔd" tr="расстрел; расстрельная команда"/>
+    <d v="firm" p="noun" ts="fɜːm" tr="фирма; торговый дом"/>
+    <d v="firm" p="adjective" ts="fɜːm" tr="твердый; фирменный; прочный; устойчивый; настойчивый"/>
+    <d v="firm" p="verb" ts="fɜːm" tr="укреплять"/>
+    <d v="firmly" p="adverb" ts="ˈfɜːmlɪ" tr="прочно; крепко; решительно"/>
+    <d v="firmness" p="noun" ts="ˈfɜːmnəs" tr="стойкость; твердость"/>
+    <d v="first" p="numeral" ts="fɜːst" tr="первый"/>
+    <d v="first" p="adverb" ts="fɜːst" tr="сначала; впервые; скорее"/>
+    <d v="first" p="noun" ts="fɜːst" tr="начало"/>
+    <d v="first" p="adjective" ts="fɜːst" tr="ранний"/>
+    <d v="first-degree" p="noun" ts="fɜːst-dɪˈgriː" tr="первая степень"/>
+    <d v="firsthand" p="noun" ts="fəˈshænd" tr="из первых рук; из первых уст"/>
+    <d v="firsthand" p="adverb" ts="fəˈshænd" tr="воочию; не понаслышке"/>
+    <d v="firstly" p="noun" ts="ˈfɜːstlɪ" tr="первая очередь; в первую очередь; во первых"/>
+    <d v="firstly" p="adverb" ts="ˈfɜːstlɪ" tr="сначала; вопервых"/>
+    <d v="firstly" p="preposition" ts="ˈfɜːstlɪ" tr="прежде"/>
+    <d v="firstly" p="numeral" ts="ˈfɜːstlɪ" tr="первый"/>
+    <d v="fiscal" p="adjective" ts="ˈfɪskəl" tr="финансовый"/>
+    <d v="fiscal year" p="noun" ts="ˈfɪskəl jɜː" tr="финансовый год; бюджетный год; отчетный год; фискальный год"/>
+    <d v="fish" p="noun" ts="fɪʃ" tr="рыба; рыбопродукты"/>
+    <d v="fish" p="adjective" ts="fɪʃ" tr="рыбный"/>
+    <d v="fish" p="verb" ts="fɪʃ" tr="рыбачить"/>
+    <d v="fishbowl" p="noun" ts="ˈfɪʃbəʊl" tr="аквариум"/>
+    <d v="fisherman" p="noun" ts="ˈfɪʃəmən" tr="рыбак; рыболовное судно"/>
+    <d v="fishery" p="noun" ts="ˈfɪʃərɪ" tr="рыболовство; рыбные ресурсы; рыболовный промысел"/>
+    <d v="fishery" p="adjective" ts="ˈfɪʃərɪ" tr="рыбный; рыбохозяйственный"/>
+    <d v="fishing" p="noun" ts="ˈfɪʃɪŋ" tr="рыбалка; лов рыбы"/>
+    <d v="fishing" p="adjective" ts="ˈfɪʃɪŋ" tr="рыболовный"/>
+    <d v="fishing rod" p="noun" ts="ˈfɪʃɪŋ rɔd" tr="удочка; рыболовная удочка"/>
+    <d v="fishnet" p="noun" ts="fɪʃnt" tr="рыболовная сеть"/>
+    <d v="fishtail" p="noun" ts="ˈfɪsteɪl" tr="рыбий хвост"/>
+    <d v="fishy" p="adjective" ts="ˈfɪʃɪ" tr="рыбный; подозрительный"/>
+    <d v="fission" p="noun" ts="fɪʃn" tr="деление; расщепление"/>
+    <d v="fission" p="verb" ts="fɪʃn" tr="расщепляться"/>
+    <d v="fissure" p="noun" ts="ˈfɪʃə" tr="трещина; борозда; надлом"/>
+    <d v="fist" p="noun" ts="fɪst" tr="кулак"/>
+    <d v="fist" p="adjective" ts="fɪst" tr="кулачный"/>
+    <d v="fit" p="verb" ts="fɪt"
+       tr="соответствовать; вписываться; поместиться; приспосабливать; подогнать; устанавливать; уместить; снабжать"/>
+    <d v="fit" p="adjective" ts="fɪt" tr="пригодный; здоровый; сильный"/>
+    <d v="fit" p="noun" ts="fɪt" tr="припадок; пригонка; посадка; порыв; настроение"/>
+    <d v="fit" p="participle" ts="fɪt" tr="подходящий; приспособленный; достойный"/>
+    <d v="fitful" p="adjective" ts="ˈfɪtfʊl" tr="прерывистый"/>
+    <d v="fitness" p="noun" ts="ˈfɪtnɪs" tr="пригодность; приспособленность; работоспособность"/>
+    <d v="fitness" p="adjective" ts="ˈfɪtnɪs" tr="тренажерный"/>
+    <d v="fitted" p="participle" ts="ˈfɪtɪd"
+       tr="оснащенный; оборудованный; установленный; снабженный; приспособленный"/>
+    <d v="fitting" p="noun" ts="ˈfɪtɪŋ" tr="фитинг; установка; подгонка; оснащение"/>
+    <d v="fitting" p="adjective" ts="ˈfɪtɪŋ" tr="достойный; подобающий; слесарный"/>
+    <d v="fitting" p="participle" ts="ˈfɪtɪŋ" tr="подходящий; облегающий; вписывающийся"/>
+    <d v="five" p="numeral" ts="faɪv" tr="пять; пятеро"/>
+    <d v="five" p="noun" ts="faɪv" tr="пятерка"/>
+    <d v="fix" p="verb" ts="fɪks"
+       tr="исправить; зафиксировать; починить; устанавливать; уладить; связывать; останавливать; подстроить; расправиться"/>
+    <d v="fix" p="participle" ts="fɪks" tr="фиксированный"/>
+    <d v="fix" p="noun" ts="fɪks" tr="исправление; затруднительное положение; местоположение"/>
+    <d v="fixation" p="noun" ts="fɪkˈseɪʃn" tr="фиксация; пристрастие; тяготение"/>
+    <d v="fixed" p="adjective" ts="fɪkst" tr="стационарный; постоянный"/>
+    <d v="fixed" p="adverbial participle" ts="fɪkst" tr="фиксируясь; устремив"/>
+    <d v="fixed" p="participle" ts="fɪkst"
+       tr="фиксированный; установленный; закрепленный; зафиксированный; устремленный; закрепляемый; связанный"/>
+    <d v="fixture" p="noun" ts="ˈfɪkstʧə" tr="светильник; приспособление; арматура; крепление; подставка"/>
+    <d v="fizz" p="noun" ts="fɪz" tr="шипение; шампанское"/>
+    <d v="fizz" p="verb" ts="fɪz" tr="шипеть; искриться"/>
+    <d v="fizzle" p="verb" ts="fɪzl" tr="выдохнуться; выдыхаться"/>
+    <d v="fizzle" p="noun" ts="fɪzl" tr="фиаско"/>
+    <d v="fizzy" p="adjective" ts="ˈfɪzɪ" tr="шипучий"/>
+    <d v="fjord" p="noun" ts="fɪˈɔːd" tr="фьорд"/>
+    <d v="flabbergasted" p="participle" ts="ˈflæbəgɑːstɪd" tr="ошарашенный"/>
+    <d v="flabby" p="adjective" ts="ˈflæbɪ" tr="дряблый; рыхлый; отвислый; мягкотелый"/>
+    <d v="flaccid" p="adjective" ts="ˈflæksɪd" tr="вялый"/>
+    <d v="flag" p="noun" ts="flæg" tr="флаг; плита; флагман; плитняк"/>
+    <d v="flag" p="verb" ts="flæg" tr="помечать; ослабевать"/>
+    <d v="flagging" p="participle" ts="ˈflægɪŋ" tr="слабеющий"/>
+    <d v="flagpole" p="noun" ts="ˈflægpəʊl" tr="флагшток"/>
+    <d v="flagrant" p="adjective" ts="ˈfleɪgrənt" tr="вопиющий"/>
+    <d v="flagrantly" p="adverb" ts="ˈfleɪgrəntlɪ" tr="грубо"/>
+    <d v="flagship" p="adjective" ts="ˈflægʃɪp" tr="флагманский"/>
+    <d v="flagship" p="noun" ts="ˈflægʃɪp" tr="флагман"/>
+    <d v="flagstone" p="noun" ts="ˈflægstəʊn" tr="плита; каменная плита; плитняк"/>
+    <d v="flail" p="noun" ts="fleɪl" tr="цеп"/>
+    <d v="flail" p="verb" ts="fleɪl" tr="молотить"/>
+    <d v="flair" p="noun" ts="flɛə" tr="чутье; талант; стиль; склонность"/>
+    <d v="flak" p="noun" ts="flæk" tr="бронежилет; зенитный огонь"/>
+    <d v="flak" p="adjective" ts="flæk" tr="зенитный"/>
+    <d v="flake" p="noun" ts="fleɪk" tr="хлопья; чешуйка; лепесток"/>
+    <d v="flake" p="adjective" ts="fleɪk" tr="чешуйчатый"/>
+    <d v="flake" p="verb" ts="fleɪk" tr="расслаиваться"/>
+    <d v="flaky" p="adjective" ts="ˈfleɪkɪ" tr="слоеный; слоистый; чешуйчатый; похожий на хлопья"/>
+    <d v="flamboyant" p="adjective" ts="flæmˈbɔɪənt" tr="яркий"/>
+    <d v="flame" p="noun" ts="fleɪm" tr="пламя; пыл"/>
+    <d v="flame" p="adjective" ts="fleɪm" tr="огненный"/>
+    <d v="flame" p="verb" ts="fleɪm" tr="вспыхнуть; пламенеть"/>
+    <d v="flamenco" p="noun" ts="fləˈmeŋkəʊ" tr="фламенко"/>
+    <d v="flaming" p="adjective" ts="ˈfleɪmɪŋ" tr="пламенный; яркий"/>
+    <d v="flaming" p="participle" ts="ˈfleɪmɪŋ" tr="пылающий; горящий; пламенеющий"/>
+    <d v="flamingo" p="noun" ts="fləˈmɪŋgəʊ" tr="фламинго"/>
+    <d v="flammable" p="adjective" ts="ˈflæməbl" tr="легковоспламеняющийся"/>
+    <d v="flammable" p="participle" ts="ˈflæməbl" tr="воспламеняющийся; воспламеняющий"/>
+    <d v="flank" p="noun" ts="flæŋk" tr="фланг; бок; бочок"/>
+    <d v="flank" p="adjective" ts="flæŋk" tr="фланговый"/>
+    <d v="flannel" p="adjective" ts="flænl" tr="фланелевый"/>
+    <d v="flannel" p="noun" ts="flænl" tr="фланель"/>
+    <d v="flap" p="noun" ts="flæp" tr="клапан; лоскут; щиток; откидная створка; паника"/>
+    <d v="flap" p="verb" ts="flæp" tr="хлопать; махать; свисать; развевать"/>
+    <d v="flap" p="adjective" ts="flæp" tr="откидной"/>
+    <d v="flare" p="noun" ts="flɛə"
+       tr="вспышка; факел; ракета; блик; сигнальная ракета; засветка; осветительный патрон; раструб; блеск"/>
+    <d v="flare" p="verb" ts="flɛə" tr="вспыхнуть"/>
+    <d v="flare" p="adjective" ts="flɛə" tr="факельный; осветительный; яркий"/>
+    <d v="flash" p="noun" ts="flæʃ" tr="вспышка; флэш; мгновение; прошивка; сверкание"/>
+    <d v="flash" p="verb" ts="flæʃ" tr="мигать; сверкать; мелькать; блеснуть; пронестись; высветить"/>
+    <d v="flash" p="participle" ts="flæʃ" tr="мигающий"/>
+    <d v="flash" p="adjective" ts="flæʃ" tr="внешний"/>
+    <d v="flashback" p="noun" ts="ˈflæʃbæk" tr="воспоминание; ретроспекция"/>
+    <d v="flash card" p="noun" ts="flæʃ kɑːd" tr="флэш-карта; карта памяти; внезапная карточка"/>
+    <d v="flasher" p="noun" ts="ˈflæʃər" tr="мигалка; флешер"/>
+    <d v="flasher" p="adjective" ts="ˈflæʃər" tr="проблесковый"/>
+    <d v="flash flood" p="noun" ts="flæʃ flʌd" tr="внезапное наводнение"/>
+    <d v="flashlight" p="noun" ts="ˈflæʃlaɪt" tr="фонарик; фотовспышка"/>
+    <d v="flashy" p="adjective" ts="ˈflæʃɪ" tr="яркий; показной"/>
+    <d v="flashy" p="participle" ts="ˈflæʃɪ" tr="кричащий"/>
+    <d v="flask" p="noun" ts="flɑːsk" tr="фляга; колба; флакон; опока"/>
+    <d v="flat" p="adjective" ts="flæt" tr="плоский; единообразный; вялый; скучный; безжизненный; бемольный"/>
+    <d v="flat" p="noun" ts="flæt" tr="квартира; равнина; плоскость; бемоль; фаска; отмель; задник"/>
+    <d v="flat" p="participle" ts="flæt" tr="ослабевший"/>
+    <d v="flatly" p="adverb" ts="ˈflætlɪ" tr="категорически; ровно; уныло"/>
+    <d v="flatten" p="verb" ts="flætn"
+       tr="выровнять; сплющить; расплющить; сгладить; сплющивать; свести; плющить; сглаживаться; раздавить"/>
+    <d v="flatten" p="adjective" ts="flætn" tr="плоский"/>
+    <d v="flatten" p="noun" ts="flætn" tr="уплощение"/>
+    <d v="flatter" p="verb" ts="ˈflætə" tr="льстить; обольщать"/>
+    <d v="flatter" p="adjective" ts="ˈflætə" tr="лестный"/>
+    <d v="flatter" p="noun" ts="ˈflætə" tr="лесть"/>
+    <d v="flatterer" p="noun" ts="ˈflætərə" tr="льстец; угодник"/>
+    <d v="flattering" p="adjective" ts="ˈflætərɪŋ" tr="лестный; льстивый"/>
+    <d v="flattering" p="noun" ts="ˈflætərɪŋ" tr="лесть"/>
+    <d v="flattery" p="noun" ts="ˈflætərɪ" tr="лесть"/>
+    <d v="flatulence" p="noun" ts="ˈflætjʊləns" tr="метеоризм; напыщенность; скопление газов"/>
+    <d v="flaunt" p="verb" ts="flɔːnt"
+       tr="красоваться; щеголять; афишировать; демонстрировать; выставлять напоказ; кичиться; пощеголять"/>
+    <d v="flavor" p="noun" ts="ˈfleɪvə" tr="вкус; аромат; разновидность; изюминка"/>
+    <d v="flavor" p="adjective" ts="ˈfleɪvə" tr="вкусовой"/>
+    <d v="flavor" p="participle" ts="ˈfleɪvə" tr="ароматизированный"/>
+    <d v="flavor" p="verb" ts="ˈfleɪvə" tr="приправить"/>
+    <d v="flavored" p="participle" ts="ˈfleɪvəd" tr="ароматизированный; приправленный"/>
+    <d v="flavoring" p="noun" ts="ˈfleɪvərɪŋ" tr="ароматизатор"/>
+    <d v="flavoring" p="adjective" ts="ˈfleɪvərɪŋ" tr="вкусовой"/>
+    <d v="flaw" p="noun" ts="flɔː"
+       tr="недостаток; рванина; трещина; дефектоскопия; брак; ущербность; шквал; порыв ветра"/>
+    <d v="flaw" p="adjective" ts="flɔː" tr="порочный"/>
+    <d v="flawed" p="participle" ts="flɔːd" tr="испорченный"/>
+    <d v="flawless" p="adjective" ts="ˈflɔːlɪs" tr="безупречный"/>
+    <d v="flawless" p="noun" ts="ˈflɔːlɪs" tr="без изъяна"/>
+    <d v="flawlessly" p="adverb" ts="ˈflɔːləslɪ" tr="безупречно"/>
+    <d v="flea" p="noun" ts="fliː" tr="блоха; барахолка"/>
+    <d v="flea" p="adjective" ts="fliː" tr="блошиный"/>
+    <d v="flea market" p="noun" ts="fliː ˈmɑːkɪt" tr="блошиный рынок; барахолка; толкучка"/>
+    <d v="fleck" p="noun" ts="flek" tr="пятно; Флек"/>
+    <d v="fledgling" p="adjective" ts="ˈfleʤlɪn" tr="молодой; неокрепший"/>
+    <d v="fledgling" p="noun" ts="ˈfleʤlɪn" tr="птенец; оперившийся птенец"/>
+    <d v="fledgling" p="participle" ts="ˈfleʤlɪn" tr="зарождающийся"/>
+    <d v="flee" p="verb" ts="fliː" tr="бежать; покинуть; скрыться; избегать; удирать"/>
+    <d v="flee" p="noun" ts="fliː" tr="бегство"/>
+    <d v="fleece" p="noun" ts="fliːs" tr="руно; флис; ватка; овечья шерсть; начес; ворс"/>
+    <d v="fleece" p="verb" ts="fliːs" tr="обдирать; обирать; вымогать"/>
+    <d v="fleet" p="noun" ts="fliːt" tr="флот; парк"/>
+    <d v="fleet" p="adjective" ts="fliːt" tr="быстрый"/>
+    <d v="fleet" p="verb" ts="fliːt" tr="плыть по поверхности"/>
+    <d v="fleeting" p="adjective" ts="ˈfliːtɪŋ" tr="мимолетный"/>
+    <d v="flesh" p="noun" ts="fleʃ" tr="плоть; мясо; человеческая природа; похоть"/>
+    <d v="flesh" p="adjective" ts="fleʃ" tr="телесный"/>
+    <d v="flesh" p="verb" ts="fleʃ" tr="полнеть"/>
+    <d v="fleshy" p="adjective" ts="ˈfleʃɪ" tr="мясистый; пухлый"/>
+    <d v="flex" p="adjective" ts="fleks" tr="гибкий"/>
+    <d v="flex" p="verb" ts="fleks" tr="согнуть; размять; пошевелить"/>
+    <d v="flex" p="noun" ts="fleks" tr="гибкий трубопровод; сгибание; гибкий шнур"/>
+    <d v="flexibility" p="noun" ts="fleksəˈbɪlɪtɪ" tr="гибкость"/>
+    <d v="flexibility" p="adjective" ts="fleksəˈbɪlɪtɪ" tr="гибкий"/>
+    <d v="flexible" p="adjective" ts="ˈfleksəbl" tr="гибкий"/>
+    <d v="flexible" p="noun" ts="ˈfleksəbl" tr="гибкость"/>
+    <d v="flick" p="noun" ts="flɪk" tr="Флик; щелчок; резкое движение"/>
+    <d v="flick" p="verb" ts="flɪk" tr="щелкнуть; мелькать"/>
+    <d v="flicker" p="noun" ts="ˈflɪkə" tr="мерцание; мелькание; искра; дятел"/>
+    <d v="flicker" p="verb" ts="ˈflɪkə" tr="мерцать; замигать"/>
+    <d v="flicker" p="participle" ts="ˈflɪkə" tr="мерцающий"/>
+    <d v="flier" p="noun" ts="ˈflaɪə" tr="листовка; летчик"/>
+    <d v="flight" p="noun" ts="flaɪt" tr="полет; перелет; бегство; стая; звено; залп"/>
+    <d v="flight" p="adjective" ts="flaɪt" tr="летный"/>
+    <d v="flight attendant" p="noun" ts="flaɪt əˈtendənt" tr="стюардесса; бортпроводник"/>
+    <d v="flighty" p="adjective" ts="ˈflaɪtɪ" tr="ветреный; взбалмошный"/>
+    <d v="flimsy" p="adjective" ts="ˈflɪmzɪ" tr="хрупкий; неубедительный; неосновательный"/>
+    <d v="flimsy" p="noun" ts="ˈflɪmzɪ" tr="листок"/>
+    <d v="flinch" p="verb" ts="flɪnʧ" tr="вздрогнуть; уклоняться; отступать"/>
+    <d v="fling" p="verb" ts="flɪŋ" tr="швырнуть; броситься; отшвырнуть; кидаться"/>
+    <d v="fling" p="noun" ts="flɪŋ" tr="швыряние"/>
+    <d v="flint" p="noun" ts="flɪnt" tr="Флинт; кремень; огниво"/>
+    <d v="flint" p="adjective" ts="flɪnt" tr="кремневый"/>
+    <d v="flip" p="noun" ts="flɪp" tr="флип; сальто; панель; щелчок"/>
+    <d v="flip" p="verb" ts="flɪp" tr="перевернуть; щелкать; слегка ударить; пролистывать; откинуть; подбросить"/>
+    <d v="flip" p="participle" ts="flɪp" tr="перевернутый"/>
+    <d v="flippant" p="adjective" ts="ˈflɪpənt" tr="легкомысленный; дерзкий"/>
+    <d v="flipper" p="noun" ts="ˈflɪpə" tr="ласт; флиппер"/>
+    <d v="flip side" p="noun" ts="flɪp saɪd" tr="оборотная сторона; другая сторона"/>
+    <d v="flirt" p="verb" ts="flɜːt" tr="флиртовать"/>
+    <d v="flirt" p="noun" ts="flɜːt" tr="флирт; кокетка; заигрывание"/>
+    <d v="flirtation" p="noun" ts="flɜːˈteɪʃn" tr="флирт"/>
+    <d v="flirtation" p="verb" ts="flɜːˈteɪʃn" tr="заигрывать"/>
+    <d v="flirtatious" p="adjective" ts="flɜːˈteɪʃəs" tr="кокетливый"/>
+    <d v="flit" p="verb" ts="flɪt" tr="порхать; перелетать"/>
+    <d v="flit" p="noun" ts="flɪt" tr="Флит"/>
+    <d v="float" p="verb" ts="fləʊt" tr="плавать; плыть; размещать; вплыть; проноситься; сплавлять; выпускать"/>
+    <d v="float" p="noun" ts="fləʊt" tr="поплавок; плот; плавание; терка; пузырь"/>
+    <d v="float" p="participle" ts="fləʊt" tr="плавающий"/>
+    <d v="float" p="adjective" ts="fləʊt" tr="поплавковый; плавучий"/>
+    <d v="flock" p="noun" ts="flɔk" tr="стадо; стая; пушинка; группа"/>
+    <d v="flock" p="verb" ts="flɔk" tr="стекаться; устремляться"/>
+    <d v="flog" p="verb" ts="flɔg" tr="пороть; бичевать; высечь"/>
+    <d v="flogging" p="noun" ts="ˈflɔgɪŋ" tr="порка; бичевание"/>
+    <d v="flood" p="noun" ts="flʌd" tr="наводнение; паводок; поток; река; изобилие"/>
+    <d v="flood" p="verb" ts="flʌd" tr="затопить; залить; заполонить; устремиться"/>
+    <d v="flood" p="adjective" ts="flʌd" tr="паводковый"/>
+    <d v="floodgate" p="noun" ts="ˈflʌdgeɪt" tr="шлюз"/>
+    <d v="floodlight" p="noun" ts="ˈflʌdlaɪt" tr="прожектор"/>
+    <d v="floor" p="noun" ts="flɔː" tr="этаж; дно; настил; гумно; минимальный уровень"/>
+    <d v="floor" p="adjective" ts="flɔː" tr="напольный"/>
+    <d v="floor" p="verb" ts="flɔː" tr="справиться"/>
+    <d v="flooring" p="noun" ts="ˈflɔːrɪŋ" tr="пол; напольное покрытие"/>
+    <d v="flooring" p="adjective" ts="ˈflɔːrɪŋ" tr="напольный"/>
+    <d v="floor plan" p="noun" ts="flɔː plæn"
+       tr="поэтажный план; планировка; план этажа; план пола; архитектурный план"/>
+    <d v="floozy" p="noun" ts="ˈfluːzɪ" tr="шлюха"/>
+    <d v="flop" p="noun" ts="flɔp" tr="флоп; провал"/>
+    <d v="flop" p="verb" ts="flɔp" tr="плюхнуться; провалиться; свалиться; переметнуться"/>
+    <d v="flophouse" p="noun" ts="ˈflɔphaʊs" tr="ночлежка"/>
+    <d v="floppy" p="noun" ts="ˈflɔpɪ" tr="дискета"/>
+    <d v="floppy" p="adjective" ts="ˈflɔpɪ" tr="гибкий"/>
+    <d v="floppy" p="participle" ts="ˈflɔpɪ" tr="свободно висящий"/>
+    <d v="floppy disk" p="noun" ts="ˈflɔpɪ dɪsk" tr="дискета; гибкий магнитный диск"/>
+    <d v="flora" p="noun" ts="ˈflɔːrə" tr="флора"/>
+    <d v="flora" p="adjective" ts="ˈflɔːrə" tr="растительный"/>
+    <d v="floral" p="adjective" ts="ˈflɔːrəl" tr="цветочный"/>
+    <d v="floral" p="noun" ts="ˈflɔːrəl" tr="флорист"/>
+    <d v="florid" p="adjective" ts="ˈflɔrɪd" tr="витиеватый; напыщенный"/>
+    <d v="florid" p="participle" ts="ˈflɔrɪd" tr="кричащий"/>
+    <d v="florist" p="noun" ts="ˈflɔrɪst" tr="флорист; цветочный магазин; цветочница; флористика; цветочник"/>
+    <d v="florist" p="adjective" ts="ˈflɔrɪst" tr="цветочный"/>
+    <d v="floss" p="noun" ts="flɔs" tr="нить; зубочистка; мулине"/>
+    <d v="flotilla" p="noun" ts="fləʊˈtɪlə" tr="флотилия"/>
+    <d v="flounce" p="noun" ts="flaʊns" tr="волан"/>
+    <d v="flounder" p="noun" ts="ˈflaʊndə" tr="камбала"/>
+    <d v="flounder" p="verb" ts="ˈflaʊndə" tr="барахтаться"/>
+    <d v="flour" p="noun" ts="ˈflaʊə" tr="мука; порошок; крупчатка"/>
+    <d v="flour" p="adjective" ts="ˈflaʊə" tr="мучной"/>
+    <d v="flourish" p="verb" ts="ˈflʌrɪʃ" tr="процветать; расцвести; жить; пышно расти"/>
+    <d v="flourish" p="noun" ts="ˈflʌrɪʃ" tr="процветание; загогулина; росчерк; завитушка; размахивание"/>
+    <d v="flout" p="verb" ts="flaʊt" tr="пренебрегать; глумиться"/>
+    <d v="flow" p="noun" ts="fləʊ" tr="поток; плавность; изобилие; менструация"/>
+    <d v="flow" p="verb" ts="fləʊ" tr="течь; протекать; проистекать; перетечь; уплывать; ниспадать"/>
+    <d v="flow" p="adjective" ts="fləʊ" tr="проточный; потоковый"/>
+    <d v="flow" p="participle" ts="fləʊ" tr="протекающий"/>
+    <d v="flow chart" p="noun" ts="fləʊ ʧɑːt" tr="технологическая схема; технологическая карта"/>
+    <d v="flower" p="noun" ts="ˈflaʊə" tr="цветы; цветник; расцвет; менструация"/>
+    <d v="flower" p="adjective" ts="ˈflaʊə" tr="цветочный"/>
+    <d v="flower" p="verb" ts="ˈflaʊə" tr="цвести"/>
+    <d v="flower" p="participle" ts="ˈflaʊə" tr="цветущий"/>
+    <d v="flowerbed" p="noun" ts="ˈflaʊəbed" tr="клумба"/>
+    <d v="flowerpot" p="noun" ts="ˈflaʊəpɔt" tr="горшок"/>
+    <d v="flowery" p="adjective" ts="ˈflaʊərɪ" tr="цветочный; цветистый"/>
+    <d v="flowery" p="participle" ts="ˈflaʊərɪ" tr="цветущий"/>
+    <d v="flown" p="participle" ts="fləʊn" tr="пролетаемый; управляемый"/>
+    <d v="flu" p="noun" ts="fluː" tr="грипп"/>
+    <d v="flu" p="adjective" ts="fluː" tr="гриппозный"/>
+    <d v="fluctuate" p="verb" ts="ˈflʌktjʊeɪt" tr="колебаться"/>
+    <d v="fluctuate" p="noun" ts="ˈflʌktjʊeɪt" tr="колебание"/>
+    <d v="fluctuation" p="noun" ts="flʌktjʊˈeɪʃn" tr="колебание; текучесть; колыхание"/>
+    <d v="flue" p="adjective" ts="fluː" tr="дымовой"/>
+    <d v="flue" p="noun" ts="fluː" tr="дымоход; грипп"/>
+    <d v="fluency" p="noun" ts="ˈfluːənsɪ" tr="беглость; владение; свободное владение; плавность"/>
+    <d v="fluent" p="verb" ts="ˈfluːənt" tr="свободно владеть; владеть"/>
+    <d v="fluent" p="adjective" ts="ˈfluːənt" tr="беглый; гладкий; текучий"/>
+    <d v="fluent" p="noun" ts="ˈfluːənt" tr="свободное владение"/>
+    <d v="fluent" p="participle" ts="ˈfluːənt" tr="владеющий; свободно владеющий"/>
+    <d v="fluently" p="adverb" ts="ˈfluːəntlɪ" tr="свободно; плавно"/>
+    <d v="fluently" p="verb" ts="ˈfluːəntlɪ" tr="свободно владеть"/>
+    <d v="fluff" p="noun" ts="flʌf" tr="пух"/>
+    <d v="fluff" p="verb" ts="flʌf" tr="взбивать; промазать"/>
+    <d v="fluffy" p="adjective" ts="ˈflʌfɪ" tr="пушистый"/>
+    <d v="fluffy" p="noun" ts="ˈflʌfɪ" tr="пушистость"/>
+    <d v="fluid" p="noun" ts="ˈfluːɪd" tr="жидкость"/>
+    <d v="fluid" p="adjective" ts="ˈfluːɪd" tr="жидкий; изменчивый; подвижный"/>
+    <d v="fluid" p="participle" ts="ˈfluːɪd" tr="меняющийся"/>
+    <d v="fluidity" p="noun" ts="fluːˈɪdɪtɪ" tr="текучесть; подвижность; изменчивость; жидкое состояние"/>
+    <d v="floodgate" p="noun" ts="ˈflʌdgeɪt" tr="шлюз"/>
+    <d v="floodlight" p="noun" ts="ˈflʌdlaɪt" tr="прожектор"/>
+    <d v="floor" p="noun" ts="flɔː" tr="этаж; дно; настил; гумно; минимальный уровень"/>
+    <d v="floor" p="adjective" ts="flɔː" tr="напольный"/>
+    <d v="floor" p="verb" ts="flɔː" tr="справиться"/>
+    <d v="flooring" p="noun" ts="ˈflɔːrɪŋ" tr="пол; напольное покрытие"/>
+    <d v="flooring" p="adjective" ts="ˈflɔːrɪŋ" tr="напольный"/>
+    <d v="floor plan" p="noun" ts="flɔː plæn"
+       tr="поэтажный план; планировка; план этажа; план пола; архитектурный план"/>
+    <d v="floozy" p="noun" ts="ˈfluːzɪ" tr="шлюха"/>
+    <d v="flop" p="noun" ts="flɔp" tr="флоп; провал"/>
+    <d v="flop" p="verb" ts="flɔp" tr="плюхнуться; провалиться; свалиться; переметнуться"/>
+    <d v="flophouse" p="noun" ts="ˈflɔphaʊs" tr="ночлежка"/>
+    <d v="floppy" p="noun" ts="ˈflɔpɪ" tr="дискета"/>
+    <d v="floppy" p="adjective" ts="ˈflɔpɪ" tr="гибкий"/>
+    <d v="floppy" p="participle" ts="ˈflɔpɪ" tr="свободно висящий"/>
+    <d v="floppy disk" p="noun" ts="ˈflɔpɪ dɪsk" tr="дискета; гибкий магнитный диск"/>
+    <d v="flora" p="noun" ts="ˈflɔːrə" tr="флора"/>
+    <d v="flora" p="adjective" ts="ˈflɔːrə" tr="растительный"/>
+    <d v="floral" p="adjective" ts="ˈflɔːrəl" tr="цветочный"/>
+    <d v="floral" p="noun" ts="ˈflɔːrəl" tr="флорист"/>
+    <d v="florid" p="adjective" ts="ˈflɔrɪd" tr="витиеватый; напыщенный"/>
+    <d v="florid" p="participle" ts="ˈflɔrɪd" tr="кричащий"/>
+    <d v="florist" p="noun" ts="ˈflɔrɪst" tr="флорист; цветочный магазин; цветочница; флористика; цветочник"/>
+    <d v="florist" p="adjective" ts="ˈflɔrɪst" tr="цветочный"/>
+    <d v="floss" p="noun" ts="flɔs" tr="нить; зубочистка; мулине"/>
+    <d v="flotilla" p="noun" ts="fləʊˈtɪlə" tr="флотилия"/>
+    <d v="flounce" p="noun" ts="flaʊns" tr="волан"/>
+    <d v="flounder" p="noun" ts="ˈflaʊndə" tr="камбала"/>
+    <d v="flounder" p="verb" ts="ˈflaʊndə" tr="барахтаться"/>
+    <d v="flour" p="noun" ts="ˈflaʊə" tr="мука; порошок; крупчатка"/>
+    <d v="flour" p="adjective" ts="ˈflaʊə" tr="мучной"/>
+    <d v="flourish" p="verb" ts="ˈflʌrɪʃ" tr="процветать; расцвести; жить; пышно расти"/>
+    <d v="flourish" p="noun" ts="ˈflʌrɪʃ" tr="процветание; загогулина; росчерк; завитушка; размахивание"/>
+    <d v="flout" p="verb" ts="flaʊt" tr="пренебрегать; глумиться"/>
+    <d v="flow" p="noun" ts="fləʊ" tr="поток; плавность; изобилие; менструация"/>
+    <d v="flow" p="verb" ts="fləʊ" tr="течь; протекать; проистекать; перетечь; уплывать; ниспадать"/>
+    <d v="flow" p="adjective" ts="fləʊ" tr="проточный; потоковый"/>
+    <d v="flow" p="participle" ts="fləʊ" tr="протекающий"/>
+    <d v="flow chart" p="noun" ts="fləʊ ʧɑːt" tr="технологическая схема; технологическая карта"/>
+    <d v="flower" p="noun" ts="ˈflaʊə" tr="цветы; цветник; расцвет; менструация"/>
+    <d v="flower" p="adjective" ts="ˈflaʊə" tr="цветочный"/>
+    <d v="flower" p="verb" ts="ˈflaʊə" tr="цвести"/>
+    <d v="flower" p="participle" ts="ˈflaʊə" tr="цветущий"/>
+    <d v="flowerbed" p="noun" ts="ˈflaʊəbed" tr="клумба"/>
+    <d v="flowerpot" p="noun" ts="ˈflaʊəpɔt" tr="горшок"/>
+    <d v="flowery" p="adjective" ts="ˈflaʊərɪ" tr="цветочный; цветистый"/>
+    <d v="flowery" p="participle" ts="ˈflaʊərɪ" tr="цветущий"/>
+    <d v="flown" p="participle" ts="fləʊn" tr="пролетаемый; управляемый"/>
+    <d v="flu" p="noun" ts="fluː" tr="грипп"/>
+    <d v="flu" p="adjective" ts="fluː" tr="гриппозный"/>
+    <d v="fluctuate" p="verb" ts="ˈflʌktjʊeɪt" tr="колебаться"/>
+    <d v="fluctuate" p="noun" ts="ˈflʌktjʊeɪt" tr="колебание"/>
+    <d v="fluctuation" p="noun" ts="flʌktjʊˈeɪʃn" tr="колебание; текучесть; колыхание"/>
+    <d v="flue" p="adjective" ts="fluː" tr="дымовой"/>
+    <d v="flue" p="noun" ts="fluː" tr="дымоход; грипп"/>
+    <d v="fluency" p="noun" ts="ˈfluːənsɪ" tr="беглость; владение; свободное владение; плавность"/>
+    <d v="fluent" p="verb" ts="ˈfluːənt" tr="свободно владеть; владеть"/>
+    <d v="fluent" p="adjective" ts="ˈfluːənt" tr="беглый; гладкий; текучий"/>
+    <d v="fluent" p="noun" ts="ˈfluːənt" tr="свободное владение"/>
+    <d v="fluent" p="participle" ts="ˈfluːənt" tr="владеющий; свободно владеющий"/>
+    <d v="fluently" p="adverb" ts="ˈfluːəntlɪ" tr="свободно; плавно"/>
+    <d v="fluently" p="verb" ts="ˈfluːəntlɪ" tr="свободно владеть"/>
+    <d v="fluff" p="noun" ts="flʌf" tr="пух"/>
+    <d v="fluff" p="verb" ts="flʌf" tr="взбивать; промазать"/>
+    <d v="Fluke" p="noun" ts="fluːk" tr="случайность; счастливая случайность; двуустка; трематода; палтус"/>
+    <d v="flung" p="participle" ts="flʌŋ" tr="брошенный"/>
+    <d v="flunk" p="verb" ts="flʌŋk" tr="завалить"/>
+    <d v="flunky" p="noun" ts="ˈflʌŋkɪ" tr="лакей"/>
+    <d v="fluorescent" p="adjective" ts="flʊəˈresnt" tr="флуоресцентный"/>
+    <d v="fluorescent" p="participle" ts="flʊəˈresnt" tr="флуоресцирующий; флюоресцирующий"/>
+    <d v="fluoride" p="noun" ts="ˈflʊəraɪd" tr="фторид"/>
+    <d v="fluoride" p="adjective" ts="ˈflʊəraɪd" tr="фтористый"/>
+    <d v="flurry" p="noun" ts="ˈflʌrɪ" tr="шквал; суматоха"/>
+    <d v="flurry" p="verb" ts="ˈflʌrɪ" tr="будоражить"/>
+    <d v="flush" p="noun" ts="flʌʃ" tr="флеш; промывка; румянец; прилив; расцвет; приступ; упоение; карты одной масти"/>
+    <d v="flush" p="verb" ts="flʌʃ" tr="промыть; покраснеть; сбрасывать; спустить; топить; спугивать"/>
+    <d v="flush" p="adjective" ts="flʌʃ" tr="полный; промывочный"/>
+    <d v="flushed" p="participle" ts="flʌʃt" tr="разгоряченный"/>
+    <d v="fluster" p="verb" ts="ˈflʌstə" tr="волновать"/>
+    <d v="flustered" p="participle" ts="ˈflʌstəd" tr="взволнованный"/>
+    <d v="flute" p="noun" ts="fluːt" tr="флейта; канавка"/>
+    <d v="flutist" p="noun" ts="ˈfluːtɪst" tr="флейтист; флейтистка"/>
+    <d v="flutter" p="verb" ts="ˈflʌtə" tr="развеваться; порхать; махать; перепархивать; вибрировать"/>
+    <d v="flutter" p="noun" ts="ˈflʌtə" tr="флаттер; трепетание; трепет; порхание"/>
+    <d v="flux" p="noun" ts="flʌks" tr="поток; флюс; истечение; постоянное движение; плавень"/>
+    <d v="fly" p="verb" ts="flaɪ" tr="летать; взлететь; слетать; долететь; влететь; пилотировать; развевать"/>
+    <d v="fly" p="noun" ts="flaɪ" tr="муха; лето; полет; ширинка"/>
+    <d v="flying" p="adjective" ts="ˈflaɪɪŋ" tr="летательный; летучий; быстрый"/>
+    <d v="flying" p="noun" ts="ˈflaɪɪŋ" tr="полет; пилотирование"/>
+    <d v="flying" p="adverbial participle" ts="ˈflaɪɪŋ" tr="улетая"/>
+    <d v="flying" p="participle" ts="ˈflaɪɪŋ" tr="летающий; летящий; развевающийся; пролетевший"/>
+    <d v="flying saucer" p="noun" ts="ˈflaɪɪŋ ˈsɔːsə" tr="летающая тарелка; летающее блюдце"/>
+    <d v="FM" p="invariant" ts="ˈefem" tr="ФМ; ЧМ"/>
+    <d v="foal" p="noun" ts="fəʊl" tr="жеребенок"/>
+    <d v="foam" p="noun" ts="fəʊm" tr="пена; пенопласт; поролон; пенообразование"/>
+    <d v="foam" p="adjective" ts="fəʊm" tr="пенный; поролоновый; губчатый"/>
+    <d v="foam" p="participle" ts="fəʊm" tr="вспененный; пенящийся"/>
+    <d v="foam" p="verb" ts="fəʊm" tr="пениться; вспениться; вспенить"/>
+    <d v="foam rubber" p="noun" ts="fəʊm ˈrʌbə" tr="поролон; пенопласт"/>
+    <d v="foamy" p="adjective" ts="ˈfəʊmɪ" tr="пенный; пенообразный"/>
+    <d v="foamy" p="participle" ts="ˈfəʊmɪ" tr="пенящийся; взмыленный"/>
+    <d v="focal point" p="noun" ts="ˈfəʊkəl pɔɪnt"
+       tr="координационный центр; координатор; фокус; координационный пункт; фокусная точка; фокальная точка"/>
+    <d v="focal point" p="adjective" ts="ˈfəʊkəl pɔɪnt" tr="координационный"/>
+    <d v="focus" p="noun" ts="ˈfəʊkəs" tr="внимание; фокус; акцент; центр; направленность; центр внимания"/>
+    <d v="focus" p="verb" ts="ˈfəʊkəs" tr="сосредоточить; сосредоточиться; фокусировать; собирать"/>
+    <d v="focus" p="participle" ts="ˈfəʊkəs" tr="направленный; посвященный; сфокусированный"/>
+    <d v="focus" p="adjective" ts="ˈfəʊkəs" tr="ориентированный"/>
+    <d v="fodder" p="noun" ts="ˈfɔdə" tr="корм"/>
+    <d v="fodder" p="adjective" ts="ˈfɔdə" tr="кормовой"/>
+    <d v="foe" p="noun" ts="fəʊ" tr="враг"/>
+    <d v="fog" p="noun" ts="fɔg" tr="мгла; туманность; вуаль"/>
+    <d v="fog" p="adjective" ts="fɔg" tr="туманный"/>
+    <d v="fog" p="verb" ts="fɔg" tr="затуманивать; затуманить"/>
+    <d v="foggy" p="adjective" ts="ˈfɔgɪ" tr="туманный"/>
+    <d v="foggy" p="noun" ts="ˈfɔgɪ" tr="туман"/>
+    <d v="foible" p="noun" ts="ˈfɔɪbl" tr="слабость"/>
+    <d v="foil" p="noun" ts="fɔɪl" tr="фольга; рапира; фон; контраст"/>
+    <d v="foil" p="adjective" ts="fɔɪl" tr="фольгированный; пленочный"/>
+    <d v="foil" p="verb" ts="fɔɪl" tr="сорвать"/>
+    <d v="foist" p="verb" ts="fɔɪst" tr="навязать; всучить; всунуть"/>
+    <d v="fold" p="noun" ts="fəʊld"
+       tr="раз; складка; створка; кратное; лоно; загон; складывание; паства; кошара; падь"/>
+    <d v="fold" p="verb" ts="fəʊld"
+       tr="сложить; сбросить; сбросить карты; спасовать; пасовать; сгибать; загибать; перегибать; фальцевать; бездействовать; обхватывать; загонять"/>
+    <d v="fold" p="adjective" ts="fəʊld" tr="складчатый"/>
+    <d v="folder" p="noun" ts="ˈfəʊldə" tr="папка; фальцовщик"/>
+    <d v="fluid" p="noun" ts="ˈfluːɪd" tr="жидкость"/>
+    <d v="fluid" p="adjective" ts="ˈfluːɪd" tr="жидкий; изменчивый; подвижный"/>
+    <d v="fluid" p="participle" ts="ˈfluːɪd" tr="меняющийся"/>
+    <d v="fluidity" p="noun" ts="fluːˈɪdɪtɪ" tr="текучесть; подвижность; изменчивость; жидкое состояние"/>
+    <d v="foliage" p="noun" ts="ˈfəʊlɪɪʤ" tr="листва; зелень"/>
+    <d v="foliage" p="adjective" ts="ˈfəʊlɪɪʤ" tr="лиственный"/>
+    <d v="folk" p="adjective" ts="fəʊk" tr="народный"/>
+    <d v="folk" p="noun" ts="fəʊk" tr="люди; фолк; люд"/>
+    <d v="folklore" p="noun" ts="ˈfəʊklɔː" tr="фольклор"/>
+    <d v="folklore" p="adjective" ts="ˈfəʊklɔː" tr="фольклорный"/>
+    <d v="folk music" p="noun" ts="fəʊk ˈmjuːzɪk" tr="народная музыка; фольклорная музыка; фолк"/>
+    <d v="folksy" p="adjective" ts="ˈfəʊksɪ" tr="простонародный; народный"/>
+    <d v="follicle" p="noun" ts="ˈfɔlɪkl" tr="фолликул; стручок; мешочек"/>
+    <d v="follow" p="verb" ts="ˈfɔləʊ"
+       tr="следовать; выполнить; следить; придерживаться; проследить; сопровождать; преследовать; проследовать; уследить; слушать; сменить"/>
+    <d v="follow" p="adjective" ts="ˈfɔləʊ" tr="следующий"/>
+    <d v="follow" p="noun" ts="ˈfɔləʊ" tr="следование; последователь"/>
+    <d v="follower" p="noun" ts="ˈfɔləʊə" tr="последователь; сторонник; последовательница; толкатель; подаватель"/>
+    <d v="following" p="adjective" ts="ˈfɔləʊɪŋ" tr="следующий; попутный"/>
+    <d v="following" p="adverb" ts="ˈfɔləʊɪŋ" tr="ниже; вслед"/>
+    <d v="folly" p="noun" ts="ˈfɔlɪ" tr="глупость; безумие; причуда; недальновидность; дурь"/>
+    <d v="foment" p="verb" ts="fəʊˈment" tr="разжигать; подстрекать"/>
+    <d v="foment" p="noun" ts="fəʊˈment" tr="разжигание"/>
+    <d v="fond" p="verb" ts="fɔnd" tr="любить"/>
+    <d v="fond" p="participle" ts="fɔnd" tr="любящий; полюбившийся; увлекающийся"/>
+    <d v="fond" p="adjective" ts="fɔnd" tr="нежный"/>
+    <d v="fondle" p="verb" ts="fɔndl" tr="ласкать"/>
+    <d v="fondly" p="adverb" ts="ˈfɔndlɪ" tr="наивно; нежно; доверчиво"/>
+    <d v="fondly" p="noun" ts="ˈfɔndlɪ" tr="с нежностью"/>
+    <d v="fondness" p="noun" ts="ˈfɔndnɪs" tr="любовь"/>
+    <d v="font" p="noun" ts="fɔnt" tr="шрифт; купель; источник"/>
+    <d v="font" p="adjective" ts="fɔnt" tr="шрифтовой"/>
+    <d v="food" p="noun" ts="fuːd" tr="питание; продукты питания; кушанье; угощение; провизия; съестные припасы"/>
+    <d v="food" p="adjective" ts="fuːd" tr="пищевой; продовольственный"/>
+    <d v="food" p="adverbial participle" ts="fuːd" tr="пища"/>
+    <d v="food" p="verb" ts="fuːd" tr="поесть"/>
+    <d v="food poisoning" p="noun" ts="fuːd ˈpɔɪznɪŋ" tr="пищевое отравление"/>
+    <d v="food processor" p="noun" ts="fuːd ˈprəʊsesər" tr="обработчик еды"/>
+    <d v="foodstuff" p="noun" ts="ˈfuːdstʌf" tr="пищевой продукт; продукт; пищевая продукция"/>
+    <d v="foodstuff" p="adjective" ts="ˈfuːdstʌf" tr="пищевой"/>
+    <d v="fool" p="noun" ts="fuːl" tr="дурак; кисель"/>
+    <d v="fool" p="adjective" ts="fuːl" tr="глупый; юродивый"/>
+    <d v="fool" p="verb" ts="fuːl" tr="обмануть; одурачить; околпачить; морочить; околпачивать"/>
+    <d v="foolhardy" p="adjective" ts="ˈfuːlhɑːdɪ" tr="безрассудный; безрассудно храбрый"/>
+    <d v="foolhardy" p="noun" ts="ˈfuːlhɑːdɪ" tr="безрассудство"/>
+    <d v="foolish" p="adjective" ts="ˈfuːlɪʃ" tr="глупый; юродивый; неумный; дурашливый"/>
+    <d v="foolish" p="noun" ts="ˈfuːlɪʃ" tr="глупость; глупец"/>
+    <d v="foolish" p="adverb" ts="ˈfuːlɪʃ" tr="сдуру"/>
+    <d v="foolishly" p="adverb" ts="ˈfuːlɪʃlɪ" tr="глупо; сдуру"/>
+    <d v="foolishly" p="adjective" ts="ˈfuːlɪʃlɪ" tr="глупый"/>
+    <d v="foolishly" p="noun" ts="ˈfuːlɪʃlɪ" tr="по глупости"/>
+    <d v="foolishness" p="noun" ts="ˈfuːlɪʃnɪs" tr="глупость; дурь; неразумие; неразумность"/>
+    <d v="foolproof" p="adjective" ts="ˈfuːlpruːf" tr="надежный; несложный"/>
+    <d v="foot" p="noun" ts="fʊt" tr="нога; подножие; стопа; шаг; опора; пехота"/>
+    <d v="foot" p="adjective" ts="fʊt" tr="футовый; пеший"/>
+    <d v="footage" p="noun" ts="ˈfʊtɪʤ"
+       tr="кадры; видеоматериал; сюжет; отснятый материал; отснятый видеоматериал; метраж"/>
+    <d v="football" p="noun" ts="ˈfʊtbɔːl" tr="футбол"/>
+    <d v="football" p="adjective" ts="ˈfʊtbɔːl" tr="футбольный"/>
+    <d v="footbridge" p="noun" ts="ˈfʊtbrɪʤ" tr="мостки; пешеходный мостик"/>
+    <d v="foothill" p="adjective" ts="ˈfʊthɪl" tr="предгорный"/>
+    <d v="foothill" p="noun" ts="ˈfʊthɪl" tr="предгорье"/>
+    <d v="foothold" p="noun" ts="ˈfʊthəʊld" tr="опора; плацдарм; позиция; точка опоры; опорный пункт"/>
+    <d v="foothold" p="verb" ts="ˈfʊthəʊld" tr="закрепиться"/>
+    <d v="footing" p="noun" ts="ˈfʊtɪŋ" tr="основа"/>
+    <d v="footlights" p="noun" ts="ˈfʊtlaɪts" tr="рампа; огни рампы"/>
+    <d v="footnote" p="noun" ts="ˈfʊtnəʊt" tr="сноска"/>
+    <d v="footpath" p="noun" ts="ˈfʊtpɑːθ" tr="тропинка"/>
+    <d v="footpath" p="adjective" ts="ˈfʊtpɑːθ" tr="пешеходный"/>
+    <d v="footprint" p="noun" ts="ˈfʊtprɪnt" tr="след; присутствие; след ноги; отпечаток ноги"/>
+    <d v="footstep" p="noun" ts="ˈfʊtstep" tr="шаг; стопа; след; пята; поступь"/>
+    <d v="footwear" p="noun" ts="ˈfʊtwɛə" tr="обувь"/>
+    <d v="footwear" p="adjective" ts="ˈfʊtwɛə" tr="обувной"/>
+    <d v="footwork" p="noun" ts="ˈfʊtwɜːk" tr="работа ног"/>
+    <d v="for" p="preposition" ts="fɔː" tr="для; на; за; по; ради; от; вместо; против; вследствие"/>
+    <d v="for" p="conjunction" ts="fɔː" tr="ибо"/>
+    <d v="for" p="noun" ts="fɔː" tr="в течение; ввиду того"/>
+    <d v="for" p="pronoun" ts="fɔː" tr="что"/>
+    <d v="forage" p="noun" ts="ˈfɔrɪʤ" tr="корм"/>
+    <d v="forage" p="adjective" ts="ˈfɔrɪʤ" tr="кормовой"/>
+    <d v="forage" p="verb" ts="ˈfɔrɪʤ" tr="фуражировать"/>
+    <d v="foray" p="noun" ts="ˈfɔreɪ" tr="набег"/>
+    <d v="forbear" p="verb" ts="ˈfɔːbɛə" tr="воздерживаться"/>
+    <d v="forbearance" p="noun" ts="fɔːˈbɛərəns" tr="терпение; воздержанность"/>
+    <d v="forbid" p="verb" ts="fəˈbɪd" tr="запрещать"/>
+    <d v="forbidden" p="participle" ts="fəˈbɪdn" tr="запрещенный"/>
+    <d v="forbidden" p="adjective" ts="fəˈbɪdn" tr="запретный"/>
+    <d v="forbidding" p="participle" ts="fəˈbɪdɪŋ" tr="запрещающий; запретивший"/>
+    <d v="forbidding" p="adjective" ts="fəˈbɪdɪŋ" tr="неприступный; непривлекательный; страшный; угрожающий"/>
+    <d v="force" p="noun" ts="fɔːs" tr="сила; действие; насилие; значение; убедительность"/>
+    <d v="force" p="verb" ts="fɔːs"
+       tr="заставить; принуждать; форсировать; навязывать; насиловать; выводить; ускорять; напрягать"/>
+    <d v="force" p="adjective" ts="fɔːs" tr="силовой"/>
+    <d v="forced" p="adjective" ts="fɔːst" tr="вынужденный; принудительный"/>
+    <d v="forced" p="participle" ts="fɔːst" tr="принужденный; форсированный; заставленный; натянутый; принуждаемый"/>
+    <d v="forced" p="adverb" ts="fɔːst" tr="принудительно"/>
+    <d v="force-feed" p="verb" ts="fɔːs-fiːd" tr="насильно кормить"/>
+    <d v="forceful" p="adjective" ts="ˈfɔːsfʊl" tr="сильный; силовой; насильственный"/>
+    <d v="forcefully" p="adverb" ts="ˈfɔːsfəlɪ" tr="насильно; решительно"/>
+    <d v="forceps" p="noun" ts="ˈfɔːseps" tr="щипцы; хирургические щипцы"/>
+    <d v="forcible" p="adjective" ts="ˈfɔːsəbl" tr="насильственный; веский; волюнтаристский; яркий"/>
+    <d v="forcibly" p="adverb" ts="ˈfɔːsəblɪ" tr="насильно"/>
+    <d v="forcibly" p="noun" ts="ˈfɔːsəblɪ" tr="в принудительном порядке"/>
+    <d v="Ford" p="noun" ts="fɔːd" tr="Форд; Брод"/>
+    <d v="Ford" p="verb" ts="fɔːd" tr="переходить вброд"/>
+    <d v="fore" p="adjective" ts="fɔː" tr="передний"/>
+    <d v="fore" p="noun" ts="fɔː" tr="первый план; нос"/>
+    <d v="forearm" p="noun" ts="ˈfɔːrɑːm" tr="предплечье; цевье"/>
+    <d v="foreboding" p="noun" ts="fɔːˈbəʊdɪŋ" tr="предчувствие; дурное предчувствие"/>
+    <d v="forecast" p="noun" ts="ˈfɔːkɑːst" tr="прогноз"/>
+    <d v="forecast" p="verb" ts="ˈfɔːkɑːst" tr="прогнозировать; предвидеть"/>
+    <d v="forecast" p="participle" ts="ˈfɔːkɑːst" tr="прогнозируемый"/>
+    <d v="forecast" p="adjective" ts="ˈfɔːkɑːst" tr="прогностический"/>
+    <d v="foreclose" p="verb" ts="fɔːˈkləʊz" tr="исключать; предрешать"/>
+    <d v="foreclose" p="noun" ts="fɔːˈkləʊz" tr="взыскание"/>
+    <d v="foreclosure" p="noun" ts="fɔːˈkləʊʒə" tr="выкуп; взыскание; потеря права выкупа; лишение права выкупа"/>
+    <d v="forefinger" p="adjective" ts="ˈfɔːfɪŋgə" tr="указательный"/>
+    <d v="forefinger" p="noun" ts="ˈfɔːfɪŋgə" tr="указательный палец"/>
+    <d v="forefront" p="noun" ts="ˈfɔːfrʌnt" tr="первый план; передний край; авангард"/>
+    <d v="forefront" p="adjective" ts="ˈfɔːfrʌnt" tr="передний"/>
+    <d v="foreground" p="noun" ts="ˈfɔːgraʊnd" tr="передний план; план"/>
+    <d v="foreground" p="adjective" ts="ˈfɔːgraʊnd" tr="передний; приоритетный"/>
+    <d v="forehand" p="adjective" ts="ˈfɔːhænd" tr="заблаговременный"/>
+    <d v="forehead" p="noun" ts="ˈfɔrɪd" tr="лоб"/>
+    <d v="foreign" p="adjective" ts="ˈfɔrɪn" tr="иностранный; Нездешний"/>
+    <d v="foreigner" p="noun" ts="ˈfɔrɪnə" tr="иностранец; иноплеменник; чужеземец; иноземец"/>
+    <d v="foreigner" p="adjective" ts="ˈfɔrɪnə" tr="чужой"/>
+    <d v="foreign exchange" p="noun" ts="ˈfɔrɪn ɪksˈʧeɪnʤ" tr="иностранная валюта"/>
+    <d v="foreign exchange" p="adjective" ts="ˈfɔrɪn ɪksˈʧeɪnʤ" tr="валютный"/>
+    <d v="foreman" p="noun" ts="ˈfɔːmən"
+       tr="мастер; бригадир; Форман; старшина; надсмотрщик; десятник; начальник цеха; техник"/>
+    <d v="foremost" p="noun" ts="ˈfɔːməʊst" tr="очередь; прежде всего; на первом месте"/>
+    <d v="foremost" p="preposition" ts="ˈfɔːməʊst" tr="прежде"/>
+    <d v="foremost" p="adjective" ts="ˈfɔːməʊst" tr="главный; передовой; самый главный"/>
+    <d v="forensic" p="adjective" ts="fəˈrensɪk" tr="судебный"/>
+    <d v="forensic" p="noun" ts="fəˈrensɪk" tr="судмедэксперт"/>
+    <d v="foreplay" p="noun" ts="ˈfɔːpleɪ" tr="прелюдия"/>
+    <d v="forerunner" p="noun" ts="ˈfɔːrʌnər" tr="предшественник"/>
+    <d v="foresee" p="verb" ts="fɔːˈsiː" tr="предусматривать; предвидеть; предсказать; предвидеться"/>
+    <d v="foresee" p="noun" ts="fɔːˈsiː" tr="предвидение"/>
+    <d v="foreseeable" p="adjective" ts="fɔːˈsiːəbl" tr="обозримый; предсказуемый"/>
+    <d v="foreseeable" p="participle" ts="fɔːˈsiːəbl" tr="прогнозируемый; предвидимый; поддающийся предвидению"/>
+    <d v="foreseen" p="participle" ts="fɔːˈsiːn" tr="предусмотренный; предвиденный; предусматриваемый"/>
+    <d v="foreshadow" p="verb" ts="fɔːˈʃædəʊ" tr="предвещать; предзнаменовать"/>
+    <d v="foresight" p="noun" ts="ˈfɔːsaɪt"
+       tr="предвидение; дальновидность; предусмотрительность; Форсайт; перспективный анализ; мушка"/>
+    <d v="foreskin" p="noun" ts="ˈfɔːskɪn" tr="плоть; крайняя плоть"/>
+    <d v="forest" p="noun" ts="ˈfɔrɪst" tr="лес; лесоустройство; заповедник"/>
+    <d v="forest" p="adjective" ts="ˈfɔrɪst" tr="лесной"/>
+    <d v="forestall" p="verb" ts="fɔːˈstɔːl" tr="предотвратить; предупредить; упредить; опередить; предварять"/>
+    <d v="forestall" p="noun" ts="fɔːˈstɔːl" tr="опережение"/>
+    <d v="forestry" p="adjective" ts="ˈfɔrɪstrɪ" tr="лесной"/>
+    <d v="forestry" p="noun" ts="ˈfɔrɪstrɪ" tr="лесное хозяйство; лесоводство"/>
+    <d v="foretaste" p="noun" ts="ˈfɔːteɪst" tr="предвкушение"/>
+    <d v="foretaste" p="verb" ts="ˈfɔːteɪst" tr="предвкушать"/>
+    <d v="foretell" p="verb" ts="fɔːˈtel" tr="предсказать"/>
+    <d v="forethought" p="noun" ts="ˈfɔːθɔːt" tr="предусмотрительность; продуманность; задуманное"/>
+    <d v="foretold" p="participle" ts="fɔːˈtəʊld" tr="предсказанный; предреченный"/>
+    <d v="forever" p="adverb" ts="fəˈrevə" tr="навсегда; вечно; вовеки"/>
+    <d v="forever" p="noun" ts="fəˈrevə" tr="во веки; вечность"/>
+    <d v="forewarn" p="verb" ts="fɔːˈwɔːn" tr="предупреждать"/>
+    <d v="foreword" p="noun" ts="ˈfɔːwɜːd" tr="Предисловие"/>
+    <d v="forfeit" p="noun" ts="ˈfɔːfɪt" tr="неустойка; фант; потеря"/>
+    <d v="forfeit" p="verb" ts="ˈfɔːfɪt" tr="лишиться; поплатиться; конфисковать"/>
+    <d v="forfeit" p="participle" ts="ˈfɔːfɪt" tr="конфискованный"/>
+    <d v="forge" p="verb" ts="fɔːʤ"
+       tr="подделывать; подделать; создать; ковать; выковать; наладить; заключить; выковывать; формировать; сковать; изобретать"/>
+    <d v="forge" p="noun" ts="fɔːʤ" tr="кузница; горн; ковка; подделка"/>
+    <d v="forge" p="adjective" ts="fɔːʤ" tr="кузнечный"/>
+    <d v="forger" p="noun" ts="ˈfɔːʤə" tr="фальшивомонетчик; подделыватель; кузнец"/>
+    <d v="forgery" p="noun" ts="ˈfɔːʤərɪ" tr="подделка"/>
+    <d v="forget" p="verb" ts="fəˈget" tr="забыть"/>
+    <d v="forgetful" p="adjective" ts="fəˈgetfʊl" tr="забывчивый; невнимательный"/>
+    <d v="forgetful" p="noun" ts="fəˈgetfʊl" tr="забывчивость"/>
+    <d v="forgetfulness" p="noun" ts="fəˈgetfəlnəs" tr="забывчивость; беспамятство; забывание"/>
+    <d v="forgivable" p="adjective" ts="fəˈgɪvəbl" tr="простительный"/>
+    <d v="forgive" p="verb" ts="fəˈgɪv" tr="простить"/>
+    <d v="forgive" p="noun" ts="fəˈgɪv" tr="прощение"/>
+    <d v="forgiven" p="participle" ts="fəˈgɪvn" tr="прощенный"/>
+    <d v="forgiveness" p="noun" ts="fəˈgɪvnɪs" tr="прощение; всепрощение; списание"/>
+    <d v="forgiveness" p="verb" ts="fəˈgɪvnɪs" tr="прощать"/>
+    <d v="forgiveness" p="adjective" ts="fəˈgɪvnɪs" tr="прощеный"/>
+    <d v="forgiving" p="adjective" ts="fəˈgɪvɪŋ" tr="всепрощающий; снисходительный"/>
+    <d v="forgiving" p="noun" ts="fəˈgɪvɪŋ" tr="прощение"/>
+    <d v="forgiving" p="participle" ts="fəˈgɪvɪŋ" tr="прощающий"/>
+    <d v="forgo" p="verb" ts="fɔːˈgəʊ" tr="отказаться; воздержаться"/>
+    <d v="forgotten" p="adjective" ts="fəˈgɔtn" tr="забытый"/>
+    <d v="forgotten" p="participle" ts="fəˈgɔtn" tr="позабытый; забываемый"/>
+    <d v="forgotten" p="adverb" ts="fəˈgɔtn" tr="забыто"/>
+    <d v="fork" p="noun" ts="fɔːk" tr="вилка; вилы; развилка; камертон; разветвление; вилочка; распутье; рогатина"/>
+    <d v="fork" p="adjective" ts="fɔːk" tr="вилочный"/>
+    <d v="fork" p="verb" ts="fɔːk" tr="раскошелиться"/>
+    <d v="forklift" p="noun" ts="ˈfɔːklɪft" tr="погрузчик"/>
+    <d v="forklift" p="adjective" ts="ˈfɔːklɪft" tr="вилочный"/>
+    <d v="forlorn" p="adjective" ts="fəˈlɔːn" tr="несчастный; отчаянный"/>
+    <d v="forlorn" p="participle" ts="fəˈlɔːn" tr="заброшенный; покинутый"/>
+    <d v="form" p="noun" ts="fɔːm" tr="форма; формирование; образец; опалубка; формальность; скамья"/>
+    <d v="form" p="verb" ts="fɔːm" tr="образовать; сформировать; формовать; воспитывать"/>
+    <d v="formal" p="adjective" ts="ˈfɔːməl" tr="формальный; внешний; номинальный"/>
+    <d v="formal" p="noun" ts="ˈfɔːməl" tr="формальность"/>
+    <d v="formaldehyde" p="noun" ts="fɔːˈmældɪhaɪd" tr="формальдегид"/>
+    <d v="formality" p="noun" ts="fɔːˈmælɪtɪ" tr="формальность; проформа; официальность; педантичность"/>
+    <d v="formality" p="adjective" ts="fɔːˈmælɪtɪ" tr="формальный"/>
+    <d v="formalize" p="verb" ts="ˈfɔːməlaɪz" tr="формализовать; официально оформить; закрепить; сформулировать"/>
+    <d v="formalize" p="noun" ts="ˈfɔːməlaɪz" tr="формализация"/>
+    <d v="formally" p="adverb" ts="ˈfɔːməlɪ" tr="формально"/>
+    <d v="format" p="noun" ts="ˈfɔːmæt" tr="формат"/>
+    <d v="format" p="verb" ts="ˈfɔːmæt" tr="форматировать"/>
+    <d v="formation" p="noun" ts="fɔːˈmeɪʃn" tr="формирование; формация; строй; порядок"/>
+    <d v="formative" p="noun" ts="ˈfɔːmətɪv" tr="становление"/>
+    <d v="formative" p="participle" ts="ˈfɔːmətɪv" tr="формирующий"/>
+    <d v="formative" p="adjective" ts="ˈfɔːmətɪv" tr="формативный; созидательный"/>
+    <d v="former" p="adjective" ts="ˈfɔːmə" tr="бывший; прежний"/>
+    <d v="former" p="noun" ts="ˈfɔːmə" tr="составитель; шаблон"/>
+    <d v="former" p="participle" ts="ˈfɔːmə" tr="предшествующий"/>
+    <d v="formerly" p="adverb" ts="ˈfɔːməlɪ" tr="ранее; раньше"/>
+    <d v="formidable" p="adjective" ts="ˈfɔːmɪdəbl" tr="грозный; огромный; труднопреодолимый"/>
+    <d v="formless" p="participle" ts="ˈfɔːmlɪs" tr="бесформенный"/>
+    <d v="formless" p="noun" ts="ˈfɔːmlɪs" tr="бесформенная материя"/>
+    <d v="formless" p="adjective" ts="ˈfɔːmlɪs" tr="аморфный"/>
+    <d v="formula" p="noun" ts="ˈfɔːmjʊlə" tr="формула; рецептура; доктрина; лозунг"/>
+    <d v="formulate" p="verb" ts="ˈfɔːmjʊleɪt" tr="сформулировать; разработать; формировать"/>
+    <d v="formulate" p="noun" ts="ˈfɔːmjʊleɪt" tr="формулирование"/>
+    <d v="formulation" p="noun" ts="fɔːmjʊˈleɪʃn" tr="разработка; формулировка; состав"/>
+    <d v="fornicate" p="verb" ts="ˈfɔːnɪkeɪt" tr="прелюбодействовать"/>
+    <d v="fornication" p="noun" ts="fɔːnɪˈkeɪʃn" tr="блуд; внебрачная связь; прелюбодействие"/>
+    <d v="forsake" p="verb" ts="fəˈseɪk" tr="оставить; отказываться"/>
+    <d v="forsaken" p="adjective" ts="fəˈseɪkən" tr="покинутый"/>
+    <d v="forswear" p="verb" ts="fɔːˈswɛə" tr="зарекаться; отрекаться"/>
+    <d v="Fort" p="noun" ts="fɔːt" tr="форт"/>
+    <d v="Forte" p="noun" ts="fɔːt" tr="сильная сторона"/>
+    <d v="forth" p="adverb" ts="fɔːθ" tr="далее"/>
+    <d v="forth" p="numeral" ts="fɔːθ" tr="четвертый"/>
+    <d v="forthcoming" p="adjective" ts="fɔːθˈkʌmɪŋ" tr="предстоящий; обходительный"/>
+    <d v="forthcoming" p="participle" ts="fɔːθˈkʌmɪŋ" tr="грядущий; готовящийся; приближающийся"/>
+    <d v="forthcoming" p="noun" ts="fɔːθˈkʌmɪŋ" tr="приближение; появление"/>
+    <d v="forthright" p="adjective" ts="ˈfɔːθraɪt" tr="откровенный"/>
+    <d v="forthright" p="adverb" ts="ˈfɔːθraɪt" tr="прямо; решительно"/>
+    <d v="fortieth" p="numeral" ts="ˈfɔːtɪɪθ" tr="сороковой"/>
+    <d v="fortification" p="noun" ts="fɔːtɪfɪˈkeɪʃn"
+       tr="укрепление; фортификация; оборонительное сооружение; крепостное сооружение; витаминизация"/>
+    <d v="fortification" p="adjective" ts="fɔːtɪfɪˈkeɪʃn" tr="фортификационный"/>
+    <d v="fortify" p="verb" ts="ˈfɔːtɪfaɪ" tr="укрепить; подкрепиться; подкрепить"/>
+    <d v="fortify" p="noun" ts="ˈfɔːtɪfaɪ" tr="укрепление"/>
+    <d v="fortitude" p="noun" ts="ˈfɔːtɪtjuːd" tr="стойкость; сила духа"/>
+    <d v="fortress" p="noun" ts="ˈfɔːtrɪs" tr="крепость"/>
+    <d v="fortress" p="adjective" ts="ˈfɔːtrɪs" tr="крепостной"/>
+    <d v="fortuitous" p="adjective" ts="fɔːˈtjuːɪtəs" tr="случайный"/>
+    <d v="fortuitous" p="noun" ts="fɔːˈtjuːɪtəs" tr="случайность"/>
+    <d v="fortunate" p="verb" ts="ˈfɔːʧnɪt" tr="повезти"/>
+    <d v="fortunate" p="adjective" ts="ˈfɔːʧnɪt" tr="счастливый; удачный; благоприятный"/>
+    <d v="fortunate" p="noun" ts="ˈfɔːʧnɪt" tr="счастье; удача"/>
+    <d v="fortunately" p="noun" ts="ˈfɔːʧənətlɪ" tr="счастье; к радости"/>
+    <d v="fortunately" p="adverb" ts="ˈfɔːʧənətlɪ" tr="удачно"/>
+    <d v="fortune" p="noun" ts="ˈfɔːʧən" tr="удача; состояние; гадание"/>
+    <d v="fortune teller" p="noun" ts="ˈfɔːʧən ˈtelə" tr="гадалка; предсказатель; предсказательница"/>
+    <d v="forum" p="noun" ts="ˈfɔːrəm" tr="форум; суд; собрание"/>
+    <d v="forward" p="verb" ts="ˈfɔːwəd" tr="ждать; выдвинуть; направить; перенаправлять; способствовать"/>
+    <d v="forward" p="adjective" ts="ˈfɔːwəd" tr="передний; форвардный; заблаговременный; развязный; нахальный"/>
+    <d v="forward" p="noun" ts="ˈfɔːwəd" tr="форвард; пересылка"/>
+    <d v="forward" p="participle" ts="ˈfɔːwəd" tr="выдвинутый"/>
+    <d v="forwarding address" p="noun" ts="ˈfɔːwədɪŋ əˈdres" tr="адрес пересылки"/>
+    <d v="forwards" p="adverb" ts="ˈfɔːwədz" tr="вперед"/>
+    <d v="fossil" p="adjective" ts="fɔsl" tr="ископаемый; допотопный"/>
+    <d v="fossil" p="noun" ts="fɔsl" tr="ископаемое"/>
+    <d v="fossil" p="participle" ts="fɔsl" tr="окаменевший"/>
+    <d v="fossil fuel" p="noun" ts="fɔsl fjʊəl" tr="ископаемое топливо; органическое топливо; вид ископаемого топлива"/>
+    <d v="fossilize" p="verb" ts="ˈfɔsɪlaɪz" tr="окаменеть"/>
+    <d v="foster" p="verb" ts="ˈfɔstə" tr="способствовать; стимулировать; воспитывать; питать; пестовать; выхаживать"/>
+    <d v="foster" p="noun" ts="ˈfɔstə" tr="Фостер; содействие; стимулирование"/>
+    <d v="foster" p="adjective" ts="ˈfɔstə" tr="приемный"/>
+    <d v="foul" p="noun" ts="faʊl" tr="фол; сквернословие; мат"/>
+    <d v="foul" p="adjective" ts="faʊl" tr="отвратительный; грязный; вонючий; протухший; встречный"/>
+    <d v="foul" p="verb" ts="faʊl" tr="гадить; запутывать; засорять; обрастать"/>
+    <d v="foul play" p="noun" ts="faʊl pleɪ" tr="нечестная игра; грязная игра; грубая игра; злой умысел"/>
+    <d v="found" p="verb" ts="faʊnd" tr="основать; создать; закладывать; наблюдаться; обосновывать"/>
+    <d v="found" p="participle" ts="faʊnd"
+       tr="найденный; обнаруженный; основанный; содержащийся; встречающийся; нашедший; обретенный; обнаруживаемый; оказавшийся; находимый"/>
+    <d v="foundation" p="noun" ts="faʊnˈdeɪʃn" tr="фонд; основа; учредительство; учреждение; обоснованность"/>
+    <d v="foundation" p="adjective" ts="faʊnˈdeɪʃn" tr="учредительный"/>
+    <d v="founder" p="noun" ts="ˈfaʊndə" tr="основатель; литейщик; плавильщик"/>
+    <d v="founding father" p="noun" ts="ˈfaʊndɪŋ ˈfɑːðər" tr="отец-основатель"/>
+    <d v="foundry" p="adjective" ts="ˈfaʊndrɪ" tr="литейный"/>
+    <d v="foundry" p="noun" ts="ˈfaʊndrɪ" tr="литье; литейщик; литейная"/>
+    <d v="fountain" p="noun" ts="ˈfaʊntɪn" tr="фонтан; источник; ключ; резервуар"/>
+    <d v="fountain" p="adjective" ts="ˈfaʊntɪn" tr="фонтанный"/>
+    <d v="fountain pen" p="noun" ts="ˈfaʊntɪn pen" tr="авторучка; перьевая ручка"/>
+    <d v="four" p="numeral" ts="fɔː" tr="четыре; четверо"/>
+    <d v="four" p="noun" ts="fɔː" tr="четверка"/>
+    <d v="fourteen" p="numeral" ts="ˈfɔːˈtiːn" tr="четырнадцать; четырнадцатый"/>
+    <d v="fourteen" p="adjective" ts="ˈfɔːˈtiːn" tr="четырнадцатилетний"/>
+    <d v="fourteenth" p="numeral" ts="ˈfɔːˈtiːnθ" tr="четырнадцатый"/>
+    <d v="fourth" p="numeral" ts="fɔːθ" tr="четвертый"/>
+    <d v="fourth" p="noun" ts="fɔːθ" tr="четверть"/>
+    <d v="fourthly" p="numeral" ts="ˈfɔːθlɪ" tr="четвертый"/>
+    <d v="fourthly" p="noun" ts="ˈfɔːθlɪ" tr="в четвертых"/>
+    <d v="fowl" p="noun" ts="faʊl" tr="птица; мясо птицы"/>
+    <d v="fox" p="noun" ts="fɔks" tr="лиса; Фокс; хитрец"/>
+    <d v="fox" p="adjective" ts="fɔks" tr="лисий"/>
+    <d v="foxhole" p="noun" ts="ˈfɔkshəʊl" tr="окоп; Лисья нора"/>
+    <d v="foxy" p="adjective" ts="ˈfɔksɪ" tr="лисий; хитрый; рыжий"/>
+    <d v="foyer" p="noun" ts="ˈfɔɪeɪ" tr="фойе; холл"/>
+    <d v="fracas" p="noun" ts="ˈfrækɑː" tr="скандал"/>
+    <d v="fraction" p="noun" ts="frækʃn" tr="фракция; доля; дробь; частица; осколок"/>
+    <d v="fractional" p="adjective" ts="ˈfrækʃənl" tr="дробный; фракционный"/>
+    <d v="fractionally" p="adverb" ts="ˈfrækʃənəlɪ" tr="дробно"/>
+    <d v="fractious" p="adjective" ts="ˈfrækʃəs" tr="капризный"/>
+    <d v="fracture" p="noun" ts="ˈfrækʧə" tr="перелом; трещина; трещиноватость; надлом"/>
+    <d v="fracture" p="verb" ts="ˈfrækʧə" tr="ломать; раздроблять"/>
+    <d v="fragile" p="adjective" ts="ˈfræʤaɪl" tr="хрупкий; уязвимый; неустойчивый; недолговечный"/>
+    <d v="fragile" p="participle" ts="ˈfræʤaɪl" tr="бьющийся"/>
+    <d v="fragility" p="noun" ts="frəˈʤɪlɪtɪ" tr="хрупкость; слабость; неустойчивость"/>
+    <d v="fragment" p="noun" ts="ˈfrægmənt" tr="фрагмент; осколок"/>
+    <d v="fragment" p="verb" ts="ˈfrægmənt" tr="фрагментировать"/>
+    <d v="fragrance" p="noun" ts="ˈfreɪgrəns" tr="аромат; парфюмерия"/>
+    <d v="fragrance" p="adjective" ts="ˈfreɪgrəns" tr="ароматический"/>
+    <d v="fragrant" p="adjective" ts="ˈfreɪgrənt" tr="ароматный; благоуханный"/>
+    <d v="fragrant" p="participle" ts="ˈfreɪgrənt" tr="благоухающий; пахнущий"/>
+    <d v="fragrant" p="noun" ts="ˈfreɪgrənt" tr="аромат"/>
+    <d v="fragrant" p="verb" ts="ˈfreɪgrənt" tr="благоухать"/>
+    <d v="frail" p="adjective" ts="freɪl" tr="хрупкий; слабый; щуплый"/>
+    <d v="frailty" p="noun" ts="ˈfreɪltɪ" tr="слабость; нежизнеспособность; моральная неустойчивость"/>
+    <d v="frame" p="noun" ts="freɪm" tr="рамка; рама; кадр; система; структура; станина; телосложение; костяк"/>
+    <d v="frame" p="adjective" ts="freɪm" tr="каркасный; рамочный; рамный"/>
+    <d v="frame" p="verb" ts="freɪm" tr="обрамлять; создавать; подставить; обрамить; сфабриковать"/>
+    <d v="framework" p="noun" ts="ˈfreɪmwɜːk" tr="рамки; основа; каркас; фреймворк; ферма"/>
+    <d v="framework" p="adjective" ts="ˈfreɪmwɜːk" tr="рамочный"/>
+    <d v="franc" p="noun" ts="fræŋk" tr="франк"/>
+    <d v="franchise" p="noun" ts="ˈfrænʧaɪz" tr="франшиза; привилегия; право голоса"/>
+    <d v="franchise" p="adjective" ts="ˈfrænʧaɪz" tr="франчайзинговый"/>
+    <d v="Frank" p="noun" ts="fræŋk" tr="Фрэнк; откровенность"/>
+    <d v="Frank" p="adjective" ts="fræŋk" tr="откровенный; искренний"/>
+    <d v="Frank" p="participle" ts="fræŋk" tr="открытый"/>
+    <d v="Frank" p="verb" ts="fræŋk" tr="франкировать"/>
+    <d v="frankfurter" p="noun" ts="ˈfræŋkfətə" tr="сосиска"/>
+    <d v="frankly" p="adverb" ts="ˈfræŋklɪ" tr="откровенно"/>
+    <d v="frankly" p="adverbial participle" ts="ˈfræŋklɪ" tr="честно говоря"/>
+    <d v="frankly" p="verb" ts="ˈfræŋklɪ" tr="прямо сказать"/>
+    <d v="frankness" p="noun" ts="ˈfræŋknəs" tr="откровенность; искренность; непосредственность"/>
+    <d v="frantic" p="adjective" ts="ˈfræntɪk" tr="безумный; неистовый"/>
+    <d v="frantic" p="participle" ts="ˈfræntɪk" tr="обезумевший"/>
+    <d v="frantic" p="adverbial participle" ts="ˈfræntɪk" tr="обезумев"/>
+    <d v="frantically" p="adverb" ts="ˈfræntɪklɪ" tr="отчаянно; неистово"/>
+    <d v="frat" p="noun" ts="freɪt" tr="братство"/>
+    <d v="fraternal" p="adjective" ts="frəˈtɜːnl" tr="братский"/>
+    <d v="fraternal" p="noun" ts="frəˈtɜːnl" tr="братство"/>
+    <d v="fraternal" p="adverb" ts="frəˈtɜːnl" tr="братски"/>
+    <d v="fraternity" p="noun" ts="frəˈtɜːnɪtɪ" tr="братство; землячество; Содружество"/>
+    <d v="fraternize" p="verb" ts="ˈfrætənaɪz" tr="брататься"/>
+    <d v="fraternize" p="noun" ts="ˈfrætənaɪz" tr="братание"/>
+    <d v="fraud" p="noun" ts="frɔːd" tr="мошенничество; фальсификация; мошенник"/>
+    <d v="fraudulent" p="adjective" ts="ˈfrɔːdjʊlənt" tr="мошеннический; поддельный"/>
+    <d v="fraudulent" p="noun" ts="ˈfrɔːdjʊlənt" tr="мошенничество"/>
+    <d v="fraudulently" p="adverb" ts="ˈfrɔːdjʊləntlɪ" tr="мошеннически"/>
+    <d v="fraught" p="adjective" ts="frɔːt" tr="чреватый"/>
+    <d v="fraught" p="verb" ts="frɔːt" tr="таить"/>
+    <d v="fray" p="noun" ts="freɪ" tr="драка; бой; Фрай"/>
+    <d v="fray" p="verb" ts="freɪ" tr="изнашивать; протирать"/>
+    <d v="freak" p="noun" ts="friːk" tr="урод; фрик; каприз; маньяк; чудак; придурок; чудачество"/>
+    <d v="freak" p="adjective" ts="friːk" tr="странный"/>
+    <d v="freckle" p="noun" ts="frekl" tr="веснушка"/>
+    <d v="freckled" p="adjective" ts="frekld" tr="веснушчатый"/>
+    <d v="free" p="adjective" ts="friː" tr="бесплатный; щедрый"/>
+    <d v="free" p="verb" ts="friː" tr="освободить"/>
+    <d v="free" p="participle" ts="friː" tr="открытый; лишенный"/>
+    <d v="free" p="noun" ts="friː" tr="без принуждения"/>
+    <d v="freebie" p="noun" ts="ˈfriːbɪ" tr="халява"/>
+    <d v="freedom" p="noun" ts="ˈfriːdəm" tr="свобода"/>
+    <d v="free enterprise" p="noun" ts="ˈfriːˈentəpraɪz"
+       tr="свободное предпринимательство; свобода предпринимательства; частное предпринимательство"/>
+    <d v="freelance" p="adjective" ts="ˈfriːˈlɑːns" tr="внештатный; вольнонаемный"/>
+    <d v="freelancer" p="noun" ts="ˈfriːlɑːnsər" tr="фрилансер; внештатный сотрудник"/>
+    <d v="freelancer" p="adjective" ts="ˈfriːlɑːnsər" tr="внештатный"/>
+    <d v="freeloader" p="noun" ts="ˈfriːləʊdər" tr="нахлебник; Халявщик"/>
+    <d v="freely" p="adverb" ts="ˈfriːlɪ" tr="свободно; щедро; непринужденно; широко"/>
+    <d v="free market" p="noun" ts="friː ˈmɑːkɪt" tr="свободный рынок"/>
+    <d v="free speech" p="noun" ts="friː spiːʧ" tr="свобода слова; свободное слово; свободная речь"/>
+    <d v="freethinker" p="noun" ts="ˈfriːθɪŋkər" tr="вольнодумец"/>
+    <d v="freethinker" p="adjective" ts="ˈfriːθɪŋkər" tr="свободомыслящий"/>
+    <d v="freethinking" p="noun" ts="ˈfriːθɪŋkɪŋ" tr="свободомыслие"/>
+    <d v="freethinking" p="adjective" ts="ˈfriːθɪŋkɪŋ" tr="свободомыслящий"/>
+    <d v="freeway" p="noun" ts="ˈfriːweɪ" tr="автострада"/>
+    <d v="free will" p="noun" ts="friː wɪl" tr="свободная воля; добрая воля; свободное волеизъявление; свобода выбора"/>
+    <d v="freeze" p="verb" ts="friːz"
+       tr="заморозить; замерзать; замереть; зависать; мерзнуть; морозить; отморозить; примерзать; оцепенеть"/>
+    <d v="freeze" p="noun" ts="friːz" tr="замораживание; мораторий; фриз"/>
+    <d v="freeze-dried" p="adjective" ts="friːz-draɪd" tr="лиофилизированный"/>
+    <d v="freezer" p="noun" ts="ˈfriːzə" tr="морозильная камера; холодильник; мороженица"/>
+    <d v="freezer" p="adjective" ts="ˈfriːzə" tr="морозильный"/>
+    <d v="freezing" p="noun" ts="ˈfriːzɪŋ" tr="замораживание; зависание; оледенение; застывание; обморожение"/>
+    <d v="freezing" p="adjective" ts="ˈfriːzɪŋ" tr="морозильный; ледяной"/>
+    <d v="freezing" p="participle" ts="ˈfriːzɪŋ" tr="замерзающий; леденящий; замерзший; замораживающийся"/>
+    <d v="freezing point" p="noun" ts="ˈfriːzɪŋ pɔɪnt" tr="точка замерзания; температура замерзания"/>
+    <d v="freight" p="noun" ts="freɪt" tr="груз; экспедирование грузов"/>
+    <d v="freight" p="adjective" ts="freɪt" tr="грузовой"/>
+    <d v="freight" p="verb" ts="freɪt" tr="фрахтовать; грузить"/>
+    <d v="freighter" p="adjective" ts="ˈfreɪtə" tr="грузовой"/>
+    <d v="freighter" p="noun" ts="ˈfreɪtə" tr="грузовое судно; фрахтовщик"/>
+    <d v="freight train" p="noun" ts="freɪt treɪn"
+       tr="грузовой поезд; товарный поезд; товарный состав; грузовой состав"/>
+    <d v="French" p="adjective" ts="frenʧ" tr="французский"/>
+    <d v="French" p="noun" ts="frenʧ" tr="Франция; Франко"/>
+    <d v="French bread" p="noun" ts="frenʧ bred" tr="французский хлеб"/>
+    <d v="French toast" p="noun" ts="frenʧ təʊst" tr="французский тост"/>
+    <d v="frenetic" p="adjective" ts="frəˈnetɪk" tr="лихорадочный; неистовый"/>
+    <d v="frenzied" p="adjective" ts="ˈfrenzɪd" tr="бешеный"/>
+    <d v="frenzied" p="participle" ts="ˈfrenzɪd" tr="взбешенный"/>
+    <d v="frenzy" p="noun" ts="ˈfrenzɪ" tr="безумие; исступление; остервенение; ажиотаж; угар"/>
+    <d v="frenzy" p="adjective" ts="ˈfrenzɪ" tr="безумный"/>
+    <d v="frequency" p="noun" ts="ˈfriːkwənsɪ" tr="частота; частое повторение"/>
+    <d v="frequency" p="adjective" ts="ˈfriːkwənsɪ" tr="частотный"/>
+    <d v="frequent" p="adjective" ts="ˈfriːkwənt" tr="частый; многократный"/>
+    <d v="frequent" p="participle" ts="ˈfriːkwənt" tr="распространенный; часто встречаемый"/>
+    <d v="frequent" p="verb" ts="ˈfriːkwənt" tr="часто посещать; учащаться; посещать; часто встречаться; часто бывать"/>
+    <d v="frequent" p="noun" ts="ˈfriːkwənt" tr="учащение"/>
+    <d v="frequently" p="adverb" ts="ˈfriːkwəntlɪ" tr="часто"/>
+    <d v="fresh" p="adjective" ts="freʃ" tr="свежий; здоровый; дерзкий; трезвый"/>
+    <d v="fresh" p="noun" ts="freʃ" tr="свежесть"/>
+    <d v="fresh" p="participle" ts="freʃ" tr="бодрящий"/>
+    <d v="freshen" p="verb" ts="freʃn" tr="освежать; свежеть"/>
+    <d v="freshly" p="adjective" ts="ˈfreʃlɪ" tr="свежий"/>
+    <d v="freshly" p="adverb" ts="ˈfreʃlɪ" tr="недавно; свежо"/>
+    <d v="freshman" p="noun" ts="ˈfreʃmən" tr="первокурсник; первокурсница; новичок"/>
+    <d v="freshness" p="noun" ts="ˈfreʃnəs" tr="свежесть"/>
+    <d v="freshwater" p="adjective" ts="ˈfreʃwɔːtə" tr="пресноводный"/>
+    <d v="freshwater" p="noun" ts="ˈfreʃwɔːtə" tr="пресная вода; ресурсы пресных вод"/>
+    <d v="fret" p="verb" ts="fret" tr="беспокоиться; мучить; разъедать; подтачивать"/>
+    <d v="fret" p="noun" ts="fret" tr="лад; лобзик; раздражение; волнение"/>
+    <d v="fretful" p="adjective" ts="ˈfretfʊl" tr="капризный"/>
+    <d v="Freudian" p="adjective" ts="ˈfrɔɪdjən" tr="фрейдистский"/>
+    <d v="Freudian" p="noun" ts="ˈfrɔɪdjən" tr="фрейд; фрейдист"/>
+    <d v="friar" p="noun" ts="ˈfraɪə" tr="монах"/>
+    <d v="friction" p="noun" ts="frɪkʃn" tr="трение; разногласие"/>
+    <d v="friction" p="adjective" ts="frɪkʃn" tr="фрикционный"/>
+    <d v="Friday" p="noun" ts="ˈfraɪdɪ" tr="пятница"/>
+    <d v="Friday" p="adjective" ts="ˈfraɪdɪ" tr="пятничный"/>
+    <d v="fried" p="participle" ts="fraɪd" tr="обжаренный; жаренный; зажаренный"/>
+    <d v="fried" p="adjective" ts="fraɪd" tr="жареный"/>
+    <d v="friend" p="noun" ts="frend" tr="друг; подруга; товарищ; сторонник; доброжелатель"/>
+    <d v="friendless" p="adjective" ts="ˈfrendlɪs" tr="одинокий"/>
+    <d v="friendless" p="noun" ts="ˈfrendlɪs" tr="без друзей"/>
+    <d v="friendliness" p="noun" ts="ˈfrendlɪnɪs"
+       tr="дружелюбие; удобство; экологичность; дружественность; приветливость"/>
+    <d v="friendly" p="adjective" ts="ˈfrendlɪ" tr="дружественный; дружелюбный; удобный; чистый; приятельский"/>
+    <d v="friendly" p="adverb" ts="ˈfrendlɪ" tr="дружелюбно; дружески"/>
+    <d v="friendly" p="verb" ts="ˈfrendlɪ" tr="дружить"/>
+    <d v="friendly" p="noun" ts="ˈfrendlɪ" tr="дружелюбие"/>
+    <d v="friendly" p="participle" ts="ˈfrendlɪ" tr="сочувствующий"/>
+    <d v="friendship" p="noun" ts="ˈfrendʃɪp" tr="дружба; приятельство"/>
+    <d v="friendship" p="adjective" ts="ˈfrendʃɪp" tr="дружеский"/>
+    <d v="friendship" p="verb" ts="ˈfrendʃɪp" tr="дружить"/>
+    <d v="frieze" p="noun" ts="friːz" tr="фриз; бордюр"/>
+    <d v="frigate" p="noun" ts="ˈfrɪgɪt" tr="фрегат; сторожевой корабль"/>
+    <d v="fright" p="noun" ts="fraɪt" tr="испуг; страх; страшилище; пугало"/>
+    <d v="fright" p="verb" ts="fraɪt" tr="пугать"/>
+    <d v="frighten" p="verb" ts="fraɪtn" tr="пугать; запугать; устрашить; стращать; распугать"/>
+    <d v="frighten" p="noun" ts="fraɪtn" tr="устрашение"/>
+    <d v="frightened" p="participle" ts="fraɪtnd" tr="напуганный; перепуганный; запуганный; устрашенный"/>
+    <d v="frightened" p="adjective" ts="fraɪtnd" tr="испуганный"/>
+    <d v="frightened" p="noun" ts="fraɪtnd" tr="испуг"/>
+    <d v="frightened" p="adverb" ts="fraɪtnd" tr="испуганно"/>
+    <d v="frightening" p="adjective" ts="ˈfraɪtnɪŋ" tr="страшный"/>
+    <d v="frightening" p="noun" ts="ˈfraɪtnɪŋ" tr="устрашение"/>
+    <d v="frightening" p="participle" ts="ˈfraɪtnɪŋ" tr="пугающий; устрашающий"/>
+    <d v="frighteningly" p="adverb" ts="ˈfraɪtnɪŋlɪ" tr="пугающе"/>
+    <d v="frightful" p="adjective" ts="ˈfraɪtfʊl" tr="страшный"/>
+    <d v="frigid" p="adjective" ts="ˈfrɪʤɪd" tr="холодный; фригидный"/>
+    <d v="frigidity" p="noun" ts="frɪˈʤɪdɪtɪ" tr="фригидность; холодность; морозность"/>
+    <d v="frill" p="noun" ts="frɪl" tr="оборка; излишество; оборочка"/>
+    <d v="fringe" p="noun" ts="frɪnʤ" tr="бахрома; окраина; край; полоса; кайма; бахромка; оторочка"/>
+    <d v="fringe" p="adjective" ts="frɪnʤ" tr="маргинальный"/>
+    <d v="fringe benefit" p="noun" ts="frɪnʤ ˈbenɪfɪt" tr="льгота"/>
+    <d v="Frisbee" p="noun" ts="ˈfrɪsbɪ" tr="летающая тарелка"/>
+    <d v="frisk" p="verb" ts="frɪsk" tr="обыскать; резвиться; прыгать"/>
+    <d v="frisky" p="adjective" ts="ˈfrɪskɪ" tr="резвый; игривый"/>
+    <d v="fritter" p="noun" ts="ˈfrɪtə" tr="блинчик"/>
+    <d v="fritter" p="verb" ts="ˈfrɪtə" tr="транжирить"/>
+    <d v="frivolity" p="noun" ts="frɪˈvɔlɪtɪ" tr="легкомыслие; фривольность"/>
+    <d v="frivolous" p="adjective" ts="ˈfrɪvələs" tr="легкомысленный; фривольный; пустой; поверхностный"/>
+    <d v="frivolously" p="adverb" ts="ˈfrɪvələslɪ" tr="легкомысленно"/>
+    <d v="frizz" p="noun" ts="frɪz" tr="кудри"/>
+    <d v="frizz" p="verb" ts="frɪz" tr="шипеть"/>
+    <d v="frizzy" p="adjective" ts="ˈfrɪzɪ" tr="вьющийся"/>
+    <d v="frog" p="noun" ts="frɔg" tr="лягушка; крестовина; стрелка"/>
+    <d v="frog" p="adjective" ts="frɔg" tr="лягушачий"/>
+    <d v="frolic" p="verb" ts="ˈfrɔlɪk" tr="резвиться; проказничать"/>
+    <d v="frolic" p="noun" ts="ˈfrɔlɪk" tr="шалость; веселье; резвость"/>
+    <d v="frolic" p="adjective" ts="ˈfrɔlɪk" tr="шаловливый"/>
+    <d v="from" p="preposition" ts="frɔm" tr="от; из; с; по"/>
+    <d v="from" p="adverb" ts="frɔm" tr="извне"/>
+    <d v="frond" p="noun" ts="frɔnd" tr="ветвь; Вайя"/>
+    <d v="front" p="noun" ts="frʌnt" tr="перед; фронт; фасад; лицо; набережная"/>
+    <d v="front" p="adjective" ts="frʌnt" tr="передний"/>
+    <d v="front" p="verb" ts="frʌnt" tr="противостоять"/>
+    <d v="frontage" p="noun" ts="ˈfrʌntɪʤ" tr="фасад; передний фасад"/>
+    <d v="frontal" p="adjective" ts="frʌntl" tr="фронтальный; фронтовой"/>
+    <d v="frontal" p="noun" ts="frʌntl" tr="лоб"/>
+    <d v="frontier" p="noun" ts="ˈfrʌntɪə" tr="граница; пограничник; государственная граница"/>
+    <d v="frontier" p="adjective" ts="ˈfrʌntɪə" tr="пограничный"/>
+    <d v="frost" p="noun" ts="frɔst" tr="мороз; Фрост; морозостойкость; иней"/>
+    <d v="frost" p="adjective" ts="frɔst" tr="морозостойкий"/>
+    <d v="frost" p="verb" ts="frɔst" tr="заморозить; подмораживать"/>
+    <d v="frostbite" p="noun" ts="ˈfrɒstbaɪt" tr="обморожение"/>
+    <d v="frostbite" p="verb" ts="ˈfrɒstbaɪt" tr="отморозить"/>
+    <d v="frostbitten" p="participle" ts="ˈfrɒstbɪtn" tr="отмороженный; обмороженный"/>
+    <d v="frosted" p="adjective" ts="ˈfrɔstɪd" tr="матовый"/>
+    <d v="frosted" p="participle" ts="ˈfrɔstɪd" tr="замороженный; покрытый инеем"/>
+    <d v="frosting" p="noun" ts="ˈfrɒstɪŋ" tr="глазурь; матирование"/>
+    <d v="frosty" p="adjective" ts="ˈfrɔstɪ" tr="морозный; холодный"/>
+    <d v="froth" p="noun" ts="frɔθ" tr="пена"/>
+    <d v="froth" p="adjective" ts="frɔθ" tr="пенный"/>
+    <d v="froth" p="verb" ts="frɔθ" tr="пениться"/>
+    <d v="frothy" p="adjective" ts="ˈfrɔθɪ" tr="пенистый"/>
+    <d v="frown" p="verb" ts="fraʊn" tr="нахмуриться; поморщиться; хмурить брови"/>
+    <d v="frown" p="adjective" ts="fraʊn" tr="хмурый"/>
+    <d v="frown" p="noun" ts="fraʊn" tr="неодобрение; хмурый взгляд; хмурость"/>
+    <d v="frown" p="adverbial participle" ts="fraʊn" tr="насупившись"/>
+    <d v="frozen" p="adjective" ts="frəʊzn" tr="мороженый"/>
+    <d v="frozen" p="participle" ts="frəʊzn" tr="замороженный; замерзший; застывший; замерший"/>
+    <d v="frugal" p="adjective" ts="ˈfruːgəl" tr="скромный; бережливый"/>
+    <d v="frugality" p="noun" ts="fruːˈgælɪtɪ" tr="бережливость"/>
+    <d v="fruit" p="noun" ts="fruːt" tr="фрукт"/>
+    <d v="fruit" p="adjective" ts="fruːt" tr="фруктовый"/>
+    <d v="fruit" p="verb" ts="fruːt" tr="плодоносить"/>
+    <d v="fruitcake" p="noun" ts="ˈfruːtkeɪk" tr="кекс"/>
+    <d v="fruit fly" p="noun" ts="fruːt flaɪ" tr="плодовая муха; плодовая мушка; дрозофила; фруктовая муха"/>
+    <d v="fruitful" p="adjective" ts="ˈfruːtfʊl" tr="плодотворный; плодоносный"/>
+    <d v="fruition" p="noun" ts="fruːˈɪʃn" tr="плод; осуществление"/>
+    <d v="fruitless" p="adjective" ts="ˈfruːtlɪs" tr="бесплодный; безрезультатный"/>
+    <d v="fruitlessly" p="adverb" ts="ˈfruːtləslɪ" tr="бесплодно"/>
+    <d v="fruity" p="adjective" ts="ˈfruːtɪ" tr="фруктовый; сочный; сладкоголосый"/>
+    <d v="frustrate" p="verb" ts="frʌsˈtreɪt" tr="сорвать"/>
+    <d v="frustrate" p="noun" ts="frʌsˈtreɪt" tr="разочарование; срыв"/>
+    <d v="frustrated" p="participle" ts="frʌˈstreɪtɪd" tr="разочарованный; расстроенный; раздосадованный"/>
+    <d v="frustrating" p="participle" ts="frʌˈstreɪtɪŋ" tr="разочаровывающий"/>
+    <d v="frustration" p="noun" ts="frʌsˈtreɪʃn"
+       tr="разочарование; расстройство; недовольство; фрустрация; отчаяние; крушение; крушение надежд; растерянность"/>
+    <d v="fry" p="verb" ts="fraɪ" tr="жарить; обжарить; прожарить; изжариться"/>
+    <d v="fry" p="noun" ts="fraɪ" tr="фри; Фрай; СРЮ; малек; сошка; рыбешка; жарка; жаркое; мелюзга"/>
+    <d v="fry" p="adjective" ts="fraɪ" tr="жареный"/>
+    <d v="frying pan" p="noun" ts="ˈfraɪɪŋ pæn" tr="сковорода"/>
+    <d v="fuck" p="verb" ts="fʌk" tr="трахать; поиметь; ебаться; потрахаться"/>
+    <d v="fuck" p="noun" ts="fʌk" tr="хрен; к черту"/>
+    <d v="fucker" p="noun" ts="ˈfʌkər" tr="ублюдок"/>
+    <d v="fucking" p="adjective" ts="ˈfʌkɪŋ" tr="чертов; гребаный"/>
+    <d v="fucking" p="adverb" ts="ˈfʌkɪŋ" tr="чертовски"/>
+    <d v="fucking" p="participle" ts="ˈfʌkɪŋ" tr="долбанный"/>
+    <d v="fudge" p="noun" ts="fʌʤ" tr="Фадж; помадка; выдумка; чепуха"/>
+    <d v="fuel" p="noun" ts="fjʊəl" tr="топливо"/>
+    <d v="fuel" p="adjective" ts="fjʊəl" tr="топливный"/>
+    <d v="fuel" p="verb" ts="fjʊəl" tr="подпитывать"/>
+    <d v="fugitive" p="noun" ts="ˈfjuːʤɪtɪv" tr="беглец; беглянка; дезертир"/>
+    <d v="fugitive" p="adjective" ts="ˈfjuːʤɪtɪv" tr="беглый"/>
+    <d v="fugitive" p="participle" ts="ˈfjuːʤɪtɪv" tr="скрывающийся"/>
+    <d v="fugitive" p="verb" ts="ˈfjuːʤɪtɪv" tr="скрываться"/>
+    <d v="fulcrum" p="noun" ts="ˈfʌlkrəm" tr="опора; точка опоры"/>
+    <d v="fulfill" p="verb" ts="fʊlˈfɪl" tr="выполнять; удовлетворять; наполнить"/>
+    <d v="fulfill" p="noun" ts="fʊlˈfɪl" tr="выполнение"/>
+    <d v="fulfill" p="participle" ts="fʊlˈfɪl" tr="исполняющий"/>
+    <d v="fulfilled" p="participle" ts="fʊlˈfɪld" tr="выполненный; отработанный"/>
+    <d v="fulfilling" p="participle" ts="fʊlˈfɪlɪŋ" tr="выполняющий; исполняющий; выполнивший"/>
+    <d v="fulfillment" p="noun" ts="fʊlˈfɪlmənt" tr="выполнение; наполнение"/>
+    <d v="full" p="adjective" ts="fʊl" tr="полный; широкий; богатый"/>
+    <d v="full" p="participle" ts="fʊl" tr="изобилующий"/>
+    <d v="full house" p="noun" ts="fʊl haʊs" tr="аншлаг; фулл-хаус; полный зал; полный дом; полный аншлаг"/>
+    <d v="full moon" p="noun" ts="fʊl muːn" tr="полнолуние; полная луна"/>
+    <d v="fully" p="adverb" ts="ˈfʊlɪ" tr="полностью; вполне; абсолютно"/>
+    <d v="fully" p="adjective" ts="ˈfʊlɪ" tr="полный"/>
+    <d v="fully" p="noun" ts="ˈfʊlɪ" tr="в полной мере"/>
+    <d v="fumble" p="verb" ts="fʌmbl" tr="шарить; нащупать; возиться"/>
+    <d v="fume" p="noun" ts="fjuːm" tr="дым"/>
+    <d v="fume" p="verb" ts="fjuːm" tr="дымить; кипеть от злости"/>
+    <d v="fumes" p="noun" ts="fjuːmz" tr="Гари"/>
+    <d v="fumigate" p="verb" ts="ˈfjuːmɪgeɪt" tr="окуривать; окурить; дезинфицировать"/>
+    <d v="fumigation" p="noun" ts="fjuːmɪˈgeɪʃn" tr="фумигация; окуривание"/>
+    <d v="fun" p="noun" ts="fʌn" tr="удовольствие; развлечение; шутка"/>
+    <d v="fun" p="adjective" ts="fʌn" tr="веселый; интересный"/>
+    <d v="fun" p="verb" ts="fʌn" tr="повеселиться; веселиться; высмеивать; шутить"/>
+    <d v="function" p="noun" ts="fʌŋkʃn" tr="функция; должностные обязанности; торжество; отправление; вечер"/>
+    <d v="function" p="verb" ts="fʌŋkʃn" tr="функционировать"/>
+    <d v="function" p="adjective" ts="fʌŋkʃn" tr="функциональный"/>
+    <d v="functional" p="adjective" ts="ˈfʌŋkʃənl" tr="функциональный; конструктивный"/>
+    <d v="functional" p="noun" ts="ˈfʌŋkʃənl" tr="функционал"/>
+    <d v="functional" p="participle" ts="ˈfʌŋkʃənl" tr="функционирующий"/>
+    <d v="functionally" p="adverb" ts="ˈfʌŋkʃənəlɪ" tr="функционально"/>
+    <d v="fund" p="noun" ts="fʌnd" tr="фонд"/>
+    <d v="fund" p="verb" ts="fʌnd" tr="финансировать; консолидировать"/>
+    <d v="fundamental" p="adjective" ts="fʌndəˈmentl" tr="основный; фундаментальный; коренной"/>
+    <d v="fundamental" p="noun" ts="fʌndəˈmentl" tr="основа"/>
+    <d v="fundamentalism" p="noun" ts="fʌndəˈmentəlɪzəm" tr="фундаментализм"/>
+    <d v="fundamentalist" p="noun" ts="fʌndəˈmentəlɪst" tr="фундаменталист"/>
+    <d v="fundamentalist" p="adjective" ts="fʌndəˈmentəlɪst" tr="фундаменталистский"/>
+    <d v="fundamentally" p="adverb" ts="fʌndəˈmentəlɪ" tr="фундаментально; кардинально"/>
+    <d v="fundamentally" p="noun" ts="fʌndəˈmentəlɪ" tr="в корне; по существу"/>
+    <d v="funding" p="participle" ts="ˈfʌndɪŋ" tr="финансирующий; финансирующийся"/>
+    <d v="funeral" p="noun" ts="ˈfjuːnərəl" tr="похороны; заупокойная служба"/>
+    <d v="funeral" p="adjective" ts="ˈfjuːnərəl" tr="похоронный"/>
+    <d v="funeral home" p="adjective" ts="ˈfjuːnərəl həʊm" tr="похоронный"/>
+    <d v="funeral home" p="noun" ts="ˈfjuːnərəl həʊm" tr="похоронное бюро"/>
+    <d v="fungal" p="adjective" ts="ˈfʌŋgəl" tr="грибковый"/>
+    <d v="fungal" p="noun" ts="ˈfʌŋgəl" tr="грибок"/>
+    <d v="fungus" p="noun" ts="ˈfʌŋgəs" tr="гриб; грибок"/>
+    <d v="fungus" p="adjective" ts="ˈfʌŋgəs" tr="грибковый"/>
+    <d v="funk" p="noun" ts="fʌŋk" tr="фанк; испуг"/>
+    <d v="funk" p="verb" ts="fʌŋk" tr="трусить"/>
+    <d v="funky" p="noun" ts="ˈfʌŋkɪ" tr="фанк; фанки; в стиле фанк"/>
+    <d v="funky" p="adjective" ts="ˈfʌŋkɪ" tr="трусливый"/>
+    <d v="funky" p="participle" ts="ˈfʌŋkɪ" tr="напуганный"/>
+    <d v="funnel" p="noun" ts="fʌnl" tr="воронка; дымовая труба; литник"/>
+    <d v="funnel" p="adjective" ts="fʌnl" tr="воронкообразный"/>
+    <d v="funnel cloud" p="noun" ts="fʌnl klaʊd" tr="воронкообразное облако"/>
+    <d v="funnily" p="adverb" ts="ˈfʌnɪlɪ" tr="забавно"/>
+    <d v="funny" p="adjective" ts="ˈfʌnɪ" tr="смешной"/>
+    <d v="fur" p="noun" ts="fɜː" tr="мех"/>
+    <d v="fur" p="adjective" ts="fɜː" tr="меховой"/>
+    <d v="furious" p="adjective" ts="ˈfjʊərɪəs" tr="яростный; злющий"/>
+    <d v="furious" p="noun" ts="ˈfjʊərɪəs" tr="ярость; в ярости"/>
+    <d v="furious" p="participle" ts="ˈfjʊərɪəs" tr="разъяренный; взбешенный; рассвирепевший"/>
+    <d v="furious" p="verb" ts="ˈfjʊərɪəs" tr="злиться; бесить; негодовать; взбесить; разъярить"/>
+    <d v="furious" p="adverbial participle" ts="ˈfjʊərɪəs" tr="разъярившись"/>
+    <d v="furiously" p="adverb" ts="ˈfjʊərɪəslɪ" tr="яростно"/>
+    <d v="furnace" p="noun" ts="ˈfɜːnɪs" tr="печь"/>
+    <d v="furnace" p="adjective" ts="ˈfɜːnɪs" tr="печной"/>
+    <d v="furnish" p="noun" ts="ˈfɜːnɪʃ" tr="отделка"/>
+    <d v="furnish" p="verb" ts="ˈfɜːnɪʃ"
+       tr="представить; предоставлять; снабжать; обставить; обставлять; оборудовать; меблировать"/>
+    <d v="furnished" p="participle" ts="ˈfɜːnɪʃt" tr="Меблированный; обставленный; оборудованный; снабженный"/>
+    <d v="furnished" p="noun" ts="ˈfɜːnɪʃt" tr="мебель"/>
+    <d v="furnishings" p="noun" ts="ˈfɜːnɪʃɪŋz" tr="мебель; оборудование"/>
+    <d v="furniture" p="noun" ts="ˈfɜːnɪʧə" tr="мебель; мебельщик; оборудование; оснастка"/>
+    <d v="furniture" p="adjective" ts="ˈfɜːnɪʧə" tr="мебельный"/>
+    <d v="furrow" p="noun" ts="ˈfʌrəʊ" tr="борозда; глубокая морщина"/>
+    <d v="furrow" p="adjective" ts="ˈfʌrəʊ" tr="бороздковый"/>
+    <d v="furrow" p="verb" ts="ˈfʌrəʊ" tr="бороздить"/>
+    <d v="furry" p="adjective" ts="ˈfɜːrɪ" tr="пушистый"/>
+    <d v="further" p="adjective" ts="ˈfɜːðə" tr="дальнейший; дополнительный"/>
+    <d v="further" p="adverb" ts="ˈfɜːðə" tr="далее; более того; глубже"/>
+    <d v="further" p="particle" ts="ˈfɜːðə" tr="еще"/>
+    <d v="further" p="noun" ts="ˈfɜːðə" tr="кроме того"/>
+    <d v="further" p="verb" ts="ˈfɜːðə" tr="способствовать"/>
+    <d v="furthermore" p="noun" ts="ˈfɜːðəˈmɔː" tr="кроме того"/>
+    <d v="furthermore" p="preposition" ts="ˈfɜːðəˈmɔː" tr="кроме"/>
+    <d v="furthermore" p="adverb" ts="ˈfɜːðəˈmɔː" tr="более; далее"/>
+    <d v="furtive" p="adverb" ts="ˈfɜːtɪv" tr="украдкой"/>
+    <d v="furtive" p="adjective" ts="ˈfɜːtɪv" tr="тайный; крадущийся; хитрый"/>
+    <d v="furtive" p="participle" ts="ˈfɜːtɪv" tr="скрытый"/>
+    <d v="furtively" p="adverb" ts="ˈfɜːtɪvlɪ" tr="украдкой; воровато"/>
+    <d v="fury" p="noun" ts="ˈfjʊərɪ" tr="ярость; фурия"/>
+    <d v="fuse" p="noun" ts="fjuːz" tr="предохранитель; пробка; фитиль; затравка"/>
+    <d v="fuse" p="verb" ts="fjuːz" tr="слиться; сплавить; сплавлять; перегорать; плавить"/>
+    <d v="fuse box" p="noun" ts="fjuːz bɔks" tr="коробка предохранителей"/>
+    <d v="fuselage" p="noun" ts="ˈfjuːzɪlɑːʒ" tr="фюзеляж"/>
+    <d v="fusion" p="noun" ts="ˈfjuːʒən" tr="слияние; синтез; фьюжн; плавление; термоядерный синтез; сплав"/>
+    <d v="fusion" p="adjective" ts="ˈfjuːʒən" tr="термоядерный"/>
+    <d v="fuss" p="noun" ts="fʌs" tr="суета; шум; суматоха"/>
+    <d v="fuss" p="verb" ts="fʌs" tr="суетиться; возиться"/>
+    <d v="fussy" p="adjective" ts="ˈfʌsɪ" tr="суетливый; привередливый; вычурный; аляповатый; нервный"/>
+    <d v="futile" p="adjective" ts="ˈfjuːtaɪl" tr="бесполезный; тщетный"/>
+    <d v="future" p="adjective" ts="ˈfjuːʧə" tr="будущий"/>
+    <d v="future" p="noun" ts="ˈfjuːʧə" tr="будущее; будущность"/>
+    <d v="future tense" p="noun" ts="ˈfjuːʧə tens" tr="будущее время"/>
+    <d v="futuristic" p="adjective" ts="fjuːʧəˈrɪstɪk" tr="футуристический"/>
+    <d v="fuzz" p="noun" ts="fʌz" tr="пух; волоски"/>
+    <d v="fuzzy" p="adjective" ts="ˈfʌzɪ" tr="нечеткий; пушистый; ворсистый"/>
+
+</defs>

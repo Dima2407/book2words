@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="nag" p="verb" ts="næg" tr="пилить; ворчать; придираться; изводить; раздражать"/>
+    <d v="nag" p="noun" ts="næg" tr="лошадь; кляча; ворчание"/>
+    <d v="nagging" p="noun" ts="ˈnægɪŋ" tr="нытье; придирки"/>
+    <d v="nagging" p="adjective" ts="ˈnægɪŋ" tr="придирчивый; назойливый; ворчливый"/>
+    <d v="nagging" p="participle" ts="ˈnægɪŋ" tr="ноющий"/>
+    <d v="nail" p="noun" ts="neɪl" tr="ноготь"/>
+    <d v="nail" p="adjective" ts="neɪl" tr="ногтевой; маникюрный"/>
+    <d v="nail" p="verb" ts="neɪl" tr="прибить; пригвоздить; поймать; прищучить; заколачивать; обнаружить"/>
+    <d v="nail file" p="noun" ts="neɪl faɪl" tr="пилочка; пилка"/>
+    <d v="naive" p="adjective" ts="nɑːˈiːv" tr="наивный"/>
+    <d v="naively" p="adverb" ts="naɪˈiːvlɪ" tr="наивно"/>
+    <d v="naivete" p="noun" ts="nɑːˈiːvteɪ" tr="наивность; простодушие"/>
+    <d v="naked" p="adjective" ts="ˈneɪkɪd" tr="голый; невооруженный; беззащитный; голословный"/>
+    <d v="naked" p="noun" ts="ˈneɪkɪd" tr="обнаженная"/>
+    <d v="naked" p="participle" ts="ˈneɪkɪd" tr="обнаженный; открытый"/>
+    <d v="naked" p="adverb" ts="ˈneɪkɪd" tr="голышом; догола"/>
+    <d v="name" p="noun" ts="neɪm" tr="имя; род"/>
+    <d v="name" p="verb" ts="neɪm" tr="называть; указывать; назначать"/>
+    <d v="nameless" p="adjective" ts="ˈneɪmlɪs" tr="безымянный; неизвестный; невыразимый; несказанный"/>
+    <d v="namely" p="particle" ts="ˈneɪmlɪ" tr="именно"/>
+    <d v="namely" p="adverb" ts="ˈneɪmlɪ" tr="точнее"/>
+    <d v="namesake" p="noun" ts="ˈneɪmseɪk" tr="тезка; однофамилец"/>
+    <d v="nanny" p="noun" ts="ˈnænɪ" tr="Няня"/>
+    <d v="NAP" p="noun" ts="næp" tr="сон; НПД; ворс; ворсина"/>
+    <d v="NAP" p="verb" ts="næp" tr="вздремнуть; спать"/>
+    <d v="napalm" p="noun" ts="ˈneɪpɑːm" tr="напалм"/>
+    <d v="napalm" p="adjective" ts="ˈneɪpɑːm" tr="напалмовый"/>
+    <d v="nape" p="noun" ts="neɪp" tr="затылок; загривок"/>
+    <d v="napkin" p="noun" ts="ˈnæpkɪn" tr="салфетка; прокладка"/>
+    <d v="nappy" p="noun" ts="ˈnæpɪ" tr="подгузник"/>
+    <d v="narcissism" p="noun" ts="nɑːˈsɪsɪzm" tr="нарциссизм"/>
+    <d v="narcissist" p="noun" ts="nɑːˈsɪsɪst" tr="нарцисс"/>
+    <d v="narcissistic" p="adjective" ts="nɑːsɪsˈɪstɪk" tr="нарциссический; самовлюбленный"/>
+    <d v="narcissistic" p="noun" ts="nɑːsɪsˈɪstɪk" tr="нарциссизм"/>
+    <d v="narcotic" p="adjective" ts="nɑːˈkɔtɪk" tr="наркотический"/>
+    <d v="narcotic" p="noun" ts="nɑːˈkɔtɪk" tr="наркотик"/>
+    <d v="narrate" p="verb" ts="nəˈreɪt" tr="повествовать; изложить"/>
+    <d v="narration" p="noun" ts="nəˈreɪʃn" tr="повествование; пересказ"/>
+    <d v="narrative" p="noun" ts="ˈnærətɪv"
+       tr="повествование; нарратив; описательная часть; повествовательность; изложение фактов"/>
+    <d v="narrative" p="adjective" ts="ˈnærətɪv" tr="описательный"/>
+    <d v="narrator" p="noun" ts="nəˈreɪtə" tr="рассказчик; диктор; повествователь"/>
+    <d v="narrator" p="participle" ts="nəˈreɪtə" tr="ведущий"/>
+    <d v="narrow" p="adjective" ts="ˈnærəʊ" tr="узкий; подробный"/>
+    <d v="narrow" p="verb" ts="ˈnærəʊ" tr="сузить; сузиться; сократить"/>
+    <d v="narrow" p="noun" ts="ˈnærəʊ" tr="сужение"/>
+    <d v="narrow" p="adverbial participle" ts="ˈnærəʊ" tr="прищурив"/>
+    <d v="narrowly" p="adverb" ts="ˈnærəʊlɪ" tr="узко; едва; пристально; подробно"/>
+    <d v="narrowly" p="particle" ts="ˈnærəʊlɪ" tr="точно"/>
+    <d v="narrowness" p="noun" ts="ˈnærəʊnɪs" tr="узость; теснота"/>
+    <d v="NASA" p="noun" ts="ˈnɑːsə" tr="НАСА"/>
+    <d v="nasal" p="adjective" ts="ˈneɪzəl" tr="носовой; гнусавый"/>
+    <d v="nasal" p="noun" ts="ˈneɪzəl" tr="нос; заложенность"/>
+    <d v="nastily" p="adverb" ts="ˈnɑːstɪlɪ" tr="мерзко; гадко"/>
+    <d v="nastiness" p="noun" ts="ˈnæstɪnəs" tr="гадость"/>
+    <d v="nasty" p="adjective" ts="ˈnɑːstɪ"
+       tr="противный; неприятный; гадкий; опасный; паршивый; непристойный; угрожающий"/>
+    <d v="nasty" p="noun" ts="ˈnɑːstɪ" tr="гадость"/>
+    <d v="nation" p="noun" ts="neɪʃn" tr="нация; страна"/>
+    <d v="national" p="adjective" ts="ˈnæʃənl" tr="национальный; общенациональный"/>
+    <d v="national" p="noun" ts="ˈnæʃənl" tr="национал; соотечественник"/>
+    <d v="national anthem" p="noun" ts="ˈnæʃənl ˈænθəm" tr="национальный гимн; государственный гимн"/>
+    <d v="national guard" p="noun" ts="ˈnæʃənl gɑːd" tr="национальная гвардия"/>
+    <d v="nationalism" p="noun" ts="ˈnæʃnəlɪzm" tr="национализм"/>
+    <d v="nationalism" p="adjective" ts="ˈnæʃnəlɪzm" tr="националистический"/>
+    <d v="nationalist" p="noun" ts="ˈnæʃnəlɪst" tr="националист"/>
+    <d v="nationalist" p="adjective" ts="ˈnæʃnəlɪst" tr="националистический"/>
+    <d v="nationalistic" p="adjective" ts="næʃnəˈlɪstɪk" tr="националистический"/>
+    <d v="nationality" p="noun" ts="næʃəˈnælɪtɪ" tr="национальность; гражданство; национальная принадлежность"/>
+    <d v="nationalization" p="noun" ts="næʃnəlaɪˈzeɪʃn" tr="национализация"/>
+    <d v="nationalize" p="verb" ts="ˈnæʃnəlaɪz" tr="национализировать"/>
+    <d v="nationalize" p="noun" ts="ˈnæʃnəlaɪz" tr="национализация"/>
+    <d v="nationally" p="adjective" ts="ˈnæʃnəlɪ" tr="национальный"/>
+    <d v="nationally" p="noun" ts="ˈnæʃnəlɪ" tr="на национальном; на национальном уровне"/>
+    <d v="nationally" p="adverb" ts="ˈnæʃnəlɪ" tr="всенародно"/>
+    <d v="national monument" p="noun" ts="ˈnæʃənl ˈmɔnjʊmənt" tr="национальный памятник"/>
+    <d v="national park" p="noun" ts="ˈnæʃənl pɑːk" tr="национальный парк"/>
+    <d v="nationwide" p="adjective" ts="ˈneɪʃənwaɪd" tr="общенациональный; всенародный"/>
+    <d v="nationwide" p="noun" ts="ˈneɪʃənwaɪd" tr="вся страна; по всей стране"/>
+    <d v="native" p="adjective" ts="ˈneɪtɪv" tr="родной; коренной; естественный; чистый"/>
+    <d v="native" p="noun" ts="ˈneɪtɪv" tr="родина; уроженец; туземец; родные"/>
+    <d v="native American" p="noun" ts="ˈneɪtɪv əˈmerɪkən" tr="индеец"/>
+    <d v="native speaker" p="noun" ts="ˈneɪtɪv ˈspiːkə" tr="носитель; носитель языка; родной язык"/>
+    <d v="NATO" p="noun" ts="ˈneɪtəʊ" tr="НАТО"/>
+    <d v="NATO" p="adjective" ts="ˈneɪtəʊ" tr="натовский"/>
+    <d v="natural" p="adjective" ts="ˈnæʧrəl" tr="природный; нормальный; натурный; настоящий; дикий; внебрачный"/>
+    <d v="natural" p="noun" ts="ˈnæʧrəl" tr="естественность; самородок; Бекар"/>
+    <d v="natural" p="participle" ts="ˈnæʧrəl" tr="присущий"/>
+    <d v="natural gas" p="noun" ts="ˈnæʧrəl gæs" tr="природный газ"/>
+    <d v="natural history" p="noun" ts="ˈnæʧrəl ˈhɪstərɪ" tr="естественная история; естествознание; природоведение"/>
+    <d v="naturalist" p="noun" ts="ˈnæʧrəlɪst" tr="натуралист"/>
+    <d v="naturalization" p="noun" ts="næʧrəlaɪˈzeɪʃn" tr="натурализация; акклиматизация"/>
+    <d v="naturalize" p="verb" ts="ˈnæʧrəlaɪz" tr="натурализовать"/>
+    <d v="naturally" p="adverb" ts="ˈnæʧrəlɪ" tr="естественно; легко"/>
+    <d v="naturally" p="parenthetic" ts="ˈnæʧrəlɪ" tr="разумеется"/>
+    <d v="naturally" p="noun" ts="ˈnæʧrəlɪ" tr="по природе; от рождения"/>
+    <d v="naturalness" p="noun" ts="ˈnæʧrəlnɪs" tr="естественность; натуральность; непринужденность"/>
+    <d v="natural resources" p="noun" ts="ˈnæʧrəl rɪˈzɔːsɪz" tr="природные ресурсы"/>
+    <d v="nature" p="noun" ts="ˈneɪʧə" tr="природа; характер; род; организм"/>
+    <d v="nature" p="adjective" ts="ˈneɪʧə" tr="природный"/>
+    <d v="naught" p="noun" ts="nɔːt" tr="нуль"/>
+    <d v="naughtiness" p="noun" ts="ˈnɔːtɪnɪs" tr="озорство; непослушание"/>
+    <d v="naughty" p="adjective" ts="ˈnɔːtɪ" tr="непослушный; капризный; гадкий; шаловливый"/>
+    <d v="naughty" p="verb" ts="ˈnɔːtɪ" tr="шалить"/>
+    <d v="naughty" p="noun" ts="ˈnɔːtɪ" tr="шалун"/>
+    <d v="naughty" p="participle" ts="ˈnɔːtɪ" tr="испорченный"/>
+    <d v="nausea" p="noun" ts="ˈnɔːsjə" tr="тошнота; морская болезнь"/>
+    <d v="nauseate" p="noun" ts="ˈnɔːsɪeɪt" tr="тошнота"/>
+    <d v="nauseous" p="noun" ts="ˈnɔːsjəs" tr="тошнота"/>
+    <d v="nauseous" p="verb" ts="ˈnɔːsjəs" tr="тошнить"/>
+    <d v="nauseous" p="adjective" ts="ˈnɔːsjəs" tr="тошнотворный"/>
+    <d v="nautical" p="adjective" ts="ˈnɔːtɪkəl" tr="морской"/>
+    <d v="naval" p="adjective" ts="ˈneɪvəl" tr="морской"/>
+    <d v="naval" p="noun" ts="ˈneɪvəl" tr="ВМС"/>
+    <d v="navel" p="noun" ts="ˈneɪvəl" tr="пупок"/>
+    <d v="navel" p="adjective" ts="ˈneɪvəl" tr="пупочный"/>
+    <d v="navigable" p="adjective" ts="ˈnævɪgəbl" tr="судоходный"/>
+    <d v="navigate" p="verb" ts="ˈnævɪgeɪt" tr="перейти; ориентироваться; проводить; плавать; летать"/>
+    <d v="navigate" p="noun" ts="ˈnævɪgeɪt" tr="навигация; переход; плавание"/>
+    <d v="navigation" p="noun" ts="nævɪˈgeɪʃn" tr="навигация; судоходство; плавание; мореплавание; аэронавигация"/>
+    <d v="navigation" p="adjective" ts="nævɪˈgeɪʃn" tr="навигационный; штурманский"/>
+    <d v="navigational" p="adjective" ts="nævɪˈgeɪʃənl" tr="навигационный; штурманский"/>
+    <d v="navigator" p="noun" ts="ˈnævɪgeɪtə" tr="навигатор; штурман; мореплаватель"/>
+    <d v="navigator" p="adjective" ts="ˈnævɪgeɪtə" tr="навигационный"/>
+    <d v="Navy" p="noun" ts="ˈneɪvɪ" tr="флот; ВМФ; военно-морские силы; морское ведомство"/>
+    <d v="Navy" p="adjective" ts="ˈneɪvɪ" tr="морской"/>
+    <d v="NBA" p="noun" ts="nbeɪ" tr="НБА"/>
+    <d v="near" p="preposition" ts="nɪə" tr="около; у; к; подле"/>
+    <d v="near" p="adverb" ts="nɪə" tr="рядом; недалеко"/>
+    <d v="near" p="adjective" ts="nɪə" tr="ближайший; прямой"/>
+    <d v="near" p="noun" ts="nɪə" tr="рядом с"/>
+    <d v="near" p="verb" ts="nɪə" tr="приближаться"/>
+    <d v="nearby" p="adverb" ts="ˈnɪəbaɪ" tr="рядом"/>
+    <d v="nearby" p="adjective" ts="ˈnɪəbaɪ" tr="близлежащий; ближайший"/>
+    <d v="nearby" p="preposition" ts="ˈnɪəbaɪ" tr="около"/>
+    <d v="nearly" p="adverb" ts="ˈnɪəlɪ" tr="почти"/>
+    <d v="nearly" p="preposition" ts="ˈnɪəlɪ" tr="около"/>
+    <d v="neat" p="adjective" ts="niːt"
+       tr="аккуратный; изящный; четкий; меткий; ловкий; аккуратненький; неразбавленный"/>
+    <d v="neat" p="noun" ts="niːt" tr="вол; аккуратность"/>
+    <d v="neat" p="participle" ts="niːt" tr="подтянутый"/>
+    <d v="neatly" p="adverb" ts="ˈniːtlɪ" tr="аккуратно; искусно"/>
+    <d v="neatness" p="noun" ts="ˈniːtnɪs" tr="аккуратность; чистота"/>
+    <d v="necessarily" p="adverb" ts="ˈnesɪsərɪlɪ" tr="обязательно; поневоле"/>
+    <d v="necessary" p="adjective" ts="ˈnesɪsərɪ" tr="необходимый; вынужденный"/>
+    <d v="necessary" p="noun" ts="ˈnesɪsərɪ" tr="необходимость; деньги"/>
+    <d v="necessary" p="predicative" ts="ˈnesɪsərɪ" tr="надо"/>
+    <d v="necessitate" p="verb" ts="nɪˈsesɪteɪt" tr="потребовать; вынуждать; делать необходимым"/>
+    <d v="necessitate" p="noun" ts="nɪˈsesɪteɪt" tr="необходимость"/>
+    <d v="necessity" p="noun" ts="nɪˈsesɪtɪ" tr="необходимость"/>
+    <d v="neck" p="noun" ts="nek" tr="шея; горлышко; воротник; перешеек"/>
+    <d v="neck" p="adjective" ts="nek" tr="шейный"/>
+    <d v="necklace" p="noun" ts="ˈneklɪs" tr="ожерелье; медальон"/>
+    <d v="neckline" p="noun" ts="ˈneklaɪn" tr="вырез; линия шеи"/>
+    <d v="necktie" p="noun" ts="ˈnektaɪ" tr="галстук"/>
+    <d v="nectar" p="noun" ts="ˈnektə" tr="нектар; Медок"/>
+    <d v="nectarine" p="noun" ts="ˈnektərɪn" tr="нектарин; гладкий персик"/>
+    <d v="nee" p="participle" ts="neɪ" tr="урожденный"/>
+    <d v="need" p="adjective" ts="niːd" tr="необходимый; нужный"/>
+    <d v="need" p="noun" ts="niːd" tr="потребность; бедность"/>
+    <d v="need" p="verb" ts="niːd" tr="нуждаться; требоваться; бедствовать"/>
+    <d v="need" p="predicative" ts="niːd" tr="надо"/>
+    <d v="need" p="participle" ts="niːd" tr="нуждающийся"/>
+    <d v="needle" p="noun" ts="niːdl" tr="игла; стрелка; укол; шпиль"/>
+    <d v="needle" p="adjective" ts="niːdl" tr="игольчатый; игольный"/>
+    <d v="needle" p="verb" ts="niːdl" tr="язвить"/>
+    <d v="needless" p="adjective" ts="ˈniːdlɪs" tr="ненужный"/>
+    <d v="needless" p="parenthetic" ts="ˈniːdlɪs" tr="разумеется"/>
+    <d v="needless" p="adverb" ts="ˈniːdlɪs" tr="излишне"/>
+    <d v="needless" p="predicative" ts="ˈniːdlɪs" tr="нечего"/>
+    <d v="needlessly" p="adverb" ts="ˈniːdləslɪ" tr="напрасно; излишне"/>
+    <d v="needlessly" p="noun" ts="ˈniːdləslɪ" tr="без необходимости"/>
+    <d v="needlessly" p="adjective" ts="ˈniːdləslɪ" tr="ненужный"/>
+    <d v="needlework" p="noun" ts="ˈniːdlwɜːk" tr="рукоделие; вышивка; шитье"/>
+    <d v="needs" p="adjective" ts="niːdz" tr="нужный"/>
+    <d v="needs" p="noun" ts="niːdz" tr="по необходимости"/>
+    <d v="needs" p="adverb" ts="niːdz" tr="обязательно"/>
+    <d v="needy" p="participle" ts="ˈniːdɪ" tr="нуждающийся; малоимущий"/>
+    <d v="needy" p="adjective" ts="ˈniːdɪ" tr="малообеспеченный"/>
+    <d v="negate" p="verb" ts="nɪˈgeɪt" tr="отрицать; свести; нивелировать; инвертировать; перечеркнуть"/>
+    <d v="negate" p="noun" ts="nɪˈgeɪt" tr="отрицание"/>
+    <d v="negation" p="noun" ts="nɪˈgeɪʃn" tr="отрицание"/>
+    <d v="negative" p="adjective" ts="ˈnegətɪv" tr="негативный"/>
+    <d v="negative" p="noun" ts="ˈnegətɪv" tr="негатив; минус; отрицание; катод"/>
+    <d v="negative" p="verb" ts="ˈnegətɪv" tr="отрицать; нейтрализовать"/>
+    <d v="negatively" p="adverb" ts="ˈnegətɪvlɪ" tr="негативно"/>
+    <d v="negatively" p="adjective" ts="ˈnegətɪvlɪ" tr="отрицательный"/>
+    <d v="neglect" p="noun" ts="nɪˈglekt"
+       tr="пренебрежение; безнадзорность; небрежность; запущенность; забвение; отсутствие заботы; заброшенность"/>
+    <d v="neglect" p="verb" ts="nɪˈglekt" tr="пренебрегать; не заботиться; запускать; забрасывать"/>
+    <d v="neglected" p="participle" ts="nɪˈglektɪd"
+       tr="заброшенный; запущенный; забытый; упущенный; пренебрегаемый; игнорируемый; упускаемый"/>
+    <d v="neglectful" p="adjective" ts="nɪˈglektfʊl" tr="небрежный; нерадивый"/>
+    <d v="negligence" p="noun" ts="ˈneglɪʤəns" tr="халатность; пренебрежение; неряшливость"/>
+    <d v="negligent" p="adjective" ts="ˈneglɪʤənt" tr="небрежный; нерадивый"/>
+    <d v="negligent" p="noun" ts="ˈneglɪʤənt" tr="небрежность"/>
+    <d v="negligently" p="adverb" ts="ˈneglɪʤəntlɪ" tr="небрежно"/>
+    <d v="negligible" p="adjective" ts="ˈneglɪʤəbl" tr="незначительный"/>
+    <d v="negligible" p="adverb" ts="ˈneglɪʤəbl" tr="пренебрежимо"/>
+    <d v="negotiable" p="adjective" ts="nɪˈgəʊʃjəbl" tr="оборотный; договорный; доступный"/>
+    <d v="negotiable" p="participle" ts="nɪˈgəʊʃjəbl" tr="подлежащий обсуждению"/>
+    <d v="negotiate" p="noun" ts="nɪˈgəʊʃɪeɪt" tr="переговоры"/>
+    <d v="negotiate" p="verb" ts="nɪˈgəʊʃɪeɪt"
+       tr="договориться; обсудить; заключить; согласовывать; торговаться; преодолевать; улаживать; реализовать"/>
+    <d v="negotiate" p="adjective" ts="nɪˈgəʊʃɪeɪt" tr="переговорный"/>
+    <d v="negotiation" p="adjective" ts="nɪgəʊʃɪˈeɪʃn" tr="переговорный"/>
+    <d v="negotiation" p="noun" ts="nɪgəʊʃɪˈeɪʃn" tr="ведение переговоров; обсуждение; преодоление"/>
+    <d v="negotiator" p="noun" ts="nɪˈgəʊʃɪeɪtə" tr="переговорщик; участник переговоров"/>
+    <d v="Negro" p="noun" ts="ˈniːgrəʊ" tr="негр; негритенок"/>
+    <d v="Negro" p="adjective" ts="ˈniːgrəʊ" tr="негритянский; чернокожий"/>
+    <d v="neigh" p="verb" ts="neɪ" tr="ржать"/>
+    <d v="neigh" p="noun" ts="neɪ" tr="ржание"/>
+    <d v="neighbor" p="noun" ts="ˈneɪbər" tr="сосед"/>
+    <d v="neighbor" p="adjective" ts="ˈneɪbər" tr="ближний; соседний"/>
+    <d v="neighbor" p="verb" ts="ˈneɪbər" tr="соседствовать"/>
+    <d v="neighborhood" p="noun" ts="ˈneɪbəhʊd" tr="район"/>
+    <d v="neighborhood" p="adjective" ts="ˈneɪbəhʊd" tr="соседний"/>
+    <d v="neighboring" p="adjective" ts="ˈneɪbərɪŋ" tr="соседний"/>
+    <d v="neighboring" p="participle" ts="ˈneɪbərɪŋ" tr="соседствующий"/>
+    <d v="neighborly" p="adjective" ts="ˈneɪbəlɪ" tr="добрососедский; соседский"/>
+    <d v="neither" p="conjunction" ts="ˈnaɪðə" tr="ни"/>
+    <d v="neither" p="particle" ts="ˈnaɪðə" tr="не"/>
+    <d v="neither" p="pronoun" ts="ˈnaɪðə" tr="никто"/>
+    <d v="neon" p="adjective" ts="ˈniːən" tr="неоновый"/>
+    <d v="neon" p="noun" ts="ˈniːən" tr="неон"/>
+    <d v="nephew" p="noun" ts="ˈnevjuː" tr="племянник"/>
+    <d v="nepotism" p="noun" ts="ˈnepətɪzm" tr="кумовство; семейственность"/>
+    <d v="Neptune" p="noun" ts="ˈneptjuːn" tr="Нептун"/>
+    <d v="nerd" p="noun" ts="nɜːd" tr="ботаник; зануда"/>
+    <d v="nerve" p="noun" ts="nɜːv" tr="нервы; наглость; мужество; жилка; энергия"/>
+    <d v="nerve" p="adjective" ts="nɜːv" tr="нервный"/>
+    <d v="nervous" p="adjective" ts="ˈnɜːvəs" tr="нервный"/>
+    <d v="nervous" p="verb" ts="ˈnɜːvəs" tr="нервничать; нервировать; побаиваться"/>
+    <d v="nervous" p="noun" ts="ˈnɜːvəs" tr="нервы; нервозность"/>
+    <d v="nervous" p="participle" ts="ˈnɜːvəs" tr="возбужденный; нервничающий"/>
+    <d v="nervous breakdown" p="noun" ts="ˈnɜːvəs ˈbreɪkdaʊn" tr="нервный срыв; нервное расстройство"/>
+    <d v="nervously" p="adverb" ts="ˈnɜːvəslɪ" tr="нервно; нервозно"/>
+    <d v="nervousness" p="noun" ts="ˈnɜːvəsnəs" tr="нервозность; нервность"/>
+    <d v="nervous system" p="noun" ts="ˈnɜːvəs ˈsɪstɪm" tr="нервная система"/>
+    <d v="nest" p="noun" ts="nest" tr="гнездо; выводок; группа"/>
+    <d v="nest" p="verb" ts="nest" tr="гнездиться; вставлять; вмонтировать"/>
+    <d v="nest" p="adjective" ts="nest" tr="гнездовой"/>
+    <d v="nest" p="participle" ts="nest" tr="гнездящийся"/>
+    <d v="nestle" p="noun" ts="nesl" tr="Нестле"/>
+    <d v="nestle" p="verb" ts="nesl" tr="прижаться; устроиться; примоститься; ютиться; удобно устроиться"/>
+    <d v="net" p="adjective" ts="net" tr="чистый; сетчатый"/>
+    <d v="net" p="noun" ts="net" tr="сеть; нетто; сачок"/>
+    <d v="net" p="verb" ts="net" tr="забить"/>
+    <d v="netting" p="noun" ts="ˈnetɪŋ" tr="сетка; взаимозачет; плетение; сальдирование"/>
+    <d v="nettle" p="noun" ts="netl" tr="крапива"/>
+    <d v="nettle" p="adjective" ts="netl" tr="Крапивный"/>
+    <d v="network" p="noun" ts="ˈnetwɜːk" tr="сеть; сообщество; цепь"/>
+    <d v="network" p="adjective" ts="ˈnetwɜːk" tr="сетевой"/>
+    <d v="neurological" p="adjective" ts="nərəˈlɒʤɪkl" tr="неврологический"/>
+    <d v="neurologist" p="noun" ts="njʊəˈrɔləʤɪst" tr="невролог"/>
+    <d v="neurology" p="noun" ts="njʊəˈrɔləʤɪ" tr="неврология; невралгия"/>
+    <d v="neurosis" p="noun" ts="njʊəˈrəʊsɪs" tr="невроз"/>
+    <d v="neurotic" p="adjective" ts="njʊəˈrɔtɪk" tr="невротический"/>
+    <d v="neurotic" p="noun" ts="njʊəˈrɔtɪk" tr="невротик; неврастеник"/>
+    <d v="neuter" p="verb" ts="ˈnjuːtə" tr="кастрировать; нейтрализовать"/>
+    <d v="neuter" p="adjective" ts="ˈnjuːtə" tr="средний"/>
+    <d v="neuter" p="noun" ts="ˈnjuːtə" tr="стерилизация; средний род"/>
+    <d v="neutral" p="adjective" ts="ˈnjuːtrəl" tr="нейтральный; средний; бесполый"/>
+    <d v="neutral" p="noun" ts="ˈnjuːtrəl" tr="нейтраль; нейтралитет"/>
+    <d v="neutral" p="verb" ts="ˈnjuːtrəl" tr="сохранять нейтралитет"/>
+    <d v="neutrality" p="noun" ts="njuːˈtrælɪtɪ" tr="нейтралитет; беспристрастность"/>
+    <d v="neutralization" p="noun" ts="njuːtrəlaɪˈzeɪʃn" tr="нейтрализация"/>
+    <d v="neutralize" p="verb" ts="ˈnjuːtrəlaɪz" tr="нейтрализовать; обезвредить; нивелировать; уравновешивать"/>
+    <d v="neutralize" p="noun" ts="ˈnjuːtrəlaɪz" tr="нейтрализация"/>
+    <d v="neutron" p="noun" ts="ˈnjuːtrɔn" tr="нейтрон"/>
+    <d v="neutron" p="adjective" ts="ˈnjuːtrɔn" tr="нейтронный"/>
+    <d v="never" p="adverb" ts="ˈnevə" tr="никогда"/>
+    <d v="never" p="particle" ts="ˈnevə" tr="не; так и не"/>
+    <d v="never" p="predicative" ts="ˈnevə" tr="нет"/>
+    <d v="nevertheless" p="conjunction" ts="nevəðəˈles" tr="тем; впрочем"/>
+    <d v="nevertheless" p="adverb" ts="nevəðəˈles" tr="однако"/>
+    <d v="nevertheless" p="particle" ts="nevəðəˈles" tr="же; таки"/>
+    <d v="nevertheless" p="pronoun" ts="nevəðəˈles" tr="все же"/>
+    <d v="nevertheless" p="adverbial participle" ts="nevəðəˈles" tr="несмотря"/>
+    <d v="new" p="adjective" ts="njuː" tr="новый; современный; незнакомый; непривычный"/>
+    <d v="new" p="noun" ts="njuː" tr="новинка"/>
+    <d v="new" p="adverb" ts="njuː" tr="недавно"/>
+    <d v="new age" p="noun" ts="njuː eɪʤ" tr="новая эра; новый век; новая эпоха; новое время; новый возраст"/>
+    <d v="newborn" p="adjective" ts="ˈnjuːbən" tr="новорожденный"/>
+    <d v="newcomer" p="noun" ts="ˈnjuːkʌmər" tr="новичок; пришелец; новоприбывший"/>
+    <d v="newcomer" p="participle" ts="ˈnjuːkʌmər" tr="прибывший; вновь прибывший; начинающий"/>
+    <d v="newcomer" p="adjective" ts="ˈnjuːkʌmər" tr="приезжий; новенький"/>
+    <d v="newly" p="adverb" ts="ˈnjuːlɪ" tr="вновь"/>
+    <d v="newly" p="adjective" ts="ˈnjuːlɪ" tr="новоявленный"/>
+    <d v="newlywed" p="noun" ts="ˈnjuːlɪwed" tr="молодожен"/>
+    <d v="new moon" p="noun" ts="ˈnjuːˈmuːn" tr="новолуние; новая луна; молодой месяц"/>
+    <d v="newness" p="noun" ts="ˈnjuːnɪs" tr="новизна"/>
+    <d v="news" p="noun" ts="njuːz" tr="новость; радио"/>
+    <d v="news" p="adjective" ts="njuːz" tr="новостной"/>
+    <d v="newscast" p="noun" ts="ˈnjuːzkɑːst" tr="выпуск"/>
+    <d v="newscaster" p="noun" ts="ˈnjuːzkɑːstə" tr="диктор; радиокомментатор"/>
+    <d v="newsletter" p="noun" ts="ˈnjuːzletər"
+       tr="бюллетень; информационный бюллетень; информационый бюллетень; информационное письмо; рассылка новостей; новостная рассылка"/>
+    <d v="newsletter" p="adjective" ts="ˈnjuːzletər" tr="новостной"/>
+    <d v="newspaper" p="noun" ts="ˈnjuːspeɪpə" tr="газета"/>
+    <d v="newspaper" p="adjective" ts="ˈnjuːspeɪpə" tr="газетный"/>
+    <d v="newsprint" p="adjective" ts="ˈnjuːzprɪnt" tr="газетный"/>
+    <d v="newsprint" p="noun" ts="ˈnjuːzprɪnt" tr="газетная бумага"/>
+    <d v="newsstand" p="noun" ts="ˈnjuːzstænd" tr="киоск; газетный киоск"/>
+    <d v="newsy" p="adjective" ts="ˈnjuːzɪ" tr="любопытный"/>
+    <d v="newt" p="noun" ts="njuːt" tr="тритон; Ньют"/>
+    <d v="new Testament" p="noun" ts="njuː ˈtestəmənt" tr="новый завет"/>
+    <d v="new Testament" p="adjective" ts="njuː ˈtestəmənt" tr="новозаветный"/>
+    <d v="new world" p="noun" ts="njuː wɜːld" tr="новый мир; новый свет"/>
+    <d v="new year" p="noun" ts="ˈnjuːˈjɜː" tr="новый год"/>
+    <d v="new year" p="adjective" ts="ˈnjuːˈjɜː" tr="новогодний"/>
+    <d v="next" p="adjective" ts="nekst" tr="следующий; ближайший"/>
+    <d v="next" p="adverb" ts="nekst" tr="рядом; далее; потом; снова"/>
+    <d v="next" p="preposition" ts="nekst" tr="около"/>
+    <d v="next of kin" p="noun" ts="nekst ɔv kɪn" tr="ближайший родственник; близкий родственник"/>
+    <d v="NFL" p="noun" ts="nfl" tr="НФЛ"/>
+    <d v="NHL" p="noun" ts="nl" tr="НХЛ"/>
+    <d v="nibble" p="verb" ts="nɪbl" tr="грызть; покусывать; откусывать; щипать; пощипать"/>
+    <d v="nibble" p="noun" ts="nɪbl" tr="клев; полубайт; откусывание"/>
+    <d v="nice" p="adjective" ts="naɪs"
+       tr="милый; приятный; хороший; красивый; разборчивый; вкусный; изящный; аккуратный"/>
+    <d v="nice" p="noun" ts="naɪs" tr="Ницца"/>
+    <d v="nicely" p="adverb" ts="ˈnaɪslɪ" tr="хорошо; вежливо"/>
+    <d v="niche" p="noun" ts="nɪʧ" tr="ниша"/>
+    <d v="nick" p="noun" ts="nɪk" tr="зарубка; зазубрина; коля; дьявол"/>
+    <d v="nick" p="verb" ts="nɪk" tr="украсть"/>
+    <d v="nickel" p="noun" ts="nɪkl" tr="никель"/>
+    <d v="nickel" p="adjective" ts="nɪkl" tr="никелевый"/>
+    <d v="nickname" p="noun" ts="ˈnɪkneɪm" tr="прозвище; ник; уменьшительное имя"/>
+    <d v="nickname" p="verb" ts="ˈnɪkneɪm" tr="прозвать"/>
+    <d v="nickname" p="participle" ts="ˈnɪkneɪm" tr="прозванный"/>
+    <d v="nicotine" p="noun" ts="ˈnɪkətiːn" tr="никотин"/>
+    <d v="nicotine" p="adjective" ts="ˈnɪkətiːn" tr="никотиновый"/>
+    <d v="niece" p="noun" ts="niːs" tr="племянница"/>
+    <d v="nifty" p="adjective" ts="ˈnɪftɪ" tr="отличный; модный; щегольской"/>
+    <d v="nigger" p="noun" ts="ˈnɪgə" tr="негр"/>
+    <d v="nigger" p="adjective" ts="ˈnɪgə" tr="черномазый"/>
+    <d v="niggling" p="adjective" ts="ˈnɪglɪŋ" tr="мелочный; неразборчивый"/>
+    <d v="night" p="noun" ts="naɪt" tr="ночь; вечер; темнота"/>
+    <d v="night" p="adjective" ts="naɪt" tr="ночной"/>
+    <d v="nightclub" p="noun" ts="ˈnaɪtklʌb" tr="клуб"/>
+    <d v="nightfall" p="noun" ts="ˈnaɪtfɔːl" tr="наступление; сумерки; наступление ночи; темнота"/>
+    <d v="nightgown" p="noun" ts="ˈnaɪtgaʊn" tr="ночная рубашка; рубашка"/>
+    <d v="nightie" p="noun" ts="ˈnaɪtɪ" tr="ночнушка"/>
+    <d v="nightingale" p="noun" ts="ˈnaɪtɪŋgeɪl" tr="Соловей; Найтингейл"/>
+    <d v="nightingale" p="adjective" ts="ˈnaɪtɪŋgeɪl" tr="Соловьиный"/>
+    <d v="nightlife" p="noun" ts="ˈnaɪtlɪf" tr="ночная жизнь"/>
+    <d v="night light" p="noun" ts="naɪt laɪt" tr="ночной свет; ночное освещение"/>
+    <d v="nightly" p="adjective" ts="ˈnaɪtlɪ" tr="ночной; еженощный"/>
+    <d v="nightly" p="noun" ts="ˈnaɪtlɪ" tr="ночь; по ночам"/>
+    <d v="nightly" p="adverb" ts="ˈnaɪtlɪ" tr="ночью; еженощно"/>
+    <d v="nightmare" p="noun" ts="ˈnaɪtmɛə" tr="кошмар; кошмарный сон"/>
+    <d v="nightmare" p="adjective" ts="ˈnaɪtmɛə" tr="кошмарный"/>
+    <d v="nightmarish" p="adjective" ts="ˈnaɪtmɛərɪʃ" tr="кошмарный"/>
+    <d v="night owl" p="noun" ts="naɪt aʊl" tr="ночная сова"/>
+    <d v="night school" p="noun" ts="naɪt skuːl" tr="вечерняя школа"/>
+    <d v="nighttime" p="adjective" ts="ˈnaɪttaɪm" tr="ночной"/>
+    <d v="nighttime" p="noun" ts="ˈnaɪttaɪm" tr="ночное время"/>
+    <d v="nil" p="noun" ts="nɪl" tr="ноль; Нил"/>
+    <d v="nil" p="adjective" ts="nɪl" tr="нулевой"/>
+    <d v="nimble" p="adjective" ts="nɪmbl" tr="проворный; ловкий; прыткий; юркий; живой; сообразительный"/>
+    <d v="nimbly" p="adverb" ts="ˈnɪmblɪ" tr="ловко"/>
+    <d v="nincompoop" p="noun" ts="ˈnɪnkəmpuːp" tr="простофиля; дурачок"/>
+    <d v="nine" p="numeral" ts="naɪn" tr="девять; девятый"/>
+    <d v="nine" p="noun" ts="naɪn" tr="девятка"/>
+    <d v="nineteen" p="numeral" ts="ˈnaɪnˈtiːn" tr="девятнадцать"/>
+    <d v="nineteen" p="adjective" ts="ˈnaɪnˈtiːn" tr="девятнадцатилетний"/>
+    <d v="nineteenth" p="numeral" ts="ˈnaɪnˈtiːŋθ" tr="девятнадцатый"/>
+    <d v="ninetieth" p="numeral" ts="ˈnaɪntɪɪθ" tr="девяностый"/>
+    <d v="ninety" p="numeral" ts="ˈnaɪntɪ" tr="девяносто"/>
+    <d v="ninth" p="numeral" ts="naɪnθ" tr="девятый"/>
+    <d v="ninth" p="noun" ts="naɪnθ" tr="девятая"/>
+    <d v="nip" p="noun" ts="nɪp" tr="НПВ; щипок; НПИ; глоток"/>
+    <d v="nip" p="verb" ts="nɪp" tr="пресечь; ущипнуть; откусить; щипать; укусить; тяпнуть"/>
+    <d v="nip" p="adjective" ts="nɪp" tr="японский"/>
+    <d v="nipple" p="noun" ts="nɪpl" tr="сосок; ниппель"/>
+    <d v="nit" p="noun" ts="nɪt" tr="НИТ; гнида"/>
+    <d v="nitrate" p="noun" ts="ˈnaɪtreɪt" tr="нитрат"/>
+    <d v="nitrate" p="adjective" ts="ˈnaɪtreɪt" tr="азотнокислый"/>
+    <d v="nitrogen" p="noun" ts="ˈnaɪtrəʤən" tr="азот"/>
+    <d v="nitrogen" p="adjective" ts="ˈnaɪtrəʤən" tr="азотный"/>
+    <d v="nitwit" p="noun" ts="ˈnɪtwɪt" tr="простофиля; ничтожество; олух"/>
+    <d v="no" p="predicative" ts="nəʊ" tr="нет; нету"/>
+    <d v="no" p="pronoun" ts="nəʊ" tr="никакой; никто"/>
+    <d v="nobility" p="noun" ts="nəʊˈbɪlɪtɪ" tr="дворянство; благородство; знатность; родовая знать"/>
+    <d v="nobility" p="verb" ts="nəʊˈbɪlɪtɪ" tr="знать"/>
+    <d v="nobility" p="adjective" ts="nəʊˈbɪlɪtɪ" tr="дворянский"/>
+    <d v="noble" p="adjective" ts="nəʊbl"
+       tr="благородный; знатный; прекрасный; величественный; величавый; титулованный"/>
+    <d v="noble" p="noun" ts="nəʊbl" tr="благородство; дворянин"/>
+    <d v="nobleman" p="noun" ts="ˈnəʊblmən" tr="дворянин; царедворец"/>
+    <d v="nobleman" p="adjective" ts="ˈnəʊblmən" tr="дворянский"/>
+    <d v="noblewoman" p="noun" ts="ˈnəʊblwʊmən" tr="дворянка; аристократка"/>
+    <d v="nobly" p="adverb" ts="ˈnəʊblɪ" tr="благородно"/>
+    <d v="nobody" p="pronoun" ts="ˈnəʊbədɪ" tr="никто; ничей"/>
+    <d v="nobody" p="predicative" ts="ˈnəʊbədɪ" tr="некого"/>
+    <d v="nocturnal" p="adjective" ts="nɔkˈtɜːnl" tr="ночной"/>
+    <d v="nocturnal" p="noun" ts="nɔkˈtɜːnl" tr="ночной образ; ночной образ жизни"/>
+    <d v="nod" p="verb" ts="nɔd" tr="кивать; согласно кивнуть; покивать; клевать носом; дремать"/>
+    <d v="nod" p="noun" ts="nɔd" tr="кивок"/>
+    <d v="node" p="noun" ts="nəʊd" tr="узел; вершина; узловой пункт"/>
+    <d v="node" p="adjective" ts="nəʊd" tr="узловой"/>
+    <d v="noise" p="noun" ts="nɔɪz" tr="шум"/>
+    <d v="noise" p="adjective" ts="nɔɪz" tr="шумовой; малошумный"/>
+    <d v="noise" p="verb" ts="nɔɪz" tr="шуметь; кричать"/>
+    <d v="noiseless" p="adjective" ts="ˈnɔɪzlɪs" tr="бесшумный"/>
+    <d v="noiseless" p="noun" ts="ˈnɔɪzlɪs" tr="бесшумность"/>
+    <d v="noiselessly" p="adverb" ts="ˈnɔɪzləslɪ" tr="бесшумно"/>
+    <d v="noise pollution" p="noun" ts="nɔɪz pəˈluːʃn" tr="шумовое загрязнение; зашумленность"/>
+    <d v="noisily" p="adverb" ts="ˈnɔɪzɪlɪ" tr="шумно"/>
+    <d v="noisily" p="noun" ts="ˈnɔɪzɪlɪ" tr="с шумом"/>
+    <d v="noisy" p="adjective" ts="ˈnɔɪzɪ" tr="шумный; зашумленный; шумовой; крикливый; шумливый"/>
+    <d v="noisy" p="noun" ts="ˈnɔɪzɪ" tr="шум"/>
+    <d v="noisy" p="verb" ts="ˈnɔɪzɪ" tr="шуметь"/>
+    <d v="noisy" p="participle" ts="ˈnɔɪzɪ" tr="шумящий; галдящий"/>
+    <d v="nomad" p="noun" ts="ˈnəʊməd" tr="кочевник; бродяга"/>
+    <d v="nomad" p="adjective" ts="ˈnəʊməd" tr="кочевой"/>
+    <d v="nomadic" p="adjective" ts="nəʊˈmædɪk" tr="кочевой; бродячий"/>
+    <d v="nomadic" p="participle" ts="nəʊˈmædɪk" tr="кочующий"/>
+    <d v="nomadic" p="noun" ts="nəʊˈmædɪk" tr="кочевье"/>
+    <d v="nomadic" p="verb" ts="nəʊˈmædɪk" tr="кочевать"/>
+    <d v="nomenclature" p="noun" ts="nəʊˈmenkləʧə" tr="номенклатура; терминология"/>
+    <d v="nominal" p="adjective" ts="ˈnɔmɪnl" tr="номинальный; именной"/>
+    <d v="nominal" p="noun" ts="ˈnɔmɪnl" tr="номинал"/>
+    <d v="nominally" p="adverb" ts="ˈnɔmɪnəlɪ" tr="номинально; условно"/>
+    <d v="nominate" p="verb" ts="ˈnɔmɪneɪt" tr="назначить; выдвинуть; выставлять; именовать"/>
+    <d v="nomination" p="noun" ts="nɔmɪˈneɪʃn" tr="номинация; кандидатура; выдвижение"/>
+    <d v="nominee" p="noun" ts="nɔmɪˈniː" tr="кандидат; номинант"/>
+    <d v="nominee" p="adjective" ts="nɔmɪˈniː" tr="номинальный"/>
+    <d v="nonchalance" p="noun" ts="ˈnɔnʃələns"
+       tr="безразличие; беспечность; беззаботность; небрежность; бесстрастность"/>
+    <d v="nonchalant" p="adjective" ts="ˈnɔnʃələnt" tr="беззаботный; безразличный"/>
+    <d v="nonchalantly" p="adverb" ts="ˈnɒnʃələntlɪ" tr="небрежно"/>
+    <d v="noncommittal" p="adjective" ts="nɒnkəˈmɪtl" tr="уклончивый"/>
+    <d v="nonconformist" p="noun" ts="ˈnɔnkənˈfɔːmɪst" tr="диссидент"/>
+    <d v="nondescript" p="adjective" ts="ˈnɔndɪskrɪpt" tr="невзрачный; неприметный; неопределенный; неописуемый"/>
+    <d v="none" p="pronoun" ts="nʌn" tr="ни один; ничто"/>
+    <d v="none" p="particle" ts="nʌn" tr="ни"/>
+    <d v="nonentity" p="noun" ts="nɔˈnentɪtɪ" tr="ничтожество"/>
+    <d v="nonetheless" p="conjunction" ts="nʌnðəˈles" tr="тем"/>
+    <d v="nonetheless" p="adverb" ts="nʌnðəˈles" tr="однако"/>
+    <d v="nonetheless" p="adverbial participle" ts="nʌnðəˈles" tr="несмотря"/>
+    <d v="nonetheless" p="pronoun" ts="nʌnðəˈles" tr="все же"/>
+    <d v="nonexistent" p="adjective" ts="nɒnɪgˈzɪstənt" tr="несуществующий"/>
+    <d v="nonexistent" p="verb" ts="nɒnɪgˈzɪstənt" tr="отсутствовать"/>
+    <d v="nonfat" p="participle" ts="ˈnɒnfæt" tr="обезжиренный"/>
+    <d v="nonfat" p="adjective" ts="ˈnɒnfæt" tr="нежирный"/>
+    <d v="nonfiction" p="noun" ts="nɒnˈfɪkʃn" tr="документальная литература"/>
+    <d v="nonflammable" p="adjective" ts="nɒnˈflæməbl" tr="негорючий"/>
+    <d v="nonintervention" p="noun" ts="nɒnɪntəˈvenʃn" tr="невмешательство"/>
+    <d v="nonprofit" p="adjective" ts="nɒnˈprɒfɪt" tr="некоммерческий"/>
+    <d v="nonproliferation" p="noun" ts="nɒnprəlɪfəˈreɪʃn" tr="нераспространение"/>
+    <d v="nonrenewable" p="adjective" ts="nɒnrɪˈnjuːəbl" tr="невозобновляемый; невосполнимый"/>
+    <d v="nonsense" p="noun" ts="ˈnɔnsəns"
+       tr="ерунда; чепуха; нонсенс; дурь; бредни; нелепица; галиматья; сумасбродство"/>
+    <d v="nonsense" p="adjective" ts="ˈnɔnsəns" tr="бессмысленный"/>
+    <d v="nonsensical" p="adjective" ts="nɔnˈsensɪkəl" tr="бессмысленный; абсурдный"/>
+    <d v="nonsensical" p="noun" ts="nɔnˈsensɪkəl" tr="нонсенс"/>
+    <d v="nonsmoker" p="adjective" ts="nɒnˈsməʊkər" tr="некурящий"/>
+    <d v="Nonsmoking" p="adjective" ts="ˈnɒnsməʊkɪŋ" tr="некурящий"/>
+    <d v="nonstandard" p="adjective" ts="nɒnˈstændəd" tr="нестандартный"/>
+    <d v="nonstop" p="adjective" ts="ˈnɒnstɒp" tr="беспосадочный"/>
+    <d v="nonstop" p="noun" ts="ˈnɒnstɒp" tr="без остановки"/>
+    <d v="nonverbal" p="adjective" ts="nɒnˈvɜːbl" tr="невербальный"/>
+    <d v="nonviolence" p="noun" ts="nɔnˈvaɪələns" tr="ненасилие; отказ от насилия"/>
+    <d v="nonviolent" p="adjective" ts="nɒnˈvaɪələnt" tr="ненасильственный"/>
+    <d v="noodle" p="noun" ts="nuːdl" tr="лапша; балда; олух; башка; дурень"/>
+    <d v="noodle" p="adjective" ts="nuːdl" tr="макаронный"/>
+    <d v="nook" p="noun" ts="nʊk" tr="уголок; укромный уголок"/>
+    <d v="noon" p="noun" ts="nuːn" tr="полдень; Зенит"/>
+    <d v="noon" p="adjective" ts="nuːn" tr="полуденный"/>
+    <d v="no one" p="pronoun" ts="nəʊ wʌn" tr="никто; не один"/>
+    <d v="no one" p="noun" ts="nəʊ wʌn" tr="не с кем"/>
+    <d v="no one" p="predicative" ts="nəʊ wʌn" tr="нет никого"/>
+    <d v="noose" p="noun" ts="nuːs" tr="петля; аркан"/>
+    <d v="nope" p="predicative" ts="nəʊp" tr="нет"/>
+    <d v="nor" p="conjunction" ts="nɔː" tr="ни"/>
+    <d v="nor" p="particle" ts="nɔː" tr="не"/>
+    <d v="norm" p="noun" ts="nɔːm" tr="норма; нормотворчество"/>
+    <d v="normal" p="adjective" ts="ˈnɔːməl" tr="нормальный"/>
+    <d v="normal" p="noun" ts="ˈnɔːməl" tr="нормаль; размер; образец"/>
+    <d v="normal" p="participle" ts="ˈnɔːməl" tr="перпендикулярный"/>
+    <d v="normalcy" p="adjective" ts="ˈnɔːməlsɪ" tr="нормальный"/>
+    <d v="normalcy" p="noun" ts="ˈnɔːməlsɪ" tr="нормальная жизнь"/>
+    <d v="normality" p="noun" ts="nɔːˈmælɪtɪ" tr="нормальность"/>
+    <d v="normality" p="adjective" ts="nɔːˈmælɪtɪ" tr="нормальный"/>
+    <d v="normalization" p="noun" ts="nɔːməlaɪˈzeɪʃn" tr="нормализация; нормирование; нормировка"/>
+    <d v="normalization" p="verb" ts="nɔːməlaɪˈzeɪʃn" tr="нормализовать"/>
+    <d v="normalize" p="verb" ts="ˈnɔːməlaɪz" tr="нормализовать; нормировать"/>
+    <d v="normalize" p="noun" ts="ˈnɔːməlaɪz" tr="нормализация"/>
+    <d v="normally" p="adverb" ts="ˈnɔːməlɪ" tr="обычно"/>
+    <d v="normally" p="noun" ts="ˈnɔːməlɪ" tr="в норме"/>
+    <d v="North" p="adjective" ts="nɔːθ" tr="северный"/>
+    <d v="North" p="noun" ts="nɔːθ" tr="север; Северная часть страны"/>
+    <d v="North America" p="noun" ts="nɔːθ əˈmerɪkə" tr="Северная Америка"/>
+    <d v="North American" p="adjective" ts="nɔːθ əˈmerɪkən" tr="североамериканский"/>
+    <d v="North American" p="noun" ts="nɔːθ əˈmerɪkən" tr="Северная Америка"/>
+    <d v="northeast" p="noun" ts="ˈnɔːθˈiːst" tr="северовосток; северо-Восток"/>
+    <d v="northeast" p="adjective" ts="ˈnɔːθˈiːst" tr="северовосточный"/>
+    <d v="northeastern" p="adjective" ts="ˈnɔːθˈiːstən" tr="северовосточный"/>
+    <d v="northerly" p="adjective" ts="ˈnɔːðəlɪ" tr="северный"/>
+    <d v="northern" p="adjective" ts="ˈnɔːðən" tr="северный"/>
+    <d v="northern" p="noun" ts="ˈnɔːðən" tr="север"/>
+    <d v="northerner" p="noun" ts="ˈnɔːðənə" tr="северянин"/>
+    <d v="northern lights" p="noun" ts="ˈnɔːðənlaɪts" tr="Северное сияние"/>
+    <d v="North pole" p="noun" ts="nɔːθ pəʊl" tr="северный полюс"/>
+    <d v="northwest" p="noun" ts="ˈnɔːθˈwest" tr="северозапад"/>
+    <d v="northwest" p="adjective" ts="ˈnɔːθˈwest" tr="СевероЗападный; северо-западный"/>
+    <d v="northwestern" p="adjective" ts="ˈnɔːθˈwestən" tr="СевероЗападный"/>
+    <d v="nose" p="noun" ts="nəʊz" tr="нос; аромат; передняя часть"/>
+    <d v="nose" p="adjective" ts="nəʊz" tr="носовой"/>
+    <d v="nose" p="verb" ts="nəʊz" tr="нюхать"/>
+    <d v="nosebleed" p="noun" ts="ˈnəʊzbliːd" tr="кровотечение; носовое кровотечение; кровотечение из носа"/>
+    <d v="nosedive" p="noun" ts="ˈnəʊzdaɪv" tr="пике; пикирование"/>
+    <d v="nosedive" p="verb" ts="ˈnəʊzdaɪv" tr="пикировать"/>
+    <d v="nose job" p="noun" ts="nəʊz ʤɔb" tr="нос"/>
+    <d v="nostalgia" p="noun" ts="nɔstˈælʤɪə" tr="ностальгия"/>
+    <d v="nostalgic" p="adjective" ts="nɔstˈælʤɪk" tr="ностальгический"/>
+    <d v="nostalgic" p="noun" ts="nɔstˈælʤɪk" tr="ностальгия"/>
+    <d v="nostalgic" p="verb" ts="nɔstˈælʤɪk" tr="ностальгировать"/>
+    <d v="nostalgically" p="noun" ts="nɒˈstælʤɪklɪ" tr="ностальгия; с ностальгией"/>
+    <d v="nostalgically" p="adverb" ts="nɒˈstælʤɪklɪ" tr="ностальгически"/>
+    <d v="nostril" p="noun" ts="ˈnɔstrɪl" tr="ноздря"/>
+    <d v="nosy" p="adjective" ts="ˈnəʊzɪ" tr="любопытный"/>
+    <d v="nosy" p="noun" ts="ˈnəʊzɪ" tr="Ноузи"/>
+    <d v="not" p="particle" ts="nɔt" tr="не; ни"/>
+    <d v="not" p="predicative" ts="nɔt" tr="нет"/>
+    <d v="not" p="numeral" ts="nɔt" tr="немало"/>
+    <d v="notable" p="adjective" ts="ˈnəʊtəbl" tr="заметный; известный; примечательный; достопримечательный"/>
+    <d v="notable" p="participle" ts="ˈnəʊtəbl" tr="отличающийся"/>
+    <d v="notable" p="noun" ts="ˈnəʊtəbl" tr="нотабль"/>
+    <d v="notably" p="noun" ts="ˈnəʊtəblɪ" tr="в частности; прежде всего"/>
+    <d v="notably" p="adverb" ts="ˈnəʊtəblɪ" tr="особенно"/>
+    <d v="notary public" p="noun" ts="ˈnəʊtərɪ ˈpʌblɪk" tr="нотариус"/>
+    <d v="notation" p="noun" ts="nəʊˈteɪʃn"
+       tr="нотация; обозначение; запись; счисление; Примечание; система счисления; система обозначений"/>
+    <d v="notation" p="adjective" ts="nəʊˈteɪʃn" tr="нотный"/>
+    <d v="notch" p="noun" ts="nɔʧ" tr="паз; зазубрина; метка; уровень; зубец; ущелье; Утор; пропил"/>
+    <d v="notch" p="verb" ts="nɔʧ" tr="засечь; зарубать"/>
+    <d v="note" p="verb" ts="nəʊt" tr="отметить; записывать"/>
+    <d v="note" p="noun" ts="nəʊt" tr="Примечание; записка; нота; запись; банкнота; звук; знак; расписка"/>
+    <d v="notebook" p="noun" ts="ˈnəʊtbʊk" tr="ноутбук; блокнот"/>
+    <d v="notebook" p="adjective" ts="ˈnəʊtbʊk" tr="записной; портативный"/>
+    <d v="noted" p="participle" ts="ˈnəʊtɪd" tr="отмеченный; замеченный"/>
+    <d v="noted" p="adjective" ts="ˈnəʊtɪd" tr="известный"/>
+    <d v="notes" p="noun" ts="nəʊts" tr="конспект"/>
+    <d v="noteworthy" p="verb" ts="ˈneʊtwɜːðɪ" tr="отметить"/>
+    <d v="noteworthy" p="adverb" ts="ˈneʊtwɜːðɪ" tr="примечательно"/>
+    <d v="noteworthy" p="adjective" ts="ˈneʊtwɜːðɪ" tr="примечательный; достопримечательный"/>
+    <d v="noteworthy" p="participle" ts="ˈneʊtwɜːðɪ" tr="заслуживающий внимания"/>
+    <d v="nothing" p="pronoun" ts="ˈnʌθɪŋ" tr="ничто"/>
+    <d v="nothing" p="particle" ts="ˈnʌθɪŋ" tr="не"/>
+    <d v="nothing" p="predicative" ts="ˈnʌθɪŋ" tr="нечего; совсем нет"/>
+    <d v="notice" p="verb" ts="ˈnəʊtɪs" tr="заметить; уведомлять; предупреждать"/>
+    <d v="notice" p="noun" ts="ˈnəʊtɪs" tr="уведомление; внимание; наблюдение; рецензия"/>
+    <d v="noticeable" p="adjective" ts="ˈnəʊtɪsəbl" tr="заметный"/>
+    <d v="noticeably" p="adverb" ts="ˈnəʊtɪsəblɪ" tr="заметно"/>
+    <d v="notification" p="noun" ts="nəʊtɪfɪˈkeɪʃn" tr="уведомление; оповещение; регистрация"/>
+    <d v="notify" p="verb" ts="ˈnəʊtɪfaɪ" tr="уведомлять; сообщить; оповестить; регистрировать"/>
+    <d v="notify" p="noun" ts="ˈnəʊtɪfaɪ" tr="уведомление"/>
+    <d v="notion" p="noun" ts="nəʊʃn" tr="понятие; мнение; придумка; категория; знание; намерение"/>
+    <d v="notoriety" p="noun" ts="nəʊtəˈraɪətɪ" tr="известность; дурная слава; знаменитость"/>
+    <d v="notorious" p="adjective" ts="nəʊˈtɔːrɪəs" tr="пресловутый; заведомый"/>
+    <d v="notorious" p="adverb" ts="nəʊˈtɔːrɪəs" tr="печально"/>
+    <d v="notorious" p="participle" ts="nəʊˈtɔːrɪəs" tr="пользующийся дурной славой"/>
+    <d v="notoriously" p="adverb" ts="nəʊˈtɔːrɪəslɪ" tr="печально; заведомо; общеизвестно"/>
+    <d v="notwithstanding" p="noun" ts="nɔtwɪθˈstændɪŋ" tr="несмотря на"/>
+    <d v="notwithstanding" p="preposition" ts="nɔtwɪθˈstændɪŋ" tr="вопреки"/>
+    <d v="notwithstanding" p="conjunction" ts="nɔtwɪθˈstændɪŋ" tr="хотя"/>
+    <d v="notwithstanding" p="adverb" ts="nɔtwɪθˈstændɪŋ" tr="однако"/>
+    <d v="noun" p="noun" ts="naʊn" tr="существительное"/>
+    <d v="nourish" p="verb" ts="ˈnʌrɪʃ" tr="питать; насыщать; растить; окормлять; удобрять"/>
+    <d v="nourishing" p="adjective" ts="ˈnʌrɪʃɪŋ" tr="питательный"/>
+    <d v="nourishing" p="participle" ts="ˈnʌrɪʃɪŋ" tr="питающий"/>
+    <d v="nourishment" p="noun" ts="ˈnʌrɪʃmənt" tr="питание; окормление; поддержка"/>
+    <d v="nourishment" p="verb" ts="ˈnʌrɪʃmənt" tr="питать"/>
+    <d v="novel" p="noun" ts="ˈnɔvəl" tr="роман"/>
+    <d v="novel" p="adjective" ts="ˈnɔvəl" tr="новый; романный"/>
+    <d v="novelist" p="noun" ts="ˈnɔvəlɪst" tr="романист"/>
+    <d v="novelty" p="noun" ts="ˈnɔvəltɪ" tr="новинка; новизна; новость"/>
+    <d v="November" p="noun" ts="nəʊˈvembə" tr="ноябрь"/>
+    <d v="November" p="adjective" ts="nəʊˈvembə" tr="ноябрьский"/>
+    <d v="novice" p="noun" ts="ˈnɔvɪs" tr="новичок; послушник"/>
+    <d v="novice" p="adjective" ts="ˈnɔvɪs" tr="неопытный"/>
+    <d v="now" p="adverb" ts="naʊ" tr="теперь; сейчас; тотчас же"/>
+    <d v="now" p="noun" ts="naʊ" tr="настоящее время; раз"/>
+    <d v="nowadays" p="noun" ts="ˈnaʊədeɪz" tr="настоящее время"/>
+    <d v="nowhere" p="adverb" ts="ˈnəʊwɛə" tr="нигде; некуда; неоткуда"/>
+    <d v="noxious" p="adjective" ts="ˈnɔkʃəs" tr="вредный"/>
+    <d v="nozzle" p="noun" ts="nɔzl" tr="сопло; насадка; форсунка; носик; выпускное отверстие"/>
+    <d v="nozzle" p="adjective" ts="nɔzl" tr="сопловой"/>
+    <d v="nuance" p="noun" ts="njuːˈɑːns" tr="нюанс"/>
+    <d v="nuance" p="participle" ts="njuːˈɑːns" tr="нюансированный"/>
+    <d v="nuclear" p="adjective" ts="ˈnjuːklɪə" tr="ядерный"/>
+    <d v="nuclear energy" p="noun" ts="ˈnjuːklɪə ˈenəʤɪ"
+       tr="ядерная энергия; атомная энергия; атомная энергетика; ядерная энергетика; использование ядерной энергии"/>
+    <d v="nuclear family" p="noun" ts="ˈnjuːklɪə ˈfæmɪlɪ" tr="нуклеарная семья; ядерная семья"/>
+    <d v="nuclear reaction" p="noun" ts="ˈnjuːklɪə riːˈækʃn" tr="ядерная реакция"/>
+    <d v="nuclear reactor" p="noun" ts="ˈnjuːklɪə riːˈæktə" tr="ядерный реактор; атомный реактор"/>
+    <d v="nucleus" p="noun" ts="ˈnjuːklɪəs" tr="ядро; зародыш; центр"/>
+    <d v="nude" p="noun" ts="njuːd" tr="ню; обнаженная; нагота"/>
+    <d v="nude" p="adjective" ts="njuːd" tr="голый; нудистский"/>
+    <d v="nude" p="participle" ts="njuːd" tr="обнаженный"/>
+    <d v="nudge" p="verb" ts="nʌʤ" tr="подтолкнуть; подталкивать; слегка подталкивать локтем"/>
+    <d v="nudity" p="noun" ts="ˈnjuːdɪtɪ" tr="нагота; обнажение; обнаженное тело"/>
+    <d v="nugget" p="noun" ts="ˈnʌgɪt" tr="самородок"/>
+    <d v="nuisance" p="noun" ts="njuːsns" tr="неприятность; помеха; досада; досадная помеха"/>
+    <d v="nuisance" p="verb" ts="njuːsns" tr="мешать"/>
+    <d v="nuke" p="adjective" ts="njuːk" tr="ядерный"/>
+    <d v="nuke" p="noun" ts="njuːk" tr="ядерная бомба; бомба"/>
+    <d v="nullify" p="verb" ts="ˈnʌlɪfaɪ" tr="сводить; аннулировать; отменить; обнулять"/>
+    <d v="numb" p="verb" ts="nʌm" tr="онеметь; неметь; затекать; обезболить; поражать; ошеломить"/>
+    <d v="numb" p="noun" ts="nʌm" tr="онемение; оцепенение"/>
+    <d v="numb" p="adjective" ts="nʌm" tr="оцепенелый; онемелый"/>
+    <d v="numb" p="participle" ts="nʌm" tr="онемевший; ошеломленный; отупевший"/>
+    <d v="number" p="noun" ts="ˈnʌmbə" tr="число; сумма"/>
+    <d v="number" p="numeral" ts="ˈnʌmbə" tr="несколько"/>
+    <d v="number" p="verb" ts="ˈnʌmbə" tr="насчитывать; нумеровать; числиться; причислять"/>
+    <d v="number" p="adjective" ts="ˈnʌmbə" tr="числовой"/>
+    <d v="numbness" p="noun" ts="ˈnʌmnɪs"
+       tr="онемение; оцепенение; нечувствительность; бесчувственность; немота; отупение"/>
+    <d v="numeral" p="noun" ts="ˈnjuːmərəl" tr="цифра; числительное"/>
+    <d v="numeral" p="adjective" ts="ˈnjuːmərəl" tr="численный"/>
+    <d v="numerical" p="adjective" ts="njuːˈmerɪkəl" tr="численный"/>
+    <d v="numerical" p="noun" ts="njuːˈmerɪkəl" tr="ЧПУ"/>
+    <d v="numerically" p="adverb" ts="njuːˈmerɪkəlɪ" tr="численно"/>
+    <d v="numerically" p="adjective" ts="njuːˈmerɪkəlɪ" tr="числовой"/>
+    <d v="numerically" p="noun" ts="njuːˈmerɪkəlɪ" tr="по численности; в числовом отношении; с помощью цифр; в цифрах"/>
+    <d v="numerous" p="adjective" ts="ˈnjuːmərəs" tr="многочисленный"/>
+    <d v="numerous" p="noun" ts="ˈnjuːmərəs" tr="множество"/>
+    <d v="nun" p="noun" ts="nʌn" tr="монахиня; инокиня"/>
+    <d v="nuptial" p="adjective" ts="ˈnʌpʃəl" tr="брачный"/>
+    <d v="nuptial" p="noun" ts="ˈnʌpʃəl" tr="свадьба"/>
+    <d v="nurse" p="noun" ts="nɜːs" tr="медсестра; Няня; сиделка; нюни; санитар; сестра милосердия; медбрат; мамка"/>
+    <d v="nurse" p="verb" ts="nɜːs"
+       tr="нянчить; кормить; вынянчить; выхаживать; лелеять; лечить; выкармливать; ласкать; таить"/>
+    <d v="nursery" p="noun" ts="ˈnɜːsərɪ" tr="питомник; детский сад; детская комната; рассадник; инкубатор; Садок"/>
+    <d v="nursery" p="adjective" ts="ˈnɜːsərɪ" tr="детский"/>
+    <d v="nursery rhyme" p="noun" ts="ˈnɜːsərɪ raɪm" tr="стишок; детский стишок"/>
+    <d v="nursery school" p="noun" ts="ˈnɜːsərɪ skuːl" tr="детский сад"/>
+    <d v="nursing" p="noun" ts="ˈnɜːsɪŋ" tr="уход; медсестра; кормление; патронаж"/>
+    <d v="nursing" p="adjective" ts="ˈnɜːsɪŋ" tr="сестринский; грудной"/>
+    <d v="nursing" p="participle" ts="ˈnɜːsɪŋ" tr="кормящий"/>
+    <d v="nursing home" p="noun" ts="ˈnɜːsɪŋ həʊm" tr="дом престарелых; дом для престарелых; лечебница"/>
+    <d v="nurture" p="verb" ts="ˈnɜːʧə"
+       tr="воспитывать; лелеять; питать; заботиться; поддерживать; вырастить; вскармливать; вскормить"/>
+    <d v="nurture" p="noun" ts="ˈnɜːʧə" tr="воспитание; питание; взращивание"/>
+    <d v="nut" p="noun" ts="nʌt" tr="орех; псих; чудак; муфта; сумасброд"/>
+    <d v="nut" p="adjective" ts="nʌt" tr="ореховый; чокнутый"/>
+    <d v="nutmeg" p="adjective" ts="ˈnʌtmeg" tr="мускатный"/>
+    <d v="nutmeg" p="noun" ts="ˈnʌtmeg" tr="мускатный орех"/>
+    <d v="nutrient" p="adjective" ts="ˈnjuːtrɪənt" tr="питательный"/>
+    <d v="nutrient" p="noun" ts="ˈnjuːtrɪənt" tr="питательное вещество; пищевое вещество"/>
+    <d v="nutrition" p="noun" ts="njuːˈtrɪʃn" tr="питание; диетология"/>
+    <d v="nutrition" p="adjective" ts="njuːˈtrɪʃn" tr="питательный"/>
+    <d v="nutritional" p="adjective" ts="njuːˈtrɪʃənl" tr="питательный"/>
+    <d v="nutritional" p="noun" ts="njuːˈtrɪʃənl" tr="питание"/>
+    <d v="nutritious" p="adjective" ts="njuːˈtrɪʃəs" tr="питательный"/>
+    <d v="nutshell" p="noun" ts="ˈnʌʧel" tr="скорлупа; ореховая скорлупа"/>
+    <d v="nutty" p="adjective" ts="ˈnʌtɪ" tr="ореховый; чокнутый; пикантный; нарядный"/>
+    <d v="nutty" p="participle" ts="ˈnʌtɪ" tr="рехнувшийся; увлекающийся"/>
+    <d v="nuzzle" p="verb" ts="nʌzl" tr="прижаться; нюхать"/>
+    <d v="nuzzle" p="adverbial participle" ts="nʌzl" tr="уткнувшись"/>
+    <d v="nylon" p="noun" ts="ˈnaɪlən" tr="нейлон"/>
+    <d v="nylon" p="adjective" ts="ˈnaɪlən" tr="нейлоновый"/>
+    <d v="nymph" p="noun" ts="nɪmf" tr="нимфа"/>
+
+</defs>

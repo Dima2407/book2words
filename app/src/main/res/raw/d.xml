@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="dab" p="noun" ts="dæb" tr="мазок; лиманда; прикосновение; ершоватка"/>
+    <d v="dab" p="verb" ts="dæb" tr="тыкать; намазывать; слегка прикасаться"/>
+    <d v="dabble" p="verb" ts="dæbl" tr="плескать; барахтаться"/>
+    <d v="dachshund" p="noun" ts="ˈdækshʊnd" tr="такса"/>
+    <d v="dad" p="noun" ts="dæd" tr="папа"/>
+    <d v="daddy" p="noun" ts="ʌˈdædɪ" tr="папа"/>
+    <d v="daffodil" p="noun" ts="ˈdæfədɪl" tr="нарцисс"/>
+    <d v="dagger" p="noun" ts="ˈdægə" tr="кинжал; крестик"/>
+    <d v="daily" p="adjective" ts="ˈdeɪlɪ" tr="ежедневный; суточный; посуточный"/>
+    <d v="daily" p="adverb" ts="ˈdeɪlɪ" tr="ежедневно"/>
+    <d v="daily" p="noun" ts="ˈdeɪlɪ" tr="день; в день; повседневность; ежедневник"/>
+    <d v="daintily" p="adverb" ts="ˈdeɪntɪlɪ" tr="изящно"/>
+    <d v="dainty" p="noun" ts="ˈdeɪntɪ" tr="лакомство"/>
+    <d v="dainty" p="adjective" ts="ˈdeɪntɪ" tr="изящный; лакомый"/>
+    <d v="dairy" p="adjective" ts="ˈdɛərɪ" tr="молочный"/>
+    <d v="dairy" p="noun" ts="ˈdɛərɪ" tr="молокопродукты; маслодельня; сыроварня"/>
+    <d v="dairy cattle" p="noun" ts="ˈdɛərɪ kætl" tr="молочный скот; молочное скотоводство"/>
+    <d v="dairy farm" p="noun" ts="ˈdɛərɪ fɑːm" tr="молочная ферма; молочное хозяйство"/>
+    <d v="daisy" p="noun" ts="ˈdeɪzɪ" tr="Дейзи; маргаритка; ромашка; Дэйзи"/>
+    <d v="dally" p="verb" ts="ˈdælɪ" tr="развлекаться"/>
+    <d v="Dalmatian" p="noun" ts="ælˈmeɪʃjən" tr="далматин; далматинец"/>
+    <d v="Dalmatian" p="adjective" ts="ælˈmeɪʃjən" tr="далматинский; Далматский"/>
+    <d v="dam" p="noun" ts="dæm" tr="плотина; перемычка; матка"/>
+    <d v="dam" p="verb" ts="dæm" tr="запрудить"/>
+    <d v="damage" p="noun" ts="ˈdæmɪʤ" tr="ущерб; стоимость"/>
+    <d v="damage" p="verb" ts="ˈdæmɪʤ" tr="повредить; испортить; ушибить; дискредитировать"/>
+    <d v="damaging" p="participle" ts="ˈdæmɪʤɪŋ" tr="повреждающий; вредящий"/>
+    <d v="Dame" p="noun" ts="deɪm" tr="дама"/>
+    <d v="damn" p="noun" ts="dæm" tr="черт; проклятие"/>
+    <d v="damn" p="adjective" ts="dæm" tr="проклятый; треклятый; дурацкий"/>
+    <d v="damn" p="verb" ts="dæm" tr="проклинать; осуждать; провалить"/>
+    <d v="damned" p="adjective" ts="dæmd" tr="проклятый"/>
+    <d v="damned" p="adverb" ts="dæmd" tr="чертовски"/>
+    <d v="damned" p="participle" ts="dæmd" tr="осужденный"/>
+    <d v="damning" p="adjective" ts="ˈdæmɪŋ" tr="убийственный"/>
+    <d v="damp" p="adjective" ts="dæmp" tr="влажный"/>
+    <d v="damp" p="noun" ts="dæmp" tr="сырость; влага; гидроизоляция"/>
+    <d v="damp" p="verb" ts="dæmp" tr="демпфировать; затухать; заглушать; амортизировать"/>
+    <d v="dampen" p="verb" ts="ˈdæmpən" tr="ослабить; смочить; гасить; отсыревать; демпфировать"/>
+    <d v="damper" p="noun" ts="ˈdæmpə" tr="заслонка; демпфер; увлажнитель; глушитель; вьюшка"/>
+    <d v="dampness" p="noun" ts="ˈdæmpnəs" tr="сырость; влажность; сыроватость"/>
+    <d v="damsel" p="noun" ts="ˈdæmzəl" tr="девица"/>
+    <d v="dance" p="noun" ts="dɑːns" tr="танец; танцпол; бал"/>
+    <d v="dance" p="verb" ts="dɑːns" tr="танцевать; плясать; скакать; кружиться; двигаться"/>
+    <d v="dance" p="adjective" ts="dɑːns" tr="танцевальный"/>
+    <d v="dance" p="participle" ts="dɑːns" tr="танцующий"/>
+    <d v="dancer" p="noun" ts="ˈdɑːnsə" tr="танцор; танцовщица; артист; плясунья"/>
+    <d v="dancer" p="participle" ts="ˈdɑːnsə" tr="танцующий"/>
+    <d v="dancing" p="noun" ts="ˈdɑːnsɪŋ" tr="танец"/>
+    <d v="dancing" p="adjective" ts="ˈdɑːnsɪŋ" tr="танцевальный"/>
+    <d v="dancing" p="participle" ts="ˈdɑːnsɪŋ" tr="танцующий; пляшущий"/>
+    <d v="dandelion" p="noun" ts="ˈdændɪlaɪən" tr="одуванчик"/>
+    <d v="dandruff" p="noun" ts="ˈdændrʌf" tr="перхоть"/>
+    <d v="dandy" p="noun" ts="ˈdændɪ" tr="денди; модник; франт"/>
+    <d v="dandy" p="adjective" ts="ˈdændɪ" tr="превосходный"/>
+    <d v="danger" p="noun" ts="ˈdeɪnʤə" tr="опасность"/>
+    <d v="dangerous" p="adjective" ts="ˈdeɪnʤrəs" tr="опасный"/>
+    <d v="dangerous" p="noun" ts="ˈdeɪnʤrəs" tr="опасность"/>
+    <d v="dangerously" p="adverb" ts="ˈdeɪnʤərəslɪ" tr="опасно"/>
+    <d v="dangle" p="verb" ts="dæŋgl" tr="болтать; свисать; свесить; помахать; дразнить; соблазнять"/>
+    <d v="Danish" p="adjective" ts="ˈdeɪnɪʃ" tr="датский"/>
+    <d v="Danish" p="noun" ts="ˈdeɪnɪʃ" tr="Дания"/>
+    <d v="Danish pastry" p="noun" ts="ˈdeɪnɪʃ ˈpeɪstrɪ" tr="датская выпечка"/>
+    <d v="dank" p="adjective" ts="dæŋk" tr="сырой"/>
+    <d v="dapper" p="adjective" ts="ˈdæpə" tr="щеголеватый; подвижный; энергичный"/>
+    <d v="dapper" p="participle" ts="ˈdæpə" tr="щегольски одетый"/>
+    <d v="dare" p="verb" ts="dɛə" tr="осмелиться"/>
+    <d v="dare" p="noun" ts="dɛə" tr="смелость; вызов"/>
+    <d v="dare" p="participle" ts="dɛə" tr="осмелившийся"/>
+    <d v="daredevil" p="noun" ts="ˈdeədevl" tr="смельчак; сорвиголова"/>
+    <d v="daring" p="adjective" ts="ˈdɛərɪŋ" tr="смелый"/>
+    <d v="daring" p="noun" ts="ˈdɛərɪŋ" tr="смелость; дерзость; удаль"/>
+    <d v="dark" p="adjective" ts="dɑːk" tr="темный; темновой; темнокожий; непонятный; тайный"/>
+    <d v="dark" p="noun" ts="dɑːk" tr="темнота; неведение"/>
+    <d v="dark" p="verb" ts="dɑːk" tr="стемнеть"/>
+    <d v="darken" p="verb" ts="ˈdɑːkən" tr="темнеть; затемнить; омрачать; померкнуть; затмить"/>
+    <d v="darken" p="adjective" ts="ˈdɑːkən" tr="темный"/>
+    <d v="darken" p="noun" ts="ˈdɑːkən" tr="затемнение"/>
+    <d v="dark glasses" p="noun" ts="dɑːk ˈglɑːsɪz" tr="черные очки"/>
+    <d v="dark horse" p="noun" ts="dɑːk hɔːs" tr="темная лошадка; темная лошадь"/>
+    <d v="darkness" p="noun" ts="ˈdɑːknɪs" tr="тьма"/>
+    <d v="darkroom" p="noun" ts="ˈdɑːkruːm" tr="фотолаборатория; темная комната"/>
+    <d v="darling" p="adjective" ts="ˈdɑːlɪŋ" tr="дорогой; ненаглядный"/>
+    <d v="darling" p="noun" ts="ˈdɑːlɪŋ" tr="Дарлинг; милочка; любимец; избранница; душенька; любимица; Дуся"/>
+    <d v="darling" p="participle" ts="ˈdɑːlɪŋ" tr="любимый"/>
+    <d v="darn" p="adjective" ts="dɑːn" tr="ужасный; проклятый"/>
+    <d v="darn" p="verb" ts="dɑːn" tr="штопать; заштопать"/>
+    <d v="darn" p="noun" ts="dɑːn" tr="штопка"/>
+    <d v="dart" p="noun" ts="dɑːt" tr="дротик; ДАРТ"/>
+    <d v="dart" p="verb" ts="dɑːt" tr="шнырять; рвануть; метать; пикировать"/>
+    <d v="dash" p="noun" ts="dæʃ"
+       tr="тире; комбинация; черточка; рывок; примесь; порыв; перебежка; забег; решительность"/>
+    <d v="dash" p="verb" ts="dæʃ" tr="броситься; разбивать; накатать"/>
+    <d v="dash" p="adjective" ts="dæʃ" tr="приборный"/>
+    <d v="dashboard" p="noun" ts="ˈdæʃbɔːd" tr="панель; приборная доска; инструментальная панель"/>
+    <d v="dashboard" p="adjective" ts="ˈdæʃbɔːd" tr="приборный"/>
+    <d v="data" p="noun" ts="ˈdeɪtə" tr="данные; факты"/>
+    <d v="data" p="participle" ts="ˈdeɪtə" tr="данный"/>
+    <d v="database" p="noun" ts="ˈdeɪtəbeɪs" tr="база"/>
+    <d v="database" p="invariant" ts="ˈdeɪtəbeɪs" tr="БД"/>
+    <d v="data processing" p="noun" ts="ˈdeɪtə ˈprəʊsesɪŋ" tr="обработка данных; обработка информации"/>
+    <d v="date" p="noun" ts="deɪt" tr="дата; срок; сегодняшний день; свидание; число; финик"/>
+    <d v="date" p="verb" ts="deɪt" tr="датировать; устареть"/>
+    <d v="date" p="adjective" ts="deɪt" tr="современный"/>
+    <d v="dated" p="adjective" ts="ˈdeɪtɪd" tr="устаревший"/>
+    <d v="dated" p="participle" ts="ˈdeɪtɪd" tr="датированный"/>
+    <d v="daub" p="noun" ts="dɔːb" tr="мазня; мазок"/>
+    <d v="daub" p="verb" ts="dɔːb" tr="мазать; малевать"/>
+    <d v="daughter" p="noun" ts="ˈdɔːtə" tr="дочь"/>
+    <d v="daughter" p="adjective" ts="ˈdɔːtə" tr="дочерний"/>
+    <d v="daunt" p="verb" ts="dɔːnt" tr="устрашить; устрашать"/>
+    <d v="daunting" p="participle" ts="ˈdɔːntɪŋ" tr="пугающий; обескураживающий"/>
+    <d v="dawdle" p="verb" ts="dɔːdl" tr="бездельничать"/>
+    <d v="dawn" p="noun" ts="dɔːn" tr="рассвет; зорька"/>
+    <d v="dawn" p="verb" ts="dɔːn" tr="рассвести; пробуждаться"/>
+    <d v="dawn" p="adjective" ts="dɔːn" tr="рассветный"/>
+    <d v="day" p="noun" ts="deɪ" tr="день; победа"/>
+    <d v="day" p="adjective" ts="deɪ" tr="дневной"/>
+    <d v="daybreak" p="noun" ts="ˈdeɪbreɪk" tr="рассвет"/>
+    <d v="day care" p="noun" ts="deɪ kɛə" tr="дневной уход; дневной стационар"/>
+    <d v="daydream" p="noun" ts="ˈdeɪdriːm" tr="мечта"/>
+    <d v="daydream" p="verb" ts="ˈdeɪdriːm" tr="мечтать"/>
+    <d v="daylight" p="adjective" ts="ˈdeɪlaɪt" tr="дневной"/>
+    <d v="daylight" p="noun" ts="ˈdeɪlaɪt" tr="дневной свет; рассвет; световой день; светлое время"/>
+    <d v="daylight saving time" p="noun" ts="ˈdeɪlaɪt ˈseɪvɪŋ taɪm" tr="летнее время"/>
+    <d v="daytime" p="adjective" ts="ˈdeɪtaɪm" tr="дневной"/>
+    <d v="daytime" p="noun" ts="ˈdeɪtaɪm" tr="дневное время"/>
+    <d v="daze" p="noun" ts="deɪz" tr="оцепенение; изумление; туман"/>
+    <d v="daze" p="verb" ts="deɪz" tr="ошеломить"/>
+    <d v="dazed" p="participle" ts="deɪzd" tr="ошеломленный; изумленный; ошарашенный"/>
+    <d v="dazed" p="noun" ts="deɪzd" tr="оцепенение"/>
+    <d v="dazzle" p="verb" ts="dæzl" tr="ослеплять; пестреть; завораживать"/>
+    <d v="dazzle" p="noun" ts="dæzl" tr="ослепление"/>
+    <d v="dazzling" p="participle" ts="ˈdæzlɪŋ" tr="ослепляющий; слепящий"/>
+    <d v="DC" p="noun" ts="dk" tr="округ Колумбия"/>
+    <d v="DDT" p="noun" ts="dɪdɪˈtɪ" tr="ДДТ"/>
+    <d v="deacon" p="noun" ts="ˈdiːkən" tr="диакон; Дьяконов"/>
+    <d v="deaconess" p="noun" ts="ˈdiːkənɪs" tr="диакониса"/>
+    <d v="dead" p="adjective" ts="ded" tr="мертвый; сухой; пустой; застойный; полный; неподвижный; вялый"/>
+    <d v="dead" p="participle" ts="ded" tr="умерший; погибший; отмерший; омертвевший; засохший; онемевший"/>
+    <d v="dead" p="noun" ts="ded" tr="мертвец"/>
+    <d v="dead" p="verb" ts="ded" tr="умереть"/>
+    <d v="dead" p="adverb" ts="ded" tr="замертво; совершенно"/>
+    <d v="deaden" p="verb" ts="dedn" tr="умерщвлять; заглушить; притуплять"/>
+    <d v="dead end" p="noun" ts="ded end" tr="тупик"/>
+    <d v="dead end" p="adjective" ts="ded end" tr="тупиковый"/>
+    <d v="deadline" p="noun" ts="ˈdedlaɪn" tr="срок; крайний срок; предельный срок"/>
+    <d v="deadlock" p="noun" ts="ˈdedlɔk" tr="тупик; взаимоблокировка; зависание"/>
+    <d v="deadlock" p="adjective" ts="ˈdedlɔk" tr="тупиковый"/>
+    <d v="deadly" p="adjective" ts="ˈdedlɪ" tr="смертельный; ужасный; чрезвычайный"/>
+    <d v="deadly" p="adverb" ts="ˈdedlɪ" tr="смертельно; чрезвычайно"/>
+    <d v="deadpan" p="adjective" ts="ˈdedpæn" tr="невозмутимый"/>
+    <d v="deaf" p="adjective" ts="def" tr="глухой; глуховатый"/>
+    <d v="deaf" p="noun" ts="def" tr="глухота"/>
+    <d v="deafen" p="verb" ts="defn" tr="оглушать; заглушать"/>
+    <d v="deafening" p="adjective" ts="ˈdefnɪŋ" tr="оглушительный"/>
+    <d v="deafening" p="participle" ts="ˈdefnɪŋ" tr="оглушающий"/>
+    <d v="deafening" p="adverbial participle" ts="ˈdefnɪŋ" tr="оглушая"/>
+    <d v="deafness" p="noun" ts="ˈdefnɪs" tr="глухота"/>
+    <d v="deal" p="noun" ts="diːl" tr="сделка; дело; обращение; сдача"/>
+    <d v="deal" p="verb" ts="diːl"
+       tr="заниматься; справиться; общаться; разобраться; наносить; раздавать; поступать; торговать; сдавать; обходиться; ведать"/>
+    <d v="dealer" p="noun" ts="ˈdiːlə" tr="дилер; торговец; делец"/>
+    <d v="dealer" p="adjective" ts="ˈdiːlə" tr="дилерский"/>
+    <d v="dealership" p="noun" ts="ˈdiːləʃɪp" tr="дилер; дилерство; автосалон; дилерский центр; дилерские полномочия"/>
+    <d v="dealership" p="adjective" ts="ˈdiːləʃɪp" tr="дилерский"/>
+    <d v="dealing" p="noun" ts="ˈdiːlɪŋ" tr="отношение; распределение"/>
+    <d v="dealing" p="adjective" ts="ˈdiːlɪŋ" tr="дилинговый"/>
+    <d v="dealing" p="participle" ts="ˈdiːlɪŋ" tr="занимающийся; касающийся; относящийся"/>
+    <d v="dealt" p="participle" ts="delt" tr="рассматриваемый"/>
+    <d v="dean" p="noun" ts="diːn" tr="декан; Дина; дуайен"/>
+    <d v="dear" p="adjective" ts="dɪə" tr="дорогой"/>
+    <d v="dear" p="noun" ts="dɪə" tr="возлюбленный; прелесть"/>
+    <d v="dearly" p="adjective" ts="ˈdɪəlɪ" tr="дорогой"/>
+    <d v="dearly" p="adverb" ts="ˈdɪəlɪ" tr="нежно; подороже"/>
+    <d v="dearth" p="noun" ts="dɜːθ" tr="недостаток"/>
+    <d v="death" p="noun" ts="deθ" tr="смерть; конец"/>
+    <d v="death" p="adjective" ts="deθ" tr="смертный"/>
+    <d v="deathbed" p="noun" ts="ˈdeθbed" tr="ложе; смертное ложе"/>
+    <d v="deathbed" p="adjective" ts="ˈdeθbed" tr="предсмертный"/>
+    <d v="death penalty" p="noun" ts="deθ ˈpenltɪ" tr="смертная казнь"/>
+    <d v="death row" p="noun" ts="deθ rəʊ" tr="смертник; камера смертников"/>
+    <d v="death toll" p="noun" ts="deθ təʊl" tr="число погибших"/>
+    <d v="debase" p="verb" ts="dɪˈbeɪs" tr="унижать; портить"/>
+    <d v="debasement" p="noun" ts="dɪˈbeɪsmənt" tr="унижение"/>
+    <d v="debatable" p="adjective" ts="dɪˈbeɪtəbl" tr="спорный"/>
+    <d v="debate" p="noun" ts="dɪˈbeɪt" tr="дискуссия; дебаты"/>
+    <d v="debate" p="verb" ts="dɪˈbeɪt" tr="обсуждать; спорить; обдумывать"/>
+    <d v="debate" p="adjective" ts="dɪˈbeɪt" tr="дискуссионный"/>
+    <d v="debauchery" p="noun" ts="dɪˈbɔːʧərɪ" tr="разврат; разгул"/>
+    <d v="debilitate" p="verb" ts="dɪˈbɪlɪteɪt" tr="ослаблять"/>
+    <d v="debilitating" p="participle" ts="dɪˈbɪlɪteɪtɪŋ" tr="ослабляющий"/>
+    <d v="debility" p="noun" ts="dɪˈbɪlɪtɪ" tr="слабость"/>
+    <d v="debit" p="adjective" ts="ˈdebɪt" tr="дебетовый"/>
+    <d v="debit" p="noun" ts="ˈdebɪt" tr="дебет"/>
+    <d v="debit" p="verb" ts="ˈdebɪt" tr="дебетовать"/>
+    <d v="debonair" p="adjective" ts="debəˈnɛə" tr="жизнерадостный; любезный; добродушный"/>
+    <d v="debris" p="noun" ts="ˈdeɪbriː" tr="мусор; обломки; осколки; завал; грязь"/>
+    <d v="debt" p="noun" ts="det" tr="долг"/>
+    <d v="debt" p="adjective" ts="det" tr="долговой"/>
+    <d v="debtor" p="noun" ts="ˈdetə" tr="должник"/>
+    <d v="debug" p="noun" ts="diːˈbʌg" tr="отладка"/>
+    <d v="debug" p="adjective" ts="diːˈbʌg" tr="отладочный"/>
+    <d v="debug" p="verb" ts="diːˈbʌg" tr="отлаживать"/>
+    <d v="debunk" p="verb" ts="ˈdiːˈbʌŋk" tr="развенчать; развенчивать; разоблачить"/>
+    <d v="debunk" p="noun" ts="ˈdiːˈbʌŋk" tr="развенчание"/>
+    <d v="debut" p="adjective" ts="ˈdeɪbuː" tr="дебютный"/>
+    <d v="debut" p="noun" ts="ˈdeɪbuː" tr="дебют"/>
+    <d v="debut" p="verb" ts="ˈdeɪbuː" tr="дебютировать"/>
+    <d v="debut" p="participle" ts="ˈdeɪbuː" tr="дебютировавший"/>
+    <d v="debutante" p="noun" ts="ˈdebjuːtɑːnt" tr="дебютантка"/>
+    <d v="decade" p="noun" ts="ˈdekeɪd" tr="десятилетие"/>
+    <d v="decade" p="adjective" ts="ˈdekeɪd" tr="десятилетний"/>
+    <d v="decadence" p="noun" ts="ˈdekədəns" tr="упадок; декаданс; декадентство; упадничество"/>
+    <d v="decadent" p="adjective" ts="ˈdekədənt" tr="декадентский; упадочный; упаднический"/>
+    <d v="decadent" p="noun" ts="ˈdekədənt" tr="упадок; декадент"/>
+    <d v="decaf" p="noun" ts="dɪˈkæf" tr="кофе без кофеина"/>
+    <d v="decaffeinated" p="noun" ts="dɪˈkæfəneɪtɪd" tr="кофеин; без кофеина"/>
+    <d v="decal" p="noun" ts="ˈdekəl" tr="наклейка; декаль"/>
+    <d v="decanter" p="noun" ts="dɪˈkæntə" tr="графин"/>
+    <d v="decapitate" p="verb" ts="dɪˈkæpɪteɪt" tr="обезглавить"/>
+    <d v="decathlon" p="noun" ts="dɪˈkæθlɔn" tr="десятиборье; десятиборец"/>
+    <d v="decay" p="noun" ts="dɪˈkeɪ" tr="распад; упадок; кариес; затухание; убывание; увядание; тлен; расстройство"/>
+    <d v="decay" p="verb" ts="dɪˈkeɪ" tr="распадаться; гнить; ветшать; тлеть; истлеть; угасать; хиреть; ухудшаться"/>
+    <d v="deceased" p="participle" ts="dɪˈsiːst" tr="умерший"/>
+    <d v="deceased" p="adjective" ts="dɪˈsiːst" tr="покойный"/>
+    <d v="deceased" p="noun" ts="dɪˈsiːst" tr="погибший; покойник; покойница"/>
+    <d v="deceit" p="noun" ts="dɪˈsiːt" tr="обман"/>
+    <d v="deceitful" p="adjective" ts="dɪˈsiːtfʊl" tr="лживый; коварный; обманчивый"/>
+    <d v="deceitful" p="noun" ts="dɪˈsiːtfʊl" tr="обман"/>
+    <d v="deceitfully" p="adverb" ts="dɪˈsiːtfʊlɪ" tr="лживо"/>
+    <d v="deceitfulness" p="noun" ts="dɪˈsiːtfʊlnəs" tr="обманчивость; лживость"/>
+    <d v="deceive" p="verb" ts="dɪˈsiːv" tr="обмануть"/>
+    <d v="deceive" p="noun" ts="dɪˈsiːv" tr="заблуждение"/>
+    <d v="December" p="noun" ts="dɪˈsembə" tr="декабрь"/>
+    <d v="December" p="adjective" ts="dɪˈsembə" tr="декабрьский"/>
+    <d v="decency" p="noun" ts="ˈdiːsnsɪ" tr="порядочность; приличие"/>
+    <d v="decent" p="adjective" ts="diːsnt" tr="достойный; приличный; хороший; скромный; нестрогий"/>
+    <d v="decent" p="participle" ts="diːsnt" tr="подходящий; сдержанный"/>
+    <d v="decently" p="adverb" ts="ˈdiːsntlɪ" tr="прилично; благопристойно; порядочно; любезно"/>
+    <d v="decentralization" p="noun" ts="diːsentrəlaɪˈzeɪʃn" tr="децентрализация"/>
+    <d v="decentralize" p="noun" ts="diːˈsentrəlaɪz" tr="децентрализация"/>
+    <d v="decentralize" p="verb" ts="diːˈsentrəlaɪz" tr="децентрализовать"/>
+    <d v="deception" p="noun" ts="dɪˈsepʃn" tr="обман; хитрость"/>
+    <d v="deceptive" p="adjective" ts="dɪˈseptɪv" tr="обманчивый; обманный"/>
+    <d v="deceptive" p="noun" ts="dɪˈseptɪv" tr="заблуждение"/>
+    <d v="deceptively" p="adverb" ts="dɪˈseptɪvlɪ" tr="обманчиво"/>
+    <d v="decibel" p="noun" ts="ˈdesɪbel" tr="децибел"/>
+    <d v="decide" p="verb" ts="dɪˈsaɪd" tr="решить"/>
+    <d v="decide" p="noun" ts="dɪˈsaɪd" tr="решение"/>
+    <d v="decided" p="participle" ts="dɪˈsaɪdɪd" tr="решивший; решаемый"/>
+    <d v="decided" p="adjective" ts="dɪˈsaɪdɪd" tr="решительный"/>
+    <d v="decidedly" p="adverb" ts="dɪˈsaɪdɪdlɪ" tr="решительно; явно"/>
+    <d v="decidedly" p="parenthetic" ts="dɪˈsaɪdɪdlɪ" tr="бесспорно"/>
+    <d v="deciduous" p="adjective" ts="dɪˈsɪdjʊəs" tr="лиственный"/>
+    <d v="decimal" p="adjective" ts="ˈdesɪməl" tr="десятичный; Десятеричный"/>
+    <d v="decimal point" p="noun" ts="ˈdesɪməl pɔɪnt"
+       tr="десятичная точка; десятичная запятая; десятичный разделитель"/>
+    <d v="decimate" p="verb" ts="ˈdesɪmeɪt" tr="уничтожить; косить"/>
+    <d v="decipher" p="verb" ts="dɪˈsaɪfə" tr="расшифровать; разобрать; разгадывать"/>
+    <d v="decipher" p="noun" ts="dɪˈsaɪfə" tr="расшифровка"/>
+    <d v="decision" p="noun" ts="dɪˈsɪʒən" tr="решение; решимость"/>
+    <d v="decisive" p="participle" ts="dɪˈsaɪsɪv" tr="решающий"/>
+    <d v="decisive" p="adjective" ts="dɪˈsaɪsɪv" tr="решительный"/>
+    <d v="decisive" p="noun" ts="dɪˈsaɪsɪv" tr="решающее значение"/>
+    <d v="decisively" p="adverb" ts="dɪˈsaɪsɪvlɪ" tr="решительно"/>
+    <d v="deck" p="noun" ts="dek" tr="палуба; колода"/>
+    <d v="deck" p="adjective" ts="dek" tr="палубный"/>
+    <d v="deck" p="verb" ts="dek" tr="убирать"/>
+    <d v="declaration" p="noun" ts="dekləˈreɪʃn" tr="декларация; заявление; объявление"/>
+    <d v="declare" p="verb" ts="dɪˈklɛə" tr="заявить; объявить; признать; называть"/>
+    <d v="declare" p="noun" ts="dɪˈklɛə" tr="объявление; декларирование"/>
+    <d v="decline" p="noun" ts="dɪˈklaɪn" tr="снижение; конец; уклон"/>
+    <d v="decline" p="verb" ts="dɪˈklaɪn"
+       tr="отказаться; сократиться; отклонить; уклоняться; склонять; ухудшаться; клониться; спадать"/>
+    <d v="decode" p="verb" ts="ˈdiːkəʊd" tr="декодировать; раскодировать"/>
+    <d v="decode" p="noun" ts="ˈdiːkəʊd" tr="декодирование; расшифровка; раскодирование"/>
+    <d v="decompose" p="verb" ts="diːkəmˈpəʊz" tr="разлагать; разложить; гнить; анализировать"/>
+    <d v="decompose" p="adverbial participle" ts="diːkəmˈpəʊz" tr="разлагаясь"/>
+    <d v="decompose" p="noun" ts="diːkəmˈpəʊz" tr="разложение"/>
+    <d v="decomposition" p="noun" ts="diːkɔmpəˈzɪʃn" tr="разложение"/>
+    <d v="decor" p="noun" ts="dɪˈkɔːr" tr="декор"/>
+    <d v="decor" p="adjective" ts="dɪˈkɔːr" tr="декоративный"/>
+    <d v="decorate" p="verb" ts="ˈdekəreɪt" tr="украсить; награждать; расписать; отделывать"/>
+    <d v="decorate" p="noun" ts="ˈdekəreɪt" tr="украшение; оформление"/>
+    <d v="decoration" p="noun" ts="dekəˈreɪʃn"
+       tr="украшение; оформление; награда; декоративное оформление; знак отличия; декоративность"/>
+    <d v="decoration" p="adjective" ts="dekəˈreɪʃn" tr="декоративный"/>
+    <d v="decorative" p="adjective" ts="ˈdekərətɪv" tr="декоративный"/>
+    <d v="decorator" p="noun" ts="ˈdekəreɪtə" tr="декоратор"/>
+    <d v="decorous" p="adjective" ts="ˈdekərəs" tr="приличный; благопристойный; чинный"/>
+    <d v="decorum" p="noun" ts="dɪˈkɔːrəm" tr="приличие; декорум"/>
+    <d v="decoy" p="noun" ts="ˈdiːkɔɪ" tr="приманка; ложная цель; ловушка; макет"/>
+    <d v="decrease" p="noun" ts="ˈdiːkriːs" tr="снижение; убавление"/>
+    <d v="decrease" p="verb" ts="ˈdiːkriːs" tr="уменьшаться; уменьшить; понижаться"/>
+    <d v="decree" p="noun" ts="dɪˈkriː" tr="указ; решение"/>
+    <d v="decree" p="verb" ts="dɪˈkriː" tr="постановить; декретировать"/>
+    <d v="decrepit" p="adjective" ts="dɪˈkrepɪt" tr="ветхий; дряхлый; изношенный"/>
+    <d v="decrepit" p="participle" ts="dɪˈkrepɪt" tr="одряхлевший"/>
+    <d v="decrepit" p="verb" ts="dɪˈkrepɪt" tr="дряхлеть"/>
+    <d v="decriminalize" p="noun" ts="dɪkrɪmɪnəˈlaɪz" tr="декриминализация; декриминализировать"/>
+    <d v="decriminalize" p="verb" ts="dɪkrɪmɪnəˈlaɪz" tr="декриминализовать"/>
+    <d v="decry" p="verb" ts="dɪˈkraɪ" tr="осуждать; принижать; хулить"/>
+    <d v="dedicate" p="verb" ts="ˈdedɪkeɪt" tr="посвящать; выделить; предназначать; посветить"/>
+    <d v="dedicate" p="noun" ts="ˈdedɪkeɪt" tr="посвящение"/>
+    <d v="dedicated" p="participle" ts="ˈdedɪkeɪtɪd"
+       tr="посвященный; выделенный; предназначенный; специализированный; занимающийся; посвятивший; приверженный; увлеченный"/>
+    <d v="dedicated" p="adjective" ts="ˈdedɪkeɪtɪd" tr="преданный"/>
+    <d v="dedication" p="noun" ts="dedɪˈkeɪʃn" tr="преданность; посвящение; увлеченность; полная отдача"/>
+    <d v="dedication" p="adjective" ts="dedɪˈkeɪʃn" tr="самоотверженный"/>
+    <d v="deduce" p="verb" ts="dɪˈdjuːs" tr="вывести; дедуцировать; вычислить; проследить"/>
+    <d v="deduce" p="noun" ts="dɪˈdjuːs" tr="вывод"/>
+    <d v="deduct" p="verb" ts="dɪˈdʌkt" tr="вычитать; удерживать; списывать; сбавлять; отнимать"/>
+    <d v="deductible" p="noun" ts="dɪˈdʌktəbl" tr="франшиза"/>
+    <d v="deduction" p="noun" ts="dɪˈdʌkʃn" tr="вычет; вывод; дедукция; скидка"/>
+    <d v="deed" p="noun" ts="diːd" tr="дело; поступок; подвиг; грамота; благодеяние"/>
+    <d v="deem" p="verb" ts="diːm" tr="считать"/>
+    <d v="deep" p="adjective" ts="diːp" tr="глубокий; низкий"/>
+    <d v="deep" p="noun" ts="diːp" tr="глубина; бездна"/>
+    <d v="deep" p="participle" ts="diːp" tr="насыщенный"/>
+    <d v="deepen" p="verb" ts="ˈdiːpən" tr="углублять; усугубить; сгуститься"/>
+    <d v="deepen" p="noun" ts="ˈdiːpən" tr="углубление"/>
+    <d v="deeply" p="adverb" ts="ˈdiːplɪ" tr="глубоко"/>
+    <d v="deep South" p="noun" ts="diːp saʊθ" tr="глубокий юг"/>
+    <d v="deer" p="noun" ts="dɪə" tr="олень; красный зверь"/>
+    <d v="deer" p="adjective" ts="dɪə" tr="олений"/>
+    <d v="deface" p="verb" ts="dɪˈfeɪs" tr="портить; искажать; изуродовать; стирать"/>
+    <d v="defamation" p="noun" ts="defəˈmeɪʃn" tr="диффамация; шельмование"/>
+    <d v="defamatory" p="adjective" ts="dɪˈfæmətərɪ" tr="клеветнический"/>
+    <d v="defamatory" p="participle" ts="dɪˈfæmətərɪ" tr="дискредитирующий"/>
+    <d v="defame" p="verb" ts="dɪˈfeɪm" tr="порочить; оскорблять; шельмовать"/>
+    <d v="defame" p="noun" ts="dɪˈfeɪm" tr="клевета; поношение"/>
+    <d v="default" p="noun" ts="dɪˈfɔːlt" tr="умолчание; дефолт; невыполнение обязательства; проступок; упущение"/>
+    <d v="defeat" p="noun" ts="dɪˈfiːt" tr="поражение; аннулирование"/>
+    <d v="defeat" p="verb" ts="dɪˈfiːt" tr="победить; разгромить; разрушать; аннулировать; расстраивать"/>
+    <d v="defeat" p="participle" ts="dɪˈfiːt" tr="побежденный"/>
+    <d v="defeatist" p="adjective" ts="dɪˈfiːtɪst" tr="пораженческий"/>
+    <d v="defeatist" p="noun" ts="dɪˈfiːtɪst" tr="пораженец; пораженчество; капитулянт"/>
+    <d v="defecate" p="verb" ts="ˈdefɪkeɪt" tr="испражняться; испражниться; очищать"/>
+    <d v="defect" p="noun" ts="dɪˈfekt" tr="дефект"/>
+    <d v="defect" p="verb" ts="dɪˈfekt" tr="переметнуться"/>
+    <d v="defection" p="noun" ts="dɪˈfekʃn" tr="дезертирство; отступничество; неудача; нарушение"/>
+    <d v="defective" p="adjective" ts="dɪˈfektɪv" tr="дефектный; ущербный"/>
+    <d v="defective" p="noun" ts="dɪˈfektɪv" tr="дефект"/>
+    <d v="defector" p="noun" ts="dɪˈfektər" tr="перебежчик; невозвращенец"/>
+    <d v="defend" p="verb" ts="dɪˈfend" tr="защищать; оправдывать; отбиться"/>
+    <d v="defend" p="noun" ts="dɪˈfend" tr="защита"/>
+    <d v="defendant" p="noun" ts="dɪˈfendənt" tr="подсудимый; Ответчик"/>
+    <d v="defender" p="noun" ts="dɪˈfendə" tr="защитник"/>
+    <d v="defender" p="participle" ts="dɪˈfendə" tr="защищающийся"/>
+    <d v="defense" p="noun" ts="dɪˈfens" tr="оборона; оправдание"/>
+    <d v="defense" p="adjective" ts="dɪˈfens" tr="оборонный"/>
+    <d v="defenseless" p="adjective" ts="dɪˈfensləs" tr="беззащитный"/>
+    <d v="defense mechanism" p="noun" ts="dɪˈfens ˈmekənɪzm" tr="защитный механизм; механизм защиты"/>
+    <d v="defensible" p="participle" ts="dɪˈfensəbl" tr="оправданный; защитимый"/>
+    <d v="defensive" p="adjective" ts="dɪˈfensɪv" tr="оборонительный"/>
+    <d v="defensive" p="noun" ts="dɪˈfensɪv" tr="оборона"/>
+    <d v="defensive" p="adverbial participle" ts="dɪˈfensɪv" tr="обороняясь"/>
+    <d v="defer" p="verb" ts="dɪˈfɜː" tr="откладывать; прислушиваться; уступать"/>
+    <d v="defer" p="noun" ts="dɪˈfɜː" tr="отсрочка"/>
+    <d v="deference" p="noun" ts="ˈdefərəns" tr="уважение"/>
+    <d v="deference" p="adjective" ts="ˈdefərəns" tr="почтительный"/>
+    <d v="deferential" p="adjective" ts="defəˈrenʃəl" tr="почтительный"/>
+    <d v="defiance" p="noun" ts="dɪˈfaɪəns" tr="неповиновение; вызов; Открытое неповиновение; вызывающее поведение"/>
+    <d v="defiant" p="adjective" ts="dɪˈfaɪənt" tr="дерзкий; непокорный; демонстративный"/>
+    <d v="defiant" p="adverb" ts="dɪˈfaɪənt" tr="вызывающе"/>
+    <d v="defiant" p="participle" ts="dɪˈfaɪənt" tr="неповинующийся"/>
+    <d v="defiantly" p="adverb" ts="dɪˈfaɪəntlɪ" tr="вызывающе"/>
+    <d v="deficiency" p="noun" ts="dɪˈfɪʃənsɪ" tr="дефицит; неполноценность; отсталость"/>
+    <d v="deficient" p="adjective" ts="dɪˈfɪʃənt" tr="недостаточный; недостающий"/>
+    <d v="deficient" p="noun" ts="dɪˈfɪʃənt" tr="недостаток"/>
+    <d v="deficit" p="noun" ts="ˈdefɪsɪt" tr="дефицит"/>
+    <d v="defile" p="verb" ts="dɪˈfaɪl" tr="осквернять; дефилировать; загрязнять"/>
+    <d v="defile" p="noun" ts="dɪˈfaɪl" tr="дефиле; теснина"/>
+    <d v="define" p="verb" ts="dɪˈfaɪn" tr="определять; задать; очерчивать"/>
+    <d v="define" p="noun" ts="dɪˈfaɪn" tr="определение"/>
+    <d v="define" p="adjective" ts="dɪˈfaɪn" tr="определенный"/>
+    <d v="definite" p="adjective" ts="ˈdefɪnɪt" tr="определенный; четкий; несомненный"/>
+    <d v="definite article" p="noun" ts="ˈdefɪnɪt ˈɑːtɪkl" tr="определенный артикль"/>
+    <d v="definitely" p="adverb" ts="ˈdefɪnətlɪ" tr="определенно; однозначно; обязательно"/>
+    <d v="definitely" p="particle" ts="ˈdefɪnətlɪ" tr="точно"/>
+    <d v="definition" p="noun" ts="defɪˈnɪʃn" tr="определение; четкость"/>
+    <d v="definitive" p="adjective" ts="dɪˈfɪnɪtɪv" tr="окончательный; категорический; безусловный"/>
+    <d v="definitive" p="participle" ts="dɪˈfɪnɪtɪv" tr="определяющий"/>
+    <d v="definitively" p="adverb" ts="dɪˈfɪnətɪvlɪ" tr="окончательно"/>
+    <d v="deflate" p="verb" ts="dɪˈfleɪt" tr="выкачивать; сдуть; опровергать"/>
+    <d v="deflation" p="noun" ts="dɪˈfleɪʃn" tr="дефляция; выкачивание"/>
+    <d v="deflect" p="verb" ts="dɪˈflekt" tr="отклонить; отвлечь; отвести; отражать; преломлять"/>
+    <d v="deflect" p="noun" ts="dɪˈflekt" tr="отклонение"/>
+    <d v="deflection" p="noun" ts="dɪˈflekʃn" tr="отклонение; прогиб; преломление; упреждение; провес"/>
+    <d v="deforestation" p="noun" ts="dɪfɔːrɪˈsteɪʃn"
+       tr="обезлесение; вырубка леса; уничтожение лесов; сведение лесов"/>
+    <d v="deform" p="verb" ts="dɪˈfɔːm" tr="деформировать; искажать; уродовать"/>
+    <d v="deform" p="noun" ts="dɪˈfɔːm" tr="деформация"/>
+    <d v="deformation" p="noun" ts="diːfɔːˈmeɪʃn" tr="деформация; уродование"/>
+    <d v="deformed" p="participle" ts="dɪˈfɔːmd" tr="деформированный; искаженный"/>
+    <d v="deformity" p="noun" ts="dɪˈfɔːmɪtɪ" tr="деформация; уродство"/>
+    <d v="defraud" p="verb" ts="dɪˈfrɔːd" tr="обмануть"/>
+    <d v="defrost" p="noun" ts="diːˈfrɔst" tr="размораживание"/>
+    <d v="defrost" p="verb" ts="diːˈfrɔst" tr="разморозить"/>
+    <d v="deft" p="adjective" ts="deft" tr="ловкий"/>
+    <d v="deftly" p="adverb" ts="ˈdeftlɪ" tr="ловко"/>
+    <d v="defunct" p="adjective" ts="dɪˈfʌŋkt" tr="несуществующий; покойный"/>
+    <d v="defunct" p="participle" ts="dɪˈfʌŋkt" tr="исчезнувший; умерший; вымерший"/>
+    <d v="defuse" p="verb" ts="diːˈfjuːz" tr="разрядить; обезвредить"/>
+    <d v="defuse" p="noun" ts="diːˈfjuːz" tr="обезвреживание"/>
+    <d v="defy" p="verb" ts="dɪˈfaɪ"
+       tr="бросать; не поддаваться; игнорировать; бросать вызов; поносить; отрицать; противоречить; нарушить; ослушаться; вызывать"/>
+    <d v="defy" p="noun" ts="dɪˈfaɪ" tr="вызов"/>
+    <d v="degenerate" p="adjective" ts="dɪˈʤenərɪt" tr="вырожденный; дегенеративный"/>
+    <d v="degenerate" p="verb" ts="dɪˈʤenərɪt" tr="вырождаться; перерасти"/>
+    <d v="degenerate" p="participle" ts="dɪˈʤenərɪt" tr="вырождающийся; выродившийся"/>
+    <d v="degenerate" p="noun" ts="dɪˈʤenərɪt" tr="дегенерат"/>
+    <d v="degeneration" p="noun" ts="dɪʤenəˈreɪʃn" tr="вырождение; деградация"/>
+    <d v="degradation" p="noun" ts="degrəˈdeɪʃn" tr="деградация; разложение; размытие; разжалование"/>
+    <d v="degrade" p="verb" ts="dɪˈgreɪd" tr="деградировать; ухудшать; снижать; унижать; ухудшаться; разжаловать"/>
+    <d v="degrade" p="noun" ts="dɪˈgreɪd" tr="деградация"/>
+    <d v="degrading" p="adjective" ts="dɪˈgreɪdɪŋ" tr="унизительный"/>
+    <d v="degrading" p="noun" ts="dɪˈgreɪdɪŋ" tr="унижающее достоинство"/>
+    <d v="degrading" p="participle" ts="dɪˈgreɪdɪŋ" tr="деградирующий"/>
+    <d v="degree" p="noun" ts="dɪˈgriː" tr="степень; звание"/>
+    <d v="degree" p="adjective" ts="dɪˈgriː" tr="дипломный"/>
+    <d v="dehydrate" p="verb" ts="diːˈhaɪdreɪt" tr="обезвоживать; обезводить"/>
+    <d v="dehydrate" p="noun" ts="diːˈhaɪdreɪt" tr="обезвоживание"/>
+    <d v="dehydrated" p="participle" ts="diːˈhaɪdreɪtɪd" tr="обезвоженный; дегидратированный; дегидрированный"/>
+    <d v="dehydrated" p="noun" ts="diːˈhaɪdreɪtɪd" tr="обезвоживание"/>
+    <d v="dehydration" p="noun" ts="diːhaɪˈdreɪʃn" tr="обезвоживание"/>
+    <d v="deign" p="verb" ts="deɪn" tr="снизойти; удостоить"/>
+    <d v="deity" p="noun" ts="ˈdiːɪtɪ" tr="божество"/>
+    <d v="deity" p="adjective" ts="ˈdiːɪtɪ" tr="божественный"/>
+    <d v="dejected" p="adjective" ts="dɪˈʤektɪd" tr="удрученный"/>
+    <d v="dejected" p="participle" ts="dɪˈʤektɪd" tr="подавленный"/>
+    <d v="dejectedly" p="adverb" ts="dɪˈʤektɪdlɪ" tr="уныло"/>
+    <d v="dejection" p="noun" ts="dɪˈʤekʃn" tr="уныние; дефекация; подавленное настроение"/>
+    <d v="delay" p="noun" ts="dɪˈleɪ" tr="задержка; промедление; приостановка; препятствие"/>
+    <d v="delay" p="verb" ts="dɪˈleɪ"
+       tr="задерживать; отложить; отсрочить; затягивать; мешкать; препятствовать; опаздывать"/>
+    <d v="delayed" p="participle" ts="dɪˈleɪd" tr="отложенный; задержанный; замедленный; откладываемый; затянутый"/>
+    <d v="delectable" p="adjective" ts="dɪˈlektəbl" tr="восхитительный; усладительный"/>
+    <d v="delegate" p="noun" ts="ˈdelɪgɪt" tr="делегат; делегирование"/>
+    <d v="delegate" p="verb" ts="ˈdelɪgɪt" tr="делегировать; передавать полномочия; уполномочивать"/>
+    <d v="delegate" p="participle" ts="ˈdelɪgɪt" tr="делегированный"/>
+    <d v="delegation" p="noun" ts="delɪˈgeɪʃn" tr="делегация"/>
+    <d v="delete" p="verb" ts="dɪˈliːt" tr="удалить; вычеркивать; стереть; опустить"/>
+    <d v="delete" p="noun" ts="dɪˈliːt" tr="удаление"/>
+    <d v="delete" p="participle" ts="dɪˈliːt" tr="удаляемый"/>
+    <d v="deletion" p="noun" ts="dɪˈliːʃn" tr="удаление"/>
+    <d v="deletion" p="verb" ts="dɪˈliːʃn" tr="исключить"/>
+    <d v="deli" p="noun" ts="ˈdelɪ" tr="гастроном"/>
+    <d v="deliberate" p="adjective" ts="dɪˈlɪbərɪt" tr="преднамеренный; нарочитый; неторопливый; осторожный"/>
+    <d v="deliberate" p="verb" ts="dɪˈlɪbərɪt" tr="раздумывать; обсуждать; совещаться"/>
+    <d v="deliberate" p="participle" ts="dɪˈlɪbərɪt" tr="обдуманный"/>
+    <d v="deliberately" p="adverb" ts="dɪˈlɪbərɪtlɪ" tr="намеренно; нарочито; обдуманно; осторожно; медленно"/>
+    <d v="deliberately" p="adverbial participle" ts="dɪˈlɪbərɪtlɪ" tr="спеша; не спеша"/>
+    <d v="deliberation" p="noun" ts="dɪlɪbəˈreɪʃn"
+       tr="обсуждение; размышление; обдуманность; неторопливость; осмотрительность"/>
+    <d v="delicacy" p="noun" ts="ˈdelɪkəsɪ"
+       tr="деликатес; слабость; изысканность; тонкость; нежность; хрупкость; такт; щекотливость; учтивость"/>
+    <d v="delicacy" p="adjective" ts="ˈdelɪkəsɪ" tr="деликатесный"/>
+    <d v="delicate" p="adjective" ts="ˈdelɪkɪt"
+       tr="деликатный; тонкий; нежный; изящный; хрупкий; непростой; ажурный; болезненный; искусный; острый; вежливый; затруднительный"/>
+    <d v="delicately" p="adverb" ts="ˈdelɪkətlɪ" tr="деликатно; осторожно"/>
+    <d v="delicatessen" p="noun" ts="delɪkəˈtesn" tr="деликатес; гастрономия; гастроном"/>
+    <d v="delicatessen" p="adjective" ts="delɪkəˈtesn" tr="деликатесный"/>
+    <d v="delicious" p="adjective" ts="dɪˈlɪʃəs" tr="вкусный; превосходный"/>
+    <d v="delicious" p="noun" ts="dɪˈlɪʃəs" tr="деликатес"/>
+    <d v="delight" p="noun" ts="dɪˈlaɪt" tr="наслаждение; восторг; услада"/>
+    <d v="delight" p="verb" ts="dɪˈlaɪt" tr="наслаждаться; радовать; восхищать"/>
+    <d v="delight" p="participle" ts="dɪˈlaɪt" tr="восхищенный"/>
+    <d v="delighted" p="participle" ts="dɪˈlaɪtɪd" tr="восхищенный; обрадованный"/>
+    <d v="delightful" p="adjective" ts="dɪˈlaɪtfʊl" tr="восхитительный; очаровательный; приятный; упоительный"/>
+    <d v="delightfully" p="adverb" ts="dɪˈlaɪtfəlɪ" tr="восхитительно; восхищенно"/>
+    <d v="delineate" p="verb" ts="dɪˈlɪnɪeɪt" tr="определить; очерчивать; разграничить; описывать"/>
+    <d v="delineate" p="noun" ts="dɪˈlɪnɪeɪt" tr="разграничение"/>
+    <d v="delinquency" p="noun" ts="dɪˈlɪŋkwənsɪ" tr="преступность; правонарушение; просрочка"/>
+    <d v="delinquent" p="noun" ts="dɪˈlɪŋkwənt" tr="правонарушитель"/>
+    <d v="delinquent" p="participle" ts="dɪˈlɪŋkwənt" tr="провинившийся"/>
+    <d v="delirious" p="noun" ts="dɪˈlɪrɪəs" tr="бред"/>
+    <d v="delirious" p="verb" ts="dɪˈlɪrɪəs" tr="бредить"/>
+    <d v="delirious" p="adjective" ts="dɪˈlɪrɪəs" tr="безумный; бредовый; горячечный"/>
+    <d v="deliriously" p="adverb" ts="dɪˈlɪrɪəslɪ" tr="безумно"/>
+    <d v="delirium" p="noun" ts="dɪˈlɪrɪəm" tr="бред; бредовое состояние; исступление"/>
+    <d v="delirium" p="verb" ts="dɪˈlɪrɪəm" tr="бредить"/>
+    <d v="deliver" p="verb" ts="dɪˈlɪvə"
+       tr="поставлять; доставить; передать; предать; спасти; освободить; нанести; произнести; производить; разносить; принимать; нагнетать"/>
+    <d v="deliver" p="noun" ts="dɪˈlɪvə" tr="доставка"/>
+    <d v="delivery" p="noun" ts="dɪˈlɪvərɪ" tr="поставка; выдача; роды; сдача; нагнетание; абонемент; разноска"/>
+    <d v="delivery" p="adjective" ts="dɪˈlɪvərɪ" tr="нагнетательный"/>
+    <d v="delta" p="noun" ts="ˈdeltə" tr="дельта"/>
+    <d v="delude" p="verb" ts="dɪˈluːd" tr="обманывать; тешить"/>
+    <d v="deluge" p="noun" ts="ˈdeljuːʤ" tr="потоп"/>
+    <d v="delusion" p="noun" ts="dɪˈluːʒən" tr="заблуждение; бред; мания"/>
+    <d v="deluxe" p="noun" ts="dɪˈlʌks" tr="Делюкс; люкс"/>
+    <d v="deluxe" p="adjective" ts="dɪˈlʌks" tr="роскошный"/>
+    <d v="delve" p="verb" ts="delv" tr="вникать; углубиться; копать; погрузиться; проникнуть"/>
+    <d v="demagogic" p="adjective" ts="deməˈgɔgɪk" tr="демагогический"/>
+    <d v="demagogue" p="noun" ts="ˈdeməgɔg" tr="демагог"/>
+    <d v="demand" p="noun" ts="dɪˈmɑːnd" tr="спрос; требование"/>
+    <d v="demand" p="verb" ts="dɪˈmɑːnd" tr="требовать; спрашивать"/>
+    <d v="demand" p="participle" ts="dɪˈmɑːnd" tr="востребованный"/>
+    <d v="demanding" p="participle" ts="dɪˈmɑːndɪŋ" tr="требующий"/>
+    <d v="demean" p="verb" ts="dɪˈmiːn" tr="унижать"/>
+    <d v="demean" p="noun" ts="dɪˈmiːn" tr="унижение"/>
+    <d v="demeaning" p="participle" ts="dɪˈmiːnɪŋ" tr="унижающийся"/>
+    <d v="demeanor" p="noun" ts="dɪˈmiːnər" tr="поведение; манера"/>
+    <d v="demented" p="adjective" ts="dɪˈmentɪd" tr="сумасшедший"/>
+    <d v="demerit" p="noun" ts="diːˈmerɪt" tr="недостаток"/>
+    <d v="demise" p="noun" ts="dɪˈmaɪz" tr="кончина; гибель; распад"/>
+    <d v="demo" p="noun" ts="ˈdeməʊ" tr="демо; демонстрация; демонстрационный пример"/>
+    <d v="demo" p="adjective" ts="ˈdeməʊ" tr="демонстрационный"/>
+    <d v="democracy" p="noun" ts="dɪˈmɔkrəsɪ" tr="демократия; демократическая страна; демократичность; демократизм"/>
+    <d v="democracy" p="adjective" ts="dɪˈmɔkrəsɪ" tr="демократический"/>
+    <d v="Democrat" p="noun" ts="ˈdeməkræt" tr="демократ; член демократической партии"/>
+    <d v="democratic" p="adjective" ts="deməˈkrætɪk" tr="демократический"/>
+    <d v="democratic" p="adjective" ts="deməˈkrætɪk" tr="демократический"/>
+    <d v="democratically" p="adverb" ts="deməˈkrætɪklɪ" tr="демократически"/>
+    <d v="democratic party" p="noun" ts="deməˈkrætɪk ˈpɑːtɪ" tr="демократическая партия"/>
+    <d v="demographics" p="adjective" ts="demɪˈgræfɪks" tr="демографический"/>
+    <d v="demographics" p="noun" ts="demɪˈgræfɪks" tr="демография; демографические данные"/>
+    <d v="demolish" p="verb" ts="dɪˈmɔlɪʃ" tr="снести; разрушить; опровергать"/>
+    <d v="demolish" p="noun" ts="dɪˈmɔlɪʃ" tr="снос"/>
+    <d v="demolition" p="noun" ts="deməˈlɪʃn" tr="снос; разрушение; демонтаж; подрывник; ломка"/>
+    <d v="demolition" p="verb" ts="deməˈlɪʃn" tr="сносить"/>
+    <d v="demon" p="noun" ts="ˈdiːmən" tr="демон"/>
+    <d v="demon" p="adjective" ts="ˈdiːmən" tr="демонический; демонский"/>
+    <d v="demonic" p="adjective" ts="diːˈmɔnɪk" tr="демонический; бесовский"/>
+    <d v="demonstrate" p="verb" ts="ˈdemənstreɪt"
+       tr="демонстрировать; свидетельствовать; доказать; проявлять; наглядно показывать"/>
+    <d v="demonstrate" p="noun" ts="ˈdemənstreɪt" tr="демонстрация"/>
+    <d v="demonstration" p="noun" ts="demənsˈtreɪʃn" tr="демонстрация"/>
+    <d v="demonstration" p="adjective" ts="demənsˈtreɪʃn" tr="демонстрационный"/>
+    <d v="demonstrative" p="adjective" ts="dɪˈmɔnstrətɪv" tr="показательный; демонстративный; доказательный"/>
+    <d v="demonstrator" p="noun" ts="ˈdemənstreɪtə" tr="демонстрант; демонстратор"/>
+    <d v="demoralize" p="verb" ts="dɪˈmɔrəlaɪz" tr="деморализовать"/>
+    <d v="demoralize" p="noun" ts="dɪˈmɔrəlaɪz" tr="деморализация"/>
+    <d v="demote" p="verb" ts="dɪˈməʊt" tr="понизить; разжаловать"/>
+    <d v="demotion" p="noun" ts="diːˈməʊʃn" tr="понижение; разжалование"/>
+    <d v="demure" p="adjective" ts="dɪˈmjʊə" tr="скромный"/>
+    <d v="demure" p="noun" ts="dɪˈmjʊə" tr="тихоня"/>
+    <d v="den" p="noun" ts="den" tr="ден; логово; вертеп; ров; притон; нора; пещера; каморка; прибежище"/>
+    <d v="denial" p="noun" ts="dɪˈnaɪəl" tr="отказ; ущемление"/>
+    <d v="denigrate" p="verb" ts="ˈdenɪgreɪt" tr="очернить; порочить"/>
+    <d v="denim" p="adjective" ts="ˈdenɪm" tr="джинсовый"/>
+    <d v="denim" p="noun" ts="ˈdenɪm" tr="джинсовая ткань"/>
+    <d v="denomination" p="noun" ts="dɪnɔmɪˈneɪʃn"
+       tr="деноминация; конфессия; номинал; наименование; купюра; категория"/>
+    <d v="denote" p="verb" ts="dɪˈnəʊt" tr="обозначать"/>
+    <d v="denote" p="noun" ts="dɪˈnəʊt" tr="обозначение"/>
+    <d v="denounce" p="verb" ts="dɪˈnaʊns"
+       tr="осудить; денонсировать; обличать; разоблачить; отвергать; донести; объявить; поносить; расторгать"/>
+    <d v="denounce" p="noun" ts="dɪˈnaʊns" tr="осуждение"/>
+    <d v="dense" p="adjective" ts="dens" tr="плотный; тупой; непрозрачный"/>
+    <d v="dense" p="noun" ts="dens" tr="плотность"/>
+    <d v="dense" p="participle" ts="dens" tr="насыщенный"/>
+    <d v="densely" p="adverb" ts="ˈdenslɪ" tr="плотно"/>
+    <d v="density" p="noun" ts="ˈdensɪtɪ" tr="плотность; удельный вес; тупость"/>
+    <d v="dent" p="noun" ts="dent" tr="вмятина; дент; выбоина; зубец; насечка"/>
+    <d v="dent" p="verb" ts="dent" tr="вдавливать"/>
+    <d v="dental" p="adjective" ts="dentl" tr="стоматологический; зубной; зуботехнический"/>
+    <d v="dental" p="noun" ts="dentl" tr="стоматология"/>
+    <d v="dental floss" p="noun" ts="dentl flɔs" tr="зубная нить; зубоврачебная зубочистка"/>
+    <d v="dentist" p="noun" ts="ˈdentɪst" tr="стоматолог; стоматологический кабинет"/>
+    <d v="dentist" p="adjective" ts="ˈdentɪst" tr="зубной"/>
+    <d v="denunciation" p="noun" ts="dɪnʌnsɪˈeɪʃn" tr="денонсация; донос; осуждение; Открытое обличение"/>
+    <d v="deny" p="verb" ts="dɪˈnaɪ" tr="отрицать; отказать; отречься; лишить; не допускать"/>
+    <d v="deny" p="noun" ts="dɪˈnaɪ" tr="отрицание"/>
+    <d v="deodorant" p="noun" ts="diːˈəʊdərənt" tr="дезодорант; деодорант; дезодоратор"/>
+    <d v="deodorant" p="participle" ts="diːˈəʊdərənt" tr="дезодорирующий"/>
+    <d v="deodorize" p="verb" ts="diːˈəʊdəraɪz" tr="дезодорировать; уничтожать"/>
+    <d v="depart" p="verb" ts="dɪˈpɑːt" tr="отойти; уйти; уходить; отправиться; вылетать; отбывать; уклоняться"/>
+    <d v="depart" p="noun" ts="dɪˈpɑːt" tr="вылет"/>
+    <d v="department" p="noun" ts="dɪˈpɑːtmənt" tr="отдел; кафедра; цех; область"/>
+    <d v="department" p="adjective" ts="dɪˈpɑːtmənt" tr="ведомственный"/>
+    <d v="departmental" p="adjective" ts="diːpɑːtˈmentl" tr="ведомственный; департаментский"/>
+    <d v="department store" p="noun" ts="dɪˈpɑːtməntˈstɔː" tr="универмаг"/>
+    <d v="departure" p="noun" ts="dɪˈpɑːʧə" tr="отъезд; вылет; уход; отклонение; отбытие; отшествие; кончина"/>
+    <d v="departure" p="adjective" ts="dɪˈpɑːʧə" tr="отправной"/>
+    <d v="departure" p="verb" ts="dɪˈpɑːʧə" tr="уезжать"/>
+    <d v="depend" p="verb" ts="dɪˈpend" tr="зависеть"/>
+    <d v="depend" p="noun" ts="dɪˈpend" tr="в зависимости"/>
+    <d v="dependable" p="adjective" ts="dɪˈpendəbl" tr="надежный"/>
+    <d v="dependable" p="participle" ts="dɪˈpendəbl" tr="зависящий; заслуживающий доверия"/>
+    <d v="dependence" p="noun" ts="dɪˈpendəns" tr="зависимость; несамостоятельность; доверие"/>
+    <d v="dependency" p="noun" ts="dɪˈpendənsɪ" tr="зависимость; зависимая страна"/>
+    <d v="dependency" p="adjective" ts="dɪˈpendənsɪ" tr="зависимый"/>
+    <d v="dependent" p="verb" ts="dɪˈpendənt" tr="зависеть"/>
+    <d v="dependent" p="adjective" ts="dɪˈpendənt" tr="зависимый; подведомственный; подвластный; подневольный"/>
+    <d v="dependent" p="noun" ts="dɪˈpendənt" tr="зависимость; иждивенец"/>
+    <d v="dependent" p="participle" ts="dɪˈpendənt" tr="зависящий"/>
+    <d v="depict" p="verb" ts="dɪˈpɪkt" tr="изображать; описывать; отображать; отражать; обрисовать; запечатлеть"/>
+    <d v="deplete" p="verb" ts="dɪˈpliːt" tr="истощать; обескровливать"/>
+    <d v="deplete" p="noun" ts="dɪˈpliːt" tr="истощение"/>
+    <d v="depletion" p="noun" ts="dɪˈpliːʃn" tr="истощение; обеднение; исчерпывание; очищение"/>
+    <d v="deplorable" p="adjective" ts="dɪˈplɔːrəbl" tr="плачевный; прискорбный"/>
+    <d v="deplorably" p="adverb" ts="dɪˈplɔːrəblɪ" tr="плачевно; прискорбно"/>
+    <d v="deplore" p="verb" ts="dɪˈplɔː" tr="сожалеть; осуждать; оплакивать"/>
+    <d v="deploy" p="noun" ts="dɪˈplɔɪ" tr="развертывание"/>
+    <d v="deploy" p="verb" ts="dɪˈplɔɪ"
+       tr="развернуть; разместить; развернуться; развертываться; применить; задействовать; разблокировать"/>
+    <d v="deployment" p="noun" ts="dɪˈplɔɪmənt" tr="развертывание"/>
+    <d v="deport" p="verb" ts="dɪˈpɔːt" tr="депортировать; выслать; ссылать"/>
+    <d v="deport" p="noun" ts="dɪˈpɔːt" tr="депортация"/>
+    <d v="deportation" p="noun" ts="diːpɔːˈteɪʃn" tr="депортация"/>
+    <d v="depose" p="verb" ts="dɪˈpəʊz" tr="свергнуть"/>
+    <d v="deposit" p="noun" ts="dɪˈpɔzɪt" tr="депозит; месторождение; отложение; залог; хранилище; россыпь; отстой"/>
+    <d v="deposit" p="verb" ts="dɪˈpɔzɪt" tr="депонировать; класть; отлагать; осаждать"/>
+    <d v="depot" p="noun" ts="ˈdepəʊ" tr="депо; склад"/>
+    <d v="depot" p="adjective" ts="ˈdepəʊ" tr="складской; деповский"/>
+    <d v="depraved" p="participle" ts="dɪˈpreɪvd" tr="развращенный; испорченный"/>
+    <d v="depravity" p="noun" ts="dɪˈprævɪtɪ" tr="порочность; разврат; безнравственность; развращение"/>
+    <d v="depreciate" p="verb" ts="dɪˈpriːʃɪeɪt" tr="обесцениться; обесценивать; падать; умалять; недооценивать"/>
+    <d v="depreciation" p="noun" ts="dɪpriːʃɪˈeɪʃn"
+       tr="амортизация; обесценение; изношенность; умаление; пренебрежение"/>
+    <d v="depreciation" p="adjective" ts="dɪpriːʃɪˈeɪʃn" tr="амортизационный"/>
+    <d v="depress" p="verb" ts="dɪˈpres" tr="угнетать; нажимать; выжать; понижать; ослаблять; огорчать"/>
+    <d v="depressed" p="noun" ts="dɪˈprest" tr="депрессия; в депрессии"/>
+    <d v="depressed" p="adjective" ts="dɪˈprest" tr="депрессивный; унылый"/>
+    <d v="depressed" p="adverb" ts="dɪˈprest" tr="подавленно"/>
+    <d v="depressed" p="participle" ts="dɪˈprest" tr="подавленный; удрученный; вогнутый; сплющенный"/>
+    <d v="depressing" p="adjective" ts="dɪˈpresɪŋ" tr="депрессивный; унылый"/>
+    <d v="depressing" p="participle" ts="dɪˈpresɪŋ" tr="угнетающий; гнетущий"/>
+    <d v="depressing" p="adverb" ts="dɪˈpresɪŋ" tr="удручающе"/>
+    <d v="depression" p="noun" ts="dɪˈpreʃn"
+       tr="депрессия; впадина; снижение; угнетение; разрежение; угнетенное состояние; низина"/>
+    <d v="deprivation" p="noun" ts="deprɪˈveɪʃn" tr="лишение; обездоленность; потеря"/>
+    <d v="deprive" p="verb" ts="dɪˈpraɪv" tr="лишить; отобрать; обделить; обделять"/>
+    <d v="deprive" p="noun" ts="dɪˈpraɪv" tr="лишение"/>
+    <d v="deprived" p="participle" ts="dɪˈpraɪvd" tr="лишенный; обделенный"/>
+    <d v="depth" p="noun" ts="depθ" tr="глубина; глубинка; разгар; сила; густота"/>
+    <d v="depth" p="adjective" ts="depθ" tr="глубокий"/>
+    <d v="deputy" p="noun" ts="ˈdepjʊtɪ" tr="заместитель; депутат"/>
+    <d v="deputy" p="adjective" ts="ˈdepjʊtɪ" tr="депутатский"/>
+    <d v="derail" p="noun" ts="dɪˈreɪl" tr="под откос; рельс"/>
+    <d v="derail" p="verb" ts="dɪˈreɪl" tr="сорвать; сойти с рельсов"/>
+    <d v="derailment" p="noun" ts="dɪˈreɪlmənt" tr="крушение; сход"/>
+    <d v="deranged" p="adjective" ts="dɪˈreɪnʤd" tr="невменяемый; ненормальный"/>
+    <d v="Derby" p="noun" ts="ˈdɑːbɪ" tr="дерби; котелок"/>
+    <d v="derelict" p="participle" ts="ˈderɪlɪkt" tr="заброшенный; покинутый"/>
+    <d v="derelict" p="noun" ts="ˈderɪlɪkt" tr="изгой"/>
+    <d v="derelict" p="adjective" ts="ˈderɪlɪkt" tr="бесхозный; отверженный"/>
+    <d v="deride" p="verb" ts="dɪˈraɪd" tr="высмеивать"/>
+    <d v="derision" p="noun" ts="dɪˈrɪʒən" tr="насмешка; издевательство"/>
+    <d v="derivation" p="noun" ts="derɪˈveɪʃn" tr="вывод; происхождение; производная; отвлечение; деривация; начало"/>
+    <d v="derivation" p="adjective" ts="derɪˈveɪʃn" tr="производный"/>
+    <d v="derivative" p="noun" ts="dɪˈrɪvətɪv" tr="производная"/>
+    <d v="derivative" p="adjective" ts="dɪˈrɪvətɪv" tr="производный"/>
+    <d v="derive" p="verb" ts="dɪˈraɪv"
+       tr="получать; вывести; происходить; вытекать; извлечь; черпать; наследовать; производить"/>
+    <d v="derive" p="noun" ts="dɪˈraɪv" tr="производная; получение"/>
+    <d v="derogatory" p="adjective" ts="dɪˈrɔgətərɪ" tr="унизительный"/>
+    <d v="descend" p="verb" ts="dɪˈsend"
+       tr="сходить; спускаться; происходить; спустить; обрушиться; погрузиться; снижаться; переходить; нагрянуть; налететь"/>
+    <d v="descend" p="noun" ts="dɪˈsend" tr="спуск"/>
+    <d v="descendant" p="noun" ts="dɪˈsendənt" tr="потомок"/>
+    <d v="descent" p="noun" ts="dɪˈsent" tr="спуск; происхождение; нисхождение; снижение; сход; десант; наследование"/>
+    <d v="describe" p="verb" ts="dɪsˈkraɪb" tr="описать; описывать; охарактеризовать"/>
+    <d v="describe" p="noun" ts="dɪsˈkraɪb" tr="описание"/>
+    <d v="description" p="noun" ts="dɪsˈkrɪpʃn" tr="описание; вид"/>
+    <d v="descriptive" p="adjective" ts="dɪsˈkrɪptɪv" tr="описательный; наглядный"/>
+    <d v="descriptive" p="participle" ts="dɪsˈkrɪptɪv" tr="описывающий"/>
+    <d v="desecrate" p="verb" ts="ˈdesɪkreɪt" tr="осквернить"/>
+    <d v="desecration" p="noun" ts="desɪˈkreɪʃn" tr="осквернение; профанация"/>
+    <d v="desegregation" p="noun" ts="diːˈsegrɪˈgeɪʃn" tr="десегрегация; ликвидация сегрегации"/>
+    <d v="desert" p="noun" ts="ˈdezət" tr="пустыня; заслуга"/>
+    <d v="desert" p="adjective" ts="ˈdezət" tr="пустынный"/>
+    <d v="desert" p="verb" ts="ˈdezət" tr="покинуть; дезертировать"/>
+    <d v="deserted" p="adjective" ts="dɪˈzɜːtɪd" tr="пустынный"/>
+    <d v="deserted" p="participle" ts="dɪˈzɜːtɪd" tr="покинутый; брошенный; опустевший"/>
+    <d v="deserter" p="noun" ts="dɪˈzɜːtə" tr="дезертир"/>
+    <d v="deserve" p="verb" ts="dɪˈzɜːv" tr="заслуживать"/>
+    <d v="deserving" p="adjective" ts="dɪˈzɜːvɪŋ" tr="достойный"/>
+    <d v="deserving" p="participle" ts="dɪˈzɜːvɪŋ" tr="заслуживающий"/>
+    <d v="design" p="noun" ts="dɪˈzaɪn" tr="дизайн; разработка; рисунок; цель; композиция"/>
+    <d v="design" p="adjective" ts="dɪˈzaɪn" tr="проектный"/>
+    <d v="design" p="verb" ts="dɪˈzaɪn" tr="проектировать; намереваться; рисовать; задумывать"/>
+    <d v="designate" p="verb" ts="ˈdezɪgnɪt"
+       tr="назначить; обозначать; определять; обозначить; указать; называть; выделить"/>
+    <d v="designate" p="participle" ts="ˈdezɪgnɪt" tr="назначенный"/>
+    <d v="designate" p="noun" ts="ˈdezɪgnɪt" tr="обозначение"/>
+    <d v="designation" p="noun" ts="dezɪgˈneɪʃn" tr="обозначение; назначение"/>
+    <d v="designer" p="noun" ts="dɪˈzaɪnə" tr="дизайнер; конструктор; проектировщик"/>
+    <d v="designer" p="adjective" ts="dɪˈzaɪnə" tr="дизайнерский"/>
+    <d v="designing" p="noun" ts="dɪˈzaɪnɪŋ" tr="проектирование"/>
+    <d v="designing" p="adjective" ts="dɪˈzaɪnɪŋ" tr="проектный; коварный"/>
+    <d v="designing" p="participle" ts="dɪˈzaɪnɪŋ" tr="разрабатывающий; планирующий"/>
+    <d v="desirability" p="noun" ts="dɪzaɪərəˈbɪlɪtɪ" tr="желательность; желанность"/>
+    <d v="desirable" p="adjective" ts="dɪˈzaɪərəbl" tr="желательный; желанный"/>
+    <d v="desirable" p="participle" ts="dɪˈzaɪərəbl" tr="желаемый; подходящий"/>
+    <d v="desire" p="noun" ts="dɪˈzaɪə" tr="желание; хотение"/>
+    <d v="desire" p="verb" ts="dɪˈzaɪə" tr="желать; возжелать"/>
+    <d v="desirous" p="adverbial participle" ts="dɪˈzaɪərəs" tr="желая"/>
+    <d v="desist" p="verb" ts="dɪˈzɪst" tr="воздерживаться; прекратить"/>
+    <d v="Desk" p="noun" ts="desk" tr="рабочий стол; стойка; парта; касса; редакция; пюпитр; пульт управления"/>
+    <d v="Desk" p="adjective" ts="desk" tr="настольный; кабинетный"/>
+    <d v="desktop" p="noun" ts="ˈdesktɒp" tr="стол"/>
+    <d v="desktop" p="adjective" ts="ˈdesktɒp" tr="настольный"/>
+    <d v="desktop computer" p="noun" ts="ˈdesktɒp kəmˈpjuːtər" tr="настольный компьютер; стационарный компьютер"/>
+    <d v="desolate" p="adjective" ts="ˈdesəlɪt" tr="пустынный; безлюдный"/>
+    <d v="desolate" p="noun" ts="ˈdesəlɪt" tr="пустыня"/>
+    <d v="desolate" p="participle" ts="ˈdesəlɪt" tr="заброшенный"/>
+    <d v="desolate" p="verb" ts="ˈdesəlɪt" tr="разорить"/>
+    <d v="desolation" p="noun" ts="desəˈleɪʃn" tr="запустение; пустыня; одиночество; заброшенность; опустошенность"/>
+    <d v="despair" p="noun" ts="dɪsˈpɛə" tr="отчаяние; безысходность"/>
+    <d v="despair" p="verb" ts="dɪsˈpɛə" tr="отчаиваться; отчаяться; терять надежду"/>
+    <d v="despair" p="participle" ts="dɪsˈpɛə" tr="отчаявшийся"/>
+    <d v="despair" p="adjective" ts="dɪsˈpɛə" tr="отчаянный"/>
+    <d v="desperate" p="adjective" ts="ˈdespərɪt" tr="отчаянный; отъявленный"/>
+    <d v="desperate" p="noun" ts="ˈdespərɪt" tr="отчаяние; в отчаянии"/>
+    <d v="desperate" p="participle" ts="ˈdespərɪt" tr="отчаявшийся"/>
+    <d v="desperate" p="adverbial participle" ts="ˈdespərɪt" tr="отчаявшись; отчаянно нуждаясь"/>
+    <d v="desperate" p="verb" ts="ˈdespərɪt" tr="отчаиваться"/>
+    <d v="desperately" p="adverb" ts="ˈdespərətlɪ" tr="отчаянно; остро; безрассудно"/>
+    <d v="desperation" p="noun" ts="despəˈreɪʃn" tr="отчаяние; безрассудство; отчаянность"/>
+    <d v="desperation" p="adjective" ts="despəˈreɪʃn" tr="отчаянный"/>
+    <d v="desperation" p="participle" ts="despəˈreɪʃn" tr="отчаявшийся"/>
+    <d v="despicable" p="adjective" ts="ˈdespɪkəbl" tr="отвратительный"/>
+    <d v="despicable" p="participle" ts="ˈdespɪkəbl" tr="презренный"/>
+    <d v="despicable" p="noun" ts="ˈdespɪkəbl" tr="презрение"/>
+    <d v="despise" p="verb" ts="dɪsˈpaɪz" tr="презирать"/>
+    <d v="despise" p="noun" ts="dɪsˈpaɪz" tr="презрение"/>
+    <d v="despite" p="noun" ts="dɪsˈpaɪt" tr="несмотря на"/>
+    <d v="despite" p="preposition" ts="dɪsˈpaɪt" tr="вопреки"/>
+    <d v="despondent" p="noun" ts="dɪsˈpɔndənt" tr="уныние; в уныние"/>
+    <d v="despondent" p="adjective" ts="dɪsˈpɔndənt" tr="унылый"/>
+    <d v="despondent" p="verb" ts="dɪsˈpɔndənt" tr="унывать"/>
+    <d v="despondently" p="adverb" ts="dɪˈspɒndəntlɪ" tr="уныло"/>
+    <d v="despot" p="noun" ts="ˈdespɔt" tr="деспот"/>
+    <d v="despotic" p="adjective" ts="desˈpɔtɪk" tr="деспотический"/>
+    <d v="dessert" p="noun" ts="dɪˈzɜːt" tr="десерт; пустыня; сладкое"/>
+    <d v="dessert" p="adjective" ts="dɪˈzɜːt" tr="десертный"/>
+    <d v="destination" p="noun" ts="destɪˈneɪʃn" tr="назначение; направление; адресат"/>
+    <d v="destination" p="adjective" ts="destɪˈneɪʃn" tr="целевой"/>
+    <d v="destined" p="participle" ts="ˈdestɪnd" tr="предназначенный; обреченный; предназначавшийся"/>
+    <d v="destiny" p="noun" ts="ˈdestɪnɪ" tr="судьба; предназначение; удел; неизбежность"/>
+    <d v="destitute" p="participle" ts="ˈdestɪtjuːt" tr="обездоленный; нуждающийся; лишенный"/>
+    <d v="destitute" p="adjective" ts="ˈdestɪtjuːt" tr="нищий"/>
+    <d v="destitute" p="verb" ts="ˈdestɪtjuːt" tr="нуждаться"/>
+    <d v="destitution" p="noun" ts="destɪˈtjuːʃn" tr="нищета; лишение"/>
+    <d v="destroy" p="verb" ts="dɪsˈtrɔɪ" tr="уничтожить; разрушить; разрушать; разрушаться; разгромить; крушить"/>
+    <d v="destroy" p="noun" ts="dɪsˈtrɔɪ" tr="уничтожение"/>
+    <d v="destroyer" p="noun" ts="dɪsˈtrɔɪə" tr="эсминец; разоритель; эскадренный миноносец; губитель"/>
+    <d v="destruction" p="noun" ts="dɪsˈtrʌkʃn" tr="уничтожение; сокрушение"/>
+    <d v="destructive" p="adjective" ts="dɪsˈtrʌktɪv" tr="разрушительный; губительный; пагубный"/>
+    <d v="destructive" p="participle" ts="dɪsˈtrʌktɪv" tr="разрушающий"/>
+    <d v="destructive" p="noun" ts="dɪsˈtrʌktɪv" tr="разрушение; разрушитель"/>
+    <d v="destructive" p="verb" ts="dɪsˈtrʌktɪv" tr="разрушать"/>
+    <d v="detach" p="verb" ts="dɪˈtæʧ"
+       tr="отсоединить; отделить; оторвать; обособлять; открепить; отцеплять; отцепить; отряжать; отвязывать"/>
+    <d v="detached" p="participle" ts="dɪˈtæʧt" tr="отделенный; отстраненный; отрешенный; оторвавшийся"/>
+    <d v="detached" p="adjective" ts="dɪˈtæʧt" tr="отдельный; беспристрастный; бесстрастный"/>
+    <d v="detached" p="noun" ts="dɪˈtæʧt" tr="отрыв"/>
+    <d v="detachment" p="noun" ts="dɪˈtæʧmənt"
+       tr="отряд; отрешенность; отрыв; непривязанность; отделение; оторванность; отслойка; отсоединение; беспристрастность; наряд; независимость"/>
+    <d v="detail" p="noun" ts="ˈdiːteɪl" tr="деталь; тонкость; детальность; наряд; команда"/>
+    <d v="detail" p="adjective" ts="ˈdiːteɪl" tr="подробный"/>
+    <d v="detail" p="verb" ts="ˈdiːteɪl" tr="детализировать; подробно рассказывать; выделять"/>
+    <d v="detail" p="participle" ts="ˈdiːteɪl" tr="детализированный"/>
+    <d v="detailed" p="adjective" ts="ˈdiːteɪld" tr="подробный"/>
+    <d v="detailed" p="adverb" ts="ˈdiːteɪld" tr="подробно"/>
+    <d v="detailed" p="participle" ts="ˈdiːteɪld" tr="детализированный; развернутый"/>
+    <d v="detain" p="verb" ts="dɪˈteɪn" tr="задержать"/>
+    <d v="detain" p="noun" ts="dɪˈteɪn" tr="задержание"/>
+    <d v="detect" p="verb" ts="dɪˈtekt" tr="обнаружить; определять; выявлять; распознать; регистрировать; улавливать"/>
+    <d v="detect" p="noun" ts="dɪˈtekt" tr="обнаружение"/>
+    <d v="detection" p="noun" ts="dɪˈtekʃn" tr="обнаружение"/>
+    <d v="detective" p="noun" ts="dɪˈtektɪv" tr="детектив"/>
+    <d v="detective" p="adjective" ts="dɪˈtektɪv" tr="детективный"/>
+    <d v="detector" p="noun" ts="dɪˈtektə" tr="детектор; извещатель; датчик"/>
+    <d v="detente" p="noun" ts="deˈtɑːŋt" tr="разрядка; разрядка напряженности"/>
+    <d v="detention" p="noun" ts="dɪˈtenʃn" tr="задержание; содержание под арестом; удержание"/>
+    <d v="deter" p="verb" ts="dɪˈtɜː" tr="сдерживать; помешать; отпугивать; удерживать; остановить"/>
+    <d v="deter" p="noun" ts="dɪˈtɜː" tr="сдерживание"/>
+    <d v="detergent" p="noun" ts="dɪˈtɜːʤənt" tr="моющее средство; детергент; порошок; стиральный порошок"/>
+    <d v="detergent" p="participle" ts="dɪˈtɜːʤənt" tr="чистящий; очищающий"/>
+    <d v="detergent" p="adjective" ts="dɪˈtɜːʤənt" tr="стиральный"/>
+    <d v="deteriorate" p="verb" ts="dɪˈtɪərɪəreɪt" tr="ухудшаться; испортиться; разрушаться; деградировать"/>
+    <d v="deteriorate" p="noun" ts="dɪˈtɪərɪəreɪt" tr="ухудшение"/>
+    <d v="deterioration" p="noun" ts="dɪtɪərɪəˈreɪʃn" tr="ухудшение; износ"/>
+    <d v="determination" p="noun" ts="dɪtɜːmɪˈneɪʃn" tr="определение; решимость; определенность; прилив"/>
+    <d v="determine" p="verb" ts="dɪˈtɜːmɪn" tr="определить; обусловить; устанавливать; детерминировать; побуждать"/>
+    <d v="determine" p="noun" ts="dɪˈtɜːmɪn" tr="определение"/>
+    <d v="determined" p="participle" ts="dɪˈtɜːmɪnd"
+       tr="определяемый; обусловленный; устанавливаемый; принявший решение"/>
+    <d v="determined" p="noun" ts="dɪˈtɜːmɪnd" tr="решимость"/>
+    <d v="determined" p="adverb" ts="dɪˈtɜːmɪnd" tr="решительно"/>
+    <d v="determined" p="adjective" ts="dɪˈtɜːmɪnd" tr="решительный"/>
+    <d v="determiner" p="noun" ts="dɪˈtɜːmɪnər" tr="определитель"/>
+    <d v="deterrence" p="noun" ts="dɪˈterəns" tr="сдерживание; отпугивание"/>
+    <d v="deterrent" p="noun" ts="dɪˈterənt" tr="сдерживание; сдерживающий фактор; флегматизатор; средство устрашения"/>
+    <d v="deterrent" p="participle" ts="dɪˈterənt" tr="сдерживающий"/>
+    <d v="detest" p="verb" ts="dɪˈtest" tr="ненавидеть; терпеть"/>
+    <d v="detest" p="noun" ts="dɪˈtest" tr="отвращение"/>
+    <d v="detonate" p="verb" ts="ˈdetəʊneɪt" tr="взорвать; детонировать; взорваться"/>
+    <d v="detonation" p="noun" ts="detəʊˈneɪʃn" tr="детонация; взрыв"/>
+    <d v="detonation" p="adjective" ts="detəʊˈneɪʃn" tr="детонационный"/>
+    <d v="detonator" p="noun" ts="ˈdetəʊneɪtə" tr="детонатор"/>
+    <d v="detour" p="noun" ts="ˈdiːtʊə" tr="объезд; крюк"/>
+    <d v="detour" p="adjective" ts="ˈdiːtʊə" tr="объездной"/>
+    <d v="detox" p="noun" ts="dɪˈtɒks" tr="Детокс; детоксикация"/>
+    <d v="detox" p="participle" ts="dɪˈtɒks" tr="очищающий"/>
+    <d v="detract" p="verb" ts="dɪˈtrækt" tr="умалять; отвлекать"/>
+    <d v="detriment" p="noun" ts="ˈdetrɪmənt" tr="ущерб"/>
+    <d v="detrimental" p="adjective" ts="detrɪˈmentl" tr="вредный; убыточный; ущербный"/>
+    <d v="detrimental" p="noun" ts="detrɪˈmentl" tr="ущерб"/>
+    <d v="devaluation" p="noun" ts="diːvæljʊˈeɪʃn" tr="девальвация"/>
+    <d v="devalue" p="verb" ts="ˈdiːˈvæljuː" tr="девальвировать; обесценивать"/>
+    <d v="devalue" p="noun" ts="ˈdiːˈvæljuː" tr="девальвация"/>
+    <d v="devastate" p="verb" ts="ˈdevəsteɪt" tr="опустошить; разрушить"/>
+    <d v="devastated" p="participle" ts="ˈdevəsteɪtɪd" tr="опустошенный; разрушенный"/>
+    <d v="devastating" p="adjective" ts="ˈdevəsteɪtɪŋ" tr="разрушительный; сокрушительный; огромный; убийственный"/>
+    <d v="devastation" p="noun" ts="devəsˈteɪʃn" tr="разрушение; опустошение"/>
+    <d v="develop" p="verb" ts="dɪˈveləp"
+       tr="разработать; развиваться; развивать; складываться; осваивать; проявлять; раскрывать; распространяться; излагать"/>
+    <d v="develop" p="noun" ts="dɪˈveləp" tr="разработка; развитие"/>
+    <d v="developed" p="participle" ts="dɪˈveləpt" tr="разработанный; разрабатываемый; выработанный; развиваемый"/>
+    <d v="developer" p="noun" ts="dɪˈveləpə" tr="разработчик; застройщик"/>
+    <d v="developer" p="adjective" ts="dɪˈveləpə" tr="девелоперский"/>
+    <d v="developing" p="participle" ts="dɪˈveləpɪŋ" tr="развивающийся; развивающий; разрабатывающий"/>
+    <d v="development" p="noun" ts="dɪˈveləpmənt"
+       tr="развитие; разработка; событие; усовершенствование; проявление; предприятие; вывод; подготовительные работы"/>
+    <d v="deviant" p="adjective" ts="ˈdiːvɪənt" tr="девиантный; ненормальный"/>
+    <d v="deviant" p="noun" ts="ˈdiːvɪənt" tr="извращенец"/>
+    <d v="deviate" p="verb" ts="ˈdiːvɪeɪt" tr="отклоняться; отойти; отклониться; уклоняться; отклонять"/>
+    <d v="deviation" p="noun" ts="diːvɪˈeɪʃn" tr="отклонение; уклонение; девиация; уклон"/>
+    <d v="device" p="noun" ts="dɪˈvaɪs" tr="устройство; механизм; план; средство; девиз; эмблема; затея"/>
+    <d v="devil" p="noun" ts="devl" tr="дьявол; бес; чертик; парень"/>
+    <d v="devil" p="adjective" ts="devl" tr="дьявольский; чертов"/>
+    <d v="devilish" p="adjective" ts="ˈdevlɪʃ" tr="дьявольский"/>
+    <d v="devilish" p="adverb" ts="ˈdevlɪʃ" tr="чертовски"/>
+    <d v="devil&apos;s advocate" p="noun" ts="devl&apos;ses ˈædvəkɪt" tr="адвокат дьявола"/>
+    <d v="devious" p="adjective" ts="ˈdiːvjəs" tr="коварный; неискренний"/>
+    <d v="devise" p="verb" ts="dɪˈvaɪz" tr="разработать; придумать; завещать"/>
+    <d v="devise" p="noun" ts="dɪˈvaɪz" tr="разработка; завещание"/>
+    <d v="devoid" p="participle" ts="dɪˈvɔɪd" tr="лишенный"/>
+    <d v="devoid" p="adjective" ts="dɪˈvɔɪd" tr="свободный; чуждый"/>
+    <d v="devote" p="verb" ts="dɪˈvəʊt" tr="посвятить; выделять; предаваться"/>
+    <d v="devoted" p="participle" ts="dɪˈvəʊtɪd" tr="посвященный; посвятивший"/>
+    <d v="devoted" p="adjective" ts="dɪˈvəʊtɪd" tr="преданный"/>
+    <d v="devotedly" p="adverb" ts="dɪˈvəʊtɪdlɪ" tr="преданно; самозабвенно"/>
+    <d v="devotee" p="adjective" ts="devəʊˈtiː" tr="преданный"/>
+    <d v="devotee" p="noun" ts="devəʊˈtiː" tr="приверженец; подвижник; человек; святоша; набожный человек"/>
+    <d v="devotion" p="noun" ts="dɪˈvəʊʃn" tr="преданность; почитание; благочестие; увлечение; подвижничество"/>
+    <d v="devotion" p="adjective" ts="dɪˈvəʊʃn" tr="преданный"/>
+    <d v="devour" p="verb" ts="dɪˈvaʊə" tr="пожирать; поглотить; истреблять"/>
+    <d v="devour" p="noun" ts="dɪˈvaʊə" tr="пожирание"/>
+    <d v="devout" p="adjective" ts="dɪˈvaʊt" tr="набожный; искренний"/>
+    <d v="devout" p="participle" ts="dɪˈvaʊt" tr="верующий"/>
+    <d v="devoutly" p="adverb" ts="dɪˈvaʊtlɪ" tr="истово"/>
+    <d v="dew" p="noun" ts="djuː" tr="роса; слеза"/>
+    <d v="dew" p="verb" ts="djuː" tr="орошать"/>
+    <d v="dexterity" p="noun" ts="deksˈterɪtɪ" tr="ловкость; ловкость руки"/>
+    <d v="dexterous" p="adjective" ts="ˈdekstərəs" tr="ловкий"/>
+    <d v="diabetes" p="noun" ts="daɪəˈbiːtiːz" tr="диабет; сахарная болезнь"/>
+    <d v="diabetes" p="adjective" ts="daɪəˈbiːtiːz" tr="диабетический"/>
+    <d v="diabetic" p="noun" ts="daɪəˈbetɪk" tr="диабетик"/>
+    <d v="diabetic" p="adjective" ts="daɪəˈbetɪk" tr="диабетический"/>
+    <d v="diabolical" p="adjective" ts="daɪəˈbɒlɪkl" tr="дьявольский"/>
+    <d v="diabolical" p="adverb" ts="daɪəˈbɒlɪkl" tr="дьявольски"/>
+    <d v="diagnose" p="noun" ts="ˈdaɪəgnəʊz" tr="диагностика"/>
+    <d v="diagnose" p="verb" ts="ˈdaɪəgnəʊz" tr="диагностировать"/>
+    <d v="diagnosis" p="noun" ts="daɪəgˈnəʊsɪs" tr="диагноз; диагностика; оценка"/>
+    <d v="diagnosis" p="adjective" ts="daɪəgˈnəʊsɪs" tr="диагностический"/>
+    <d v="diagnostic" p="adjective" ts="daɪəgˈnɔstɪk" tr="диагностический"/>
+    <d v="diagnostic" p="noun" ts="daɪəgˈnɔstɪk" tr="диагностика"/>
+    <d v="diagonal" p="noun" ts="daɪˈægənl" tr="диагональ"/>
+    <d v="diagonal" p="adjective" ts="daɪˈægənl" tr="диагональный"/>
+    <d v="diagonally" p="noun" ts="daɪˈægənəlɪ" tr="диагональ; по диагонали"/>
+    <d v="diagram" p="noun" ts="ˈdaɪəgræm" tr="диаграмма"/>
+    <d v="diagram" p="adjective" ts="ˈdaɪəgræm" tr="графический"/>
+    <d v="dial" p="verb" ts="ˈdaɪəl" tr="набрать; звонить; настраивать"/>
+    <d v="dial" p="noun" ts="ˈdaɪəl" tr="циферблат; шкала; дозвон; круговая шкала; лимб; солнечные часы"/>
+    <d v="dial" p="participle" ts="ˈdaɪəl" tr="набираемый"/>
+    <d v="dialect" p="noun" ts="ˈdaɪəlekt" tr="диалект"/>
+    <d v="dialogue" p="noun" ts="ˈdaɪəlɔg" tr="диалог; общение"/>
+    <d v="dialogue" p="adjective" ts="ˈdaɪəlɔg" tr="диалоговый"/>
+    <d v="dial tone" p="noun" ts="ˈdaɪəl təʊn" tr="гудок"/>
+    <d v="diameter" p="noun" ts="daɪˈæmɪtə" tr="диаметр"/>
+    <d v="diametrically" p="adverb" ts="daɪəˈmetrɪkəlɪ" tr="диаметрально"/>
+    <d v="diamond" p="noun" ts="ˈdaɪəmənd" tr="алмаз"/>
+    <d v="diamond" p="adjective" ts="ˈdaɪəmənd" tr="алмазный; ромбовидный"/>
+    <d v="diaper" p="noun" ts="ˈdaɪəpə" tr="подгузник"/>
+    <d v="diaphragm" p="noun" ts="ˈdaɪəfræm" tr="диафрагма; перегородка"/>
+    <d v="diaphragm" p="adjective" ts="ˈdaɪəfræm" tr="мембранный"/>
+    <d v="diarrhea" p="noun" ts="daɪəˈrɪə" tr="диарея"/>
+    <d v="diary" p="noun" ts="ˈdaɪərɪ" tr="дневник"/>
+    <d v="diary" p="adjective" ts="ˈdaɪərɪ" tr="молочный; дневниковый"/>
+    <d v="dice" p="noun" ts="daɪs" tr="кости; кубик; костя"/>
+    <d v="dice" p="verb" ts="daɪs" tr="нарезать"/>
+    <d v="dicey" p="adjective" ts="ˈdaɪsɪ" tr="рискованный"/>
+    <d v="dichotomy" p="noun" ts="daɪˈkɔtəmɪ" tr="дихотомия; противопоставление; раздвоение"/>
+    <d v="dick" p="noun" ts="dɪk" tr="Дик; хуй; член"/>
+    <d v="dictate" p="verb" ts="ˈdɪkteɪt" tr="диктовать; предписывать; навязывать; надиктовать"/>
+    <d v="dictate" p="noun" ts="ˈdɪkteɪt" tr="диктат"/>
+    <d v="dictation" p="noun" ts="dɪkˈteɪʃn" tr="диктовка; диктант; диктат; предписание"/>
+    <d v="dictation" p="verb" ts="dɪkˈteɪʃn" tr="диктовать"/>
+    <d v="dictator" p="noun" ts="dɪkˈteɪtə" tr="диктатор"/>
+    <d v="dictator" p="adjective" ts="dɪkˈteɪtə" tr="диктаторский"/>
+    <d v="dictatorial" p="adjective" ts="dɪktəˈtɔːrɪəl" tr="диктаторский"/>
+    <d v="dictatorial" p="noun" ts="dɪktəˈtɔːrɪəl" tr="диктатор"/>
+    <d v="dictatorship" p="noun" ts="dɪkˈteɪtəʃɪp" tr="диктатура; диктаторство"/>
+    <d v="dictatorship" p="adjective" ts="dɪkˈteɪtəʃɪp" tr="диктаторский"/>
+    <d v="diction" p="noun" ts="dɪkʃn" tr="дикция"/>
+    <d v="dictionary" p="noun" ts="ˈdɪkʃənrɪ" tr="словарь"/>
+    <d v="dictionary" p="adjective" ts="ˈdɪkʃənrɪ" tr="словарный"/>
+    <d v="die" p="verb" ts="daɪ" tr="умереть; угаснуть; гаснуть; заглохнуть; исчезать; затихать"/>
+    <d v="die" p="noun" ts="daɪ" tr="смерть; штамп; плашка; матрица; фильера; игральная кость; клупп"/>
+    <d v="die" p="adjective" ts="daɪ" tr="штамповый"/>
+    <d v="diehard" p="adjective" ts="ˈdaɪhɑːd" tr="твердолобый; несгибаемый"/>
+    <d v="diesel" p="noun" ts="ˈdiːzəl" tr="дизель"/>
+    <d v="diesel" p="adjective" ts="ˈdiːzəl" tr="дизельный"/>
+    <d v="diesel engine" p="noun" ts="ˈdiːzəl ˈenʤɪn"
+       tr="дизельный двигатель; дизель; дизельный мотор; двигатель дизеля"/>
+    <d v="diet" p="noun" ts="ˈdaɪət" tr="диета; питание; Сейм; парламент; стол"/>
+    <d v="diet" p="adjective" ts="ˈdaɪət" tr="диетический"/>
+    <d v="differ" p="verb" ts="ˈdɪfə" tr="отличаться; не совпадать"/>
+    <d v="differ" p="noun" ts="ˈdɪfə" tr="отличие"/>
+    <d v="difference" p="noun" ts="ˈdɪfrəns" tr="разница"/>
+    <d v="difference" p="adjective" ts="ˈdɪfrəns" tr="разностный"/>
+    <d v="difference" p="verb" ts="ˈdɪfrəns" tr="отличать"/>
+    <d v="different" p="adjective" ts="ˈdɪfrənt" tr="различный; необычный"/>
+    <d v="different" p="verb" ts="ˈdɪfrənt" tr="отличаться"/>
+    <d v="different" p="participle" ts="ˈdɪfrənt" tr="отличающийся; различающийся"/>
+    <d v="differentiate" p="verb" ts="dɪfəˈrenʃɪeɪt"
+       tr="различать; дифференцировать; разграничить; разделять; различаться"/>
+    <d v="differentiate" p="noun" ts="dɪfəˈrenʃɪeɪt" tr="различие"/>
+    <d v="differently" p="adverb" ts="ˈdɪfrəntlɪ" tr="иначе; различно; неодинаково"/>
+    <d v="differently" p="adjective" ts="ˈdɪfrəntlɪ" tr="разный"/>
+    <d v="differently" p="noun" ts="ˈdɪfrəntlɪ" tr="по разному; по другому"/>
+    <d v="difficult" p="adjective" ts="ˈdɪfɪkəlt" tr="трудный; труднопроходимый; требовательный"/>
+    <d v="difficult" p="participle" ts="ˈdɪfɪkəlt" tr="затрудненный"/>
+    <d v="difficulty" p="noun" ts="ˈdɪfɪkəltɪ" tr="трудность"/>
+    <d v="diffuse" p="adjective" ts="dɪˈfjuːs" tr="диффузный; рассеянный; многословный"/>
+    <d v="diffuse" p="verb" ts="dɪˈfjuːs" tr="распространять; рассеивать; диффундировать; распылять"/>
+    <d v="dig" p="verb" ts="dɪg" tr="копать; закопать; докопаться; впиться; накопать; разрыть; вонзать; разыскивать"/>
+    <d v="dig" p="noun" ts="dɪg" tr="нора"/>
+    <d v="digest" p="noun" ts="ˈdaɪʤest" tr="дайджест; сборник; резюме"/>
+    <d v="digest" p="verb" ts="ˈdaɪʤest" tr="переварить; усваивать; перевариться; осмыслить; классифицировать"/>
+    <d v="digestion" p="noun" ts="dɪˈʤesʧən" tr="пищеварение; сбраживание"/>
+    <d v="digestion" p="adjective" ts="dɪˈʤesʧən" tr="пищеварительный"/>
+    <d v="digestive" p="adjective" ts="dɪˈʤestɪv" tr="пищеварительный"/>
+    <d v="digestive" p="noun" ts="dɪˈʤestɪv" tr="пищеварение"/>
+    <d v="digit" p="noun" ts="ˈdɪʤɪt" tr="цифра; разряд; палец"/>
+    <d v="digit" p="adjective" ts="ˈdɪʤɪt" tr="значный; однозначный"/>
+    <d v="digital" p="adjective" ts="ˈdɪʤɪtl" tr="цифровой; пальцевидный"/>
+    <d v="dignified" p="adjective" ts="ˈdɪgnɪfaɪd" tr="достойный; величественный"/>
+    <d v="dignitary" p="noun" ts="ˈdɪgnɪtərɪ" tr="сановник; чиновник"/>
+    <d v="dignitary" p="adjective" ts="ˈdɪgnɪtərɪ" tr="высокопоставленный"/>
+    <d v="dignity" p="noun" ts="ˈdɪgnɪtɪ" tr="достоинство; Сан; благородство; звание"/>
+    <d v="digress" p="verb" ts="daɪˈgres" tr="отвлечься; отступать"/>
+    <d v="digression" p="noun" ts="daɪˈgreʃn" tr="отступление; экскурс"/>
+    <d v="dike" p="noun" ts="daɪk" tr="дамба; дайка"/>
+    <d v="dilapidated" p="adjective" ts="dɪˈlæpɪdeɪtɪd" tr="ветхий"/>
+    <d v="dilapidation" p="noun" ts="dɪlæpɪˈdeɪʃn" tr="ветхость; обветшание; полуразрушенное состояние"/>
+    <d v="dilate" p="verb" ts="daɪˈleɪt" tr="расширять; расшириться"/>
+    <d v="dilation" p="noun" ts="daɪˈleɪʃn" tr="расширение; дилатация; замедление"/>
+    <d v="dilemma" p="noun" ts="dɪˈlemə" tr="дилемма"/>
+    <d v="diligence" p="noun" ts="ˈdɪlɪʤəns"
+       tr="усердие; экспертиза; аудит; прилежание; старательность; дилижанс; тщательность; добросовестность"/>
+    <d v="diligent" p="adjective" ts="ˈdɪlɪʤənt" tr="прилежный"/>
+    <d v="diligent" p="noun" ts="ˈdɪlɪʤənt" tr="усердие"/>
+    <d v="diligently" p="adverb" ts="ˈdɪlɪʤəntlɪ" tr="старательно"/>
+    <d v="dilute" p="verb" ts="daɪˈljuːt"
+       tr="разбавить; развести; размыть; ослабить; выхолащивать; разжижить; разрежать"/>
+    <d v="dilute" p="participle" ts="daɪˈljuːt" tr="разбавленный; разведенный"/>
+    <d v="dilute" p="noun" ts="daɪˈljuːt" tr="разбавление; размывание"/>
+    <d v="dilution" p="noun" ts="daɪˈluːʃn" tr="разбавление; растворение; размывание; ослабление"/>
+    <d v="dim" p="adjective" ts="dɪm" tr="тусклый; смутный; неясный; мрачный; бестолковый"/>
+    <d v="dim" p="verb" ts="dɪm" tr="потускнеть; померкнуть; меркнуть; затемнить; приглушить"/>
+    <d v="dime" p="noun" ts="daɪm" tr="цент; десять центов; монетка; гривенник"/>
+    <d v="dime" p="predicative" ts="daɪm" tr="наплевать"/>
+    <d v="dimension" p="noun" ts="dɪˈmenʃn" tr="размер; объемность"/>
+    <d v="diminish" p="verb" ts="dɪˈmɪnɪʃ" tr="уменьшить; уменьшаться; умалять; умалить"/>
+    <d v="diminish" p="noun" ts="dɪˈmɪnɪʃ" tr="уменьшение"/>
+    <d v="diminutive" p="adjective" ts="dɪˈmɪnjʊtɪv" tr="уменьшительный; миниатюрный; крошечный"/>
+    <d v="dimly" p="adverb" ts="ˈdɪmlɪ" tr="смутно; тускло"/>
+    <d v="dimple" p="noun" ts="dɪmpl" tr="ямочка; впадина; рябь"/>
+    <d v="DIN" p="noun" ts="dɪn" tr="шум; гам"/>
+    <d v="DIN" p="verb" ts="dɪn" tr="гудеть"/>
+    <d v="dine" p="verb" ts="daɪn" tr="обедать"/>
+    <d v="diner" p="noun" ts="ˈdaɪnə" tr="ужин; закусочная; вагон-ресторан"/>
+    <d v="diner" p="participle" ts="ˈdaɪnə" tr="обедающий"/>
+    <d v="diner" p="verb" ts="ˈdaɪnə" tr="обедать"/>
+    <d v="dinghy" p="noun" ts="ˈdɪŋgɪ" tr="лодка"/>
+    <d v="dingy" p="adjective" ts="ˈdɪnʤɪ" tr="грязный; тусклый; выцветший"/>
+    <d v="dining room" p="noun" ts="ˈdaɪnɪŋ ruːm" tr="столовая; столовая комната; обеденный зал; обеденная комната"/>
+    <d v="dinner" p="noun" ts="ˈdɪnə" tr="ужин"/>
+    <d v="dinner" p="verb" ts="ˈdɪnə" tr="поужинать"/>
+    <d v="dinner" p="adjective" ts="ˈdɪnə" tr="обеденный"/>
+    <d v="dinner" p="participle" ts="ˈdɪnə" tr="обедающий"/>
+    <d v="dinosaur" p="noun" ts="ˈdaɪnəʊsɔː" tr="динозавр"/>
+    <d v="diocese" p="noun" ts="ˈdaɪəsɪs" tr="епархия"/>
+    <d v="dip" p="verb" ts="dɪp" tr="окунуть; окунуться; опустить; падать; намочить; черпать"/>
+    <d v="dip" p="noun" ts="dɪp" tr="падение; погружение"/>
+    <d v="dip" p="adjective" ts="dɪp" tr="погружной"/>
+    <d v="dip" p="adverbial participle" ts="dɪp" tr="окунаясь"/>
+    <d v="diphtheria" p="noun" ts="dɪfˈθɪərɪə" tr="дифтерия"/>
+    <d v="diphthong" p="noun" ts="ˈdɪfθɔŋ" tr="дифтонг"/>
+    <d v="diploma" p="noun" ts="dɪˈpləʊmə" tr="диплом; официальный документ"/>
+    <d v="diploma" p="adjective" ts="dɪˈpləʊmə" tr="дипломный; дипломированный"/>
+    <d v="diplomacy" p="noun" ts="dɪˈpləʊməsɪ" tr="дипломатия; дипломатичность"/>
+    <d v="diplomacy" p="adjective" ts="dɪˈpləʊməsɪ" tr="дипломатический"/>
+    <d v="diplomat" p="noun" ts="ˈdɪpləmæt" tr="дипломат"/>
+    <d v="diplomatic" p="adjective" ts="dɪpləˈmætɪk" tr="дипломатический; дипломатичный"/>
+    <d v="diplomatically" p="adverb" ts="dɪpləˈmætɪklɪ" tr="дипломатично; дипломатически"/>
+    <d v="diplomatically" p="adjective" ts="dɪpləˈmætɪklɪ" tr="дипломатический"/>
+    <d v="dipstick" p="noun" ts="ˈdɪpstɪk" tr="масломерный щуп; измерительный стержень"/>
+    <d v="dire" p="adjective" ts="ˈdaɪə" tr="страшный; тяжелый"/>
+    <d v="dire" p="adverb" ts="ˈdaɪə" tr="остро"/>
+    <d v="direct" p="adjective" ts="dɪˈrekt" tr="прямой"/>
+    <d v="direct" p="verb" ts="dɪˈrekt"
+       tr="направлять; руководить; режиссировать; адресовать; ставить; приказывать; дирижировать; нацеливать; подсказывать"/>
+    <d v="direct" p="participle" ts="dɪˈrekt" tr="открытый"/>
+    <d v="direction" p="noun" ts="dɪˈrekʃn" tr="направление; руководство; режиссура; область; адрес; постановка"/>
+    <d v="directive" p="noun" ts="dɪˈrektɪv" tr="директива"/>
+    <d v="directive" p="adjective" ts="dɪˈrektɪv" tr="директивный"/>
+    <d v="directive" p="participle" ts="dɪˈrektɪv" tr="направляющий"/>
+    <d v="directly" p="adverb" ts="dɪˈrektlɪ" tr="непосредственно; напрямую; как только"/>
+    <d v="directly" p="particle" ts="dɪˈrektlɪ" tr="прямо"/>
+    <d v="directly" p="adjective" ts="dɪˈrektlɪ" tr="непосредственный"/>
+    <d v="direct object" p="noun" ts="dɪˈrekt ˈɔbʤɪkt" tr="непосредственный объект; прямое дополнение; прямой объект"/>
+    <d v="Director" p="noun" ts="dɪˈrektə" tr="директор; член правления; духовник"/>
+    <d v="directory" p="noun" ts="dɪˈrektərɪ" tr="каталог; справочник; указатель; адресная книга"/>
+    <d v="directory" p="adjective" ts="dɪˈrektərɪ" tr="директивный"/>
+    <d v="dirt" p="noun" ts="dɜːt" tr="грязь; земля; грунт; компромат; гадость; сор"/>
+    <d v="dirt" p="adjective" ts="dɜːt" tr="грунтовой"/>
+    <d v="dirty" p="adjective" ts="ˈdɜːtɪ" tr="грязный; грязноватый; непристойный; чумазый; нечестный; ненастный"/>
+    <d v="dirty" p="noun" ts="ˈdɜːtɪ" tr="грязь; гадость"/>
+    <d v="dirty" p="verb" ts="ˈdɜːtɪ" tr="пачкать; загрязнять; запачкаться; марать"/>
+    <d v="dirty" p="participle" ts="ˈdɜːtɪ" tr="испачканный"/>
+    <d v="dis" p="noun" ts="dɪs" tr="ССВ; РСИ"/>
+    <d v="disability" p="noun" ts="dɪsəˈbɪlɪtɪ"
+       tr="инвалидность; инвалид; ограниченная возможность; неспособность; отклонение"/>
+    <d v="disability" p="adjective" ts="dɪsəˈbɪlɪtɪ" tr="ограниченный; инвалидный"/>
+    <d v="disable" p="verb" ts="dɪsˈeɪbl"
+       tr="отключить; выключить; запретить; делать неспособным; отменить; вывести из строя; калечить"/>
+    <d v="disable" p="noun" ts="dɪsˈeɪbl" tr="отключение; запрет"/>
+    <d v="disabled" p="noun" ts="dɪsˈeɪbld" tr="инвалид"/>
+    <d v="disabled" p="adjective" ts="dɪsˈeɪbld" tr="недоступный"/>
+    <d v="disabled" p="participle" ts="dɪsˈeɪbld" tr="отключенный; выключенный; искалеченный; деактивированный"/>
+    <d v="disadvantage" p="noun" ts="dɪsədˈvɑːntɪʤ"
+       tr="недостаток; неудобство; невыгодное положение; ущерб; неблагоприятное положение; невыгода; неблагополучие; помеха"/>
+    <d v="disadvantage" p="adjective" ts="dɪsədˈvɑːntɪʤ" tr="невыгодный"/>
+    <d v="disaffected" p="adjective" ts="dɪsəˈfektɪd" tr="недовольный"/>
+    <d v="disagree" p="verb" ts="dɪsəˈgriː"
+       tr="не согласиться; расходиться; противоречить; спорить; возражать; расходиться во мнениях"/>
+    <d v="disagree" p="noun" ts="dɪsəˈgriː" tr="несогласие"/>
+    <d v="disagreeable" p="adjective" ts="dɪsəˈgrɪəbl" tr="неприятный; неприветливый"/>
+    <d v="disagreement" p="noun" ts="dɪsəˈgriːmənt" tr="разногласие; ссора; разлад"/>
+    <d v="disagreement" p="adjective" ts="dɪsəˈgriːmənt" tr="несогласный"/>
+    <d v="disallow" p="verb" ts="ˈdɪsəˈlaʊ" tr="запретить; отвергать; отказывать"/>
+    <d v="disallow" p="noun" ts="ˈdɪsəˈlaʊ" tr="запрет"/>
+    <d v="disappear" p="verb" ts="dɪsəˈpɪə" tr="исчезнуть; отпадать; деться; кануть"/>
+    <d v="disappear" p="noun" ts="dɪsəˈpɪə" tr="исчезновение"/>
+    <d v="disappearance" p="noun" ts="dɪsəˈpɪərəns" tr="исчезновение"/>
+    <d v="disappoint" p="verb" ts="dɪsəˈpɔɪnt"
+       tr="разочаровать; разочаровывать; огорчить; разочароваться; обмануть; подвести; огорчать"/>
+    <d v="disappoint" p="noun" ts="dɪsəˈpɔɪnt" tr="разочарование"/>
+    <d v="disappointed" p="participle" ts="dɪsəˈpɔɪntɪd" tr="разочарованный; расстроенный; огорченный"/>
+    <d v="disappointed" p="noun" ts="dɪsəˈpɔɪntɪd" tr="разочарование"/>
+    <d v="disappointing" p="adjective" ts="dɪsəˈpɔɪntɪŋ" tr="неутешительный; досадный"/>
+    <d v="disappointing" p="noun" ts="dɪsəˈpɔɪntɪŋ" tr="разочарование"/>
+    <d v="disappointing" p="participle" ts="dɪsəˈpɔɪntɪŋ" tr="разочаровывающий"/>
+    <d v="disappointingly" p="adverb" ts="dɪsəˈpɔɪntɪŋlɪ" tr="удручающе; неутешительно"/>
+    <d v="disappointment" p="noun" ts="dɪsəˈpɔɪntmənt" tr="разочарование; досада; обманутая надежда; неприятность"/>
+    <d v="disapproval" p="noun" ts="dɪsəˈpruːvəl" tr="неодобрение; недовольство"/>
+    <d v="disapprove" p="verb" ts="ˈdɪsəˈpruːv" tr="не одобрять; осуждать; неодобрительно относиться"/>
+    <d v="disapproving" p="adjective" ts="dɪsəˈpruːvɪŋ" tr="неодобрительный"/>
+    <d v="disapprovingly" p="adverb" ts="ˈdɪsəˈpruːvɪŋlɪ" tr="неодобрительно"/>
+    <d v="disarm" p="verb" ts="dɪsˈɑːm" tr="разоружить; обезвредить; обезоруживать"/>
+    <d v="disarm" p="noun" ts="dɪsˈɑːm" tr="разоружение"/>
+    <d v="disarmament" p="noun" ts="dɪsˈɑːməmənt" tr="разоружение"/>
+    <d v="disarmament" p="adjective" ts="dɪsˈɑːməmənt" tr="разоруженческий"/>
+    <d v="disarming" p="noun" ts="dɪsˈɑːmɪŋ" tr="разоружение"/>
+    <d v="disarming" p="participle" ts="dɪsˈɑːmɪŋ" tr="разоружающий"/>
+    <d v="disarray" p="noun" ts="ˈdɪsəˈreɪ" tr="беспорядок; смятение"/>
+    <d v="disaster" p="noun" ts="dɪˈzɑːstə" tr="бедствие; беда"/>
+    <d v="disastrous" p="adjective" ts="dɪˈzɑːstrəs" tr="катастрофический; губительный; бедственный"/>
+    <d v="disastrous" p="noun" ts="dɪˈzɑːstrəs" tr="катастрофа"/>
+    <d v="disastrous" p="adverb" ts="dɪˈzɑːstrəs" tr="катастрофически"/>
+    <d v="disastrously" p="adverb" ts="dɪˈzɑːstrəslɪ" tr="катастрофически"/>
+    <d v="disavow" p="verb" ts="ˈdɪsəˈvaʊ" tr="дезавуировать; отречься"/>
+    <d v="disavow" p="noun" ts="ˈdɪsəˈvaʊ" tr="дезавуирование"/>
+    <d v="disavowal" p="noun" ts="ˈdɪsəˈvaʊəl" tr="отказ"/>
+    <d v="disband" p="verb" ts="dɪsˈbænd" tr="распустить; распасться; расформировывать; разбегаться"/>
+    <d v="disband" p="noun" ts="dɪsˈbænd" tr="роспуск"/>
+    <d v="disbelief" p="noun" ts="ˈdɪsbɪˈliːf" tr="неверие"/>
+    <d v="disbelief" p="adjective" ts="ˈdɪsbɪˈliːf" tr="недоверчивый"/>
+    <d v="disbelieve" p="verb" ts="ˈdɪsbɪˈliːv" tr="не верить"/>
+    <d v="disbelieve" p="noun" ts="ˈdɪsbɪˈliːv" tr="неверие"/>
+    <d v="discard" p="verb" ts="ˈdɪskɑːd"
+       tr="отбросить; сбросить; отказаться; отбрасывать; отменить; отвергать; уничтожить"/>
+    <d v="discard" p="noun" ts="ˈdɪskɑːd" tr="отбрасывание; брак"/>
+    <d v="discern" p="verb" ts="dɪˈsɜːn" tr="различать; распознать; разглядеть; усмотреть; разгадать"/>
+    <d v="discernible" p="adjective" ts="dɪˈsɜːnəbl" tr="заметный"/>
+    <d v="discernible" p="participle" ts="dɪˈsɜːnəbl" tr="видимый"/>
+    <d v="discerning" p="adjective" ts="dɪˈsɜːnɪŋ" tr="взыскательный"/>
+    <d v="discharge" p="noun" ts="dɪsˈʧɑːʤ"
+       tr="сброс; разряд; разгрузка; увольнение; исполнение; расход; выписка; выстрел; уплата; спуск; вытекание; оправдание; выпускное отверстие; реабилитация"/>
+    <d v="discharge" p="verb" ts="dɪsˈʧɑːʤ"
+       tr="выполнять; разрядить; освобождать; разряжаться; выписывать; разгружать; выпускать; выплачивать; выстрелить; выливать; демобилизовать"/>
+    <d v="discharge" p="adjective" ts="dɪsˈʧɑːʤ" tr="разгрузочный; нагнетательный"/>
+    <d v="discharge" p="participle" ts="dɪsˈʧɑːʤ" tr="сбрасываемый"/>
+    <d v="disciple" p="noun" ts="dɪˈsaɪpl" tr="ученик"/>
+    <d v="disciplinary" p="adjective" ts="ˈdɪsɪplɪnərɪ" tr="дисциплинарный; исправительный"/>
+    <d v="discipline" p="noun" ts="ˈdɪsɪplɪn" tr="дисциплина; наука; наказание; порядок"/>
+    <d v="discipline" p="verb" ts="ˈdɪsɪplɪn" tr="дисциплинировать; наказывать; тренировать"/>
+    <d v="discipline" p="adjective" ts="ˈdɪsɪplɪn" tr="дисциплинарный"/>
+    <d v="disciplined" p="participle" ts="ˈdɪsɪplɪnd" tr="дисциплинированный"/>
+    <d v="disclaim" p="verb" ts="dɪsˈkleɪm" tr="отказываться; отрицать"/>
+    <d v="disclaimer" p="noun" ts="dɪsˈkleɪmə"
+       tr="отказ; оговорка; исключение ответственности; опровержение; правовая оговорка; отмазка"/>
+    <d v="disclose" p="verb" ts="dɪsˈkləʊz" tr="раскрывать; раскрыть; показывать; разоблачить"/>
+    <d v="disclose" p="noun" ts="dɪsˈkləʊz" tr="раскрытие"/>
+    <d v="disclosure" p="noun" ts="dɪsˈkləʊʒə" tr="раскрытие"/>
+    <d v="disco" p="noun" ts="ˈdɪskəʊ" tr="дискотека"/>
+    <d v="disco" p="adjective" ts="ˈdɪskəʊ" tr="дискотечный"/>
+    <d v="discolor" p="verb" ts="dɪsˈkʌlə" tr="обесцветить; обесцвечивать; пачкать"/>
+    <d v="discoloration" p="noun" ts="dɪskʌləˈreɪʃn" tr="обесцвечивание; пятно"/>
+    <d v="discomfort" p="noun" ts="dɪsˈkʌmfət" tr="дискомфорт; неудобство"/>
+    <d v="discomfort" p="verb" ts="dɪsˈkʌmfət" tr="беспокоить"/>
+    <d v="disconcert" p="verb" ts="dɪskənˈsɜːt" tr="смущать; расстраивать"/>
+    <d v="disconcerted" p="participle" ts="dɪskənˈsɜːtɪd" tr="расстроенный"/>
+    <d v="disconcerting" p="noun" ts="dɪskənˈsɜːtɪŋ" tr="замешательство"/>
+    <d v="disconnect" p="verb" ts="ˈdɪskəˈnekt"
+       tr="отсоединить; отсоединять; разъединить; отсоединиться; разъединиться; размыкать"/>
+    <d v="disconnect" p="noun" ts="ˈdɪskəˈnekt" tr="отключение"/>
+    <d v="disconnection" p="noun" ts="dɪskəˈnekʃn" tr="отключение; разрыв; разобщенность; разобщение"/>
+    <d v="discontent" p="noun" ts="ˈdɪskənˈtent" tr="недовольство"/>
+    <d v="discontent" p="adjective" ts="ˈdɪskənˈtent" tr="недовольный"/>
+    <d v="discontented" p="adjective" ts="dɪskənˈtentɪd" tr="недовольный"/>
+    <d v="discontinuation" p="noun" ts="dɪskəntɪnjʊˈeɪʃn" tr="прекращение"/>
+    <d v="discontinue" p="verb" ts="ˈdɪskənˈtɪnjuː" tr="прекратить; прерывать; упразднять"/>
+    <d v="discontinue" p="noun" ts="ˈdɪskənˈtɪnjuː" tr="прекращение"/>
+    <d v="discord" p="noun" ts="ˈdɪskɔːd" tr="раздор; разногласие; рознь; диссонанс; нелады"/>
+    <d v="discord" p="verb" ts="ˈdɪskɔːd" tr="диссонировать"/>
+    <d v="discordant" p="adjective" ts="dɪsˈkɔːdənt" tr="противоречивый; нестройный; неблагозвучный"/>
+    <d v="discordant" p="participle" ts="dɪsˈkɔːdənt" tr="диссонирующий; несогласный"/>
+    <d v="discordant" p="noun" ts="dɪsˈkɔːdənt" tr="диссонанс"/>
+    <d v="discordant" p="verb" ts="dɪsˈkɔːdənt" tr="диссонировать"/>
+    <d v="discount" p="noun" ts="ˈdɪskaʊnt" tr="скидка; дисконт; рабат"/>
+    <d v="discount" p="adjective" ts="ˈdɪskaʊnt" tr="дисконтный; учетный"/>
+    <d v="discount" p="participle" ts="ˈdɪskaʊnt" tr="дисконтированный"/>
+    <d v="discount" p="verb" ts="ˈdɪskaʊnt" tr="дисконтировать; обесценивать; снижать"/>
+    <d v="discount store" p="noun" ts="ˈdɪskaʊnt stɔː" tr="дисконтный магазин"/>
+    <d v="discourage" p="verb" ts="dɪsˈkʌrɪʤ"
+       tr="препятствовать; обескуражить; отбить; отпугивать; отбить охоту; разочаровать; не одобрять; расхолаживать; отбивать охоту"/>
+    <d v="discouraged" p="noun" ts="dɪˈskʌrɪʤd" tr="уныние"/>
+    <d v="discouraged" p="participle" ts="dɪˈskʌrɪʤd" tr="обескураженный; разочарованный; препятствовавший"/>
+    <d v="discouragement" p="noun" ts="dɪsˈkʌrɪʤmənt"
+       tr="разочарование; обескураженность; обескураживание; отговаривание"/>
+    <d v="discouraging" p="participle" ts="dɪsˈkʌrɪʤɪŋ" tr="обескураживающий"/>
+    <d v="discourse" p="noun" ts="dɪsˈkɔːs" tr="дискурс; речь; беседа"/>
+    <d v="discourse" p="adjective" ts="dɪsˈkɔːs" tr="дискурсивный"/>
+    <d v="discourse" p="verb" ts="dɪsˈkɔːs" tr="рассуждать"/>
+    <d v="discourteous" p="adjective" ts="dɪsˈkɜːtjəs" tr="невежливый"/>
+    <d v="discourtesy" p="noun" ts="dɪsˈkɜːtɪsɪ" tr="невежливость; неучтивость; грубость; невоспитанность"/>
+    <d v="discover" p="verb" ts="dɪsˈkʌvə" tr="обнаружить; открыть; найти; раскрыть; выявить; делать открытия"/>
+    <d v="discover" p="noun" ts="dɪsˈkʌvə" tr="обнаружение"/>
+    <d v="discoverer" p="noun" ts="dɪˈskʌvərər" tr="первооткрыватель"/>
+    <d v="discovery" p="noun" ts="dɪsˈkʌvərɪ" tr="открытие; обнаружение"/>
+    <d v="discredit" p="verb" ts="dɪsˈkredɪt" tr="дискредитировать; опорочить; развенчать; позорить"/>
+    <d v="discredit" p="noun" ts="dɪsˈkredɪt" tr="дискредитация; недоверие"/>
+    <d v="discreet" p="adjective" ts="dɪsˈkriːt" tr="дискретный; осторожный; сдержанный"/>
+    <d v="discreetly" p="adverb" ts="dɪˈskriːtlɪ" tr="незаметно; осторожно; благоразумно; скромно"/>
+    <d v="discrepancy" p="noun" ts="dɪsˈkrepənsɪ" tr="несоответствие; расхождение; разногласие; неточность; невязка"/>
+    <d v="discretion" p="noun" ts="dɪsˈkreʃn"
+       tr="усмотрение; благоразумие; осмотрительность; свобода действий; дискретность; сдержанность; тактичность"/>
+    <d v="discretionary" p="adjective" ts="dɪsˈkreʃnərɪ" tr="дискреционный"/>
+    <d v="discriminate" p="noun" ts="dɪsˈkrɪmɪnɪt" tr="дискриминация"/>
+    <d v="discriminate" p="verb" ts="dɪsˈkrɪmɪnɪt" tr="дискриминировать; различать"/>
+    <d v="discriminating" p="adjective" ts="dɪsˈkrɪmɪneɪtɪŋ"
+       tr="дискриминационный; разборчивый; отличительный; проницательный"/>
+    <d v="discriminating" p="noun" ts="dɪsˈkrɪmɪneɪtɪŋ" tr="дискриминация"/>
+    <d v="discriminating" p="participle" ts="dɪsˈkrɪmɪneɪtɪŋ" tr="разбирающийся"/>
+    <d v="discrimination" p="noun" ts="dɪskrɪmɪˈneɪʃn" tr="дискриминация; различение"/>
+    <d v="discrimination" p="adjective" ts="dɪskrɪmɪˈneɪʃn" tr="дискриминационный"/>
+    <d v="discus" p="noun" ts="ˈdɪskəs" tr="диск"/>
+    <d v="discuss" p="verb" ts="dɪsˈkʌs" tr="обсудить; подискутировать; смаковать"/>
+    <d v="discuss" p="noun" ts="dɪsˈkʌs" tr="обсуждение"/>
+    <d v="discussion" p="noun" ts="dɪsˈkʌʃn" tr="обсуждение; разговор"/>
+    <d v="discussion" p="adjective" ts="dɪsˈkʌʃn" tr="дискуссионный"/>
+    <d v="disdain" p="noun" ts="dɪsˈdeɪn" tr="презрение; надменность"/>
+    <d v="disdain" p="verb" ts="dɪsˈdeɪn" tr="презирать; гнушаться"/>
+    <d v="disdainful" p="adjective" ts="dɪsˈdeɪnfʊl" tr="презрительный"/>
+    <d v="disease" p="noun" ts="dɪˈziːz" tr="заболевание"/>
+    <d v="disease" p="adjective" ts="dɪˈziːz" tr="болезнетворный"/>
+    <d v="diseased" p="adjective" ts="dɪˈziːzd" tr="больной"/>
+    <d v="diseased" p="participle" ts="dɪˈziːzd" tr="заболевший"/>
+    <d v="disembark" p="verb" ts="ˈdɪsɪmˈbɑːk" tr="высадиться; высадить; сойти; выгрузиться"/>
+    <d v="disembark" p="noun" ts="ˈdɪsɪmˈbɑːk" tr="высадка"/>
+    <d v="disembarkation" p="noun" ts="dɪsembɑːˈkeɪʃn" tr="высадка"/>
+    <d v="disenchanted" p="participle" ts="dɪsɪnˈʧɑːntɪd" tr="разочарованный"/>
+    <d v="disenchantment" p="noun" ts="dɪsɪnˈʧɑːntmənt" tr="разочарование"/>
+    <d v="disengage" p="verb" ts="ˈdɪsɪnˈgeɪʤ" tr="отключить; освободиться; отцепить; высвободиться; разобщать"/>
+    <d v="disengage" p="adverbial participle" ts="ˈdɪsɪnˈgeɪʤ" tr="абстрагируя"/>
+    <d v="disentangle" p="verb" ts="ˈdɪsɪnˈtæŋgl" tr="выпутаться; расхлебывать; отделить"/>
+    <d v="disfavor" p="noun" ts="dɪsˈfeɪvər" tr="немилость"/>
+    <d v="disfigure" p="verb" ts="dɪsˈfɪgə" tr="уродовать; обезображивать; портить"/>
+    <d v="disfigurement" p="noun" ts="dɪsˈfɪgəmənt" tr="уродство; обезображивание; физический недостаток"/>
+    <d v="disgrace" p="noun" ts="dɪsˈgreɪs" tr="позор; безобразие; бесчестие; немилость; посрамление"/>
+    <d v="disgrace" p="verb" ts="dɪsˈgreɪs" tr="позорить; опозорить; опозориться; посрамить"/>
+    <d v="disgrace" p="adjective" ts="dɪsˈgreɪs" tr="опальный; позорный"/>
+    <d v="disgraceful" p="adjective" ts="dɪsˈgreɪsfʊl" tr="позорный; недостойный"/>
+    <d v="disgraceful" p="noun" ts="dɪsˈgreɪsfʊl" tr="позор; безобразие"/>
+    <d v="disgracefully" p="adverb" ts="dɪsˈgreɪsfəlɪ" tr="бесславно"/>
+    <d v="disgruntled" p="adjective" ts="dɪsˈgrʌntld" tr="недовольный"/>
+    <d v="disgruntled" p="participle" ts="dɪsˈgrʌntld" tr="раздраженный; обиженный; рассерженный"/>
+    <d v="disguise" p="verb" ts="dɪsˈgaɪz" tr="замаскировать; переодеваться; переодевать; переодеть"/>
+    <d v="disguise" p="noun" ts="dɪsˈgaɪz" tr="маскировка; личина; переодевание; утаивание; обманчивая внешность"/>
+    <d v="disguise" p="participle" ts="dɪsˈgaɪz" tr="замаскированный; переодетый; скрытый"/>
+    <d v="disgust" p="noun" ts="dɪsˈgʌst" tr="отвращение; гадливость"/>
+    <d v="disgusting" p="adjective" ts="dɪsˈgʌstɪŋ" tr="отвратительный"/>
+    <d v="disgusting" p="adverb" ts="dɪsˈgʌstɪŋ" tr="противно"/>
+    <d v="disgusting" p="noun" ts="dɪsˈgʌstɪŋ" tr="гадость"/>
+    <d v="dish" p="noun" ts="dɪʃ" tr="блюдо; красотка"/>
+    <d v="dish" p="verb" ts="dɪʃ" tr="выгибать"/>
+    <d v="dishearten" p="verb" ts="dɪsˈhɑːtn" tr="обескуражить"/>
+    <d v="disheveled" p="participle" ts="dɪˈʃevld" tr="всклокоченный; встрепанный"/>
+    <d v="dishonest" p="adjective" ts="dɪsˈɔnɪst" tr="нечестный; лживый"/>
+    <d v="dishonestly" p="adverb" ts="dɪsˈɒnɪstlɪ" tr="нечестно"/>
+    <d v="dishonesty" p="noun" ts="dɪsˈɔnɪstɪ" tr="нечестность; обман; недобросовестность; бессовестность"/>
+    <d v="dishonor" p="noun" ts="dɪsˈɒnər" tr="бесчестие"/>
+    <d v="dishonor" p="verb" ts="dɪsˈɒnər" tr="бесчестить; опозорить"/>
+    <d v="dishonorable" p="adjective" ts="dɪsˈɒnərəbl" tr="бесчестный"/>
+    <d v="dishwasher" p="noun" ts="ˈdɪʃwɔʃə" tr="посудомоечная машина"/>
+    <d v="disillusion" p="noun" ts="dɪsɪˈluːʒən" tr="разочарование"/>
+    <d v="disillusion" p="verb" ts="dɪsɪˈluːʒən" tr="разочаровывать"/>
+    <d v="disillusioned" p="participle" ts="dɪsɪˈluːʒnd" tr="разочарованный; разочаровавшийся"/>
+    <d v="disillusionment" p="noun" ts="dɪsɪˈluːʒnmənt" tr="разочарование"/>
+    <d v="disinfect" p="verb" ts="dɪsɪnˈfekt" tr="дезинфицировать; лечить"/>
+    <d v="disinfect" p="noun" ts="dɪsɪnˈfekt" tr="дезинфекция"/>
+    <d v="disinfectant" p="participle" ts="dɪsɪnˈfektənt" tr="дезинфицирующий"/>
+    <d v="disinfectant" p="noun" ts="dɪsɪnˈfektənt"
+       tr="дезинфектант; дезинфицирующее средство; дезинфекция; дезинфицирующее вещество"/>
+    <d v="disinherit" p="verb" ts="ˈdɪsɪnˈherɪt" tr="лишить наследства; лишать наследства"/>
+    <d v="disintegrate" p="verb" ts="dɪsˈɪntɪgreɪt" tr="распасться; распадаться; дезинтегрировать"/>
+    <d v="disintegrate" p="noun" ts="dɪsˈɪntɪgreɪt" tr="разложение"/>
+    <d v="disintegration" p="noun" ts="dɪsɪntɪˈgreɪʃn" tr="распад; измельчение"/>
+    <d v="disinterest" p="noun" ts="dɪsˈɪntrəst" tr="незаинтересованность; безразличие"/>
+    <d v="disinterested" p="adjective" ts="dɪsˈɪntrɪstɪd"
+       tr="бескорыстный; незаинтересованный; беспристрастный; равнодушный"/>
+    <d v="disk" p="noun" ts="dɪsk" tr="диск; круг"/>
+    <d v="disk" p="adjective" ts="dɪsk" tr="дисковый"/>
+    <d v="disk drive" p="noun" ts="dɪsk draɪv" tr="диск; дисковый накопитель"/>
+    <d v="diskette" p="noun" ts="dɪsˈket" tr="дискета"/>
+    <d v="dislike" p="verb" ts="dɪsˈlaɪk" tr="не нравиться; невзлюбить; недолюбливать"/>
+    <d v="dislike" p="noun" ts="dɪsˈlaɪk" tr="неприязнь; нелюбовь; нерасположение"/>
+    <d v="dislocate" p="verb" ts="ˈdɪsləʊkeɪt" tr="вывихнуть; перемещать; нарушать"/>
+    <d v="dislocation" p="noun" ts="dɪsləʊˈkeɪʃn"
+       tr="дислокация; вывих; перемещение; разруха; дезорганизация; неувязка"/>
+    <d v="dislodge" p="verb" ts="dɪsˈlɔʤ" tr="выбить; вытеснить; сдвинуть; выгонять"/>
+    <d v="disloyal" p="adjective" ts="ˈdɪsˈlɔɪəl" tr="нелояльный; вероломный"/>
+    <d v="disloyalty" p="noun" ts="ˈdɪsˈlɔɪəltɪ" tr="нелояльность; неверность; предательство; вероломство"/>
+    <d v="dismal" p="adjective" ts="ˈdɪzməl" tr="мрачный"/>
+    <d v="dismal" p="participle" ts="ˈdɪzməl" tr="гнетущий"/>
+    <d v="dismally" p="adverb" ts="ˈdɪzməlɪ" tr="мрачно"/>
+    <d v="dismantle" p="verb" ts="dɪsˈmæntl"
+       tr="демонтировать; разобрать; разрушить; распустить; разбираться; снимать"/>
+    <d v="dismantle" p="noun" ts="dɪsˈmæntl" tr="демонтаж"/>
+    <d v="dismay" p="noun" ts="dɪsˈmeɪ" tr="ужас; тревога"/>
+    <d v="dismember" p="verb" ts="dɪsˈmembə" tr="расчленить; расчленять"/>
+    <d v="dismember" p="noun" ts="dɪsˈmembə" tr="расчленение"/>
+    <d v="dismiss" p="verb" ts="dɪsˈmɪs"
+       tr="уволить; отклонить; распустить; отпустить; отмахнуться; снять; отмести; прекращать; прогонять"/>
+    <d v="dismissal" p="noun" ts="dɪsˈmɪsəl" tr="увольнение"/>
+    <d v="dismissal" p="verb" ts="dɪsˈmɪsəl" tr="уволить"/>
+    <d v="dismount" p="verb" ts="ˈdɪsˈmaʊnt" tr="спешиться; демонтировать; снимать"/>
+    <d v="disobedience" p="noun" ts="dɪsəˈbiːdjəns" tr="неповиновение; непослушание; ослушание"/>
+    <d v="disobedient" p="adjective" ts="dɪsəˈbiːdjənt" tr="непослушный"/>
+    <d v="disobedient" p="noun" ts="dɪsəˈbiːdjənt" tr="непослушание"/>
+    <d v="disobedient" p="verb" ts="dɪsəˈbiːdjənt" tr="ослушаться"/>
+    <d v="disobey" p="verb" ts="ˈdɪsəˈbeɪ" tr="не повиноваться; ослушаться; нарушать; не послушаться"/>
+    <d v="disobey" p="noun" ts="ˈdɪsəˈbeɪ" tr="неповиновение"/>
+    <d v="disorder" p="noun" ts="dɪsˈɔːdə"
+       tr="расстройство; развал; синдром; разброс; неустроенность; непорядок; безалаберность; разброд"/>
+    <d v="disorderly" p="adjective" ts="dɪsˈɔːdəlɪ" tr="беспорядочный; неупорядоченный; недисциплинированный"/>
+    <d v="disorderly" p="noun" ts="dɪsˈɔːdəlɪ" tr="хулиганство"/>
+    <d v="disorganization" p="noun" ts="dɪsɔːgənaɪˈzeɪʃn" tr="дезорганизация; беспорядок"/>
+    <d v="disorganized" p="adjective" ts="dɪsˈɔːgənaɪzd" tr="неорганизованный"/>
+    <d v="disorganized" p="participle" ts="dɪsˈɔːgənaɪzd" tr="дезорганизованный"/>
+    <d v="disorient" p="verb" ts="dɪsˈɔːrɪənt" tr="дезориентировать"/>
+    <d v="disorientation" p="noun" ts="dɪsɔːrɪənˈteɪʃn" tr="дезориентация; потеря ориентации"/>
+    <d v="disoriented" p="participle" ts="dɪsˈɔːrɪəntɪd" tr="дезориентированный"/>
+    <d v="disown" p="verb" ts="dɪsˈəʊn" tr="отречься; откреститься"/>
+    <d v="disparage" p="verb" ts="dɪsˈpærɪʤ" tr="умалять; третировать"/>
+    <d v="disparage" p="noun" ts="dɪsˈpærɪʤ" tr="пренебрежение"/>
+    <d v="disparaging" p="adjective" ts="dɪsˈpærɪʤɪŋ" tr="пренебрежительный; унизительный"/>
+    <d v="disparate" p="adjective" ts="ˈdɪspərɪt" tr="различный; несоизмеримый"/>
+    <d v="disparity" p="noun" ts="dɪsˈpærɪtɪ" tr="неравенство; различие"/>
+    <d v="dispassionate" p="adjective" ts="dɪsˈpæʃnɪt" tr="бесстрастный; беспристрастный"/>
+    <d v="dispassionately" p="adverb" ts="dɪˈspæʃənətlɪ" tr="бесстрастно; беспристрастно"/>
+    <d v="dispatch" p="noun" ts="dɪsˈpæʧ" tr="отправка; депеша; диспетчеризация; высылка; экспедирование"/>
+    <d v="dispatch" p="verb" ts="dɪsˈpæʧ" tr="направить; рассылать; справляться"/>
+    <d v="dispatch" p="adjective" ts="dɪsˈpæʧ" tr="диспетчерский"/>
+    <d v="dispel" p="verb" ts="dɪsˈpel" tr="развеять; разгонять"/>
+    <d v="dispensable" p="adjective" ts="dɪsˈpensəbl" tr="необязательный; несущественный"/>
+    <d v="dispensary" p="noun" ts="dɪsˈpensərɪ" tr="диспансер; аптека"/>
+    <d v="dispensary" p="adjective" ts="dɪsˈpensərɪ" tr="диспансерный"/>
+    <d v="dispensation" p="noun" ts="dɪspenˈseɪʃn"
+       tr="устроение; диспенсация; разрешение; раздача; освобождение; послабление"/>
+    <d v="dispense" p="verb" ts="dɪsˈpens" tr="обойтись; распределять; отказаться; отпускать; вершить; отправлять"/>
+    <d v="dispenser" p="noun" ts="dɪsˈpensə" tr="диспенсер; банкомат; раздаточное устройство; торговый автомат"/>
+    <d v="dispersal" p="noun" ts="dɪsˈpɜːsəl" tr="разгон; расселение"/>
+    <d v="disperse" p="verb" ts="dɪsˈpɜːs"
+       tr="разойтись; разогнать; развеять; разгонять; разметать; разъехаться; рассредоточиться; диспергировать; рассредоточить; распространять; разбрестись; рассредоточивать; разбредаться"/>
+    <d v="disperse" p="adjective" ts="dɪsˈpɜːs" tr="дисперсный"/>
+    <d v="disperse" p="noun" ts="dɪsˈpɜːs" tr="разгон"/>
+    <d v="displace" p="verb" ts="dɪsˈpleɪs" tr="вытеснять; сворачивать; смещать; перемещать; переставлять"/>
+    <d v="displace" p="noun" ts="dɪsˈpleɪs" tr="вытеснение"/>
+    <d v="displacement" p="noun" ts="dɪsˈpleɪsmənt"
+       tr="перемещение; смещение; водоизмещение; вытеснение; замещение; производительность; литраж"/>
+    <d v="display" p="noun" ts="dɪsˈpleɪ" tr="дисплей; отображение; показ; проявление; экспозиция; хвастовство"/>
+    <d v="display" p="verb" ts="dɪsˈpleɪ" tr="отображать; отображаться; выводить; демонстрировать; хвастаться"/>
+    <d v="display" p="participle" ts="dɪsˈpleɪ" tr="отображаемый; показанный"/>
+    <d v="display" p="adjective" ts="dɪsˈpleɪ" tr="дисплейный"/>
+    <d v="displease" p="noun" ts="dɪsˈpliːz" tr="недовольство"/>
+    <d v="displease" p="verb" ts="dɪsˈpliːz" tr="не нравиться; раздражать; не угодить"/>
+    <d v="displeasure" p="noun" ts="dɪsˈpleʒə" tr="недовольство"/>
+    <d v="disposable" p="adjective" ts="dɪsˈpəʊzəbl" tr="одноразовый; устранимый; свободный"/>
+    <d v="disposable" p="noun" ts="dɪsˈpəʊzəbl" tr="расходный материал"/>
+    <d v="disposal" p="noun" ts="dɪsˈpəʊzəl"
+       tr="распоряжение; утилизация; удаление; размещение; продажа; избавление; водоотведение; передача"/>
+    <d v="dispose" p="verb" ts="dɪsˈpəʊz"
+       tr="распоряжаться; утилизировать; избавиться; удалить; выбрасывать; отчуждать; ликвидировать; располагаться"/>
+    <d v="dispose" p="noun" ts="dɪsˈpəʊz" tr="утилизация; распоряжение; избавление"/>
+    <d v="disposed" p="adjective" ts="dɪˈspəʊzd" tr="склонный"/>
+    <d v="disposed" p="participle" ts="dɪˈspəʊzd" tr="настроенный"/>
+    <d v="dispossess" p="verb" ts="ˈdɪspəˈzes" tr="изгнать; лишить"/>
+    <d v="disproportionate" p="adjective" ts="dɪsprəˈpɔːʃnɪt" tr="непропорциональный; диспропорциональный"/>
+    <d v="disproportionately" p="adverb" ts="dɪsprəˈpɔːʃənətlɪ" tr="непропорционально"/>
+    <d v="disprove" p="verb" ts="ˈdɪsˈpruːv" tr="опровергнуть"/>
+    <d v="disprove" p="noun" ts="ˈdɪsˈpruːv" tr="опровержение"/>
+    <d v="dispute" p="noun" ts="dɪsˈpjuːt" tr="конфликт; диспут; спорный вопрос"/>
+    <d v="dispute" p="verb" ts="dɪsˈpjuːt" tr="оспаривать; спорить; обсуждать; отрицать; ссориться"/>
+    <d v="dispute" p="adjective" ts="dɪsˈpjuːt" tr="спорный"/>
+    <d v="dispute" p="parenthetic" ts="dɪsˈpjuːt" tr="бесспорно"/>
+    <d v="disqualification" p="noun" ts="dɪskwɔlɪfɪˈkeɪʃn" tr="дисквалификация; отвод; отстранение"/>
+    <d v="disqualify" p="verb" ts="dɪsˈkwɔlɪfaɪ" tr="дисквалифицировать"/>
+    <d v="disqualify" p="noun" ts="dɪsˈkwɔlɪfaɪ" tr="дисквалификация"/>
+    <d v="disregard" p="noun" ts="ˈdɪsrɪˈgɑːd" tr="пренебрежение; игнорирование; равнодушие; забвение"/>
+    <d v="disregard" p="verb" ts="ˈdɪsrɪˈgɑːd" tr="игнорировать; оставлять; отбросить; оставить без внимания"/>
+    <d v="disregard" p="participle" ts="ˈdɪsrɪˈgɑːd" tr="пренебрегший"/>
+    <d v="disrepair" p="noun" ts="ˈdɪsrɪˈpɛə" tr="неисправность; негодность; плохое состояние"/>
+    <d v="disreputable" p="adjective" ts="dɪsˈrepjʊtəbl" tr="позорный"/>
+    <d v="disrepute" p="noun" ts="ˈdɪsrɪˈpjuːt" tr="дурная слава"/>
+    <d v="disrespect" p="noun" ts="ˈdɪsrɪsˈpekt" tr="неуважение; непочтение"/>
+    <d v="disrespect" p="verb" ts="ˈdɪsrɪsˈpekt" tr="не уважать"/>
+    <d v="disrespectful" p="adjective" ts="dɪsrɪsˈpektfʊl" tr="неуважительный"/>
+    <d v="disrespectful" p="noun" ts="dɪsrɪsˈpektfʊl" tr="неуважение"/>
+    <d v="disrespectfully" p="adverb" ts="dɪsrɪˈspektfəlɪ" tr="неуважительно"/>
+    <d v="disrupt" p="verb" ts="dɪsˈrʌpt"
+       tr="нарушить; сорвать; разрушать; подорвать; прервать; мешать; дезорганизовать; нарушиться; срываться"/>
+    <d v="disrupt" p="noun" ts="dɪsˈrʌpt" tr="срыв"/>
+    <d v="disruption" p="noun" ts="dɪsˈrʌpʃn" tr="нарушение; сбой; разрушение; срыв; дезорганизация; распад"/>
+    <d v="disruptive" p="adjective" ts="dɪsˈrʌptɪv" tr="разрушительный; подрывной; пробивной"/>
+    <d v="dissatisfaction" p="noun" ts="ˈdɪsˈsætɪsˈfækʃn" tr="недовольство"/>
+    <d v="dissatisfied" p="participle" ts="ˈdɪsˈsætɪsfaɪd" tr="недовольный"/>
+    <d v="dissatisfied" p="adjective" ts="ˈdɪsˈsætɪsfaɪd" tr="неудовлетворенный"/>
+    <d v="dissatisfied" p="noun" ts="ˈdɪsˈsætɪsfaɪd" tr="неудовлетворение"/>
+    <d v="dissect" p="verb" ts="dɪˈsekt"
+       tr="рассекать; препарировать; анализировать; анатомировать; расчленить; расчленять"/>
+    <d v="dissection" p="noun" ts="dɪˈsekʃn"
+       tr="вскрытие; рассечение; диссекция; препарирование; анатомирование; расчленение; разбор"/>
+    <d v="disseminate" p="verb" ts="dɪˈsemɪneɪt" tr="распространять; рассеять; сеять"/>
+    <d v="disseminate" p="noun" ts="dɪˈsemɪneɪt" tr="распространение"/>
+    <d v="dissemination" p="noun" ts="dɪsemɪˈneɪʃn" tr="распространение"/>
+    <d v="dissension" p="noun" ts="dɪˈsenʃn" tr="раздор; разногласие"/>
+    <d v="dissent" p="noun" ts="dɪˈsent" tr="инакомыслие; несогласие; раскол; расхождение во взглядах"/>
+    <d v="dissenter" p="adjective" ts="dɪˈsentə" tr="несогласный"/>
+    <d v="dissenter" p="noun" ts="dɪˈsentə" tr="диссидент; сектант"/>
+    <d v="dissertation" p="noun" ts="dɪsɜːˈteɪʃn" tr="диссертация; трактат"/>
+    <d v="dissertation" p="adjective" ts="dɪsɜːˈteɪʃn" tr="диссертационный"/>
+    <d v="disservice" p="noun" ts="ˈdɪsˈsɜːvɪs" tr="медвежья услуга; плохая услуга; ущерб"/>
+    <d v="dissidence" p="noun" ts="ˈdɪsɪdəns" tr="инакомыслие; диссидентство; раскол"/>
+    <d v="dissident" p="noun" ts="ˈdɪsɪdənt" tr="диссидент"/>
+    <d v="dissident" p="adjective" ts="ˈdɪsɪdənt" tr="инакомыслящий"/>
+    <d v="dissimilar" p="adjective" ts="ˈdɪˈsɪmɪlə" tr="непохожий; несходный; несхожий"/>
+    <d v="dissimilarity" p="noun" ts="dɪsɪmɪˈlærɪtɪ" tr="различие; непохожесть; несхожесть"/>
+    <d v="dissipate" p="verb" ts="ˈdɪsɪpeɪt" tr="рассеиваться; исчезнуть; развеяться; растрачивать; рассасываться"/>
+    <d v="dissipate" p="noun" ts="ˈdɪsɪpeɪt" tr="рассеивание"/>
+    <d v="dissociate" p="verb" ts="dɪˈsəʊʃɪeɪt" tr="отмежеваться; отделять; диссоциировать; разъединять; разобщать"/>
+    <d v="dissociation" p="noun" ts="dɪˈsəʊsɪˈeɪʃn"
+       tr="диссоциация; разобщенность; раздробленность; разобщение; размежевание; распад; отмежевание"/>
+    <d v="dissolute" p="adjective" ts="ˈdɪsəluːt" tr="развратный; беспутный; разгульный"/>
+    <d v="dissolute" p="participle" ts="ˈdɪsəluːt" tr="распущенный"/>
+    <d v="dissolution" p="noun" ts="dɪsəˈluːʃn"
+       tr="роспуск; растворение; распад; расторжение; ликвидация; исчезновение; таяние"/>
+    <d v="dissolve" p="verb" ts="dɪˈzɔlv"
+       tr="растворять; распустить; раствориться; распасться; расторгнуть; рассасываться; растаять; ликвидировать; рассосаться; распуститься"/>
+    <d v="dissolve" p="adverbial participle" ts="dɪˈzɔlv" tr="растворяясь"/>
+    <d v="dissolve" p="noun" ts="dɪˈzɔlv" tr="растворение; наплыв"/>
+    <d v="dissuade" p="verb" ts="dɪˈsweɪd" tr="отговорить; разубедить; убедить; разубеждать"/>
+    <d v="distance" p="noun" ts="ˈdɪstəns"
+       tr="расстояние; дистанция; удаленность; даль; промежуток; перспектива; сдержанность"/>
+    <d v="distance" p="adjective" ts="ˈdɪstəns" tr="дистанционный"/>
+    <d v="distance" p="verb" ts="ˈdɪstəns" tr="дистанцировать; отдалять"/>
+    <d v="distant" p="adjective" ts="ˈdɪstənt" tr="далекий; давний; сухой"/>
+    <d v="distant" p="participle" ts="ˈdɪstənt" tr="удаленный; холодный; сдержанный"/>
+    <d v="distant" p="adverb" ts="ˈdɪstənt" tr="вдали"/>
+    <d v="distaste" p="noun" ts="ˈdɪsˈteɪst" tr="отвращение; неприязнь"/>
+    <d v="distasteful" p="adjective" ts="dɪsˈteɪstfʊl" tr="неприятный"/>
+    <d v="distend" p="verb" ts="dɪsˈtend" tr="вспучивать; раздувать"/>
+    <d v="distention" p="noun" ts="dɪˈstenʃn" tr="вздутие; вздутие живота"/>
+    <d v="distill" p="verb" ts="dɪˈstɪl" tr="дистиллировать; перегонять"/>
+    <d v="distillation" p="noun" ts="dɪstɪˈleɪʃn" tr="дистилляция; выгонка; квинтэссенция"/>
+    <d v="distillery" p="noun" ts="dɪsˈtɪlərɪ" tr="завод; винокурня; винокуренный завод"/>
+    <d v="distillery" p="adjective" ts="dɪsˈtɪlərɪ" tr="ликероводочный; винокуренный"/>
+    <d v="distinct" p="adjective" ts="dɪsˈtɪŋkt" tr="различный; четкий; отдельный; определенный; явственный"/>
+    <d v="distinct" p="noun" ts="dɪsˈtɪŋkt" tr="отличие"/>
+    <d v="distinct" p="verb" ts="dɪsˈtɪŋkt" tr="отличаться"/>
+    <d v="distinct" p="participle" ts="dɪsˈtɪŋkt" tr="выраженный; отличающийся; ярко выраженный"/>
+    <d v="distinction" p="noun" ts="dɪsˈtɪŋkʃn"
+       tr="различие; разграничение; отличительная особенность; распознавание; известность; оригинальность; индивидуальность"/>
+    <d v="distinctive" p="adjective" ts="dɪsˈtɪŋktɪv" tr="отличительный; особый; самобытный; отчетливый"/>
+    <d v="distinctively" p="adverb" ts="dɪˈstɪŋktɪvlɪ" tr="отчетливо"/>
+    <d v="distinctly" p="adverb" ts="dɪsˈtɪŋktlɪ" tr="отчетливо"/>
+    <d v="distinguish" p="verb" ts="dɪsˈtɪŋgwɪʃ"
+       tr="отличать; отличаться; распознать; разграничить; отделить; отмечать"/>
+    <d v="distinguish" p="noun" ts="dɪsˈtɪŋgwɪʃ" tr="различие"/>
+    <d v="distinguish" p="adjective" ts="dɪsˈtɪŋgwɪʃ" tr="отличительный"/>
+    <d v="distinguishable" p="adjective" ts="dɪsˈtɪŋgwɪʃəbl" tr="различимый"/>
+    <d v="distinguished" p="adjective" ts="dɪsˈtɪŋgwɪʃt" tr="выдающийся"/>
+    <d v="distinguished" p="participle" ts="dɪsˈtɪŋgwɪʃt"
+       tr="уважаемый; отличающийся; отличившийся; выделяемый; выделяющийся"/>
+    <d v="distort" p="verb" ts="dɪsˈtɔːt" tr="искажать; искажаться; извращать; передергивать; искривлять; коверкать"/>
+    <d v="distort" p="noun" ts="dɪsˈtɔːt" tr="искажение"/>
+    <d v="distorted" p="noun" ts="dɪˈstɔːtɪd" tr="искажение"/>
+    <d v="distorted" p="participle" ts="dɪˈstɔːtɪd" tr="искаженный; деформированный"/>
+    <d v="distortion" p="noun" ts="dɪsˈtɔːʃn" tr="искажение; деформация; приписка"/>
+    <d v="distract" p="verb" ts="dɪsˈtrækt" tr="отвлекать; рассеивать; смущать"/>
+    <d v="distract" p="noun" ts="dɪsˈtrækt" tr="отвлечение"/>
+    <d v="distracted" p="adverbial participle" ts="dɪsˈtræktɪd" tr="отвлекаясь"/>
+    <d v="distracted" p="participle" ts="dɪsˈtræktɪd" tr="отвлеченный; расстроенный; обезумевший; отвлекающийся"/>
+    <d v="distraction" p="noun" ts="dɪsˈtrækʃn" tr="отвлечение; рассеянность; безумие"/>
+    <d v="distraction" p="verb" ts="dɪsˈtrækʃn" tr="отвлекать"/>
+    <d v="distraction" p="participle" ts="dɪsˈtrækʃn" tr="отвлекающий"/>
+    <d v="distraught" p="participle" ts="dɪsˈtrɔːt" tr="обезумевший; расстроенный; растерянный"/>
+    <d v="distraught" p="noun" ts="dɪsˈtrɔːt" tr="смятение; потерявший рассудок"/>
+    <d v="distraught" p="adjective" ts="dɪsˈtrɔːt" tr="смятенный"/>
+    <d v="distraught" p="adverbial participle" ts="dɪsˈtrɔːt" tr="обезумев от горя"/>
+    <d v="distress" p="noun" ts="dɪsˈtres"
+       tr="бедствие; беда; страдание; горе; расстройство; отчаяние; нужда; истощение; терпящее бедствие"/>
+    <d v="distress" p="verb" ts="dɪsˈtres" tr="огорчать"/>
+    <d v="distress" p="participle" ts="dɪsˈtres" tr="терпящий бедствие"/>
+    <d v="distressing" p="adjective" ts="dɪsˈtresɪŋ" tr="огорчительный; тревожный"/>
+    <d v="distressing" p="participle" ts="dɪsˈtresɪŋ" tr="мучительный"/>
+    <d v="distribute" p="verb" ts="dɪsˈtrɪbjuːt" tr="распространять; распределять; раздавать"/>
+    <d v="distribute" p="noun" ts="dɪsˈtrɪbjuːt" tr="распространение"/>
+    <d v="distribution" p="noun" ts="dɪstrɪˈbjuːʃn"
+       tr="распределение; дистрибутив; дистрибуция; дистрибьютор; расклад"/>
+    <d v="distribution" p="adjective" ts="dɪstrɪˈbjuːʃn" tr="распределительный"/>
+    <d v="distributor" p="noun" ts="dɪsˈtrɪbjʊtə" tr="дистрибьютор; распределитель; раздатчик; гудронатор"/>
+    <d v="distributor" p="adjective" ts="dɪsˈtrɪbjʊtə" tr="дистрибьюторский"/>
+    <d v="district" p="noun" ts="ˈdɪstrɪkt" tr="район; заречье"/>
+    <d v="district" p="adjective" ts="ˈdɪstrɪkt" tr="районный"/>
+    <d v="district attorney" p="noun" ts="ˈdɪstrɪkt əˈtɜːnɪ"
+       tr="окружной прокурор; районный прокурор; прокурор округа"/>
+    <d v="district court" p="noun" ts="ˈdɪstrɪkt kɔːt" tr="районный суд; окружной суд"/>
+    <d v="distrust" p="noun" ts="dɪsˈtrʌst" tr="недоверие; сомнение; недоверчивость"/>
+    <d v="distrust" p="verb" ts="dɪsˈtrʌst" tr="не доверять; сомневаться"/>
+    <d v="distrustful" p="adjective" ts="dɪsˈtrʌstfʊl" tr="недоверчивый"/>
+    <d v="distrustful" p="noun" ts="dɪsˈtrʌstfʊl" tr="недоверие"/>
+    <d v="disturb" p="verb" ts="dɪsˈtɜːb"
+       tr="беспокоить; нарушать; расстраивать; трогать; встревожить; возмущать; растревожить"/>
+    <d v="disturb" p="noun" ts="dɪsˈtɜːb" tr="беспокойство"/>
+    <d v="disturbance" p="noun" ts="dɪsˈtɜːbəns"
+       tr="нарушение; возмущение; беспорядок; волнение; беспокойство; повреждение"/>
+    <d v="disturbed" p="participle" ts="dɪˈstɜːbd"
+       tr="обеспокоенный; нарушенный; встревоженный; потревоженный; расстроенный"/>
+    <d v="disturbing" p="adjective" ts="dɪˈstɜːbɪŋ" tr="тревожный"/>
+    <d v="disturbing" p="participle" ts="dɪˈstɜːbɪŋ" tr="беспокоящий; тревожащий"/>
+    <d v="disturbing" p="noun" ts="dɪˈstɜːbɪŋ" tr="беспокойство"/>
+    <d v="disuse" p="noun" ts="ˈdɪsˈjuːs" tr="неиспользование; неупотребление"/>
+    <d v="ditch" p="noun" ts="dɪʧ" tr="канава; котлован; кювет"/>
+    <d v="ditch" p="verb" ts="dɪʧ" tr="окапывать; стоять насмерть"/>
+    <d v="dither" p="noun" ts="ˈdɪðə" tr="смятение; сглаживание"/>
+    <d v="dither" p="verb" ts="ˈdɪðə" tr="колебаться; дрожать"/>
+    <d v="ditty" p="noun" ts="ˈdɪtɪ" tr="песенка"/>
+    <d v="dive" p="noun" ts="daɪv" tr="погружение; пикирование; нырок; забегаловка; притон; кабачок"/>
+    <d v="dive" p="verb" ts="daɪv" tr="нырять; нырнуть; погружаться; пикировать; прыгнуть; понырять; поднырнуть"/>
+    <d v="diver" p="noun" ts="ˈdaɪvə" tr="дайвер; водолаз; гагара"/>
+    <d v="diverge" p="verb" ts="daɪˈvɜːʤ" tr="расходиться; отклоняться"/>
+    <d v="divergence" p="noun" ts="daɪˈvɜːʤəns" tr="расхождение; расходимость; бездеятельность"/>
+    <d v="divergent" p="adjective" ts="daɪˈvɜːʤənt" tr="различный; дивергентный; разнонаправленный"/>
+    <d v="divergent" p="participle" ts="daɪˈvɜːʤənt" tr="расходящийся; отклоняющийся"/>
+    <d v="divergent" p="verb" ts="daɪˈvɜːʤənt" tr="расходиться"/>
+    <d v="diverse" p="adjective" ts="daɪˈvɜːs" tr="разнообразный; многообразный; разнородный"/>
+    <d v="diverse" p="noun" ts="daɪˈvɜːs" tr="разнообразие"/>
+    <d v="diverse" p="verb" ts="daɪˈvɜːs" tr="отличаться разнообразием"/>
+    <d v="diversification" p="noun" ts="daɪvɜːsɪfɪˈkeɪʃn" tr="диверсификация"/>
+    <d v="diversify" p="verb" ts="daɪˈvɜːsɪfaɪ" tr="диверсифицировать; разнообразить"/>
+    <d v="diversify" p="noun" ts="daɪˈvɜːsɪfaɪ" tr="диверсификация"/>
+    <d v="diversion" p="noun" ts="daɪˈvɜːʃn"
+       tr="утечка; диверсия; отвлечение; переадресация; переключение; отклонение; водозабор; нецелевое использование; обход"/>
+    <d v="diversion" p="verb" ts="daɪˈvɜːʃn" tr="отвлечь"/>
+    <d v="diversion" p="adjective" ts="daɪˈvɜːʃn" tr="водозаборный"/>
+    <d v="diversity" p="noun" ts="daɪˈvɜːsɪtɪ" tr="разнообразие; многообразие; разнородность; многоплановость"/>
+    <d v="divert" p="verb" ts="daɪˈvɜːt"
+       tr="отвлечь; отвести; отклонить; перенаправить; увести; направить; развлекать"/>
+    <d v="divert" p="noun" ts="daɪˈvɜːt" tr="отвлечение"/>
+    <d v="divert" p="adverbial participle" ts="daɪˈvɜːt" tr="отвлекаясь"/>
+    <d v="divest" p="verb" ts="daɪˈvest" tr="лишить; снимать"/>
+    <d v="divide" p="verb" ts="dɪˈvaɪd" tr="разделить; распределять; расходиться; расчленить; дробить; голосовать"/>
+    <d v="divide" p="noun" ts="dɪˈvaɪd" tr="разрыв; разделение; водораздел"/>
+    <d v="dividend" p="noun" ts="ˈdɪvɪdend" tr="дивиденд; делимое"/>
+    <d v="dividend" p="adjective" ts="ˈdɪvɪdend" tr="дивидендный"/>
+    <d v="divider" p="noun" ts="dɪˈvaɪdə" tr="делитель; перегородка; рассекатель; циркуль"/>
+    <d v="divine" p="adjective" ts="dɪˈvaɪn" tr="божественный; пророческий"/>
+    <d v="divine" p="noun" ts="dɪˈvaɪn" tr="божество; богослов"/>
+    <d v="divine" p="verb" ts="dɪˈvaɪn" tr="предсказывать; предугадывать"/>
+    <d v="divinely" p="adverb" ts="dɪˈvaɪnlɪ" tr="божественно"/>
+    <d v="diving" p="noun" ts="ˈdaɪvɪŋ" tr="погружение"/>
+    <d v="diving" p="adjective" ts="ˈdaɪvɪŋ" tr="водолазный; подводной"/>
+    <d v="diving" p="participle" ts="ˈdaɪvɪŋ" tr="ныряющий; пикирующий"/>
+    <d v="divinity" p="noun" ts="dɪˈvɪnɪtɪ" tr="божественность; богословие"/>
+    <d v="divinity" p="adjective" ts="dɪˈvɪnɪtɪ" tr="божественный"/>
+    <d v="divisible" p="participle" ts="dɪˈvɪzəbl" tr="делимый"/>
+    <d v="divisible" p="adjective" ts="dɪˈvɪzəbl" tr="кратный"/>
+    <d v="division" p="noun" ts="dɪˈvɪʒən"
+       tr="отдел; разделение; раздел; разобщенность; граница; барьер; перегородка; голосование"/>
+    <d v="divisive" p="noun" ts="dɪˈvaɪsɪv" tr="разногласие"/>
+    <d v="divisive" p="participle" ts="dɪˈvaɪsɪv" tr="вызывающий разногласия"/>
+    <d v="divorce" p="noun" ts="dɪˈvɔːs" tr="развод; расторжение брака; разрыв"/>
+    <d v="divorce" p="verb" ts="dɪˈvɔːs" tr="развестись; развести; разойтись; отделять"/>
+    <d v="divorce" p="participle" ts="dɪˈvɔːs" tr="разведенный"/>
+    <d v="divorce" p="adjective" ts="dɪˈvɔːs" tr="бракоразводный"/>
+    <d v="divorced" p="participle" ts="dɪˈvɔːst" tr="разведенный; оторванный"/>
+    <d v="divulge" p="verb" ts="daɪˈvʌlʤ" tr="разглашать; разгласить"/>
+    <d v="divulge" p="noun" ts="daɪˈvʌlʤ" tr="разглашение"/>
+    <d v="Dixie" p="noun" ts="ˈdɪksɪ" tr="Дайна"/>
+    <d v="dizziness" p="noun" ts="ˈdɪzɪnɪs" tr="головокружение"/>
+    <d v="dizzy" p="noun" ts="ˈdɪzɪ" tr="головокружение"/>
+    <d v="dizzy" p="verb" ts="ˈdɪzɪ" tr="кружиться"/>
+    <d v="dizzy" p="adjective" ts="ˈdɪzɪ" tr="головокружительный"/>
+    <d v="dizzy" p="participle" ts="ˈdɪzɪ" tr="чувствующий головокружение"/>
+    <d v="DJ" p="noun" ts="ʤ" tr="диджей"/>
+    <d v="DJ" p="adjective" ts="ʤ" tr="диджейский"/>
+    <d v="DNA" p="noun" ts="ˈdiːəneɪ" tr="ДНК"/>
+    <d v="do" p="verb" ts="duː" tr="делать; выполнять; поступать; провести; обойтись; добиться; поделать; оказывать"/>
+    <d v="docile" p="adjective" ts="ˈdəʊsaɪl" tr="послушный; покладистый; понятливый"/>
+    <d v="dock" p="noun" ts="dɔk" tr="док; причал; стыковка; скамья подсудимых; панель; щавель; тупик"/>
+    <d v="dock" p="verb" ts="dɔk" tr="состыковать; причалить; закрепить"/>
+    <d v="dock" p="adjective" ts="dɔk" tr="доковый"/>
+    <d v="doctor" p="noun" ts="ˈdɔktə" tr="врач"/>
+    <d v="doctor" p="verb" ts="ˈdɔktə" tr="лечить; подделывать"/>
+    <d v="doctorate" p="noun" ts="ˈdɔktərɪt" tr="докторская степень; доктор"/>
+    <d v="doctorate" p="adjective" ts="ˈdɔktərɪt" tr="докторский"/>
+    <d v="doctrine" p="noun" ts="ˈdɔktrɪn" tr="доктрина; догмат"/>
+    <d v="document" p="noun" ts="ˈdɔkjʊmənt" tr="документ; документирование; свидетельство"/>
+    <d v="document" p="verb" ts="ˈdɔkjʊmənt" tr="документировать"/>
+    <d v="documentary" p="adjective" ts="dɔkjʊˈmentərɪ" tr="документальный"/>
+    <d v="documentary" p="noun" ts="dɔkjʊˈmentərɪ" tr="документалистика"/>
+    <d v="documentation" p="noun" ts="dɔkjʊmenˈteɪʃn" tr="документация; документы"/>
+    <d v="dodge" p="noun" ts="dɔʤ" tr="уловка; Додж; уклонение; осветление; обманное движение"/>
+    <d v="dodge" p="verb" ts="dɔʤ"
+       tr="увернуться; избегать; изворачиваться; увиливать; хитрить; прятаться; извернуться"/>
+    <d v="dodge" p="adverbial participle" ts="dɔʤ" tr="увертываясь"/>
+    <d v="DOE" p="noun" ts="dəʊ" tr="Министерство энергетики; лань; Доу; НОО; самка; самка оленя"/>
+    <d v="DOE" p="invariant" ts="dəʊ" tr="МЭ"/>
+    <d v="dog" p="noun" ts="dɔg" tr="собака"/>
+    <d v="dog" p="adjective" ts="dɔg" tr="собачий"/>
+    <d v="dog" p="verb" ts="dɔg" tr="выслеживать"/>
+    <d v="doggedly" p="adverb" ts="ˈdɒgɪdlɪ" tr="упорно"/>
+    <d v="doghouse" p="noun" ts="ˈdɒghaʊs" tr="будка; собачья будка"/>
+    <d v="dogma" p="noun" ts="ˈdɔgmə" tr="догма; вероучение"/>
+    <d v="dogmatic" p="adjective" ts="dɔgˈmætɪk" tr="догматический"/>
+    <d v="dogwood" p="noun" ts="ˈdɔgwʊd" tr="кизил"/>
+    <d v="doldrums" p="noun" ts="ˈdɔldrəmz" tr="депрессия"/>
+    <d v="dole" p="noun" ts="dəʊl" tr="пособие; МТЗ; доля; пособие по безработице; подачка"/>
+    <d v="dole" p="verb" ts="dəʊl" tr="скупо выдавать"/>
+    <d v="doleful" p="adjective" ts="ˈdəʊlfʊl" tr="скорбный; заупокойный"/>
+    <d v="doll" p="noun" ts="dɔl" tr="кукла; куколка"/>
+    <d v="doll" p="adjective" ts="dɔl" tr="кукольный"/>
+    <d v="dollar" p="noun" ts="ˈdɔlə" tr="доллар"/>
+    <d v="dollar" p="adjective" ts="ˈdɔlə" tr="долларовый"/>
+    <d v="dollhouse" p="adjective" ts="ˈdɒlhaʊs" tr="кукольный"/>
+    <d v="dollhouse" p="noun" ts="ˈdɒlhaʊs" tr="кукольный домик; кукольный дом"/>
+    <d v="dollop" p="noun" ts="ˈdɔləp" tr="кусок"/>
+    <d v="dolly" p="noun" ts="ˈdɔlɪ" tr="Долли; тележка; куколка"/>
+    <d v="dolphin" p="noun" ts="ˈdɒlfɪn" tr="дельфин; дельфинарий; белобочка"/>
+    <d v="dolphin" p="adjective" ts="ˈdɒlfɪn" tr="дельфиний"/>
+    <d v="domain" p="noun" ts="dəʊˈmeɪn" tr="домен; область; достояние; владение; поместье"/>
+    <d v="dome" p="noun" ts="dəʊm" tr="купол"/>
+    <d v="dome" p="adjective" ts="dəʊm" tr="купольный; Домский"/>
+    <d v="domestic" p="adjective" ts="dəʊˈmestɪk" tr="внутренний; домашний; семейный; ручной"/>
+    <d v="domestic" p="noun" ts="dəʊˈmestɪk" tr="прислуга"/>
+    <d v="domesticate" p="verb" ts="dəʊˈmestɪkeɪt" tr="приручить; одомашнивать; одомашнить"/>
+    <d v="domesticated" p="participle" ts="dəˈmestɪkeɪtɪd" tr="одомашненный; прирученный"/>
+    <d v="domesticity" p="noun" ts="dəʊmesˈtɪsɪtɪ" tr="семейственность; домашняя жизнь"/>
+    <d v="domicile" p="noun" ts="ˈdɔmɪsaɪl" tr="жительство; жилище; постоянное местожительство"/>
+    <d v="domicile" p="participle" ts="ˈdɔmɪsaɪl" tr="проживающий"/>
+    <d v="domicile" p="verb" ts="ˈdɔmɪsaɪl" tr="проживать"/>
+    <d v="dominance" p="noun" ts="ˈdɔmɪnəns" tr="господство"/>
+    <d v="dominant" p="participle" ts="ˈdɔmɪnənt" tr="доминирующий; преобладающий"/>
+    <d v="dominant" p="adjective" ts="ˈdɔmɪnənt" tr="доминантный"/>
+    <d v="dominant" p="noun" ts="ˈdɔmɪnənt" tr="доминанта; доминирование"/>
+    <d v="dominant" p="verb" ts="ˈdɔmɪnənt" tr="доминировать"/>
+    <d v="dominate" p="verb" ts="ˈdɔmɪneɪt" tr="доминировать; занимать; возвышаться; подчинить; подавлять; овладевать"/>
+    <d v="dominate" p="noun" ts="ˈdɔmɪneɪt" tr="доминирование"/>
+    <d v="domination" p="noun" ts="dɔmɪˈneɪʃn" tr="господство"/>
+    <d v="domineering" p="adjective" ts="dɔmɪˈnɪərɪŋ" tr="властный; высокомерный"/>
+    <d v="domineering" p="participle" ts="dɔmɪˈnɪərɪŋ" tr="доминирующий"/>
+    <d v="dominion" p="noun" ts="dəˈmɪnjən" tr="владычество; власть; доминион; владение"/>
+    <d v="Domino" p="noun" ts="ˈdɔmɪnəʊ" tr="домино; костяшка домино; кость домино"/>
+    <d v="donate" p="verb" ts="dəʊˈneɪt" tr="пожертвовать; подарить"/>
+    <d v="donate" p="noun" ts="dəʊˈneɪt" tr="пожертвование"/>
+    <d v="donation" p="noun" ts="dəʊˈneɪʃn" tr="пожертвование; дарение"/>
+    <d v="donation" p="adjective" ts="dəʊˈneɪʃn" tr="донорский"/>
+    <d v="done" p="participle" ts="dʌn" tr="сделанный"/>
+    <d v="donkey" p="noun" ts="ˈdɔŋkɪ" tr="осел; ишак"/>
+    <d v="donkey" p="adjective" ts="ˈdɔŋkɪ" tr="ослиный"/>
+    <d v="donor" p="noun" ts="ˈdəʊnə" tr="донор; даритель"/>
+    <d v="donor" p="adjective" ts="ˈdəʊnə" tr="донорский"/>
+    <d v="doodle" p="noun" ts="duːdl" tr="каракули; болван"/>
+    <d v="doom" p="noun" ts="duːm" tr="гибель; Дума; обреченность; приговор"/>
+    <d v="doom" p="verb" ts="duːm" tr="обрекать"/>
+    <d v="doom" p="adjective" ts="duːm" tr="роковой"/>
+    <d v="doomed" p="adjective" ts="duːmd" tr="обреченный"/>
+    <d v="doomsday" p="noun" ts="ˈduːmzdeɪ" tr="судный день; конец света; страшный суд; светопреставление"/>
+    <d v="doomsday" p="adjective" ts="ˈduːmzdeɪ" tr="судный"/>
+    <d v="door" p="noun" ts="dɔː" tr="дверь; дом; путь; заслонка"/>
+    <d v="door" p="adjective" ts="dɔː" tr="дверной"/>
+    <d v="doorbell" p="noun" ts="ˈdɔːbel" tr="звонок; дверь; дверной звонок"/>
+    <d v="doorbell" p="adjective" ts="ˈdɔːbel" tr="дверной"/>
+    <d v="doorknob" p="noun" ts="ˈdɔːnɒb" tr="ручка; дверная ручка"/>
+    <d v="doorknob" p="adjective" ts="ˈdɔːnɒb" tr="дверной"/>
+    <d v="doorman" p="noun" ts="ˈdɔːmæn" tr="швейцар"/>
+    <d v="doormat" p="noun" ts="ˈdɔːmæt" tr="коврик; тряпка"/>
+    <d v="doorstep" p="noun" ts="ˈdɔːstep" tr="порог"/>
+    <d v="doorway" p="noun" ts="ˈdɔːweɪ" tr="дверь; вход"/>
+    <d v="doorway" p="adjective" ts="ˈdɔːweɪ" tr="дверной"/>
+    <d v="dope" p="noun" ts="dəʊp"
+       tr="допинг; наркотик; дурман; аэролак; дурь; травка; кайф; дурак; информация; остолоп"/>
+    <d v="dopey" p="adjective" ts="ˈdəʊpɪ" tr="полусонный; вялый"/>
+    <d v="dopey" p="participle" ts="ˈdəʊpɪ" tr="одурманенный"/>
+    <d v="Dorm" p="noun" ts="dɔːm" tr="общежитие; общага"/>
+    <d v="dormant" p="participle" ts="ˈdɔːmənt" tr="спящий; бездействующий; скрытый"/>
+    <d v="dormant" p="verb" ts="ˈdɔːmənt" tr="бездействовать; дремать"/>
+    <d v="dormant" p="adjective" ts="ˈdɔːmənt" tr="неактивный"/>
+    <d v="dormant" p="noun" ts="ˈdɔːmənt" tr="покоя"/>
+    <d v="dormitory" p="noun" ts="ˈdɔːmɪtrɪ" tr="общежитие; общая спальня; спальный корпус"/>
+    <d v="dormitory" p="adjective" ts="ˈdɔːmɪtrɪ" tr="спальный"/>
+    <d v="dorsal" p="adjective" ts="ˈdɔːsəl" tr="спинной"/>
+    <d v="dosage" p="noun" ts="ˈdəʊsɪʤ" tr="дозировка"/>
+    <d v="dose" p="noun" ts="dəʊs" tr="доза"/>
+    <d v="dose" p="adjective" ts="dəʊs" tr="дозовый"/>
+    <d v="dose" p="participle" ts="dəʊs" tr="дозированный"/>
+    <d v="dose" p="verb" ts="dəʊs" tr="дозировать"/>
+    <d v="dossier" p="noun" ts="ˈdɔsɪeɪ" tr="досье; дело"/>
+    <d v="dot" p="noun" ts="dɔt" tr="точка; многоточие"/>
+    <d v="dot" p="adjective" ts="dɔt" tr="точечный"/>
+    <d v="dot" p="verb" ts="dɔt" tr="усеивать"/>
+    <d v="dote" p="verb" ts="dəʊt" tr="чаять; обожать"/>
+    <d v="dotted line" p="noun" ts="ˈdɔtɪdlaɪn" tr="пунктир; пунктирная линия"/>
+    <d v="double" p="adjective" ts="dʌbl" tr="двойной; двукратный; парный; махровый; двухстворчатый"/>
+    <d v="double" p="verb" ts="dʌbl" tr="удвоить; удваиваться; огибать; сдваивать"/>
+    <d v="double" p="noun" ts="dʌbl" tr="двойник; удвоение; двуличие"/>
+    <d v="double" p="participle" ts="dʌbl" tr="сдвоенный"/>
+    <d v="double-check" p="verb" ts="dʌbl-ʧek" tr="перепроверить; дважды проверить"/>
+    <d v="double chin" p="noun" ts="dʌbl ʧɪn" tr="двойной подбородок"/>
+    <d v="double-digit" p="adjective" ts="dʌbl-ˈdɪʤɪt" tr="двузначный"/>
+    <d v="double standard" p="noun" ts="ˈdʌblˈstændəd" tr="двойной стандарт; двойная мораль; двухместный стандарт"/>
+    <d v="doubly" p="adverb" ts="ˈdʌblɪ" tr="вдвойне; двояко; двойственно"/>
+    <d v="doubt" p="noun" ts="daʊt" tr="сомнение"/>
+    <d v="doubt" p="verb" ts="daʊt" tr="сомневаться; не доверять"/>
+    <d v="doubt" p="participle" ts="daʊt" tr="сомневающийся"/>
+    <d v="doubtful" p="adjective" ts="ˈdaʊtfʊl" tr="сомнительный; недостоверный; полный сомнений"/>
+    <d v="doubtful" p="noun" ts="ˈdaʊtfʊl" tr="сомнение"/>
+    <d v="doubtful" p="verb" ts="ˈdaʊtfʊl" tr="сомневаться"/>
+    <d v="doubtful" p="participle" ts="ˈdaʊtfʊl" tr="сомневающийся; колеблющийся"/>
+    <d v="doubtless" p="adverb" ts="ˈdaʊtlɪs" tr="несомненно"/>
+    <d v="doubtless" p="adjective" ts="ˈdaʊtlɪs" tr="несомненный"/>
+    <d v="doubtless" p="noun" ts="ˈdaʊtlɪs" tr="без сомнения"/>
+    <d v="doubtless" p="parenthetic" ts="ˈdaʊtlɪs" tr="бесспорно"/>
+    <d v="dough" p="noun" ts="dəʊ" tr="тесто; деньги"/>
+    <d v="doughnut" p="noun" ts="ˈdəʊnʌt" tr="пончик"/>
+    <d v="dour" p="adjective" ts="dʊə" tr="суровый; мрачный; непреклонный"/>
+    <d v="douse" p="verb" ts="daʊs" tr="погасить; облить; обдать"/>
+    <d v="dove" p="noun" ts="dʌv" tr="голубь"/>
+    <d v="dowdy" p="adjective" ts="ˈdaʊdɪ" tr="неряшливый; безвкусный; неэлегантный"/>
+    <d v="down" p="adverb" ts="daʊn" tr="вниз; вплоть; долой; свысока"/>
+    <d v="down" p="preposition" ts="daʊn" tr="по"/>
+    <d v="down" p="noun" ts="daʊn" tr="из строя; с ног; до конца; вдоль по"/>
+    <d v="downcast" p="adjective" ts="ˈdaʊnkɑːst" tr="удрученный; нисходящий"/>
+    <d v="downcast" p="adverbial participle" ts="ˈdaʊnkɑːst" tr="опустив"/>
+    <d v="downcast" p="participle" ts="ˈdaʊnkɑːst" tr="потупленный"/>
+    <d v="Downer" p="noun" ts="ˈdaʊnər" tr="Даунер"/>
+    <d v="downfall" p="noun" ts="ˈdaʊnfɔːl" tr="падение; крушение"/>
+    <d v="downgrade" p="noun" ts="daʊnˈgreɪd" tr="понижение"/>
+    <d v="downgrade" p="verb" ts="daʊnˈgreɪd" tr="понижать; понижать сортность; принизить"/>
+    <d v="downhill" p="noun" ts="ˈdaʊnˈhɪl" tr="спуск"/>
+    <d v="downhill" p="adjective" ts="ˈdaʊnˈhɪl" tr="горный"/>
+    <d v="download" p="verb" ts="ˈdaʊnləʊd" tr="скачать; загружать"/>
+    <d v="download" p="noun" ts="ˈdaʊnləʊd" tr="загрузка"/>
+    <d v="download" p="participle" ts="ˈdaʊnləʊd" tr="загружаемый; скачиваемый"/>
+    <d v="downplay" p="verb" ts="ˈdaʊnpleɪ" tr="преуменьшать; принижать; сгладить"/>
+    <d v="downpour" p="noun" ts="ˈdaʊnpɔː" tr="ливень"/>
+    <d v="downright" p="adverb" ts="ˈdaʊnraɪt" tr="прямо; совершенно"/>
+    <d v="downright" p="adjective" ts="ˈdaʊnraɪt" tr="прямой"/>
+    <d v="downsize" p="verb" ts="daʊnˈsaɪz" tr="уменьшить"/>
+    <d v="down&apos;s syndrome" p="noun" ts="daʊn&apos;ses ˈsɪndrəʊm" tr="синдром Дауна"/>
+    <d v="downstairs" p="adverb" ts="ˈdaʊnˈstɛəz" tr="вниз; внизу"/>
+    <d v="downstairs" p="verb" ts="ˈdaʊnˈstɛəz" tr="спуститься; спуститься вниз"/>
+    <d v="downstairs" p="noun" ts="ˈdaʊnˈstɛəz" tr="по лестнице; в нижнем этаже"/>
+    <d v="downstream" p="noun" ts="ˈdaʊnˈstriːm" tr="низовье; течение; нижний бьеф"/>
+    <d v="downstream" p="adjective" ts="ˈdaʊnˈstriːm" tr="нисходящий"/>
+    <d v="downtime" p="noun" ts="ˈdaʊntaɪm" tr="простой; время простоя; вынужденное бездействие"/>
+    <d v="downtown" p="noun" ts="ˈdaʊntaʊn" tr="центр; центр города; деловая часть города"/>
+    <d v="downtrodden" p="participle" ts="ˈdaʊntrɔdn" tr="угнетенный; забитый"/>
+    <d v="downtrodden" p="verb" ts="ˈdaʊntrɔdn" tr="втоптать"/>
+    <d v="downturn" p="noun" ts="ˈdaʊntɜːn" tr="спад; понижение; загиб"/>
+    <d v="downward" p="adverb" ts="ˈdaʊnwəd" tr="вниз"/>
+    <d v="downward" p="adjective" ts="ˈdaʊnwəd" tr="нисходящий"/>
+    <d v="downward" p="noun" ts="ˈdaʊnwəd" tr="понижение"/>
+    <d v="downward" p="participle" ts="ˈdaʊnwəd" tr="ухудшающийся"/>
+    <d v="downwards" p="adverb" ts="ˈdaʊnwədz" tr="вниз"/>
+    <d v="downwind" p="noun" ts="daʊnˈwɪnd" tr="по ветру"/>
+    <d v="downy" p="adjective" ts="ˈdaʊnɪ" tr="пуховой; пушистый"/>
+    <d v="downy" p="participle" ts="ˈdaʊnɪ" tr="опушенный"/>
+    <d v="dowry" p="noun" ts="ˈdaʊərɪ" tr="приданое; калым"/>
+    <d v="doze" p="noun" ts="dəʊz" tr="доза; дремота"/>
+    <d v="doze" p="verb" ts="dəʊz" tr="дремать; задремать"/>
+    <d v="dozen" p="noun" ts="dʌzn" tr="десяток; множество"/>
+    <d v="dozen" p="numeral" ts="dʌzn" tr="десять"/>
+    <d v="drab" p="adjective" ts="dræb" tr="серый; однообразный"/>
+    <d v="drab" p="noun" ts="dræb" tr="серость; однообразие"/>
+    <d v="draconian" p="adjective" ts="dreɪˈkəʊnjən" tr="драконовский"/>
+    <d v="draft" p="noun" ts="drɑːft" tr="проект; черновик; осадка; эскиз; призыв; чек; вербовка; набор"/>
+    <d v="draft" p="adjective" ts="drɑːft" tr="черновой; эскизный"/>
+    <d v="draftsman" p="noun" ts="ˈdrɑːftsmən" tr="чертежник"/>
+    <d v="drafty" p="noun" ts="ˈdrɑːftɪ" tr="сквозняк"/>
+    <d v="drag" p="verb" ts="dræg" tr="перетащить; тащить; таскать; оттащить; утащить; влачить; подтащить"/>
+    <d v="drag" p="noun" ts="dræg"
+       tr="перетаскивание; сопротивление; торможение; бремя; лобовое сопротивление; протекция"/>
+    <d v="dragon" p="noun" ts="ˈdrægən" tr="дракон; дракончик"/>
+    <d v="dragon" p="adjective" ts="ˈdrægən" tr="драконий"/>
+    <d v="drain" p="noun" ts="dreɪn" tr="канализация; утечка; слив; истощение"/>
+    <d v="drain" p="adjective" ts="dreɪn" tr="дренажный"/>
+    <d v="drain" p="verb" ts="dreɪn" tr="осушить; стечь; слить; истощать; фильтровать"/>
+    <d v="drainage" p="noun" ts="ˈdreɪnɪʤ" tr="дренаж; осушение; водоотлив"/>
+    <d v="drainage" p="adjective" ts="ˈdreɪnɪʤ" tr="дренажный; осушительный"/>
+    <d v="Drake" p="noun" ts="dreɪk" tr="Дрейк; селезень"/>
+    <d v="drama" p="noun" ts="ˈdrɑːmə" tr="драма; драматургия; драматизм; театральная постановка; драмкружок"/>
+    <d v="drama" p="adjective" ts="ˈdrɑːmə" tr="драматический"/>
+    <d v="dramatic" p="adjective" ts="drəˈmætɪk" tr="драматический; резкий; радикальный; эффектный"/>
+    <d v="dramatic" p="noun" ts="drəˈmætɪk" tr="драматургия"/>
+    <d v="dramatically" p="adverb" ts="drəˈmætɪklɪ" tr="значительно; кардинально"/>
+    <d v="dramatically" p="adjective" ts="drəˈmætɪklɪ" tr="резкий"/>
+    <d v="dramatics" p="noun" ts="drəˈmætɪks" tr="истерика"/>
+    <d v="dramatist" p="noun" ts="ˈdræmətɪst" tr="драматург"/>
+    <d v="dramatization" p="noun" ts="dræmətaɪˈzeɪʃn" tr="инсценировка; драматизация"/>
+    <d v="dramatize" p="verb" ts="ˈdræmətaɪz" tr="драматизировать; инсценировать; сгущать краски"/>
+    <d v="drape" p="noun" ts="dreɪp" tr="драпировка"/>
+    <d v="drape" p="verb" ts="dreɪp" tr="задрапировать; накинуть; драпировать"/>
+    <d v="drapery" p="noun" ts="ˈdreɪpərɪ" tr="драпировка"/>
+    <d v="drastic" p="adjective" ts="ˈdræstɪk" tr="резкий; радикальный; сильнодействующий"/>
+    <d v="drastically" p="adverb" ts="ˈdræstɪklɪ" tr="значительно; кардинально"/>
+    <d v="drastically" p="adjective" ts="ˈdræstɪklɪ" tr="резкий"/>
+    <d v="draw" p="verb" ts="drɔː"
+       tr="привлечь; рисовать; сделать; вытащить; извлечь; черпать; опираться; проводить; втянуть; оформлять; подходить; чертить; вызывать; настаивать; всасывать; выписывать; навлекать; вбирать; пускать"/>
+    <d v="draw" p="noun" ts="drɔː" tr="ничья; розыгрыш; рисование; тяга; вытягивание; приманка; выигрыш"/>
+    <d v="drawback" p="noun" ts="ˈdrɔːbæk" tr="недостаток; препятствие"/>
+    <d v="drawbridge" p="noun" ts="ˈdrɔːbrɪʤ" tr="подъемный мост"/>
+    <d v="drawbridge" p="adjective" ts="ˈdrɔːbrɪʤ" tr="разводной"/>
+    <d v="drawer" p="noun" ts="ˈdrɔːə" tr="ящик; ящик стола; комод; векселедатель; рисовальщик; трассант; составитель"/>
+    <d v="drawing" p="noun" ts="ˈdrɔːɪŋ"
+       tr="рисунок; рисование; розыгрыш; нанесение; составление; заимствование; эскиз; волочение; прорисовка; протягивание"/>
+    <d v="drawing" p="adjective" ts="ˈdrɔːɪŋ" tr="чертежный; графический"/>
+    <d v="drawing" p="participle" ts="ˈdrɔːɪŋ" tr="привлекающий; рисующий; черпающий"/>
+    <d v="drawing board" p="noun" ts="ˈdrɔːɪŋ bɔːd" tr="чертежная доска"/>
+    <d v="drawl" p="verb" ts="drɔːl" tr="растягивать слова"/>
+    <d v="drawl" p="adjective" ts="drɔːl" tr="тягучий"/>
+    <d v="drawl" p="noun" ts="drɔːl" tr="протяжное произношение"/>
+    <d v="drawn" p="participle" ts="drɔːn"
+       tr="нарисованный; составленный; привлеченный; взятый; рисованный; извлеченный; оттянутый; втянутый; притянутый; начерченный; почерпнутый; вытянутый; осунувшийся; притягиваемый"/>
+    <d v="drawn" p="noun" ts="drɔːn" tr="ничья"/>
+    <d v="drawn" p="verb" ts="drɔːn" tr="тяготеть"/>
+    <d v="dread" p="noun" ts="dred" tr="страх"/>
+    <d v="dread" p="verb" ts="dred" tr="бояться; страшиться"/>
+    <d v="dread" p="adjective" ts="dred" tr="страшный"/>
+    <d v="dreaded" p="adjective" ts="ˈdredɪd" tr="страшный"/>
+    <d v="dreadful" p="adjective" ts="ˈdredfʊl" tr="страшный"/>
+    <d v="dreadfully" p="adverb" ts="ˈdredfəlɪ" tr="ужасно"/>
+    <d v="dream" p="noun" ts="driːm" tr="мечта; сон; видение"/>
+    <d v="dream" p="verb" ts="driːm" tr="мечтать; сниться; думать; фантазировать; придумывать"/>
+    <d v="dreamer" p="noun" ts="ˈdriːmə" tr="мечтатель; фантазерка"/>
+    <d v="dreamer" p="adjective" ts="ˈdriːmə" tr="сновидящий"/>
+    <d v="dreamer" p="participle" ts="ˈdriːmə" tr="видящий сны"/>
+    <d v="dreamy" p="adjective" ts="ˈdriːmɪ" tr="мечтательный; сонный; сказочный; призрачный"/>
+    <d v="dreamy" p="noun" ts="ˈdriːmɪ" tr="мечтательность"/>
+    <d v="dreary" p="adjective" ts="ˈdrɪərɪ" tr="унылый; муторный; отчаянно скучный"/>
+    <d v="dredge" p="noun" ts="dreʤ" tr="экскаватор; Драга; земснаряд; взвесь"/>
+    <d v="dredge" p="verb" ts="dreʤ" tr="драгировать; углублять"/>
+    <d v="drench" p="verb" ts="drenʧ" tr="облить; залить; промокнуть"/>
+    <d v="dress" p="noun" ts="dres" tr="платье; одежда; одевание"/>
+    <d v="dress" p="verb" ts="dres"
+       tr="одеваться; одевать; переодеться; облачать; перевязывать; разделывать; обогащать; выделывать; обрабатывать; чистить"/>
+    <d v="dress" p="participle" ts="dres" tr="одетый"/>
+    <d v="dress" p="adjective" ts="dres" tr="парадный; плательный"/>
+    <d v="dress code" p="noun" ts="dres kəʊd" tr="одежда; форма одежды; стиль одежды"/>
+    <d v="dresser" p="noun" ts="ˈdresə" tr="комод; туалетный столик; костюмер; обогатитель; оформитель витрин"/>
+    <d v="dressing" p="noun" ts="ˈdresɪŋ"
+       tr="соус; раздевалка; повязка; одевание; декорирование; подкормка; обогащение; шлихта; правка; шлихтование"/>
+    <d v="dressing" p="adjective" ts="ˈdresɪŋ" tr="перевязочный; гримерный; махровый"/>
+    <d v="dressing" p="participle" ts="ˈdresɪŋ" tr="одевающий"/>
+    <d v="dressing room" p="noun" ts="ˈdresɪŋ ruːm" tr="раздевалка; уборная"/>
+    <d v="dressmaker" p="noun" ts="ˈdresmeɪkə" tr="портниха"/>
+    <d v="dress rehearsal" p="noun" ts="ˈdresrɪˈhɜːsəl" tr="репетиция; Генеральная репетиция"/>
+    <d v="dressy" p="adjective" ts="ˈdresɪ" tr="шикарный"/>
+    <d v="drew" p="noun" ts="druː" tr="Дрю"/>
+    <d v="drew" p="participle" ts="druː" tr="рисовавший"/>
+    <d v="dribble" p="noun" ts="drɪbl" tr="мяч; ведение; дриблинг; капля"/>
+    <d v="dribble" p="verb" ts="drɪbl" tr="капать; вести мяч"/>
+    <d v="dried" p="adjective" ts="draɪd" tr="сушеный"/>
+    <d v="dried" p="noun" ts="draɪd" tr="сушка"/>
+    <d v="dried" p="participle" ts="draɪd" tr="высушенный; осушенный; пересохший"/>
+    <d v="drier" p="noun" ts="ˈdraɪə" tr="осушитель"/>
+    <d v="drier" p="adjective" ts="ˈdraɪə" tr="сушильный"/>
+    <d v="drift" p="noun" ts="drɪft"
+       tr="дрейф; занос; снос; тенденция; самотек; нанос; штрек; сползание; пассивность; медленное течение"/>
+    <d v="drift" p="verb" ts="drɪft" tr="дрейфовать; плыть; отклоняться; сносить"/>
+    <d v="drift" p="participle" ts="drɪft" tr="дрейфующий; плывущий"/>
+    <d v="drifter" p="noun" ts="ˈdrɪftə" tr="проходчик; дрифтер; бродяга; летун"/>
+    <d v="driftwood" p="noun" ts="ˈdrɪftwʊd" tr="плавник; сплавной лес"/>
+    <d v="drill" p="noun" ts="drɪl"
+       tr="дрель; сверло; упражнение; сеялка; бормашина; муштра; коловорот; муштровка; тик"/>
+    <d v="drill" p="adjective" ts="drɪl" tr="буровой; строевой"/>
+    <d v="drill" p="verb" ts="drɪl" tr="просверлить; тренировать; сеять"/>
+    <d v="drink" p="noun" ts="drɪŋk" tr="напиток; глоток; стакан"/>
+    <d v="drink" p="verb" ts="drɪŋk" tr="пить; запивать; допить; распивать; пьянствовать; впитывать; вдыхать"/>
+    <d v="drink" p="adjective" ts="drɪŋk" tr="питьевой"/>
+    <d v="drinker" p="noun" ts="ˈdrɪŋkə" tr="пьяница; потатор; поилка"/>
+    <d v="drinker" p="participle" ts="ˈdrɪŋkə" tr="пьющий"/>
+    <d v="drinker" p="verb" ts="ˈdrɪŋkə" tr="пить"/>
+    <d v="drinking" p="adjective" ts="ˈdrɪŋkɪŋ" tr="питьевой"/>
+    <d v="drinking" p="participle" ts="ˈdrɪŋkɪŋ" tr="выпивающий"/>
+    <d v="drinking fountain" p="noun" ts="ˈdrɪŋkɪŋfaʊntɪn" tr="питьевой фонтанчик"/>
+    <d v="drinking water" p="noun" ts="ˈdrɪŋkɪŋ ˈwɔːtə" tr="питьевая вода; питьевое водоснабжение"/>
+    <d v="drip" p="adjective" ts="drɪp" tr="капельный"/>
+    <d v="drip" p="verb" ts="drɪp" tr="капать; капнуть"/>
+    <d v="drip" p="noun" ts="drɪp" tr="капля; капельница; капанье"/>
+    <d v="drip" p="participle" ts="drɪp" tr="капающий"/>
+    <d v="drive" p="noun" ts="draɪv"
+       tr="диск; привод; езда; вести; дорога; передача; стимул; кампания; гонка; тенденция; напористость; подъездная аллея; удар; сплав; спешка"/>
+    <d v="drive" p="verb" ts="draɪv"
+       tr="ехать; управлять; водить; гнать; изгнать; загнать; везти; вбивать; доводить; убедить; вколачивать"/>
+    <d v="drive" p="adjective" ts="draɪv" tr="приводной"/>
+    <d v="drivel" p="noun" ts="drɪvl" tr="чушь"/>
+    <d v="drivel" p="verb" ts="drɪvl" tr="пороть чушь"/>
+    <d v="driven" p="participle" ts="drɪvn"
+       tr="обусловленный; управляемый; изгнанный; ведомый; доведенный; загнанный; подгоняемый"/>
+    <d v="driver" p="noun" ts="ˈdraɪvə" tr="драйвер; водитель"/>
+    <d v="driver" p="participle" ts="ˈdraɪvə" tr="движущий"/>
+    <d v="driver&apos;s license" p="adjective" ts="ˈdraɪvə&apos;ses ˈlaɪsəns" tr="водительский"/>
+    <d v="driver&apos;s license" p="noun" ts="ˈdraɪvə&apos;ses ˈlaɪsəns" tr="водительские права"/>
+    <d v="driveway" p="noun" ts="ˈdraɪvweɪ" tr="дорога; подъездная дорога; подъездная аллея"/>
+    <d v="driveway" p="adjective" ts="ˈdraɪvweɪ" tr="подъездной"/>
+    <d v="driving" p="noun" ts="ˈdraɪvɪŋ" tr="вождение; автошкола; катание; передача"/>
+    <d v="driving" p="participle" ts="ˈdraɪvɪŋ"
+       tr="движущий; водящий; двигающийся; ведущий; едущий; въезжающий; проезжающий; разъезжающий"/>
+    <d v="driving" p="adjective" ts="ˈdraɪvɪŋ" tr="водительский; приводной"/>
+    <d v="drizzle" p="noun" ts="drɪzl" tr="морось; мелкий дождь"/>
+    <d v="drizzle" p="verb" ts="drɪzl" tr="моросить; сбрызнуть"/>
+    <d v="drizzle" p="participle" ts="drɪzl" tr="моросящий"/>
+    <d v="droll" p="adjective" ts="drəʊl" tr="забавный"/>
+    <d v="drone" p="noun" ts="drəʊn" tr="беспилотник; трутень; дрон; гул; Дронов; снаряд; робот; тунеядец"/>
+    <d v="drone" p="adjective" ts="drəʊn" tr="беспилотный"/>
+    <d v="drone" p="verb" ts="drəʊn" tr="гудеть; бубнить"/>
+    <d v="drool" p="noun" ts="druːl" tr="слюни; чепуха"/>
+    <d v="drool" p="verb" ts="druːl" tr="пускать слюни; нести чепуху"/>
+    <d v="droop" p="verb" ts="druːp" tr="свисать; опустить; обвисать; поникать; клониться к закату; увядать"/>
+    <d v="droop" p="noun" ts="druːp" tr="сутулость; наклон"/>
+    <d v="drooping" p="participle" ts="ˈdruːpɪŋ" tr="поникший; поникающий; свисающий; обвисший"/>
+    <d v="drop" p="noun" ts="drɔp" tr="капля; падение; снижение; глоток"/>
+    <d v="drop" p="verb" ts="drɔp"
+       tr="упасть; бросить; уронить; сбросить; опустить; спадать; высаживать; пропускать; проронить; отправлять"/>
+    <d v="dropout" p="noun" ts="ˈdrɒpaʊt" tr="отсев; выпадение; пропадание"/>
+    <d v="droppings" p="noun" ts="ˈdrɔpɪŋz" tr="помет"/>
+    <d v="drought" p="noun" ts="draʊt" tr="засуха; засухоустойчивость"/>
+    <d v="drought" p="adjective" ts="draʊt" tr="засушливый; засухоустойчивый"/>
+    <d v="drove" p="adverbial participle" ts="drəʊv" tr="заехав; проезжая; выгнав; въехав"/>
+    <d v="drove" p="noun" ts="drəʊv" tr="стадо"/>
+    <d v="drown" p="verb" ts="draʊn" tr="утонуть; заглушить; утопиться; затопить; утопать"/>
+    <d v="drown" p="participle" ts="draʊn" tr="утопающий"/>
+    <d v="drowning" p="participle" ts="ˈdraʊnɪŋ" tr="тонущий; утопающий; утонувший"/>
+    <d v="drowsily" p="adverb" ts="ˈdraʊzɪlɪ" tr="сонно; вяло"/>
+    <d v="drowsiness" p="noun" ts="ˈdraʊzɪnəs" tr="сонливость; дремота"/>
+    <d v="drowsy" p="adjective" ts="ˈdraʊzɪ" tr="сонный; дремотный; вялый"/>
+    <d v="drowsy" p="noun" ts="ˈdraʊzɪ" tr="сонливость"/>
+    <d v="drowsy" p="verb" ts="ˈdraʊzɪ" tr="задремать"/>
+    <d v="drudge" p="noun" ts="drʌʤ" tr="ломовая лошадь"/>
+    <d v="drudgery" p="noun" ts="ˈdrʌʤərɪ" tr="тяжелая работа; рутина; нудная работа"/>
+    <d v="drug" p="noun" ts="drʌg" tr="наркотик; препарат"/>
+    <d v="drug" p="adjective" ts="drʌg" tr="лекарственный"/>
+    <d v="drug addict" p="noun" ts="drʌg ˈædɪkt" tr="наркоман"/>
+    <d v="drug addict" p="adjective" ts="drʌg ˈædɪkt" tr="наркозависимый"/>
+    <d v="drug addiction" p="noun" ts="drʌg əˈdɪkʃn"
+       tr="наркомания; наркотическая зависимость; пристрастие к наркотикам"/>
+    <d v="drugstore" p="noun" ts="ˈdrʌgstɔː" tr="аптека; аптекарский магазин"/>
+    <d v="drum" p="noun" ts="drʌm" tr="барабан"/>
+    <d v="drum" p="adjective" ts="drʌm" tr="ударный"/>
+    <d v="drum" p="verb" ts="drʌm" tr="барабанить; топать"/>
+    <d v="drummer" p="noun" ts="ˈdrʌmə" tr="барабанщик"/>
+    <d v="drunk" p="adjective" ts="drʌŋk" tr="пьяный"/>
+    <d v="drunk" p="noun" ts="drʌŋk" tr="пьяница; пьянка"/>
+    <d v="drunk" p="participle" ts="drʌŋk" tr="выпитый; выпивший; подвыпивший; пьющий; опьяневший; напившийся"/>
+    <d v="drunkard" p="noun" ts="ˈdrʌŋkəd" tr="пьяница"/>
+    <d v="drunkard" p="adjective" ts="ˈdrʌŋkəd" tr="пьяный"/>
+    <d v="drunken" p="adjective" ts="ˈdrʌŋkən" tr="пьяный"/>
+    <d v="drunken" p="participle" ts="ˈdrʌŋkən" tr="подвыпивший"/>
+    <d v="drunkenly" p="adverb" ts="ˈdrʌŋkənlɪ" tr="пьяно"/>
+    <d v="drunkenness" p="noun" ts="ˈdrʌŋkənnəs" tr="пьянство; пьянка"/>
+    <d v="dry" p="adjective" ts="draɪ" tr="сухой; скучный; бесстрастный"/>
+    <d v="dry" p="verb" ts="draɪ" tr="сушить; высохнуть; иссякать"/>
+    <d v="dry" p="noun" ts="draɪ" tr="сухость; суша; засуха"/>
+    <d v="dryer" p="noun" ts="ˈdraɪə" tr="сушилка; зерносушилка"/>
+    <d v="dryer" p="adjective" ts="ˈdraɪə" tr="сушильный"/>
+    <d v="dry goods" p="noun" ts="ˈdraɪgʊdz" tr="галантерея"/>
+    <d v="dry ice" p="noun" ts="draɪ aɪs" tr="сухой лед"/>
+    <d v="dry land" p="noun" ts="draɪ lænd" tr="суша; сухая земля"/>
+    <d v="dryness" p="noun" ts="ˈdraɪnəs" tr="сухость"/>
+    <d v="dry run" p="noun" ts="draɪ rʌn" tr="прогон"/>
+    <d v="dual" p="adjective" ts="ˈdjuːəl" tr="двойной; двойственный"/>
+    <d v="dual" p="participle" ts="ˈdjuːəl" tr="сдвоенный"/>
+    <d v="dub" p="verb" ts="dʌb" tr="назвать; называть; дублировать; озвучить; ровнять"/>
+    <d v="dub" p="noun" ts="dʌb" tr="даб; дубляж"/>
+    <d v="dubious" p="adjective" ts="ˈdjuːbjəs" tr="сомнительный; неоднозначный"/>
+    <d v="dubious" p="participle" ts="ˈdjuːbjəs" tr="сомневающийся"/>
+    <d v="Duchess" p="noun" ts="ˈdʌʧɪs" tr="герцогиня; княгиня"/>
+    <d v="duck" p="noun" ts="dʌk" tr="утка; парусина"/>
+    <d v="duck" p="adjective" ts="dʌk" tr="утиный"/>
+    <d v="duck" p="verb" ts="dʌk" tr="нырнуть; пригнуться; окунать"/>
+    <d v="duckling" p="noun" ts="ˈdʌklɪŋ" tr="утенок"/>
+    <d v="duct" p="noun" ts="dʌkt" tr="канал; воздуховод; трубопровод; тракт"/>
+    <d v="duct" p="adjective" ts="dʌkt" tr="канальный"/>
+    <d v="dud" p="noun" ts="dʌd" tr="подделка; неразорвавшийся снаряд; рвань; неудачник"/>
+    <d v="dud" p="adjective" ts="dʌd" tr="неразорвавшийся"/>
+    <d v="dude" p="noun" ts="djuːd" tr="чувак; хлыщ; пижон"/>
+    <d v="due" p="adverbial participle" ts="djuː" tr="благодаря"/>
+    <d v="due" p="participle" ts="djuː" tr="связанный; обусловленный; причитающийся; ожидаемый"/>
+    <d v="due" p="preposition" ts="djuː" tr="вследствие"/>
+    <d v="due" p="adjective" ts="djuː" tr="должный"/>
+    <d v="due" p="noun" ts="djuː" tr="результат; должное"/>
+    <d v="duel" p="noun" ts="ˈdjuːəl" tr="поединок"/>
+    <d v="due process" p="noun" ts="djuː ˈprəʊses"
+       tr="надлежащая правовая процедура; надлежащая процедура; должный процесс"/>
+    <d v="duet" p="noun" ts="djuːˈet" tr="дуэт"/>
+    <d v="duffel bag" p="noun" ts="ˈdʌfəl bæg" tr="вещевой мешок"/>
+    <d v="dug" p="participle" ts="dʌg" tr="вырытый; прорытый"/>
+    <d v="dugout" p="noun" ts="ˈdʌgaʊt" tr="землянка; блиндаж"/>
+    <d v="Duke" p="noun" ts="djuːk" tr="герцог; Дьюк"/>
+    <d v="dull" p="adjective" ts="dʌl" tr="скучный; тупой; тусклый; монотонный; неясный; понурый"/>
+    <d v="dull" p="verb" ts="dʌl" tr="притуплять; потускнеть"/>
+    <d v="dullness" p="noun" ts="ˈdʌlnəs" tr="тупость; серость; скука; вялость; отупение"/>
+    <d v="duly" p="adjective" ts="ˈdjuːlɪ" tr="своевременный"/>
+    <d v="duly" p="adverb" ts="ˈdjuːlɪ" tr="своевременно"/>
+    <d v="dumb" p="adjective" ts="dʌm" tr="тупой; немой; бессловесный"/>
+    <d v="dumb" p="verb" ts="dʌm" tr="онеметь"/>
+    <d v="dumb" p="noun" ts="dʌm" tr="тупица"/>
+    <d v="dumb" p="participle" ts="dʌm" tr="онемевший"/>
+    <d v="dumbbell" p="noun" ts="ˈdʌmbel" tr="гантель"/>
+    <d v="dumbbell" p="adjective" ts="ˈdʌmbel" tr="гантельный"/>
+    <d v="dumbfounded" p="participle" ts="dʌmˈfaʊndɪd" tr="ошарашенный; ошеломленный"/>
+    <d v="dummy" p="noun" ts="ˈdʌmɪ" tr="манекен; чайник; пустышка; кукла; макет; болван; подставное лицо"/>
+    <d v="dummy" p="adjective" ts="ˈdʌmɪ" tr="фиктивный; холостой; учебный"/>
+    <d v="dump" p="noun" ts="dʌmp" tr="свалка"/>
+    <d v="dump" p="verb" ts="dʌmp" tr="сбросить; бросить; сваливать; избавиться; демпинговать; вываливать; ссыпать"/>
+    <d v="dump" p="adjective" ts="dʌmp" tr="самосвальный"/>
+    <d v="dumpling" p="noun" ts="ˈdʌmplɪŋ" tr="пельмень; клецка; коротышка"/>
+    <d v="dumpster" p="noun" ts="ˈdʌmpstər" tr="корзина"/>
+    <d v="dumpster" p="adjective" ts="ˈdʌmpstər" tr="мусорный"/>
+    <d v="dump truck" p="noun" ts="dʌmp trʌk" tr="самосвал; карьерный самосвал"/>
+    <d v="dumpy" p="adjective" ts="ˈdʌmpɪ" tr="коренастый; унылый"/>
+    <d v="dunce" p="noun" ts="dʌns" tr="болван; балбес; тупица"/>
+    <d v="dune" p="noun" ts="djuːn" tr="дюна"/>
+    <d v="dung" p="noun" ts="dʌŋ" tr="навоз"/>
+    <d v="dung" p="adjective" ts="dʌŋ" tr="навозный"/>
+    <d v="dungeon" p="noun" ts="ˈdʌnʤən" tr="подземелье; темница; подземная тюрьма"/>
+    <d v="dunk" p="verb" ts="dʌŋk" tr="замочить; окунуть; макать"/>
+    <d v="dunk" p="noun" ts="dʌŋk" tr="Дунк"/>
+    <d v="Duo" p="noun" ts="ˈdjuːəʊ" tr="дуэт"/>
+    <d v="dupe" p="verb" ts="djuːp" tr="обмануть; одурачивать"/>
+    <d v="dupe" p="participle" ts="djuːp" tr="обманутый"/>
+    <d v="dupe" p="noun" ts="djuːp" tr="простофиля; жертва обмана"/>
+    <d v="duplex" p="adjective" ts="ˈdjuːpleks" tr="дуплексный; двухсторонний; двухуровневый"/>
+    <d v="duplex" p="noun" ts="ˈdjuːpleks" tr="дуплекс"/>
+    <d v="duplex" p="participle" ts="ˈdjuːpleks" tr="сдвоенный"/>
+    <d v="duplicate" p="noun" ts="ˈdjuːplɪkɪt" tr="дубликат; дубль; повторение"/>
+    <d v="duplicate" p="verb" ts="ˈdjuːplɪkɪt" tr="дублировать; повторить; дуплицировать; удваивать"/>
+    <d v="duplicate" p="participle" ts="ˈdjuːplɪkɪt" tr="повторяющийся; дублированный; дублирующий"/>
+    <d v="duplicate" p="adjective" ts="ˈdjuːplɪkɪt" tr="двойной; запасной"/>
+    <d v="duplication" p="noun" ts="djuːplɪˈkeɪʃn" tr="дублирование; копирование; размножение; повторение; удвоение"/>
+    <d v="duplicity" p="noun" ts="djuːˈplɪsɪtɪ" tr="двуличие; двойственность; лживость"/>
+    <d v="durability" p="noun" ts="djʊərəˈbɪlɪtɪ"
+       tr="прочность; стойкость; длительность; продолжительность срока службы"/>
+    <d v="durability" p="adjective" ts="djʊərəˈbɪlɪtɪ" tr="прочностной"/>
+    <d v="durable" p="adjective" ts="ˈdjʊərəbl" tr="прочный; длительный; устойчивый"/>
+    <d v="durable" p="noun" ts="ˈdjʊərəbl" tr="долговечность"/>
+    <d v="duration" p="noun" ts="djʊəˈreɪʃn" tr="продолжительность"/>
+    <d v="duress" p="noun" ts="djʊəˈres" tr="принуждение; лишение свободы"/>
+    <d v="during" p="noun" ts="ˈdjʊərɪŋ" tr="во время; в течение; в продолжение"/>
+    <d v="during" p="preposition" ts="ˈdjʊərɪŋ" tr="за"/>
+    <d v="dusk" p="noun" ts="dʌsk" tr="сумерки"/>
+    <d v="dusk" p="adjective" ts="dʌsk" tr="сумеречный"/>
+    <d v="dusk" p="verb" ts="dʌsk" tr="смеркаться"/>
+    <d v="dust" p="noun" ts="dʌst" tr="пыль; запыленность; песок; труха"/>
+    <d v="dust" p="adjective" ts="dʌst" tr="пылевой"/>
+    <d v="dust" p="verb" ts="dʌst" tr="пылиться; запылиться; пылить"/>
+    <d v="dust" p="participle" ts="dʌst" tr="пылящий"/>
+    <d v="dust jacket" p="noun" ts="dʌst ˈʤækɪt" tr="суперобложка"/>
+    <d v="dustpan" p="noun" ts="ˈdʌstpæn" tr="совок; совок для мусора"/>
+    <d v="dusty" p="adjective" ts="ˈdʌstɪ" tr="пыльный; сухой; мелкий"/>
+    <d v="dusty" p="participle" ts="ˈdʌstɪ" tr="запыленный"/>
+    <d v="dusty" p="verb" ts="ˈdʌstɪ" tr="пылиться; запылиться"/>
+    <d v="Dutch" p="adjective" ts="dʌʧ" tr="голландский; немецкий"/>
+    <d v="Dutch" p="noun" ts="dʌʧ" tr="голландец"/>
+    <d v="dutiful" p="adjective" ts="ˈdjuːtɪfʊl" tr="послушный; почтительный"/>
+    <d v="dutifully" p="adverb" ts="ˈdjuːtɪfəlɪ" tr="послушно; добросовестно; прилежно"/>
+    <d v="duty" p="noun" ts="ˈdjuːtɪ"
+       tr="обязанность; пошлина; дежурство; работа; режим; повинность; мощность; почтение"/>
+    <d v="duty" p="adjective" ts="ˈdjuːtɪ" tr="дежурный; служебный"/>
+    <d v="duty" p="verb" ts="ˈdjuːtɪ" tr="дежурить"/>
+    <d v="dwarf" p="noun" ts="dwɔːf" tr="карлик"/>
+    <d v="dwarf" p="adjective" ts="dwɔːf" tr="карликовый"/>
+    <d v="dwell" p="verb" ts="dwel" tr="обитать; останавливаться; подробно останавливаться"/>
+    <d v="dweller" p="noun" ts="ˈdwelə" tr="житель"/>
+    <d v="dwelling" p="noun" ts="ˈdwelɪŋ" tr="жилище; обитание"/>
+    <d v="dwelling" p="adjective" ts="ˈdwelɪŋ" tr="жилой"/>
+    <d v="dwelling" p="participle" ts="ˈdwelɪŋ" tr="обитающий; пребывающий"/>
+    <d v="dwindle" p="verb" ts="dwɪndl" tr="сокращаться; вырождаться"/>
+    <d v="dwindling" p="participle" ts="ˈdwɪndlɪŋ" tr="сокращающийся; истощающийся; уменьшающийся"/>
+    <d v="dye" p="noun" ts="daɪ" tr="краситель; окраска; красящее вещество"/>
+    <d v="dye" p="verb" ts="daɪ" tr="покрасить; красить; выкрасить"/>
+    <d v="dye" p="adjective" ts="daɪ" tr="красильный"/>
+    <d v="dying" p="participle" ts="ˈdaɪɪŋ" tr="умирающий; вымирающий; угасающий; гибнущий"/>
+    <d v="dying" p="noun" ts="ˈdaɪɪŋ" tr="смерть; окрашивание"/>
+    <d v="dying" p="adjective" ts="ˈdaɪɪŋ" tr="предсмертный"/>
+    <d v="dyke" p="noun" ts="daɪk" tr="дамба; дайка"/>
+    <d v="dynamic" p="adjective" ts="daɪˈnæmɪk" tr="динамический; активный; функциональный"/>
+    <d v="dynamic" p="noun" ts="daɪˈnæmɪk" tr="динамика"/>
+    <d v="dynamic" p="participle" ts="daɪˈnæmɪk" tr="динамично развивающийся"/>
+    <d v="dynamics" p="noun" ts="daɪˈnæmɪks" tr="динамика"/>
+    <d v="dynamism" p="noun" ts="ˈdaɪnəmɪzm" tr="динамизм; динамичное развитие"/>
+    <d v="dynamite" p="noun" ts="ˈdaɪnəmaɪt" tr="динамит"/>
+    <d v="Dynamo" p="noun" ts="ˈdaɪnəməʊ" tr="Динамо"/>
+    <d v="dynasty" p="noun" ts="ˈdɪnəstɪ" tr="династия"/>
+    <d v="dysentery" p="noun" ts="ˈdɪsntrɪ" tr="дизентерия"/>
+    <d v="dysfunction" p="noun" ts="dɪsˈfʌŋkʃn" tr="дисфункция"/>
+    <d v="dysfunctional" p="adjective" ts="dɪsˈfʌŋkʃənl" tr="дисфункциональный; неблагополучный; недееспособный"/>
+    <d v="dysfunctional" p="noun" ts="dɪsˈfʌŋkʃənl" tr="дисфункция"/>
+    <d v="dyslexia" p="noun" ts="dɪsˈleksɪə" tr="дислексия"/>
+    <d v="dyslexic" p="noun" ts="dɪsˈleksɪk" tr="дислексия"/>
+
+</defs>

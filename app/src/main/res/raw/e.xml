@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="each other" p="noun" ts="iːʧ ˈʌðə"
+       tr="друг с другом; между собой; друг к другу; друг на друга; друг от друга; друг в друга; друг у друга; друг перед другом; друг для друга"/>
+    <d v="eager" p="verb" ts="ˈiːgə" tr="стремиться"/>
+    <d v="eager" p="adjective" ts="ˈiːgə"
+       tr="готовый; нетерпеливый; энергичный; полный страстного желания; жадный; усердный"/>
+    <d v="eager" p="participle" ts="ˈiːgə" tr="жаждущий; стремящийся; горячий"/>
+    <d v="eager" p="noun" ts="ˈiːgə" tr="желание; энтузиазм"/>
+    <d v="eager" p="adverb" ts="ˈiːgə" tr="охотно; страстно; наперебой"/>
+    <d v="eagerly" p="adverb" ts="ˈiːgəlɪ" tr="нетерпеливо; охотно; энергично; усердно"/>
+    <d v="eagerly" p="noun" ts="ˈiːgəlɪ" tr="с нетерпением; с удовольствием; с жадностью"/>
+    <d v="eagerness" p="noun" ts="ˈiːgənɪs" tr="стремление; рвение"/>
+    <d v="eagle" p="noun" ts="iːgl" tr="орел"/>
+    <d v="eagle" p="adjective" ts="iːgl" tr="орлиный"/>
+    <d v="ear" p="noun" ts="ɪə" tr="ухо; колос; дужка"/>
+    <d v="ear" p="adjective" ts="ɪə" tr="ушной"/>
+    <d v="ear" p="verb" ts="ɪə" tr="колоситься"/>
+    <d v="earache" p="noun" ts="ˈɪəreɪk" tr="боль в ухе"/>
+    <d v="eardrum" p="noun" ts="ˈɪədrʌm" tr="перепонка; барабанная перепонка"/>
+    <d v="earlobe" p="noun" ts="ˈɜːləʊb" tr="мочка; мочка уха"/>
+    <d v="early" p="adjective" ts="ˈɜːlɪ" tr="ранний; скорейший; древний; скороспелый"/>
+    <d v="early" p="noun" ts="ˈɜːlɪ" tr="начало"/>
+    <d v="early" p="numeral" ts="ˈɜːlɪ" tr="первый"/>
+    <d v="early" p="adverb" ts="ˈɜːlɪ" tr="пораньше; преждевременно; заблаговременно"/>
+    <d v="earmark" p="verb" ts="ˈɪəmɑːk" tr="ассигновать; предназначать"/>
+    <d v="earmark" p="noun" ts="ˈɪəmɑːk" tr="отличительный признак"/>
+    <d v="earn" p="verb" ts="ɜːn" tr="заработать; получить; заслужить; накапливать"/>
+    <d v="earn" p="noun" ts="ɜːn" tr="заработок"/>
+    <d v="earnest" p="adjective" ts="ˈɜːnɪst" tr="серьезный; искренний"/>
+    <d v="earnest" p="noun" ts="ˈɜːnɪst" tr="залог"/>
+    <d v="earnestly" p="adverb" ts="ˈɜːnɪstlɪ" tr="серьезно; усердно; убедительно; настойчиво"/>
+    <d v="earnestly" p="participle" ts="ˈɜːnɪstlɪ" tr="искренний"/>
+    <d v="earnestness" p="noun" ts="ˈɜːnɪstnəs" tr="серьезность; усердие"/>
+    <d v="earnings" p="noun" ts="ˈɜːnɪŋz" tr="доход"/>
+    <d v="earplug" p="noun" ts="ˈɪəplʌg" tr="затычка"/>
+    <d v="earring" p="noun" ts="ˈɪərɪŋ" tr="серьга"/>
+    <d v="earth" p="noun" ts="ɜːθ" tr="земля; прах"/>
+    <d v="earth" p="adjective" ts="ɜːθ" tr="земной"/>
+    <d v="earth" p="verb" ts="ɜːθ" tr="окучивать; заземлять; закапывать"/>
+    <d v="earth" p="noun" ts="ɜːθ" tr="земля; прах"/>
+    <d v="earth" p="adjective" ts="ɜːθ" tr="земной"/>
+    <d v="earth" p="verb" ts="ɜːθ" tr="окучивать; заземлять; закапывать"/>
+    <d v="earthly" p="adjective" ts="ˈɜːθlɪ" tr="земной"/>
+    <d v="earthquake" p="noun" ts="ˈɜːθkweɪk" tr="землетрясение; потрясение"/>
+    <d v="earthquake" p="adjective" ts="ˈɜːθkweɪk" tr="сейсмический"/>
+    <d v="earthshaking" p="adjective" ts="ˈɜːθʃeɪkɪŋ" tr="эпохальный"/>
+    <d v="earthworm" p="noun" ts="ˈɜːθwɜːm" tr="дождевой червь; червь; земляной червь"/>
+    <d v="earthy" p="adjective" ts="ˈɜːθɪ" tr="земной; землистый"/>
+    <d v="ease" p="noun" ts="iːz" tr="легкость; покой; свобода; праздность"/>
+    <d v="ease" p="verb" ts="iːz" tr="облегчить; ослабить; успокаивать; потравить; освобождать"/>
+    <d v="ease" p="adjective" ts="iːz" tr="непринужденный"/>
+    <d v="ease" p="participle" ts="iːz" tr="облегчающий"/>
+    <d v="easel" p="adjective" ts="iːzl" tr="станковый"/>
+    <d v="easel" p="noun" ts="iːzl" tr="мольберт; станковист"/>
+    <d v="easily" p="adverb" ts="ˈiːzɪlɪ" tr="легко; смело"/>
+    <d v="easily" p="noun" ts="ˈiːzɪlɪ" tr="с легкостью"/>
+    <d v="East" p="noun" ts="iːst" tr="Восток"/>
+    <d v="East" p="adjective" ts="iːst" tr="восточный"/>
+    <d v="Easter" p="noun" ts="ˈiːstə" tr="Пасха"/>
+    <d v="Easter" p="adjective" ts="ˈiːstə" tr="пасхальный"/>
+    <d v="Easter egg" p="noun" ts="ˈiːstə eg" tr="пасхальное яйцо; пасхальное яичко"/>
+    <d v="easterly" p="adjective" ts="ˈiːstəlɪ" tr="восточный"/>
+    <d v="Eastern" p="adjective" ts="ˈiːstən" tr="восточный"/>
+    <d v="Easterner" p="noun" ts="ˈiːstənə" tr="восточник"/>
+    <d v="eastward" p="noun" ts="ˈiːstwəd" tr="Восток"/>
+    <d v="eastwards" p="noun" ts="ˈiːstwədz" tr="на Восток"/>
+    <d v="easy" p="adjective" ts="ˈiːzɪ" tr="легкий; свободный; непринужденный; покладистый; естественный; пологий"/>
+    <d v="easy" p="adverb" ts="ˈiːzɪ" tr="легко"/>
+    <d v="easy" p="noun" ts="ˈiːzɪ" tr="простота"/>
+    <d v="easy chair" p="noun" ts="ˈiːzɪˈʧɛə" tr="кресло; мягкое кресло; легкий стул"/>
+    <d v="easygoing" p="adjective" ts="iːzɪˈgəʊɪŋ" tr="доброжелательный; покладистый"/>
+    <d v="eat" p="verb" ts="iːt" tr="есть; жрать; скушать; разъедать; доесть; доедать"/>
+    <d v="eat" p="noun" ts="iːt" tr="употребление"/>
+    <d v="eaten" p="participle" ts="iːtn" tr="съеденный"/>
+    <d v="eater" p="noun" ts="ˈiːtə" tr="пожиратель; едок; людоед"/>
+    <d v="eater" p="participle" ts="ˈiːtə" tr="Упивающийся"/>
+    <d v="eatery" p="noun" ts="ˈiːtərɪ" tr="закусочная; забегаловка"/>
+    <d v="eaves" p="noun" ts="iːvz" tr="карниз"/>
+    <d v="eavesdrop" p="verb" ts="ˈiːvzdrɔp" tr="подслушивать"/>
+    <d v="eavesdropper" p="participle" ts="ˈiːvzdrɔpə" tr="подслушивающий"/>
+    <d v="eavesdropper" p="verb" ts="ˈiːvzdrɔpə" tr="подслушивать"/>
+    <d v="eavesdropper" p="noun" ts="ˈiːvzdrɔpə" tr="соглядатай"/>
+    <d v="ebb" p="noun" ts="eb" tr="отлив; упадок"/>
+    <d v="ebb" p="verb" ts="eb" tr="угасать; убывать; отливать; ослабевать"/>
+    <d v="ebony" p="noun" ts="ˈebənɪ" tr="черное дерево; эбеновое дерево; негр"/>
+    <d v="ebony" p="adjective" ts="ˈebənɪ" tr="эбеновый"/>
+    <d v="ebullient" p="adjective" ts="ɪˈbʌljənt" tr="кипучий"/>
+    <d v="eccentric" p="adjective" ts="ɪkˈsentrɪk" tr="эксцентричный"/>
+    <d v="eccentric" p="noun" ts="ɪkˈsentrɪk" tr="эксцентрик; оригинал"/>
+    <d v="eccentricity" p="noun" ts="eksenˈtrɪsɪtɪ"
+       tr="эксцентриситет; эксцентричность; чудачество; странность; причуда; оригинальность; экстравагантность"/>
+    <d v="ecclesiastical" p="adjective" ts="ɪkliːzɪˈæstɪkəl" tr="церковный"/>
+    <d v="echo" p="noun" ts="ˈekəʊ" tr="эхо; отклик"/>
+    <d v="echo" p="verb" ts="ˈekəʊ" tr="вторить; повторить; перекликаться; подпевать; поддакивать; подражать"/>
+    <d v="eclipse" p="noun" ts="ɪˈklɪps" tr="затмение; помрачение"/>
+    <d v="eclipse" p="verb" ts="ɪˈklɪps" tr="затмить; затмевать"/>
+    <d v="ecological" p="adjective" ts="ekəˈlɔʤɪkəl" tr="экологический"/>
+    <d v="ecological" p="adverb" ts="ekəˈlɔʤɪkəl" tr="экологически"/>
+    <d v="ecological" p="noun" ts="ekəˈlɔʤɪkəl" tr="экологичность"/>
+    <d v="ecologically" p="adverb" ts="iːkəˈlɒʤɪklɪ" tr="экологически"/>
+    <d v="ecologically" p="adjective" ts="iːkəˈlɒʤɪklɪ" tr="экологический"/>
+    <d v="ecologist" p="noun" ts="iːˈkɒləʤɪst" tr="эколог"/>
+    <d v="ecology" p="noun" ts="ɪˈkɔləʤɪ" tr="экология; экологичность"/>
+    <d v="ecology" p="adjective" ts="ɪˈkɔləʤɪ" tr="экологический"/>
+    <d v="economic" p="adjective" ts="iːkəˈnɔmɪk" tr="экономический; практический"/>
+    <d v="economic" p="participle" ts="iːkəˈnɔmɪk" tr="хозяйствующий; рентабельный"/>
+    <d v="economical" p="adjective" ts="iːkəˈnɔmɪkəl" tr="экономический; экономный; материальный"/>
+    <d v="economical" p="adverb" ts="iːkəˈnɔmɪkəl" tr="экономически"/>
+    <d v="economical" p="noun" ts="iːkəˈnɔmɪkəl" tr="экономичность"/>
+    <d v="economically" p="adverb" ts="iːkəˈnɔmɪkəlɪ" tr="экономически; экономично; практично"/>
+    <d v="economically" p="adjective" ts="iːkəˈnɔmɪkəlɪ" tr="экономический"/>
+    <d v="economically" p="noun" ts="iːkəˈnɔmɪkəlɪ" tr="в экономическом отношении"/>
+    <d v="economics" p="noun" ts="iːkəˈnɔmɪks"
+       tr="экономика; экономическая теория; домоводство; народное хозяйство; политическая экономия"/>
+    <d v="economics" p="adjective" ts="iːkəˈnɔmɪks" tr="экономический"/>
+    <d v="economist" p="noun" ts="iːˈkɔnəmɪst" tr="экономист"/>
+    <d v="economize" p="verb" ts="iːˈkɔnəmaɪz" tr="экономить"/>
+    <d v="economize" p="noun" ts="iːˈkɔnəmaɪz" tr="экономия"/>
+    <d v="economy" p="noun" ts="iːˈkɔnəmɪ" tr="экономика; экономия; эконом; экономичность; бережливость; структура"/>
+    <d v="economy" p="adjective" ts="iːˈkɔnəmɪ" tr="экономичный"/>
+    <d v="ecosystem" p="noun" ts="ˈiːkəʊsɪstəm" tr="экосистема"/>
+    <d v="ecosystem" p="adjective" ts="ˈiːkəʊsɪstəm" tr="экосистемный"/>
+    <d v="ecstasy" p="noun" ts="ˈekstəsɪ" tr="экстаз; экстази"/>
+    <d v="ecstatic" p="adjective" ts="eksˈtætɪk" tr="экстатический; восторженный"/>
+    <d v="ecstatic" p="noun" ts="eksˈtætɪk" tr="восторг; в экстазе"/>
+    <d v="ecumenical" p="adjective" ts="iːkjuːˈmenɪkəl" tr="экуменический"/>
+    <d v="eczema" p="noun" ts="ˈeksɪmə" tr="экзема"/>
+    <d v="eddy" p="adjective" ts="ˈedɪ" tr="вихретоковый"/>
+    <d v="eddy" p="noun" ts="ˈedɪ" tr="Эдди; вихрь; маленький водоворот"/>
+    <d v="edge" p="noun" ts="eʤ" tr="край; преимущество; лезвие; обрез; острота; бордюр"/>
+    <d v="edge" p="adjective" ts="eʤ" tr="граничный"/>
+    <d v="edge" p="verb" ts="eʤ" tr="обрамлять; пролезать"/>
+    <d v="edgy" p="adjective" ts="ˈeʤɪ" tr="острый; раздражительный"/>
+    <d v="edgy" p="verb" ts="ˈeʤɪ" tr="нервничать"/>
+    <d v="edgy" p="participle" ts="ˈeʤɪ" tr="раздраженный"/>
+    <d v="edible" p="adjective" ts="ˈedɪbl" tr="съедобный"/>
+    <d v="edible" p="noun" ts="ˈedɪbl" tr="съестное"/>
+    <d v="edict" p="noun" ts="ˈiːdɪkt" tr="указ"/>
+    <d v="edification" p="noun" ts="edɪfɪˈkeɪʃn" tr="назидание"/>
+    <d v="edifice" p="noun" ts="eˈdɪfɪs" tr="здание; сооружение; доктрина"/>
+    <d v="edify" p="verb" ts="ˈedɪfaɪ" tr="назидать; наставлять"/>
+    <d v="edit" p="verb" ts="ˈedɪt" tr="редактировать; отредактировать; править; монтировать"/>
+    <d v="edit" p="noun" ts="ˈedɪt" tr="редактирование; изменение"/>
+    <d v="edit" p="participle" ts="ˈedɪt" tr="редактируемый"/>
+    <d v="edition" p="noun" ts="ɪˈdɪʃn" tr="издание; копия"/>
+    <d v="editor" p="noun" ts="ˈedɪtə" tr="редактор; монтажер"/>
+    <d v="editorial" p="noun" ts="edɪˈtɔːrɪəl" tr="редакция; передовица"/>
+    <d v="editorial" p="adjective" ts="edɪˈtɔːrɪəl" tr="редакционный"/>
+    <d v="educate" p="verb" ts="ˈedjuːkeɪt"
+       tr="воспитывать; обучать; просвещать; обучить; образовывать; получить образование; давать образование"/>
+    <d v="educate" p="noun" ts="ˈedjuːkeɪt" tr="образование"/>
+    <d v="educated" p="adjective" ts="ˈedjuːkeɪtɪd" tr="образованный"/>
+    <d v="educated" p="noun" ts="ˈedjuːkeɪtɪd" tr="образование; образованный человек"/>
+    <d v="educated" p="participle" ts="ˈedjuːkeɪtɪd" tr="воспитанный; обученный; обучавшийся"/>
+    <d v="education" p="noun" ts="edjuːˈkeɪʃn" tr="образование; культура; образованность; развитие"/>
+    <d v="education" p="adjective" ts="edjuːˈkeɪʃn" tr="образовательный"/>
+    <d v="educational" p="adjective" ts="edjuːˈkeɪʃənl" tr="образовательный; просветительский"/>
+    <d v="educational" p="noun" ts="edjuːˈkeɪʃənl" tr="образование"/>
+    <d v="educational" p="participle" ts="edjuːˈkeɪʃənl" tr="обучающий"/>
+    <d v="educationally" p="adverb" ts="edjuːˈkeɪʃnəlɪ" tr="педагогически"/>
+    <d v="educator" p="noun" ts="ˈedjuːkeɪtə" tr="педагог"/>
+    <d v="eel" p="noun" ts="iːl" tr="угорь"/>
+    <d v="eerie" p="adjective" ts="ˈɪərɪ" tr="жуткий; зловещий; сверхъестественный"/>
+    <d v="eerily" p="adverb" ts="ˈɪərəlɪ" tr="жутко; пугающе; жутковато; зловеще"/>
+    <d v="effect" p="noun" ts="ɪˈfekt" tr="эффект; результат; спецэффект; цель; сущность; впечатление"/>
+    <d v="effect" p="verb" ts="ɪˈfekt" tr="сказываться; осуществлять"/>
+    <d v="effective" p="adjective" ts="ɪˈfektɪv" tr="эффективный"/>
+    <d v="effective" p="participle" ts="ɪˈfektɪv" tr="действующий"/>
+    <d v="effectively" p="adverb" ts="ɪˈfektɪvlɪ" tr="эффективно"/>
+    <d v="effectiveness" p="noun" ts="ɪˈfektɪvnəs" tr="эффективность; эффектность"/>
+    <d v="effeminate" p="adjective" ts="ɪˈfemɪnɪt" tr="женоподобный; женственный; изнеженный; слабый"/>
+    <d v="effervescence" p="noun" ts="efəˈvesns" tr="вскипание"/>
+    <d v="effervescent" p="adjective" ts="efəˈvesnt" tr="шипучий; кипучий"/>
+    <d v="efficiency" p="noun" ts="ɪˈfɪʃnsɪ" tr="эффективность; деловитость; дееспособность; умение; подготовленность"/>
+    <d v="efficient" p="adjective" ts="ɪˈfɪʃənt"
+       tr="эффективный; продуктивный; четкий; квалифицированный; боеспособный"/>
+    <d v="efficient" p="noun" ts="ɪˈfɪʃənt" tr="сомножитель"/>
+    <d v="efficiently" p="adverb" ts="ɪˈfɪʃntlɪ" tr="эффективно"/>
+    <d v="effigy" p="noun" ts="ˈefɪʤɪ" tr="чучело"/>
+    <d v="effort" p="noun" ts="ˈefət" tr="усилие; достижение"/>
+    <d v="effortless" p="noun" ts="ˈefətlɪs" tr="усилие; без усилий"/>
+    <d v="effortless" p="adjective" ts="ˈefətlɪs" tr="легкий; пассивный"/>
+    <d v="effortless" p="participle" ts="ˈefətlɪs" tr="не требующий усилий"/>
+    <d v="effortlessly" p="noun" ts="ˈefətləslɪ" tr="усилие; без усилий; без малейших усилий"/>
+    <d v="effortlessly" p="adverb" ts="ˈefətləslɪ" tr="легко; играючи"/>
+    <d v="effusive" p="adjective" ts="ɪˈfjuːsɪv" tr="экспансивный"/>
+    <d v="egalitarian" p="adjective" ts="ɪgælɪˈtɛərɪən" tr="эгалитарный; уравнительный"/>
+    <d v="egalitarianism" p="noun" ts="ɪgælɪˈteərɪənɪzəm" tr="эгалитаризм; уравниловка"/>
+    <d v="egg" p="noun" ts="eg" tr="яйцо"/>
+    <d v="egg" p="adjective" ts="eg" tr="яичный"/>
+    <d v="egg" p="verb" ts="eg" tr="науськивать"/>
+    <d v="egghead" p="noun" ts="ˈeghed" tr="умник; интеллигент; эрудит"/>
+    <d v="egghead" p="adjective" ts="ˈeghed" tr="яйцеголовый"/>
+    <d v="eggplant" p="noun" ts="ˈegplɑːnt" tr="баклажан"/>
+    <d v="eggshell" p="noun" ts="ˈegʃel" tr="скорлупа; яичная скорлупа"/>
+    <d v="ego" p="noun" ts="ˈegəʊ" tr="эго; эгоизм; субъект"/>
+    <d v="egocentric" p="adjective" ts="egəʊˈsentrɪk" tr="эгоцентричный; эгоцентрический"/>
+    <d v="egotism" p="noun" ts="ˈegəʊtɪzm" tr="эгоизм; самомнение; самовлюбленность"/>
+    <d v="egotist" p="noun" ts="ˈegəʊtɪst" tr="эгоист; эгоцентрист; эготист"/>
+    <d v="egotistical" p="adjective" ts="ɪgəˈtɪstɪkl" tr="эгоистический"/>
+    <d v="egregious" p="adjective" ts="ɪˈgriːʤəs" tr="вопиющий; отъявленный"/>
+    <d v="eh" p="interjection" ts="eɪ" tr="эх"/>
+    <d v="eight" p="numeral" ts="eɪt" tr="восемь; восьмой"/>
+    <d v="eight" p="noun" ts="eɪt" tr="восьмерка"/>
+    <d v="eighteen" p="numeral" ts="eɪˈtiːn" tr="восемнадцать"/>
+    <d v="eighteen" p="adjective" ts="eɪˈtiːn" tr="восемнадцатилетний"/>
+    <d v="eighteenth" p="numeral" ts="eɪˈtiːnθ" tr="восемнадцатый"/>
+    <d v="eighth" p="numeral" ts="eɪtθ" tr="восьмой"/>
+    <d v="eightieth" p="numeral" ts="ˈeɪtɪɪθ" tr="восьмидесятый"/>
+    <d v="eighty" p="numeral" ts="ˈeɪtɪ" tr="восемьдесят"/>
+    <d v="either" p="conjunction" ts="ˈaɪðə" tr="либо; или; ни"/>
+    <d v="either" p="pronoun" ts="ˈaɪðə" tr="любой"/>
+    <d v="ejaculate" p="noun" ts="ɪˈʤækjʊleɪt" tr="эякулят; эякуляция"/>
+    <d v="ejaculate" p="verb" ts="ɪˈʤækjʊleɪt" tr="эякулировать; восклицать"/>
+    <d v="ejaculation" p="noun" ts="ɪʤækjʊˈleɪʃn" tr="эякуляция; восклицание"/>
+    <d v="eject" p="verb" ts="iːˈʤekt" tr="извлечь; выбрасывать; изгонять; катапультироваться; вытолкнуть"/>
+    <d v="eject" p="noun" ts="iːˈʤekt" tr="извлечение"/>
+    <d v="ejection" p="noun" ts="iːˈʤekʃn" tr="выброс; изгнание; выбрасывание; катапультирование"/>
+    <d v="eke" p="verb" ts="iːk" tr="влачить"/>
+    <d v="elaborate" p="verb" ts="ɪˈlæbərɪt"
+       tr="разработать; уточнить; тщательно разработать; тщательно разрабатывать"/>
+    <d v="elaborate" p="adjective" ts="ɪˈlæbərɪt" tr="сложный; подробный"/>
+    <d v="elaborate" p="noun" ts="ɪˈlæbərɪt" tr="разработка"/>
+    <d v="elaborate" p="participle" ts="ɪˈlæbərɪt" tr="разработанный; тщательно разработанный"/>
+    <d v="elaborately" p="adverb" ts="ɪˈlæbərətlɪ" tr="тщательно"/>
+    <d v="elaboration" p="noun" ts="ɪlæbəˈreɪʃn" tr="разработка; выработка"/>
+    <d v="elapse" p="verb" ts="ɪˈlæps" tr="истечь; проходить"/>
+    <d v="elastic" p="adjective" ts="ɪˈlæstɪk" tr="упругий"/>
+    <d v="elastic" p="noun" ts="ɪˈlæstɪk" tr="резинка; упругость"/>
+    <d v="elasticity" p="noun" ts="elæsˈtɪsɪtɪ" tr="эластичность"/>
+    <d v="elasticity" p="adjective" ts="elæsˈtɪsɪtɪ" tr="эластичный"/>
+    <d v="elated" p="noun" ts="ɪˈleɪtɪd" tr="приподнятое настроение; в приподнятом настроении"/>
+    <d v="elated" p="adjective" ts="ɪˈleɪtɪd" tr="ликующий"/>
+    <d v="elated" p="participle" ts="ɪˈleɪtɪd" tr="окрыленный"/>
+    <d v="elation" p="noun" ts="ɪˈleɪʃn" tr="восторг; душевный подъем; приподнятость; приподнятое настроение"/>
+    <d v="elbow" p="noun" ts="ˈelbəʊ" tr="локоть"/>
+    <d v="elbow" p="adjective" ts="ˈelbəʊ" tr="локтевой"/>
+    <d v="elbow" p="verb" ts="ˈelbəʊ" tr="протискиваться"/>
+    <d v="elder" p="noun" ts="ˈeldə" tr="старейшина; староста; бузина; старшина"/>
+    <d v="elder" p="adjective" ts="ˈeldə" tr="старший"/>
+    <d v="elderly" p="adjective" ts="ˈeldəlɪ" tr="пожилой"/>
+    <d v="elect" p="verb" ts="ɪˈlekt" tr="избрать; решить"/>
+    <d v="elect" p="adjective" ts="ɪˈlekt" tr="избранный"/>
+    <d v="elect" p="participle" ts="ɪˈlekt" tr="избираемый"/>
+    <d v="elect" p="noun" ts="ɪˈlekt" tr="избранник"/>
+    <d v="election" p="adjective" ts="ɪˈlekʃn" tr="избирательный"/>
+    <d v="election" p="noun" ts="ɪˈlekʃn" tr="избрание; выборы"/>
+    <d v="elective" p="adjective" ts="ɪˈlektɪv" tr="выборный; Факультативный"/>
+    <d v="elective" p="noun" ts="ɪˈlektɪv" tr="факультатив; выборность"/>
+    <d v="electoral" p="adjective" ts="ɪˈlektərəl" tr="избирательный"/>
+    <d v="electoral college" p="noun" ts="ɪˈlektərəl ˈkɔlɪʤ" tr="коллегия выборщиков; избирательная коллегия"/>
+    <d v="electorate" p="noun" ts="ɪˈlektərɪt" tr="электорат"/>
+    <d v="electric" p="adjective" ts="ɪˈlektrɪk" tr="электрический; электронагревательный; поразительный"/>
+    <d v="electric" p="noun" ts="ɪˈlektrɪk" tr="электроэнергия; электропривод"/>
+    <d v="electrical" p="adjective" ts="ɪˈlektrɪkəl" tr="электрический; электротехнический"/>
+    <d v="electrical" p="noun" ts="ɪˈlektrɪkəl" tr="электрооборудование; электротехника"/>
+    <d v="electric chair" p="noun" ts="ɪˈlektrɪkˈʧɛə" tr="электрический стул"/>
+    <d v="electrician" p="noun" ts="ɪlekˈtrɪʃn" tr="электрик"/>
+    <d v="electricity" p="noun" ts="ɪlekˈtrɪsɪtɪ" tr="электричество"/>
+    <d v="electricity" p="adjective" ts="ɪlekˈtrɪsɪtɪ" tr="электрический"/>
+    <d v="electric razor" p="noun" ts="ɪˈlektrɪk ˈreɪzə" tr="электробритва; электрическая бритва"/>
+    <d v="electric shock" p="noun" ts="ɪˈlektrɪk ʃɔk"
+       tr="электрический ток; электрический удар; удар электрическим током"/>
+    <d v="electrify" p="verb" ts="ɪˈlektrɪfaɪ" tr="электрифицировать; электризовать; наэлектризовать"/>
+    <d v="electrify" p="noun" ts="ɪˈlektrɪfaɪ" tr="электрификация"/>
+    <d v="electrifying" p="participle" ts="ɪˈlektrɪfaɪɪŋ" tr="электризующий"/>
+    <d v="electrocution" p="noun" ts="ɪlektrəˈkjuːʃn" tr="электрический ток"/>
+    <d v="electrode" p="noun" ts="ɪˈlektrəʊd" tr="электрод"/>
+    <d v="electrode" p="adjective" ts="ɪˈlektrəʊd" tr="электродный"/>
+    <d v="electrolysis" p="noun" ts="ɪlekˈtrɔlɪsɪs" tr="электролиз; электроэпиляция"/>
+    <d v="electrolysis" p="adjective" ts="ɪlekˈtrɔlɪsɪs" tr="электролизный"/>
+    <d v="electron" p="noun" ts="ɪˈlektrɔn" tr="электрон"/>
+    <d v="electron" p="adjective" ts="ɪˈlektrɔn" tr="электронный"/>
+    <d v="electronic" p="adjective" ts="ɪlekˈtrɔnɪk" tr="электронный"/>
+    <d v="electronic" p="noun" ts="ɪlekˈtrɔnɪk" tr="электроника"/>
+    <d v="electronically" p="adjective" ts="ɪlekˈtrɒnɪklɪ" tr="электронный"/>
+    <d v="electronically" p="noun" ts="ɪlekˈtrɒnɪklɪ"
+       tr="в электронном виде; электронная форма; с помощью электроники"/>
+    <d v="electronic mail" p="noun" ts="ɪlekˈtrɔnɪk meɪl" tr="электронная почта"/>
+    <d v="electronics" p="noun" ts="ɪlekˈtrɔnɪks" tr="электроника; автоэлектроника"/>
+    <d v="elegance" p="noun" ts="ˈelɪgəns" tr="элегантность; изящество; изысканность; отточенность"/>
+    <d v="elegant" p="adjective" ts="ˈelɪgənt" tr="элегантный; изящный; прекрасный"/>
+    <d v="elegantly" p="adverb" ts="ˈelɪgəntlɪ" tr="элегантно"/>
+    <d v="elegantly" p="adjective" ts="ˈelɪgəntlɪ" tr="элегантный"/>
+    <d v="element" p="noun" ts="ˈelɪmənt" tr="элемент; стихия; подразделение; составная часть; секция; след"/>
+    <d v="elemental" p="adjective" ts="elɪˈmentl" tr="элементарный; стихийный; изначальный"/>
+    <d v="elemental" p="noun" ts="elɪˈmentl" tr="элементаль; стихия"/>
+    <d v="elementary" p="adjective" ts="elɪˈmentərɪ" tr="элементарный; начальный; простейший"/>
+    <d v="elementary school" p="noun" ts="elɪˈmentərɪ skuːl" tr="начальная школа"/>
+    <d v="elements" p="adjective" ts="ˈelɪmənts" tr="составной"/>
+    <d v="elephant" p="noun" ts="ˈelɪfənt" tr="слон; слоненок; слониха"/>
+    <d v="elephant" p="adjective" ts="ˈelɪfənt" tr="слоновий"/>
+    <d v="elevate" p="verb" ts="ˈelɪveɪt" tr="поднять; возвышать; возвести; приподнять; превозносить"/>
+    <d v="elevate" p="noun" ts="ˈelɪveɪt" tr="повышение; возвышение"/>
+    <d v="elevate" p="participle" ts="ˈelɪveɪt" tr="возводящийся"/>
+    <d v="elevation" p="noun" ts="elɪˈveɪʃn" tr="высота; возвышение; подъем; повышение; фасад; рельеф; перепад высот"/>
+    <d v="Elevator" p="noun" ts="ˈelɪveɪtə" tr="Лифт; элеватор; руль высоты"/>
+    <d v="Elevator" p="adjective" ts="ˈelɪveɪtə" tr="лифтовый"/>
+    <d v="eleven" p="numeral" ts="ɪˈlevn" tr="одиннадцать; одиннадцатый"/>
+    <d v="eleventh" p="numeral" ts="ɪˈlevnθ" tr="одиннадцатый"/>
+    <d v="elf" p="noun" ts="elf" tr="эльф"/>
+    <d v="elfin" p="adjective" ts="ˈelfɪn" tr="эльфийский; проказливый; волшебный"/>
+    <d v="elfin" p="noun" ts="ˈelfɪn" tr="стланик"/>
+    <d v="elicit" p="verb" ts="ɪˈlɪsɪt"
+       tr="вызвать; выявить; добиться; выпытывать; выпрашивать; извлекать; допытываться"/>
+    <d v="eligibility" p="noun" ts="elɪʤəˈbɪlɪtɪ" tr="приемлемость; право на избрание"/>
+    <d v="eligible" p="noun" ts="ˈelɪʤəbl" tr="право"/>
+    <d v="eligible" p="adjective" ts="ˈelɪʤəbl" tr="приемлемый"/>
+    <d v="eliminate" p="verb" ts="ɪˈlɪmɪneɪt"
+       tr="устранить; исключить; уничтожить; избавиться; искоренить; очищать; выделять; игнорировать"/>
+    <d v="eliminate" p="noun" ts="ɪˈlɪmɪneɪt" tr="устранение"/>
+    <d v="elimination" p="noun" ts="ɪlɪmɪˈneɪʃn" tr="ликвидация; устранение; отсев; отсеивание"/>
+    <d v="elimination" p="adjective" ts="ɪlɪmɪˈneɪʃn" tr="отборочный"/>
+    <d v="elite" p="noun" ts="eɪˈliːt" tr="элита; отборная часть; цвет"/>
+    <d v="elite" p="adjective" ts="eɪˈliːt" tr="элитный"/>
+    <d v="elitism" p="noun" ts="ɪˈliːtɪzəm" tr="элитарность"/>
+    <d v="elitist" p="adjective" ts="ɪˈliːtɪst" tr="элитарный"/>
+    <d v="elitist" p="noun" ts="ɪˈliːtɪst" tr="элитарность"/>
+    <d v="elk" p="noun" ts="elk" tr="лось"/>
+    <d v="elk" p="adjective" ts="elk" tr="Лосиный"/>
+    <d v="elliptical" p="adjective" ts="ɪˈlɪptɪkəl" tr="эллиптический"/>
+    <d v="elliptical" p="noun" ts="ɪˈlɪptɪkəl" tr="эллипс"/>
+    <d v="elm" p="noun" ts="elm" tr="вяз; карагач"/>
+    <d v="elongate" p="adjective" ts="ˈiːlɔŋgeɪt" tr="удлиненный"/>
+    <d v="elongate" p="participle" ts="ˈiːlɔŋgeɪt" tr="вытянутый"/>
+    <d v="elongate" p="verb" ts="ˈiːlɔŋgeɪt" tr="удлиняться"/>
+    <d v="elongated" p="adjective" ts="ˈiːlɒŋgeɪtɪd" tr="удлиненный"/>
+    <d v="elongated" p="participle" ts="ˈiːlɒŋgeɪtɪd" tr="вытянутый"/>
+    <d v="elope" p="verb" ts="ɪˈləʊp" tr="сбежать; тайно сбежать"/>
+    <d v="elopement" p="noun" ts="ɪˈləʊpmənt" tr="тайное бегство"/>
+    <d v="eloquence" p="noun" ts="ˈeləʊkwəns" tr="красноречие; красноречивость"/>
+    <d v="eloquent" p="adjective" ts="ˈeləʊkwənt" tr="красноречивый"/>
+    <d v="eloquently" p="adverb" ts="ˈeləkwəntlɪ" tr="красноречиво"/>
+    <d v="else" p="pronoun" ts="els" tr="другое; остальное; иное"/>
+    <d v="else" p="particle" ts="els" tr="еще"/>
+    <d v="else" p="adverb" ts="els" tr="иначе"/>
+    <d v="else" p="preposition" ts="els" tr="кроме"/>
+    <d v="elsewhere" p="noun" ts="ˈelsˈwɛə" tr="другое место; в другом месте"/>
+    <d v="elsewhere" p="adverb" ts="ˈelsˈwɛə" tr="везде"/>
+    <d v="elucidate" p="verb" ts="ɪˈluːsɪdeɪt" tr="разъяснить; освещать; объяснить"/>
+    <d v="elucidate" p="noun" ts="ɪˈluːsɪdeɪt" tr="выяснение"/>
+    <d v="elude" p="verb" ts="ɪˈluːd" tr="ускользать; избежать; уклониться"/>
+    <d v="elusive" p="adjective" ts="ɪˈluːsɪv" tr="неуловимый; иллюзорный; уклончивый"/>
+    <d v="elusive" p="participle" ts="ɪˈluːsɪv" tr="ускользающий"/>
+    <d v="elusive" p="verb" ts="ɪˈluːsɪv" tr="ускользать"/>
+    <d v="emaciated" p="adjective" ts="ɪˈmeɪʃɪeɪtɪd" tr="изможденный"/>
+    <d v="emaciated" p="participle" ts="ɪˈmeɪʃɪeɪtɪd" tr="истощенный; изнуренный"/>
+    <d v="emanate" p="verb" ts="ˈeməneɪt" tr="исходить; излучать; вытекать; происходить; истекать"/>
+    <d v="emanate" p="noun" ts="ˈeməneɪt" tr="эманировать"/>
+    <d v="emancipate" p="verb" ts="ɪˈmænsɪpeɪt" tr="освободить; эмансипировать; раскрепостить"/>
+    <d v="emancipated" p="participle" ts="ɪˈmænsɪpeɪtɪd" tr="эмансипированный; освобожденный"/>
+    <d v="emancipation" p="noun" ts="ɪmænsɪˈpeɪʃn" tr="освобождение; эмансипация; раскрепощенность"/>
+    <d v="embalm" p="verb" ts="ɪmˈbɑːm" tr="бальзамировать; набальзамировать; забальзамировать"/>
+    <d v="embankment" p="noun" ts="ɪmˈbæŋkmənt" tr="набережная; насыпь"/>
+    <d v="embargo" p="noun" ts="emˈbɑːgəʊ" tr="эмбарго; запрет"/>
+    <d v="embark" p="verb" ts="ɪmˈbɑːk" tr="приступить; отправиться; встать; вступить; предпринять; взяться; грузить"/>
+    <d v="embarrass" p="verb" ts="ɪmˈbærəs"
+       tr="смущать; опозорить; оконфузить; конфузить; затруднять; стеснять; обременять"/>
+    <d v="embarrass" p="noun" ts="ɪmˈbærəs" tr="неловкое положение"/>
+    <d v="embarrassed" p="participle" ts="ɪmˈbærəst" tr="смущенный; растерянный"/>
+    <d v="embarrassed" p="noun" ts="ɪmˈbærəst" tr="смущение"/>
+    <d v="embarrassed" p="adverb" ts="ɪmˈbærəst" tr="неловко"/>
+    <d v="embarrassing" p="adjective" ts="ɪmˈbærəsɪŋ" tr="неловкий; неприятный; постыдный; стеснительный"/>
+    <d v="embarrassing" p="participle" ts="ɪmˈbærəsɪŋ" tr="смущающий"/>
+    <d v="embarrassingly" p="adverb" ts="ɪmˈbærəsɪŋlɪ" tr="смущающе"/>
+    <d v="embarrassment" p="noun" ts="ɪmˈbærəsmənt" tr="смущение; затруднение; стыд; неловкость; конфуз; помеха"/>
+    <d v="embassy" p="noun" ts="ˈembəsɪ" tr="посольство"/>
+    <d v="embed" p="participle" ts="ɪmˈbed" tr="встроенный"/>
+    <d v="embed" p="verb" ts="ɪmˈbed" tr="вставлять; встраивать; внедрить; врезать"/>
+    <d v="embed" p="noun" ts="ɪmˈbed" tr="встраивание"/>
+    <d v="embellish" p="verb" ts="ɪmˈbelɪʃ" tr="украшать"/>
+    <d v="embellish" p="noun" ts="ɪmˈbelɪʃ" tr="украшение"/>
+    <d v="embellishment" p="noun" ts="ɪmˈbelɪʃmənt" tr="украшение; приукрашивание"/>
+    <d v="ember" p="noun" ts="ˈembə" tr="уголек; Эмбер; последние красные угольки"/>
+    <d v="embezzle" p="verb" ts="ɪmˈbezl" tr="присвоить; растрачивать"/>
+    <d v="embezzlement" p="noun" ts="ɪmˈbezlmənt" tr="хищение; казнокрадство"/>
+    <d v="embezzler" p="noun" ts="ɪmˈbezlər" tr="казнокрад; растратчик"/>
+    <d v="embitter" p="verb" ts="ɪmˈbɪtə" tr="озлобить; озлоблять; ожесточать"/>
+    <d v="embittered" p="participle" ts="ɪmˈbɪtəd" tr="озлобленный; обозленный"/>
+    <d v="emblem" p="noun" ts="ˈembləm" tr="эмблема"/>
+    <d v="embodiment" p="noun" ts="ɪmˈbɔdɪmənt" tr="воплощение; вариант осуществления; слияние"/>
+    <d v="embody" p="verb" ts="ɪmˈbɔdɪ" tr="воплощать; включать; воплотиться; осуществлять"/>
+    <d v="embody" p="noun" ts="ɪmˈbɔdɪ" tr="воплощение"/>
+    <d v="emboss" p="noun" ts="ɪmˈbɔs" tr="тиснение"/>
+    <d v="emboss" p="verb" ts="ɪmˈbɔs" tr="чеканить"/>
+    <d v="embossed" p="noun" ts="ɪmˈbɒst" tr="тиснение; с тиснением"/>
+    <d v="embossed" p="adjective" ts="ɪmˈbɒst" tr="рельефный"/>
+    <d v="embrace" p="verb" ts="ɪmˈbreɪs" tr="обнять; охватывать; принять; включать; воспользоваться; избирать"/>
+    <d v="embrace" p="noun" ts="ɪmˈbreɪs" tr="объятие"/>
+    <d v="embroider" p="verb" ts="ɪmˈbrɔɪdə" tr="вышивать; приукрашивать; расшить"/>
+    <d v="embroider" p="noun" ts="ɪmˈbrɔɪdə" tr="вышивка"/>
+    <d v="embroidery" p="noun" ts="ɪmˈbrɔɪdərɪ" tr="вышивка; вышитое изделие"/>
+    <d v="embroidery" p="adjective" ts="ɪmˈbrɔɪdərɪ" tr="вышивальный"/>
+    <d v="embroidery" p="verb" ts="ɪmˈbrɔɪdərɪ" tr="вышивать"/>
+    <d v="embroil" p="verb" ts="ɪmˈbrɔɪl" tr="поссорить; втянуть"/>
+    <d v="embryo" p="noun" ts="ˈembrɪəʊ" tr="эмбрион"/>
+    <d v="embryo" p="adjective" ts="ˈembrɪəʊ" tr="эмбриональный"/>
+    <d v="embryonic" p="adjective" ts="embrɪˈɔnɪk" tr="эмбриональный; зачаточный"/>
+    <d v="embryonic" p="noun" ts="embrɪˈɔnɪk" tr="зародыш"/>
+    <d v="embryonic" p="participle" ts="embrɪˈɔnɪk" tr="зарождающийся"/>
+    <d v="emcee" p="noun" ts="ˈeməsiː" tr="конферансье"/>
+    <d v="emerald" p="adjective" ts="ˈemərəld" tr="изумрудный"/>
+    <d v="emerald" p="noun" ts="ˈemərəld" tr="изумруд"/>
+    <d v="emerge" p="verb" ts="ɪˈmɜːʤ"
+       tr="возникать; выйти; проявляться; всплывать; сформироваться; сложиться; выступать; выявиться; выясняться"/>
+    <d v="emergence" p="noun" ts="ɪˈmɜːʤəns" tr="появление; выход"/>
+    <d v="emergency" p="adjective" ts="ɪˈmɜːʤənsɪ"
+       tr="чрезвычайный; экстренный; неотложный; запасной; авральный; вспомогательный"/>
+    <d v="emergency" p="noun" ts="ɪˈmɜːʤənsɪ"
+       tr="авария; скорая помощь; крайняя необходимость; непредвиденный случай; критическое положение"/>
+    <d v="emergency brake" p="noun" ts="ɪˈmɜːʤənsɪ breɪk" tr="аварийный тормоз; экстренное торможение"/>
+    <d v="emergency room" p="noun" ts="ɪˈmɜːʤənsɪ ruːm" tr="отделение скорой помощи"/>
+    <d v="emergent" p="participle" ts="ɪˈmɜːʤənt" tr="возникающий"/>
+    <d v="emergent" p="adjective" ts="ɪˈmɜːʤənt" tr="эмерджентный; новый"/>
+    <d v="Emeritus" p="adjective" ts="iːˈmerɪtəs" tr="почетный"/>
+    <d v="emigrant" p="noun" ts="ˈemɪgrənt" tr="эмигрант; выходец"/>
+    <d v="emigrant" p="adjective" ts="ˈemɪgrənt" tr="переселенческий"/>
+    <d v="emigrate" p="verb" ts="ˈemɪgreɪt" tr="эмигрировать; переезжать"/>
+    <d v="emigration" p="noun" ts="emɪˈgreɪʃn" tr="эмиграция"/>
+    <d v="eminent" p="adjective" ts="ˈemɪnənt" tr="выдающийся"/>
+    <d v="Emir" p="noun" ts="eˈmɪə" tr="эмир"/>
+    <d v="emirate" p="noun" ts="eˈmɪəreɪt" tr="эмират"/>
+    <d v="emissary" p="noun" ts="ˈemɪsərɪ" tr="эмиссар; лазутчик"/>
+    <d v="emission" p="noun" ts="ɪˈmɪʃn" tr="выброс; эмиссия; излучение; распространение; поллюция"/>
+    <d v="emission" p="adjective" ts="ɪˈmɪʃn" tr="эмиссионный"/>
+    <d v="emit" p="verb" ts="ɪˈmɪt" tr="излучать; выбрасывать; издавать"/>
+    <d v="Emmy" p="noun" ts="ˈemɪ" tr="Эмми"/>
+    <d v="emotion" p="noun" ts="ɪˈməʊʃn" tr="эмоция; волнение; эмоциональность; душевное волнение"/>
+    <d v="emotional" p="adjective" ts="ɪˈməʊʃənl" tr="эмоциональный"/>
+    <d v="emotional" p="noun" ts="ɪˈməʊʃənl" tr="эмоциональность"/>
+    <d v="emotional" p="participle" ts="ɪˈməʊʃənl" tr="взволнованный"/>
+    <d v="emotionally" p="adverb" ts="ɪˈməʊʃənəlɪ" tr="эмоционально"/>
+    <d v="emotionally" p="noun" ts="ɪˈməʊʃənəlɪ" tr="эмоциональность"/>
+    <d v="emotive" p="adjective" ts="ɪˈməʊtɪv" tr="эмоциональный"/>
+    <d v="empathize" p="verb" ts="ˈempəθaɪz" tr="сопереживать"/>
+    <d v="empathy" p="noun" ts="ˈempəθɪ" tr="сочувствие; эмпатия"/>
+    <d v="empathy" p="verb" ts="ˈempəθɪ" tr="сочувствовать"/>
+    <d v="emperor" p="noun" ts="ˈempərə" tr="император"/>
+    <d v="emperor" p="adjective" ts="ˈempərə" tr="императорский"/>
+    <d v="emphasis" p="noun" ts="ˈemfəsɪs" tr="акцент; выделение; подчеркивание; эмфаза; выразительность"/>
+    <d v="emphasis" p="verb" ts="ˈemfəsɪs" tr="акцентировать"/>
+    <d v="emphasize" p="verb" ts="ˈemfəsaɪz"
+       tr="подчеркнуть; акцентировать внимание; делать акцент; придавать особое значение"/>
+    <d v="emphasize" p="noun" ts="ˈemfəsaɪz" tr="акцент"/>
+    <d v="emphatic" p="adjective" ts="ɪmˈfætɪk" tr="выразительный; решительный; эмфатический; настойчивый"/>
+    <d v="emphatically" p="adverb" ts="ɪmˈfætɪkəlɪ" tr="решительно; подчеркнуто"/>
+    <d v="emphysema" p="noun" ts="emfɪˈsiːmə" tr="эмфизема"/>
+    <d v="empire" p="noun" ts="ˈempaɪə" tr="империя; ампир"/>
+    <d v="empire" p="adjective" ts="ˈempaɪə" tr="имперский"/>
+    <d v="empirical" p="adjective" ts="emˈpɪrɪkəl" tr="эмпирический"/>
+    <d v="employ" p="verb" ts="ɪmˈplɔɪ" tr="использовать; нанимать; насчитывать; трудоустроить; занимать"/>
+    <d v="employee" p="noun" ts="emplɔɪˈiː" tr="сотрудник"/>
+    <d v="employer" p="noun" ts="ɪmˈplɔɪə" tr="работодатель; сотрудник"/>
+    <d v="employment" p="noun" ts="ɪmˈplɔɪmənt" tr="занятость; работа; использование"/>
+    <d v="employment agency" p="noun" ts="ɪmˈplɔɪmənt ˈeɪʤənsɪ"
+       tr="агентство занятости; агентство по трудоустройству; кадровое агентство; служба занятости; агентство по найму; агенство по трудоустройству"/>
+    <d v="emporium" p="noun" ts="emˈpɔːrɪəm" tr="торговый центр; универмаг; рынок"/>
+    <d v="empower" p="verb" ts="ɪmˈpaʊə" tr="давать; уполномочивать; наделять; расширить; вдохновлять"/>
+    <d v="empower" p="noun" ts="ɪmˈpaʊə" tr="наделение"/>
+    <d v="empowerment" p="noun" ts="ɪmˈpaʊəmənt" tr="полномочие; посвящение; наделение; предоставление полномочий"/>
+    <d v="Empress" p="noun" ts="ˈemprɪs" tr="императрица"/>
+    <d v="emptiness" p="noun" ts="ˈemptɪnɪs" tr="пустота; опустошенность"/>
+    <d v="empty" p="adjective" ts="ˈemptɪ" tr="пустой; холостой"/>
+    <d v="empty" p="verb" ts="ˈemptɪ" tr="пустовать; опустошить; опорожнить; высыпать"/>
+    <d v="empty" p="participle" ts="ˈemptɪ" tr="пустующий; опустевший; опустошенный"/>
+    <d v="empty" p="noun" ts="ˈemptɪ" tr="пустота; порожняк"/>
+    <d v="emulate" p="verb" ts="ˈemjʊleɪt" tr="эмулировать; подражать; соревноваться"/>
+    <d v="emulate" p="noun" ts="ˈemjʊleɪt" tr="эмуляция; подражание"/>
+    <d v="enable" p="verb" ts="ɪˈneɪbl" tr="позволять; включить; приспосабливать"/>
+    <d v="enable" p="noun" ts="ɪˈneɪbl" tr="включение"/>
+    <d v="enable" p="participle" ts="ɪˈneɪbl" tr="позволяющий"/>
+    <d v="enact" p="verb" ts="ɪˈnækt" tr="принять; ввести; предписывать"/>
+    <d v="enamel" p="noun" ts="ɪˈnæməl" tr="эмаль; глазурь"/>
+    <d v="enamel" p="adjective" ts="ɪˈnæməl" tr="эмалированный"/>
+    <d v="enamored" p="noun" ts="ɪˈnæməd" tr="влюбленный"/>
+    <d v="encase" p="verb" ts="ɪnˈkeɪs" tr="упаковывать; заключить"/>
+    <d v="enchanted" p="participle" ts="ɪnˈʧɑːntɪd" tr="зачарованный; очарованный; завороженный"/>
+    <d v="enchanting" p="adjective" ts="ɪnˈʧɑːntɪŋ" tr="очаровательный; феерический"/>
+    <d v="encircle" p="verb" ts="ɪnˈsɜːkl" tr="окружить; обводить; обхватить"/>
+    <d v="encircle" p="noun" ts="ɪnˈsɜːkl" tr="окружение"/>
+    <d v="enclave" p="noun" ts="ˈenkleɪv" tr="анклав; территория"/>
+    <d v="enclose" p="verb" ts="ɪnˈkləʊz"
+       tr="вложить; заключить; прилагать; окружать; охватывать; огораживать; загородить"/>
+    <d v="enclosure" p="noun" ts="ɪnˈkləʊʒə"
+       tr="корпус; приложение; ограждение; вольер; вложение; вложенность; огороженное место; электрический шкаф; отгораживание; тепляк"/>
+    <d v="encompass" p="verb" ts="ɪnˈkʌmpəs" tr="охватывать; окружать; вместить"/>
+    <d v="encore" p="interjection" ts="ɔŋˈkɔː" tr="бис"/>
+    <d v="encounter" p="verb" ts="ɪnˈkaʊntə"
+       tr="сталкиваться; встретить; встретиться; наткнуться; обнаруживать; столкнуть"/>
+    <d v="encounter" p="noun" ts="ɪnˈkaʊntə" tr="встреча; столкновение; знакомство"/>
+    <d v="encounter" p="participle" ts="ɪnˈkaʊntə" tr="встретившийся"/>
+    <d v="encounter" p="adverbial participle" ts="ɪnˈkaʊntə" tr="наталкиваясь"/>
+    <d v="encourage" p="verb" ts="ɪnˈkʌrɪʤ"
+       tr="поощрять; призывать; ободрить; поддерживать; вдохновлять; обнадеживать; потворствовать"/>
+    <d v="encourage" p="noun" ts="ɪnˈkʌrɪʤ" tr="поощрение"/>
+    <d v="encouragement" p="noun" ts="ɪnˈkʌrɪʤmənt" tr="поощрение; поддержка; ободрение; воодушевление; подбадривание"/>
+    <d v="encouragement" p="adjective" ts="ɪnˈkʌrɪʤmənt" tr="поощрительный"/>
+    <d v="encouragement" p="verb" ts="ɪnˈkʌrɪʤmənt" tr="ободрить"/>
+    <d v="encouraging" p="noun" ts="ɪnˈkʌrɪʤɪŋ" tr="поощрение; оптимизм"/>
+    <d v="encouraging" p="participle" ts="ɪnˈkʌrɪʤɪŋ"
+       tr="ободряющий; поощряющий; способствующий; вдохновляющий; подбадривающий"/>
+    <d v="encouraging" p="adjective" ts="ɪnˈkʌrɪʤɪŋ" tr="поощрительный; отрадный; ободрительный"/>
+    <d v="encouraging" p="adverb" ts="ɪnˈkʌrɪʤɪŋ" tr="ободряюще"/>
+    <d v="encroach" p="verb" ts="ɪnˈkrəʊʧ" tr="посягать; вторгаться"/>
+    <d v="encroach" p="noun" ts="ɪnˈkrəʊʧ" tr="посягательство"/>
+    <d v="encumber" p="verb" ts="ɪnˈkʌmbə" tr="обременять; загромождать; мешать"/>
+    <d v="encumbrance" p="noun" ts="ɪnˈkʌmbrəns" tr="обременение; препятствие; закладная"/>
+    <d v="encyclopedia" p="noun" ts="enˈsaɪkləʊˈpiːdjə" tr="энциклопедия"/>
+    <d v="end" p="noun" ts="end" tr="конец; окончание; цель; край; сторона; результат; предел; смерть; остаток"/>
+    <d v="end" p="adjective" ts="end" tr="конечный"/>
+    <d v="end" p="verb" ts="end" tr="закончить; кончаться; прекратить; оказаться"/>
+    <d v="endanger" p="noun" ts="ɪnˈdeɪnʤə" tr="угроза"/>
+    <d v="endanger" p="verb" ts="ɪnˈdeɪnʤə" tr="угрожать; подвергать; подвергать опасности; подвергаться опасности"/>
+    <d v="endangered species" p="noun" ts="ɪnˈdeɪnʤəd ˈspiːʃiːz" tr="вымирающий вид"/>
+    <d v="endearment" p="noun" ts="ɪnˈdɪəmənt" tr="ласка"/>
+    <d v="endeavor" p="noun" ts="ɪnˈdevə" tr="усилие; работа; стремление"/>
+    <d v="endeavor" p="verb" ts="ɪnˈdevə" tr="приложить все усилия"/>
+    <d v="endemic" p="adjective" ts="enˈdemɪk" tr="эндемичный; повальный"/>
+    <d v="endemic" p="noun" ts="enˈdemɪk" tr="эндемик"/>
+    <d v="ending" p="noun" ts="ˈendɪŋ" tr="окончание; развязка"/>
+    <d v="ending" p="participle" ts="ˈendɪŋ" tr="заканчивающийся"/>
+    <d v="ending" p="adjective" ts="ˈendɪŋ" tr="конечный"/>
+    <d v="endive" p="noun" ts="ˈendɪv" tr="эндивий; цикорий"/>
+    <d v="endless" p="adjective" ts="ˈendlɪs" tr="бесконечный; неиссякаемый"/>
+    <d v="endless" p="noun" ts="ˈendlɪs" tr="бесконечность"/>
+    <d v="endlessly" p="adverb" ts="ˈendlɪslɪ" tr="бесконечно"/>
+    <d v="endlessly" p="noun" ts="ˈendlɪslɪ" tr="без конца; бесконечность; до бесконечности"/>
+    <d v="endorse" p="verb" ts="ɪnˈdɔːs" tr="одобрить; поддерживать; подтверждать; завизировать; индоссировать"/>
+    <d v="endorsement" p="noun" ts="ɪnˈdɔːsmənt" tr="одобрение; индоссамент; передаточная надпись"/>
+    <d v="endow" p="verb" ts="ɪnˈdaʊ" tr="наделять; жертвовать; обеспечить"/>
+    <d v="endowment" p="noun" ts="ɪnˈdaʊmənt"
+       tr="фонд; дар; пожертвование; эндаумент; обеспеченность; облечение; наделение"/>
+    <d v="endowment" p="adjective" ts="ɪnˈdaʊmənt" tr="дарственный; дотационный"/>
+    <d v="endurance" p="noun" ts="ɪnˈdjʊərəns"
+       tr="выносливость; выдержка; прочность; терпение; продолжительность; автономность"/>
+    <d v="endurance" p="adjective" ts="ɪnˈdjʊərəns" tr="выносливый"/>
+    <d v="endure" p="verb" ts="ɪnˈdjʊə"
+       tr="терпеть; выдержать; переносить; вынести; пережить; претерпеть; длиться; сносить; устоять"/>
+    <d v="endure" p="participle" ts="ɪnˈdjʊə" tr="претерпевший"/>
+    <d v="enduring" p="adjective" ts="ɪnˈdjʊərɪŋ" tr="устойчивый; прочный; длительный; непреходящий; терпеливый"/>
+    <d v="enemy" p="noun" ts="ˈenɪmɪ" tr="враг"/>
+    <d v="enemy" p="adjective" ts="ˈenɪmɪ" tr="вражеский"/>
+    <d v="energetic" p="adjective" ts="enəˈʤetɪk" tr="энергетический; энергичный; деятельный; зажигательный"/>
+    <d v="energetic" p="noun" ts="enəˈʤetɪk" tr="энергетика; энергичность"/>
+    <d v="energetically" p="adverb" ts="enəˈʤetɪklɪ" tr="энергично; энергетически; напористо"/>
+    <d v="energize" p="verb" ts="ˈenəʤaɪz" tr="заряжать; активизировать; подпитывать; возбуждать"/>
+    <d v="energize" p="noun" ts="ˈenəʤaɪz" tr="напряжение; энергетизировать"/>
+    <d v="energy" p="noun" ts="ˈenəʤɪ" tr="энергия; энерго"/>
+    <d v="energy" p="adjective" ts="ˈenəʤɪ" tr="энергетический"/>
+    <d v="enforce" p="noun" ts="ɪnˈfɔːs" tr="соблюдение; принуждение"/>
+    <d v="enforce" p="verb" ts="ɪnˈfɔːs"
+       tr="обеспечивать; применять; принудить; усилить; навязать; внедрять; реализовать; заставлять; предписать; оказывать давление; проводить в жизнь"/>
+    <d v="enforce" p="adjective" ts="ɪnˈfɔːs" tr="принудительный"/>
+    <d v="enforceable" p="adjective" ts="ɪnˈfɔːsəbl" tr="осуществимый"/>
+    <d v="enforcement" p="adjective" ts="ɪnˈfɔːsmənt" tr="правоохранительный; принудительный"/>
+    <d v="enforcement" p="noun" ts="ɪnˈfɔːsmənt" tr="исполнение; принуждение"/>
+    <d v="engage" p="verb" ts="ɪnˈgeɪʤ"
+       tr="заниматься; участвовать; привлекать; вступать; включить; занять; взаимодействовать"/>
+    <d v="engage" p="noun" ts="ɪnˈgeɪʤ" tr="участие; привлечение"/>
+    <d v="engaged" p="participle" ts="ɪnˈgeɪʤd"
+       tr="занятый; занимающийся; вовлеченный; участвующий; помолвленный; ангажированный; обрученный; заинтересованный; привлекаемый"/>
+    <d v="engagement" p="noun" ts="ɪnˈgeɪʤmənt"
+       tr="участие; взаимодействие; вовлечение; помолвка; бой; встреча; занятие; ангажированность; дело; зацепление"/>
+    <d v="engagement ring" p="noun" ts="ɪnˈgeɪʤmənt rɪŋ" tr="обручальное кольцо; кольцо для помолвки"/>
+    <d v="engaging" p="noun" ts="ɪnˈgeɪʤɪŋ" tr="привлечение"/>
+    <d v="engaging" p="adjective" ts="ɪnˈgeɪʤɪŋ" tr="привлекательный; увлекательный; очаровательный"/>
+    <d v="engaging" p="participle" ts="ɪnˈgeɪʤɪŋ" tr="привлекающий"/>
+    <d v="engender" p="verb" ts="ɪnˈʤendə" tr="порождать; зародиться"/>
+    <d v="engine" p="noun" ts="ˈenʤɪn" tr="двигатель; локомотив; ДВС; инструмент"/>
+    <d v="engine" p="adjective" ts="ˈenʤɪn" tr="моторный; паровозный"/>
+    <d v="engineer" p="noun" ts="enʤɪˈnɪə" tr="инженер; конструктор; машиностроитель; сапер"/>
+    <d v="engineer" p="adjective" ts="enʤɪˈnɪə" tr="инженерный"/>
+    <d v="engineer" p="verb" ts="enʤɪˈnɪə" tr="проектировать; устраивать; затевать"/>
+    <d v="engineering" p="adjective" ts="enʤɪˈnɪərɪŋ" tr="инженерный; технический; прикладной"/>
+    <d v="engineering" p="noun" ts="enʤɪˈnɪərɪŋ" tr="машиностроение; инженерия; проектирование"/>
+    <d v="English" p="adjective" ts="ˈɪŋglɪʃ" tr="английский"/>
+    <d v="English" p="noun" ts="ˈɪŋglɪʃ" tr="англичанин"/>
+    <d v="engrave" p="verb" ts="ɪnˈgreɪv" tr="выгравировать; вырезать; запечатлеть; запечатлевать"/>
+    <d v="engrave" p="noun" ts="ɪnˈgreɪv" tr="гравировка"/>
+    <d v="engraving" p="noun" ts="ɪnˈgreɪvɪŋ" tr="гравюра; гравировка"/>
+    <d v="engrossed" p="participle" ts="ɪnˈgrəʊst" tr="погруженный; поглощенный; увлеченный"/>
+    <d v="engrossing" p="adjective" ts="ɪnˈgrəʊsɪŋ" tr="увлекательный; всепоглощающий"/>
+    <d v="engrossing" p="participle" ts="ɪnˈgrəʊsɪŋ" tr="захватывающий"/>
+    <d v="engulf" p="verb" ts="ɪnˈgʌlf" tr="охватить; поглощать"/>
+    <d v="enhance" p="verb" ts="ɪnˈhɑːns" tr="повысить; усилить; расширить"/>
+    <d v="enhance" p="noun" ts="ɪnˈhɑːns" tr="повышение; укрепление"/>
+    <d v="enhancement" p="noun" ts="ɪnˈhɑːnsmənt" tr="повышение; укрепление; расширение; аксессуар"/>
+    <d v="enigma" p="noun" ts="ɪˈnɪgmə" tr="загадка; Энигма"/>
+    <d v="enigmatic" p="adjective" ts="enɪgˈmætɪk" tr="загадочный"/>
+    <d v="enjoy" p="verb" ts="ɪnˈʤɔɪ" tr="наслаждаться; пользоваться; нравиться; увлекаться"/>
+    <d v="enjoy" p="noun" ts="ɪnˈʤɔɪ" tr="удовольствие"/>
+    <d v="enjoyable" p="adjective" ts="ɪnˈʤɔɪəbl" tr="приятный"/>
+    <d v="enjoyable" p="noun" ts="ɪnˈʤɔɪəbl" tr="удовольствие"/>
+    <d v="enjoyable" p="participle" ts="ɪnˈʤɔɪəbl" tr="доставляющий удовольствие"/>
+    <d v="enjoyment" p="noun" ts="ɪnˈʤɔɪmənt" tr="наслаждение; осуществление; пользование"/>
+    <d v="enlarge" p="verb" ts="ɪnˈlɑːʤ" tr="увеличить; расширить; расшириться; пополнить; укрупнить; укрупнять"/>
+    <d v="enlarge" p="noun" ts="ɪnˈlɑːʤ" tr="увеличение"/>
+    <d v="enlargement" p="noun" ts="ɪnˈlɑːʤmənt" tr="расширение; укрупненность"/>
+    <d v="enlighten" p="verb" ts="ɪnˈlaɪtn" tr="просветить; освещать; уразуметь; информировать"/>
+    <d v="enlighten" p="noun" ts="ɪnˈlaɪtn" tr="просвещение"/>
+    <d v="enlighten" p="adjective" ts="ɪnˈlaɪtn" tr="просветительский"/>
+    <d v="enlightened" p="participle" ts="ɪnˈlaɪtnd" tr="просветленный; озаренный"/>
+    <d v="enlightened" p="adjective" ts="ɪnˈlaɪtnd" tr="просвещенный"/>
+    <d v="enlightened" p="noun" ts="ɪnˈlaɪtnd" tr="просветление"/>
+    <d v="enlightening" p="adjective" ts="ɪnˈlaɪtnɪŋ" tr="просветительский; поучительный"/>
+    <d v="enlightening" p="noun" ts="ɪnˈlaɪtnɪŋ" tr="просвещение"/>
+    <d v="enlightening" p="participle" ts="ɪnˈlaɪtnɪŋ" tr="просвещающий"/>
+    <d v="enlist" p="verb" ts="ɪnˈlɪst" tr="заручиться; привлечь; завербовать; записаться; завербоваться"/>
+    <d v="enlist" p="noun" ts="ɪnˈlɪst" tr="привлечение"/>
+    <d v="enlistment" p="noun" ts="ɪnˈlɪstmənt" tr="вербовка"/>
+    <d v="enliven" p="verb" ts="ɪnˈlaɪvn" tr="оживлять"/>
+    <d v="enliven" p="noun" ts="ɪnˈlaɪvn" tr="оживление"/>
+    <d v="en masse" p="adverb" ts="ɒn mæs" tr="массово"/>
+    <d v="en masse" p="noun" ts="ɒn mæs" tr="в массовом порядке"/>
+    <d v="enmity" p="noun" ts="ˈenmɪtɪ" tr="вражда; враждебность"/>
+    <d v="enmity" p="verb" ts="ˈenmɪtɪ" tr="враждовать"/>
+    <d v="enormity" p="noun" ts="ɪˈnɔːmɪtɪ" tr="грандиозность; чудовищность; гнусность; громадность"/>
+    <d v="enormous" p="adjective" ts="ɪˈnɔːməs" tr="огромный; чудовищный"/>
+    <d v="enormously" p="adverb" ts="ɪˈnɔːməslɪ" tr="чрезвычайно; колоссально; чудовищно"/>
+    <d v="enough" p="adjective" ts="ɪˈnʌf" tr="достаточный"/>
+    <d v="enrage" p="noun" ts="ɪnˈreɪʤ" tr="ярость"/>
+    <d v="enrage" p="verb" ts="ɪnˈreɪʤ" tr="бесить"/>
+    <d v="enraged" p="participle" ts="ɪnˈreɪʤd" tr="разъяренный; разгневанный; взбешенный; возмущенный"/>
+    <d v="enrich" p="verb" ts="ɪnˈrɪʧ" tr="обогащать; пополнить; витаминизировать"/>
+    <d v="enrich" p="noun" ts="ɪnˈrɪʧ" tr="обогащение"/>
+    <d v="enrichment" p="noun" ts="ɪnˈrɪʧmənt" tr="обогащение; взаимообогащение"/>
+    <d v="enrichment" p="adjective" ts="ɪnˈrɪʧmənt" tr="обогатительный"/>
+    <d v="enrichment" p="verb" ts="ɪnˈrɪʧmənt" tr="обогащать"/>
+    <d v="enroll" p="verb" ts="ɪnˈrəʊl" tr="записаться; зарегистрироваться; поступать; зачислять"/>
+    <d v="enroll" p="noun" ts="ɪnˈrəʊl" tr="зачисление"/>
+    <d v="enrollment" p="noun" ts="ɪnˈrəʊlmənt" tr="зачисление; регистрация"/>
+    <d v="en route" p="noun" ts="ɑːnˈruːt" tr="путь"/>
+    <d v="en route" p="participle" ts="ɑːnˈruːt" tr="направлявшийся"/>
+    <d v="ensemble" p="noun" ts="ɑːnˈsɑːmbl" tr="ансамбль; костюм"/>
+    <d v="ensemble" p="adjective" ts="ɑːnˈsɑːmbl" tr="ансамблевый"/>
+    <d v="enshrine" p="verb" ts="ɪnˈʃraɪn" tr="закреплять; закрепить; хранить"/>
+    <d v="ensign" p="noun" ts="ˈensaɪn" tr="прапорщик; знамя; энсин"/>
+    <d v="ensue" p="verb" ts="ɪnˈsjuː" tr="последовать; наступить; возникнуть; вытекать"/>
+    <d v="ensuing" p="participle" ts="ɪnˈsjuːɪŋ" tr="последовавший; вытекающий; последовавший за этим"/>
+    <d v="ensuing" p="adjective" ts="ɪnˈsjuːɪŋ" tr="последующий"/>
+    <d v="ensure" p="verb" ts="ɪnˈʃʊə" tr="обеспечивать"/>
+    <d v="ensure" p="noun" ts="ɪnˈʃʊə" tr="обеспечение"/>
+    <d v="entail" p="verb" ts="ɪnˈteɪl" tr="повлечь; предусматривать; влечь за собой; сопровождаться; вызывать"/>
+    <d v="entangle" p="verb" ts="ɪnˈtæŋgl" tr="запутаться; опутывать; втянуть; вовлекать"/>
+    <d v="entangled" p="participle" ts="ɪnˈtæŋgld" tr="опутанный; запутавшийся"/>
+    <d v="entangled" p="adjective" ts="ɪnˈtæŋgld" tr="запутанный"/>
+    <d v="entanglement" p="noun" ts="ɪnˈtæŋglmənt"
+       tr="запутанность; запутывание; сцепленность; заграждение; переплетение; затруднительное положение"/>
+    <d v="enter" p="verb" ts="ˈentə"
+       tr="войти; ввести; поступать; проникнуть; выходить; попадать; въезжать; вносить; начинать; записывать"/>
+    <d v="enter" p="noun" ts="ˈentə" tr="ввод; вступление; представление"/>
+    <d v="enter" p="participle" ts="ˈentə" tr="вошедший"/>
+    <d v="enterprise" p="noun" ts="ˈentəpraɪz" tr="предприятие; предпринимательство; смелость"/>
+    <d v="enterprise" p="adjective" ts="ˈentəpraɪz" tr="предпринимательский"/>
+    <d v="enterprising" p="adjective" ts="ˈentəpraɪzɪŋ" tr="предприимчивый; инициативный; предпринимательский"/>
+    <d v="enterprising" p="noun" ts="ˈentəpraɪzɪŋ" tr="предприимчивость"/>
+    <d v="entertain" p="verb" ts="entəˈteɪn" tr="развлекать; развлекаться; принимать; питать; угощать; порадовать"/>
+    <d v="entertain" p="noun" ts="entəˈteɪn" tr="развлечение"/>
+    <d v="entertainer" p="noun" ts="entəˈteɪnər" tr="артист; эстрадный артист; конферансье; затейник"/>
+    <d v="entertaining" p="adjective" ts="entəˈteɪnɪŋ" tr="развлекательный; интересный; занимательный; забавный"/>
+    <d v="entertaining" p="noun" ts="entəˈteɪnɪŋ" tr="развлечение"/>
+    <d v="entertaining" p="participle" ts="entəˈteɪnɪŋ" tr="развлекающий"/>
+    <d v="entertainment" p="noun" ts="entəˈteɪnmənt"
+       tr="развлечение; зрелищность; угощение; гостеприимство; вечеринка"/>
+    <d v="entertainment" p="adjective" ts="entəˈteɪnmənt" tr="развлекательный"/>
+    <d v="enthrall" p="verb" ts="ɪnˈθrɔːl" tr="увлекать; очаровывать; увлечь; порабощать; поработить"/>
+    <d v="enthrall" p="noun" ts="ɪnˈθrɔːl" tr="восторг"/>
+    <d v="enthralling" p="adjective" ts="ɪnˈθrɔːlɪŋ" tr="увлекательный"/>
+    <d v="enthuse" p="verb" ts="ɪnˈθjuːz" tr="восторгаться"/>
+    <d v="enthusiasm" p="noun" ts="ɪnˈθjuːzɪæzm" tr="энтузиазм; увлечение; пафос"/>
+    <d v="enthusiast" p="noun" ts="ɪnˈθjuːzɪæst" tr="энтузиаст"/>
+    <d v="enthusiastic" p="adjective" ts="ɪnθjuːzɪˈæstɪk" tr="восторженный; энергичный; вдохновенный"/>
+    <d v="enthusiastic" p="noun" ts="ɪnθjuːzɪˈæstɪk" tr="восторг; с энтузиазмом"/>
+    <d v="enthusiastic" p="participle" ts="ɪnθjuːzɪˈæstɪk" tr="полный энтузиазма; воодушевленный"/>
+    <d v="enthusiastic" p="verb" ts="ɪnθjuːzɪˈæstɪk" tr="увлечься"/>
+    <d v="enthusiastically" p="noun" ts="ɪnθjuːzɪˈæstɪklɪ" tr="с энтузиазмом"/>
+    <d v="enthusiastically" p="adverb" ts="ɪnθjuːzɪˈæstɪklɪ" tr="восторженно; вдохновенно; самозабвенно; энергично"/>
+    <d v="entice" p="verb" ts="ɪnˈtaɪs" tr="заманить; соблазнить; привлечь; побудить"/>
+    <d v="enticement" p="noun" ts="ɪnˈtaɪsmənt" tr="соблазн; приманка; переманивание; заманивание"/>
+    <d v="enticing" p="adjective" ts="ɪnˈtaɪsɪŋ" tr="заманчивый; завлекательный"/>
+    <d v="enticing" p="participle" ts="ɪnˈtaɪsɪŋ" tr="манящий; завлекающий"/>
+    <d v="entire" p="adjective" ts="ɪnˈtaɪə" tr="целый; всецелый"/>
+    <d v="entire" p="noun" ts="ɪnˈtaɪə" tr="полнота"/>
+    <d v="entirely" p="adverb" ts="ɪnˈtaɪəlɪ" tr="полностью; совершенно"/>
+    <d v="entirety" p="noun" ts="ɪnˈtaɪətɪ" tr="полнота; совокупность"/>
+    <d v="entirety" p="adjective" ts="ɪnˈtaɪətɪ" tr="целый"/>
+    <d v="entitle" p="noun" ts="ɪnˈtaɪtl" tr="название"/>
+    <d v="entitle" p="verb" ts="ɪnˈtaɪtl" tr="давать право; озаглавить; озаглавливать; называть"/>
+    <d v="entitled" p="participle" ts="ɪnˈtaɪtld" tr="озаглавленный; названный"/>
+    <d v="entitlement" p="noun" ts="ɪnˈtaɪtlmənt" tr="право"/>
+    <d v="entity" p="noun" ts="ˈentɪtɪ" tr="лицо; организация; субъект; сущность; примитив; логический объект"/>
+    <d v="entomologist" p="noun" ts="entəʊˈmɔləʤɪst" tr="энтомолог"/>
+    <d v="entomology" p="noun" ts="entəʊˈmɔləʤɪ" tr="энтомология"/>
+    <d v="entourage" p="noun" ts="ɔntʊˈrɑːʒ" tr="окружение; свита; окружающая обстановка"/>
+    <d v="entrails" p="noun" ts="ˈentreɪlz" tr="недра; внутренности; потроха"/>
+    <d v="entrance" p="noun" ts="ˈentrəns" tr="вход; въезд; поступление"/>
+    <d v="entrance" p="adjective" ts="ˈentrəns" tr="входной; вступительный"/>
+    <d v="entrant" p="noun" ts="ˈentrənt" tr="участник"/>
+    <d v="entrap" p="verb" ts="ɪnˈtræp" tr="завлечь; запутать"/>
+    <d v="entrapment" p="noun" ts="ɪnˈtræpmənt" tr="провокация"/>
+    <d v="entreat" p="verb" ts="ɪnˈtriːt" tr="умолять; просить"/>
+    <d v="entreaty" p="noun" ts="ɪnˈtriːtɪ" tr="мольба"/>
+    <d v="entree" p="noun" ts="ˈɔntreɪ" tr="закуска; доступ"/>
+    <d v="entrepreneur" p="noun" ts="ɔntrəprəˈnɜː" tr="предприниматель"/>
+    <d v="entrepreneur" p="adjective" ts="ɔntrəprəˈnɜː" tr="предпринимательский"/>
+    <d v="entrepreneurial" p="adjective" ts="ɒntrəprəˈnɜːrɪəl" tr="предпринимательский"/>
+    <d v="entrepreneurial" p="noun" ts="ɒntrəprəˈnɜːrɪəl" tr="предпринимательство; предприимчивость"/>
+    <d v="entrust" p="verb" ts="ɪnˈtrʌst" tr="доверить; поручить; возлагать; вверять; вручить"/>
+    <d v="entry" p="noun" ts="ˈentrɪ"
+       tr="вход; запись; вступление; статья; проникновение; дверь; проход; начало; холл"/>
+    <d v="entry" p="adjective" ts="ˈentrɪ" tr="входной"/>
+    <d v="entry-level" p="noun" ts="ˈentrɪ-levl" tr="начальный уровень"/>
+    <d v="entryway" p="noun" ts="ˈentrɪweɪ" tr="подъезд"/>
+    <d v="entwine" p="verb" ts="ɪnˈtwaɪn" tr="переплестись; сплести"/>
+    <d v="enumerate" p="verb" ts="ɪˈnjuːməreɪt" tr="перечислять; нумеровать; пронумеровать"/>
+    <d v="enumerate" p="noun" ts="ɪˈnjuːməreɪt" tr="перечисление; нумерация"/>
+    <d v="enunciate" p="verb" ts="ɪˈnʌnsɪeɪt" tr="провозгласить; изложить; формулировать"/>
+    <d v="enunciation" p="noun" ts="ɪnʌnsɪˈeɪʃn" tr="провозглашение; дикция; формулировка"/>
+    <d v="envelop" p="verb" ts="ɪnˈveləp" tr="окутывать; окружать"/>
+    <d v="envelope" p="noun" ts="ˈenvələʊp" tr="конверт; оболочка; габарит"/>
+    <d v="enviable" p="adjective" ts="ˈenvɪəbl" tr="завидный"/>
+    <d v="envious" p="verb" ts="ˈenvɪəs" tr="завидовать"/>
+    <d v="envious" p="adjective" ts="ˈenvɪəs" tr="завистливый"/>
+    <d v="envious" p="noun" ts="ˈenvɪəs" tr="зависть; завистник"/>
+    <d v="envious" p="participle" ts="ˈenvɪəs" tr="завидующий"/>
+    <d v="enviously" p="noun" ts="ˈenvɪəslɪ" tr="с завистью"/>
+    <d v="enviously" p="adverb" ts="ˈenvɪəslɪ" tr="завистливо"/>
+    <d v="environment" p="noun" ts="ɪnˈvaɪərənmənt" tr="среда"/>
+    <d v="environmental" p="adjective" ts="ɪnvaɪərənˈmentl" tr="экологический; средовой"/>
+    <d v="environmental" p="participle" ts="ɪnvaɪərənˈmentl" tr="окружающий"/>
+    <d v="environmentalist" p="noun" ts="ɪnvaɪərənˈmentəlɪst" tr="эколог; защитник; защитник окружающей среды"/>
+    <d v="environmentally" p="adverb" ts="ɪnvaɪərənˈmentəlɪ" tr="экологически"/>
+    <d v="environs" p="noun" ts="ɪnˈvaɪərənz" tr="окрестности; среда"/>
+    <d v="envisage" p="verb" ts="ɪnˈvɪzɪʤ" tr="предусматривать"/>
+    <d v="envision" p="verb" ts="ɪnˈvɪʒən" tr="предусматривать; представить"/>
+    <d v="envoy" p="noun" ts="ˈenvɔɪ" tr="посланник"/>
+    <d v="envy" p="noun" ts="ˈenvɪ" tr="зависть; завистливость"/>
+    <d v="envy" p="verb" ts="ˈenvɪ" tr="завидовать"/>
+    <d v="enzyme" p="noun" ts="ˈenzaɪm" tr="фермент"/>
+    <d v="enzyme" p="adjective" ts="ˈenzaɪm" tr="ферментный"/>
+    <d v="epaulet" p="noun" ts="ˈepəʊlet" tr="погон"/>
+    <d v="ephemeral" p="adjective" ts="ɪˈfemərəl" tr="эфемерный; мимолетный"/>
+    <d v="ephemeral" p="noun" ts="ɪˈfemərəl" tr="однодневка; эфемерность"/>
+    <d v="epic" p="adjective" ts="ˈepɪk" tr="эпический; эпохальный"/>
+    <d v="epic" p="noun" ts="ˈepɪk" tr="эпос"/>
+    <d v="epicenter" p="noun" ts="ˈepɪsentər" tr="эпицентр"/>
+    <d v="epidemic" p="noun" ts="epɪˈdemɪk" tr="эпидемия"/>
+    <d v="epidemic" p="adjective" ts="epɪˈdemɪk" tr="эпидемический; повальный"/>
+    <d v="epigram" p="noun" ts="ˈepɪgræm" tr="эпиграмма"/>
+    <d v="epilepsy" p="noun" ts="ˈepɪlepsɪ" tr="эпилепсия"/>
+    <d v="epileptic" p="adjective" ts="epɪˈleptɪk" tr="эпилептический"/>
+    <d v="epileptic" p="noun" ts="epɪˈleptɪk" tr="эпилепсия; эпилептик"/>
+    <d v="epilogue" p="noun" ts="ˈepɪlɔg" tr="эпилог; послесловие"/>
+    <d v="Episcopal church" p="noun" ts="ɪˈpɪskəpəl ʧɜːʧ" tr="епископская церковь"/>
+    <d v="Episcopalian" p="adjective" ts="ɪpɪskəʊˈpeɪljən" tr="епископальный"/>
+    <d v="episode" p="noun" ts="ˈepɪsəʊd" tr="эпизод"/>
+    <d v="episodic" p="adjective" ts="epɪˈsɔdɪk" tr="эпизодический"/>
+    <d v="epistle" p="noun" ts="ɪˈpɪsl" tr="послание; соборное послание"/>
+    <d v="epitaph" p="noun" ts="ˈepɪtɑːf" tr="эпитафия; надгробие"/>
+    <d v="epithet" p="noun" ts="ˈepɪθet" tr="эпитет"/>
+    <d v="epitome" p="noun" ts="ɪˈpɪtəmɪ" tr="воплощение; конспект"/>
+    <d v="epitomize" p="verb" ts="ɪˈpɪtəmaɪz" tr="олицетворять"/>
+    <d v="epoch" p="noun" ts="ˈiːpɔk" tr="эпоха"/>
+    <d v="equal" p="adjective" ts="ˈiːkwəl" tr="равный; равноценный; равнозначный; способный"/>
+    <d v="equal" p="noun" ts="ˈiːkwəl" tr="равенство; ровня"/>
+    <d v="equal" p="verb" ts="ˈiːkwəl" tr="равняться; приравнивать; сравнять"/>
+    <d v="equal" p="participle" ts="ˈiːkwəl" tr="приравненный"/>
+    <d v="equality" p="noun" ts="iːˈkwɔlɪtɪ" tr="равенство; ровность"/>
+    <d v="equalize" p="verb" ts="ˈiːkwəlaɪz" tr="уравнять; выравнивать; уравновешивать"/>
+    <d v="equalize" p="noun" ts="ˈiːkwəlaɪz" tr="выравнивание"/>
+    <d v="equalize" p="adjective" ts="ˈiːkwəlaɪz" tr="уравнительный"/>
+    <d v="equally" p="adverb" ts="ˈiːkwəlɪ" tr="одинаково; поровну; не менее; наравне; равнозначно"/>
+    <d v="equally" p="particle" ts="ˈiːkwəlɪ" tr="же"/>
+    <d v="equally" p="noun" ts="ˈiːkwəlɪ" tr="в равной степени"/>
+    <d v="equal sign" p="noun" ts="ˈiːkwəl saɪn" tr="знак равенства"/>
+    <d v="equanimity" p="noun" ts="ekwəˈnɪmɪtɪ"
+       tr="невозмутимость; спокойствие; равностность; ровное отношение; беспристрастие"/>
+    <d v="equate" p="verb" ts="ɪˈkweɪt" tr="приравнивать; приравнять; уравнять; сравнивать; ставить знак равенства"/>
+    <d v="equation" p="noun" ts="ɪˈkweɪʃn" tr="уравнение; равенство; сбалансированность"/>
+    <d v="equator" p="noun" ts="ɪˈkweɪtər" tr="экватор"/>
+    <d v="equator" p="adjective" ts="ɪˈkweɪtər" tr="экваториальный"/>
+    <d v="equatorial" p="adjective" ts="ekwəˈtɔːrɪəl" tr="экваториальный"/>
+    <d v="equestrian" p="adjective" ts="ɪˈkwestrɪən" tr="конный"/>
+    <d v="equestrian" p="noun" ts="ɪˈkwestrɪən" tr="наездник"/>
+    <d v="equilateral" p="adjective" ts="ˈiːkwɪˈlætərəl" tr="равносторонний"/>
+    <d v="equilibrium" p="noun" ts="iːkwɪˈlɪbrɪəm" tr="равновесие"/>
+    <d v="equilibrium" p="adjective" ts="iːkwɪˈlɪbrɪəm" tr="равновесный"/>
+    <d v="equine" p="adjective" ts="ˈekwaɪn" tr="конский"/>
+    <d v="equine" p="noun" ts="ˈekwaɪn" tr="лошадь"/>
+    <d v="equinox" p="noun" ts="ˈiːkwɪnɔks" tr="равноденствие"/>
+    <d v="equip" p="verb" ts="ɪˈkwɪp" tr="оборудовать; оснастить; снабдить; обустраивать; укомплектовать"/>
+    <d v="equip" p="noun" ts="ɪˈkwɪp" tr="оснащение"/>
+    <d v="equipment" p="noun" ts="ɪˈkwɪpmənt" tr="оборудование; инвентарь; оснастка; арматура; подвижной состав"/>
+    <d v="equipped" p="participle" ts="ɪˈkwɪpt"
+       tr="оборудованный; оснащенный; снабженный; обустроенный; укомплектованный; экипированный"/>
+    <d v="equitable" p="adjective" ts="ˈekwɪtəbl" tr="справедливый; равноправный"/>
+    <d v="equity" p="noun" ts="ˈekwɪtɪ" tr="акция; справедливость; равенство; обыкновенные акции"/>
+    <d v="equity" p="adjective" ts="ˈekwɪtɪ" tr="долевой"/>
+    <d v="equivalence" p="noun" ts="ɪˈkwɪvələns" tr="эквивалентность"/>
+    <d v="equivalent" p="adjective" ts="ɪˈkwɪvələnt" tr="эквивалентный; аналогичный; равнозначный"/>
+    <d v="equivalent" p="noun" ts="ɪˈkwɪvələnt" tr="эквивалент"/>
+    <d v="equivocal" p="adjective" ts="ɪˈkwɪvəkəl" tr="двусмысленный; сомнительный"/>
+    <d v="era" p="noun" ts="ˈɪərə" tr="эпоха"/>
+    <d v="eradicate" p="noun" ts="ɪˈrædɪkeɪt" tr="искоренение"/>
+    <d v="eradicate" p="verb" ts="ɪˈrædɪkeɪt" tr="искоренить; уничтожить; ликвидировать"/>
+    <d v="eradication" p="noun" ts="ɪrædɪˈkeɪʃn" tr="искоренение; ликвидация; изживание"/>
+    <d v="erase" p="verb" ts="ɪˈreɪz" tr="стереть; удалить; стираться; вытравить; подчищать"/>
+    <d v="erase" p="noun" ts="ɪˈreɪz" tr="стирание"/>
+    <d v="eraser" p="noun" ts="ɪˈreɪzə" tr="ластик"/>
+    <d v="erect" p="verb" ts="ɪˈrekt" tr="возводить; воздвигнуть; сооружать; устанавливать; водрузить"/>
+    <d v="erect" p="adjective" ts="ɪˈrekt" tr="прямой"/>
+    <d v="erect" p="adverb" ts="ɪˈrekt" tr="прямо"/>
+    <d v="erect" p="noun" ts="ɪˈrekt" tr="возведение"/>
+    <d v="erection" p="noun" ts="ɪˈrekʃn" tr="возведение; эрекция; монтаж; выпрямление"/>
+    <d v="erection" p="adjective" ts="ɪˈrekʃn" tr="монтажный"/>
+    <d v="erode" p="verb" ts="ɪˈrəʊd" tr="подрывать; разрушать; размывать; выветриться"/>
+    <d v="erode" p="noun" ts="ɪˈrəʊd" tr="эрозия; подрыв"/>
+    <d v="erosion" p="noun" ts="ɪˈrəʊʒən" tr="эрозия; размывание; разрушение; размыв; разъедание"/>
+    <d v="erotic" p="adjective" ts="ɪˈrɔtɪk" tr="эротический"/>
+    <d v="erotic" p="noun" ts="ɪˈrɔtɪk" tr="эротика"/>
+    <d v="erotically" p="adverb" ts="ɪˈrɒtɪklɪ" tr="эротически; эротично"/>
+    <d v="eroticism" p="noun" ts="ɪˈrɔtɪsɪzm" tr="эротизм; эротика; эротичность; чувственность"/>
+    <d v="err" p="verb" ts="ɜː" tr="ошибаться; заблуждаться"/>
+    <d v="err" p="noun" ts="ɜː" tr="заблуждение"/>
+    <d v="errand" p="noun" ts="ˈerənd" tr="поручение"/>
+    <d v="errant" p="participle" ts="ˈerənt" tr="странствующий; блуждающий"/>
+    <d v="errant" p="adjective" ts="ˈerənt" tr="заблудший"/>
+    <d v="erratic" p="adjective" ts="ɪˈrætɪk"
+       tr="беспорядочный; неустойчивый; странный; переменчивый; перекатный; ошибочный; непостоянный; сумасбродный; эрратический; рассеянный"/>
+    <d v="erratic" p="participle" ts="ɪˈrætɪk" tr="блуждающий"/>
+    <d v="erratically" p="adverb" ts="ɪˈrætɪklɪ" tr="беспорядочно"/>
+    <d v="erroneous" p="adjective" ts="ɪˈrəʊnjəs" tr="ошибочный; ложный"/>
+    <d v="erroneous" p="noun" ts="ɪˈrəʊnjəs" tr="ошибочность"/>
+    <d v="erroneously" p="adverb" ts="ɪˈrəʊnɪəslɪ" tr="ошибочно"/>
+    <d v="error" p="noun" ts="ˈerə" tr="ошибка; грех"/>
+    <d v="error" p="adjective" ts="ˈerə" tr="ошибочный"/>
+    <d v="erudite" p="adjective" ts="ˈeruːdaɪt" tr="эрудированный"/>
+    <d v="erudite" p="noun" ts="ˈeruːdaɪt" tr="эрудит"/>
+    <d v="erudite" p="participle" ts="ˈeruːdaɪt" tr="начитанный"/>
+    <d v="erudition" p="noun" ts="eruːˈdɪʃn" tr="эрудиция; образованность; начитанность; эрудированность"/>
+    <d v="erupt" p="verb" ts="ɪˈrʌpt"
+       tr="вспыхнуть; разразиться; извергаться; взорваться; прорваться; перерасти; извергать; возникнуть; прорезываться"/>
+    <d v="erupt" p="noun" ts="ɪˈrʌpt" tr="извержение"/>
+    <d v="eruption" p="noun" ts="ɪˈrʌpʃn" tr="извержение; сыпь; прорезывание"/>
+    <d v="escalate" p="verb" ts="ˈeskəleɪt"
+       tr="перерасти; обостриться; усилиться; обострить; усилить; наращивать; нарастать; эскалировать"/>
+    <d v="escalate" p="noun" ts="ˈeskəleɪt" tr="эскалация"/>
+    <d v="escalation" p="noun" ts="eskəˈleɪʃn" tr="эскалация; наращивание"/>
+    <d v="escalator" p="noun" ts="ˈeskəleɪtə" tr="эскалатор"/>
+    <d v="escapade" p="noun" ts="eskəˈpeɪd" tr="выходка; эскапада; побег"/>
+    <d v="escape" p="verb" ts="ɪsˈkeɪp" tr="бежать; избежать; вырваться; уйти; ускользнуть; избавиться; улетучиваться"/>
+    <d v="escape" p="noun" ts="ɪsˈkeɪp" tr="побег; спасение; утечка; выделение; уход от действительности"/>
+    <d v="escape" p="adverbial participle" ts="ɪsˈkeɪp" tr="спасаясь"/>
+    <d v="escape" p="adjective" ts="ɪsˈkeɪp" tr="спасательный"/>
+    <d v="escapism" p="noun" ts="ɪsˈkeɪpɪzm" tr="эскапизм; бегство"/>
+    <d v="escapist" p="adjective" ts="ɪsˈkeɪpɪst" tr="эскапистский"/>
+    <d v="escapist" p="noun" ts="ɪsˈkeɪpɪst" tr="эскапист"/>
+    <d v="eschew" p="verb" ts="ɪsˈʧuː" tr="избегать; воздерживаться"/>
+    <d v="escort" p="noun" ts="ˈeskɔːt"
+       tr="сопровождение; эскорт; конвой; сопровождающий; сопроводитель; свита; провожатый; прикрытие"/>
+    <d v="escort" p="verb" ts="ˈeskɔːt" tr="сопровождать; эскортировать; отвести; конвоировать"/>
+    <d v="eskimo" p="noun" ts="ˈeskɪməʊ" tr="эскимос"/>
+    <d v="eskimo" p="adjective" ts="ˈeskɪməʊ" tr="эскимосский"/>
+    <d v="esophagus" p="noun" ts="iːˈsɔfəgəs" tr="пищевод"/>
+    <d v="esoteric" p="adjective" ts="esəʊˈterɪk" tr="эзотерический"/>
+    <d v="ESP" p="noun" ts="ɪsp" tr="ЭСП; экстрасенсорное восприятие"/>
+    <d v="especially" p="adverb" ts="ɪsˈpeʃəlɪ" tr="особенно"/>
+    <d v="especially" p="noun" ts="ɪsˈpeʃəlɪ" tr="в особенности"/>
+    <d v="espionage" p="noun" ts="espɪəˈnɑːʒ" tr="шпионаж; шпионство"/>
+    <d v="espionage" p="adjective" ts="espɪəˈnɑːʒ" tr="шпионский"/>
+    <d v="espouse" p="verb" ts="ɪsˈpaʊz" tr="поддерживать"/>
+    <d v="espresso" p="noun" ts="eˈspresəʊ" tr="эспрессо"/>
+    <d v="essay" p="noun" ts="ˈeseɪ" tr="эссе; очерк; опыт; попытка"/>
+    <d v="essay" p="verb" ts="ˈeseɪ" tr="подвергать испытанию"/>
+    <d v="essence" p="noun" ts="esns" tr="суть; эссенция; экстракт; аромат"/>
+    <d v="essential" p="adjective" ts="ɪˈsenʃəl" tr="необходимый; эфирный; существенно важный"/>
+    <d v="essential" p="noun" ts="ɪˈsenʃəl" tr="необходимость; сущность"/>
+    <d v="essentially" p="noun" ts="ɪˈsenʃəlɪ" tr="по существу; существо; по сути дела; по своей сути"/>
+    <d v="essentially" p="adverb" ts="ɪˈsenʃəlɪ" tr="существенно; фактически"/>
+    <d v="essentially" p="adjective" ts="ɪˈsenʃəlɪ" tr="главный"/>
+    <d v="establish" p="verb" ts="ɪsˈtæblɪʃ"
+       tr="установить; создать; наладить; организовать; утвердить; утвердиться; установиться; заложить; доказать"/>
+    <d v="establish" p="noun" ts="ɪsˈtæblɪʃ" tr="создание; установление"/>
+    <d v="establishment" p="noun" ts="ɪsˈtæblɪʃmənt"
+       tr="создание; учреждение; установление; истеблишмент; хозяйство; штат"/>
+    <d v="estate" p="noun" ts="ɪsˈteɪt" tr="недвижимость; поместье; сословие; положение"/>
+    <d v="esteem" p="noun" ts="ɪsˈtiːm" tr="уважение; самоуважение; почтение"/>
+    <d v="esteem" p="verb" ts="ɪsˈtiːm" tr="почитать; считать"/>
+    <d v="esthetic" p="adjective" ts="iːsˈθetɪk" tr="эстетический"/>
+    <d v="esthetic" p="noun" ts="iːsˈθetɪk" tr="эстетика"/>
+    <d v="esthetically" p="adverb" ts="iːsˈθetɪklɪ" tr="эстетически"/>
+    <d v="estimable" p="adjective" ts="ˈestɪməbl" tr="почтенный"/>
+    <d v="estimate" p="noun" ts="ˈestɪmɪt" tr="оценка; калькуляция"/>
+    <d v="estimate" p="verb" ts="ˈestɪmɪt" tr="оценить; подсчитать; прикидывать"/>
+    <d v="estimate" p="adjective" ts="ˈestɪmɪt" tr="оценочный"/>
+    <d v="estimate" p="participle" ts="ˈestɪmɪt" tr="предполагаемый; оцениваемый"/>
+    <d v="estimated" p="participle" ts="ˈestɪmeɪtɪd" tr="оцененный; предполагаемый; оцениваемый; рассчитанный"/>
+    <d v="estimation" p="noun" ts="estɪˈmeɪʃn" tr="оценка; расчет; мнение; прикидка; уважение"/>
+    <d v="estranged" p="participle" ts="ɪˈstreɪnʤd" tr="отчужденный"/>
+    <d v="estrangement" p="noun" ts="ɪsˈtreɪnʤmənt" tr="отчуждение; отчужденность; разрыв; охлаждение; холодок"/>
+    <d v="estrogen" p="noun" ts="ˈestrəʤən" tr="эстроген"/>
+    <d v="estuary" p="noun" ts="ˈestjʊərɪ" tr="устье; лиман; устье реки"/>
+    <d v="etch" p="noun" ts="eʧ" tr="травление"/>
+    <d v="etch" p="verb" ts="eʧ" tr="вытравить; гравировать; протравить; травить"/>
+    <d v="eternal" p="adjective" ts="iːˈtɜːnl" tr="вечный; постоянный"/>
+    <d v="eternal" p="noun" ts="iːˈtɜːnl" tr="вечность"/>
+    <d v="eternally" p="adverb" ts="ɪˈtɜːnəlɪ" tr="вечно"/>
+    <d v="eternally" p="noun" ts="ɪˈtɜːnəlɪ" tr="вечность"/>
+    <d v="eternity" p="noun" ts="iːˈtɜːnɪtɪ" tr="вечность; веки веков; загробный мир"/>
+    <d v="ether" p="noun" ts="ˈiːθə" tr="эфир; небеса"/>
+    <d v="ether" p="adjective" ts="ˈiːθə" tr="эфирный"/>
+    <d v="ethereal" p="adjective" ts="iːˈθɪərɪəl" tr="эфирный; неземной; бесплотный; воздушный"/>
+    <d v="ethic" p="noun" ts="ˈeθɪk" tr="этика"/>
+    <d v="ethic" p="adjective" ts="ˈeθɪk" tr="этический"/>
+    <d v="ethical" p="adjective" ts="ˈeθɪkəl" tr="этический; нравственный"/>
+    <d v="ethical" p="noun" ts="ˈeθɪkəl" tr="этика"/>
+    <d v="ethical" p="adverb" ts="ˈeθɪkəl" tr="этически"/>
+    <d v="ethically" p="adverb" ts="ˈeθɪklɪ" tr="этически"/>
+    <d v="ethically" p="adjective" ts="ˈeθɪklɪ" tr="этический"/>
+    <d v="ethics" p="noun" ts="ˈeθɪks" tr="этика"/>
+    <d v="ethics" p="adjective" ts="ˈeθɪks" tr="этический"/>
+    <d v="ethnic" p="adjective" ts="ˈeθnɪk" tr="этнический"/>
+    <d v="etiquette" p="noun" ts="ˈetɪket" tr="этикет"/>
+    <d v="etymology" p="noun" ts="etɪˈmɔləʤɪ" tr="этимология"/>
+    <d v="eulogize" p="verb" ts="ˈjuːləʤaɪz" tr="восхвалять"/>
+    <d v="eulogy" p="noun" ts="ˈjuːləʤɪ" tr="панегирик; восхваление; хвалебная речь; надгробная речь"/>
+    <d v="eunuch" p="noun" ts="ˈjuːnək" tr="евнух; кастрат"/>
+    <d v="euphemism" p="noun" ts="ˈjuːfɪmɪzm" tr="эвфемизм"/>
+    <d v="euphemistic" p="adjective" ts="juːfɪˈmɪstɪk" tr="эвфемистический"/>
+    <d v="euphemistic" p="noun" ts="juːfɪˈmɪstɪk" tr="эвфемизм"/>
+    <d v="euphemistically" p="adverb" ts="juːfəˈmɪstɪklɪ" tr="эвфемистически"/>
+    <d v="euphoria" p="noun" ts="juːˈfɔːrɪə" tr="эйфория"/>
+    <d v="euphoric" p="noun" ts="juːˈfɒrɪk" tr="эйфория"/>
+    <d v="euphoric" p="adjective" ts="juːˈfɒrɪk" tr="эйфористический"/>
+    <d v="Europe" p="noun" ts="ˈjʊərəp" tr="Европа"/>
+    <d v="European" p="adjective" ts="jʊərəˈpiːən" tr="европейский"/>
+    <d v="European" p="noun" ts="jʊərəˈpiːən" tr="Европа; европеец"/>
+    <d v="euthanasia" p="noun" ts="juːθəˈneɪzjə" tr="эвтаназия; эйтаназия"/>
+    <d v="evacuate" p="verb" ts="ɪˈvækjʊeɪt" tr="эвакуировать; покинуть; откачивать"/>
+    <d v="evacuate" p="noun" ts="ɪˈvækjʊeɪt" tr="эвакуация"/>
+    <d v="evacuation" p="noun" ts="ɪvækjʊˈeɪʃn" tr="эвакуация; вакуумирование"/>
+    <d v="evacuee" p="participle" ts="ɪvækjuːˈiː" tr="эвакуированный"/>
+    <d v="evade" p="verb" ts="ɪˈveɪd" tr="уклоняться; избежать; обойти; увернуться; ускользнуть"/>
+    <d v="evade" p="noun" ts="ɪˈveɪd" tr="уклонение; обход"/>
+    <d v="evaluate" p="verb" ts="ɪˈvæljʊeɪt" tr="оценить; вычислять"/>
+    <d v="evaluate" p="noun" ts="ɪˈvæljʊeɪt" tr="оценка"/>
+    <d v="evaluation" p="noun" ts="ɪvæljʊˈeɪʃn" tr="оценка"/>
+    <d v="evaluation" p="adjective" ts="ɪvæljʊˈeɪʃn" tr="оценочный"/>
+    <d v="evangelical" p="adjective" ts="iːvænˈʤelɪkəl" tr="евангельский"/>
+    <d v="evangelical" p="noun" ts="iːvænˈʤelɪkəl" tr="евангелист; протестант"/>
+    <d v="evangelism" p="noun" ts="ɪˈvænʤəlɪzəm" tr="евангелизация; благовестие; проповедование"/>
+    <d v="evangelist" p="noun" ts="ɪˈvænʤɪlɪst" tr="евангелист; проповедник"/>
+    <d v="evaporate" p="verb" ts="ɪˈvæpəreɪt" tr="испаряться; испариться; исчезнуть; выпарить"/>
+    <d v="evaporate" p="noun" ts="ɪˈvæpəreɪt" tr="испарение"/>
+    <d v="evaporation" p="noun" ts="ɪvæpəˈreɪʃn" tr="испарение"/>
+    <d v="evaporation" p="adjective" ts="ɪvæpəˈreɪʃn" tr="выпарной"/>
+    <d v="evasion" p="noun" ts="ɪˈveɪʒən" tr="уклонение; отговорка; бегство"/>
+    <d v="evasive" p="adjective" ts="ɪˈveɪsɪv" tr="уклончивый"/>
+    <d v="evasive" p="noun" ts="ɪˈveɪsɪv" tr="уклонение"/>
+    <d v="eve" p="noun" ts="iːv" tr="Ева; канун; вечер"/>
+    <d v="even" p="particle" ts="ˈiːvən" tr="даже; еще; хотя бы; точно"/>
+    <d v="even" p="adjective" ts="ˈiːvən" tr="ровный; четный"/>
+    <d v="even" p="noun" ts="ˈiːvən" tr="вечер"/>
+    <d v="even" p="verb" ts="ˈiːvən" tr="выравнивать"/>
+    <d v="even" p="adverb" ts="ˈiːvən" tr="как раз"/>
+    <d v="evening" p="noun" ts="ˈiːvnɪŋ" tr="вечер"/>
+    <d v="evening" p="adjective" ts="ˈiːvnɪŋ" tr="вечерний"/>
+    <d v="evenly" p="adverb" ts="ˈiːvənlɪ" tr="равномерно; уравновешенно"/>
+    <d v="evenness" p="noun" ts="ˈiːvnnəs" tr="равномерность; ровность; четность; плавность"/>
+    <d v="event" p="noun" ts="ɪˈvent" tr="событие; результат"/>
+    <d v="event" p="adjective" ts="ɪˈvent" tr="событийный"/>
+    <d v="eventful" p="participle" ts="ɪˈventfʊl" tr="насыщенный; богатый; богатый событиями"/>
+    <d v="eventful" p="adjective" ts="ɪˈventfʊl" tr="событийный"/>
+    <d v="eventual" p="adjective" ts="ɪˈvenʧʊəl" tr="возможный; конечный"/>
+    <d v="eventuality" p="noun" ts="ɪventjʊˈælɪtɪ" tr="случайность; возможность"/>
+    <d v="eventually" p="noun" ts="ɪˈvenʧəlɪ" tr="в конечном итоге; конечный итог; со временем"/>
+    <d v="eventually" p="adjective" ts="ɪˈvenʧəlɪ" tr="конечный"/>
+    <d v="eventually" p="adverb" ts="ɪˈvenʧəlɪ" tr="постепенно; наконец"/>
+    <d v="ever" p="adverb" ts="ˈevə" tr="всегда; никогда"/>
+    <d v="ever" p="pronoun" ts="ˈevə" tr="все"/>
+    <d v="ever" p="noun" ts="ˈevə" tr="веки; все время"/>
+    <d v="evergreen" p="adjective" ts="ˈevəgriːn" tr="вечнозеленый; вечно зеленый"/>
+    <d v="everlasting" p="adjective" ts="evəˈlɑːstɪŋ" tr="вечный; бесконечный; прочный; докучливый"/>
+    <d v="everlasting" p="noun" ts="evəˈlɑːstɪŋ" tr="вечность; бессмертник"/>
+    <d v="evermore" p="noun" ts="ˈevəˈmɔː" tr="во веки"/>
+    <d v="evermore" p="adverb" ts="ˈevəˈmɔː" tr="навсегда; вовеки"/>
+    <d v="every" p="pronoun" ts="ˈevrɪ" tr="каждый; все; всякий"/>
+    <d v="everybody" p="pronoun" ts="ˈevrɪbɔdɪ" tr="все; каждый; всякий; кто угодно"/>
+    <d v="everybody" p="noun" ts="ˈevrɪbɔdɪ" tr="у всех; у каждого"/>
+    <d v="everyday" p="adjective" ts="ˈevrɪdeɪ" tr="повседневный; обычный; обиходный"/>
+    <d v="everyday" p="noun" ts="ˈevrɪdeɪ" tr="будни; повседневность; обиход"/>
+    <d v="everyone" p="pronoun" ts="ˈevrɪwʌn" tr="все; каждый; всякий"/>
+    <d v="everyone" p="noun" ts="ˈevrɪwʌn" tr="у каждого; у всех"/>
+    <d v="everything" p="pronoun" ts="ˈevrɪθɪŋ" tr="все"/>
+    <d v="everywhere" p="adverb" ts="ˈevrɪwɛə" tr="везде"/>
+    <d v="evict" p="verb" ts="iːˈvɪkt" tr="выселить; выселять"/>
+    <d v="evict" p="noun" ts="iːˈvɪkt" tr="выселение"/>
+    <d v="eviction" p="noun" ts="iːˈvɪkʃn" tr="выселение"/>
+    <d v="evidence" p="noun" ts="ˈevɪdəns" tr="доказательство; фактические данные"/>
+    <d v="evidence" p="adjective" ts="ˈevɪdəns" tr="доказательный"/>
+    <d v="evidence" p="verb" ts="ˈevɪdəns" tr="доказывать"/>
+    <d v="evident" p="adjective" ts="ˈevɪdənt" tr="очевидный; заметный"/>
+    <d v="evident" p="adverb" ts="ˈevɪdənt" tr="налицо"/>
+    <d v="evidently" p="adverb" ts="ˈevɪdəntlɪ" tr="явно; видимо; наглядно"/>
+    <d v="evil" p="noun" ts="iːvl" tr="зло; бедствие; беда; злодеяние; порок; нечисть; дьявол"/>
+    <d v="evil" p="adjective" ts="iːvl" tr="злой; нечистый; пагубный"/>
+    <d v="evocative" p="participle" ts="ˈevəʊkətɪv" tr="пробуждающий"/>
+    <d v="evoke" p="verb" ts="ɪˈvəʊk" tr="вызывать; пробуждать"/>
+    <d v="evolution" p="noun" ts="iːvəˈluːʃn" tr="эволюция; выделение; перестроение"/>
+    <d v="evolution" p="adjective" ts="iːvəˈluːʃn" tr="эволюционный"/>
+    <d v="evolutionary" p="adjective" ts="iːvəˈluːʃnərɪ" tr="эволюционный"/>
+    <d v="evolutionary" p="participle" ts="iːvəˈluːʃnərɪ" tr="эволюционирующий"/>
+    <d v="evolve" p="verb" ts="ɪˈvɔlv"
+       tr="развиваться; эволюционировать; меняться; возникнуть; складываться; выделять; формироваться"/>
+    <d v="evolve" p="noun" ts="ɪˈvɔlv" tr="развитие"/>
+    <d v="ewe" p="noun" ts="juː" tr="овца"/>
+    <d v="ex" p="invariant" ts="eks" tr="ЕХ"/>
+    <d v="ex" p="adjective" ts="eks" tr="бывший"/>
+    <d v="ex" p="noun" ts="eks" tr="экс"/>
+    <d v="exacerbate" p="verb" ts="eksˈæsɜːbeɪt" tr="усугублять; усиливать; обостряться; осложнить"/>
+    <d v="exacerbate" p="noun" ts="eksˈæsɜːbeɪt" tr="обострение"/>
+    <d v="exact" p="adjective" ts="ɪgˈzækt" tr="точный"/>
+    <d v="exact" p="verb" ts="ɪgˈzækt" tr="взыскивать; требовать; вымогать; домогаться"/>
+    <d v="exacting" p="adjective" ts="ɪgˈzæktɪŋ" tr="требовательный; суровый"/>
+    <d v="exactly" p="particle" ts="ɪgˈzæktlɪ" tr="точно; именно"/>
+    <d v="exactly" p="noun" ts="ɪgˈzæktlɪ" tr="точность; в точности"/>
+    <d v="exactly" p="adverb" ts="ɪgˈzæktlɪ" tr="совсем; как раз; прямо"/>
+    <d v="exaggerate" p="verb" ts="ɪgˈzæʤəreɪt" tr="преувеличивать; утрировать; сгущать краски; муссировать; раздуть"/>
+    <d v="exaggerate" p="noun" ts="ɪgˈzæʤəreɪt" tr="преувеличение"/>
+    <d v="exaggerated" p="adjective" ts="ɪgˈzæʤəreɪtɪd" tr="преувеличенный; раздутый"/>
+    <d v="exaggerated" p="noun" ts="ɪgˈzæʤəreɪtɪd" tr="преувеличение"/>
+    <d v="exaggeration" p="noun" ts="ɪgzæʤəˈreɪʃn" tr="преувеличение"/>
+    <d v="exalt" p="verb" ts="ɪgˈzɔːlt" tr="возвысить; превозносить"/>
+    <d v="exaltation" p="noun" ts="egzɔːlˈteɪʃn" tr="экзальтация; возвышение; восторг"/>
+    <d v="exam" p="noun" ts="ɪgˈzæm" tr="экзамен; обследование"/>
+    <d v="exam" p="adjective" ts="ɪgˈzæm" tr="экзаменационный"/>
+    <d v="examination" p="noun" ts="ɪgzæmɪˈneɪʃn" tr="обследование; экспертиза; экзамен; допрос"/>
+    <d v="examination" p="adjective" ts="ɪgzæmɪˈneɪʃn" tr="экзаменационный"/>
+    <d v="examine" p="verb" ts="ɪgˈzæmɪn"
+       tr="рассмотреть; изучить; осмотреть; изучать; посмотреть; допрашивать; экзаменовать; выслушивать"/>
+    <d v="examine" p="noun" ts="ɪgˈzæmɪn" tr="изучение"/>
+    <d v="examiner" p="noun" ts="ɪgˈzæmɪnə" tr="эксперт; экзаменатор; ревизор"/>
+    <d v="example" p="parenthetic" ts="ɪgˈzɑːmpl" tr="например"/>
+    <d v="example" p="noun" ts="ɪgˈzɑːmpl" tr="пример; урок"/>
+    <d v="exasperate" p="verb" ts="ɪgˈzɑːspəreɪt" tr="раздражать; донимать"/>
+    <d v="exasperated" p="participle" ts="ɪgˈzæspəreɪtɪd" tr="раздраженный; рассерженный"/>
+    <d v="exasperating" p="participle" ts="ɪgˈzɑːspəreɪtɪŋ" tr="раздражающий"/>
+    <d v="exasperating" p="adjective" ts="ɪgˈzɑːspəreɪtɪŋ" tr="несносный"/>
+    <d v="exasperation" p="noun" ts="ɪgzɑːspəˈreɪʃn" tr="раздражение; ожесточение"/>
+    <d v="excavate" p="verb" ts="ˈekskəveɪt" tr="раскопать; производить раскопки"/>
+    <d v="excavation" p="noun" ts="ekskəˈveɪʃn"
+       tr="раскопки; выемка; раскоп; котлован; экскавация; выемка грунта; горная выработка; выкапывание"/>
+    <d v="exceed" p="verb" ts="ɪkˈsiːd" tr="превышать"/>
+    <d v="exceedingly" p="adverb" ts="ɪkˈsiːdɪŋlɪ" tr="чрезвычайно; весьма"/>
+    <d v="excel" p="verb" ts="ɪkˈsel" tr="превосходить; первенствовать; преуспеть; отличиться"/>
+    <d v="excel" p="noun" ts="ɪkˈsel" tr="в Excel; формат Excel; программа Excel; совершенство"/>
+    <d v="excellence" p="noun" ts="ˈeksələns"
+       tr="совершенство; превосходство; передовой опыт; мастерство; высокое качество; выдающееся мастерство"/>
+    <d v="excellence" p="adjective" ts="ˈeksələns" tr="передовой; превосходный"/>
+    <d v="excellent" p="adjective" ts="ˈeksələnt" tr="отличный; прекрасный"/>
+    <d v="excellently" p="adverb" ts="ˈeksələntlɪ" tr="отлично"/>
+    <d v="except" p="preposition" ts="ɪkˈsept" tr="кроме; исключая"/>
+    <d v="exception" p="noun" ts="ɪkˈsepʃn" tr="исключение; исключительная ситуация; отвод"/>
+    <d v="exception" p="adjective" ts="ɪkˈsepʃn" tr="исключительный"/>
+    <d v="exceptional" p="adjective" ts="ɪkˈsepʃənl" tr="исключительный; необыкновенный; необычайный"/>
+    <d v="exceptionally" p="adverb" ts="ɪkˈsepʃənlɪ" tr="исключительно; чрезвычайно"/>
+    <d v="exceptionally" p="noun" ts="ɪkˈsepʃənlɪ" tr="редкость"/>
+    <d v="excerpt" p="noun" ts="ˈeksɜːpt" tr="выдержка; выборка"/>
+    <d v="excerpt" p="verb" ts="ˈeksɜːpt" tr="выбирать"/>
+    <d v="excess" p="noun" ts="ɪkˈses"
+       tr="избыток; излишество; сверхприбыль; крайность; перегиб; чрезмерность; неумеренность"/>
+    <d v="excess" p="adjective" ts="ɪkˈses" tr="избыточный"/>
+    <d v="excessive" p="adjective" ts="ɪkˈsesɪv" tr="чрезмерный; избыточный"/>
+    <d v="excessive" p="noun" ts="ɪkˈsesɪv" tr="избыток"/>
+    <d v="excessive" p="participle" ts="ɪkˈsesɪv" tr="завышенный"/>
+    <d v="excessively" p="adverb" ts="ɪkˈsesɪvlɪ" tr="чрезмерно"/>
+    <d v="excessively" p="noun" ts="ɪkˈsesɪvlɪ" tr="до крайности"/>
+    <d v="exchange" p="noun" ts="ɪksˈʧeɪnʤ" tr="обмен; биржа; размен; мена; коммутатор"/>
+    <d v="exchange" p="adjective" ts="ɪksˈʧeɪnʤ" tr="обменный"/>
+    <d v="exchange" p="verb" ts="ɪksˈʧeɪnʤ" tr="обменяться; променять; меняться; разменивать"/>
+    <d v="exchange rate" p="noun" ts="ɪksˈʧeɪnʤ reɪt" tr="обменный курс; валютный курс; курс валюты; курс обмена"/>
+    <d v="excise" p="noun" ts="ekˈsaɪz" tr="акциз"/>
+    <d v="excise" p="adjective" ts="ekˈsaɪz" tr="акцизный"/>
+    <d v="excise" p="verb" ts="ekˈsaɪz" tr="вырезать"/>
+    <d v="excision" p="noun" ts="ekˈsɪʒən" tr="удаление; эксцизия"/>
+    <d v="excitable" p="adjective" ts="ɪkˈsaɪtəbl" tr="возбудимый; азартный"/>
+    <d v="excite" p="verb" ts="ɪkˈsaɪt"
+       tr="волновать; возбуждать; вызывать; взбудоражить; восхищать; вдохновлять; возбудиться; побуждать"/>
+    <d v="excite" p="noun" ts="ɪkˈsaɪt" tr="возбуждение"/>
+    <d v="excited" p="noun" ts="ɪkˈsaɪtɪd" tr="возбуждение; восторг"/>
+    <d v="excited" p="adverbial participle" ts="ɪkˈsaɪtɪd" tr="возбуждаясь"/>
+    <d v="excited" p="adverb" ts="ɪkˈsaɪtɪd" tr="взволнованно"/>
+    <d v="excited" p="participle" ts="ɪkˈsaɪtɪd"
+       tr="возбужденный; воодушевленный; разгоряченный; взбудораженный; увлеченный"/>
+    <d v="excitedly" p="adverb" ts="ɪkˈsaɪtɪdlɪ" tr="взволнованно; возбужденно"/>
+    <d v="excitedly" p="participle" ts="ɪkˈsaɪtɪdlɪ" tr="взволнованный"/>
+    <d v="excitedly" p="noun" ts="ɪkˈsaɪtɪdlɪ" tr="с волнением"/>
+    <d v="excitement" p="noun" ts="ɪkˈsaɪtmənt" tr="волнение; восторг"/>
+    <d v="exciting" p="adjective" ts="ɪkˈsaɪtɪŋ" tr="интересный; волнительный"/>
+    <d v="exciting" p="noun" ts="ɪkˈsaɪtɪŋ" tr="возбуждение"/>
+    <d v="exciting" p="adverb" ts="ɪkˈsaɪtɪŋ" tr="волнующе"/>
+    <d v="exciting" p="participle" ts="ɪkˈsaɪtɪŋ" tr="захватывающий; возбуждающий; потрясающий"/>
+    <d v="exclaim" p="verb" ts="ɪksˈkleɪm" tr="воскликнуть; восклицать"/>
+    <d v="exclamation" p="adjective" ts="ekskləˈmeɪʃn" tr="восклицательный"/>
+    <d v="exclamation" p="noun" ts="ekskləˈmeɪʃn" tr="восклицание"/>
+    <d v="exclamation point" p="adjective" ts="ekskləˈmeɪʃn pɔɪnt" tr="восклицательный"/>
+    <d v="exclamation point" p="noun" ts="ekskləˈmeɪʃn pɔɪnt" tr="восклицательный знак"/>
+    <d v="exclude" p="verb" ts="ɪksˈkluːd" tr="исключать; не допускать; отстранить; не впускать"/>
+    <d v="exclude" p="noun" ts="ɪksˈkluːd" tr="исключение"/>
+    <d v="excluding" p="noun" ts="ɪkˈskluːdɪŋ" tr="без учета"/>
+    <d v="excluding" p="participle" ts="ɪkˈskluːdɪŋ" tr="исключающий"/>
+    <d v="exclusion" p="noun" ts="ɪksˈkluːʒən"
+       tr="исключение; изоляция; отчуждение; отторжение; вытеснение; отстранение"/>
+    <d v="exclusive" p="adjective" ts="ɪksˈkluːsɪv" tr="эксклюзивный; первоклассный; отличный; недоступный"/>
+    <d v="exclusive" p="noun" ts="ɪksˈkluːsɪv" tr="эксклюзив"/>
+    <d v="exclusive" p="participle" ts="ɪksˈkluːsɪv" tr="исключающий"/>
+    <d v="exclusively" p="adverb" ts="ɪksˈkluːsɪvlɪ" tr="исключительно; монопольно"/>
+    <d v="exclusively" p="particle" ts="ɪksˈkluːsɪvlɪ" tr="только"/>
+    <d v="excommunicate" p="verb" ts="ekskəˈmjuːnɪkeɪt" tr="отлучить; отлучать"/>
+    <d v="excommunicate" p="participle" ts="ekskəˈmjuːnɪkeɪt" tr="отлученный; отлученный от церкви"/>
+    <d v="excommunication" p="noun" ts="ˈekskəmjuːnɪˈkeɪʃn" tr="отлучение; отлучение от церкви"/>
+    <d v="excrement" p="noun" ts="ˈekskrɪmənt" tr="экскременты"/>
+    <d v="excrete" p="verb" ts="eksˈkriːt" tr="экскретировать; выводить; извергать"/>
+    <d v="excruciating" p="adjective" ts="ɪksˈkruːʃɪeɪtɪŋ" tr="мучительный"/>
+    <d v="excruciatingly" p="adverb" ts="ɪkˈskruːʃɪeɪtɪŋlɪ" tr="мучительно"/>
+    <d v="excursion" p="noun" ts="ɪksˈkɜːʃn" tr="экскурсия"/>
+    <d v="excursion" p="adjective" ts="ɪksˈkɜːʃn" tr="Экскурсионный"/>
+    <d v="excuse" p="noun" ts="ɪksˈkjuːs" tr="оправдание; предлог; отговорка; освобождение"/>
+    <d v="excuse" p="verb" ts="ɪksˈkjuːs" tr="извинить; оправдывать; оправдываться"/>
+    <d v="Exec" p="noun" ts="ˈeksɪk" tr="старпом"/>
+    <d v="execute" p="verb" ts="ˈeksɪkjuːt" tr="выполнить; казнить; производить; оформлять; расстрелять"/>
+    <d v="execute" p="noun" ts="ˈeksɪkjuːt" tr="выполнение"/>
+    <d v="execute" p="participle" ts="ˈeksɪkjuːt" tr="выполняемый"/>
+    <d v="execution" p="noun" ts="eksɪˈkjuːʃn" tr="исполнение; казнь; уничтожение"/>
+    <d v="executioner" p="noun" ts="eksɪˈkjuːʃnə" tr="палач; исполнитель; экзекутор"/>
+    <d v="executive" p="adjective" ts="ɪgˈzekjʊtɪv" tr="исполнительный"/>
+    <d v="executive" p="noun" ts="ɪgˈzekjʊtɪv" tr="руководитель; должностное лицо"/>
+    <d v="executor" p="noun" ts="ɪgˈzekjʊtə" tr="исполнитель"/>
+    <d v="exemplary" p="adjective" ts="ɪgˈzemplərɪ" tr="образцовый; примерный; типовой"/>
+    <d v="exemplary" p="participle" ts="ɪgˈzemplərɪ" tr="достойный подражания"/>
+    <d v="exemplify" p="noun" ts="ɪgˈzemplɪfaɪ" tr="пример"/>
+    <d v="exemplify" p="verb" ts="ɪgˈzemplɪfaɪ" tr="иллюстрировать"/>
+    <d v="exempt" p="verb" ts="ɪgˈzempt" tr="освобождать; исключать"/>
+    <d v="exempt" p="participle" ts="ɪgˈzempt" tr="освобожденный; освобождаемый"/>
+    <d v="exempt" p="adverbial participle" ts="ɪgˈzempt" tr="освобождаясь"/>
+    <d v="exempt" p="noun" ts="ɪgˈzempt" tr="исключение; льготник"/>
+    <d v="exempt" p="adjective" ts="ɪgˈzempt" tr="свободный"/>
+    <d v="exemption" p="noun" ts="ɪgˈzempʃn" tr="освобождение; исключение"/>
+    <d v="exercise" p="noun" ts="ˈeksəsaɪz"
+       tr="упражнение; учение; тренировка; осуществление; гимнастика; проявление; моцион"/>
+    <d v="exercise" p="verb" ts="ˈeksəsaɪz"
+       tr="осуществлять; пользоваться; упражнять; заниматься спортом; тренировать; развивать; беспокоиться"/>
+    <d v="exercise" p="adjective" ts="ˈeksəsaɪz" tr="тренажерный"/>
+    <d v="exert" p="verb" ts="ɪgˈzɜːt" tr="оказывать; приложить; проявлять; напрягать; вызывать"/>
+    <d v="exertion" p="noun" ts="ɪgˈzɜːʃn" tr="напряжение"/>
+    <d v="exhale" p="verb" ts="eksˈheɪl" tr="выдохнуть; выделять; источать"/>
+    <d v="exhale" p="noun" ts="eksˈheɪl" tr="выдох"/>
+    <d v="exhaust" p="adjective" ts="ɪgˈzɔːst" tr="выхлопной"/>
+    <d v="exhaust" p="noun" ts="ɪgˈzɔːst" tr="выхлоп; вытяжка; вытыхание; выпуск; откачка"/>
+    <d v="exhaust" p="verb" ts="ɪgˈzɔːst"
+       tr="исчерпать; загонять; исчерпываться; изнурять; высасывать; вымотать; изматывать; выматывать; измотать; выпускать; разрежать"/>
+    <d v="exhaust" p="participle" ts="ɪgˈzɔːst" tr="отходящий"/>
+    <d v="exhausted" p="participle" ts="ɪgˈzɔːstɪd"
+       tr="измученный; истощенный; утомленный; обессиленный; измотанный; вымотанный; уставший; опустошенный"/>
+    <d v="exhausted" p="adjective" ts="ɪgˈzɔːstɪd" tr="усталый"/>
+    <d v="exhausted" p="verb" ts="ɪgˈzɔːstɪd" tr="уставать"/>
+    <d v="exhausted" p="adverbial participle" ts="ɪgˈzɔːstɪd" tr="изнемогая"/>
+    <d v="exhausting" p="adjective" ts="ɪgˈzɔːstɪŋ" tr="изнурительный"/>
+    <d v="exhausting" p="participle" ts="ɪgˈzɔːstɪŋ" tr="изнуряющий; изматывающий"/>
+    <d v="exhausting" p="noun" ts="ɪgˈzɔːstɪŋ" tr="исчерпание"/>
+    <d v="exhaustion" p="noun" ts="ɪgˈzɔːsʧən"
+       tr="истощение; усталость; высасывание; опустошение; выпуск; разрежение; измождение; вытягивание"/>
+    <d v="exhaustive" p="adjective" ts="ɪgˈzɔːstɪv" tr="исчерпывающий; изнурительный"/>
+    <d v="exhaustively" p="adverb" ts="ɪgˈzɔːstɪvlɪ" tr="исчерпывающе"/>
+    <d v="exhibit" p="noun" ts="ɪgˈzɪbɪt" tr="экспонат; выставка; вещественное доказательство"/>
+    <d v="exhibit" p="verb" ts="ɪgˈzɪbɪt" tr="демонстрировать; выставлять"/>
+    <d v="exhibit" p="adjective" ts="ɪgˈzɪbɪt" tr="выставочный"/>
+    <d v="exhibit" p="participle" ts="ɪgˈzɪbɪt" tr="выставленный"/>
+    <d v="exhibition" p="noun" ts="eksɪˈbɪʃn" tr="выставка; стипендия"/>
+    <d v="exhibition" p="adjective" ts="eksɪˈbɪʃn" tr="выставочный"/>
+    <d v="exhibitionism" p="noun" ts="eksɪˈbɪʃnɪzm" tr="эксгибиционизм"/>
+    <d v="exhibitionist" p="noun" ts="eksɪˈbɪʃnɪst" tr="эксгибиционист"/>
+    <d v="exhibitor" p="noun" ts="ɪgˈzɪbɪtə" tr="экспонента"/>
+    <d v="exhilarate" p="verb" ts="ɪgˈzɪləreɪt" tr="развеселить; оживлять"/>
+    <d v="exhilarating" p="participle" ts="ɪgˈzɪləreɪtɪŋ" tr="бодрящий"/>
+    <d v="exhilaration" p="noun" ts="ɪgzɪləˈreɪʃn" tr="возбуждение; веселье; приятное возбуждение"/>
+    <d v="exhort" p="verb" ts="ɪgˈzɔːt" tr="призывать; увещевать"/>
+    <d v="exhortation" p="noun" ts="egzɔːˈteɪʃn" tr="увещевание; проповедь; предупреждение"/>
+    <d v="exhumation" p="noun" ts="ekshjuːˈmeɪʃn" tr="эксгумация"/>
+    <d v="exhume" p="verb" ts="eksˈhjuːm" tr="эксгумировать; выкопать"/>
+    <d v="exile" p="noun" ts="ˈeksaɪl" tr="изгнание; изгнанник; плен"/>
+    <d v="exile" p="adjective" ts="ˈeksaɪl" tr="ссыльный"/>
+    <d v="exile" p="verb" ts="ˈeksaɪl" tr="изгнать; ссылать"/>
+    <d v="exile" p="participle" ts="ˈeksaɪl" tr="изгнанный; высланный"/>
+    <d v="exist" p="verb" ts="ɪgˈzɪst" tr="существовать; сложиться; наличествовать"/>
+    <d v="exist" p="noun" ts="ɪgˈzɪst" tr="существование"/>
+    <d v="existence" p="noun" ts="ɪgˈzɪstəns" tr="существование; бытование"/>
+    <d v="existing" p="participle" ts="ɪgˈzɪstɪŋ" tr="существующий; имеющийся; действующий; сложившийся"/>
+    <d v="exit" p="noun" ts="ˈeksɪt" tr="выход; исчезновение"/>
+    <d v="exit" p="adjective" ts="ˈeksɪt" tr="выездной"/>
+    <d v="exit poll" p="noun" ts="ˈeksɪt pəʊl" tr="экзит-пол; экзит-полл"/>
+    <d v="exodus" p="noun" ts="ˈeksədəs" tr="исход; бегство; массовое бегство; массовый отъезд"/>
+    <d v="exonerate" p="verb" ts="ɪgˈzɔnəreɪt" tr="оправдать"/>
+    <d v="exoneration" p="noun" ts="ɪgzɔnəˈreɪʃn" tr="оправдание; реабилитация"/>
+    <d v="exorbitant" p="adjective" ts="ɪgˈzɔːbɪtənt" tr="непомерный"/>
+    <d v="exorbitant" p="adverb" ts="ɪgˈzɔːbɪtənt" tr="втридорога"/>
+    <d v="exorcism" p="noun" ts="ˈeksɔːsɪzm" tr="экзорцизм; заклинание; изгнание беса; изгнание нечистой силы"/>
+    <d v="exorcist" p="noun" ts="ˈeksəsɪst" tr="экзорцист"/>
+    <d v="exotic" p="adjective" ts="ɪgˈzɔtɪk" tr="экзотический; иноземный"/>
+    <d v="exotic" p="noun" ts="ɪgˈzɔtɪk" tr="экзотика"/>
+    <d v="expand" p="verb" ts="ɪksˈpænd"
+       tr="расширить; расширяться; развернуть; распространить; разрастаться; растягивать; расцветать"/>
+    <d v="expand" p="noun" ts="ɪksˈpænd" tr="расширение"/>
+    <d v="expanded" p="participle" ts="ɪkˈspændɪd" tr="расширенный; развернутый; расширяемый"/>
+    <d v="expanse" p="noun" ts="ɪksˈpæns" tr="простор; ширь; раздолье; гладь; расширение; даль; протяжение"/>
+    <d v="expansion" p="noun" ts="ɪksˈpænʃn"
+       tr="расширение; разложение; раскрытие; растяжение; пространство; раскатка; развальцовка"/>
+    <d v="expansion" p="adjective" ts="ɪksˈpænʃn" tr="расширительный"/>
+    <d v="expansionist" p="adjective" ts="ɪkˈspænʃənɪst" tr="экспансионистский"/>
+    <d v="expansionist" p="noun" ts="ɪkˈspænʃənɪst" tr="экспансия"/>
+    <d v="expansive" p="adjective" ts="ɪksˈpænsɪv" tr="обширный; экспансивный; дорогой"/>
+    <d v="expansive" p="participle" ts="ɪksˈpænsɪv" tr="открытый"/>
+    <d v="expatriate" p="noun" ts="eksˈpætrɪeɪt" tr="экспатриант; эмигрант"/>
+    <d v="expatriate" p="verb" ts="eksˈpætrɪeɪt" tr="экспатриировать"/>
+    <d v="expect" p="verb" ts="ɪksˈpekt" tr="ожидать; рассчитывать; предполагать"/>
+    <d v="expectancy" p="noun" ts="ɪksˈpektənsɪ"
+       tr="продолжительность; ожидаемая продолжительность; средняя продолжительность; ожидание"/>
+    <d v="expectant" p="adjective" ts="ɪksˈpektənt" tr="будущий; выжидательный"/>
+    <d v="expectant" p="participle" ts="ɪksˈpektənt" tr="выжидающий"/>
+    <d v="expectantly" p="adverb" ts="ɪkˈspektəntlɪ" tr="выжидательно"/>
+    <d v="expectation" p="noun" ts="ekspekˈteɪʃn" tr="ожидание"/>
+    <d v="expectation" p="verb" ts="ekspekˈteɪʃn" tr="ожидать"/>
+    <d v="expediency" p="noun" ts="ɪksˈpiːdjənsɪ" tr="целесообразность; конъюнктура; выгодность"/>
+    <d v="expedient" p="adjective" ts="ɪksˈpiːdjənt" tr="целесообразный"/>
+    <d v="expedient" p="participle" ts="ɪksˈpiːdjənt" tr="подходящий"/>
+    <d v="expedient" p="noun" ts="ɪksˈpiːdjənt" tr="уловка"/>
+    <d v="expedite" p="verb" ts="ˈekspɪdaɪt" tr="ускорить; облегчать"/>
+    <d v="expedite" p="noun" ts="ˈekspɪdaɪt" tr="ускорение"/>
+    <d v="expedition" p="noun" ts="ekspɪˈdɪʃn" tr="экспедиция; экспедирование"/>
+    <d v="expedition" p="adjective" ts="ekspɪˈdɪʃn" tr="экспедиционный"/>
+    <d v="expel" p="verb" ts="ɪksˈpel" tr="изгнать; исключить; выслать; вытеснить; удалить; выбрасывать; выталкивать"/>
+    <d v="expel" p="noun" ts="ɪksˈpel" tr="высылка"/>
+    <d v="expend" p="verb" ts="ɪksˈpend" tr="тратить"/>
+    <d v="expendable" p="adjective" ts="ɪksˈpendəbl" tr="расходный"/>
+    <d v="expendable" p="participle" ts="ɪksˈpendəbl" tr="расходуемый; потребляемый"/>
+    <d v="expenditure" p="noun" ts="ɪksˈpendɪʧə" tr="расходы; затраты; расходование; потребление"/>
+    <d v="expenditure" p="adjective" ts="ɪksˈpendɪʧə" tr="расходный"/>
+    <d v="expense" p="noun" ts="ɪksˈpens" tr="счет; расход"/>
+    <d v="expense" p="adjective" ts="ɪksˈpens" tr="расходный"/>
+    <d v="expenses" p="noun" ts="ɪkˈspensɪz" tr="расходы; затраты"/>
+    <d v="expensive" p="adjective" ts="ɪksˈpensɪv" tr="дорогой"/>
+    <d v="expensive" p="verb" ts="ɪksˈpensɪv" tr="дорого стоить"/>
+    <d v="experience" p="noun" ts="ɪksˈpɪərɪəns" tr="опыт; случай; квалификация"/>
+    <d v="experience" p="verb" ts="ɪksˈpɪərɪəns" tr="испытывать; переживать; возникнуть"/>
+    <d v="experienced" p="noun" ts="ɪksˈpɪərɪənst" tr="опыт; большой опыт"/>
+    <d v="experienced" p="adjective" ts="ɪksˈpɪərɪənst" tr="опытный"/>
+    <d v="experienced" p="participle" ts="ɪksˈpɪərɪənst"
+       tr="испытанный; искушенный; испытываемый; переживаемый; наблюдавшийся; знающий"/>
+    <d v="experiment" p="noun" ts="ɪksˈperɪmənt" tr="эксперимент"/>
+    <d v="experiment" p="verb" ts="ɪksˈperɪmənt" tr="экспериментировать"/>
+    <d v="experimental" p="adjective" ts="eksperɪˈmentl" tr="экспериментальный"/>
+    <d v="experimental" p="noun" ts="eksperɪˈmentl" tr="эксперимент"/>
+    <d v="experimentally" p="adverb" ts="eksperɪˈmentəlɪ" tr="экспериментально"/>
+    <d v="experimentation" p="noun" ts="eksperɪmenˈteɪʃn" tr="эксперимент; экспериментаторство"/>
+    <d v="experimentation" p="adjective" ts="eksperɪmenˈteɪʃn" tr="экспериментальный"/>
+    <d v="expert" p="noun" ts="ˈekspɜːt" tr="эксперт"/>
+    <d v="expert" p="adjective" ts="ˈekspɜːt" tr="экспертный; опытный"/>
+    <d v="expertise" p="noun" ts="ekspɜːˈtiːz" tr="опыт; экспертные знания; компетенция; квалификация; знание дела"/>
+    <d v="expertise" p="adjective" ts="ekspɜːˈtiːz" tr="экспертный"/>
+    <d v="expertly" p="adverb" ts="ˈekspɜːtlɪ" tr="умело"/>
+    <d v="expiration" p="noun" ts="ekspaɪəˈreɪʃn" tr="истечение; выдох"/>
+    <d v="expiration date" p="noun" ts="ekspaɪəˈreɪʃn deɪt" tr="срок годности; дата истечения срока; дата истечения"/>
+    <d v="expire" p="verb" ts="ɪksˈpaɪə" tr="истекать; выдыхать; терять силу; устареть"/>
+    <d v="expire" p="participle" ts="ɪksˈpaɪə" tr="истекающий"/>
+    <d v="explain" p="verb" ts="ɪksˈpleɪn" tr="объяснить; пояснить; изложить"/>
+    <d v="explain" p="noun" ts="ɪksˈpleɪn" tr="объяснение"/>
+    <d v="explanation" p="noun" ts="ekspləˈneɪʃn" tr="объяснение; разъяснение; толкование"/>
+    <d v="explanatory" p="adjective" ts="ɪksˈplænətərɪ" tr="пояснительный"/>
+    <d v="explanatory" p="noun" ts="ɪksˈplænətərɪ" tr="пояснение"/>
+    <d v="expletive" p="participle" ts="eksˈpliːtɪv" tr="бранный"/>
+    <d v="expletive" p="noun" ts="eksˈpliːtɪv" tr="бранное слово"/>
+    <d v="explicable" p="adjective" ts="ˈeksplɪkəbl" tr="объяснимый"/>
+    <d v="explicit" p="adjective" ts="ɪksˈplɪsɪt" tr="явный; четкий"/>
+    <d v="explicitly" p="adverb" ts="ɪkˈsplɪsɪtlɪ" tr="явно; четко; открыто"/>
+    <d v="explicitly" p="noun" ts="ɪkˈsplɪsɪtlɪ" tr="явный вид"/>
+    <d v="explode" p="verb" ts="ɪksˈpləʊd" tr="взорваться; взорвать; подрывать; разражаться"/>
+    <d v="explode" p="noun" ts="ɪksˈpləʊd" tr="взрыв"/>
+    <d v="exploit" p="verb" ts="ˈeksplɔɪt" tr="использовать; эксплуатировать; злоупотреблять"/>
+    <d v="exploit" p="noun" ts="ˈeksplɔɪt" tr="подвиг; использование; эксплойт"/>
+    <d v="exploitation" p="noun" ts="eksplɔɪˈteɪʃn" tr="эксплуатация"/>
+    <d v="exploration" p="noun" ts="eksplɔːˈreɪʃn" tr="разведка; исследование; электроразведка"/>
+    <d v="exploration" p="adjective" ts="eksplɔːˈreɪʃn" tr="разведочный"/>
+    <d v="exploratory" p="adjective" ts="eksˈplɔːrətərɪ" tr="разведочный; исследовательский"/>
+    <d v="explore" p="verb" ts="ɪksˈplɔː" tr="исследовать; выяснить; разведать; изыскивать; познавать; зондировать"/>
+    <d v="explore" p="noun" ts="ɪksˈplɔː" tr="изучение"/>
+    <d v="Explorer" p="noun" ts="ɪksˈplɔːrə"
+       tr="исследователь; проводник; обозреватель; путешественник; первопроходец; зонд"/>
+    <d v="explosion" p="adverbial participle" ts="ɪksˈpləʊʒən" tr="взрыв"/>
+    <d v="explosion" p="adjective" ts="ɪksˈpləʊʒən" tr="взрывной"/>
+    <d v="explosion" p="noun" ts="ɪksˈpləʊʒən" tr="вспышка"/>
+    <d v="explosive" p="adjective" ts="ɪksˈpləʊsɪv" tr="взрывчатый; вспыльчивый"/>
+    <d v="explosive" p="noun" ts="ɪksˈpləʊsɪv" tr="взрывчатка"/>
+    <d v="Expo" p="noun" ts="ˈekspəʊ" tr="Экспо"/>
+    <d v="exponent" p="noun" ts="eksˈpəʊnənt"
+       tr="экспонента; представитель; показатель степени; выразитель; образец; исполнитель; толкователь"/>
+    <d v="export" p="noun" ts="ˈekspɔːt" tr="экспорт"/>
+    <d v="export" p="adjective" ts="ˈekspɔːt" tr="экспортный"/>
+    <d v="export" p="verb" ts="ˈekspɔːt" tr="экспортировать"/>
+    <d v="export" p="participle" ts="ˈekspɔːt" tr="экспортируемый; экспортирующий"/>
+    <d v="exportation" p="noun" ts="ekspɔːˈteɪʃn" tr="экспорт"/>
+    <d v="exporter" p="noun" ts="eksˈpɔːtə" tr="экспортер"/>
+    <d v="expose" p="verb" ts="eksˈpəʊzeɪ"
+       tr="подвергать; разоблачить; выставлять; подвергаться; раскрыть; выявить; обнажить; изобличить"/>
+    <d v="expose" p="noun" ts="eksˈpəʊzeɪ" tr="воздействие; разоблачение"/>
+    <d v="exposed" p="participle" ts="ɪkˈspəʊzd"
+       tr="выставленный; открытый; подвергающийся; разоблаченный; экспонированный; выставляемый; обнаженный"/>
+    <d v="exposed" p="adjective" ts="ɪkˈspəʊzd" tr="подверженный"/>
+    <d v="exposed" p="noun" ts="ɪkˈspəʊzd" tr="воздействие"/>
+    <d v="exposition" p="noun" ts="ekspəʊˈzɪʃn" tr="экспозиция; изложение"/>
+    <d v="exposition" p="adjective" ts="ekspəʊˈzɪʃn" tr="экспозиционный"/>
+    <d v="exposure" p="noun" ts="ɪksˈpəʊʒə"
+       tr="воздействие; экспозиция; разоблачение; подверженность; обнажение; незащищенность; выставление; вид; местоположение"/>
+    <d v="express" p="verb" ts="ɪksˈpres" tr="выразить; высказать; выжимать"/>
+    <d v="express" p="noun" ts="ɪksˈpres" tr="Экспресс"/>
+    <d v="express" p="participle" ts="ɪksˈpres" tr="выраженный; выражающий"/>
+    <d v="express" p="adjective" ts="ɪksˈpres" tr="курьерский; специальный"/>
+    <d v="express" p="adverbial participle" ts="ɪksˈpres" tr="выражаясь"/>
+    <d v="expression" p="noun" ts="ɪksˈpreʃn" tr="выражение; экспрессия; оборот речи"/>
+    <d v="expressive" p="adjective" ts="ɪksˈpresɪv" tr="выразительный"/>
+    <d v="expressive" p="noun" ts="ɪksˈpresɪv" tr="выразительность"/>
+    <d v="expressive" p="participle" ts="ɪksˈpresɪv" tr="выражающий"/>
+    <d v="expressively" p="adverb" ts="ɪkˈspresɪvlɪ" tr="выразительно"/>
+    <d v="expressly" p="adverb" ts="ɪkˈspreslɪ" tr="прямо; четко; явно"/>
+    <d v="expressway" p="adjective" ts="ɪksˈpresweɪ" tr="скоростной"/>
+    <d v="expressway" p="noun" ts="ɪksˈpresweɪ" tr="скоростная автомагистраль"/>
+    <d v="expropriate" p="verb" ts="eksˈprəʊprɪeɪt" tr="экспроприировать"/>
+    <d v="expropriate" p="noun" ts="eksˈprəʊprɪeɪt" tr="экспроприация"/>
+    <d v="expropriation" p="noun" ts="eksprəʊprɪˈeɪʃn" tr="экспроприация; принудительное отчуждение"/>
+    <d v="expulsion" p="noun" ts="ɪksˈpʌlʃn" tr="высылка; исключение; отчисление; выталкивание; продувка"/>
+    <d v="exquisite" p="adjective" ts="ˈekskwɪzɪt" tr="изысканный; совершенный"/>
+    <d v="exquisite" p="noun" ts="ˈekskwɪzɪt" tr="изысканность"/>
+    <d v="exquisitely" p="adverb" ts="ˈekskwɪzɪtlɪ" tr="изысканно; восхитительно"/>
+    <d v="extemporaneous" p="adjective" ts="ekstempəˈreɪnjəs" tr="импровизированный; спонтанный"/>
+    <d v="extend" p="verb" ts="ɪksˈtend"
+       tr="расширить; продлить; распространяться; простираться; распространить; удлинять; вытянуть; расшириться; оказывать; продолжать"/>
+    <d v="extend" p="noun" ts="ɪksˈtend" tr="расширение"/>
+    <d v="extend" p="participle" ts="ɪksˈtend" tr="расширенный"/>
+    <d v="extended family" p="noun" ts="ɪksˈtendɪd ˈfæmɪlɪ" tr="большая семья; расширенная семья"/>
+    <d v="extension" p="noun" ts="ɪksˈtenʃn"
+       tr="расширение; продление; выдвижение; пристройка; растяжка; отсрочка; разгибание; вытяжение; выпрямление; ветка; размыкание"/>
+    <d v="extensive" p="adjective" ts="ɪksˈtensɪv" tr="обширный; масштабный; подробный; объемный"/>
+    <d v="extensive" p="participle" ts="ɪksˈtensɪv" tr="исчерпывающий; развернутый"/>
+    <d v="extensively" p="adverb" ts="ɪksˈtensɪvlɪ" tr="широко; активно; подробно; пространно"/>
+    <d v="extensively" p="noun" ts="ɪksˈtensɪvlɪ" tr="во все стороны"/>
+    <d v="extent" p="noun" ts="ɪksˈtent" tr="степень; протяженность; протяжение; пространство"/>
+    <d v="exterior" p="adjective" ts="eksˈtɪərɪə" tr="внешний"/>
+    <d v="exterior" p="noun" ts="eksˈtɪərɪə" tr="экстерьер; внешний вид; натура"/>
+    <d v="exterminate" p="verb" ts="ɪksˈtɜːmɪneɪt" tr="уничтожить; искоренить; извести"/>
+    <d v="exterminate" p="noun" ts="ɪksˈtɜːmɪneɪt" tr="уничтожение"/>
+    <d v="extermination" p="noun" ts="ɪkstɜːmɪˈneɪʃn" tr="уничтожение; изведение"/>
+    <d v="exterminator" p="noun" ts="ɪksˈtɜːmɪneɪtə" tr="истребитель; искоренитель"/>
+    <d v="external" p="adjective" ts="eksˈtɜːnl" tr="внешний"/>
+    <d v="external" p="noun" ts="eksˈtɜːnl" tr="внешность"/>
+    <d v="extinct" p="participle" ts="ɪksˈtɪŋkt" tr="вымерший; потухший; исчезнувший; угасший; вымирающий"/>
+    <d v="extinct" p="verb" ts="ɪksˈtɪŋkt" tr="вымереть"/>
+    <d v="extinction" p="noun" ts="ɪksˈtɪŋkʃn"
+       tr="вымирание; уничтожение; тушение; исчезновение вида; погашение; затухание; прекращение; потухание"/>
+    <d v="extinguish" p="verb" ts="ɪksˈtɪŋgwɪʃ" tr="потушить; погасить; гаснуть; уничтожать; потухнуть; аннулировать"/>
+    <d v="extinguish" p="noun" ts="ɪksˈtɪŋgwɪʃ" tr="тушение"/>
+    <d v="extinguisher" p="noun" ts="ɪksˈtɪŋgwɪʃə" tr="огнетушитель"/>
+    <d v="extol" p="verb" ts="ɪksˈtəʊl" tr="превозносить; расхваливать; воспевать; возвеличивать"/>
+    <d v="extort" p="verb" ts="ɪksˈtɔːt" tr="вымогать; выкачивать; вырвать; выпытать; выбить; выпытывать"/>
+    <d v="extort" p="noun" ts="ɪksˈtɔːt" tr="вымогательство"/>
+    <d v="extortion" p="noun" ts="ɪksˈtɔːʃn" tr="вымогательство"/>
+    <d v="extortionate" p="adjective" ts="ɪksˈtɔːʃnɪt" tr="грабительский"/>
+    <d v="extra" p="adjective" ts="ˈekstrə" tr="дополнительный; лишний"/>
+    <d v="extra" p="noun" ts="ˈekstrə" tr="экстра; доплата; статист; высший сорт"/>
+    <d v="extract" p="noun" ts="ˈekstrækt" tr="экстракт; выписка"/>
+    <d v="extract" p="verb" ts="ˈekstrækt"
+       tr="извлечь; добывать; распаковать; вытаскивать; выудить; выжимать; выбирать"/>
+    <d v="extraction" p="noun" ts="ɪksˈtrækʃn"
+       tr="добыча; экстракция; выделение; происхождение; отжим; выемка; добывание; экстракт"/>
+    <d v="extraction" p="adjective" ts="ɪksˈtrækʃn" tr="вытяжной"/>
+    <d v="extracurricular" p="adjective" ts="ekstrəkəˈrɪkjʊlər" tr="внешкольный"/>
+    <d v="extradite" p="noun" ts="ˈekstrədaɪt" tr="экстрадиция; выдача"/>
+    <d v="extradite" p="verb" ts="ˈekstrədaɪt" tr="выдать"/>
+    <d v="extradition" p="noun" ts="ekstrəˈdɪʃn" tr="выдача"/>
+    <d v="extraneous" p="adjective" ts="eksˈtreɪnjəs" tr="посторонний; чуждый"/>
+    <d v="extraordinarily" p="adverb" ts="ɪksˈtrɔːdnrɪlɪ" tr="чрезвычайно; необычайно; экстраординарно"/>
+    <d v="extraordinarily" p="adjective" ts="ɪksˈtrɔːdnrɪlɪ" tr="необычайный"/>
+    <d v="extraordinary" p="adjective" ts="ɪksˈtrɔːdnrɪ"
+       tr="чрезвычайный; экстраординарный; удивительный; выдающийся; неординарный; внесметный"/>
+    <d v="extrapolate" p="verb" ts="ɪkˈstræpəleɪt" tr="экстраполировать"/>
+    <d v="extraterrestrial" p="adjective" ts="ɪkstrtəˈrestrɪəl" tr="внеземной; неземной"/>
+    <d v="extraterrestrial" p="noun" ts="ɪkstrtəˈrestrɪəl" tr="инопланетянин"/>
+    <d v="extravagance" p="noun" ts="ɪksˈtrævɪgəns"
+       tr="экстравагантность; расточительность; излишество; расточительство; сумасбродство; изыск; блажь; причуда; несдержанность; крайность"/>
+    <d v="extravagant" p="adjective" ts="ɪksˈtrævɪgənt"
+       tr="экстравагантный; расточительный; сумасбродный; нелепый; непомерный"/>
+    <d v="extreme" p="adjective" ts="ɪksˈtriːm" tr="крайний; экстремальный; чрезвычайно сильный"/>
+    <d v="extreme" p="noun" ts="ɪksˈtriːm" tr="крайность; экстрим"/>
+    <d v="extremely" p="adverb" ts="ɪksˈtriːmlɪ" tr="чрезвычайно; очень; предельно"/>
+    <d v="extremely" p="noun" ts="ɪksˈtriːmlɪ" tr="редкость"/>
+    <d v="extremism" p="noun" ts="ɪkˈstriːmɪzəm" tr="экстремизм; экстремистская деятельность"/>
+    <d v="extremism" p="adjective" ts="ɪkˈstriːmɪzəm" tr="экстремистский"/>
+    <d v="extremist" p="adjective" ts="ɪksˈtriːmɪst" tr="экстремистский"/>
+    <d v="extremist" p="noun" ts="ɪksˈtriːmɪst" tr="экстремист"/>
+    <d v="extremity" p="noun" ts="ɪksˈtremɪtɪ" tr="конечность; оконечность; конец; крайность"/>
+    <d v="extricate" p="verb" ts="ˈekstrɪkeɪt" tr="выпутаться; высвободиться; выводить"/>
+    <d v="extrovert" p="noun" ts="ˈekstrəʊvɜːt" tr="экстраверт"/>
+    <d v="extrovert" p="adjective" ts="ˈekstrəʊvɜːt" tr="общительный"/>
+    <d v="exuberance" p="noun" ts="ɪgˈzjuːbərəns" tr="изобилие"/>
+    <d v="exuberant" p="adjective" ts="ɪgˈzjuːbərənt" tr="избыточный; буйный; цветистый"/>
+    <d v="exude" p="verb" ts="ɪgˈzjuːd" tr="источать; проступать"/>
+    <d v="exult" p="verb" ts="ɪgˈzʌlt" tr="ликовать"/>
+    <d v="exultant" p="adjective" ts="ɪgˈzʌltənt" tr="ликующий"/>
+    <d v="exultant" p="verb" ts="ɪgˈzʌltənt" tr="ликовать"/>
+    <d v="exultant" p="participle" ts="ɪgˈzʌltənt" tr="торжествующий"/>
+    <d v="exultant" p="noun" ts="ɪgˈzʌltənt" tr="ликование"/>
+    <d v="exultation" p="noun" ts="egzʌlˈteɪʃn" tr="ликование; торжество"/>
+    <d v="eye" p="noun" ts="aɪ" tr="глаз; проушина; сыщик"/>
+    <d v="eye" p="adjective" ts="aɪ" tr="глазной"/>
+    <d v="eye" p="verb" ts="aɪ" tr="смотреть"/>
+    <d v="eyeball" p="noun" ts="ˈaɪbɔːl" tr="глазное яблоко; зрачок"/>
+    <d v="eyebrow" p="noun" ts="ˈaɪbraʊ" tr="бровь"/>
+    <d v="eyeglasses" p="noun" ts="ˈaɪglɑːsɪz" tr="очки"/>
+    <d v="eyelash" p="noun" ts="ˈaɪlæʃ" tr="ресница"/>
+    <d v="eyelid" p="noun" ts="ˈaɪlɪd" tr="веко"/>
+    <d v="eyeliner" p="noun" ts="ˈaɪlaɪnər" tr="подводка; подводка для глаз; карандаш для глаз"/>
+    <d v="eyesight" p="noun" ts="ˈaɪsaɪt" tr="зрение"/>
+    <d v="eyesore" p="noun" ts="ˈaɪsɔː" tr="бельмо; бельмо на глазу"/>
+    <d v="eyesore" p="verb" ts="ˈaɪsɔː" tr="мозолить глаза"/>
+    <d v="eyewitness" p="noun" ts="ˈaɪˈwɪtnɪs" tr="очевидец"/>
+
+</defs>

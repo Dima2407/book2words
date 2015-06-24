@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="lab" p="noun" ts="læb" tr="лаборатория; лабораторная работа; лабрадор"/>
+    <d v="lab" p="adjective" ts="læb" tr="лабораторный"/>
+    <d v="label" p="noun" ts="leɪbl" tr="этикетка"/>
+    <d v="label" p="verb" ts="leɪbl" tr="маркировать; обозначить; назвать"/>
+    <d v="label" p="adjective" ts="leɪbl" tr="этикеточный"/>
+    <d v="labor" p="noun" ts="ˈleɪbə" tr="труд"/>
+    <d v="labor" p="adjective" ts="ˈleɪbə" tr="трудовой"/>
+    <d v="labor" p="verb" ts="ˈleɪbə" tr="трудиться"/>
+    <d v="laboratory" p="noun" ts="ləˈbɔrətərɪ" tr="лаборатория"/>
+    <d v="laboratory" p="adjective" ts="ləˈbɔrətərɪ" tr="лабораторный"/>
+    <d v="labor camp" p="noun" ts="ˈleɪbə kæmp" tr="трудовой лагерь"/>
+    <d v="labor day" p="noun" ts="ˈleɪbə deɪ" tr="день труда; день трудящихся"/>
+    <d v="laborer" p="adjective" ts="ˈleɪbərər" tr="рабочий"/>
+    <d v="laborer" p="noun" ts="ˈleɪbərər" tr="работник; батрак"/>
+    <d v="laborious" p="adjective" ts="ləˈbɔːrɪəs" tr="кропотливый; трудолюбивый"/>
+    <d v="laboriously" p="adverb" ts="ləˈbɔːrɪəslɪ" tr="кропотливо; трудолюбиво"/>
+    <d v="labor Union" p="noun" ts="ˈleɪbə ˈjuːnjən" tr="профсоюз; профессиональный Союз; трудовой Союз"/>
+    <d v="labyrinth" p="noun" ts="ˈlæbərɪnθ" tr="лабиринт"/>
+    <d v="lace" p="noun" ts="leɪs" tr="кружево; шнурок; кружевница"/>
+    <d v="lace" p="adjective" ts="leɪs" tr="кружевной"/>
+    <d v="lace" p="verb" ts="leɪs" tr="зашнуровать"/>
+    <d v="lacerate" p="verb" ts="ˈlæsəreɪt" tr="терзать; раздирать; калечить"/>
+    <d v="laceration" p="noun" ts="læsəˈreɪʃn" tr="рваная рана; разрыв; разрывание"/>
+    <d v="lack" p="noun" ts="læk" tr="отсутствие; недостаток; нехватка; нужда"/>
+    <d v="lack" p="verb" ts="læk" tr="не хватать; не иметь; нуждаться"/>
+    <d v="lack" p="adjective" ts="læk" tr="недостаточный"/>
+    <d v="lacking" p="noun" ts="ˈlækɪŋ" tr="отсутствие"/>
+    <d v="lacking" p="adjective" ts="ˈlækɪŋ" tr="недостающий"/>
+    <d v="lacking" p="participle" ts="ˈlækɪŋ" tr="лишенный"/>
+    <d v="lacking" p="adverb" ts="ˈlækɪŋ" tr="недостаточно"/>
+    <d v="lackluster" p="adjective" ts="ˈlæklʌstər" tr="тусклый"/>
+    <d v="lacquer" p="noun" ts="ˈlækə" tr="лак"/>
+    <d v="lacquer" p="adjective" ts="ˈlækə" tr="лаковый"/>
+    <d v="lacquer" p="verb" ts="ˈlækə" tr="лакировать"/>
+    <d v="lacy" p="adjective" ts="ˈleɪsɪ" tr="кружевной"/>
+    <d v="lad" p="noun" ts="læd" tr="парень"/>
+    <d v="ladder" p="noun" ts="ˈlædə" tr="лестница"/>
+    <d v="ladder" p="adjective" ts="ˈlædə" tr="лестничный"/>
+    <d v="laden" p="adjective" ts="leɪdn" tr="груженый"/>
+    <d v="laden" p="participle" ts="leɪdn" tr="нагруженный; обремененный; груженный"/>
+    <d v="ladle" p="noun" ts="leɪdl" tr="ковш; половник; сталеразливочный ковш; ковшик; поварешка"/>
+    <d v="ladle" p="verb" ts="leɪdl" tr="черпать"/>
+    <d v="lady" p="noun" ts="ˈleɪdɪ" tr="леди; миледи; старушка; мать"/>
+    <d v="ladybug" p="noun" ts="ˈleɪdɪbʌg" tr="коровка; Божья коровка"/>
+    <d v="lag" p="noun" ts="læg" tr="отставание; задержка; группа LAG; зависание"/>
+    <d v="lag" p="verb" ts="læg" tr="отставать; запаздывать"/>
+    <d v="lag" p="participle" ts="læg" tr="отстающий"/>
+    <d v="lagoon" p="noun" ts="ləˈguːn" tr="лагуна"/>
+    <d v="laid" p="participle" ts="leɪd"
+       tr="заложенный; проложенный; уложенный; выложенный; возложенный; положенный; накрытый; закладываемый"/>
+    <d v="lair" p="noun" ts="lɛə" tr="логово"/>
+    <d v="lake" p="noun" ts="leɪk" tr="озеро; Лейк"/>
+    <d v="lake" p="adjective" ts="leɪk" tr="озерный"/>
+    <d v="lamb" p="noun" ts="læm" tr="агнец; ягненок"/>
+    <d v="lamb" p="adjective" ts="læm" tr="бараний"/>
+    <d v="lame" p="adjective" ts="leɪm" tr="хромой; неубедительный; неправильный"/>
+    <d v="lame" p="participle" ts="leɪm" tr="хромающий; парализованный"/>
+    <d v="lame" p="verb" ts="leɪm" tr="хромать"/>
+    <d v="lame" p="noun" ts="leɪm" tr="ламе; калека"/>
+    <d v="lame duck" p="noun" ts="leɪm dʌk" tr="хромая утка"/>
+    <d v="lament" p="verb" ts="ləˈment" tr="сетовать; жаловаться; плакать; сожалеть; стенать; горько жаловаться"/>
+    <d v="lament" p="noun" ts="ləˈment" tr="плач; элегия"/>
+    <d v="lamentable" p="adjective" ts="ˈlæməntəbl" tr="плачевный; прискорбный"/>
+    <d v="laminate" p="noun" ts="ˈlæmɪneɪt" tr="ламинат"/>
+    <d v="laminate" p="participle" ts="ˈlæmɪneɪt" tr="ламинированный"/>
+    <d v="laminate" p="adjective" ts="ˈlæmɪneɪt" tr="слоистый"/>
+    <d v="lamp" p="noun" ts="læmp" tr="лампа; фонарь; светоч"/>
+    <d v="lamp" p="verb" ts="læmp" tr="освещать"/>
+    <d v="lampoon" p="noun" ts="læmˈpuːn" tr="пасквиль; памфлет"/>
+    <d v="lampshade" p="noun" ts="ˈlæmpʃeɪd" tr="абажур"/>
+    <d v="lance" p="noun" ts="lɑːns" tr="копье; Лэнс; фурма; Улан; ланцет"/>
+    <d v="lance" p="verb" ts="lɑːns" tr="вскрыть"/>
+    <d v="land" p="noun" ts="lænd" tr="земля; страна"/>
+    <d v="land" p="adjective" ts="lænd" tr="земельный; наземный"/>
+    <d v="land" p="verb" ts="lænd" tr="приземлиться; высадиться; добиться; причаливать"/>
+    <d v="landfill" p="noun" ts="ˈlændfɪl" tr="свалка; мусорная свалка"/>
+    <d v="landing" p="noun" ts="ˈlændɪŋ" tr="посадка; лестничная площадка; пристань; десантирование"/>
+    <d v="landing" p="adjective" ts="ˈlændɪŋ" tr="посадочный; целевой"/>
+    <d v="landing" p="participle" ts="ˈlændɪŋ" tr="приземляющийся; приземлившийся; высадившийся"/>
+    <d v="landing strip" p="noun" ts="ˈlændɪŋ strɪp" tr="посадочная полоса"/>
+    <d v="landlady" p="noun" ts="ˈlændleɪdɪ" tr="квартирная хозяйка; домовладелица; помещица; хозяйка гостиницы"/>
+    <d v="landlocked" p="noun" ts="ˈlændlɒkt" tr="к морю; выход к морю"/>
+    <d v="landlord" p="noun" ts="ˈlænlɔːd" tr="помещик; хозяин; арендодатель; лендлорд"/>
+    <d v="landlord" p="adjective" ts="ˈlænlɔːd" tr="помещичий"/>
+    <d v="landmark" p="noun" ts="ˈlændmɑːk" tr="достопримечательность; ориентир; межевой знак; поворотный пункт"/>
+    <d v="landmark" p="adjective" ts="ˈlændmɑːk" tr="знаковый"/>
+    <d v="land mine" p="noun" ts="lænd maɪn" tr="фугас"/>
+    <d v="landowner" p="noun" ts="ˈlændəʊnə" tr="землевладелец; аграрий"/>
+    <d v="landscape" p="noun" ts="ˈlænskeɪp" tr="пейзаж; ландшафт"/>
+    <d v="landscape" p="adjective" ts="ˈlænskeɪp" tr="ландшафтный"/>
+    <d v="landslide" p="noun" ts="ˈlændslaɪd" tr="оползень; внушительная победа"/>
+    <d v="landslide" p="adjective" ts="ˈlændslaɪd" tr="оползневый; обвальный"/>
+    <d v="lane" p="noun" ts="leɪn" tr="переулок; полоса; Лейн; полоса движения; майна; узкая дорога"/>
+    <d v="language" p="noun" ts="ˈlæŋgwɪʤ" tr="язык; стиль; брань"/>
+    <d v="language" p="adjective" ts="ˈlæŋgwɪʤ" tr="языковый"/>
+    <d v="language laboratory" p="adjective" ts="ˈlæŋgwɪʤ ləˈbɔrətərɪ" tr="лингафонный"/>
+    <d v="language laboratory" p="noun" ts="ˈlæŋgwɪʤ ləˈbɔrətərɪ" tr="лингафонный кабинет; языковая лаборатория"/>
+    <d v="languid" p="adjective" ts="ˈlæŋgwɪd" tr="вялый; томный; апатичный"/>
+    <d v="languish" p="verb" ts="ˈlæŋgwɪʃ" tr="томиться; слабеть"/>
+    <d v="languorous" p="adjective" ts="ˈlæŋgərəs" tr="томный; апатичный"/>
+    <d v="lanky" p="adjective" ts="ˈlæŋkɪ" tr="долговязый"/>
+    <d v="lantern" p="noun" ts="ˈlæntən" tr="фонарь; лампа"/>
+    <d v="lap" p="noun" ts="læp" tr="колени; круг; внапуск; этап; тур; лоно; подол; плеск; пола; притир; Фалда"/>
+    <d v="lap" p="verb" ts="læp" tr="плескаться; лакать; упиваться; глотать"/>
+    <d v="lapel" p="noun" ts="ləˈpel" tr="лацкан; отворот"/>
+    <d v="lapel" p="adjective" ts="ləˈpel" tr="нагрудный"/>
+    <d v="lapse" p="noun" ts="læps" tr="истечение; ошибка; упущение; ход; прегрешение; описка"/>
+    <d v="lapse" p="verb" ts="læps" tr="впадать; истекать; проходить"/>
+    <d v="laptop" p="noun" ts="ˈlæptɒp" tr="ноутбук"/>
+    <d v="laptop" p="adjective" ts="ˈlæptɒp" tr="портативный"/>
+    <d v="larceny" p="noun" ts="ˈlɑːsənɪ" tr="воровство"/>
+    <d v="lard" p="noun" ts="lɑːd" tr="сало; свиное сало; лярд"/>
+    <d v="lard" p="verb" ts="lɑːd" tr="нашпиговать"/>
+    <d v="large" p="adjective" ts="lɑːʤ" tr="большой; обильный"/>
+    <d v="largely" p="noun" ts="ˈlɑːʤlɪ" tr="в основном; значительная степень; степень; в значительной степени"/>
+    <d v="largely" p="pronoun" ts="ˈlɑːʤlɪ" tr="многое"/>
+    <d v="largely" p="adverb" ts="ˈlɑːʤlɪ" tr="преимущественно; щедро"/>
+    <d v="lark" p="noun" ts="lɑːk" tr="жаворонок; забава; шутка"/>
+    <d v="larva" p="noun" ts="ˈlɑːvə" tr="личинка"/>
+    <d v="laryngitis" p="noun" ts="lærɪnˈʤaɪtɪs" tr="ларингит"/>
+    <d v="larynx" p="noun" ts="ˈlærɪŋks" tr="гортань"/>
+    <d v="lascivious" p="adjective" ts="ləˈsɪvɪəs" tr="похотливый; сладострастный; блудливый"/>
+    <d v="laser" p="adjective" ts="ˈleɪzə" tr="лазерный"/>
+    <d v="laser" p="noun" ts="ˈleɪzə" tr="лазер"/>
+    <d v="laser printer" p="noun" ts="ˈleɪzə ˈprɪntə" tr="лазерный принтер"/>
+    <d v="lash" p="noun" ts="læʃ" tr="ресница; плеть"/>
+    <d v="lash" p="verb" ts="læʃ" tr="хлестать; обрушиться; ударить"/>
+    <d v="lasso" p="noun" ts="læˈsuː" tr="лассо; аркан"/>
+    <d v="lasso" p="verb" ts="læˈsuː" tr="заарканить"/>
+    <d v="last" p="adjective" ts="lɑːst" tr="последний"/>
+    <d v="last" p="verb" ts="lɑːst" tr="длиться; хватать; выдерживать"/>
+    <d v="last" p="adverb" ts="lɑːst" tr="вчера"/>
+    <d v="last" p="noun" ts="lɑːst" tr="конец; колодка; ласт; выдержка"/>
+    <d v="lasting" p="adjective" ts="ˈlɑːstɪŋ" tr="длительный; прочный; устойчивый; непреходящий"/>
+    <d v="lasting" p="participle" ts="ˈlɑːstɪŋ" tr="длящийся"/>
+    <d v="lastly" p="adverb" ts="ˈlɑːstlɪ" tr="наконец"/>
+    <d v="lastly" p="noun" ts="ˈlɑːstlɪ" tr="в заключение"/>
+    <d v="last name" p="noun" ts="lɑːst neɪm" tr="фамилия; последнее имя"/>
+    <d v="latch" p="noun" ts="læʧ" tr="защелка; задвижка; замок"/>
+    <d v="latch" p="verb" ts="læʧ" tr="запирать"/>
+    <d v="late" p="noun" ts="leɪt" tr="конец; опоздание"/>
+    <d v="late" p="adjective" ts="leɪt" tr="поздний; покойный; прежний"/>
+    <d v="late" p="verb" ts="leɪt" tr="опоздать"/>
+    <d v="late" p="participle" ts="leɪt" tr="опоздавший; бывший; умерший"/>
+    <d v="late" p="adverb" ts="leɪt" tr="недавно"/>
+    <d v="lately" p="noun" ts="ˈleɪtlɪ" tr="последнее время; в последнее время"/>
+    <d v="lately" p="adverb" ts="ˈleɪtlɪ" tr="недавно"/>
+    <d v="latent" p="adjective" ts="ˈleɪtənt" tr="латентный; подспудный"/>
+    <d v="latent" p="participle" ts="ˈleɪtənt" tr="скрытый"/>
+    <d v="later" p="adjective" ts="ˈleɪtə" tr="более поздний"/>
+    <d v="later" p="preposition" ts="ˈleɪtə" tr="спустя; через"/>
+    <d v="later" p="adverb" ts="ˈleɪtə" tr="потом; позже"/>
+    <d v="lateral" p="adjective" ts="ˈlætərəl" tr="боковой"/>
+    <d v="latest" p="adjective" ts="ˈleɪtɪst" tr="новейший; самый поздний"/>
+    <d v="latex" p="noun" ts="ˈleɪteks" tr="латекс; Млечный сок"/>
+    <d v="latex" p="adjective" ts="ˈleɪteks" tr="латексный"/>
+    <d v="lather" p="noun" ts="ˈlɑːðə" tr="пена; мыльная пена"/>
+    <d v="lather" p="verb" ts="ˈlɑːðə" tr="намылить; пороть"/>
+    <d v="Latin" p="adjective" ts="ˈlætɪn" tr="латинский; романский"/>
+    <d v="Latin" p="noun" ts="ˈlætɪn" tr="латынь"/>
+    <d v="latina" p="noun" ts="ləˈtiːnə" tr="латиноамериканка"/>
+    <d v="Latin America" p="noun" ts="ˈlætɪn əˈmerɪkə" tr="Латинская Америка"/>
+    <d v="Latin American" p="noun" ts="ˈlætɪn əˈmerɪkən" tr="Латинская Америка; латиноамериканец"/>
+    <d v="Latin American" p="adjective" ts="ˈlætɪn əˈmerɪkən" tr="латиноамериканский"/>
+    <d v="Latino" p="noun" ts="ləˈtiːnə" tr="латиноамериканец; латино"/>
+    <d v="Latino" p="adjective" ts="ləˈtiːnə" tr="латиноамериканский"/>
+    <d v="latitude" p="noun" ts="ˈlætɪtjuːd" tr="широта; свобода; терпимость; обширность"/>
+    <d v="latrine" p="noun" ts="ləˈtriːn" tr="туалет; гальюн"/>
+    <d v="latter" p="numeral" ts="ˈlætə" tr="второй"/>
+    <d v="laudable" p="adjective" ts="ˈlɔːdəbl" tr="похвальный; доброкачественный"/>
+    <d v="laugh" p="verb" ts="lɑːf" tr="смеяться; рассмешить; ржать"/>
+    <d v="laugh" p="noun" ts="lɑːf" tr="смех"/>
+    <d v="laughable" p="adjective" ts="ˈlɑːfəbl" tr="смешной"/>
+    <d v="laughingstock" p="noun" ts="ˈlɑːfɪŋstɒk" tr="посмешище"/>
+    <d v="laughter" p="noun" ts="ˈlɑːftə" tr="смех"/>
+    <d v="laughter" p="verb" ts="ˈlɑːftə" tr="смеяться"/>
+    <d v="launch" p="noun" ts="lɔːnʧ" tr="запуск; ракета; катер; баркас"/>
+    <d v="launch" p="verb" ts="lɔːnʧ"
+       tr="запустить; начать; бросать; выпускать; предпринимать; катапультировать; разразиться"/>
+    <d v="launch" p="adjective" ts="lɔːnʧ" tr="стартовый"/>
+    <d v="launch" p="participle" ts="lɔːnʧ" tr="запускаемый; стартовавший"/>
+    <d v="launch pad" p="noun" ts="lɔːnʧ pæd" tr="пусковой стол; стартовый стол"/>
+    <d v="launder" p="verb" ts="ˈlɔːndə" tr="отмывать"/>
+    <d v="launder" p="noun" ts="ˈlɔːndə" tr="отмывание"/>
+    <d v="Laundromat" p="noun" ts="ˈlɔːndrəmæt" tr="Прачечная"/>
+    <d v="Laundry" p="noun" ts="ˈlɔːndrɪ" tr="Прачечная; белье"/>
+    <d v="Laundry" p="adjective" ts="ˈlɔːndrɪ" tr="стиральный"/>
+    <d v="Laundry room" p="noun" ts="ˈlɔːndrɪ ruːm" tr="Прачечная комната"/>
+    <d v="laureate" p="noun" ts="ˈlɔːrɪɪt" tr="лауреат"/>
+    <d v="laureate" p="adjective" ts="ˈlɔːrɪɪt" tr="лавровый"/>
+    <d v="laurel" p="noun" ts="ˈlɔrəl" tr="Лавр"/>
+    <d v="laurel" p="adjective" ts="ˈlɔrəl" tr="лавровый"/>
+    <d v="lava" p="noun" ts="ˈlɑːvə" tr="лава"/>
+    <d v="lava" p="adjective" ts="ˈlɑːvə" tr="лавовый"/>
+    <d v="lavatory" p="noun" ts="ˈlævətərɪ" tr="туалет"/>
+    <d v="lavender" p="noun" ts="ˈlævɪndə" tr="лаванда"/>
+    <d v="lavender" p="adjective" ts="ˈlævɪndə" tr="лавандовый; сиреневый"/>
+    <d v="lavish" p="adjective" ts="ˈlævɪʃ" tr="щедрый; роскошный; чрезмерный"/>
+    <d v="lavish" p="noun" ts="ˈlævɪʃ" tr="роскошь"/>
+    <d v="lavish" p="verb" ts="ˈlævɪʃ" tr="расточать; скупиться"/>
+    <d v="law" p="noun" ts="lɔː" tr="закон; суд; полиция"/>
+    <d v="law" p="adjective" ts="lɔː" tr="юридический"/>
+    <d v="law enforcement" p="adjective" ts="lɔː ɪnˈfɔːsmənt" tr="правоохранительный"/>
+    <d v="law enforcement" p="noun" ts="lɔː ɪnˈfɔːsmənt"
+       tr="правоохранительные органы; правоохранительная деятельность; соблюдение закона; исполнение законов; правоприменительная деятельность; правоприменительная практика; правоохранительная система; охрана правопорядка; применение закона; правоохранительная сфера"/>
+    <d v="lawful" p="adjective" ts="ˈlɔːfʊl" tr="законный; законопослушный"/>
+    <d v="lawless" p="adjective" ts="ˈlɔːlɪs" tr="беззаконный; необузданный"/>
+    <d v="lawless" p="noun" ts="ˈlɔːlɪs" tr="беззаконие; беззаконник"/>
+    <d v="lawlessness" p="noun" ts="ˈlɔːləsnəs" tr="беззаконие; беспредел; правовой беспредел"/>
+    <d v="lawmaker" p="noun" ts="ˈlɔːmeɪkə" tr="законодатель"/>
+    <d v="lawn" p="noun" ts="lɔːn" tr="газон; Батист; Лори; полянка"/>
+    <d v="lawn" p="adjective" ts="lɔːn" tr="газонный"/>
+    <d v="lawn mower" p="noun" ts="lɔːn ˈməʊə" tr="газонокосилка"/>
+    <d v="lawsuit" p="noun" ts="ˈlɔːsjuːt" tr="иск"/>
+    <d v="lawsuit" p="adjective" ts="ˈlɔːsjuːt" tr="судебный"/>
+    <d v="lawyer" p="noun" ts="ˈlɔːjə" tr="адвокат; законник"/>
+    <d v="lawyer" p="adjective" ts="ˈlɔːjə" tr="адвокатский"/>
+    <d v="lax" p="adjective" ts="læks" tr="слабый; льготный; нестрогий; небрежный; рыхлый"/>
+    <d v="lax" p="noun" ts="læks" tr="Лакс"/>
+    <d v="laxative" p="noun" ts="ˈlæksətɪv" tr="слабительное; слабительные средства"/>
+    <d v="laxative" p="adjective" ts="ˈlæksətɪv" tr="слабительный"/>
+    <d v="laxity" p="noun" ts="ˈlæksɪtɪ" tr="слабость; расхлябанность; распущенность"/>
+    <d v="lay" p="verb" ts="leɪ"
+       tr="положить; заложить; возложить; откладывать; проложить; наложить; разложить; раскладывать; настилать; накрывать; придавать; повалить; обвинять"/>
+    <d v="lay" p="noun" ts="leɪ" tr="мирянин; положение; рельеф; пари"/>
+    <d v="lay" p="adjective" ts="leɪ" tr="светский; непрофессиональный"/>
+    <d v="layer" p="noun" ts="ˈleɪə" tr="слой; ярус; несушка; повив; отводок; укладчик; разрез"/>
+    <d v="layer" p="verb" ts="ˈleɪə" tr="наслаивать"/>
+    <d v="layman" p="noun" ts="ˈleɪmən" tr="мирянин; дилетант; обыватель; профан"/>
+    <d v="layoff" p="noun" ts="ˈleɪɒf" tr="увольнение; временное увольнение"/>
+    <d v="layout" p="noun" ts="ˈleɪaʊt"
+       tr="макет; планировка; расположение; раскладка; верстка; разметка; оформление; типовая форма; расклад; разводка"/>
+    <d v="layout" p="adjective" ts="ˈleɪaʊt" tr="планировочный; компоновочный"/>
+    <d v="layover" p="noun" ts="ˈleɪəʊvər" tr="пересадка"/>
+    <d v="lazily" p="adverb" ts="ˈleɪzɪlɪ" tr="лениво"/>
+    <d v="laziness" p="noun" ts="ˈleɪzɪnɪs" tr="лень; ленивость"/>
+    <d v="lazy" p="adjective" ts="ˈleɪzɪ" tr="ленивый"/>
+    <d v="lazy" p="noun" ts="ˈleɪzɪ" tr="лень; лентяй"/>
+    <d v="lazy" p="verb" ts="ˈleɪzɪ" tr="лениться; полениться; облениться"/>
+    <d v="lazy" p="participle" ts="ˈleɪzɪ" tr="обленившийся"/>
+    <d v="lead" p="verb" ts="led"
+       tr="приводить; возглавить; провести; руководить; вызвать; лидировать; отвести; заставлять; увести; опережать; командовать; быть; склонять"/>
+    <d v="lead" p="noun" ts="led"
+       tr="свинец; руководство; повести; инициатива; поводок; лот; опережение; шаг; грифель; жила; упреждение; отвес"/>
+    <d v="lead" p="adjective" ts="led" tr="свинцовый"/>
+    <d v="lead" p="participle" ts="led" tr="проведенный"/>
+    <d v="leader" p="noun" ts="ˈliːdə" tr="лидер; руководитель; вождь; вожатый; проводник; регент"/>
+    <d v="leader" p="adjective" ts="ˈliːdə" tr="лидерский"/>
+    <d v="leadership" p="noun" ts="ˈliːdəʃɪp" tr="руководство; верхушка; превосходство"/>
+    <d v="leadership" p="adjective" ts="ˈliːdəʃɪp" tr="лидерский"/>
+    <d v="leadership" p="verb" ts="ˈliːdəʃɪp" tr="руководить"/>
+    <d v="leading" p="noun" ts="ˈliːdɪŋ" tr="лидер; ведение; подведение"/>
+    <d v="leading" p="adjective" ts="ˈliːdɪŋ" tr="главный; ходовой"/>
+    <d v="leading" p="participle" ts="ˈliːdɪŋ" tr="ведущий; лидирующий; руководящий; приводящий; приведший"/>
+    <d v="leaf" p="noun" ts="liːf" tr="лист; створка"/>
+    <d v="leaf" p="adjective" ts="liːf" tr="листовой"/>
+    <d v="leaf" p="verb" ts="liːf" tr="листать"/>
+    <d v="leaflet" p="noun" ts="ˈliːflɪt" tr="листовка; брошюра; листочек; вкладыш"/>
+    <d v="leafy" p="adjective" ts="ˈliːfɪ" tr="листовой"/>
+    <d v="League" p="noun" ts="liːg" tr="Лига; Союз"/>
+    <d v="leak" p="noun" ts="liːk" tr="утечка; герметичность; течеискатель; натекатель; неплотность"/>
+    <d v="leak" p="verb" ts="liːk" tr="протекать; просачиваться; пропускать; пропускать воду; утекать; выдавать"/>
+    <d v="leakage" p="noun" ts="ˈliːkɪʤ" tr="утечка; протекание; рассеяние"/>
+    <d v="leaky" p="adjective" ts="ˈliːkɪ" tr="дырявый; негерметичный; неплотный"/>
+    <d v="leaky" p="participle" ts="ˈliːkɪ" tr="протекающий"/>
+    <d v="lean" p="verb" ts="liːn" tr="наклониться; опираться; высунуться; наклонять; прислонять"/>
+    <d v="lean" p="adjective" ts="liːn" tr="тощий; постный; бережливый"/>
+    <d v="lean" p="adverbial participle" ts="liːn" tr="наклоняясь; склоняясь; склоняя"/>
+    <d v="lean" p="noun" ts="liːn" tr="наклон"/>
+    <d v="lean" p="participle" ts="liːn" tr="бедный"/>
+    <d v="leaning" p="noun" ts="ˈliːnɪŋ" tr="склонность"/>
+    <d v="leaning" p="adverbial participle" ts="ˈliːnɪŋ" tr="склоняясь; наклоняясь"/>
+    <d v="leaning" p="participle" ts="ˈliːnɪŋ" tr="опирающийся; склонившийся"/>
+    <d v="leap" p="noun" ts="liːp" tr="скачок; МПДООС"/>
+    <d v="leap" p="verb" ts="liːp" tr="прыгнуть; прыгать; скакать; бросаться; наброситься; сигануть"/>
+    <d v="leap" p="adjective" ts="liːp" tr="високосный"/>
+    <d v="leapfrog" p="noun" ts="ˈliːpfrɒg" tr="чехарда"/>
+    <d v="leap year" p="noun" ts="liːp jɜː" tr="високосный год"/>
+    <d v="leap year" p="adjective" ts="liːp jɜː" tr="високосный"/>
+    <d v="learn" p="verb" ts="lɜːn" tr="учиться; научиться; освоить; узнавать; познать; извлечь; выучиться"/>
+    <d v="learned" p="adjective" ts="lɜːnt" tr="эрудированный"/>
+    <d v="learned" p="participle" ts="lɜːnt"
+       tr="выученный; усвоенный; изученный; образованный; изучаемый; узнаваемый; научившийся"/>
+    <d v="learning" p="noun" ts="ˈlɜːnɪŋ" tr="обучение; ученость; обучаемость; эрудиция; разучивание"/>
+    <d v="learning" p="adjective" ts="ˈlɜːnɪŋ" tr="учебный"/>
+    <d v="learning" p="participle" ts="ˈlɜːnɪŋ" tr="обучающий; обучающийся"/>
+    <d v="lease" p="noun" ts="liːs" tr="аренда"/>
+    <d v="lease" p="adjective" ts="liːs" tr="арендный"/>
+    <d v="leash" p="noun" ts="liːʃ" tr="поводок"/>
+    <d v="least" p="noun" ts="liːst" tr="мера; минимум"/>
+    <d v="least" p="adverb" ts="liːst" tr="менее; наименее"/>
+    <d v="least" p="adjective" ts="liːst" tr="крайний"/>
+    <d v="least" p="particle" ts="liːst" tr="бы"/>
+    <d v="leather" p="noun" ts="ˈleðə" tr="кожа; ремень"/>
+    <d v="leather" p="adjective" ts="ˈleðə" tr="кожаный"/>
+    <d v="leathery" p="adjective" ts="ˈleðərɪ" tr="кожистый"/>
+    <d v="leave" p="verb" ts="liːv"
+       tr="оставить; покинуть; уходить; расстаться; предоставлять; передавать; переезжать"/>
+    <d v="leave" p="noun" ts="liːv" tr="отпуск; отъезд; уход; разрешение; прощание"/>
+    <d v="leave" p="adjective" ts="liːv" tr="левый"/>
+    <d v="leave" p="participle" ts="liːv" tr="покинувший"/>
+    <d v="leaves" p="noun" ts="liːvz" tr="листва"/>
+    <d v="leaves" p="participle" ts="liːvz" tr="оставляющий"/>
+    <d v="lecherous" p="adjective" ts="ˈleʧərəs" tr="распутный"/>
+    <d v="lectern" p="noun" ts="ˈlektɜːn" tr="кафедра; пюпитр"/>
+    <d v="lecture" p="noun" ts="ˈlekʧə" tr="лекция; поучение"/>
+    <d v="lecture" p="adjective" ts="ˈlekʧə" tr="лекционный"/>
+    <d v="lecture" p="verb" ts="ˈlekʧə" tr="поучать; отчитывать"/>
+    <d v="lecturer" p="noun" ts="ˈlekʧərə" tr="преподаватель; дьяк"/>
+    <d v="led" p="adjective" ts="led" tr="светодиодный"/>
+    <d v="led" p="noun" ts="led" tr="СИД"/>
+    <d v="led" p="participle" ts="led" tr="ведомый"/>
+    <d v="ledge" p="noun" ts="leʤ" tr="уступ; выступ; рейка; край; риф"/>
+    <d v="ledger" p="noun" ts="ˈleʤə" tr="гроссбух; регистр; бухгалтерская книга"/>
+    <d v="ledger" p="adjective" ts="ˈleʤə" tr="бухгалтерский"/>
+    <d v="leech" p="noun" ts="liːʧ" tr="пиявка"/>
+    <d v="leek" p="noun" ts="liːk" tr="порей; лук-порей; черемша"/>
+    <d v="leer" p="noun" ts="lɪə" tr="леер"/>
+    <d v="leer" p="adjective" ts="lɪə" tr="хитрый"/>
+    <d v="leery" p="adjective" ts="ˈlɪərɪ" tr="хитрый; подозрительный"/>
+    <d v="leeway" p="noun" ts="ˈliːweɪ"
+       tr="свобода действий; отставание; Относительная свобода действий; запас времени"/>
+    <d v="leeway" p="verb" ts="ˈliːweɪ" tr="струсить"/>
+    <d v="left" p="adjective" ts="left" tr="левый"/>
+    <d v="left" p="adverbial participle" ts="left" tr="расставшись"/>
+    <d v="left" p="participle" ts="left"
+       tr="оставленный; оставшийся; брошенный; вышедший; покинутый; оставляемый; уехавший; оставивший"/>
+    <d v="left field" p="noun" ts="left fiːld" tr="левое поле"/>
+    <d v="leftovers" p="noun" ts="ˈleftəʊvəz" tr="объедки"/>
+    <d v="left wing" p="noun" ts="left wɪŋ" tr="левое крыло; левый фланг"/>
+    <d v="leg" p="noun" ts="leg" tr="нога; этап; опора; штанина; сторона"/>
+    <d v="leg" p="adjective" ts="leg" tr="ножной"/>
+    <d v="leg" p="verb" ts="leg" tr="отмахать"/>
+    <d v="legacy" p="noun" ts="ˈlegəsɪ" tr="наследие"/>
+    <d v="legacy" p="adjective" ts="ˈlegəsɪ" tr="устаревший; наследственный"/>
+    <d v="legal" p="adjective" ts="ˈliːgəl" tr="правовой; законный"/>
+    <d v="legal" p="participle" ts="ˈliːgəl" tr="узаконенный"/>
+    <d v="legality" p="noun" ts="liːˈgælɪtɪ" tr="законность"/>
+    <d v="legalize" p="verb" ts="ˈliːgəlaɪz" tr="легализовать; оформлять"/>
+    <d v="legalize" p="noun" ts="ˈliːgəlaɪz" tr="легализация"/>
+    <d v="legally" p="adverb" ts="ˈliːgəlɪ" tr="юридически; легально"/>
+    <d v="legally" p="adjective" ts="ˈliːgəlɪ" tr="юридический"/>
+    <d v="legally" p="noun" ts="ˈliːgəlɪ" tr="закон; по закону"/>
+    <d v="legal pad" p="noun" ts="ˈliːgəl pæd" tr="блокнот"/>
+    <d v="legend" p="noun" ts="ˈleʤənd" tr="легенда"/>
+    <d v="legendary" p="adjective" ts="ˈleʤəndərɪ" tr="легендарный"/>
+    <d v="leggings" p="noun" ts="ˈlegɪŋz" tr="гетры; леггинсы; штаны; Лосины; краги"/>
+    <d v="leggy" p="adjective" ts="ˈlegɪ" tr="длинноногий"/>
+    <d v="legibility" p="noun" ts="leʤɪˈbɪlɪtɪ" tr="разборчивость"/>
+    <d v="legible" p="adjective" ts="ˈleʤəbl" tr="разборчивый; читабельный"/>
+    <d v="legible" p="participle" ts="ˈleʤəbl" tr="различимый"/>
+    <d v="legibly" p="adverb" ts="ˈleʤəblɪ" tr="разборчиво"/>
+    <d v="legion" p="noun" ts="ˈliːʤən" tr="легион; множество"/>
+    <d v="legislate" p="verb" ts="ˈleʤɪsleɪt" tr="издавать; законодательствовать; узаконить; издавать законы"/>
+    <d v="legislation" p="noun" ts="leʤɪsˈleɪʃn" tr="законодательство"/>
+    <d v="legislative" p="adjective" ts="ˈleʤɪslətɪv" tr="законодательный"/>
+    <d v="legislator" p="noun" ts="ˈleʤɪsleɪtə" tr="законодатель; депутат; правовед"/>
+    <d v="legislature" p="noun" ts="ˈleʤɪsleɪʧə" tr="законодательный орган"/>
+    <d v="legit" p="adjective" ts="lɪˈʤɪt" tr="законный"/>
+    <d v="legitimacy" p="noun" ts="lɪˈʤɪtɪməsɪ" tr="легитимность; законность; закономерность"/>
+    <d v="legitimacy" p="adjective" ts="lɪˈʤɪtɪməsɪ" tr="легитимный"/>
+    <d v="legitimate" p="adjective" ts="lɪˈʤɪtɪmɪt" tr="законный; закономерный; разумный"/>
+    <d v="legitimate" p="verb" ts="lɪˈʤɪtɪmɪt" tr="узаконить"/>
+    <d v="legitimately" p="adverb" ts="lɪˈʤɪtɪmətlɪ" tr="законно"/>
+    <d v="leisure" p="noun" ts="ˈleʒə" tr="отдых"/>
+    <d v="leisure" p="adjective" ts="ˈleʒə" tr="свободный; развлекательный"/>
+    <d v="leisurely" p="adjective" ts="ˈleʒəlɪ" tr="неторопливый"/>
+    <d v="leisurely" p="adverbial participle" ts="ˈleʒəlɪ" tr="не спеша"/>
+    <d v="leisurely" p="adverb" ts="ˈleʒəlɪ" tr="спокойно"/>
+    <d v="lemon" p="noun" ts="ˈlemən" tr="лимон"/>
+    <d v="lemon" p="adjective" ts="ˈlemən" tr="лимонный"/>
+    <d v="lemonade" p="noun" ts="leməˈneɪd" tr="лимонад"/>
+    <d v="lend" p="verb" ts="lend"
+       tr="одолжить; давать; придавать; оказать; поддаваться; протянуть; давать взаймы; годиться"/>
+    <d v="lend" p="noun" ts="lend" tr="кредитование"/>
+    <d v="lender" p="noun" ts="ˈlendə" tr="кредитор; заимодатель; ссудодатель"/>
+    <d v="length" p="noun" ts="leŋθ" tr="длина; продолжительность; протяжение; кусок; отрез"/>
+    <d v="lengthen" p="verb" ts="ˈleŋθən" tr="удлинять; продлить; удлиниться"/>
+    <d v="lengthen" p="noun" ts="ˈleŋθən" tr="удлинение"/>
+    <d v="lengthwise" p="adjective" ts="ˈleŋθwaɪz" tr="продольный"/>
+    <d v="lengthwise" p="adverb" ts="ˈleŋθwaɪz" tr="вдоль"/>
+    <d v="lengthy" p="adjective" ts="ˈleŋθɪ" tr="длительный; объемный"/>
+    <d v="lengthy" p="participle" ts="ˈleŋθɪ" tr="затянутый; растянутый"/>
+    <d v="leniency" p="noun" ts="ˈliːnjənsɪ" tr="снисхождение; снисходительность"/>
+    <d v="lenient" p="adjective" ts="ˈliːnjənt" tr="мягкий; снисходительный"/>
+    <d v="leniently" p="adverb" ts="ˈliːnɪəntlɪ" tr="снисходительно"/>
+    <d v="lens" p="noun" ts="lenz" tr="объектив; призма; лупа; чечевица; оптическое стекло"/>
+    <d v="lent" p="noun" ts="lent" tr="пост"/>
+    <d v="lent" p="noun" ts="lent" tr="пост"/>
+    <d v="lentil" p="noun" ts="ˈlentɪl" tr="чечевица"/>
+    <d v="lentil" p="adjective" ts="ˈlentɪl" tr="чечевичный"/>
+    <d v="Leo" p="noun" ts="ˈliːəʊ" tr="Лео; лев"/>
+    <d v="leopard" p="noun" ts="ˈlepəd" tr="леопард"/>
+    <d v="leotard" p="noun" ts="ˈliːəʊtɑːd" tr="купальник"/>
+    <d v="leper" p="noun" ts="ˈlepə" tr="прокаженный"/>
+    <d v="leprosy" p="noun" ts="ˈleprəsɪ" tr="проказа; лепра"/>
+    <d v="leprous" p="noun" ts="ˈleprəs" tr="прокаженный; проказа"/>
+    <d v="lesbian" p="noun" ts="ˈlezbɪən" tr="лесбиянка"/>
+    <d v="lesbian" p="adjective" ts="ˈlezbɪən" tr="лесбийский; лесбосский"/>
+    <d v="lesbianism" p="noun" ts="ˈlezbɪənɪzəm" tr="лесбиянство"/>
+    <d v="less" p="adverb" ts="les" tr="менее; реже; поменьше"/>
+    <d v="less" p="adjective" ts="les" tr="маленький"/>
+    <d v="less" p="noun" ts="les" tr="меньшая сумма"/>
+    <d v="lessen" p="verb" ts="lesn" tr="уменьшить; уменьшаться; ослабить; преуменьшать"/>
+    <d v="lessen" p="noun" ts="lesn" tr="уменьшение"/>
+    <d v="lesson" p="noun" ts="lesn" tr="урок"/>
+    <d v="lesson" p="verb" ts="lesn" tr="обучать"/>
+    <d v="let" p="verb" ts="let"
+       tr="давать; позволить; препятствовать; отпустить; допустить; пускать; пропустить; оставлять; не трогать"/>
+    <d v="let" p="noun" ts="let" tr="помеха"/>
+    <d v="letdown" p="noun" ts="ˈletˈdaʊn" tr="разочарование; упадок; ослабление"/>
+    <d v="lethal" p="adjective" ts="ˈliːθəl" tr="смертельный"/>
+    <d v="lethally" p="adverb" ts="ˈliːθlɪ" tr="смертельно"/>
+    <d v="lethargic" p="adjective" ts="leˈθɑːʤɪk" tr="летаргический; вялый; апатичный"/>
+    <d v="lethargy" p="noun" ts="ˈleθəʤɪ" tr="летаргия; вялость; апатия; спячка; летаргический сон"/>
+    <d v="letter" p="noun" ts="ˈletə" tr="письмо; буква; буковка"/>
+    <d v="letter" p="adjective" ts="ˈletə" tr="буквенный"/>
+    <d v="letterhead" p="noun" ts="ˈletəhed" tr="бланк; фирменный бланк; печатный бланк"/>
+    <d v="lettuce" p="noun" ts="ˈletɪs" tr="салат"/>
+    <d v="lettuce" p="adjective" ts="ˈletɪs" tr="салатный"/>
+    <d v="leukemia" p="noun" ts="luːˈkiːmɪə" tr="лейкемия"/>
+    <d v="levee" p="noun" ts="ˈlevɪ" tr="дамба"/>
+    <d v="level" p="noun" ts="levl" tr="уровень; горизонт; нивелир; равнина; ватерпас"/>
+    <d v="level" p="adjective" ts="levl" tr="ровный"/>
+    <d v="level" p="verb" ts="levl" tr="выравнивать; нивелировать"/>
+    <d v="lever" p="noun" ts="ˈliːvə" tr="рычаг"/>
+    <d v="lever" p="adjective" ts="ˈliːvə" tr="рычажный"/>
+    <d v="lever" p="verb" ts="ˈliːvə" tr="поднимать"/>
+    <d v="leverage" p="noun" ts="ˈliːvərɪʤ" tr="рычаг; система рычагов; рычаг воздействия"/>
+    <d v="leverage" p="verb" ts="ˈliːvərɪʤ" tr="усилить"/>
+    <d v="levitate" p="verb" ts="ˈlevɪteɪt" tr="левитировать; поднимать"/>
+    <d v="levitation" p="noun" ts="levɪˈteɪʃn" tr="левитация"/>
+    <d v="levity" p="noun" ts="ˈlevɪtɪ" tr="легкомыслие; непостоянство"/>
+    <d v="levy" p="noun" ts="ˈlevɪ" tr="сбор; Леви"/>
+    <d v="levy" p="verb" ts="ˈlevɪ" tr="взимать"/>
+    <d v="lewd" p="adjective" ts="luːd" tr="непристойный; распутный; бесстыдный"/>
+    <d v="lexical" p="adjective" ts="ˈleksɪkəl" tr="лексический"/>
+    <d v="lexicon" p="noun" ts="ˈleksɪkən" tr="лексикон"/>
+    <d v="liability" p="noun" ts="laɪəˈbɪlɪtɪ" tr="ответственность; задолженность; помеха; склонность"/>
+    <d v="liable" p="adjective" ts="ˈlaɪəbl" tr="ответственный"/>
+    <d v="liable" p="participle" ts="ˈlaɪəbl" tr="подлежащий"/>
+    <d v="liaise" p="verb" ts="lɪˈeɪz" tr="взаимодействовать"/>
+    <d v="liaison" p="noun" ts="liːˈeɪzɔn" tr="связь; посредник"/>
+    <d v="liaison" p="adjective" ts="liːˈeɪzɔn" tr="связной"/>
+    <d v="liaison" p="participle" ts="liːˈeɪzɔn" tr="связывающий"/>
+    <d v="liar" p="noun" ts="ˈlaɪə" tr="лжец; лгунья; врушка"/>
+    <d v="liar" p="adjective" ts="ˈlaɪə" tr="лживый"/>
+    <d v="liar" p="verb" ts="ˈlaɪə" tr="врать"/>
+    <d v="lib" p="noun" ts="lɪb" tr="либ"/>
+    <d v="libel" p="noun" ts="ˈlaɪbəl" tr="клевета; пасквиль"/>
+    <d v="libel" p="verb" ts="ˈlaɪbəl" tr="клеветать; дискредитировать"/>
+    <d v="libelous" p="adjective" ts="ˈlaɪbəlɪsts" tr="клеветнический"/>
+    <d v="libelous" p="noun" ts="ˈlaɪbəlɪsts" tr="клевета"/>
+    <d v="liberal" p="adjective" ts="ˈlɪbərəl" tr="либеральный; гуманитарный; щедрый; вольный; свободомыслящий"/>
+    <d v="liberal" p="noun" ts="ˈlɪbərəl" tr="либерал"/>
+    <d v="liberal arts" p="noun" ts="ˈlɪbərəl ɑːts" tr="свободные искусства"/>
+    <d v="liberalism" p="noun" ts="ˈlɪbərəlɪzm" tr="либерализм; либеральность"/>
+    <d v="liberalize" p="noun" ts="ˈlɪbərəlaɪz" tr="либерализация"/>
+    <d v="liberalize" p="verb" ts="ˈlɪbərəlaɪz" tr="либерализовать"/>
+    <d v="liberally" p="adverb" ts="ˈlɪbrəlɪ" tr="либерально; щедро"/>
+    <d v="liberate" p="verb" ts="ˈlɪbəreɪt" tr="освободить; раскрепощать; выделять; раскрепостить; вызволить"/>
+    <d v="liberate" p="noun" ts="ˈlɪbəreɪt" tr="освобождение"/>
+    <d v="liberated" p="participle" ts="ˈlɪbəreɪtɪd" tr="освобожденный; высвобождаемый; высвобожденный"/>
+    <d v="liberation" p="noun" ts="lɪbəˈreɪʃn" tr="освобождение; выделение"/>
+    <d v="liberation" p="adjective" ts="lɪbəˈreɪʃn" tr="освободительный"/>
+    <d v="liberty" p="noun" ts="ˈlɪbətɪ" tr="свобода; Либерти; смелость; бесцеремонность"/>
+    <d v="libido" p="noun" ts="lɪˈbiːdəʊ" tr="либидо"/>
+    <d v="Libra" p="noun" ts="ˈlaɪbrə" tr="весы"/>
+    <d v="librarian" p="noun" ts="laɪˈbrɛərɪən" tr="библиотекарь; библиотечный работник"/>
+    <d v="librarian" p="adjective" ts="laɪˈbrɛərɪən" tr="библиотечный"/>
+    <d v="library" p="noun" ts="ˈlaɪbrərɪ" tr="библиотека"/>
+    <d v="library" p="adjective" ts="ˈlaɪbrərɪ" tr="библиотечный"/>
+    <d v="lice" p="noun" ts="laɪs" tr="педикулез"/>
+    <d v="license" p="noun" ts="ˈlaɪsəns" tr="лицензия"/>
+    <d v="license" p="adjective" ts="ˈlaɪsəns" tr="лицензионный"/>
+    <d v="license" p="verb" ts="ˈlaɪsəns" tr="разрешать; лицензировать"/>
+    <d v="license plate" p="adjective" ts="ˈlaɪsəns pleɪt" tr="номерной"/>
+    <d v="license plate" p="noun" ts="ˈlaɪsəns pleɪt" tr="номерной знак"/>
+    <d v="lichen" p="noun" ts="ˈlaɪkən" tr="лишайник; лишай"/>
+    <d v="lichen" p="adjective" ts="ˈlaɪkən" tr="лишайниковый"/>
+    <d v="lick" p="verb" ts="lɪk" tr="лизать; облизнуть; слизать; зализать; полизать"/>
+    <d v="lick" p="noun" ts="lɪk" tr="облизывание; кусочек; лизание"/>
+    <d v="licking" p="participle" ts="ˈlɪkɪŋ" tr="лижущий"/>
+    <d v="licking" p="noun" ts="ˈlɪkɪŋ" tr="облизывание"/>
+    <d v="licorice" p="noun" ts="ˈlɪkərɪs" tr="солодка"/>
+    <d v="licorice" p="adjective" ts="ˈlɪkərɪs" tr="лакричный"/>
+    <d v="lid" p="noun" ts="lɪd" tr="крышка; ограничение"/>
+    <d v="lie" p="verb" ts="laɪ" tr="лежать; лгать; пролегать; залегать"/>
+    <d v="lie" p="noun" ts="laɪ" tr="ложь; положение"/>
+    <d v="lie detector" p="noun" ts="laɪ dɪˈtektə" tr="детектор лжи"/>
+    <d v="lien" p="noun" ts="lɪən" tr="залог; селезенка; залоговое право; залоговое удержание"/>
+    <d v="lieutenant" p="noun" ts="lefˈtenənt" tr="лейтенант; поручик; заместитель"/>
+    <d v="life" p="noun" ts="laɪf" tr="жизнь; общество; биография; натура; оживление; энергия"/>
+    <d v="life" p="adjective" ts="laɪf" tr="жизненный"/>
+    <d v="lifeboat" p="noun" ts="ˈlaɪfbəʊt" tr="шлюпка; спасательная шлюпка"/>
+    <d v="life buoy" p="noun" ts="laɪf bɔɪ" tr="спасательный круг"/>
+    <d v="life cycle" p="noun" ts="laɪf saɪkl" tr="жизненный цикл; цикл жизни"/>
+    <d v="life expectancy" p="noun" ts="ˈlaɪfɪkspektənsɪ"
+       tr="продолжительность жизни; ожидаемая продолжительность жизни; средняя продолжительность жизни"/>
+    <d v="lifeguard" p="noun" ts="ˈlaɪfgɑːd" tr="спасатель"/>
+    <d v="life insurance" p="noun" ts="laɪf ɪnˈʃʊərəns" tr="страхование жизни; страховка жизни"/>
+    <d v="life jacket" p="noun" ts="laɪf ˈʤækɪt" tr="спасательный жилет"/>
+    <d v="lifeless" p="adjective" ts="ˈlaɪflɪs" tr="безжизненный; бездыханный"/>
+    <d v="lifelike" p="adjective" ts="ˈlaɪflaɪk" tr="реалистичный"/>
+    <d v="lifeline" p="noun" ts="ˈlaɪflaɪn" tr="спасательный круг; линия жизни; жизнеобеспечение; спасательный трос"/>
+    <d v="lifeline" p="adjective" ts="ˈlaɪflaɪn" tr="спасательный"/>
+    <d v="lifelong" p="adjective" ts="ˈlaɪflɔŋ" tr="пожизненный; непрерывный"/>
+    <d v="lifelong" p="noun" ts="ˈlaɪflɔŋ" tr="на всю жизнь"/>
+    <d v="life preserver" p="noun" ts="laɪf prɪˈzɜːvər" tr="спасательный круг"/>
+    <d v="lifesaver" p="noun" ts="ˈlaɪfseɪvər" tr="спасатель; спасательный круг"/>
+    <d v="life span" p="noun" ts="laɪf spæn" tr="продолжительность жизни"/>
+    <d v="lifestyle" p="noun" ts="ˈlaɪfstaɪl" tr="образ жизни; стиль жизни"/>
+    <d v="life support" p="noun" ts="laɪf səˈpɔːt" tr="жизнеобеспечение; поддержание жизни"/>
+    <d v="life-threatening" p="participle" ts="laɪf-ˈθretnɪŋ" tr="опасный для жизни; угрожающий жизни"/>
+    <d v="lifetime" p="noun" ts="ˈlaɪftaɪm" tr="жизнь; срок службы; продолжительность жизни"/>
+    <d v="lifetime" p="adjective" ts="ˈlaɪftaɪm" tr="пожизненный; прижизненный"/>
+    <d v="lift" p="verb" ts="lɪft" tr="поднять; снять; подняться; поднести; задрать; рассеиваться; воодушевлять"/>
+    <d v="lift" p="noun" ts="lɪft" tr="Лифт; подъемник; подъем; подъемная сила; воодушевление"/>
+    <d v="lift" p="adjective" ts="lɪft" tr="подъемный; лифтовой"/>
+    <d v="liftoff" p="noun" ts="ˈlɪftɒf" tr="старт"/>
+    <d v="ligament" p="noun" ts="ˈlɪgəmənt" tr="связка"/>
+    <d v="light" p="noun" ts="laɪt" tr="свет; фара; огонь; легкое; светило; маяк; глаза; просвет; окно; информация"/>
+    <d v="light" p="adjective" ts="laɪt" tr="легкий; воздушный; легкомысленный; пустой"/>
+    <d v="light" p="verb" ts="laɪt" tr="зажечь; освещать"/>
+    <d v="light bulb" p="noun" ts="laɪt bʌlb" tr="лампочка; электрическая лампочка"/>
+    <d v="lighten" p="verb" ts="laɪtn" tr="облегчить; осветить; осветлять; осветлить"/>
+    <d v="lighten" p="noun" ts="laɪtn" tr="осветление"/>
+    <d v="lighter" p="noun" ts="ˈlaɪtə" tr="зажигалка; осветитель"/>
+    <d v="lighter" p="adjective" ts="ˈlaɪtə" tr="более легкий"/>
+    <d v="lighthearted" p="adjective" ts="ˈlaɪthɑːtɪd" tr="беззаботный"/>
+    <d v="lighthouse" p="noun" ts="ˈlaɪthaʊs" tr="маяк"/>
+    <d v="lighthouse" p="adjective" ts="ˈlaɪthaʊs" tr="маячный"/>
+    <d v="lighting" p="noun" ts="ˈlaɪtɪŋ" tr="освещение"/>
+    <d v="lighting" p="adjective" ts="ˈlaɪtɪŋ" tr="осветительный"/>
+    <d v="lighting" p="participle" ts="ˈlaɪtɪŋ" tr="освещающий; зажигающий"/>
+    <d v="lightly" p="adverb" ts="ˈlaɪtlɪ" tr="слегка; легкомысленно; беспечно; пренебрежительно; безразлично"/>
+    <d v="lightness" p="noun" ts="ˈlaɪtnɪs" tr="легкость; яркость; легкомыслие; несерьезность; светлость"/>
+    <d v="lightning" p="noun" ts="ˈlaɪtnɪŋ" tr="молния; освещение; громоотвод"/>
+    <d v="lightning" p="adjective" ts="ˈlaɪtnɪŋ" tr="молниеносный; грозовой"/>
+    <d v="lightweight" p="adjective" ts="ˈlaɪtweɪt" tr="легкий"/>
+    <d v="lightweight" p="participle" ts="ˈlaɪtweɪt" tr="облегченный"/>
+    <d v="lightweight" p="noun" ts="ˈlaɪtweɪt" tr="легкое"/>
+    <d v="light-year" p="noun" ts="ˈlaɪtjɜː" tr="световых лет"/>
+    <d v="likable" p="adjective" ts="ˈlaɪkəbl" tr="симпатичный"/>
+    <d v="like" p="verb" ts="laɪk" tr="хотеть; нравиться; так сказать"/>
+    <d v="like" p="adjective" ts="laɪk" tr="подобный"/>
+    <d v="like" p="parenthetic" ts="laɪk" tr="например"/>
+    <d v="like" p="noun" ts="laɪk" tr="тип; по душе"/>
+    <d v="like" p="adverb" ts="laɪk" tr="вероятно"/>
+    <d v="likelihood" p="noun" ts="ˈlaɪklɪhʊd" tr="вероятность"/>
+    <d v="likely" p="adjective" ts="ˈlaɪklɪ" tr="вероятный"/>
+    <d v="likely" p="adverb" ts="ˈlaɪklɪ" tr="вероятно"/>
+    <d v="likely" p="noun" ts="ˈlaɪklɪ" tr="вероятность"/>
+    <d v="likely" p="participle" ts="ˈlaɪklɪ" tr="подходящий"/>
+    <d v="liken" p="verb" ts="ˈlaɪkən" tr="сравнить; уподоблять; приравнивать; уподобиться"/>
+    <d v="likeness" p="noun" ts="ˈlaɪknɪs" tr="подобие; образ; портрет; обличье"/>
+    <d v="likewise" p="adverb" ts="ˈlaɪkwaɪz" tr="также; более того"/>
+    <d v="likewise" p="particle" ts="ˈlaɪkwaɪz" tr="же; точно"/>
+    <d v="likewise" p="adjective" ts="ˈlaɪkwaɪz" tr="аналогичный"/>
+    <d v="likewise" p="noun" ts="ˈlaɪkwaɪz" tr="кроме того; подобно этому"/>
+    <d v="likewise" p="preposition" ts="ˈlaɪkwaɪz" tr="подобно"/>
+    <d v="liking" p="noun" ts="ˈlaɪkɪŋ" tr="вкус; симпатия; расположение"/>
+    <d v="lilac" p="adjective" ts="ˈlaɪlək" tr="сиреневый"/>
+    <d v="lilac" p="noun" ts="ˈlaɪlək" tr="сирень"/>
+    <d v="lilt" p="noun" ts="lɪlt" tr="напевность"/>
+    <d v="lily" p="noun" ts="ˈlɪlɪ" tr="лилия"/>
+    <d v="lily" p="adjective" ts="ˈlɪlɪ" tr="лилейный"/>
+    <d v="limb" p="noun" ts="lɪm" tr="конечность; лимб; член; ветка"/>
+    <d v="limbo" p="noun" ts="ˈlɪmbəʊ"
+       tr="неопределенность; подвешенное состояние; Лимбо; лимб; заточение; преддверие ада; чистилище"/>
+    <d v="lime" p="noun" ts="laɪm" tr="известь; лайм; известкование"/>
+    <d v="lime" p="adjective" ts="laɪm" tr="известковый; липовый; лимонный; лаймовый"/>
+    <d v="limelight" p="noun" ts="ˈlaɪmlaɪt" tr="внимание; всеобщее внимание; друммондов свет"/>
+    <d v="limit" p="noun" ts="ˈlɪmɪt" tr="предел; ограничение; допуск"/>
+    <d v="limit" p="verb" ts="ˈlɪmɪt" tr="ограничивать; лимитировать"/>
+    <d v="limit" p="adjective" ts="ˈlɪmɪt" tr="ограниченный"/>
+    <d v="limit" p="participle" ts="ˈlɪmɪt" tr="ограничивающий"/>
+    <d v="limitation" p="noun" ts="lɪmɪˈteɪʃn" tr="ограничение"/>
+    <d v="limitation" p="adjective" ts="lɪmɪˈteɪʃn" tr="ограничительный"/>
+    <d v="limited" p="adjective" ts="ˈlɪmɪtɪd" tr="ограниченный"/>
+    <d v="limited" p="adverb" ts="ˈlɪmɪtɪd" tr="ограниченно"/>
+    <d v="limited" p="participle" ts="ˈlɪmɪtɪd" tr="лимитированный; ограничиваемый; ограничивающийся"/>
+    <d v="limiting" p="adjective" ts="ˈlɪmɪtɪŋ" tr="предельный"/>
+    <d v="limiting" p="noun" ts="ˈlɪmɪtɪŋ" tr="ограничение"/>
+    <d v="limiting" p="participle" ts="ˈlɪmɪtɪŋ" tr="ограничивающий"/>
+    <d v="limo" p="noun" ts="ˈlɪməʊ" tr="лимузин"/>
+    <d v="limousine" p="noun" ts="ˈlɪmuːziːn" tr="лимузин"/>
+    <d v="limp" p="verb" ts="lɪmp" tr="хромать; доковылять"/>
+    <d v="limp" p="adjective" ts="lɪmp" tr="хромой; вялый; безвольный; мягкий"/>
+    <d v="limp" p="noun" ts="lɪmp" tr="хромота"/>
+    <d v="limp" p="participle" ts="lɪmp" tr="обмякший"/>
+    <d v="linchpin" p="noun" ts="ˈlɪnʧpɪn" tr="стержень"/>
+    <d v="line" p="noun" ts="laɪn"
+       tr="линия; строка; линейка; направление; черта; граница; магистраль; шнур; конвейер; строчки; линь; морщина; реплика; установка; контур; штрих; партия; поведение; родословная; хвост; экватор; леса"/>
+    <d v="line" p="verb" ts="laɪn" tr="стоять; набивать; выкладывать"/>
+    <d v="lineage" p="noun" ts="ˈlɪnɪɪʤ"
+       tr="линия; родословная; происхождение; род; линия преемственности; родство; потомственная линия"/>
+    <d v="linear" p="adjective" ts="ˈlɪnɪə" tr="линейный"/>
+    <d v="lined" p="participle" ts="laɪnd" tr="выложенный"/>
+    <d v="lined" p="adjective" ts="laɪnd" tr="морщинистый"/>
+    <d v="linen" p="noun" ts="ˈlɪnɪn" tr="белье; постельное белье; полотно; лен"/>
+    <d v="linen" p="adjective" ts="ˈlɪnɪn" tr="льняной"/>
+    <d v="liner" p="noun" ts="ˈlaɪnə" tr="лайнер; вкладыш; подкладка; гильза; облицовка; подводка; обсадная труба"/>
+    <d v="lineup" p="noun" ts="ˈlaɪnɪp" tr="линейка; расклад; состав команды"/>
+    <d v="lineup" p="adjective" ts="ˈlaɪnɪp" tr="модельный"/>
+    <d v="linger" p="verb" ts="ˈlɪŋgə" tr="задержаться; мешкать"/>
+    <d v="lingerie" p="noun" ts="ˈlænʒəriː" tr="белье; женское белье; дамское белье"/>
+    <d v="lingo" p="noun" ts="ˈlɪŋgəʊ" tr="жаргон; иностранный язык"/>
+    <d v="linguist" p="noun" ts="ˈlɪŋgwɪst" tr="лингвист"/>
+    <d v="linguistic" p="adjective" ts="lɪŋˈgwɪstɪk" tr="лингвистический; языковедческий"/>
+    <d v="linguistic" p="noun" ts="lɪŋˈgwɪstɪk" tr="языков"/>
+    <d v="linguistics" p="noun" ts="lɪŋˈgwɪstɪks" tr="лингвистика; языкознание"/>
+    <d v="linguistics" p="adjective" ts="lɪŋˈgwɪstɪks" tr="лингвистический"/>
+    <d v="liniment" p="noun" ts="ˈlɪnɪmənt" tr="линимент"/>
+    <d v="lining" p="noun" ts="ˈlaɪnɪŋ"
+       tr="подкладка; накладка; вагонка; выравнивание; слизистая оболочка; крепь; обивка; обкладка; внутренняя обивка"/>
+    <d v="lining" p="adjective" ts="ˈlaɪnɪŋ" tr="облицовочный; подкладочный"/>
+    <d v="link" p="noun" ts="lɪŋk" tr="ссылка; связь"/>
+    <d v="link" p="verb" ts="lɪŋk" tr="связывать; увязывать; сцеплять"/>
+    <d v="link" p="adjective" ts="lɪŋk" tr="ссылочный; канальный"/>
+    <d v="link" p="participle" ts="lɪŋk" tr="соединяющий"/>
+    <d v="linkage" p="noun" ts="ˈlɪŋkɪʤ" tr="связь; связывание; сцепление; потокосцепление"/>
+    <d v="linoleum" p="noun" ts="lɪˈnəʊljəm" tr="линолеум"/>
+    <d v="lint" p="noun" ts="lɪnt" tr="линт; корпия"/>
+    <d v="lint" p="adjective" ts="lɪnt" tr="безворсовый"/>
+    <d v="lion" p="noun" ts="ˈlaɪən" tr="лев; львенок"/>
+    <d v="lion" p="adjective" ts="ˈlaɪən" tr="львиный"/>
+    <d v="lip" p="noun" ts="lɪp" tr="губа; край; выступ"/>
+    <d v="lip" p="adjective" ts="lɪp" tr="губной"/>
+    <d v="lipstick" p="noun" ts="ˈlɪpstɪk" tr="помада; губная помада"/>
+    <d v="liquefy" p="verb" ts="ˈlɪkwɪfaɪ" tr="разжижать; сжижать"/>
+    <d v="liqueur" p="noun" ts="lɪˈkjʊə" tr="ликер; настойка"/>
+    <d v="liqueur" p="adjective" ts="lɪˈkjʊə" tr="ликерный"/>
+    <d v="liquid" p="noun" ts="ˈlɪkwɪd" tr="жидкость"/>
+    <d v="liquid" p="adjective" ts="ˈlɪkwɪd" tr="жидкий; ликвидный; плавный"/>
+    <d v="liquid" p="participle" ts="ˈlɪkwɪd" tr="сжиженный"/>
+    <d v="liquidate" p="verb" ts="ˈlɪkwɪdeɪt" tr="ликвидировать; избавиться"/>
+    <d v="liquidate" p="noun" ts="ˈlɪkwɪdeɪt" tr="ликвидация"/>
+    <d v="liquidation" p="noun" ts="lɪkwɪˈdeɪʃn" tr="ликвидация; избавление"/>
+    <d v="liquidation" p="adjective" ts="lɪkwɪˈdeɪʃn" tr="ликвидационный"/>
+    <d v="liquor" p="noun" ts="ˈlɪkə" tr="ликер; напиток; спиртное; щелок; настойка"/>
+    <d v="liquor" p="adjective" ts="ˈlɪkə" tr="спиртной; винный"/>
+    <d v="liquor store" p="noun" ts="ˈlɪkə stɔː" tr="винный магазин; магазин спиртных напитков"/>
+    <d v="Lisp" p="noun" ts="lɪsp" tr="Лисп; шепелявость; лепет"/>
+    <d v="Lisp" p="adjective" ts="lɪsp" tr="лисповский"/>
+    <d v="Lisp" p="verb" ts="lɪsp" tr="шепелявить; лепетать"/>
+    <d v="list" p="noun" ts="lɪst" tr="список; крен"/>
+    <d v="list" p="verb" ts="lɪst" tr="перечислить; крениться"/>
+    <d v="list" p="adjective" ts="lɪst" tr="списочный"/>
+    <d v="listen" p="verb" ts="lɪsn" tr="слушать; прислушиваться; слушаться"/>
+    <d v="listen" p="noun" ts="lɪsn" tr="прослушивание"/>
+    <d v="listener" p="noun" ts="ˈlɪsnə" tr="слушатель; приемник"/>
+    <d v="listing" p="noun" ts="ˈlɪstɪŋ" tr="листинг; список; распечатка"/>
+    <d v="listing" p="adjective" ts="ˈlɪstɪŋ" tr="листинговый"/>
+    <d v="listing" p="participle" ts="ˈlɪstɪŋ" tr="перечисляющий"/>
+    <d v="listless" p="adjective" ts="ˈlɪstlɪs" tr="вялый; апатичный; безразличный"/>
+    <d v="listlessly" p="adverb" ts="ˈlɪstlɪslɪ" tr="вяло; равнодушно; апатично"/>
+    <d v="list price" p="noun" ts="lɪst praɪs" tr="прейскурантная цена; прейскурант"/>
+    <d v="lit" p="participle" ts="lɪt" tr="освещенный; зажженный"/>
+    <d v="litany" p="noun" ts="ˈlɪtənɪ" tr="литания; ектения; ектенья; молебствие"/>
+    <d v="litany" p="adjective" ts="ˈlɪtənɪ" tr="унылый"/>
+    <d v="liter" p="noun" ts="ˈliːtə" tr="литр"/>
+    <d v="liter" p="adjective" ts="ˈliːtə" tr="литровый"/>
+    <d v="liter" p="participle" ts="ˈliːtə" tr="зажженный"/>
+    <d v="literacy" p="noun" ts="ˈlɪtərəsɪ" tr="грамотность; ликбез"/>
+    <d v="literacy" p="adjective" ts="ˈlɪtərəsɪ" tr="грамотный"/>
+    <d v="literal" p="adjective" ts="ˈlɪtərəl" tr="буквальный; буквенный; литературный"/>
+    <d v="literal" p="noun" ts="ˈlɪtərəl" tr="литерал; опечатка"/>
+    <d v="literally" p="adverb" ts="ˈlɪtərəlɪ" tr="буквально"/>
+    <d v="literally" p="noun" ts="ˈlɪtərəlɪ"
+       tr="буквальный смысл; в буквальном смысле; в прямом смысле; без преувеличения"/>
+    <d v="literary" p="adjective" ts="ˈlɪtərərɪ" tr="литературный"/>
+    <d v="literary" p="noun" ts="ˈlɪtərərɪ" tr="литературоведение"/>
+    <d v="literate" p="adjective" ts="ˈlɪtərɪt" tr="грамотный"/>
+    <d v="literate" p="noun" ts="ˈlɪtərɪt" tr="грамотность"/>
+    <d v="literate" p="participle" ts="ˈlɪtərɪt" tr="образованный"/>
+    <d v="literature" p="noun" ts="ˈlɪtərɪʧə" tr="литература"/>
+    <d v="literature" p="adjective" ts="ˈlɪtərɪʧə" tr="литературный"/>
+    <d v="lithe" p="adjective" ts="laɪð" tr="гибкий"/>
+    <d v="litigate" p="verb" ts="ˈlɪtɪgeɪt" tr="оспаривать"/>
+    <d v="litigation" p="noun" ts="lɪtɪˈgeɪʃn" tr="судебный процесс; разбирательство; тяжба; судебная тяжба"/>
+    <d v="litigation" p="adjective" ts="lɪtɪˈgeɪʃn" tr="судебный"/>
+    <d v="litmus test" p="noun" ts="ˈlɪtməs test" tr="лакмусовая бумажка"/>
+    <d v="litter" p="noun" ts="ˈlɪtə" tr="помет; мусор; подстилка; носилки; беспорядок"/>
+    <d v="litter" p="verb" ts="ˈlɪtə" tr="мусорить; засорять; подстилать; щениться"/>
+    <d v="litter" p="adjective" ts="ˈlɪtə" tr="мусорный"/>
+    <d v="little" p="adjective" ts="lɪtl" tr="маленький"/>
+    <d v="little" p="numeral" ts="lɪtl" tr="немного"/>
+    <d v="little" p="adverb" ts="lɪtl" tr="чуть"/>
+    <d v="little" p="noun" ts="lɪtl" tr="малыш; малость; пустяк"/>
+    <d v="little League" p="noun" ts="lɪtl liːg" tr="малая Лига"/>
+    <d v="liturgical" p="adjective" ts="lɪˈtɜːʤɪkl" tr="литургический"/>
+    <d v="Liturgy" p="noun" ts="ˈlɪtəʤɪ" tr="литургия"/>
+    <d v="Liturgy" p="adjective" ts="ˈlɪtəʤɪ" tr="литургический"/>
+    <d v="livable" p="participle" ts="ˈlɪvəbl" tr="пригодный"/>
+    <d v="livable" p="adjective" ts="ˈlɪvəbl" tr="уживчивый"/>
+    <d v="live" p="verb" ts="lɪv" tr="проживать; пожить; существовать; сосуществовать"/>
+    <d v="live" p="noun" ts="lɪv" tr="жизнь; под напряжением"/>
+    <d v="live" p="adjective" ts="lɪv" tr="прямой; жизненный; боевой; яркий; животрепещущий"/>
+    <d v="live" p="participle" ts="lɪv" tr="проживающий; действующий; горящий"/>
+    <d v="live" p="adverbial participle" ts="lɪv" tr="живя"/>
+    <d v="livelihood" p="noun" ts="ˈlaɪvlɪhʊd" tr="существование; заработок; жизненный уровень; средства к жизни"/>
+    <d v="lively" p="adjective" ts="ˈlaɪvlɪ" tr="живой; веселый; заводной; подвижный; быстрый"/>
+    <d v="lively" p="noun" ts="ˈlaɪvlɪ" tr="живость"/>
+    <d v="lively" p="adverb" ts="ˈlaɪvlɪ" tr="весело"/>
+    <d v="liven" p="verb" ts="laɪvn" tr="оживить; развеселить"/>
+    <d v="liver" p="noun" ts="ˈlɪvə" tr="печень"/>
+    <d v="liver" p="adjective" ts="ˈlɪvə" tr="печеночный"/>
+    <d v="livestock" p="noun" ts="ˈlaɪvstɔk" tr="скот; животноводство; животновод; живность"/>
+    <d v="livestock" p="adjective" ts="ˈlaɪvstɔk" tr="животноводческий"/>
+    <d v="livid" p="adjective" ts="ˈlɪvɪd" tr="багровый; мертвенно бледный; злой"/>
+    <d v="living" p="noun" ts="ˈlɪvɪŋ" tr="жизнь; приход"/>
+    <d v="living" p="adjective" ts="ˈlɪvɪŋ" tr="гостиный; жизненный"/>
+    <d v="living" p="participle" ts="ˈlɪvɪŋ" tr="живущий; проживающий; обитающий; существующий"/>
+    <d v="living room" p="noun" ts="ˈlɪvɪŋ ruːm" tr="жилая комната; гостиная комната"/>
+    <d v="lizard" p="noun" ts="ˈlɪzəd" tr="ящерица; ящер"/>
+    <d v="llama" p="noun" ts="ˈlɑːmə" tr="лама; мясо ламы"/>
+    <d v="load" p="noun" ts="ləʊd" tr="нагрузка; загрузка; груз; бремя; множество; заряд; поклажа"/>
+    <d v="load" p="verb" ts="ləʊd" tr="загрузить; нагрузить; подгружать; наедаться"/>
+    <d v="load" p="adjective" ts="ləʊd" tr="грузовой; нагрузочный"/>
+    <d v="loaded" p="participle" ts="ˈləʊdɪd" tr="загруженный; нагруженный; заряженный; загружаемый; груженный"/>
+    <d v="loaded" p="noun" ts="ˈləʊdɪd" tr="загрузка"/>
+    <d v="loaf" p="noun" ts="ləʊf" tr="хлеб; голова; кочан"/>
+    <d v="loaf" p="verb" ts="ləʊf" tr="бездельничать; шататься"/>
+    <d v="loafer" p="noun" ts="ˈləʊfə" tr="бездельник"/>
+    <d v="loan" p="noun" ts="ləʊn" tr="кредит"/>
+    <d v="loan" p="adjective" ts="ləʊn" tr="кредитный"/>
+    <d v="loan" p="verb" ts="ləʊn" tr="одалживать"/>
+    <d v="loan shark" p="noun" ts="ləʊn ʃɑːk" tr="ростовщик"/>
+    <d v="loath" p="adverbial participle" ts="ləʊθ" tr="не желая"/>
+    <d v="loathe" p="verb" ts="ləʊð" tr="ненавидеть"/>
+    <d v="loathe" p="noun" ts="ləʊð" tr="отвращение"/>
+    <d v="loathing" p="noun" ts="ˈləʊðɪŋ" tr="отвращение"/>
+    <d v="loathsome" p="adjective" ts="ˈləʊðsəm" tr="отвратительный"/>
+    <d v="lob" p="noun" ts="lɔb" tr="большой объект"/>
+    <d v="lobby" p="noun" ts="ˈlɔbɪ" tr="лобби; холл; прихожая"/>
+    <d v="lobby" p="verb" ts="ˈlɔbɪ" tr="лоббировать; пролоббировать"/>
+    <d v="lobby" p="adjective" ts="ˈlɔbɪ" tr="лоббистский"/>
+    <d v="lobbyist" p="noun" ts="ˈlɔbɪɪst" tr="лоббист"/>
+    <d v="lobbyist" p="adjective" ts="ˈlɔbɪɪst" tr="лоббистский"/>
+    <d v="lobe" p="noun" ts="ləʊb" tr="мочка; доля; лопасть; долька; кулачок"/>
+    <d v="lobster" p="noun" ts="ˈlɔbstə" tr="Омар; лобстер; рак"/>
+    <d v="local" p="adjective" ts="ˈləʊkəl" tr="местный; частный"/>
+    <d v="local anesthetic" p="noun" ts="ˈləʊkəl ænɪsˈθetɪk" tr="местный анестетик; местная анестезия; местный наркоз"/>
+    <d v="locale" p="noun" ts="ləʊˈkɑːl" tr="место; локаль; языковой стандарт; локализация; место действия"/>
+    <d v="locality" p="noun" ts="ləʊˈkælɪtɪ" tr="местность; населенный пункт; местонахождение"/>
+    <d v="localized" p="participle" ts="ˈləʊkəlaɪzd" tr="локализованный"/>
+    <d v="locally" p="adjective" ts="ˈləʊkəlɪ" tr="местный"/>
+    <d v="locally" p="adverb" ts="ˈləʊkəlɪ" tr="локально; местно"/>
+    <d v="locally" p="noun" ts="ˈləʊkəlɪ" tr="место; на месте; на местном уровне; в местном масштабе"/>
+    <d v="locate" p="verb" ts="ləʊˈkeɪt" tr="найти; разместить; локализовать; обосноваться; определять место"/>
+    <d v="locate" p="noun" ts="ləʊˈkeɪt" tr="местонахождение"/>
+    <d v="location" p="noun" ts="ləʊˈkeɪʃn" tr="расположение; место; дислокация; поселение"/>
+    <d v="lock" p="noun" ts="lɔk" tr="замок; шлюз; прядь; затвор; стопор; щеколда"/>
+    <d v="lock" p="verb" ts="lɔk" tr="запереть; заблокировать; зафиксировать; запереться; сжимать"/>
+    <d v="lock" p="adjective" ts="lɔk" tr="стопорный; замочный"/>
+    <d v="locker" p="noun" ts="ˈlɔkə" tr="шкафчик; раздевалка"/>
+    <d v="locker room" p="noun" ts="ˈlɔkərʊm" tr="раздевалка"/>
+    <d v="locket" p="noun" ts="ˈlɔkɪt" tr="медальон"/>
+    <d v="locksmith" p="noun" ts="ˈlɔksmɪθ" tr="слесарь"/>
+    <d v="locksmith" p="adjective" ts="ˈlɔksmɪθ" tr="слесарный"/>
+    <d v="locomotive" p="noun" ts="ˈləʊkəməʊtɪv" tr="локомотив; паровозик"/>
+    <d v="locomotive" p="adjective" ts="ˈləʊkəməʊtɪv" tr="локомотивный; двигательный"/>
+    <d v="locust" p="noun" ts="ˈləʊkəst" tr="саранча; белая акация"/>
+    <d v="locust" p="adjective" ts="ˈləʊkəst" tr="саранчовый"/>
+    <d v="lodge" p="noun" ts="lɔʤ" tr="домик; ложа; лодж; хатка; вигвам"/>
+    <d v="lodge" p="verb" ts="lɔʤ" tr="подать; ночевать; предъявлять; временно проживать; квартировать; приютить"/>
+    <d v="lodging" p="noun" ts="ˈlɔʤɪŋ" tr="жилье; полегание; пристанище"/>
+    <d v="loft" p="noun" ts="lɔft" tr="чердак; сеновал; плаз; полати"/>
+    <d v="lofty" p="adjective" ts="ˈlɔftɪ" tr="высокий; возвышенный; высокомерный; высокопарный"/>
+    <d v="log" p="noun" ts="lɔg" tr="журнал; бревно; вход; логов; лаг; сруб; кряж; чурбан"/>
+    <d v="log" p="verb" ts="lɔg" tr="войти; регистрировать"/>
+    <d v="log" p="adjective" ts="lɔg" tr="бревенчатый; журнальный"/>
+    <d v="logbook" p="noun" ts="ˈlɒgbʊk" tr="журнал; бортовой журнал; регистрационный журнал; формуляр"/>
+    <d v="logging" p="noun" ts="ˈlɔgɪŋ"
+       tr="журнал; лесозаготовка; регистрация; рубка; ведение журнала; каротаж; логирование"/>
+    <d v="logging" p="adjective" ts="ˈlɔgɪŋ" tr="лесозаготовительный"/>
+    <d v="logic" p="noun" ts="ˈlɔʤɪk" tr="логика"/>
+    <d v="logic" p="adjective" ts="ˈlɔʤɪk" tr="логический"/>
+    <d v="logical" p="adjective" ts="ˈlɔʤɪkəl" tr="логический"/>
+    <d v="logical" p="adverb" ts="ˈlɔʤɪkəl" tr="логически"/>
+    <d v="logically" p="adverb" ts="ˈlɒʤɪklɪ" tr="логически"/>
+    <d v="logically" p="noun" ts="ˈlɒʤɪklɪ" tr="логика; по логике"/>
+    <d v="logically" p="adjective" ts="ˈlɒʤɪklɪ" tr="логический"/>
+    <d v="logistical" p="adjective" ts="ləʊˈʤɪstɪkəl" tr="логистический"/>
+    <d v="logistics" p="noun" ts="ləʊˈʤɪstɪks" tr="логистика"/>
+    <d v="logistics" p="adjective" ts="ləʊˈʤɪstɪks" tr="логистический"/>
+    <d v="logo" p="noun" ts="ˈləʊgəʊ" tr="логотип; логос"/>
+    <d v="loincloth" p="noun" ts="ˈlɔɪnklɒθ" tr="набедренная повязка"/>
+    <d v="loiter" p="verb" ts="ˈlɔɪtə" tr="мешкать"/>
+    <d v="loll" p="verb" ts="lɔl" tr="валять"/>
+    <d v="lollipop" p="noun" ts="ˈlɔlɪpɔp" tr="леденец; леденец на палочке"/>
+    <d v="lone" p="adjective" ts="ləʊn" tr="одинокий"/>
+    <d v="lone" p="noun" ts="ləʊn" tr="одиночка"/>
+    <d v="loneliness" p="noun" ts="ˈləʊnlɪnəs" tr="одиночество"/>
+    <d v="lonely" p="adjective" ts="ˈləʊnlɪ" tr="одинокий; сиротливый"/>
+    <d v="lonely" p="noun" ts="ˈləʊnlɪ" tr="одиночество"/>
+    <d v="loner" p="noun" ts="ˈləʊnə" tr="одиночка; холостяк"/>
+    <d v="loner" p="adjective" ts="ˈləʊnə" tr="одинокий"/>
+    <d v="lonesome" p="adjective" ts="ˈləʊnsəm" tr="одинокий; унылый"/>
+    <d v="long" p="adjective" ts="lɔŋ" tr="длинный; долгосрочный; большой; медленный"/>
+    <d v="long" p="numeral" ts="lɔŋ" tr="много"/>
+    <d v="long" p="noun" ts="lɔŋ" tr="длина; много времени"/>
+    <d v="long" p="particle" ts="lɔŋ" tr="пока"/>
+    <d v="long" p="adverb" ts="lɔŋ" tr="надолго; напролет"/>
+    <d v="long" p="verb" ts="lɔŋ" tr="стремиться; тосковать; страстно желать"/>
+    <d v="longevity" p="noun" ts="lɔnˈʤevɪtɪ" tr="долголетие; долгожительство"/>
+    <d v="longing" p="noun" ts="ˈlɔŋɪŋ" tr="тоска; страстное желание"/>
+    <d v="longingly" p="noun" ts="ˈlɒŋɪŋlɪ" tr="с тоской"/>
+    <d v="longitude" p="noun" ts="ˈlɔnʤɪtjuːd" tr="долгота"/>
+    <d v="longitudinal" p="adjective" ts="lɔnʤɪˈtjuːdɪnl" tr="продольный"/>
+    <d v="long jump" p="noun" ts="ˈlɔŋˈʤʌmp" tr="прыжок в длину"/>
+    <d v="longshoreman" p="noun" ts="ˈlɔŋʃɔːmən" tr="грузчик; портовый грузчик"/>
+    <d v="long shot" p="noun" ts="lɔŋ ʃɔt" tr="большой риск; длинный выстрел"/>
+    <d v="longtime" p="adjective" ts="ˈlɔŋtaɪm" tr="давний"/>
+    <d v="look" p="verb" ts="lʊk" tr="выглядеть; смотреть; посмотреть; заглянуть; поглядеть; выражать"/>
+    <d v="look" p="noun" ts="lʊk" tr="взгляд; наружность"/>
+    <d v="lookout" p="participle" ts="ˈlʊkaʊt" tr="смотровой"/>
+    <d v="lookout" p="noun" ts="ˈlʊkaʊt" tr="поиск"/>
+    <d v="loom" p="adjective" ts="luːm" tr="ткацкий"/>
+    <d v="loom" p="verb" ts="luːm" tr="маячить; вырисовываться; замаячить; нависать"/>
+    <d v="loom" p="noun" ts="luːm" tr="станок; тень; очертания"/>
+    <d v="loony" p="noun" ts="ˈluːnɪ" tr="псих"/>
+    <d v="loony" p="adjective" ts="ˈluːnɪ" tr="полоумный"/>
+    <d v="loop" p="noun" ts="luːp" tr="цикл; шлейф; виток; зацикливание; бугель; скоба; петля Нестерова"/>
+    <d v="loop" p="adverbial participle" ts="luːp" tr="петля"/>
+    <d v="loop" p="adjective" ts="luːp" tr="петлевой"/>
+    <d v="loop" p="verb" ts="luːp" tr="зацикливать"/>
+    <d v="loophole" p="noun" ts="ˈluːphəʊl" tr="лазейка; бойница"/>
+    <d v="loose" p="adjective" ts="luːs"
+       tr="свободный; сыпучий; широкий; незакрепленный; рассыпной; неточный; небрежный; ненатянутый; обвислый"/>
+    <d v="loose" p="verb" ts="luːs" tr="терять; освободить; развязать; разрешить; шататься; ослаблять"/>
+    <d v="loose" p="adverb" ts="luːs" tr="свободно"/>
+    <d v="loose" p="participle" ts="luːs" tr="распущенный; болтающийся; шатающийся"/>
+    <d v="loose" p="noun" ts="luːs" tr="россыпь; выход"/>
+    <d v="loosely" p="adverb" ts="ˈluːslɪ" tr="свободно; слабо; неплотно"/>
+    <d v="loosen" p="verb" ts="luːsn"
+       tr="ослабить; отпустить; развязать; расслабить; разрыхлять; расшатать; расшатывать"/>
+    <d v="loosen" p="noun" ts="luːsn" tr="ослабление; рыхление"/>
+    <d v="loot" p="noun" ts="luːt" tr="добыча; лута; грабеж"/>
+    <d v="loot" p="verb" ts="luːt" tr="грабить"/>
+    <d v="looter" p="noun" ts="ˈluːtər" tr="мародер"/>
+    <d v="lop" p="verb" ts="lɔp" tr="отрубить; обрубать"/>
+    <d v="lopsided" p="adjective" ts="lɒpˈsaɪdɪd" tr="однобокий; кривобокий; кривой; неравномерный"/>
+    <d v="lopsided" p="participle" ts="lɒpˈsaɪdɪd" tr="покосившийся"/>
+    <d v="Lord" p="noun" ts="lɔːd" tr="Господь; лорд; господин; владыка; муж; король; магнат"/>
+    <d v="Lord" p="verb" ts="lɔːd" tr="командовать"/>
+    <d v="Lord" p="noun" ts="lɔːd" tr="Господь; лорд; господин; владыка; муж; король; магнат"/>
+    <d v="Lord" p="verb" ts="lɔːd" tr="командовать"/>
+    <d v="lore" p="adjective" ts="lɔː" tr="краеведческий"/>
+    <d v="lore" p="noun" ts="lɔː" tr="знание; уздечка; профессиональные знания"/>
+    <d v="lose" p="verb" ts="luːz"
+       tr="потерять; терять; упустить; потеряться; забывать; затеряться; утерять; отставать; стоить"/>
+    <d v="lose" p="noun" ts="luːz" tr="потеря; пропасть"/>
+    <d v="loser" p="participle" ts="ˈluːzə" tr="проигравший; побежденный"/>
+    <d v="loser" p="noun" ts="ˈluːzə" tr="неудачник; проигрыш"/>
+    <d v="loser" p="verb" ts="ˈluːzə" tr="проиграть"/>
+    <d v="loss" p="noun" ts="lɔs" tr="потеря; убыток; пропадание; угар"/>
+    <d v="lost" p="participle" ts="lɔst"
+       tr="потерянный; утраченный; утерянный; проигранный; затерянный; погибший; пропавший; потерявший; растерянный; погибающий; потерявшийся; погруженный; затерявшийся; заблудившийся; теряемый"/>
+    <d v="lost" p="adverbial participle" ts="lɔst" tr="теряясь"/>
+    <d v="lost" p="noun" ts="lɔst" tr="потеря"/>
+    <d v="lot" p="numeral" ts="lɔt" tr="много"/>
+    <d v="lot" p="noun" ts="lɔt" tr="множество; лот; жребий; партия; участок; судьба; доля; большее количество; вещь"/>
+    <d v="lot" p="adjective" ts="lɔt" tr="большой"/>
+    <d v="lotion" p="noun" ts="ləʊʃn" tr="лосьон"/>
+    <d v="lots" p="adjective" ts="lɒts" tr="большой"/>
+    <d v="lots" p="noun" ts="lɒts" tr="большое количество"/>
+    <d v="lots" p="predicative" ts="lɒts" tr="очень много"/>
+    <d v="lottery" p="noun" ts="ˈlɔtərɪ" tr="лотерея"/>
+    <d v="lottery" p="adjective" ts="ˈlɔtərɪ" tr="лотерейный"/>
+    <d v="loud" p="adjective" ts="laʊd" tr="громкий; шумливый"/>
+    <d v="loud" p="adverb" ts="laʊd" tr="громко"/>
+    <d v="loud" p="participle" ts="laʊd" tr="кричащий"/>
+    <d v="loudly" p="adverb" ts="ˈlaʊdlɪ" tr="громко; кричаще"/>
+    <d v="loudly" p="noun" ts="ˈlaʊdlɪ" tr="громк; во всеуслышание"/>
+    <d v="loudmouth" p="noun" ts="ˈlaʊdmaʊθ" tr="крикун"/>
+    <d v="loudmouthed" p="adjective" ts="ˈlaʊdmaʊðd" tr="крикливый"/>
+    <d v="loudness" p="noun" ts="ˈlaʊdnəs" tr="громкость"/>
+    <d v="loudspeaker" p="noun" ts="laʊdˈspiːkər" tr="громкоговоритель"/>
+    <d v="lounge" p="noun" ts="laʊnʤ" tr="зал; комната отдыха; шезлонг; диван"/>
+    <d v="lounge" p="verb" ts="laʊnʤ" tr="бездельничать"/>
+    <d v="louse" p="noun" ts="laʊs" tr="вошь; тля"/>
+    <d v="lousy" p="adjective" ts="ˈlaʊzɪ" tr="паршивый; вшивый; отвратительный; плохой"/>
+    <d v="lovable" p="adjective" ts="ˈlʌvəbl" tr="милый; привлекательный"/>
+    <d v="love" p="noun" ts="lʌv" tr="любовь; Амур"/>
+    <d v="love" p="verb" ts="lʌv" tr="любить; желать"/>
+    <d v="love" p="adjective" ts="lʌv" tr="любовный; дорогой"/>
+    <d v="love" p="participle" ts="lʌv" tr="возлюбленный"/>
+    <d v="love affair" p="noun" ts="lʌv əˈfɛə"
+       tr="роман; любовная интрига; любовная связь; любовное приключение; любовный роман; любовная история"/>
+    <d v="love affair" p="adjective" ts="lʌv əˈfɛə" tr="любовный"/>
+    <d v="loveliness" p="noun" ts="ˈlʌvlɪnɪs" tr="красота; миловидность"/>
+    <d v="lovely" p="adjective" ts="ˈlʌvlɪ" tr="прекрасный; милый"/>
+    <d v="lovely" p="noun" ts="ˈlʌvlɪ" tr="красотка"/>
+    <d v="lover" p="noun" ts="ˈlʌvə" tr="любитель; любовник; влюбленный"/>
+    <d v="lover" p="participle" ts="ˈlʌvə" tr="возлюбивший"/>
+    <d v="lovesick" p="participle" ts="ˈlʌvsɪk" tr="томящийся от любви"/>
+    <d v="love story" p="noun" ts="lʌv ˈstɔːrɪ" tr="любовная история; история любви; любовный роман"/>
+    <d v="loving" p="adjective" ts="ˈlʌvɪŋ" tr="любящий; любовный; верный"/>
+    <d v="loving" p="noun" ts="ˈlʌvɪŋ" tr="любовь"/>
+    <d v="loving" p="participle" ts="ˈlʌvɪŋ" tr="влюбленный; любимый"/>
+    <d v="lovingly" p="adverb" ts="ˈlʌvɪŋlɪ" tr="любовно; нежно"/>
+    <d v="lovingly" p="noun" ts="ˈlʌvɪŋlɪ" tr="с любовью"/>
+    <d v="low" p="adjective" ts="ləʊ" tr="низкий; слабый; тихий; низменный"/>
+    <d v="low" p="participle" ts="ləʊ" tr="пониженный; заниженный; подлый"/>
+    <d v="low" p="verb" ts="ləʊ" tr="мычать"/>
+    <d v="low" p="noun" ts="ləʊ" tr="мычание; отлив"/>
+    <d v="lowbrow" p="noun" ts="ˈləʊbraʊ" tr="быдло"/>
+    <d v="lowbrow" p="adjective" ts="ˈləʊbraʊ" tr="малообразованный"/>
+    <d v="lowdown" p="noun" ts="ˈləʊdaʊn" tr="подноготная"/>
+    <d v="lower" p="adjective" ts="ˈləʊə" tr="нижний"/>
+    <d v="lower" p="verb" ts="ˈləʊə" tr="снизить; опустить; унижать"/>
+    <d v="lower" p="noun" ts="ˈləʊə" tr="снижение; опускание"/>
+    <d v="lower" p="participle" ts="ˈləʊə" tr="пониженный; сниженный"/>
+    <d v="lowercase" p="noun" ts="ləʊˈkeɪz" tr="регистр; нижний регистр"/>
+    <d v="lowercase" p="adjective" ts="ləʊˈkeɪz" tr="строчный"/>
+    <d v="lowly" p="adjective" ts="ˈləʊlɪ" tr="смиренный; низший"/>
+    <d v="lowly" p="adverb" ts="ˈləʊlɪ" tr="скромно"/>
+    <d v="low-lying" p="adjective" ts="ləʊ-ˈlaɪɪŋ" tr="низменный; низинный"/>
+    <d v="low tide" p="noun" ts="ləʊ taɪd" tr="отлив"/>
+    <d v="loyal" p="adjective" ts="ˈlɔɪəl" tr="лояльный; верный; верноподданный"/>
+    <d v="loyal" p="noun" ts="ˈlɔɪəl" tr="лояльность"/>
+    <d v="loyally" p="adverb" ts="ˈlɔɪəlɪ" tr="лояльно; преданно"/>
+    <d v="loyalty" p="noun" ts="ˈlɔɪəltɪ" tr="лояльность; верность; верноподданность"/>
+    <d v="loyalty" p="participle" ts="ˈlɔɪəltɪ" tr="лояльный"/>
+    <d v="lozenge" p="noun" ts="ˈlɔzɪnʤ" tr="таблетка; ромб; лепешка"/>
+    <d v="LSD" p="noun" ts="ələsˈdiː" tr="ЛСД; употребление ЛСД"/>
+    <d v="lubricant" p="noun" ts="ˈluːbrɪkənt" tr="смазка"/>
+    <d v="lubricant" p="adjective" ts="ˈluːbrɪkənt" tr="смазочный"/>
+    <d v="lubricate" p="verb" ts="ˈluːbrɪkeɪt" tr="смазывать"/>
+    <d v="lubricate" p="noun" ts="ˈluːbrɪkeɪt" tr="смазка"/>
+    <d v="lubrication" p="noun" ts="luːbrɪˈkeɪʃn" tr="смазка"/>
+    <d v="lubrication" p="adjective" ts="luːbrɪˈkeɪʃn" tr="смазочный"/>
+    <d v="lucid" p="adjective" ts="ˈluːsɪd" tr="ясный"/>
+    <d v="lucidity" p="noun" ts="luːˈsɪdɪtɪ" tr="ясность; ясновидение"/>
+    <d v="lucidly" p="adverb" ts="ˈluːsɪdlɪ" tr="доходчиво"/>
+    <d v="luck" p="noun" ts="lʌk" tr="удача; случайность; удачливость; незадача"/>
+    <d v="luck" p="verb" ts="lʌk" tr="повезти"/>
+    <d v="luckily" p="noun" ts="ˈlʌkɪlɪ" tr="счастье; к счастью"/>
+    <d v="lucky" p="verb" ts="ˈlʌkɪ" tr="повезти"/>
+    <d v="lucky" p="adjective" ts="ˈlʌkɪ" tr="счастливый; удачливейший; везучий"/>
+    <d v="lucky" p="noun" ts="ˈlʌkɪ" tr="счастливчик; лаки; счастье; везунчик; к счастью; счастливица"/>
+    <d v="lucrative" p="adjective" ts="ˈluːkrətɪv" tr="прибыльный"/>
+    <d v="ludicrous" p="adjective" ts="ˈluːdɪkrəs" tr="нелепый"/>
+    <d v="ludicrously" p="noun" ts="ˈluːdɪkrəslɪ" tr="до смешного"/>
+    <d v="ludicrously" p="adverb" ts="ˈluːdɪkrəslɪ" tr="смехотворно"/>
+    <d v="lug" p="noun" ts="lʌg" tr="наконечник; проушина; выступ; бобышка; волочение; зажим; прилив"/>
+    <d v="lug" p="verb" ts="lʌg" tr="тащить"/>
+    <d v="Luggage" p="noun" ts="ˈlʌgɪʤ" tr="багаж; багажник; поклажа"/>
+    <d v="Luggage" p="adjective" ts="ˈlʌgɪʤ" tr="багажный"/>
+    <d v="Luggage rack" p="noun" ts="ˈlʌgɪʤ ræk" tr="багажная полка; багажник"/>
+    <d v="lugubrious" p="adjective" ts="luːˈguːbrɪəs" tr="мрачный"/>
+    <d v="lukewarm" p="adjective" ts="ˈluːkwɔːm" tr="теплый; равнодушный"/>
+    <d v="lull" p="noun" ts="lʌl" tr="затишье; перерыв"/>
+    <d v="lull" p="verb" ts="lʌl" tr="усыпить; баюкать; успокаивать; укачивать"/>
+    <d v="lullaby" p="noun" ts="ˈlʌləbaɪ" tr="колыбельная"/>
+    <d v="lumber" p="noun" ts="ˈlʌmbə" tr="пиломатериал; хлам; пиломатериалы"/>
+    <d v="lumber" p="adjective" ts="ˈlʌmbə" tr="лесной; лесопильный"/>
+    <d v="lumbering" p="adjective" ts="ˈlʌmbərɪŋ" tr="неуклюжий; лесозаготовительный"/>
+    <d v="lumbering" p="noun" ts="ˈlʌmbərɪŋ" tr="лесозаготовка"/>
+    <d v="lumbering" p="participle" ts="ˈlʌmbərɪŋ" tr="громыхающий"/>
+    <d v="lumberjack" p="noun" ts="ˈlʌmbəʤæk" tr="лесоруб"/>
+    <d v="luminary" p="noun" ts="ˈluːmɪnərɪ" tr="светило; светильник; корифей"/>
+    <d v="luminous" p="adjective" ts="ˈluːmɪnəs" tr="световой; люминесцентный; лучезарный; светоносный"/>
+    <d v="luminous" p="participle" ts="ˈluːmɪnəs" tr="светящийся; сияющий"/>
+    <d v="luminous" p="verb" ts="ˈluːmɪnəs" tr="светиться"/>
+    <d v="lump" p="noun" ts="lʌmp" tr="кусок; комок; шишка; опухоль; куча; выступ; болван; дубина; чурбан"/>
+    <d v="lump" p="adjective" ts="lʌmp" tr="единовременный; кусковой"/>
+    <d v="lump" p="verb" ts="lʌmp" tr="смешивать"/>
+    <d v="lump sum" p="adjective" ts="lʌmp sʌm" tr="единовременный"/>
+    <d v="lump sum" p="noun" ts="lʌmp sʌm"
+       tr="единовременная сумма; единовременное пособие; единовременная выплата; паушальная сумма; единовременно выплачиваемая сумма"/>
+    <d v="lumpy" p="adjective" ts="ˈlʌmpɪ" tr="кусковой; бугристый; комковатый; бугорчатый; шероховатый"/>
+    <d v="lunacy" p="noun" ts="ˈluːnəsɪ" tr="безумие; психоз"/>
+    <d v="lunar" p="adjective" ts="ˈluːnə" tr="лунный"/>
+    <d v="lunatic" p="adjective" ts="ˈluːnətɪk" tr="сумасшедший"/>
+    <d v="lunatic" p="noun" ts="ˈluːnətɪk" tr="лунатик; безумец; душевнобольной"/>
+    <d v="lunatic" p="participle" ts="ˈluːnətɪk" tr="помешанный"/>
+    <d v="lunch" p="noun" ts="lʌnʧ" tr="обед; завтрак"/>
+    <d v="lunch" p="verb" ts="lʌnʧ" tr="пообедать"/>
+    <d v="lunch" p="adjective" ts="lʌnʧ" tr="обеденный"/>
+    <d v="luncheon" p="noun" ts="ˈlʌnʧən" tr="завтрак"/>
+    <d v="lunchtime" p="noun" ts="ˈlʌnʧtaɪm" tr="обед; обеденное время"/>
+    <d v="lunchtime" p="adjective" ts="ˈlʌnʧtaɪm" tr="обеденный"/>
+    <d v="lung" p="noun" ts="lʌŋ" tr="легкое"/>
+    <d v="lung" p="adjective" ts="lʌŋ" tr="легкий; легочный"/>
+    <d v="lunge" p="noun" ts="lʌnʤ" tr="выпад; рывок"/>
+    <d v="lunge" p="verb" ts="lʌnʤ" tr="броситься"/>
+    <d v="lurch" p="noun" ts="lɜːʧ" tr="крен; рывок"/>
+    <d v="lurch" p="verb" ts="lɜːʧ" tr="качнуться; крениться"/>
+    <d v="lure" p="verb" ts="ljʊə" tr="заманить; привлечь; прикармливать; прикормить"/>
+    <d v="lure" p="noun" ts="ljʊə" tr="приманка; соблазн"/>
+    <d v="lure" p="participle" ts="ljʊə" tr="манящий"/>
+    <d v="lurid" p="adjective" ts="ˈljʊərɪd" tr="зловещий; сенсационный; бурый"/>
+    <d v="lurk" p="verb" ts="lɜːk" tr="скрываться; подстерегать; поджидать"/>
+    <d v="luscious" p="adjective" ts="ˈlʌʃəs" tr="сочный"/>
+    <d v="lush" p="adjective" ts="lʌʃ" tr="пышный"/>
+    <d v="lush" p="participle" ts="lʌʃ" tr="цветущий"/>
+    <d v="lust" p="noun" ts="lʌst" tr="похоть"/>
+    <d v="lust" p="verb" ts="lʌst" tr="страстно желать"/>
+    <d v="luster" p="noun" ts="ˈlʌstə" tr="блеск; люстра"/>
+    <d v="lustrous" p="adjective" ts="ˈlʌstrəs" tr="блестящий; глянцевитый"/>
+    <d v="lusty" p="adjective" ts="ˈlʌstɪ" tr="здоровый; похотливый; крепкий"/>
+    <d v="Lutheran" p="adjective" ts="ˈluːθərən" tr="лютеранский"/>
+    <d v="Lutheran" p="noun" ts="ˈluːθərən" tr="лютеранин; лютеранство; лютеранка"/>
+    <d v="luxuriant" p="adjective" ts="lʌgˈzjʊərɪənt" tr="пышный"/>
+    <d v="luxuriate" p="verb" ts="lʌgˈzjʊərɪeɪt" tr="нежиться; понежиться; роскошествовать; блаженствовать"/>
+    <d v="luxurious" p="adjective" ts="lʌgˈzjʊərɪəs" tr="роскошный; расточительный"/>
+    <d v="luxuriously" p="adverb" ts="lʌgˈzjʊərɪəslɪ" tr="роскошно"/>
+    <d v="luxury" p="adjective" ts="ˈlʌkʃərɪ" tr="роскошный"/>
+    <d v="luxury" p="noun" ts="ˈlʌkʃərɪ" tr="роскошь; излишество; наслаждение"/>
+    <d v="lying" p="noun" ts="ˈlaɪɪŋ" tr="ложь; лежание"/>
+    <d v="lying" p="adjective" ts="ˈlaɪɪŋ" tr="лживый; лежачий"/>
+    <d v="lying" p="adverbial participle" ts="ˈlaɪɪŋ" tr="валяясь"/>
+    <d v="lying" p="participle" ts="ˈlaɪɪŋ" tr="лежащий; валявшийся; пролегающий"/>
+    <d v="Lynch" p="noun" ts="lɪnʧ" tr="Линч"/>
+    <d v="Lynch" p="verb" ts="lɪnʧ" tr="линчевать"/>
+    <d v="lyric" p="adjective" ts="ˈlɪrɪk" tr="лирический"/>
+    <d v="lyrical" p="adjective" ts="ˈlɪrɪkəl" tr="лирический"/>
+    <d v="lyricist" p="noun" ts="ˈlɪrɪsɪst" tr="лирик"/>
+    <d v="lyrics" p="noun" ts="ˈlɪrɪks" tr="лирика; песня"/>
+
+</defs>

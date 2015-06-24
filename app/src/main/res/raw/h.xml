@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="haberdashery" p="noun" ts="ˈhæbədæʃərɪ" tr="галантерея"/>
+    <d v="haberdashery" p="adjective" ts="ˈhæbədæʃərɪ" tr="галантерейный"/>
+    <d v="habit" p="noun" ts="ˈhæbɪt" tr="привычка; особенность; одеяние; габитус"/>
+    <d v="habitable" p="adjective" ts="ˈhæbɪtəbl" tr="жилой; обжитой"/>
+    <d v="habitable" p="participle" ts="ˈhæbɪtəbl" tr="пригодный"/>
+    <d v="habitat" p="noun" ts="ˈhæbɪtæt"
+       tr="обитание; местообитание; Хабитат; место обитания; родина; место распространения"/>
+    <d v="habitation" p="noun" ts="hæbɪˈteɪʃn" tr="жилье; проживание; обиталище"/>
+    <d v="habitual" p="adjective" ts="həˈbɪtjʊəl" tr="привычный"/>
+    <d v="habitually" p="adverb" ts="həˈbɪʧʊəlɪ" tr="обычно"/>
+    <d v="habitually" p="noun" ts="həˈbɪʧʊəlɪ" tr="привычка"/>
+    <d v="hack" p="verb" ts="hæk" tr="рубить; взломать; прорубать; хакнуть; кромсать"/>
+    <d v="hack" p="noun" ts="hæk" tr="взлом; мотыга; писака; зарубка; лошадь"/>
+    <d v="hack" p="adjective" ts="hæk" tr="хакерский"/>
+    <d v="hacker" p="noun" ts="ˈhækər" tr="хакер"/>
+    <d v="hacker" p="adjective" ts="ˈhækər" tr="хакерский"/>
+    <d v="hackneyed" p="adjective" ts="ˈhæknɪd" tr="банальный"/>
+    <d v="hackneyed" p="participle" ts="ˈhæknɪd" tr="избитый"/>
+    <d v="hacksaw" p="noun" ts="ˈhæksɔː" tr="ножовка"/>
+    <d v="haddock" p="noun" ts="ˈhædək" tr="пикша"/>
+    <d v="hag" p="noun" ts="hæg" tr="ведьма; карга"/>
+    <d v="haggard" p="adjective" ts="ˈhægəd" tr="изможденный"/>
+    <d v="haggard" p="participle" ts="ˈhægəd" tr="измученный; осунувшийся"/>
+    <d v="haggard" p="noun" ts="ˈhægəd" tr="Хаггард"/>
+    <d v="haggle" p="verb" ts="hægl" tr="торговаться"/>
+    <d v="haggle" p="noun" ts="hægl" tr="торг"/>
+    <d v="hail" p="noun" ts="heɪl" tr="град; оклик; окрик; приветствие"/>
+    <d v="hail" p="verb" ts="heɪl" tr="приветствовать; окликнуть; окликать"/>
+    <d v="hailstone" p="noun" ts="ˈheɪlstəʊn" tr="градина"/>
+    <d v="hair" p="noun" ts="hɛə" tr="волосы; шерсть; прическа; ворсинка; щетина"/>
+    <d v="hair" p="adjective" ts="hɛə" tr="волосяной"/>
+    <d v="hairbrush" p="noun" ts="ˈhɛəbrʌʃ" tr="расческа; щетка для волос"/>
+    <d v="haircut" p="noun" ts="ˈhɛəkʌt" tr="стрижка"/>
+    <d v="haircut" p="verb" ts="ˈhɛəkʌt" tr="стричь"/>
+    <d v="haircut" p="participle" ts="ˈhɛəkʌt" tr="стриженный"/>
+    <d v="hairdo" p="noun" ts="ˈhɛəduː" tr="прическа"/>
+    <d v="hairdresser" p="noun" ts="ˈhɛədresə" tr="парикмахер"/>
+    <d v="hairdresser" p="adjective" ts="ˈhɛədresə" tr="парикмахерский"/>
+    <d v="hairline" p="noun" ts="ˈheəlaɪn" tr="волос; линия волос"/>
+    <d v="hairline" p="adjective" ts="ˈheəlaɪn" tr="волосяной"/>
+    <d v="hairnet" p="noun" ts="ˈheənet" tr="сетка для волос"/>
+    <d v="hairpiece" p="noun" ts="ˈheəpiːs" tr="шиньон"/>
+    <d v="hair spray" p="noun" ts="hɛə spreɪ" tr="лак для волос"/>
+    <d v="hairstyle" p="noun" ts="ˈheəstaɪl" tr="прическа"/>
+    <d v="hairstylist" p="noun" ts="ˈheəstaɪlɪst" tr="парикмахер"/>
+    <d v="hairy" p="adjective" ts="ˈhɛərɪ" tr="волосатый; ворсистый"/>
+    <d v="hairy" p="participle" ts="ˈhɛərɪ" tr="заросший"/>
+    <d v="Hale" p="noun" ts="heɪl" tr="Хейл"/>
+    <d v="Hale" p="adjective" ts="heɪl" tr="здоровый"/>
+    <d v="Hale" p="verb" ts="heɪl" tr="тащить"/>
+    <d v="half" p="noun" ts="hɑːf" tr="половина; пол; часть; семестр; полдоллара"/>
+    <d v="half" p="numeral" ts="hɑːf" tr="полтора"/>
+    <d v="half" p="adjective" ts="hɑːf" tr="половинный; неполный"/>
+    <d v="half brother" p="noun" ts="hɑːf ˈbrʌðə" tr="сводный брат"/>
+    <d v="half sister" p="noun" ts="hɑːf ˈsɪstə" tr="сводная сестра"/>
+    <d v="halfway" p="noun" ts="hɑːfˈweɪ" tr="полпути; на половине; до половины; в середине"/>
+    <d v="halfway" p="adverb" ts="hɑːfˈweɪ" tr="наполовину; посредине"/>
+    <d v="halfway" p="preposition" ts="hɑːfˈweɪ" tr="навстречу"/>
+    <d v="halfway" p="adjective" ts="hɑːfˈweɪ" tr="половинчатый"/>
+    <d v="halibut" p="noun" ts="ˈhælɪbət" tr="палтус"/>
+    <d v="hall" p="noun" ts="hɔːl" tr="зал; холл; здание; чертог; усадьба"/>
+    <d v="hallmark" p="noun" ts="ˈhɔːlmɑːk" tr="отличительная черта; признак; клеймо; проба; пробирное клеймо"/>
+    <d v="hallmark" p="adjective" ts="ˈhɔːlmɑːk" tr="отличительный"/>
+    <d v="hall of fame" p="noun" ts="hɔːl ɔv feɪm" tr="зал славы"/>
+    <d v="Halloween" p="noun" ts="hæləˈwiːn" tr="Хэллоуин"/>
+    <d v="hallucinate" p="noun" ts="həˈluːsɪneɪt" tr="галлюцинация"/>
+    <d v="hallucinate" p="verb" ts="həˈluːsɪneɪt" tr="галлюцинировать"/>
+    <d v="hallucination" p="noun" ts="həluːsɪˈneɪʃn" tr="галлюцинация"/>
+    <d v="hallucinogenic" p="adjective" ts="həluːsɪnəˈʤenɪk" tr="галлюциногенный"/>
+    <d v="hallway" p="noun" ts="ˈhɔːlweɪ" tr="коридор"/>
+    <d v="halo" p="noun" ts="ˈheɪləʊ" tr="ореол"/>
+    <d v="halt" p="verb" ts="hɔːlt" tr="остановить; остановиться; приостановить; хромать; колебаться"/>
+    <d v="halt" p="noun" ts="hɔːlt" tr="остановка"/>
+    <d v="halt" p="participle" ts="hɔːlt" tr="остановившийся"/>
+    <d v="halter" p="noun" ts="ˈhɔːltə" tr="недоуздок; повод"/>
+    <d v="halting" p="noun" ts="ˈhɔːltɪŋ" tr="прекращение"/>
+    <d v="halve" p="verb" ts="hɑːv"
+       tr="вдвое сократить; сократиться вдвое; вдвое уменьшить; наполовину сократить; вдвое снизить; делить пополам; уменьшать"/>
+    <d v="ham" p="noun" ts="hæm" tr="ветчина; радиолюбитель; бедро"/>
+    <d v="hamburger" p="noun" ts="ˈhæmbɜːgə" tr="гамбургер"/>
+    <d v="hamlet" p="noun" ts="ˈhæmlɪt" tr="Гамлет; деревушка"/>
+    <d v="hammer" p="noun" ts="ˈhæmə" tr="молоток; ударник"/>
+    <d v="hammer" p="verb" ts="ˈhæmə" tr="забивать; вбить; бить; долбить; стучать; ковать; вколачивать"/>
+    <d v="hammer" p="adjective" ts="ˈhæmə" tr="ударный; молотовой"/>
+    <d v="hammering" p="noun" ts="ˈhæmərɪŋ" tr="удар; молоток; ковка; чеканка"/>
+    <d v="hammering" p="participle" ts="ˈhæmərɪŋ" tr="стучащий"/>
+    <d v="hammock" p="noun" ts="ˈhæmək" tr="гамак; подвесная койка"/>
+    <d v="hamper" p="verb" ts="ˈhæmpə" tr="препятствовать; затруднять; тормозить"/>
+    <d v="hamper" p="noun" ts="ˈhæmpə" tr="корзина"/>
+    <d v="hamster" p="noun" ts="ˈhæmstə" tr="хомяк"/>
+    <d v="hamstring" p="noun" ts="ˈhæmstrɪŋ" tr="подколенное сухожилие"/>
+    <d v="hamstring" p="verb" ts="ˈhæmstrɪŋ" tr="калечить; подрезать крылья"/>
+    <d v="hand" p="noun" ts="hænd" tr="рука; контроль; власть; почерк; помощь; рабочий; положение; указатель"/>
+    <d v="hand" p="adjective" ts="hænd" tr="ручной"/>
+    <d v="hand" p="verb" ts="hænd" tr="вручить; помочь"/>
+    <d v="handbag" p="noun" ts="ˈhændbæg" tr="сумка; дамская сумочка"/>
+    <d v="handbook" p="noun" ts="ˈhændbʊk" tr="справочник; пособие"/>
+    <d v="handcuff" p="verb" ts="ˈhændkʌf" tr="приковать; надеть наручники"/>
+    <d v="handcuff" p="noun" ts="ˈhændkʌf" tr="наручник"/>
+    <d v="handcuffs" p="noun" ts="ˈhændkʌfs" tr="наручники"/>
+    <d v="handful" p="noun" ts="ˈhændfʊl" tr="горстка; горсть; горсточка"/>
+    <d v="handful" p="numeral" ts="ˈhændfʊl" tr="несколько"/>
+    <d v="handgun" p="noun" ts="ˈhændgʌn" tr="пистолет"/>
+    <d v="handicap" p="noun" ts="ˈhændɪkæp" tr="инвалид; гандикап; помеха; Фора; увечье; ущербность"/>
+    <d v="handicapped" p="noun" ts="ˈhændɪkæpt" tr="инвалид"/>
+    <d v="handicapped" p="adjective" ts="ˈhændɪkæpt" tr="неполноценный"/>
+    <d v="handiwork" p="noun" ts="ˈhændɪwɜːk" tr="рукоделие; работа; изделие"/>
+    <d v="handkerchief" p="noun" ts="ˈhæŋkəʧɪf" tr="платок"/>
+    <d v="handle" p="noun" ts="hændl" tr="ручка; рукоятка; обработка; дескриптор; управление; маркер"/>
+    <d v="handle" p="verb" ts="hændl"
+       tr="обрабатывать; справиться; управлять; заняться; обходиться; торговать; перебирать; ухаживать; трактовать"/>
+    <d v="handle" p="participle" ts="hændl" tr="обрабатывающий"/>
+    <d v="handlebar" p="noun" ts="ˈhændlbɑːr" tr="руль"/>
+    <d v="handler" p="noun" ts="ˈhændlər" tr="обработчик; укротитель; манипулятор; дрессировщик"/>
+    <d v="handmade" p="adjective" ts="ˈhændˈmeɪd" tr="ручной; рукотворный; рукодельный"/>
+    <d v="handmade" p="noun" ts="ˈhændˈmeɪd" tr="ручная работа"/>
+    <d v="handmade" p="adverb" ts="ˈhændˈmeɪd" tr="вручную"/>
+    <d v="handout" p="noun" ts="ˈhændaʊt" tr="раздаточный материал; подачка; подаяние"/>
+    <d v="handout" p="adjective" ts="ˈhændaʊt" tr="раздаточный"/>
+    <d v="handpicked" p="participle" ts="ˈhændpɪkt" tr="подобранный; отсортированный вручную"/>
+    <d v="handshake" p="noun" ts="ˈhændʃeɪk" tr="рукопожатие"/>
+    <d v="handsome" p="adjective" ts="ˈhænsəm" tr="красивый; щедрый; благообразный"/>
+    <d v="handsome" p="noun" ts="ˈhænsəm" tr="красавец; красавчик"/>
+    <d v="handsomely" p="adverb" ts="ˈhænsəmlɪ" tr="щедро"/>
+    <d v="handstand" p="noun" ts="ˈhændstænd" tr="стойка"/>
+    <d v="handwriting" p="noun" ts="ˈhændraɪtɪŋ" tr="почерк; рукописный текст; графолог"/>
+    <d v="handwriting" p="adjective" ts="ˈhændraɪtɪŋ" tr="рукописный"/>
+    <d v="handwritten" p="adjective" ts="ˈhændrɪtn" tr="рукописный"/>
+    <d v="handwritten" p="participle" ts="ˈhændrɪtn" tr="написанный от руки"/>
+    <d v="handwritten" p="noun" ts="ˈhændrɪtn" tr="от руки"/>
+    <d v="handy" p="adjective" ts="ˈhændɪ" tr="удобный; подручный; ловкий; близкий"/>
+    <d v="handy" p="verb" ts="ˈhændɪ" tr="пригодиться"/>
+    <d v="handy" p="noun" ts="ˈhændɪ" tr="под рукой"/>
+    <d v="handyman" p="noun" ts="ˈhændɪmæn" tr="разнорабочий; умелец"/>
+    <d v="hang" p="verb" ts="hæŋ"
+       tr="повесить; висеть; зависать; повиснуть; вывешивать; тусоваться; навешивать; виснуть; сидеть; прикреплять"/>
+    <d v="hang" p="noun" ts="hæŋ" tr="зависание; вид"/>
+    <d v="hangar" p="noun" ts="ˈhæŋə" tr="ангар"/>
+    <d v="hanger" p="noun" ts="ˈhæŋə" tr="вешалка; подвеска; крючок; кронштейн; кортик"/>
+    <d v="hang glider" p="noun" ts="hæŋ ˈglaɪdə" tr="дельтаплан"/>
+    <d v="hang gliding" p="noun" ts="hæŋ ˈglaɪdɪŋ" tr="дельтапланеризм"/>
+    <d v="hanging" p="participle" ts="ˈhæŋɪŋ"
+       tr="висящий; свисающий; подвешенный; нависающий; нависший; повешенный; повисший; вешающий; повисающий"/>
+    <d v="hanging" p="adjective" ts="ˈhæŋɪŋ" tr="висячий"/>
+    <d v="hanging" p="noun" ts="ˈhæŋɪŋ" tr="повешение; подвешивание; вывешивание"/>
+    <d v="hanging" p="adverbial participle" ts="ˈhæŋɪŋ" tr="опустив"/>
+    <d v="hangout" p="noun" ts="ˈhæŋaʊt" tr="тусовка; притон"/>
+    <d v="hangover" p="noun" ts="ˈhæŋəʊvə" tr="похмелье; пережиток; похмельный синдром; наследие"/>
+    <d v="hangover" p="adjective" ts="ˈhæŋəʊvə" tr="похмельный"/>
+    <d v="hanker" p="verb" ts="ˈhæŋkə" tr="жаждать"/>
+    <d v="hankering" p="noun" ts="ˈhæŋkərɪŋ" tr="страстное желание; стремление"/>
+    <d v="hankie" p="noun" ts="ˈhænkɪ" tr="носовой платок"/>
+    <d v="Hanukkah" p="noun" ts="ˈhɒnɪk" tr="Ханука"/>
+    <d v="Hanukkah" p="adjective" ts="ˈhɒnɪk" tr="ханукальный"/>
+    <d v="haphazard" p="adjective" ts="ˈhæpˈhæzəd" tr="случайный"/>
+    <d v="haphazard" p="noun" ts="ˈhæpˈhæzəd" tr="случайность"/>
+    <d v="haphazardly" p="adverb" ts="hæpˈhæzədlɪ" tr="бессистемно; беспорядочно"/>
+    <d v="hapless" p="adjective" ts="ˈhæplɪs" tr="несчастный"/>
+    <d v="happen" p="verb" ts="ˈhæpən" tr="произойти; сложиться; статься"/>
+    <d v="happening" p="noun" ts="ˈhæpnɪŋ" tr="событие"/>
+    <d v="happening" p="participle" ts="ˈhæpnɪŋ" tr="происходящий"/>
+    <d v="happily" p="adverb" ts="ˈhæpɪlɪ" tr="счастливо; радостно; благополучно; удачно"/>
+    <d v="happily" p="noun" ts="ˈhæpɪlɪ" tr="счастье; с радостью; к счастью"/>
+    <d v="happiness" p="noun" ts="ˈhæpɪnɪs" tr="счастье"/>
+    <d v="happy" p="adjective" ts="ˈhæpɪ" tr="счастливый; радостный"/>
+    <d v="happy" p="verb" ts="ˈhæpɪ" tr="радовать; радоваться"/>
+    <d v="happy" p="noun" ts="ˈhæpɪ" tr="счастье; с удовольствием"/>
+    <d v="happy hour" p="noun" ts="ˈhæpɪ ˈaʊə" tr="счастливый час"/>
+    <d v="harangue" p="noun" ts="həˈræŋ" tr="речь"/>
+    <d v="harangue" p="verb" ts="həˈræŋ" tr="разглагольствовать; произносить речь"/>
+    <d v="harass" p="verb" ts="ˈhærəs"
+       tr="преследовать; беспокоить; запугивать; приставать; изводить; оскорблять; изматывать"/>
+    <d v="harass" p="noun" ts="ˈhærəs" tr="преследование"/>
+    <d v="harassment" p="noun" ts="ˈhærəsmənt" tr="преследование; агрессия"/>
+    <d v="harbor" p="noun" ts="ˈhɑːbər" tr="гавань; пристанище"/>
+    <d v="harbor" p="verb" ts="ˈhɑːbər" tr="укрывать; питать; вынашивать"/>
+    <d v="harbor" p="adjective" ts="ˈhɑːbər" tr="портовый"/>
+    <d v="hard" p="adjective" ts="hɑːd" tr="трудный; жесткий; твердый; сильный; упорный; безжалостный; контрастный"/>
+    <d v="hard" p="adverb" ts="hɑːd" tr="тяжело; упорно; жестко; вплотную"/>
+    <d v="hard" p="noun" ts="hɑːd" tr="с трудом; каторга; по пятам"/>
+    <d v="hard copy" p="adjective" ts="hɑːd ˈkɔpɪ" tr="печатный"/>
+    <d v="hard copy" p="noun" ts="hɑːd ˈkɔpɪ" tr="твердая копия; печатная копия; бумажная копия; печатный экземпляр"/>
+    <d v="hardcover" p="noun" ts="ˈhɑːdkʌvər" tr="переплет; твердый переплет"/>
+    <d v="hard currency" p="noun" ts="hɑːd ˈkʌrənsɪ"
+       tr="твердая валюта; СКВ; свободно конвертируемая валюта; конвертируемая валюта"/>
+    <d v="hard disk" p="noun" ts="hɑːd dɪsk" tr="жесткий диск"/>
+    <d v="harden" p="verb" ts="hɑːdn"
+       tr="ожесточить; затвердевать; закалять; ужесточить; укреплять; отвердеть; окаменеть"/>
+    <d v="harden" p="noun" ts="hɑːdn" tr="закалка; затвердевание"/>
+    <d v="hard hat" p="noun" ts="hɑːd hæt" tr="каска"/>
+    <d v="hardly" p="adverb" ts="ˈhɑːdlɪ" tr="вряд; едва; вряд ли; трудно; тяжело; навряд ли"/>
+    <d v="hardly" p="noun" ts="ˈhɑːdlɪ" tr="с трудом"/>
+    <d v="hard rock" p="noun" ts="hɑːd rɔk"
+       tr="тяжелый рок; твердая порода; твердый камень; твердая скала; жесткий рок"/>
+    <d v="hardship" p="noun" ts="ˈhɑːdʃɪp" tr="трудности; лишение; невзгоды; затруднение; нужда"/>
+    <d v="hardware" p="adjective" ts="ˈhɑːdwɛə" tr="аппаратный"/>
+    <d v="hardware" p="noun" ts="ˈhɑːdwɛə"
+       tr="оборудование; аппаратные средства; железо; металлические изделия; крепеж"/>
+    <d v="hardwood" p="noun" ts="ˈhɑːdwʊd" tr="древесина; лиственная порода; твердая древесина"/>
+    <d v="hardwood" p="adjective" ts="ˈhɑːdwʊd" tr="лиственный; деревянный"/>
+    <d v="hardy" p="noun" ts="ˈhɑːdɪ" tr="Харди"/>
+    <d v="hardy" p="adjective" ts="ˈhɑːdɪ" tr="выносливый; отважный; морозоустойчивый; безрассудный"/>
+    <d v="hardy" p="participle" ts="ˈhɑːdɪ" tr="закаленный"/>
+    <d v="hare" p="noun" ts="hɛə" tr="заяц"/>
+    <d v="hare" p="adjective" ts="hɛə" tr="заячий"/>
+    <d v="harelip" p="noun" ts="ˈhɛəˈlɪp" tr="заячья губа"/>
+    <d v="harem" p="noun" ts="ˈhɛərəm" tr="гарем"/>
+    <d v="hark" p="verb" ts="hɑːk" tr="слушать"/>
+    <d v="harlot" p="noun" ts="ˈhɑːlət" tr="блудница"/>
+    <d v="harm" p="noun" ts="hɑːm" tr="вред"/>
+    <d v="harm" p="verb" ts="hɑːm" tr="вредить; повредить"/>
+    <d v="harmful" p="adjective" ts="ˈhɑːmfʊl" tr="вредный"/>
+    <d v="harmful" p="noun" ts="ˈhɑːmfʊl" tr="вред"/>
+    <d v="harmful" p="verb" ts="ˈhɑːmfʊl" tr="приносить вред"/>
+    <d v="harmless" p="adjective" ts="ˈhɑːmlɪs" tr="безвредный; невинный"/>
+    <d v="harmless" p="verb" ts="ˈhɑːmlɪs" tr="обезвредить"/>
+    <d v="harmlessly" p="adverb" ts="ˈhɑːmləslɪ" tr="безвредно; безобидно"/>
+    <d v="harmonica" p="noun" ts="hɑːˈmɔnɪkə" tr="гармоника; губная гармошка; губная гармоника"/>
+    <d v="harmonious" p="adjective" ts="hɑːˈməʊnjəs" tr="гармоничный; слаженный; стройный; дружный; согласный"/>
+    <d v="harmonious" p="participle" ts="hɑːˈməʊnjəs" tr="гармонирующий"/>
+    <d v="harmoniously" p="adverb" ts="hɑːˈməʊnɪəslɪ" tr="гармонично; слаженно; дружно"/>
+    <d v="harmonization" p="noun" ts="hɑːmənaɪˈzeɪʃn" tr="гармонизация"/>
+    <d v="harmonize" p="verb" ts="ˈhɑːmənaɪz"
+       tr="гармонизировать; согласовать; гармонировать; унифицировать; соразмерять"/>
+    <d v="harmonize" p="noun" ts="ˈhɑːmənaɪz" tr="согласование"/>
+    <d v="harmony" p="noun" ts="ˈhɑːmənɪ" tr="гармония; лад; стройность; созвучие"/>
+    <d v="harmony" p="adjective" ts="ˈhɑːmənɪ" tr="гармоничный"/>
+    <d v="harness" p="noun" ts="ˈhɑːnɪs" tr="жгут; упряжь; проводка; сбруя; упряжка; доспехи; шлейка"/>
+    <d v="harness" p="verb" ts="ˈhɑːnɪs" tr="использовать; обуздать; запрягать; запрячь; впрягать"/>
+    <d v="harp" p="noun" ts="hɑːp" tr="арфа"/>
+    <d v="harp" p="verb" ts="hɑːp" tr="твердить"/>
+    <d v="harpist" p="noun" ts="ˈhɑːpɪst" tr="арфист; арфистка"/>
+    <d v="harpoon" p="noun" ts="hɑːˈpuːn" tr="гарпун"/>
+    <d v="harpsichord" p="noun" ts="ˈhɑːpsɪkɔːd" tr="клавесин"/>
+    <d v="harrowing" p="adjective" ts="ˈhærəʊɪŋ" tr="мучительный"/>
+    <d v="harrowing" p="noun" ts="ˈhærəʊɪŋ" tr="боронование"/>
+    <d v="harsh" p="adjective" ts="hɑːʃ" tr="жесткий; суровый; жестокий; неприятный"/>
+    <d v="harshly" p="adverb" ts="ˈhɑːʃlɪ" tr="сурово; жестко"/>
+    <d v="harshly" p="adjective" ts="ˈhɑːʃlɪ" tr="суровый"/>
+    <d v="harshness" p="noun" ts="ˈhɑːʃnɪs" tr="суровость; жесткость; резкость"/>
+    <d v="harvest" p="noun" ts="ˈhɑːvɪst" tr="урожай; сбор урожая; уборка хлеба; результат"/>
+    <d v="harvest" p="verb" ts="ˈhɑːvɪst" tr="собирать; жать"/>
+    <d v="harvest" p="adjective" ts="ˈhɑːvɪst" tr="уборочный"/>
+    <d v="hash" p="noun" ts="hæʃ" tr="хэш; хеширование; мешанина"/>
+    <d v="hash" p="verb" ts="hæʃ" tr="рубить"/>
+    <d v="hashish" p="noun" ts="ˈhæʃiːʃ" tr="гашиш"/>
+    <d v="hassle" p="noun" ts="hæsl" tr="хлопоты; перебранка"/>
+    <d v="haste" p="noun" ts="heɪst" tr="спешка; поспешность"/>
+    <d v="haste" p="verb" ts="heɪst" tr="поспешить; спешить"/>
+    <d v="haste" p="adjective" ts="heɪst" tr="поспешный"/>
+    <d v="hasten" p="verb" ts="heɪsn" tr="спешить; ускорить; поторопить; форсировать; устремиться"/>
+    <d v="hastily" p="adverb" ts="ˈheɪstɪlɪ" tr="поспешно; быстро"/>
+    <d v="hasty" p="adjective" ts="ˈheɪstɪ" tr="поспешный; торопливый; быстрый; вспыльчивый"/>
+    <d v="hasty" p="verb" ts="ˈheɪstɪ" tr="спешить"/>
+    <d v="hat" p="noun" ts="hæt" tr="шляпа; убор; папаха"/>
+    <d v="hat" p="adjective" ts="hæt" tr="шляпный"/>
+    <d v="hatch" p="noun" ts="hæʧ" tr="люк; штрих; штриховка; отсек; вылупление; выводок; заслонка"/>
+    <d v="hatch" p="verb" ts="hæʧ" tr="насиживать; вынашивать; штриховать"/>
+    <d v="hatchback" p="noun" ts="ˈhæʧbæk" tr="хэтчбек"/>
+    <d v="hatchet" p="noun" ts="ˈhæʧɪt" tr="топор; топор войны; резак"/>
+    <d v="hate" p="verb" ts="heɪt" tr="ненавидеть"/>
+    <d v="hate" p="noun" ts="heɪt" tr="ненависть"/>
+    <d v="hate" p="participle" ts="heɪt" tr="ненавидящий"/>
+    <d v="hate" p="adjective" ts="heɪt" tr="ненавистный"/>
+    <d v="hate crime" p="noun" ts="heɪt kraɪm" tr="преступление ненависти"/>
+    <d v="hated" p="noun" ts="ˈheɪtɪd" tr="ненависть"/>
+    <d v="hated" p="participle" ts="ˈheɪtɪd" tr="ненавидимый; ненавистный; ненавидящий"/>
+    <d v="hateful" p="adjective" ts="ˈheɪtfʊl" tr="ненавистный; постылый"/>
+    <d v="hateful" p="noun" ts="ˈheɪtfʊl" tr="ненависть"/>
+    <d v="hateful" p="participle" ts="ˈheɪtfʊl" tr="полный ненависти; опостылевший"/>
+    <d v="hatred" p="noun" ts="ˈheɪtrɪd" tr="ненависть; вражда"/>
+    <d v="haughtily" p="adverb" ts="ˈhɔːtɪlɪ" tr="высокомерно"/>
+    <d v="haughty" p="adjective" ts="ˈhɔːtɪ" tr="надменный; спесивый"/>
+    <d v="haughty" p="adverb" ts="ˈhɔːtɪ" tr="свысока"/>
+    <d v="haul" p="verb" ts="hɔːl"
+       tr="тащить; тянуть; вытащить; перевозить; поднять; буксировать; возить; подвозить; откатывать"/>
+    <d v="haul" p="noun" ts="hɔːl" tr="перевозка; улов; рейс; трофей"/>
+    <d v="haunt" p="verb" ts="hɔːnt"
+       tr="преследовать; посещать; часто посещать; бродить; неотступно преследовать; обитать; являться; обивать"/>
+    <d v="haunt" p="noun" ts="hɔːnt" tr="любимое место; убежище"/>
+    <d v="haunted" p="participle" ts="ˈhɔːntɪd"
+       tr="посещаемый; преследуемый; затравленный; часто посещаемый; загнанный"/>
+    <d v="haunting" p="adjective" ts="ˈhɔːntɪŋ" tr="навязчивый"/>
+    <d v="haunting" p="participle" ts="ˈhɔːntɪŋ" tr="преследующий; запоминающийся"/>
+    <d v="have" p="verb" ts="hæv"
+       tr="иметь; прийтись; содержать; получать; испытывать; знать; позволять; добиваться; победить; обмануть"/>
+    <d v="have" p="adjective" ts="hæv" tr="должный"/>
+    <d v="have" p="noun" ts="hæv" tr="наличие"/>
+    <d v="haven" p="noun" ts="heɪvn" tr="убежище; гавань; рай"/>
+    <d v="havoc" p="noun" ts="ˈhævək" tr="хаос; разрушение; опустошение"/>
+    <d v="havoc" p="verb" ts="ˈhævək" tr="опустошать"/>
+    <d v="hawk" p="noun" ts="hɔːk" tr="ястреб; ястребов; хищник"/>
+    <d v="hawk" p="adjective" ts="hɔːk" tr="ястребиный"/>
+    <d v="hay" p="noun" ts="heɪ" tr="сено; сенокос"/>
+    <d v="hay" p="adjective" ts="heɪ" tr="Сенной"/>
+    <d v="hay fever" p="noun" ts="ˈheɪfiːvə" tr="Сенная лихорадка; поллиноз"/>
+    <d v="haystack" p="noun" ts="ˈheɪstæk" tr="стог; стог сена"/>
+    <d v="haywire" p="participle" ts="ˈheɪwaɪə" tr="расстроенный"/>
+    <d v="haywire" p="verb" ts="ˈheɪwaɪə" tr="забарахлить"/>
+    <d v="haywire" p="noun" ts="ˈheɪwaɪə" tr="вязальная проволока"/>
+    <d v="haywire" p="adjective" ts="ˈheɪwaɪə" tr="непрочный"/>
+    <d v="hazard" p="noun" ts="ˈhæzəd" tr="опасность; опасный фактор; вредность"/>
+    <d v="hazard" p="verb" ts="ˈhæzəd" tr="рисковать"/>
+    <d v="hazardous" p="adjective" ts="ˈhæzədəs" tr="опасный"/>
+    <d v="haze" p="noun" ts="heɪz" tr="дымка"/>
+    <d v="haze" p="adjective" ts="heɪz" tr="туманный"/>
+    <d v="hazel" p="adjective" ts="heɪzl" tr="карий"/>
+    <d v="hazel" p="noun" ts="heɪzl" tr="лещина; орешник; рябчик"/>
+    <d v="hazelnut" p="noun" ts="ˈheɪzlnʌt" tr="фундук"/>
+    <d v="hazy" p="adjective" ts="ˈheɪzɪ" tr="туманный; смутный; мглистый"/>
+    <d v="he" p="pronoun" ts="hiː" tr="он; оно"/>
+    <d v="head" p="noun" ts="hed"
+       tr="глава; голова; заголовок; изголовье; шляпка; бабка; человек; верхушка; пена; набалдашник"/>
+    <d v="head" p="verb" ts="hed" tr="возглавлять; направиться; преграждать; помешать"/>
+    <d v="head" p="adjective" ts="hed" tr="головной; встречный"/>
+    <d v="headache" p="noun" ts="ˈhedeɪk" tr="головная боль; боль; помеха"/>
+    <d v="headache" p="adjective" ts="ˈhedeɪk" tr="головной"/>
+    <d v="headband" p="noun" ts="ˈhedbænd" tr="заставка; повязка; оголовье; головная дужка; головная повязка"/>
+    <d v="headgear" p="noun" ts="ˈhedgɪə" tr="головной убор"/>
+    <d v="headhunter" p="noun" ts="ˈhedhʌntər" tr="охотник за головами"/>
+    <d v="heading" p="noun" ts="ˈhedɪŋ" tr="заголовок; курс; направление; донник"/>
+    <d v="heading" p="participle" ts="ˈhedɪŋ" tr="направляющийся"/>
+    <d v="headland" p="noun" ts="ˈhedlənd" tr="мыс"/>
+    <d v="headlight" p="noun" ts="ˈhedlaɪt" tr="фара; головной прожектор"/>
+    <d v="headline" p="noun" ts="ˈhedlaɪn" tr="заголовок; заголовок газеты"/>
+    <d v="headline" p="verb" ts="ˈhedlaɪn" tr="озаглавить"/>
+    <d v="headlong" p="adjective" ts="ˈhedlɔŋ" tr="стремительный"/>
+    <d v="headlong" p="adverb" ts="ˈhedlɔŋ" tr="стремглав; опрометчиво"/>
+    <d v="headlong" p="adverbial participle" ts="ˈhedlɔŋ" tr="очертя голову"/>
+    <d v="headmaster" p="noun" ts="hedˈmɑːstər" tr="директор; директор школы"/>
+    <d v="headmistress" p="noun" ts="hedˈmɪstrɪs" tr="директриса; начальница"/>
+    <d v="headquarters" p="noun" ts="ˈhedˈkwɔːtəz" tr="штаб; центр; главное управление; центральный орган"/>
+    <d v="headrest" p="noun" ts="ˈhedrest" tr="подголовник"/>
+    <d v="headroom" p="noun" ts="ˈhedruːm" tr="габаритная высота"/>
+    <d v="headstone" p="noun" ts="ˈhedstəʊn" tr="надгробие; заглавный камень"/>
+    <d v="headstone" p="adjective" ts="ˈhedstəʊn" tr="надгробный"/>
+    <d v="headstrong" p="adjective" ts="ˈhedstrɔŋ" tr="упрямый; своевольный"/>
+    <d v="headway" p="noun" ts="ˈhedweɪ" tr="прогресс"/>
+    <d v="headway" p="verb" ts="ˈhedweɪ" tr="продвинуться"/>
+    <d v="headwind" p="noun" ts="ˈhedwɪnd" tr="встречный ветер"/>
+    <d v="heady" p="participle" ts="ˈhedɪ" tr="пьянящий; опьяняющий"/>
+    <d v="heady" p="adjective" ts="ˈhedɪ" tr="бурный; хмельной; крепкий"/>
+    <d v="heal" p="verb" ts="hiːl" tr="исцелить; заживать; исцелиться; заживлять; оздоровить"/>
+    <d v="heal" p="noun" ts="hiːl" tr="исцеление"/>
+    <d v="healer" p="noun" ts="ˈhiːlə" tr="целитель; знахарь; целительница; целительство"/>
+    <d v="health" p="noun" ts="helθ" tr="здоровье; жизнеспособность"/>
+    <d v="health" p="adjective" ts="helθ" tr="медицинский; санитарный"/>
+    <d v="health care" p="noun" ts="helθ kɛə"
+       tr="здравоохранение; медицинские услуги; забота о здоровье; медицинское обеспечение"/>
+    <d v="health club" p="noun" ts="helθ klʌb" tr="оздоровительный клуб; клуб здоровья"/>
+    <d v="health food" p="noun" ts="helθ fuːd" tr="здоровая пища; здоровая еда; здоровое питание; лечебное питание"/>
+    <d v="healthful" p="adjective" ts="ˈhelθfʊl" tr="здоровый; полезный"/>
+    <d v="healthily" p="adjective" ts="ˈhelθɪlɪ" tr="здоровый"/>
+    <d v="healthily" p="adverb" ts="ˈhelθɪlɪ" tr="здорово"/>
+    <d v="healthy" p="adjective" ts="ˈhelθɪ" tr="здоровый; здравый; значительный; жизнеспособный; нравственный"/>
+    <d v="healthy" p="participle" ts="ˈhelθɪ" tr="полезный для здоровья"/>
+    <d v="heap" p="noun" ts="hiːp" tr="куча; отвал; масса"/>
+    <d v="heap" p="numeral" ts="hiːp" tr="много"/>
+    <d v="heap" p="verb" ts="hiːp" tr="осыпать; нагромождать; нагружать"/>
+    <d v="hear" p="verb" ts="hɪə" tr="слышать; услышать; заслушивать"/>
+    <d v="hear" p="noun" ts="hɪə" tr="слух"/>
+    <d v="heard" p="participle" ts="hɜːd" tr="услышанный"/>
+    <d v="hearing" p="noun" ts="ˈhɪərɪŋ" tr="слушание; слух; разбирательство; слышание"/>
+    <d v="hearing" p="adjective" ts="ˈhɪərɪŋ" tr="слуховой"/>
+    <d v="hearing" p="participle" ts="ˈhɪərɪŋ" tr="слышащий; услышавший"/>
+    <d v="hearing aid" p="adjective" ts="ˈhɪərɪŋ eɪd" tr="слуховой"/>
+    <d v="hearing aid" p="noun" ts="ˈhɪərɪŋ eɪd" tr="слуховой аппарат"/>
+    <d v="hearing-impaired" p="adjective" ts="ˈhɪərɪŋ-ɪmˈpɛəd" tr="слабослышащий"/>
+    <d v="hearsay" p="noun" ts="ˈhɪəseɪ" tr="слух"/>
+    <d v="hearse" p="noun" ts="hɜːs" tr="катафалк"/>
+    <d v="heart" p="noun" ts="hɑːt" tr="сердце; сердцевина; суть; ядро; любовь; мужество"/>
+    <d v="heart" p="adjective" ts="hɑːt" tr="сердечный"/>
+    <d v="heart" p="verb" ts="hɑːt" tr="отчаиваться"/>
+    <d v="heartache" p="noun" ts="ˈhɑːteɪk" tr="боль; сердечная боль"/>
+    <d v="heart attack" p="noun" ts="ˈhɑːtətæk" tr="сердечный приступ; инфаркт; инфаркт миокарда"/>
+    <d v="heartbeat" p="noun" ts="ˈhɑːtbiːt" tr="сердцебиение; мгновение"/>
+    <d v="heartbreak" p="noun" ts="ˈhɑːtbreɪk" tr="горе; разбитое сердце"/>
+    <d v="heartbreaking" p="adjective" ts="ˈhɑːtbreɪkɪŋ" tr="душераздирающий"/>
+    <d v="heartbroken" p="noun" ts="ˈhɑːtbrəʊkən" tr="горе"/>
+    <d v="heartbroken" p="participle" ts="ˈhɑːtbrəʊkən" tr="убитый горем"/>
+    <d v="heartburn" p="noun" ts="ˈhɑːtbɜːn" tr="изжога"/>
+    <d v="hearten" p="verb" ts="hɑːtn" tr="воодушевить"/>
+    <d v="heartfelt" p="adjective" ts="ˈhɑːtfelt" tr="искренний; прочувствованный"/>
+    <d v="hearth" p="noun" ts="hɑːθ" tr="очаг; шесток"/>
+    <d v="hearth" p="adjective" ts="hɑːθ" tr="мартеновский"/>
+    <d v="heartily" p="adverb" ts="ˈhɑːtɪlɪ" tr="сердечно; усердно; очень; охотно"/>
+    <d v="heartily" p="noun" ts="ˈhɑːtɪlɪ" tr="от всего сердца; от души"/>
+    <d v="heartland" p="noun" ts="ˈhɑːtlænd" tr="глубинка"/>
+    <d v="heartless" p="adjective" ts="ˈhɑːtlɪs" tr="бессердечный"/>
+    <d v="hearts" p="noun" ts="hɑːts" tr="черви"/>
+    <d v="heartthrob" p="noun" ts="ˈhɑːθrɒb" tr="сердцеед"/>
+    <d v="heartwarming" p="adjective" ts="ˈhɑːtwɔːmɪŋ" tr="трогательный; душевный"/>
+    <d v="hearty" p="adjective" ts="ˈhɑːtɪ" tr="сердечный; радушный; сытный; крепкий; энергичный"/>
+    <d v="heat" p="noun" ts="hiːt"
+       tr="тепло; жара; подогрев; теплоснабжение; термообработка; пыл; заезд; заплыв; забег; гнев"/>
+    <d v="heat" p="adjective" ts="hiːt" tr="тепловой; теплообменный"/>
+    <d v="heat" p="verb" ts="hiːt" tr="нагреть; топить; подогревать; разогревать; согревать; накаляться; горячить"/>
+    <d v="heated" p="noun" ts="ˈhiːtɪd" tr="подогрев"/>
+    <d v="heated" p="adjective" ts="ˈhiːtɪd" tr="горячий"/>
+    <d v="heated" p="participle" ts="ˈhiːtɪd"
+       tr="подогреваемый; нагретый; отапливаемый; обогреваемый; нагреваемый; разогретый; подогретый; раскаленный; потопленный"/>
+    <d v="heatedly" p="adverb" ts="ˈhiːtɪdlɪ" tr="горячо; гневно"/>
+    <d v="heater" p="noun" ts="ˈhiːtə"
+       tr="нагреватель; утеплитель; каменка; электронагреватель; тепловентилятор; нагревательный прибор; водоподогреватель; кипятильник"/>
+    <d v="heater" p="adjective" ts="ˈhiːtə" tr="нагревательный"/>
+    <d v="heathen" p="noun" ts="ˈhiːðən" tr="язычник; варвар; неуч"/>
+    <d v="heathen" p="adjective" ts="ˈhiːðən" tr="языческий"/>
+    <d v="heat wave" p="noun" ts="hiːt weɪv" tr="жара; тепловая волна"/>
+    <d v="heave" p="verb" ts="hiːv" tr="поднять; вздыматься; испустить; подняться; бросать; тянуть"/>
+    <d v="heaven" p="noun" ts="hevn" tr="небо"/>
+    <d v="heaven" p="adjective" ts="hevn" tr="небесный"/>
+    <d v="heavenly" p="adjective" ts="ˈhevnlɪ" tr="небесный; восхитительный"/>
+    <d v="heavily" p="adverb" ts="ˈhevɪlɪ" tr="сильно; активно; тягостно"/>
+    <d v="heavily" p="noun" ts="ˈhevɪlɪ" tr="степень"/>
+    <d v="heavily" p="adjective" ts="ˈhevɪlɪ" tr="сильный"/>
+    <d v="heaviness" p="noun" ts="ˈhevɪnɪs" tr="тяжесть; печаль; инертность"/>
+    <d v="heavy" p="adjective" ts="ˈhevɪ" tr="тяжелый; плотный; бурный; обременительный; сонный; скучный"/>
+    <d v="heavy" p="noun" ts="ˈhevɪ" tr="хэви"/>
+    <d v="heavy industry" p="noun" ts="ˈhevɪ ˈɪndəstrɪ" tr="тяжелая промышленность; тяжелая индустрия"/>
+    <d v="heavy metal" p="noun" ts="ˈhevɪ metl" tr="тяжелый металл"/>
+    <d v="heavyweight" p="noun" ts="ˈhevɪweɪt" tr="тяжеловес"/>
+    <d v="heavyweight" p="adjective" ts="ˈhevɪweɪt" tr="тяжеловесный"/>
+    <d v="heck" p="noun" ts="hek" tr="черт; щеколда"/>
+    <d v="heckle" p="verb" ts="hekl" tr="забрасывать"/>
+    <d v="hectic" p="adjective" ts="ˈhektɪk" tr="беспокойный; лихорадочный; чахоточный; суетливый"/>
+    <d v="hectic" p="noun" ts="ˈhektɪk" tr="суета"/>
+    <d v="hedge" p="noun" ts="heʤ" tr="хедж; изгородь; живая изгородь; преграда"/>
+    <d v="hedge" p="adjective" ts="heʤ" tr="хеджевый"/>
+    <d v="hedge" p="verb" ts="heʤ" tr="хеджировать; застраховаться; ограждать; ограничивать"/>
+    <d v="hedonism" p="noun" ts="ˈhiːdəʊnɪzm" tr="гедонизм"/>
+    <d v="hedonistic" p="adjective" ts="hiːdəˈnɪstɪk" tr="гедонистический"/>
+    <d v="heed" p="verb" ts="hiːd" tr="прислушаться; учесть; обращать внимание; внимательно следить"/>
+    <d v="heed" p="noun" ts="hiːd" tr="внимание"/>
+    <d v="heedless" p="adjective" ts="ˈhiːdlɪs" tr="беспечный; необдуманный; невнимательный"/>
+    <d v="heel" p="noun" ts="hiːl" tr="пятка; каблук; крен; задник; подлец"/>
+    <d v="heel" p="adjective" ts="hiːl" tr="пяточный"/>
+    <d v="heel" p="verb" ts="hiːl" tr="крениться; кренить"/>
+    <d v="hefty" p="adjective" ts="ˈheftɪ" tr="здоровенный; изрядный; обильный"/>
+    <d v="heifer" p="noun" ts="ˈhefə" tr="телка; телица; первотелка; телочка"/>
+    <d v="height" p="noun" ts="haɪt" tr="высота; верх; высь; степень"/>
+    <d v="height" p="adjective" ts="haɪt" tr="высотный"/>
+    <d v="heighten" p="verb" ts="haɪtn" tr="повысить; усилить; обострить"/>
+    <d v="heighten" p="noun" ts="haɪtn" tr="повышение"/>
+    <d v="heinous" p="adjective" ts="ˈheɪnəs" tr="отвратительный; ужасный"/>
+    <d v="heir" p="noun" ts="ɛə" tr="наследник; престолонаследник"/>
+    <d v="heiress" p="noun" ts="ˈɛərɪs" tr="наследница"/>
+    <d v="heirloom" p="noun" ts="ˈɛəluːm"
+       tr="реликвия; наследие; фамильная ценность; фамильная драгоценность; фамильная вещь; фамильная черта"/>
+    <d v="heirloom" p="adjective" ts="ˈɛəluːm" tr="фамильный"/>
+    <d v="heist" p="noun" ts="haɪst" tr="ограбление"/>
+    <d v="held" p="participle" ts="held" tr="проведенный; проводимый"/>
+    <d v="helicopter" p="noun" ts="ˈhelɪkɔptə" tr="вертолет"/>
+    <d v="helicopter" p="adjective" ts="ˈhelɪkɔptə" tr="вертолетный"/>
+    <d v="heliport" p="noun" ts="ˈhelɪpɔːt" tr="вертодром"/>
+    <d v="heliport" p="adjective" ts="ˈhelɪpɔːt" tr="вертолетный"/>
+    <d v="helium" p="noun" ts="ˈhiːljəm" tr="гелий"/>
+    <d v="helium" p="adjective" ts="ˈhiːljəm" tr="гелиевый"/>
+    <d v="hell" p="noun" ts="hel" tr="ад; черт; блин"/>
+    <d v="hell" p="adjective" ts="hel" tr="адский; чертов"/>
+    <d v="hello" p="verb" ts="ˈheˈləʊ" tr="поздороваться"/>
+    <d v="helm" p="noun" ts="helm" tr="руль; шлем; кормило; кормчий"/>
+    <d v="helm" p="adjective" ts="helm" tr="рулевой"/>
+    <d v="helmet" p="noun" ts="ˈhelmɪt" tr="шлем"/>
+    <d v="help" p="verb" ts="help" tr="помочь; удержаться; избежать"/>
+    <d v="help" p="noun" ts="help" tr="помощь; подспорье; средство; прислуга"/>
+    <d v="helper" p="noun" ts="ˈhelpə" tr="помощник; пособник; Утешитель"/>
+    <d v="helper" p="adjective" ts="ˈhelpə" tr="вспомогательный"/>
+    <d v="helpful" p="adjective" ts="ˈhelpfʊl" tr="полезный; услужливый"/>
+    <d v="helpfully" p="adverb" ts="ˈhelpfəlɪ" tr="услужливо"/>
+    <d v="helpfulness" p="noun" ts="ˈhelpfəlnəs" tr="полезность; услужливость"/>
+    <d v="helping" p="noun" ts="ˈhelpɪŋ" tr="помощь; порция"/>
+    <d v="helping" p="participle" ts="ˈhelpɪŋ" tr="помогающий"/>
+    <d v="helpless" p="adjective" ts="ˈhelplɪs" tr="беспомощный"/>
+    <d v="helpless" p="noun" ts="ˈhelplɪs" tr="беспомощность"/>
+    <d v="helplessly" p="adverb" ts="ˈhelpləslɪ" tr="беспомощно"/>
+    <d v="helplessness" p="noun" ts="ˈhelpləsnəs" tr="беспомощность"/>
+    <d v="helplessness" p="adjective" ts="ˈhelpləsnəs" tr="беспомощный"/>
+    <d v="hem" p="noun" ts="hem" tr="подол; рубец; кайма; кромка"/>
+    <d v="hem" p="verb" ts="hem" tr="подшить; подрубать"/>
+    <d v="hemisphere" p="noun" ts="ˈhemɪsfɪə" tr="полушарие"/>
+    <d v="hemlock" p="noun" ts="ˈhemlɔk" tr="Цикута; тсуга"/>
+    <d v="hemoglobin" p="noun" ts="hiːməʊˈgləʊbɪn" tr="гемоглобин"/>
+    <d v="hemophilia" p="noun" ts="hiːməˈfɪlɪə" tr="гемофилия"/>
+    <d v="hemophiliac" p="noun" ts="hiːməˈfɪlɪæk" tr="гемофилия"/>
+    <d v="hemophiliac" p="participle" ts="hiːməˈfɪlɪæk" tr="больной гемофилией"/>
+    <d v="hemorrhage" p="noun" ts="ˈhemərɪʤ" tr="кровоизлияние"/>
+    <d v="hemorrhoids" p="noun" ts="ˈhemərɔɪdz" tr="геморрой"/>
+    <d v="hemp" p="noun" ts="hemp" tr="конопля"/>
+    <d v="hemp" p="adjective" ts="hemp" tr="конопляный; пеньковый"/>
+    <d v="hen" p="noun" ts="hen" tr="курица; курятник; куропатка"/>
+    <d v="hen" p="adjective" ts="hen" tr="куриный"/>
+    <d v="hence" p="parenthetic" ts="hens" tr="следовательно"/>
+    <d v="hence" p="conjunction" ts="hens" tr="поэтому"/>
+    <d v="hence" p="adverb" ts="hens" tr="отсюда; вон"/>
+    <d v="hence" p="noun" ts="hens" tr="образ"/>
+    <d v="henceforth" p="adverb" ts="ˈhensˈfɔːθ" tr="отныне"/>
+    <d v="henceforth" p="noun" ts="ˈhensˈfɔːθ" tr="с этого времени"/>
+    <d v="henchman" p="noun" ts="ˈhenʧmən" tr="приспешник; прихвостень; ставленник; оруженосец; прислужник; паж"/>
+    <d v="hepatitis" p="noun" ts="hepəˈtaɪtɪs" tr="гепатит"/>
+    <d v="her" p="pronoun" ts="hɜː" tr="она; ее; свой"/>
+    <d v="herald" p="noun" ts="ˈherəld" tr="вестник; глашатай; герольд; предвестник"/>
+    <d v="herald" p="verb" ts="ˈherəld" tr="возвестить; объявлять"/>
+    <d v="herb" p="noun" ts="hɜːb" tr="трава; лекарственное растение; пряность"/>
+    <d v="herb" p="adjective" ts="hɜːb" tr="травяной"/>
+    <d v="herbal" p="adjective" ts="ˈhɜːbəl" tr="травяной; растительный"/>
+    <d v="herbal" p="noun" ts="ˈhɜːbəl" tr="фитотерапия; лекарственное растение; из трав"/>
+    <d v="herbivore" p="adjective" ts="ˈhɜːbɪvɔːr" tr="травоядный"/>
+    <d v="herbivore" p="noun" ts="ˈhɜːbɪvɔːr" tr="травоядное животное"/>
+    <d v="herd" p="noun" ts="hɜːd" tr="стадо; пастух; гурт"/>
+    <d v="herd" p="adjective" ts="hɜːd" tr="стадный"/>
+    <d v="herd" p="verb" ts="hɜːd" tr="пасти; загнать"/>
+    <d v="here" p="adverb" ts="hɪə" tr="здесь"/>
+    <d v="here" p="particle" ts="hɪə" tr="вот"/>
+    <d v="here" p="noun" ts="hɪə" tr="в этот момент"/>
+    <d v="hereafter" p="adjective" ts="hɪərˈɑːftə" tr="будущий"/>
+    <d v="hereafter" p="noun" ts="hɪərˈɑːftə" tr="будущая жизнь; потусторонний мир; будущее"/>
+    <d v="hereditary" p="adjective" ts="hɪˈredɪtərɪ" tr="наследственный; традиционный"/>
+    <d v="hereditary" p="noun" ts="hɪˈredɪtərɪ" tr="наследственность"/>
+    <d v="heredity" p="noun" ts="hɪˈredɪtɪ" tr="наследственность; преемственность"/>
+    <d v="herein" p="adverb" ts="ˈhɪərˈɪn" tr="здесь"/>
+    <d v="herein" p="noun" ts="ˈhɪərˈɪn" tr="настоящий документ; в настоящем документе; в этом"/>
+    <d v="heresy" p="noun" ts="ˈherəsɪ" tr="ересь"/>
+    <d v="heretic" p="noun" ts="ˈherətɪk" tr="еретик"/>
+    <d v="heretic" p="adjective" ts="ˈherətɪk" tr="еретический"/>
+    <d v="heretical" p="adjective" ts="hɪˈretɪkəl" tr="еретический"/>
+    <d v="heretical" p="noun" ts="hɪˈretɪkəl" tr="ересь"/>
+    <d v="herewith" p="noun" ts="ˈhɪəˈwɪð" tr="при этом"/>
+    <d v="heritage" p="noun" ts="ˈherɪtɪʤ" tr="наследие"/>
+    <d v="hermetic" p="adjective" ts="hɜːˈmetɪk" tr="герметичный"/>
+    <d v="hermetic" p="noun" ts="hɜːˈmetɪk" tr="герметизация"/>
+    <d v="hermit" p="noun" ts="ˈhɜːmɪt" tr="отшельник"/>
+    <d v="hernia" p="noun" ts="ˈhɜːnjə" tr="грыжа"/>
+    <d v="hernia" p="adjective" ts="ˈhɜːnjə" tr="грыжевой"/>
+    <d v="hero" p="noun" ts="ˈhɪərəʊ" tr="герой; виновник; полубог"/>
+    <d v="heroic" p="adjective" ts="hɪˈrəʊɪk" tr="героический; рискованный"/>
+    <d v="heroic" p="noun" ts="hɪˈrəʊɪk" tr="подвиг"/>
+    <d v="heroically" p="adverb" ts="hɪˈrəʊɪklɪ" tr="героически"/>
+    <d v="heroin" p="noun" ts="ˈherəʊɪn" tr="героин"/>
+    <d v="heroin" p="adjective" ts="ˈherəʊɪn" tr="героиновый"/>
+    <d v="heroine" p="noun" ts="ˈherəʊɪn" tr="героиня"/>
+    <d v="heroism" p="noun" ts="ˈherəʊɪzm" tr="героизм"/>
+    <d v="heron" p="noun" ts="ˈherən" tr="цапля"/>
+    <d v="herpes" p="noun" ts="ˈhɜːpiːz" tr="герпес"/>
+    <d v="herpes" p="adjective" ts="ˈhɜːpiːz" tr="герпетический"/>
+    <d v="herring" p="noun" ts="ˈherɪŋ" tr="сельдь; селедка"/>
+    <d v="herring" p="adjective" ts="ˈherɪŋ" tr="селедочный"/>
+    <d v="hers" p="pronoun" ts="hɜːz" tr="ее"/>
+    <d v="hers" p="noun" ts="hɜːz" tr="у нее"/>
+    <d v="Hertz" p="noun" ts="hɜːts" tr="герц"/>
+    <d v="hesitancy" p="noun" ts="ˈhezɪtənsɪ" tr="нерешительность; колебание"/>
+    <d v="hesitant" p="adjective" ts="ˈhezɪtənt" tr="нерешительный; неуверенный"/>
+    <d v="hesitant" p="verb" ts="ˈhezɪtənt" tr="колебаться"/>
+    <d v="hesitant" p="participle" ts="ˈhezɪtənt" tr="колеблющийся"/>
+    <d v="hesitant" p="noun" ts="ˈhezɪtənt" tr="нерешительность"/>
+    <d v="hesitant" p="adverb" ts="ˈhezɪtənt" tr="неохотно"/>
+    <d v="hesitantly" p="adverb" ts="ˈhezɪtəntlɪ" tr="нерешительно"/>
+    <d v="hesitate" p="verb" ts="ˈhezɪteɪt"
+       tr="колебаться; стесняться; медлить; поколебаться; раздумывать; не решаться; остановиться; мешкать"/>
+    <d v="hesitate" p="noun" ts="ˈhezɪteɪt" tr="колебание; нерешительность"/>
+    <d v="hesitate" p="adverbial participle" ts="ˈhezɪteɪt" tr="задумываясь"/>
+    <d v="hesitation" p="noun" ts="hezɪˈteɪʃn" tr="колебание; сомнение; нерешительность; промедление; заминка"/>
+    <d v="hesitation" p="verb" ts="hezɪˈteɪʃn" tr="сомневаться"/>
+    <d v="hesitation" p="predicative" ts="hezɪˈteɪʃn" tr="неохота"/>
+    <d v="heterogeneous" p="adjective" ts="ˈhetərəʊˈʤiːnjəs" tr="гетерогенный"/>
+    <d v="heterosexual" p="adjective" ts="hetərəˈsekʃʊəl" tr="гетеросексуальный"/>
+    <d v="heterosexual" p="noun" ts="hetərəˈsekʃʊəl" tr="гетеросексуальность"/>
+    <d v="hew" p="verb" ts="hjuː" tr="вытесать; рубить; обтесывать"/>
+    <d v="hewn" p="adjective" ts="hjuːn" tr="тесаный"/>
+    <d v="hewn" p="participle" ts="hjuːn" tr="вытесанный"/>
+    <d v="hexagon" p="noun" ts="ˈheksəgən" tr="шестиугольник; шестигранник; внутренний шестигранник"/>
+    <d v="hexagonal" p="adjective" ts="hekˈsægənl" tr="шестигранный; гексагональный"/>
+    <d v="hey" p="interjection" ts="heɪ" tr="Эй"/>
+    <d v="heyday" p="noun" ts="ˈheɪdeɪ" tr="расцвет"/>
+    <d v="hi" p="interjection" ts="haɪ" tr="Эй"/>
+    <d v="hi" p="adjective" ts="haɪ" tr="высокий"/>
+    <d v="hiatus" p="noun" ts="haɪˈeɪtəs" tr="перерыв; пробел; хиатус; зияние"/>
+    <d v="hibernate" p="noun" ts="ˈhaɪbɜːneɪt" tr="спячка"/>
+    <d v="hibernate" p="verb" ts="ˈhaɪbɜːneɪt" tr="зимовать"/>
+    <d v="hibernation" p="noun" ts="haɪbɜːˈneɪʃn" tr="спячка; гибернация; зимовка; анабиоз"/>
+    <d v="hiccup" p="noun" ts="ˈhɪkʌp" tr="икота"/>
+    <d v="hiccup" p="verb" ts="ˈhɪkʌp" tr="икать"/>
+    <d v="hiccup" p="participle" ts="ˈhɪkʌp" tr="икающий"/>
+    <d v="hick" p="noun" ts="hɪk" tr="деревенщина"/>
+    <d v="hick" p="adjective" ts="hɪk" tr="провинциальный"/>
+    <d v="Hickey" p="noun" ts="ˈhɪkɪ" tr="Хикки; засос"/>
+    <d v="hidden" p="adjective" ts="hɪdn" tr="скрытый"/>
+    <d v="hidden" p="participle" ts="hɪdn" tr="спрятанный; сокрытый; скрываемый; скрывающийся; спрятавшийся"/>
+    <d v="hidden" p="adverb" ts="hɪdn" tr="скрыто"/>
+    <d v="hide" p="verb" ts="haɪd"
+       tr="скрывать; скрыть; прятаться; спрятаться; прикрывать; упрятать; отвращать; запрятать"/>
+    <d v="hide" p="noun" ts="haɪd" tr="шкура; скрытие; укрытие"/>
+    <d v="hide" p="participle" ts="haɪd" tr="скрывающий"/>
+    <d v="hideaway" p="noun" ts="ˈhaɪdəweɪ" tr="убежище"/>
+    <d v="hideaway" p="adjective" ts="ˈhaɪdəweɪ" tr="укромный"/>
+    <d v="hideous" p="adjective" ts="ˈhɪdɪəs" tr="ужасный; отвратительный"/>
+    <d v="hideously" p="adverb" ts="ˈhɪdɪəslɪ" tr="ужасно; чудовищно; безобразно"/>
+    <d v="hideout" p="noun" ts="ˈhaɪdaʊt" tr="убежище"/>
+    <d v="hiding" p="noun" ts="ˈhaɪdɪŋ" tr="сокрытие; укрытие; тайник; порка"/>
+    <d v="hiding" p="participle" ts="ˈhaɪdɪŋ"
+       tr="скрывающийся; скрывающий; прячущийся; спрятавшийся; прячущий; скрывшийся"/>
+    <d v="hierarchical" p="adjective" ts="haɪəˈrɑːkɪkl" tr="иерархический; иерархичный; иерархизированный"/>
+    <d v="hierarchical" p="adverb" ts="haɪəˈrɑːkɪkl" tr="иерархически"/>
+    <d v="hierarchy" p="noun" ts="ˈhaɪərɑːkɪ" tr="иерархия; Священноначалие"/>
+    <d v="hierarchy" p="adjective" ts="ˈhaɪərɑːkɪ" tr="иерархический"/>
+    <d v="hieroglyphic" p="adjective" ts="haɪərəʊˈglɪfɪk" tr="иероглифический"/>
+    <d v="high" p="adjective" ts="haɪ" tr="высокий; сильный"/>
+    <d v="high" p="noun" ts="haɪ" tr="максимум"/>
+    <d v="high" p="participle" ts="haɪ" tr="возвышенный"/>
+    <d v="highbrow" p="adjective" ts="ˈhaɪbraʊ" tr="высоколобый; высокоинтеллектуальный"/>
+    <d v="high chair" p="noun" ts="haɪ ʧɛə" tr="высокий стул; высокое кресло"/>
+    <d v="high-class" p="adjective" ts="haɪ-klɑːs" tr="высококлассный"/>
+    <d v="high-class" p="noun" ts="haɪ-klɑːs" tr="высокий класс"/>
+    <d v="higher education" p="noun" ts="ˈhaɪə edjuːˈkeɪʃn"
+       tr="высшее образование; высшее учебное заведение; высшая школа"/>
+    <d v="high jump" p="noun" ts="haɪ ʤʌmp" tr="прыжок в высоту; высокий прыжок"/>
+    <d v="highlight" p="verb" ts="ˈhaɪlaɪt" tr="подчеркнуть; выделить; подсвечивать; остановиться"/>
+    <d v="highlight" p="noun" ts="ˈhaɪlaɪt" tr="подсветка; выделение; изюминка; блик"/>
+    <d v="highlighter" p="noun" ts="ˈhaɪlaɪtər" tr="маркер"/>
+    <d v="highlights" p="noun" ts="ˈhaɪlaɪts" tr="основные моменты"/>
+    <d v="highly" p="adverb" ts="ˈhaɪlɪ" tr="очень; высоко; благоприятно"/>
+    <d v="highly" p="adjective" ts="ˈhaɪlɪ" tr="высокоэффективный; высокоразвитый; высокопрофессиональный; повышенный"/>
+    <d v="highly" p="verb" ts="ˈhaɪlɪ" tr="ценить"/>
+    <d v="Highness" p="noun" ts="ˈhaɪnɪs" tr="Высочество; светлость; высота"/>
+    <d v="high-pressure" p="noun" ts="haɪ-ˈpreʃə" tr="высокое давление"/>
+    <d v="high-rise" p="adjective" ts="ˈhaɪraɪz" tr="высотный"/>
+    <d v="high school" p="noun" ts="ˈhaɪskuːl" tr="средняя школа; вуз; школа; старший класс; старшая школа"/>
+    <d v="high tide" p="noun" ts="ˈhaɪtaɪd" tr="прилив; высокий прилив; полная вода"/>
+    <d v="highway" p="noun" ts="ˈhaɪweɪ" tr="шоссе; магистраль; большая дорога; торговый путь"/>
+    <d v="highway" p="adjective" ts="ˈhaɪweɪ" tr="автомобильный"/>
+    <d v="highway patrol" p="noun" ts="ˈhaɪweɪ pəˈtrəʊl" tr="дорожный патруль"/>
+    <d v="hijack" p="verb" ts="ˈhaɪʤæk" tr="захватить; угнать; похитить"/>
+    <d v="hijack" p="noun" ts="ˈhaɪʤæk" tr="угон"/>
+    <d v="hijacker" p="noun" ts="ˈhaɪʤækə" tr="угонщик; бандит"/>
+    <d v="hijacking" p="noun" ts="ˈhaɪʤækɪŋ" tr="угон; угон самолета; нападение"/>
+    <d v="hike" p="noun" ts="haɪk" tr="поход; взлет"/>
+    <d v="hike" p="verb" ts="haɪk" tr="путешествовать; повышать"/>
+    <d v="hike" p="adjective" ts="haɪk" tr="походный"/>
+    <d v="hiker" p="noun" ts="ˈhaɪkər" tr="турист"/>
+    <d v="hilarious" p="adjective" ts="hɪˈlɛərɪəs" tr="веселый; острокомедийный; уморительный"/>
+    <d v="hilarity" p="noun" ts="hɪˈlærɪtɪ" tr="веселье; веселость"/>
+    <d v="hill" p="noun" ts="hɪl" tr="холм; Хилл; куча"/>
+    <d v="hill" p="verb" ts="hɪl" tr="окучивать"/>
+    <d v="hillbilly" p="noun" ts="ˈhɪlbəlɪ" tr="Шельма; хиллбилли; Хильдочка"/>
+    <d v="hillside" p="noun" ts="ˈhɪlsaɪd" tr="склон; горный склон"/>
+    <d v="hilltop" p="noun" ts="ˈhɪltɒp" tr="холм; вершина холма"/>
+    <d v="hilly" p="adjective" ts="ˈhɪlɪ" tr="холмистый"/>
+    <d v="hilt" p="noun" ts="hɪlt" tr="рукоятка; Эфес"/>
+    <d v="himself" p="pronoun" ts="hɪmˈself" tr="сам"/>
+    <d v="hind" p="adjective" ts="haɪnd" tr="задний"/>
+    <d v="hind" p="noun" ts="haɪnd" tr="лань; батрак"/>
+    <d v="hinder" p="verb" ts="ˈhaɪndə" tr="препятствовать; затруднять"/>
+    <d v="hinder" p="adjective" ts="ˈhaɪndə" tr="задний"/>
+    <d v="hinder" p="noun" ts="ˈhaɪndə" tr="воспрепятствование"/>
+    <d v="hindquarters" p="noun" ts="ˈhaɪndkwɔːtəz" tr="задняя часть; круп"/>
+    <d v="hindrance" p="noun" ts="ˈhɪndrəns" tr="помеха; препятствие; воспрепятствование"/>
+    <d v="hindrance" p="verb" ts="ˈhɪndrəns" tr="мешать"/>
+    <d v="hindsight" p="noun" ts="ˈhaɪndsaɪt" tr="ретроспектива; хинсайт; непредусмотрительность; взгляд в прошлое"/>
+    <d v="hindsight" p="adjective" ts="ˈhaɪndsaɪt" tr="ретроспективный"/>
+    <d v="Hindu" p="adjective" ts="ˈhɪnˈduː" tr="индуистский"/>
+    <d v="Hindu" p="noun" ts="ˈhɪnˈduː" tr="индус; индуизм"/>
+    <d v="Hinduism" p="noun" ts="ˈhɪnduːɪzm" tr="индуизм"/>
+    <d v="Hinduism" p="adjective" ts="ˈhɪnduːɪzm" tr="индуистский"/>
+    <d v="hinge" p="noun" ts="hɪnʤ" tr="петля"/>
+    <d v="hinge" p="verb" ts="hɪnʤ" tr="зависеть"/>
+    <d v="hinge" p="adjective" ts="hɪnʤ" tr="шарнирный; откидной; навесной; петельный"/>
+    <d v="hint" p="noun" ts="hɪnt" tr="намек; подсказка; Совет; оттенок"/>
+    <d v="hint" p="verb" ts="hɪnt" tr="намекать; подсказывать"/>
+    <d v="hinterland" p="noun" ts="ˈhɪntəlænd" tr="глубинка; район; тыл"/>
+    <d v="hip" p="noun" ts="hɪp" tr="бедро; хип; шиповник"/>
+    <d v="hip" p="adjective" ts="hɪp" tr="тазобедренный; модный; шатровый"/>
+    <d v="hippie" p="noun" ts="ˈhɪpɪ" tr="хиппи"/>
+    <d v="hippo" p="noun" ts="ˈhɪpəʊ" tr="бегемот"/>
+    <d v="hippopotamus" p="noun" ts="hɪpəˈpɔtəməs" tr="бегемот"/>
+    <d v="hire" p="noun" ts="ˈhaɪə" tr="прокат"/>
+    <d v="hire" p="verb" ts="ˈhaɪə" tr="нанять"/>
+    <d v="hire" p="participle" ts="ˈhaɪə" tr="нанятый"/>
+    <d v="his" p="pronoun" ts="hɪz" tr="его; свой; он"/>
+    <d v="Hispanic" p="adjective" ts="hɪˈspænɪk" tr="испаноязычный"/>
+    <d v="Hispanic" p="noun" ts="hɪˈspænɪk" tr="латиноамериканец; испано"/>
+    <d v="hiss" p="verb" ts="hɪs" tr="зашипеть; освистывать"/>
+    <d v="hiss" p="noun" ts="hɪs" tr="шипение"/>
+    <d v="hiss" p="participle" ts="hɪs" tr="шипящий"/>
+    <d v="historian" p="noun" ts="hɪsˈtɔːrɪən" tr="историк"/>
+    <d v="historic" p="adjective" ts="hɪsˈtɔrɪk" tr="исторический"/>
+    <d v="historic" p="adverb" ts="hɪsˈtɔrɪk" tr="исторически"/>
+    <d v="historical" p="adjective" ts="hɪsˈtɔrɪkəl" tr="исторический"/>
+    <d v="historical" p="adverb" ts="hɪsˈtɔrɪkəl" tr="исторически"/>
+    <d v="historically" p="adverb" ts="hɪˈstɒrɪklɪ" tr="исторически"/>
+    <d v="historically" p="adjective" ts="hɪˈstɒrɪklɪ" tr="исторический"/>
+    <d v="historically" p="noun" ts="hɪˈstɒrɪklɪ" tr="с исторической точки"/>
+    <d v="history" p="noun" ts="ˈhɪstərɪ" tr="история"/>
+    <d v="history" p="adjective" ts="ˈhɪstərɪ" tr="исторический"/>
+    <d v="histrionics" p="noun" ts="hɪstrɪˈɔnɪks" tr="театральность; спектакль"/>
+    <d v="hit" p="verb" ts="hɪt" tr="ударить; нажать; попасть; достигать; напасть; натолкнуться"/>
+    <d v="hit" p="noun" ts="hɪt" tr="хит; удар; успех; фильм"/>
+    <d v="hit" p="participle" ts="hɪt" tr="пострадавший; ударенный"/>
+    <d v="hit" p="adverbial participle" ts="hɪt" tr="ударяясь"/>
+    <d v="hitch" p="noun" ts="hɪʧ" tr="заминка; сцепка; загвоздка; помеха; зацеп; задержка; узел; строп"/>
+    <d v="hitch" p="verb" ts="hɪʧ" tr="прицепить; подтягивать; запрягать; прицеплять; подвигать толчками"/>
+    <d v="hitchhike" p="noun" ts="ˈhɪʧhaɪk" tr="автостоп"/>
+    <d v="hitchhiker" p="noun" ts="ˈhɪʧhaɪkər" tr="автостопщик"/>
+    <d v="hither" p="adverb" ts="ˈhɪðə" tr="сюда"/>
+    <d v="hitherto" p="noun" ts="ˈhɪðəˈtuː" tr="до сих пор"/>
+    <d v="hitherto" p="adverb" ts="ˈhɪðəˈtuː" tr="доселе"/>
+    <d v="hit man" p="noun" ts="hɪt mæn" tr="киллер"/>
+    <d v="HIV" p="noun" ts="haɪv" tr="ВИЧ"/>
+    <d v="hive" p="noun" ts="haɪv" tr="улей; крапивница; куст; рой"/>
+    <d v="hives" p="noun" ts="haɪvz" tr="крапивница"/>
+    <d v="HMO" p="noun" ts="mə" tr="ОМО"/>
+    <d v="hoard" p="noun" ts="hɔːd" tr="клад; запас"/>
+    <d v="hoard" p="verb" ts="hɔːd" tr="копить; накапливать; припрятать"/>
+    <d v="hoarse" p="adjective" ts="hɔːs" tr="хриплый"/>
+    <d v="hoarse" p="noun" ts="hɔːs" tr="хрипота; до хрипоты"/>
+    <d v="hoarse" p="participle" ts="hɔːs" tr="охрипший; хрипящий"/>
+    <d v="hoax" p="noun" ts="həʊks" tr="мистификация; подделка; розыгрыш"/>
+    <d v="hoax" p="verb" ts="həʊks" tr="подшутить"/>
+    <d v="hobble" p="verb" ts="hɔbl" tr="ковылять; доковылять; стреножить; хромать; спотыкаться"/>
+    <d v="hobble" p="noun" ts="hɔbl" tr="путы"/>
+    <d v="hobby" p="noun" ts="ˈhɔbɪ" tr="хобби; любимое занятие; конек; чеглок"/>
+    <d v="hobo" p="noun" ts="ˈhəʊbəʊ" tr="бродяга; хобо"/>
+    <d v="hobo" p="verb" ts="ˈhəʊbəʊ" tr="бродяжничать"/>
+    <d v="hock" p="adjective" ts="hɔk" tr="скакательный"/>
+    <d v="hock" p="noun" ts="hɔk" tr="рейнвейн"/>
+    <d v="hockey" p="noun" ts="ˈhɔkɪ" tr="хоккей"/>
+    <d v="hockey" p="adjective" ts="ˈhɔkɪ" tr="хоккейный"/>
+    <d v="hodgepodge" p="noun" ts="ˈhɒʤpɒʤ" tr="мешанина; винегрет"/>
+    <d v="hoe" p="noun" ts="həʊ" tr="мотыга"/>
+    <d v="hoe" p="verb" ts="həʊ" tr="мотыжить; разрыхлять"/>
+    <d v="hog" p="noun" ts="hɔg" tr="свинья"/>
+    <d v="hog" p="adjective" ts="hɔg" tr="свиной"/>
+    <d v="hoist" p="noun" ts="hɔɪst" tr="подъемник; лебедка"/>
+    <d v="hoist" p="verb" ts="hɔɪst" tr="поднять; вывесить"/>
+    <d v="hoist" p="adjective" ts="hɔɪst" tr="подъемный"/>
+    <d v="hold" p="verb" ts="həʊld"
+       tr="провести; держать; занимать; иметь; считать; продержаться; вмещать; выдерживать; останавливать"/>
+    <d v="hold" p="noun" ts="həʊld" tr="проведение; удержание; трюм; владение; власть; захват; опора; пауза"/>
+    <d v="holder" p="noun" ts="ˈhəʊldə" tr="держатель; обойма; фиксатор; арендатор; ручка; штатив"/>
+    <d v="holding" p="noun" ts="ˈhəʊldɪŋ" tr="холдинг; проведение; владение; удерживание; вклад; закрепление"/>
+    <d v="holding" p="adjective" ts="ˈhəʊldɪŋ" tr="холдинговый"/>
+    <d v="holding" p="participle" ts="ˈhəʊldɪŋ" tr="держащий; занимающий; содержащий; держащийся"/>
+    <d v="holdover" p="noun" ts="ˈhəʊldəʊvər" tr="пережиток"/>
+    <d v="hole" p="noun" ts="həʊl" tr="отверстие; дыра; яма; лунка; скважина; прорубь; захолустье"/>
+    <d v="hole" p="verb" ts="həʊl" tr="продырявить"/>
+    <d v="holiday" p="noun" ts="ˈhɔlədɪ" tr="праздник; отдых"/>
+    <d v="holiday" p="adjective" ts="ˈhɔlədɪ" tr="праздничный; отпускной; загородный"/>
+    <d v="holiday" p="verb" ts="ˈhɔlədɪ" tr="отдыхать"/>
+    <d v="Holiness" p="noun" ts="ˈhəʊlɪnəs" tr="святость"/>
+    <d v="holistic" p="adjective" ts="həʊˈlɪstɪk" tr="целостный"/>
+    <d v="holler" p="verb" ts="ˈhɒlər" tr="кричать; орать; крикнуть"/>
+    <d v="hollow" p="adjective" ts="ˈhɔləʊ" tr="полый; впалый; гулкий"/>
+    <d v="hollow" p="noun" ts="ˈhɔləʊ" tr="впадина; пустота; дупло; углубление; пустой звук; низина"/>
+    <d v="hollow" p="verb" ts="ˈhɔləʊ" tr="долбить; выдалбливать"/>
+    <d v="Holly" p="noun" ts="ˈhɔlɪ" tr="Холли; падуб"/>
+    <d v="Holly" p="adjective" ts="ˈhɔlɪ" tr="священный"/>
+    <d v="Hollywood" p="noun" ts="ˈhɔlɪwʊd" tr="Голливуд"/>
+    <d v="Hollywood" p="adjective" ts="ˈhɔlɪwʊd" tr="голливудский"/>
+    <d v="Holocaust" p="noun" ts="ˈhɔləkɔːst" tr="Холокост; всесожжение; уничтожение; бойня"/>
+    <d v="Holocaust" p="noun" ts="ˈhɔləkɔːst" tr="Холокост; всесожжение; уничтожение; бойня"/>
+    <d v="hologram" p="noun" ts="ˈhɒləgræm" tr="голограмма"/>
+    <d v="hologram" p="adjective" ts="ˈhɒləgræm" tr="голографический"/>
+    <d v="holster" p="noun" ts="ˈhəʊlstə" tr="кобура; чехол"/>
+    <d v="holy" p="adjective" ts="ˈhəʊlɪ" tr="святой"/>
+    <d v="holy communion" p="noun" ts="ˈhəʊlɪ kəˈmjuːnjən" tr="святое причастие; святое причащение"/>
+    <d v="holy ghost" p="noun" ts="ˈhəʊlɪ gəʊst" tr="святой дух; дух святой"/>
+    <d v="holy spirit" p="noun" ts="ˈhəʊlɪ ˈspɪrɪt" tr="святой дух; дух святой"/>
+    <d v="homage" p="noun" ts="ˈhɔmɪʤ" tr="дань; почтение"/>
+    <d v="home" p="noun" ts="həʊm" tr="дом; быт; уют"/>
+    <d v="home" p="adjective" ts="həʊm" tr="домашний; внутренний; семейный"/>
+    <d v="home economics" p="noun" ts="həʊm iːkəˈnɔmɪks" tr="домоводство"/>
+    <d v="homeland" p="noun" ts="ˈhəʊmlænd" tr="родина; национальный очаг"/>
+    <d v="homeland" p="adjective" ts="ˈhəʊmlænd" tr="родной"/>
+    <d v="homeless" p="adjective" ts="ˈhəʊmlɪs" tr="бездомный; бесприютный"/>
+    <d v="homeless" p="noun" ts="ˈhəʊmlɪs" tr="бомж; без крова; беспризорник"/>
+    <d v="homelessness" p="noun" ts="ˈhəʊmləsnəs" tr="бездомность"/>
+    <d v="homelessness" p="adjective" ts="ˈhəʊmləsnəs" tr="бездомный"/>
+    <d v="home loan" p="noun" ts="həʊm ləʊn" tr="ипотечный кредит; жилищный кредит"/>
+    <d v="homely" p="adjective" ts="ˈhəʊmlɪ" tr="домашний; невзрачный; некрасивый; обыденный; безыскусственный"/>
+    <d v="homemade" p="adjective" ts="ˈhəʊmeɪd" tr="самодельный"/>
+    <d v="homemaker" p="noun" ts="ˈhəʊmmeɪkər" tr="домохозяйка; хранительница"/>
+    <d v="homeopathic" p="adjective" ts="həʊmɪəˈpæθɪk" tr="гомеопатический"/>
+    <d v="homeopathy" p="noun" ts="həʊmɪəˈpæθɪ" tr="гомеопатия"/>
+    <d v="homeowner" p="noun" ts="ˈhəʊmənər" tr="домовладелец"/>
+    <d v="home page" p="noun" ts="həʊm peɪʤ" tr="домашняя страница"/>
+    <d v="Homer" p="noun" ts="ˈhəʊmə" tr="Гомер; почтовый голубь"/>
+    <d v="home run" p="verb" ts="həʊm rʌn" tr="домой бежать"/>
+    <d v="homesick" p="verb" ts="ˈhəʊmsɪk" tr="скучать"/>
+    <d v="homesick" p="participle" ts="ˈhəʊmsɪk" tr="тоскующий по дому"/>
+    <d v="homesick" p="noun" ts="ˈhəʊmsɪk" tr="по родине"/>
+    <d v="homesickness" p="noun" ts="ˈhəʊmsɪknɪs" tr="тоска по дому"/>
+    <d v="homestead" p="noun" ts="ˈhəʊmsted" tr="усадьба"/>
+    <d v="homestead" p="adjective" ts="ˈhəʊmsted" tr="приусадебный"/>
+    <d v="hometown" p="adjective" ts="ˈhəʊmtəʊn" tr="родной"/>
+    <d v="hometown" p="noun" ts="ˈhəʊmtəʊn" tr="родной город"/>
+    <d v="homeward" p="adverb" ts="ˈhəʊmwəd" tr="домой"/>
+    <d v="homework" p="noun" ts="ˈhəʊmwɜːk" tr="задание; домашняя работа"/>
+    <d v="homework" p="adjective" ts="ˈhəʊmwɜːk" tr="домашний"/>
+    <d v="homey" p="adjective" ts="ˈhəʊmɪ" tr="домашний"/>
+    <d v="homicidal" p="adjective" ts="hɔmɪˈsaɪdl" tr="смертоносный"/>
+    <d v="homicide" p="noun" ts="ˈhɔmɪsaɪd" tr="убийство"/>
+    <d v="homogeneity" p="noun" ts="hɔməʊʤeˈniːɪtɪ" tr="однородность"/>
+    <d v="homogeneous" p="adjective" ts="hɔməʊˈʤiːnjəs" tr="однородный"/>
+    <d v="homogeneous" p="noun" ts="hɔməʊˈʤiːnjəs" tr="однородность"/>
+    <d v="homogenize" p="verb" ts="həˈmɒʤɪnaɪz" tr="гомогенизировать"/>
+    <d v="homogenized" p="participle" ts="həˈmɒʤɪnaɪzd" tr="гомогенизированный; усредненный"/>
+    <d v="homonym" p="noun" ts="ˈhɔməʊnɪm" tr="омоним; однофамилец"/>
+    <d v="homosexual" p="noun" ts="ˈhəʊməʊˈseksjʊəl" tr="гомосексуалист; гомосексуальность; гомо"/>
+    <d v="homosexual" p="adjective" ts="ˈhəʊməʊˈseksjʊəl" tr="гомосексуальный"/>
+    <d v="homosexuality" p="noun" ts="ˈhəʊməʊseksjʊˈælɪtɪ" tr="гомосексуализм"/>
+    <d v="hone" p="verb" ts="həʊn" tr="оттачивать"/>
+    <d v="hone" p="noun" ts="həʊn" tr="оселок"/>
+    <d v="honest" p="adjective" ts="ˈɔnɪst" tr="честный; настоящий; целомудренный; нравственный"/>
+    <d v="honest" p="adverbial participle" ts="ˈɔnɪst" tr="честно говоря"/>
+    <d v="honest" p="noun" ts="ˈɔnɪst" tr="честность"/>
+    <d v="honestly" p="adverb" ts="ˈɔnɪstlɪ" tr="честно"/>
+    <d v="honestly" p="noun" ts="ˈɔnɪstlɪ" tr="честное слово"/>
+    <d v="honesty" p="noun" ts="ˈɔnɪstɪ" tr="честность"/>
+    <d v="honesty" p="adjective" ts="ˈɔnɪstɪ" tr="честный"/>
+    <d v="honey" p="noun" ts="ˈhʌnɪ" tr="мед; милочка; голубчик; голубушка; сладость"/>
+    <d v="honey" p="adjective" ts="ˈhʌnɪ" tr="милый; медовый"/>
+    <d v="honeycomb" p="adjective" ts="ˈhʌnɪkəʊm" tr="сотовый; Сотовидный"/>
+    <d v="honeycomb" p="noun" ts="ˈhʌnɪkəʊm" tr="соты; сотовый мед"/>
+    <d v="honeycomb" p="verb" ts="ˈhʌnɪkəʊm" tr="изрешетить; подточить"/>
+    <d v="honeymoon" p="adjective" ts="ˈhʌnɪmuːn" tr="медовый"/>
+    <d v="honeymoon" p="noun" ts="ˈhʌnɪmuːn" tr="медовый месяц; свадебное путешествие"/>
+    <d v="honeysuckle" p="noun" ts="ˈhʌnɪˈsʌkl" tr="жимолость"/>
+    <d v="honk" p="verb" ts="hɔŋk" tr="сигналить"/>
+    <d v="honor" p="noun" ts="ˈɔnə" tr="честь; уважение; Виктория"/>
+    <d v="honor" p="verb" ts="ˈɔnə" tr="почитать; удостаивать"/>
+    <d v="honorable" p="adjective" ts="əˈnɔːrəbl" tr="почетный"/>
+    <d v="honorably" p="adverb" ts="əˈnɔːrəblɪ" tr="честно"/>
+    <d v="honorably" p="noun" ts="əˈnɔːrəblɪ" tr="с честью"/>
+    <d v="honorary" p="adjective" ts="ˈɔnərərɪ" tr="почетный"/>
+    <d v="hood" p="noun" ts="hʊd" tr="капюшон; капот; вытяжка; крышка; Гуд; зонт; верх"/>
+    <d v="hoof" p="noun" ts="huːf" tr="копыто"/>
+    <d v="hoof" p="adjective" ts="huːf" tr="копытный"/>
+    <d v="hook" p="noun" ts="hʊk" tr="крючок; подключение; багор; серп"/>
+    <d v="hook" p="verb" ts="hʊk" tr="подключить; зацепить; подцепить; подцеплять; зацеплять; завербовать"/>
+    <d v="hook" p="adjective" ts="hʊk" tr="крючковатый"/>
+    <d v="hooked" p="noun" ts="hʊkt" tr="крючок"/>
+    <d v="hooked" p="adjective" ts="hʊkt" tr="крючковатый"/>
+    <d v="hooked" p="participle" ts="hʊkt" tr="подключенный; подключаемый"/>
+    <d v="hooker" p="noun" ts="ˈhʊkə" tr="проститутка; Хукер; рыболовное судно"/>
+    <d v="hooligan" p="noun" ts="ˈhuːlɪgən" tr="хулиган"/>
+    <d v="hooligan" p="adjective" ts="ˈhuːlɪgən" tr="хулиганский"/>
+    <d v="hooligan" p="verb" ts="ˈhuːlɪgən" tr="хулиганить"/>
+    <d v="hooligan" p="participle" ts="ˈhuːlɪgən" tr="хулиганствующий"/>
+    <d v="hoop" p="noun" ts="huːp" tr="обруч; бугель; кринолин; обод; обойма"/>
+    <d v="hoot" p="verb" ts="huːt" tr="гудеть; ухать; улюлюкать; кричать; свистеть; гикать"/>
+    <d v="hoot" p="noun" ts="huːt" tr="гудок"/>
+    <d v="hop" p="noun" ts="hɔp" tr="хмель; прыжок; пересылка"/>
+    <d v="hop" p="interjection" ts="hɔp" tr="хоп"/>
+    <d v="hop" p="verb" ts="hɔp" tr="прыгать; садиться"/>
+    <d v="hop" p="adjective" ts="hɔp" tr="хмелевой"/>
+    <d v="hope" p="verb" ts="həʊp" tr="надеяться; предвкушать"/>
+    <d v="hope" p="noun" ts="həʊp" tr="надежда"/>
+    <d v="hopeful" p="verb" ts="ˈhəʊpfʊl" tr="надеяться"/>
+    <d v="hopeful" p="noun" ts="ˈhəʊpfʊl" tr="надежда"/>
+    <d v="hopeful" p="participle" ts="ˈhəʊpfʊl" tr="обнадеживающий; надеющийся; подающий надежды"/>
+    <d v="hopeful" p="adjective" ts="ˈhəʊpfʊl" tr="многообещающий; оптимистический"/>
+    <d v="hopefully" p="verb" ts="ˈhəʊpfəlɪ" tr="надеяться"/>
+    <d v="hopefully" p="adverb" ts="ˈhəʊpfəlɪ" tr="многообещающе; обнадеживающе"/>
+    <d v="hopefully" p="noun" ts="ˈhəʊpfəlɪ" tr="с надеждой"/>
+    <d v="hopefully" p="participle" ts="ˈhəʊpfəlɪ" tr="надеющийся"/>
+    <d v="hopeless" p="adjective" ts="ˈhəʊplɪs" tr="безнадежный; бесперспективный"/>
+    <d v="hopeless" p="noun" ts="ˈhəʊplɪs" tr="безнадежность"/>
+    <d v="hopeless" p="participle" ts="ˈhəʊplɪs" tr="отчаявшийся"/>
+    <d v="hopelessly" p="adverb" ts="ˈhəʊplɪslɪ" tr="безнадежно"/>
+    <d v="hopelessness" p="noun" ts="ˈhəʊplɪsnɪs" tr="безнадежность; бесперспективность; безнадега"/>
+    <d v="horde" p="noun" ts="hɔːd" tr="Орда; полчище; банда; компания"/>
+    <d v="horizon" p="noun" ts="həˈraɪzn" tr="горизонт; ярус"/>
+    <d v="horizontal" p="adjective" ts="hɔrɪˈzɔntl" tr="горизонтальный"/>
+    <d v="horizontal" p="noun" ts="hɔrɪˈzɔntl" tr="горизонталь; горизонтальность"/>
+    <d v="horizontally" p="noun" ts="hɒrɪˈzɒntəlɪ" tr="горизонталь; по горизонтали"/>
+    <d v="horizontally" p="adverb" ts="hɒrɪˈzɒntəlɪ" tr="горизонтально"/>
+    <d v="hormone" p="noun" ts="ˈhɔːməʊn" tr="гормон; гормонотерапия"/>
+    <d v="hormone" p="adjective" ts="ˈhɔːməʊn" tr="гормональный"/>
+    <d v="horn" p="noun" ts="hɔːn" tr="рог; рупор; гудок"/>
+    <d v="horn" p="adjective" ts="hɔːn" tr="роговой"/>
+    <d v="hornet" p="noun" ts="ˈhɔːnɪt" tr="шершень"/>
+    <d v="Horny" p="adjective" ts="ˈhɔːnɪ" tr="роговой; рогатый; похотливый"/>
+    <d v="Horny" p="participle" ts="ˈhɔːnɪ" tr="ороговевший; возбужденный"/>
+    <d v="Horny" p="verb" ts="ˈhɔːnɪ" tr="возбудить"/>
+    <d v="horoscope" p="noun" ts="ˈhɔrəskəʊp" tr="гороскоп"/>
+    <d v="horrendous" p="adjective" ts="həˈrendəs" tr="ужасный"/>
+    <d v="horrendously" p="adverb" ts="həˈrendəslɪ" tr="чудовищно"/>
+    <d v="horrible" p="adjective" ts="ˈhɔrəbl" tr="ужасный"/>
+    <d v="horrible" p="participle" ts="ˈhɔrəbl" tr="отталкивающий"/>
+    <d v="horribly" p="adverb" ts="ˈhɒrəblɪ" tr="ужасно"/>
+    <d v="horrid" p="adjective" ts="ˈhɔrɪd" tr="ужасный"/>
+    <d v="horrific" p="adjective" ts="hɔˈrɪfɪk" tr="ужасный"/>
+    <d v="horrify" p="noun" ts="ˈhɔrɪfaɪ" tr="ужас"/>
+    <d v="horrify" p="verb" ts="ˈhɔrɪfaɪ" tr="ужасать; испугать"/>
+    <d v="horrifying" p="participle" ts="ˈhɒrɪfaɪɪŋ" tr="ужасающий"/>
+    <d v="horror" p="noun" ts="ˈhɔrə" tr="ужас"/>
+    <d v="horror" p="adjective" ts="ˈhɔrə" tr="ужасный"/>
+    <d v="horse" p="noun" ts="hɔːs" tr="лошадь; кавалерия"/>
+    <d v="horse" p="adjective" ts="hɔːs" tr="конный; лошадиный"/>
+    <d v="horseback riding" p="noun" ts="ˈhɔːsbæk ˈraɪdɪŋ" tr="Верховая езда; конный спорт"/>
+    <d v="horsepower" p="noun" ts="ˈhɔːspaʊə" tr="лошадиная сила"/>
+    <d v="horseshoe" p="noun" ts="ˈhɔːʃʃuː" tr="подкова"/>
+    <d v="horseshoe" p="adjective" ts="ˈhɔːʃʃuː" tr="подковообразный"/>
+    <d v="horticultural" p="adjective" ts="hɔːtɪˈkʌlʧərəl" tr="садовый; плодоовощной"/>
+    <d v="horticultural" p="noun" ts="hɔːtɪˈkʌlʧərəl" tr="садоводство"/>
+    <d v="horticulture" p="noun" ts="ˈhɔːtɪkʌlʧə" tr="садоводство"/>
+    <d v="hose" p="noun" ts="həʊz" tr="шланг; брандспойт; чулок; металлорукав; штаны; кишка"/>
+    <d v="hose" p="adjective" ts="həʊz" tr="шланговый"/>
+    <d v="hospice" p="noun" ts="ˈhɔspɪs" tr="хоспис; приют; гостиница"/>
+    <d v="hospice" p="adjective" ts="ˈhɔspɪs" tr="странноприимный"/>
+    <d v="hospitable" p="adjective" ts="ˈhɔspɪtəbl" tr="гостеприимный"/>
+    <d v="hospitable" p="noun" ts="ˈhɔspɪtəbl" tr="гостеприимство"/>
+    <d v="hospital" p="noun" ts="ˈhɔspɪtl" tr="больница"/>
+    <d v="hospital" p="adjective" ts="ˈhɔspɪtl" tr="больничный; санитарный"/>
+    <d v="hospitality" p="noun" ts="hɔspɪˈtælɪtɪ" tr="гостеприимство; гостиничный бизнес; хлебосольство"/>
+    <d v="hospitality" p="adjective" ts="hɔspɪˈtælɪtɪ" tr="гостиничный"/>
+    <d v="hospitalization" p="noun" ts="hɒspɪtəlaɪˈzeɪʃn" tr="госпитализация"/>
+    <d v="hospitalize" p="verb" ts="ˈhɔspɪtəlaɪz" tr="госпитализировать"/>
+    <d v="host" p="noun" ts="həʊst" tr="хост; хозяин; множество; воинство; компьютер; войско; организм; трактирщик"/>
+    <d v="host" p="participle" ts="həʊst" tr="принимающий"/>
+    <d v="host" p="verb" ts="həʊst" tr="хозяйничать; размещаться"/>
+    <d v="hostage" p="noun" ts="ˈhɔstɪʤ" tr="заложник; залог"/>
+    <d v="hostel" p="noun" ts="ˈhɔstəl" tr="общежитие; хостел; общага"/>
+    <d v="hostess" p="noun" ts="ˈhəʊstɪs" tr="хозяйка; стюардесса; хозяюшка"/>
+    <d v="hostile" p="adjective" ts="ˈhɔstaɪl" tr="враждебный; вражеский"/>
+    <d v="hostile" p="noun" ts="ˈhɔstaɪl" tr="враждебность"/>
+    <d v="hostile" p="participle" ts="ˈhɔstaɪl" tr="враждебно настроенный"/>
+    <d v="hostile takeover" p="noun" ts="ˈhɒstaɪl ˈteɪkəʊvər"
+       tr="недружественное поглощение; враждебное поглощение; враждебный захват"/>
+    <d v="hostility" p="noun" ts="hɔsˈtɪlɪtɪ" tr="враждебность"/>
+    <d v="hostility" p="adjective" ts="hɔsˈtɪlɪtɪ" tr="враждебный"/>
+    <d v="hot" p="adjective" ts="hɔt" tr="горячий; жаркий; острый; свежий; опасный; темпераментный"/>
+    <d v="hot" p="adverb" ts="hɔt" tr="жарко"/>
+    <d v="hot" p="noun" ts="hɔt" tr="жара"/>
+    <d v="hot" p="participle" ts="hɔt" tr="разгоряченный"/>
+    <d v="hot air" p="noun" ts="hɔt ɛə" tr="горячий воздух; теплый воздух; раскаленный воздух"/>
+    <d v="hotbed" p="noun" ts="ˈhɔtbed" tr="очаг; парник"/>
+    <d v="hotbed" p="adjective" ts="ˈhɔtbed" tr="парниковый"/>
+    <d v="hot chocolate" p="noun" ts="hɔt ˈʧɔkəlɪt" tr="горячий шоколад"/>
+    <d v="hot dog" p="noun" ts="ˈhɔtˈdɔg" tr="сосиска; горячая собака"/>
+    <d v="hotel" p="noun" ts="həʊˈtel" tr="отель"/>
+    <d v="hotel" p="adjective" ts="həʊˈtel" tr="гостиничный"/>
+    <d v="hot flash" p="noun" ts="hɔt flæʃ" tr="прилив; горячая вспышка"/>
+    <d v="hothead" p="noun" ts="ˈhɔthed" tr="горячая голова"/>
+    <d v="hot line" p="noun" ts="hɔt laɪn" tr="горячая линия"/>
+    <d v="hotly" p="adverb" ts="ˈhɒtlɪ" tr="горячо"/>
+    <d v="hot plate" p="noun" ts="hɔt pleɪt" tr="горячая плита; нагревательная плита"/>
+    <d v="hot potato" p="noun" ts="hɔt pəˈteɪtəʊ" tr="горячая картошка"/>
+    <d v="hotshot" p="adjective" ts="ˈhɔʧɔt" tr="отчаянный"/>
+    <d v="hotshot" p="noun" ts="ˈhɔʧɔt" tr="сорвиголова"/>
+    <d v="hot spot" p="noun" ts="hɔt spɔt" tr="горячая точка; очаг; горячее пятно; горячий участок"/>
+    <d v="hot tub" p="noun" ts="hɔt tʌb" tr="горячая ванна; горячий ушат"/>
+    <d v="hound" p="noun" ts="haʊnd" tr="собака; охотничья собака"/>
+    <d v="hound" p="adjective" ts="haʊnd" tr="гончий"/>
+    <d v="hound" p="verb" ts="haʊnd" tr="травить"/>
+    <d v="hour" p="noun" ts="ˈaʊə" tr="час"/>
+    <d v="hour" p="adjective" ts="ˈaʊə" tr="часовой"/>
+    <d v="hourglass" p="noun" ts="ˈaʊəglɑːs" tr="песочные часы"/>
+    <d v="hourly" p="adjective" ts="ˈaʊəlɪ" tr="почасовой; ежечасный"/>
+    <d v="hourly" p="adverb" ts="ˈaʊəlɪ" tr="ежечасно"/>
+    <d v="hourly" p="noun" ts="ˈaʊəlɪ" tr="каждый час"/>
+    <d v="house" p="noun" ts="haʊs" tr="дом; хаус; театр; гостиница; рубка; династия; публика; биржа"/>
+    <d v="house" p="adjective" ts="haʊs" tr="домашний; комнатный"/>
+    <d v="house" p="verb" ts="haʊs" tr="расквартировывать; жить; вмещать; приютить; поселить; помещать"/>
+    <d v="house" p="noun" ts="haʊs" tr="дом; хаус; театр; гостиница; рубка; династия; публика; биржа"/>
+    <d v="house" p="adjective" ts="haʊs" tr="домашний; комнатный"/>
+    <d v="house" p="verb" ts="haʊs" tr="расквартировывать; жить; вмещать; приютить; поселить; помещать"/>
+    <d v="house arrest" p="noun" ts="haʊs əˈrest" tr="домашний арест"/>
+    <d v="houseboat" p="adjective" ts="ˈhaʊsbəʊt" tr="плавучий"/>
+    <d v="houseboat" p="noun" ts="ˈhaʊsbəʊt" tr="плавучий дом"/>
+    <d v="household" p="noun" ts="ˈhaʊshəʊld" tr="домохозяйство; домашнее хозяйство; домочадцы"/>
+    <d v="household" p="adjective" ts="ˈhaʊshəʊld" tr="бытовой; семейный; приусадебный"/>
+    <d v="housekeeper" p="noun" ts="ˈhaʊskiːpə"
+       tr="экономка; домработница; домохозяйка; домоправительница; гувернантка"/>
+    <d v="housekeeping" p="noun" ts="ˈhaʊskiːpɪŋ"
+       tr="хозяйство; уборка; ведение домашнего хозяйства; хозяйствование; ведение хозяйства"/>
+    <d v="housekeeping" p="adjective" ts="ˈhaʊskiːpɪŋ" tr="служебный"/>
+    <d v="house of representatives" p="noun" ts="haʊs əv reprɪˈzentətɪvz" tr="палата представителей"/>
+    <d v="housewarming" p="noun" ts="ˈhaʊswɔːmɪŋ" tr="новоселье"/>
+    <d v="housewife" p="noun" ts="ˈhaʊswaɪf" tr="домохозяйка"/>
+    <d v="housework" p="adjective" ts="ˈhaʊswɜːk" tr="домашний"/>
+    <d v="housework" p="noun" ts="ˈhaʊswɜːk" tr="домашняя работа"/>
+    <d v="housing" p="noun" ts="ˈhaʊzɪŋ" tr="жилье; корпус; домостроение; снабжение жилищем; ниша"/>
+    <d v="housing" p="adjective" ts="ˈhaʊzɪŋ" tr="жилищный"/>
+    <d v="housing development" p="noun" ts="ˈhaʊzɪŋ dɪˈveləpmənt"
+       tr="жилищное строительство; жилая застройка; развитие жилищного строительства"/>
+    <d v="housing project" p="noun" ts="ˈhaʊzɪŋ ˈprɔʤekt" tr="жилищный проект; жилой проект"/>
+    <d v="hovel" p="noun" ts="ˈhɔvəl" tr="лачуга; хибарка"/>
+    <d v="hover" p="verb" ts="ˈhɔvə" tr="парить; навести; зависнуть; колебаться; кружить; нависать; вертеться"/>
+    <d v="hover" p="noun" ts="ˈhɔvə" tr="наведение; парение; зависание"/>
+    <d v="how" p="adverb" ts="haʊ" tr="как"/>
+    <d v="how" p="numeral" ts="haʊ" tr="сколько"/>
+    <d v="how" p="pronoun" ts="haʊ" tr="что"/>
+    <d v="how" p="noun" ts="haʊ" tr="способ"/>
+    <d v="however" p="adverb" ts="haʊˈevə" tr="однако"/>
+    <d v="however" p="conjunction" ts="haʊˈevə" tr="но; впрочем"/>
+    <d v="however" p="noun" ts="haʊˈevə" tr="правда"/>
+    <d v="howl" p="verb" ts="haʊl" tr="выть; взвыть"/>
+    <d v="howl" p="noun" ts="haʊl" tr="вой"/>
+    <d v="hub" p="noun" ts="hʌb" tr="концентратор; центр; ступица; втулка"/>
+    <d v="hub" p="adjective" ts="hʌb" tr="узловой"/>
+    <d v="hubbub" p="noun" ts="ˈhʌbʌb" tr="гомон; шум"/>
+    <d v="hubcap" p="noun" ts="ˈhʌbkæp" tr="колпак"/>
+    <d v="huddle" p="verb" ts="hʌdl" tr="ютиться; съежиться; забиться; свернуться; заталкивать; загонять"/>
+    <d v="huddle" p="noun" ts="hʌdl" tr="толпа"/>
+    <d v="hue" p="noun" ts="hjuː" tr="оттенок"/>
+    <d v="huff" p="verb" ts="hʌf" tr="фыркнуть; раздражать"/>
+    <d v="huffy" p="adjective" ts="ˈhʌfɪ" tr="надменный"/>
+    <d v="hug" p="verb" ts="hʌg" tr="обнять; крепко обнять; держаться"/>
+    <d v="hug" p="noun" ts="hʌg" tr="объятие"/>
+    <d v="huge" p="adjective" ts="hjuːʤ" tr="огромный"/>
+    <d v="hugely" p="adverb" ts="ˈhjuːʤlɪ" tr="чрезвычайно; очень; огромно"/>
+    <d v="hugely" p="adjective" ts="ˈhjuːʤlɪ" tr="огромный"/>
+    <d v="hulk" p="noun" ts="hʌlk" tr="Халк; туша; громадина; блокшив"/>
+    <d v="hull" p="noun" ts="hʌl" tr="корпус; остов; фюзеляж"/>
+    <d v="hull" p="adjective" ts="hʌl" tr="корпусный"/>
+    <d v="hull" p="verb" ts="hʌl" tr="шелушить"/>
+    <d v="hullabaloo" p="noun" ts="hʌləbəˈluː" tr="шум; ажиотаж"/>
+    <d v="hum" p="noun" ts="hʌm" tr="гул"/>
+    <d v="hum" p="verb" ts="hʌm" tr="гудеть; напевать; напеть"/>
+    <d v="human" p="noun" ts="ˈhjuːmən" tr="человек"/>
+    <d v="human" p="adjective" ts="ˈhjuːmən" tr="человеческий"/>
+    <d v="human being" p="noun" ts="ˈhjuːmən ˈbiːɪŋ"
+       tr="человеческое существо; людское существование; человеческое бытие; существо; живое существо; человеческое существование; человеческое создание; человеческий род"/>
+    <d v="humane" p="adjective" ts="hjuːˈmeɪn" tr="гуманный; человечный; человеколюбивый"/>
+    <d v="humane" p="noun" ts="hjuːˈmeɪn" tr="человечность"/>
+    <d v="humanely" p="adverb" ts="hjuːˈmeɪnlɪ" tr="гуманно"/>
+    <d v="humanism" p="noun" ts="ˈhjuːmənɪzm" tr="гуманизм"/>
+    <d v="humanist" p="noun" ts="ˈhjuːmənɪst" tr="гуманист"/>
+    <d v="humanist" p="adjective" ts="ˈhjuːmənɪst" tr="гуманистический"/>
+    <d v="humanitarian" p="adjective" ts="hjuːmænɪˈtɛərɪən" tr="гуманитарный"/>
+    <d v="humanitarian" p="noun" ts="hjuːmænɪˈtɛərɪən" tr="гуманист; филантроп"/>
+    <d v="humanitarianism" p="noun" ts="hjuːmænɪˈteərɪənɪzəm" tr="гуманизм"/>
+    <d v="humanities" p="adjective" ts="hjuːˈmænɪtɪz" tr="гуманитарный"/>
+    <d v="humanity" p="noun" ts="hjuːˈmænɪtɪ" tr="человечество; человеческая природа"/>
+    <d v="humanize" p="verb" ts="ˈhjuːmənaɪz" tr="очеловечить; очеловечивать; облагораживать"/>
+    <d v="humanize" p="noun" ts="ˈhjuːmənaɪz" tr="гуманизация; очеловечивание"/>
+    <d v="humankind" p="noun" ts="ˈhjuːmənˈkaɪnd" tr="человечество"/>
+    <d v="humanly" p="adverb" ts="ˈhjuːmənlɪ" tr="человечески; человечно"/>
+    <d v="humanly" p="noun" ts="ˈhjuːmənlɪ" tr="в человеческих силах"/>
+    <d v="human nature" p="noun" ts="ˈhjuːmən ˈneɪʧə"
+       tr="человеческая природа; человеческая натура; природа человека; человеческое естество; сущность человека"/>
+    <d v="human race" p="noun" ts="ˈhjuːmən reɪs" tr="человеческая раса; человечество; человеческий род; раса людей"/>
+    <d v="human resources" p="noun" ts="ˈhjuːmən rɪˈzɔːsɪz" tr="людские ресурсы; кадровые ресурсы"/>
+    <d v="human rights" p="adjective" ts="ˈhjuːmən raɪts" tr="правозащитный"/>
+    <d v="human rights" p="noun" ts="ˈhjuːmən raɪts" tr="защита прав человека; соблюдение прав человека"/>
+    <d v="humble" p="adjective" ts="hʌmbl" tr="скромный; простой; кроткий; бедный; робкий"/>
+    <d v="humble" p="verb" ts="hʌmbl" tr="смириться; унижать; смирять"/>
+    <d v="humble" p="noun" ts="hʌmbl" tr="смирение"/>
+    <d v="humble" p="participle" ts="hʌmbl" tr="униженный"/>
+    <d v="humbly" p="adverb" ts="ˈhʌmblɪ" tr="смиренно; униженно"/>
+    <d v="humbly" p="noun" ts="ˈhʌmblɪ" tr="смирение; со смирением"/>
+    <d v="humdrum" p="adjective" ts="ˈhʌmdrʌm" tr="скучный; банальный"/>
+    <d v="humdrum" p="noun" ts="ˈhʌmdrʌm" tr="банальность"/>
+    <d v="humid" p="adjective" ts="ˈhjuːmɪd" tr="влажный"/>
+    <d v="humidify" p="verb" ts="hjuːˈmɪdɪfaɪ" tr="увлажнять"/>
+    <d v="humidity" p="noun" ts="hjuːˈmɪdɪtɪ" tr="влажность"/>
+    <d v="humidity" p="adjective" ts="hjuːˈmɪdɪtɪ" tr="влажностный"/>
+    <d v="humiliate" p="verb" ts="hjuːˈmɪlɪeɪt" tr="унижать; оскорблять; унизиться"/>
+    <d v="humiliate" p="noun" ts="hjuːˈmɪlɪeɪt" tr="унижение"/>
+    <d v="humiliated" p="participle" ts="hjuːˈmɪlɪeɪtɪd" tr="униженный; оскорбленный"/>
+    <d v="humiliating" p="adjective" ts="hjuːˈmɪlɪeɪtɪŋ" tr="унизительный"/>
+    <d v="humiliating" p="noun" ts="hjuːˈmɪlɪeɪtɪŋ" tr="унижение"/>
+    <d v="humiliation" p="noun" ts="hjuːmɪlɪˈeɪʃn" tr="унижение"/>
+    <d v="humiliation" p="verb" ts="hjuːmɪlɪˈeɪʃn" tr="унизить"/>
+    <d v="humility" p="noun" ts="hjuːˈmɪlɪtɪ" tr="смирение"/>
+    <d v="humility" p="adjective" ts="hjuːˈmɪlɪtɪ" tr="смиренный"/>
+    <d v="humor" p="noun" ts="ˈhjuːmə" tr="юмор"/>
+    <d v="humor" p="adjective" ts="ˈhjuːmə" tr="юмористический"/>
+    <d v="humorist" p="noun" ts="ˈhjuːmərɪst" tr="юморист; весельчак"/>
+    <d v="humorous" p="adjective" ts="ˈhjuːmərəs" tr="юмористический; шутливый; юмористичный"/>
+    <d v="humorous" p="adverb" ts="ˈhjuːmərəs" tr="юмористически"/>
+    <d v="humorously" p="adverb" ts="ˈhjuːmərəslɪ" tr="шутливо; юмористически"/>
+    <d v="humorously" p="noun" ts="ˈhjuːmərəslɪ" tr="с юмором"/>
+    <d v="hump" p="noun" ts="hʌmp" tr="горб; горка; сортировочная горка; неровность; пригорок"/>
+    <d v="hunch" p="noun" ts="hʌnʧ" tr="предчувствие; догадка; горб; интуиция; ломоть"/>
+    <d v="hunch" p="verb" ts="hʌnʧ" tr="горбить; сутулить; сгибать"/>
+    <d v="hunchback" p="noun" ts="ˈhʌnʧbæk" tr="горбун"/>
+    <d v="hunchback" p="adjective" ts="ˈhʌnʧbæk" tr="горбатый"/>
+    <d v="hundred" p="noun" ts="ˈhʌndrəd" tr="сотня; ноль-ноль"/>
+    <d v="hundred" p="numeral" ts="ˈhʌndrəd" tr="сто"/>
+    <d v="hundredth" p="numeral" ts="ˈhʌndrədθ" tr="сотый"/>
+    <d v="hundredth" p="noun" ts="ˈhʌndrədθ" tr="сотая"/>
+    <d v="hung" p="participle" ts="hʌŋ" tr="подвешенный; увешанный"/>
+    <d v="hunger" p="noun" ts="ˈhʌŋgə" tr="голод; голодание; сильное желание"/>
+    <d v="hunger" p="verb" ts="ˈhʌŋgə" tr="голодать"/>
+    <d v="hunger" p="adjective" ts="ˈhʌŋgə" tr="голодный"/>
+    <d v="hunger strike" p="noun" ts="ˈhʌŋgə straɪk" tr="голодовка; голодная забастовка"/>
+    <d v="hungrily" p="adverb" ts="ˈhʌŋgrəlɪ" tr="жадно"/>
+    <d v="hungrily" p="noun" ts="ˈhʌŋgrəlɪ" tr="с жадностью"/>
+    <d v="hungrily" p="adjective" ts="ˈhʌŋgrəlɪ" tr="голодный"/>
+    <d v="hungry" p="adjective" ts="ˈhʌŋgrɪ" tr="голодный; прожорливый"/>
+    <d v="hungry" p="verb" ts="ˈhʌŋgrɪ" tr="проголодаться; голодать"/>
+    <d v="hungry" p="noun" ts="ˈhʌŋgrɪ" tr="голод"/>
+    <d v="hungry" p="participle" ts="ˈhʌŋgrɪ" tr="голодающий; жаждущий; проголодавшийся"/>
+    <d v="hunk" p="noun" ts="hʌŋk" tr="кусок"/>
+    <d v="hunker" p="noun" ts="ˈhʌŋkə" tr="горбун; ретроград"/>
+    <d v="hunt" p="noun" ts="hʌnt" tr="охота"/>
+    <d v="hunt" p="verb" ts="hʌnt" tr="охотиться; выследить; ловить; гонять; травить; выискивать; затравить"/>
+    <d v="hunt" p="adjective" ts="hʌnt" tr="охотничий"/>
+    <d v="hunter" p="noun" ts="ˈhʌntə" tr="охотник; Хантер; ловец"/>
+    <d v="hunter" p="adjective" ts="ˈhʌntə" tr="охотничий"/>
+    <d v="hunting" p="noun" ts="ˈhʌntɪŋ" tr="охота; звероловство; охотхозяйство"/>
+    <d v="hunting" p="adjective" ts="ˈhʌntɪŋ" tr="охотничий; ловчий"/>
+    <d v="hunting" p="participle" ts="ˈhʌntɪŋ" tr="охотящийся"/>
+    <d v="hurdle" p="noun" ts="hɜːdl" tr="препятствие; трудность; переносная загородка"/>
+    <d v="hurdler" p="noun" ts="ˈhɜːdlə" tr="барьерист"/>
+    <d v="hurl" p="verb" ts="hɜːl" tr="бросить; швырнуть; обрушить; осыпать"/>
+    <d v="hurrah" p="interjection" ts="hʊˈrɑː" tr="ура"/>
+    <d v="hurricane" p="noun" ts="ˈhʌrɪkən" tr="ураган"/>
+    <d v="hurricane" p="adjective" ts="ˈhʌrɪkən" tr="ураганный"/>
+    <d v="hurried" p="adverb" ts="ˈhʌrɪd" tr="поспешно"/>
+    <d v="hurried" p="adjective" ts="ˈhʌrɪd" tr="торопливый"/>
+    <d v="hurriedly" p="adverb" ts="ˈhʌrɪdlɪ" tr="поспешно"/>
+    <d v="hurry" p="verb" ts="ˈhʌrɪ" tr="спешить; поспешить; поторапливать; выбежать"/>
+    <d v="hurry" p="noun" ts="ˈhʌrɪ" tr="спешка; торопливость; нетерпение"/>
+    <d v="hurry" p="adjective" ts="ˈhʌrɪ" tr="торопливый"/>
+    <d v="hurt" p="verb" ts="hɜːt"
+       tr="повредить; причинить; болеть; обидеть; ранить; ушибать; причинить боль; причинять вред; делать больно"/>
+    <d v="hurt" p="noun" ts="hɜːt" tr="боль; повреждение"/>
+    <d v="hurt" p="participle" ts="hɜːt" tr="ранимый"/>
+    <d v="hurtful" p="adjective" ts="ˈhɜːtfʊl" tr="вредный; обидный"/>
+    <d v="hurtle" p="verb" ts="hɜːtl" tr="мчаться"/>
+    <d v="husband" p="noun" ts="ˈhʌzbənd" tr="муж"/>
+    <d v="husband" p="verb" ts="ˈhʌzbənd" tr="жениться; управлять"/>
+    <d v="hush" p="verb" ts="hʌʃ" tr="замять; замолчать; замалчивать; умолчать; успокаивать"/>
+    <d v="hush" p="noun" ts="hʌʃ" tr="тишина"/>
+    <d v="husk" p="noun" ts="hʌsk" tr="шелуха; лузга; оболочка"/>
+    <d v="husky" p="noun" ts="ˈhʌskɪ" tr="хаски; лайка; здоровяк"/>
+    <d v="husky" p="adjective" ts="ˈhʌskɪ" tr="хриплый; крепкий; рослый"/>
+    <d v="husky" p="participle" ts="ˈhʌskɪ" tr="охрипший; покрытый шелухой"/>
+    <d v="hustle" p="noun" ts="hʌsl" tr="суета; энергия"/>
+    <d v="hustle" p="verb" ts="hʌsl" tr="толкать; поспешить; суетиться; теснить"/>
+    <d v="hustler" p="noun" ts="ˈhʌslə" tr="мошенник; карманник"/>
+    <d v="hut" p="noun" ts="hʌt" tr="хижина; изба; Барак; шалаш; будка; домишко"/>
+    <d v="Hutch" p="noun" ts="hʌʧ" tr="бункер; клетка для кроликов; закром"/>
+    <d v="hybrid" p="adjective" ts="ˈhaɪbrɪd" tr="гибридный"/>
+    <d v="hybrid" p="noun" ts="ˈhaɪbrɪd" tr="гибрид"/>
+    <d v="hybrid" p="participle" ts="ˈhaɪbrɪd" tr="смешанный"/>
+    <d v="hydrant" p="noun" ts="ˈhaɪdrənt" tr="гидрант"/>
+    <d v="hydraulic" p="adjective" ts="haɪˈdrɔːlɪk" tr="гидравлический; гидротехнический"/>
+    <d v="hydraulic" p="noun" ts="haɪˈdrɔːlɪk" tr="гидросистема; гидротехника; гидрооборудование"/>
+    <d v="hydraulics" p="noun" ts="haɪˈdrɔːlɪks" tr="гидравлика"/>
+    <d v="hydroelectric" p="noun" ts="ˈhaɪdrəʊɪˈlektrɪk" tr="ГЭС"/>
+    <d v="hydroelectric" p="adjective" ts="ˈhaɪdrəʊɪˈlektrɪk" tr="гидроэлектрический"/>
+    <d v="hydrogen" p="noun" ts="ˈhaɪdrɪʤən" tr="водород"/>
+    <d v="hydrogen" p="adjective" ts="ˈhaɪdrɪʤən" tr="водородный"/>
+    <d v="hydroplane" p="noun" ts="ˈhaɪdrəʊpleɪn" tr="гидросамолет"/>
+    <d v="hyena" p="noun" ts="haɪˈiːnə" tr="гиена"/>
+    <d v="hygiene" p="noun" ts="ˈhaɪʤiːn" tr="гигиена"/>
+    <d v="hygiene" p="adjective" ts="ˈhaɪʤiːn" tr="гигиенический"/>
+    <d v="hygienic" p="adjective" ts="haɪˈʤiːnɪk" tr="гигиенический"/>
+    <d v="hygienic" p="noun" ts="haɪˈʤiːnɪk" tr="гигиена"/>
+    <d v="hygienic" p="adverb" ts="haɪˈʤiːnɪk" tr="гигиенически"/>
+    <d v="hygienically" p="adverb" ts="haɪˈʤiːnɪklɪ" tr="гигиенически"/>
+    <d v="hymn" p="noun" ts="hɪm" tr="гимн"/>
+    <d v="hymn" p="verb" ts="hɪm" tr="воспевать"/>
+    <d v="hype" p="noun" ts="haɪp" tr="шумиха; навязчивая реклама; обман"/>
+    <d v="hype" p="verb" ts="haɪp" tr="раздуть"/>
+    <d v="hyper" p="adjective" ts="ˈhaɪpər" tr="гиперактивный; гипертекстовый"/>
+    <d v="hyperactive" p="adjective" ts="haɪpəˈræktɪv" tr="гиперактивный"/>
+    <d v="hyperactive" p="noun" ts="haɪpəˈræktɪv" tr="гиперактивность"/>
+    <d v="hyperactivity" p="noun" ts="haɪpərækˈtɪvɪtɪ" tr="гиперактивность"/>
+    <d v="hyperbole" p="noun" ts="haɪˈpɜːbəlɪ" tr="гипербола"/>
+    <d v="hypersensitive" p="adjective" ts="ˈhaɪpɜːˈsensɪtɪv"
+       tr="сверхчувствительный; гиперчувствительный; чрезмерно чувствительный"/>
+    <d v="hypersensitive" p="noun" ts="ˈhaɪpɜːˈsensɪtɪv" tr="сверхчувствительность"/>
+    <d v="hypertension" p="noun" ts="ˈhaɪpɜːˈtenʃn" tr="гипертония"/>
+    <d v="hypertension" p="adjective" ts="ˈhaɪpɜːˈtenʃn" tr="гипертонический"/>
+    <d v="hyphen" p="noun" ts="ˈhaɪfən" tr="дефис"/>
+    <d v="hyphenate" p="noun" ts="ˈhaɪfəneɪt" tr="через дефис"/>
+    <d v="hyphenation" p="noun" ts="haɪfəˈneɪʃn" tr="перенос; расстановка переносов; перенос слов"/>
+    <d v="hypnosis" p="noun" ts="hɪpˈnəʊsɪs" tr="гипноз"/>
+    <d v="hypnotic" p="adjective" ts="hɪpˈnɔtɪk" tr="гипнотический"/>
+    <d v="hypnotic" p="noun" ts="hɪpˈnɔtɪk" tr="гипноз; снотворное"/>
+    <d v="hypnotism" p="noun" ts="ˈhɪpnətɪzm" tr="гипноз; гипнотизм"/>
+    <d v="hypnotist" p="noun" ts="ˈhɪpnətɪst" tr="гипнотизер"/>
+    <d v="hypnotize" p="verb" ts="ˈhɪpnətaɪz" tr="гипнотизировать"/>
+    <d v="hypochondria" p="noun" ts="haɪpəʊˈkɔndrɪə" tr="ипохондрия"/>
+    <d v="hypochondriac" p="noun" ts="haɪpəʊˈkɔndrɪæk" tr="ипохондрик"/>
+    <d v="hypochondriac" p="adjective" ts="haɪpəʊˈkɔndrɪæk" tr="ипохондрический; мнительный"/>
+    <d v="hypocrisy" p="noun" ts="hɪˈpɔkrəsɪ" tr="лицемерие; ханжество; фальшь"/>
+    <d v="hypocrite" p="noun" ts="ˈhɪpəkrɪt" tr="лицемер; лицемерка; притворщик"/>
+    <d v="hypocritical" p="adjective" ts="hɪpəˈkrɪtɪkəl" tr="лицемерный"/>
+    <d v="hypocritical" p="noun" ts="hɪpəˈkrɪtɪkəl" tr="лицемерие"/>
+    <d v="hypocritical" p="verb" ts="hɪpəˈkrɪtɪkəl" tr="лицемерить"/>
+    <d v="hypocritically" p="adverb" ts="hɪpəˈkrɪtɪklɪ" tr="лицемерно"/>
+    <d v="hypodermic" p="adjective" ts="haɪpəʊˈdɜːmɪk" tr="подкожный"/>
+    <d v="hypothermia" p="noun" ts="haɪpəʊˈθɜːmɪə" tr="гипотермия; переохлаждение"/>
+    <d v="hypothesis" p="noun" ts="haɪˈpɔθɪsɪs" tr="гипотеза"/>
+    <d v="hypothetical" p="adjective" ts="haɪpəˈθetɪkl" tr="гипотетический; предположительный; условный"/>
+    <d v="hypothetical" p="adverb" ts="haɪpəˈθetɪkl" tr="гипотетически"/>
+    <d v="hypothetically" p="adverb" ts="haɪpəˈθetɪklɪ" tr="гипотетически"/>
+    <d v="hysterectomy" p="noun" ts="hɪˈstrektəmɪ" tr="гистерэктомия; удаление матки"/>
+    <d v="hysteria" p="noun" ts="hɪsˈtɪərɪə" tr="истерия; истеричность"/>
+    <d v="hysterical" p="adjective" ts="hɪsˈterɪkəl" tr="истерический; надрывный"/>
+    <d v="hysterical" p="noun" ts="hɪsˈterɪkəl" tr="истерика; в истерике"/>
+    <d v="hysterical" p="adverb" ts="hɪsˈterɪkəl" tr="истерически"/>
+    <d v="hysterically" p="adverb" ts="hɪˈsterɪklɪ" tr="истерически; истерично"/>
+    <d v="hysterics" p="noun" ts="hɪsˈterɪks" tr="истерика"/>
+    <d v="hysterics" p="adjective" ts="hɪsˈterɪks" tr="истерический"/>
+
+</defs>

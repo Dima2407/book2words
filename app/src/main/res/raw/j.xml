@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="jabber" p="verb" ts="ˈʤæbə" tr="болтать; тараторить; трещать"/>
+    <d v="jabber" p="noun" ts="ˈʤæbə" tr="болтовня; тарабарщина"/>
+    <d v="jack" p="noun" ts="ʤæk" tr="Джек; гнездо; домкрат; валет; человек; таль; компенсатор; флаг; гюйс; работник"/>
+    <d v="jackal" p="noun" ts="ˈʤækɔːl" tr="шакал"/>
+    <d v="jackass" p="noun" ts="ˈʤækæs" tr="осел; болван"/>
+    <d v="jacket" p="noun" ts="ˈʤækɪt" tr="куртка; кожух; обложка; суперобложка"/>
+    <d v="jackhammer" p="adjective" ts="ˈʤækhæmər" tr="отбойный"/>
+    <d v="jackhammer" p="noun" ts="ˈʤækhæmər" tr="отбойный молоток"/>
+    <d v="jackpot" p="noun" ts="ˈʤækpɔt" tr="джекпот; куш; банк"/>
+    <d v="jade" p="noun" ts="ʤeɪd" tr="нефрит; Джейд; кляча; шлюха"/>
+    <d v="jade" p="adjective" ts="ʤeɪd" tr="нефритовый"/>
+    <d v="jaded" p="participle" ts="ˈʤeɪdɪd" tr="измученный; изнуренный; пресытившийся"/>
+    <d v="jagged" p="adjective" ts="ʤægd" tr="зубчатый; зазубренный"/>
+    <d v="Jaguar" p="noun" ts="ˈʤægjʊə" tr="ягуар"/>
+    <d v="jail" p="noun" ts="ʤeɪl" tr="тюрьма"/>
+    <d v="jail" p="adjective" ts="ʤeɪl" tr="тюремный"/>
+    <d v="jailer" p="noun" ts="ˈʤeɪlə" tr="тюремщик"/>
+    <d v="jalopy" p="noun" ts="ˈʤæləpɪ" tr="драндулет"/>
+    <d v="jam" p="noun" ts="ʤæm" tr="варенье; пробка; помеха; заедание; варение; давка; сжимание"/>
+    <d v="jam" p="verb" ts="ʤæm" tr="заклинить; глушить; заедать; зажимать; сжимать; затереть"/>
+    <d v="jamb" p="noun" ts="ʤæm" tr="косяк; наличник; подставка"/>
+    <d v="Jamboree" p="noun" ts="ʤæmbəˈriː" tr="Джамбори; слет; празднество; пирушка; веселье"/>
+    <d v="jammed" p="participle" ts="ʤæmd" tr="зажатый; затертый"/>
+    <d v="Jane DOE" p="noun" ts="ʤeɪn dəʊ" tr="Джейн"/>
+    <d v="janitor" p="noun" ts="ˈʤænɪtə" tr="уборщик; дворник; швейцар"/>
+    <d v="January" p="noun" ts="ˈʤænjʊərɪ" tr="январь"/>
+    <d v="January" p="adjective" ts="ˈʤænjʊərɪ" tr="январский"/>
+    <d v="Japanese" p="adjective" ts="ʤæpəˈniːz" tr="японский"/>
+    <d v="Japanese" p="noun" ts="ʤæpəˈniːz" tr="японка"/>
+    <d v="jar" p="noun" ts="ʤɑː" tr="банка; кувшин; дисгармония; дребезжание"/>
+    <d v="jar" p="verb" ts="ʤɑː" tr="сотрясать"/>
+    <d v="jargon" p="noun" ts="ˈʤɑːgən" tr="жаргон; тарабарщина"/>
+    <d v="jaundice" p="noun" ts="ˈʤɔːndɪs" tr="желтуха; предвзятость"/>
+    <d v="jaunt" p="noun" ts="ʤɔːnt" tr="прогулка"/>
+    <d v="jauntily" p="adverb" ts="ˈʤɔːntɪlɪ" tr="небрежно; весело"/>
+    <d v="jaunty" p="adjective" ts="ˈʤɔːntɪ" tr="бойкий; беспечный"/>
+    <d v="javelin" p="noun" ts="ˈʤævlɪn" tr="копье"/>
+    <d v="jaw" p="noun" ts="ʤɔː" tr="челюсть; пасть; зажим; клещи; тиски; болтливость"/>
+    <d v="jaw" p="adjective" ts="ʤɔː" tr="челюстной"/>
+    <d v="jazz" p="noun" ts="ʤæz" tr="джаз; пестрота"/>
+    <d v="jazz" p="adjective" ts="ʤæz" tr="джазовый"/>
+    <d v="jazzy" p="adjective" ts="ˈʤæzɪ" tr="джазовый; яркий"/>
+    <d v="jealous" p="verb" ts="ˈʤeləs" tr="ревновать; завидовать; возревновать; приревновать"/>
+    <d v="jealous" p="adjective" ts="ˈʤeləs" tr="ревнивый; ревностный; заботливый"/>
+    <d v="jealous" p="noun" ts="ˈʤeləs" tr="ревность; ревнивец"/>
+    <d v="jealous" p="adverb" ts="ˈʤeləs" tr="завидно"/>
+    <d v="jealously" p="adverb" ts="ˈʤeləslɪ" tr="ревниво"/>
+    <d v="jealously" p="noun" ts="ˈʤeləslɪ" tr="ревность"/>
+    <d v="jealousy" p="noun" ts="ˈʤeləsɪ" tr="ревность"/>
+    <d v="jealousy" p="verb" ts="ˈʤeləsɪ" tr="ревновать"/>
+    <d v="jeans" p="noun" ts="ʤiːnz" tr="джинсы; Джинс"/>
+    <d v="jeans" p="adjective" ts="ʤiːnz" tr="джинсовый"/>
+    <d v="jeep" p="noun" ts="ʤiːp" tr="джип"/>
+    <d v="jeer" p="verb" ts="ʤɪə" tr="издеваться; глумиться; поиздеваться; высмеивать"/>
+    <d v="jeer" p="noun" ts="ʤɪə" tr="насмешка; издевка"/>
+    <d v="jeez" p="adverb" ts="ʤiːz" tr="здорово"/>
+    <d v="jelly" p="noun" ts="ˈʤelɪ" tr="желе; молочко; вазелин"/>
+    <d v="jellyfish" p="noun" ts="ˈʤelɪfɪʃ" tr="медуза"/>
+    <d v="jeopardize" p="verb" ts="ˈʤepədaɪz" tr="подвергать; подвергать опасности"/>
+    <d v="jeopardy" p="noun" ts="ˈʤepədɪ" tr="опасность"/>
+    <d v="jerk" p="noun" ts="ʤɜːk" tr="рывок; придурок; сопляк; сволочь; резкое движение; подергивание; вздрагивание"/>
+    <d v="jerk" p="verb" ts="ʤɜːk" tr="рвануть; дернуться; отпрянуть; отдергивать"/>
+    <d v="jerk" p="participle" ts="ʤɜːk" tr="дергающийся"/>
+    <d v="jerky" p="adjective" ts="ˈʤɜːkɪ" tr="отрывистый; прерывистый; тряский"/>
+    <d v="jerky" p="noun" ts="ˈʤɜːkɪ" tr="вяленое мясо"/>
+    <d v="jerky" p="participle" ts="ˈʤɜːkɪ" tr="двигающийся резкими толчками"/>
+    <d v="Jersey" p="noun" ts="ˈʤɜːzɪ" tr="Джерси; майка; трикотаж"/>
+    <d v="Jersey" p="adjective" ts="ˈʤɜːzɪ" tr="трикотажный"/>
+    <d v="jest" p="noun" ts="ʤest" tr="шутка; острота"/>
+    <d v="jest" p="verb" ts="ʤest" tr="шутить; насмехаться"/>
+    <d v="jester" p="noun" ts="ˈʤestə" tr="шут; шутник; Шутов"/>
+    <d v="Jesus" p="noun" ts="ˈʤiːzəs" tr="Иисус"/>
+    <d v="Jesus Christ" p="noun" ts="ˈʤiːzəs kraɪst" tr="Христос"/>
+    <d v="jet" p="noun" ts="ʤet" tr="самолет; форсунка; гагат; жиклер"/>
+    <d v="jet" p="adverbial participle" ts="ʤet" tr="струя"/>
+    <d v="jet" p="adjective" ts="ʤet" tr="реактивный; струйный"/>
+    <d v="jet engine" p="noun" ts="ʤet ˈenʤɪn" tr="реактивный двигатель"/>
+    <d v="jettison" p="verb" ts="ˈʤetɪsn" tr="отбросить; сбрасывать"/>
+    <d v="jetty" p="noun" ts="ˈʤetɪ" tr="причал"/>
+    <d v="Jew" p="noun" ts="ʤuː" tr="еврей"/>
+    <d v="jewel" p="noun" ts="ˈʤuːəl" tr="драгоценность; жемчужина; камень"/>
+    <d v="jewel" p="adjective" ts="ˈʤuːəl" tr="драгоценный"/>
+    <d v="jeweler" p="noun" ts="ˈʤuːələr" tr="ювелир"/>
+    <d v="jeweler" p="adjective" ts="ˈʤuːələr" tr="ювелирный"/>
+    <d v="jewelry" p="adjective" ts="ˈʤuːəlrɪ" tr="ювелирный"/>
+    <d v="jewelry" p="noun" ts="ˈʤuːəlrɪ" tr="украшение"/>
+    <d v="Jewish" p="adjective" ts="ˈʤuːɪʃ" tr="еврейский"/>
+    <d v="Jewish" p="noun" ts="ˈʤuːɪʃ" tr="еврей"/>
+    <d v="jibe" p="noun" ts="ʤaɪb" tr="насмешка"/>
+    <d v="jibe" p="verb" ts="ʤaɪb" tr="соответствовать"/>
+    <d v="jiffy" p="noun" ts="ˈʤɪfɪ" tr="миг"/>
+    <d v="jig" p="noun" ts="ʤɪg"
+       tr="джига; приспособление; кондуктор; зажимное приспособление; стапель; блесна; матрица"/>
+    <d v="jiggle" p="verb" ts="ʤɪgl" tr="покачивать; трясти"/>
+    <d v="jigsaw puzzle" p="noun" ts="ˈʤɪgsɔː pʌzl" tr="головоломка"/>
+    <d v="jingle" p="noun" ts="ʤɪŋgl" tr="джингл; звон"/>
+    <d v="jingle" p="verb" ts="ʤɪŋgl" tr="звенеть; бренчать; дребезжать"/>
+    <d v="jinx" p="noun" ts="ʤɪŋks" tr="Джинкс; сглаз; проклятие"/>
+    <d v="jinx" p="verb" ts="ʤɪŋks" tr="сглазить"/>
+    <d v="jitters" p="noun" ts="ˈʤɪtəz" tr="испуг; нервное возбуждение"/>
+    <d v="jittery" p="adjective" ts="ˈʤɪtərɪ" tr="нервный"/>
+    <d v="jittery" p="participle" ts="ˈʤɪtərɪ" tr="пугливый"/>
+    <d v="jive" p="noun" ts="ʤaɪv" tr="болтовня; джаз"/>
+    <d v="job" p="noun" ts="ʤɔb" tr="работа; Иов; работенка"/>
+    <d v="job" p="adjective" ts="ʤɔb" tr="рабочий; должностной"/>
+    <d v="jobless" p="adjective" ts="ˈʤɔblɪs" tr="безработный"/>
+    <d v="joblessness" p="noun" ts="ˈʤɒbləsnəs" tr="безработица"/>
+    <d v="jock" p="noun" ts="ʤɔk" tr="Джок"/>
+    <d v="jockey" p="noun" ts="ˈʤɔkɪ" tr="жокей"/>
+    <d v="jockey" p="verb" ts="ˈʤɔkɪ" tr="надувать"/>
+    <d v="jocular" p="adjective" ts="ˈʤɔkjʊlə" tr="шутливый; забавный"/>
+    <d v="jog" p="noun" ts="ʤɔg" tr="пробежка; трусца; толчок; ручка Jog; встряхивание"/>
+    <d v="jog" p="verb" ts="ʤɔg" tr="бегать; подтолкнуть; трусить"/>
+    <d v="jogger" p="noun" ts="ˈʤɒgər" tr="бегун"/>
+    <d v="John" p="noun" ts="ʤɔn" tr="Джон; Иоанн; сортир"/>
+    <d v="join" p="verb" ts="ʤɔɪn" tr="присоединиться; вступить; соединить; объединить; приобщиться"/>
+    <d v="join" p="noun" ts="ʤɔɪn" tr="вступление; соединение"/>
+    <d v="joint" p="adjective" ts="ʤɔɪnt" tr="совместный"/>
+    <d v="joint" p="noun" ts="ʤɔɪnt" tr="сустав; соединение; стык; место; трещина; притон"/>
+    <d v="joint" p="participle" ts="ʤɔɪnt" tr="объединенный"/>
+    <d v="jointly" p="adverb" ts="ˈʤɔɪntlɪ" tr="совместно; коллегиально"/>
+    <d v="joint venture" p="noun" ts="ʤɔɪnt ˈvenʧə"
+       tr="совместное предприятие; совместная деятельность; создание совместного предприятия"/>
+    <d v="joke" p="noun" ts="ʤəʊk" tr="шутка; острота; посмешище"/>
+    <d v="joke" p="verb" ts="ʤəʊk" tr="шутить"/>
+    <d v="joker" p="noun" ts="ˈʤəʊkə" tr="джокер; шутник; парень"/>
+    <d v="jolly" p="adjective" ts="ˈʤɔlɪ" tr="веселый; восхитительный"/>
+    <d v="jolly" p="noun" ts="ˈʤɔlɪ" tr="Джолли"/>
+    <d v="jolt" p="noun" ts="ʤəʊlt" tr="толчок; встряска; тряска"/>
+    <d v="jolt" p="verb" ts="ʤəʊlt" tr="встряхивать"/>
+    <d v="jostle" p="verb" ts="ʤɔsl" tr="толкать; затолкать"/>
+    <d v="jostle" p="noun" ts="ʤɔsl" tr="толкотня"/>
+    <d v="jot" p="verb" ts="ʤɔt" tr="записать; кратко записать; бегло набросать"/>
+    <d v="jot" p="noun" ts="ʤɔt" tr="йота"/>
+    <d v="journal" p="noun" ts="ʤɜːnl" tr="журнал; цапфа"/>
+    <d v="journal" p="adjective" ts="ʤɜːnl" tr="журнальный"/>
+    <d v="journalism" p="noun" ts="ˈʤɜːnəlɪzm" tr="журналистика; профессия журналиста"/>
+    <d v="journalism" p="adjective" ts="ˈʤɜːnəlɪzm" tr="журналистский"/>
+    <d v="journalist" p="noun" ts="ˈʤɜːnəlɪst" tr="журналист"/>
+    <d v="journalist" p="adjective" ts="ˈʤɜːnəlɪst" tr="журналистский"/>
+    <d v="journey" p="noun" ts="ˈʤɜːnɪ" tr="путешествие; проезд"/>
+    <d v="journey" p="verb" ts="ˈʤɜːnɪ" tr="путешествовать"/>
+    <d v="jovial" p="adjective" ts="ˈʤəʊvjəl" tr="веселый"/>
+    <d v="jowls" p="noun" ts="ʤaʊlz" tr="щеки"/>
+    <d v="joy" p="noun" ts="ʤɔɪ" tr="радость; утеха; удовольствие; Джой; восторг"/>
+    <d v="joy" p="verb" ts="ʤɔɪ" tr="радоваться"/>
+    <d v="joy" p="adjective" ts="ʤɔɪ" tr="радостный"/>
+    <d v="joyful" p="adjective" ts="ˈʤɔɪfʊl" tr="радостный"/>
+    <d v="joyful" p="noun" ts="ˈʤɔɪfʊl" tr="радость"/>
+    <d v="joyful" p="verb" ts="ˈʤɔɪfʊl" tr="веселиться"/>
+    <d v="joyfully" p="adverb" ts="ˈʤɔɪfəlɪ" tr="радостно"/>
+    <d v="joyfully" p="noun" ts="ˈʤɔɪfəlɪ" tr="радость; с радостью"/>
+    <d v="joyous" p="adjective" ts="ˈʤɔɪəs" tr="радостный"/>
+    <d v="joyous" p="noun" ts="ˈʤɔɪəs" tr="радость"/>
+    <d v="joyously" p="adverb" ts="ˈʤɔɪəslɪ" tr="радостно"/>
+    <d v="joystick" p="noun" ts="ˈʤɔɪstɪk" tr="джойстик"/>
+    <d v="jubilant" p="adjective" ts="ˈʤuːbɪlənt" tr="ликующий"/>
+    <d v="jubilant" p="verb" ts="ˈʤuːbɪlənt" tr="ликовать"/>
+    <d v="jubilant" p="participle" ts="ˈʤuːbɪlənt" tr="торжествующий"/>
+    <d v="jubilation" p="noun" ts="ʤuːbɪˈleɪʃn" tr="ликование"/>
+    <d v="Judaism" p="noun" ts="ˈʤuːdeɪɪzm" tr="иудаизм; иудейство; юдаизм"/>
+    <d v="judge" p="noun" ts="ʤʌʤ" tr="судья; ценитель; член жюри"/>
+    <d v="judge" p="verb" ts="ʤʌʤ" tr="судить; считать; решать"/>
+    <d v="judge" p="participle" ts="ʤʌʤ" tr="судящий"/>
+    <d v="judgment" p="noun" ts="ˈʤʌʤmənt" tr="решение; суд"/>
+    <d v="judgment" p="adjective" ts="ˈʤʌʤmənt" tr="судный"/>
+    <d v="judgmental" p="participle" ts="ʤɪˈʤmentl" tr="осуждающий"/>
+    <d v="judgmental" p="verb" ts="ʤɪˈʤmentl" tr="осуждать"/>
+    <d v="judgmental" p="adjective" ts="ʤɪˈʤmentl" tr="субъективный"/>
+    <d v="judgment day" p="noun" ts="ˈʤʌʤmənt deɪ" tr="судный день; день суда"/>
+    <d v="judicial" p="adjective" ts="ʤuːˈdɪʃəl" tr="судебный; беспристрастный"/>
+    <d v="judiciary" p="adjective" ts="ʤuːˈdɪʃɪərɪ" tr="судебный"/>
+    <d v="judiciary" p="noun" ts="ʤuːˈdɪʃɪərɪ" tr="судебная система; судейский корпус"/>
+    <d v="judicious" p="adjective" ts="ʤuːˈdɪʃəs" tr="разумный"/>
+    <d v="judiciously" p="adverb" ts="ʤuːˈdɪʃəslɪ" tr="рассудительно; благоразумно"/>
+    <d v="jug" p="noun" ts="ʤʌg" tr="кувшин; кубышка"/>
+    <d v="juggle" p="verb" ts="ʤʌgl" tr="жонглировать; совмещать; манипулировать"/>
+    <d v="juggle" p="noun" ts="ʤʌgl" tr="жонглирование"/>
+    <d v="juggler" p="noun" ts="ˈʤʌglə" tr="жонглер; фокусник; плут"/>
+    <d v="jugular" p="adjective" ts="ˈʤʌgjʊlə" tr="яремный"/>
+    <d v="juice" p="noun" ts="ʤuːs" tr="сок; горючее"/>
+    <d v="juice" p="adjective" ts="ʤuːs" tr="соковой"/>
+    <d v="juicy" p="adjective" ts="ˈʤuːsɪ" tr="сочный; пикантный"/>
+    <d v="jukebox" p="noun" ts="ˈʤuːkbɒks" tr="музыкальный автомат; автомат"/>
+    <d v="July" p="noun" ts="ʤuːˈlaɪ" tr="июль"/>
+    <d v="July" p="adjective" ts="ʤuːˈlaɪ" tr="июльский"/>
+    <d v="jumble" p="noun" ts="ʤʌmbl" tr="путаница; нагромождение; мешанина; беспорядочная смесь"/>
+    <d v="jumble" p="adjective" ts="ʤʌmbl" tr="беспорядочный"/>
+    <d v="jumble" p="verb" ts="ʤʌmbl" tr="смешивать"/>
+    <d v="jumbo" p="adjective" ts="ˈʤʌmbəʊ" tr="гигантский"/>
+    <d v="jump" p="verb" ts="ʤʌmp"
+       tr="прыгать; прыгнуть; вскочить; перейти; поскакать; выскакивать; перескакивать; вздрагивать; соскакивать; брать"/>
+    <d v="jump" p="noun" ts="ʤʌmp" tr="прыжок; разрыв; резкое повышение"/>
+    <d v="jumper" p="noun" ts="ˈʤʌmpə"
+       tr="перемычка; джампер; джемпер; прыгун; шлямбур; парашютист; скакун; малица; соединительный провод"/>
+    <d v="jumper cable" p="noun" ts="ˈʤʌmpə keɪbl" tr="соединительный кабель"/>
+    <d v="jump rope" p="noun" ts="ʤʌmp rəʊp" tr="скакалка"/>
+    <d v="jumpsuit" p="noun" ts="ˈʤʌmpsuːt" tr="комбинезон"/>
+    <d v="jumpy" p="adjective" ts="ˈʤʌmpɪ" tr="нервный"/>
+    <d v="jumpy" p="verb" ts="ˈʤʌmpɪ" tr="нервничать"/>
+    <d v="jumpy" p="participle" ts="ˈʤʌmpɪ" tr="скачущий"/>
+    <d v="junction" p="noun" ts="ʤʌŋkʃn"
+       tr="соединение; узел; переход; развязка; спай; слияние; примыкание; место соединения; узловая станция"/>
+    <d v="junction" p="adjective" ts="ʤʌŋkʃn" tr="соединительный; узловой"/>
+    <d v="juncture" p="noun" ts="ˈʤʌŋkʧə" tr="момент; стык; стечение обстоятельств"/>
+    <d v="June" p="noun" ts="ʤuːn" tr="июнь"/>
+    <d v="June" p="adjective" ts="ʤuːn" tr="июньский"/>
+    <d v="jungle" p="noun" ts="ʤʌŋgl" tr="джунгли; сельва"/>
+    <d v="junior" p="adjective" ts="ˈʤuːnjə" tr="младший; юниорский"/>
+    <d v="junior" p="noun" ts="ˈʤuːnjə" tr="юниор; Джуниор; сынок"/>
+    <d v="junior" p="adjective" ts="ˈʤuːnjə" tr="младший; юниорский"/>
+    <d v="junior" p="noun" ts="ˈʤuːnjə" tr="юниор; Джуниор; сынок"/>
+    <d v="junior high school" p="noun" ts="ˈʤuːnjə haɪ skuːl" tr="неполная средняя школа"/>
+    <d v="junk" p="adjective" ts="ʤʌŋk" tr="нежелательный; нездоровый; бросовый"/>
+    <d v="junk" p="noun" ts="ʤʌŋk" tr="мусор; старье; барахло; джонка; лом; рухлядь; чушь"/>
+    <d v="junket" p="noun" ts="ˈʤʌŋkɪt" tr="пирушка; пикник"/>
+    <d v="junket" p="verb" ts="ˈʤʌŋkɪt" tr="пировать"/>
+    <d v="junk food" p="noun" ts="ʤʌŋk fuːd" tr="нездоровая пища; высококалорийная вредная пища; суррогатная пища"/>
+    <d v="junkie" p="noun" ts="ˈʤʌŋkɪ" tr="наркоман"/>
+    <d v="junk mail" p="noun" ts="ʤʌŋk meɪl" tr="нежелательная почта; почта на выброс; макулатурная почта"/>
+    <d v="junkyard" p="noun" ts="ˈʤʌŋkjɑːd" tr="свалка"/>
+    <d v="junta" p="noun" ts="ˈʤʌntə" tr="хунта"/>
+    <d v="Jupiter" p="noun" ts="ˈʤuːpɪtə" tr="Юпитер"/>
+    <d v="Jupiter" p="adjective" ts="ˈʤuːpɪtə" tr="юпитерианский"/>
+    <d v="jurisdiction" p="noun" ts="ʤʊərɪsˈdɪkʃn"
+       tr="юрисдикция; подсудность; сфера полномочий; отправление правосудия"/>
+    <d v="juror" p="adjective" ts="ˈʤʊərə" tr="присяжный"/>
+    <d v="juror" p="noun" ts="ˈʤʊərə" tr="присяжный заседатель; жюри"/>
+    <d v="jury" p="noun" ts="ˈʤʊərɪ" tr="жюри"/>
+    <d v="jury" p="adjective" ts="ˈʤʊərɪ" tr="присяжный"/>
+    <d v="just" p="particle" ts="ʤʌst" tr="просто; лишь; точно; прямо"/>
+    <d v="just" p="adverb" ts="ʤʌst" tr="как раз; только что; совсем; едва"/>
+    <d v="just" p="adjective" ts="ʤʌst" tr="справедливый"/>
+    <d v="justice" p="noun" ts="ˈʤʌstɪs" tr="правосудие"/>
+    <d v="justifiable" p="participle" ts="ˈʤʌstɪfaɪəbl" tr="оправданный"/>
+    <d v="justifiable" p="adjective" ts="ˈʤʌstɪfaɪəbl" tr="обоснованный; законный"/>
+    <d v="justifiable" p="noun" ts="ˈʤʌstɪfaɪəbl" tr="оправдание"/>
+    <d v="justifiably" p="adverb" ts="ʤʌstɪˈfaɪəblɪ" tr="справедливо"/>
+    <d v="justification" p="noun" ts="ʤʌstɪfɪˈkeɪʃn" tr="оправдание; выравнивание; выключка"/>
+    <d v="justified" p="participle" ts="ˈʤʌstɪfaɪd" tr="оправданный; мотивированный"/>
+    <d v="justify" p="verb" ts="ˈʤʌstɪfaɪ"
+       tr="оправдать; оправдывать; обосновать; оправдываться; объяснять; подтверждать"/>
+    <d v="justify" p="noun" ts="ˈʤʌstɪfaɪ" tr="оправдание"/>
+    <d v="justly" p="adverb" ts="ˈʤʌstlɪ" tr="справедливо"/>
+    <d v="justly" p="noun" ts="ˈʤʌstlɪ" tr="по справедливости"/>
+    <d v="jut" p="noun" ts="ʤʌt" tr="выступ"/>
+    <d v="jut" p="verb" ts="ʤʌt" tr="выступать"/>
+    <d v="juvenile" p="noun" ts="ˈʤuːvɪnaɪl" tr="несовершеннолетний; молодь"/>
+    <d v="juvenile" p="adjective" ts="ˈʤuːvɪnaɪl" tr="ювенальный; малолетний; юношеский"/>
+    <d v="juvenile delinquent" p="noun" ts="ˈʤuːvɪnaɪl dɪˈlɪŋkwənt" tr="малолетний преступник"/>
+    <d v="juxtapose" p="verb" ts="ˈʤʌkstəpəʊz" tr="сопоставить"/>
+    <d v="juxtaposition" p="noun" ts="ʤʌkstəpəˈzɪʃn"
+       tr="сопоставление; соприкосновение; наложение; непосредственное соседство"/>
+
+</defs>

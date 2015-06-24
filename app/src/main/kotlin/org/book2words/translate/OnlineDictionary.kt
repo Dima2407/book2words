@@ -19,63 +19,31 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
 
     private val deserializer = Gson()
 
-    private val verbPast = "((\\w{3,})e?)d$".toPattern()
-
-    private val plurals = "((\\w{2,})e?)s$".toPattern()
-
-    private val verbContinuous = "(\\w{3,})ing$".toPattern()
-
     private var executor = Executors.newSingleThreadExecutor();
 
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({
-            var defs = find(input)
-            if (defs.isEmpty()) {
-                val matcher = verbPast.matcher(input)
-                if (matcher.matches()) {
-                    var word = matcher.group(2)
-                    defs = find(word)
-                    if (defs.isEmpty()) {
-                        val newWord = matcher.group(1)
-                        if (word.length() != newWord.length()) {
-                            defs = find(newWord)
-                        }
-                    }
-                }
-            }
-            if (defs.isEmpty()) {
-                val matcher = plurals.matcher(input)
-                if (matcher.matches()) {
-                    val word = matcher.group(1)
-                    defs = find(word)
-                    if (defs.isEmpty()) {
-                        val wordWithoutES = matcher.group(2)
-                        if (word.length() != wordWithoutES.length()) {
-                            defs = find(wordWithoutES)
-                            /*if (defs.isEmpty() && wordWithoutES[wordWithoutES.length() - 1] == 'i'){
-                                defs = find()
-                            }*/
-                        }
-                    }
-                }
-            }
-            if (defs.isEmpty()) {
-                val matcher = verbContinuous.matcher(input)
-                if (matcher.matches()) {
-                    defs = find(matcher.group(1))
-                }
-            }
-            onFound(input, defs);
+            onFound(input, find(input));
         })
     }
 
     override fun find(input: String): Array<out Definition> {
-        Logger.debug("find - ${input}", TAG)
-        val result = translate(input)
-        return result.getResults()
+        var items = translate(input).getResults()
+        if(items.isEmpty()){
+            val forms = forms(input)
+            Logger.debug("forms - ${forms}", TAG)
+            for (item in forms) {
+                items = translate(item).getResults()
+                if (items.isNotEmpty()) {
+                    break
+                }
+            }
+        }
+        return items
     }
 
     private fun translate(input: String): DictionaryResult {
+        Logger.debug("find - ${input}", TAG)
         val cached = dictionary.take(input)
         if (cached != null) {
             Logger.debug("find at cache - ${input}", TAG)

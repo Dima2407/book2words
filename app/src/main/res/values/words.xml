@@ -2,214 +2,107 @@
 <resources>
     <string-array name="worlds_english">
         <item>the</item>
-        <item>about</item>
-        <item>and</item>
-        <item>man</item>
         <item>a</item>
         <item>to</item>
-        <item>just</item>
         <item>i</item>
-        <item>by</item>
         <item>is</item>
         <item>am</item>
         <item>of</item>
-        <item>now</item>
-        <item>over</item>
         <item>you</item>
         <item>he</item>
         <item>in</item>
         <item>time</item>
         <item>not</item>
         <item>when</item>
-        <item>hand</item>
         <item>that</item>
         <item>who</item>
         <item>his</item>
         <item>want</item>
-        <item>here</item>
         <item>on</item>
         <item>with</item>
         <item>off</item>
         <item>she</item>
         <item>their</item>
-        <item>right</item>
-        <item>at</item>
         <item>her</item>
         <item>two</item>
         <item>through</item>
-        <item>for</item>
-        <item>eye</item>
-        <item>as</item>
-        <item>head</item>
-        <item>other</item>
         <item>we</item>
         <item>how</item>
-        <item>but</item>
         <item>some</item>
         <item>him</item>
-        <item>more</item>
         <item>they</item>
-        <item>around</item>
         <item>up</item>
-        <item>door</item>
-        <item>room</item>
         <item>what</item>
-        <item>out</item>
-        <item>face</item>
-        <item>day</item>
         <item>me</item>
         <item>where</item>
         <item>way</item>
-        <item>night</item>
         <item>this</item>
         <item>well</item>
-        <item>from</item>
         <item>thing</item>
-        <item>look</item>
-        <item>away</item>
         <item>my</item>
         <item>there</item>
-        <item>only</item>
         <item>something</item>
-        <item>all</item>
-        <item>one</item>
         <item>no</item>
-        <item>good</item>
-        <item>back</item>
         <item>are</item>
         <item>turn</item>
-        <item>can</item>
-        <item>open</item>
-        <item>ask</item>
-        <item>move</item>
         <item>will</item>
         <item>into</item>
-        <item>again</item>
-        <item>little</item>
         <item>if</item>
         <item>too</item>
         <item>then</item>
-        <item>like</item>
         <item>try</item>
         <item>still</item>
         <item>an</item>
         <item>walk</item>
-        <item>before</item>
         <item>so</item>
-        <item>down</item>
         <item>your</item>
         <item>them</item>
-        <item>long</item>
         <item>would</item>
         <item>should</item>
-        <item>call</item>
-        <item>new</item>
-        <item>close</item>
-        <item>anything</item>
         <item>very</item>
-        <item>against</item>
         <item>why</item>
-        <item>guy</item>
         <item>which</item>
-        <item>kill</item>
-        <item>car</item>
-        <item>point</item>
-        <item>any</item>
         <item>small</item>
-        <item>happen</item>
         <item>work</item>
         <item>wall</item>
-        <item>black</item>
-        <item>never</item>
         <item>step</item>
         <item>start</item>
         <item>window</item>
-        <item>even</item>
-        <item>life</item>
-        <item>maybe</item>
         <item>than</item>
-        <item>after</item>
-        <item>own</item>
-        <item>far</item>
         <item>yes</item>
         <item>under</item>
         <item>stop</item>
-        <item>boy</item>
-        <item>old</item>
-        <item>end</item>
         <item>watch</item>
         <item>those</item>
-        <item>first</item>
-        <item>reach</item>
-        <item>may</item>
         <item>while</item>
-        <item>floor</item>
-        <item>another</item>
         <item>street</item>
-        <item>girl</item>
-        <item>next</item>
-        <item>behind</item>
-        <item>few</item>
         <item>white</item>
         <item>our</item>
-        <item>must</item>
         <item>toward</item>
-        <item>much</item>
         <item>table</item>
         <item>these</item>
         <item>its</item>
-        <item>house</item>
         <item>okay</item>
-        <item>enough</item>
-        <item>phone</item>
-        <item>nothing</item>
-        <item>body</item>
         <item>year</item>
         <item>same</item>
         <item>woman</item>
-        <item>minute</item>
         <item>side</item>
-        <item>because</item>
         <item>water</item>
         <item>three</item>
         <item>talk</item>
-        <item>help</item>
-        <item>pull</item>
         <item>smile</item>
         <item>feet</item>
-        <item>place</item>
-        <item>fire</item>
         <item>seem</item>
         <item>inside</item>
         <item>wait</item>
-        <item>need</item>
-        <item>ever</item>
-        <item>moment</item>
-        <item>himself</item>
         <item>second</item>
-        <item>arm</item>
         <item>voice</item>
         <item>yeah</item>
-        <item>last</item>
         <item>each</item>
-        <item>late</item>
-        <item>mind</item>
-        <item>across</item>
         <item>suddenly</item>
-        <item>front</item>
-        <item>almost</item>
-        <item>big</item>
-        <item>both</item>
-        <item>name</item>
-        <item>follow</item>
         <item>stare</item>
-        <item>nod</item>
         <item>use</item>
-        <item>great</item>
         <item>sure</item>
-        <item>dead</item>
         <item>sound</item>
-        <item>gun</item>
-        <item>really</item>
     </string-array>
 </resources>

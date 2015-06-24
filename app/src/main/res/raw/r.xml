@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="rabbi" p="noun" ts="ˈræbaɪ" tr="раввин; Равви"/>
+    <d v="rabbit" p="noun" ts="ˈræbɪt" tr="кролик; крольчиха; кролиководство"/>
+    <d v="rabbit" p="adjective" ts="ˈræbɪt" tr="кроличий; заячий"/>
+    <d v="rabble" p="noun" ts="ræbl" tr="сброд; чернь"/>
+    <d v="rabid" p="adjective" ts="ˈræbɪd" tr="бешеный; неистовый"/>
+    <d v="rabies" p="noun" ts="ˈreɪbiːz" tr="бешенство"/>
+    <d v="rabies" p="adjective" ts="ˈreɪbiːz" tr="антирабический"/>
+    <d v="raccoon" p="noun" ts="rəˈkuːn" tr="енот"/>
+    <d v="raccoon" p="adjective" ts="rəˈkuːn" tr="енотовидный"/>
+    <d v="race" p="noun" ts="reɪs" tr="гонка; раса; род; соревнование; народ; заезд; погоня; путь; гонки"/>
+    <d v="race" p="adjective" ts="reɪs" tr="расовый; гоночный; скаковой"/>
+    <d v="race" p="verb" ts="reɪs" tr="мчаться"/>
+    <d v="racetrack" p="noun" ts="ˈreɪstræk" tr="ипподром; беговая дорожка"/>
+    <d v="racial" p="adjective" ts="ˈreɪʃəl" tr="расовый"/>
+    <d v="racially" p="noun" ts="ˈreɪʃəlɪ" tr="расово"/>
+    <d v="racing" p="noun" ts="ˈreɪsɪŋ" tr="гонка; скачки; автоспорт; состязание в скорости"/>
+    <d v="racing" p="adjective" ts="ˈreɪsɪŋ" tr="гоночный"/>
+    <d v="racing" p="participle" ts="ˈreɪsɪŋ" tr="мчащийся"/>
+    <d v="racism" p="noun" ts="ˈreɪsɪzm" tr="расизм"/>
+    <d v="racist" p="adjective" ts="ˈreɪsɪst" tr="расистский"/>
+    <d v="racist" p="noun" ts="ˈreɪsɪst" tr="расист; расизм"/>
+    <d v="rack" p="noun" ts="ræk"
+       tr="стойка; стеллаж; эстакада; багажник; кормушка; рама; штатив; дыба; пытка; на полку"/>
+    <d v="rack" p="adjective" ts="ræk" tr="стеллажный; реечный"/>
+    <d v="rack" p="verb" ts="ræk" tr="ломать"/>
+    <d v="racket" p="noun" ts="ˈrækɪt" tr="ракетка; рэкет; шум; мошенничество; разгульный образ жизни"/>
+    <d v="racketeer" p="noun" ts="rækɪˈtɪə" tr="рэкетир; вымогатель"/>
+    <d v="racy" p="adjective" ts="ˈreɪsɪ" tr="колоритный; пикантный"/>
+    <d v="radar" p="noun" ts="ˈreɪdə" tr="радар; РЛС"/>
+    <d v="radar" p="adjective" ts="ˈreɪdə" tr="радиолокационный"/>
+    <d v="radial" p="adjective" ts="ˈreɪdjəl" tr="радиальный; лучеобразный"/>
+    <d v="radiance" p="noun" ts="ˈreɪdjəns" tr="сияние; лучистость"/>
+    <d v="radiant" p="adjective" ts="ˈreɪdjənt" tr="лучистый; светлый; ослепительный"/>
+    <d v="radiant" p="participle" ts="ˈreɪdjənt" tr="сияющий; излучающий; светящийся"/>
+    <d v="radiant" p="noun" ts="ˈreɪdjənt" tr="радиант; излучение"/>
+    <d v="radiant" p="verb" ts="ˈreɪdjənt" tr="сиять"/>
+    <d v="radiate" p="verb" ts="ˈreɪdɪɪt" tr="излучать"/>
+    <d v="radiation" p="noun" ts="reɪdɪˈeɪʃn" tr="излучение; сияние"/>
+    <d v="radiation" p="adjective" ts="reɪdɪˈeɪʃn" tr="радиационный"/>
+    <d v="radiator" p="noun" ts="ˈreɪdɪeɪtə" tr="радиатор; излучатель; калорифер"/>
+    <d v="radical" p="adjective" ts="ˈrædɪkəl" tr="радикальный; фундаментальный; полный"/>
+    <d v="radical" p="noun" ts="ˈrædɪkəl" tr="радикал; корень"/>
+    <d v="radically" p="adverb" ts="ˈrædɪklɪ" tr="радикально"/>
+    <d v="radically" p="noun" ts="ˈrædɪklɪ" tr="в корне"/>
+    <d v="radio" p="noun" ts="ˈreɪdɪəʊ"
+       tr="радио; радиостанция; радиоприемник; радиотехника; радиоаппаратура; радиограмма"/>
+    <d v="radio" p="adjective" ts="ˈreɪdɪəʊ" tr="радиотехнический"/>
+    <d v="radio" p="verb" ts="ˈreɪdɪəʊ" tr="радировать"/>
+    <d v="radioactive" p="adjective" ts="ˈreɪdɪəʊˈæktɪv" tr="радиоактивный"/>
+    <d v="radioactivity" p="noun" ts="ˈreɪdɪəʊækˈtɪvɪtɪ" tr="радиоактивность"/>
+    <d v="radioactivity" p="adjective" ts="ˈreɪdɪəʊækˈtɪvɪtɪ" tr="радиоактивный"/>
+    <d v="radiologist" p="noun" ts="reɪdɪˈɒləʤɪst" tr="радиолог; рентгенолог"/>
+    <d v="radiology" p="noun" ts="reɪdɪˈɔləʤɪ" tr="радиология; рентгенология"/>
+    <d v="radiology" p="adjective" ts="reɪdɪˈɔləʤɪ" tr="радиологический"/>
+    <d v="radiotherapy" p="noun" ts="ˈreɪdɪəʊˈθerəpɪ" tr="радиотерапия"/>
+    <d v="radiotherapy" p="adjective" ts="ˈreɪdɪəʊˈθerəpɪ" tr="лучевой; радиотерапевтический"/>
+    <d v="radish" p="noun" ts="ˈrædɪʃ" tr="редис"/>
+    <d v="radium" p="noun" ts="ˈreɪdjəm" tr="радий"/>
+    <d v="radium" p="adjective" ts="ˈreɪdjəm" tr="Радиевый"/>
+    <d v="radius" p="noun" ts="ˈreɪdjəs" tr="радиус; вылет"/>
+    <d v="radon" p="noun" ts="ˈreɪdɔn" tr="радон"/>
+    <d v="raffle" p="noun" ts="ræfl" tr="лотерея"/>
+    <d v="raffle" p="adjective" ts="ræfl" tr="лотерейный"/>
+    <d v="raffle" p="participle" ts="ræfl" tr="разыгрываемый"/>
+    <d v="raft" p="noun" ts="rɑːft" tr="плот; множество; плотик"/>
+    <d v="raft" p="verb" ts="rɑːft" tr="сплавлять"/>
+    <d v="rafter" p="noun" ts="ˈrɑːftə" tr="стропило"/>
+    <d v="rag" p="noun" ts="ræg" tr="тряпка; КГР; обрывок; газетенка"/>
+    <d v="rag" p="adjective" ts="ræg" tr="тряпичный"/>
+    <d v="rag" p="verb" ts="ræg" tr="шуметь"/>
+    <d v="ragamuffin" p="noun" ts="ˈrægəmʌfɪn" tr="оборванец; оборвыш"/>
+    <d v="rag doll" p="noun" ts="ræg dɔl" tr="тряпичная кукла"/>
+    <d v="rage" p="noun" ts="reɪʤ" tr="ярость; буйство; страсть; повальное увлечение"/>
+    <d v="rage" p="verb" ts="reɪʤ" tr="бушевать; бурлить; неистовствовать; злиться; разбушеваться"/>
+    <d v="rage" p="participle" ts="reɪʤ" tr="разбушевавшийся"/>
+    <d v="ragged" p="adjective" ts="ˈrægɪd" tr="рваный; неровный; косматый"/>
+    <d v="ragged" p="participle" ts="ˈrægɪd" tr="оборванный; ободранный"/>
+    <d v="ragtag" p="noun" ts="ˈrægtæg" tr="сброд; шушера"/>
+    <d v="ragtime" p="noun" ts="ˈrægtaɪm" tr="регтайм"/>
+    <d v="raid" p="noun" ts="reɪd" tr="рейд; набег"/>
+    <d v="raid" p="verb" ts="reɪd" tr="ворваться"/>
+    <d v="raid" p="adjective" ts="reɪd" tr="рейдерский"/>
+    <d v="raider" p="noun" ts="ˈreɪdə" tr="рейдер; пират; налетчик; рейдовик"/>
+    <d v="raider" p="adjective" ts="ˈreɪdə" tr="рейдерский"/>
+    <d v="rail" p="adjective" ts="reɪl" tr="железнодорожный"/>
+    <d v="rail" p="noun" ts="reɪl" tr="рельс; железная дорога; рейка; перила; перекладина; вешалка; поперечина"/>
+    <d v="rail" p="verb" ts="reɪl" tr="ругать; бранить"/>
+    <d v="railing" p="noun" ts="ˈreɪlɪŋ" tr="перила; ограждение"/>
+    <d v="railroad" p="noun" ts="ˈreɪlrəʊd" tr="железная дорога"/>
+    <d v="railroad" p="adjective" ts="ˈreɪlrəʊd" tr="железнодорожный"/>
+    <d v="railroad crossing" p="noun" ts="ˈreɪlrəʊd ˈkrɔsɪŋ" tr="железнодорожный переезд"/>
+    <d v="rain" p="noun" ts="reɪn" tr="дождь"/>
+    <d v="rain" p="adjective" ts="reɪn" tr="дождевой"/>
+    <d v="rain" p="verb" ts="reɪn" tr="сыпать; литься"/>
+    <d v="rainbow" p="noun" ts="ˈreɪnbəʊ" tr="радуга; радужная"/>
+    <d v="rainbow" p="adjective" ts="ˈreɪnbəʊ" tr="радужный"/>
+    <d v="raincoat" p="noun" ts="ˈreɪnkəʊt" tr="плащ"/>
+    <d v="raindrop" p="noun" ts="ˈreɪndrɔp" tr="капля; капля дождя"/>
+    <d v="raindrop" p="adjective" ts="ˈreɪndrɔp" tr="дождевой"/>
+    <d v="rainfall" p="noun" ts="ˈreɪnfɔːl" tr="осадки; дождь"/>
+    <d v="rain forest" p="noun" ts="reɪn ˈfɔrɪst" tr="тропический лес; влажный лес"/>
+    <d v="rainstorm" p="noun" ts="ˈreɪnstɔːm" tr="ливень"/>
+    <d v="rainwater" p="adjective" ts="ˈreɪnwɔːtə" tr="дождевой"/>
+    <d v="rainwater" p="noun" ts="ˈreɪnwɔːtə" tr="дождевая вода"/>
+    <d v="rainy" p="adjective" ts="ˈreɪnɪ" tr="дождливый; дождевой"/>
+    <d v="rainy" p="noun" ts="ˈreɪnɪ" tr="дождь"/>
+    <d v="raise" p="verb" ts="reɪz"
+       tr="поднять; повысить; растить; собрать; ставить; воспитывать; воскрешать; воздвигать; добывать; будить; начать; запеть"/>
+    <d v="raise" p="noun" ts="reɪz" tr="повышение"/>
+    <d v="raisin" p="noun" ts="reɪzn" tr="изюм; изюминка"/>
+    <d v="rake" p="noun" ts="reɪk" tr="грабли; рейк; наклон; повеса; доля заведения; распутник; кочерга"/>
+    <d v="rake" p="verb" ts="reɪk" tr="разгребать; сгребать; загребать; выгребать; ворошить; загрести"/>
+    <d v="rally" p="noun" ts="ˈrælɪ" tr="митинг; ралли; сплочение; оживление; съезд"/>
+    <d v="rally" p="verb" ts="ˈrælɪ" tr="сплотиться; сплотить; оживляться"/>
+    <d v="RAM" p="noun" ts="ræm" tr="овен; память; таран; баба; ползун; плунжер"/>
+    <d v="RAM" p="verb" ts="ræm" tr="протаранить; утрамбовывать"/>
+    <d v="RAM" p="noun" ts="ræm" tr="овен; память; таран; баба; ползун; плунжер"/>
+    <d v="RAM" p="verb" ts="ræm" tr="протаранить; утрамбовывать"/>
+    <d v="Ramadan" p="noun" ts="ræməˈdɑːn" tr="Рамадан"/>
+    <d v="ramble" p="noun" ts="ræmbl" tr="прогулка"/>
+    <d v="rambling" p="adjective" ts="ˈræmblɪŋ" tr="бессвязный; бродячий"/>
+    <d v="rambunctious" p="adjective" ts="ræmˈbʌŋkʃəs" tr="раздражительный; буйный; неугомонный; непокорный"/>
+    <d v="ramification" p="noun" ts="ræmɪfɪˈkeɪʃn" tr="разветвление; ответвление"/>
+    <d v="ramp" p="noun" ts="ræmp" tr="рампа; скат; эстакада; перрон; спуск; наклонная плоскость; борт"/>
+    <d v="rampage" p="noun" ts="ræmˈpeɪʤ" tr="ярость; буйство"/>
+    <d v="rampage" p="verb" ts="ræmˈpeɪʤ" tr="неистовствовать; буйствовать"/>
+    <d v="rampant" p="adjective" ts="ˈræmpənt" tr="безудержный; угрожающий"/>
+    <d v="rampant" p="verb" ts="ˈræmpənt" tr="свирепствовать; процветать"/>
+    <d v="rampant" p="noun" ts="ˈræmpənt" tr="разгул; угрожающие масштабы; пандус"/>
+    <d v="rampant" p="participle" ts="ˈræmpənt" tr="свирепствующий; вздыбленный"/>
+    <d v="ramrod" p="noun" ts="ˈræmrɔd" tr="шомпол"/>
+    <d v="ramshackle" p="adjective" ts="ˈræmʃækl" tr="ветхий"/>
+    <d v="ramshackle" p="participle" ts="ˈræmʃækl" tr="покосившийся; разваливающийся"/>
+    <d v="ramshackle" p="noun" ts="ˈræmʃækl" tr="развалина"/>
+    <d v="ranch" p="noun" ts="rɑːnʧ" tr="ранчо"/>
+    <d v="ranch" p="verb" ts="rɑːnʧ" tr="заниматься скотоводством"/>
+    <d v="rancher" p="noun" ts="ˈrɑːnʧə" tr="ранчо; владелец ранчо; хозяин ранчо"/>
+    <d v="ranch house" p="noun" ts="rɑːnʧ haʊs" tr="ранчо"/>
+    <d v="rancid" p="adjective" ts="ˈrænsɪd" tr="прогорклый; протухший"/>
+    <d v="rancor" p="noun" ts="ˈræŋkər" tr="злоба; озлобленность"/>
+    <d v="rancorous" p="adjective" ts="ˈræŋkərəs" tr="злобный; злопамятный; враждебный"/>
+    <d v="random" p="adjective" ts="ˈrændəm" tr="случайный"/>
+    <d v="randomly" p="adverb" ts="ˈrændəmlɪ" tr="случайно; произвольно; беспорядочно"/>
+    <d v="range" p="noun" ts="reɪnʤ"
+       tr="диапазон; ассортимент; область; предел; полигон; перечень; радиус действия; цепь; амплитуда; стрельбище; дальнобойность; створ; область распространения"/>
+    <d v="range" p="verb" ts="reɪnʤ" tr="колебаться; простираться; странствовать; классифицировать; рыскать"/>
+    <d v="Ranger" p="noun" ts="ˈreɪnʤə" tr="рейнджер; егерь; смотритель; странник; бродяга"/>
+    <d v="rank" p="noun" ts="ræŋk" tr="звание; ранг; ряд; разряд; служебное положение"/>
+    <d v="rank" p="verb" ts="ræŋk" tr="занимать; ранжировать; причислять; классифицировать"/>
+    <d v="rank" p="adjective" ts="ræŋk" tr="ранговый; буйный; прогорклый; отъявленный; противный"/>
+    <d v="rank" p="participle" ts="ræŋk" tr="ранжированный"/>
+    <d v="ranking" p="noun" ts="ˈræŋkɪŋ" tr="рейтинг"/>
+    <d v="ranking" p="adjective" ts="ˈræŋkɪŋ" tr="рейтинговый; ранговый"/>
+    <d v="rankle" p="verb" ts="ræŋkl" tr="терзать"/>
+    <d v="ransack" p="verb" ts="ˈrænsæk" tr="обыскать; разграбить"/>
+    <d v="ransom" p="noun" ts="ˈrænsəm" tr="выкуп; получение выкупа"/>
+    <d v="ransom" p="verb" ts="ˈrænsəm" tr="выкупить"/>
+    <d v="rant" p="noun" ts="rænt" tr="Рэнт; тирада; разглагольствования; напыщенная речь; декламация"/>
+    <d v="rant" p="verb" ts="rænt" tr="разглагольствовать; декламировать; говорить напыщенно"/>
+    <d v="rap" p="noun" ts="ræp" tr="рэп; стук"/>
+    <d v="rap" p="verb" ts="ræp" tr="постучать"/>
+    <d v="rape" p="noun" ts="reɪp" tr="изнасилование; рапс; похищение"/>
+    <d v="rape" p="verb" ts="reɪp" tr="насиловать; похищать"/>
+    <d v="rape" p="adjective" ts="reɪp" tr="рапсовый"/>
+    <d v="rapid" p="adjective" ts="ˈræpɪd" tr="быстрый"/>
+    <d v="rapid" p="noun" ts="ˈræpɪd" tr="Экспресс; стремнина"/>
+    <d v="rapidity" p="noun" ts="rəˈpɪdɪtɪ" tr="быстрота"/>
+    <d v="rapidly" p="adverb" ts="ˈræpɪdlɪ" tr="быстро"/>
+    <d v="rapidly" p="adjective" ts="ˈræpɪdlɪ" tr="стремительный"/>
+    <d v="rapist" p="noun" ts="ˈreɪpɪst" tr="насильник"/>
+    <d v="rapport" p="noun" ts="ræˈpɔː" tr="взаимопонимание; раппорт; связь; взаимоотношения"/>
+    <d v="rapprochement" p="noun" ts="ræˈprɔʃmɑːŋ" tr="сближение"/>
+    <d v="rapt" p="participle" ts="ræpt" tr="восхищенный"/>
+    <d v="rapture" p="noun" ts="ˈræpʧə" tr="восторг"/>
+    <d v="rapture" p="verb" ts="ˈræpʧə" tr="восхитить"/>
+    <d v="rapturous" p="adjective" ts="ˈræpʧərəs" tr="восторженный"/>
+    <d v="rare" p="adjective" ts="rɛə" tr="редкий; необычный; негустой; недожаренный"/>
+    <d v="rare" p="noun" ts="rɛə" tr="редкость"/>
+    <d v="rare" p="verb" ts="rɛə" tr="встречаться редко"/>
+    <d v="rare" p="participle" ts="rɛə" tr="редко встречающийся"/>
+    <d v="rarely" p="adverb" ts="ˈrɛəlɪ" tr="редко; необычайно"/>
+    <d v="rarely" p="noun" ts="ˈrɛəlɪ" tr="редк"/>
+    <d v="rarity" p="noun" ts="ˈrɛərɪtɪ" tr="редкость"/>
+    <d v="rascal" p="noun" ts="ˈrɑːskəl" tr="негодяй; плут; негодник; поганец; шельмец"/>
+    <d v="rash" p="noun" ts="ræʃ" tr="сыпь; шуршание"/>
+    <d v="rash" p="adjective" ts="ræʃ" tr="опрометчивый; стремительный"/>
+    <d v="rasp" p="noun" ts="rɑːsp" tr="рашпиль; скрежет; хрип; дребезжание"/>
+    <d v="rasp" p="verb" ts="rɑːsp" tr="подпиливать; строгать; соскабливать"/>
+    <d v="raspberry" p="noun" ts="ˈrɑːzbərɪ" tr="малина"/>
+    <d v="raspberry" p="adjective" ts="ˈrɑːzbərɪ" tr="малиновый"/>
+    <d v="raspy" p="adjective" ts="ˈrɑːspɪ" tr="скрипучий"/>
+    <d v="rat" p="noun" ts="ræt" tr="крыса; предатель; человек"/>
+    <d v="rat" p="adjective" ts="ræt" tr="крысиный"/>
+    <d v="rat" p="verb" ts="ræt" tr="предать"/>
+    <d v="rate" p="noun" ts="reɪt" tr="ставка; цена; темп; уровень; коэффициент; процент"/>
+    <d v="rate" p="verb" ts="reɪt" tr="оценивать; бранить"/>
+    <d v="rather" p="adverb" ts="ˈrɑːðə"
+       tr="довольно; весьма; скорее; вернее; лучше; точнее; несколько; охотнее; правильнее; конечно"/>
+    <d v="rather" p="conjunction" ts="ˈrɑːðə" tr="а"/>
+    <d v="rather" p="preposition" ts="ˈrɑːðə" tr="вместо"/>
+    <d v="ratification" p="noun" ts="rætɪfɪˈkeɪʃn" tr="ратификация"/>
+    <d v="ratify" p="verb" ts="ˈrætɪfaɪ" tr="ратифицировать; утвердить"/>
+    <d v="ratify" p="noun" ts="ˈrætɪfaɪ" tr="ратификация"/>
+    <d v="rating" p="noun" ts="ˈreɪtɪŋ" tr="рейтинг; номинальность; мощность; тарификация; положение"/>
+    <d v="rating" p="adjective" ts="ˈreɪtɪŋ" tr="рейтинговый"/>
+    <d v="ratio" p="noun" ts="ˈreɪʃɪəʊ" tr="соотношение; коэффициент"/>
+    <d v="ration" p="noun" ts="ræʃn" tr="рацион; паек; порция"/>
+    <d v="ration" p="verb" ts="ræʃn" tr="нормировать"/>
+    <d v="rational" p="adjective" ts="ˈræʃənl" tr="рациональный; рассудочный"/>
+    <d v="rational" p="noun" ts="ˈræʃənl" tr="рациональность"/>
+    <d v="rationale" p="noun" ts="ræʃəˈnɑːl"
+       tr="обоснование; логическое обоснование; логика; основная причина; разумное объяснение"/>
+    <d v="rationalization" p="noun" ts="ræʃnəlaɪˈzeɪʃn" tr="рационализация"/>
+    <d v="rationalize" p="verb" ts="ˈræʃnəlaɪz" tr="рационализировать"/>
+    <d v="rationalize" p="noun" ts="ˈræʃnəlaɪz" tr="рационализация"/>
+    <d v="rationally" p="adverb" ts="ˈræʃnəlɪ" tr="рационально"/>
+    <d v="rationing" p="noun" ts="ˈræʃnɪŋ" tr="нормирование; рационирование"/>
+    <d v="rat race" p="noun" ts="ræt reɪs" tr="крысиные бега; крысиная гонка"/>
+    <d v="rattle" p="noun" ts="rætl" tr="погремушка; грохот; трещотка; хрип; дребезжание"/>
+    <d v="rattle" p="verb" ts="rætl"
+       tr="греметь; стучать; бряцать; трещать; отбарабанить; звенеть; напугать; болтать; смущать"/>
+    <d v="rattler" p="noun" ts="ˈrætlə" tr="гремучая змея"/>
+    <d v="rattlesnake" p="noun" ts="ˈrætlsneɪk" tr="гремучая змея"/>
+    <d v="raucous" p="adjective" ts="ˈrɔːkəs" tr="хриплый; шумный"/>
+    <d v="raunchy" p="adjective" ts="ˈrɔːnʧɪ" tr="похабный"/>
+    <d v="ravage" p="verb" ts="ˈrævɪʤ" tr="опустошать; терзать"/>
+    <d v="ravage" p="noun" ts="ˈrævɪʤ" tr="опустошение"/>
+    <d v="rave" p="noun" ts="reɪv" tr="рейв; бред"/>
+    <d v="rave" p="adjective" ts="reɪv" tr="восторженный"/>
+    <d v="rave" p="verb" ts="reɪv" tr="бредить; восторгаться; бушевать"/>
+    <d v="raven" p="noun" ts="reɪvn" tr="Воронов"/>
+    <d v="ravenous" p="adjective" ts="ˈrævənəs" tr="хищный; прожорливый"/>
+    <d v="ravenous" p="participle" ts="ˈrævənəs" tr="изголодавшийся"/>
+    <d v="rave review" p="noun" ts="reɪv rɪˈvjuː" tr="восторженный отзыв; восторженная рецензия"/>
+    <d v="ravine" p="noun" ts="rəˈviːn" tr="овраг; дефиле"/>
+    <d v="raving" p="noun" ts="ˈreɪvɪŋ" tr="бред; бредни; неистовство"/>
+    <d v="raving" p="participle" ts="ˈreɪvɪŋ" tr="бредящий"/>
+    <d v="ravishing" p="adjective" ts="ˈrævɪʃɪŋ" tr="восхитительный; упоительный"/>
+    <d v="raw" p="noun" ts="rɔː" tr="сырье; РАО"/>
+    <d v="raw" p="adjective" ts="rɔː" tr="сырьевой; сырой; неопытный; чувствительный; безвкусный"/>
+    <d v="ray" p="noun" ts="reɪ" tr="луч; Рэй; скат; проблеск; радиус"/>
+    <d v="ray" p="adjective" ts="reɪ" tr="рентгеновский"/>
+    <d v="ray" p="verb" ts="reɪ" tr="излучать"/>
+    <d v="rayon" p="noun" ts="ˈreɪɔn" tr="район; вискоза"/>
+    <d v="rayon" p="adjective" ts="ˈreɪɔn" tr="районный"/>
+    <d v="raze" p="verb" ts="reɪz" tr="разрушить; сравнять; стирать; срыть"/>
+    <d v="razor" p="noun" ts="ˈreɪzə" tr="бритва"/>
+    <d v="razor" p="adjective" ts="ˈreɪzə" tr="бритвенный; колючий"/>
+    <d v="razor blade" p="noun" ts="ˈreɪzə bleɪd" tr="лезвие; бритвенное лезвие; лезвие бритвы"/>
+    <d v="re" p="adjective" ts="reɪ" tr="повторный"/>
+    <d v="re" p="noun" ts="reɪ" tr="перерегистрация; ре; ВИЭ; перепланировка; переиздание"/>
+    <d v="reach" p="verb" ts="riːʧ"
+       tr="достигнуть; добраться; протянуть; связаться; охватить; брать; застать; передавать; вытягивать; трогать; настигнуть"/>
+    <d v="reach" p="noun" ts="riːʧ" tr="достижение; досягаемость; охват; сфера; бьеф; область влияния"/>
+    <d v="react" p="verb" ts="rɪˈækt" tr="реагировать; противодействовать; влиять"/>
+    <d v="react" p="noun" ts="rɪˈækt" tr="реакция"/>
+    <d v="react" p="adverbial participle" ts="rɪˈækt" tr="отзываясь"/>
+    <d v="reaction" p="noun" ts="riːˈækʃn" tr="реакция; воздействие; контрудар"/>
+    <d v="reaction" p="adjective" ts="riːˈækʃn" tr="реактивный"/>
+    <d v="reactionary" p="adjective" ts="riːˈækʃnərɪ" tr="реакционный"/>
+    <d v="reactionary" p="noun" ts="riːˈækʃnərɪ" tr="реакционер; реакционность; ретроград"/>
+    <d v="reactionary" p="participle" ts="riːˈækʃnərɪ" tr="противодействующий"/>
+    <d v="reactor" p="noun" ts="riːˈæktə" tr="реактор"/>
+    <d v="reactor" p="adjective" ts="riːˈæktə" tr="реакторный"/>
+    <d v="read" p="verb" ts="riːd" tr="читать; гласить; узнать; показывать; толковать"/>
+    <d v="read" p="noun" ts="riːd" tr="чтение; время"/>
+    <d v="read" p="participle" ts="riːd"
+       tr="прочитанный; читаемый; считанный; считываемый; прочтенный; начитанный; знающий"/>
+    <d v="readable" p="adjective" ts="ˈriːdəbl" tr="читаемый; машиночитаемый; читабельный"/>
+    <d v="readable" p="noun" ts="ˈriːdəbl" tr="чтение; для чтения"/>
+    <d v="readable" p="participle" ts="ˈriːdəbl" tr="понятный; удобный для чтения; доступный для чтения"/>
+    <d v="readable" p="verb" ts="ˈriːdəbl" tr="легче читать"/>
+    <d v="reader" p="noun" ts="ˈriːdə"
+       tr="читатель; считыватель; чтец; считывающее устройство; преподаватель; хрестоматия; рецензент; корректор"/>
+    <d v="reader" p="participle" ts="ˈriːdə" tr="считывающий"/>
+    <d v="reader" p="adjective" ts="ˈriːdə" tr="читательский"/>
+    <d v="readership" p="noun" ts="ˈriːdəʃɪp" tr="читатель; читательская аудитория"/>
+    <d v="readership" p="adjective" ts="ˈriːdəʃɪp" tr="читательский"/>
+    <d v="readily" p="adverb" ts="ˈredɪlɪ" tr="легко"/>
+    <d v="readily" p="noun" ts="ˈredɪlɪ" tr="с готовностью"/>
+    <d v="readiness" p="noun" ts="ˈredɪnɪs" tr="готовность; быстрота"/>
+    <d v="reading" p="noun" ts="ˈriːdɪŋ"
+       tr="чтение; показание; чтиво; грамота; понимание; толкование; лекция; начитанность"/>
+    <d v="reading" p="adjective" ts="ˈriːdɪŋ" tr="читальный; читательский"/>
+    <d v="reading" p="participle" ts="ˈriːdɪŋ" tr="читающий; считывающий"/>
+    <d v="readjust" p="verb" ts="ˈriːəˈʤʌst" tr="отрегулировать; перенастроить; изменять; перестраивать"/>
+    <d v="readjustment" p="noun" ts="ˈriːəˈʤʌstmənt" tr="санация; корректировка; переналадка"/>
+    <d v="ready" p="adjective" ts="ˈredɪ" tr="готовый; быстрый"/>
+    <d v="ready" p="verb" ts="ˈredɪ" tr="готовиться"/>
+    <d v="ready" p="noun" ts="ˈredɪ" tr="готовность; под рукой"/>
+    <d v="ready" p="participle" ts="ˈredɪ" tr="приготовленный; склонный"/>
+    <d v="real" p="adjective" ts="rɪəl" tr="реальный; истинный; недвижимый; несомненный"/>
+    <d v="real" p="noun" ts="rɪəl" tr="Реал; действительность"/>
+    <d v="real" p="participle" ts="rɪəl" tr="реально существующий"/>
+    <d v="real estate" p="noun" ts="rɪəl ɪsˈteɪt" tr="недвижимость; объект недвижимости"/>
+    <d v="real estate agent" p="noun" ts="rɪəl ɪsˈteɪt ˈeɪʤənt"
+       tr="агент по недвижимости; риэлтор; агент недвижимости; агент недвижимого имущества"/>
+    <d v="realism" p="noun" ts="ˈrɪəlɪzm" tr="реализм; соцреализм"/>
+    <d v="realist" p="noun" ts="ˈrɪəlɪst" tr="реалист"/>
+    <d v="realist" p="adjective" ts="ˈrɪəlɪst" tr="реалистический"/>
+    <d v="realistic" p="adjective" ts="rɪəˈlɪstɪk" tr="реалистичный; трезвый"/>
+    <d v="realistic" p="noun" ts="rɪəˈlɪstɪk" tr="реализм"/>
+    <d v="realistically" p="adverb" ts="rɪəˈlɪstɪklɪ" tr="реально; реалистично"/>
+    <d v="realistically" p="adjective" ts="rɪəˈlɪstɪklɪ" tr="реалистичный"/>
+    <d v="reality" p="noun" ts="riːˈælɪtɪ"
+       tr="реальность; действительность; данность; реализм; истинность; подлинная сущность"/>
+    <d v="realization" p="noun" ts="rɪəlaɪˈzeɪʃn" tr="реализация; осознание"/>
+    <d v="realize" p="verb" ts="ˈrɪəlaɪz"
+       tr="понимать; реализовать; воплотить; представлять; осуществиться; представлять себе; претворять; соображать"/>
+    <d v="realize" p="noun" ts="ˈrɪəlaɪz" tr="реализация"/>
+    <d v="really" p="adverb" ts="ˈrɪəlɪ" tr="действительно; поистине; всерьез; толком; вот как"/>
+    <d v="really" p="noun" ts="ˈrɪəlɪ" tr="на самом деле; право"/>
+    <d v="really" p="particle" ts="ˈrɪəlɪ" tr="уж"/>
+    <d v="realm" p="noun" ts="relm" tr="сфера; царство; государство"/>
+    <d v="real time" p="noun" ts="rɪəl taɪm" tr="реальное время; режим реального времени; реальный масштаб времени"/>
+    <d v="realtor" p="noun" ts="ˈrɪəltə" tr="риэлтор; риэлторские"/>
+    <d v="realtor" p="adjective" ts="ˈrɪəltə" tr="риэлторский"/>
+    <d v="realty" p="noun" ts="ˈrɪəltɪ" tr="недвижимость"/>
+    <d v="ream" p="noun" ts="riːm" tr="пачка"/>
+    <d v="reap" p="verb" ts="riːp" tr="пожинать; получить; воспользоваться; извлечь"/>
+    <d v="reap" p="noun" ts="riːp" tr="жатва"/>
+    <d v="reappear" p="verb" ts="ˈriːəˈpɪə" tr="появиться; вновь появиться"/>
+    <d v="reappearance" p="noun" ts="rɪəˈpɪərəns" tr="появление; повторное появление"/>
+    <d v="rear" p="adjective" ts="rɪə" tr="задний"/>
+    <d v="rear" p="noun" ts="rɪə" tr="тыл; зад"/>
+    <d v="rear" p="verb" ts="rɪə" tr="поднимать; воспитывать; выращивать"/>
+    <d v="rear end" p="noun" ts="rɪə end" tr="задняя часть; тыльный конец; задний конец"/>
+    <d v="rearrange" p="verb" ts="riːəˈreɪnʤ"
+       tr="переставить; изменить; перестраивать; переделывать; перегруппировать"/>
+    <d v="rearrange" p="noun" ts="riːəˈreɪnʤ" tr="перестановка"/>
+    <d v="rearrangement" p="noun" ts="riːəˈreɪnʤmənt"
+       tr="перестройка; перестановка; перегруппировка; перераспределение; переформирование"/>
+    <d v="rearview mirror" p="noun" ts="ˈrɪvjuː ˈmɪrər" tr="зеркало заднего вида"/>
+    <d v="reason" p="noun" ts="riːzn" tr="причина; разум; довод; благоразумие"/>
+    <d v="reason" p="verb" ts="riːzn" tr="рассуждать; аргументировать; убеждать; обсуждать"/>
+    <d v="reasonable" p="adjective" ts="ˈriːznəbl" tr="разумный; приемлемый; умеренный; резонный; недорогой; сносный"/>
+    <d v="reasonable" p="participle" ts="ˈriːznəbl" tr="аргументированный"/>
+    <d v="reasonableness" p="noun" ts="ˈriːznəblnəs" tr="разумность; рассудительность; продуманность"/>
+    <d v="reasonably" p="adverb" ts="ˈriːznəblɪ" tr="разумно; достаточно; обоснованно; приемлемо"/>
+    <d v="reasonably" p="adjective" ts="ˈriːznəblɪ" tr="резонный"/>
+    <d v="reasoning" p="noun" ts="ˈriːznɪŋ" tr="рассуждение; аргументация; обоснование; умозаключение; суждение"/>
+    <d v="reasoning" p="participle" ts="ˈriːznɪŋ" tr="мыслящий; рассуждающий"/>
+    <d v="reassurance" p="noun" ts="riːəˈʃʊərəns" tr="заверение; утешение; успокаивание"/>
+    <d v="reassure" p="verb" ts="riːəˈʃʊə" tr="успокоить; заверить; убедить; обнадежить"/>
+    <d v="reassure" p="noun" ts="riːəˈʃʊə" tr="заверение"/>
+    <d v="reassuring" p="participle" ts="riːəˈʃʊərɪŋ" tr="успокаивающий"/>
+    <d v="reassuringly" p="adverb" ts="riːəˈʃʊərɪŋlɪ" tr="успокаивающе; ободряюще"/>
+    <d v="rebate" p="noun" ts="ˈriːbeɪt" tr="скидка; фальц"/>
+    <d v="rebate" p="verb" ts="ˈriːbeɪt" tr="тупить"/>
+    <d v="rebel" p="noun" ts="rebl" tr="повстанец; восстание"/>
+    <d v="rebel" p="verb" ts="rebl" tr="восстать; восставать"/>
+    <d v="rebel" p="adjective" ts="rebl" tr="повстанческий; мятежный"/>
+    <d v="rebel" p="participle" ts="rebl" tr="восставший; бунтующий; взбунтовавшийся"/>
+    <d v="rebellion" p="noun" ts="rɪˈbeljən" tr="восстание; бунтарство; неповиновение; непокорство; противление"/>
+    <d v="rebellion" p="verb" ts="rɪˈbeljən" tr="восставать"/>
+    <d v="rebellion" p="adjective" ts="rɪˈbeljən" tr="бунтарский"/>
+    <d v="rebellious" p="adjective" ts="rɪˈbeljəs" tr="мятежный; непокорный; бунтарский; упорный"/>
+    <d v="rebellious" p="participle" ts="rɪˈbeljəs" tr="бунтующий"/>
+    <d v="rebellious" p="noun" ts="rɪˈbeljəs" tr="бунтарь; бунтарство"/>
+    <d v="rebellious" p="verb" ts="rɪˈbeljəs" tr="бунтовать"/>
+    <d v="rebirth" p="noun" ts="riːˈbɜːθ" tr="возрождение; перерождение; второе рождение; повторное рождение"/>
+    <d v="rebirth" p="verb" ts="riːˈbɜːθ" tr="возрождаться"/>
+    <d v="rebound" p="noun" ts="rɪˈbaʊnd" tr="отскок; подбор; восстановление; реакция; отдача"/>
+    <d v="rebound" p="verb" ts="rɪˈbaʊnd" tr="восстановиться; отскочить; отпрянуть"/>
+    <d v="rebuff" p="noun" ts="rɪˈbʌf" tr="отпор; отповедь"/>
+    <d v="rebuff" p="verb" ts="rɪˈbʌf" tr="отклонить"/>
+    <d v="rebuild" p="verb" ts="ˈriːˈbɪld"
+       tr="восстановить; перестроить; восстановиться; заново построить; отстроить заново"/>
+    <d v="rebuild" p="noun" ts="ˈriːˈbɪld" tr="восстановление; перестройка"/>
+    <d v="rebuilt" p="participle" ts="ˈriːˈbɪlt" tr="восстановленный; перестроенный; отстроенный; перестраиваемый"/>
+    <d v="rebuke" p="verb" ts="rɪˈbjuːk" tr="упрекать; запретить; обличать; возбранять"/>
+    <d v="rebuke" p="noun" ts="rɪˈbjuːk" tr="упрек; выговор; отповедь"/>
+    <d v="rebuke" p="adverbial participle" ts="rɪˈbjuːk" tr="порицая"/>
+    <d v="rebut" p="verb" ts="rɪˈbʌt" tr="опровергнуть; давать отпор"/>
+    <d v="rebuttal" p="noun" ts="rɪˈbʌtl" tr="опровержение"/>
+    <d v="recalcitrance" p="noun" ts="rɪˈkælsɪtrəns" tr="непокорность"/>
+    <d v="recalcitrant" p="adjective" ts="rɪˈkælsɪtrənt" tr="непокорный; упрямый; строптивый"/>
+    <d v="recall" p="verb" ts="rɪˈkɔːl" tr="вспомнить; отозвать; вызвать; призывать обратно; воскрешать"/>
+    <d v="recall" p="noun" ts="rɪˈkɔːl" tr="отзыв; отозвание"/>
+    <d v="recant" p="verb" ts="rɪˈkænt" tr="отречься"/>
+    <d v="recap" p="noun" ts="ˈriːkæp" tr="повторение"/>
+    <d v="recapture" p="verb" ts="ˈriːˈkæpʧə" tr="вернуть; поймать"/>
+    <d v="recede" p="verb" ts="riːˈsiːd" tr="отступать; удаляться; убывать; отклоняться назад"/>
+    <d v="receipt" p="noun" ts="rɪˈsiːt" tr="получение; квитанция; рецепт; приход"/>
+    <d v="receive" p="verb" ts="rɪˈsiːv" tr="получить; вмещать"/>
+    <d v="receive" p="participle" ts="rɪˈsiːv" tr="полученный; получающий"/>
+    <d v="receive" p="noun" ts="rɪˈsiːv" tr="получение"/>
+    <d v="receiver" p="noun" ts="rɪˈsiːvə" tr="приемник; ствольная коробка"/>
+    <d v="receiver" p="adjective" ts="rɪˈsiːvə" tr="приемный"/>
+    <d v="receivership" p="noun" ts="rɪˈsiːvəʃɪp" tr="конкурсное производство"/>
+    <d v="recent" p="adjective" ts="riːsnt" tr="последний; современный"/>
+    <d v="recent" p="adverb" ts="riːsnt" tr="недавно"/>
+    <d v="recently" p="adverb" ts="ˈriːsntlɪ" tr="недавно"/>
+    <d v="recently" p="noun" ts="ˈriːsntlɪ" tr="последнее время; в последнее время"/>
+    <d v="recently" p="adjective" ts="ˈriːsntlɪ" tr="недавний"/>
+    <d v="receptacle" p="noun" ts="rɪˈseptəkl" tr="сосуд; вместилище; штепсельная розетка; цветоложе; хранилище; ящик"/>
+    <d v="reception" p="noun" ts="rɪˈsepʃn" tr="прием; рецепция; приемная; восприятие; раут; вечеринка"/>
+    <d v="reception" p="adjective" ts="rɪˈsepʃn" tr="приемный"/>
+    <d v="receptionist" p="noun" ts="rɪˈsepʃənɪst" tr="регистратор; приемная; секретарша; портье"/>
+    <d v="receptionist" p="adjective" ts="rɪˈsepʃənɪst" tr="дежурный"/>
+    <d v="receptive" p="adjective" ts="rɪˈseptɪv" tr="восприимчивый; рецептивный"/>
+    <d v="receptive" p="verb" ts="rɪˈseptɪv" tr="воспринимать"/>
+    <d v="receptive" p="noun" ts="rɪˈseptɪv" tr="восприимчивость"/>
+    <d v="recess" p="noun" ts="rɪˈses" tr="перерыв; углубление; ниша; каникулы; уголок; выточка; альков"/>
+    <d v="recess" p="verb" ts="rɪˈses" tr="углублять"/>
+    <d v="recession" p="noun" ts="rɪˈseʃn" tr="рецессия; спад; удаление; углубление; отступание; уход"/>
+    <d v="recharge" p="noun" ts="rɪˈʧɑːʤ" tr="перезарядка; пополнение; зарядка"/>
+    <d v="recharge" p="verb" ts="rɪˈʧɑːʤ" tr="зарядить; перезарядить; пополнить; перезарядиться"/>
+    <d v="recipe" p="noun" ts="ˈresɪpɪ" tr="рецепт; способ"/>
+    <d v="recipe" p="adjective" ts="ˈresɪpɪ" tr="рецептурный"/>
+    <d v="recipient" p="noun" ts="rɪˈsɪpɪənt" tr="получатель"/>
+    <d v="recipient" p="participle" ts="rɪˈsɪpɪənt" tr="получающий"/>
+    <d v="reciprocal" p="adjective" ts="rɪˈsɪprəkəl" tr="взаимный; ответный; реципрокный"/>
+    <d v="reciprocal" p="noun" ts="rɪˈsɪprəkəl" tr="взаимность; обратная величина"/>
+    <d v="reciprocate" p="noun" ts="rɪˈsɪprəkeɪt" tr="взаимность"/>
+    <d v="reciprocate" p="verb" ts="rɪˈsɪprəkeɪt"
+       tr="ответить взаимностью; отвечать взаимностью; отплатить; ответить тем же; обмениваться"/>
+    <d v="recital" p="noun" ts="rɪˈsaɪtl" tr="концерт; сольный концерт; рассказ; чтение; изложение"/>
+    <d v="recital" p="adjective" ts="rɪˈsaɪtl" tr="сольный"/>
+    <d v="recitation" p="noun" ts="resɪˈteɪʃn" tr="декламация; перечисление"/>
+    <d v="recite" p="verb" ts="rɪˈsaɪt" tr="читать; декламировать; цитировать; рассказывать; начитывать; перечислять"/>
+    <d v="reckless" p="adjective" ts="ˈreklɪs"
+       tr="безрассудный; безумный; неосторожный; бесшабашный; безответственный; дерзкий"/>
+    <d v="reckless" p="participle" ts="ˈreklɪs" tr="пренебрегающий"/>
+    <d v="recklessly" p="adverb" ts="ˈrekləslɪ" tr="опрометчиво; безоглядно; азартно"/>
+    <d v="recklessness" p="noun" ts="ˈrekləsnəs" tr="безрассудство; бесшабашность; неосторожность"/>
+    <d v="reckon" p="verb" ts="ˈrekən" tr="считать; причислять"/>
+    <d v="reckoning" p="noun" ts="ˈrekənɪŋ" tr="расчет; расплата; летоисчисление"/>
+    <d v="reclaim" p="verb" ts="rɪˈkleɪm"
+       tr="вернуть; исправить; востребовать; восстанавливать; использовать; перевоспитывать"/>
+    <d v="reclaim" p="noun" ts="rɪˈkleɪm" tr="регенерат; возвращение"/>
+    <d v="reclamation" p="noun" ts="rekləˈmeɪʃn" tr="мелиорация; рекультивация; рекламация; истребование"/>
+    <d v="reclamation" p="adjective" ts="rekləˈmeɪʃn" tr="мелиоративный"/>
+    <d v="recline" p="verb" ts="rɪˈklaɪn"
+       tr="возлежать; откидываться; откидывать; откинуть; лежать; сидеть; откидываться назад"/>
+    <d v="reclining" p="participle" ts="rɪˈklaɪnɪŋ" tr="лежащий; возлежащий"/>
+    <d v="recluse" p="noun" ts="rɪˈkluːs" tr="отшельник; отшельница"/>
+    <d v="recognition" p="noun" ts="rekəgˈnɪʃn" tr="признание; распознавание; узнавание"/>
+    <d v="recognizable" p="participle" ts="ˈrekəgnaɪzəbl" tr="узнаваемый; распознаваемый; опознаваемый; различимый"/>
+    <d v="recognize" p="verb" ts="ˈrekəgnaɪz" tr="признать; узнать; распознать; опознать"/>
+    <d v="recognize" p="noun" ts="ˈrekəgnaɪz" tr="признание; распознавание"/>
+    <d v="recognize" p="participle" ts="ˈrekəgnaɪz" tr="узнаваемый"/>
+    <d v="recoil" p="noun" ts="rɪˈkɔɪl" tr="отдача; откат; возвратная пружина"/>
+    <d v="recoil" p="verb" ts="rɪˈkɔɪl" tr="отшатнуться; отшатываться; отступить; отскочить"/>
+    <d v="recoil" p="adjective" ts="rɪˈkɔɪl" tr="возвратный"/>
+    <d v="recollect" p="verb" ts="rekəˈlekt" tr="вспомнить"/>
+    <d v="recollection" p="noun" ts="rekəˈlekʃn" tr="воспоминание; припоминание"/>
+    <d v="recollection" p="verb" ts="rekəˈlekʃn" tr="вспоминать"/>
+    <d v="recommend" p="verb" ts="rekəˈmend" tr="рекомендовать; зарекомендовать; представлять"/>
+    <d v="recommend" p="participle" ts="rekəˈmend" tr="рекомендуемый"/>
+    <d v="recommendation" p="noun" ts="rekəmenˈdeɪʃn" tr="рекомендация"/>
+    <d v="recommendation" p="adjective" ts="rekəmenˈdeɪʃn" tr="рекомендательный"/>
+    <d v="recompense" p="noun" ts="ˈrekəmpens" tr="воздаяние; вознаграждение; компенсация"/>
+    <d v="recompense" p="verb" ts="ˈrekəmpens" tr="воздать; компенсировать; вознаграждать"/>
+    <d v="reconcile" p="verb" ts="ˈrekənsaɪl"
+       tr="примирить; смириться; согласовать; совместить; урегулировать; мирить; сверять; выверять; выверить"/>
+    <d v="reconcile" p="noun" ts="ˈrekənsaɪl" tr="примирение; согласование"/>
+    <d v="reconciliation" p="noun" ts="rekənsɪlɪˈeɪʃn" tr="примирение; сверка; улаживание"/>
+    <d v="recondition" p="verb" ts="ˈriːkənˈdɪʃn" tr="ремонтировать"/>
+    <d v="reconnaissance" p="noun" ts="rɪˈkɔnɪsəns" tr="разведка; рекогносцировка; зондирование; прощупывание"/>
+    <d v="reconnaissance" p="adjective" ts="rɪˈkɔnɪsəns" tr="разведывательный"/>
+    <d v="reconsider" p="verb" ts="ˈriːkənˈsɪdə" tr="пересмотреть; передумать; переосмысливать"/>
+    <d v="reconsider" p="noun" ts="ˈriːkənˈsɪdə" tr="пересмотр"/>
+    <d v="reconstitute" p="verb" ts="rɪˈkɒnstɪtjuːt" tr="восстановить"/>
+    <d v="reconstruct" p="verb" ts="ˈriːkənsˈtrʌkt"
+       tr="реконструировать; восстановить; перестроить; воссоздать; реконструироваться"/>
+    <d v="reconstruct" p="noun" ts="ˈriːkənsˈtrʌkt" tr="реконструкция"/>
+    <d v="reconstruction" p="noun" ts="ˈriːkənsˈtrʌkʃn" tr="реконструкция; восстановление"/>
+    <d v="reconstruction" p="adjective" ts="ˈriːkənsˈtrʌkʃn" tr="восстановительный"/>
+    <d v="record" p="noun" ts="ˈrekɔːd" tr="запись; рекорд; документ; данные; летопись"/>
+    <d v="record" p="verb" ts="ˈrekɔːd" tr="записать; фиксировать; протоколировать"/>
+    <d v="record" p="adjective" ts="ˈrekɔːd" tr="рекордный; звукозаписывающий"/>
+    <d v="recorder" p="noun" ts="rɪˈkɔːdə"
+       tr="рекордер; магнитофон; диктофон; регистратор; магнитола; протоколист; самопишущий прибор"/>
+    <d v="recording" p="noun" ts="rɪˈkɔːdɪŋ" tr="запись; звукозапись; протоколирование"/>
+    <d v="recording" p="adjective" ts="rɪˈkɔːdɪŋ" tr="звукозаписывающий"/>
+    <d v="recording" p="participle" ts="rɪˈkɔːdɪŋ" tr="записывающий; регистрирующий"/>
+    <d v="record player" p="noun" ts="ˈrekɔːd ˈpleɪə" tr="проигрыватель; граммофон"/>
+    <d v="recount" p="verb" ts="rɪˈkaʊnt" tr="рассказывать; пересчитать; перечислять"/>
+    <d v="recount" p="noun" ts="rɪˈkaʊnt" tr="пересчет; повторный подсчет"/>
+    <d v="recoup" p="verb" ts="rɪˈkuːp" tr="окупить; возместить; отыграться"/>
+    <d v="recourse" p="noun" ts="rɪˈkɔːs" tr="ресурсы; обращение; регресс; обращение за помощью; прибежище"/>
+    <d v="recourse" p="verb" ts="rɪˈkɔːs" tr="прибегнуть"/>
+    <d v="recover" p="verb" ts="rɪˈkʌvə"
+       tr="восстановить; восстановиться; выздороветь; взять; поправиться; взыскать; вылечиться; утилизировать"/>
+    <d v="recover" p="noun" ts="rɪˈkʌvə" tr="восстановление; взыскание"/>
+    <d v="recovery" p="noun" ts="rɪˈkʌvərɪ"
+       tr="восстановление; выздоровление; возмещение; извлечение; излечение; окупаемость; улавливание"/>
+    <d v="recovery" p="adjective" ts="rɪˈkʌvərɪ" tr="восстановительный"/>
+    <d v="recreate" p="verb" ts="ˈrekrɪeɪt"
+       tr="воссоздать; отдыхать; пересоздавать; восстанавливать силы; создать заново; развлекаться; освежать"/>
+    <d v="recreate" p="noun" ts="ˈrekrɪeɪt" tr="воссоздание"/>
+    <d v="recreation" p="noun" ts="rekrɪˈeɪʃn" tr="отдых; воссоздание; восстановление сил"/>
+    <d v="recreation" p="adjective" ts="rekrɪˈeɪʃn" tr="рекреационный; оздоровительный"/>
+    <d v="recreational" p="adjective" ts="rekrɪˈeɪʃənl" tr="рекреационный; развлекательный"/>
+    <d v="recreational" p="noun" ts="rekrɪˈeɪʃənl" tr="отдых; для отдыха; зона отдыха"/>
+    <d v="recruit" p="noun" ts="rɪˈkruːt" tr="новобранец; набор; привлечение; подбор"/>
+    <d v="recruit" p="verb" ts="rɪˈkruːt" tr="вербовать; набирать; нанимать; привлекать; пополнять; комплектовать"/>
+    <d v="recruit" p="participle" ts="rɪˈkruːt" tr="завербованный"/>
+    <d v="recruiter" p="noun" ts="rɪˈkruːtər" tr="вербовщик; наниматель"/>
+    <d v="recruitment" p="noun" ts="rɪˈkruːtmənt"
+       tr="набор; вербовка; комплектование; призыв; набор кадров; наем персонала; военкомат"/>
+    <d v="recruitment" p="adjective" ts="rɪˈkruːtmənt" tr="кадровый; рекрутинговый"/>
+    <d v="rectal" p="adjective" ts="ˈrektəl" tr="ректальный"/>
+    <d v="rectangle" p="noun" ts="ˈrektæŋgl" tr="прямоугольник"/>
+    <d v="rectangle" p="adjective" ts="ˈrektæŋgl" tr="прямоугольный"/>
+    <d v="rectangular" p="adjective" ts="rekˈtæŋgjʊlə" tr="прямоугольный"/>
+    <d v="rectangular" p="noun" ts="rekˈtæŋgjʊlə" tr="прямоугольник"/>
+    <d v="rectify" p="verb" ts="ˈrektɪfaɪ" tr="исправить; выпрямить; очищать; ректифицировать"/>
+    <d v="rectify" p="noun" ts="ˈrektɪfaɪ" tr="исправление"/>
+    <d v="rector" p="noun" ts="ˈrektə" tr="ректор; пастор"/>
+    <d v="rectum" p="noun" ts="ˈrektəm" tr="кишка; прямая кишка"/>
+    <d v="recuperate" p="verb" ts="rɪˈkjuːpəreɪt" tr="восстановиться; восстановить; восстанавливать силы"/>
+    <d v="recuperation" p="noun" ts="rɪkjuːpəˈreɪʃn" tr="рекуперация; выздоровление"/>
+    <d v="recur" p="verb" ts="rɪˈkɜː" tr="повторять; возвращаться; рецидивировать; возобновиться; прибегать"/>
+    <d v="recur" p="noun" ts="rɪˈkɜː" tr="повторение"/>
+    <d v="recurrence" p="noun" ts="rɪˈkʌrəns" tr="повторение; рецидивирование; возвращение; цикличность"/>
+    <d v="recurrent" p="adjective" ts="rɪˈkʌrənt" tr="периодический; рекуррентный; текущий; рецидивный"/>
+    <d v="recurrent" p="participle" ts="rɪˈkʌrənt" tr="повторяющийся; рецидивирующий; периодически повторяющийся"/>
+    <d v="recurrent" p="noun" ts="rɪˈkʌrənt" tr="рецидив"/>
+    <d v="recurrent" p="adverb" ts="rɪˈkʌrənt" tr="периодически"/>
+    <d v="recyclable" p="participle" ts="rɪˈsaɪkləbl" tr="перерабатываемый; утилизируемый; рециклируемый"/>
+    <d v="recyclable" p="noun" ts="rɪˈsaɪkləbl" tr="вторсырье; утилизация"/>
+    <d v="recycle" p="noun" ts="riːˈsaɪkl" tr="переработка"/>
+    <d v="recycle" p="verb" ts="riːˈsaɪkl"
+       tr="перерабатывать; рециркулировать; повторно использовать; перезапускать; регенерировать; вторично использовать"/>
+    <d v="recycled" p="participle" ts="riːˈsaɪkld"
+       tr="рециркулированный; утилизированный; восстановленный; рециклированный; повторно используемый"/>
+    <d v="recycling" p="noun" ts="riːˈsaɪklɪŋ" tr="переработка; вторичная переработка; переработка отходов"/>
+    <d v="red" p="adjective" ts="red" tr="красный; алый; румяный; коммунистический"/>
+    <d v="red" p="participle" ts="red" tr="покрасневший; окровавленный"/>
+    <d v="red carpet" p="noun" ts="red ˈkɑːpɪt" tr="красный ковер; красная ковровая дорожка; красная дорожка"/>
+    <d v="red cross" p="noun" ts="ˈredˈkrɔs" tr="красный крест; общество красного Креста; красный крестик"/>
+    <d v="redden" p="verb" ts="redn" tr="покраснеть"/>
+    <d v="redden" p="noun" ts="redn" tr="покраснение"/>
+    <d v="reddish" p="adjective" ts="ˈredɪʃ" tr="красноватый; рыжеватый"/>
+    <d v="redeem" p="verb" ts="rɪˈdiːm" tr="выкупить; искупить; погасить; избавить; спасти; освободить"/>
+    <d v="redeem" p="noun" ts="rɪˈdiːm" tr="искупление"/>
+    <d v="redeemable" p="participle" ts="rɪˈdiːməbl" tr="выкупаемый"/>
+    <d v="redemption" p="noun" ts="rɪˈdempʃn" tr="погашение; искупление; избавление; спасение"/>
+    <d v="redemption" p="adjective" ts="rɪˈdempʃn" tr="выкупной"/>
+    <d v="redevelop" p="verb" ts="riːdɪˈveləp" tr="реконструировать"/>
+    <d v="redevelopment" p="noun" ts="riːdɪˈveləpmənt" tr="реконструкция; перепланировка"/>
+    <d v="redhead" p="adjective" ts="ˈredhed" tr="рыжий"/>
+    <d v="red herring" p="noun" ts="red ˈherɪŋ" tr="отвлекающий маневр; красная сельдь"/>
+    <d v="redirect" p="verb" ts="rɪdɪˈrekt" tr="перенаправить; переадресовать"/>
+    <d v="redirect" p="noun" ts="rɪdɪˈrekt" tr="перенаправление; переориентация"/>
+    <d v="redistribute" p="verb" ts="ˈriːdɪsˈtrɪbjuːt" tr="перераспределять; распространять"/>
+    <d v="redistribute" p="noun" ts="ˈriːdɪsˈtrɪbjuːt" tr="перераспределение; распространение"/>
+    <d v="redistribution" p="noun" ts="ˈriːdɪstrɪˈbjuːʃn" tr="перераспределение; распространение"/>
+    <d v="redneck" p="noun" ts="ˈrednek" tr="деревенщина"/>
+    <d v="redness" p="noun" ts="ˈrednɪs" tr="покраснение"/>
+    <d v="redo" p="verb" ts="ˈriːˈduː" tr="переделать; повторить"/>
+    <d v="redo" p="noun" ts="ˈriːˈduː" tr="повтор"/>
+    <d v="redouble" p="verb" ts="rɪˈdʌbl" tr="удвоить; активизировать"/>
+    <d v="redress" p="noun" ts="rɪˈdres" tr="возмещение; удовлетворение"/>
+    <d v="redress" p="verb" ts="rɪˈdres" tr="исправить; компенсировать; выравнивать"/>
+    <d v="redskin" p="adjective" ts="ˈredskɪn" tr="краснокожий"/>
+    <d v="redskin" p="noun" ts="ˈredskɪn" tr="индеец"/>
+    <d v="red tape" p="noun" ts="ˈredˈteɪp" tr="волокита; красная лента; бумажная волокита; канцелярщина"/>
+    <d v="red tape" p="adjective" ts="ˈredˈteɪp" tr="бюрократический"/>
+    <d v="reduce" p="verb" ts="rɪˈdjuːs"
+       tr="уменьшить; свести; ослабить; приводить; редуцировать; превращать; восстанавливать; вправлять; похудеть"/>
+    <d v="reduce" p="noun" ts="rɪˈdjuːs" tr="снижение"/>
+    <d v="reduction" p="noun" ts="rɪˈdʌkʃn"
+       tr="снижение; сокращение; скидка; восстановление; подавление; обжатие; вправление; превращение"/>
+    <d v="redundancy" p="noun" ts="rɪˈdʌndənsɪ" tr="избыточность; сокращение Штатов"/>
+    <d v="redundancy" p="adjective" ts="rɪˈdʌndənsɪ" tr="избыточный"/>
+    <d v="redundant" p="adjective" ts="rɪˈdʌndənt" tr="избыточный"/>
+    <d v="red wine" p="noun" ts="ˈredˈwaɪn" tr="красное вино"/>
+    <d v="redwood" p="noun" ts="ˈredwʊd" tr="Редвуд; красное дерево; секвойя"/>
+    <d v="reed" p="noun" ts="riːd" tr="тростник; Рид; геркон; язычок; свирель"/>
+    <d v="reed" p="adjective" ts="riːd" tr="тростниковый"/>
+    <d v="reeducate" p="verb" ts="ˈriːˈedjuːkeɪt" tr="перевоспитать; перевоспитывать"/>
+    <d v="reeducate" p="noun" ts="ˈriːˈedjuːkeɪt" tr="перевоспитание"/>
+    <d v="reeducation" p="noun" ts="ˈriːedjuːˈkeɪʃn" tr="перевоспитание"/>
+    <d v="reef" p="noun" ts="riːf" tr="риф"/>
+    <d v="reef" p="adjective" ts="riːf" tr="рифовый"/>
+    <d v="reek" p="verb" ts="riːk" tr="пахнуть"/>
+    <d v="reek" p="noun" ts="riːk" tr="вонь"/>
+    <d v="reel" p="noun" ts="riːl" tr="катушка; вьюрок; накат; шатание; часть; рулетка"/>
+    <d v="reel" p="verb" ts="riːl" tr="наматывать; пошатнуться; намотать; кружиться"/>
+    <d v="reel" p="adjective" ts="riːl" tr="катушечный"/>
+    <d v="reelect" p="verb" ts="ˈriːɪˈlekt" tr="переизбрать"/>
+    <d v="reelection" p="noun" ts="ˈriːɪˈlekʃn" tr="переизбрание"/>
+    <d v="reentry" p="noun" ts="riːˈentrɪ" tr="возвращение"/>
+    <d v="reentry" p="participle" ts="riːˈentrɪ" tr="спускаемый"/>
+    <d v="refer" p="verb" ts="rɪˈfɜː" tr="относиться; ссылаться; смотреть; передать; отсылать; ознакомиться"/>
+    <d v="refer" p="noun" ts="rɪˈfɜː" tr="ссылка"/>
+    <d v="referee" p="noun" ts="refəˈriː" tr="судья"/>
+    <d v="referee" p="adjective" ts="refəˈriː" tr="судейский"/>
+    <d v="reference" p="noun" ts="ˈrefrəns" tr="ссылка; рекомендация; отношение; эталон"/>
+    <d v="reference" p="adjective" ts="ˈrefrəns" tr="справочный; эталонный; референтный"/>
+    <d v="reference" p="verb" ts="ˈrefrəns" tr="ссылаться"/>
+    <d v="reference" p="participle" ts="ˈrefrəns" tr="ссылающийся"/>
+    <d v="reference book" p="noun" ts="ˈrefrəns bʊk" tr="справочник; справочное издание; справочная книга"/>
+    <d v="referendum" p="noun" ts="refəˈrendəm" tr="референдум"/>
+    <d v="refill" p="verb" ts="ˈriːfɪl" tr="пополнить; наполнить; наполнять; снова наполнить; заправлять"/>
+    <d v="refill" p="noun" ts="ˈriːfɪl" tr="пополнение; заправка; пополнение счета; дополнение"/>
+    <d v="refill" p="participle" ts="ˈriːfɪl" tr="наполняемый; пополняемый"/>
+    <d v="refinance" p="noun" ts="rɪˈfaɪnæns" tr="рефинансирование; перефинансировать"/>
+    <d v="refinance" p="verb" ts="rɪˈfaɪnæns" tr="рефинансировать"/>
+    <d v="refine" p="verb" ts="rɪˈfaɪn"
+       tr="уточнить; совершенствовать; уточнять; перерабатывать; очищать; доработать; облагораживать; утончать; оттачивать; рафинировать; утончить"/>
+    <d v="refine" p="noun" ts="rɪˈfaɪn" tr="уточнение"/>
+    <d v="refined" p="participle" ts="rɪˈfaɪnd" tr="уточненный; очищенный; усовершенствованный; совершенствуемый"/>
+    <d v="refined" p="adjective" ts="rɪˈfaɪnd" tr="изысканный; изощренный"/>
+    <d v="refined" p="adverb" ts="rɪˈfaɪnd" tr="изысканно"/>
+    <d v="refinement" p="noun" ts="rɪˈfaɪnmənt"
+       tr="изысканность; уточнение; усовершенствование; очистка; утончение; рафинирование; детализация; изыск; интеллигентность"/>
+    <d v="refinery" p="noun" ts="rɪˈfaɪnərɪ"
+       tr="НПЗ; завод; рафинадный завод; очистительный завод; рафинировочный завод"/>
+    <d v="refinery" p="adjective" ts="rɪˈfaɪnərɪ" tr="нефтеперерабатывающий"/>
+    <d v="reflect" p="verb" ts="rɪˈflekt" tr="отражать; задуматься; размышлять; отображать; отразиться"/>
+    <d v="reflect" p="noun" ts="rɪˈflekt" tr="отражение"/>
+    <d v="reflection" p="noun" ts="rɪˈflekʃn"
+       tr="отражение; размышление; отблеск; соображение; образ; тень; порицание; пятно"/>
+    <d v="reflective" p="adjective" ts="rɪˈflektɪv" tr="отражательный; светоотражающий; рефлексивный; задумчивый"/>
+    <d v="reflective" p="participle" ts="rɪˈflektɪv" tr="отражающий; мыслящий; размышляющий"/>
+    <d v="reflective" p="verb" ts="rɪˈflektɪv" tr="отражать"/>
+    <d v="reflector" p="noun" ts="rɪˈflektə" tr="отражатель"/>
+    <d v="reflex" p="noun" ts="ˈriːfleks" tr="рефлекс"/>
+    <d v="reflex" p="adjective" ts="ˈriːfleks" tr="рефлекторный; зеркальный; непроизвольный"/>
+    <d v="reflexive" p="adjective" ts="rɪˈfleksɪv" tr="рефлексивный; рефлекторный; возвратный"/>
+    <d v="reflexive" p="noun" ts="rɪˈfleksɪv" tr="возвратный глагол"/>
+    <d v="reform" p="noun" ts="rɪˈfɔːm" tr="реформа; исправление; улучшение"/>
+    <d v="reform" p="verb" ts="rɪˈfɔːm" tr="реформировать; преобразовывать; исправлять; улучшать"/>
+    <d v="reformation" p="noun" ts="refəˈmeɪʃn" tr="реформация; реформирование; исправление"/>
+    <d v="reformer" p="noun" ts="rɪˈfɔːmə" tr="реформатор; преобразователь"/>
+    <d v="refrain" p="verb" ts="rɪˈfreɪn" tr="воздерживаться; воздержаться; удерживать; сдерживать"/>
+    <d v="refrain" p="noun" ts="rɪˈfreɪn" tr="припев; рефрен; воздержание"/>
+    <d v="refresh" p="verb" ts="rɪˈfreʃ"
+       tr="обновить; освежить; обновлять; обновиться; подкрепиться; подкреплять; подновлять"/>
+    <d v="refresh" p="noun" ts="rɪˈfreʃ" tr="обновление"/>
+    <d v="refresher course" p="noun" ts="rɪˈfreʃə kɔːs"
+       tr="переподготовка; курс повышения квалификации; курс переподготовки; повторный курс"/>
+    <d v="refreshing" p="participle" ts="rɪˈfreʃɪŋ" tr="освежающий"/>
+    <d v="refreshing" p="adjective" ts="rɪˈfreʃɪŋ" tr="прохладительный; свежий"/>
+    <d v="refreshing" p="noun" ts="rɪˈfreʃɪŋ" tr="освежение"/>
+    <d v="refreshingly" p="adverb" ts="rɪˈfreʃɪŋlɪ" tr="освежающе"/>
+    <d v="refreshment" p="noun" ts="rɪˈfreʃmənt" tr="закуска; прохладительный напиток; отдых; подкрепление"/>
+    <d v="refreshment" p="adjective" ts="rɪˈfreʃmənt" tr="прохладительный"/>
+    <d v="refreshment" p="verb" ts="rɪˈfreʃmənt" tr="освежиться"/>
+    <d v="refrigerate" p="noun" ts="rɪˈfrɪʤəreɪt" tr="холодильник"/>
+    <d v="refrigerate" p="verb" ts="rɪˈfrɪʤəreɪt" tr="охладить; замораживать"/>
+    <d v="refrigeration" p="adjective" ts="rɪfrɪʤəˈreɪʃn" tr="холодильный"/>
+    <d v="refrigeration" p="noun" ts="rɪfrɪʤəˈreɪʃn" tr="охлаждение; холодоснабжение"/>
+    <d v="refrigerator" p="noun" ts="rɪˈfrɪʤəreɪtə" tr="холодильник"/>
+    <d v="refrigerator" p="adjective" ts="rɪˈfrɪʤəreɪtə" tr="холодильный"/>
+    <d v="refuel" p="verb" ts="ˈriːˈfjʊəl" tr="заправлять; дозаправиться"/>
+    <d v="refuel" p="noun" ts="ˈriːˈfjʊəl" tr="дозаправка"/>
+    <d v="refuge" p="noun" ts="ˈrefjuːʤ" tr="убежище"/>
+    <d v="refuge" p="verb" ts="ˈrefjuːʤ" tr="укрыться; прятаться"/>
+    <d v="refuge" p="participle" ts="ˈrefjuːʤ" tr="укрывшийся"/>
+    <d v="refugee" p="noun" ts="refjuːˈʤiː" tr="беженец"/>
+    <d v="refugee" p="adjective" ts="refjuːˈʤiː" tr="беженский"/>
+    <d v="refund" p="noun" ts="ˈriːfʌnd" tr="возврат; возврат денег; возврат средств"/>
+    <d v="refund" p="verb" ts="ˈriːfʌnd" tr="вернуть; возместить"/>
+    <d v="refundable" p="participle" ts="rɪˈfʌndəbl" tr="возмещаемый"/>
+    <d v="refurbish" p="noun" ts="riːˈfɜːbɪʃ" tr="реконструкция"/>
+    <d v="refurbish" p="verb" ts="riːˈfɜːbɪʃ" tr="обновить; отреставрировать; переоборудовать; подновить"/>
+    <d v="refurbishment" p="noun" ts="rɪˈfɜːbɪʃmənt" tr="реконструкция"/>
+    <d v="refurbishment" p="adjective" ts="rɪˈfɜːbɪʃmənt" tr="ремонтный"/>
+    <d v="refusal" p="noun" ts="rɪˈfjuːzəl" tr="отказ"/>
+    <d v="refusal" p="adjective" ts="rɪˈfjuːzəl" tr="отказной"/>
+    <d v="refuse" p="verb" ts="rɪˈfjuːz" tr="отказаться; отказать; отвергнуть; ответить отказом"/>
+    <d v="refuse" p="noun" ts="rɪˈfjuːz" tr="отказ; мусор; остатки"/>
+    <d v="refute" p="verb" ts="rɪˈfjuːt" tr="опровергнуть; отвергать"/>
+    <d v="refute" p="noun" ts="rɪˈfjuːt" tr="опровержение"/>
+    <d v="regain" p="verb" ts="rɪˈgeɪn"
+       tr="восстановить; обрести; вновь обретать; вновь получить; отыгрывать; вновь приобрести; получить обратно"/>
+    <d v="regain" p="noun" ts="rɪˈgeɪn" tr="восстановление"/>
+    <d v="Regal" p="adjective" ts="ˈriːgəl" tr="царственный; королевский"/>
+    <d v="regard" p="noun" ts="rɪˈgɑːd" tr="отношение; внимание; привет; взгляд; оглядка; расположение"/>
+    <d v="regard" p="verb" ts="rɪˈgɑːd" tr="считать; касаться"/>
+    <d v="regarding" p="preposition" ts="rɪˈgɑːdɪŋ" tr="относительно; о; касательно"/>
+    <d v="regarding" p="noun" ts="rɪˈgɑːdɪŋ" tr="в отношении"/>
+    <d v="regarding" p="participle" ts="rɪˈgɑːdɪŋ" tr="касающийся"/>
+    <d v="regardless" p="noun" ts="rɪˈgɑːdlɪs" tr="независимо от"/>
+    <d v="regardless" p="adverb" ts="rɪˈgɑːdlɪs" tr="независимо"/>
+    <d v="regardless" p="adverbial participle" ts="rɪˈgɑːdlɪs" tr="несмотря"/>
+    <d v="regatta" p="noun" ts="rɪˈgætə" tr="регата"/>
+    <d v="regenerate" p="verb" ts="rɪˈʤenərɪt" tr="регенерировать; восстанавливать; переродиться"/>
+    <d v="regenerate" p="noun" ts="rɪˈʤenərɪt" tr="регенерация"/>
+    <d v="regenerate" p="participle" ts="rɪˈʤenərɪt" tr="возрожденный"/>
+    <d v="regeneration" p="noun" ts="rɪʤenəˈreɪʃn" tr="регенерация; рекуперация; воспроизводство"/>
+    <d v="regeneration" p="adjective" ts="rɪʤenəˈreɪʃn" tr="регенеративный"/>
+    <d v="Regent" p="noun" ts="ˈriːʤənt" tr="регент"/>
+    <d v="reggae" p="noun" ts="ˈregeɪ" tr="регги"/>
+    <d v="regime" p="noun" ts="reɪˈʒiːm" tr="режим"/>
+    <d v="regimen" p="noun" ts="ˈreʤɪmen" tr="режим"/>
+    <d v="regiment" p="noun" ts="ˈreʤɪmənt" tr="полк"/>
+    <d v="regiment" p="adjective" ts="ˈreʤɪmənt" tr="полковой"/>
+    <d v="regimental" p="adjective" ts="reʤɪˈmentl" tr="полковой"/>
+    <d v="regimented" p="participle" ts="ˈreʤɪməntɪd" tr="регламентированный"/>
+    <d v="region" p="noun" ts="ˈriːʤən" tr="регион; район; страна; слой"/>
+    <d v="regional" p="adjective" ts="ˈriːʤənl" tr="региональный; областной"/>
+    <d v="regionally" p="noun" ts="ˈriːʤənəlɪ" tr="на региональном уровне; на региональном"/>
+    <d v="register" p="noun" ts="ˈreʤɪstə" tr="регистр; регистрация; приводка; опись; заслонка; метрическая книга"/>
+    <d v="register" p="verb" ts="ˈreʤɪstə"
+       tr="зарегистрировать; оформлять; прописать; прописывать; отмечать; показывать; выражать; запечатлевать"/>
+    <d v="register" p="participle" ts="ˈreʤɪstə" tr="зарегистрированный; регистрируемый; зарегистрировавшийся"/>
+    <d v="register" p="adjective" ts="ˈreʤɪstə" tr="реестровый"/>
+    <d v="registered mail" p="noun" ts="ˈreʤɪstəd meɪl" tr="заказное письмо; заказная почта"/>
+    <d v="registered nurse" p="noun" ts="ˈreʤɪstəd nɜːs"
+       tr="медсестра; зарегистрированная медсестра; дипломированная медсестра"/>
+    <d v="registrar" p="noun" ts="reʤɪsˈtrɑː" tr="регистратор; секретарь; ЗАГС"/>
+    <d v="registration" p="noun" ts="reʤɪsˈtreɪʃn" tr="регистрация; зарегистрирование"/>
+    <d v="registration" p="adjective" ts="reʤɪsˈtreɪʃn" tr="регистрационный"/>
+    <d v="registry" p="noun" ts="ˈreʤɪstrɪ" tr="реестр"/>
+    <d v="regress" p="noun" ts="ˈriːgres" tr="регресс; упадок; возвращение"/>
+    <d v="regress" p="verb" ts="ˈriːgres" tr="регрессировать"/>
+    <d v="regression" p="noun" ts="rɪˈgreʃn" tr="регрессия; регресс"/>
+    <d v="regression" p="adjective" ts="rɪˈgreʃn" tr="регрессионный"/>
+    <d v="regret" p="verb" ts="rɪˈgret" tr="сожалеть; жалеть; горевать"/>
+    <d v="regret" p="noun" ts="rɪˈgret" tr="сожаление; горе"/>
+    <d v="regret" p="predicative" ts="rɪˈgret" tr="жаль"/>
+    <d v="regretfully" p="noun" ts="rɪˈgretfəlɪ" tr="к сожалению"/>
+    <d v="regrettable" p="adjective" ts="rɪˈgretəbl" tr="прискорбный"/>
+    <d v="regrettable" p="noun" ts="rɪˈgretəbl" tr="сожаление; вызывающее сожаление"/>
+    <d v="regrettably" p="adverb" ts="rɪˈgretəblɪ" tr="прискорбно"/>
+    <d v="regrettably" p="interjection" ts="rɪˈgretəblɪ" tr="увы"/>
+    <d v="regroup" p="verb" ts="ˈriːˈgruːp" tr="перегруппироваться; перестроиться"/>
+    <d v="regroup" p="noun" ts="ˈriːˈgruːp" tr="перегруппировка"/>
+    <d v="regular" p="adjective" ts="ˈregjʊlə" tr="регулярный; обычный; настоящий; официальный; профессиональный"/>
+    <d v="regularity" p="noun" ts="regjʊˈlærɪtɪ"
+       tr="закономерность; регулярность; правильность; периодичность; постоянство; упорядоченность; размеренность; непрерывность; порядок"/>
+    <d v="regularly" p="adverb" ts="ˈregjʊləlɪ" tr="регулярно"/>
+    <d v="regulate" p="verb" ts="ˈregjʊleɪt"
+       tr="регулировать; регламентировать; упорядочить; соразмерять; приспосабливать"/>
+    <d v="regulate" p="noun" ts="ˈregjʊleɪt" tr="регулирование"/>
+    <d v="regulation" p="noun" ts="regjʊˈleɪʃn"
+       tr="правило; регулирование; нормативный акт; нормативное положение; нормативный документ; нормирование"/>
+    <d v="regulation" p="adjective" ts="regjʊˈleɪʃn" tr="нормативный"/>
+    <d v="regurgitate" p="verb" ts="rɪˈgɜːʤɪteɪt" tr="срыгивать; извергать"/>
+    <d v="regurgitation" p="noun" ts="riːˈgɜːʤɪteɪʃn" tr="регургитация; срыгивание"/>
+    <d v="rehab" p="noun" ts="riːəˈb" tr="реабилитация"/>
+    <d v="rehab" p="adjective" ts="riːəˈb" tr="реабилитационный"/>
+    <d v="rehabilitate" p="noun" ts="riːəˈbɪlɪteɪt" tr="реабилитация"/>
+    <d v="rehabilitate" p="verb" ts="riːəˈbɪlɪteɪt"
+       tr="реабилитировать; восстанавливать; перевоспитать; оздоровить; перевоспитывать"/>
+    <d v="rehabilitation" p="noun" ts="ˈriːəbɪlɪˈteɪʃn" tr="реабилитация; восстановление; реконструкция"/>
+    <d v="rehabilitation" p="adjective" ts="ˈriːəbɪlɪˈteɪʃn" tr="реабилитационный"/>
+    <d v="rehash" p="noun" ts="ˈriːˈhæʃ" tr="перепев; пересказ; перефразирование"/>
+    <d v="rehash" p="verb" ts="ˈriːˈhæʃ" tr="перефразировать; перекраивать; переделывать"/>
+    <d v="rehearsal" p="noun" ts="rɪˈhɜːsəl" tr="репетиция; сыгровка; повторение"/>
+    <d v="rehearsal" p="adjective" ts="rɪˈhɜːsəl" tr="репетиционный"/>
+    <d v="rehearsal" p="verb" ts="rɪˈhɜːsəl" tr="репетировать"/>
+    <d v="rehearse" p="verb" ts="rɪˈhɜːs"
+       tr="репетировать; отрепетировать; прорепетировать; повторять; порепетировать"/>
+    <d v="rehearse" p="noun" ts="rɪˈhɜːs" tr="репетиция"/>
+    <d v="reign" p="verb" ts="reɪn" tr="царствовать; царить; воцариться"/>
+    <d v="reign" p="noun" ts="reɪn" tr="царствование; правление"/>
+    <d v="reign" p="participle" ts="reɪn" tr="царствующий"/>
+    <d v="reimburse" p="verb" ts="riːɪmˈbɜːs" tr="возмещать"/>
+    <d v="reimburse" p="noun" ts="riːɪmˈbɜːs" tr="возмещение"/>
+    <d v="reimbursement" p="noun" ts="riːɪmˈbɜːsmənt" tr="возмещение"/>
+    <d v="rein" p="noun" ts="reɪn" tr="повод; узда; обуздание"/>
+    <d v="rein" p="verb" ts="reɪn" tr="обуздать; придержать; править"/>
+    <d v="reincarnate" p="verb" ts="riːˈɪnkɑːneɪt" tr="перевоплощаться; воплощаться; перевоплощать; переродиться"/>
+    <d v="reincarnate" p="noun" ts="riːˈɪnkɑːneɪt" tr="реинкарнировать"/>
+    <d v="reincarnation" p="noun" ts="ˈriːɪnkɑːˈneɪʃn" tr="реинкарнация; переселение душ"/>
+    <d v="reindeer" p="noun" ts="ˈreɪndɪə" tr="олень"/>
+    <d v="reindeer" p="adjective" ts="ˈreɪndɪə" tr="олений"/>
+    <d v="reinforce" p="verb" ts="riːɪnˈfɔːs" tr="укрепить; подкреплять; закрепить; активизировать; подтвердить"/>
+    <d v="reinforce" p="noun" ts="riːɪnˈfɔːs" tr="подкрепление"/>
+    <d v="reinforce" p="adjective" ts="riːɪnˈfɔːs" tr="арматурный"/>
+    <d v="reinforcement" p="noun" ts="riːɪnˈfɔːsmənt" tr="укрепление; подкрепление; арматура; пополнение"/>
+    <d v="reinstate" p="verb" ts="ˈriːɪnˈsteɪt" tr="восстановить"/>
+    <d v="reinstatement" p="noun" ts="ˈriːɪnˈsteɪtmənt" tr="восстановление"/>
+    <d v="reinvent" p="verb" ts="rɪɪnˈvent" tr="изобретать; заново изобрести; переосмыслить"/>
+    <d v="reissue" p="noun" ts="ˈriːˈɪʃjuː" tr="переиздание; перевыпуск"/>
+    <d v="reissue" p="verb" ts="ˈriːˈɪʃjuː" tr="переиздать; переоформить"/>
+    <d v="reiterate" p="verb" ts="riːˈɪtəreɪt"
+       tr="подтвердить; повторить; подчеркнуть; вновь заявить; вновь повторить; вновь отметить"/>
+    <d v="reiteration" p="noun" ts="riːɪtəˈreɪʃn" tr="повторение"/>
+    <d v="reject" p="verb" ts="ˈriːʤekt"
+       tr="отвергать; отклонить; отказаться; отбросить; излучить; не принимать; отринуть; отбраковывать; забраковывать"/>
+    <d v="reject" p="noun" ts="ˈriːʤekt" tr="отказ"/>
+    <d v="reject" p="participle" ts="ˈriːʤekt" tr="отвергающий"/>
+    <d v="rejection" p="noun" ts="rɪˈʤekʃn"
+       tr="отказ; неприятие; отторжение; отвержение; отбраковка; отверженность; отбрасывание; браковка; извержение; отсортировка"/>
+    <d v="rejoice" p="verb" ts="rɪˈʤɔɪs" tr="радоваться; радовать"/>
+    <d v="rejoicing" p="noun" ts="rɪˈʤɔɪsɪŋ" tr="радость; веселие; празднование"/>
+    <d v="rejoicing" p="adjective" ts="rɪˈʤɔɪsɪŋ" tr="ликующий"/>
+    <d v="rejoicing" p="participle" ts="rɪˈʤɔɪsɪŋ" tr="радующийся"/>
+    <d v="rejoin" p="verb" ts="rɪˈʤɔɪn" tr="вернуться; присоединиться; вновь присоединиться"/>
+    <d v="rejoinder" p="noun" ts="rɪˈʤɔɪndə" tr="возражение"/>
+    <d v="rejuvenate" p="verb" ts="rɪˈʤuːvɪneɪt" tr="омолаживать; восстановить; омолодиться; обновить"/>
+    <d v="rejuvenate" p="noun" ts="rɪˈʤuːvɪneɪt" tr="омоложение"/>
+    <d v="rejuvenation" p="noun" ts="rɪʤuːvɪˈneɪʃn" tr="омоложение; обновление; восстановление сил"/>
+    <d v="rejuvenation" p="participle" ts="rɪʤuːvɪˈneɪʃn" tr="омолаживающий"/>
+    <d v="rejuvenation" p="verb" ts="rɪʤuːvɪˈneɪʃn" tr="омолаживать"/>
+    <d v="rekindle" p="verb" ts="riːˈkɪndl" tr="возродить; разжечь"/>
+    <d v="relapse" p="noun" ts="rɪˈlæps" tr="рецидив"/>
+    <d v="relapse" p="verb" ts="rɪˈlæps" tr="впадать"/>
+    <d v="relate" p="verb" ts="rɪˈleɪt" tr="относиться; касаться; рассказывать; соотнести; затрагивать"/>
+    <d v="relate" p="noun" ts="rɪˈleɪt" tr="отношение"/>
+    <d v="related" p="participle" ts="rɪˈleɪtɪd" tr="связанный; относящийся"/>
+    <d v="related" p="adjective" ts="rɪˈleɪtɪd" tr="родственный"/>
+    <d v="relation" p="noun" ts="rɪˈleɪʃn" tr="отношение; родственник; повествование"/>
+    <d v="relationship" p="noun" ts="rɪˈleɪʃənʃɪp" tr="отношение"/>
+    <d v="relative" p="noun" ts="ˈrelətɪv" tr="родственник"/>
+    <d v="relative" p="adjective" ts="ˈrelətɪv" tr="относительный; родственный; соответственный; соотносительный"/>
+    <d v="relatively" p="adverb" ts="ˈrelətɪvlɪ" tr="относительно; условно; соответственно"/>
+    <d v="relativity" p="noun" ts="reləˈtɪvɪtɪ" tr="относительность"/>
+    <d v="relativity" p="adjective" ts="reləˈtɪvɪtɪ" tr="релятивистский"/>
+    <d v="relax" p="verb" ts="rɪˈlæks" tr="расслабиться; расслаблять; ослабить; смягчать"/>
+    <d v="relax" p="noun" ts="rɪˈlæks" tr="отдых"/>
+    <d v="relax" p="adverbial participle" ts="rɪˈlæks" tr="расслабляясь"/>
+    <d v="relax" p="participle" ts="rɪˈlæks" tr="расслабляющий"/>
+    <d v="relaxation" p="noun" ts="riːlækˈseɪʃn" tr="отдых; релаксация; ослабление; расслабленность; передышка"/>
+    <d v="relaxation" p="adjective" ts="riːlækˈseɪʃn" tr="релаксационный"/>
+    <d v="relaxation" p="participle" ts="riːlækˈseɪʃn" tr="расслабляющий"/>
+    <d v="relaxed" p="participle" ts="rɪˈlækst" tr="расслабленный; ослабленный; смягченный"/>
+    <d v="relaxing" p="noun" ts="rɪˈlæksɪŋ" tr="отдых"/>
+    <d v="relaxing" p="adjective" ts="rɪˈlæksɪŋ" tr="спокойный; релаксирующий"/>
+    <d v="relaxing" p="adverbial participle" ts="rɪˈlæksɪŋ" tr="расслабляясь"/>
+    <d v="relaxing" p="participle" ts="rɪˈlæksɪŋ" tr="расслабляющий; расслабляющийся"/>
+    <d v="relay" p="noun" ts="rɪˈleɪ" tr="реле; эстафета; ретрансляция; ретранслятор; смена"/>
+    <d v="relay" p="adjective" ts="rɪˈleɪ" tr="релейный"/>
+    <d v="relay" p="verb" ts="rɪˈleɪ" tr="передавать"/>
+    <d v="relay" p="participle" ts="rɪˈleɪ" tr="ретранслирующий"/>
+    <d v="release" p="noun" ts="rɪˈliːs"
+       tr="выпуск; релиз; освобождение; отпускание; разъединение; облегчение; расписка"/>
+    <d v="release" p="verb" ts="rɪˈliːs" tr="выпустить; освободить; раскрывать; сбрасывать"/>
+    <d v="release" p="participle" ts="rɪˈliːs" tr="выпущенный"/>
+    <d v="relegate" p="verb" ts="ˈrelɪgeɪt" tr="отодвинуть; низводить; относить; низвести"/>
+    <d v="relent" p="verb" ts="rɪˈlent" tr="смягчиться; уступить; смилостивиться"/>
+    <d v="relentless" p="adjective" ts="rɪˈlentlɪs" tr="безжалостный; неустанный; упорный; беспрестанный"/>
+    <d v="relentlessly" p="adverb" ts="rɪˈlentləslɪ" tr="неустанно; неуклонно; безжалостно"/>
+    <d v="relentlessly" p="noun" ts="rɪˈlentləslɪ" tr="без устали"/>
+    <d v="relevance" p="noun" ts="ˈrelɪvəns" tr="актуальность; значение; отношение; соответствие; обоснованность"/>
+    <d v="relevance" p="adjective" ts="ˈrelɪvəns" tr="актуальный"/>
+    <d v="relevant" p="adjective" ts="ˈrelɪvənt" tr="соответствующий; актуальный"/>
+    <d v="relevant" p="noun" ts="ˈrelɪvənt" tr="значение"/>
+    <d v="relevant" p="participle" ts="ˈrelɪvənt" tr="относящийся к делу"/>
+    <d v="reliability" p="noun" ts="rɪlaɪəˈbɪlɪtɪ" tr="надежность; благонадежность; солидность"/>
+    <d v="reliable" p="adjective" ts="rɪˈlaɪəbl" tr="надежный"/>
+    <d v="reliable" p="noun" ts="rɪˈlaɪəbl" tr="надежность"/>
+    <d v="reliable" p="participle" ts="rɪˈlaɪəbl" tr="заслуживающий доверия"/>
+    <d v="reliably" p="adverb" ts="rɪˈlaɪəblɪ" tr="надежно"/>
+    <d v="reliance" p="noun" ts="rɪˈlaɪəns" tr="зависимость; опора; доверие; уверенность"/>
+    <d v="reliance" p="verb" ts="rɪˈlaɪəns" tr="полагаться"/>
+    <d v="reliant" p="verb" ts="rɪˈlaɪənt" tr="зависеть"/>
+    <d v="reliant" p="adjective" ts="rɪˈlaɪənt" tr="уверенный"/>
+    <d v="relic" p="noun" ts="ˈrelɪk" tr="реликвия; реликт; останки"/>
+    <d v="relic" p="adjective" ts="ˈrelɪk" tr="реликтовый"/>
+    <d v="relief" p="noun" ts="rɪˈliːf"
+       tr="облегчение; помощь; рельеф; сброс; освобождение; чрезвычайная помощь; утешение; рельефность; смена; подкрепление; разнообразие"/>
+    <d v="relief" p="adjective" ts="rɪˈliːf" tr="рельефный"/>
+    <d v="relieve" p="verb" ts="rɪˈliːv"
+       tr="облегчить; снимать; освобождать; уменьшить; ослабить; сменить; успокаивать; помочиться; выручать; деблокировать"/>
+    <d v="relieve" p="noun" ts="rɪˈliːv" tr="облегчение"/>
+    <d v="relieved" p="participle" ts="rɪˈliːvd" tr="освобожденный; избавленный; освобождаемый"/>
+    <d v="religion" p="noun" ts="rɪˈlɪʤən" tr="религия; монашество"/>
+    <d v="religious" p="adjective" ts="rɪˈlɪʤəs" tr="религиозный; религиоведческий; набожный; монашеский"/>
+    <d v="religious" p="participle" ts="rɪˈlɪʤəs" tr="верующий"/>
+    <d v="religious" p="noun" ts="rɪˈlɪʤəs" tr="монах"/>
+    <d v="religiously" p="adverb" ts="rɪˈlɪʤəslɪ" tr="религиозно; вероисповедно; скрупулезно"/>
+    <d v="relinquish" p="verb" ts="rɪˈlɪŋkwɪʃ" tr="отказаться; оставить; уступать; передавать"/>
+    <d v="relish" p="noun" ts="ˈrelɪʃ" tr="удовольствие; вкус; приправа; смакование"/>
+    <d v="relish" p="verb" ts="ˈrelɪʃ" tr="наслаждаться; смаковать"/>
+    <d v="relive" p="verb" ts="riːˈlɪv" tr="пережить; вновь пережить; вновь переживать; оживить"/>
+    <d v="relocate" p="verb" ts="riːləʊˈkeɪt"
+       tr="переехать; перенести; переселиться; передислоцировать; перебазировать"/>
+    <d v="relocate" p="noun" ts="riːləʊˈkeɪt" tr="перемещение"/>
+    <d v="relocation" p="noun" ts="riːləʊˈkeɪʃn" tr="переселение; перемещение; перебазирование"/>
+    <d v="reluctance" p="noun" ts="rɪˈlʌktəns" tr="нежелание; сопротивление; магнитное сопротивление; отвращение"/>
+    <d v="reluctance" p="predicative" ts="rɪˈlʌktəns" tr="неохота"/>
+    <d v="reluctant" p="adjective" ts="rɪˈlʌktənt" tr="неохотный; вынужденный"/>
+    <d v="reluctant" p="participle" ts="rɪˈlʌktənt" tr="сопротивляющийся"/>
+    <d v="reluctant" p="predicative" ts="rɪˈlʌktənt" tr="неохота"/>
+    <d v="reluctant" p="adverb" ts="rɪˈlʌktənt" tr="поневоле"/>
+    <d v="reluctantly" p="adverb" ts="rɪˈlʌktəntlɪ" tr="неохотно"/>
+    <d v="reluctantly" p="noun" ts="rɪˈlʌktəntlɪ" tr="с неохотой"/>
+    <d v="rely" p="verb" ts="rɪˈlaɪ" tr="опираться; доверять; руководствоваться; возлагать"/>
+    <d v="rely" p="noun" ts="rɪˈlaɪ" tr="опора"/>
+    <d v="remain" p="verb" ts="rɪˈmeɪn" tr="оставаться"/>
+    <d v="remainder" p="noun" ts="rɪˈmeɪndə" tr="остаток; оставшаяся часть"/>
+    <d v="remainder" p="adjective" ts="rɪˈmeɪndə" tr="остаточный"/>
+    <d v="remaining" p="participle" ts="rɪˈmeɪnɪŋ" tr="оставшийся; остающийся; сохраняющийся; сохранившийся"/>
+    <d v="remains" p="participle" ts="rɪˈmeɪnz" tr="остающийся"/>
+    <d v="remains" p="noun" ts="rɪˈmeɪnz" tr="останки; остатки"/>
+    <d v="remake" p="noun" ts="ˈriːˈmeɪk" tr="римейк; переделка; новодел; переделывание"/>
+    <d v="remake" p="verb" ts="ˈriːˈmeɪk" tr="переделать; перекроить"/>
+    <d v="remark" p="noun" ts="ˈrɪˈmɑːk" tr="Примечание; замечание; ссылка"/>
+    <d v="remark" p="verb" ts="ˈrɪˈmɑːk" tr="заметить"/>
+    <d v="remarkable" p="adjective" ts="rɪˈmɑːkəbl"
+       tr="замечательный; примечательный; удивительный; выдающийся; знаменательный"/>
+    <d v="remarkable" p="participle" ts="rɪˈmɑːkəbl" tr="запоминающийся"/>
+    <d v="remarkably" p="adverb" ts="rɪˈmɑːkəblɪ" tr="удивительно; замечательно; очень; примечательно"/>
+    <d v="remarkably" p="noun" ts="rɪˈmɑːkəblɪ" tr="удивление; на удивление; в высшей степени"/>
+    <d v="remarkably" p="adjective" ts="rɪˈmɑːkəblɪ" tr="примечательный"/>
+    <d v="remarriage" p="noun" ts="riːˈmærɪʤ" tr="повторный брак"/>
+    <d v="remarry" p="noun" ts="riːˈmærɪ" tr="брак; повторный брак"/>
+    <d v="remarry" p="verb" ts="riːˈmærɪ" tr="жениться; снова выйти замуж"/>
+    <d v="remedial" p="adjective" ts="rɪˈmiːdjəl" tr="процессуальный; лечебный; коррективный; правозащитный"/>
+    <d v="remedial" p="noun" ts="rɪˈmiːdjəl" tr="исправление; по исправлению; по исправлению положения"/>
+    <d v="remedial" p="participle" ts="rɪˈmiːdjəl" tr="корректирующий; излечивающий"/>
+    <d v="remedy" p="noun" ts="ˈremɪdɪ"
+       tr="средства; правовая защита; лекарство; мера; средства защиты; излечение; средство судебной защиты"/>
+    <d v="remedy" p="verb" ts="ˈremɪdɪ" tr="исправить; вылечивать"/>
+    <d v="remember" p="verb" ts="rɪˈmembə" tr="помнить; не забыть; запомниться; вспомниться; поминать; воспоминать"/>
+    <d v="remembrance" p="noun" ts="rɪˈmembrəns" tr="память; поминовение; памятование; привет"/>
+    <d v="remind" p="verb" ts="ˈrɪmaɪnd" tr="напомнить; вспомнить"/>
+    <d v="remind" p="noun" ts="ˈrɪmaɪnd" tr="напоминание"/>
+    <d v="reminder" p="noun" ts="rɪˈmaɪndə" tr="напоминание"/>
+    <d v="reminder" p="verb" ts="rɪˈmaɪndə" tr="напомнить"/>
+    <d v="reminisce" p="verb" ts="remɪˈnɪs" tr="вспоминать; предаваться воспоминаниям"/>
+    <d v="reminisce" p="noun" ts="remɪˈnɪs" tr="воспоминание"/>
+    <d v="reminiscence" p="noun" ts="remɪˈnɪsns" tr="воспоминание"/>
+    <d v="reminiscent" p="verb" ts="remɪˈnɪsnt" tr="напоминать"/>
+    <d v="reminiscent" p="participle" ts="remɪˈnɪsnt" tr="напоминающий"/>
+    <d v="remiss" p="adjective" ts="rɪˈmɪs" tr="нерадивый"/>
+    <d v="remission" p="noun" ts="rɪˈmɪʃn" tr="ремиссия; прощение; льгота; ослабление"/>
+    <d v="remit" p="verb" ts="rɪˈmɪt" tr="переводить; прощать; отчислять; снимать"/>
+    <d v="remittance" p="noun" ts="rɪˈmɪtəns" tr="перевод; денежный перевод"/>
+    <d v="remnant" p="noun" ts="ˈremnənt" tr="остаток"/>
+    <d v="remnant" p="adjective" ts="ˈremnənt" tr="остаточный"/>
+    <d v="remodel" p="verb" ts="ˈriːˈmɔdl" tr="переделывать; реконструировать; перестроить"/>
+    <d v="remorse" p="noun" ts="rɪˈmɔːs" tr="раскаяние; сожаление"/>
+    <d v="remorseful" p="noun" ts="rɪˈmɔːsfʊl" tr="раскаяние"/>
+    <d v="remorseful" p="verb" ts="rɪˈmɔːsfʊl" tr="раскаиваться"/>
+    <d v="remorseful" p="participle" ts="rɪˈmɔːsfʊl" tr="полный раскаяния"/>
+    <d v="remorseless" p="adjective" ts="rɪˈmɔːslɪs" tr="безжалостный"/>
+    <d v="remote" p="adjective" ts="rɪˈməʊt" tr="удаленный; дистанционный; отдаленный; незначительный"/>
+    <d v="remote control" p="noun" ts="rɪˈməʊt kənˈtrəʊl"
+       tr="дистанционное управление; пульт дистанционного управления; удаленное управление; пульт управления; дистанционный контроль; удаленный контроль"/>
+    <d v="remote control" p="verb" ts="rɪˈməʊt kənˈtrəʊl" tr="дистанционно управлять"/>
+    <d v="remotely" p="adverb" ts="rɪˈməʊtlɪ" tr="удаленно"/>
+    <d v="remotely" p="participle" ts="rɪˈməʊtlɪ" tr="удаленный"/>
+    <d v="remotely" p="adjective" ts="rɪˈməʊtlɪ" tr="дистанционный"/>
+    <d v="remoteness" p="noun" ts="rɪˈməʊtnəs" tr="удаленность; давность"/>
+    <d v="removable" p="adjective" ts="rɪˈmuːvəbl" tr="съемный; устранимый"/>
+    <d v="removable" p="participle" ts="rɪˈmuːvəbl" tr="передвигаемый; вынимаемый; сменяемый"/>
+    <d v="removal" p="noun" ts="rɪˈmuːvəl"
+       tr="удаление; устранение; перемещение; изъятие; отвод; высылка; вынос; снос; вывозка"/>
+    <d v="remove" p="verb" ts="rɪˈmuːv"
+       tr="удалить; снять; извлечь; устранить; передвигать; отодвигать; смещать; увольнять"/>
+    <d v="remove" p="noun" ts="rɪˈmuːv" tr="удаление; шаг"/>
+    <d v="removed" p="participle" ts="rɪˈmuːvd"
+       tr="удаленный; снятый; изъятый; вывезенный; отстраненный; смещенный; удаляемый"/>
+    <d v="remover" p="noun" ts="rɪˈmuːvə" tr="перевозчик; перевозчик мебели; пятновыводитель; съемник; смывка"/>
+    <d v="remunerate" p="verb" ts="rɪˈmjuːnəreɪt" tr="вознаграждать; оплачивать"/>
+    <d v="remuneration" p="noun" ts="rɪmjuːnəˈreɪʃn" tr="вознаграждение"/>
+    <d v="Renaissance" p="noun" ts="rəˈneɪsəns" tr="Ренессанс; возрождение; эпоха ренессанса"/>
+    <d v="Renaissance" p="adjective" ts="rəˈneɪsəns" tr="ренессансный"/>
+    <d v="rename" p="verb" ts="ˈriːˈneɪm" tr="переименовать; дать новое имя"/>
+    <d v="rename" p="noun" ts="ˈriːˈneɪm" tr="переименование"/>
+    <d v="rend" p="verb" ts="rend" tr="разодрать; раздирать; разорвать"/>
+    <d v="render" p="verb" ts="ˈrendə"
+       tr="оказывать; предоставлять; вынести; визуализировать; отображаться; передавать; наносить; воспроизводить; сослужить; исполнять"/>
+    <d v="render" p="noun" ts="ˈrendə" tr="оказание; визуализация; оплата"/>
+    <d v="rendering" p="noun" ts="ˈrendərɪŋ"
+       tr="оказание; визуализация; рендеринг; перевод; прорисовка; исполнение; вытапливание"/>
+    <d v="rendering" p="participle" ts="ˈrendərɪŋ" tr="оказывающий; предоставляющий"/>
+    <d v="rendezvous" p="noun" ts="ˈrɔndɪvuː" tr="рандеву; встреча; сближение; место встречи"/>
+    <d v="rendezvous" p="verb" ts="ˈrɔndɪvuː" tr="встретиться"/>
+    <d v="rendition" p="noun" ts="renˈdɪʃn" tr="выдача; цветопередача; исполнение"/>
+    <d v="renegade" p="noun" ts="ˈrenɪgeɪd" tr="ренегат; отступник; изменник; перебежчик"/>
+    <d v="renegade" p="adjective" ts="ˈrenɪgeɪd" tr="предательский"/>
+    <d v="renege" p="verb" ts="rɪˈneɪg" tr="отказываться"/>
+    <d v="renew" p="verb" ts="rɪˈnjuː"
+       tr="возобновить; обновить; продлить; восстановить; обновиться; пополнить; повторять"/>
+    <d v="renew" p="noun" ts="rɪˈnjuː" tr="обновление; возобновление"/>
+    <d v="renewable" p="participle" ts="rɪˈnjuːəbl" tr="возобновляемый; обновляемый"/>
+    <d v="renewable" p="adjective" ts="rɪˈnjuːəbl" tr="возобновимый"/>
+    <d v="renewal" p="noun" ts="rɪˈnjuːəl"
+       tr="обновление; возобновление; продление; восстановительный ремонт; повторение"/>
+    <d v="renewal" p="adjective" ts="rɪˈnjuːəl" tr="капитальный"/>
+    <d v="renounce" p="verb" ts="rɪˈnaʊns" tr="отречься; отвергнуть; поступаться"/>
+    <d v="renounce" p="noun" ts="rɪˈnaʊns" tr="отречение"/>
+    <d v="renovate" p="verb" ts="ˈrenəʊveɪt" tr="отремонтировать; обновить"/>
+    <d v="renovation" p="noun" ts="renəʊˈveɪʃn" tr="реконструкция; ремонт"/>
+    <d v="renovation" p="adjective" ts="renəʊˈveɪʃn" tr="ремонтный"/>
+    <d v="renown" p="noun" ts="rɪˈnaʊn" tr="известность"/>
+    <d v="renowned" p="adjective" ts="rɪˈnaʊnd" tr="известный"/>
+    <d v="renowned" p="participle" ts="rɪˈnaʊnd" tr="прославленный; признанный"/>
+    <d v="renowned" p="noun" ts="rɪˈnaʊnd" tr="известность"/>
+    <d v="rent" p="noun" ts="rent" tr="аренда; прокат; квартирная плата; прореха; разрыв"/>
+    <d v="rent" p="verb" ts="rent" tr="арендовать; снять"/>
+    <d v="rent" p="adjective" ts="rent" tr="арендный"/>
+    <d v="rent" p="participle" ts="rent" tr="арендованный; арендующий"/>
+    <d v="rental" p="noun" ts="rentl" tr="аренда"/>
+    <d v="rental" p="adjective" ts="rentl" tr="арендный; прокатный"/>
+    <d v="rent control" p="noun" ts="rent kənˈtrəʊl" tr="контроль над арендой"/>
+    <d v="renter" p="noun" ts="ˈrentə" tr="арендатор"/>
+    <d v="renunciation" p="noun" ts="rɪnʌnsɪˈeɪʃn" tr="отказ; самоотречение; отрешение"/>
+    <d v="reorganization" p="noun" ts="ˈriːɔːgənaɪˈzeɪʃn" tr="реорганизация"/>
+    <d v="reorganize" p="noun" ts="ˈriːˈɔːgənaɪz" tr="реорганизация"/>
+    <d v="reorganize" p="verb" ts="ˈriːˈɔːgənaɪz" tr="реорганизовать; перестроить; преобразовать; перестроиться"/>
+    <d v="rep" p="noun" ts="rep" tr="представитель; повторение; репутация"/>
+    <d v="repaid" p="participle" ts="riːˈpeɪd" tr="погашаемый"/>
+    <d v="repair" p="noun" ts="rɪˈpɛə" tr="ремонт; исправность"/>
+    <d v="repair" p="adjective" ts="rɪˈpɛə" tr="ремонтный"/>
+    <d v="repair" p="verb" ts="rɪˈpɛə" tr="отремонтировать; восстановить; возмещать"/>
+    <d v="repair" p="participle" ts="rɪˈpɛə" tr="ремонтируемый"/>
+    <d v="reparation" p="noun" ts="repəˈreɪʃn" tr="возмещение; ремонт; заглаживание"/>
+    <d v="repatriate" p="noun" ts="riːˈpætrɪeɪt" tr="репатриант; репатриантка"/>
+    <d v="repatriate" p="verb" ts="riːˈpætrɪeɪt" tr="репатриировать"/>
+    <d v="repatriation" p="noun" ts="ˈriːpætrɪˈeɪʃn" tr="репатриация; возвращение на родину"/>
+    <d v="repay" p="verb" ts="riːˈpeɪ"
+       tr="погасить; выплатить; вернуть; отплатить; воздать; возместить; отдать; отблагодарить; окупать"/>
+    <d v="repay" p="noun" ts="riːˈpeɪ" tr="погашение"/>
+    <d v="repayment" p="noun" ts="riːˈpeɪmənt" tr="погашение; выплата; возврат"/>
+    <d v="repeal" p="verb" ts="rɪˈpiːl" tr="отменить"/>
+    <d v="repeal" p="noun" ts="rɪˈpiːl" tr="отмена"/>
+    <d v="repeat" p="verb" ts="rɪˈpiːt" tr="повторить; повториться; рассказывать; передавать"/>
+    <d v="repeat" p="noun" ts="rɪˈpiːt" tr="повтор"/>
+    <d v="repeat" p="adjective" ts="rɪˈpiːt" tr="повторный"/>
+    <d v="repeat" p="participle" ts="rɪˈpiːt" tr="повторяющийся"/>
+    <d v="repeated" p="adjective" ts="rɪˈpiːtɪd" tr="повторный"/>
+    <d v="repeated" p="adverb" ts="rɪˈpiːtɪd" tr="повторно"/>
+    <d v="repeated" p="participle" ts="rɪˈpiːtɪd" tr="повторяющийся; повторенный"/>
+    <d v="repeatedly" p="adverb" ts="rɪˈpiːtɪdlɪ" tr="неоднократно"/>
+    <d v="repeatedly" p="noun" ts="rɪˈpiːtɪdlɪ" tr="не раз"/>
+    <d v="repel" p="verb" ts="rɪˈpel" tr="отталкивать; отразить; отбить; отгонять; отбросить; победить"/>
+    <d v="repel" p="noun" ts="rɪˈpel" tr="отражение; отпор; отталкивание; неприязнь"/>
+    <d v="repellent" p="adjective" ts="rɪˈpelənt" tr="водоотталкивающий; отвратительный"/>
+    <d v="repellent" p="noun" ts="rɪˈpelənt" tr="репеллент; средство"/>
+    <d v="repent" p="verb" ts="ˈriːpənt" tr="покаяться; сокрушаться"/>
+    <d v="repent" p="noun" ts="ˈriːpənt" tr="покаяние"/>
+    <d v="repentance" p="noun" ts="rɪˈpentəns" tr="покаяние"/>
+    <d v="repentance" p="verb" ts="rɪˈpentəns" tr="покаяться"/>
+    <d v="repentant" p="participle" ts="rɪˈpentənt" tr="кающийся; раскаявшийся; раскаивающийся"/>
+    <d v="repentant" p="adjective" ts="rɪˈpentənt" tr="покаянный"/>
+    <d v="repentant" p="verb" ts="rɪˈpentənt" tr="раскаиваться"/>
+    <d v="repentant" p="noun" ts="rɪˈpentənt" tr="раскаяние"/>
+    <d v="repercussion" p="noun" ts="riːpɜːˈkʌʃn" tr="последствие; резонанс; отголосок"/>
+    <d v="repertoire" p="noun" ts="ˈrepətwɑː" tr="репертуар"/>
+    <d v="repetition" p="noun" ts="repɪˈtɪʃn" tr="повторение; копия"/>
+    <d v="repetitious" p="participle" ts="repɪˈtɪʃəs" tr="повторяющийся"/>
+    <d v="repetitive" p="participle" ts="rɪˈpetɪtɪv" tr="повторяющийся"/>
+    <d v="repetitive" p="adjective" ts="rɪˈpetɪtɪv" tr="повторный; монотонный"/>
+    <d v="repetitive" p="noun" ts="rɪˈpetɪtɪv" tr="повторение; повторяемость"/>
+    <d v="rephrase" p="verb" ts="rɪˈfreɪz" tr="перефразировать; переформулировать"/>
+    <d v="replace" p="verb" ts="rɪˈpleɪs" tr="заменить; заменять; вернуть"/>
+    <d v="replace" p="noun" ts="rɪˈpleɪs" tr="замена"/>
+    <d v="replace" p="participle" ts="rɪˈpleɪs" tr="заменяемый"/>
+    <d v="replaceable" p="adjective" ts="rɪˈpleɪsəbl" tr="сменный"/>
+    <d v="replacement" p="noun" ts="rɪˈpleɪsmənt" tr="замена; вытеснение"/>
+    <d v="replacement" p="adjective" ts="rɪˈpleɪsmənt" tr="сменный"/>
+    <d v="replacement" p="participle" ts="rɪˈpleɪsmənt" tr="замещающий"/>
+    <d v="replay" p="noun" ts="ˈriːˈpleɪ" tr="воспроизведение; переигровка"/>
+    <d v="replay" p="verb" ts="ˈriːˈpleɪ" tr="воспроизводить; переигрывать; прокрутить"/>
+    <d v="replenish" p="verb" ts="rɪˈplenɪʃ" tr="пополнить; наполнять; снова наполнять"/>
+    <d v="replenish" p="noun" ts="rɪˈplenɪʃ" tr="пополнение"/>
+    <d v="replenishment" p="noun" ts="rɪˈplenɪʃmənt" tr="пополнение; подпитка"/>
+    <d v="replete" p="verb" ts="rɪˈpliːt" tr="изобиловать"/>
+    <d v="replete" p="participle" ts="rɪˈpliːt" tr="насыщенный; наполненный; переполненный"/>
+    <d v="replica" p="noun" ts="ˈreplɪkə" tr="реплика; копия; точная копия; модель; новодел; копир"/>
+    <d v="replicate" p="verb" ts="ˈreplɪkeɪt"
+       tr="копировать; реплицировать; повторить; воспроизвести; растиражировать; самовоспроизводиться"/>
+    <d v="replicate" p="noun" ts="ˈreplɪkeɪt" tr="репликация; тиражирование"/>
+    <d v="replicate" p="adverbial participle" ts="ˈreplɪkeɪt" tr="размножаясь"/>
+    <d v="replication" p="noun" ts="replɪˈkeɪʃn" tr="репликация; тиражирование; копирование; ответ; повторение"/>
+    <d v="reply" p="verb" ts="rɪˈplaɪ" tr="ответить"/>
+    <d v="reply" p="noun" ts="rɪˈplaɪ" tr="ответ"/>
+    <d v="reply" p="adjective" ts="rɪˈplaɪ" tr="ответный"/>
+    <d v="report" p="noun" ts="rɪˈpɔːt" tr="доклад; слух; слава"/>
+    <d v="report" p="verb" ts="rɪˈpɔːt" tr="сообщать; доносить; являться"/>
+    <d v="report card" p="noun" ts="rɪˈpɔːtˈkɑːd" tr="табель; табель успеваемости"/>
+    <d v="reportedly" p="verb" ts="rɪˈpɔːtɪdlɪ" tr="сообщать"/>
+    <d v="reportedly" p="noun" ts="rɪˈpɔːtɪdlɪ" tr="по сообщениям; по имеющимся сведениям"/>
+    <d v="reportedly" p="particle" ts="rɪˈpɔːtɪdlɪ" tr="якобы"/>
+    <d v="reporter" p="noun" ts="rɪˈpɔːtə" tr="журналист; репортер; докладчик"/>
+    <d v="repository" p="noun" ts="rɪˈpɔzɪtərɪ" tr="хранилище; архив; вместилище"/>
+    <d v="reprehensible" p="adjective" ts="reprɪˈhensəbl" tr="предосудительный"/>
+    <d v="reprehensible" p="participle" ts="reprɪˈhensəbl" tr="достойный порицания"/>
+    <d v="represent" p="verb" ts="reprɪˈzent"
+       tr="представлять; изображать; олицетворять; означать; выступать; выражать; излагать"/>
+    <d v="representation" p="noun" ts="reprɪzenˈteɪʃn" tr="представительство; изображение; заявление; репрезентация"/>
+    <d v="representation" p="adjective" ts="reprɪzenˈteɪʃn" tr="представительский"/>
+    <d v="representative" p="noun" ts="reprɪˈzentətɪv" tr="представитель; образец"/>
+    <d v="representative" p="adjective" ts="reprɪˈzentətɪv" tr="представительный; показательный"/>
+    <d v="representative" p="participle" ts="reprɪˈzentətɪv" tr="уполномоченный; представляющий"/>
+    <d v="representative" p="noun" ts="reprɪˈzentətɪv" tr="представитель; образец"/>
+    <d v="representative" p="adjective" ts="reprɪˈzentətɪv" tr="представительный; показательный"/>
+    <d v="representative" p="participle" ts="reprɪˈzentətɪv" tr="уполномоченный; представляющий"/>
+    <d v="repress" p="verb" ts="rɪˈpres" tr="подавлять; репрессировать; сдерживать"/>
+    <d v="repress" p="noun" ts="rɪˈpres" tr="подавление"/>
+    <d v="repressed" p="participle" ts="rɪˈprest" tr="репрессированный; подавленный; подавляемый; сдерживаемый"/>
+    <d v="repression" p="noun" ts="rɪˈpreʃn" tr="подавление; сдерживание"/>
+    <d v="repression" p="adjective" ts="rɪˈpreʃn" tr="репрессивный"/>
+    <d v="repressive" p="adjective" ts="rɪˈpresɪv" tr="репрессивный"/>
+    <d v="reprieve" p="noun" ts="rɪˈpriːv" tr="отсрочка; помилование"/>
+    <d v="reprimand" p="noun" ts="ˈreprɪmɑːnd" tr="выговор; порицание"/>
+    <d v="reprimand" p="verb" ts="ˈreprɪmɑːnd" tr="отчитать; упрекнуть; выговориться; выговаривать"/>
+    <d v="reprint" p="noun" ts="ˈriːˈprɪnt" tr="перепечатка; репринт; повторная печать; оттиск; отдельный оттиск"/>
+    <d v="reprint" p="verb" ts="ˈriːˈprɪnt" tr="перепечатать; перепечатывать"/>
+    <d v="reprisal" p="noun" ts="rɪˈpraɪzəl" tr="репрессия; репрессалия"/>
+    <d v="reprise" p="noun" ts="rɪˈpraɪz" tr="реприза"/>
+    <d v="reproach" p="noun" ts="rɪˈprəʊʧ" tr="упрек; поношение; поругание"/>
+    <d v="reproach" p="verb" ts="rɪˈprəʊʧ" tr="упрекать; поносить; попрекать; корить"/>
+    <d v="reproduce" p="verb" ts="riːprəˈdjuːs"
+       tr="воспроизводить; размножать; воссоздать; производить; восстанавливать; воспроизвестись; порождать"/>
+    <d v="reproduce" p="noun" ts="riːprəˈdjuːs" tr="воспроизведение; воспроизводство"/>
+    <d v="reproduce" p="adverbial participle" ts="riːprəˈdjuːs" tr="размножаясь"/>
+    <d v="reproduce" p="participle" ts="riːprəˈdjuːs" tr="воспроизводимый"/>
+    <d v="reproduction" p="noun" ts="riːprəˈdʌkʃn" tr="воспроизведение; воспроизводство; репродуктивность"/>
+    <d v="reproduction" p="adjective" ts="riːprəˈdʌkʃn" tr="воспроизводственный"/>
+    <d v="reproductive" p="adjective" ts="riːprəˈdʌktɪv" tr="репродуктивный"/>
+    <d v="reprove" p="verb" ts="rɪˈpruːv" tr="обличать; порицать; упрекнуть; бранить"/>
+    <d v="reptile" p="noun" ts="ˈreptaɪl" tr="рептилия; гадина"/>
+    <d v="reptilian" p="noun" ts="repˈtɪlɪən" tr="рептилия"/>
+    <d v="reptilian" p="adjective" ts="repˈtɪlɪən" tr="рептильный"/>
+    <d v="Republic" p="noun" ts="rɪˈpʌblɪk" tr="Республика"/>
+    <d v="republican" p="adjective" ts="rɪˈpʌblɪkən" tr="республиканский"/>
+    <d v="republican" p="noun" ts="rɪˈpʌblɪkən" tr="республиканец"/>
+    <d v="republican" p="adjective" ts="rɪˈpʌblɪkən" tr="республиканский"/>
+    <d v="republican" p="noun" ts="rɪˈpʌblɪkən" tr="республиканец"/>
+    <d v="republican party" p="noun" ts="rɪˈpʌblɪkən ˈpɑːtɪ" tr="Республиканская партия"/>
+    <d v="repudiate" p="verb" ts="rɪˈpjuːdɪeɪt" tr="отвергать; отказаться; аннулировать; дезавуировать"/>
+    <d v="repudiation" p="noun" ts="rɪpjuːdɪˈeɪʃn" tr="отказ; развод"/>
+    <d v="repugnance" p="noun" ts="rɪˈpʌgnəns" tr="отвращение"/>
+    <d v="repugnant" p="adjective" ts="rɪˈpʌgnənt" tr="отвратительный"/>
+    <d v="repugnant" p="noun" ts="rɪˈpʌgnənt" tr="отвращение"/>
+    <d v="repugnant" p="participle" ts="rɪˈpʌgnənt" tr="противоречащий"/>
+    <d v="repulse" p="verb" ts="rɪˈpʌls" tr="отбить; отразить; отталкивать"/>
+    <d v="repulse" p="noun" ts="rɪˈpʌls" tr="отпор; отражение"/>
+    <d v="repulsion" p="noun" ts="rɪˈpʌlʃn" tr="отталкивание; отвращение"/>
+    <d v="repulsive" p="adjective" ts="rɪˈpʌlsɪv" tr="отвратительный; отталкивающий"/>
+    <d v="repulsive" p="noun" ts="rɪˈpʌlsɪv" tr="отталкивание"/>
+    <d v="repulsive" p="adverb" ts="rɪˈpʌlsɪv" tr="отталкивающе"/>
+    <d v="repulsive" p="verb" ts="rɪˈpʌlsɪv" tr="отталкивать"/>
+    <d v="reputable" p="adjective" ts="ˈrepjʊtəbl" tr="авторитетный; солидный; респектабельный"/>
+    <d v="reputable" p="noun" ts="ˈrepjʊtəbl" tr="репутация"/>
+    <d v="reputable" p="participle" ts="ˈrepjʊtəbl" tr="признанный; достойный уважения"/>
+    <d v="reputation" p="noun" ts="repjuːˈteɪʃn" tr="репутация; слава; доброе имя"/>
+    <d v="repute" p="noun" ts="rɪˈpjuːt" tr="репутация; слава"/>
+    <d v="repute" p="adjective" ts="rɪˈpjuːt" tr="известный"/>
+    <d v="reputed" p="adjective" ts="rɪˈpjuːtɪd" tr="известный"/>
+    <d v="reputed" p="participle" ts="rɪˈpjuːtɪd" tr="предполагаемый"/>
+    <d v="reputedly" p="noun" ts="rɪˈpjuːtɪdlɪ" tr="общее мнение; по общему мнению"/>
+    <d v="request" p="noun" ts="rɪˈkwest" tr="запрос"/>
+    <d v="request" p="verb" ts="rɪˈkwest" tr="просить; запросить"/>
+    <d v="request" p="participle" ts="rɪˈkwest" tr="запрашиваемый; запрашивающий"/>
+    <d v="requiem" p="noun" ts="ˈrekwɪem" tr="Реквием; панихида"/>
+    <d v="require" p="verb" ts="rɪˈkwaɪə" tr="требовать"/>
+    <d v="require" p="participle" ts="rɪˈkwaɪə" tr="требующий"/>
+    <d v="requirement" p="noun" ts="rɪˈkwaɪəmənt" tr="требование; потребность; необходимое условие"/>
+    <d v="requisite" p="adjective" ts="ˈrekwɪzɪt" tr="необходимый"/>
+    <d v="requisite" p="noun" ts="ˈrekwɪzɪt" tr="реквизит"/>
+    <d v="requisite" p="participle" ts="ˈrekwɪzɪt" tr="требуемый"/>
+    <d v="requisition" p="noun" ts="rekwɪˈzɪʃn" tr="реквизиция; заявка"/>
+    <d v="requisition" p="verb" ts="rekwɪˈzɪʃn" tr="реквизировать"/>
+    <d v="rerun" p="noun" ts="ˈriːˈrʌn" tr="повтор; повторный показ; перезапуск"/>
+    <d v="rerun" p="adjective" ts="ˈriːˈrʌn" tr="повторный"/>
+    <d v="rerun" p="verb" ts="ˈriːˈrʌn" tr="перезапустить"/>
+    <d v="resale" p="noun" ts="ˈriːˈseɪl" tr="перепродажа"/>
+    <d v="resale" p="verb" ts="ˈriːˈseɪl" tr="перепродавать"/>
+    <d v="rescind" p="verb" ts="rɪˈsɪnd" tr="отменить"/>
+    <d v="rescue" p="noun" ts="ˈreskjuː" tr="спасение; спасатель; освобождение"/>
+    <d v="rescue" p="verb" ts="ˈreskjuː" tr="спасти; спасать; избавить"/>
+    <d v="rescue" p="adjective" ts="ˈreskjuː" tr="спасательный"/>
+    <d v="rescuer" p="noun" ts="ˈreskjʊə" tr="спасатель; Спаситель; спасительница"/>
+    <d v="research" p="noun" ts="rɪˈsɜːʧ" tr="исследование; НИР"/>
+    <d v="research" p="adjective" ts="rɪˈsɜːʧ" tr="исследовательский"/>
+    <d v="research" p="verb" ts="rɪˈsɜːʧ" tr="исследовать"/>
+    <d v="researcher" p="noun" ts="rɪˈsɜːʧə" tr="исследователь"/>
+    <d v="resemblance" p="noun" ts="rɪˈzembləns" tr="сходство"/>
+    <d v="resemblance" p="adjective" ts="rɪˈzembləns" tr="похожий"/>
+    <d v="resemble" p="verb" ts="rɪˈzembl" tr="напоминать; уподобляться; иметь сходство"/>
+    <d v="resemble" p="adjective" ts="rɪˈzembl" tr="похожий"/>
+    <d v="resemble" p="noun" ts="rɪˈzembl" tr="сходство"/>
+    <d v="resent" p="verb" ts="rɪˈzent" tr="возмущать; обижаться; не нравиться; бесить; возмущаться"/>
+    <d v="resentful" p="participle" ts="rɪˈzentfʊl" tr="обиженный; возмущенный"/>
+    <d v="resentful" p="noun" ts="rɪˈzentfʊl" tr="обида"/>
+    <d v="resentful" p="adjective" ts="rɪˈzentfʊl" tr="обидчивый"/>
+    <d v="resentment" p="noun" ts="rɪˈzentmənt" tr="негодование; обида; чувство обиды; обидчивость; озлобление"/>
+    <d v="reservation" p="noun" ts="rezəˈveɪʃn" tr="бронирование; заповедник; сохранение"/>
+    <d v="reserve" p="noun" ts="rɪˈzɜːv"
+       tr="резерв; заповедник; резервирование; задел; сдержанность; оговорка; скрытность; изъятие; умолчание"/>
+    <d v="reserve" p="adjective" ts="rɪˈzɜːv" tr="резервный; заповедный; запасный"/>
+    <d v="reserve" p="verb" ts="rɪˈzɜːv"
+       tr="резервировать; сберегать; запасать; приберегать; откладывать; предназначать"/>
+    <d v="reserve" p="participle" ts="rɪˈzɜːv" tr="резервируемый"/>
+    <d v="reserved" p="participle" ts="rɪˈzɜːvd" tr="зарезервированный; сдержанный; отведенный"/>
+    <d v="reserved" p="adjective" ts="rɪˈzɜːvd" tr="замкнутый; скрытный; резервный"/>
+    <d v="reserved" p="adverb" ts="rɪˈzɜːvd" tr="сдержанно"/>
+    <d v="reservoir" p="noun" ts="ˈrezəvwɑː" tr="водохранилище; резервуар; пласт; хранилище; запас; сокровищница"/>
+    <d v="reshuffle" p="noun" ts="ˈriːˈʃʌfl" tr="чехарда; перетасовка"/>
+    <d v="reshuffle" p="verb" ts="ˈriːˈʃʌfl" tr="перетасовывать"/>
+    <d v="reside" p="verb" ts="rɪˈzaɪd" tr="проживать; находиться; жить"/>
+    <d v="reside" p="noun" ts="rɪˈzaɪd" tr="проживание"/>
+    <d v="residence" p="noun" ts="ˈrezɪdəns" tr="жительство; резиденция; особняк; общежитие; ПМЖ; местопребывание"/>
+    <d v="residency" p="noun" ts="ˈrezɪdənsɪ" tr="жительство; ординатура"/>
+    <d v="resident" p="noun" ts="ˈrezɪdənt" tr="житель"/>
+    <d v="resident" p="participle" ts="ˈrezɪdənt" tr="проживающий"/>
+    <d v="resident" p="adjective" ts="ˈrezɪdənt" tr="резидентный"/>
+    <d v="resident" p="verb" ts="ˈrezɪdənt" tr="проживать"/>
+    <d v="residential" p="adjective" ts="rezɪˈdenʃəl" tr="жилой; резидентный"/>
+    <d v="residual" p="adjective" ts="rɪˈzɪdjʊəl" tr="остаточный"/>
+    <d v="residual" p="noun" ts="rɪˈzɪdjʊəl" tr="остаток; разность"/>
+    <d v="residue" p="noun" ts="ˈrezɪdjuː" tr="остаток; осадок; выпарка; вычет; вещество; отстой; наследство"/>
+    <d v="residue" p="adjective" ts="ˈrezɪdjuː" tr="остаточный"/>
+    <d v="resign" p="verb" ts="rɪˈzaɪn" tr="уйти в отставку; отказаться; уволиться; смириться; сдаться; слагать"/>
+    <d v="resignation" p="noun" ts="rezɪgˈneɪʃn" tr="отставка; смирение; отказ от должности"/>
+    <d v="resigned" p="noun" ts="rɪˈzaɪnd" tr="в отставку"/>
+    <d v="resigned" p="adjective" ts="rɪˈzaɪnd" tr="безропотный"/>
+    <d v="resilience" p="noun" ts="rɪˈzɪlɪəns" tr="устойчивость; упругость; жизнеспособность"/>
+    <d v="resilient" p="adjective" ts="rɪˈzɪlɪənt" tr="упругий; устойчивый; жизнерадостный; отказоустойчивый"/>
+    <d v="resin" p="noun" ts="ˈrezɪn" tr="смола; камедь"/>
+    <d v="resist" p="verb" ts="rɪˈzɪst"
+       tr="сопротивляться; устоять; сопротивлять; не поддаваться; оказывать сопротивление"/>
+    <d v="resist" p="noun" ts="rɪˈzɪst" tr="сопротивление"/>
+    <d v="resistance" p="noun" ts="rɪˈzɪstəns" tr="сопротивление; устойчивость; противодействие"/>
+    <d v="resistant" p="adjective" ts="rɪˈzɪstənt" tr="устойчивый; водонепроницаемый"/>
+    <d v="resistant" p="noun" ts="rɪˈzɪstənt" tr="устойчивость; сопротивление"/>
+    <d v="resistant" p="verb" ts="rɪˈzɪstənt" tr="сопротивляться"/>
+    <d v="resistant" p="participle" ts="rɪˈzɪstənt" tr="сопротивляющийся"/>
+    <d v="resolute" p="adjective" ts="ˈrezəluːt" tr="решительный; твердый"/>
+    <d v="resolute" p="noun" ts="ˈrezəluːt" tr="решимость"/>
+    <d v="resolutely" p="adverb" ts="ˈrezəluːtlɪ" tr="решительно"/>
+    <d v="resolution" p="noun" ts="rezəˈluːʃn"
+       tr="резолюция; разрешение; разрешающая способность; решимость; рассасывание; анализ; растворение"/>
+    <d v="resolve" p="verb" ts="rɪˈzɔlv"
+       tr="разрешить; решить; рассасываться; рассосаться; распадаться; рассасывать; растворять"/>
+    <d v="resolve" p="noun" ts="rɪˈzɔlv" tr="решение; разрешение; решимость"/>
+    <d v="resonance" p="noun" ts="ˈreznəns" tr="резонанс"/>
+    <d v="resonance" p="adjective" ts="ˈreznəns" tr="резонансный"/>
+    <d v="resonant" p="adjective" ts="ˈreznənt" tr="резонансный; звучный"/>
+    <d v="resonant" p="participle" ts="ˈreznənt" tr="резонирующий; звучащий"/>
+    <d v="resonant" p="verb" ts="ˈreznənt" tr="резонировать"/>
+    <d v="resonate" p="verb" ts="ˈrezəneɪt" tr="резонировать"/>
+    <d v="resonate" p="noun" ts="ˈrezəneɪt" tr="резонанс"/>
+    <d v="resort" p="noun" ts="rɪˈzɔːt" tr="курорт; санаторий; обращение; прибежище; надежда"/>
+    <d v="resort" p="adjective" ts="rɪˈzɔːt" tr="курортный"/>
+    <d v="resort" p="verb" ts="rɪˈzɔːt" tr="прибегать"/>
+    <d v="resound" p="verb" ts="rɪˈzaʊnd" tr="звучать; разносить; греметь"/>
+    <d v="resounding" p="participle" ts="rɪˈzaʊndɪŋ" tr="резонирующий"/>
+    <d v="resource" p="noun" ts="rɪˈsɔːs" tr="ресурс; возможность; находчивость; развлечение"/>
+    <d v="resource" p="adjective" ts="rɪˈsɔːs" tr="ресурсный"/>
+    <d v="resourceful" p="adjective" ts="rɪˈsɔːsfʊl" tr="находчивый"/>
+    <d v="resourceful" p="noun" ts="rɪˈsɔːsfʊl" tr="изобретательность"/>
+    <d v="resourcefulness" p="noun" ts="rɪˈsɔːsfʊlnɪs" tr="находчивость"/>
+    <d v="resources" p="noun" ts="rɪˈzɔːsɪz" tr="ресурсы"/>
+    <d v="respect" p="noun" ts="rɪsˈpekt" tr="уважение"/>
+    <d v="respect" p="verb" ts="rɪsˈpekt" tr="уважать; не нарушать; беречь; щадить"/>
+    <d v="respect" p="participle" ts="rɪsˈpekt" tr="уважающий"/>
+    <d v="respectability" p="noun" ts="rɪspektəˈbɪlɪtɪ" tr="респектабельность; добропорядочность"/>
+    <d v="respectable" p="adjective" ts="rɪsˈpektəbl" tr="респектабельный; почтенный; приличный; солидный; сносный"/>
+    <d v="respectable" p="participle" ts="rɪsˈpektəbl" tr="уважаемый; уважающий; заслуживающий уважения"/>
+    <d v="respectable" p="noun" ts="rɪsˈpektəbl" tr="заслуживающее уважение"/>
+    <d v="respected" p="noun" ts="rɪˈspektɪd" tr="уважение"/>
+    <d v="respected" p="participle" ts="rɪˈspektɪd" tr="уважаемый; почитаемый; уважающий"/>
+    <d v="respectful" p="adjective" ts="rɪsˈpektfʊl" tr="уважительный"/>
+    <d v="respectful" p="noun" ts="rɪsˈpektfʊl" tr="уважение; с уважением"/>
+    <d v="respectful" p="verb" ts="rɪsˈpektfʊl" tr="уважать"/>
+    <d v="respectful" p="participle" ts="rɪsˈpektfʊl" tr="уважающий"/>
+    <d v="respectfully" p="noun" ts="rɪsˈpektfʊlɪ" tr="уважение; с уважением"/>
+    <d v="respectfully" p="adverb" ts="rɪsˈpektfʊlɪ" tr="почтительно"/>
+    <d v="respective" p="adjective" ts="rɪsˈpektɪv" tr="соответствующий"/>
+    <d v="respectively" p="adverb" ts="rɪsˈpektɪvlɪ" tr="соответственно"/>
+    <d v="respectively" p="noun" ts="rɪsˈpektɪvlɪ" tr="в указанном порядке"/>
+    <d v="respiration" p="noun" ts="respəˈreɪʃn" tr="дыхание"/>
+    <d v="respiration" p="adjective" ts="respəˈreɪʃn" tr="дыхательный"/>
+    <d v="respirator" p="noun" ts="ˈrespəreɪtə" tr="респиратор"/>
+    <d v="respiratory" p="adjective" ts="rɪsˈpaɪərətərɪ" tr="дыхательный"/>
+    <d v="respiratory" p="noun" ts="rɪsˈpaɪərətərɪ" tr="дыхание"/>
+    <d v="respite" p="noun" ts="ˈrespaɪt" tr="передышка"/>
+    <d v="resplendent" p="adjective" ts="rɪsˈplendənt" tr="блистательный"/>
+    <d v="resplendent" p="participle" ts="rɪsˈplendənt" tr="сверкающий; сияющий"/>
+    <d v="resplendent" p="verb" ts="rɪsˈplendənt" tr="сиять"/>
+    <d v="respond" p="verb" ts="rɪsˈpɔnd" tr="ответить; реагировать; соответствовать"/>
+    <d v="respond" p="noun" ts="rɪsˈpɔnd" tr="ответ"/>
+    <d v="response" p="noun" ts="rɪsˈpɔns" tr="ответ"/>
+    <d v="response" p="adjective" ts="rɪsˈpɔns" tr="ответный"/>
+    <d v="responsibility" p="noun" ts="rɪspɔnsəˈbɪlɪtɪ" tr="ответственность"/>
+    <d v="responsible" p="adjective" ts="rɪsˈpɔnsəbl" tr="ответственный; важный"/>
+    <d v="responsible" p="noun" ts="rɪsˈpɔnsəbl" tr="ответственность"/>
+    <d v="responsible" p="verb" ts="rɪsˈpɔnsəbl" tr="отвечать"/>
+    <d v="responsible" p="participle" ts="rɪsˈpɔnsəbl" tr="отвечающий"/>
+    <d v="responsibly" p="adverb" ts="rɪˈspɒnsəblɪ" tr="ответственно"/>
+    <d v="responsibly" p="adjective" ts="rɪˈspɒnsəblɪ" tr="ответственный"/>
+    <d v="responsive" p="adjective" ts="rɪsˈpɔnsɪv" tr="отзывчивый; чувствительный; ответный"/>
+    <d v="responsive" p="verb" ts="rɪsˈpɔnsɪv" tr="реагировать"/>
+    <d v="responsive" p="participle" ts="rɪsˈpɔnsɪv" tr="реагирующий; быстро реагирующий"/>
+    <d v="responsiveness" p="noun" ts="rɪˈspɒnsɪvnɪs" tr="реагирование; отзывчивость; оперативность; чуткость"/>
+    <d v="rest" p="noun" ts="rest"
+       tr="отдых; остальная часть; перерыв; опора; передышка; сон; упор; остальное; суппорт"/>
+    <d v="rest" p="verb" ts="rest"
+       tr="отдохнуть; опираться; лежать; почивать; успокоиться; оставаться; держать; прислонять"/>
+    <d v="rest" p="participle" ts="rest" tr="оставшийся; отдыхающий; отдохнувший; покоящийся"/>
+    <d v="restate" p="verb" ts="ˈriːˈsteɪt" tr="подтвердить; переформулировать"/>
+    <d v="restatement" p="noun" ts="riːˈsteɪtmənt" tr="пересчет"/>
+    <d v="restaurant" p="noun" ts="ˈrestərɔːŋ" tr="ресторан"/>
+    <d v="restaurant" p="adjective" ts="ˈrestərɔːŋ" tr="ресторанный"/>
+    <d v="rest home" p="noun" ts="rest həʊm" tr="дом отдыха"/>
+    <d v="restitution" p="noun" ts="restɪˈtjuːʃn" tr="реституция; возвращение; возмещение убытков"/>
+    <d v="restive" p="adjective" ts="ˈrestɪv" tr="беспокойный; норовистый; своенравный"/>
+    <d v="restless" p="adjective" ts="ˈrestlɪs" tr="беспокойный; неприкаянный"/>
+    <d v="restless" p="noun" ts="ˈrestlɪs" tr="беспокойство; непоседа"/>
+    <d v="restless" p="participle" ts="ˈrestlɪs" tr="мятущийся"/>
+    <d v="restlessly" p="adverb" ts="ˈrestləslɪ" tr="беспокойно"/>
+    <d v="restoration" p="noun" ts="restəˈreɪʃn" tr="восстановление"/>
+    <d v="restoration" p="adjective" ts="restəˈreɪʃn" tr="реставрационный"/>
+    <d v="restore" p="verb" ts="rɪsˈtɔː" tr="восстановить; возвратить"/>
+    <d v="restore" p="noun" ts="rɪsˈtɔː" tr="восстановление"/>
+    <d v="restrain" p="verb" ts="rɪsˈtreɪn"
+       tr="сдерживать; ограничить; удерживать; воздержаться; сдержаться; задержать; ущемлять; изолировать"/>
+    <d v="restrain" p="noun" ts="rɪsˈtreɪn" tr="сдерживание; сдержанность"/>
+    <d v="restrain" p="adverbial participle" ts="rɪsˈtreɪn" tr="сдерживаясь"/>
+    <d v="restrained" p="adjective" ts="rɪsˈtreɪnd" tr="сдержанный; ограниченный"/>
+    <d v="restrained" p="participle" ts="rɪsˈtreɪnd" tr="сдерживаемый"/>
+    <d v="restrained" p="noun" ts="rɪsˈtreɪnd" tr="сдержанность"/>
+    <d v="restraint" p="noun" ts="rɪsˈtreɪnt"
+       tr="сдержанность; ограничение; сдерживание; выдержка; воздержание; стеснение; мера пресечения; заключение"/>
+    <d v="restrict" p="verb" ts="rɪsˈtrɪkt" tr="ограничивать; запретить; сузить; теснить; сковывать"/>
+    <d v="restrict" p="noun" ts="rɪsˈtrɪkt" tr="ограничение"/>
+    <d v="restricted" p="adjective" ts="rɪsˈtrɪktɪd" tr="ограниченный"/>
+    <d v="restricted" p="participle" ts="rɪsˈtrɪktɪd" tr="ограничиваемый"/>
+    <d v="restriction" p="noun" ts="rɪsˈtrɪkʃn" tr="ограничение"/>
+    <d v="restrictive" p="adjective" ts="rɪsˈtrɪktɪv" tr="ограничительный; ограниченный"/>
+    <d v="restrictive" p="participle" ts="rɪsˈtrɪktɪv" tr="ограничивающий; запрещающий"/>
+    <d v="restrictive" p="verb" ts="rɪsˈtrɪktɪv" tr="ограничивать"/>
+    <d v="rest room" p="noun" ts="rest ruːm" tr="комната отдыха; туалет"/>
+    <d v="restructure" p="noun" ts="riːˈstrʌkʧər" tr="реструктуризация"/>
+    <d v="restructure" p="verb" ts="riːˈstrʌkʧər"
+       tr="реструктурировать; перестроить; перестроиться; перепрофилировать"/>
+    <d v="restructuring" p="noun" ts="riːˈstrʌkʧərɪŋ" tr="реструктуризация; перестройка"/>
+    <d v="result" p="noun" ts="rɪˈzʌlt" tr="результат"/>
+    <d v="result" p="verb" ts="rɪˈzʌlt" tr="следовать; вылиться; проистекать"/>
+    <d v="result" p="adjective" ts="rɪˈzʌlt" tr="результирующий"/>
+    <d v="resultant" p="adjective" ts="rɪˈzʌltənt" tr="результирующий; результативный; равнодействующий"/>
+    <d v="resultant" p="noun" ts="rɪˈzʌltənt" tr="результат; равнодействующая"/>
+    <d v="resultant" p="participle" ts="rɪˈzʌltənt" tr="проистекающий"/>
+    <d v="resume" p="verb" ts="rɪˈzjuːm" tr="возобновить; продолжить; резюмировать; вновь начать; вновь приняться"/>
+    <d v="resume" p="noun" ts="rɪˈzjuːm" tr="резюме; возобновление"/>
+    <d v="resumption" p="noun" ts="rɪˈzʌmpʃn" tr="возобновление"/>
+    <d v="resurface" p="verb" ts="riːˈsɜːfɪs" tr="всплыть; возродиться"/>
+    <d v="resurgence" p="noun" ts="rɪˈsɜːʤəns" tr="возрождение"/>
+    <d v="resurgent" p="participle" ts="rɪˈsɜːʤənt" tr="возрождающийся; восставший; оживающий"/>
+    <d v="resurgent" p="noun" ts="rɪˈsɜːʤənt" tr="возрождение"/>
+    <d v="resurrect" p="verb" ts="rezəˈrekt" tr="воскресить; воскреснуть"/>
+    <d v="resurrect" p="noun" ts="rezəˈrekt" tr="воскрешение"/>
+    <d v="resurrection" p="noun" ts="rezəˈrekʃn" tr="воскресение; Воскресенский"/>
+    <d v="resurrection" p="noun" ts="rezəˈrekʃn" tr="воскресение; Воскресенский"/>
+    <d v="resuscitate" p="verb" ts="rɪˈsʌsɪteɪt" tr="реанимировать; оживить; воскреснуть"/>
+    <d v="resuscitation" p="noun" ts="rɪsʌsɪˈteɪʃn" tr="реанимация; оживление"/>
+    <d v="resuscitation" p="adjective" ts="rɪsʌsɪˈteɪʃn" tr="реанимационный"/>
+    <d v="retail" p="adjective" ts="ˈriːteɪl" tr="розничный"/>
+    <d v="retail" p="noun" ts="ˈriːteɪl" tr="розница; ритейл"/>
+    <d v="retailer" p="noun" ts="riːˈteɪlə" tr="розничная торговля; ритейлер; розничный торговец; розничный продавец"/>
+    <d v="retailer" p="adjective" ts="riːˈteɪlə" tr="розничный"/>
+    <d v="retain" p="verb" ts="rɪˈteɪn" tr="сохранить; удерживать; нанимать; помнить; приглашать"/>
+    <d v="retain" p="noun" ts="rɪˈteɪn" tr="сохранение"/>
+    <d v="retainer" p="noun" ts="rɪˈteɪnə" tr="фиксатор; слуга; вассал; стопор"/>
+    <d v="retainer" p="adjective" ts="rɪˈteɪnə" tr="стопорный"/>
+    <d v="retake" p="verb" ts="riːˈteɪk" tr="пересдать; отвоевать"/>
+    <d v="retake" p="noun" ts="riːˈteɪk" tr="пересдача"/>
+    <d v="retaliate" p="verb" ts="rɪˈtælɪeɪt" tr="мстить; принять ответные меры; принимать ответные меры"/>
+    <d v="retaliate" p="adjective" ts="rɪˈtælɪeɪt" tr="ответный"/>
+    <d v="retaliation" p="noun" ts="rɪtælɪˈeɪʃn" tr="возмездие; ответ; отплата"/>
+    <d v="retaliation" p="adjective" ts="rɪtælɪˈeɪʃn" tr="ответный"/>
+    <d v="retard" p="verb" ts="rɪˈtɑːd" tr="замедлять; задержать"/>
+    <d v="retard" p="noun" ts="rɪˈtɑːd" tr="ретард; дебил"/>
+    <d v="retardation" p="noun" ts="riːtɑːˈdeɪʃn" tr="отсталость; задержка; замедление; заторможенность"/>
+    <d v="retarded" p="adjective" ts="rɪˈtɑːdɪd" tr="отсталый"/>
+    <d v="retch" p="verb" ts="reʧ" tr="рыгать; тужиться"/>
+    <d v="retention" p="noun" ts="rɪˈtenʃn" tr="сохранение; удержание; задержка; задержание"/>
+    <d v="rethink" p="verb" ts="ˈriːθɪŋk"
+       tr="переосмыслить; пересматривать; переосмысливать; продумать; заново продумать"/>
+    <d v="rethink" p="noun" ts="ˈriːθɪŋk" tr="переосмысление"/>
+    <d v="reticence" p="noun" ts="ˈretɪsəns"
+       tr="сдержанность; скрытность; недоговоренность; умалчивание; немногословность; молчаливость"/>
+    <d v="reticent" p="adjective" ts="ˈretɪsənt" tr="скрытный; неразговорчивый"/>
+    <d v="reticent" p="participle" ts="ˈretɪsənt" tr="сдержанный"/>
+    <d v="retina" p="noun" ts="ˈretɪnə" tr="сетчатка; сетчатая оболочка"/>
+    <d v="retinue" p="noun" ts="ˈretɪnjuː" tr="свита; дружина"/>
+    <d v="retire" p="noun" ts="rɪˈtaɪə" tr="пенсия; на пенсию; сход"/>
+    <d v="retire" p="verb" ts="rɪˈtaɪə"
+       tr="уйти; удалиться; выбыть; уходить; уйти на пенсию; удаляться; уединиться; выйти в отставку"/>
+    <d v="retired" p="noun" ts="rɪˈtaɪəd" tr="пенсия; на пенсии"/>
+    <d v="retired" p="adjective" ts="rɪˈtaɪəd" tr="отставной"/>
+    <d v="retired" p="participle" ts="rɪˈtaɪəd" tr="ушедший на пенсию"/>
+    <d v="retiree" p="noun" ts="rɪtaɪəˈriː" tr="пенсионер; отставник"/>
+    <d v="retirement" p="noun" ts="rɪˈtaɪəmənt" tr="пенсия; уединение"/>
+    <d v="retirement" p="adjective" ts="rɪˈtaɪəmənt" tr="пенсионный"/>
+    <d v="retiring" p="participle" ts="rɪˈtaɪərɪŋ" tr="выбывающий"/>
+    <d v="retiring" p="adjective" ts="rɪˈtaɪərɪŋ" tr="скромный"/>
+    <d v="retort" p="noun" ts="rɪˈtɔːt" tr="реторта; реплика; колба; возражение; резкий ответ"/>
+    <d v="retort" p="verb" ts="rɪˈtɔːt" tr="возразить; парировать"/>
+    <d v="retrace" p="verb" ts="rɪˈtreɪs" tr="проследить; восстановить; возвращаться; откатиться"/>
+    <d v="retract" p="verb" ts="rɪˈtrækt"
+       tr="отказаться; втянуть; убрать; отозвать; втянуться; оттягивать; брать назад"/>
+    <d v="retract" p="noun" ts="rɪˈtrækt" tr="втягивание"/>
+    <d v="retractable" p="participle" ts="rɪˈtræktəbl" tr="убирающийся; выдвигающийся"/>
+    <d v="retractable" p="adjective" ts="rɪˈtræktəbl" tr="выдвижной"/>
+    <d v="retraction" p="noun" ts="rɪˈtrækʃn" tr="опровержение; втягивание; стягивание; сокращение"/>
+    <d v="retreat" p="verb" ts="rɪˈtriːt" tr="отступить; уходить; удаляться"/>
+    <d v="retreat" p="noun" ts="rɪˈtriːt" tr="отступление; убежище; уединение; отбой"/>
+    <d v="retreat" p="adjective" ts="rɪˈtriːt" tr="выездной"/>
+    <d v="retrial" p="noun" ts="ˈriːˈtraɪəl" tr="повторное слушание; пересмотр дела; повторное слушание дела"/>
+    <d v="retribution" p="noun" ts="retrɪˈbjuːʃn" tr="возмездие; Кара"/>
+    <d v="retrieval" p="noun" ts="rɪˈtriːvəl" tr="поиск; извлечение; исправление"/>
+    <d v="retrieval" p="adjective" ts="rɪˈtriːvəl" tr="поисковый"/>
+    <d v="retrieve" p="verb" ts="rɪˈtriːv" tr="получить; восстановить; найти; забрать; загружать; запрашивать"/>
+    <d v="retrieve" p="noun" ts="rɪˈtriːv" tr="получение"/>
+    <d v="retriever" p="noun" ts="rɪˈtriːvə" tr="ретривер; охотничья собака"/>
+    <d v="retroactive" p="adjective" ts="retrəʊˈæktɪv" tr="обратный; ретроактивный"/>
+    <d v="retrospective" p="adjective" ts="retrəʊˈspektɪv" tr="ретроспективный"/>
+    <d v="retrospective" p="noun" ts="retrəʊˈspektɪv" tr="ретроспектива"/>
+    <d v="return" p="verb" ts="rɪˈtɜːn" tr="вернуться; возвратиться; отдать; отвечать; приносить"/>
+    <d v="return" p="noun" ts="rɪˈtɜːn" tr="возвращение; доходность; прибыль; ответ"/>
+    <d v="return" p="adjective" ts="rɪˈtɜːn" tr="обратный"/>
+    <d v="return" p="participle" ts="rɪˈtɜːn" tr="возвращаемый; вернувшийся"/>
+    <d v="returnable" p="adjective" ts="rɪˈtɜːnəbl" tr="возвратный"/>
+    <d v="return address" p="noun" ts="rɪˈtɜːn əˈdres" tr="обратный адрес; адрес возврата"/>
+    <d v="reunion" p="noun" ts="ˈriːˈjuːnjən" tr="воссоединение; Реюньон; встреча; встреча друзей; вечеринка"/>
+    <d v="reunite" p="verb" ts="ˈriːjuːˈnaɪt" tr="воссоединиться; воссоединить; объединиться"/>
+    <d v="reunite" p="noun" ts="ˈriːjuːˈnaɪt" tr="воссоединение"/>
+    <d v="rev" p="noun" ts="rev" tr="оборот; откровение"/>
+    <d v="rev" p="adjective" ts="rev" tr="преподобный"/>
+    <d v="revalue" p="verb" ts="riːˈvæljuː" tr="ревальвировать; переоценивать"/>
+    <d v="revamp" p="verb" ts="ˈriːˈvæmp" tr="модернизировать; переделать; реорганизовать"/>
+    <d v="reveal" p="verb" ts="rɪˈviːl" tr="показать; раскрывать; выявить; открыть; обнаружить; свидетельствовать"/>
+    <d v="reveal" p="noun" ts="rɪˈviːl" tr="выявление"/>
+    <d v="revealing" p="noun" ts="rɪˈviːlɪŋ" tr="выявление"/>
+    <d v="revealing" p="adjective" ts="rɪˈviːlɪŋ" tr="показательный; откровенный; обличительный"/>
+    <d v="revealing" p="participle" ts="rɪˈviːlɪŋ"
+       tr="раскрывающий; открывающий; выявляющий; раскрывающийся; обнаруживающий"/>
+    <d v="revel" p="verb" ts="revl" tr="наслаждаться; пировать; кутить"/>
+    <d v="revel" p="noun" ts="revl" tr="Ревель; пирушка; веселье"/>
+    <d v="revelation" p="noun" ts="revɪˈleɪʃn" tr="откровение; раскрытие; открытие"/>
+    <d v="reveler" p="noun" ts="ˈrevələr" tr="гуляка"/>
+    <d v="revelry" p="noun" ts="ˈrevlrɪ" tr="разгул; веселье; шумное веселье"/>
+    <d v="revenge" p="noun" ts="rɪˈvenʤ" tr="месть"/>
+    <d v="revenge" p="verb" ts="rɪˈvenʤ" tr="отомстить"/>
+    <d v="revenue" p="noun" ts="ˈrevɪnjuː" tr="доход"/>
+    <d v="revenue" p="adjective" ts="ˈrevɪnjuː" tr="доходный; таможенный"/>
+    <d v="reverberate" p="adverbial participle" ts="rɪˈvɜːbəreɪt" tr="отражаясь"/>
+    <d v="reverberate" p="verb" ts="rɪˈvɜːbəreɪt" tr="отразиться"/>
+    <d v="reverberation" p="noun" ts="rɪvɜːbəˈreɪʃn" tr="реверберация; отзвук; отражение"/>
+    <d v="revere" p="verb" ts="rɪˈvɪə" tr="почитать; благоговеть"/>
+    <d v="revere" p="noun" ts="rɪˈvɪə" tr="почитание"/>
+    <d v="reverence" p="noun" ts="ˈrəvərəns" tr="почтение; благоговение; реверанс"/>
+    <d v="reverence" p="verb" ts="ˈrəvərəns" tr="почитать; чтить"/>
+    <d v="Reverend" p="adjective" ts="ˈrevərənd" tr="преподобный"/>
+    <d v="Reverend" p="noun" ts="ˈrevərənd" tr="преподобие"/>
+    <d v="reverent" p="adjective" ts="ˈrevərənt" tr="благоговейный"/>
+    <d v="reverent" p="noun" ts="ˈrevərənt" tr="благоговение"/>
+    <d v="reverently" p="adverb" ts="ˈrevərəntlɪ" tr="благоговейно"/>
+    <d v="reverently" p="noun" ts="ˈrevərəntlɪ" tr="благоговение; с благоговением"/>
+    <d v="reverie" p="noun" ts="ˈrevərɪ" tr="задумчивость; мечта; мечтательность"/>
+    <d v="reversal" p="noun" ts="rɪˈvɜːsəl"
+       tr="разворот; отмена; реверсирование; смена; обращение; инверсия; полное изменение; перемагничивание"/>
+    <d v="reversal" p="adjective" ts="rɪˈvɜːsəl" tr="разворотный; реверсивный"/>
+    <d v="reverse" p="adjective" ts="rɪˈvɜːs" tr="обратный"/>
+    <d v="reverse" p="noun" ts="rɪˈvɜːs" tr="реверс; разворот; неудача; превратность; перемена"/>
+    <d v="reverse" p="verb" ts="rɪˈvɜːs"
+       tr="отменить; менять; переломить; полностью изменить; обратить вспять; реверсировать"/>
+    <d v="reversible" p="adjective" ts="rɪˈvɜːsəbl" tr="обратимый; двусторонний"/>
+    <d v="reversion" p="noun" ts="rɪˈvɜːʃn" tr="возврат; реверсия"/>
+    <d v="revert" p="verb" ts="rɪˈvɜːt" tr="вернуться"/>
+    <d v="review" p="noun" ts="rɪˈvjuː" tr="обзор; рассмотрение; смотр"/>
+    <d v="review" p="verb" ts="rɪˈvjuː" tr="рассмотреть; пересмотреть; просматривать; обозревать"/>
+    <d v="review" p="adjective" ts="rɪˈvjuː" tr="обзорный"/>
+    <d v="reviewer" p="noun" ts="rɪˈvjuːə" tr="рецензент; обозреватель; референт; оппонент"/>
+    <d v="revile" p="verb" ts="rɪˈvaɪl" tr="поносить"/>
+    <d v="revise" p="verb" ts="rɪˈvaɪz" tr="пересмотреть; переработать; проверять; исправлять"/>
+    <d v="revise" p="noun" ts="rɪˈvaɪz" tr="пересмотр; сверка"/>
+    <d v="revision" p="noun" ts="rɪˈvɪʒən" tr="пересмотр; ревизия; проверка"/>
+    <d v="revision" p="adjective" ts="rɪˈvɪʒən" tr="ревизионный"/>
+    <d v="revitalization" p="noun" ts="riːvaɪtəlaɪˈzeɪʃn" tr="возрождение; активизация"/>
+    <d v="revitalize" p="verb" ts="riːˈvaɪtəlaɪz" tr="оживить; оживлять"/>
+    <d v="revitalize" p="noun" ts="riːˈvaɪtəlaɪz" tr="оживление; активизация"/>
+    <d v="revival" p="noun" ts="rɪˈvaɪvəl" tr="возрождение; оживление; восстановление; воскресение; реанимация"/>
+    <d v="revive" p="verb" ts="rɪˈvaɪv"
+       tr="возродить; оживить; возрождаться; ожить; восстановить; возобновить; приходить в себя"/>
+    <d v="revive" p="noun" ts="rɪˈvaɪv" tr="возрождение"/>
+    <d v="revoke" p="verb" ts="rɪˈvəʊk" tr="отменить; отозвать; отобрать"/>
+    <d v="revoke" p="noun" ts="rɪˈvəʊk" tr="отмена"/>
+    <d v="revolt" p="noun" ts="rɪˈvəʊlt" tr="восстание; отвращение"/>
+    <d v="revolt" p="verb" ts="rɪˈvəʊlt" tr="восстать"/>
+    <d v="revolt" p="participle" ts="rɪˈvəʊlt" tr="восставший"/>
+    <d v="revolting" p="adjective" ts="rɪˈvəʊltɪŋ" tr="отвратительный"/>
+    <d v="revolting" p="participle" ts="rɪˈvəʊltɪŋ" tr="отталкивающий"/>
+    <d v="revolution" p="noun" ts="revəˈluːʃn" tr="революция; оборот; крутой перелом"/>
+    <d v="revolutionary" p="adjective" ts="revəˈluːʃnərɪ" tr="революционный"/>
+    <d v="revolutionary" p="noun" ts="revəˈluːʃnərɪ" tr="революционер"/>
+    <d v="revolutionary war" p="noun" ts="revəˈluːʃnərɪ wɔː" tr="революционная война"/>
+    <d v="revolutionize" p="verb" ts="revəˈluːʃnaɪz" tr="революционизировать"/>
+    <d v="revolutionize" p="adjective" ts="revəˈluːʃnaɪz" tr="революционный"/>
+    <d v="revolve" p="verb" ts="rɪˈvɔlv" tr="вращаться; обдумывать"/>
+    <d v="revolver" p="noun" ts="rɪˈvɔlvə" tr="револьвер; наган"/>
+    <d v="revue" p="noun" ts="rɪˈvjuː" tr="ревю"/>
+    <d v="revulsion" p="noun" ts="rɪˈvʌlʃn" tr="отвращение"/>
+    <d v="reward" p="noun" ts="rɪˈwɔːd" tr="награда"/>
+    <d v="reward" p="verb" ts="rɪˈwɔːd" tr="вознаградить; наградить"/>
+    <d v="reward" p="adjective" ts="rɪˈwɔːd" tr="наградной"/>
+    <d v="rewarding" p="noun" ts="rɪˈwɔːdɪŋ" tr="награждение"/>
+    <d v="rewarding" p="adjective" ts="rɪˈwɔːdɪŋ" tr="полезный"/>
+    <d v="rewarding" p="participle" ts="rɪˈwɔːdɪŋ" tr="вознаграждаемый"/>
+    <d v="rewind" p="noun" ts="riːˈwaɪnd" tr="перемотка"/>
+    <d v="rewind" p="verb" ts="riːˈwaɪnd" tr="перемотать"/>
+    <d v="rework" p="noun" ts="rɪˈwɜːk" tr="переделка"/>
+    <d v="rework" p="verb" ts="rɪˈwɜːk" tr="переработать; переделывать"/>
+    <d v="rewrite" p="verb" ts="ˈriːˈraɪt" tr="переписать; переделать"/>
+    <d v="rewrite" p="noun" ts="ˈriːˈraɪt" tr="перезапись"/>
+    <d v="rewritten" p="participle" ts="ˈriːˈrɪtn" tr="переписанный; перезаписанный"/>
+    <d v="rhetoric" p="noun" ts="ˈretərɪk" tr="риторика; краснобайство"/>
+    <d v="rhetoric" p="adjective" ts="ˈretərɪk" tr="риторический"/>
+    <d v="rhetorical" p="adjective" ts="rɪˈtɔrɪkəl" tr="риторический"/>
+    <d v="rhetorically" p="adverb" ts="rɪˈtɒrɪklɪ" tr="риторически"/>
+    <d v="rhetorical question" p="noun" ts="rɪˈtɔrɪkəl ˈkwesʧən" tr="риторический вопрос"/>
+    <d v="rheumatism" p="noun" ts="ˈruːmətɪzm" tr="ревматизм"/>
+    <d v="rhinestone" p="noun" ts="ˈraɪnstəʊn" tr="горный хрусталь; фальшивый бриллиант"/>
+    <d v="rhino" p="noun" ts="ˈraɪnəʊ" tr="носорог"/>
+    <d v="rhinoceros" p="noun" ts="raɪˈnɔsərəs" tr="носорог"/>
+    <d v="rhododendron" p="noun" ts="rəʊdəˈdendrən" tr="рододендрон"/>
+    <d v="rhubarb" p="noun" ts="ˈruːbɑːb" tr="ревень"/>
+    <d v="rhyme" p="noun" ts="raɪm" tr="рифма; стишок; песенка; рифмовка"/>
+    <d v="rhyme" p="verb" ts="raɪm" tr="рифмовать; зарифмовать"/>
+    <d v="rhyme" p="adjective" ts="raɪm" tr="рифмованный"/>
+    <d v="rhythm" p="noun" ts="ˈrɪðəm" tr="ритм; ритмичность"/>
+    <d v="rhythm" p="adjective" ts="ˈrɪðəm" tr="ритмический"/>
+    <d v="rhythmic" p="adjective" ts="ˈrɪðmɪk" tr="ритмический; художественный"/>
+    <d v="rhythmically" p="adverb" ts="ˈrɪðmɪklɪ" tr="ритмично; ритмически"/>
+    <d v="rib" p="noun" ts="rɪb" tr="ребро; нервюра; рубчик"/>
+    <d v="rib" p="adjective" ts="rɪb" tr="грудной"/>
+    <d v="ribald" p="adjective" ts="ˈrɪbəld" tr="непристойный"/>
+    <d v="ribald" p="noun" ts="ˈrɪbəld" tr="сквернослов"/>
+    <d v="ribbon" p="noun" ts="ˈrɪbən" tr="лента; бант"/>
+    <d v="ribbon" p="adjective" ts="ˈrɪbən" tr="ленточный"/>
+    <d v="rib cage" p="noun" ts="rɪb keɪʤ" tr="грудная клетка"/>
+    <d v="rice" p="noun" ts="raɪs" tr="рис"/>
+    <d v="rice" p="adjective" ts="raɪs" tr="рисовый"/>
+    <d v="rich" p="adjective" ts="rɪʧ" tr="богатый; густой; обширный; плодородный; ценный; сдобный; низкий; пряный"/>
+    <d v="rich" p="noun" ts="rɪʧ" tr="богатство; богач; Рич"/>
+    <d v="rich" p="participle" ts="rɪʧ" tr="насыщенный; обогащенный; форматированный; разбогатевший; изобилующий"/>
+    <d v="rich" p="verb" ts="rɪʧ" tr="разбогатеть"/>
+    <d v="riches" p="noun" ts="ˈrɪʧɪz" tr="богатство"/>
+    <d v="richly" p="adverb" ts="ˈrɪʧlɪ" tr="богато; обильно; вполне"/>
+    <d v="richness" p="noun" ts="ˈrɪʧnɪs" tr="богатство; насыщенность; наваристость; жирность"/>
+    <d v="rickety" p="adjective" ts="ˈrɪkɪtɪ" tr="шаткий; рахитичный; колченогий"/>
+    <d v="rickety" p="participle" ts="ˈrɪkɪtɪ" tr="покосившийся"/>
+    <d v="rickshaw" p="noun" ts="ˈrɪkʃɔː" tr="рикша"/>
+    <d v="ricochet" p="noun" ts="ˈrɪkəʃeɪ" tr="рикошет"/>
+    <d v="ricochet" p="verb" ts="ˈrɪkəʃeɪ" tr="рикошетировать"/>
+    <d v="rid" p="verb" ts="rɪd" tr="избавиться; избавить; освобождать"/>
+    <d v="rid" p="noun" ts="rɪd" tr="МПОГ; избавление"/>
+    <d v="riddance" p="noun" ts="ˈrɪdəns" tr="избавление"/>
+    <d v="riddle" p="noun" ts="rɪdl" tr="загадка; грохот; решето"/>
+    <d v="riddle" p="verb" ts="rɪdl" tr="изрешетить"/>
+    <d v="riddled" p="participle" ts="rɪdld" tr="изрешеченный; пронизанный"/>
+    <d v="ride" p="verb" ts="raɪd"
+       tr="ехать; кататься; покататься; оседлать; плыть; управлять; изводить; издеваться; качать"/>
+    <d v="ride" p="noun" ts="raɪd" tr="езда; поездка; прогулка"/>
+    <d v="rider" p="noun" ts="ˈraɪdə" tr="всадник; гонщик; мотоциклист; наездница; дополнение"/>
+    <d v="ridge" p="noun" ts="rɪʤ" tr="хребет; Ридж; конек; ребро; выступ; грядка; горный кряж"/>
+    <d v="ridicule" p="noun" ts="ˈrɪdɪkjuːl" tr="насмешка; высмеивание; смехотворность"/>
+    <d v="ridicule" p="verb" ts="ˈrɪdɪkjuːl" tr="высмеивать; насмехаться"/>
+    <d v="ridiculous" p="adjective" ts="rɪˈdɪkjʊləs" tr="смешной; нелепый; глупый"/>
+    <d v="ridiculous" p="noun" ts="rɪˈdɪkjʊləs" tr="нелепость"/>
+    <d v="ridiculously" p="adverb" ts="rɪˈdɪkjʊləslɪ" tr="смехотворно; смешно"/>
+    <d v="ridiculously" p="noun" ts="rɪˈdɪkjʊləslɪ" tr="до смешного"/>
+    <d v="riding" p="noun" ts="ˈraɪdɪŋ" tr="верх; райдинг"/>
+    <d v="riding" p="adjective" ts="ˈraɪdɪŋ" tr="конный"/>
+    <d v="riding" p="participle" ts="ˈraɪdɪŋ" tr="едущий; катающийся"/>
+    <d v="rife" p="noun" ts="raɪf" tr="Райф"/>
+    <d v="rife" p="participle" ts="raɪf" tr="распространенный; изобилующий"/>
+    <d v="rife" p="verb" ts="raɪf" tr="изобиловать"/>
+    <d v="rife" p="adjective" ts="raɪf" tr="обычный"/>
+    <d v="rifle" p="noun" ts="raɪfl" tr="винтовка; стрелки; нарезное оружие"/>
+    <d v="rifle" p="adjective" ts="raɪfl" tr="стрелковый; винтовочный; ружейный"/>
+    <d v="rift" p="noun" ts="rɪft" tr="разлом; расселина; порог; размолвка"/>
+    <d v="rift" p="adjective" ts="rɪft" tr="рифтовой"/>
+    <d v="rift" p="verb" ts="rɪft" tr="отщеплять"/>
+    <d v="rig" p="noun" ts="rɪg"
+       tr="установка; вышка; оснастка; буровая вышка; фальсификация; оборудование; буровой станок; парусное вооружение; упряжка"/>
+    <d v="rig" p="verb" ts="rɪg" tr="фальсифицировать; оснастить; подстроить; мошенничать"/>
+    <d v="rigging" p="noun" ts="ˈrɪgɪŋ" tr="фальсификация; оснастка; такелаж; снасти; оснащение; обстройка"/>
+    <d v="rigging" p="adjective" ts="ˈrɪgɪŋ" tr="такелажный"/>
+    <d v="right" p="adjective" ts="raɪt" tr="правый; правильный; здоровый; уместный"/>
+    <d v="right" p="noun" ts="raɪt" tr="порядок; правильность; привилегия"/>
+    <d v="right" p="participle" ts="raɪt" tr="подходящий"/>
+    <d v="right" p="verb" ts="raɪt" tr="выпрямлять; исправлять"/>
+    <d v="right angle" p="noun" ts="raɪt æŋgl" tr="прямой угол; правый угол; правильный угол"/>
+    <d v="righteous" p="adjective" ts="ˈraɪʧəs" tr="праведный"/>
+    <d v="righteous" p="noun" ts="ˈraɪʧəs" tr="праведник"/>
+    <d v="righteously" p="adverb" ts="ˈraɪʧəslɪ" tr="праведно"/>
+    <d v="righteously" p="adjective" ts="ˈraɪʧəslɪ" tr="праведный"/>
+    <d v="righteousness" p="noun" ts="ˈraɪʧəsnɪs" tr="праведность; справедливость; оправдание; добродетельность"/>
+    <d v="rightful" p="adjective" ts="ˈraɪtfʊl" tr="законный"/>
+    <d v="rightfully" p="adverb" ts="ˈraɪtfəlɪ" tr="справедливо"/>
+    <d v="rightfully" p="noun" ts="ˈraɪtfəlɪ" tr="полное право; с полным правом"/>
+    <d v="rightly" p="adverb" ts="ˈraɪtlɪ" tr="справедливо; правильно"/>
+    <d v="rightly" p="noun" ts="ˈraɪtlɪ" tr="по праву; право"/>
+    <d v="right wing" p="noun" ts="raɪt wɪŋ" tr="правое крыло; правый фланг"/>
+    <d v="rigid" p="adjective" ts="ˈrɪʤɪd" tr="жесткий; косный; непреклонный; негнущийся"/>
+    <d v="rigid" p="noun" ts="ˈrɪʤɪd" tr="жесткость"/>
+    <d v="rigidity" p="noun" ts="rɪˈʤɪdɪtɪ" tr="жесткость; прочность; негибкость; косность"/>
+    <d v="rigidly" p="adverb" ts="ˈrɪʤɪdlɪ" tr="жестко"/>
+    <d v="rigmarole" p="noun" ts="ˈrɪgmərəʊl" tr="канитель"/>
+    <d v="rigor" p="noun" ts="ˈraɪgɔː" tr="строгость; окоченение; озноб; оцепенение"/>
+    <d v="rigorous" p="adjective" ts="ˈrɪgərəs" tr="строгий; тщательный"/>
+    <d v="rigorously" p="adverb" ts="ˈrɪgərəslɪ" tr="тщательно"/>
+    <d v="rile" p="verb" ts="raɪl" tr="раздражать"/>
+    <d v="rim" p="noun" ts="rɪm" tr="обод; край; Рим; кайма; компания RIM; венец; бортик; бандаж"/>
+    <d v="rind" p="noun" ts="raɪnd" tr="кожура"/>
+    <d v="ring" p="noun" ts="rɪŋ" tr="кольцо; ринг; звонок; ободок; обруч; звучание; площадка; банда; рым"/>
+    <d v="ring" p="verb" ts="rɪŋ" tr="позвонить; звенеть; трезвонить"/>
+    <d v="ring" p="adjective" ts="rɪŋ" tr="кольцевой; безымянный"/>
+    <d v="ringleader" p="noun" ts="ˈrɪŋliːdə" tr="главарь; зачинщик; заводила; коновод"/>
+    <d v="ringlet" p="noun" ts="ˈrɪŋlɪt" tr="колечко"/>
+    <d v="ringworm" p="noun" ts="ˈrɪŋwɜːm" tr="стригущий лишай"/>
+    <d v="ringworm" p="participle" ts="ˈrɪŋwɜːm" tr="стригущий"/>
+    <d v="rink" p="noun" ts="rɪŋk" tr="каток"/>
+    <d v="rinse" p="verb" ts="rɪns" tr="промыть; полоскать"/>
+    <d v="rinse" p="noun" ts="rɪns" tr="полоскание; промывка; ополаскивание"/>
+    <d v="rinse" p="adjective" ts="rɪns" tr="промывочный"/>
+    <d v="riot" p="noun" ts="ˈraɪət" tr="бунт; мятеж; ОМОН; буйство; разгул; изобилие"/>
+    <d v="riot" p="verb" ts="ˈraɪət" tr="бунтовать; бесчинствовать; буйствовать"/>
+    <d v="rioter" p="noun" ts="ˈraɪətə" tr="бунтовщик"/>
+    <d v="riotous" p="adjective" ts="ˈraɪətəs" tr="буйный; разгульный"/>
+    <d v="rip" p="verb" ts="rɪp"
+       tr="разорвать; сорвать; копировать; сдирать; разрезать; разорваться; выдирать; распарывать"/>
+    <d v="rip" p="noun" ts="rɪp" tr="рип; сулой; разрыв"/>
+    <d v="rip" p="verb" ts="rɪp"
+       tr="разорвать; сорвать; копировать; сдирать; разрезать; разорваться; выдирать; распарывать"/>
+    <d v="rip" p="noun" ts="rɪp" tr="рип; сулой; разрыв"/>
+    <d v="ripe" p="adjective" ts="raɪp" tr="спелый; готовый"/>
+    <d v="ripe" p="verb" ts="raɪp" tr="созреть"/>
+    <d v="ripe" p="participle" ts="raɪp" tr="созревший; вызревший"/>
+    <d v="ripen" p="verb" ts="ˈraɪpən" tr="созревать"/>
+    <d v="ripen" p="noun" ts="ˈraɪpən" tr="созревание"/>
+    <d v="ripple" p="noun" ts="rɪpl" tr="пульсация; рябь; волнистость; журчание"/>
+    <d v="ripple" p="adjective" ts="rɪpl" tr="волновой"/>
+    <d v="ripple" p="verb" ts="rɪpl" tr="рябить"/>
+    <d v="rise" p="verb" ts="raɪz"
+       tr="подняться; вырасти; повышаться; воскреснуть; восставать; происходить; подходить"/>
+    <d v="rise" p="noun" ts="raɪz" tr="рост; подъем; начало; восстание; вынос"/>
+    <d v="riser" p="noun" ts="ˈraɪzə" tr="стояк; подступенок; прибыль"/>
+    <d v="risk" p="noun" ts="rɪsk" tr="риск"/>
+    <d v="risk" p="verb" ts="rɪsk" tr="рисковать"/>
+    <d v="risk" p="adjective" ts="rɪsk" tr="рисковой"/>
+    <d v="risky" p="adjective" ts="ˈrɪskɪ" tr="рискованный; авантюрный"/>
+    <d v="risque" p="adjective" ts="ˈrɪskeɪ" tr="рискованный"/>
+    <d v="rite" p="noun" ts="raɪt" tr="обряд"/>
+    <d v="ritual" p="noun" ts="ˈrɪʧʊəl" tr="ритуал; обряд"/>
+    <d v="ritual" p="adjective" ts="ˈrɪʧʊəl" tr="ритуальный"/>
+    <d v="ritually" p="adverb" ts="ˈrɪʧʊəlɪ" tr="ритуально"/>
+    <d v="rival" p="noun" ts="ˈraɪvəl" tr="соперник"/>
+    <d v="rival" p="participle" ts="ˈraɪvəl" tr="конкурирующий; соперничающий; враждующий"/>
+    <d v="rival" p="verb" ts="ˈraɪvəl" tr="соперничать"/>
+    <d v="rivalry" p="noun" ts="ˈraɪvəlrɪ" tr="соперничество"/>
+    <d v="river" p="noun" ts="ˈrɪvə" tr="река; Ривер"/>
+    <d v="river" p="adjective" ts="ˈrɪvə" tr="речной"/>
+    <d v="riverbed" p="noun" ts="ˈrɪvəˈbed" tr="русло; русло реки"/>
+    <d v="riverside" p="noun" ts="ˈrɪvəsaɪd" tr="река; Риверсайд; берег реки"/>
+    <d v="riverside" p="adjective" ts="ˈrɪvəsaɪd" tr="прибрежный"/>
+    <d v="rivet" p="noun" ts="ˈrɪvɪt" tr="заклепка"/>
+    <d v="rivet" p="verb" ts="ˈrɪvɪt" tr="приковать; клепать"/>
+    <d v="riveting" p="noun" ts="ˈrɪvɪtɪŋ" tr="клепка"/>
+    <d v="roach" p="noun" ts="rəʊʧ" tr="плотва; таракан; вобла"/>
+    <d v="road" p="noun" ts="rəʊd" tr="дорога; рейд"/>
+    <d v="road" p="adjective" ts="rəʊd" tr="дорожный; автомобильный"/>
+    <d v="roadblock" p="noun" ts="ˈrəʊdblɒk" tr="блокпост; барьер"/>
+    <d v="roadhouse" p="adjective" ts="ˈrəʊdhaʊs" tr="придорожный"/>
+    <d v="Roadrunner" p="noun" ts="ˈrəʊdrʌnər" tr="лейбл Roadrunner"/>
+    <d v="roadside" p="noun" ts="ˈrəʊdsaɪd" tr="обочина; край дороги"/>
+    <d v="roadside" p="adjective" ts="ˈrəʊdsaɪd" tr="придорожный"/>
+    <d v="road test" p="noun" ts="rəʊd test" tr="дорожное испытание"/>
+    <d v="roadway" p="noun" ts="ˈrəʊdweɪ" tr="дорога; проезжая часть; проезжая часть дороги; железнодорожное полотно"/>
+    <d v="roam" p="verb" ts="rəʊm" tr="бродить; перемещаться; шастать"/>
+    <d v="roam" p="noun" ts="rəʊm" tr="роуминг"/>
+    <d v="roar" p="noun" ts="rɔː" tr="рев; шум; хохот"/>
+    <d v="roar" p="verb" ts="rɔː" tr="реветь; рычать; зареветь; грохотать"/>
+    <d v="roar" p="participle" ts="rɔː" tr="ревущий"/>
+    <d v="roaring" p="participle" ts="ˈrɔːrɪŋ" tr="ревущий; рыкающий; рычащий; грохочущий"/>
+    <d v="roaring" p="noun" ts="ˈrɔːrɪŋ" tr="рев"/>
+    <d v="roaring" p="adjective" ts="ˈrɔːrɪŋ" tr="бурный"/>
+    <d v="roast" p="adjective" ts="rəʊst" tr="жареный"/>
+    <d v="roast" p="verb" ts="rəʊst" tr="поджарить; запечь"/>
+    <d v="roast" p="noun" ts="rəʊst" tr="жаркое; ростбиф; обжарка; обжиг; поджаривание"/>
+    <d v="roast" p="participle" ts="rəʊst" tr="обжаренный; запеченный"/>
+    <d v="rob" p="noun" ts="rɔb" tr="Роба; ограбление"/>
+    <d v="rob" p="verb" ts="rɔb" tr="грабить; лишить; украсть; обокрасть; обворовать; обобрать; обирать"/>
+    <d v="robber" p="noun" ts="ˈrɔbə" tr="грабитель"/>
+    <d v="robber" p="adjective" ts="ˈrɔbə" tr="разбойничий"/>
+    <d v="robbery" p="noun" ts="ˈrɔbərɪ" tr="ограбление; кража"/>
+    <d v="robe" p="noun" ts="rəʊb" tr="одежда; халат; мантия; Роба"/>
+    <d v="Robin" p="noun" ts="ˈrɔbɪn" tr="Робин; Малиновка; ласточка"/>
+    <d v="robot" p="noun" ts="ˈrəʊbɔt" tr="робот; автомат"/>
+    <d v="robot" p="participle" ts="ˈrəʊbɔt" tr="роботизированный"/>
+    <d v="robot" p="adjective" ts="ˈrəʊbɔt" tr="автоматический"/>
+    <d v="robotics" p="noun" ts="rəʊˈbɒtɪks" tr="робототехника"/>
+    <d v="robotics" p="adjective" ts="rəʊˈbɒtɪks" tr="робототехнический"/>
+    <d v="robotics" p="participle" ts="rəʊˈbɒtɪks" tr="роботизированный"/>
+    <d v="robust" p="adjective" ts="rəʊˈbʌst" tr="прочный; надежный; робастный; мощный; здоровый; ясный"/>
+    <d v="rock" p="noun" ts="rɔk" tr="рок; порода; камень; утес; опора"/>
+    <d v="rock" p="adjective" ts="rɔk" tr="каменный; породный"/>
+    <d v="rock" p="verb" ts="rɔk" tr="качать; покачиваться; трясти; укачивать; покачаться"/>
+    <d v="rock bottom" p="noun" ts="rɔk ˈbɔtəm" tr="дно"/>
+    <d v="rocker" p="noun" ts="ˈrɔkə" tr="рокер; коромысло; качалка; балансир; шатун"/>
+    <d v="rocket" p="noun" ts="ˈrɔkɪt" tr="ракета; ракетостроение; вечерница"/>
+    <d v="rocket" p="adjective" ts="ˈrɔkɪt" tr="ракетный"/>
+    <d v="rocket" p="verb" ts="ˈrɔkɪt" tr="взмывать"/>
+    <d v="rocking chair" p="noun" ts="ˈrɒkɪŋ ˈʧeə" tr="качалка"/>
+    <d v="rock music" p="noun" ts="rɔk ˈmjuːzɪk" tr="рок"/>
+    <d v="rocky" p="adjective" ts="ˈrɔkɪ" tr="скалистый; неустойчивый"/>
+    <d v="rod" p="noun" ts="rɔd"
+       tr="стержень; штанга; жезл; род; шток; удочка; прут; тяга; лоза; рейка; брус; скипетр; рычаг"/>
+    <d v="rod" p="adjective" ts="rɔd" tr="стержневой"/>
+    <d v="rodent" p="noun" ts="ˈrəʊdənt" tr="грызун"/>
+    <d v="rodeo" p="noun" ts="rəʊˈdeɪəʊ" tr="родео"/>
+    <d v="roe" p="noun" ts="rəʊ" tr="косуля; икра"/>
+    <d v="rogue" p="noun" ts="rəʊg" tr="изгой; жулик; бродяга; проказник"/>
+    <d v="rogue" p="adjective" ts="rəʊg" tr="неконтролируемый; норовистый"/>
+    <d v="role" p="noun" ts="rəʊl" tr="роль; амплуа"/>
+    <d v="role" p="adjective" ts="rəʊl" tr="ролевой"/>
+    <d v="role model" p="noun" ts="rəʊl mɔdl" tr="ролевая модель; образец для подражания; пример для подражания"/>
+    <d v="role-play" p="noun" ts="rəʊl-pleɪ" tr="ролевая игра"/>
+    <d v="roll" p="noun" ts="rəʊl" tr="рулон; ролл; валок; крен; прокат; свиток; вращение"/>
+    <d v="roll" p="verb" ts="rəʊl"
+       tr="свернуть; перевернуться; закатить; катать; катить; скатиться; откатиться; прокатывать; раскатывать; вращать; укатывать; вертеть; грохотать"/>
+    <d v="roll" p="adjective" ts="rəʊl" tr="рулонный"/>
+    <d v="roll call" p="noun" ts="rəʊl kɔːl" tr="перекличка"/>
+    <d v="roll call" p="adjective" ts="rəʊl kɔːl" tr="поименный"/>
+    <d v="roller" p="noun" ts="ˈrəʊlə" tr="ролик; валик; сизоворонка; бегунок; роульс"/>
+    <d v="roller" p="adjective" ts="ˈrəʊlə" tr="роликовый; рулонный; вальцовый"/>
+    <d v="roller coaster" p="noun" ts="ˈrəʊlə ˈkəʊstə" tr="американская горка"/>
+    <d v="rollicking" p="adjective" ts="ˈrɔlɪkɪŋ" tr="бесшабашный; разухабистый"/>
+    <d v="rolling pin" p="noun" ts="ˈrəʊlɪŋ pɪn" tr="скалка"/>
+    <d v="ROM" p="noun" ts="rɔm" tr="Рим; ПЗУ; цыган; Римл"/>
+    <d v="Roman" p="adjective" ts="ˈrəʊmən" tr="римский"/>
+    <d v="Roman" p="noun" ts="ˈrəʊmən" tr="роман; римлянин; латиница; католик"/>
+    <d v="Roman alphabet" p="noun" ts="ˈrəʊmən ˈælfəbɪt" tr="латинский алфавит; латиница"/>
+    <d v="Roman Catholic" p="noun" ts="ˈrəʊmənˈkæθəlɪk" tr="католик; римский католик; римская католическая церковь"/>
+    <d v="Roman Catholicism" p="noun" ts="ˈrəʊmən kəˈθɔlɪsɪzm" tr="католицизм; римский католицизм"/>
+    <d v="romance" p="noun" ts="rəʊˈmæns" tr="романтика; романс; рыцарский роман; любовная история; выдумка; небылица"/>
+    <d v="romance" p="adjective" ts="rəʊˈmæns" tr="романский; любовный"/>
+    <d v="romance" p="verb" ts="rəʊˈmæns" tr="ухаживать; фантазировать"/>
+    <d v="Roman numeral" p="noun" ts="ˈrəʊmən ˈnjuːmərəl" tr="римская цифра"/>
+    <d v="romantic" p="adjective" ts="reʊˈmæntɪk" tr="романтический; фантастический"/>
+    <d v="romantic" p="noun" ts="reʊˈmæntɪk" tr="романтик"/>
+    <d v="romantically" p="adverb" ts="rəˈmæntɪklɪ" tr="романтически; романтично"/>
+    <d v="romantically" p="adjective" ts="rəˈmæntɪklɪ" tr="романтический"/>
+    <d v="romanticize" p="verb" ts="rəʊˈmæntɪsaɪz" tr="романтизировать"/>
+    <d v="romp" p="noun" ts="rɔmp" tr="возня; шумная игра; сорванец; сорвиголова"/>
+    <d v="romp" p="verb" ts="rɔmp" tr="возиться; резвиться"/>
+    <d v="roof" p="noun" ts="ruːf" tr="крыша"/>
+    <d v="roof" p="adjective" ts="ruːf" tr="кровельный; крышный"/>
+    <d v="roofing" p="adjective" ts="ˈruːfɪŋ" tr="кровельный"/>
+    <d v="roofing" p="noun" ts="ˈruːfɪŋ" tr="кровля; рубероид"/>
+    <d v="rooftop" p="noun" ts="ˈruːftɒp" tr="крыша"/>
+    <d v="rook" p="noun" ts="rʊk" tr="ладья; Грач; шулер"/>
+    <d v="rookie" p="noun" ts="ˈrʊkɪ" tr="новичок"/>
+    <d v="room" p="noun" ts="ruːm" tr="номер; возможность"/>
+    <d v="room" p="verb" ts="ruːm" tr="разместить"/>
+    <d v="roomful" p="noun" ts="ˈruːmfʊl" tr="полная комната"/>
+    <d v="roommate" p="noun" ts="ˈruːmeɪt" tr="сосед; сосед по комнате; соквартирант; сожитель; соседка по комнате"/>
+    <d v="roomy" p="adjective" ts="ˈruːmɪ" tr="просторный; свободный"/>
+    <d v="roost" p="noun" ts="ruːst" tr="насест; курятник; ночлег"/>
+    <d v="roost" p="verb" ts="ruːst" tr="задавать тон"/>
+    <d v="rooster" p="noun" ts="ˈruːstə" tr="петух; забияка"/>
+    <d v="root" p="noun" ts="ruːt" tr="корень; причина; суперпользователь; искоренение; укоренение"/>
+    <d v="root" p="adjective" ts="ruːt" tr="корневой"/>
+    <d v="root" p="verb" ts="ruːt" tr="укорениться; укоренить; внедрять"/>
+    <d v="root" p="participle" ts="ruːt" tr="укоренившийся"/>
+    <d v="rootless" p="adjective" ts="ˈruːtlɪs" tr="безродный"/>
+    <d v="rootless" p="noun" ts="ˈruːtlɪs" tr="без корней"/>
+    <d v="roots" p="noun" ts="ruːts" tr="корни; коренья"/>
+    <d v="rope" p="noun" ts="rəʊp" tr="веревка; канат"/>
+    <d v="rope" p="adjective" ts="rəʊp" tr="канатный; веревочный; тросовый"/>
+    <d v="rosary" p="noun" ts="ˈrəʊzərɪ" tr="розарий; четки"/>
+    <d v="rose" p="noun" ts="rəʊz" tr="роза; розетка"/>
+    <d v="rose" p="adjective" ts="rəʊz" tr="розовый"/>
+    <d v="rose" p="adverbial participle" ts="rəʊz" tr="воскреснув"/>
+    <d v="roster" p="noun" ts="ˈrəʊstə" tr="реестр"/>
+    <d v="rostrum" p="noun" ts="ˈrɔstrəm" tr="трибуна"/>
+    <d v="rosy" p="adjective" ts="ˈrəʊzɪ" tr="розовый"/>
+    <d v="rot" p="noun" ts="rɔt" tr="гниль; труха; вздор"/>
+    <d v="rot" p="verb" ts="rɔt" tr="гнить; сгнивать; портиться; гноить; подгнивать"/>
+    <d v="rot" p="participle" ts="rɔt" tr="гниющий; загнивающий; подгнивающий"/>
+    <d v="rotary" p="adjective" ts="ˈrəʊtərɪ" tr="поворотный; роторный; ротационный"/>
+    <d v="rotary" p="participle" ts="ˈrəʊtərɪ" tr="вращающийся"/>
+    <d v="rotary" p="noun" ts="ˈrəʊtərɪ" tr="Ротари"/>
+    <d v="rotate" p="verb" ts="rɔʊˈteɪt" tr="вращать; повернуть; крутить; чередовать"/>
+    <d v="rotate" p="noun" ts="rɔʊˈteɪt" tr="поворот"/>
+    <d v="rotate" p="participle" ts="rɔʊˈteɪt" tr="вращающийся"/>
+    <d v="rotation" p="noun" ts="rəʊˈteɪʃn" tr="вращение; чередование; круговорот"/>
+    <d v="rote" p="adjective" ts="rəʊt" tr="заученный"/>
+    <d v="rote" p="noun" ts="rəʊt" tr="шум прибоя"/>
+    <d v="rotor" p="noun" ts="ˈrəʊtə" tr="ротор; несущий винт"/>
+    <d v="rotor" p="adjective" ts="ˈrəʊtə" tr="роторный"/>
+    <d v="rotten" p="adjective" ts="rɔtn" tr="гнилой; отвратительный; паршивый"/>
+    <d v="rotten" p="participle" ts="rɔtn" tr="прогнивший; сгнивший; гниющий; испорченный; разложившийся"/>
+    <d v="rotten" p="verb" ts="rɔtn" tr="гнить"/>
+    <d v="rotund" p="adjective" ts="rəʊˈtʌnd" tr="пухлый; круглый; полный"/>
+    <d v="rotunda" p="noun" ts="rəʊˈtʌndə" tr="ротонда"/>
+    <d v="Rouge" p="noun" ts="ruːʒ" tr="Руж; кхмер; румяна; губная помада"/>
+    <d v="Rouge" p="verb" ts="ruːʒ" tr="красить губы"/>
+    <d v="rough" p="adjective" ts="rʌf"
+       tr="грубый; шероховатый; бурный; приблизительный; тяжелый; ухабистый; корявый; косматый"/>
+    <d v="rough" p="noun" ts="rʌf" tr="сырье; неровность; грубиян; головорез; хулиган"/>
+    <d v="roughage" p="noun" ts="ˈrʌfɪʤ" tr="грубый корм"/>
+    <d v="roughage" p="adjective" ts="ˈrʌfɪʤ" tr="грубый"/>
+    <d v="roughly" p="adverb" ts="ˈrʌflɪ" tr="примерно; грубо; неровно; небрежно"/>
+    <d v="roughly" p="preposition" ts="ˈrʌflɪ" tr="около"/>
+    <d v="roughness" p="noun" ts="ˈrʌfnɪs" tr="шероховатость; грубость; терпкость; грубоватость; резкость"/>
+    <d v="roulette" p="noun" ts="ruːˈlet" tr="рулетка"/>
+    <d v="roulette" p="adjective" ts="ruːˈlet" tr="рулеточный"/>
+    <d v="round" p="noun" ts="raʊnd" tr="раунд; круг; патрон; обход; виток; очередь; порция; прогулка"/>
+    <d v="round" p="adjective" ts="raʊnd" tr="круглый; полный"/>
+    <d v="round" p="verb" ts="raʊnd" tr="округлять; объезжать; огибать"/>
+    <d v="roundabout" p="adjective" ts="ˈraʊndəbaʊt" tr="кольцевой; окольный; иносказательный"/>
+    <d v="roundabout" p="noun" ts="ˈraʊndəbaʊt" tr="карусель; развязка"/>
+    <d v="roundup" p="noun" ts="ˈraʊndʌp" tr="облава"/>
+    <d v="rouse" p="verb" ts="raʊz" tr="пробудить; вызывать; поднять; возбудить; всколыхнуть; пробудиться"/>
+    <d v="rouse" p="noun" ts="raʊz" tr="побудка"/>
+    <d v="rousing" p="adjective" ts="ˈraʊzɪŋ" tr="зажигательный; восторженный"/>
+    <d v="rout" p="noun" ts="raʊt" tr="маршрут; разгром; раут"/>
+    <d v="rout" p="verb" ts="raʊt" tr="разгромить"/>
+    <d v="route" p="noun" ts="ruːt" tr="маршрут; путь; курс"/>
+    <d v="route" p="adjective" ts="ruːt" tr="маршрутный"/>
+    <d v="route" p="verb" ts="ruːt" tr="маршрутизировать"/>
+    <d v="routine" p="adjective" ts="ruːˈtiːn" tr="обычный; плановый; профилактический; шаблонный"/>
+    <d v="routine" p="noun" ts="ruːˈtiːn"
+       tr="процедура; рутина; обыденность; текучка; шаблон; установившаяся практика"/>
+    <d v="routinely" p="adverb" ts="ruːˈtiːnlɪ" tr="регулярно"/>
+    <d v="roving" p="noun" ts="ˈrəʊvɪŋ" tr="ровинг"/>
+    <d v="roving" p="adjective" ts="ˈrəʊvɪŋ" tr="бродячий"/>
+    <d v="roving" p="participle" ts="ˈrəʊvɪŋ" tr="блуждающий"/>
+    <d v="row" p="noun" ts="rəʊ" tr="строка; подряд; скандал; спор; гребля; улица; шум"/>
+    <d v="row" p="verb" ts="rəʊ" tr="грести; скандалить"/>
+    <d v="rowboat" p="noun" ts="ˈrəʊbəʊt" tr="гребная лодка"/>
+    <d v="rowdy" p="adjective" ts="ˈraʊdɪ" tr="шумный"/>
+    <d v="rowdy" p="noun" ts="ˈraʊdɪ" tr="дебошир; хулиган"/>
+    <d v="rowing" p="noun" ts="ˈrəʊɪŋ" tr="гребля"/>
+    <d v="rowing" p="adjective" ts="ˈrəʊɪŋ" tr="гребной"/>
+    <d v="Royal" p="adjective" ts="ˈrɔɪəl" tr="королевский; британский; величественный"/>
+    <d v="royalties" p="noun" ts="ˈrɔɪəltɪz" tr="роялти; гонорар; авторское вознаграждение"/>
+    <d v="royalty" p="noun" ts="ˈrɔɪəltɪ"
+       tr="роялти; королевская власть; королевская семья; гонорар; лицензионный платеж; особа; член королевской семьи"/>
+    <d v="royalty" p="adjective" ts="ˈrɔɪəltɪ" tr="королевский"/>
+    <d v="RSVP" p="noun" ts="svp" tr="протокол RSVP"/>
+    <d v="rub" p="noun" ts="rʌb" tr="руб; протирка; трение; растирание; затруднение; натирание"/>
+    <d v="rub" p="verb" ts="rʌb"
+       tr="потереть; протереть; втирать; растирать; натереть; натирать; стереть; почесать; помассировать; начищать"/>
+    <d v="rubber" p="noun" ts="ˈrʌbə" tr="резина; резинка; массажист; роббер"/>
+    <d v="rubber" p="adjective" ts="ˈrʌbə" tr="резиновый"/>
+    <d v="rubber" p="participle" ts="ˈrʌbə" tr="прорезиненный"/>
+    <d v="rubber band" p="noun" ts="ˈrʌbə bænd" tr="резинка; резиновая лента; круглая резинка"/>
+    <d v="rubber stamp" p="noun" ts="ˈrʌbə stæmp" tr="резиновый штамп; мастичный штамп; штамп; резиновая печать"/>
+    <d v="rubbery" p="adjective" ts="ˈrʌbərɪ" tr="резиновый"/>
+    <d v="rubbish" p="noun" ts="ˈrʌbɪʃ" tr="мусор; ерунда; дрянь; мразь"/>
+    <d v="rubbish" p="adjective" ts="ˈrʌbɪʃ" tr="мусорный"/>
+    <d v="rubble" p="noun" ts="rʌbl" tr="щебень; рубль; завал; развалины; булыжник; бут"/>
+    <d v="rubble" p="adjective" ts="rʌbl" tr="бутовый"/>
+    <d v="rubble" p="verb" ts="rʌbl" tr="завалиться"/>
+    <d v="rubdown" p="noun" ts="ˈrʌbdaʊn" tr="обтирание"/>
+    <d v="rubella" p="noun" ts="ruːˈbelɪ" tr="краснуха"/>
+    <d v="rubella" p="adjective" ts="ruːˈbelɪ" tr="краснушный"/>
+    <d v="ruby" p="noun" ts="ˈruːbɪ" tr="рубин"/>
+    <d v="ruby" p="adjective" ts="ˈruːbɪ" tr="рубиновый"/>
+    <d v="rudder" p="noun" ts="ˈrʌdə" tr="руль; руль направления"/>
+    <d v="rudder" p="adjective" ts="ˈrʌdə" tr="рулевой"/>
+    <d v="ruddy" p="adjective" ts="ˈrʌdɪ" tr="румяный; красноватый"/>
+    <d v="rude" p="adjective" ts="ruːd" tr="грубый; невежливый; невежественный"/>
+    <d v="rude" p="verb" ts="ruːd" tr="грубить; хамить; нагрубить"/>
+    <d v="rude" p="noun" ts="ruːd" tr="грубость; грубиян"/>
+    <d v="rudely" p="adverb" ts="ˈruːdlɪ" tr="грубо"/>
+    <d v="rudeness" p="noun" ts="ˈruːdnɪs" tr="грубость; хамство"/>
+    <d v="rudimentary" p="adjective" ts="ruːdɪˈmentərɪ" tr="зачаточный; рудиментарный; примитивный; недоразвитый"/>
+    <d v="rudiments" p="noun" ts="ˈruːdɪmənts" tr="начатки"/>
+    <d v="rue" p="noun" ts="ruː" tr="Рута"/>
+    <d v="rue" p="verb" ts="ruː" tr="сожалеть"/>
+    <d v="rueful" p="adjective" ts="ˈruːfʊl" tr="печальный"/>
+    <d v="ruffle" p="noun" ts="rʌfl" tr="оборка; рябь"/>
+    <d v="ruffle" p="verb" ts="rʌfl" tr="взъерошить; ерошить; рябить; раздражать; морщить"/>
+    <d v="rug" p="noun" ts="rʌg" tr="ковер"/>
+    <d v="rugby" p="noun" ts="ˈrʌgbɪ" tr="регби"/>
+    <d v="rugby" p="adjective" ts="ˈrʌgbɪ" tr="регбийный"/>
+    <d v="rugged" p="adjective" ts="ˈrʌgɪd" tr="прочный; суровый; грубый; неровный; морщинистый"/>
+    <d v="rugged" p="participle" ts="ˈrʌgɪd" tr="изрезанный; пересеченный"/>
+    <d v="ruin" p="verb" ts="rʊɪn" tr="разрушить; испортить; разорить; рухнуть"/>
+    <d v="ruin" p="noun" ts="rʊɪn" tr="руина; разорение; гибель; крах"/>
+    <d v="ruinous" p="adjective" ts="ˈrʊɪnəs" tr="губительный"/>
+    <d v="rule" p="noun" ts="ruːl" tr="правило; правление; господство; линейка"/>
+    <d v="rule" p="verb" ts="ruːl" tr="править; управлять; властвовать"/>
+    <d v="ruler" p="noun" ts="ˈruːlə" tr="правитель; линейка; начальник; владыка; властитель; управитель"/>
+    <d v="ruling" p="participle" ts="ˈruːlɪŋ" tr="правящий"/>
+    <d v="ruling" p="noun" ts="ˈruːlɪŋ" tr="постановление; управление; судебное решение"/>
+    <d v="rum" p="noun" ts="rʌm" tr="ром"/>
+    <d v="rum" p="adjective" ts="rʌm" tr="ромовый"/>
+    <d v="rumble" p="noun" ts="rʌmbl" tr="гул"/>
+    <d v="rumble" p="verb" ts="rʌmbl" tr="грохотать; урчать"/>
+    <d v="rumble" p="adjective" ts="rʌmbl" tr="рокочущий"/>
+    <d v="ruminate" p="verb" ts="ˈruːmɪneɪt" tr="размышлять; жевать жвачку"/>
+    <d v="rummage" p="verb" ts="ˈrʌmɪʤ" tr="порыться; обшаривать; искать"/>
+    <d v="rummage" p="adverbial participle" ts="ˈrʌmɪʤ" tr="роясь"/>
+    <d v="rummage" p="noun" ts="ˈrʌmɪʤ" tr="таможенный досмотр; хлам"/>
+    <d v="rumor" p="noun" ts="ˈruːmər" tr="слух"/>
+    <d v="rumored" p="noun" ts="ˈruːməd" tr="по слухам"/>
+    <d v="rump" p="noun" ts="rʌmp" tr="крестец; кострец; зад; огузок"/>
+    <d v="rumple" p="verb" ts="rʌmpl" tr="мять; взъерошить"/>
+    <d v="run" p="verb" ts="rʌn"
+       tr="бежать; запустить; работать; управлять; проводить; идти; пробежать; течь; двигаться; курсировать; прокладывать; простираться; гнать; лететь; расплываться; хозяйничать"/>
+    <d v="run" p="noun" ts="rʌn"
+       tr="запуск; работа; перспектива; пробег; ход; тираж; трасса; рейс; показ; партия; полоса"/>
+    <d v="runaway" p="noun" ts="ˈrʌnəweɪ" tr="побег; разгон"/>
+    <d v="runaway" p="adjective" ts="ˈrʌnəweɪ" tr="беглый; безудержный"/>
+    <d v="runaway" p="participle" ts="ˈrʌnəweɪ" tr="убежавший; убегающий"/>
+    <d v="rundown" p="adjective" ts="ˈrʌndaʊn" tr="захудалый; обветшалый"/>
+    <d v="rundown" p="noun" ts="ˈrʌndaʊn" tr="краткое изложение"/>
+    <d v="rung" p="noun" ts="rʌŋ" tr="ступенька"/>
+    <d v="runner" p="noun" ts="ˈrʌnə" tr="бегун; бегунок; гонец; полоз; дорожка; рабочее колесо; побег"/>
+    <d v="running" p="noun" ts="ˈrʌnɪŋ" tr="запуск; бег; управление; беготня; беганье"/>
+    <d v="running" p="adjective" ts="ˈrʌnɪŋ" tr="ходовой; беговой; погонный; подвижной; непрерывный; текучий"/>
+    <d v="running" p="participle" ts="ˈrʌnɪŋ"
+       tr="работающий; запущенный; бегущий; выполняющийся; бегающий; убегающий; впадающий; выбегающий"/>
+    <d v="running mate" p="noun" ts="ˈrʌnɪŋˈmeɪt" tr="напарник"/>
+    <d v="runny" p="noun" ts="ˈrʌnɪ" tr="насморк"/>
+    <d v="runny" p="adjective" ts="ˈrʌnɪ" tr="жидкий"/>
+    <d v="runny" p="participle" ts="ˈrʌnɪ" tr="слезящийся"/>
+    <d v="runway" p="noun" ts="ˈrʌnweɪ" tr="ВПП; подиум"/>
+    <d v="runway" p="adjective" ts="ˈrʌnweɪ" tr="взлетный"/>
+    <d v="rupture" p="adverbial participle" ts="ˈrʌpʧə" tr="разрыв"/>
+    <d v="rupture" p="noun" ts="ˈrʌpʧə" tr="грыжа; прорыв; перелом; прободение"/>
+    <d v="rupture" p="verb" ts="ˈrʌpʧə" tr="разорваться; разорвать; прорывать"/>
+    <d v="rural" p="adjective" ts="ˈrʊərəl" tr="сельский"/>
+    <d v="rural" p="noun" ts="ˈrʊərəl" tr="село"/>
+    <d v="Ruse" p="noun" ts="ruːz" tr="уловка"/>
+    <d v="rush" p="verb" ts="rʌʃ" tr="броситься; спешить; ворваться; устремляться; подбежать; нахлынуть"/>
+    <d v="rush" p="noun" ts="rʌʃ"
+       tr="спешка; лихорадка; Раш; суета; камыш; стремление; натиск; бросок; Ситник; напряжение; стремительное движение; соревнование"/>
+    <d v="rush" p="adjective" ts="rʌʃ" tr="срочный"/>
+    <d v="rush hour" p="noun" ts="rʌʃ ˈaʊə" tr="час пик"/>
+    <d v="Russian" p="adjective" ts="rʌʃn" tr="российский"/>
+    <d v="Russian" p="noun" ts="rʌʃn" tr="Россия"/>
+    <d v="rust" p="noun" ts="rʌst" tr="ржавчина"/>
+    <d v="rust" p="verb" ts="rʌst" tr="ржаветь"/>
+    <d v="rust" p="adjective" ts="rʌst" tr="ржавый"/>
+    <d v="rustic" p="adjective" ts="ˈrʌstɪk" tr="деревенский; простоватый; простой; грубый"/>
+    <d v="rustic" p="noun" ts="ˈrʌstɪk" tr="крестьянин"/>
+    <d v="rustle" p="noun" ts="rʌsl" tr="шорох"/>
+    <d v="rustle" p="verb" ts="rʌsl" tr="шуршать; шуметь"/>
+    <d v="rustler" p="noun" ts="ˈrʌslə" tr="рестлер; делец"/>
+    <d v="rustproof" p="adjective" ts="ˈrʌstpruːf" tr="нержавеющий"/>
+    <d v="rusty" p="adjective" ts="ˈrʌstɪ" tr="ржавый; хриплый"/>
+    <d v="rusty" p="verb" ts="ˈrʌstɪ" tr="расти; заржаветь"/>
+    <d v="rusty" p="participle" ts="ˈrʌstɪ" tr="заржавленный; заржавевший; порыжевший"/>
+    <d v="rut" p="noun" ts="rʌt" tr="колея; гон; привычка"/>
+    <d v="ruthless" p="adjective" ts="ˈruːθlɪs" tr="безжалостный"/>
+    <d v="ruthlessly" p="adverb" ts="ˈruːθlɪslɪ" tr="безжалостно"/>
+    <d v="ruthlessly" p="adjective" ts="ˈruːθlɪslɪ" tr="безжалостный"/>
+    <d v="ruthlessness" p="noun" ts="ˈruːθlɪsnəs" tr="жестокость"/>
+    <d v="rye" p="noun" ts="raɪ" tr="рожь"/>
+    <d v="rye" p="adjective" ts="raɪ" tr="ржаной"/>
+</defs>

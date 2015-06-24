@@ -10,11 +10,11 @@ import org.book2words.dao.LibraryBook
 import org.book2words.dao.LibraryDictionary
 import org.book2words.dao.LibraryDictionaryDao
 import org.book2words.data.DataContext
-import org.book2words.data.DictionaryContext
 import org.book2words.models.book.ParagraphAdapted
 import org.book2words.models.book.Word
 import org.book2words.models.book.WordAdapted
 import org.book2words.translate.Dictionary
+import org.book2words.translate.EnglishDictionary
 import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.util.ArrayList
@@ -24,13 +24,10 @@ import java.util.concurrent.Executors
 public class BookReaderBinder(
         private val book: LibraryBook,
         private val service: Service) : Binder(), BookBinder {
-    val onlineDictionary: Dictionary
-    val verbsDictionary: Dictionary
+    val wordsDictionary: Dictionary
 
     init {
-        val cacheDictionary = DictionaryContext.getConfigs(service)
-        onlineDictionary = Dictionary.createOnline(cacheDictionary, book.getLanguage())
-        verbsDictionary = Dictionary.createVerbs(service)
+        wordsDictionary = EnglishDictionary(service)
     }
 
     override fun release() {
@@ -115,20 +112,10 @@ public class BookReaderBinder(
     public fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
         executor.execute {
             val counter = CountDownLatch(paragraph.getNotTranslatedWords().size())
-            paragraph.getNotTranslatedWords().forEach {
-                val word = it
-                verbsDictionary.find(word.getValue(), { input, result ->
-                    if (result.isNotEmpty()) {
-                        word.setDefinitions(result)
-                        counter.countDown()
-                    } else {
-                        if (!word.isTranslated()) {
-                            onlineDictionary.find(word.getValue(), { input, result ->
-                                word.setDefinitions(result)
-                                counter.countDown()
-                            })
-                        }
-                    }
+            paragraph.getNotTranslatedWords().forEach { word ->
+                wordsDictionary.find(word.getValue(), { input, result ->
+                    word.setDefinitions(result)
+                    counter.countDown()
                 })
             }
             counter.await()

@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="BAA" p="noun" ts="bɑː" tr="Бад"/>
+    <d v="BAA" p="verb" ts="bɑː" tr="блеять"/>
+    <d v="babble" p="verb" ts="bæbl" tr="болтать; лепетать; журчать; проболтаться"/>
+    <d v="babble" p="noun" ts="bæbl" tr="лепет; болтовня; бормотание; журчание"/>
+    <d v="babe" p="noun" ts="beɪb" tr="младенец; красотка"/>
+    <d v="baboon" p="noun" ts="bəˈbuːn" tr="бабуин"/>
+    <d v="baby" p="noun" ts="ˈbeɪbɪ" tr="ребенок; детище"/>
+    <d v="baby" p="adjective" ts="ˈbeɪbɪ" tr="детский; малый"/>
+    <d v="baby boom" p="noun" ts="ˈbeɪbɪ buːm" tr="бэби-бум"/>
+    <d v="baby carriage" p="noun" ts="ˈbeɪbɪ ˈkærɪʤ" tr="коляска; детская коляска"/>
+    <d v="babysit" p="verb" ts="ˈbeɪbɪsɪt" tr="нянчить"/>
+    <d v="babysitter" p="noun" ts="ˈbeɪbɪsɪtə" tr="Няня"/>
+    <d v="bachelor" p="noun" ts="ˈbæʧələ" tr="бакалавр; холостяк; мальчишник"/>
+    <d v="bachelor" p="adjective" ts="ˈbæʧələ" tr="бакалаврский; холостяцкий; холостой"/>
+    <d v="back" p="verb" ts="bæk"
+       tr="вернуться; поддержать; отступать; подпереть; подкреплять; ставить; субсидировать"/>
+    <d v="back" p="noun" ts="bæk" tr="спина; задняя часть; большой чан; защитник; корешок; изнанка"/>
+    <d v="back" p="adjective" ts="bæk" tr="задний; старый"/>
+    <d v="backbone" p="noun" ts="ˈbækbəʊn" tr="основа; позвоночник; магистраль; опора; хребет; стержень"/>
+    <d v="backbone" p="adjective" ts="ˈbækbəʊn" tr="магистральный; системообразующий; опорный"/>
+    <d v="backbreaking" p="adjective" ts="ˈbækbreɪkɪŋ" tr="непосильный"/>
+    <d v="backdrop" p="noun" ts="ˈbækdrɔp" tr="фон"/>
+    <d v="backer" p="noun" ts="ˈbækə" tr="сторонник; покровитель; спонсор"/>
+    <d v="backfire" p="noun" ts="bækˈfaɪər" tr="обратный результат"/>
+    <d v="backfire" p="verb" ts="bækˈfaɪər" tr="иметь неприятные последствия; аукнуться"/>
+    <d v="backgammon" p="noun" ts="bækˈgæmən" tr="нард"/>
+    <d v="background" p="noun" ts="ˈbækgraʊnd"
+       tr="фон; предпосылка; происхождение; опыт; основа; справочная информация; предыстория; подготовка; прошлое; второй план; подоплека; биография; подноготная; объяснение"/>
+    <d v="background" p="adjective" ts="ˈbækgraʊnd" tr="фоновый; справочный"/>
+    <d v="backhand" p="noun" ts="ˈbækhænd" tr="бэкхенд"/>
+    <d v="backhanded" p="adjective" ts="ˈbækˈhændɪd" tr="двусмысленный"/>
+    <d v="backing" p="noun" ts="ˈbækɪŋ" tr="поддержка; бэк; подложка; затыловка; подкладка; задний ход; засыпка"/>
+    <d v="backing" p="participle" ts="ˈbækɪŋ" tr="поддерживающий"/>
+    <d v="backlash" p="noun" ts="ˈbæklæʃ" tr="зазор; реакция; негативная реакция; обратная реакция"/>
+    <d v="backlog" p="noun" ts="ˈbæklɔg" tr="отставание; задел; задолженность; невыполненные заказы"/>
+    <d v="backpack" p="noun" ts="bækˈpæk" tr="рюкзак"/>
+    <d v="backpacker" p="noun" ts="bækˈpækər" tr="турист; рюкзак"/>
+    <d v="back seat" p="noun" ts="bæk siːt" tr="заднее сиденье"/>
+    <d v="backside" p="noun" ts="ˈbækˈsaɪd" tr="задняя сторона; зад"/>
+    <d v="backside" p="adjective" ts="ˈbækˈsaɪd" tr="задний"/>
+    <d v="backstage" p="noun" ts="ˈbækˈsteɪʤ" tr="за кулисами; кулиса; закулисье"/>
+    <d v="backstage" p="adjective" ts="ˈbækˈsteɪʤ" tr="закулисный"/>
+    <d v="backstroke" p="noun" ts="ˈbækstrəʊk" tr="плавание на спине"/>
+    <d v="backtrack" p="verb" ts="ˈbæktræk" tr="отступить; отказываться; отступаться"/>
+    <d v="backup" p="adjective" ts="ˈbækʌp" tr="резервный"/>
+    <d v="backup" p="noun" ts="ˈbækʌp" tr="резервное копирование; архивация; резервирование; подпорка"/>
+    <d v="backward" p="adjective" ts="ˈbækwəd" tr="обратный; отсталый; замшелый; заскорузлый"/>
+    <d v="backward" p="adverb" ts="ˈbækwəd" tr="назад"/>
+    <d v="backward" p="participle" ts="ˈbækwəd" tr="отстающий"/>
+    <d v="backward" p="verb" ts="ˈbækwəd" tr="отставать"/>
+    <d v="backwards" p="adverb" ts="ˈbækwədz" tr="назад; наперед"/>
+    <d v="backwards" p="noun" ts="ˈbækwədz" tr="в обратном направлении"/>
+    <d v="backwoods" p="noun" ts="ˈbækwʊdz" tr="глушь; глубинка; лесная глушь"/>
+    <d v="backwoods" p="adjective" ts="ˈbækwʊdz" tr="провинциальный"/>
+    <d v="backyard" p="noun" ts="ˈbækjɑːd" tr="двор; задний двор"/>
+    <d v="backyard" p="adjective" ts="ˈbækjɑːd" tr="дворовый"/>
+    <d v="bacon" p="noun" ts="ˈbeɪkən" tr="бекон; сало; грудинка; копченая грудинка"/>
+    <d v="bad" p="adjective" ts="bæd"
+       tr="плохой; вредный; тяжелый; неудачный; неправильный; сбойный; недоброкачественный"/>
+    <d v="bad" p="noun" ts="bæd" tr="неудача"/>
+    <d v="bad" p="participle" ts="bæd" tr="испорченный"/>
+    <d v="badge" p="noun" ts="bæʤ" tr="значок; знак; нагрудный знак; бляха; кокарда"/>
+    <d v="badge" p="adjective" ts="bæʤ" tr="нагрудный"/>
+    <d v="badger" p="noun" ts="ˈbæʤə" tr="барсук"/>
+    <d v="badger" p="adjective" ts="ˈbæʤə" tr="барсучий"/>
+    <d v="badger" p="verb" ts="ˈbæʤə" tr="изводить; дразнить"/>
+    <d v="badlands" p="noun" ts="ˈbædlændz" tr="пустошь"/>
+    <d v="bad language" p="noun" ts="bæd ˈlæŋgwɪʤ" tr="ненормативная лексика"/>
+    <d v="badly" p="adverb" ts="ˈbædlɪ" tr="сильно; крайне; ужасно; остро; неудачно; скверно"/>
+    <d v="badminton" p="noun" ts="ˈbædmɪntən" tr="бадминтон"/>
+    <d v="baffle" p="noun" ts="bæfl" tr="перегородка; дефлектор; щит"/>
+    <d v="baffle" p="verb" ts="bæfl" tr="озадачить; сбить; расстраивать; мешать"/>
+    <d v="baffled" p="noun" ts="bæfld" tr="тупик"/>
+    <d v="baffled" p="participle" ts="bæfld" tr="озадаченный; сбитый"/>
+    <d v="baffling" p="adjective" ts="ˈbæflɪŋ" tr="загадочный"/>
+    <d v="baffling" p="participle" ts="ˈbæflɪŋ" tr="озадачивающий"/>
+    <d v="bag" p="noun" ts="bæg" tr="мешок; сумка; кошелек; рукав; баллон; добыча"/>
+    <d v="bag" p="adjective" ts="bæg" tr="рукавный"/>
+    <d v="bagel" p="noun" ts="bɪˈgʌl" tr="бублик; рогалик; баранка"/>
+    <d v="baggage" p="noun" ts="ˈbægɪʤ" tr="багаж; обоз; плутовка"/>
+    <d v="baggage" p="adjective" ts="ˈbægɪʤ" tr="багажный"/>
+    <d v="baggy" p="adjective" ts="ˈbægɪ" tr="мешковатый"/>
+    <d v="bagpipes" p="noun" ts="ˈbægpaɪps" tr="волынка"/>
+    <d v="bail" p="noun" ts="beɪl" tr="залог; порука; ручка"/>
+    <d v="bail" p="verb" ts="beɪl" tr="выручить; спасти; вычерпывать воду"/>
+    <d v="bailiff" p="noun" ts="ˈbeɪlɪf" tr="пристав; судебный пристав"/>
+    <d v="bait" p="noun" ts="beɪt" tr="приманка; прикормка"/>
+    <d v="bait" p="verb" ts="beɪt" tr="травить; завлекать; приманивать"/>
+    <d v="bake" p="verb" ts="beɪk" tr="испечь; выпечь; обжигать"/>
+    <d v="bake" p="noun" ts="beɪk" tr="печь; выпечка"/>
+    <d v="Baker" p="noun" ts="ˈbeɪkə" tr="Бейкер; пекарь; булочник"/>
+    <d v="bakery" p="noun" ts="ˈbeɪkərɪ" tr="пекарня; хлебобулочные изделия; выпечка; булочная"/>
+    <d v="bakery" p="adjective" ts="ˈbeɪkərɪ" tr="хлебобулочный"/>
+    <d v="balance" p="noun" ts="ˈbæləns" tr="баланс; весы; противовес; маятник"/>
+    <d v="balance" p="verb" ts="ˈbæləns" tr="сбалансировать; балансировать; уравновесить; сопоставлять; взвешивать"/>
+    <d v="balance" p="adjective" ts="ˈbæləns" tr="балансовый"/>
+    <d v="balance" p="participle" ts="ˈbæləns" tr="уравновешивающий"/>
+    <d v="balanced" p="adjective" ts="ˈbælənst" tr="уравновешенный; гармоничный; пропорциональный"/>
+    <d v="balanced" p="noun" ts="ˈbælənst" tr="равновесие"/>
+    <d v="balanced" p="adverb" ts="ˈbælənst" tr="взвешенно"/>
+    <d v="balanced" p="participle" ts="ˈbælənst" tr="сбалансированный; взвешенный"/>
+    <d v="balance of power" p="noun" ts="ˈbæləns ɔv ˈpaʊə"
+       tr="баланс сил; равновесие сил; баланс власти; соотношение сил"/>
+    <d v="balance sheet" p="noun" ts="ˈbæləns ʃiːt"
+       tr="баланс; бухгалтерский баланс; балансовый отчет; балансовая ведомость"/>
+    <d v="balcony" p="noun" ts="ˈbælkənɪ" tr="балкон; балкончик"/>
+    <d v="bald" p="adjective" ts="bɔːld" tr="лысый"/>
+    <d v="bald" p="noun" ts="bɔːld" tr="лысина; простой"/>
+    <d v="bald" p="verb" ts="bɔːld" tr="облысеть; лысеть"/>
+    <d v="bald" p="participle" ts="bɔːld" tr="облысевший; лысеющий"/>
+    <d v="bald eagle" p="noun" ts="bɔːld iːgl" tr="белоголовый орлан; лысый орел"/>
+    <d v="balding" p="participle" ts="ˈbɔːldɪŋ" tr="лысеющий"/>
+    <d v="balding" p="noun" ts="ˈbɔːldɪŋ" tr="облысение"/>
+    <d v="balding" p="adjective" ts="ˈbɔːldɪŋ" tr="лысый"/>
+    <d v="bale" p="noun" ts="beɪl" tr="тюк"/>
+    <d v="baleful" p="adjective" ts="ˈbeɪlfʊl" tr="зловещий; злобный"/>
+    <d v="balk" p="noun" ts="bɔːk" tr="брус"/>
+    <d v="balk" p="verb" ts="bɔːk" tr="препятствовать; упираться; отказываться; уклоняться; артачиться"/>
+    <d v="ball" p="noun" ts="bɔːl" tr="мяч; шар; клубок; комок; ядро; пуля; удар"/>
+    <d v="ball" p="adjective" ts="bɔːl" tr="шаровой; бальный"/>
+    <d v="ballad" p="noun" ts="ˈbæləd" tr="баллада"/>
+    <d v="ballerina" p="noun" ts="bæləˈriːnə" tr="балерина; балетки"/>
+    <d v="ballet" p="noun" ts="ˈbæleɪ" tr="балет"/>
+    <d v="ballet" p="adjective" ts="ˈbæleɪ" tr="балетный"/>
+    <d v="ball game" p="noun" ts="bɔːl geɪm" tr="игра с мячом; игра в мяч"/>
+    <d v="ballistic" p="adjective" ts="bəˈlɪstɪk" tr="баллистический"/>
+    <d v="ballistics" p="noun" ts="bəˈlɪstɪks" tr="баллистика"/>
+    <d v="ballistics" p="adjective" ts="bəˈlɪstɪks" tr="баллистический"/>
+    <d v="balloon" p="noun" ts="bəˈluːn" tr="шар; баллон; выноска; кружок"/>
+    <d v="ballot" p="noun" ts="ˈbælət" tr="голосование; баллотировочный шар"/>
+    <d v="ballot" p="verb" ts="ˈbælət" tr="голосовать"/>
+    <d v="ballpark" p="noun" ts="ˈbɔːlpɒk" tr="бейсбольный стадион"/>
+    <d v="ballpoint pen" p="noun" ts="ˈbɔːlpɔɪnt pen" tr="шариковая ручка"/>
+    <d v="ballroom" p="adjective" ts="ˈbɔːlruːm" tr="бальный"/>
+    <d v="ballroom" p="noun" ts="ˈbɔːlruːm" tr="бальный зал"/>
+    <d v="balls" p="noun" ts="bɔːlz" tr="бал; колобки"/>
+    <d v="balm" p="noun" ts="bɑːm" tr="бальзам; Мелисса"/>
+    <d v="balmy" p="adjective" ts="ˈbɑːmɪ" tr="теплый; бальзамический; целительный; глупый"/>
+    <d v="balmy" p="participle" ts="ˈbɑːmɪ" tr="благоухающий"/>
+    <d v="baloney" p="noun" ts="bəˈləʊnɪ" tr="ерунда; вздор"/>
+    <d v="bamboo" p="noun" ts="bæmˈbuː" tr="бамбук"/>
+    <d v="bamboo" p="adjective" ts="bæmˈbuː" tr="бамбуковый"/>
+    <d v="bamboozle" p="verb" ts="bæmˈbuːzl" tr="обманывать"/>
+    <d v="ban" p="noun" ts="bæn" tr="запрет; бан; Пан"/>
+    <d v="ban" p="verb" ts="bæn" tr="запретить; банить"/>
+    <d v="ban" p="participle" ts="bæn" tr="запрещающий"/>
+    <d v="banal" p="adjective" ts="bəˈnɑːl" tr="банальный"/>
+    <d v="banality" p="noun" ts="bəˈnælɪtɪ" tr="банальность"/>
+    <d v="banana" p="noun" ts="bəˈnɑːnə" tr="банан"/>
+    <d v="banana" p="adjective" ts="bəˈnɑːnə" tr="банановый"/>
+    <d v="band" p="noun" ts="bænd" tr="группа; диапазон; оркестр; обруч; стая; поясок; обод"/>
+    <d v="band" p="adjective" ts="bænd" tr="ленточный"/>
+    <d v="band" p="verb" ts="bænd" tr="собираться"/>
+    <d v="bandage" p="noun" ts="ˈbændɪʤ" tr="повязка; перевязочный материал"/>
+    <d v="bandage" p="verb" ts="ˈbændɪʤ" tr="перевязать"/>
+    <d v="bandage" p="adjective" ts="ˈbændɪʤ" tr="перевязочный"/>
+    <d v="bandanna" p="noun" ts="bænˈdænə" tr="платок; цветной платок"/>
+    <d v="bandit" p="noun" ts="ˈbændɪt" tr="бандит; бандформирование"/>
+    <d v="bandit" p="adjective" ts="ˈbændɪt" tr="бандитский"/>
+    <d v="bandstand" p="noun" ts="ˈbændstænd" tr="эстрада"/>
+    <d v="bandy" p="noun" ts="ˈbændɪ" tr="хоккей с мячом; бенди"/>
+    <d v="bandy" p="verb" ts="ˈbændɪ" tr="обсуждать"/>
+    <d v="Bane" p="noun" ts="beɪn" tr="проклятие; отрава"/>
+    <d v="bang" p="noun" ts="bæŋ" tr="взрыв; челка; удар; хлопок; треск; бум"/>
+    <d v="bang" p="verb" ts="bæŋ" tr="стучать; хлопнуть; ударить; биться; удариться"/>
+    <d v="bang" p="interjection" ts="bæŋ" tr="бац"/>
+    <d v="bangle" p="noun" ts="bæŋgl" tr="браслет"/>
+    <d v="banish" p="verb" ts="ˈbænɪʃ" tr="изгнать; выслать"/>
+    <d v="banish" p="noun" ts="ˈbænɪʃ" tr="изгнание"/>
+    <d v="banister" p="noun" ts="ˈbænɪstə" tr="перила"/>
+    <d v="banjo" p="noun" ts="ˈbænʤəʊ" tr="банджо"/>
+    <d v="bank" p="noun" ts="bæŋk" tr="банк; берег; крен; группа; вал; отмель; занос; сугроб"/>
+    <d v="bank" p="adjective" ts="bæŋk" tr="банковский"/>
+    <d v="banker" p="noun" ts="ˈbæŋkə" tr="банкир"/>
+    <d v="banking" p="adjective" ts="ˈbæŋkɪŋ" tr="банковский"/>
+    <d v="banking" p="noun" ts="ˈbæŋkɪŋ" tr="банкинг; банковое дело"/>
+    <d v="bankrupt" p="noun" ts="ˈbæŋkrʌpt" tr="банкрот; банкротство"/>
+    <d v="bankrupt" p="verb" ts="ˈbæŋkrʌpt" tr="обанкротиться; разорить"/>
+    <d v="bankrupt" p="participle" ts="ˈbæŋkrʌpt" tr="обанкротившийся; разорившийся"/>
+    <d v="bankrupt" p="adjective" ts="ˈbæŋkrʌpt" tr="несостоятельный"/>
+    <d v="bankruptcy" p="noun" ts="ˈbæŋkrəptsɪ" tr="банкротство"/>
+    <d v="bankruptcy" p="verb" ts="ˈbæŋkrəptsɪ" tr="обанкротиться"/>
+    <d v="banner" p="noun" ts="ˈbænə" tr="баннер; знамя; плакат"/>
+    <d v="banner" p="adjective" ts="ˈbænə" tr="образцовый"/>
+    <d v="Banquet" p="noun" ts="ˈbæŋkwɪt" tr="банкет; званый обед"/>
+    <d v="Banquet" p="verb" ts="ˈbæŋkwɪt" tr="пировать"/>
+    <d v="banter" p="noun" ts="ˈbæntə" tr="стеб; подшучивание"/>
+    <d v="banter" p="verb" ts="ˈbæntə"
+       tr="подшучивать; подтрунивать; подшутить; добродушно подшучивать; поддразнивать"/>
+    <d v="baptism" p="noun" ts="ˈbæptɪzm" tr="крещение"/>
+    <d v="baptismal" p="noun" ts="bæpˈtɪzməl" tr="крещение"/>
+    <d v="baptismal" p="adjective" ts="bæpˈtɪzməl" tr="крестильный"/>
+    <d v="Baptist" p="noun" ts="ˈbæptɪst" tr="баптист; Креститель"/>
+    <d v="Baptist" p="adjective" ts="ˈbæptɪst" tr="баптистский"/>
+    <d v="baptize" p="verb" ts="bæpˈtaɪz" tr="крестить"/>
+    <d v="baptize" p="noun" ts="bæpˈtaɪz" tr="крещение"/>
+    <d v="bar" p="noun" ts="bɑː"
+       tr="бар; сословие; полоса; строка; адвокатское сословие; стержень; слиток; батончик; такт; препятствие; засов; отмель; лом; Вага"/>
+    <d v="bar" p="adjective" ts="bɑː" tr="барный; штриховой"/>
+    <d v="bar" p="verb" ts="bɑː" tr="запрещать; преграждать; исключать; отстранять"/>
+    <d v="barbarian" p="noun" ts="bɑːˈbɛərɪən" tr="варвар; варварство"/>
+    <d v="barbarian" p="adjective" ts="bɑːˈbɛərɪən" tr="варварский"/>
+    <d v="barbaric" p="adjective" ts="bɑːˈbærɪk" tr="варварский"/>
+    <d v="barbaric" p="noun" ts="bɑːˈbærɪk" tr="варварство; варвар"/>
+    <d v="barbarism" p="noun" ts="ˈbɑːbərɪzm" tr="варварство; варваризм"/>
+    <d v="barbarism" p="adjective" ts="ˈbɑːbərɪzm" tr="варварский"/>
+    <d v="barbecue" p="noun" ts="ˈbɑːbɪkjuː" tr="барбекю"/>
+    <d v="barbed wire" p="noun" ts="bɑːbd ˈwaɪə" tr="колючая проволока"/>
+    <d v="barbell" p="noun" ts="ˈbɑːbel" tr="штанга"/>
+    <d v="Barber" p="noun" ts="ˈbɑːbə" tr="парикмахер; цирюльник"/>
+    <d v="barbiturate" p="noun" ts="bɑːˈbɪtjuːrɪt" tr="барбитурат"/>
+    <d v="bar code" p="noun" ts="bɑː kəʊd" tr="штриховой код; штрихкод"/>
+    <d v="bare" p="adjective" ts="bɛə" tr="голый; пустой; неизолированный; бедный"/>
+    <d v="bare" p="verb" ts="bɛə" tr="обнажить; оголять; раскрывать"/>
+    <d v="bare" p="participle" ts="bɛə" tr="обнаженный"/>
+    <d v="barefoot" p="adverb" ts="ˈbɛəfʊt" tr="босиком"/>
+    <d v="barefoot" p="adjective" ts="ˈbɛəfʊt" tr="босой"/>
+    <d v="barely" p="adverb" ts="ˈbɛəlɪ" tr="едва; открыто"/>
+    <d v="barely" p="particle" ts="ˈbɛəlɪ" tr="только; просто"/>
+    <d v="barely" p="noun" ts="ˈbɛəlɪ" tr="с трудом"/>
+    <d v="bargain" p="noun" ts="ˈbɑːgɪn" tr="сделка; выгодная сделка; выгодная покупка; уговор"/>
+    <d v="bargain" p="verb" ts="ˈbɑːgɪn" tr="торговаться; договариваться; выторговать"/>
+    <d v="bargaining chip" p="noun" ts="ˈbɑːgɪnɪŋ ʧɪp" tr="козырь; разменная монета; Козырная карта"/>
+    <d v="barge" p="noun" ts="bɑːʤ" tr="баржа; Барка"/>
+    <d v="barge" p="verb" ts="bɑːʤ" tr="врываться"/>
+    <d v="baritone" p="noun" ts="ˈbærɪtəʊn" tr="баритон"/>
+    <d v="bark" p="noun" ts="bɑːk" tr="кора; лай; барк"/>
+    <d v="bark" p="verb" ts="bɑːk" tr="лаять; рявкать"/>
+    <d v="bark" p="participle" ts="bɑːk" tr="лающий"/>
+    <d v="barley" p="noun" ts="ˈbɑːlɪ" tr="ячмень"/>
+    <d v="barley" p="adjective" ts="ˈbɑːlɪ" tr="ячменный"/>
+    <d v="barn" p="noun" ts="bɑːn" tr="сарай; амбар"/>
+    <d v="barn" p="adjective" ts="bɑːn" tr="амбарный"/>
+    <d v="barnacle" p="noun" ts="ˈbɑːnəkl" tr="ракушка; кляп"/>
+    <d v="barnyard" p="noun" ts="ˈbɑːnjɑːd" tr="скотный двор"/>
+    <d v="barometer" p="noun" ts="bəˈrɔmɪtə" tr="барометр"/>
+    <d v="baron" p="noun" ts="ˈbærən" tr="барон; магнат"/>
+    <d v="barrage" p="noun" ts="ˈbærɑːʒ" tr="заграждение; шквал; заградительный огонь; барраж; огневой вал"/>
+    <d v="barrage" p="adjective" ts="ˈbærɑːʒ" tr="заградительный"/>
+    <d v="barrel" p="noun" ts="ˈbærəl" tr="баррель; бочка; ствол; вал"/>
+    <d v="barren" p="adjective" ts="ˈbærən" tr="бесплодный; бедный; скучный"/>
+    <d v="barren" p="noun" ts="ˈbærən" tr="пустошь; бесплодие"/>
+    <d v="barricade" p="noun" ts="bærɪˈkeɪd" tr="баррикада; заграждение"/>
+    <d v="barricade" p="verb" ts="bærɪˈkeɪd" tr="забаррикадироваться; забаррикадировать; баррикадировать"/>
+    <d v="barrier" p="noun" ts="ˈbærɪə" tr="барьер; препятствие; ограждение; шлагбаум; перегородка"/>
+    <d v="barrier" p="adjective" ts="ˈbærɪə" tr="барьерный"/>
+    <d v="barring" p="noun" ts="ˈbɑːrɪŋ" tr="запрет"/>
+    <d v="bartender" p="noun" ts="ˈbɑːtendə" tr="бармен"/>
+    <d v="barter" p="noun" ts="ˈbɑːtə" tr="бартер; товарообмен; мена; меновая торговля"/>
+    <d v="barter" p="adjective" ts="ˈbɑːtə" tr="бартерный"/>
+    <d v="barter" p="verb" ts="ˈbɑːtə" tr="обменять; выменять; выменивать; торговаться"/>
+    <d v="base" p="noun" ts="beɪs" tr="база; фундамент; плацдарм; цоколь"/>
+    <d v="base" p="adjective" ts="beɪs" tr="базовый; низменный; низкий; подлый; простой"/>
+    <d v="base" p="participle" ts="beɪs" tr="основанный"/>
+    <d v="base" p="verb" ts="beɪs" tr="основывать"/>
+    <d v="base" p="adverbial participle" ts="beɪs" tr="судя"/>
+    <d v="baseball" p="noun" ts="ˈbeɪsbɔːl" tr="бейсбол"/>
+    <d v="baseball" p="adjective" ts="ˈbeɪsbɔːl" tr="бейсбольный"/>
+    <d v="basement" p="noun" ts="ˈbeɪsmənt" tr="подвал; фундамент"/>
+    <d v="basement" p="adjective" ts="ˈbeɪsmənt" tr="подвальный"/>
+    <d v="bases" p="noun" ts="ˈbeɪsiːz" tr="основы"/>
+    <d v="bash" p="noun" ts="bæʃ" tr="баш; удар; раут"/>
+    <d v="bash" p="verb" ts="bæʃ" tr="бить"/>
+    <d v="bashful" p="adjective" ts="ˈbæʃfʊl" tr="застенчивый"/>
+    <d v="bashing" p="noun" ts="ˈbæʃɪŋ" tr="трепка; порка"/>
+    <d v="basic" p="adjective" ts="ˈbeɪsɪk" tr="основный"/>
+    <d v="basically" p="noun" ts="ˈbeɪsɪkəlɪ" tr="в основном; в своей основе; в основе"/>
+    <d v="basically" p="adverb" ts="ˈbeɪsɪkəlɪ" tr="вообще"/>
+    <d v="basics" p="noun" ts="ˈbeɪsɪks" tr="основы; основные сведения"/>
+    <d v="basin" p="noun" ts="beɪsn" tr="бассейн; тазик; таз; раковина; умывальница"/>
+    <d v="basin" p="adjective" ts="beɪsn" tr="бассейновый"/>
+    <d v="basis" p="noun" ts="ˈbeɪsɪs" tr="основа"/>
+    <d v="bask" p="verb" ts="bɑːsk" tr="погреться; наслаждаться; нежиться"/>
+    <d v="bask" p="noun" ts="bɑːsk" tr="Баск"/>
+    <d v="basket" p="noun" ts="ˈbɑːskɪt" tr="корзина; кузов; лукошко"/>
+    <d v="basketball" p="noun" ts="ˈbɑːskɪtbɔːl" tr="баскетбол"/>
+    <d v="basketball" p="adjective" ts="ˈbɑːskɪtbɔːl" tr="баскетбольный"/>
+    <d v="bass" p="noun" ts="bæs" tr="бас; окунь"/>
+    <d v="bass" p="adjective" ts="bæs" tr="басовый; низкий"/>
+    <d v="bass guitar" p="noun" ts="bæs gɪˈtɑː" tr="басовая гитара; Басс-гитара"/>
+    <d v="bassoon" p="noun" ts="bəˈsuːn" tr="фагот"/>
+    <d v="bastard" p="noun" ts="ˈbæstəd" tr="ублюдок; сволочь; мерзавец; гад; урод; гибрид"/>
+    <d v="bastard" p="adjective" ts="ˈbæstəd" tr="незаконнорожденный"/>
+    <d v="bat" p="noun" ts="bæt"
+       tr="летучая мышь; НДТ; бат; бита; мышь; НИТ; нетопырь; ракетка; НДТМ; гулянка; дубина"/>
+    <d v="bat" p="adjective" ts="bæt" tr="летучий"/>
+    <d v="batch" p="noun" ts="bæʧ" tr="партия; пакет; выпечка; порция; шихта; замес; дозирование"/>
+    <d v="batch" p="adjective" ts="bæʧ" tr="пакетный; серийный; дозировочный"/>
+    <d v="batch" p="verb" ts="bæʧ" tr="дозировать"/>
+    <d v="bath" p="noun" ts="bɑːθ" tr="ванна; банька"/>
+    <d v="bath" p="adverbial participle" ts="bɑːθ" tr="баня"/>
+    <d v="bath" p="adjective" ts="bɑːθ" tr="ванный"/>
+    <d v="bath" p="verb" ts="bɑːθ" tr="купаться"/>
+    <d v="bathe" p="verb" ts="beɪð" tr="купаться; купать; искупать; омывать; выкупаться; заливать; принимать ванну"/>
+    <d v="bathe" p="noun" ts="beɪð" tr="купание"/>
+    <d v="bathing suit" p="noun" ts="ˈbeɪðɪŋ sjuːt" tr="купальник"/>
+    <d v="Bathrobe" p="noun" ts="ˈbɑːθrəʊb" tr="банный халат"/>
+    <d v="bathroom" p="adjective" ts="ˈbɑːθruːm" tr="ванный"/>
+    <d v="bathroom" p="noun" ts="ˈbɑːθruːm" tr="ванная"/>
+    <d v="bathtub" p="noun" ts="ˈbɑːθtʌb" tr="ванная"/>
+    <d v="baton" p="noun" ts="ˈbætən" tr="дубинка; эстафета; батон; эстафетная палочка"/>
+    <d v="battalion" p="noun" ts="bəˈtæljən" tr="батальон"/>
+    <d v="battalion" p="adjective" ts="bəˈtæljən" tr="батальонный"/>
+    <d v="batter" p="noun" ts="ˈbætə" tr="тесто"/>
+    <d v="batter" p="verb" ts="ˈbætə" tr="колотить; долбить; громить; сильно бить"/>
+    <d v="battered" p="participle" ts="ˈbætəd" tr="потрепанный; избитый; побитый; изношенный"/>
+    <d v="battery" p="noun" ts="ˈbætərɪ" tr="батарея; побои; дивизион"/>
+    <d v="battery" p="adjective" ts="ˈbætərɪ" tr="батарейный"/>
+    <d v="battle" p="noun" ts="bætl" tr="битва"/>
+    <d v="battle" p="adjective" ts="bætl" tr="боевой"/>
+    <d v="battle" p="verb" ts="bætl" tr="сражаться"/>
+    <d v="battlefield" p="noun" ts="ˈbætlfiːld" tr="поле боя; поле брани"/>
+    <d v="battleground" p="noun" ts="ˈbætlgraʊnd" tr="битва"/>
+    <d v="battleship" p="noun" ts="ˈbætlʃɪp" tr="линкор; линейный корабль; морской бой"/>
+    <d v="bawdy" p="adjective" ts="ˈbɔːdɪ" tr="непристойный; похабный"/>
+    <d v="bawl" p="verb" ts="bɔːl" tr="орать"/>
+    <d v="bay" p="noun" ts="beɪ" tr="бухта; Бэй; эркер; пролет; ниша; Лавр; лай"/>
+    <d v="bay" p="adverbial participle" ts="beɪ" tr="залив"/>
+    <d v="bay" p="adjective" ts="beɪ" tr="лавровый; гнедой"/>
+    <d v="bay" p="verb" ts="beɪ" tr="лаять; преследовать"/>
+    <d v="bayonet" p="noun" ts="ˈbeɪənɪt" tr="штык"/>
+    <d v="bayonet" p="adjective" ts="ˈbeɪənɪt" tr="байонетный; штыковой"/>
+    <d v="bayou" p="noun" ts="ˈbaɪuː" tr="заболоченный рукав реки"/>
+    <d v="bay window" p="noun" ts="ˈbeɪˈwɪndəʊ" tr="эркер"/>
+    <d v="bazaar" p="noun" ts="bəˈzɑː" tr="базар"/>
+    <d v="bazaar" p="adjective" ts="bəˈzɑː" tr="базарный"/>
+    <d v="be" p="verb" ts="biː" tr="быть; являться; происходить; служить; нести; оказываться"/>
+    <d v="beach" p="noun" ts="biːʧ" tr="пляж; Бич; отлогий морской берег; взморье; отмель"/>
+    <d v="beach" p="adjective" ts="biːʧ" tr="пляжный"/>
+    <d v="beacon" p="noun" ts="ˈbiːkən" tr="маяк; радиомаяк; маячок; буй; светоч; сигнальный огонь"/>
+    <d v="bead" p="noun" ts="biːd" tr="бисер; шарик; борт; мушка; буртик"/>
+    <d v="bead" p="adjective" ts="biːd" tr="бисерный"/>
+    <d v="bead" p="verb" ts="biːd" tr="нанизывать"/>
+    <d v="beagle" p="noun" ts="biːgl" tr="Бигль; гончая"/>
+    <d v="beak" p="noun" ts="biːk" tr="клюв"/>
+    <d v="beaker" p="noun" ts="ˈbiːkə" tr="стакан; химический стакан; лабораторный стакан"/>
+    <d v="beam" p="noun" ts="biːm" tr="луч; балка; брус; ширина; бимс; балансир; коромысло; траверз; сияние"/>
+    <d v="beam" p="adjective" ts="biːm" tr="лучевой; балочный"/>
+    <d v="beam" p="verb" ts="biːm" tr="сиять"/>
+    <d v="bean" p="noun" ts="biːn" tr="боб; компонента"/>
+    <d v="bean" p="adjective" ts="biːn" tr="бобовый"/>
+    <d v="bear" p="verb" ts="bɛə"
+       tr="нести; родить; вынести; выдержать; терпеть; вынашивать; держаться; питать; производить"/>
+    <d v="bear" p="noun" ts="bɛə" tr="медведь; мишка"/>
+    <d v="bear" p="adjective" ts="bɛə" tr="медвежий"/>
+    <d v="bearable" p="adjective" ts="ˈbɛərəbl" tr="терпимый"/>
+    <d v="beard" p="noun" ts="bɪəd" tr="борода; ость"/>
+    <d v="beard" p="adjective" ts="bɪəd" tr="бородатый"/>
+    <d v="bearded" p="adjective" ts="ˈbɪədɪd" tr="бородатый"/>
+    <d v="bearer" p="noun" ts="ˈbɛərə" tr="предъявитель; носитель; налогоплательщик; податель; носительница; опора"/>
+    <d v="bearing" p="noun" ts="ˈbɛərɪŋ"
+       tr="подшипник; отношение; осанка; ношение; пеленг; азимут; рождение; плодоношение; терпение"/>
+    <d v="bearing" p="adjective" ts="ˈbɛərɪŋ" tr="подшипниковый"/>
+    <d v="bearing" p="participle" ts="ˈbɛərɪŋ" tr="несущий; носящий"/>
+    <d v="bear market" p="noun" ts="bɛə ˈmɑːkɪt" tr="медвежий рынок"/>
+    <d v="beast" p="noun" ts="biːst" tr="зверь; чудовище; хищник; зверюга; бестия"/>
+    <d v="beast" p="adjective" ts="biːst" tr="звериный"/>
+    <d v="beat" p="verb" ts="biːt"
+       tr="бить; победить; выбить; превзойти; опередить; взбить; забиться; толочь; обходить; хлестать; выколачивать"/>
+    <d v="beat" p="noun" ts="biːt" tr="удар; ритм; биение; битник; обход; бой"/>
+    <d v="beaten" p="participle" ts="biːtn" tr="избитый; побитый; выбитый; побежденный; избиваемый; измученный"/>
+    <d v="beaten" p="noun" ts="biːtn" tr="избиение"/>
+    <d v="beater" p="noun" ts="ˈbiːtə" tr="загонщик; колотушка; венчик; било; битер; трепало"/>
+    <d v="beating" p="noun" ts="ˈbiːtɪŋ" tr="избиение; биение; поражение; взбивание"/>
+    <d v="beating" p="participle" ts="ˈbiːtɪŋ" tr="бьющийся; бьющий; избивающий; избивший"/>
+    <d v="beautician" p="noun" ts="bjuːˈtɪʃn" tr="косметичка"/>
+    <d v="beautiful" p="adjective" ts="ˈbjuːtəfʊl" tr="красивый"/>
+    <d v="beautiful" p="noun" ts="ˈbjuːtəfʊl" tr="красавица; красавец"/>
+    <d v="beautifully" p="adverb" ts="ˈbjuːtəfəlɪ" tr="красиво; прекрасно"/>
+    <d v="beautifully" p="adjective" ts="ˈbjuːtəfəlɪ" tr="красивый"/>
+    <d v="beauty" p="noun" ts="ˈbjuːtɪ" tr="красота; красавица; косметика"/>
+    <d v="beauty" p="adjective" ts="ˈbjuːtɪ" tr="косметический"/>
+    <d v="beauty parlor" p="noun" ts="ˈbjuːtɪ ˈpɑːlə" tr="косметический кабинет"/>
+    <d v="beaver" p="noun" ts="ˈbiːvə" tr="бобр; Бобров; Бивер; бородач"/>
+    <d v="beaver" p="adjective" ts="ˈbiːvə" tr="бобровый"/>
+    <d v="because" p="adverb" ts="bɪˈkɔz" tr="потому"/>
+    <d v="because" p="conjunction" ts="bɪˈkɔz" tr="поскольку"/>
+    <d v="because" p="particle" ts="bɪˈkɔz" tr="так"/>
+    <d v="because of" p="noun" ts="bɪˈkɔz ɔv"
+       tr="сила; связи с; по причине; в силу; в связи; в связи с; ввиду наличия"/>
+    <d v="because of" p="preposition" ts="bɪˈkɔz ɔv" tr="благодаря"/>
+    <d v="because of" p="conjunction" ts="bɪˈkɔz ɔv" tr="потому что"/>
+    <d v="beckon" p="verb" ts="ˈbekən" tr="манить; поманить; кивать"/>
+    <d v="become" p="verb" ts="bɪˈkʌm" tr="стать; случаться"/>
+    <d v="become" p="participle" ts="bɪˈkʌm" tr="ставший"/>
+    <d v="becoming" p="noun" ts="bɪˈkʌmɪŋ" tr="становление"/>
+    <d v="becoming" p="participle" ts="bɪˈkʌmɪŋ" tr="ставший; приличествующий; становящийся"/>
+    <d v="becoming" p="adjective" ts="bɪˈkʌmɪŋ" tr="подобающий"/>
+    <d v="bed" p="noun" ts="bed" tr="кровать; русло; пласт; клумба; станина; одр; полотно"/>
+    <d v="bed" p="verb" ts="bed" tr="спать"/>
+    <d v="bedbug" p="noun" ts="ˈbedbʌg" tr="клоп"/>
+    <d v="bedclothes" p="adjective" ts="ˈbedkləʊðz" tr="постельный"/>
+    <d v="bedclothes" p="noun" ts="ˈbedkləʊðz" tr="постельное белье"/>
+    <d v="bedding" p="adjective" ts="ˈbedɪŋ" tr="постельный"/>
+    <d v="bedding" p="noun" ts="ˈbedɪŋ" tr="подстилка; основание; наслоение; напластование"/>
+    <d v="bedlam" p="noun" ts="ˈbedləm" tr="бедлам; гвалт"/>
+    <d v="bedpan" p="noun" ts="ˈbedpæn" tr="подкладное судно"/>
+    <d v="bedridden" p="participle" ts="ˈbedrɪdn" tr="прикованный; прикованный к постели"/>
+    <d v="bedridden" p="adjective" ts="ˈbedrɪdn" tr="лежачий"/>
+    <d v="bedroom" p="noun" ts="ˈbedrʊm" tr="спальня"/>
+    <d v="bedside" p="adjective" ts="ˈbedsaɪd" tr="прикроватный"/>
+    <d v="bedside" p="noun" ts="ˈbedsaɪd" tr="постель"/>
+    <d v="bedspread" p="noun" ts="ˈbedspred" tr="покрывало; постельное покрывало"/>
+    <d v="bedtime" p="noun" ts="ˈbedtaɪm" tr="сон; время сна; отход ко сну"/>
+    <d v="bedtime" p="verb" ts="ˈbedtaɪm" tr="спать"/>
+    <d v="bee" p="noun" ts="biː" tr="пчела; пчеловодство"/>
+    <d v="bee" p="adjective" ts="biː" tr="пчелиный"/>
+    <d v="beech" p="noun" ts="biːʧ" tr="бук"/>
+    <d v="beech" p="adjective" ts="biːʧ" tr="буковый"/>
+    <d v="beef" p="noun" ts="biːf" tr="говядина; мясо; туша"/>
+    <d v="beef" p="adjective" ts="biːf" tr="говяжий"/>
+    <d v="beef" p="verb" ts="biːf" tr="жаловаться"/>
+    <d v="beefy" p="adjective" ts="ˈbiːfɪ" tr="мясистый; мускулистый"/>
+    <d v="beehive" p="noun" ts="ˈbiːhaɪv" tr="улей; пчелиный улей"/>
+    <d v="beep" p="noun" ts="biːp" tr="гудок; телеметрический сигнал"/>
+    <d v="beep" p="verb" ts="biːp" tr="пищать"/>
+    <d v="beeper" p="noun" ts="ˈbiːpər" tr="бипер"/>
+    <d v="beer" p="noun" ts="bɪə" tr="пиво"/>
+    <d v="beer" p="adjective" ts="bɪə" tr="пивной"/>
+    <d v="beeswax" p="noun" ts="ˈbiːzwæks" tr="пчелиный воск; воск"/>
+    <d v="beeswax" p="adjective" ts="ˈbiːzwæks" tr="пчелиный"/>
+    <d v="beeswax" p="verb" ts="ˈbiːzwæks" tr="натирать воском"/>
+    <d v="beet" p="noun" ts="biːt" tr="свекла"/>
+    <d v="beet" p="adjective" ts="biːt" tr="свекольный"/>
+    <d v="beetle" p="noun" ts="biːtl" tr="жук; листоед; таракан; баба"/>
+    <d v="befall" p="verb" ts="bɪˈfɔːl" tr="случиться; постигнуть"/>
+    <d v="befit" p="verb" ts="bɪˈfɪt" tr="подходить"/>
+    <d v="befitting" p="participle" ts="bɪˈfɪtɪŋ" tr="приличествующий"/>
+    <d v="before" p="preposition" ts="bɪˈfɔː" tr="до; пред; передо; впереди"/>
+    <d v="before" p="adverb" ts="bɪˈfɔː" tr="прежде; раньше; выше"/>
+    <d v="before" p="noun" ts="bɪˈfɔː" tr="перед тем; перед лицом; в присутствии"/>
+    <d v="beforehand" p="adverb" ts="bɪˈfɔːhænd" tr="заранее; преждевременно"/>
+    <d v="befriend" p="verb" ts="bɪˈfrend" tr="подружиться; помогать"/>
+    <d v="beg" p="verb" ts="beg"
+       tr="просить; умолять; выпрашивать; попрошайничать; вымолить; выпросить; клянчить; уговаривать; нищенствовать; выклянчивать"/>
+    <d v="beg" p="noun" ts="beg" tr="попрошайничество"/>
+    <d v="beggar" p="adjective" ts="ˈbegə" tr="нищий"/>
+    <d v="beggar" p="noun" ts="ˈbegə" tr="попрошайка; бедняк"/>
+    <d v="begin" p="verb" ts="bɪˈgɪn" tr="начать; приступить"/>
+    <d v="beginner" p="noun" ts="bɪˈgɪnə" tr="начинающий; новичок"/>
+    <d v="beginner" p="adjective" ts="bɪˈgɪnə" tr="начальный"/>
+    <d v="beginning" p="noun" ts="bɪˈgɪnɪŋ" tr="начало; начинание; происхождение"/>
+    <d v="beginning" p="adverbial participle" ts="bɪˈgɪnɪŋ" tr="начиная; начинаясь"/>
+    <d v="beginning" p="participle" ts="bɪˈgɪnɪŋ" tr="начинающий"/>
+    <d v="beginning" p="adjective" ts="bɪˈgɪnɪŋ" tr="начальный"/>
+    <d v="begrudge" p="verb" ts="bɪˈgrʌʤ" tr="завидовать; жалеть"/>
+    <d v="beguile" p="verb" ts="bɪˈgaɪl" tr="обольстить; развлекать"/>
+    <d v="begun" p="participle" ts="bɪˈgʌn" tr="начатый"/>
+    <d v="behalf" p="noun" ts="bɪˈhɑːf" tr="имя"/>
+    <d v="behave" p="verb" ts="bɪˈheɪv" tr="вести; вести себя; поступать; работать; действовать так"/>
+    <d v="behave" p="noun" ts="bɪˈheɪv" tr="поведение"/>
+    <d v="behavior" p="noun" ts="bɪˈheɪvɪər" tr="поведение"/>
+    <d v="behavior" p="adjective" ts="bɪˈheɪvɪər" tr="поведенческий"/>
+    <d v="behead" p="verb" ts="bɪˈhed" tr="обезглавить"/>
+    <d v="behind" p="preposition" ts="bɪˈhaɪnd" tr="за; позади; после"/>
+    <d v="behind" p="adverb" ts="bɪˈhaɪnd" tr="сзади; ниже"/>
+    <d v="behind" p="verb" ts="bɪˈhaɪnd" tr="отставать"/>
+    <d v="behold" p="verb" ts="bɪˈhəʊld" tr="увидеть; смотреть; зреть"/>
+    <d v="beholder" p="noun" ts="bɪˈhəʊldə" tr="зритель; очевидец"/>
+    <d v="beige" p="adjective" ts="beɪʒ" tr="бежевый"/>
+    <d v="being" p="noun" ts="ˈbiːɪŋ" tr="существо; бытие; нахождение"/>
+    <d v="being" p="participle" ts="ˈbiːɪŋ" tr="находящийся; бывший; существующий"/>
+    <d v="being" p="adjective" ts="ˈbiːɪŋ" tr="настоящий"/>
+    <d v="belated" p="adjective" ts="bɪˈleɪtɪd" tr="запоздалый"/>
+    <d v="belated" p="adverb" ts="bɪˈleɪtɪd" tr="запоздало"/>
+    <d v="belated" p="participle" ts="bɪˈleɪtɪd" tr="застигнутый ночью"/>
+    <d v="belatedly" p="noun" ts="bɪˈleɪtɪdlɪ" tr="опоздание; с опозданием"/>
+    <d v="belatedly" p="adverb" ts="bɪˈleɪtɪdlɪ" tr="запоздало"/>
+    <d v="belch" p="noun" ts="belʧ" tr="отрыжка; белч"/>
+    <d v="belch" p="verb" ts="belʧ" tr="изрыгать; рыгать; отрыгивать; отрыгнуть"/>
+    <d v="belie" p="verb" ts="bɪˈlaɪ" tr="противоречить; оклеветать"/>
+    <d v="belief" p="noun" ts="bɪˈliːf" tr="вера; убеждение; уверенность"/>
+    <d v="belief" p="verb" ts="bɪˈliːf" tr="верить"/>
+    <d v="believable" p="adjective" ts="bɪˈliːvəbl" tr="правдоподобный"/>
+    <d v="believe" p="verb" ts="bɪˈliːv" tr="верить"/>
+    <d v="believer" p="noun" ts="bɪˈliːvə" tr="верующий; верующий человек; сторонник"/>
+    <d v="belittle" p="verb" ts="bɪˈlɪtl" tr="принижать; умалять; преуменьшать"/>
+    <d v="belittle" p="noun" ts="bɪˈlɪtl" tr="принижение"/>
+    <d v="bell" p="noun" ts="bel" tr="колокол; колокольня; Белл; раструб; бубенчик; бубенец; рында; конус"/>
+    <d v="bell" p="adjective" ts="bel" tr="колокольный; колоколообразный"/>
+    <d v="belligerence" p="noun" ts="bɪˈlɪʤərəns" tr="воинственность"/>
+    <d v="bellow" p="noun" ts="ˈbeləʊ" tr="Беллоу; мех; вопль; мычание"/>
+    <d v="bellow" p="adjective" ts="ˈbeləʊ" tr="сильфонный"/>
+    <d v="bellow" p="verb" ts="ˈbeləʊ" tr="взреветь; реветь; мычать"/>
+    <d v="bell pepper" p="noun" ts="bel ˈpepə" tr="сладкий перец; перец колокола"/>
+    <d v="belly" p="noun" ts="ˈbelɪ" tr="живот; чрево; животик; грудина; нутро"/>
+    <d v="belly" p="adjective" ts="ˈbelɪ" tr="брюшной"/>
+    <d v="belly" p="verb" ts="ˈbelɪ" tr="надувать"/>
+    <d v="belong" p="verb" ts="bɪˈlɔŋ" tr="принадлежать"/>
+    <d v="belong" p="noun" ts="bɪˈlɔŋ" tr="принадлежность"/>
+    <d v="belongings" p="noun" ts="bɪˈlɒŋɪŋz" tr="имущество"/>
+    <d v="beloved" p="participle" ts="bɪˈlʌvd" tr="любимый; обожаемый; полюбившийся"/>
+    <d v="beloved" p="noun" ts="bɪˈlʌvd" tr="возлюбленный; любимая девушка"/>
+    <d v="beloved" p="adjective" ts="bɪˈlʌvd" tr="ненаглядный"/>
+    <d v="below" p="adverb" ts="bɪˈləʊ" tr="ниже; внизу; пониже"/>
+    <d v="below" p="preposition" ts="bɪˈləʊ" tr="под"/>
+    <d v="below" p="adjective" ts="bɪˈləʊ" tr="нижеприведенный"/>
+    <d v="belt" p="noun" ts="belt" tr="пояс; лесополоса; облом"/>
+    <d v="belt" p="adjective" ts="belt" tr="ленточный; ременный; поясной"/>
+    <d v="belt" p="verb" ts="belt" tr="подпоясывать"/>
+    <d v="beltway" p="adjective" ts="ˈbeltweɪ" tr="кольцевой"/>
+    <d v="beltway" p="noun" ts="ˈbeltweɪ" tr="кольцевая автодорога"/>
+    <d v="bemused" p="participle" ts="bɪˈmjuːzd" tr="ошеломленный"/>
+    <d v="bench" p="noun" ts="benʧ" tr="скамейка; стенд; станок; уступ; место; банка; суд; лежанка"/>
+    <d v="bench" p="adjective" ts="benʧ" tr="стендовый; слесарный"/>
+    <d v="benchmark" p="noun" ts="ˈbenʧmɑːk" tr="ориентир; тест; точка отсчета; отметка уровня; исходный пункт"/>
+    <d v="benchmark" p="adjective" ts="ˈbenʧmɑːk" tr="контрольный"/>
+    <d v="bend" p="verb" ts="bend"
+       tr="согнуть; наклониться; наклонять; изгибаться; изгибать; нагибаться; загнуть; направлять; покорять"/>
+    <d v="bend" p="noun" ts="bend" tr="изгиб; поворот; колено; отвод"/>
+    <d v="beneath" p="preposition" ts="bɪˈniːθ" tr="под"/>
+    <d v="beneath" p="adverb" ts="bɪˈniːθ" tr="внизу; ниже"/>
+    <d v="benediction" p="noun" ts="benɪˈdɪkʃn" tr="благословение"/>
+    <d v="benefactor" p="noun" ts="ˈbenɪfæktə" tr="благодетель; благотворитель; благодетельница"/>
+    <d v="beneficial" p="adjective" ts="benɪˈfɪʃəl"
+       tr="выгодный; полезный; взаимовыгодный; бенефициарный; благодетельный"/>
+    <d v="beneficial" p="verb" ts="benɪˈfɪʃəl" tr="приносить пользу"/>
+    <d v="beneficiary" p="noun" ts="benɪˈfɪʃərɪ" tr="бенефициар; бенефициант; лицо"/>
+    <d v="benefit" p="noun" ts="ˈbenɪfɪt" tr="выгода; пособие"/>
+    <d v="benefit" p="verb" ts="ˈbenɪfɪt" tr="выиграть; помочь"/>
+    <d v="benevolence" p="noun" ts="bɪˈnevələns" tr="доброта; доброжелательность; доброжелательство"/>
+    <d v="benevolence" p="adjective" ts="bɪˈnevələns" tr="доброжелательный"/>
+    <d v="benevolent" p="adjective" ts="bɪˈnevələnt"
+       tr="доброжелательный; благотворительный; милосердный; добрый; великодушный"/>
+    <d v="benign" p="adjective" ts="bɪˈnaɪn" tr="доброкачественный; благоприятный; добрый; безвредный"/>
+    <d v="bent" p="adjective" ts="bent" tr="согнутый"/>
+    <d v="bent" p="noun" ts="bent" tr="наклонность; Бент; изгиб; полевица"/>
+    <d v="bent" p="adverbial participle" ts="bent" tr="склонившись; изгибаясь; наклонив; склонив"/>
+    <d v="bent" p="participle" ts="bent" tr="загнутый; склонившийся"/>
+    <d v="bequeath" p="verb" ts="bɪˈkwiːð" tr="завещать"/>
+    <d v="bequest" p="noun" ts="bɪˈkwest" tr="завещание"/>
+    <d v="berate" p="verb" ts="bɪˈreɪt" tr="ругать; выругать"/>
+    <d v="bereavement" p="noun" ts="bɪˈriːvmənt" tr="утрата; тяжелая утрата"/>
+    <d v="bereft" p="verb" ts="bɪˈreft" tr="лишиться"/>
+    <d v="bereft" p="participle" ts="bɪˈreft" tr="лишившийся"/>
+    <d v="beret" p="noun" ts="ˈbereɪ" tr="берет"/>
+    <d v="berry" p="noun" ts="ˈberɪ" tr="ягода; Берри; ягодка; зерно"/>
+    <d v="berry" p="adjective" ts="ˈberɪ" tr="ягодный"/>
+    <d v="berth" p="noun" ts="bɜːθ" tr="причал; спальное место; место"/>
+    <d v="berth" p="adjective" ts="bɜːθ" tr="причальный"/>
+    <d v="beset" p="verb" ts="bɪˈset" tr="окружить; осаждать"/>
+    <d v="beset" p="participle" ts="bɪˈset" tr="окруженный"/>
+    <d v="beside" p="adverb" ts="bɪˈsaɪd" tr="рядом"/>
+    <d v="beside" p="preposition" ts="bɪˈsaɪd" tr="у; кроме; возле; помимо; мимо"/>
+    <d v="beside" p="noun" ts="bɪˈsaɪd" tr="рядом с; по сравнению с"/>
+    <d v="besides" p="preposition" ts="bɪˈsaɪdz" tr="кроме; помимо"/>
+    <d v="besides" p="noun" ts="bɪˈsaɪdz" tr="кроме того"/>
+    <d v="besides" p="adverb" ts="bɪˈsaɪdz" tr="наряду; кстати"/>
+    <d v="besides" p="conjunction" ts="bɪˈsaɪdz" tr="притом"/>
+    <d v="besiege" p="verb" ts="bɪˈsiːʤ" tr="осадить; обложить"/>
+    <d v="besiege" p="noun" ts="bɪˈsiːʤ" tr="осада"/>
+    <d v="best" p="adjective" ts="best" tr="лучший"/>
+    <d v="best" p="adverb" ts="best" tr="лучше всего; больше всего"/>
+    <d v="bestial" p="adjective" ts="ˈbestjəl" tr="звериный"/>
+    <d v="bestiality" p="noun" ts="bestɪˈælɪtɪ" tr="скотоложство; зверство; зоофилия; скотство"/>
+    <d v="best man" p="noun" ts="ˈbestˈmæn" tr="лучший человек; шафер; лучший мужчина"/>
+    <d v="bestow" p="verb" ts="bɪˈstəʊ" tr="даровать; одарить; дарить; награждать; одарять"/>
+    <d v="bestseller" p="noun" ts="ˈbeselər" tr="бестселлер"/>
+    <d v="best-selling" p="noun" ts="best-ˈselɪŋ" tr="бестселлер"/>
+    <d v="bet" p="noun" ts="bet" tr="ставка"/>
+    <d v="bet" p="verb" ts="bet" tr="ставить; поспорить; держать пари; делать ставки"/>
+    <d v="betray" p="verb" ts="bɪˈtreɪ" tr="предать; предавать; выдать; изменять; обмануть"/>
+    <d v="betray" p="noun" ts="bɪˈtreɪ" tr="предательство"/>
+    <d v="betrayal" p="noun" ts="bɪˈtreɪəl" tr="предательство"/>
+    <d v="better" p="parenthetic" ts="ˈbetə" tr="лучше"/>
+    <d v="better" p="noun" ts="ˈbetə" tr="улучшение"/>
+    <d v="better" p="verb" ts="ˈbetə" tr="улучшать; превзойти; передумать"/>
+    <d v="better" p="participle" ts="ˈbetə" tr="держащий пари"/>
+    <d v="betterment" p="noun" ts="ˈbetəmənt" tr="улучшение"/>
+    <d v="between" p="preposition" ts="bɪˈtwiːn" tr="между; среди; меж"/>
+    <d v="beverage" p="noun" ts="ˈbevərɪʤ" tr="напиток"/>
+    <d v="beware" p="verb" ts="bɪˈwɛə" tr="остерегаться; беречь"/>
+    <d v="bewildered" p="participle" ts="bɪˈwɪldəd" tr="сбитый с толку; сбитый; озадаченный; ошарашенный"/>
+    <d v="bewildering" p="participle" ts="bɪˈwɪldərɪŋ" tr="ошеломляющий; озадачивающий"/>
+    <d v="bewilderment" p="noun" ts="ˈbɪˈwɪldəmənt" tr="недоумение; изумление"/>
+    <d v="bewitching" p="participle" ts="bɪˈwɪʧɪŋ" tr="завораживающий"/>
+    <d v="bewitching" p="adjective" ts="bɪˈwɪʧɪŋ" tr="чарующий; колдовской"/>
+    <d v="beyond" p="preposition" ts="bɪˈjɔnd" tr="за; помимо; после; сверх; позади; превыше"/>
+    <d v="beyond" p="noun" ts="bɪˈjɔnd" tr="за пределами; на расстоянии"/>
+    <d v="beyond" p="adverb" ts="bɪˈjɔnd" tr="дальше; выше; вдали; позже"/>
+    <d v="bias" p="noun" ts="ˈbaɪəs" tr="предвзятость; смещение; предубеждение; уклон"/>
+    <d v="bias" p="adjective" ts="ˈbaɪəs" tr="предвзятый"/>
+    <d v="biased" p="adjective" ts="ˈbaɪəst" tr="пристрастный; предвзятый"/>
+    <d v="biased" p="noun" ts="ˈbaɪəst" tr="предубеждение"/>
+    <d v="biased" p="participle" ts="ˈbaɪəst" tr="ангажированный"/>
+    <d v="bib" p="noun" ts="bɪb" tr="нагрудник; слюнявчик"/>
+    <d v="Bible" p="noun" ts="baɪbl" tr="Библия"/>
+    <d v="Bible" p="adjective" ts="baɪbl" tr="библейский"/>
+    <d v="Bible" p="noun" ts="baɪbl" tr="Библия"/>
+    <d v="Bible" p="adjective" ts="baɪbl" tr="библейский"/>
+    <d v="biblical" p="adjective" ts="ˈbɪblɪkəl" tr="библейский"/>
+    <d v="bibliography" p="noun" ts="bɪblɪˈɔgrəfɪ" tr="библиография; список литературы"/>
+    <d v="bibliography" p="adjective" ts="bɪblɪˈɔgrəfɪ" tr="библиографический"/>
+    <d v="bicentennial" p="noun" ts="baɪsenˈtenjəl" tr="двухсотлетие"/>
+    <d v="bicentennial" p="adjective" ts="baɪsenˈtenjəl" tr="двухсотлетний"/>
+    <d v="biceps" p="noun" ts="ˈbaɪseps" tr="бицепс"/>
+    <d v="bicker" p="verb" ts="ˈbɪkə" tr="ссориться; пререкаться"/>
+    <d v="bicker" p="noun" ts="ˈbɪkə" tr="потасовка"/>
+    <d v="bicycle" p="noun" ts="ˈbaɪsɪkl" tr="велосипед"/>
+    <d v="bicycle" p="adjective" ts="ˈbaɪsɪkl" tr="велосипедный"/>
+    <d v="bid" p="noun" ts="bɪd" tr="заявка; предложение цены"/>
+    <d v="bid" p="verb" ts="bɪd" tr="приказать; пожелать"/>
+    <d v="bidder" p="noun" ts="ˈbɪdə" tr="участник торгов; цена; покупщик; участник аукциона"/>
+    <d v="bidding" p="noun" ts="ˈbɪdɪŋ" tr="торги; веление; предложение цены; призыв"/>
+    <d v="bide" p="verb" ts="baɪd" tr="выжидать"/>
+    <d v="biennial" p="adjective" ts="baɪˈenɪəl" tr="двухгодичный"/>
+    <d v="biennial" p="noun" ts="baɪˈenɪəl" tr="биеннале"/>
+    <d v="bifocals" p="noun" ts="baɪˈfəʊklz" tr="бифокальные очки"/>
+    <d v="big" p="adjective" ts="bɪg" tr="большой"/>
+    <d v="big" p="noun" ts="bɪg" tr="Биг"/>
+    <d v="bigamist" p="noun" ts="ˈbɪgəmɪst" tr="двоеженец"/>
+    <d v="bigamy" p="noun" ts="ˈbɪgəmɪ" tr="двоеженство; бигамия; двоемужие"/>
+    <d v="big apple" p="noun" ts="bɪg æpl" tr="большое яблоко"/>
+    <d v="big brother" p="noun" ts="bɪg ˈbrʌðə" tr="старший брат; большой брат; старший братец"/>
+    <d v="big deal" p="noun" ts="bɪg diːl" tr="крупная сделка; большое дело; большая сделка"/>
+    <d v="big League" p="noun" ts="bɪg liːg" tr="высшая Лига"/>
+    <d v="big name" p="noun" ts="bɪg neɪm" tr="большое имя; громкое имя"/>
+    <d v="bigot" p="noun" ts="ˈbɪgət" tr="фанатик; ханжа"/>
+    <d v="bigoted" p="adjective" ts="ˈbɪgətɪd" tr="фанатичный; нетерпимый"/>
+    <d v="bigotry" p="noun" ts="ˈbɪgətrɪ" tr="фанатизм; ханжество; слепая приверженность"/>
+    <d v="big shot" p="noun" ts="bɪg ʃɔt" tr="большая шишка"/>
+    <d v="big time" p="noun" ts="ˈbɪgˈtaɪm" tr="большое время"/>
+    <d v="bigwig" p="noun" ts="ˈbɪgwɪg" tr="шишка; воротила"/>
+    <d v="bike" p="noun" ts="baɪk" tr="велосипед; мотоцикл"/>
+    <d v="bike" p="adjective" ts="baɪk" tr="велосипедный"/>
+    <d v="biker" p="noun" ts="ˈbaɪkər" tr="байкер; велосипедист"/>
+    <d v="biker" p="adjective" ts="ˈbaɪkər" tr="байкерский"/>
+    <d v="bikini" p="noun" ts="bɪˈkiːnɪ" tr="бикини"/>
+    <d v="bilateral" p="adjective" ts="baɪˈlætərəl" tr="двусторонний"/>
+    <d v="bilaterally" p="noun" ts="baɪˈlætərəlɪ"
+       tr="на двусторонней основе; в двустороннем порядке; в двустороннем плане"/>
+    <d v="bile" p="noun" ts="baɪl" tr="желчь"/>
+    <d v="bile" p="adjective" ts="baɪl" tr="желчный"/>
+    <d v="bilingual" p="adjective" ts="baɪˈlɪŋgwəl" tr="двуязычный"/>
+    <d v="bilingual" p="noun" ts="baɪˈlɪŋgwəl" tr="два языка; билингвизм"/>
+    <d v="bill" p="noun" ts="bɪl"
+       tr="законопроект; Билл; счет; Билль; купюра; клюв; документ; афиша; список; иск; программа; секач"/>
+    <d v="bill" p="adjective" ts="bɪl" tr="вексельный"/>
+    <d v="billboard" p="noun" ts="ˈbɪlbɔːd" tr="щит; рекламный щит; билборд; афиша; доска объявлений"/>
+    <d v="billfold" p="noun" ts="ˈbɪlfəʊld" tr="бумажник"/>
+    <d v="billiards" p="noun" ts="ˈbɪljədz" tr="бильярд"/>
+    <d v="billion" p="noun" ts="ˈbɪljən" tr="млрд"/>
+    <d v="billion" p="numeral" ts="ˈbɪljən" tr="миллиард; биллион"/>
+    <d v="billionaire" p="noun" ts="bɪljəˈnɛə" tr="миллиардер"/>
+    <d v="billionth" p="adjective" ts="ˈbɪlɪənθ" tr="миллиардный"/>
+    <d v="bill of rights" p="noun" ts="bɪl əv raɪts" tr="Билль о правах"/>
+    <d v="billow" p="noun" ts="ˈbɪləʊ" tr="вал"/>
+    <d v="billow" p="verb" ts="ˈbɪləʊ" tr="вздыматься"/>
+    <d v="bimonthly" p="noun" ts="ˈbaɪˈmʌnθlɪ" tr="раз в два месяца"/>
+    <d v="bin" p="noun" ts="bɪn" tr="Бен; корзина; бункер; закром; бак; ларь"/>
+    <d v="binary" p="adjective" ts="ˈbaɪnərɪ" tr="двоичный"/>
+    <d v="binary" p="participle" ts="ˈbaɪnərɪ" tr="исполняемый; сдвоенный"/>
+    <d v="binary" p="noun" ts="ˈbaɪnərɪ" tr="исполняемый файл"/>
+    <d v="bind" p="verb" ts="baɪnd"
+       tr="связать; связывать; обязывать; сковать; вязать; привязаться; скреплять; ограничивать; переплетать; переплести; затвердевать; зажимать; задерживать"/>
+    <d v="bind" p="noun" ts="baɪnd" tr="привязка"/>
+    <d v="binder" p="noun" ts="ˈbaɪndə"
+       tr="связующее; связующее вещество; связыватель; связка; скоросшиватель; переплетчик; вяжущий материал; сноповязалка"/>
+    <d v="binder" p="adjective" ts="ˈbaɪndə" tr="связующий"/>
+    <d v="binder" p="participle" ts="ˈbaɪndə" tr="вяжущий"/>
+    <d v="binding" p="noun" ts="ˈbaɪndɪŋ"
+       tr="привязка; переплет; крепление; связующее; вязка; обвязка; оковка; обшивка"/>
+    <d v="binding" p="adjective" ts="ˈbaɪndɪŋ" tr="обязательный; связующий; переплетный"/>
+    <d v="binding" p="participle" ts="ˈbaɪndɪŋ" tr="связывающий; обязывающий; вяжущий"/>
+    <d v="binge" p="noun" ts="bɪnʤ" tr="выпивка; разгул; запой; кутеж; переедание"/>
+    <d v="bingo" p="noun" ts="ˈbɪŋgəʊ" tr="бинго; бренди"/>
+    <d v="binoculars" p="noun" ts="bɪˈnɔkjʊləz" tr="бинокль"/>
+    <d v="biochemistry" p="noun" ts="ˈbaɪəʊˈkemɪstrɪ" tr="биохимия"/>
+    <d v="biochemistry" p="adjective" ts="ˈbaɪəʊˈkemɪstrɪ" tr="биохимический"/>
+    <d v="biodegradable" p="adjective" ts="baɪəʊdɪˈgreɪdəbl" tr="биоразлагаемый; биодеградируемый"/>
+    <d v="biodegradable" p="participle" ts="baɪəʊdɪˈgreɪdəbl" tr="биологически разлагаемый"/>
+    <d v="biodegradable" p="adverb" ts="baɪəʊdɪˈgreɪdəbl" tr="биологически"/>
+    <d v="biographer" p="noun" ts="baɪˈɔgrəfə" tr="биограф"/>
+    <d v="biographical" p="adjective" ts="baɪəʊˈgræfɪkəl" tr="биографический"/>
+    <d v="biography" p="noun" ts="baɪˈɔgrəfɪ" tr="биография; жизнеописание"/>
+    <d v="biography" p="adjective" ts="baɪˈɔgrəfɪ" tr="биографический"/>
+    <d v="biological" p="adjective" ts="baɪəʊˈlɔʤɪkəl" tr="биологический"/>
+    <d v="biological" p="noun" ts="baɪəʊˈlɔʤɪkəl" tr="биопрепарат; био"/>
+    <d v="biological" p="adverb" ts="baɪəʊˈlɔʤɪkəl" tr="биологически"/>
+    <d v="biologist" p="noun" ts="baɪˈɔləʤɪst" tr="биолог"/>
+    <d v="biology" p="noun" ts="baɪˈɔləʤɪ" tr="биология"/>
+    <d v="biology" p="adjective" ts="baɪˈɔləʤɪ" tr="биологический"/>
+    <d v="biopsy" p="noun" ts="ˈbaɪɔpsɪ" tr="биопсия"/>
+    <d v="bipartisan" p="adjective" ts="baɪpɑːtɪˈzæn" tr="двухпартийный"/>
+    <d v="bipartisan" p="noun" ts="baɪpɑːtɪˈzæn" tr="обе партии"/>
+    <d v="biped" p="adjective" ts="ˈbaɪped" tr="двуногий"/>
+    <d v="biplane" p="noun" ts="ˈbaɪpleɪn" tr="биплан"/>
+    <d v="birch" p="noun" ts="bɜːʧ" tr="береза; Березка; береста; розга"/>
+    <d v="birch" p="adjective" ts="bɜːʧ" tr="березовый; берестяной"/>
+    <d v="bird" p="noun" ts="bɜːd" tr="птица"/>
+    <d v="bird" p="adjective" ts="bɜːd" tr="птичий; пернатый"/>
+    <d v="birth" p="noun" ts="bɜːθ" tr="рождение; появление; зачатие; роды"/>
+    <d v="birth" p="verb" ts="bɜːθ" tr="родить; рождаться"/>
+    <d v="birth" p="adjective" ts="bɜːθ" tr="врожденный; родовой"/>
+    <d v="birth" p="participle" ts="bɜːθ" tr="рожденный"/>
+    <d v="birth certificate" p="noun" ts="bɜːθ səˈtɪfɪkɪt"
+       tr="свидетельство о рождении; родовой сертификат; метрическое свидетельство"/>
+    <d v="birth control" p="noun" ts="bɜːθ kənˈtrəʊl"
+       tr="рождаемость; контроль рождаемости; контрацепция; контроль над рождаемостью; регулирование рождаемости; контроль за рождаемостью; ограничение рождаемости"/>
+    <d v="birth date" p="noun" ts="bɜːθ deɪt" tr="дата рождения"/>
+    <d v="birthday" p="noun" ts="ˈbɜːθdeɪ" tr="рождение; именинник; день рожденья; именины"/>
+    <d v="birthday" p="adjective" ts="ˈbɜːθdeɪ" tr="именинный"/>
+    <d v="birthmark" p="noun" ts="ˈbɜːθmɑːk" tr="родинка"/>
+    <d v="birthplace" p="noun" ts="ˈbɜːθpleɪs" tr="родина"/>
+    <d v="birthrate" p="noun" ts="ˈbɜːθreɪt" tr="рождаемость; коэффициент рождаемости"/>
+    <d v="biscuit" p="noun" ts="ˈbɪskɪt" tr="печенье"/>
+    <d v="biscuit" p="adjective" ts="ˈbɪskɪt" tr="бисквитный"/>
+    <d v="bisexual" p="noun" ts="ˈbaɪˈseksjʊəl" tr="бисексуал"/>
+    <d v="bisexual" p="adjective" ts="ˈbaɪˈseksjʊəl" tr="бисексуальный; двуполый"/>
+    <d v="bishop" p="noun" ts="ˈbɪʃəp" tr="епископ; слон; Бишоп"/>
+    <d v="bishop" p="adjective" ts="ˈbɪʃəp" tr="Преосвященный"/>
+    <d v="bison" p="noun" ts="baɪsn" tr="Зубр"/>
+    <d v="bit" p="adjective" ts="bɪt" tr="битный"/>
+    <d v="bit" p="noun" ts="bɪt" tr="бит; частица; долото; толика; удила; мундштук; бородка"/>
+    <d v="bitch" p="adjective" ts="bɪʧ" tr="сукин"/>
+    <d v="bitch" p="noun" ts="bɪʧ" tr="сучка; стерва; шлюха"/>
+    <d v="bitch" p="verb" ts="bɪʧ" tr="жаловаться; пакостить; скулить"/>
+    <d v="bitchy" p="adjective" ts="ˈbɪʧɪ" tr="стервозный; циничный; злобный; разнузданный"/>
+    <d v="bite" p="noun" ts="baɪt" tr="укус; прикус; кусочек; поклевка; сцепление; острота"/>
+    <d v="bite" p="verb" ts="baɪt" tr="укусить; перекусить; откусить; клевать; жалить; раскусить; травить"/>
+    <d v="biting" p="adjective" ts="ˈbaɪtɪŋ" tr="едкий; резкий; кусачий"/>
+    <d v="biting" p="noun" ts="ˈbaɪtɪŋ" tr="укус; клев; поклевка"/>
+    <d v="biting" p="participle" ts="ˈbaɪtɪŋ" tr="кусающий; кусающийся"/>
+    <d v="bitten" p="participle" ts="bɪtn" tr="укушенный; покусанный; искусанный"/>
+    <d v="bitter" p="adjective" ts="ˈbɪtə" tr="горький; ожесточенный; резкий"/>
+    <d v="bitter" p="noun" ts="ˈbɪtə" tr="горечь; горькая"/>
+    <d v="bitter" p="verb" ts="ˈbɪtə" tr="горчить"/>
+    <d v="bitterly" p="adverb" ts="ˈbɪtəlɪ" tr="горько; резко; ожесточенно"/>
+    <d v="bitterly" p="noun" ts="ˈbɪtəlɪ" tr="с горечью"/>
+    <d v="bitterness" p="noun" ts="ˈbɪtənɪs" tr="горечь; озлобление; горесть; желчь; ожесточенность"/>
+    <d v="bizarre" p="adjective" ts="bɪˈzɑː" tr="странный"/>
+    <d v="blab" p="verb" ts="blæb" tr="болтать; проговориться; разбалтывать"/>
+    <d v="blabbermouth" p="noun" ts="ˈblæbəmaʊθ" tr="болтун"/>
+    <d v="black" p="adjective" ts="blæk" tr="черный; чернокожий; мрачный"/>
+    <d v="black" p="noun" ts="blæk" tr="черных; Блэк; чернота; чернь"/>
+    <d v="black" p="verb" ts="blæk" tr="чернить"/>
+    <d v="black" p="adjective" ts="blæk" tr="черный; чернокожий; мрачный"/>
+    <d v="black" p="noun" ts="blæk" tr="черных; Блэк; чернота; чернь"/>
+    <d v="black" p="verb" ts="blæk" tr="чернить"/>
+    <d v="black belt" p="noun" ts="blæk belt" tr="черный пояс"/>
+    <d v="BlackBerry" p="noun" ts="ˈblækbərɪ" tr="ежевика"/>
+    <d v="BlackBerry" p="adjective" ts="ˈblækbərɪ" tr="ежевичный"/>
+    <d v="blackbird" p="noun" ts="ˈblækbɜːd" tr="дрозд; черный дрозд"/>
+    <d v="blackboard" p="noun" ts="ˈblækbɔːd" tr="классная доска; школьная доска"/>
+    <d v="blacken" p="verb" ts="ˈblækən" tr="очернить; чернеть; загорать"/>
+    <d v="black eye" p="noun" ts="blæk aɪ" tr="черный глаз; подбитый глаз; синяк под глазом"/>
+    <d v="blackhead" p="noun" ts="ˈblækhed" tr="угорь"/>
+    <d v="black hole" p="noun" ts="blæk həʊl" tr="черная дыра"/>
+    <d v="blackjack" p="noun" ts="ˈblækʤæk" tr="блэкджек"/>
+    <d v="blacklist" p="adjective" ts="ˈblæklɪst" tr="черный"/>
+    <d v="blacklist" p="noun" ts="ˈblæklɪst" tr="черный список"/>
+    <d v="black magic" p="noun" ts="blæk ˈmæʤɪk" tr="черная магия"/>
+    <d v="blackmail" p="noun" ts="ˈblækmeɪl" tr="шантаж"/>
+    <d v="blackmail" p="verb" ts="ˈblækmeɪl" tr="шантажировать; вымогать деньги"/>
+    <d v="blackmailer" p="noun" ts="ˈblækmeɪlə" tr="шантажист; вымогатель"/>
+    <d v="black market" p="noun" ts="ˈblækˈmɑːkɪt" tr="черный рынок"/>
+    <d v="blackness" p="noun" ts="ˈblæknɪs" tr="тьма; чернота"/>
+    <d v="blackout" p="noun" ts="ˈblækaʊt"
+       tr="отключение; светомаскировка; отключение электроэнергии; затмение; засекреченность"/>
+    <d v="blacksmith" p="noun" ts="ˈblæksmɪθ" tr="кузнец; Кузнецов"/>
+    <d v="blacksmith" p="adjective" ts="ˈblæksmɪθ" tr="кузнечный"/>
+    <d v="bladder" p="noun" ts="ˈblædə" tr="пузырь"/>
+    <d v="bladder" p="adjective" ts="ˈblædə" tr="мочевой"/>
+    <d v="blade" p="noun" ts="bleɪd"
+       tr="лезвие; лопасть; клинок; нож; полотно; травинка; пластинка; перо; былинка; крыло"/>
+    <d v="blade" p="adjective" ts="bleɪd" tr="лопастный; ножевой"/>
+    <d v="blah" p="noun" ts="blɑː" tr="бла; чепуха"/>
+    <d v="blame" p="verb" ts="bleɪm" tr="винить; обвинить; осуждать; упрекать; пенять; валить"/>
+    <d v="blame" p="noun" ts="bleɪm" tr="вина; обвинение; порицание"/>
+    <d v="blame" p="adjective" ts="bleɪm" tr="виноватый"/>
+    <d v="blameless" p="adjective" ts="ˈbleɪmlɪs" tr="непорочный"/>
+    <d v="blanch" p="verb" ts="blɑːnʧ" tr="побледнеть; бланшировать"/>
+    <d v="bland" p="adjective" ts="blænd" tr="мягкий; пресный"/>
+    <d v="bland" p="noun" ts="blænd" tr="Блэнд"/>
+    <d v="blandly" p="adverb" ts="ˈblændlɪ" tr="вежливо; ласково"/>
+    <d v="blank" p="adjective" ts="blæŋk" tr="пустой; холостой; заготовительный; полный"/>
+    <d v="blank" p="noun" ts="blæŋk" tr="бланк; заготовка"/>
+    <d v="blank check" p="noun" ts="blæŋk ʧek" tr="пустой чек"/>
+    <d v="blanket" p="noun" ts="ˈblæŋkɪt" tr="одеяло; поверхностный слой"/>
+    <d v="blanket" p="adjective" ts="ˈblæŋkɪt" tr="общий; огульный"/>
+    <d v="blanket" p="verb" ts="ˈblæŋkɪt" tr="покрывать; заглушать"/>
+    <d v="blankly" p="adverb" ts="ˈblæŋklɪ" tr="тупо; безучастно; невыразительно"/>
+    <d v="blare" p="noun" ts="blɛə" tr="рев"/>
+    <d v="blase" p="participle" ts="ˈblɑːzeɪ" tr="пресыщенный"/>
+    <d v="blaspheme" p="verb" ts="blæsˈfiːm" tr="хулить; богохульствовать; злословить"/>
+    <d v="blasphemous" p="adjective" ts="ˈblæsfɪməs" tr="богохульный"/>
+    <d v="blasphemous" p="noun" ts="ˈblæsfɪməs" tr="богохульство"/>
+    <d v="blasphemy" p="noun" ts="ˈblæsfɪmɪ" tr="богохульство; кощунство"/>
+    <d v="blasphemy" p="verb" ts="ˈblæsfɪmɪ" tr="богохульствовать"/>
+    <d v="blast" p="adverbial participle" ts="blɑːst" tr="взрыв"/>
+    <d v="blast" p="adjective" ts="blɑːst" tr="доменный; взрывной"/>
+    <d v="blast" p="noun" ts="blɑːst" tr="звук; дутье; заряд; поток воздуха; сильный порыв ветра"/>
+    <d v="blast" p="verb" ts="blɑːst" tr="взорвать; разрушать"/>
+    <d v="blast furnace" p="noun" ts="blɑːst ˈfɜːnɪs" tr="доменная печь; домна"/>
+    <d v="blatant" p="adjective" ts="ˈbleɪtənt" tr="вопиющий; явный; откровенный"/>
+    <d v="blatantly" p="adverb" ts="ˈbleɪtntlɪ" tr="откровенно; грубо"/>
+    <d v="blaze" p="verb" ts="bleɪz" tr="пылать; полыхать; сверкать; прокладывать; проторить; разглашать"/>
+    <d v="blaze" p="noun" ts="bleɪz" tr="пламя; сияние; вспышка; проточина"/>
+    <d v="blaze" p="participle" ts="bleɪz" tr="пылающий; полыхающий"/>
+    <d v="blazer" p="noun" ts="ˈbleɪzə" tr="блейзер; пиджак"/>
+    <d v="bleach" p="noun" ts="bliːʧ" tr="отбеливатель; отбеливание; хлорная известь"/>
+    <d v="bleach" p="verb" ts="bliːʧ" tr="отбеливать; белить; обесцвечивать"/>
+    <d v="bleach" p="participle" ts="bliːʧ" tr="отбеливающий"/>
+    <d v="bleach" p="adjective" ts="bliːʧ" tr="хлорный"/>
+    <d v="bleak" p="adjective" ts="bliːk" tr="мрачный; унылый; суровый"/>
+    <d v="bleak" p="noun" ts="bliːk" tr="уклейка"/>
+    <d v="bleakness" p="noun" ts="ˈbliːknɪs" tr="мрачность"/>
+    <d v="bleary" p="adjective" ts="ˈblɪərɪ" tr="мутный"/>
+    <d v="bleed" p="noun" ts="bliːd" tr="кровь; кровотечение; обрез"/>
+    <d v="bleed" p="verb" ts="bliːd"
+       tr="кровоточить; истекать кровью; истекать; истечь кровью; обескровить; сочиться; пускать кровь; продувать"/>
+    <d v="bleeding" p="noun" ts="ˈbliːdɪŋ" tr="кровотечение; стравливание"/>
+    <d v="bleeding" p="adverbial participle" ts="ˈbliːdɪŋ" tr="истекая кровью; истекая"/>
+    <d v="bleeding" p="participle" ts="ˈbliːdɪŋ" tr="кровоточащий; истекающий кровью; окровавленный; обливающийся"/>
+    <d v="blemish" p="noun" ts="ˈblemɪʃ" tr="недостаток; пятно; позор"/>
+    <d v="blemish" p="adjective" ts="ˈblemɪʃ" tr="непорочный"/>
+    <d v="blemish" p="verb" ts="ˈblemɪʃ" tr="портить"/>
+    <d v="blend" p="noun" ts="blend" tr="смесь; бленда; купажирование"/>
+    <d v="blend" p="verb" ts="blend" tr="смешивать; сочетаться; смешаться; взбить; стираться"/>
+    <d v="blend" p="adverbial participle" ts="blend" tr="сливаясь"/>
+    <d v="blender" p="noun" ts="ˈblendər" tr="блендер"/>
+    <d v="bless" p="verb" ts="bles" tr="благословить; освятить"/>
+    <d v="bless" p="noun" ts="bles" tr="благословение"/>
+    <d v="blessed" p="participle" ts="blest" tr="благословленный; благословляемый"/>
+    <d v="blessed" p="adjective" ts="blest" tr="благословенный"/>
+    <d v="blessed" p="noun" ts="blest" tr="благословение"/>
+    <d v="blessing" p="noun" ts="ˈblesɪŋ" tr="благословение; благо; счастье; молитва"/>
+    <d v="blessing" p="participle" ts="ˈblesɪŋ" tr="благословляющий"/>
+    <d v="blight" p="noun" ts="blaɪt" tr="запустение; погибель; фитофтороз"/>
+    <d v="blight" p="verb" ts="blaɪt" tr="отравлять"/>
+    <d v="blimp" p="noun" ts="blɪmp" tr="дирижабль"/>
+    <d v="blind" p="adjective" ts="blaɪnd" tr="слепой; тупиковый"/>
+    <d v="blind" p="noun" ts="blaɪnd" tr="штора; блайнд; слепец; слепота; маркиза; бленда"/>
+    <d v="blind" p="verb" ts="blaɪnd" tr="ослепить; ослепнуть; затмевать; действовать вслепую"/>
+    <d v="blind" p="participle" ts="blaɪnd" tr="ослепленный; ослепший"/>
+    <d v="blindfold" p="noun" ts="ˈblaɪndfəʊld" tr="повязка; с завязанными глазами; повязка на глазах"/>
+    <d v="blindfold" p="verb" ts="ˈblaɪndfəʊld" tr="завязать глаза; завязать; ослепить; завязывать глаза"/>
+    <d v="blindly" p="adverb" ts="ˈblaɪndlɪ" tr="слепо; бездумно; наугад"/>
+    <d v="blindly" p="adjective" ts="ˈblaɪndlɪ" tr="слепой"/>
+    <d v="blindness" p="noun" ts="ˈblaɪndnɪs" tr="слепота; ослепление; дальтонизм; безрассудство"/>
+    <d v="blind spot" p="noun" ts="blaɪnd spɔt"
+       tr="слепое пятно; белое пятно; мертвая зона; мертвая точка; слепая зона"/>
+    <d v="blink" p="verb" ts="blɪŋk"
+       tr="мигать; моргнуть; заморгать; поморгать; сморгнуть; сощуриться; закрывать глаза"/>
+    <d v="blink" p="noun" ts="blɪŋk" tr="мерцание; моргание; миг"/>
+    <d v="blink" p="participle" ts="blɪŋk" tr="мигающий"/>
+    <d v="blip" p="noun" ts="blɪp" tr="всплеск; отметка"/>
+    <d v="bliss" p="noun" ts="blɪs" tr="блаженство; Блисс; нега"/>
+    <d v="bliss" p="adjective" ts="blɪs" tr="блаженный"/>
+    <d v="blissful" p="adjective" ts="ˈblɪsfʊl" tr="блаженный"/>
+    <d v="blissful" p="noun" ts="ˈblɪsfʊl" tr="блаженство"/>
+    <d v="blissfully" p="adverb" ts="ˈblɪsfəlɪ" tr="блаженно"/>
+    <d v="blissfully" p="adjective" ts="ˈblɪsfəlɪ" tr="блаженный"/>
+    <d v="blister" p="noun" ts="ˈblɪstə" tr="блистер; волдырь; пузырь; мозоль; водяной пузырь"/>
+    <d v="blister" p="adjective" ts="ˈblɪstə" tr="блистерный"/>
+    <d v="blistering" p="adjective" ts="ˈblɪstərɪŋ" tr="стремительный; гневный"/>
+    <d v="blithe" p="adjective" ts="blaɪð" tr="жизнерадостный; счастливый"/>
+    <d v="blithely" p="adverb" ts="ˈblaɪðlɪ" tr="беспечно; жизнерадостно"/>
+    <d v="blitz" p="noun" ts="blɪts" tr="блиц; блицкриг"/>
+    <d v="blizzard" p="noun" ts="ˈblɪzəd" tr="метель; буря; компания Blizzard"/>
+    <d v="bloated" p="adjective" ts="ˈbləʊtɪd" tr="раздутый; обрюзгший"/>
+    <d v="bloated" p="participle" ts="ˈbləʊtɪd" tr="закопченный; раздувшийся; распухший; жирный"/>
+    <d v="blob" p="noun" ts="blɔb" tr="капля; шарик; двоичный объект; большой двоичный объект; сгусток"/>
+    <d v="bloc" p="noun" ts="blɔk" tr="блок; объединение"/>
+    <d v="bloc" p="adjective" ts="blɔk" tr="блоковый"/>
+    <d v="block" p="noun" ts="blɔk"
+       tr="блок; квартал; блокировка; чурбан; кубик; блокпост; плаха; преграда; шашка; колода; затор; целик; болван"/>
+    <d v="block" p="verb" ts="blɔk" tr="блокировать; перекрыть; преградить; загородить; задерживать; замораживать"/>
+    <d v="block" p="adjective" ts="blɔk" tr="блочный"/>
+    <d v="block" p="participle" ts="blɔk" tr="блокирующий"/>
+    <d v="blockade" p="noun" ts="blɔˈkeɪd" tr="блокада"/>
+    <d v="blockade" p="verb" ts="blɔˈkeɪd" tr="блокировать"/>
+    <d v="blockage" p="noun" ts="ˈblɒkɪʤ" tr="блокировка; завал; засорение; закупорка; затор"/>
+    <d v="blockbuster" p="noun" ts="ˈblɒkbʌstər" tr="блокбастер"/>
+    <d v="blockhead" p="noun" ts="ˈblɔkhed" tr="болван"/>
+    <d v="blond" p="adjective" ts="blɒnd" tr="белокурый; светлый"/>
+    <d v="blond" p="noun" ts="blɒnd" tr="блондинка"/>
+    <d v="blood" p="noun" ts="blʌd" tr="кровь; происхождение; родство; состояние; темперамент"/>
+    <d v="blood" p="adjective" ts="blʌd" tr="кровяной; кровавый"/>
+    <d v="bloodbath" p="noun" ts="ˈblʌdbɑːθ" tr="бойня"/>
+    <d v="bloodbath" p="adjective" ts="ˈblʌdbɑːθ" tr="кровавый"/>
+    <d v="blood donor" p="noun" ts="blʌd ˈdəʊnə" tr="донор крови"/>
+    <d v="bloodhound" p="noun" ts="ˈblʌdhaʊnd" tr="ищейка; бладхаунд"/>
+    <d v="bloodless" p="adjective" ts="ˈblʌdlɪs" tr="бескровный"/>
+    <d v="blood pressure" p="noun" ts="ˈblʌdpreʃə" tr="кровяное давление; давление; давление крови"/>
+    <d v="bloodshed" p="noun" ts="ˈblʌdʃed" tr="кровопролитие"/>
+    <d v="bloodshot" p="participle" ts="ˈblʌdʃɔt" tr="налитый; налитый кровью"/>
+    <d v="bloodstain" p="noun" ts="ˈblʌdsteɪn" tr="пятно; пятно крови"/>
+    <d v="bloodstained" p="participle" ts="ˈblʌdsteɪnd" tr="окровавленный; запятнанный кровью"/>
+    <d v="bloodstream" p="noun" ts="ˈblʌdstriːm" tr="кровь"/>
+    <d v="bloodstream" p="adjective" ts="ˈblʌdstriːm" tr="кровеносный"/>
+    <d v="bloodthirsty" p="adjective" ts="ˈblʊdθɜːstɪ" tr="кровожадный"/>
+    <d v="blood type" p="noun" ts="blʌd taɪp" tr="группа крови; тип крови"/>
+    <d v="blood vessel" p="noun" ts="blʌd vesl" tr="кровеносный сосуд; сосуд; кровяной сосуд"/>
+    <d v="bloody" p="adjective" ts="ˈblʌdɪ" tr="кровавый; чертов"/>
+    <d v="bloody" p="participle" ts="ˈblʌdɪ" tr="окровавленный; кровоточащий"/>
+    <d v="bloody" p="adverb" ts="ˈblʌdɪ" tr="чертовски"/>
+    <d v="bloody" p="verb" ts="ˈblʌdɪ" tr="окровавить"/>
+    <d v="bloom" p="noun" ts="bluːm" tr="расцвет; цветение; Блум; налет; пушок; крица"/>
+    <d v="bloom" p="verb" ts="bluːm" tr="цвести; зацвести"/>
+    <d v="bloom" p="participle" ts="bluːm" tr="цветущий"/>
+    <d v="blossom" p="verb" ts="ˈblɔsəm" tr="цвести; зацветать; процветать"/>
+    <d v="blossom" p="noun" ts="ˈblɔsəm" tr="цветок; цвет; цветение; расцвет"/>
+    <d v="blossom" p="participle" ts="ˈblɔsəm" tr="цветущий"/>
+    <d v="blot" p="noun" ts="blɔt" tr="пятно; помарка; блот; позор"/>
+    <d v="blot" p="verb" ts="blɔt" tr="изгладить; промокнуть; грунтовать"/>
+    <d v="blotch" p="noun" ts="blɔʧ" tr="пятно"/>
+    <d v="blotchy" p="adjective" ts="ˈblɔʧɪ" tr="пятнистый"/>
+    <d v="blotter" p="noun" ts="ˈblɔtə" tr="промокашка"/>
+    <d v="blotter" p="adjective" ts="ˈblɔtə" tr="промокательный"/>
+    <d v="blouse" p="noun" ts="blaʊz" tr="блузка; гимнастерка"/>
+    <d v="blow" p="noun" ts="bləʊ" tr="удар; дуновение; несчастье"/>
+    <d v="blow" p="verb" ts="bləʊ"
+       tr="взорвать; дуть; сдуть; продуть; выдувать; разнести; выдуть; раздувать; пускать; играть; транжирить; цвести"/>
+    <d v="blow" p="adjective" ts="bləʊ" tr="выдувной"/>
+    <d v="blown" p="participle" ts="bləʊn" tr="взорванный; раздутый; продуваемый; дутый"/>
+    <d v="blowout" p="noun" ts="ˈbləʊaʊt" tr="выброс"/>
+    <d v="blowout" p="adjective" ts="ˈbləʊaʊt" tr="противовыбросовый"/>
+    <d v="blowtorch" p="noun" ts="ˈbləʊtɔːʧ" tr="паяльная лампа"/>
+    <d v="blubber" p="noun" ts="ˈblʌbə" tr="ворвань"/>
+    <d v="bludgeon" p="noun" ts="ˈblʌʤən" tr="дубинка; кистень"/>
+    <d v="blue" p="adjective" ts="bluː" tr="синий; унылый; испуганный"/>
+    <d v="blue" p="noun" ts="bluː" tr="синь; небо; синька; море"/>
+    <d v="blue" p="participle" ts="bluː" tr="посиневший"/>
+    <d v="bluebell" p="noun" ts="ˈbluːbel" tr="колокольчик; пролеска"/>
+    <d v="blueberry" p="noun" ts="ˈbluːberɪ" tr="черника"/>
+    <d v="blueberry" p="adjective" ts="ˈbluːberɪ" tr="черничный"/>
+    <d v="bluebird" p="noun" ts="ˈbluːbɜːd" tr="синяя птица"/>
+    <d v="blue blood" p="noun" ts="bluː blʌd" tr="голубая кровь"/>
+    <d v="blue cheese" p="noun" ts="bluː ʧiːz" tr="голубой сыр"/>
+    <d v="blue chip" p="noun" ts="bluː ʧɪp" tr="голубая фишка"/>
+    <d v="bluegrass" p="noun" ts="ˈbluːgrɑːs" tr="блуграсс; мятлик"/>
+    <d v="blue Jay" p="noun" ts="bluː ʤeɪ" tr="голубая сойка"/>
+    <d v="blue jeans" p="noun" ts="bluː ʤiːnz" tr="синие джинсы; голубые джинсы; джинсы"/>
+    <d v="blueprint" p="noun" ts="ˈbluːprɪnt" tr="план; светокопия; синька"/>
+    <d v="blues" p="noun" ts="bluːz" tr="блюз; хандра"/>
+    <d v="blues" p="adjective" ts="bluːz" tr="блюзовый; голубой"/>
+    <d v="bluff" p="noun" ts="blʌf" tr="блеф; утес; обман"/>
+    <d v="bluff" p="verb" ts="blʌf" tr="блефовать; обманывать; запугивать"/>
+    <d v="bluff" p="adjective" ts="blʌf" tr="отвесный; грубовато-добродушный"/>
+    <d v="bluish" p="adjective" ts="ˈbluːɪʃ" tr="голубоватый"/>
+    <d v="blunder" p="noun" ts="ˈblʌndə" tr="ошибка"/>
+    <d v="blunder" p="verb" ts="ˈblʌndə" tr="испортить; напутать; спотыкаться"/>
+    <d v="blunt" p="adjective" ts="blʌnt" tr="тупой; грубый; откровенный; туповатый"/>
+    <d v="blunt" p="noun" ts="blʌnt" tr="Блант; прямота"/>
+    <d v="blunt" p="verb" ts="blʌnt" tr="притуплять; тупить"/>
+    <d v="bluntly" p="adverb" ts="ˈblʌntlɪ" tr="прямо; резко; откровенно; тупо; прямолинейно"/>
+    <d v="bluntly" p="noun" ts="ˈblʌntlɪ" tr="без обиняков"/>
+    <d v="bluntness" p="noun" ts="ˈblʌntnəs" tr="прямота; тупость"/>
+    <d v="blur" p="noun" ts="blɜː" tr="размытие; пятно; нерезкость; неясные очертания"/>
+    <d v="blur" p="verb" ts="blɜː"
+       tr="размывать; расплываться; запачкать; затуманивать; затуманить; затушевывать; запятнать; затемнить"/>
+    <d v="blur" p="adjective" ts="blɜː" tr="размытый"/>
+    <d v="blurb" p="noun" ts="blɜːb" tr="Аннотация; реклама на обложке; реклама"/>
+    <d v="blurred" p="adjective" ts="blɜːd" tr="размытый"/>
+    <d v="blurred" p="participle" ts="blɜːd" tr="стертый"/>
+    <d v="blurry" p="adjective" ts="ˈblʌrɪ" tr="размытый"/>
+    <d v="blurry" p="verb" ts="ˈblʌrɪ" tr="расплываться"/>
+    <d v="blurt" p="verb" ts="blɜːt" tr="выпалить; сболтнуть"/>
+    <d v="blush" p="verb" ts="blʌʃ" tr="покраснеть"/>
+    <d v="blush" p="noun" ts="blʌʃ" tr="румянец; покраснение; краска стыда"/>
+    <d v="blusher" p="noun" ts="ˈblʌʃər" tr="румяна"/>
+    <d v="boa" p="noun" ts="ˈbəʊə" tr="удав; боа; горжетка"/>
+    <d v="boa constrictor" p="noun" ts="ˈbəʊə kənˈstrɪktə" tr="удав"/>
+    <d v="boar" p="noun" ts="bɔː" tr="кабан; вепрь; хряк"/>
+    <d v="board" p="noun" ts="bɔːd"
+       tr="Совет; правление; доска; плата; борт; пансион; питание; картон; департамент; Министерство; Галс; харчи; полка"/>
+    <d v="board" p="verb" ts="bɔːd" tr="столоваться"/>
+    <d v="boarder" p="noun" ts="ˈbɔːdə" tr="граница; пансионер; постоялец"/>
+    <d v="boarder" p="verb" ts="ˈbɔːdə" tr="граничить"/>
+    <d v="boardinghouse" p="noun" ts="ˈbɔːdɪŋhaʊs" tr="пансион"/>
+    <d v="boarding pass" p="noun" ts="ˈbɔːdɪŋ pɑːs" tr="посадочный талон"/>
+    <d v="boarding school" p="noun" ts="ˈbɔːdɪŋ skuːl" tr="интернат; школа-интернат"/>
+    <d v="boardroom" p="noun" ts="ˈbɔːdruːm" tr="зал заседаний"/>
+    <d v="boardwalk" p="noun" ts="ˈbɔːdwɔːk" tr="променад; настил"/>
+    <d v="boast" p="verb" ts="bəʊst" tr="похвастаться"/>
+    <d v="boast" p="noun" ts="bəʊst" tr="хвастовство"/>
+    <d v="boastful" p="adjective" ts="ˈbəʊstfʊl" tr="хвастливый"/>
+    <d v="boat" p="noun" ts="bəʊt" tr="лодка; судно; челн; корытце"/>
+    <d v="boat" p="adjective" ts="bəʊt" tr="лодочный"/>
+    <d v="Bob" p="noun" ts="bɔb" tr="боб; отвес; приседание; короткая стрижка; балансир; помпон"/>
+    <d v="Bob" p="verb" ts="bɔb" tr="подпрыгивать; стукать; подскакивать"/>
+    <d v="bobbin" p="noun" ts="ˈbɔbɪn" tr="шпулька; бобина; коклюшка; цевка"/>
+    <d v="bobcat" p="noun" ts="ˈbɔbkæt" tr="рысь"/>
+    <d v="bobsled" p="noun" ts="ˈbɒbsled" tr="бобслей"/>
+    <d v="bodice" p="noun" ts="ˈbɔdɪs" tr="лиф"/>
+    <d v="bodily" p="adjective" ts="ˈbɔdɪlɪ" tr="телесный"/>
+    <d v="bodily" p="adverb" ts="ˈbɔdɪlɪ" tr="целиком"/>
+    <d v="body" p="noun" ts="ˈbɔdɪ" tr="тело; орган; человек; тельце; масса; ядро; консистенция; фюзеляж; ствол"/>
+    <d v="body" p="adjective" ts="ˈbɔdɪ" tr="телесный; кузовной"/>
+    <d v="bodybuilding" p="noun" ts="ˈbɒdɪbɪldɪŋ" tr="бодибилдинг"/>
+    <d v="bodyguard" p="noun" ts="ˈbɒdɪgɑːd" tr="телохранитель; телохранительница"/>
+    <d v="body language" p="noun" ts="ˈbɔdɪ ˈlæŋgwɪʤ" tr="язык тела; язык жестов; мимика; язык телодвижений"/>
+    <d v="body odor" p="noun" ts="ˈbɔdɪ ˈəʊdə" tr="запах тела"/>
+    <d v="bodywork" p="noun" ts="ˈbɔdɪwɜːk" tr="кузов; кузовостроение"/>
+    <d v="bog" p="noun" ts="bɔg" tr="болото"/>
+    <d v="bog" p="adjective" ts="bɔg" tr="болотный"/>
+    <d v="bogeyman" p="noun" ts="ˈbəʊgɪmæn" tr="страшилка; страшилище; пугало; призрак; бука"/>
+    <d v="boggle" p="verb" ts="bɔgl" tr="поражать; лукавить; пугаться"/>
+    <d v="bogus" p="adjective" ts="ˈbəʊgəs" tr="фиктивный; фальшивый"/>
+    <d v="bogus" p="noun" ts="ˈbəʊgəs" tr="фальшивка"/>
+    <d v="Bohemian" p="adjective" ts="bəʊˈhiːmjən" tr="богемный; богемский"/>
+    <d v="Bohemian" p="noun" ts="bəʊˈhiːmjən" tr="богема; Богемец; цыган; представитель богемы; чех"/>
+    <d v="boil" p="verb" ts="bɔɪl" tr="варить; кипятить; вскипеть; вскипать"/>
+    <d v="boil" p="noun" ts="bɔɪl" tr="кипение; чирей; нарыв"/>
+    <d v="boiler" p="noun" ts="ˈbɔɪlə" tr="котел; кипятильник"/>
+    <d v="boiler" p="adjective" ts="ˈbɔɪlə" tr="котельный"/>
+    <d v="boiling" p="noun" ts="ˈbɔɪlɪŋ" tr="кипение"/>
+    <d v="boiling" p="participle" ts="ˈbɔɪlɪŋ" tr="кипящий; бурлящий"/>
+    <d v="boiling point" p="noun" ts="ˈbɔɪlɪŋ pɔɪnt" tr="кипение; температура кипения; точка кипения"/>
+    <d v="boisterous" p="adjective" ts="ˈbɔɪstərəs" tr="бурный; шумный"/>
+    <d v="bold" p="adjective" ts="bəʊld"
+       tr="смелый; жирный; дерзкий; смелейший; отважный; дерзновенный; самоуверенный; рельефный; обрывистый"/>
+    <d v="bold" p="noun" ts="bəʊld" tr="жирный шрифт; смелость"/>
+    <d v="boldly" p="adverb" ts="ˈbəʊldlɪ" tr="смело; дерзко"/>
+    <d v="boldness" p="noun" ts="ˈbəʊldnəs" tr="смелость; дерзновение; удаль"/>
+    <d v="Bologna" p="adjective" ts="bəˈləʊnjə" tr="Болонский"/>
+    <d v="Bologna" p="noun" ts="bəˈləʊnjə" tr="Болонья"/>
+    <d v="bolster" p="verb" ts="ˈbəʊlstə" tr="укрепить; поддержать"/>
+    <d v="bolster" p="noun" ts="ˈbəʊlstə" tr="укрепление; валик; подкладка; брус"/>
+    <d v="bolt" p="noun" ts="bəʊlt" tr="болт; засов; стрела; шлямбур; запор; рулон; шкворень; кусок"/>
+    <d v="bolt" p="adjective" ts="bəʊlt" tr="болтовой"/>
+    <d v="bolt" p="verb" ts="bəʊlt" tr="запереть; удрать; понести; удирать"/>
+    <d v="bomb" p="noun" ts="bɔm" tr="бомба; мина"/>
+    <d v="bomb" p="verb" ts="bɔm" tr="бомбить"/>
+    <d v="bombard" p="verb" ts="ˈbɔmbɑːd" tr="бомбардировать; обстрелять; засыпать; донимать"/>
+    <d v="bombardment" p="noun" ts="bɔmˈbɑːdmənt" tr="бомбардировка"/>
+    <d v="bomber" p="noun" ts="ˈbɔmə" tr="бомбардировщик; смертник; торпедоносец; бомбометатель"/>
+    <d v="bombshell" p="noun" ts="ˈbɔmʃel" tr="бомба"/>
+    <d v="bona fide" p="adjective" ts="ˈbəʊnəˈfaɪdɪ" tr="добросовестный"/>
+    <d v="bona fide" p="noun" ts="ˈbəʊnəˈfaɪdɪ" tr="добросовестность"/>
+    <d v="bonanza" p="noun" ts="bəʊˈnænzə" tr="Бонанца; золотое дно; дно; процветание; удача"/>
+    <d v="bond" p="noun" ts="bɔnd" tr="связь; Бонд; узы; скрепление; долговое обязательство; привязанность; закладная"/>
+    <d v="bond" p="adjective" ts="bɔnd" tr="облигационный"/>
+    <d v="bond" p="verb" ts="bɔnd" tr="скрепить; связывать"/>
+    <d v="bondage" p="noun" ts="ˈbɔndɪʤ" tr="рабство; неволя; оковы; зависимость; связанность"/>
+    <d v="bone" p="noun" ts="bəʊn" tr="кость; останки"/>
+    <d v="bone" p="adjective" ts="bəʊn" tr="костный"/>
+    <d v="bone marrow" p="noun" ts="bəʊn ˈmærəʊ" tr="костный мозг"/>
+    <d v="bone marrow" p="adjective" ts="bəʊn ˈmærəʊ" tr="костный"/>
+    <d v="bonfire" p="noun" ts="ˈbɔnfaɪə" tr="костер"/>
+    <d v="bonnet" p="noun" ts="ˈbɔnɪt" tr="капот; шляпка; чепчик; кожух"/>
+    <d v="bonus" p="noun" ts="ˈbəʊnəs" tr="бонус"/>
+    <d v="bonus" p="adjective" ts="ˈbəʊnəs" tr="бонусный"/>
+    <d v="bony" p="adjective" ts="ˈbəʊnɪ" tr="костлявый; костный"/>
+    <d v="boo" p="invariant" ts="buː" tr="бу"/>
+    <d v="boo" p="verb" ts="buː" tr="освистывать"/>
+    <d v="booby trap" p="noun" ts="ˈbuːbɪtræp" tr="мина-ловушка; ловушка"/>
+    <d v="booby-trap" p="noun" ts="ˈbuːbɪtræp" tr="мина-ловушка"/>
+    <d v="book" p="noun" ts="bʊk" tr="книга; том; текст; Библия; часть; литературное произведение"/>
+    <d v="book" p="verb" ts="bʊk" tr="забронировать; приглашать"/>
+    <d v="book" p="adjective" ts="bʊk" tr="книжный; бухгалтерский"/>
+    <d v="bookcase" p="noun" ts="ˈbʊkkeɪs" tr="книжный шкаф; шкаф"/>
+    <d v="bookcase" p="adjective" ts="ˈbʊkkeɪs" tr="книжный"/>
+    <d v="bookend" p="noun" ts="ˈbʊkend" tr="книгодержатель"/>
+    <d v="bookie" p="noun" ts="ˈbʊkɪ" tr="букмекер"/>
+    <d v="booking" p="noun" ts="ˈbʊkɪŋ" tr="бронирование"/>
+    <d v="bookkeeper" p="noun" ts="ˈbʊkkiːpər" tr="бухгалтер"/>
+    <d v="bookkeeping" p="adjective" ts="ˈbʊkkiːpɪŋ" tr="бухгалтерский"/>
+    <d v="bookkeeping" p="noun" ts="ˈbʊkkiːpɪŋ" tr="бухгалтерский учет; счетоводство"/>
+    <d v="booklet" p="noun" ts="ˈbʊklɪt" tr="буклет; книжка"/>
+    <d v="bookmaker" p="noun" ts="ˈbʊkmeɪkər" tr="букмекер"/>
+    <d v="bookmaker" p="adjective" ts="ˈbʊkmeɪkər" tr="букмекерский"/>
+    <d v="bookmark" p="noun" ts="ˈbʊkmɑːk" tr="закладка"/>
+    <d v="bookstore" p="noun" ts="ˈbʊkstɔː" tr="книжный магазин; магазин"/>
+    <d v="bookstore" p="adjective" ts="ˈbʊkstɔː" tr="книжный"/>
+    <d v="bookworm" p="noun" ts="ˈbʊkwɜːm" tr="книжный червь"/>
+    <d v="boom" p="noun" ts="buːm" tr="бум; стрела; заграждение; ажиотаж; гик; вылет"/>
+    <d v="boom" p="verb" ts="buːm" tr="греметь; гудеть; быстро расти; бурно развиваться"/>
+    <d v="boomerang" p="noun" ts="ˈbuːməræŋ" tr="бумеранг"/>
+    <d v="boon" p="noun" ts="buːn" tr="благо; кострика; находка; просьба; удобство; сердцевина"/>
+    <d v="boon" p="adjective" ts="buːn" tr="доброжелательный"/>
+    <d v="boondocks" p="noun" ts="ˈbuːndɒks" tr="задворки"/>
+    <d v="boor" p="noun" ts="bʊə" tr="хам; невежа"/>
+    <d v="boor" p="adjective" ts="bʊə" tr="грубый"/>
+    <d v="boorish" p="adjective" ts="ˈbʊərɪʃ" tr="хамский"/>
+    <d v="boorish" p="noun" ts="ˈbʊərɪʃ" tr="хамство; грубиян"/>
+    <d v="boost" p="verb" ts="buːst" tr="увеличить; повысить; усилить; рекламировать"/>
+    <d v="boost" p="noun" ts="buːst" tr="повышение; импульс; поддержка"/>
+    <d v="booster" p="noun" ts="ˈbuːstə"
+       tr="бустер; усилитель; ускоритель; ревакцинация; помощник; стимулятор; побудитель; горячий сторонник; стартовый двигатель"/>
+    <d v="booster" p="adjective" ts="ˈbuːstə" tr="бустерный"/>
+    <d v="boot" p="noun" ts="buːt" tr="загрузка; ботинок; багажник; начальная загрузка"/>
+    <d v="boot" p="adjective" ts="buːt" tr="загрузочный"/>
+    <d v="boot" p="verb" ts="buːt" tr="загрузиться"/>
+    <d v="boot camp" p="noun" ts="buːt kæmp" tr="учебный лагерь; лагерь загрузки; программа boot Camp"/>
+    <d v="booth" p="noun" ts="buːð" tr="стенд; будка; кабина; бут; будочка; автомат; балаган"/>
+    <d v="bootleg" p="adjective" ts="ˈbuːtleg" tr="пиратский; контрабандный"/>
+    <d v="bootleg" p="noun" ts="ˈbuːtleg" tr="голенище"/>
+    <d v="bootlegger" p="noun" ts="ˈbuːtlegə" tr="бутлегер"/>
+    <d v="booty" p="noun" ts="ˈbuːtɪ" tr="добыча; награбленное добро"/>
+    <d v="booze" p="noun" ts="buːz" tr="выпивка; алкоголь"/>
+    <d v="booze" p="verb" ts="buːz" tr="пьянствовать"/>
+    <d v="boozer" p="noun" ts="ˈbuːzər" tr="алкаш; выпивоха"/>
+    <d v="bop" p="noun" ts="bɒp" tr="боп"/>
+    <d v="border" p="noun" ts="ˈbɔːdə" tr="граница; бордюр; фриз"/>
+    <d v="border" p="adjective" ts="ˈbɔːdə" tr="пограничный"/>
+    <d v="border" p="verb" ts="ˈbɔːdə" tr="граничить; окаймлять"/>
+    <d v="border" p="participle" ts="ˈbɔːdə" tr="граничащий"/>
+    <d v="borderline" p="noun" ts="ˈbɔːdəlaɪn" tr="граница"/>
+    <d v="borderline" p="adjective" ts="ˈbɔːdəlaɪn" tr="пограничный"/>
+    <d v="bore" p="noun" ts="bɔː" tr="отверстие; скука; зануда; канал ствола; расточка; калибр; скучный человек"/>
+    <d v="bore" p="verb" ts="bɔː" tr="надоесть; скучать; пробурить; растачивать"/>
+    <d v="bore" p="adjective" ts="bɔː" tr="скучный"/>
+    <d v="bored" p="adjective" ts="bɔːd" tr="скучный"/>
+    <d v="bored" p="adverb" ts="bɔːd" tr="скучно"/>
+    <d v="bored" p="noun" ts="bɔːd" tr="скука"/>
+    <d v="bored" p="participle" ts="bɔːd" tr="пробуренный; скучающий; надоевший; уставший; заскучавший"/>
+    <d v="boredom" p="noun" ts="ˈbɔːdəm" tr="скука"/>
+    <d v="boring" p="adjective" ts="ˈbɔːrɪŋ" tr="скучный; расточный; скучнейший; нескучный"/>
+    <d v="boring" p="noun" ts="ˈbɔːrɪŋ" tr="бурение; раздражение; расточка; скука"/>
+    <d v="boring" p="verb" ts="ˈbɔːrɪŋ" tr="приесться"/>
+    <d v="boring" p="participle" ts="ˈbɔːrɪŋ" tr="надоевший"/>
+    <d v="born" p="participle" ts="bɔːn"
+       tr="рожденный; родившийся; порожденный; рождающийся; выдержанный; зародившийся"/>
+    <d v="born" p="verb" ts="bɔːn" tr="рождаться"/>
+    <d v="born" p="noun" ts="bɔːn" tr="рождение"/>
+    <d v="borne" p="participle" ts="bɔːn" tr="родившийся"/>
+    <d v="borough" p="noun" ts="ˈbʌrə" tr="район; город"/>
+    <d v="borrow" p="verb" ts="ˈbɔrəʊ" tr="занимать; заимствовать; брать; одолжить"/>
+    <d v="borrow" p="noun" ts="ˈbɔrəʊ" tr="заимствование"/>
+    <d v="borrower" p="noun" ts="ˈbɒrəʊər" tr="заемщик"/>
+    <d v="bosom" p="noun" ts="ˈbʊzəm" tr="грудь; лоно; пазуха; недра; сердце"/>
+    <d v="bosom" p="adjective" ts="ˈbʊzəm" tr="закадычный"/>
+    <d v="boss" p="noun" ts="bɔs" tr="босс; начальник; бобышка; прилив; выступ; шток"/>
+    <d v="boss" p="verb" ts="bɔs" tr="распоряжаться"/>
+    <d v="bossy" p="verb" ts="ˈbɔsɪ" tr="командовать"/>
+    <d v="bossy" p="adjective" ts="ˈbɔsɪ" tr="начальственный; выпуклый"/>
+    <d v="botanical" p="adjective" ts="bəˈtænɪkəl" tr="ботанический"/>
+    <d v="botanist" p="noun" ts="ˈbɔtənɪst" tr="ботаник"/>
+    <d v="botany" p="noun" ts="ˈbɔtənɪ" tr="ботаника"/>
+    <d v="botch" p="verb" ts="bɔʧ" tr="испортить"/>
+    <d v="botch" p="noun" ts="bɔʧ" tr="заплата"/>
+    <d v="both" p="numeral" ts="bəʊθ" tr="оба"/>
+    <d v="both" p="conjunction" ts="bəʊθ" tr="и"/>
+    <d v="bother" p="verb" ts="ˈbɔðə"
+       tr="беспокоить; докучать; потрудиться; заморачиваться; возиться; приставать; суетиться; озаботиться"/>
+    <d v="bother" p="noun" ts="ˈbɔðə" tr="беспокойство"/>
+    <d v="bothersome" p="adjective" ts="ˈbɔðəsəm" tr="надоедливый; беспокойный"/>
+    <d v="bottle" p="noun" ts="bɔtl" tr="бутылка; вино; рожок"/>
+    <d v="bottle" p="adjective" ts="bɔtl" tr="бутылочный"/>
+    <d v="bottle" p="verb" ts="bɔtl" tr="разливать; поймать"/>
+    <d v="bottleneck" p="adjective" ts="ˈbɒtlnek" tr="узкий"/>
+    <d v="bottleneck" p="noun" ts="ˈbɒtlnek" tr="узкое место; бутылочное горлышко"/>
+    <d v="bottom" p="adjective" ts="ˈbɔtəm" tr="нижний; последний; основной"/>
+    <d v="bottom" p="noun" ts="ˈbɔtəm" tr="дно; основание; конец; суть; забой; зад; грунт; причина; сиденье"/>
+    <d v="bottom" p="verb" ts="ˈbɔtəm" tr="основывать; вникнуть"/>
+    <d v="bottomless" p="adjective" ts="ˈbɔtəmlɪs" tr="бездонный; безграничный"/>
+    <d v="bottomless" p="noun" ts="ˈbɔtəmlɪs" tr="бездна"/>
+    <d v="bottom line" p="noun" ts="ˈbɔtəm laɪn" tr="нижняя линия; нижняя строка; итог; практический результат"/>
+    <d v="bough" p="noun" ts="baʊ" tr="ветвь"/>
+    <d v="bought" p="participle" ts="bɔːt"
+       tr="купленный; приобретенный; закупленный; покупаемый; закупаемый; приобретаемый"/>
+    <d v="boulder" p="noun" ts="ˈbəʊldə" tr="валун; Боулдер; галька"/>
+    <d v="boulevard" p="noun" ts="ˈbuːlvɑː" tr="бульвар"/>
+    <d v="bounce" p="noun" ts="baʊns" tr="отказ; отскок; прыжок; возврат; упругость"/>
+    <d v="bounce" p="verb" ts="baʊns" tr="отскочить; подпрыгнуть; оттолкнуться"/>
+    <d v="bouncer" p="noun" ts="ˈbaʊnsə" tr="вышибала; хвастун; охранник; фальшь"/>
+    <d v="bound" p="adjective" ts="baʊnd" tr="связанный; обязанный"/>
+    <d v="bound" p="noun" ts="baʊnd" tr="граница; прыжок"/>
+    <d v="bound" p="verb" ts="baʊnd" tr="направляться; ограничивать; прыгать; граничить"/>
+    <d v="bound" p="adverbial participle" ts="baʊnd" tr="привязываясь"/>
+    <d v="bound" p="participle" ts="baʊnd" tr="привязанный; переплетенный; направляющийся; скованный"/>
+    <d v="boundary" p="noun" ts="ˈbaʊndərɪ" tr="граница; межа"/>
+    <d v="boundary" p="adjective" ts="ˈbaʊndərɪ" tr="граничный; пограничный"/>
+    <d v="boundless" p="adjective" ts="ˈbaʊndlɪs" tr="безграничный; бескрайний"/>
+    <d v="boundless" p="noun" ts="ˈbaʊndlɪs" tr="безграничность"/>
+    <d v="bountiful" p="adjective" ts="ˈbaʊntɪfʊl" tr="щедрый; достаточный"/>
+    <d v="bountiful" p="noun" ts="ˈbaʊntɪfʊl" tr="изобилие"/>
+    <d v="bounty" p="noun" ts="ˈbaʊntɪ" tr="щедрость; милость; Баунти"/>
+    <d v="bouquet" p="noun" ts="buːˈkeɪ" tr="букет"/>
+    <d v="bourbon" p="noun" ts="ˈbʊəbən" tr="бурбон; реакционер"/>
+    <d v="bourbon" p="adjective" ts="ˈbʊəbən" tr="бурбонский"/>
+    <d v="bourgeois" p="adjective" ts="ˈbʊəʒwɑː" tr="буржуазный; мещанский; буржуйский"/>
+    <d v="bourgeois" p="noun" ts="ˈbʊəʒwɑː" tr="буржуа; мещанин"/>
+    <d v="bourgeoisie" p="noun" ts="bʊəʒwɑːˈziː" tr="буржуазия"/>
+    <d v="bourgeoisie" p="adjective" ts="bʊəʒwɑːˈziː" tr="буржуазный"/>
+    <d v="bout" p="noun" ts="baʊt" tr="бой; бут; приступ; раз; запой; кругооборот"/>
+    <d v="boutique" p="noun" ts="buːˈtiːk" tr="бутик; небольшой магазин"/>
+    <d v="boutique" p="adjective" ts="buːˈtiːk" tr="бутиковый"/>
+    <d v="bovine" p="adjective" ts="ˈbəʊvaɪn" tr="бычий"/>
+    <d v="bovine" p="noun" ts="ˈbəʊvaɪn" tr="говядина"/>
+    <d v="bow" p="noun" ts="baʊ" tr="лук; поклон; нос; бант; смычок; Носовая часть; радуга; дуга; бугель"/>
+    <d v="bow" p="verb" ts="baʊ" tr="поклониться; склонить; преклониться; склониться; обхватывать; подчиняться; гнуть"/>
+    <d v="bow" p="adjective" ts="baʊ" tr="носовой"/>
+    <d v="bowel" p="noun" ts="ˈbaʊəl" tr="кишечник"/>
+    <d v="bowl" p="noun" ts="bəʊl" tr="чаша; миска; шар; раковина; унитаз; ваза; дежа; поилка; резервуар; углубление"/>
+    <d v="bowlegged" p="adjective" ts="ˈbeʊlegd" tr="кривоногий"/>
+    <d v="bowling" p="noun" ts="ˈbəʊlɪŋ" tr="боулинг; игра в шары"/>
+    <d v="bow tie" p="noun" ts="baʊ taɪ" tr="бабочка; галстук-бабочка"/>
+    <d v="box" p="noun" ts="bɔks"
+       tr="коробка; поле; вставка; блок; ячейка; квадрат; рамка; ложа; телевизор; козлы; стойло"/>
+    <d v="box" p="adjective" ts="bɔks" tr="коробочный"/>
+    <d v="box" p="verb" ts="bɔks" tr="боксировать"/>
+    <d v="boxcar" p="noun" ts="ˈbɔkskɑː" tr="вагон; товарный вагон; крытый вагон"/>
+    <d v="boxer" p="noun" ts="ˈbɔksə" tr="боксер"/>
+    <d v="boxer shorts" p="noun" ts="ˈbɔksə ʃɔːts" tr="трусы; боксерские трусы"/>
+    <d v="boxing" p="noun" ts="ˈbɔksɪŋ" tr="бокс; упаковка"/>
+    <d v="boxing" p="adjective" ts="ˈbɔksɪŋ" tr="боксерский"/>
+    <d v="box office" p="noun" ts="bɔks ˈɔfɪs" tr="касса; кассовый сбор"/>
+    <d v="box office" p="adjective" ts="bɔks ˈɔfɪs" tr="кассовый"/>
+    <d v="box spring" p="adjective" ts="bɔks sprɪŋ" tr="пружинный"/>
+    <d v="boy" p="noun" ts="bɔɪ" tr="мальчик; парень; бой; Юнга; шампанское"/>
+    <d v="boycott" p="noun" ts="ˈbɔɪkət" tr="бойкот"/>
+    <d v="boycott" p="verb" ts="ˈbɔɪkət" tr="бойкотировать"/>
+    <d v="boyfriend" p="noun" ts="ˈbɔɪfrend" tr="парень; бойфренд; друг; приятель; любовник; ухажер"/>
+    <d v="boyhood" p="noun" ts="ˈbɔɪhʊd" tr="детство"/>
+    <d v="boyhood" p="adjective" ts="ˈbɔɪhʊd" tr="отроческий"/>
+    <d v="boyish" p="adjective" ts="ˈbɔɪɪʃ" tr="мальчишеский"/>
+    <d v="boy scout" p="noun" ts="ˈbɔɪˈskaʊt" tr="бойскаут"/>
+    <d v="bra" p="noun" ts="brɑː" tr="бюстгальтер"/>
+    <d v="brace" p="noun" ts="breɪs" tr="скобка; скоба; связь; пара; распорка; скрепа; подпорка; коловорот"/>
+    <d v="brace" p="verb" ts="breɪs" tr="приготовиться; бодрить; напрячь; обхватывать; укреплять"/>
+    <d v="bracelet" p="noun" ts="ˈbreɪslɪt" tr="браслет"/>
+    <d v="bracing" p="noun" ts="ˈbreɪsɪŋ" tr="крепление; связь"/>
+    <d v="bracing" p="adjective" ts="ˈbreɪsɪŋ" tr="общеукрепляющий"/>
+    <d v="bracket" p="noun" ts="ˈbrækɪt" tr="скобка; кронштейн; бра; вилка; группа"/>
+    <d v="brackish" p="adjective" ts="ˈbrækɪʃ" tr="солоноватый"/>
+    <d v="brag" p="verb" ts="bræg" tr="похвастаться; бахвалиться"/>
+    <d v="brag" p="noun" ts="bræg" tr="хвастовство"/>
+    <d v="braggart" p="noun" ts="ˈbrægət" tr="хвастун"/>
+    <d v="braggart" p="adjective" ts="ˈbrægət" tr="хвастливый"/>
+    <d v="braid" p="noun" ts="breɪd" tr="коса; тесьма"/>
+    <d v="braid" p="verb" ts="breɪd" tr="заплетать; плести; оплетать; оплести; обматывать"/>
+    <d v="Braille" p="noun" ts="breɪl" tr="брайль; шрифт Брайля; азбука Брайля"/>
+    <d v="Braille" p="adjective" ts="breɪl" tr="брайлевский"/>
+    <d v="brain" p="noun" ts="breɪn" tr="мозг; умница"/>
+    <d v="brain" p="adjective" ts="breɪn" tr="мозговой"/>
+    <d v="brainchild" p="noun" ts="ˈbreɪnʧaɪld" tr="детище"/>
+    <d v="brainless" p="adjective" ts="ˈbreɪnlɪs" tr="безмозглый"/>
+    <d v="brainstorm" p="noun" ts="ˈbreɪnstɔːm" tr="мозговой штурм; штурм"/>
+    <d v="brainstorm" p="adjective" ts="ˈbreɪnstɔːm" tr="мозговой"/>
+    <d v="brainwash" p="verb" ts="ˈbreɪnwɔʃ" tr="промывать"/>
+    <d v="brainwash" p="noun" ts="ˈbreɪnwɔʃ" tr="промывание; промывка мозгов"/>
+    <d v="brainwashing" p="noun" ts="ˈbreɪnwɔʃɪŋ" tr="промывка; промывка мозгов"/>
+    <d v="brainy" p="adjective" ts="ˈbreɪnɪ" tr="умный; мозговитый"/>
+    <d v="braise" p="verb" ts="breɪz" tr="тушить"/>
+    <d v="brake" p="noun" ts="breɪk" tr="тормоз"/>
+    <d v="brake" p="adjective" ts="breɪk" tr="тормозной"/>
+    <d v="brake" p="verb" ts="breɪk" tr="тормозить; притормаживать"/>
+    <d v="bran" p="noun" ts="bræn" tr="отруби"/>
+    <d v="branch" p="noun" ts="brɑːnʧ" tr="филиал; отделение; ветвление; рукав; линия; служба; отрог"/>
+    <d v="branch" p="adjective" ts="brɑːnʧ" tr="отраслевой; филиальный"/>
+    <d v="branch" p="verb" ts="brɑːnʧ" tr="ветвиться; отходить; расширяться"/>
+    <d v="brand" p="noun" ts="brænd" tr="бренд; тавро; сорт; головня; головешка; фабричная марка"/>
+    <d v="brand" p="adjective" ts="brænd" tr="фирменный"/>
+    <d v="brand" p="verb" ts="brænd" tr="клеймить"/>
+    <d v="brandish" p="verb" ts="ˈbrændɪʃ" tr="размахивать"/>
+    <d v="brand name" p="noun" ts="brænd neɪm"
+       tr="марка; фирменное наименование; фирменное название; название бренда; имя бренда"/>
+    <d v="brand name" p="adjective" ts="brænd neɪm" tr="фирменный"/>
+    <d v="brandy" p="noun" ts="ˈbrændɪ" tr="бренди; настойка"/>
+    <d v="brandy" p="adjective" ts="ˈbrændɪ" tr="коньячный"/>
+    <d v="brash" p="adjective" ts="bræʃ" tr="дерзкий"/>
+    <d v="brash" p="noun" ts="bræʃ" tr="изжога; груда обломков"/>
+    <d v="brass" p="noun" ts="brɑːs" tr="латунь; начальство; вкладыш; деньги; военщина"/>
+    <d v="brass" p="adjective" ts="brɑːs" tr="медный"/>
+    <d v="brassiere" p="noun" ts="ˈbræsɪə" tr="бюстгальтер"/>
+    <d v="brass knuckles" p="noun" ts="ˈbrɑːsnʌklz" tr="кастет"/>
+    <d v="brassy" p="adjective" ts="ˈbrɑːsɪ" tr="медный; бесстыдный"/>
+    <d v="brat" p="noun" ts="bræt" tr="отродье; мальчишка"/>
+    <d v="bravado" p="noun" ts="brəˈvɑːdəʊ" tr="бравада; храбрость; хвастовство; напускная храбрость"/>
+    <d v="brave" p="adjective" ts="breɪv" tr="храбрый; дивный"/>
+    <d v="brave" p="noun" ts="breɪv" tr="храбрец; смельчак; мужество"/>
+    <d v="bravely" p="adverb" ts="ˈbreɪvlɪ" tr="храбро; смело"/>
+    <d v="bravery" p="noun" ts="ˈbreɪvərɪ" tr="храбрость"/>
+    <d v="Bravo" p="adverb" ts="ˈbrɑːˈvəʊ" tr="Браво"/>
+    <d v="brawl" p="noun" ts="brɔːl" tr="драка; шумная ссора"/>
+    <d v="brawl" p="verb" ts="brɔːl" tr="скандалить; буянить; ссориться"/>
+    <d v="brawn" p="noun" ts="brɔːn" tr="мускул; зельц; мускульная сила"/>
+    <d v="brawny" p="adjective" ts="ˈbrɔːnɪ" tr="мускулистый"/>
+    <d v="Bray" p="verb" ts="breɪ" tr="реветь; толочь; кричать"/>
+    <d v="brazen" p="adjective" ts="breɪzn" tr="медный; наглый"/>
+    <d v="brazenly" p="adverb" ts="ˈbreɪznlɪ" tr="нагло"/>
+    <d v="brazier" p="noun" ts="ˈbreɪzjə" tr="мангал; жаровня; медник"/>
+    <d v="breach" p="noun" ts="briːʧ" tr="нарушение"/>
+    <d v="breach" p="verb" ts="briːʧ" tr="нарушать; пробить"/>
+    <d v="bread" p="noun" ts="bred" tr="хлеб"/>
+    <d v="bread" p="adjective" ts="bred" tr="хлебный"/>
+    <d v="bread" p="verb" ts="bred" tr="панировать"/>
+    <d v="breadbasket" p="noun" ts="ˈbredbɑːskɪt" tr="житница"/>
+    <d v="breadth" p="noun" ts="bredθ" tr="ширина; широта; размах; широкий размах"/>
+    <d v="breadwinner" p="noun" ts="ˈbredwɪnər" tr="кормилец; кормилица"/>
+    <d v="break" p="verb" ts="breɪk"
+       tr="сломать; нарушить; разорвать; ломать; прорваться; разрушить; сломаться; вырваться; побить; взламывать; сорваться; расходиться; прокладывать; размыкать; отучать; вскрываться; приучать; трепать; мять"/>
+    <d v="break" p="adverbial participle" ts="breɪk" tr="перерыв; разрыв; ломаясь"/>
+    <d v="break" p="noun" ts="breɪk" tr="брейк; пролом; перемена; шанс"/>
+    <d v="breakable" p="adjective" ts="ˈbreɪkəbl" tr="хрупкий"/>
+    <d v="breakdown" p="noun" ts="ˈbreɪkdaʊn"
+       tr="разбивка; срыв; распад; поломка; пробой; авария; распределение; разрушение; нервное расстройство; упадок сил; надлом"/>
+    <d v="breakfast" p="noun" ts="ˈbrekfəst" tr="завтрак"/>
+    <d v="breakfast" p="verb" ts="ˈbrekfəst" tr="позавтракать"/>
+    <d v="breaking point" p="noun" ts="ˈbreɪkɪŋ pɔɪnt" tr="переломный момент; критическая точка"/>
+    <d v="breakneck" p="adjective" ts="ˈbreɪknek" tr="головокружительный"/>
+    <d v="breakthrough" p="adverbial participle" ts="ˈbreɪkθruː" tr="прорыв"/>
+    <d v="breakthrough" p="adjective" ts="ˈbreɪkθruː" tr="прорывной"/>
+    <d v="breakthrough" p="noun" ts="ˈbreɪkθruː" tr="рывок; перелом; крупное достижение"/>
+    <d v="breakup" p="noun" ts="ˈbreɪkʌp" tr="распад"/>
+    <d v="breakwater" p="noun" ts="ˈbreɪkwɔːtə" tr="волнорез; волнолом"/>
+    <d v="breast" p="noun" ts="brest" tr="грудь; молочная железа; грудка; отвал"/>
+    <d v="breast" p="adjective" ts="brest" tr="молочный"/>
+    <d v="breaststroke" p="noun" ts="ˈbreststrəʊk" tr="брасс"/>
+    <d v="breath" p="noun" ts="breθ" tr="дыхание; вдох; запах; запах изо рта; жизнь"/>
+    <d v="breath" p="verb" ts="breθ" tr="дышать"/>
+    <d v="breath" p="adjective" ts="breθ" tr="дыхательный"/>
+    <d v="breathe" p="verb" ts="briːð" tr="дышать; вдохнуть; испустить; перевести дух; жить"/>
+    <d v="breathe" p="noun" ts="briːð" tr="дыхание"/>
+    <d v="breather" p="noun" ts="ˈbriːðə" tr="передышка; сапун; бризер; короткая передышка; живое существо"/>
+    <d v="breather" p="adjective" ts="ˈbriːðə" tr="дыхательный"/>
+    <d v="breathing" p="noun" ts="ˈbriːðɪŋ" tr="дыхание"/>
+    <d v="breathing" p="adjective" ts="ˈbriːðɪŋ" tr="дыхательный; живой"/>
+    <d v="breathing" p="participle" ts="ˈbriːðɪŋ" tr="дышащий"/>
+    <d v="breathless" p="adverbial participle" ts="ˈbreθlɪs" tr="задыхаясь"/>
+    <d v="breathless" p="participle" ts="ˈbreθlɪs" tr="запыхавшийся; задыхающийся"/>
+    <d v="breathless" p="verb" ts="ˈbreθlɪs" tr="затаить; затаить дыхание"/>
+    <d v="breathless" p="adjective" ts="ˈbreθlɪs" tr="бездыханный"/>
+    <d v="breathlessly" p="adverbial participle" ts="ˈbreθləslɪ" tr="затаив; затаив дыхание"/>
+    <d v="breathtaking" p="participle" ts="ˈbreθteɪkɪŋ" tr="захватывающий; потрясающий; завораживающий"/>
+    <d v="breathtaking" p="noun" ts="ˈbreθteɪkɪŋ" tr="захватывающий дух"/>
+    <d v="breathtaking" p="adjective" ts="ˈbreθteɪkɪŋ" tr="головокружительный; поразительный"/>
+    <d v="breathtakingly" p="adverb" ts="ˈbreθteɪkɪŋlɪ" tr="потрясающе"/>
+    <d v="bred" p="participle" ts="bred" tr="выращенный; воспитанный"/>
+    <d v="breed" p="noun" ts="briːd" tr="порода; поколение; разведение; племя"/>
+    <d v="breed" p="verb" ts="briːd"
+       tr="разводить; порождать; выводить; размножать; повязать; воспитывать; расплодиться; высиживать; вскармливать"/>
+    <d v="breed" p="adjective" ts="briːd" tr="породный"/>
+    <d v="breeder" p="noun" ts="ˈbriːdə" tr="заводчик; животновод; размножитель"/>
+    <d v="breeder" p="adjective" ts="ˈbriːdə" tr="племенной"/>
+    <d v="breeding" p="noun" ts="ˈbriːdɪŋ"
+       tr="разведение; животноводство; размножение; нерестилище; вязка; скрещивание; воспитанность"/>
+    <d v="breeding" p="adjective" ts="ˈbriːdɪŋ" tr="племенной; гнездовой; брачный"/>
+    <d v="breeding" p="participle" ts="ˈbriːdɪŋ" tr="размножающийся"/>
+    <d v="breeding ground" p="noun" ts="ˈbriːdɪŋ graʊnd"
+       tr="питательная среда; рассадник; нерестилище; благодатная почва; питательная почва"/>
+    <d v="breeze" p="noun" ts="briːz" tr="ветерок; бриз; мелочь; угольная пыль; шум"/>
+    <d v="breeze" p="verb" ts="briːz" tr="веять; промчаться"/>
+    <d v="breezy" p="adjective" ts="ˈbriːzɪ" tr="свежий"/>
+    <d v="brethren" p="noun" ts="ˈbreðrɪn" tr="братия"/>
+    <d v="brevity" p="noun" ts="ˈbrevɪtɪ" tr="краткость"/>
+    <d v="brew" p="verb" ts="bruː" tr="варить; заваривать; назревать"/>
+    <d v="brew" p="noun" ts="bruː" tr="пиво; варево; настой; напиток; варка"/>
+    <d v="brewer" p="noun" ts="ˈbruːə" tr="пивовар; Пивоваренная компания"/>
+    <d v="brewery" p="noun" ts="ˈbrʊərɪ" tr="пивоварня"/>
+    <d v="brewery" p="adjective" ts="ˈbrʊərɪ" tr="пивоваренный"/>
+    <d v="bribe" p="noun" ts="braɪb" tr="взятка"/>
+    <d v="bribe" p="verb" ts="braɪb" tr="подкупить; подкупать; давать"/>
+    <d v="bribery" p="noun" ts="ˈbraɪbərɪ" tr="взяточничество"/>
+    <d v="brick" p="noun" ts="brɪk" tr="кирпич; кубик; брусок; клинкер; молодчина"/>
+    <d v="brick" p="adjective" ts="brɪk" tr="кирпичный"/>
+    <d v="bricklayer" p="noun" ts="ˈbrɪkleɪə" tr="каменщик"/>
+    <d v="bricklaying" p="noun" ts="ˈbrɪkleɪɪŋ" tr="кладка; кирпичная кладка"/>
+    <d v="Bridal" p="adjective" ts="braɪdl" tr="свадебный"/>
+    <d v="Bridal" p="noun" ts="braɪdl" tr="невеста"/>
+    <d v="bride" p="noun" ts="braɪd" tr="невеста; новобрачная"/>
+    <d v="bridegroom" p="noun" ts="ˈbraɪdgrʊm" tr="жених"/>
+    <d v="bridesmaid" p="noun" ts="ˈbraɪdzmeɪd" tr="подружка; подружка невесты"/>
+    <d v="bridge" p="noun" ts="brɪʤ" tr="мост; бридж; перемычка; переносица; кобылка"/>
+    <d v="bridge" p="adjective" ts="brɪʤ" tr="мостовой"/>
+    <d v="bridge" p="verb" ts="brɪʤ" tr="перекрывать"/>
+    <d v="bridle" p="noun" ts="braɪdl" tr="уздечка; бридель"/>
+    <d v="bridle" p="verb" ts="braɪdl" tr="обуздать"/>
+    <d v="brief" p="adjective" ts="briːf" tr="краткий"/>
+    <d v="brief" p="verb" ts="briːf" tr="проинформировать; резюмировать; инструктировать"/>
+    <d v="brief" p="noun" ts="briːf" tr="сводка"/>
+    <d v="brief" p="participle" ts="briːf" tr="сжатый"/>
+    <d v="briefcase" p="noun" ts="ˈbriːfkeɪs" tr="портфель; чемоданчик; кейс; дипломат"/>
+    <d v="briefing" p="noun" ts="ˈbriːfɪŋ" tr="брифинг"/>
+    <d v="briefly" p="adverb" ts="ˈbriːflɪ" tr="кратко; ненадолго; недолго; вскользь"/>
+    <d v="briefly" p="noun" ts="ˈbriːflɪ" tr="короткое время; на короткое время"/>
+    <d v="brigade" p="noun" ts="brɪˈgeɪd" tr="бригада; дружина"/>
+    <d v="brigade" p="adjective" ts="brɪˈgeɪd" tr="бригадный"/>
+    <d v="bright" p="adjective" ts="braɪt" tr="яркий; ясный; шустрый; способный"/>
+    <d v="brighten" p="verb" ts="braɪtn"
+       tr="скрасить; просиять; светлеть; украсить; проясниться; оживить; осветить; засиять; улучшать"/>
+    <d v="brighten" p="noun" ts="braɪtn" tr="яркость; осветление"/>
+    <d v="brightly" p="adverb" ts="ˈbraɪtlɪ" tr="светло"/>
+    <d v="brightness" p="noun" ts="ˈbraɪtnɪs" tr="яркость"/>
+    <d v="brightness" p="adjective" ts="ˈbraɪtnɪs" tr="яркостной"/>
+    <d v="brilliance" p="noun" ts="ˈbrɪljəns" tr="блеск; гениальность"/>
+    <d v="brilliant" p="adjective" ts="ˈbrɪljənt" tr="блестящий; яркий; гениальный; великолепный"/>
+    <d v="brilliant" p="noun" ts="ˈbrɪljənt" tr="бриллиант; блеск"/>
+    <d v="brilliant" p="participle" ts="ˈbrɪljənt" tr="сверкающий; сияющий"/>
+    <d v="brilliantly" p="adverb" ts="ˈbrɪlɪəntlɪ" tr="блестяще; гениально; превосходно; ослепительно"/>
+    <d v="brilliantly" p="noun" ts="ˈbrɪlɪəntlɪ" tr="с блеском"/>
+    <d v="brim" p="noun" ts="brɪm" tr="край"/>
+    <d v="brine" p="noun" ts="braɪn" tr="рассол; рапа; тузлук; морская вода; солянка"/>
+    <d v="brine" p="adjective" ts="braɪn" tr="соленый; рассольный"/>
+    <d v="bring" p="verb" ts="brɪŋ"
+       tr="принести; привести; приводить; привезти; привозить; внести; привнести; привлечь; навести; приблизить; возбуждать"/>
+    <d v="bring" p="noun" ts="brɪŋ" tr="приведение"/>
+    <d v="brink" p="noun" ts="brɪŋk" tr="грань"/>
+    <d v="briny" p="adjective" ts="ˈbraɪnɪ" tr="соленый"/>
+    <d v="brisk" p="adjective" ts="brɪsk" tr="оживленный; бодрый; юркий; проворный; отрывистый"/>
+    <d v="briskly" p="adverb" ts="ˈbrɪsklɪ" tr="Бойко; быстро; оживленно"/>
+    <d v="bristle" p="noun" ts="brɪsl" tr="щетина"/>
+    <d v="bristle" p="verb" ts="brɪsl" tr="ощетиниться"/>
+    <d v="Britain" p="noun" ts="brɪtn" tr="Великобритания; Британия; Англия"/>
+    <d v="britches" p="noun" ts="ˈbrɪʧɪz" tr="бриджи"/>
+    <d v="British" p="adjective" ts="ˈbrɪtɪʃ" tr="британский"/>
+    <d v="British" p="noun" ts="ˈbrɪtɪʃ" tr="Британия"/>
+    <d v="brittle" p="adjective" ts="brɪtl" tr="хрупкий"/>
+    <d v="brittle" p="noun" ts="brɪtl" tr="хрупкость"/>
+    <d v="broach" p="noun" ts="brəʊʧ" tr="протяжка; брошь"/>
+    <d v="broach" p="verb" ts="brəʊʧ" tr="поднять; затронуть; огласить"/>
+    <d v="broad" p="adjective" ts="brɔːd" tr="широкий; более широкий; широченный; ясный"/>
+    <d v="broad" p="noun" ts="brɔːd" tr="баба"/>
+    <d v="broad" p="participle" ts="brɔːd" tr="открытый"/>
+    <d v="broadcast" p="noun" ts="ˈbrɔːdkɑːst" tr="трансляция; телевидение; рассылка; транслирование"/>
+    <d v="broadcast" p="verb" ts="ˈbrɔːdkɑːst" tr="транслировать; разбрасывать"/>
+    <d v="broadcast" p="adjective" ts="ˈbrɔːdkɑːst" tr="широковещательный; эфирный"/>
+    <d v="broadcast" p="participle" ts="ˈbrɔːdkɑːst" tr="транслируемый; вещающий"/>
+    <d v="broadcaster" p="noun" ts="ˈbrɔːdkɑːstə"
+       tr="вещатель; вещательная компания; вещание; телевещатель; диктор; телевещательная компания"/>
+    <d v="broadcaster" p="adjective" ts="ˈbrɔːdkɑːstə" tr="вещательный"/>
+    <d v="broaden" p="verb" ts="brɔːdn" tr="расширить; расшириться"/>
+    <d v="broaden" p="noun" ts="brɔːdn" tr="расширение"/>
+    <d v="broadly" p="adverb" ts="ˈbrɔːdlɪ" tr="широко"/>
+    <d v="broadly" p="noun" ts="ˈbrɔːdlɪ" tr="в целом"/>
+    <d v="broadside" p="noun" ts="ˈbrɔːdsaɪd" tr="борт; бортовой залп"/>
+    <d v="broccoli" p="noun" ts="ˈbrɒkəlɪ" tr="брокколи"/>
+    <d v="brochure" p="noun" ts="ˈbrəʊʃjʊə" tr="брошюра"/>
+    <d v="brogue" p="noun" ts="brəʊg" tr="акцент"/>
+    <d v="broil" p="verb" ts="brɔɪl" tr="жарить; гореть"/>
+    <d v="broiler" p="noun" ts="ˈbrɔɪlə" tr="бройлер"/>
+    <d v="broke" p="verb" ts="brəʊk" tr="разориться"/>
+    <d v="broke" p="adverbial participle" ts="brəʊk" tr="нарушив"/>
+    <d v="broke" p="participle" ts="brəʊk" tr="разорившийся"/>
+    <d v="broken" p="participle" ts="ˈbrəʊkən" tr="сломанный; сломленный; поломанный; испорченный; прерываемый"/>
+    <d v="broken" p="adjective" ts="ˈbrəʊkən" tr="разбитый; ломаный; прерывистый"/>
+    <d v="broken" p="adverbial participle" ts="ˈbrəʊkən" tr="разбиваясь"/>
+    <d v="broker" p="noun" ts="ˈbrəʊkə" tr="брокер; оценщик"/>
+    <d v="broker" p="adjective" ts="ˈbrəʊkə" tr="брокерский"/>
+    <d v="brokerage" p="adjective" ts="ˈbrəʊkərɪʤ" tr="брокерский"/>
+    <d v="brokerage" p="noun" ts="ˈbrəʊkərɪʤ" tr="брокер; брокерство; маклерство; комиссионное вознаграждение"/>
+    <d v="bronchitis" p="noun" ts="brɔŋˈkaɪtɪs" tr="бронхит"/>
+    <d v="Bronco" p="noun" ts="ˈbrɔŋkəʊ" tr="мустанг; полудикая лошадь"/>
+    <d v="bronze" p="adjective" ts="brɔnz" tr="бронзовый"/>
+    <d v="bronze" p="noun" ts="brɔnz" tr="бронза"/>
+    <d v="bronze medal" p="noun" ts="brɔnz medl" tr="бронзовая медаль"/>
+    <d v="brooch" p="noun" ts="brəʊʧ" tr="брошь"/>
+    <d v="brood" p="noun" ts="bruːd" tr="выводок; расплод; потомство; семья"/>
+    <d v="brood" p="verb" ts="bruːd" tr="размышлять; вынашивать; тяготить"/>
+    <d v="brood" p="adjective" ts="bruːd" tr="племенной"/>
+    <d v="brook" p="noun" ts="brʊk" tr="ручей; Брук"/>
+    <d v="brook" p="verb" ts="brʊk" tr="терпеть"/>
+    <d v="broom" p="noun" ts="bruːm" tr="метла; метелка; ракитник"/>
+    <d v="broom" p="verb" ts="bruːm" tr="подметать"/>
+    <d v="broomstick" p="noun" ts="ˈbrʊmstɪk" tr="метла; помело"/>
+    <d v="broth" p="noun" ts="brɔθ" tr="бульон; варево"/>
+    <d v="brothel" p="noun" ts="brɔθl" tr="бордель; дом терпимости"/>
+    <d v="brothel" p="adjective" ts="brɔθl" tr="публичный"/>
+    <d v="brother" p="noun" ts="ˈbrʌðə" tr="брат; братишка; земляк"/>
+    <d v="brotherhood" p="noun" ts="ˈbrʌðəhʊd" tr="братство"/>
+    <d v="brotherhood" p="adjective" ts="ˈbrʌðəhʊd" tr="братский"/>
+    <d v="brotherly" p="adjective" ts="ˈbrʌðəlɪ" tr="братский"/>
+    <d v="brought" p="participle" ts="brɔːt"
+       tr="привезенный; принесенный; доведенный; привлеченный; приведенный; доставленный; внесенный; воспитанный; вызванный; введенный; занесенный; завезенный; доводимый; привнесенный; приносимый; выращенный"/>
+    <d v="brow" p="noun" ts="braʊ" tr="бровь; выступ"/>
+    <d v="browbeat" p="verb" ts="ˈbraʊbiːt" tr="запугивать; застращать"/>
+    <d v="brown" p="adjective" ts="braʊn" tr="коричневый; смуглый"/>
+    <d v="brown" p="noun" ts="braʊn" tr="Браун"/>
+    <d v="brown" p="verb" ts="braʊn" tr="подрумянить; загорать; подрумянивать"/>
+    <d v="brownie" p="noun" ts="ˈbraʊnɪ" tr="пирожное; домовой"/>
+    <d v="brownie" p="noun" ts="ˈbraʊnɪ" tr="пирожное; домовой"/>
+    <d v="brownish" p="adjective" ts="ˈbraʊnɪʃ" tr="коричневатый; буроватый"/>
+    <d v="browse" p="verb" ts="braʊz" tr="просмотреть; объедать; пролистать; бродить; проглядеть"/>
+    <d v="browse" p="noun" ts="braʊz" tr="обзор; молодые побеги"/>
+    <d v="browser" p="noun" ts="ˈbraʊzər" tr="браузер"/>
+    <d v="bruise" p="noun" ts="bruːz" tr="синяк; ушиб; ссадина"/>
+    <d v="bruise" p="verb" ts="bruːz" tr="ушибить; поразить; помять; повредить; контузить"/>
+    <d v="brunch" p="noun" ts="brʌnʧ" tr="бранч; поздний завтрак"/>
+    <d v="brunette" p="noun" ts="bruːˈnet" tr="брюнетка"/>
+    <d v="brunt" p="noun" ts="brʌnt" tr="главный удар; основная тяжесть; атака"/>
+    <d v="brush" p="noun" ts="brʌʃ" tr="кисть; щетка; куст; столкновение; низкий кустарник"/>
+    <d v="brush" p="verb" ts="brʌʃ" tr="почистить; расчесывать; смахнуть; коснуться; стряхнуть; отметать; задевать"/>
+    <d v="brush" p="adjective" ts="brʌʃ" tr="щеточный"/>
+    <d v="brusque" p="adjective" ts="brʊsk" tr="резкий; бесцеремонный"/>
+    <d v="brusque" p="adverb" ts="brʊsk" tr="бесцеремонно"/>
+    <d v="brutal" p="adjective" ts="bruːtl" tr="жестокий; безжалостный"/>
+    <d v="brutal" p="noun" ts="bruːtl" tr="жестокость"/>
+    <d v="brutality" p="noun" ts="bruːˈtælɪtɪ" tr="жестокость"/>
+    <d v="brutalize" p="verb" ts="ˈbruːtəlaɪz" tr="ожесточать"/>
+    <d v="brutally" p="adverb" ts="ˈbruːtəlɪ" tr="жестоко"/>
+    <d v="brute" p="adjective" ts="bruːt" tr="грубый"/>
+    <d v="brute" p="noun" ts="bruːt" tr="животное"/>
+    <d v="brutish" p="adjective" ts="ˈbruːtɪʃ" tr="грубый; зверский; тупой; звероподобный"/>
+    <d v="BS" p="invariant" ts="bz" tr="БС"/>
+    <d v="bubble" p="noun" ts="bʌbl" tr="пузырь"/>
+    <d v="bubble" p="adjective" ts="bʌbl" tr="пузырьковый"/>
+    <d v="bubble" p="verb" ts="bʌbl" tr="пузыриться; бурлить"/>
+    <d v="bubble gum" p="noun" ts="ˈbʌblgʌm" tr="жевательная резинка"/>
+    <d v="bubbly" p="adjective" ts="ˈbʌblɪ" tr="шипучий; пузырчатый"/>
+    <d v="bubbly" p="noun" ts="ˈbʌblɪ" tr="шампанское"/>
+    <d v="bubbly" p="participle" ts="ˈbʌblɪ" tr="пенящийся"/>
+    <d v="buck" p="noun" ts="bʌk" tr="бакс; бак; самец; самец оленя"/>
+    <d v="buck" p="verb" ts="bʌk" tr="взбрыкнуть; брыкаться"/>
+    <d v="bucket" p="noun" ts="ˈbʌkɪt" tr="ведро; ковш; бадейка; люлька"/>
+    <d v="bucket" p="adjective" ts="ˈbʌkɪt" tr="ковшовый"/>
+    <d v="buckle" p="noun" ts="bʌkl" tr="пряжка; стяжка; бокль; скоба; изгиб"/>
+    <d v="buckle" p="verb" ts="bʌkl" tr="пристегнуть; подогнуться; сгибаться"/>
+    <d v="bud" p="noun" ts="bʌd" tr="бутон; Бад; зародыш; бутончик; крошка"/>
+    <d v="Buddha" p="noun" ts="ˈbʊdə" tr="Будда"/>
+    <d v="Buddhism" p="noun" ts="ˈbʊdɪzm" tr="буддизм"/>
+    <d v="Buddhist" p="adjective" ts="ˈbʊdɪst" tr="буддийский"/>
+    <d v="Buddhist" p="noun" ts="ˈbʊdɪst" tr="буддист; буддизм"/>
+    <d v="budding" p="participle" ts="ˈbʌdɪŋ" tr="подающий надежды"/>
+    <d v="budding" p="adjective" ts="ˈbʌdɪŋ" tr="многообещающий"/>
+    <d v="budding" p="noun" ts="ˈbʌdɪŋ" tr="бутонизация; окулировка"/>
+    <d v="buddy" p="noun" ts="ˈbʌdɪ" tr="приятель; Бадди"/>
+    <d v="budge" p="verb" ts="bʌʤ" tr="сдвинуться; сдвинуться с места; сдвинуть с места"/>
+    <d v="budget" p="noun" ts="ˈbʌʤɪt" tr="бюджет; финансовая смета; запас"/>
+    <d v="budget" p="adjective" ts="ˈbʌʤɪt" tr="бюджетный"/>
+    <d v="budget" p="verb" ts="ˈbʌʤɪt" tr="ассигновать"/>
+    <d v="buff" p="noun" ts="bʌf" tr="бафф; любитель; буйволовая кожа; положительный эффект"/>
+    <d v="buff" p="verb" ts="bʌf" tr="полировать"/>
+    <d v="buff" p="participle" ts="bʌf" tr="накачанный"/>
+    <d v="buffalo" p="noun" ts="ˈbʌfələʊ" tr="буйвол; Буффало; буйволица"/>
+    <d v="buffalo" p="adjective" ts="ˈbʌfələʊ" tr="бизоний"/>
+    <d v="buffer" p="noun" ts="ˈbʌfə" tr="буфер; амортизатор"/>
+    <d v="buffer" p="adjective" ts="ˈbʌfə" tr="буферный"/>
+    <d v="buffer" p="verb" ts="ˈbʌfə" tr="буферизировать; буферизовать"/>
+    <d v="buffet" p="noun" ts="ˈbʌfɪt" tr="буфет; фуршет; удар; горка"/>
+    <d v="buffet" p="verb" ts="ˈbʌfɪt" tr="ударять"/>
+    <d v="buffoon" p="noun" ts="bəˈfuːn" tr="шут; скоморох; фигляр"/>
+    <d v="buffoon" p="verb" ts="bəˈfuːn" tr="паясничать"/>
+    <d v="bug" p="noun" ts="bʌg" tr="ошибка; жук; Буг; клоп; насекомое; дефект; глюк; вирус"/>
+    <d v="bug" p="verb" ts="bʌg" tr="подслушивать"/>
+    <d v="buggy" p="noun" ts="ˈbʌgɪ" tr="багги; коляска; кабриолет"/>
+    <d v="bugle" p="noun" ts="bjuːgl" tr="стеклярус; горн"/>
+    <d v="build" p="verb" ts="bɪld" tr="построить; создать; основываться; полагаться; вить"/>
+    <d v="build" p="noun" ts="bɪld" tr="строительство; сборка; телосложение"/>
+    <d v="build" p="participle" ts="bɪld" tr="построенный; встроенный"/>
+    <d v="builder" p="noun" ts="ˈbɪldə" tr="строитель; застройщик; создатель; судостроитель; компоновщик"/>
+    <d v="building" p="noun" ts="ˈbɪldɪŋ" tr="здание; строительство; службы"/>
+    <d v="building" p="adjective" ts="ˈbɪldɪŋ" tr="строительный"/>
+    <d v="building" p="participle" ts="ˈbɪldɪŋ" tr="строящий"/>
+    <d v="buildup" p="noun" ts="ˈbɪldʌp" tr="наращивание"/>
+    <d v="built" p="participle" ts="bɪlt"
+       tr="построенный; встроенный; выстроенный; сооруженный; собранный; заложенный; отстроенный; вмонтированный; сложенный; встраиваемый; возводимый; сооружаемый; выстраиваемый"/>
+    <d v="bulb" p="noun" ts="bʌlb" tr="лампочка; шарик; груша"/>
+    <d v="bulb" p="adjective" ts="bʌlb" tr="луковичный"/>
+    <d v="bulbous" p="adjective" ts="ˈbʌlbəs" tr="луковичный; выпуклый; луковицеобразный"/>
+    <d v="bulge" p="noun" ts="bʌlʤ" tr="выпуклость; утолщение; вздутие; раздув"/>
+    <d v="bulge" p="verb" ts="bʌlʤ" tr="выпячивать; деформироваться"/>
+    <d v="bulging" p="adjective" ts="ˈbʌlʤɪŋ" tr="выпуклый"/>
+    <d v="bulging" p="participle" ts="ˈbʌlʤɪŋ" tr="набитый; разбухший; выпяченный"/>
+    <d v="bulging" p="noun" ts="ˈbʌlʤɪŋ" tr="выбухание"/>
+    <d v="bulk" p="adjective" ts="bʌlk" tr="навалочный; массовый; сыпучий; оптовый"/>
+    <d v="bulk" p="noun" ts="bʌlk" tr="часть; большая часть; основная часть; объем; навал; опт; громада; груз; корпус"/>
+    <d v="bulk" p="verb" ts="bʌlk" tr="ссыпать; доходить"/>
+    <d v="bulky" p="adjective" ts="ˈbʌlkɪ" tr="громоздкий; крупногабаритный; массивный"/>
+    <d v="bull" p="noun" ts="bʊl" tr="бык; Булла; бычок; враки"/>
+    <d v="bull" p="adjective" ts="bʊl" tr="бычий"/>
+    <d v="bulldog" p="noun" ts="ˈbʊldɔg" tr="бульдог"/>
+    <d v="bulldog" p="adjective" ts="ˈbʊldɔg" tr="бульдожий"/>
+    <d v="bulldozer" p="noun" ts="ˈbʊldəʊzə" tr="бульдозер; бульдозерист"/>
+    <d v="bullet" p="noun" ts="ˈbʊlɪt" tr="пуля; маркер; пулька"/>
+    <d v="bullet" p="adjective" ts="ˈbʊlɪt" tr="пулевой"/>
+    <d v="bulletin" p="noun" ts="ˈbʊlɪtɪn" tr="бюллетень"/>
+    <d v="bulletin board" p="noun" ts="ˈbʊlɪtɪn bɔːd" tr="доска; доска объявлений; информационное табло"/>
+    <d v="bulletproof" p="adjective" ts="ˈbʊlɪtpruːf" tr="пуленепробиваемый; пулестойкий"/>
+    <d v="bullfight" p="noun" ts="ˈbʊlfaɪt" tr="коррида"/>
+    <d v="bullfighter" p="noun" ts="ˈbʊlfaɪtər" tr="тореадор"/>
+    <d v="bullfighting" p="noun" ts="ˈbʊlfaɪtɪŋ" tr="коррида"/>
+    <d v="bullion" p="noun" ts="ˈbʊljən" tr="слиток"/>
+    <d v="bullish" p="adjective" ts="ˈbʊlɪʃ" tr="бычий"/>
+    <d v="bullish" p="participle" ts="ˈbʊlɪʃ" tr="играющий на повышение"/>
+    <d v="bullshit" p="noun" ts="ˈbʊlʃɪt" tr="ерунда"/>
+    <d v="bully" p="noun" ts="ˈbʊlɪ" tr="хулиган; задира; громила; запугивание"/>
+    <d v="bully" p="verb" ts="ˈbʊlɪ" tr="запугивать; задирать; издеваться"/>
+    <d v="bum" p="noun" ts="bʌm" tr="бум; бомж; бродяга; задница; лентяй"/>
+    <d v="bumblebee" p="noun" ts="ˈbʌmblbiː" tr="шмель"/>
+    <d v="bumbling" p="adjective" ts="ˈbʌmblɪŋ" tr="неуклюжий"/>
+    <d v="bummer" p="noun" ts="ˈbʌmə" tr="лентяй"/>
+    <d v="bump" p="noun" ts="bʌmp" tr="удар; шишка; неровность; кочка; бугор; глухой удар"/>
+    <d v="bump" p="verb" ts="bʌmp" tr="врезаться; наткнуться; столкнуться; толкать"/>
+    <d v="bump" p="adverbial participle" ts="bʌmp" tr="ударяясь"/>
+    <d v="bumper" p="noun" ts="ˈbʌmpə" tr="бампер; амортизатор"/>
+    <d v="bumper sticker" p="noun" ts="ˈbʌmpə ˈstɪkə" tr="наклейка на бампер; наклейка"/>
+    <d v="bumpy" p="adjective" ts="ˈbʌmpɪ" tr="ухабистый; неровный"/>
+    <d v="bun" p="noun" ts="bʌn" tr="булочка; плюшка; пучок; узел"/>
+    <d v="bunch" p="noun" ts="bʌnʧ" tr="куча; пучок; букет; группа; гроздь; стадо"/>
+    <d v="bundle" p="noun" ts="bʌndl" tr="пачка; пучок; комплект; узел; комок"/>
+    <d v="bundle" p="verb" ts="bʌndl" tr="связывать"/>
+    <d v="bungalow" p="noun" ts="ˈbʌŋgələʊ" tr="бунгало"/>
+    <d v="bungle" p="verb" ts="bʌŋgl" tr="сварганить; халтурить; запороть"/>
+    <d v="bungler" p="noun" ts="ˈbʌŋglə" tr="растяпа; плохой работник"/>
+    <d v="bunion" p="noun" ts="ˈbʌnjən" tr="бурсит"/>
+    <d v="bunk" p="noun" ts="bʌŋk" tr="койка; нары"/>
+    <d v="bunk bed" p="noun" ts="bʌŋk bed" tr="двухъярусная кровать"/>
+    <d v="bunker" p="noun" ts="ˈbʌŋkə" tr="бункер; ДОТ; блиндаж; убежище; угольная яма"/>
+    <d v="bunker" p="adjective" ts="ˈbʌŋkə" tr="бункерный"/>
+    <d v="bunny" p="noun" ts="ˈbʌnɪ" tr="Банни; зайчик; кролик; зайка"/>
+    <d v="buns" p="noun" ts="bʌnz" tr="сдоба"/>
+    <d v="buoy" p="noun" ts="bɔɪ" tr="буй; спасательный круг"/>
+    <d v="buoy" p="verb" ts="bɔɪ" tr="поддерживать"/>
+    <d v="buoyancy" p="noun" ts="ˈbɔɪənsɪ" tr="плавучесть; жизнерадостность"/>
+    <d v="buoyant" p="adjective" ts="ˈbɔɪənt" tr="жизнерадостный; плавучий; повышательный"/>
+    <d v="buoyant" p="noun" ts="ˈbɔɪənt" tr="плавучесть"/>
+    <d v="burden" p="noun" ts="bɜːdn" tr="бремя; обуза; накладные расходы; рефрен"/>
+    <d v="burden" p="verb" ts="bɜːdn" tr="обременять; тяготить; отяготить"/>
+    <d v="Bureau" p="noun" ts="bjʊəˈrəʊ" tr="бюро; управление; комод; комитет; письменный стол; конторка"/>
+    <d v="bureaucracy" p="noun" ts="bjʊəˈrɔkrəsɪ" tr="бюрократия"/>
+    <d v="bureaucracy" p="adjective" ts="bjʊəˈrɔkrəsɪ" tr="бюрократический"/>
+    <d v="bureaucrat" p="noun" ts="ˈbjʊərəʊkræt" tr="чиновник; чинуша"/>
+    <d v="bureaucratic" p="adjective" ts="bjʊərəʊˈkrætɪk" tr="бюрократический"/>
+    <d v="burger" p="noun" ts="ˈbɜːgər" tr="бургер"/>
+    <d v="burglar" p="noun" ts="ˈbɜːglə" tr="грабитель; взломщик; громила; домушник"/>
+    <d v="burglar alarm" p="noun" ts="ˈbɜːglə əˈlɑːm" tr="охранная сигнализация"/>
+    <d v="burglarize" p="verb" ts="ˈbɜːgləraɪz" tr="обокрасть"/>
+    <d v="burglary" p="noun" ts="ˈbɜːglərɪ" tr="взлом; кража; ограбление; кража со взломом"/>
+    <d v="burial" p="noun" ts="ˈberɪəl" tr="захоронение"/>
+    <d v="burial" p="adjective" ts="ˈberɪəl" tr="погребальный"/>
+    <d v="burlap" p="noun" ts="ˈbɜːlæp" tr="мешковина"/>
+    <d v="burlap" p="adjective" ts="ˈbɜːlæp" tr="джутовый"/>
+    <d v="burly" p="adjective" ts="ˈbɜːlɪ" tr="дородный; крепкий; здоровенный"/>
+    <d v="burn" p="verb" ts="bɜːn"
+       tr="сжечь; гореть; записать; сгореть; обжигать; прожечь; выгорать; прожигать; выжигать; спалить; подгорать; прижигать"/>
+    <d v="burn" p="noun" ts="bɜːn" tr="ожог; запись; сжигание; ручей"/>
+    <d v="burn" p="adjective" ts="bɜːn" tr="ожоговый"/>
+    <d v="burner" p="noun" ts="ˈbɜːnə" tr="горелка"/>
+    <d v="burning" p="noun" ts="ˈbɜːnɪŋ" tr="сжигание; прожиг; ожог; прокаливание"/>
+    <d v="burning" p="participle" ts="ˈbɜːnɪŋ" tr="горящий; пылающий; сжигающий; жгущий; обжигающий"/>
+    <d v="burning" p="adjective" ts="ˈbɜːnɪŋ" tr="жгучий; актуальный"/>
+    <d v="burnish" p="verb" ts="ˈbɜːnɪʃ" tr="полировать"/>
+    <d v="burnish" p="noun" ts="ˈbɜːnɪʃ" tr="полировка"/>
+    <d v="burnt" p="participle" ts="bɜːnt" tr="сожженный; обожженный; сгоревший; сжигаемый; прожженный"/>
+    <d v="burp" p="noun" ts="bɜːp" tr="отрыжка"/>
+    <d v="burp" p="verb" ts="bɜːp" tr="рыгнуть"/>
+    <d v="burrow" p="noun" ts="ˈbɜːrəʊ" tr="нора"/>
+    <d v="burrow" p="verb" ts="ˈbɜːrəʊ" tr="зарыться; рыть"/>
+    <d v="bursar" p="noun" ts="ˈbɜːsə" tr="казначей"/>
+    <d v="burst" p="verb" ts="bɜːst"
+       tr="лопнуть; ворваться; прорваться; разразиться; лопаться; разрывать; расплакаться; трескаться; разрушать; разламывать"/>
+    <d v="burst" p="noun" ts="bɜːst" tr="всплеск; порыв; рывок"/>
+    <d v="burst" p="adverbial participle" ts="bɜːst" tr="взрыв"/>
+    <d v="burst" p="participle" ts="bɜːst" tr="лопнувший"/>
+    <d v="bury" p="verb" ts="ˈberɪ" tr="похоронить; закопать; зарыться; зарыть; спрятать"/>
+    <d v="bury" p="noun" ts="ˈberɪ" tr="похороны"/>
+    <d v="bus" p="noun" ts="bʌs" tr="автобус; омнибус; автомобиль"/>
+    <d v="bus" p="adjective" ts="bʌs" tr="автобусный"/>
+    <d v="Bush" p="noun" ts="bʊʃ" tr="Буш; куст; втулка"/>
+    <d v="Bush" p="adjective" ts="bʊʃ" tr="кустарниковый"/>
+    <d v="bushel" p="noun" ts="bʊʃl" tr="бушель"/>
+    <d v="bushy" p="adjective" ts="ˈbʊʃɪ" tr="густой"/>
+    <d v="bushy" p="participle" ts="ˈbʊʃɪ" tr="покрытый кустарником"/>
+    <d v="busily" p="adverb" ts="ˈbɪzɪlɪ" tr="деловито; усердно; торопливо; назойливо"/>
+    <d v="business" p="noun" ts="ˈbɪznɪs" tr="бизнес; фирма; коммерческая деятельность; занятие; история"/>
+    <d v="business" p="adjective" ts="ˈbɪznɪs" tr="деловой"/>
+    <d v="business administration" p="noun" ts="ˈbɪznɪs ədmɪnɪsˈtreɪʃn"
+       tr="деловое администрирование; управление бизнесом; администрирование бизнеса; управление предпринимательской деятельностью"/>
+    <d v="business card" p="noun" ts="ˈbɪznɪs kɑːd" tr="визитная карточка; служебное удостоверение"/>
+    <d v="businesslike" p="adjective" ts="ˈbɪznəslaɪk" tr="деловой; деловитый; предприимчивый"/>
+    <d v="businesslike" p="noun" ts="ˈbɪznəslaɪk" tr="деловитость"/>
+    <d v="businessman" p="noun" ts="ˈbɪznəsmæn" tr="бизнесмен"/>
+    <d v="businesswoman" p="noun" ts="ˈbɪznəswʊmən" tr="предприниматель; деловая женщина"/>
+    <d v="busing" p="noun" ts="ˈbʌsɪŋ" tr="подвоз"/>
+    <d v="bus stop" p="noun" ts="bʌs stɔp"
+       tr="автобусная остановка; остановка; остановка автобуса; остановка общественного транспорта"/>
+    <d v="bust" p="noun" ts="bʌst" tr="бюст; спад; банкротство"/>
+    <d v="bust" p="verb" ts="bʌst" tr="обанкротиться; лопнуть; арестовать; перебрать; запить; разжаловать"/>
+    <d v="buster" p="noun" ts="ˈbʌstə" tr="Бастер; барстер; попойка"/>
+    <d v="bustle" p="noun" ts="bʌsl" tr="суета; беготня; турнюр; возня"/>
+    <d v="bustle" p="verb" ts="bʌsl" tr="суетиться; торопить"/>
+    <d v="busy" p="participle" ts="ˈbɪzɪ" tr="занятый; насыщенный; перегруженный; занимавшийся"/>
+    <d v="busy" p="adjective" ts="ˈbɪzɪ"
+       tr="оживленный; многодельный; напряженный; занятой; деятельный; беспокойный; хлопотливый; хлопотный"/>
+    <d v="busy" p="verb" ts="ˈbɪzɪ" tr="заниматься; возиться"/>
+    <d v="busy" p="noun" ts="ˈbɪzɪ" tr="занятость"/>
+    <d v="but" p="conjunction" ts="bʌt" tr="но; а"/>
+    <d v="but" p="adverb" ts="bʌt" tr="однако"/>
+    <d v="but" p="particle" ts="bʌt" tr="только; лишь"/>
+    <d v="but" p="noun" ts="bʌt" tr="за исключением"/>
+    <d v="butcher" p="noun" ts="ˈbʊʧə" tr="мясник; палач"/>
+    <d v="butcher" p="adjective" ts="ˈbʊʧə" tr="мясной; мясницкий"/>
+    <d v="butcher" p="verb" ts="ˈbʊʧə" tr="зарезать; разделывать"/>
+    <d v="butchery" p="noun" ts="ˈbʊʧərɪ" tr="бойня; скотобойня"/>
+    <d v="butler" p="noun" ts="ˈbʌtlə" tr="Батлер; дворецкий; виночерпий"/>
+    <d v="butt" p="noun" ts="bʌt"
+       tr="приклад; задница; торец; окурок; стык; бычок; мишень; бочка; большая бочка; комель; удар; притык"/>
+    <d v="butt" p="adjective" ts="bʌt" tr="стыковой; торцевой"/>
+    <d v="butt" p="verb" ts="bʌt" tr="бодать; боднуть"/>
+    <d v="butter" p="noun" ts="ˈbʌtə" tr="масло"/>
+    <d v="butter" p="adjective" ts="ˈbʌtə" tr="сливочный"/>
+    <d v="buttercup" p="noun" ts="ˈbʌtəkʌp" tr="лютик"/>
+    <d v="butterfly" p="noun" ts="ˈbʌtəflaɪ" tr="бабочка"/>
+    <d v="butterfly" p="adjective" ts="ˈbʌtəflaɪ" tr="дроссельный"/>
+    <d v="buttermilk" p="noun" ts="ˈbʌtəmɪlk" tr="пахта"/>
+    <d v="buttock" p="noun" ts="ˈbʌtək" tr="ягодица"/>
+    <d v="button" p="noun" ts="bʌtn" tr="кнопка; бутон; шишечка"/>
+    <d v="button" p="adjective" ts="bʌtn" tr="кнопочный"/>
+    <d v="button" p="verb" ts="bʌtn" tr="застегнуть"/>
+    <d v="buttonhole" p="noun" ts="ˈbʌtnhəʊl" tr="петля; петлица"/>
+    <d v="buttress" p="noun" ts="ˈbʌtrɪs" tr="контрфорс; опора; бык"/>
+    <d v="buttress" p="verb" ts="ˈbʌtrɪs" tr="поддерживать"/>
+    <d v="buy" p="verb" ts="baɪ" tr="купить; приобрести; накупить; подкупать"/>
+    <d v="buy" p="noun" ts="baɪ" tr="покупка"/>
+    <d v="buyer" p="noun" ts="ˈbaɪə" tr="покупатель; скупщик"/>
+    <d v="buyout" p="noun" ts="ˈbaɪaʊt" tr="выкуп"/>
+    <d v="buzz" p="noun" ts="bʌz" tr="жужжание; кайф; молва"/>
+    <d v="buzz" p="verb" ts="bʌz" tr="жужжать"/>
+    <d v="buzz" p="participle" ts="bʌz" tr="жужжащий"/>
+    <d v="Buzzard" p="noun" ts="ˈbʌzəd" tr="зимняк; канюк; Сарыч; стервятник"/>
+    <d v="buzzer" p="noun" ts="ˈbʌzə" tr="зуммер"/>
+    <d v="buzzword" p="noun" ts="ˈbʌzwəd" tr="словечко; модное словечко; громкое слово"/>
+    <d v="buzzword" p="adjective" ts="ˈbʌzwəd" tr="модный"/>
+    <d v="by" p="preposition" ts="baɪ" tr="на; по; от; при; у; согласно; посредством"/>
+    <d v="by" p="adverb" ts="baɪ" tr="мимо; рядом"/>
+    <d v="bye" p="verb" ts="baɪ" tr="попрощаться"/>
+    <d v="bygone" p="adjective" ts="ˈbaɪgɔn" tr="былой"/>
+    <d v="bygone" p="participle" ts="ˈbaɪgɔn" tr="ушедший"/>
+    <d v="bylaw" p="adjective" ts="ˈbaɪlɔː" tr="подзаконный"/>
+    <d v="bylaw" p="noun" ts="ˈbaɪlɔː" tr="подзаконный акт"/>
+    <d v="bypass" p="noun" ts="ˈbaɪpɑːs" tr="обход; байпас; шунтирование; перепуск"/>
+    <d v="bypass" p="verb" ts="ˈbaɪpɑːs" tr="обойти; миновать; пропустить; пренебрегать; шунтировать"/>
+    <d v="bypass" p="adjective" ts="ˈbaɪpɑːs" tr="обходной"/>
+    <d v="bystander" p="noun" ts="ˈbaɪstændə" tr="наблюдатель; прохожий; сторонний наблюдатель; случайный прохожий"/>
+    <d v="byte" p="noun" ts="baɪt" tr="байт"/>
+    <d v="byte" p="adjective" ts="baɪt" tr="байтовый"/>
+
+</defs>

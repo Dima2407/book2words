@@ -1,0 +1,2689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="PA" p="noun" ts="pɑː" tr="па"/>
+    <d v="PA" p="noun" ts="pɑː" tr="па"/>
+    <d v="pace" p="noun" ts="peɪs" tr="темп; шаг; побежка; аллюр; иноходь"/>
+    <d v="pace" p="verb" ts="peɪs" tr="расхаживать; отставать; успевать"/>
+    <d v="pacemaker" p="noun" ts="ˈpeɪsmeɪkər" tr="электрокардиостимулятор; ритмоводитель"/>
+    <d v="Pacific" p="adjective" ts="pəˈsɪfɪk" tr="Тихоокеанский; тихий; мирный"/>
+    <d v="Pacific" p="noun" ts="pəˈsɪfɪk" tr="океан"/>
+    <d v="Pacific ocean" p="noun" ts="pəˈsɪfɪk əʊʃn" tr="тихий океан; часть Тихого океана"/>
+    <d v="pacifier" p="noun" ts="ˈpæsɪfaɪər" tr="соска"/>
+    <d v="pacifism" p="noun" ts="ˈpæsɪfɪzm" tr="пацифизм"/>
+    <d v="pacifist" p="noun" ts="ˈpæsɪfɪst" tr="пацифист"/>
+    <d v="pacifist" p="adjective" ts="ˈpæsɪfɪst" tr="пацифистский"/>
+    <d v="pacify" p="verb" ts="ˈpæsɪfaɪ" tr="успокоить; укрощать"/>
+    <d v="pack" p="noun" ts="pæk" tr="пакет; стая; тюк; рюкзак; колода; компресс; группа; вьюк; снаряжение; выкладка"/>
+    <d v="pack" p="verb" ts="pæk"
+       tr="упаковывать; уложить; запаковать; запаковывать; заполнять; набивать; укладывать вещи; уплотнять"/>
+    <d v="pack" p="adjective" ts="pæk" tr="вьючный; упаковочный"/>
+    <d v="package" p="noun" ts="ˈpækɪʤ" tr="пакет; место; упаковочная тара"/>
+    <d v="package" p="adjective" ts="ˈpækɪʤ" tr="пакетный; упаковочный"/>
+    <d v="package" p="verb" ts="ˈpækɪʤ" tr="упаковать; оформлять"/>
+    <d v="packaging" p="noun" ts="ˈpækɪʤɪŋ" tr="упаковка; комплектация; затаривание"/>
+    <d v="packaging" p="adjective" ts="ˈpækɪʤɪŋ" tr="упаковочный"/>
+    <d v="packed" p="participle" ts="pækt"
+       tr="упакованный; фасованный; уложенный; набитый; расфасованный; упаковываемый; пакетированный; слежавшийся"/>
+    <d v="packer" p="noun" ts="ˈpækə" tr="упаковщик; пакер; паковщик; укладчик"/>
+    <d v="packet" p="noun" ts="ˈpækɪt" tr="пакет; пачка"/>
+    <d v="packet" p="adjective" ts="ˈpækɪt" tr="пакетный"/>
+    <d v="packing" p="noun" ts="ˈpækɪŋ" tr="упаковка; уплотнение; насадка; укупорка; консервирование"/>
+    <d v="packing" p="adjective" ts="ˈpækɪŋ" tr="упаковочный; уплотнительный"/>
+    <d v="pact" p="noun" ts="pækt" tr="пакт; договор; ПДЛР"/>
+    <d v="pad" p="noun" ts="pæd"
+       tr="колодка; площадка; подушечка; прокладка; пусковая площадка; блокнот; клавиатура; планшет; тампон"/>
+    <d v="pad" p="adjective" ts="pæd" tr="мягкий"/>
+    <d v="pad" p="verb" ts="pæd" tr="раздувать"/>
+    <d v="padding" p="noun" ts="ˈpædɪŋ"
+       tr="прокладка; заполнение; обивка; заполнитель; грунтование; набивочный материал"/>
+    <d v="paddle" p="noun" ts="pædl" tr="весло; лопасть; затвор; гребок"/>
+    <d v="paddle" p="adjective" ts="pædl" tr="колесный"/>
+    <d v="paddle" p="verb" ts="pædl" tr="отшлепать"/>
+    <d v="paddock" p="noun" ts="ˈpædək" tr="паддок; загон; выгул"/>
+    <d v="paddy" p="noun" ts="ˈpædɪ" tr="Пэдди"/>
+    <d v="padlock" p="noun" ts="ˈpædlɔk" tr="замок; висячий замок; навесной замок"/>
+    <d v="pagan" p="adjective" ts="ˈpeɪgən" tr="языческий"/>
+    <d v="pagan" p="noun" ts="ˈpeɪgən" tr="язычник; язычество; атеист"/>
+    <d v="page" p="noun" ts="peɪʤ" tr="страница; паж; станица"/>
+    <d v="page" p="adjective" ts="peɪʤ" tr="постраничный"/>
+    <d v="page" p="verb" ts="peɪʤ" tr="вызывать"/>
+    <d v="pageant" p="noun" ts="ˈpæʤənt"
+       tr="конкурс; конкурс красоты; парад; карнавальное шествие; пышное зрелище; инсценировка"/>
+    <d v="pager" p="noun" ts="ˈpeɪʤər" tr="пейджер"/>
+    <d v="pagoda" p="noun" ts="pəˈgəʊdə" tr="пагода"/>
+    <d v="paid" p="participle" ts="peɪd"
+       tr="оплаченный; оплачиваемый; выплаченный; уплаченный; выплачиваемый; заплаченный; уплачиваемый; оплативший"/>
+    <d v="paid" p="noun" ts="peɪd" tr="оплата"/>
+    <d v="paid" p="adjective" ts="peɪd" tr="платный"/>
+    <d v="pail" p="noun" ts="peɪl" tr="ведро; бачок"/>
+    <d v="pain" p="noun" ts="peɪn" tr="боль; страдание; обезболивание"/>
+    <d v="pain" p="adjective" ts="peɪn" tr="болевой; болеутоляющий"/>
+    <d v="pain" p="verb" ts="peɪn" tr="болеть; мучить; стараться; огорчать"/>
+    <d v="painful" p="adjective" ts="ˈpeɪnfʊl" tr="болезненный"/>
+    <d v="painful" p="noun" ts="ˈpeɪnfʊl" tr="боль"/>
+    <d v="painfully" p="adverb" ts="ˈpeɪnfəlɪ" tr="болезненно"/>
+    <d v="painfully" p="noun" ts="ˈpeɪnfəlɪ" tr="боль; до боли; с болью"/>
+    <d v="painkiller" p="adjective" ts="ˈpeɪnkɪlə" tr="болеутоляющий"/>
+    <d v="painkiller" p="noun" ts="ˈpeɪnkɪlə" tr="анальгетик"/>
+    <d v="painless" p="adjective" ts="ˈpeɪnlɪs" tr="безболезненный"/>
+    <d v="painstaking" p="adjective" ts="ˈpeɪnzteɪkɪŋ" tr="кропотливый"/>
+    <d v="painstaking" p="noun" ts="ˈpeɪnzteɪkɪŋ" tr="старание"/>
+    <d v="painstakingly" p="adverb" ts="ˈpeɪnzteɪkɪŋlɪ" tr="тщательно"/>
+    <d v="paint" p="noun" ts="peɪnt" tr="краска; окраска"/>
+    <d v="paint" p="verb" ts="peɪnt" tr="рисовать; красить; закрашивать; заниматься живописью"/>
+    <d v="paint" p="adjective" ts="peɪnt" tr="лакокрасочный; окрасочный"/>
+    <d v="paintbrush" p="noun" ts="ˈpeɪntbrʌʃ" tr="кисть"/>
+    <d v="painter" p="noun" ts="ˈpeɪntə" tr="художник; маляр; фалинь"/>
+    <d v="painting" p="noun" ts="ˈpeɪntɪŋ" tr="картина; живопись; окраска; живописное полотно; живописная работа"/>
+    <d v="painting" p="adjective" ts="ˈpeɪntɪŋ" tr="живописный; окрасочный"/>
+    <d v="pair" p="noun" ts="pɛə" tr="пара; вещь; супружеская чета"/>
+    <d v="pair" p="participle" ts="pɛə" tr="парной"/>
+    <d v="pair" p="adjective" ts="pɛə" tr="парный"/>
+    <d v="pair" p="verb" ts="pɛə" tr="спаривать; случать"/>
+    <d v="pajamas" p="noun" ts="pəˈʤɑːməz" tr="пижама"/>
+    <d v="PAL" p="noun" ts="pæl" tr="приятель"/>
+    <d v="PAL" p="verb" ts="pæl" tr="дружить"/>
+    <d v="palace" p="noun" ts="ˈpælɪs" tr="дворец; особняк"/>
+    <d v="palace" p="adjective" ts="ˈpælɪs" tr="дворцовый"/>
+    <d v="palatable" p="adjective" ts="ˈpælətəbl" tr="вкусный; приемлемый; приятный"/>
+    <d v="palate" p="noun" ts="ˈpælɪt" tr="вкус; небо"/>
+    <d v="palatial" p="adjective" ts="pəˈleɪʃəl" tr="дворцовый; роскошный"/>
+    <d v="pale" p="adjective" ts="peɪl" tr="бледный; тусклый; бледнолицый"/>
+    <d v="pale" p="verb" ts="peɪl" tr="побледнеть; бледнеть"/>
+    <d v="pale" p="noun" ts="peɪl" tr="бледность; черта оседлости; кол; ограда"/>
+    <d v="pale" p="participle" ts="peɪl" tr="побледневший; побелевший"/>
+    <d v="paleontologist" p="noun" ts="pælɪɒnˈtɒləʤɪst" tr="палеонтолог"/>
+    <d v="paleontology" p="noun" ts="pælɪɒnˈtɒləʤɪ" tr="палеонтология"/>
+    <d v="palette" p="noun" ts="ˈpælɪt" tr="палитра"/>
+    <d v="pall" p="noun" ts="pɔːl" tr="пелена; покров; облачение"/>
+    <d v="pall" p="verb" ts="pɔːl" tr="приедаться; приесться; надоедать; пресыщать"/>
+    <d v="pallbearer" p="noun" ts="ˈpɔːlbeərər" tr="несущий гроб"/>
+    <d v="pallor" p="noun" ts="ˈpælə" tr="бледность"/>
+    <d v="palm" p="noun" ts="pɑːm" tr="ладонь; пальма; длань; лапа; победа"/>
+    <d v="palm" p="adjective" ts="pɑːm" tr="пальмовый"/>
+    <d v="palm" p="verb" ts="pɑːm" tr="подсовывать"/>
+    <d v="palm Sunday" p="noun" ts="pɑːm ˈsʌndɪ" tr="Вербное воскресенье"/>
+    <d v="palm tree" p="noun" ts="pɑːm triː" tr="пальма; пальмовое дерево"/>
+    <d v="palpable" p="adjective" ts="ˈpælpəbl" tr="ощутимый; очевидный; осязательный"/>
+    <d v="palpably" p="adverb" ts="ˈpælpəblɪ" tr="ощутимо"/>
+    <d v="paltry" p="adjective" ts="ˈpɔːltrɪ" tr="ничтожный; пустяковый"/>
+    <d v="pamper" p="verb" ts="ˈpæmpə" tr="побаловать; изнеживать"/>
+    <d v="pamphlet" p="noun" ts="ˈpæmflɪt" tr="брошюра"/>
+    <d v="pan" p="noun" ts="pæn" tr="кастрюля; Пан; лоток; панорамирование; миска; корыто; полка"/>
+    <d v="pan" p="adjective" ts="pæn" tr="общеевропейский"/>
+    <d v="pan" p="verb" ts="pæn" tr="панорамировать"/>
+    <d v="panacea" p="noun" ts="pænəˈsɪə" tr="панацея"/>
+    <d v="panache" p="noun" ts="pəˈnæʃ" tr="щегольство; своеобразие; плюмаж; рисовка"/>
+    <d v="pancake" p="noun" ts="ˈpænkeɪk" tr="блин"/>
+    <d v="pancake" p="adjective" ts="ˈpænkeɪk" tr="блинный"/>
+    <d v="pancreas" p="adjective" ts="ˈpæŋkrɪəs" tr="поджелудочный"/>
+    <d v="pancreas" p="noun" ts="ˈpæŋkrɪəs" tr="поджелудочная железа"/>
+    <d v="pancreatic" p="adjective" ts="pæŋkrɪˈætɪk" tr="поджелудочный; панкреатический"/>
+    <d v="panda" p="noun" ts="ˈpændə" tr="панда"/>
+    <d v="pandemonium" p="noun" ts="pændɪˈməʊnjəm" tr="столпотворение"/>
+    <d v="pander" p="verb" ts="ˈpændə" tr="потворствовать"/>
+    <d v="pander" p="noun" ts="ˈpændə" tr="сводник"/>
+    <d v="pane" p="noun" ts="peɪn" tr="панель; оконное стекло"/>
+    <d v="panel" p="noun" ts="pænl" tr="панель; панно; комиссия; секция; полотнище; панелька; присяжные заседатели"/>
+    <d v="panel" p="adjective" ts="pænl" tr="панельный; щитовой"/>
+    <d v="panelist" p="noun" ts="ˈpænəlɪst" tr="участник дискуссии"/>
+    <d v="pang" p="noun" ts="pæŋ" tr="угрызение; боль; внезапная острая боль"/>
+    <d v="panhandle" p="verb" ts="ˈpænhændl" tr="попрошайничать"/>
+    <d v="panhandle" p="noun" ts="ˈpænhændl" tr="ручка кастрюли"/>
+    <d v="panhandler" p="noun" ts="ˈpænhændlə" tr="попрошайка"/>
+    <d v="panic" p="noun" ts="ˈpænɪk" tr="паника"/>
+    <d v="panic" p="verb" ts="ˈpænɪk" tr="паниковать; запаниковать; пугать"/>
+    <d v="panic" p="adjective" ts="ˈpænɪk" tr="панический"/>
+    <d v="panicky" p="adjective" ts="ˈpænɪkɪ" tr="панический"/>
+    <d v="panicky" p="verb" ts="ˈpænɪkɪ" tr="паниковать"/>
+    <d v="panorama" p="noun" ts="pænəˈrɑːmə" tr="панорама"/>
+    <d v="panorama" p="adjective" ts="pænəˈrɑːmə" tr="панорамный"/>
+    <d v="panoramic" p="adjective" ts="pænəˈræmɪk" tr="панорамный"/>
+    <d v="pansy" p="noun" ts="ˈpænzɪ" tr="анютины глазки"/>
+    <d v="pant" p="noun" ts="pænt" tr="брюки; пыхтение"/>
+    <d v="pant" p="verb" ts="pænt" tr="задыхаться"/>
+    <d v="pantheism" p="noun" ts="ˈpænθiːɪzm" tr="пантеизм"/>
+    <d v="panther" p="noun" ts="ˈpænθə" tr="пантера; Барс"/>
+    <d v="panties" p="noun" ts="ˈpæntɪz" tr="трусики; детские штанишки"/>
+    <d v="pantomime" p="noun" ts="ˈpæntəmaɪm" tr="пантомима; МИМ; язык жестов"/>
+    <d v="pantry" p="noun" ts="ˈpæntrɪ" tr="кладовая; буфет; буфетная"/>
+    <d v="pants" p="noun" ts="pænts" tr="штаны; трусы"/>
+    <d v="pantyhose" p="noun" ts="ˈpæntɪhəʊz" tr="колготки"/>
+    <d v="Papa" p="noun" ts="pəˈpɑː" tr="папа; папенька"/>
+    <d v="papacy" p="noun" ts="ˈpeɪpəsɪ" tr="папство"/>
+    <d v="papal" p="adjective" ts="ˈpeɪpəl" tr="папский"/>
+    <d v="papaya" p="noun" ts="pəˈpaɪə" tr="папайя"/>
+    <d v="paper" p="noun" ts="ˈpeɪpə" tr="бумага; документ; меморандум; диссертация"/>
+    <d v="paper" p="adjective" ts="ˈpeɪpə" tr="бумажный; газетный"/>
+    <d v="paperback" p="noun" ts="ˈpeɪpəbæk" tr="обложка; мягкая обложка"/>
+    <d v="paperboy" p="noun" ts="ˈpeɪpəbɔːj" tr="разносчик газет"/>
+    <d v="paper clip" p="noun" ts="ˈpeɪpə klɪp" tr="скрепка"/>
+    <d v="paperwork" p="noun" ts="ˈpeɪpəwɜːk"
+       tr="документация; делопроизводство; бумажная работа; оформление документов"/>
+    <d v="paperwork" p="adjective" ts="ˈpeɪpəwɜːk" tr="бумажный"/>
+    <d v="paprika" p="noun" ts="ˈpæprɪkə" tr="паприка"/>
+    <d v="par" p="adjective" ts="pɑː" tr="номинальный"/>
+    <d v="par" p="noun" ts="pɑː" tr="номинал; равенство; паритет"/>
+    <d v="parable" p="noun" ts="ˈpærəbl" tr="притча"/>
+    <d v="parachute" p="noun" ts="ˈpærəʃuːt" tr="парашют"/>
+    <d v="parachute" p="adjective" ts="ˈpærəʃuːt" tr="парашютный"/>
+    <d v="parade" p="noun" ts="pəˈreɪd" tr="парад; плац; дефиле; построение"/>
+    <d v="parade" p="verb" ts="pəˈreɪd"
+       tr="маршировать; афишировать; щеголять; шествовать; разгуливать; выставлять напоказ"/>
+    <d v="paradigm" p="noun" ts="ˈpærədaɪm" tr="парадигма; пример"/>
+    <d v="paradise" p="noun" ts="ˈpærədaɪs" tr="рай"/>
+    <d v="paradise" p="adjective" ts="ˈpærədaɪs" tr="райский"/>
+    <d v="paradox" p="noun" ts="ˈpærədɔks" tr="парадокс"/>
+    <d v="paradox" p="adjective" ts="ˈpærədɔks" tr="парадоксальный"/>
+    <d v="paradoxical" p="adjective" ts="pærəˈdɔksɪkəl" tr="парадоксальный"/>
+    <d v="paradoxical" p="noun" ts="pærəˈdɔksɪkəl" tr="парадокс"/>
+    <d v="paradoxically" p="adverb" ts="pærəˈdɒksɪklɪ" tr="парадоксально; как ни парадоксально"/>
+    <d v="paraffin" p="noun" ts="ˈpærəfɪn" tr="парафин"/>
+    <d v="paraffin" p="adjective" ts="ˈpærəfɪn" tr="парафиновый"/>
+    <d v="Paragon" p="noun" ts="ˈpærəgən" tr="Парагон; образец; образец совершенства"/>
+    <d v="paragraph" p="noun" ts="ˈpærəgrɑːf" tr="пункт"/>
+    <d v="parakeet" p="noun" ts="ˈpærəkiːt" tr="попугай; длиннохвостый попугай"/>
+    <d v="paralegal" p="adjective" ts="prəˈliːgəl" tr="параюридический"/>
+    <d v="paralegal" p="noun" ts="prəˈliːgəl" tr="параюрист; помощник юриста"/>
+    <d v="parallel" p="adjective" ts="ˈpærəlel" tr="параллельный; аналогичный"/>
+    <d v="parallel" p="noun" ts="ˈpærəlel" tr="параллель; соответствие"/>
+    <d v="parallel" p="verb" ts="ˈpærəlel" tr="соответствовать; сравнивать"/>
+    <d v="paralysis" p="noun" ts="pəˈrælɪsɪs" tr="паралич"/>
+    <d v="paralytic" p="noun" ts="pærəˈlɪtɪk" tr="расслабленный; паралитик; параличный"/>
+    <d v="paralytic" p="adjective" ts="pærəˈlɪtɪk" tr="паралитический"/>
+    <d v="paralytic" p="participle" ts="pærəˈlɪtɪk" tr="парализованный"/>
+    <d v="paralyze" p="verb" ts="ˈpærəlaɪz" tr="парализовать"/>
+    <d v="paralyze" p="noun" ts="ˈpærəlaɪz" tr="паралич"/>
+    <d v="paralyzed" p="participle" ts="ˈpærəlaɪzd" tr="парализованный"/>
+    <d v="paralyzed" p="noun" ts="ˈpærəlaɪzd" tr="паралич"/>
+    <d v="paramedic" p="noun" ts="prəˈmedɪk" tr="фельдшер; парамедик; медработник"/>
+    <d v="parameter" p="noun" ts="pəˈræmɪtə" tr="параметр"/>
+    <d v="paramilitary" p="adjective" ts="pærəˈmɪlɪtərɪ" tr="военизированный"/>
+    <d v="paramount" p="adjective" ts="ˈpærəmaʊnt" tr="первостепенный; Верховный"/>
+    <d v="paramount" p="noun" ts="ˈpærəmaʊnt" tr="превыше всего"/>
+    <d v="paranoia" p="noun" ts="pærəˈnɔɪə" tr="паранойя"/>
+    <d v="paranoia" p="adjective" ts="pærəˈnɔɪə" tr="параноидальный"/>
+    <d v="paranoid" p="noun" ts="ˈpærənɔɪd" tr="параноик"/>
+    <d v="paranoid" p="adjective" ts="ˈpærənɔɪd" tr="параноидальный"/>
+    <d v="paraphernalia" p="noun" ts="pærəfəˈneɪljə" tr="атрибутика; личное имущество; убранство"/>
+    <d v="paraphrase" p="verb" ts="ˈpærəfreɪz" tr="перефразировать; пересказывать"/>
+    <d v="paraphrase" p="noun" ts="ˈpærəfreɪz" tr="парафраз; пересказ; перефразировка"/>
+    <d v="paraplegic" p="noun" ts="pærəˈpliːʤɪk" tr="паралич"/>
+    <d v="paraplegic" p="participle" ts="pærəˈpliːʤɪk" tr="парализованный"/>
+    <d v="parasite" p="noun" ts="ˈpærəsaɪt" tr="паразит; тунеядец"/>
+    <d v="parasite" p="adjective" ts="ˈpærəsaɪt" tr="паразитарный"/>
+    <d v="parasitic" p="adjective" ts="pærəˈsɪtɪk" tr="паразитарный"/>
+    <d v="parasitic" p="participle" ts="pærəˈsɪtɪk" tr="паразитирующий"/>
+    <d v="parasitic" p="verb" ts="pærəˈsɪtɪk" tr="паразитировать"/>
+    <d v="parasol" p="noun" ts="ˈpærəsɔl" tr="зонтик; парасоль"/>
+    <d v="paratrooper" p="noun" ts="ˈpærətruːpə" tr="десантник"/>
+    <d v="parcel" p="noun" ts="pɑːsl" tr="посылка; участок; земельный участок; бандероль; партия; тюк"/>
+    <d v="parcel" p="adjective" ts="pɑːsl" tr="неотъемлемый"/>
+    <d v="parcel post" p="noun" ts="ˈpɑːslˈpəʊst" tr="бандероль"/>
+    <d v="parchment" p="noun" ts="ˈpɑːʧmənt" tr="пергамент"/>
+    <d v="parchment" p="adjective" ts="ˈpɑːʧmənt" tr="пергаментный"/>
+    <d v="pardon" p="noun" ts="pɑːdn" tr="помилование; индульгенция"/>
+    <d v="pardon" p="verb" ts="pɑːdn" tr="простить; прощать"/>
+    <d v="pardonable" p="adjective" ts="ˈpɑːdnəbl" tr="простительный"/>
+    <d v="pare" p="verb" ts="pɛə" tr="урезать; чистить"/>
+    <d v="parent" p="noun" ts="ˈpɛərənt" tr="родитель; родительница; причина; источник"/>
+    <d v="parent" p="adjective" ts="ˈpɛərənt" tr="родительский; исходный; вышестоящий"/>
+    <d v="parentage" p="noun" ts="ˈpɛərəntɪʤ" tr="происхождение; родство; материнство"/>
+    <d v="parental" p="adjective" ts="pəˈrentl" tr="родительский; материнский"/>
+    <d v="parental" p="noun" ts="pəˈrentl" tr="родитель"/>
+    <d v="parenthesis" p="noun" ts="pəˈrenθɪsɪs" tr="скобка; круглая скобка"/>
+    <d v="parenthood" p="noun" ts="ˈpærənthʊd" tr="родительство; отцовство"/>
+    <d v="parenthood" p="adjective" ts="ˈpærənthʊd" tr="родительский"/>
+    <d v="parish" p="noun" ts="ˈpærɪʃ" tr="приход; округ"/>
+    <d v="parish" p="adjective" ts="ˈpærɪʃ" tr="приходский"/>
+    <d v="parishioner" p="noun" ts="pəˈrɪʃənə" tr="прихожанин"/>
+    <d v="parity" p="noun" ts="ˈpærɪtɪ" tr="паритет; соотношение; четность; соответствие"/>
+    <d v="parity" p="adjective" ts="ˈpærɪtɪ" tr="паритетный"/>
+    <d v="park" p="noun" ts="pɑːk" tr="аквапарк; технопарк; заповедник; сквер"/>
+    <d v="park" p="adjective" ts="pɑːk" tr="парковый"/>
+    <d v="park" p="verb" ts="pɑːk" tr="припарковать; оставлять"/>
+    <d v="parking" p="noun" ts="ˈpɑːkɪŋ" tr="стоянка"/>
+    <d v="parking" p="adjective" ts="ˈpɑːkɪŋ" tr="парковочный"/>
+    <d v="parking brake" p="noun" ts="ˈpɑːkɪŋ breɪk" tr="стояночный тормоз; парковочный тормоз"/>
+    <d v="parking garage" p="noun" ts="ˈpɑːkɪŋ ˈgærɑːʒ" tr="гараж"/>
+    <d v="parking lot" p="noun" ts="ˈpɑːkɪŋˈlɔt"
+       tr="автостоянка; стоянка; стоянка автомобилей; автомобильная стоянка; Парковочная площадка"/>
+    <d v="parking meter" p="noun" ts="ˈpɑːkɪŋ ˈmiːtə" tr="парковочный счетчик"/>
+    <d v="parking ticket" p="noun" ts="ˈpɑːkɪŋ ˈtɪkɪt" tr="парковочный талон; парковочный билет"/>
+    <d v="parkway" p="noun" ts="ˈpɑːkweɪ" tr="бульвар"/>
+    <d v="parliament" p="noun" ts="ˈpɑːləmənt" tr="парламент"/>
+    <d v="parliament" p="adjective" ts="ˈpɑːləmənt" tr="парламентский"/>
+    <d v="parliamentary" p="adjective" ts="pɑːləˈmentərɪ" tr="парламентский"/>
+    <d v="parliamentary" p="noun" ts="pɑːləˈmentərɪ" tr="парламент"/>
+    <d v="parlor" p="noun" ts="ˈpɑːlə" tr="салон"/>
+    <d v="parlor" p="adjective" ts="ˈpɑːlə" tr="салонный"/>
+    <d v="parochial" p="adjective" ts="pəˈrəʊkjəl" tr="приходский; узкий; местнический"/>
+    <d v="parody" p="noun" ts="ˈpærədɪ" tr="пародия"/>
+    <d v="parody" p="verb" ts="ˈpærədɪ" tr="пародировать"/>
+    <d v="parole" p="noun" ts="pəˈrəʊl" tr="досрочное освобождение; удо; честное слово; пароль"/>
+    <d v="parquet" p="noun" ts="ˈpɑːkeɪ" tr="паркет"/>
+    <d v="parquet" p="adjective" ts="ˈpɑːkeɪ" tr="паркетный"/>
+    <d v="parrot" p="noun" ts="ˈpærət" tr="попугай; попугайчик"/>
+    <d v="parsley" p="noun" ts="ˈpɑːslɪ" tr="петрушка"/>
+    <d v="parsnip" p="noun" ts="ˈpɑːsnɪp" tr="Пастернак"/>
+    <d v="part" p="noun" ts="pɑːt" tr="часть; участие; звено; орган; местность; том; голос; пробор"/>
+    <d v="part" p="verb" ts="pɑːt" tr="расстаться; разделять; платить"/>
+    <d v="partial" p="adjective" ts="ˈpɑːʃəl" tr="частичный; частный; пристрастный; неравнодушный"/>
+    <d v="partiality" p="noun" ts="pɑːʃɪˈælɪtɪ" tr="пристрастность; пристрастие; лицеприятие"/>
+    <d v="partially" p="adverb" ts="ˈpɑːʃəlɪ" tr="частично"/>
+    <d v="participant" p="noun" ts="pɑːˈtɪsɪpənt" tr="участник; участвующий"/>
+    <d v="participate" p="noun" ts="pɑːˈtɪsɪpeɪt" tr="участие"/>
+    <d v="participate" p="verb" ts="pɑːˈtɪsɪpeɪt" tr="участвовать; разделять; пользоваться"/>
+    <d v="participation" p="noun" ts="pɑːtɪsɪˈpeɪʃn" tr="участие; причастность"/>
+    <d v="participle" p="noun" ts="ˈpɑːtɪsɪpl" tr="причастие; деепричастие"/>
+    <d v="particle" p="noun" ts="ˈpɑːtɪkl" tr="частица; ДСП; крупица"/>
+    <d v="particular" p="noun" ts="pəˈtɪkjʊlə" tr="частность; деталь"/>
+    <d v="particular" p="adjective" ts="pəˈtɪkjʊlə" tr="конкретный; особый; частный; подробный; разборчивый"/>
+    <d v="particularly" p="adverb" ts="pəˈtɪkjʊləlɪ" tr="особенно; очень; подробно; индивидуально"/>
+    <d v="particularly" p="noun" ts="pəˈtɪkjʊləlɪ" tr="в частности; в отдельности"/>
+    <d v="parting" p="noun" ts="ˈpɑːtɪŋ" tr="расставание; прощание; напутствие; пробор; отрезание"/>
+    <d v="parting" p="adjective" ts="ˈpɑːtɪŋ" tr="прощальный"/>
+    <d v="parting" p="participle" ts="ˈpɑːtɪŋ" tr="уходящий"/>
+    <d v="partisan" p="noun" ts="pɑːtɪˈzæn" tr="партизан; сторонник"/>
+    <d v="partisan" p="adjective" ts="pɑːtɪˈzæn" tr="партизанский; пристрастный; узкопартийный; фанатичный"/>
+    <d v="partition" p="noun" ts="pɑːˈtɪʃn" tr="раздел; перегородка; разбиение"/>
+    <d v="partition" p="verb" ts="pɑːˈtɪʃn" tr="разделять; секционировать; расчленять"/>
+    <d v="partly" p="adverb" ts="ˈpɑːtlɪ" tr="частично"/>
+    <d v="partner" p="noun" ts="ˈpɑːtnə" tr="партнер; напарник; супруг; пайщик"/>
+    <d v="partner" p="adjective" ts="ˈpɑːtnə" tr="партнерский"/>
+    <d v="partnership" p="noun" ts="ˈpɑːtnəʃɪp" tr="партнерство; компания"/>
+    <d v="partnership" p="adjective" ts="ˈpɑːtnəʃɪp" tr="партнерский"/>
+    <d v="part of speech" p="noun" ts="pɑːt ɔv spiːʧ" tr="часть речи"/>
+    <d v="partridge" p="noun" ts="ˈpɑːtrɪʤ" tr="куропатка"/>
+    <d v="party" p="noun" ts="ˈpɑːtɪ" tr="сторона; лицо; группа; вечеринка; компания; званый вечер"/>
+    <d v="party" p="adjective" ts="ˈpɑːtɪ" tr="партийный"/>
+    <d v="pass" p="verb" ts="pɑːs"
+       tr="пройти; передавать; перейти; принять; сдать; выдержать; выносить; происходить; пасовать; обгонять; исчезать; давать; умирать; удовлетворять; превышать; переправлять; превращаться"/>
+    <d v="pass" p="noun" ts="pɑːs" tr="проход; пропуск; перевал; пасс; пас; ущелье; калибр; дефиле; выпад"/>
+    <d v="passable" p="participle" ts="ˈpɑːsəbl" tr="проходимый"/>
+    <d v="passable" p="adjective" ts="ˈpɑːsəbl" tr="сносный; удовлетворительный; судоходный"/>
+    <d v="passable" p="noun" ts="ˈpɑːsəbl" tr="проходимость"/>
+    <d v="passage" p="noun" ts="ˈpæsɪʤ"
+       tr="проход; отрывок; проезд; место; ход; путь; пропуск; пролив; абзац; выход; переправа; рейс; галерея; эпизод; утверждение; разговор"/>
+    <d v="passage" p="adjective" ts="ˈpæsɪʤ" tr="проходной"/>
+    <d v="passageway" p="noun" ts="ˈpæsɪʤweɪ" tr="проход; коридор"/>
+    <d v="passenger" p="noun" ts="ˈpæsɪnʤə" tr="пассажир; седок"/>
+    <d v="passenger" p="adjective" ts="ˈpæsɪnʤə" tr="пассажирский"/>
+    <d v="passerby" p="noun" ts="ˈpɑːsəˈbaɪ" tr="прохожий"/>
+    <d v="passing" p="noun" ts="ˈpɑːsɪŋ" tr="прохождение; кончина; уход; протекание; обгон"/>
+    <d v="passing" p="adjective" ts="ˈpɑːsɪŋ" tr="мимолетный; попутный; проходной; случайный"/>
+    <d v="passing" p="adverb" ts="ˈpɑːsɪŋ" tr="чрезвычайно"/>
+    <d v="passing" p="participle" ts="ˈpɑːsɪŋ" tr="проходящий; переходящий; пропускающий; передавший"/>
+    <d v="passion" p="noun" ts="pæʃn" tr="страсть; увлечение; азарт; аффект"/>
+    <d v="passion" p="adjective" ts="pæʃn" tr="страстной"/>
+    <d v="passionate" p="adjective" ts="ˈpæʃənɪt" tr="страстной; пассионарный; необузданный"/>
+    <d v="passionate" p="participle" ts="ˈpæʃənɪt" tr="увлеченный"/>
+    <d v="passionate" p="noun" ts="ˈpæʃənɪt" tr="страсть"/>
+    <d v="passionately" p="adverb" ts="ˈpæʃənətlɪ" tr="страстно; неистово"/>
+    <d v="passionately" p="noun" ts="ˈpæʃənətlɪ" tr="со страстью"/>
+    <d v="passive" p="adjective" ts="ˈpæsɪv" tr="пассивный; страдательный; инертный; покорный"/>
+    <d v="passive" p="noun" ts="ˈpæsɪv" tr="страдательный залог"/>
+    <d v="passively" p="adverb" ts="ˈpæsɪvlɪ" tr="пассивно"/>
+    <d v="passively" p="adjective" ts="ˈpæsɪvlɪ" tr="пассивный"/>
+    <d v="passover" p="noun" ts="ˈpɑːsəʊvə" tr="Пасха; Песах"/>
+    <d v="passover" p="adjective" ts="ˈpɑːsəʊvə" tr="пасхальный"/>
+    <d v="passport" p="noun" ts="ˈpɑːspɔːt" tr="паспорт; паспортизация"/>
+    <d v="passport" p="adjective" ts="ˈpɑːspɔːt" tr="паспортный"/>
+    <d v="password" p="noun" ts="ˈpɑːswɜːd" tr="пароль; пропуск"/>
+    <d v="password" p="adjective" ts="ˈpɑːswɜːd" tr="парольный"/>
+    <d v="past" p="adjective" ts="pɑːst" tr="прошлый"/>
+    <d v="past" p="noun" ts="pɑːst" tr="прошлое; прошедшее время"/>
+    <d v="past" p="participle" ts="pɑːst" tr="прошедший; минувший"/>
+    <d v="pasta" p="noun" ts="ˈpæstə" tr="макароны; паста"/>
+    <d v="pasta" p="adjective" ts="ˈpæstə" tr="макаронный"/>
+    <d v="paste" p="noun" ts="peɪst" tr="паста; вставка; страз; клей; халва"/>
+    <d v="paste" p="verb" ts="peɪst" tr="вставить; наклеить; наклеивать; скопировать; расклеивать; обклеивать"/>
+    <d v="paste" p="adjective" ts="peɪst" tr="пастообразный"/>
+    <d v="pastel" p="adjective" ts="pæsˈtel" tr="пастельный"/>
+    <d v="pastel" p="noun" ts="pæsˈtel" tr="пастель"/>
+    <d v="pasteurization" p="noun" ts="pæstəraɪˈzeɪʃn" tr="пастеризация"/>
+    <d v="pasteurize" p="verb" ts="ˈpæstəraɪz" tr="пастеризовать"/>
+    <d v="pasteurize" p="noun" ts="ˈpæstəraɪz" tr="пастеризация"/>
+    <d v="pasteurized" p="participle" ts="ˈpɑːsʧəraɪzd" tr="пастеризованный"/>
+    <d v="pastime" p="noun" ts="ˈpɑːstaɪm" tr="времяпрепровождение; развлечение; занятие; препровождение"/>
+    <d v="pastor" p="noun" ts="ˈpɑːstə" tr="пастор"/>
+    <d v="pastoral" p="adjective" ts="ˈpɑːstərəl" tr="пастырский"/>
+    <d v="pastoral" p="noun" ts="ˈpɑːstərəl" tr="пастораль; скотоводство; послание"/>
+    <d v="pastry" p="noun" ts="ˈpeɪstrɪ" tr="выпечка; печенье; пирожное"/>
+    <d v="pastry" p="adjective" ts="ˈpeɪstrɪ" tr="кондитерский"/>
+    <d v="past tense" p="noun" ts="pɑːst tens" tr="прошедшее время"/>
+    <d v="pasture" p="noun" ts="ˈpɑːsʧə" tr="пастбище; подножный корм"/>
+    <d v="pasture" p="adjective" ts="ˈpɑːsʧə" tr="пастбищный; подножный"/>
+    <d v="pasture" p="verb" ts="ˈpɑːsʧə" tr="пасти"/>
+    <d v="pasty" p="adjective" ts="ˈpæstɪ" tr="пастообразный; бледный; одутловатый"/>
+    <d v="pasty" p="noun" ts="ˈpæstɪ" tr="пирог"/>
+    <d v="PA system" p="noun" ts="pɑː ˈsɪstɪm" tr="система па"/>
+    <d v="pat" p="noun" ts="pæt" tr="ПЭТ; Пат; похлопывание; хлопок; шлепок"/>
+    <d v="pat" p="verb" ts="pæt" tr="погладить; похлопать"/>
+    <d v="patch" p="noun" ts="pæʧ" tr="патч; пятно; пластырь; клочок; лоскуток; грядка; латка; мушка"/>
+    <d v="patch" p="verb" ts="pæʧ" tr="залатать; исправить; подлатать"/>
+    <d v="patchwork" p="adjective" ts="ˈpæʧwɜːk" tr="лоскутный"/>
+    <d v="patchwork" p="noun" ts="ˈpæʧwɜːk" tr="мешанина; ералаш"/>
+    <d v="patchy" p="adjective" ts="ˈpæʧɪ" tr="неоднородный; фрагментарный; обрывочный; случайный"/>
+    <d v="pate" p="noun" ts="peɪt" tr="паштет; башка; макушка"/>
+    <d v="patent" p="noun" ts="ˈpeɪtənt" tr="патент"/>
+    <d v="patent" p="adjective" ts="ˈpeɪtənt" tr="патентный; патентованный; явный"/>
+    <d v="patent" p="participle" ts="ˈpeɪtənt" tr="запатентованный; открытый"/>
+    <d v="patent" p="verb" ts="ˈpeɪtənt" tr="запатентовать"/>
+    <d v="patent leather" p="noun" ts="ˈpeɪtəntˈleðə" tr="лакированная кожа; лаковая кожа"/>
+    <d v="patent leather" p="adjective" ts="ˈpeɪtəntˈleðə" tr="лакированный"/>
+    <d v="patently" p="adverb" ts="ˈpeɪtəntlɪ" tr="явно"/>
+    <d v="paternal" p="adjective" ts="pəˈtɜːnl" tr="отцовский"/>
+    <d v="paternal" p="adverb" ts="pəˈtɜːnl" tr="отчего"/>
+    <d v="paternal" p="noun" ts="pəˈtɜːnl" tr="по отцовской линии"/>
+    <d v="paternalism" p="noun" ts="pəˈtɜːnəlɪzm" tr="патернализм"/>
+    <d v="paternalistic" p="adjective" ts="pətɜːnəˈlɪstɪk" tr="патерналистский"/>
+    <d v="paternity" p="noun" ts="pəˈtɜːnɪtɪ" tr="отцовство; авторство"/>
+    <d v="path" p="noun" ts="pɑːθ" tr="путь; тропа; контур"/>
+    <d v="pathetic" p="adjective" ts="pəˈθetɪk" tr="жалкий; трогательный; патетический; пафосный; печальный"/>
+    <d v="pathetically" p="adverb" ts="pəˈθetɪklɪ" tr="патетически; трогательно; проникновенно"/>
+    <d v="pathological" p="adjective" ts="pæθəˈlɔʤɪkəl" tr="патологический"/>
+    <d v="pathologically" p="adverb" ts="pæθəˈlɒʤɪklɪ" tr="патологически"/>
+    <d v="pathologist" p="noun" ts="pəˈθɔləʤɪst" tr="патологоанатом; логопед"/>
+    <d v="pathology" p="noun" ts="pəˈθɔləʤɪ" tr="патология"/>
+    <d v="pathology" p="adjective" ts="pəˈθɔləʤɪ" tr="патологический"/>
+    <d v="pathos" p="noun" ts="ˈpeɪθɔs" tr="пафос; патетика; пафосно"/>
+    <d v="pathway" p="noun" ts="ˈpɑːθweɪ" tr="путь; тропинка; путь распространения"/>
+    <d v="patience" p="noun" ts="ˈpeɪʃəns" tr="терпение; пасьянс"/>
+    <d v="patience" p="adjective" ts="ˈpeɪʃəns" tr="терпеливый"/>
+    <d v="patient" p="noun" ts="ˈpeɪʃənt" tr="пациент; терпение"/>
+    <d v="patient" p="adjective" ts="ˈpeɪʃənt" tr="больной; терпеливый; упорный"/>
+    <d v="patient" p="participle" ts="ˈpeɪʃənt" tr="терпящий"/>
+    <d v="patiently" p="adverb" ts="ˈpeɪʃntlɪ" tr="терпеливо"/>
+    <d v="patiently" p="noun" ts="ˈpeɪʃntlɪ" tr="терпение"/>
+    <d v="patio" p="noun" ts="ˈpætɪəʊ" tr="патио; дворик"/>
+    <d v="Patriarch" p="noun" ts="ˈpeɪtrɪɑːk" tr="Патриарх; праотец; старейшина; родоначальник"/>
+    <d v="patriarchal" p="adjective" ts="peɪtrɪˈɑːkəl" tr="Патриарший"/>
+    <d v="patriarchal" p="noun" ts="peɪtrɪˈɑːkəl" tr="патриархальность"/>
+    <d v="patriarchy" p="noun" ts="ˈpeɪtrɪɑːkɪ" tr="Патриархат; патриархальность"/>
+    <d v="patriarchy" p="adjective" ts="ˈpeɪtrɪɑːkɪ" tr="патриархальный"/>
+    <d v="patricide" p="noun" ts="ˈpætrɪsaɪd" tr="отцеубийство; отцеубийца"/>
+    <d v="patrimony" p="noun" ts="ˈpætrɪmənɪ" tr="наследие; вотчина"/>
+    <d v="patriot" p="noun" ts="ˈpeɪtrɪət" tr="патриот"/>
+    <d v="patriot" p="adjective" ts="ˈpeɪtrɪət" tr="патриотический"/>
+    <d v="Patriotic" p="adjective" ts="pætrɪˈɔtɪk" tr="патриотический"/>
+    <d v="patriotically" p="adverb" ts="pætrɪˈɒtɪklɪ" tr="патриотически; патриотично"/>
+    <d v="patriotism" p="noun" ts="ˈpætrɪətɪzm" tr="патриотизм"/>
+    <d v="patrol" p="noun" ts="pəˈtrəʊl" tr="патруль; дозор; отряд; разъезд"/>
+    <d v="patrol" p="adjective" ts="pəˈtrəʊl" tr="патрульный"/>
+    <d v="patrol" p="verb" ts="pəˈtrəʊl" tr="патрулировать; барражировать"/>
+    <d v="patrolman" p="adjective" ts="pəˈtrəʊlmæn" tr="патрульный"/>
+    <d v="patrolman" p="noun" ts="pəˈtrəʊlmæn" tr="полицейский"/>
+    <d v="patron" p="noun" ts="ˈpeɪtrən" tr="покровитель; меценат; клиент; постоянный клиент; хозяин; шеф"/>
+    <d v="patron" p="adjective" ts="ˈpeɪtrən" tr="меценатский"/>
+    <d v="patronage" p="noun" ts="ˈpætrənɪʤ" tr="патронаж; меценатство; шефство"/>
+    <d v="patronage" p="adjective" ts="ˈpætrənɪʤ" tr="шефский"/>
+    <d v="patronize" p="verb" ts="ˈpætrənaɪz" tr="покровительствовать; опекать; патронировать"/>
+    <d v="patronizing" p="participle" ts="ˈpætrənaɪzɪŋ" tr="покровительствующий"/>
+    <d v="patronizingly" p="adverb" ts="ˈpætrənaɪzɪŋlɪ" tr="покровительственно"/>
+    <d v="patron Saint" p="noun" ts="ˈpeɪtrən seɪnt" tr="покровитель; святой покровитель"/>
+    <d v="patter" p="noun" ts="ˈpætə" tr="скороговорка; стук; болтовня; жаргон; топотание"/>
+    <d v="patter" p="verb" ts="ˈpætə" tr="барабанить; тараторить"/>
+    <d v="pattern" p="noun" ts="ˈpætən"
+       tr="модель; шаблон; схема; образец; узор; картина; форма; характер; лабиринт; стереотип; выкройка"/>
+    <d v="pattern" p="adjective" ts="ˈpætən" tr="шаблонный"/>
+    <d v="pattern" p="verb" ts="ˈpætən" tr="копировать"/>
+    <d v="patterned" p="noun" ts="pætnd" tr="узор"/>
+    <d v="patterned" p="adjective" ts="pætnd" tr="узорчатый"/>
+    <d v="patty" p="noun" ts="ˈpætɪ" tr="Патти; пирожок"/>
+    <d v="paucity" p="noun" ts="ˈpɔːsɪtɪ" tr="нехватка; малочисленность; малое количество"/>
+    <d v="paunch" p="noun" ts="pɔːnʧ" tr="пузо; брюшко; рубец"/>
+    <d v="paunchy" p="adjective" ts="ˈpɔːnʧɪ" tr="пузатый"/>
+    <d v="paunchy" p="noun" ts="ˈpɔːnʧɪ" tr="с брюшком"/>
+    <d v="pause" p="noun" ts="pɔːz" tr="пауза; замешательство; перемена"/>
+    <d v="pause" p="verb" ts="pɔːz"
+       tr="остановиться; приостановить; приостанавливать; задуматься; прерваться; медлить"/>
+    <d v="pave" p="verb" ts="peɪv" tr="проложить; подготовить; мостить; выстилать"/>
+    <d v="pavement" p="noun" ts="ˈpeɪvmənt" tr="тротуар; покрытие; помост; выстилка; панель"/>
+    <d v="pavilion" p="noun" ts="pəˈvɪljən" tr="павильон; шатер; корпус"/>
+    <d v="paw" p="noun" ts="pɔː" tr="лапа; рука"/>
+    <d v="paw" p="verb" ts="pɔː" tr="лапать; шарить"/>
+    <d v="pawn" p="noun" ts="pɔːn" tr="пешка; залог"/>
+    <d v="pawn" p="verb" ts="pɔːn" tr="заложить"/>
+    <d v="pawn" p="adjective" ts="pɔːn" tr="пешечный; ломбардный; залоговый"/>
+    <d v="pawnbroker" p="noun" ts="ˈpɔːnbrəʊkə" tr="ломбард; ростовщик"/>
+    <d v="pay" p="verb" ts="peɪ"
+       tr="платить; обратить; выплатить; оплачивать; расплачиваться; поплатиться; наносить; оказывать; делать; приносить доход"/>
+    <d v="pay" p="noun" ts="peɪ" tr="оплата; плата; получка; расплата; денежное довольствие; денежное содержание"/>
+    <d v="pay" p="adjective" ts="peɪ" tr="платный"/>
+    <d v="pay" p="participle" ts="peɪ" tr="оплачиваемый"/>
+    <d v="payable" p="noun" ts="ˈpeɪəbl" tr="оплата"/>
+    <d v="payable" p="participle" ts="ˈpeɪəbl" tr="выплачиваемый; подлежащий уплате"/>
+    <d v="paycheck" p="noun" ts="ˈpæʧek" tr="зарплата; чек"/>
+    <d v="payday" p="noun" ts="ˈpeɪdeɪ" tr="зарплата; день зарплаты; день выплаты жалованья; день платежа"/>
+    <d v="payee" p="noun" ts="peɪˈiː" tr="получатель; получатель платежа"/>
+    <d v="payload" p="noun" ts="ˈpeɪləʊd" tr="полезная нагрузка; грузоподъемность; полезный груз"/>
+    <d v="payload" p="adjective" ts="ˈpeɪləʊd" tr="полезный"/>
+    <d v="payment" p="noun" ts="ˈpeɪmənt" tr="платеж; взнос; расплата"/>
+    <d v="payment" p="adjective" ts="ˈpeɪmənt" tr="платежный"/>
+    <d v="payoff" p="noun" ts="ˈpeɪˈɔf" tr="выигрыш; подкуп; выплата; отдача; откуп; развязка"/>
+    <d v="pay phone" p="noun" ts="peɪ fəʊn" tr="таксофон; телефонная будка"/>
+    <d v="payroll" p="noun" ts="ˈpeɪrəʊl" tr="заработная плата; платежная ведомость; расчет зарплаты"/>
+    <d v="payroll" p="adjective" ts="ˈpeɪrəʊl" tr="заработный; зарплатный"/>
+    <d v="pay-TV" p="noun" ts="peɪ-telɪˈvɪʒn" tr="Платное телевидение"/>
+    <d v="PC" p="invariant" ts="ˈpiːsiː" tr="ПК; РС"/>
+    <d v="PC" p="noun" ts="ˈpiːsiː" tr="компьютер; персональный компьютер; пикокулон"/>
+    <d v="PE" p="noun" ts="piːˈiː" tr="ПЭ"/>
+    <d v="PE" p="adjective" ts="piːˈiː" tr="полиэтиленовый"/>
+    <d v="pea" p="noun" ts="piː" tr="горох; горошина; горошинка"/>
+    <d v="pea" p="adjective" ts="piː" tr="гороховый"/>
+    <d v="peace" p="noun" ts="piːs" tr="мир; покой"/>
+    <d v="peace" p="adjective" ts="piːs" tr="мирный"/>
+    <d v="peaceable" p="adjective" ts="ˈpiːsəbl" tr="мирный"/>
+    <d v="peaceably" p="adverb" ts="ˈpiːsəblɪ" tr="мирно"/>
+    <d v="peace corps" p="noun" ts="piːs kɔː" tr="корпус мира"/>
+    <d v="peaceful" p="adjective" ts="ˈpiːsfʊl" tr="мирный"/>
+    <d v="peaceful" p="adverb" ts="ˈpiːsfʊl" tr="мирно"/>
+    <d v="peaceful" p="participle" ts="ˈpiːsfʊl" tr="умиротворенный"/>
+    <d v="peacefully" p="adverb" ts="ˈpiːsfəlɪ" tr="мирно; спокойно"/>
+    <d v="peacefully" p="adjective" ts="ˈpiːsfəlɪ" tr="мирный"/>
+    <d v="peacefulness" p="noun" ts="ˈpiːsflnəs" tr="миролюбие; спокойствие"/>
+    <d v="peacekeeping" p="adjective" ts="ˈpiːskiːpɪŋ" tr="миротворческий"/>
+    <d v="peacekeeping" p="noun" ts="ˈpiːskiːpɪŋ" tr="поддержание мира"/>
+    <d v="peacemaker" p="noun" ts="ˈpiːsmeɪkə" tr="миротворец; примиритель"/>
+    <d v="peacetime" p="noun" ts="ˈpiːstaɪm" tr="мирное время"/>
+    <d v="peach" p="noun" ts="piːʧ" tr="персик"/>
+    <d v="peach" p="adjective" ts="piːʧ" tr="персиковый"/>
+    <d v="peacock" p="noun" ts="ˈpiːkɔk" tr="павлин"/>
+    <d v="peacock" p="adjective" ts="ˈpiːkɔk" tr="павлиний"/>
+    <d v="peak" p="noun" ts="piːk" tr="пик; козырек; расцвет; высшая точка; кончик"/>
+    <d v="peak" p="adjective" ts="piːk" tr="пиковый; амплитудный"/>
+    <d v="peak" p="verb" ts="piːk" tr="чахнуть"/>
+    <d v="peal" p="noun" ts="piːl" tr="раскат"/>
+    <d v="peal" p="verb" ts="piːl" tr="греметь; трезвонить"/>
+    <d v="peanut" p="noun" ts="ˈpiːnʌt" tr="арахис; орешек"/>
+    <d v="peanut" p="adjective" ts="ˈpiːnʌt" tr="арахисовый"/>
+    <d v="peanut butter" p="noun" ts="ˈpiːnʌt ˈbʌtə" tr="арахисовое масло; ореховое масло; арахисовая паста"/>
+    <d v="peanuts" p="noun" ts="ˈpiːnʌts" tr="копейка"/>
+    <d v="pear" p="noun" ts="pɛə" tr="груша"/>
+    <d v="pear" p="adjective" ts="pɛə" tr="грушевый; грушевидный"/>
+    <d v="pearl" p="noun" ts="pɜːl" tr="жемчужина; жемчуг"/>
+    <d v="pearl" p="adjective" ts="pɜːl" tr="жемчужный"/>
+    <d v="peasant" p="noun" ts="ˈpezənt" tr="крестьянин; мужичок"/>
+    <d v="peasant" p="adjective" ts="ˈpezənt" tr="крестьянский"/>
+    <d v="peat" p="noun" ts="piːt" tr="торф; торфяник"/>
+    <d v="peat" p="adjective" ts="piːt" tr="торфяной"/>
+    <d v="pebble" p="noun" ts="pebl" tr="галька; камешек"/>
+    <d v="pebble" p="adjective" ts="pebl" tr="галечный"/>
+    <d v="pecan" p="noun" ts="pɪˈkæn" tr="пекан"/>
+    <d v="peck" p="verb" ts="pek" tr="клевать; заклевать; поклевать; выклевать; долбить"/>
+    <d v="peck" p="noun" ts="pek" tr="пек; клевок"/>
+    <d v="peculiar" p="adjective" ts="pɪˈkjuːljə" tr="особый; своеобразный; странный; собственный"/>
+    <d v="peculiar" p="participle" ts="pɪˈkjuːljə" tr="свойственный"/>
+    <d v="peculiar" p="noun" ts="pɪˈkjuːljə" tr="своеобразие"/>
+    <d v="peculiarity" p="noun" ts="pɪkjuːlɪˈærɪtɪ" tr="особенность; тонкость; странность; характерная черта"/>
+    <d v="peculiarly" p="adverb" ts="pɪˈkjuːljəlɪ" tr="особенно; своеобразно; лично"/>
+    <d v="pedagogical" p="adjective" ts="pedəˈgɔʤɪkəl" tr="педагогический"/>
+    <d v="pedagogy" p="noun" ts="ˈpedəgɔʤɪ" tr="педагогика"/>
+    <d v="pedal" p="noun" ts="pedl" tr="педаль"/>
+    <d v="pedal" p="adjective" ts="pedl" tr="педальный"/>
+    <d v="pedantic" p="adjective" ts="pɪˈdæntɪk" tr="педантичный"/>
+    <d v="pedantically" p="adverb" ts="pɪˈdæntɪklɪ" tr="педантично"/>
+    <d v="pedantry" p="noun" ts="ˈpedəntrɪ" tr="педантизм; педантичность"/>
+    <d v="peddle" p="verb" ts="pedl" tr="торговать; торговать вразнос"/>
+    <d v="peddler" p="noun" ts="ˈpedlə" tr="торговец"/>
+    <d v="pedestal" p="noun" ts="ˈpedɪstl" tr="пьедестал; тумба"/>
+    <d v="pedestrian" p="noun" ts="pɪˈdestrɪən" tr="пешеход"/>
+    <d v="pedestrian" p="adjective" ts="pɪˈdestrɪən" tr="пешеходный; скучный"/>
+    <d v="pediatrician" p="noun" ts="piːdɪəˈtrɪʃn" tr="педиатр"/>
+    <d v="pediatrics" p="noun" ts="piːdɪˈætrɪks" tr="педиатрия"/>
+    <d v="pedigree" p="noun" ts="ˈpedɪgriː" tr="родословная"/>
+    <d v="pedigree" p="adjective" ts="ˈpedɪgriː" tr="племенной"/>
+    <d v="pedigreed" p="adjective" ts="ˈpedɪgriːd" tr="породистый"/>
+    <d v="pee" p="verb" ts="piː" tr="пописать"/>
+    <d v="pee" p="noun" ts="piː" tr="моча; ОЭЭ"/>
+    <d v="peek" p="verb" ts="piːk" tr="заглянуть; выглянуть"/>
+    <d v="peek" p="noun" ts="piːk" tr="быстрый взгляд"/>
+    <d v="peel" p="noun" ts="piːl" tr="кожура; пилинг; шелуха; от кожуры"/>
+    <d v="peel" p="verb" ts="piːl"
+       tr="очистить; почистить; слезть; лупить; облезать; ободрать; отодрать; лупиться; сходить"/>
+    <d v="peel" p="participle" ts="piːl" tr="очищенный"/>
+    <d v="peep" p="verb" ts="piːp" tr="заглянуть; выглядывать; пищать; подглядеть; проглядывать"/>
+    <d v="peep" p="noun" ts="piːp" tr="хев; писк; щель; глазок; проблеск"/>
+    <d v="peephole" p="noun" ts="ˈpiːphəʊl" tr="глазок"/>
+    <d v="peer" p="adjective" ts="pɪə" tr="равный; одноранговый; экспертный"/>
+    <d v="peer" p="noun" ts="pɪə" tr="коллега; пэр; ровесник; пир; сверстница; лорд"/>
+    <d v="peer" p="verb" ts="pɪə" tr="заглянуть; вглядываться"/>
+    <d v="peerless" p="adjective" ts="ˈpɪəlɪs" tr="несравненный"/>
+    <d v="peeve" p="verb" ts="piːv" tr="раздражать"/>
+    <d v="peeve" p="noun" ts="piːv" tr="любимая мозоль"/>
+    <d v="peg" p="noun" ts="peg" tr="колышек; привязка; вешалка; штифт; нагель; затычка; деревянная нога"/>
+    <d v="peg" p="verb" ts="peg" tr="привязать; застолбить; бросать"/>
+    <d v="pejorative" p="adjective" ts="ˈpiːʤərətɪv" tr="уничижительный"/>
+    <d v="pelican" p="noun" ts="ˈpelɪkən" tr="пеликан"/>
+    <d v="pellet" p="noun" ts="ˈpelɪt" tr="гранула; окатыш; таблетка; шарик; дробинка; дробина; пулька; катышек"/>
+    <d v="pelt" p="noun" ts="pelt" tr="шкурка"/>
+    <d v="pelt" p="verb" ts="pelt" tr="забросать"/>
+    <d v="pelvic" p="adjective" ts="ˈpelvɪk" tr="тазовый"/>
+    <d v="pelvic" p="noun" ts="ˈpelvɪk" tr="таз"/>
+    <d v="pelvis" p="noun" ts="ˈpelvɪs" tr="таз; лоханка"/>
+    <d v="pen" p="noun" ts="pen" tr="ручка; перо; фломастер; загон; Перу; писатель"/>
+    <d v="pen" p="adjective" ts="pen" tr="перьевой"/>
+    <d v="pen" p="verb" ts="pen" tr="писать"/>
+    <d v="penal" p="adjective" ts="piːnl" tr="уголовный"/>
+    <d v="penalize" p="verb" ts="ˈpiːnəlaɪz" tr="наказывать"/>
+    <d v="penalize" p="noun" ts="ˈpiːnəlaɪz" tr="наказание"/>
+    <d v="penalty" p="noun" ts="ˈpenltɪ" tr="штраф; казнь; пенальти"/>
+    <d v="penalty" p="adjective" ts="ˈpenltɪ" tr="штрафной; наказуемый"/>
+    <d v="penance" p="noun" ts="ˈpenəns" tr="покаяние; епитимия; епитимья; наказание; искупление"/>
+    <d v="penance" p="verb" ts="ˈpenəns" tr="покаяться"/>
+    <d v="penchant" p="noun" ts="ˈpɑːŋʃɑːŋ" tr="склонность"/>
+    <d v="pencil" p="noun" ts="pensl" tr="карандаш; пучок"/>
+    <d v="pencil" p="adjective" ts="pensl" tr="карандашный"/>
+    <d v="pencil" p="verb" ts="pensl" tr="рисовать"/>
+    <d v="pencil case" p="noun" ts="pensl keɪs" tr="пенал"/>
+    <d v="pencil sharpener" p="noun" ts="pensl ˈʃɑːpnər" tr="точилка; точилка для карандашей"/>
+    <d v="pendant" p="noun" ts="ˈpendənt" tr="подвеска; шкентель; брелок; висюлька; дополнение"/>
+    <d v="pendant" p="adjective" ts="ˈpendənt" tr="подвесной"/>
+    <d v="pending" p="noun" ts="ˈpendɪŋ" tr="ожидание; в ожидании; на рассмотрении; в продолжение"/>
+    <d v="pending" p="participle" ts="ˈpendɪŋ" tr="отложенный; ожидающий; надвигающийся"/>
+    <d v="pending" p="preposition" ts="ˈpendɪŋ" tr="до"/>
+    <d v="pending" p="adjective" ts="ˈpendɪŋ" tr="незавершенный"/>
+    <d v="pendulum" p="noun" ts="ˈpendjʊləm" tr="маятник"/>
+    <d v="pendulum" p="adjective" ts="ˈpendjʊləm" tr="маятниковый"/>
+    <d v="penetrate" p="verb" ts="ˈpenɪtreɪt"
+       tr="проникать; проникнуть; вникать; пробить; попадать; входить; проходить; проникнуться; понимать"/>
+    <d v="penetrate" p="noun" ts="ˈpenɪtreɪt" tr="проникновение"/>
+    <d v="penetrate" p="participle" ts="ˈpenɪtreɪt" tr="проникающий"/>
+    <d v="penetrating" p="participle" ts="ˈpenɪtreɪtɪŋ" tr="проникающий; пронизывающий; проникший"/>
+    <d v="penetrating" p="adjective" ts="ˈpenɪtreɪtɪŋ" tr="проницательный; пронзительный; резкий"/>
+    <d v="penetrating" p="noun" ts="ˈpenɪtreɪtɪŋ" tr="проникновение"/>
+    <d v="penetrating" p="adverbial participle" ts="ˈpenɪtreɪtɪŋ" tr="вникая"/>
+    <d v="penetration" p="noun" ts="penɪˈtreɪʃn"
+       tr="проникновение; проходка; взаимопроникновение; проницаемость; проницательность; заглубление; прорыв"/>
+    <d v="penetration" p="participle" ts="penɪˈtreɪʃn" tr="проникающий"/>
+    <d v="penetration" p="verb" ts="penɪˈtreɪʃn" tr="проникать"/>
+    <d v="penguin" p="noun" ts="ˈpeŋgwɪn" tr="пингвин"/>
+    <d v="penicillin" p="noun" ts="penɪˈsɪlɪn" tr="пенициллин"/>
+    <d v="peninsula" p="noun" ts="pɪˈnɪnsjʊlə" tr="полуостров"/>
+    <d v="penis" p="noun" ts="ˈpiːnɪs" tr="пенис; половой член; мужской половой член"/>
+    <d v="penitence" p="noun" ts="ˈpenɪtəns" tr="покаяние"/>
+    <d v="penitent" p="participle" ts="ˈpenɪtənt" tr="кающийся; раскаявшийся; раскаивающийся"/>
+    <d v="penitent" p="noun" ts="ˈpenɪtənt" tr="кающийся грешник"/>
+    <d v="penitent" p="verb" ts="ˈpenɪtənt" tr="раскаяться"/>
+    <d v="penitentiary" p="adjective" ts="penɪˈtenʃərɪ" tr="пенитенциарный"/>
+    <d v="penitentiary" p="noun" ts="penɪˈtenʃərɪ" tr="пенитенциарий; каторжная тюрьма"/>
+    <d v="penknife" p="adjective" ts="ˈpennaɪf" tr="перочинный"/>
+    <d v="penknife" p="noun" ts="ˈpennaɪf" tr="перочинный нож; перочинный ножик"/>
+    <d v="pen name" p="noun" ts="pen neɪm" tr="литературный псевдоним"/>
+    <d v="pennant" p="noun" ts="ˈpenənt" tr="вымпел"/>
+    <d v="penniless" p="noun" ts="ˈpenɪlɪs" tr="без гроша; без денег"/>
+    <d v="penniless" p="adjective" ts="ˈpenɪlɪs" tr="нищий; безденежный"/>
+    <d v="penny" p="noun" ts="ˈpenɪ" tr="копейка; пенни"/>
+    <d v="penny" p="verb" ts="ˈpenɪ" tr="подрабатывать"/>
+    <d v="pension" p="adjective" ts="penʃn" tr="пенсионный"/>
+    <d v="pension" p="noun" ts="penʃn" tr="пенсия; пансион"/>
+    <d v="pensive" p="adjective" ts="ˈpensɪv" tr="задумчивый"/>
+    <d v="pensive" p="noun" ts="ˈpensɪv" tr="задумчивость"/>
+    <d v="Pentagon" p="noun" ts="ˈpentəgən" tr="Пентагон; пятиугольник; Министерство обороны США"/>
+    <d v="Pentagon" p="adjective" ts="ˈpentəgən" tr="пентагоновский"/>
+    <d v="Pentagon" p="noun" ts="ˈpentəgən" tr="Пентагон; пятиугольник; Министерство обороны США"/>
+    <d v="Pentagon" p="adjective" ts="ˈpentəgən" tr="пентагоновский"/>
+    <d v="penthouse" p="noun" ts="ˈpenthaʊs" tr="пентхаус; мансарда"/>
+    <d v="peon" p="noun" ts="pjuːn" tr="пеон; пехотинец; батрак"/>
+    <d v="people" p="noun" ts="piːpl" tr="люди; народ; прихожане; родные; служащие; родители"/>
+    <d v="people" p="verb" ts="piːpl" tr="населять"/>
+    <d v="PEP" p="noun" ts="pep" tr="бодрость; ОПТООСЗ; ОПТОСОЗ"/>
+    <d v="PEP" p="verb" ts="pep" tr="подгонять"/>
+    <d v="pepper" p="noun" ts="ˈpepə" tr="перец; перечница"/>
+    <d v="pepper" p="verb" ts="ˈpepə" tr="поперчить; перчить; забрасывать"/>
+    <d v="pepper" p="adjective" ts="ˈpepə" tr="перечный; перцовый"/>
+    <d v="peppermint" p="noun" ts="ˈpepəmɪnt" tr="мята; перечная мята"/>
+    <d v="peppermint" p="adjective" ts="ˈpepəmɪnt" tr="мятный"/>
+    <d v="peppy" p="noun" ts="ˈpepɪ" tr="Пеппи"/>
+    <d v="peppy" p="adjective" ts="ˈpepɪ" tr="бодрый"/>
+    <d v="PEP talk" p="noun" ts="pep tɔːk" tr="зажигательная речь"/>
+    <d v="per" p="preposition" ts="pɜː" tr="в; за; по; согласно; через"/>
+    <d v="per" p="pronoun" ts="pɜː" tr="каждый"/>
+    <d v="perceive" p="verb" ts="pəˈsiːv"
+       tr="воспринимать; ощущать; понимать; ощутить; постигать; познать; усматривать; различать"/>
+    <d v="perceive" p="noun" ts="pəˈsiːv" tr="восприятие"/>
+    <d v="percent" p="noun" ts="pəˈsent" tr="процент"/>
+    <d v="percentage" p="noun" ts="pəˈsentɪʤ" tr="процент"/>
+    <d v="percentage" p="adjective" ts="pəˈsentɪʤ" tr="процентный"/>
+    <d v="perceptible" p="adjective" ts="pəˈseptəbl" tr="заметный; чувственный"/>
+    <d v="perceptible" p="verb" ts="pəˈseptəbl" tr="отмечаться"/>
+    <d v="perceptible" p="participle" ts="pəˈseptəbl" tr="воспринимаемый"/>
+    <d v="perceptibly" p="adverb" ts="pəˈseptəblɪ" tr="ощутимо"/>
+    <d v="perception" p="noun" ts="pəˈsepʃn"
+       tr="восприятие; представление; ощущение; понимание; мировосприятие; мироощущение; перцепция; сбор"/>
+    <d v="perceptive" p="adjective" ts="pəˈseptɪv" tr="проницательный; восприимчивый; перцептивный"/>
+    <d v="perch" p="noun" ts="pɜːʧ" tr="окунь; Судак; насест; жердь"/>
+    <d v="perch" p="verb" ts="pɜːʧ" tr="усесться"/>
+    <d v="percolate" p="verb" ts="ˈpɜːkəleɪt" tr="просачиваться; процеживать"/>
+    <d v="percolator" p="noun" ts="ˈpɜːkəleɪtə" tr="перколятор"/>
+    <d v="percussion" p="adjective" ts="pəˈkʌʃn" tr="ударный"/>
+    <d v="percussion" p="noun" ts="pəˈkʌʃn" tr="перкуссия; удар; выстукивание; сотрясение"/>
+    <d v="peremptory" p="adjective" ts="pəˈremptərɪ" tr="императивный; безапелляционный; безусловный; окончательный"/>
+    <d v="perennial" p="adjective" ts="pəˈrenjəl" tr="многолетний; вечный; неувядаемый"/>
+    <d v="perennial" p="noun" ts="pəˈrenjəl" tr="многолетник; длящийся круглый год"/>
+    <d v="perfect" p="adjective" ts="ˈpɜːfɪkt" tr="идеальный; прекрасный; совершенный; безупречный; полный; настоящий"/>
+    <d v="perfect" p="verb" ts="ˈpɜːfɪkt" tr="идеально подходить; совершенствовать"/>
+    <d v="perfect" p="noun" ts="ˈpɜːfɪkt" tr="совершенство"/>
+    <d v="perfect" p="participle" ts="ˈpɜːfɪkt" tr="идеально подходящий; законченный"/>
+    <d v="perfection" p="noun" ts="pəˈfekʃn" tr="совершенство; совершенствование; завершенность; верх"/>
+    <d v="perfection" p="verb" ts="pəˈfekʃn" tr="совершенствовать"/>
+    <d v="perfectly" p="adverb" ts="ˈpɜːfɪktlɪ" tr="прекрасно; совершенно; безупречно; намертво"/>
+    <d v="perfectly" p="noun" ts="ˈpɜːfɪktlɪ" tr="в совершенстве"/>
+    <d v="perfectly" p="verb" ts="ˈpɜːfɪktlɪ" tr="сочетаться"/>
+    <d v="perforate" p="verb" ts="ˈpɜːfəreɪt" tr="перфорировать; проникать"/>
+    <d v="perform" p="verb" ts="pəˈfɔːm" tr="выполнять; осуществлять; выступать; совершать; представлять"/>
+    <d v="perform" p="noun" ts="pəˈfɔːm" tr="выполнение"/>
+    <d v="performance" p="noun" ts="pəˈfɔːməns"
+       tr="производительность; выступление; исполнение; работа; характеристика; перформанс; перфоманс; эксплуатационные качества"/>
+    <d v="performer" p="noun" ts="pəˈfɔːmə" tr="исполнитель; совершитель"/>
+    <d v="perfume" p="noun" ts="ˈpɜːfjuːm" tr="парфюмерия; аромат"/>
+    <d v="perfume" p="adjective" ts="ˈpɜːfjuːm" tr="парфюмерный"/>
+    <d v="perfume" p="verb" ts="ˈpɜːfjuːm" tr="душить; надушить"/>
+    <d v="perfunctorily" p="adverb" ts="pəˈfʌŋktərɪlɪ" tr="поверхностно"/>
+    <d v="perfunctory" p="adjective" ts="pəˈfʌŋktərɪ" tr="поверхностный; формальный; небрежный"/>
+    <d v="perhaps" p="adverb" ts="pəˈhæps" tr="возможно"/>
+    <d v="perhaps" p="conjunction" ts="pəˈhæps" tr="разве что"/>
+    <d v="perhaps" p="particle" ts="pəˈhæps" tr="авось"/>
+    <d v="peril" p="noun" ts="ˈperɪl" tr="опасность"/>
+    <d v="perilous" p="adjective" ts="ˈperɪləs" tr="опасный"/>
+    <d v="perimeter" p="noun" ts="pəˈrɪmɪtə" tr="периметр"/>
+    <d v="perimeter" p="adjective" ts="pəˈrɪmɪtə" tr="периметральный"/>
+    <d v="period" p="noun" ts="ˈpɪərɪəd" tr="период; срок; точка; менструация"/>
+    <d v="periodic" p="adjective" ts="pɪərɪˈɔdɪk" tr="периодический"/>
+    <d v="periodic" p="adverb" ts="pɪərɪˈɔdɪk" tr="периодически"/>
+    <d v="periodical" p="adjective" ts="pɪərɪˈɔdɪkəl" tr="периодический"/>
+    <d v="periodical" p="noun" ts="pɪərɪˈɔdɪkəl" tr="журнал"/>
+    <d v="periodically" p="adverb" ts="pɪərɪˈɔdɪkəlɪ" tr="периодически"/>
+    <d v="periodically" p="adjective" ts="pɪərɪˈɔdɪkəlɪ" tr="периодический"/>
+    <d v="periodically" p="noun" ts="pɪərɪˈɔdɪkəlɪ" tr="время от времени"/>
+    <d v="periodic table" p="noun" ts="pɪərɪˈɔdɪk teɪbl" tr="периодическая таблица; таблица Менделеева"/>
+    <d v="peripheral" p="adjective" ts="pəˈrɪfərəl" tr="периферийный; второстепенный; частный"/>
+    <d v="peripheral" p="noun" ts="pəˈrɪfərəl" tr="периферия"/>
+    <d v="periphery" p="noun" ts="pəˈrɪfərɪ" tr="периферия; окружность"/>
+    <d v="periscope" p="noun" ts="ˈperɪskəʊp" tr="перископ"/>
+    <d v="perish" p="verb" ts="ˈperɪʃ" tr="погибать; исчезнуть; губить"/>
+    <d v="perish" p="noun" ts="ˈperɪʃ" tr="погибель"/>
+    <d v="perishable" p="adjective" ts="ˈperɪʃəbl" tr="скоропортящийся; бренный; непрочный"/>
+    <d v="perishable" p="participle" ts="ˈperɪʃəbl" tr="тленный"/>
+    <d v="perjury" p="noun" ts="ˈpɜːʤərɪ" tr="лжесвидетельство; клятвопреступление; вероломство"/>
+    <d v="perk" p="noun" ts="pɜːk" tr="льгота; перка"/>
+    <d v="perk" p="verb" ts="pɜːk" tr="воспрянуть духом; оживиться; задирать нос"/>
+    <d v="perky" p="adjective" ts="ˈpɜːkɪ" tr="бойкий; задорный; самоуверенный; дерзкий"/>
+    <d v="Perm" p="adjective" ts="pɜːm" tr="Пермский"/>
+    <d v="Perm" p="noun" ts="pɜːm" tr="Пермь; завивка"/>
+    <d v="permanence" p="noun" ts="ˈpɜːmənəns" tr="постоянство; прочность"/>
+    <d v="permanent" p="adjective" ts="ˈpɜːmənənt" tr="постоянный; остаточный"/>
+    <d v="permanent" p="participle" ts="ˈpɜːmənənt" tr="постоянно действующий"/>
+    <d v="permanently" p="adverb" ts="ˈpɜːmənəntlɪ" tr="постоянно; навсегда; стационарно"/>
+    <d v="permanently" p="noun" ts="ˈpɜːmənəntlɪ" tr="постоянное жительство"/>
+    <d v="permeate" p="verb" ts="ˈpɜːmɪeɪt" tr="пронизывать; проникать; пропитывать; распространяться; пронизать"/>
+    <d v="permissible" p="adjective" ts="pəˈmɪsəbl" tr="допустимый"/>
+    <d v="permissible" p="participle" ts="pəˈmɪsəbl" tr="допускаемый"/>
+    <d v="permission" p="noun" ts="pəˈmɪʃn" tr="разрешение; дозволение"/>
+    <d v="permission" p="adjective" ts="pəˈmɪʃn" tr="разрешительный"/>
+    <d v="permissive" p="adjective" ts="pəˈmɪsɪv" tr="разрешительный; либеральный; снисходительный"/>
+    <d v="permissive" p="participle" ts="pəˈmɪsɪv" tr="разрешающий"/>
+    <d v="permit" p="noun" ts="ˈpɜːmɪt" tr="разрешение; путевка"/>
+    <d v="permit" p="verb" ts="ˈpɜːmɪt" tr="позволять; разрешить"/>
+    <d v="permit" p="adjective" ts="ˈpɜːmɪt" tr="разрешительный"/>
+    <d v="permutation" p="noun" ts="pɜːmjʊˈteɪʃn" tr="перестановка; подстановка"/>
+    <d v="pernicious" p="adjective" ts="pɜːˈnɪʃəs" tr="пагубный"/>
+    <d v="peroxide" p="noun" ts="pəˈrɔksaɪd" tr="пероксид"/>
+    <d v="peroxide" p="adjective" ts="pəˈrɔksaɪd" tr="перекисный"/>
+    <d v="perpendicular" p="adjective" ts="pɜːpənˈdɪkjʊlə" tr="перпендикулярный"/>
+    <d v="perpendicular" p="noun" ts="pɜːpənˈdɪkjʊlə" tr="перпендикуляр"/>
+    <d v="perpetrate" p="verb" ts="ˈpɜːpɪtreɪt" tr="совершать; сотворить"/>
+    <d v="perpetrator" p="noun" ts="ˈpɜːpɪtreɪtə" tr="преступник; исполнитель; правонарушитель; зачинщик"/>
+    <d v="perpetrator" p="adjective" ts="ˈpɜːpɪtreɪtə" tr="виновный"/>
+    <d v="perpetual" p="adjective" ts="pəˈpeʧʊəl" tr="вечный; бесконечный"/>
+    <d v="perpetually" p="adverb" ts="pəˈpeʧʊəlɪ" tr="постоянно"/>
+    <d v="perpetuate" p="verb" ts="pəˈpeʧʊeɪt" tr="увековечить"/>
+    <d v="perpetuate" p="noun" ts="pəˈpeʧʊeɪt" tr="увековечение"/>
+    <d v="perplex" p="verb" ts="pəˈpleks" tr="озадачить; смущать"/>
+    <d v="perplex" p="noun" ts="pəˈpleks" tr="недоумение"/>
+    <d v="perplexed" p="noun" ts="pəˈplekst" tr="недоумение"/>
+    <d v="perplexed" p="participle" ts="pəˈplekst" tr="озадаченный; растерянный"/>
+    <d v="perplexing" p="noun" ts="pəˈpleksɪŋ" tr="недоумение"/>
+    <d v="perplexing" p="adjective" ts="pəˈpleksɪŋ" tr="запутанный"/>
+    <d v="perquisite" p="noun" ts="ˈpɜːkwɪzɪt" tr="привилегия; приработок"/>
+    <d v="persecute" p="verb" ts="ˈpɜːsɪkjuːt" tr="преследовать; докучать"/>
+    <d v="persecute" p="noun" ts="ˈpɜːsɪkjuːt" tr="преследование"/>
+    <d v="persecution" p="noun" ts="pɜːsɪˈkjuːʃn" tr="преследование"/>
+    <d v="persecutor" p="noun" ts="ˈpɜːsɪkjuːtə" tr="преследователь"/>
+    <d v="perseverance" p="noun" ts="pɜːsɪˈvɪərəns" tr="настойчивость; выдержка; неотступность"/>
+    <d v="persevere" p="verb" ts="pɜːsɪˈvɪə" tr="упорно продолжать; выстоять; упорно добиваться"/>
+    <d v="persevere" p="noun" ts="pɜːsɪˈvɪə" tr="настойчивость"/>
+    <d v="persevere" p="adjective" ts="pɜːsɪˈvɪə" tr="упорный"/>
+    <d v="persist" p="verb" ts="pəˈsɪst" tr="сохраниться; упорствовать; настаивать; длиться; продержаться; устоять"/>
+    <d v="persist" p="noun" ts="pəˈsɪst" tr="упорство"/>
+    <d v="persistence" p="noun" ts="pəˈsɪstəns" tr="настойчивость; сохранение; стойкость; инерционность"/>
+    <d v="persistent" p="adjective" ts="pəˈsɪstənt" tr="стойкий; упорный; персистирующий"/>
+    <d v="persistent" p="noun" ts="pəˈsɪstənt" tr="настойчивость"/>
+    <d v="persistently" p="adverb" ts="pəˈsɪstəntlɪ" tr="упорно"/>
+    <d v="persistently" p="adjective" ts="pəˈsɪstəntlɪ" tr="настойчивый"/>
+    <d v="person" p="noun" ts="pɜːsn" tr="человек; внешность"/>
+    <d v="persona" p="noun" ts="pɜːˈsəʊnə" tr="персона; имидж"/>
+    <d v="personable" p="adjective" ts="ˈpɜːsnəbl" tr="представительный; красивый"/>
+    <d v="personal" p="adjective" ts="pɜːsnl" tr="личный"/>
+    <d v="personal computer" p="noun" ts="pɜːsnl kəmˈpjuːtə"
+       tr="персональный компьютер; личный компьютер; персональная ЭВМ; ПЭВМ"/>
+    <d v="personal computer" p="invariant" ts="pɜːsnl kəmˈpjuːtə" tr="ПК"/>
+    <d v="personality" p="noun" ts="pɜːsəˈnælɪtɪ" tr="личность; правосубъектность; натура; особенности характера"/>
+    <d v="personality" p="adjective" ts="pɜːsəˈnælɪtɪ" tr="личностный"/>
+    <d v="personalize" p="verb" ts="ˈpɜːsnəlaɪz" tr="персонализировать; персонифицировать"/>
+    <d v="personalize" p="noun" ts="ˈpɜːsnəlaɪz" tr="персонализация; индивидуализация"/>
+    <d v="personally" p="adverb" ts="ˈpɜːsnəlɪ" tr="лично"/>
+    <d v="personally" p="pronoun" ts="ˈpɜːsnəlɪ" tr="сам"/>
+    <d v="personal pronoun" p="noun" ts="pɜːsnl ˈprəʊnaʊn" tr="личное местоимение"/>
+    <d v="personification" p="noun" ts="pɜːsɔnɪfɪˈkeɪʃn" tr="олицетворение; персонификация"/>
+    <d v="personify" p="verb" ts="pɜːˈsɔnɪfaɪ" tr="олицетворять; воплощать"/>
+    <d v="personify" p="noun" ts="pɜːˈsɔnɪfaɪ" tr="олицетворение"/>
+    <d v="personnel" p="noun" ts="pɜːsəˈnel" tr="персонал"/>
+    <d v="personnel" p="adjective" ts="pɜːsəˈnel" tr="кадровый"/>
+    <d v="perspective" p="noun" ts="pəˈspektɪv" tr="перспектива"/>
+    <d v="perspective" p="adjective" ts="pəˈspektɪv" tr="перспективный"/>
+    <d v="perspiration" p="noun" ts="pɜːspəˈreɪʃn" tr="пот; потоотделение"/>
+    <d v="perspire" p="verb" ts="pəsˈpaɪə" tr="потеть"/>
+    <d v="persuade" p="verb" ts="pəˈsweɪd" tr="убедить; уговаривать; побудить"/>
+    <d v="persuasion" p="noun" ts="pəˈsweɪʒən" tr="убеждение; убедительность"/>
+    <d v="persuasion" p="verb" ts="pəˈsweɪʒən" tr="убеждать"/>
+    <d v="persuasive" p="adjective" ts="pəˈsweɪsɪv" tr="убедительный; навязчивый"/>
+    <d v="persuasive" p="participle" ts="pəˈsweɪsɪv" tr="убеждающий"/>
+    <d v="persuasive" p="verb" ts="pəˈsweɪsɪv" tr="убеждать"/>
+    <d v="persuasive" p="noun" ts="pəˈsweɪsɪv" tr="убедительность"/>
+    <d v="persuasively" p="adverb" ts="pəˈsweɪsɪvlɪ" tr="убедительно"/>
+    <d v="persuasiveness" p="noun" ts="pəˈsweɪsɪvnɪs" tr="убедительность"/>
+    <d v="pert" p="adjective" ts="pɜːt" tr="дерзкий; развязный; бойкий"/>
+    <d v="pertain" p="verb" ts="pɜːˈteɪn" tr="относиться; подходить"/>
+    <d v="pertain" p="noun" ts="pɜːˈteɪn" tr="отношение"/>
+    <d v="pertinent" p="adjective" ts="ˈpɜːtɪnənt" tr="соответствующий; уместный"/>
+    <d v="pertinent" p="participle" ts="ˈpɜːtɪnənt" tr="относящийся; подходящий"/>
+    <d v="perturb" p="verb" ts="pəˈtɜːb" tr="возмущать; обеспокоить; смущать; нарушать"/>
+    <d v="perusal" p="noun" ts="pəˈruːzəl" tr="прочтение; рассматривание"/>
+    <d v="peruse" p="verb" ts="pəˈruːz" tr="ознакомиться; просматривать"/>
+    <d v="pervade" p="verb" ts="pɜːˈveɪd" tr="пронизывать; проникать; распространяться"/>
+    <d v="pervasive" p="adjective" ts="pɜːˈveɪsɪv" tr="всепроникающий; глубокий"/>
+    <d v="pervasive" p="participle" ts="pɜːˈveɪsɪv" tr="распространенный; распространяющийся; проникающий"/>
+    <d v="pervasive" p="noun" ts="pɜːˈveɪsɪv" tr="широкое распространение"/>
+    <d v="perverse" p="adjective" ts="pəˈvɜːs" tr="порочный; ошибочный; упрямый; капризный"/>
+    <d v="perverse" p="participle" ts="pəˈvɜːs" tr="извращенный; развращенный"/>
+    <d v="perverse" p="noun" ts="pəˈvɜːs" tr="извращение"/>
+    <d v="perversely" p="adverb" ts="pəˈvɜːslɪ" tr="извращенно"/>
+    <d v="perversion" p="noun" ts="pəˈvɜːʃn" tr="извращение; извращенность; разврат"/>
+    <d v="perversion" p="verb" ts="pəˈvɜːʃn" tr="извратить"/>
+    <d v="perversity" p="noun" ts="pəˈvɜːsɪtɪ" tr="извращенность; порочность; своенравие; упрямство"/>
+    <d v="pervert" p="noun" ts="ˈpɜːvɜːt" tr="извращенец"/>
+    <d v="pervert" p="verb" ts="ˈpɜːvɜːt" tr="извращать; совращать"/>
+    <d v="perverted" p="participle" ts="pəˈvɜːtɪd" tr="извращенный; развращенный"/>
+    <d v="perverted" p="noun" ts="pəˈvɜːtɪd" tr="извращение"/>
+    <d v="pesky" p="adjective" ts="ˈpeskɪ" tr="надоедливый; докучливый"/>
+    <d v="pessimism" p="noun" ts="ˈpesɪmɪzm" tr="пессимизм"/>
+    <d v="pessimist" p="noun" ts="ˈpesɪmɪst" tr="пессимист"/>
+    <d v="pessimistic" p="adjective" ts="pesɪˈmɪstɪk" tr="пессимистичный"/>
+    <d v="pessimistic" p="noun" ts="pesɪˈmɪstɪk" tr="пессимизм"/>
+    <d v="pessimistic" p="participle" ts="pesɪˈmɪstɪk" tr="пессимистично настроенный"/>
+    <d v="pessimistically" p="adverb" ts="pesɪˈmɪstɪklɪ" tr="пессимистично"/>
+    <d v="pest" p="noun" ts="pest" tr="вредитель; вредный организм; Бич"/>
+    <d v="pest" p="adjective" ts="pest" tr="вредный"/>
+    <d v="pester" p="verb" ts="ˈpestə" tr="приставать; донимать; докучать; теребить"/>
+    <d v="pesticide" p="noun" ts="ˈpestɪsaɪd" tr="пестицид"/>
+    <d v="pet" p="noun" ts="pet" tr="животное; любимчик; ПЭТ; баловень; обида"/>
+    <d v="pet" p="participle" ts="pet" tr="любимый"/>
+    <d v="pet" p="verb" ts="pet" tr="баловать; ласкать"/>
+    <d v="pet" p="adjective" ts="pet" tr="ручной"/>
+    <d v="petal" p="noun" ts="petl" tr="лепесток"/>
+    <d v="petal" p="adjective" ts="petl" tr="лепестковый"/>
+    <d v="Peter" p="noun" ts="ˈpiːtə" tr="Петр; питер; Петровский"/>
+    <d v="Peter" p="verb" ts="ˈpiːtə" tr="беднеть"/>
+    <d v="petite" p="adjective" ts="pəˈtiːt" tr="маленький"/>
+    <d v="petite" p="noun" ts="pəˈtiːt" tr="Петит"/>
+    <d v="petition" p="noun" ts="pɪˈtɪʃn" tr="ходатайство; петиция; заявление; молитва"/>
+    <d v="petition" p="verb" ts="pɪˈtɪʃn" tr="ходатайствовать; просить"/>
+    <d v="petrified" p="adverbial participle" ts="ˈpetrɪfaɪd" tr="окаменев"/>
+    <d v="petrified" p="participle" ts="ˈpetrɪfaɪd" tr="окаменевший"/>
+    <d v="petrify" p="verb" ts="ˈpetrɪfaɪ" tr="окаменеть; окаменевать; остолбенеть; поражать; каменеть"/>
+    <d v="petroleum" p="noun" ts="pɪˈtrəʊljəm" tr="нефть; Петролеум; ГСМ"/>
+    <d v="petroleum" p="adjective" ts="pɪˈtrəʊljəm" tr="нефтяной"/>
+    <d v="pettiness" p="noun" ts="ˈpetɪnəs" tr="мелочность; ничтожество"/>
+    <d v="petty" p="adjective" ts="ˈpetɪ" tr="мелкий; незначительный; подленький"/>
+    <d v="petty" p="noun" ts="ˈpetɪ" tr="мелочь"/>
+    <d v="petulant" p="adjective" ts="ˈpetjʊlənt" tr="раздражительный; обидчивый; вздорный; нетерпеливый; наглый"/>
+    <d v="pew" p="noun" ts="pjuː" tr="скамья"/>
+    <d v="pewter" p="adjective" ts="ˈpjuːtə" tr="оловянный"/>
+    <d v="pewter" p="noun" ts="ˈpjuːtə" tr="олово; оловянный сплав; оловянная посуда"/>
+    <d v="pg" p="invariant" ts="pg" tr="ПГ"/>
+    <d v="phallus" p="noun" ts="ˈfæləs" tr="фаллос"/>
+    <d v="phantom" p="noun" ts="ˈfæntəm" tr="призрак; иллюзия"/>
+    <d v="phantom" p="adjective" ts="ˈfæntəm" tr="фантомный; призрачный"/>
+    <d v="Pharaoh" p="noun" ts="ˈfɛərəʊ" tr="фараон"/>
+    <d v="pharmaceutical" p="adjective" ts="fɑːməˈsjuːtɪkəl" tr="фармацевтический"/>
+    <d v="pharmacist" p="noun" ts="ˈfɑːməsɪst" tr="фармацевт"/>
+    <d v="pharmacologist" p="noun" ts="ˈfɑːməˈkɔləʤɪst" tr="фармаколог"/>
+    <d v="pharmacology" p="noun" ts="fɑːməˈkɔləʤɪ" tr="фармакология"/>
+    <d v="pharmacology" p="adjective" ts="fɑːməˈkɔləʤɪ" tr="фармакологический"/>
+    <d v="pharmacy" p="noun" ts="ˈfɑːməsɪ" tr="аптека; фармация; фармацевтика"/>
+    <d v="pharmacy" p="adjective" ts="ˈfɑːməsɪ" tr="аптечный"/>
+    <d v="phase" p="noun" ts="feɪz" tr="фаза; аспект"/>
+    <d v="phase" p="adjective" ts="feɪz" tr="фазовый"/>
+    <d v="phase" p="verb" ts="feɪz" tr="фазировать"/>
+    <d v="pheasant" p="noun" ts="feznt" tr="фазан"/>
+    <d v="phenomenal" p="adjective" ts="fɪˈnɔmɪnl" tr="феноменальный; необыкновенный"/>
+    <d v="phenomenally" p="adverb" ts="fɪˈnɒmɪnəlɪ" tr="феноменально"/>
+    <d v="phenomenon" p="noun" ts="fɪˈnɔmɪnən" tr="явление"/>
+    <d v="philanthropic" p="adjective" ts="fɪlənˈθrɔpɪk" tr="благотворительный; человеколюбивый"/>
+    <d v="philanthropist" p="noun" ts="fɪˈlænθrəpɪst" tr="благотворитель; филантроп"/>
+    <d v="philanthropy" p="noun" ts="fɪˈlænθrəpɪ" tr="филантропия; человеколюбие"/>
+    <d v="Philistine" p="noun" ts="ˈfɪlɪstaɪn" tr="Филистимлянин; обыватель; филистер; мещанин"/>
+    <d v="Philistine" p="adjective" ts="ˈfɪlɪstaɪn" tr="обывательский; мещанский; филистерский"/>
+    <d v="philosopher" p="noun" ts="fɪˈlɔsəfə" tr="философ"/>
+    <d v="philosophical" p="adjective" ts="fɪləˈsɔfɪkəl" tr="философский"/>
+    <d v="philosophically" p="adjective" ts="fɪləˈsɒfɪklɪ" tr="философски"/>
+    <d v="philosophize" p="verb" ts="fɪˈlɔsəfaɪz" tr="философствовать; мудрствовать; умствовать"/>
+    <d v="philosophy" p="noun" ts="fɪˈlɔsəfɪ" tr="философия; общее соображение; философское учение"/>
+    <d v="phlegm" p="noun" ts="flem" tr="мокрота; бесстрастие"/>
+    <d v="phlegmatic" p="adjective" ts="flegˈmætɪk" tr="флегматичный"/>
+    <d v="phobia" p="noun" ts="ˈfəʊbɪə" tr="фобия"/>
+    <d v="phobic" p="adjective" ts="ˈfəʊbɪk" tr="фобический"/>
+    <d v="Phoenix" p="noun" ts="ˈfiːnɪks" tr="Феникс; Финикс"/>
+    <d v="phone" p="noun" ts="fəʊn" tr="телефон"/>
+    <d v="phone" p="adjective" ts="fəʊn" tr="телефонный"/>
+    <d v="phone" p="verb" ts="fəʊn" tr="дозвониться"/>
+    <d v="phone book" p="noun" ts="fəʊn bʊk" tr="телефонная книга; телефонный справочник; книга телефона"/>
+    <d v="phone booth" p="noun" ts="fəʊn buːð" tr="телефонная будка"/>
+    <d v="phone call" p="noun" ts="fəʊn kɔːl"
+       tr="телефонный звонок; звонок; телефонный разговор; телефонный вызов; телефонная связь; звонок по телефону"/>
+    <d v="phonetic" p="adjective" ts="fəʊˈnetɪk" tr="фонетический"/>
+    <d v="phonetically" p="adverb" ts="fəˈnetɪklɪ" tr="фонетически"/>
+    <d v="phonetics" p="noun" ts="fəʊˈnetɪks" tr="фонетика"/>
+    <d v="phonograph" p="noun" ts="ˈfəʊnəgrɑːf" tr="фонограф; граммофон"/>
+    <d v="phony" p="adjective" ts="ˈfəʊnɪ" tr="фальшивый"/>
+    <d v="phony" p="noun" ts="ˈfəʊnɪ" tr="подделка; жулик"/>
+    <d v="phony" p="participle" ts="ˈfəʊnɪ" tr="дутый"/>
+    <d v="phosphate" p="noun" ts="ˈfɔsfeɪt" tr="фосфат"/>
+    <d v="phosphate" p="adjective" ts="ˈfɔsfeɪt" tr="фосфатный; фосфорнокислый"/>
+    <d v="phosphorescence" p="noun" ts="fɔsfəˈresns" tr="фосфоресценция"/>
+    <d v="phosphorescent" p="participle" ts="fɔsfəˈresnt" tr="фосфоресцирующий"/>
+    <d v="phosphorus" p="noun" ts="ˈfɔsfərəs" tr="фосфор"/>
+    <d v="phosphorus" p="adjective" ts="ˈfɔsfərəs" tr="фосфорный"/>
+    <d v="photo" p="noun" ts="ˈfəʊtəʊ" tr="фотография"/>
+    <d v="photo" p="adjective" ts="ˈfəʊtəʊ" tr="фотографический"/>
+    <d v="photocopier" p="noun" ts="ˈfəʊtəʊkɒpɪər" tr="ксерокс; фотокопировальное устройство"/>
+    <d v="photocopier" p="adjective" ts="ˈfəʊtəʊkɒpɪər" tr="копировальный"/>
+    <d v="photocopy" p="noun" ts="ˈfəʊtəʊkɒpɪ" tr="фотокопия; фотокопирование"/>
+    <d v="photocopy" p="adjective" ts="ˈfəʊtəʊkɒpɪ" tr="фотокопировальный"/>
+    <d v="photocopy" p="verb" ts="ˈfəʊtəʊkɒpɪ" tr="фотокопировать"/>
+    <d v="photogenic" p="adjective" ts="fəʊtəʊˈʤenɪk" tr="фотогеничный"/>
+    <d v="photograph" p="noun" ts="ˈfəʊtəgrɑːf" tr="фотография"/>
+    <d v="photograph" p="verb" ts="ˈfəʊtəgrɑːf" tr="фотографировать; сфотографировать"/>
+    <d v="photograph" p="participle" ts="ˈfəʊtəgrɑːf" tr="фотографируемый"/>
+    <d v="photographer" p="noun" ts="fəˈtɔgrəfə" tr="фотограф"/>
+    <d v="photographic" p="adjective" ts="fəʊtəˈgræfɪk" tr="фотографический"/>
+    <d v="photographic" p="noun" ts="fəʊtəˈgræfɪk"
+       tr="фотоматериал; фотобумага; фотовыставка; фототехника; фотоаппаратура; фотоконкурс; фотографирование"/>
+    <d v="photography" p="noun" ts="fəˈtɔgrəfɪ" tr="фотография; съемка; фотоискусство"/>
+    <d v="photography" p="adjective" ts="fəˈtɔgrəfɪ" tr="фотографический"/>
+    <d v="photography" p="verb" ts="fəˈtɔgrəfɪ" tr="фотографировать"/>
+    <d v="photosynthesis" p="noun" ts="fəʊtəʊˈsɪnθɪsɪs" tr="фотосинтез"/>
+    <d v="phrasal verb" p="noun" ts="freɪzl vɜːb" tr="фразовый глагол"/>
+    <d v="phrase" p="noun" ts="freɪz" tr="фраза; выражение; оборот; язык"/>
+    <d v="phrase" p="verb" ts="freɪz" tr="выражать; фразировать"/>
+    <d v="phrasing" p="noun" ts="ˈfreɪzɪŋ" tr="формулировка; фразировка"/>
+    <d v="physical" p="adjective" ts="ˈfɪzɪkəl" tr="физический"/>
+    <d v="physical" p="adverb" ts="ˈfɪzɪkəl" tr="физически"/>
+    <d v="physical education" p="noun" ts="ˈfɪzɪkəl edjuːˈkeɪʃn"
+       tr="физическое воспитание; физическая культура; физкультура; физическое образование"/>
+    <d v="physical examination" p="noun" ts="ˈfɪzɪkəl ɪgzæmɪˈneɪʃn"
+       tr="физическое обследование; медицинский осмотр; медосмотр; физический осмотр; медицинское освидетельствование; медицинское обследование; физикальное обследование"/>
+    <d v="physically" p="adverb" ts="ˈfɪzɪklɪ" tr="физически"/>
+    <d v="physically" p="adjective" ts="ˈfɪzɪklɪ" tr="физический"/>
+    <d v="physical therapist" p="noun" ts="ˈfɪzɪkl ˈθerəpɪst" tr="физиотерапевт; физический терапевт"/>
+    <d v="physical therapy" p="noun" ts="ˈfɪzɪkəl ˈθerəpɪ" tr="физическая терапия"/>
+    <d v="physical therapy" p="adjective" ts="ˈfɪzɪkəl ˈθerəpɪ" tr="физиотерапевтический"/>
+    <d v="physician" p="noun" ts="fɪˈzɪʃn" tr="врач; целитель"/>
+    <d v="physicist" p="noun" ts="ˈfɪzɪsɪst" tr="физик"/>
+    <d v="physics" p="noun" ts="ˈfɪzɪks" tr="физика"/>
+    <d v="physics" p="adjective" ts="ˈfɪzɪks" tr="физический"/>
+    <d v="physiological" p="adjective" ts="fɪzɪəˈlɔʤɪkəl" tr="физиологический; физиологичный"/>
+    <d v="physiology" p="noun" ts="fɪzɪˈɔləʤɪ" tr="физиология"/>
+    <d v="physiology" p="adjective" ts="fɪzɪˈɔləʤɪ" tr="физиологический"/>
+    <d v="physiotherapy" p="noun" ts="fɪzɪəˈθerəpɪ" tr="физиотерапия"/>
+    <d v="physiotherapy" p="adjective" ts="fɪzɪəˈθerəpɪ" tr="физиотерапевтический"/>
+    <d v="physique" p="noun" ts="fɪˈziːk" tr="тело; телосложение; физические данные; Конституция"/>
+    <d v="pianist" p="noun" ts="ˈpɪənɪst" tr="пианист; пианистка"/>
+    <d v="piano" p="noun" ts="pɪˈænəʊ" tr="фортепиано"/>
+    <d v="piano" p="adjective" ts="pɪˈænəʊ" tr="фортепьянный"/>
+    <d v="pick" p="verb" ts="pɪk"
+       tr="выбрать; взять; подбирать; сорвать; ковырять; подцепить; снимать; искать; долбить; клевать; разрыхлять; чистить; обдирать; обгладывать; отщипывать"/>
+    <d v="pick" p="noun" ts="pɪk" tr="выбор; кирка"/>
+    <d v="pickax" p="noun" ts="ˈpɪkæks" tr="кирка"/>
+    <d v="picker" p="noun" ts="ˈpɪkə" tr="сборщик; грибник; палитра; сборщица; кирка; сортировщик; тряпичник"/>
+    <d v="picket" p="noun" ts="ˈpɪkɪt" tr="пикет"/>
+    <d v="picket" p="verb" ts="ˈpɪkɪt" tr="пикетировать"/>
+    <d v="picket fence" p="noun" ts="ˈpɪkɪt fens" tr="штакетник"/>
+    <d v="picket line" p="noun" ts="ˈpɪkɪt laɪn" tr="пикет"/>
+    <d v="pickle" p="noun" ts="pɪkl" tr="огурец; соленье; маринад; маринованный огурец; пикули; озорник"/>
+    <d v="pickle" p="participle" ts="pɪkl" tr="маринованный"/>
+    <d v="pickle" p="adjective" ts="pɪkl" tr="соленый"/>
+    <d v="pickle" p="verb" ts="pɪkl" tr="мариновать"/>
+    <d v="pickled" p="participle" ts="pɪkld" tr="маринованный"/>
+    <d v="pickpocket" p="noun" ts="ˈpɪkpɒkɪt" tr="карманник"/>
+    <d v="pickup" p="noun" ts="ˈpɪkʌp" tr="пикап; звукосниматель; подборщик; ускорение; восстановление"/>
+    <d v="pickup truck" p="noun" ts="ˈpɪkʌp trʌk" tr="пикап"/>
+    <d v="picky" p="adjective" ts="ˈpɪkɪ" tr="разборчивый"/>
+    <d v="picnic" p="noun" ts="ˈpɪknɪk" tr="пикник"/>
+    <d v="pictorial" p="adjective" ts="pɪkˈtɔːrɪəl" tr="живописный; изобразительный; иллюстрированный; образный"/>
+    <d v="picture" p="noun" ts="ˈpɪkʧə" tr="фотография; рисунок; воплощение"/>
+    <d v="picture" p="adjective" ts="ˈpɪkʧə" tr="картинный"/>
+    <d v="picture" p="verb" ts="ˈpɪkʧə" tr="описывать; представлять себе; живописать"/>
+    <d v="picturesque" p="adjective" ts="pɪkʧəˈresk" tr="живописный; колоритный; яркий"/>
+    <d v="pidgin" p="noun" ts="ˈpɪʤɪn" tr="пиджин"/>
+    <d v="pie" p="noun" ts="paɪ" tr="пирог; журавль"/>
+    <d v="pie" p="adjective" ts="paɪ" tr="круговой"/>
+    <d v="piece" p="noun" ts="piːs"
+       tr="кусок; произведение; фрагмент; лист; образец; монета; орудие; вставка; обрабатываемое изделие; заплата"/>
+    <d v="piece" p="adjective" ts="piːs" tr="штучный"/>
+    <d v="piecemeal" p="participle" ts="ˈpiːsmiːl" tr="частичный"/>
+    <d v="piecemeal" p="adjective" ts="ˈpiːsmiːl" tr="постепенный"/>
+    <d v="piecemeal" p="noun" ts="ˈpiːsmiːl" tr="по частям"/>
+    <d v="piecemeal" p="adverb" ts="ˈpiːsmiːl" tr="постепенно"/>
+    <d v="piecework" p="adjective" ts="ˈpiːswɜːk" tr="сдельный"/>
+    <d v="piecework" p="noun" ts="ˈpiːswɜːk" tr="сдельщина"/>
+    <d v="pie chart" p="noun" ts="paɪ ʧɑːt" tr="круговая диаграмма; секторная диаграмма"/>
+    <d v="pier" p="noun" ts="pɪə" tr="причал; пирс; опора; простенок; волнолом"/>
+    <d v="pierce" p="verb" ts="pɪəs"
+       tr="пронзить; проколоть; пробить; проникнуть; пронизывать; пробиться; прошивать; проходить"/>
+    <d v="pierce" p="noun" ts="pɪəs" tr="пирс"/>
+    <d v="piercing" p="noun" ts="ˈpɪəsɪŋ" tr="пирсинг; прошивка; проникновение; пробивка"/>
+    <d v="piercing" p="adjective" ts="ˈpɪəsɪŋ" tr="пронзительный; бронебойный; прошивной"/>
+    <d v="piercing" p="adverbial participle" ts="ˈpɪəsɪŋ" tr="проникая"/>
+    <d v="piercing" p="participle" ts="ˈpɪəsɪŋ" tr="пронизывающий; колющий; проникающий; пронзающий"/>
+    <d v="piety" p="noun" ts="ˈpaɪətɪ" tr="благочестие; благоговение; богобоязненность; религиозность"/>
+    <d v="pig" p="noun" ts="pɪg" tr="свинья; свинка; чушка; кот; нахал"/>
+    <d v="pig" p="adjective" ts="pɪg" tr="свиной; свиноводческий; поросячий"/>
+    <d v="pigeon" p="noun" ts="ˈpɪʤɪn" tr="голубь"/>
+    <d v="pigeon" p="adjective" ts="ˈpɪʤɪn" tr="голубиный"/>
+    <d v="piggy" p="noun" ts="ˈpɪgɪ" tr="копилка; Хрюша; свинка; поросенок"/>
+    <d v="piggyback" p="adjective" ts="ˈpɪgɪbæk" tr="контрейлерный"/>
+    <d v="piggy bank" p="noun" ts="ˈpɪgɪ bæŋk" tr="копилка"/>
+    <d v="pigheaded" p="adjective" ts="ˈpɪgˈhedɪd" tr="упрямый"/>
+    <d v="piglet" p="noun" ts="ˈpɪglɪt" tr="поросенок"/>
+    <d v="pigment" p="noun" ts="ˈpɪgmənt" tr="пигмент"/>
+    <d v="pigment" p="adjective" ts="ˈpɪgmənt" tr="пигментный"/>
+    <d v="pigmentation" p="noun" ts="pɪgmənˈteɪʃn" tr="пигментация"/>
+    <d v="pigpen" p="noun" ts="ˈpɪgpen" tr="свинарник"/>
+    <d v="pigsty" p="noun" ts="ˈpɪgstaɪ" tr="свинарник"/>
+    <d v="pigtail" p="noun" ts="ˈpɪgteɪl" tr="косичка"/>
+    <d v="pike" p="noun" ts="paɪk" tr="щука; пик; алебарда"/>
+    <d v="pike" p="adjective" ts="paɪk" tr="щучий"/>
+    <d v="pile" p="noun" ts="paɪl" tr="куча; стопка; ворс; геморрой; столб; батарея"/>
+    <d v="pile" p="verb" ts="paɪl" tr="сложить; накапливаться; нагромождать; навалиться; громоздить; заваливать"/>
+    <d v="pile" p="adjective" ts="paɪl" tr="свайный"/>
+    <d v="pilfer" p="verb" ts="ˈpɪlfə" tr="воровать; растащить"/>
+    <d v="pilgrim" p="noun" ts="ˈpɪlgrɪm" tr="паломник; странник"/>
+    <d v="pilgrim" p="adjective" ts="ˈpɪlgrɪm" tr="паломнический"/>
+    <d v="pilgrim" p="noun" ts="ˈpɪlgrɪm" tr="паломник; странник"/>
+    <d v="pilgrim" p="adjective" ts="ˈpɪlgrɪm" tr="паломнический"/>
+    <d v="pilgrimage" p="noun" ts="ˈpɪlgrɪmɪʤ" tr="паломничество; странствование; паломническая поездка; богомолье"/>
+    <d v="pilgrimage" p="adjective" ts="ˈpɪlgrɪmɪʤ" tr="паломнический"/>
+    <d v="pilgrimage" p="verb" ts="ˈpɪlgrɪmɪʤ" tr="паломничать"/>
+    <d v="piling" p="noun" ts="ˈpaɪlɪŋ" tr="свая; укладка"/>
+    <d v="pill" p="noun" ts="pɪl" tr="таблетка"/>
+    <d v="pillage" p="noun" ts="ˈpɪlɪʤ" tr="грабеж"/>
+    <d v="pillage" p="verb" ts="ˈpɪlɪʤ" tr="грабить"/>
+    <d v="pillar" p="noun" ts="ˈpɪlə" tr="столб; опора; компонента; целик"/>
+    <d v="pillow" p="noun" ts="ˈpɪləʊ" tr="подушка"/>
+    <d v="pillowcase" p="noun" ts="ˈpɪləʊkeɪs" tr="наволочка"/>
+    <d v="pilot" p="noun" ts="ˈpaɪlət" tr="пилот; лоцман; пилотирование"/>
+    <d v="pilot" p="adjective" ts="ˈpaɪlət" tr="пилотный; экспериментальный; пилотажный"/>
+    <d v="pilot" p="verb" ts="ˈpaɪlət" tr="пилотировать; управлять; вести"/>
+    <d v="pimp" p="noun" ts="pɪmp" tr="сутенер; сводник; сутенерство"/>
+    <d v="pimple" p="noun" ts="pɪmpl" tr="прыщ; пупырышек; папула"/>
+    <d v="pimply" p="adjective" ts="ˈpɪmplɪ" tr="прыщавый; прыщеватый"/>
+    <d v="pin" p="noun" ts="pɪn"
+       tr="булавка; ПИН; штифт; палец; значок; болт; ось; шплинт; скалка; чека; прищепка; кегля; брошка; колок; гвоздь; пробойник; шейка"/>
+    <d v="pin" p="adjective" ts="pɪn" tr="штырьковый"/>
+    <d v="pin" p="verb" ts="pɪn" tr="возлагать; приколоть; прикалывать; прижимать"/>
+    <d v="pin" p="noun" ts="pɪn"
+       tr="булавка; ПИН; штифт; палец; значок; болт; ось; шплинт; скалка; чека; прищепка; кегля; брошка; колок; гвоздь; пробойник; шейка"/>
+    <d v="pin" p="adjective" ts="pɪn" tr="штырьковый"/>
+    <d v="pin" p="verb" ts="pɪn" tr="возлагать; приколоть; прикалывать; прижимать"/>
+    <d v="pincers" p="noun" ts="ˈpɪnsəz" tr="клещи; пинцет; клешня"/>
+    <d v="pinch" p="noun" ts="pɪnʧ" tr="щепотка; щипок; сжатие"/>
+    <d v="pinch" p="verb" ts="pɪnʧ"
+       tr="ущипнуть; зажать; сжимать; прищемить; жать; пощипать; вымогать; пощипывать; защипать; украсть; ущемить"/>
+    <d v="pincushion" p="noun" ts="ˈpɪnkʊʃn" tr="подушечка; подушечка для булавок; подушкообразные"/>
+    <d v="pine" p="noun" ts="paɪn" tr="сосна"/>
+    <d v="pine" p="adjective" ts="paɪn" tr="сосновый"/>
+    <d v="pine" p="verb" ts="paɪn" tr="тосковать"/>
+    <d v="pineapple" p="noun" ts="ˈpaɪnæpl" tr="ананас"/>
+    <d v="pineapple" p="adjective" ts="ˈpaɪnæpl" tr="ананасовый"/>
+    <d v="ping" p="noun" ts="pɪŋ" tr="пинг; свист; пингование; проверка связи"/>
+    <d v="ping" p="verb" ts="pɪŋ" tr="пинговать; свистеть"/>
+    <d v="pinion" p="noun" ts="ˈpɪnjən" tr="шестерня"/>
+    <d v="pinion" p="adjective" ts="ˈpɪnjən" tr="реечный"/>
+    <d v="pink" p="adjective" ts="pɪŋk" tr="розовый"/>
+    <d v="pink" p="noun" ts="pɪŋk" tr="розов; гвоздика"/>
+    <d v="pink" p="verb" ts="pɪŋk" tr="порозоветь; протыкать"/>
+    <d v="pinkie" p="noun" ts="ˈpɪŋkɪ" tr="мизинец"/>
+    <d v="pinnacle" p="noun" ts="ˈpɪnəkl" tr="вершина; крыло; башенка; остроконечная башенка; кульминационный пункт"/>
+    <d v="pinnacle" p="verb" ts="ˈpɪnəkl" tr="возносить"/>
+    <d v="pin number" p="noun" ts="pɪn ˈnʌmbə" tr="ПИН-код; PIN-код; номер PIN"/>
+    <d v="pinpoint" p="verb" ts="ˈpɪnpɔɪnt"
+       tr="определить; точно определить; выявить; точно указать; засечь; заострить внимание"/>
+    <d v="pinpoint" p="adjective" ts="ˈpɪnpɔɪnt" tr="точечный"/>
+    <d v="pinprick" p="noun" ts="ˈpɪnprɪk" tr="булавочный укол"/>
+    <d v="pinstripe" p="adjective" ts="ˈpɪnstraɪp" tr="полосатый"/>
+    <d v="pint" p="noun" ts="paɪnt" tr="пинта"/>
+    <d v="pioneer" p="noun" ts="paɪəˈnɪə" tr="пионер; компания Pioneer; инициатор; новаторство"/>
+    <d v="pioneer" p="adjective" ts="paɪəˈnɪə" tr="пионерский"/>
+    <d v="pioneer" p="numeral" ts="paɪəˈnɪə" tr="первый"/>
+    <d v="pioneer" p="verb" ts="paɪəˈnɪə" tr="вести"/>
+    <d v="pious" p="adjective" ts="ˈpaɪəs" tr="благочестивый; ханжеский"/>
+    <d v="pious" p="participle" ts="ˈpaɪəs" tr="верующий"/>
+    <d v="pious" p="noun" ts="ˈpaɪəs" tr="благочестие"/>
+    <d v="piously" p="adverb" ts="ˈpaɪəslɪ" tr="Свято; благочестиво"/>
+    <d v="pipe" p="noun" ts="paɪp" tr="труба; свирель; дудка; волынка; свисток"/>
+    <d v="pipe" p="adjective" ts="paɪp" tr="трубный; трубочный"/>
+    <d v="pipe dream" p="noun" ts="paɪp driːm" tr="несбыточная мечта"/>
+    <d v="pipeline" p="noun" ts="ˈpaɪplaɪn" tr="трубопровод"/>
+    <d v="pipeline" p="adjective" ts="ˈpaɪplaɪn" tr="трубопроводный"/>
+    <d v="piping" p="noun" ts="ˈpaɪpɪŋ" tr="трубопровод; Кант; трубная обвязка; писк"/>
+    <d v="piping" p="adjective" ts="ˈpaɪpɪŋ" tr="трубопроводный; пронзительный"/>
+    <d v="pipsqueak" p="noun" ts="ˈpɪpskwiːk" tr="кроха"/>
+    <d v="piquancy" p="noun" ts="ˈpiːkənsɪ" tr="пикантность"/>
+    <d v="piquant" p="adjective" ts="ˈpiːkənt" tr="пикантный"/>
+    <d v="pique" p="noun" ts="piːk" tr="пике; обида"/>
+    <d v="pique" p="verb" ts="piːk" tr="уколоть; задеть"/>
+    <d v="piracy" p="noun" ts="ˈpaɪərəsɪ" tr="пиратство; нарушение авторского права"/>
+    <d v="piracy" p="adjective" ts="ˈpaɪərəsɪ" tr="пиратский"/>
+    <d v="pirate" p="noun" ts="ˈpaɪərɪt" tr="пират"/>
+    <d v="pirate" p="adjective" ts="ˈpaɪərɪt" tr="пиратский"/>
+    <d v="pirate" p="verb" ts="ˈpaɪərɪt" tr="грабить"/>
+    <d v="pirouette" p="noun" ts="pɪrʊˈet" tr="пируэт"/>
+    <d v="piss" p="verb" ts="pɪs" tr="мочить; помочиться"/>
+    <d v="piss" p="noun" ts="pɪs" tr="моча"/>
+    <d v="pissed" p="adjective" ts="pɪst" tr="пьяный; намочиенный"/>
+    <d v="pissed" p="adverbial participle" ts="pɪst" tr="разозлившись"/>
+    <d v="pistachio" p="noun" ts="pɪsˈtɑːʃɪəʊ" tr="фисташка"/>
+    <d v="pistachio" p="adjective" ts="pɪsˈtɑːʃɪəʊ" tr="фисташковый"/>
+    <d v="pistol" p="noun" ts="pɪstl" tr="пистолет"/>
+    <d v="pistol" p="adjective" ts="pɪstl" tr="пистолетный"/>
+    <d v="piston" p="noun" ts="ˈpɪstən" tr="поршень; клапан"/>
+    <d v="piston" p="adjective" ts="ˈpɪstən" tr="поршневой"/>
+    <d v="pit" p="noun" ts="pɪt" tr="яма; карьер; косточка; пропасть; преисподняя; амбар; партер; западня"/>
+    <d v="pit" p="adjective" ts="pɪt" tr="шахтный"/>
+    <d v="pit" p="verb" ts="pɪt" tr="стравливать; сталкивать"/>
+    <d v="pitch" p="noun" ts="pɪʧ"
+       tr="шаг; смола; поле; тон; тангаж; высота; наклон; веревка; площадка; подача; высота тона; высота звука; уровень; угол наклона; Вар; бросок; килевая качка; модуль; падение"/>
+    <d v="pitch" p="adjective" ts="pɪʧ" tr="кромешный; смоляной"/>
+    <d v="pitch" p="verb" ts="pɪʧ" tr="разбить; ставить; бросать; подавать; смолить"/>
+    <d v="pitcher" p="noun" ts="ˈpɪʧə" tr="кувшин"/>
+    <d v="pitchfork" p="noun" ts="ˈpɪʧfɔːk" tr="вилы"/>
+    <d v="piteous" p="adjective" ts="ˈpɪtɪəs" tr="жалкий; жалобный"/>
+    <d v="pitfall" p="noun" ts="ˈpɪtfɔːl" tr="ловушка; волчья яма"/>
+    <d v="pithy" p="adjective" ts="ˈpɪθɪ" tr="содержательный"/>
+    <d v="pitiful" p="adjective" ts="ˈpɪtɪfʊl" tr="жалкий; жалобный; жалостливый; сострадательный"/>
+    <d v="pitifully" p="adverb" ts="ˈpɪtɪfəlɪ" tr="жалко; жалобно"/>
+    <d v="pitiless" p="adjective" ts="ˈpɪtɪlɪs" tr="безжалостный"/>
+    <d v="pittance" p="noun" ts="ˈpɪtəns" tr="жалкие гроши"/>
+    <d v="pity" p="predicative" ts="ˈpɪtɪ" tr="жаль"/>
+    <d v="pity" p="noun" ts="ˈpɪtɪ" tr="жалость; сочувствие; печальный факт"/>
+    <d v="pity" p="verb" ts="ˈpɪtɪ" tr="жалеть; пожалеть; сжалиться; соболезновать"/>
+    <d v="pity" p="adjective" ts="ˈpɪtɪ" tr="жалкий"/>
+    <d v="pivot" p="noun" ts="ˈpɪvət" tr="поворот; стержень; центр; опорная точка; точка опоры; точка вращения"/>
+    <d v="pivot" p="adjective" ts="ˈpɪvət" tr="опорный; поворотный"/>
+    <d v="pivot" p="verb" ts="ˈpɪvət" tr="вращаться"/>
+    <d v="pivotal" p="adjective" ts="ˈpɪvətl" tr="ключевой; поворотный; стержневой; осевой"/>
+    <d v="pixel" p="noun" ts="ˈpɪksɪl" tr="пиксель"/>
+    <d v="pixel" p="adjective" ts="ˈpɪksɪl" tr="пиксельный"/>
+    <d v="pixie" p="noun" ts="ˈpɪksɪ" tr="пикси; фея"/>
+    <d v="pizza" p="noun" ts="ˈpiːtsə" tr="пицца"/>
+    <d v="placard" p="noun" ts="ˈplækɑːd" tr="плакат"/>
+    <d v="place" p="noun" ts="pleɪs" tr="место; жилище; усадьба; страница; резиденция"/>
+    <d v="place" p="verb" ts="pleɪs" tr="поместить; разместить; проводить; возлагать; делать заказ"/>
+    <d v="placebo" p="noun" ts="pləˈsiːbəʊ" tr="плацебо"/>
+    <d v="placenta" p="noun" ts="pləˈsentə" tr="плацента"/>
+    <d v="placid" p="adjective" ts="ˈplæsɪd" tr="спокойный"/>
+    <d v="placidly" p="adverb" ts="ˈplæsɪdlɪ" tr="спокойно"/>
+    <d v="plagiarism" p="noun" ts="ˈpleɪʤjərɪzm" tr="плагиат"/>
+    <d v="plagiarist" p="noun" ts="ˈpleɪʤjərɪst" tr="плагиатор"/>
+    <d v="plagiarize" p="noun" ts="ˈpleɪʤjəraɪz" tr="плагиат"/>
+    <d v="plagiarize" p="verb" ts="ˈpleɪʤjəraɪz" tr="заниматься плагиатом"/>
+    <d v="plague" p="noun" ts="pleɪg" tr="чума; казнь; Бич"/>
+    <d v="plague" p="verb" ts="pleɪg" tr="мучить; досаждать; зачумлять"/>
+    <d v="plague" p="adjective" ts="pleɪg" tr="чумной"/>
+    <d v="plaid" p="noun" ts="plæd" tr="плед; шотландка"/>
+    <d v="plaid" p="adjective" ts="plæd" tr="клетчатый"/>
+    <d v="plain" p="adjective" ts="pleɪn"
+       tr="простой; ясный; равнинный; гладкий; очевидный; некрасивый; невзрачный; одноцветный"/>
+    <d v="plain" p="noun" ts="pleɪn" tr="равнина; плоскость"/>
+    <d v="plain" p="verb" ts="pleɪn" tr="плакаться"/>
+    <d v="plainly" p="adverb" ts="ˈpleɪnlɪ" tr="ясно; явно"/>
+    <d v="plainly" p="particle" ts="ˈpleɪnlɪ" tr="просто"/>
+    <d v="plaintiff" p="noun" ts="ˈpleɪntɪf" tr="Истец; обвинитель"/>
+    <d v="plaintive" p="adjective" ts="ˈpleɪntɪv" tr="жалобный"/>
+    <d v="plan" p="noun" ts="plæn" tr="план"/>
+    <d v="plan" p="verb" ts="plæn" tr="планировать; спланировать; затевать"/>
+    <d v="plane" p="noun" ts="pleɪn"
+       tr="самолет; плоскость; уровень; платан; Струг; проекция; крыло; мастерок; гладилка"/>
+    <d v="plane" p="adjective" ts="pleɪn" tr="плоский"/>
+    <d v="plane" p="verb" ts="pleɪn" tr="строгать; планировать"/>
+    <d v="planet" p="noun" ts="ˈplænɪt" tr="планета"/>
+    <d v="planetarium" p="noun" ts="plænɪˈtɛərɪəm" tr="планетарий"/>
+    <d v="planetary" p="adjective" ts="ˈplænɪtərɪ" tr="планетарный"/>
+    <d v="planetary" p="noun" ts="ˈplænɪtərɪ" tr="планета"/>
+    <d v="plank" p="noun" ts="plæŋk" tr="доска; планка; нары"/>
+    <d v="plank" p="adjective" ts="plæŋk" tr="дощатый"/>
+    <d v="plank" p="verb" ts="plæŋk" tr="настилать"/>
+    <d v="plankton" p="noun" ts="ˈplæŋktɔn" tr="планктон"/>
+    <d v="planner" p="noun" ts="ˈplænə"
+       tr="планировщик; плановик; проектировщик; градостроитель; стратег; переполох; топограф"/>
+    <d v="planning" p="participle" ts="ˈplænɪŋ" tr="планирующий"/>
+    <d v="plant" p="noun" ts="plɑːnt" tr="завод; электростанция; установка; цех; посадка; поза"/>
+    <d v="plant" p="adjective" ts="plɑːnt" tr="растительный; заводской"/>
+    <d v="plant" p="verb" ts="plɑːnt"
+       tr="посадить; разводить; насаждать; засаживать; устанавливать; внедрять; основывать; заселять; всаживать; втыкать"/>
+    <d v="plantation" p="noun" ts="plænˈteɪʃn" tr="плантация; насаждение; внедрение"/>
+    <d v="planter" p="noun" ts="ˈplɑːntə" tr="плантатор; сеялка; основатель; сажалка; сажальщик"/>
+    <d v="plaque" p="noun" ts="plɑːk" tr="бляшка; доска; налет; дощечка; плакетка"/>
+    <d v="plaque" p="adjective" ts="plɑːk" tr="мемориальный"/>
+    <d v="plasma" p="adjective" ts="ˈplæzmə" tr="плазменный"/>
+    <d v="plasma" p="noun" ts="ˈplæzmə" tr="плазма"/>
+    <d v="plaster" p="noun" ts="ˈplɑːstə" tr="штукатурка; пластырь"/>
+    <d v="plaster" p="adjective" ts="ˈplɑːstə" tr="гипсовый"/>
+    <d v="plaster" p="participle" ts="ˈplɑːstə" tr="оштукатуренный"/>
+    <d v="plaster" p="verb" ts="ˈplɑːstə" tr="штукатурить; намазывать; оштукатурить; заштукатурить"/>
+    <d v="plastered" p="noun" ts="ˈplɑːstəd" tr="штукатурка"/>
+    <d v="plastered" p="participle" ts="ˈplɑːstəd" tr="оштукатуренный"/>
+    <d v="plastic" p="adjective" ts="ˈplæstɪk" tr="пластиковый; пластический; лепной"/>
+    <d v="plastic" p="noun" ts="ˈplæstɪk" tr="пластмасса; пластичность"/>
+    <d v="plastic surgery" p="noun" ts="ˈplæstɪk ˈsɜːʤərɪ" tr="пластическая хирургия; пластическая операция; пластика"/>
+    <d v="plate" p="noun" ts="pleɪt"
+       tr="пластина; тарелка; табличка; печатная форма; фотопластинка; вклейка; анод; гравюра; столовое серебро"/>
+    <d v="plate" p="adjective" ts="pleɪt" tr="пластинчатый; листовой"/>
+    <d v="plateau" p="noun" ts="ˈplætəʊ" tr="плато"/>
+    <d v="plated" p="participle" ts="ˈpleɪtɪd" tr="покрытый"/>
+    <d v="plateful" p="noun" ts="ˈpleɪtfʊl" tr="полная тарелка"/>
+    <d v="platform" p="noun" ts="ˈplætfɔːm" tr="платформа; трибуна; эстрада; позиция"/>
+    <d v="platform" p="adjective" ts="ˈplætfɔːm" tr="платформенный"/>
+    <d v="plating" p="noun" ts="ˈpleɪtɪŋ" tr="покрытие; металлизация; золочение; серебрение"/>
+    <d v="plating" p="adjective" ts="ˈpleɪtɪŋ" tr="гальванический"/>
+    <d v="platinum" p="noun" ts="ˈplætɪnəm" tr="платина"/>
+    <d v="platinum" p="adjective" ts="ˈplætɪnəm" tr="платиновый"/>
+    <d v="platitude" p="noun" ts="ˈplætɪtjuːd" tr="банальность; плоскость"/>
+    <d v="platonic" p="adjective" ts="pləˈtɔnɪk" tr="платонический; платоновский"/>
+    <d v="platoon" p="noun" ts="pləˈtuːn" tr="взвод"/>
+    <d v="platter" p="noun" ts="ˈplætə" tr="блюдо; деревянная тарелка"/>
+    <d v="plausible" p="adjective" ts="ˈplɔːzəbl" tr="правдоподобный; благовидный"/>
+    <d v="play" p="verb" ts="pleɪ" tr="играть; сыграть; воспроизводить; разыгрывать"/>
+    <d v="play" p="noun" ts="pleɪ" tr="игра; пьеса; воспроизведение; действие; люфт; забава; переливы; простор"/>
+    <d v="playboy" p="noun" ts="ˈpleɪbɔɪ" tr="плейбой; повеса"/>
+    <d v="player" p="noun" ts="ˈpleɪə" tr="игрок; плеер; музыкант; участник игры"/>
+    <d v="playful" p="adjective" ts="ˈpleɪfʊl" tr="игривый; шаловливый; шутливый; игровой; веселый"/>
+    <d v="playful" p="noun" ts="ˈpleɪfʊl" tr="игривость"/>
+    <d v="playfully" p="adverb" ts="ˈpleɪfəlɪ" tr="игриво; играючи; шаловливо; резво"/>
+    <d v="playfulness" p="noun" ts="ˈpleɪfəlnəs" tr="игривость; резвость"/>
+    <d v="playground" p="noun" ts="ˈpleɪgraʊnd" tr="спортивная площадка; площадка для игр"/>
+    <d v="playhouse" p="noun" ts="ˈpleɪhaʊs" tr="театр"/>
+    <d v="playing card" p="noun" ts="ˈpleɪɪŋ kɑːd" tr="игральная карта"/>
+    <d v="playing field" p="noun" ts="ˈpleɪɪŋ fiːld" tr="игровое поле; игровая площадка"/>
+    <d v="playmate" p="noun" ts="ˈpleɪmeɪt" tr="товарищ; Плеймет; товарищ по играм"/>
+    <d v="playpen" p="noun" ts="ˈpleɪpen" tr="детский манеж"/>
+    <d v="playroom" p="adjective" ts="ˈpleɪruːm" tr="игровой"/>
+    <d v="playroom" p="noun" ts="ˈpleɪruːm" tr="игровая комната"/>
+    <d v="plaything" p="noun" ts="ˈpleɪθɪŋ" tr="игрушка"/>
+    <d v="playwright" p="noun" ts="ˈpleɪraɪt" tr="драматург"/>
+    <d v="Plaza" p="noun" ts="ˈplɑːzə" tr="площадь"/>
+    <d v="plea" p="noun" ts="pliː" tr="просьба; мольба; заявление; признание вины; предлог; ссылка"/>
+    <d v="plead" p="verb" ts="pliːd"
+       tr="умолять; просить; выступать; ссылаться; признать себя; оправдываться; отвечать на обвинение"/>
+    <d v="pleasant" p="adjective" ts="pleznt" tr="приятный"/>
+    <d v="pleasant" p="adverb" ts="pleznt" tr="отрадно"/>
+    <d v="pleasant" p="participle" ts="pleznt" tr="понравившийся"/>
+    <d v="pleasantly" p="adverb" ts="ˈplezntlɪ" tr="приятно; любезно; приветливо"/>
+    <d v="pleasantry" p="noun" ts="ˈplezntrɪ" tr="шутка"/>
+    <d v="please" p="particle" ts="pliːz" tr="пожалуйста"/>
+    <d v="please" p="verb" ts="pliːz" tr="просить; нравиться; радовать; угодить; хотеть; доставлять удовольствие"/>
+    <d v="please" p="noun" ts="pliːz" tr="просьба"/>
+    <d v="pleased" p="adjective" ts="pliːzd" tr="довольный; угодный"/>
+    <d v="pleased" p="noun" ts="pliːzd" tr="удовольствие; с удовольствием"/>
+    <d v="pleased" p="participle" ts="pliːzd" tr="обрадованный"/>
+    <d v="pleasing" p="adjective" ts="ˈpliːzɪŋ" tr="приятный"/>
+    <d v="pleasing" p="noun" ts="ˈpliːzɪŋ" tr="угождение"/>
+    <d v="pleasing" p="participle" ts="ˈpliːzɪŋ" tr="радующий; понравившийся; угождающий"/>
+    <d v="pleasurable" p="adjective" ts="ˈpleʒərəbl" tr="приятный"/>
+    <d v="pleasurable" p="noun" ts="ˈpleʒərəbl" tr="удовольствие"/>
+    <d v="pleasure" p="noun" ts="ˈpleʒə" tr="удовольствие; воля; соизволение"/>
+    <d v="pleasure" p="adjective" ts="ˈpleʒə" tr="прогулочный; увеселительный"/>
+    <d v="pleat" p="noun" ts="pliːt" tr="складка"/>
+    <d v="pleated" p="participle" ts="ˈpliːtɪd" tr="плиссированный; гофрированный"/>
+    <d v="pledge" p="noun" ts="pleʤ" tr="залог; обязательство; клятва; дар"/>
+    <d v="pledge" p="verb" ts="pleʤ" tr="обязаться; закладывать; заверять"/>
+    <d v="pledge" p="adjective" ts="pleʤ" tr="залоговый"/>
+    <d v="plenary" p="adjective" ts="ˈpliːnərɪ" tr="пленарный; полный"/>
+    <d v="plentiful" p="adjective" ts="ˈplentɪfəl" tr="обильный"/>
+    <d v="plentiful" p="noun" ts="ˈplentɪfəl" tr="изобилие; в изобилии"/>
+    <d v="plentiful" p="participle" ts="ˈplentɪfəl" tr="изобильный"/>
+    <d v="plentifully" p="adverb" ts="ˈplentɪfəlɪ" tr="обильно"/>
+    <d v="plenty" p="noun" ts="ˈplentɪ" tr="множество; большое количество; изобилие"/>
+    <d v="plenty" p="numeral" ts="ˈplentɪ" tr="много"/>
+    <d v="plenty" p="adjective" ts="ˈplentɪ" tr="большой"/>
+    <d v="plethora" p="noun" ts="ˈpleθərə" tr="множество; избыток; полнокровие"/>
+    <d v="plexiglas" p="noun" ts="ˈpleksɪglɑːs" tr="оргстекло"/>
+    <d v="pliable" p="adjective" ts="ˈplaɪəbl" tr="податливый; гибкий; сговорчивый"/>
+    <d v="pliant" p="adjective" ts="ˈplaɪənt" tr="гибкий"/>
+    <d v="pliers" p="noun" ts="ˈplaɪəz" tr="плоскогубцы; клещи"/>
+    <d v="plight" p="noun" ts="plaɪt"
+       tr="положение; судьба; бедственное положение; тяжелое положение; тяжелая участь; тяжелая судьба; обязательство"/>
+    <d v="plod" p="verb" ts="plɔd" tr="брести; корпеть"/>
+    <d v="plodding" p="adjective" ts="ˈplɔdɪŋ" tr="усидчивый"/>
+    <d v="plop" p="verb" ts="plɔp" tr="шлепнуться; хлопнуть"/>
+    <d v="plop" p="interjection" ts="plɔp" tr="бултых"/>
+    <d v="plot" p="noun" ts="plɔt" tr="сюжет; заговор; график; делянка; фабула"/>
+    <d v="plot" p="adjective" ts="plɔt" tr="сюжетный"/>
+    <d v="plot" p="verb" ts="plɔt" tr="замышлять; укладывать; наносить; чертить; плести интриги; интриговать"/>
+    <d v="plow" p="noun" ts="plaʊ" tr="плуг"/>
+    <d v="plow" p="verb" ts="plaʊ" tr="пахать; распахивать; распахать"/>
+    <d v="ploy" p="noun" ts="plɔɪ" tr="уловка"/>
+    <d v="pluck" p="verb" ts="plʌk" tr="срывать; вырвать; похитить; щипать; ощипывать; собирать"/>
+    <d v="pluck" p="noun" ts="plʌk" tr="мужество; потроха; ливер"/>
+    <d v="plucky" p="adjective" ts="ˈplʌkɪ" tr="отважный"/>
+    <d v="plug" p="noun" ts="plʌg" tr="вилка; пробка; штепсельная вилка; свеча; втулка; реклама"/>
+    <d v="plug" p="verb" ts="plʌg" tr="подключить; заткнуть; закупорить; корпеть"/>
+    <d v="plug" p="participle" ts="plʌg" tr="вставляемый"/>
+    <d v="plum" p="noun" ts="plʌm" tr="слива; Сливка; лакомый кусочек"/>
+    <d v="plum" p="adjective" ts="plʌm" tr="сливовый"/>
+    <d v="plumage" p="noun" ts="ˈpluːmɪʤ" tr="оперение; перья"/>
+    <d v="plumber" p="noun" ts="ˈplʌmə" tr="водопроводчик; паяльщик"/>
+    <d v="plumbing" p="noun" ts="ˈplʌmbɪŋ" tr="сантехника; водопровод; слесарное дело"/>
+    <d v="plumbing" p="adjective" ts="ˈplʌmbɪŋ" tr="сантехнический"/>
+    <d v="plume" p="noun" ts="pluːm" tr="шлейф; перо; плюм; факел; Султан; струйка; завиток"/>
+    <d v="plummet" p="noun" ts="ˈplʌmɪt" tr="отвес; грузило; свинцовый отвес"/>
+    <d v="plummet" p="verb" ts="ˈplʌmɪt" tr="рухнуть; резко падать"/>
+    <d v="plump" p="adjective" ts="plʌmp" tr="пухлый; полный; округлый"/>
+    <d v="plump" p="verb" ts="plʌmp" tr="бухать; полнеть; толстеть; вскармливать"/>
+    <d v="plump" p="noun" ts="plʌmp" tr="толстушка"/>
+    <d v="plunder" p="noun" ts="ˈplʌndə" tr="грабеж; добыча"/>
+    <d v="plunder" p="verb" ts="ˈplʌndə" tr="грабить; разграбить; разворовывать; расхищать"/>
+    <d v="plunge" p="verb" ts="plʌnʤ" tr="окунуться; ввергнуть; упасть; нырнуть; повергать; врываться"/>
+    <d v="plunge" p="noun" ts="plʌnʤ" tr="погружение"/>
+    <d v="plunger" p="noun" ts="ˈplʌnʤə" tr="плунжер; скалка; ныряльщик"/>
+    <d v="plunger" p="adjective" ts="ˈplʌnʤə" tr="плунжерный"/>
+    <d v="plural" p="adjective" ts="ˈplʊərəl" tr="множественный"/>
+    <d v="plurality" p="noun" ts="plʊəˈrælɪtɪ" tr="множественность"/>
+    <d v="plus" p="noun" ts="plʌs" tr="плюс; положительная величина"/>
+    <d v="plus" p="adjective" ts="plʌs" tr="положительный; добавочный"/>
+    <d v="plush" p="adjective" ts="plʌʃ" tr="плюшевый; роскошный; плисовый"/>
+    <d v="plush" p="noun" ts="plʌʃ" tr="плюш; ПЛИС"/>
+    <d v="plus sign" p="noun" ts="plʌs saɪn" tr="плюс; знак плюса"/>
+    <d v="Pluto" p="noun" ts="ˈpluːtəʊ" tr="Плутон"/>
+    <d v="plutocracy" p="noun" ts="pluːˈtɔkrəsɪ" tr="плутократия"/>
+    <d v="plutonium" p="noun" ts="pluːˈtəʊnjəm" tr="плутоний"/>
+    <d v="plutonium" p="adjective" ts="pluːˈtəʊnjəm" tr="плутониевый"/>
+    <d v="ply" p="verb" ts="plaɪ" tr="курсировать; заниматься"/>
+    <d v="ply" p="noun" ts="plaɪ" tr="слой; сгиб"/>
+    <d v="plywood" p="noun" ts="ˈplaɪwʊd" tr="фанера"/>
+    <d v="plywood" p="adjective" ts="ˈplaɪwʊd" tr="фанерный"/>
+    <d v="PMS" p="noun" ts="pmz" tr="ПМС"/>
+    <d v="pneumatic" p="adjective" ts="njuːˈmætɪk" tr="пневматический; надувной"/>
+    <d v="pneumatic" p="noun" ts="njuːˈmætɪk" tr="пневмопривод"/>
+    <d v="pneumonia" p="noun" ts="njuːˈməʊnjə" tr="пневмония; воспаление легких"/>
+    <d v="poach" p="verb" ts="pəʊʧ" tr="браконьерствовать"/>
+    <d v="poacher" p="noun" ts="ˈpəʊʧə" tr="браконьер"/>
+    <d v="pocket" p="noun" ts="ˈpɔkɪt" tr="карман; очаг; мешок; Луза; деньги; гнездо; зона"/>
+    <d v="pocket" p="adjective" ts="ˈpɔkɪt" tr="карманный"/>
+    <d v="pocket" p="verb" ts="ˈpɔkɪt" tr="прикарманивать; присваивать"/>
+    <d v="pocketbook" p="noun" ts="ˈpɒkɪtbʊk" tr="кошелек"/>
+    <d v="pocketful" p="noun" ts="ˈpɔkɪtfʊl" tr="полный карман"/>
+    <d v="pocketknife" p="adjective" ts="ˈpɒkɪtnaɪf" tr="перочинный"/>
+    <d v="pockmark" p="noun" ts="ˈpɒkmɑːk" tr="оспина"/>
+    <d v="pockmarked" p="adjective" ts="ˈpɒkmɑːkt" tr="рябой"/>
+    <d v="pod" p="noun" ts="pɔd" tr="стручок; капсула; кокон; лузга; кожура"/>
+    <d v="podiatrist" p="noun" ts="pəˈdaɪətrɪst" tr="ортопед"/>
+    <d v="podium" p="noun" ts="ˈpəʊdɪəm" tr="подиум"/>
+    <d v="poem" p="noun" ts="ˈpəʊɪm" tr="стих; поэма"/>
+    <d v="poet" p="noun" ts="ˈpəʊɪt" tr="поэт"/>
+    <d v="poetic" p="adjective" ts="pəʊˈetɪk" tr="поэтический"/>
+    <d v="poetically" p="adverb" ts="pəʊˈetɪklɪ" tr="поэтически; поэтично"/>
+    <d v="poetry" p="noun" ts="ˈpəʊɪtrɪ" tr="поэзия"/>
+    <d v="poetry" p="adjective" ts="ˈpəʊɪtrɪ" tr="поэтический"/>
+    <d v="pogrom" p="noun" ts="ˈpɒgrəm" tr="погром"/>
+    <d v="poignancy" p="noun" ts="ˈpɔɪnənsɪ" tr="острота"/>
+    <d v="poignant" p="adjective" ts="ˈpɔɪnənt" tr="острый; живой"/>
+    <d v="poignantly" p="adverb" ts="ˈpɔɪnəntlɪ" tr="остро; мучительно; колко; едко"/>
+    <d v="point" p="noun" ts="pɔɪnt"
+       tr="точка; пункт; очко; вопрос; смысл; наконечник; особенность; преимущество; стрелка; мыс; румб; стойка; игла; острый конец"/>
+    <d v="point" p="verb" ts="pɔɪnt"
+       tr="указывать; показывать; говорить; навести; направлять; заострить; целиться; показывать пальцем; обращать внимание"/>
+    <d v="point" p="adjective" ts="pɔɪnt" tr="точечный"/>
+    <d v="point" p="parenthetic" ts="pɔɪnt" tr="главное"/>
+    <d v="pointed" p="participle" ts="ˈpɔɪntɪd" tr="указанный; заостренный"/>
+    <d v="pointed" p="adjective" ts="ˈpɔɪntɪd" tr="острый"/>
+    <d v="pointedly" p="adverb" ts="ˈpɔɪntɪdlɪ" tr="многозначительно; демонстративно; остро"/>
+    <d v="pointer" p="noun" ts="ˈpɔɪntə" tr="указатель; стрелка; указка; пойнтер; целеуказатель; наводчик"/>
+    <d v="pointer" p="adjective" ts="ˈpɔɪntə" tr="стрелочный"/>
+    <d v="pointless" p="adjective" ts="ˈpɔntlɪs" tr="бессмысленный; беспредметный; тупой; неостроумный"/>
+    <d v="pointless" p="predicative" ts="ˈpɔntlɪs" tr="нет смысла"/>
+    <d v="pointlessness" p="noun" ts="ˈpɔɪntləsnəs" tr="беспредметность"/>
+    <d v="point of view" p="noun" ts="pɔɪnt ɔv vjuː" tr="точка зрения; угол зрения"/>
+    <d v="pointy" p="adjective" ts="ˈpɔɪntɪ" tr="острый"/>
+    <d v="pointy" p="participle" ts="ˈpɔɪntɪ" tr="заостренный"/>
+    <d v="poise" p="noun" ts="pɔɪz" tr="равновесие; пуаз; осанка"/>
+    <d v="poise" p="verb" ts="pɔɪz" tr="балансировать; держать"/>
+    <d v="poison" p="noun" ts="ˈpɔɪzn" tr="яд; отравление"/>
+    <d v="poison" p="verb" ts="ˈpɔɪzn" tr="отравить; портить"/>
+    <d v="poison" p="adjective" ts="ˈpɔɪzn" tr="ядовитый; токсикологический"/>
+    <d v="poisoning" p="noun" ts="ˈpɔɪznɪŋ" tr="отравление; порча"/>
+    <d v="poison ivy" p="noun" ts="ˈpɔɪzn ˈaɪvɪ" tr="ядовитый плющ"/>
+    <d v="poisonous" p="adjective" ts="ˈpɔɪznəs" tr="ядовитый; отвратительный"/>
+    <d v="poisonous" p="participle" ts="ˈpɔɪznəs" tr="отравляющий; отравленный"/>
+    <d v="poke" p="verb" ts="pəʊk" tr="тыкать; совать; толкнуть; пихать; протыкать; дразнить; ковырять; просовывать"/>
+    <d v="poke" p="noun" ts="pəʊk" tr="мешок; недотепа; тычок; толчок"/>
+    <d v="poker" p="noun" ts="ˈpəʊkə" tr="покер; кочерга"/>
+    <d v="poker" p="adjective" ts="ˈpəʊkə" tr="покерный"/>
+    <d v="polar" p="adjective" ts="ˈpəʊlə" tr="полярный; Заполярный; полюсный"/>
+    <d v="polar" p="noun" ts="ˈpəʊlə" tr="полярник; Заполярье"/>
+    <d v="polar bear" p="noun" ts="ˈpəʊləˈbɛə" tr="медведь; белый медведь; полярный медведь"/>
+    <d v="polarity" p="noun" ts="pəʊˈlærɪtɪ" tr="полярность"/>
+    <d v="polarization" p="noun" ts="pəʊləraɪˈzeɪʃn" tr="поляризация"/>
+    <d v="polarization" p="adjective" ts="pəʊləraɪˈzeɪʃn" tr="поляризационный"/>
+    <d v="polarize" p="verb" ts="ˈpəʊləraɪz" tr="поляризовать"/>
+    <d v="polarize" p="noun" ts="ˈpəʊləraɪz" tr="поляризация"/>
+    <d v="pole" p="noun" ts="pəʊl" tr="полюс; поляк; шест; древко; кол; полька; дышло; багор; веха"/>
+    <d v="pole" p="adjective" ts="pəʊl" tr="полюсный"/>
+    <d v="pole" p="noun" ts="pəʊl" tr="полюс; поляк; шест; древко; кол; полька; дышло; багор; веха"/>
+    <d v="pole" p="adjective" ts="pəʊl" tr="полюсный"/>
+    <d v="polemic" p="noun" ts="pɔˈlemɪk" tr="полемика; спор"/>
+    <d v="polemic" p="adjective" ts="pɔˈlemɪk" tr="полемический"/>
+    <d v="polemical" p="adjective" ts="pɔˈlemɪkəl" tr="полемический"/>
+    <d v="pole vault" p="noun" ts="ˈpəʊlˈvɔːlt" tr="прыжок с шестом"/>
+    <d v="police" p="noun" ts="pəˈliːs" tr="полиция; ГИБДД; наряд"/>
+    <d v="police" p="adjective" ts="pəˈliːs" tr="полицейский"/>
+    <d v="police" p="verb" ts="pəˈliːs" tr="охранять; управлять"/>
+    <d v="police department" p="noun" ts="pəˈliːs dɪˈpɑːtmənt"
+       tr="полицейское управление; департамент полиции; полицейский департамент; отделение милиции; полицейское отделение; ГУВД; полицейский отдел; полицейский участок; отдел милиции"/>
+    <d v="police force" p="noun" ts="pəˈliːs fɔːs"
+       tr="полиция; полицейские силы; полицейская служба; полицейский отряд"/>
+    <d v="policeman" p="noun" ts="pəˈliːsmən" tr="полицейский; городовой"/>
+    <d v="police officer" p="noun" ts="pəˈliːs ˈɔfɪsə"
+       tr="полицейский; офицер полиции; пристав; полицейский офицер; офицер милиции; полицейский чин"/>
+    <d v="police state" p="noun" ts="pəˈliːs steɪt" tr="полицейское государство"/>
+    <d v="police station" p="noun" ts="pəˈliːs steɪʃn"
+       tr="полицейский участок; милиция; отделение милиции; отделение полиции; милицейский участок; полицейское отделение"/>
+    <d v="policewoman" p="noun" ts="pəˈliːswʊmən" tr="женщина-полицейский"/>
+    <d v="policy" p="noun" ts="ˈpɔlɪsɪ" tr="политика; полис; установка; благоразумие"/>
+    <d v="polio" p="noun" ts="ˈpəʊlɪəʊ" tr="полиомиелит"/>
+    <d v="polio" p="adjective" ts="ˈpəʊlɪəʊ" tr="полиомиелитный"/>
+    <d v="Polish" p="adjective" ts="ˈpɔlɪʃ" tr="польский"/>
+    <d v="Polish" p="noun" ts="ˈpɔlɪʃ" tr="Польша; поляк; лак; полировка; глянец; отделка"/>
+    <d v="Polish" p="verb" ts="ˈpɔlɪʃ" tr="полировать; шлифовать; чистить"/>
+    <d v="Polish" p="adjective" ts="ˈpɔlɪʃ" tr="польский"/>
+    <d v="Polish" p="noun" ts="ˈpɔlɪʃ" tr="Польша; поляк; лак; полировка; глянец; отделка"/>
+    <d v="Polish" p="verb" ts="ˈpɔlɪʃ" tr="полировать; шлифовать; чистить"/>
+    <d v="polished" p="participle" ts="ˈpɔlɪʃt"
+       tr="полируемый; отполированный; отшлифованный; шлифованный; начищенный; натертый; отточенный"/>
+    <d v="polished" p="adjective" ts="ˈpɔlɪʃt" tr="полированный; безупречный; изысканный"/>
+    <d v="polished" p="noun" ts="ˈpɔlɪʃt" tr="полировка"/>
+    <d v="polite" p="adjective" ts="pəˈlaɪt" tr="вежливый; корректный"/>
+    <d v="polite" p="noun" ts="pəˈlaɪt" tr="вежливость"/>
+    <d v="politely" p="adverb" ts="pəˈlaɪtlɪ" tr="вежливо"/>
+    <d v="politeness" p="noun" ts="pəˈlaɪtnɪs" tr="вежливость"/>
+    <d v="political" p="adjective" ts="pəˈlɪtɪkəl" tr="политический; государственный"/>
+    <d v="political correctness" p="noun" ts="pəˈlɪtɪkl kəˈrektnəs"
+       tr="политкорректность; политическая корректность; политическая правильность"/>
+    <d v="politically" p="adverb" ts="pəˈlɪtɪkəlɪ" tr="политически"/>
+    <d v="politically" p="noun" ts="pəˈlɪtɪkəlɪ" tr="в политическом плане; с политической точки"/>
+    <d v="politically correct" p="adjective" ts="pəˈlɪtɪkəlɪ kəˈrekt"
+       tr="политкорректный; политически корректный; политически правильный"/>
+    <d v="political science" p="noun" ts="pəˈlɪtɪkəl ˈsaɪəns" tr="политология; политическая наука"/>
+    <d v="politician" p="noun" ts="pɔlɪˈtɪʃn" tr="политик"/>
+    <d v="politicize" p="verb" ts="pəˈlɪtɪsaɪz" tr="политизировать"/>
+    <d v="politicize" p="noun" ts="pəˈlɪtɪsaɪz" tr="политизация"/>
+    <d v="politics" p="noun" ts="ˈpɔlɪtɪks" tr="политика; политическая жизнь; политические убеждения"/>
+    <d v="polka" p="noun" ts="ˈpɔlkə" tr="полька; горошек"/>
+    <d v="polka dot" p="noun" ts="ˈpɔlkə dɔt" tr="горошек"/>
+    <d v="poll" p="noun" ts="pəʊl" tr="опрос; список избирателей; число голосов; голова"/>
+    <d v="poll" p="verb" ts="pəʊl" tr="опрашивать; голосовать; проводить голосование"/>
+    <d v="pollen" p="noun" ts="ˈpɔlɪn" tr="пыльца; цветень"/>
+    <d v="pollen" p="adjective" ts="ˈpɔlɪn" tr="пыльцевой"/>
+    <d v="pollinate" p="verb" ts="ˈpɔlɪneɪt" tr="опылять"/>
+    <d v="pollination" p="noun" ts="pɔlɪˈneɪʃn" tr="опыление"/>
+    <d v="polling place" p="noun" ts="ˈpəʊlɪŋ pleɪs" tr="избирательный участок; избирательный пункт"/>
+    <d v="pollster" p="noun" ts="ˈpəʊlstər" tr="социолог"/>
+    <d v="pollutant" p="noun" ts="pəˈluːtənt" tr="загрязнитель"/>
+    <d v="pollute" p="verb" ts="pəˈluːt" tr="загрязнять; осквернить; засорять"/>
+    <d v="polluted" p="participle" ts="pəˈluːtɪd" tr="загрязненный"/>
+    <d v="pollution" p="noun" ts="pəˈluːʃn" tr="загрязнение; осквернение; поллюция"/>
+    <d v="polo" p="noun" ts="ˈpəʊləʊ" tr="поло"/>
+    <d v="polo shirt" p="noun" ts="ˈpəʊləʊ ʃɜːt" tr="рубашка поло; тенниска"/>
+    <d v="polyester" p="noun" ts="pɒlɪˈæstər" tr="полиэстер"/>
+    <d v="polyester" p="adjective" ts="pɒlɪˈæstər" tr="полиэфирный"/>
+    <d v="polygamist" p="noun" ts="pəˈlɪgəmɪst" tr="многоженец"/>
+    <d v="polygamous" p="adjective" ts="pɔˈlɪgəməs" tr="полигамный; многобрачный"/>
+    <d v="polygamy" p="noun" ts="pɔˈlɪgəmɪ" tr="полигамия"/>
+    <d v="polygon" p="noun" ts="ˈpɔlɪgən" tr="полигон"/>
+    <d v="polygon" p="adjective" ts="ˈpɔlɪgən" tr="полигональный; многоугольный"/>
+    <d v="polygraph" p="noun" ts="ˈpɒlɪgrɑːf" tr="полиграф"/>
+    <d v="polygraph" p="adjective" ts="ˈpɒlɪgrɑːf" tr="полиграфический"/>
+    <d v="polymer" p="noun" ts="ˈpɔlɪmə" tr="полимер"/>
+    <d v="polymer" p="adjective" ts="ˈpɔlɪmə" tr="полимерный"/>
+    <d v="polyp" p="noun" ts="ˈpɔlɪp" tr="полип"/>
+    <d v="Polytechnic" p="adjective" ts="pɔlɪˈteknɪk" tr="политехнический"/>
+    <d v="Polytechnic" p="noun" ts="pɔlɪˈteknɪk" tr="политехникум; политех"/>
+    <d v="pomegranate" p="adjective" ts="ˈpɔmgrænɪt" tr="гранатовый"/>
+    <d v="pomegranate" p="noun" ts="ˈpɔmgrænɪt" tr="гранат"/>
+    <d v="pomp" p="noun" ts="pɔmp" tr="помпа; пышность; помпезность"/>
+    <d v="pomposity" p="noun" ts="pɔmˈpɔsɪtɪ" tr="помпезность; напыщенность"/>
+    <d v="pompous" p="adjective" ts="ˈpɔmpəs" tr="помпезный; пышный"/>
+    <d v="pompous" p="participle" ts="ˈpɔmpəs" tr="надутый"/>
+    <d v="poncho" p="noun" ts="ˈpɔnʧəʊ" tr="пончо; накидка"/>
+    <d v="pond" p="noun" ts="pɔnd" tr="пруд; Садок"/>
+    <d v="ponder" p="verb" ts="ˈpɔndə" tr="задуматься; обдумать; задумываться; взвешивать; вдумываться"/>
+    <d v="ponder" p="noun" ts="ˈpɔndə" tr="размышление"/>
+    <d v="ponderous" p="adjective" ts="ˈpɔndərəs" tr="тяжеловесный; увесистый; тягучий"/>
+    <d v="pontiff" p="noun" ts="ˈpɔntɪf" tr="понтифик; архиерей"/>
+    <d v="Pontifical" p="adjective" ts="pɔnˈtɪfɪkəl" tr="папский; епископский"/>
+    <d v="pontoon" p="noun" ts="pɔnˈtuːn" tr="понтон; плашкоут"/>
+    <d v="pontoon" p="adjective" ts="pɔnˈtuːn" tr="понтонный"/>
+    <d v="pony" p="noun" ts="ˈpəʊnɪ" tr="пони; шпаргалка"/>
+    <d v="pony express" p="noun" ts="ˈpəʊnɪ ɪksˈpres" tr="пони-Экспресс; компания PONY Express"/>
+    <d v="ponytail" p="noun" ts="ˈpəʊnɪteɪl" tr="хвост; конский хвост"/>
+    <d v="pooch" p="noun" ts="puːʧ" tr="дворняжка; собака"/>
+    <d v="poodle" p="noun" ts="puːdl" tr="пудель"/>
+    <d v="pool" p="noun" ts="puːl" tr="бассейн; пул; омут; заводь; пулька; бюро"/>
+    <d v="pool table" p="noun" ts="puːl teɪbl" tr="бильярд"/>
+    <d v="poop" p="noun" ts="puːp" tr="корма; полуют"/>
+    <d v="poor" p="adjective" ts="pʊə" tr="бедный; плохой; малоимущий; несчастный; убогий; жалкий; невзрачный"/>
+    <d v="poor" p="noun" ts="pʊə" tr="бедняк; бедняга"/>
+    <d v="poorly" p="adverb" ts="ˈpʊəlɪ" tr="плохо; слабо; некачественно"/>
+    <d v="pop" p="noun" ts="pɔp" tr="поп; папа; шипучка; попса; хлоп; выстрел"/>
+    <d v="pop" p="adjective" ts="pɔp" tr="эстрадный; попсовый"/>
+    <d v="pop" p="verb" ts="pɔp"
+       tr="хлопать; выскочить; выскакивать; заглянуть; заскочить; всунуть; совать; палить; выстреливать; закладывать"/>
+    <d v="popcorn" p="noun" ts="ˈpɔpkɔːn" tr="попкорн; кукуруза; воздушная кукуруза"/>
+    <d v="Pope" p="noun" ts="pəʊp" tr="папа; священник"/>
+    <d v="poplar" p="noun" ts="ˈpɔplə" tr="тополь"/>
+    <d v="poplar" p="adjective" ts="ˈpɔplə" tr="тополиный"/>
+    <d v="pop music" p="noun" ts="pɔp ˈmjuːzɪk" tr="попса; популярная музыка; эстрада; эстрадная музыка"/>
+    <d v="poppy" p="noun" ts="ˈpɔpɪ" tr="мак"/>
+    <d v="poppy" p="adjective" ts="ˈpɔpɪ" tr="маковый; попсовый"/>
+    <d v="popsicle" p="noun" ts="ˈpɒpsɪkl" tr="фруктовое мороженое"/>
+    <d v="populace" p="noun" ts="ˈpɔpjʊləs" tr="население; массы; простой народ"/>
+    <d v="popular" p="adjective" ts="ˈpɔpjʊlə" tr="популярный; народный; расхожий; широко известный"/>
+    <d v="popular" p="noun" ts="ˈpɔpjʊlə" tr="популярность"/>
+    <d v="popular" p="participle" ts="ˈpɔpjʊlə" tr="распространенный; востребованный"/>
+    <d v="popularity" p="noun" ts="pɔpjʊˈlærɪtɪ" tr="популярность"/>
+    <d v="popularize" p="noun" ts="ˈpɔpjʊləraɪz" tr="популяризация"/>
+    <d v="popularize" p="verb" ts="ˈpɔpjʊləraɪz" tr="популяризировать"/>
+    <d v="popularly" p="adverb" ts="ˈpɔpjʊləlɪ" tr="популярно; всенародно"/>
+    <d v="populate" p="verb" ts="ˈpɔpjʊleɪt" tr="населять; заполнить"/>
+    <d v="populate" p="noun" ts="ˈpɔpjʊleɪt" tr="заполнение; заселение"/>
+    <d v="population" p="noun" ts="pɔpjʊˈleɪʃn" tr="население; населенность; заселение"/>
+    <d v="population" p="adjective" ts="pɔpjʊˈleɪʃn" tr="демографический; популяционный"/>
+    <d v="populous" p="adjective" ts="ˈpɔpjʊləs" tr="густонаселенный; многолюдный"/>
+    <d v="porcelain" p="noun" ts="ˈpɔːsəlɪn" tr="фарфор"/>
+    <d v="porcelain" p="adjective" ts="ˈpɔːsəlɪn" tr="фарфоровый"/>
+    <d v="porch" p="noun" ts="pɔːʧ" tr="крыльцо; притвор; крылечко"/>
+    <d v="porcupine" p="noun" ts="ˈpɔːkjʊpaɪn" tr="дикобраз"/>
+    <d v="pore" p="noun" ts="pɔː" tr="пора"/>
+    <d v="pore" p="adjective" ts="pɔː" tr="поровый"/>
+    <d v="pore" p="verb" ts="pɔː" tr="корпеть; сосредоточенно изучать"/>
+    <d v="pork" p="noun" ts="pɔːk" tr="свинина"/>
+    <d v="pork" p="adjective" ts="pɔːk" tr="свиной"/>
+    <d v="pornographic" p="adjective" ts="pɔːnəʊˈgræfɪk" tr="порнографический"/>
+    <d v="pornography" p="noun" ts="pɔːˈnɔgrəfɪ" tr="порнография"/>
+    <d v="pornography" p="adjective" ts="pɔːˈnɔgrəfɪ" tr="порнографический"/>
+    <d v="porous" p="adjective" ts="ˈpɔːrəs" tr="пористый; проницаемый; поризованный"/>
+    <d v="porpoise" p="noun" ts="ˈpɔːpəs" tr="свинья; морская свинка"/>
+    <d v="porpoise" p="verb" ts="ˈpɔːpəs" tr="козлить"/>
+    <d v="port" p="noun" ts="pɔːt" tr="порт; портвейн; отверстие; проход; осанка"/>
+    <d v="port" p="adjective" ts="pɔːt" tr="портовый; левый"/>
+    <d v="port" p="verb" ts="pɔːt" tr="портировать"/>
+    <d v="portable" p="adjective" ts="ˈpɔːtəbl" tr="портативный; переносный; разборный"/>
+    <d v="portal" p="noun" ts="pɔːtl" tr="портал; тамбур"/>
+    <d v="portal" p="adjective" ts="pɔːtl" tr="портальный"/>
+    <d v="portend" p="verb" ts="pɔːˈtend" tr="предвещать"/>
+    <d v="portent" p="noun" ts="ˈpɔːtənt" tr="знамение"/>
+    <d v="porter" p="noun" ts="ˈpɔːtə" tr="Портер; привратник; носильщик; грузчик; проводник; вахтер"/>
+    <d v="portfolio" p="noun" ts="pɔːtˈfəʊljəʊ" tr="портфель; папка"/>
+    <d v="portfolio" p="adjective" ts="pɔːtˈfəʊljəʊ" tr="портфельный"/>
+    <d v="porthole" p="noun" ts="ˈpɔːthəʊl" tr="иллюминатор"/>
+    <d v="portico" p="noun" ts="ˈpɔːtɪkəʊ" tr="портик; галерея; паперть"/>
+    <d v="portion" p="noun" ts="pɔːʃn" tr="часть; участь; приданое"/>
+    <d v="portly" p="adjective" ts="ˈpɔːtlɪ" tr="дородный; представительный"/>
+    <d v="portrait" p="noun" ts="ˈpɔːtrɪt" tr="портрет"/>
+    <d v="portrait" p="adjective" ts="ˈpɔːtrɪt" tr="портретный"/>
+    <d v="portray" p="verb" ts="pɔːˈtreɪ" tr="изображать; описывать; отражать; позиционировать"/>
+    <d v="portrayal" p="noun" ts="pɔːˈtreɪəl" tr="изображение; прорисовка"/>
+    <d v="Portuguese" p="adjective" ts="pɔːtjʊˈgiːz" tr="португальский"/>
+    <d v="Portuguese" p="noun" ts="pɔːtjʊˈgiːz" tr="португалец; португалка"/>
+    <d v="pose" p="verb" ts="pəʊz"
+       tr="ставить; позировать; являться; излагать; порождать; таить; выдавать; исходить; формулировать"/>
+    <d v="pose" p="noun" ts="pəʊz" tr="поза; позирование; вид"/>
+    <d v="posh" p="adjective" ts="pɔʃ" tr="шикарный"/>
+    <d v="position" p="noun" ts="pəˈzɪʃn" tr="позиция; расположение; возможность; точка зрения"/>
+    <d v="position" p="verb" ts="pəˈzɪʃn" tr="позиционировать; помещать"/>
+    <d v="positive" p="adjective" ts="ˈpɔzətɪv" tr="положительный; уверенный; принудительный; несомненный"/>
+    <d v="positive" p="noun" ts="ˈpɔzətɪv" tr="позитив"/>
+    <d v="positively" p="adverb" ts="ˈpɔzətɪvlɪ" tr="положительно; несомненно; решительно"/>
+    <d v="positively" p="noun" ts="ˈpɔzətɪvlɪ" tr="с уверенностью"/>
+    <d v="posse" p="noun" ts="ˈpɔsɪ" tr="отряд"/>
+    <d v="possess" p="verb" ts="pəˈzes" tr="обладать; владеть"/>
+    <d v="possess" p="noun" ts="pəˈzes" tr="владение"/>
+    <d v="possessed" p="participle" ts="pəˈzest" tr="одержимый; обладающий"/>
+    <d v="possession" p="noun" ts="pəˈzeʃn" tr="владение; имущество; хранение; удел; завладение; беснование"/>
+    <d v="possession" p="verb" ts="pəˈzeʃn" tr="овладеть"/>
+    <d v="possessive" p="adjective" ts="pəˈzesɪv" tr="притяжательный; собственнический"/>
+    <d v="possessive" p="noun" ts="pəˈzesɪv" tr="собственник; собственница"/>
+    <d v="possibility" p="noun" ts="pɔsəˈbɪlɪtɪ" tr="возможность"/>
+    <d v="possible" p="adjective" ts="ˈpɔsəbl" tr="возможный"/>
+    <d v="possible" p="predicative" ts="ˈpɔsəbl" tr="можно"/>
+    <d v="possible" p="noun" ts="ˈpɔsəbl" tr="возможность"/>
+    <d v="possibly" p="adverb" ts="ˈpɔsəblɪ" tr="возможно"/>
+    <d v="possibly" p="adjective" ts="ˈpɔsəblɪ" tr="вероятный"/>
+    <d v="possum" p="noun" ts="ˈpɔsəm" tr="опоссум"/>
+    <d v="post" p="noun" ts="pəʊst" tr="пост; почта; столб; размещение; стойка; свая; гарнизон; подпорка"/>
+    <d v="post" p="adjective" ts="pəʊst" tr="почтовый"/>
+    <d v="post" p="verb" ts="pəʊst" tr="разместить; опубликовать; вывесить; выложить; расклеивать"/>
+    <d v="postage" p="adjective" ts="ˈpəʊstɪʤ" tr="почтовый"/>
+    <d v="postage" p="noun" ts="ˈpəʊstɪʤ" tr="почтовые расходы; пересылка; почтовая оплата; почтовые услуги"/>
+    <d v="postage stamp" p="noun" ts="ˈpəʊstɪʤˈstæmp" tr="почтовая марка"/>
+    <d v="postal" p="adjective" ts="ˈpəʊstəl" tr="почтовый"/>
+    <d v="postal" p="noun" ts="ˈpəʊstəl" tr="почта; открытка"/>
+    <d v="postal service" p="noun" ts="ˈpəʊstəl ˈsɜːvɪs"
+       tr="почтовая служба; почтовая услуга; почтовая связь; почтовое обслуживание"/>
+    <d v="postcard" p="noun" ts="ˈpəʊstkɑːd" tr="открытка"/>
+    <d v="postdoctoral" p="adjective" ts="pəʊstˈdɒktərəl" tr="постдокторский"/>
+    <d v="poster" p="noun" ts="ˈpəʊstə" tr="плакат; объявление"/>
+    <d v="poster" p="adjective" ts="ˈpəʊstə" tr="стендовый; плакатный"/>
+    <d v="posterior" p="adjective" ts="pɔsˈtɪərɪə" tr="задний; последующий"/>
+    <d v="posterior" p="noun" ts="pɔsˈtɪərɪə" tr="зад"/>
+    <d v="posterity" p="noun" ts="pɔsˈterɪtɪ" tr="потомство"/>
+    <d v="postgraduate" p="noun" ts="ˈpəʊstˈgrædjʊɪt" tr="аспирантура"/>
+    <d v="postgraduate" p="adjective" ts="ˈpəʊstˈgrædjʊɪt" tr="последипломный"/>
+    <d v="posthumous" p="adjective" ts="ˈpɔstjʊməs" tr="посмертный"/>
+    <d v="posthumously" p="adverb" ts="ˈpɒstjʊməslɪ" tr="посмертно"/>
+    <d v="postman" p="noun" ts="ˈpəʊstmən" tr="почтальон"/>
+    <d v="postmark" p="noun" ts="ˈpəʊstmɑːk" tr="почтовый штемпель"/>
+    <d v="postmaster" p="noun" ts="ˈpəʊstmɑːstə" tr="почтмейстер; начальник почтового отделения"/>
+    <d v="postmortem" p="adjective" ts="ˈpəʊstˈmɔːtem" tr="посмертный"/>
+    <d v="postmortem" p="noun" ts="ˈpəʊstˈmɔːtem" tr="вскрытие"/>
+    <d v="post office" p="noun" ts="pəʊst ˈɔfɪs"
+       tr="почтовое отделение; почта; почтовая служба; почтовая контора; почтовый офис; отделение почтовой связи; отделение связи"/>
+    <d v="post office box" p="noun" ts="pəʊst ˈɔfɪs bɔks" tr="почтовый ящик"/>
+    <d v="postpone" p="verb" ts="peʊstˈpəʊn" tr="отложить; перенести; отодвинуть"/>
+    <d v="postponement" p="noun" ts="pəʊstˈpəʊnmənt" tr="отсрочка"/>
+    <d v="PostScript" p="noun" ts="ˈpəʊsskrɪpt" tr="постскриптум; приписка; послесловие"/>
+    <d v="postulate" p="noun" ts="ˈpɔstjʊlɪt" tr="постулат"/>
+    <d v="postulate" p="verb" ts="ˈpɔstjʊlɪt" tr="постулировать"/>
+    <d v="posture" p="noun" ts="ˈpɔsʧə" tr="поза; позиция; положение"/>
+    <d v="posture" p="verb" ts="ˈpɔsʧə" tr="позировать"/>
+    <d v="postwar" p="adjective" ts="ˈpəʊstˈwɔː" tr="послевоенный"/>
+    <d v="posy" p="noun" ts="ˈpəʊzɪ" tr="букет"/>
+    <d v="pot" p="noun" ts="pɔt" tr="горшок; котел; банк; сосуд; марихуана; тигель; кружка; плошка; чугунок"/>
+    <d v="pot" p="adjective" ts="pɔt" tr="горшечный"/>
+    <d v="potassium" p="noun" ts="pəˈtæsjəm" tr="калий"/>
+    <d v="potassium" p="adjective" ts="pəˈtæsjəm" tr="калийный"/>
+    <d v="potato" p="noun" ts="pəˈteɪtəʊ" tr="картофель"/>
+    <d v="potato" p="adjective" ts="pəˈteɪtəʊ" tr="картофельный"/>
+    <d v="potbelly" p="noun" ts="ˈpɔtbelɪ" tr="брюшко"/>
+    <d v="potency" p="noun" ts="ˈpəʊtənsɪ" tr="потенция; сила; активность; эффективность; потенциальная возможность"/>
+    <d v="potent" p="adjective" ts="ˈpəʊtənt" tr="мощный; могущественный"/>
+    <d v="potential" p="noun" ts="pəʊˈtenʃəl" tr="потенциал; напряжение"/>
+    <d v="potential" p="adjective" ts="pəʊˈtenʃəl" tr="потенциальный"/>
+    <d v="potentially" p="adverb" ts="pəˈtenʃəlɪ" tr="потенциально"/>
+    <d v="potentially" p="adjective" ts="pəˈtenʃəlɪ" tr="потенциальный"/>
+    <d v="pothole" p="noun" ts="ˈpɔthəʊl" tr="выбоина"/>
+    <d v="potion" p="noun" ts="pəʊʃn" tr="зелье; напиток; настой"/>
+    <d v="potpourri" p="noun" ts="pəʊˈpʊrɪ" tr="попурри; ароматическая смесь"/>
+    <d v="potter" p="noun" ts="ˈpɔtə" tr="Поттер; Гончар; горшечник"/>
+    <d v="potter" p="verb" ts="ˈpɔtə" tr="возиться"/>
+    <d v="potter" p="adjective" ts="ˈpɔtə" tr="гончарный"/>
+    <d v="pottery" p="noun" ts="ˈpɔtərɪ" tr="керамика; глиняная посуда; гончарня"/>
+    <d v="pottery" p="adjective" ts="ˈpɔtərɪ" tr="гончарный; глиняный; горшечный"/>
+    <d v="potty" p="noun" ts="ˈpɔtɪ" tr="горшок"/>
+    <d v="potty" p="adjective" ts="ˈpɔtɪ" tr="мелкий"/>
+    <d v="pouch" p="noun" ts="paʊʧ" tr="сумка; чехол"/>
+    <d v="poultry" p="noun" ts="ˈpəʊltrɪ"
+       tr="птица; домашняя птица; птицеводство; птицефабрика; цыплятина; птичник; живность"/>
+    <d v="poultry" p="adjective" ts="ˈpəʊltrɪ" tr="птицеводческий"/>
+    <d v="pounce" p="verb" ts="paʊns"
+       tr="наброситься; внезапно атаковать; ухватиться; пробивать; воспользоваться; налетать"/>
+    <d v="pounce" p="noun" ts="paʊns" tr="коготь"/>
+    <d v="pound" p="noun" ts="paʊnd" tr="фунт"/>
+    <d v="pound" p="verb" ts="paʊnd" tr="стучать; растереть"/>
+    <d v="pound" p="adjective" ts="paʊnd" tr="фунтовый"/>
+    <d v="pour" p="verb" ts="pɔː" tr="залить; налить; высыпать; перелить; отливать"/>
+    <d v="pour" p="noun" ts="pɔː" tr="ливень"/>
+    <d v="pout" p="verb" ts="paʊt" tr="надуть; надуться; надуть губы; надувать губы"/>
+    <d v="pout" p="noun" ts="paʊt" tr="надутые губки"/>
+    <d v="poverty" p="noun" ts="ˈpɔvətɪ" tr="бедность; скудость; нужда; оскудение"/>
+    <d v="poverty line" p="noun" ts="ˈpɔvətɪ laɪn" tr="бедность; черта бедности"/>
+    <d v="pow" p="noun" ts="paʊ" tr="военнопленный"/>
+    <d v="powder" p="noun" ts="ˈpaʊdə" tr="порошок; пудра"/>
+    <d v="powder" p="adjective" ts="ˈpaʊdə" tr="порошковый; пороховой"/>
+    <d v="powder" p="verb" ts="ˈpaʊdə" tr="присыпать; пудрить; припудрить; напудрить; припудривать"/>
+    <d v="powdered" p="adjective" ts="ˈpaʊdəd" tr="порошкообразный"/>
+    <d v="powdered" p="participle" ts="ˈpaʊdəd" tr="напудренный"/>
+    <d v="powder room" p="noun" ts="ˈpaʊdə ruːm" tr="туалетная комната"/>
+    <d v="powdery" p="adjective" ts="ˈpaʊdərɪ" tr="порошкообразный; мучнистый"/>
+    <d v="power" p="noun" ts="ˈpaʊə" tr="власть; сила; мощность; энергия; способность; степень"/>
+    <d v="power" p="adjective" ts="ˈpaʊə" tr="энергетический; моторный"/>
+    <d v="powerboat" p="noun" ts="ˈpaʊəbəʊt" tr="катер; моторный катер"/>
+    <d v="powerful" p="adjective" ts="ˈpaʊəfʊl" tr="мощный; могущественный; весомый; яркий"/>
+    <d v="powerfully" p="adverb" ts="ˈpaʊəfəlɪ" tr="мощно"/>
+    <d v="powerhouse" p="noun" ts="ˈpaʊəhaʊs" tr="электростанция; локомотив"/>
+    <d v="powerless" p="adjective" ts="ˈpaʊəlɪs" tr="бессильный"/>
+    <d v="powerless" p="noun" ts="ˈpaʊəlɪs" tr="бессилие"/>
+    <d v="powerless" p="participle" ts="ˈpaʊəlɪs" tr="обессиленный"/>
+    <d v="powerlessness" p="noun" ts="ˈpaʊəlɪsnəs" tr="бессилие; бесправие"/>
+    <d v="power of attorney" p="noun" ts="ˈpaʊə ɔv əˈtɜːnɪ" tr="доверенность"/>
+    <d v="power outage" p="noun" ts="ˈpaʊə ˈaʊtɪʤ" tr="отключение электроэнергии; отключение энергии"/>
+    <d v="power plant" p="noun" ts="ˈpaʊə plɑːnt" tr="электростанция; электрическая станция; энергоустановка"/>
+    <d v="PR" p="noun" ts="pr" tr="пиар"/>
+    <d v="practicable" p="adjective" ts="ˈpræktɪkəbl" tr="осуществимый; практически возможный"/>
+    <d v="practical" p="adjective" ts="ˈpræktɪkəl" tr="практический; реальный; полезный; удобный; утилитарный"/>
+    <d v="practicality" p="noun" ts="præktɪˈkælɪtɪ" tr="практичность; целесообразность"/>
+    <d v="practical joke" p="noun" ts="ˈpræktɪkəl ʤəʊk" tr="розыгрыш"/>
+    <d v="practically" p="adverb" ts="ˈpræktɪkəlɪ" tr="практически"/>
+    <d v="practically" p="noun" ts="ˈpræktɪkəlɪ" tr="на практике; на деле"/>
+    <d v="practice" p="noun" ts="ˈpræktɪs"
+       tr="практика; деятельность; тренировка; обычай; применение; установленный порядок"/>
+    <d v="practice" p="adjective" ts="ˈpræktɪs" tr="практический; учебный"/>
+    <d v="practice" p="verb" ts="ˈpræktɪs" tr="практиковать"/>
+    <d v="practice" p="participle" ts="ˈpræktɪs" tr="практикуемый"/>
+    <d v="practicing" p="participle" ts="ˈpræktɪsɪŋ" tr="практикующий"/>
+    <d v="practitioner" p="noun" ts="prækˈtɪʃnə"
+       tr="практика; врач; практикующий врач; практический работник; практикующий специалист"/>
+    <d v="practitioner" p="participle" ts="prækˈtɪʃnə" tr="практикующий врачем"/>
+    <d v="pragmatic" p="adjective" ts="prægˈmætɪk" tr="прагматичный; практический; догматичный"/>
+    <d v="pragmatism" p="noun" ts="ˈprægmətɪzm" tr="прагматизм; прагматичность"/>
+    <d v="prairie" p="noun" ts="ˈprɛərɪ" tr="прерия; степь"/>
+    <d v="prairie" p="adjective" ts="ˈprɛərɪ" tr="степной; луговой"/>
+    <d v="praise" p="noun" ts="preɪz" tr="хвала; похвала; восхваление"/>
+    <d v="praise" p="verb" ts="preɪz" tr="хвалить; восхвалять; прославить; превозносить; благодарить; воздать"/>
+    <d v="praiseworthy" p="adjective" ts="ˈpreɪzwɜːðɪ" tr="похвальный"/>
+    <d v="praiseworthy" p="noun" ts="ˈpreɪzwɜːðɪ" tr="похвала"/>
+    <d v="praiseworthy" p="participle" ts="ˈpreɪzwɜːðɪ" tr="достойный похвалы"/>
+    <d v="prance" p="verb" ts="prɑːns" tr="прыгать; гарцевать"/>
+    <d v="prank" p="noun" ts="præŋk" tr="шалость; выходка"/>
+    <d v="prank" p="verb" ts="præŋk" tr="наряжать"/>
+    <d v="prankster" p="noun" ts="ˈpræŋkstər" tr="шутник; проказник"/>
+    <d v="prawn" p="noun" ts="prɔːn" tr="креветка"/>
+    <d v="pray" p="verb" ts="preɪ" tr="молиться; молить"/>
+    <d v="pray" p="noun" ts="preɪ" tr="молитва"/>
+    <d v="prayer" p="noun" ts="prɛə" tr="молитва; проситель"/>
+    <d v="prayer" p="adjective" ts="prɛə" tr="молитвенный"/>
+    <d v="preach" p="verb" ts="priːʧ" tr="проповедовать; благовествовать; читать проповеди"/>
+    <d v="preach" p="noun" ts="priːʧ" tr="проповедь"/>
+    <d v="preacher" p="noun" ts="ˈpriːʧə" tr="проповедник; проповедница"/>
+    <d v="preamble" p="noun" ts="priːˈæmbl" tr="преамбула"/>
+    <d v="precarious" p="adjective" ts="prɪˈkɛərɪəs" tr="нестабильный; ненадежный; опасный; случайный"/>
+    <d v="precariously" p="adverb" ts="prɪˈkeərɪəslɪ" tr="ненадежно"/>
+    <d v="precaution" p="noun" ts="prɪˈkɔːʃn" tr="предосторожность; предусмотрительность"/>
+    <d v="precautionary" p="noun" ts="prɪˈkɔːʃnərɪ" tr="предосторожность"/>
+    <d v="precautionary" p="adjective" ts="prɪˈkɔːʃnərɪ" tr="предупредительный"/>
+    <d v="precede" p="verb" ts="prɪˈsiːd" tr="предшествовать; опережать"/>
+    <d v="precedence" p="noun" ts="priːˈsiːdəns" tr="приоритет; старшинство; предшествование"/>
+    <d v="precedence" p="verb" ts="priːˈsiːdəns" tr="превалировать"/>
+    <d v="precedent" p="noun" ts="ˈpresɪdənt" tr="прецедент"/>
+    <d v="precedent" p="participle" ts="ˈpresɪdənt" tr="предшествующий"/>
+    <d v="preceding" p="adjective" ts="priːˈsiːdɪŋ" tr="предыдущий"/>
+    <d v="preceding" p="participle" ts="priːˈsiːdɪŋ" tr="предшествующий; предваряющий"/>
+    <d v="precept" p="noun" ts="ˈpriːsept" tr="заповедь; предписание; наставление; указание"/>
+    <d v="precinct" p="noun" ts="ˈpriːsɪŋkt" tr="участок"/>
+    <d v="precious" p="adjective" ts="ˈpreʃəs" tr="драгоценный; заветный"/>
+    <d v="precious" p="noun" ts="ˈpreʃəs" tr="драгоценность"/>
+    <d v="precious" p="adverb" ts="ˈpreʃəs" tr="очень"/>
+    <d v="precious" p="participle" ts="ˈpreʃəs" tr="любимый"/>
+    <d v="precious stone" p="noun" ts="ˈpreʃəs stəʊn" tr="драгоценный камень"/>
+    <d v="precipice" p="noun" ts="ˈpresɪpɪs" tr="пропасть"/>
+    <d v="precipitate" p="noun" ts="prɪˈsɪpɪtɪt" tr="осадок"/>
+    <d v="precipitate" p="verb" ts="prɪˈsɪpɪtɪt" tr="ускорить; осаждать; выпадать; торопить; ввергать"/>
+    <d v="precipitate" p="adjective" ts="prɪˈsɪpɪtɪt" tr="опрометчивый"/>
+    <d v="precipitate" p="participle" ts="prɪˈsɪpɪtɪt" tr="осажденный"/>
+    <d v="precipitation" p="noun" ts="prɪsɪpɪˈteɪʃn" tr="осаждение; выпадение осадков; низвержение; ускорение"/>
+    <d v="precipitous" p="adjective" ts="prɪˈsɪpɪtəs" tr="обрывистый"/>
+    <d v="precise" p="adjective" ts="prɪˈsaɪz" tr="точный; педантичный"/>
+    <d v="precise" p="noun" ts="prɪˈsaɪz" tr="точность"/>
+    <d v="precisely" p="particle" ts="prɪˈsaɪslɪ" tr="именно"/>
+    <d v="precisely" p="adverb" ts="prɪˈsaɪslɪ" tr="четко; как раз"/>
+    <d v="precision" p="noun" ts="prɪˈsɪʒən" tr="точность"/>
+    <d v="precision" p="adjective" ts="prɪˈsɪʒən" tr="высокоточный; меткий"/>
+    <d v="preclude" p="verb" ts="prɪˈkluːd" tr="исключать; препятствовать"/>
+    <d v="precocious" p="adjective" ts="prɪˈkəʊʃəs" tr="скороспелый; преждевременный"/>
+    <d v="precocious" p="participle" ts="prɪˈkəʊʃəs" tr="рано развившийся"/>
+    <d v="preconceived" p="adjective" ts="ˈpriːkənˈsiːvd" tr="предвзятый"/>
+    <d v="preconception" p="noun" ts="ˈpriːkənˈsepʃn" tr="предубеждение"/>
+    <d v="precondition" p="noun" ts="ˈpriːkənˈdɪʃn" tr="предпосылка"/>
+    <d v="precursor" p="noun" ts="priːˈkɜːsə" tr="прекурсор; предшественник"/>
+    <d v="predate" p="verb" ts="prɪˈdeɪt" tr="предшествовать"/>
+    <d v="predator" p="noun" ts="ˈpredətə" tr="хищник; хищница"/>
+    <d v="predator" p="adjective" ts="ˈpredətə" tr="хищный"/>
+    <d v="predatory" p="adjective" ts="ˈpredətərɪ" tr="хищный; хищнический"/>
+    <d v="predatory" p="noun" ts="ˈpredətərɪ" tr="хищник"/>
+    <d v="predecessor" p="noun" ts="ˈpriːdɪsesə" tr="предшественник"/>
+    <d v="predecessor" p="participle" ts="ˈpriːdɪsesə" tr="предшествующий"/>
+    <d v="predestination" p="noun" ts="priːdestɪˈneɪʃn" tr="предопределение; предназначение"/>
+    <d v="predestined" p="participle" ts="priːˈdestɪnd" tr="предопределенный"/>
+    <d v="predetermined" p="participle" ts="priːdɪˈtɜːmɪnd" tr="заранее установленный"/>
+    <d v="predicament" p="noun" ts="prɪˈdɪkəmənt" tr="затруднительное положение; категория"/>
+    <d v="predicate" p="noun" ts="ˈpredɪkɪt" tr="предикат"/>
+    <d v="predict" p="verb" ts="prɪˈdɪkt" tr="предсказать"/>
+    <d v="predict" p="noun" ts="prɪˈdɪkt" tr="прогноз"/>
+    <d v="predictable" p="adjective" ts="prɪˈdɪktəbl" tr="предсказуемый"/>
+    <d v="predictable" p="participle" ts="prɪˈdɪktəbl" tr="прогнозируемый"/>
+    <d v="predictable" p="noun" ts="prɪˈdɪktəbl" tr="предсказуемость"/>
+    <d v="predictably" p="verb" ts="prɪˈdɪktəblɪ" tr="ожидать"/>
+    <d v="prediction" p="noun" ts="prɪˈdɪkʃn" tr="прогноз; предсказание"/>
+    <d v="prediction" p="verb" ts="prɪˈdɪkʃn" tr="предсказывать"/>
+    <d v="predilection" p="noun" ts="priːdɪˈlekʃn" tr="пристрастие"/>
+    <d v="predisposition" p="noun" ts="ˈpriːdɪspəˈzɪʃn" tr="предрасположенность; предрасположение"/>
+    <d v="predominance" p="noun" ts="prɪˈdɔmɪnəns" tr="преобладание; господство"/>
+    <d v="predominant" p="participle" ts="prɪˈdɔmɪnənt" tr="преобладающий; доминирующий"/>
+    <d v="predominant" p="verb" ts="prɪˈdɔmɪnənt" tr="преобладать"/>
+    <d v="predominant" p="adjective" ts="prɪˈdɔmɪnənt" tr="преимущественный"/>
+    <d v="predominantly" p="adverb" ts="prɪˈdɒmɪnəntlɪ" tr="преимущественно"/>
+    <d v="predominantly" p="noun" ts="prɪˈdɒmɪnəntlɪ" tr="в основном"/>
+    <d v="predominantly" p="verb" ts="prɪˈdɒmɪnəntlɪ" tr="преобладать"/>
+    <d v="predominantly" p="participle" ts="prɪˈdɒmɪnəntlɪ" tr="преобладающий"/>
+    <d v="predominate" p="verb" ts="prɪˈdɔmɪneɪt" tr="преобладать"/>
+    <d v="preeminence" p="noun" ts="priːˈemɪnəns" tr="превосходство"/>
+    <d v="preeminent" p="adjective" ts="priːˈemɪnənt" tr="выдающийся"/>
+    <d v="preempt" p="verb" ts="priːˈempt" tr="упредить"/>
+    <d v="preemptive" p="adjective" ts="prɪˈemptɪv" tr="превентивный"/>
+    <d v="preexisting" p="participle" ts="ˈpriːɪgzɪstɪŋ" tr="ранее существовавший"/>
+    <d v="preexisting" p="adjective" ts="ˈpriːɪgzɪstɪŋ" tr="предсуществующий"/>
+    <d v="prefab" p="adjective" ts="ˈpriːfæb" tr="сборный"/>
+    <d v="prefabricated" p="adjective" ts="ˈpriːˈfæbrɪkeɪtɪd" tr="сборный"/>
+    <d v="preface" p="noun" ts="ˈprefɪs" tr="Предисловие"/>
+    <d v="preface" p="verb" ts="ˈprefɪs" tr="предварять; предпослать"/>
+    <d v="prefer" p="verb" ts="prɪˈfɜː" tr="предпочитать"/>
+    <d v="prefer" p="noun" ts="prɪˈfɜː" tr="предпочтение"/>
+    <d v="prefer" p="adjective" ts="prɪˈfɜː" tr="предпочтительный"/>
+    <d v="preferable" p="adjective" ts="ˈprefərəbl" tr="предпочтительный"/>
+    <d v="preferable" p="participle" ts="ˈprefərəbl" tr="предпочитаемый"/>
+    <d v="preferably" p="adverb" ts="ˈprefərəblɪ" tr="предпочтительно; лучше"/>
+    <d v="preference" p="noun" ts="ˈprefərəns"
+       tr="предпочтение; настройка; преференции; льгота; преферанс; предпочтительность"/>
+    <d v="preference" p="adjective" ts="ˈprefərəns" tr="привилегированный"/>
+    <d v="preference" p="participle" ts="ˈprefərəns" tr="предпочитаемый"/>
+    <d v="preferential" p="adjective" ts="prefəˈrenʃəl"
+       tr="льготный; преференциальный; привилегированный; преимущественный"/>
+    <d v="preferential" p="noun" ts="prefəˈrenʃəl" tr="преференции"/>
+    <d v="preferential" p="participle" ts="prefəˈrenʃəl" tr="пользующийся предпочтением"/>
+    <d v="prefix" p="noun" ts="ˈpriːfɪks" tr="префикс; приставка; слово"/>
+    <d v="pregnancy" p="noun" ts="ˈpregnənsɪ" tr="беременность; стельность"/>
+    <d v="pregnant" p="adjective" ts="ˈpregnənt" tr="беременный; чреватый; богатый"/>
+    <d v="pregnant" p="noun" ts="ˈpregnənt" tr="беременность"/>
+    <d v="pregnant" p="verb" ts="ˈpregnənt" tr="забеременеть"/>
+    <d v="prehistoric" p="adjective" ts="ˈpriːhɪsˈtɔrɪk" tr="доисторический"/>
+    <d v="prehistory" p="noun" ts="priːˈhɪstrɪ" tr="предыстория; доисторический период"/>
+    <d v="prehistory" p="adjective" ts="priːˈhɪstrɪ" tr="доисторический"/>
+    <d v="prejudge" p="verb" ts="ˈpriːˈʤʌʤ" tr="предрешать"/>
+    <d v="prejudice" p="noun" ts="ˈpreʤʊdɪs" tr="предрассудок; ущерб"/>
+    <d v="prejudiced" p="participle" ts="ˈpreʤʊdɪst" tr="предубежденный"/>
+    <d v="prejudiced" p="noun" ts="ˈpreʤʊdɪst" tr="предубеждение"/>
+    <d v="prejudiced" p="adverb" ts="ˈpreʤʊdɪst" tr="предвзято"/>
+    <d v="prejudicial" p="adjective" ts="preʤʊˈdɪʃəl" tr="досудебный; пагубный"/>
+    <d v="prejudicial" p="noun" ts="preʤʊˈdɪʃəl" tr="наносящий ущерб"/>
+    <d v="preliminary" p="adjective" ts="prɪˈlɪmɪnərɪ" tr="предварительный"/>
+    <d v="preliminary" p="noun" ts="prɪˈlɪmɪnərɪ" tr="подготовительное мероприятие"/>
+    <d v="prelude" p="noun" ts="ˈpreljuːd" tr="прелюдия; вступление"/>
+    <d v="premarital" p="adjective" ts="priːˈmærɪtl" tr="добрачный; предбрачный"/>
+    <d v="premature" p="adjective" ts="preməˈtjʊə" tr="преждевременный; недоношенный; непродуманный"/>
+    <d v="prematurely" p="adverb" ts="preməˈtjʊəlɪ" tr="преждевременно"/>
+    <d v="premeditated" p="adjective" ts="priːˈmedɪteɪtɪd" tr="преднамеренный"/>
+    <d v="premeditated" p="participle" ts="priːˈmedɪteɪtɪd" tr="заранее спланированный"/>
+    <d v="premeditation" p="noun" ts="priːmedɪˈteɪʃn" tr="преднамеренность"/>
+    <d v="premenstrual syndrome" p="noun" ts="ˈpremənstrʊəl ˈsɪndrəʊm" tr="предменструальный синдром"/>
+    <d v="premier" p="noun" ts="ˈpremjə" tr="премьер; премьер-министр"/>
+    <d v="premier" p="numeral" ts="ˈpremjə" tr="первый"/>
+    <d v="premiere" p="noun" ts="ˈpremɪɛə" tr="премьера"/>
+    <d v="premise" p="noun" ts="ˈpremɪs" tr="помещение; предпосылка"/>
+    <d v="premium" p="noun" ts="ˈpriːmjəm" tr="премия; премиум; взнос"/>
+    <d v="premium" p="adjective" ts="ˈpriːmjəm" tr="премиальный"/>
+    <d v="premonition" p="noun" ts="priːməˈnɪʃn" tr="предчувствие; предупреждение"/>
+    <d v="premonition" p="verb" ts="priːməˈnɪʃn" tr="предчувствовать"/>
+    <d v="prenatal" p="adjective" ts="ˈpriːˈneɪtl" tr="пренатальный; дородовой"/>
+    <d v="preoccupation" p="noun" ts="priːɔkjʊˈpeɪʃn" tr="озабоченность; поглощенность"/>
+    <d v="preoccupied" p="participle" ts="priːˈɔkjʊpaɪd" tr="озабоченный; поглощенный"/>
+    <d v="preoccupy" p="verb" ts="priːˈɔkjʊpaɪ" tr="занимать"/>
+    <d v="prep" p="adjective" ts="prep" tr="подготовительный"/>
+    <d v="prep" p="noun" ts="prep" tr="подготовка; приготовление уроков"/>
+    <d v="prep" p="verb" ts="prep" tr="подготовить"/>
+    <d v="preparation" p="noun" ts="prepəˈreɪʃn" tr="подготовка; препарат; обогащение"/>
+    <d v="preparation" p="adjective" ts="prepəˈreɪʃn" tr="подготовительный"/>
+    <d v="preparatory" p="adjective" ts="prɪˈpærətərɪ" tr="подготовительный"/>
+    <d v="prepare" p="verb" ts="prɪˈpɛə"
+       tr="подготовить; готовить; готовиться; составлять; заготовить; заготавливать; приготавливать"/>
+    <d v="prepare" p="noun" ts="prɪˈpɛə" tr="подготовка"/>
+    <d v="prepared" p="adjective" ts="prɪˈpɛəd" tr="готовый"/>
+    <d v="prepared" p="participle" ts="prɪˈpɛəd"
+       tr="подготовленный; приготовленный; подготавливаемый; готовящийся; заготовленный; препарированный; приготовляемый"/>
+    <d v="preparedness" p="noun" ts="prɪˈpɛədnɪs" tr="готовность"/>
+    <d v="preponderance" p="noun" ts="prɪˈpɔndərəns" tr="перевес; преобладание"/>
+    <d v="preposition" p="noun" ts="prepəˈzɪʃn" tr="предлог"/>
+    <d v="preposterous" p="adjective" ts="prɪˈpɔstərəs" tr="нелепый; несообразный"/>
+    <d v="preposterous" p="noun" ts="prɪˈpɔstərəs" tr="абсурд"/>
+    <d v="prep school" p="noun" ts="prep skuːl" tr="подготовительная школа"/>
+    <d v="prerequisite" p="noun" ts="ˈpriːˈrekwɪzɪt" tr="предпосылка; условие"/>
+    <d v="prerogative" p="noun" ts="prɪˈrɔgətɪv" tr="прерогатива; исключительное право"/>
+    <d v="presage" p="verb" ts="ˈpresɪʤ" tr="предвещать"/>
+    <d v="presage" p="noun" ts="ˈpresɪʤ" tr="предвестник; предзнаменование"/>
+    <d v="Presbyterian" p="adjective" ts="prezbɪˈtɪərɪən" tr="пресвитерианский"/>
+    <d v="Presbyterian" p="noun" ts="prezbɪˈtɪərɪən" tr="пресвитерианин"/>
+    <d v="preschool" p="adjective" ts="ˈpriːˈskuːl" tr="дошкольный"/>
+    <d v="preschool" p="noun" ts="ˈpriːˈskuːl" tr="дошкольник"/>
+    <d v="preschooler" p="noun" ts="ˈpriːskuːlər" tr="дошкольник"/>
+    <d v="prescribe" p="verb" ts="prɪsˈkraɪb" tr="предписывать; назначать; прописать"/>
+    <d v="prescribe" p="noun" ts="prɪsˈkraɪb" tr="предписание"/>
+    <d v="prescription" p="noun" ts="prɪsˈkrɪpʃn"
+       tr="рецепт; предписание; назначение; давность; рекомендация; предписывание; установка"/>
+    <d v="prescription" p="adjective" ts="prɪsˈkrɪpʃn" tr="рецептурный"/>
+    <d v="prescriptive" p="participle" ts="prɪsˈkrɪptɪv" tr="предписывающий"/>
+    <d v="prescriptive" p="adjective" ts="prɪsˈkrɪptɪv" tr="директивный"/>
+    <d v="prescriptive" p="verb" ts="prɪsˈkrɪptɪv" tr="предписывать"/>
+    <d v="presence" p="noun" ts="prezns" tr="присутствие; пребывание; общество; соседство; осанка; внешний вид"/>
+    <d v="present" p="adjective" ts="preznt" tr="настоящий; нынешний; присутствующий"/>
+    <d v="present" p="verb" ts="preznt" tr="представлять; преподнести; предъявить; преподносить; показывать"/>
+    <d v="present" p="noun" ts="preznt" tr="настоящее время; подарок; современность"/>
+    <d v="present" p="participle" ts="preznt" tr="данный; существующий"/>
+    <d v="presentable" p="adjective" ts="prɪˈzentəbl" tr="презентабельный; приличный"/>
+    <d v="presentation" p="noun" ts="prezenˈteɪʃn" tr="презентация; представление; подарок; подношение"/>
+    <d v="presentation" p="adjective" ts="prezenˈteɪʃn" tr="презентационный"/>
+    <d v="presently" p="noun" ts="ˈprezntlɪ" tr="настоящее время"/>
+    <d v="presently" p="adverb" ts="ˈprezntlɪ" tr="сейчас"/>
+    <d v="preservation" p="noun" ts="prezɜːˈveɪʃn" tr="сохранение; предохранение"/>
+    <d v="preservative" p="noun" ts="prɪˈzɜːvətɪv" tr="консервант"/>
+    <d v="preserve" p="verb" ts="prɪˈzɜːv" tr="сохранить; оберегать"/>
+    <d v="preserve" p="noun" ts="prɪˈzɜːv" tr="сохранение; варенье"/>
+    <d v="preserves" p="noun" ts="prɪˈzɜːvz" tr="консервы; пресервы"/>
+    <d v="preside" p="verb" ts="prɪˈzaɪd" tr="председательствовать"/>
+    <d v="preside" p="noun" ts="prɪˈzaɪd" tr="руководство"/>
+    <d v="presidency" p="noun" ts="ˈprezɪdənsɪ" tr="президентство; председательство; президиум; президентская власть"/>
+    <d v="President" p="noun" ts="ˈprezɪdənt" tr="президент; губернатор"/>
+    <d v="President" p="noun" ts="ˈprezɪdənt" tr="президент; губернатор"/>
+    <d v="presidential" p="adjective" ts="prezɪˈdenʃəl" tr="президентский"/>
+    <d v="press" p="verb" ts="pres"
+       tr="нажать; прижимать; настаивать; потеснить; прессовать; толкать; навязывать; выдавливать"/>
+    <d v="press" p="noun" ts="pres" tr="пресс; печать; нажатие; давление; жим; давка"/>
+    <d v="press agent" p="noun" ts="ˈpreseɪʤənt" tr="пресс-агент"/>
+    <d v="press conference" p="noun" ts="pres ˈkɔnfərəns" tr="прессконференция; пресс конференции"/>
+    <d v="pressed" p="participle" ts="prest" tr="прижатый; прессованный; отжатый"/>
+    <d v="pressing" p="noun" ts="ˈpresɪŋ" tr="нажатие; прессование; прессинг; прессовка; штамповка; сжатие"/>
+    <d v="pressing" p="adjective" ts="ˈpresɪŋ" tr="насущный; актуальный; прессовый"/>
+    <d v="pressing" p="adverbial participle" ts="ˈpresɪŋ" tr="надавливая"/>
+    <d v="pressing" p="participle" ts="ˈpresɪŋ" tr="давящий"/>
+    <d v="press release" p="noun" ts="pres rɪˈliːs" tr="сообщение для печати; прессрелиз"/>
+    <d v="pressure" p="noun" ts="ˈpreʃə" tr="давление; натиск; сжатие; затруднительные обстоятельства"/>
+    <d v="pressure" p="adjective" ts="ˈpreʃə" tr="напорный"/>
+    <d v="pressure" p="verb" ts="ˈpreʃə" tr="надавить"/>
+    <d v="pressure cooker" p="noun" ts="ˈpreʃə ˈkʊkə" tr="скороварка; плита давления"/>
+    <d v="pressurized" p="participle" ts="ˈpreʃəraɪzd" tr="сжатый; надутый"/>
+    <d v="prestige" p="noun" ts="presˈtiːʒ" tr="престиж"/>
+    <d v="prestige" p="adjective" ts="presˈtiːʒ" tr="престижный"/>
+    <d v="prestigious" p="adjective" ts="preˈstɪʤəs" tr="престижный"/>
+    <d v="presumably" p="adverb" ts="prɪˈzjuːməblɪ" tr="предположительно; видимо"/>
+    <d v="presumably" p="particle" ts="prɪˈzjuːməblɪ" tr="якобы"/>
+    <d v="presume" p="verb" ts="prɪˈzjuːm" tr="предполагать; осмеливаться"/>
+    <d v="presume" p="noun" ts="prɪˈzjuːm" tr="предположение"/>
+    <d v="presumption" p="noun" ts="prɪˈzʌmpʃn" tr="презумпция; самонадеянность; вероятность"/>
+    <d v="presumptuous" p="adjective" ts="prɪˈzʌmptjʊəs" tr="самонадеянный; дерзкий; бесцеремонный"/>
+    <d v="presuppose" p="verb" ts="priːsəˈpəʊz" tr="предполагать"/>
+    <d v="presupposition" p="noun" ts="priːsʌpəˈzɪʃn" tr="предпосылка"/>
+    <d v="pretend" p="verb" ts="prɪˈtend" tr="притворяться; симулировать"/>
+    <d v="pretend" p="participle" ts="prɪˈtend" tr="претендующий"/>
+    <d v="pretend" p="noun" ts="prɪˈtend" tr="притворство"/>
+    <d v="pretense" p="noun" ts="prɪˈtens" tr="предлог; притворство; претензия; отговорка"/>
+    <d v="pretense" p="verb" ts="prɪˈtens" tr="притворяться"/>
+    <d v="pretension" p="noun" ts="prɪˈtenʃn" tr="претензия; претенциозность"/>
+    <d v="pretentious" p="adjective" ts="prɪˈtenʃəs" tr="претенциозный; вычурный; притязательный; пафосный"/>
+    <d v="pretext" p="noun" ts="ˈpriːtekst" tr="предлог; отговорка"/>
+    <d v="prettily" p="adverb" ts="ˈprɪtɪlɪ" tr="мило"/>
+    <d v="pretty" p="adjective" ts="ˈprɪtɪ" tr="милый; красивый; довольный; хороший; изрядный"/>
+    <d v="pretty" p="participle" ts="ˈprɪtɪ" tr="значительный"/>
+    <d v="pretzel" p="noun" ts="pretsl" tr="крендель; кренделек"/>
+    <d v="prevail" p="verb" ts="prɪˈveɪl"
+       tr="преобладать; победить; царить; восторжествовать; одержать; существовать; взять верх; одержать верх; довлеть; превозмогать"/>
+    <d v="prevail" p="noun" ts="prɪˈveɪl" tr="верх"/>
+    <d v="prevailing" p="noun" ts="prɪˈveɪlɪŋ" tr="преобладание"/>
+    <d v="prevailing" p="participle" ts="prɪˈveɪlɪŋ" tr="преобладающий; господствующий; превалирующий; царящий"/>
+    <d v="prevalence" p="noun" ts="ˈprevələns" tr="распространенность; преобладание; широкое распространение"/>
+    <d v="prevalent" p="participle" ts="ˈprevələnt" tr="распространенный; превалирующий"/>
+    <d v="prevalent" p="verb" ts="ˈprevələnt" tr="преобладать"/>
+    <d v="prevent" p="verb" ts="prɪˈvent" tr="предотвратить; препятствовать; предупреждать; запретить; предохранять"/>
+    <d v="prevent" p="noun" ts="prɪˈvent" tr="предотвращение; избежания"/>
+    <d v="preventable" p="adjective" ts="prɪˈventəbl" tr="предотвратимый"/>
+    <d v="prevention" p="noun" ts="prɪˈvenʃn" tr="предотвращение; профилактика; предохранение"/>
+    <d v="prevention" p="adjective" ts="prɪˈvenʃn" tr="профилактический"/>
+    <d v="preventive" p="adjective" ts="prɪˈventɪv" tr="профилактический"/>
+    <d v="preventive" p="noun" ts="prɪˈventɪv" tr="профилактика"/>
+    <d v="preview" p="noun" ts="ˈpriːvjuː" tr="просмотр; предварительный просмотр"/>
+    <d v="preview" p="adjective" ts="ˈpriːvjuː" tr="предварительный"/>
+    <d v="preview" p="verb" ts="ˈpriːvjuː" tr="просмотреть; предварительно просмотреть"/>
+    <d v="previous" p="adjective" ts="ˈpriːvjəs" tr="предыдущий"/>
+    <d v="previous" p="participle" ts="ˈpriːvjəs" tr="предшествующий"/>
+    <d v="previously" p="adverb" ts="ˈpriːvjəslɪ" tr="ранее; предварительно"/>
+    <d v="previously" p="noun" ts="ˈpriːvjəslɪ" tr="до этого"/>
+    <d v="prewar" p="adjective" ts="prɪˈwɔːr" tr="довоенный"/>
+    <d v="prey" p="noun" ts="preɪ" tr="добыча; хищник; дичь; кормовая база"/>
+    <d v="prey" p="adjective" ts="preɪ" tr="хищный"/>
+    <d v="prey" p="verb" ts="preɪ" tr="охотиться; терзать; грабить; ловить"/>
+    <d v="price" p="noun" ts="praɪs" tr="цена; прайс; ценность; жертва"/>
+    <d v="price" p="adjective" ts="praɪs" tr="ценовый"/>
+    <d v="price" p="verb" ts="praɪs" tr="оценивать"/>
+    <d v="priceless" p="adjective" ts="ˈpraɪslɪs" tr="бесценный"/>
+    <d v="pricey" p="adjective" ts="ˈpraɪsɪ" tr="дорогой"/>
+    <d v="prick" p="noun" ts="prɪk" tr="укол; прокалывание"/>
+    <d v="prick" p="verb" ts="prɪk" tr="колоть; уколоть; навострить; проколоть; уколоться; накалывать; мучить"/>
+    <d v="prick" p="participle" ts="prɪk" tr="колющий"/>
+    <d v="prickle" p="noun" ts="prɪkl" tr="колючка; покалывание"/>
+    <d v="prickle" p="verb" ts="prɪkl" tr="покалывать"/>
+    <d v="prickly" p="adjective" ts="ˈprɪklɪ" tr="колючий"/>
+    <d v="prickly" p="noun" ts="ˈprɪklɪ" tr="колючка"/>
+    <d v="prickly" p="participle" ts="ˈprɪklɪ" tr="колющий"/>
+    <d v="pride" p="noun" ts="praɪd" tr="гордость; гордыня; прайд; спесь; чувство собственного достоинства"/>
+    <d v="pride" p="verb" ts="praɪd" tr="гордиться"/>
+    <d v="priest" p="noun" ts="priːst" tr="священник; поп"/>
+    <d v="priestess" p="noun" ts="ˈpriːstɪs" tr="жрица"/>
+    <d v="priesthood" p="noun" ts="ˈpriːsthʊd" tr="священство"/>
+    <d v="Prim" p="adjective" ts="prɪm" tr="чопорный; аккуратный"/>
+    <d v="Prim" p="participle" ts="prɪm" tr="подтянутый"/>
+    <d v="primacy" p="noun" ts="ˈpraɪməsɪ" tr="первенство; примат; главенство"/>
+    <d v="primal" p="adjective" ts="ˈpraɪməl" tr="первобытный; первичный; изначальный; сортовой"/>
+    <d v="primarily" p="noun" ts="ˈpraɪmərɪlɪ" tr="в первую очередь; очередь; первая очередь"/>
+    <d v="primarily" p="preposition" ts="ˈpraɪmərɪlɪ" tr="прежде"/>
+    <d v="primarily" p="adjective" ts="ˈpraɪmərɪlɪ" tr="главный"/>
+    <d v="primarily" p="adverb" ts="ˈpraɪmərɪlɪ" tr="преимущественно; первоначально; сначала"/>
+    <d v="primary" p="adjective" ts="ˈpraɪmərɪ" tr="первичный; основный; первостепенный"/>
+    <d v="primary" p="noun" ts="ˈpraɪmərɪ" tr="планета"/>
+    <d v="primary care" p="noun" ts="ˈpraɪmərɪ kɛə"
+       tr="первичная помощь; первичная медицинская помощь; первичное звено; первичное медицинское обслуживание; первичное звено здравоохранения; первая помощь"/>
+    <d v="primary color" p="noun" ts="ˈpraɪmərɪ ˈkʌlə" tr="первичный цвет; основной цвет"/>
+    <d v="primary school" p="noun" ts="ˈpraɪmərɪ skuːl" tr="начальная школа"/>
+    <d v="Primate" p="noun" ts="ˈpraɪmɪt" tr="примат"/>
+    <d v="Prime" p="noun" ts="praɪm" tr="премьер; расцвет; начало; цвет"/>
+    <d v="Prime" p="adjective" ts="praɪm" tr="главный; первичный; лучший"/>
+    <d v="Prime" p="verb" ts="praɪm" tr="грунтовать; загрунтовать"/>
+    <d v="Prime Minister" p="noun" ts="praɪm ˈmɪnɪstə" tr="премьер"/>
+    <d v="primer" p="noun" ts="ˈpraɪmə" tr="грунтовка; букварь; капсюль; запал; учебник для начинающих"/>
+    <d v="Prime time" p="noun" ts="praɪm taɪm" tr="эфирное время; лучшее эфирное время"/>
+    <d v="primeval" p="adjective" ts="praɪˈmiːvəl" tr="первобытный; извечный"/>
+    <d v="primitive" p="adjective" ts="ˈprɪmɪtɪv" tr="примитивный; кустарный"/>
+    <d v="primitive" p="noun" ts="ˈprɪmɪtɪv" tr="примитив; примитивист"/>
+    <d v="primordial" p="adjective" ts="praɪˈmɔːdjəl" tr="изначальный; первозданный"/>
+    <d v="primrose" p="noun" ts="ˈprɪmrəʊz" tr="первоцвет; примула"/>
+    <d v="prince" p="noun" ts="prɪns" tr="князь; Принс"/>
+    <d v="princely" p="adjective" ts="ˈprɪnslɪ" tr="княжеский; королевский; роскошный"/>
+    <d v="princess" p="noun" ts="prɪnˈses" tr="принцесса; княгиня"/>
+    <d v="principal" p="adjective" ts="ˈprɪnsəpəl" tr="основный"/>
+    <d v="principal" p="noun" ts="ˈprɪnsəpəl"
+       tr="директор; принципал; ведущий; доверитель; директор школы; глава; капитал; патрон"/>
+    <d v="principality" p="noun" ts="prɪnsɪˈpælɪtɪ" tr="княжество; начальство; принципиальность"/>
+    <d v="principally" p="adjective" ts="ˈprɪnsəpəlɪ" tr="принципиальный"/>
+    <d v="principally" p="noun" ts="ˈprɪnsəpəlɪ" tr="в основном"/>
+    <d v="principally" p="adverb" ts="ˈprɪnsəpəlɪ" tr="преимущественно"/>
+    <d v="principle" p="noun" ts="ˈprɪnsəpl" tr="принцип; первопричина; источник"/>
+    <d v="principle" p="adjective" ts="ˈprɪnsəpl" tr="принципиальный"/>
+    <d v="principled" p="adjective" ts="ˈprɪnsəpld" tr="принципиальный"/>
+    <d v="principled" p="noun" ts="ˈprɪnsəpld" tr="принципиальность"/>
+    <d v="print" p="noun" ts="prɪnt" tr="печать; отпечаток; шрифт; гравюра; газета"/>
+    <d v="print" p="verb" ts="prɪnt" tr="печатать"/>
+    <d v="print" p="adjective" ts="prɪnt" tr="печатный; ситцевый"/>
+    <d v="print" p="participle" ts="prɪnt" tr="печатающий"/>
+    <d v="printer" p="noun" ts="ˈprɪntə" tr="принтер; печатник; типограф"/>
+    <d v="printing" p="noun" ts="ˈprɪntɪŋ" tr="печать; Фотопечать"/>
+    <d v="printing" p="adjective" ts="ˈprɪntɪŋ" tr="печатный"/>
+    <d v="printing" p="participle" ts="ˈprɪntɪŋ" tr="печатающий"/>
+    <d v="printing press" p="noun" ts="ˈprɪntɪŋ pres"
+       tr="печатный станок; типография; печатная машина; печатный пресс"/>
+    <d v="printing press" p="adjective" ts="ˈprɪntɪŋ pres" tr="печатный"/>
+    <d v="printout" p="noun" ts="ˈprɪntaʊt" tr="распечатка"/>
+    <d v="prior" p="preposition" ts="ˈpraɪə" tr="до"/>
+    <d v="prior" p="adjective" ts="ˈpraɪə" tr="предварительный; предыдущий"/>
+    <d v="prior" p="noun" ts="ˈpraɪə" tr="перед; ПРИОР; настоятель"/>
+    <d v="prior" p="participle" ts="ˈpraɪə" tr="предшествующий"/>
+    <d v="prioritize" p="noun" ts="praɪˈɒrətaɪz" tr="приоритет; приоритезация; приоритизировать"/>
+    <d v="prioritize" p="adjective" ts="praɪˈɒrətaɪz" tr="приоритетный"/>
+    <d v="prioritize" p="verb" ts="praɪˈɒrətaɪz" tr="приоритезировать; расставлять приоритеты; определить приоритеты"/>
+    <d v="priority" p="noun" ts="praɪˈɔrɪtɪ" tr="приоритет"/>
+    <d v="priority" p="adjective" ts="praɪˈɔrɪtɪ" tr="приоритетный"/>
+    <d v="prism" p="noun" ts="prɪzm" tr="призма"/>
+    <d v="prison" p="noun" ts="prɪzn" tr="тюрьма"/>
+    <d v="prison" p="adjective" ts="prɪzn" tr="тюремный"/>
+    <d v="prisoner" p="noun" ts="ˈprɪznə" tr="заключенный; человек"/>
+    <d v="prisoner" p="adjective" ts="ˈprɪznə" tr="пленный"/>
+    <d v="prisoner of war" p="noun" ts="ˈprɪznə ɔv wɔː" tr="военнопленный"/>
+    <d v="prissy" p="adjective" ts="ˈprɪsɪ" tr="чопорный"/>
+    <d v="pristine" p="adjective" ts="ˈprɪstaɪn" tr="нетронутый"/>
+    <d v="privacy" p="noun" ts="ˈprɪvəsɪ" tr="конфиденциальность; частная жизнь; уединение; секретность"/>
+    <d v="private" p="adjective" ts="ˈpraɪvɪt" tr="частный; закрытый; негласный"/>
+    <d v="private" p="noun" ts="ˈpraɪvɪt" tr="частное"/>
+    <d v="private enterprise" p="noun" ts="ˈpraɪvɪt ˈentəpraɪz"
+       tr="частное предприятие; частное предпринимательство; частная компания"/>
+    <d v="private investigator" p="noun" ts="ˈpraɪvɪt ɪnˈvestɪgeɪtə"
+       tr="частный детектив; частный следователь; частный сыщик"/>
+    <d v="privately" p="adjective" ts="ˈpraɪvɪtlɪ" tr="частный"/>
+    <d v="privately" p="adverb" ts="ˈpraɪvɪtlɪ" tr="наедине; тайно; конфиденциально; лично; частно"/>
+    <d v="privately" p="noun" ts="ˈpraɪvɪtlɪ" tr="в частном порядке; про себя"/>
+    <d v="privation" p="noun" ts="praɪˈveɪʃn" tr="лишение; нужда"/>
+    <d v="privatization" p="noun" ts="ˈpraɪvɪtɪzeɪʃn" tr="приватизация"/>
+    <d v="privatization" p="adjective" ts="ˈpraɪvɪtɪzeɪʃn" tr="приватизационный"/>
+    <d v="privatize" p="verb" ts="ˈprɪvətaɪz" tr="приватизировать"/>
+    <d v="privatize" p="noun" ts="ˈprɪvətaɪz" tr="приватизация"/>
+    <d v="privilege" p="noun" ts="ˈprɪvɪlɪʤ" tr="привилегия; честь"/>
+    <d v="privilege" p="adjective" ts="ˈprɪvɪlɪʤ" tr="привилегированный"/>
+    <d v="privileged" p="adjective" ts="ˈprɪvɪlɪʤd" tr="привилегированный"/>
+    <d v="privileged" p="noun" ts="ˈprɪvɪlɪʤd" tr="привилегия; льготник"/>
+    <d v="privy" p="adjective" ts="ˈprɪvɪ" tr="тайный; конфиденциальный"/>
+    <d v="privy" p="noun" ts="ˈprɪvɪ" tr="уборная"/>
+    <d v="privy" p="participle" ts="ˈprɪvɪ" tr="скрытый"/>
+    <d v="prize" p="noun" ts="praɪz" tr="приз; выигрыш; находка"/>
+    <d v="prize" p="adjective" ts="praɪz" tr="призовой"/>
+    <d v="prize" p="verb" ts="praɪz" tr="высоко ценить"/>
+    <d v="prize" p="participle" ts="praɪz" tr="премированный"/>
+    <d v="pro" p="adjective" ts="prəʊ" tr="профессиональный; прозападный; проамериканский"/>
+    <d v="pro" p="noun" ts="prəʊ" tr="профи; плюс"/>
+    <d v="probability" p="noun" ts="prɔbəˈbɪlɪtɪ" tr="вероятность"/>
+    <d v="probability" p="adjective" ts="prɔbəˈbɪlɪtɪ" tr="вероятностный"/>
+    <d v="probable" p="adjective" ts="ˈprɔbəbl" tr="вероятный"/>
+    <d v="probable" p="participle" ts="ˈprɔbəbl" tr="предполагаемый"/>
+    <d v="probably" p="adverb" ts="ˈprɔbəblɪ" tr="возможно; видимо"/>
+    <d v="probation" p="noun" ts="prəˈbeɪʃn" tr="стажировка; пробация; испытание; стажирование; условный срок; искус"/>
+    <d v="probation" p="adjective" ts="prəˈbeɪʃn" tr="испытательный"/>
+    <d v="probe" p="noun" ts="prəʊb" tr="зонд; расследование; штырь; зондирование; прощупывание; зондаж"/>
+    <d v="probe" p="verb" ts="prəʊb" tr="исследовать; прощупать; прозондировать; расследовать; щупать"/>
+    <d v="probe" p="adjective" ts="prəʊb" tr="зондовый"/>
+    <d v="problem" p="noun" ts="ˈprɔbləm" tr="проблема; сложная ситуация"/>
+    <d v="problem" p="adjective" ts="ˈprɔbləm" tr="проблемный"/>
+    <d v="problematic" p="adjective" ts="prɔblɪˈmætɪk" tr="проблематичный"/>
+    <d v="problematic" p="noun" ts="prɔblɪˈmætɪk" tr="проблема"/>
+    <d v="procedural" p="adjective" ts="prəˈsɪʤərəl" tr="процессуальный"/>
+    <d v="procedural" p="adverb" ts="prəˈsɪʤərəl" tr="процессуально"/>
+    <d v="procedure" p="noun" ts="prəˈsiːʤə" tr="процедура"/>
+    <d v="proceed" p="verb" ts="prəˈsiːd"
+       tr="продолжаться; исходить; приступить; перейти; действовать; проследовать; отправляться; продвигать; обстоять"/>
+    <d v="proceedings" p="noun" ts="prəˈsiːdɪŋz" tr="судопроизводство; труды"/>
+    <d v="proceeds" p="noun" ts="ˈprəʊsiːdz" tr="выручка; вырученные средства; вырученная сумма"/>
+    <d v="process" p="noun" ts="ˈprəʊses" tr="процесс; ход; способ; отросток"/>
+    <d v="process" p="verb" ts="ˈprəʊses" tr="обрабатывать"/>
+    <d v="process" p="adjective" ts="ˈprəʊses" tr="процессный"/>
+    <d v="procession" p="noun" ts="prəˈseʃn" tr="шествие; исхождение"/>
+    <d v="processor" p="noun" ts="ˈprəʊsesər" tr="процессор; обработчик; переработчик"/>
+    <d v="processor" p="adjective" ts="ˈprəʊsesər" tr="процессорный"/>
+    <d v="proclaim" p="verb" ts="prəˈkleɪm" tr="провозгласить; объявлять; говорить; утверждать; прокламировать"/>
+    <d v="proclamation" p="noun" ts="prɔkləˈmeɪʃn" tr="провозглашение; воззвание; возглашение"/>
+    <d v="procrastinate" p="verb" ts="prəʊˈkræstɪneɪt" tr="медлить; откладывать; затягивать"/>
+    <d v="procrastination" p="noun" ts="prəʊkræstɪˈneɪʃn" tr="промедление; медлительность"/>
+    <d v="procreate" p="verb" ts="ˈprəʊkrɪeɪt" tr="плодить; расплодить; производить потомство"/>
+    <d v="procreate" p="noun" ts="ˈprəʊkrɪeɪt" tr="потомство"/>
+    <d v="procure" p="verb" ts="prəˈkjʊə"
+       tr="раздобыть; закупить; обеспечить; добыть; выхлопотать; заготовить; заготавливать"/>
+    <d v="procure" p="noun" ts="prəˈkjʊə" tr="закупка"/>
+    <d v="procurement" p="noun" ts="prəˈkjʊəmənt" tr="закупка; сводничество"/>
+    <d v="procurement" p="adjective" ts="prəˈkjʊəmənt" tr="закупочный; заготовительный; снабженческий"/>
+    <d v="prod" p="verb" ts="prɔd" tr="подтолкнуть"/>
+    <d v="prod" p="noun" ts="prɔd" tr="тычок"/>
+    <d v="prodigal" p="adjective" ts="ˈprɔdɪgəl" tr="блудный; расточительный"/>
+    <d v="prodigal" p="noun" ts="ˈprɔdɪgəl" tr="МОТ"/>
+    <d v="prodigious" p="adjective" ts="prəˈdɪʤəs" tr="огромный; удивительный"/>
+    <d v="prodigy" p="noun" ts="ˈprɔdɪʤɪ" tr="вундеркинд; чудо"/>
+    <d v="prodigy" p="participle" ts="ˈprɔdɪʤɪ" tr="одаренный"/>
+    <d v="produce" p="verb" ts="ˈprɔdjuːs" tr="производить; создавать; добывать; вызывать; написать"/>
+    <d v="produce" p="noun" ts="ˈprɔdjuːs" tr="производство; продукция"/>
+    <d v="produce" p="participle" ts="ˈprɔdjuːs" tr="произведенный"/>
+    <d v="producer" p="noun" ts="prəˈdjuːsə" tr="производитель; генератор"/>
+    <d v="producer" p="adjective" ts="prəˈdjuːsə" tr="генераторный"/>
+    <d v="product" p="noun" ts="ˈprɔdʌkt" tr="продукт; фабрикат"/>
+    <d v="product" p="adjective" ts="ˈprɔdʌkt" tr="продуктовый"/>
+    <d v="production" p="noun" ts="prəˈdʌkʃn" tr="производство; постановка; изделия; произведение"/>
+    <d v="production" p="adjective" ts="prəˈdʌkʃn" tr="производственный"/>
+    <d v="productive" p="adjective" ts="prəˈdʌktɪv" tr="продуктивный; трудоспособный"/>
+    <d v="productive" p="participle" ts="prəˈdʌktɪv" tr="производящий"/>
+    <d v="productivity" p="noun" ts="prɔdʌkˈtɪvɪtɪ" tr="производительность; продуктивность; выработка"/>
+    <d v="profane" p="verb" ts="prəˈfeɪn" tr="осквернить"/>
+    <d v="profane" p="adjective" ts="prəˈfeɪn" tr="светский; непосвященный; языческий"/>
+    <d v="profane" p="noun" ts="prəˈfeɪn" tr="профанация"/>
+    <d v="profanity" p="noun" ts="prəˈfænɪtɪ"
+       tr="ненормативная лексика; богохульство; ругательство; профанация; лексика"/>
+    <d v="profess" p="verb" ts="prəˈfes" tr="исповедовать; заявлять; преподавать"/>
+    <d v="profess" p="noun" ts="prəˈfes" tr="исповедание"/>
+    <d v="professed" p="participle" ts="prəˈfest" tr="открытый"/>
+    <d v="profession" p="noun" ts="prəˈfeʃn" tr="профессия; исповедание; заявление; обет"/>
+    <d v="professional" p="adjective" ts="prəˈfeʃənl" tr="профессиональный"/>
+    <d v="professional" p="noun" ts="prəˈfeʃənl" tr="профессионал"/>
+    <d v="professionalism" p="noun" ts="prəˈfeʃnəlɪzm" tr="профессионализм; профессионализация"/>
+    <d v="professionally" p="adverb" ts="prəˈfeʃnəlɪ" tr="профессионально; квалифицированно"/>
+    <d v="professionally" p="adjective" ts="prəˈfeʃnəlɪ" tr="профессиональный"/>
+    <d v="professor" p="noun" ts="prəˈfesə" tr="профессор"/>
+    <d v="professor" p="participle" ts="prəˈfesə" tr="исповедующий"/>
+    <d v="proficiency" p="noun" ts="prəˈfɪʃənsɪ" tr="знание; квалификация; профицит; выработанность; опытность"/>
+    <d v="proficient" p="verb" ts="prəˈfɪʃənt" tr="владеть"/>
+    <d v="proficient" p="adjective" ts="prəˈfɪʃənt" tr="опытный; искусный"/>
+    <d v="proficient" p="noun" ts="prəˈfɪʃənt" tr="специалист"/>
+    <d v="profile" p="noun" ts="ˈprəʊfaɪl" tr="профиль; контур"/>
+    <d v="profile" p="adjective" ts="ˈprəʊfaɪl" tr="профильный; фасонный"/>
+    <d v="profile" p="participle" ts="ˈprəʊfaɪl" tr="профилированный"/>
+    <d v="profile" p="verb" ts="ˈprəʊfaɪl" tr="профилировать"/>
+    <d v="profit" p="noun" ts="ˈprɔfɪt" tr="прибыль"/>
+    <d v="profit" p="verb" ts="ˈprɔfɪt" tr="воспользоваться; поживиться"/>
+    <d v="profitability" p="noun" ts="prɒfɪtəˈbɪlɪtɪ" tr="рентабельность; выгодность"/>
+    <d v="profitable" p="adjective" ts="ˈprɔfɪtəbl" tr="выгодный; взаимовыгодный"/>
+    <d v="profitably" p="adverb" ts="ˈprɔfɪtəblɪ" tr="выгодно; рентабельно"/>
+    <d v="profitably" p="noun" ts="ˈprɔfɪtəblɪ" tr="с пользой"/>
+    <d v="profitably" p="adjective" ts="ˈprɔfɪtəblɪ" tr="прибыльный"/>
+    <d v="profiteer" p="noun" ts="prɔfɪˈtɪə" tr="спекулянт"/>
+    <d v="profiteer" p="verb" ts="prɔfɪˈtɪə" tr="разжиться; спекулировать"/>
+    <d v="profit margin" p="noun" ts="ˈprɔfɪt ˈmɑːʤɪn"
+       tr="рентабельность; норма прибыли; маржа прибыли; размер прибыли"/>
+    <d v="profound" p="adjective" ts="prəˈfaʊnd" tr="глубокий; полный; мудрый; содержательный"/>
+    <d v="profound" p="noun" ts="prəˈfaʊnd" tr="глубина"/>
+    <d v="profoundly" p="adverb" ts="prəˈfaʊndlɪ" tr="глубоко; глубокомысленно"/>
+    <d v="profundity" p="noun" ts="prəˈfʌndɪtɪ" tr="глубина; глубокомыслие; пропасть"/>
+    <d v="profuse" p="adjective" ts="prəˈfjuːs" tr="обильный"/>
+    <d v="profusion" p="noun" ts="prəˈfjuːʒən" tr="изобилие; расточительность"/>
+    <d v="progeny" p="noun" ts="ˈprɔʤɪnɪ" tr="потомство; ученики; результат"/>
+    <d v="prognosis" p="noun" ts="prɔgˈnəʊsɪs" tr="прогноз"/>
+    <d v="program" p="noun" ts="ˈprəʊgræm" tr="программа; представление"/>
+    <d v="program" p="adjective" ts="ˈprəʊgræm" tr="программный"/>
+    <d v="program" p="verb" ts="ˈprəʊgræm" tr="программировать"/>
+    <d v="programmer" p="noun" ts="ˈprəʊgræmər" tr="программист; программатор; компьютерщик"/>
+    <d v="programming" p="noun" ts="ˈprəʊgræmɪŋ" tr="программирование"/>
+    <d v="programming" p="participle" ts="ˈprəʊgræmɪŋ" tr="программирующий"/>
+    <d v="progress" p="noun" ts="ˈprəʊgrəs" tr="прогресс; ход; успеваемость; путешествие"/>
+    <d v="progress" p="verb" ts="ˈprəʊgrəs" tr="прогрессировать; продвинуться"/>
+    <d v="progression" p="noun" ts="prəʊˈgreʃn" tr="прогрессия; прогресс; развитие; последовательность; протекание"/>
+    <d v="progressive" p="adjective" ts="prəʊˈgresɪv" tr="прогрессивный; постепенный"/>
+    <d v="progressive" p="noun" ts="prəʊˈgresɪv" tr="прогрессист"/>
+    <d v="progressively" p="adverb" ts="prəˈgresɪvlɪ" tr="постепенно"/>
+    <d v="prohibit" p="verb" ts="prəˈhɪbɪt" tr="запрещать; препятствовать"/>
+    <d v="prohibit" p="noun" ts="prəˈhɪbɪt" tr="запрет"/>
+    <d v="prohibit" p="participle" ts="prəˈhɪbɪt" tr="запрещающий"/>
+    <d v="prohibition" p="noun" ts="prəʊɪˈbɪʃn" tr="запрет; сухой закон"/>
+    <d v="prohibition" p="noun" ts="prəʊɪˈbɪʃn" tr="запрет; сухой закон"/>
+    <d v="prohibitive" p="adjective" ts="prəˈhɪbɪtɪv" tr="запретительный; непомерно высокий"/>
+    <d v="prohibitive" p="adverb" ts="prəˈhɪbɪtɪv" tr="непомерно"/>
+    <d v="prohibitive" p="participle" ts="prəˈhɪbɪtɪv" tr="препятствующий"/>
+    <d v="prohibitively" p="adverb" ts="prəˈhɪbətɪvlɪ" tr="непомерно; запретительно; запредельно"/>
+    <d v="project" p="noun" ts="ˈprɔʤekt" tr="проект; программа"/>
+    <d v="project" p="adjective" ts="ˈprɔʤekt" tr="проектный"/>
+    <d v="project" p="verb" ts="ˈprɔʤekt" tr="проектировать; бросать; выступать; отражать; выпускать"/>
+    <d v="projectile" p="noun" ts="ˈprɔʤɪktaɪl" tr="снаряд"/>
+    <d v="projectile" p="adjective" ts="ˈprɔʤɪktaɪl" tr="метательный"/>
+    <d v="projection" p="noun" ts="prəˈʤekʃn" tr="проекция; прогноз; проектирование; выступ; метание"/>
+    <d v="projection" p="adjective" ts="prəˈʤekʃn" tr="проекционный"/>
+    <d v="projector" p="noun" ts="prəˈʤektə" tr="проектор; проектировщик"/>
+    <d v="proletarian" p="adjective" ts="prəʊlɪˈtɛərɪən" tr="пролетарский"/>
+    <d v="proletarian" p="noun" ts="prəʊlɪˈtɛərɪən" tr="пролетарий"/>
+    <d v="proletariat" p="noun" ts="prəʊlɪˈtɛərɪət" tr="пролетариат"/>
+    <d v="proliferate" p="verb" ts="prəʊˈlɪfəreɪt"
+       tr="пролиферировать; распространяться; множиться; быстро увеличиваться"/>
+    <d v="proliferate" p="noun" ts="prəʊˈlɪfəreɪt" tr="распространение"/>
+    <d v="proliferation" p="noun" ts="prəʊlɪfəˈreɪʃn" tr="распространение; быстрое увеличение; быстрое размножение"/>
+    <d v="prolific" p="adjective" ts="prəʊˈlɪfɪk" tr="плодовитый"/>
+    <d v="prologue" p="noun" ts="ˈprəʊlɔg" tr="пролог"/>
+    <d v="prolong" p="verb" ts="prəʊˈlɔŋ" tr="продлить; продолжать; затягивать; удлинять; растянуть; затянуться"/>
+    <d v="prolong" p="noun" ts="prəʊˈlɔŋ" tr="продление"/>
+    <d v="prolonged" p="participle" ts="prəʊˈlɔŋd" tr="продленный; увеличиваемый; продолженный; затянувшийся"/>
+    <d v="prolonged" p="adjective" ts="prəʊˈlɔŋd" tr="длительный"/>
+    <d v="prom" p="adjective" ts="prɒm" tr="выпускной"/>
+    <d v="prom" p="noun" ts="prɒm" tr="выпускной вечер; бал; школьный бал"/>
+    <d v="promenade" p="noun" ts="prɔmɪˈnɑːd" tr="набережная; гулянье"/>
+    <d v="promenade" p="adjective" ts="prɔmɪˈnɑːd" tr="прогулочный"/>
+    <d v="prominence" p="noun" ts="ˈprɔmɪnəns"
+       tr="известность; выдающееся положение; внимание; выступ; видное положение; возвышение"/>
+    <d v="prominent" p="adjective" ts="ˈprɔmɪnənt" tr="известный; видный; выпуклый"/>
+    <d v="prominent" p="participle" ts="ˈprɔmɪnənt" tr="выступающий; выделяющийся"/>
+    <d v="prominently" p="noun" ts="ˈprɒmɪnəntlɪ" tr="видное место"/>
+    <d v="prominently" p="adverb" ts="ˈprɒmɪnəntlɪ" tr="заметно"/>
+    <d v="promiscuity" p="noun" ts="prɔmɪsˈkjuːɪtɪ"
+       tr="распущенность; неразборчивость; промискуитет; беспорядочность; разнородность; смешанность"/>
+    <d v="promiscuous" p="adjective" ts="prəˈmɪskjʊəs" tr="беспорядочный; разнородный"/>
+    <d v="promiscuous" p="participle" ts="prəˈmɪskjʊəs" tr="прослушивающий; смешанный"/>
+    <d v="promise" p="verb" ts="ˈprɔmɪs" tr="обещать; дать слово"/>
+    <d v="promise" p="noun" ts="ˈprɔmɪs" tr="обещание; перспектива"/>
+    <d v="promise" p="participle" ts="ˈprɔmɪs" tr="обещанный"/>
+    <d v="promise" p="adjective" ts="ˈprɔmɪs" tr="обетованный; многообещающий"/>
+    <d v="promising" p="adjective" ts="ˈprɔmɪsɪŋ" tr="перспективный"/>
+    <d v="promising" p="noun" ts="ˈprɔmɪsɪŋ" tr="обещание"/>
+    <d v="promising" p="adverbial participle" ts="ˈprɔmɪsɪŋ" tr="суля"/>
+    <d v="promising" p="verb" ts="ˈprɔmɪsɪŋ" tr="обнадеживать"/>
+    <d v="promising" p="participle" ts="ˈprɔmɪsɪŋ" tr="обещающий; подающий надежды"/>
+    <d v="promo" p="noun" ts="prəˈməʊ" tr="промо; акция"/>
+    <d v="promo" p="adjective" ts="prəˈməʊ" tr="рекламный"/>
+    <d v="promontory" p="noun" ts="ˈprɔməntrɪ" tr="мыс"/>
+    <d v="promote" p="verb" ts="prəˈməʊt" tr="способствовать; поощрять; продвигать; пропагандировать; продвинуть"/>
+    <d v="promote" p="noun" ts="prəˈməʊt" tr="содействие; продвижение; поощрение; пропаганда"/>
+    <d v="promoter" p="noun" ts="prəˈməʊtə" tr="промоутер; организатор; промотор; пропагандист; подстрекатель"/>
+    <d v="promotion" p="noun" ts="prəˈməʊʃn"
+       tr="продвижение; поощрение; содействие; акция; пропаганда; промотирование; повышение в звании"/>
+    <d v="promotional" p="adjective" ts="prəˈməʊʃənl" tr="рекламный; пропагандистский; поощрительный; внедренческий"/>
+    <d v="promotional" p="noun" ts="prəˈməʊʃənl" tr="промо; продвижение"/>
+    <d v="promotional" p="participle" ts="prəˈməʊʃənl" tr="содействующий"/>
+    <d v="prompt" p="noun" ts="prɔmpt" tr="строка; запрос; подсказка; оперативность; напоминание"/>
+    <d v="prompt" p="adjective" ts="prɔmpt" tr="быстрый; оперативный; исполнительный"/>
+    <d v="prompt" p="verb" ts="prɔmpt"
+       tr="подсказать; побудить; запрашивать; вызвать; подтолкнуть; внушать; суфлировать"/>
+    <d v="prompting" p="noun" ts="ˈprɔmptɪŋ" tr="побуждение; подсказка; наведение; внушение"/>
+    <d v="promptly" p="adverb" ts="ˈprɔmptlɪ" tr="незамедлительно; быстро; оперативно; своевременно"/>
+    <d v="promptly" p="adjective" ts="ˈprɔmptlɪ" tr="оперативный"/>
+    <d v="promptly" p="particle" ts="ˈprɔmptlɪ" tr="точно"/>
+    <d v="prone" p="adjective" ts="prəʊn" tr="склонный"/>
+    <d v="prone" p="participle" ts="prəʊn" tr="подверженный"/>
+    <d v="prone" p="noun" ts="prəʊn" tr="склонность"/>
+    <d v="prone" p="adverb" ts="prəʊn" tr="ничком"/>
+    <d v="prong" p="noun" ts="prɔŋ" tr="зубец"/>
+    <d v="pronoun" p="noun" ts="ˈprəʊnaʊn" tr="местоимение"/>
+    <d v="pronounce" p="verb" ts="prəˈnaʊns" tr="произносить; объявить; вынести; объявлять; высказаться"/>
+    <d v="pronounce" p="noun" ts="prəˈnaʊns" tr="произношение"/>
+    <d v="pronounced" p="adjective" ts="prəˈnaʊnst" tr="явный"/>
+    <d v="pronounced" p="participle" ts="prəˈnaʊnst" tr="выраженный; произнесенный; произносимый"/>
+    <d v="pronouncement" p="noun" ts="prəˈnaʊnsmənt" tr="заявление; вынесение"/>
+    <d v="Pronto" p="noun" ts="ˈprɔntəʊ" tr="Пронто; без промедления"/>
+    <d v="Pronto" p="adverb" ts="ˈprɔntəʊ" tr="быстро"/>
+    <d v="pronunciation" p="noun" ts="prənʌnsɪˈeɪʃn" tr="произношение"/>
+    <d v="proof" p="noun" ts="pruːf" tr="доказательство; проверка; корректура; пробный оттиск"/>
+    <d v="proof" p="adjective" ts="pruːf" tr="стойкий; непробиваемый"/>
+    <d v="proofread" p="noun" ts="ˈpruːfriːd" tr="корректура"/>
+    <d v="proofread" p="verb" ts="ˈpruːfriːd" tr="вычитать"/>
+    <d v="prop" p="noun" ts="prɔp" tr="опора; реквизит; подпорка"/>
+    <d v="prop" p="verb" ts="prɔp" tr="поддержать; подпереть"/>
+    <d v="propaganda" p="noun" ts="prɔpəˈgændə" tr="пропаганда"/>
+    <d v="propaganda" p="adjective" ts="prɔpəˈgændə" tr="пропагандистский"/>
+    <d v="propaganda" p="verb" ts="prɔpəˈgændə" tr="пропагандировать"/>
+    <d v="propagandize" p="verb" ts="prɔpəˈgændaɪz" tr="пропагандировать; распропагандировать"/>
+    <d v="propagandize" p="noun" ts="prɔpəˈgændaɪz" tr="пропаганда"/>
+    <d v="propagate" p="verb" ts="ˈprɔpəgeɪt" tr="распространяться; распространять; размножать; разводить"/>
+    <d v="propagate" p="noun" ts="ˈprɔpəgeɪt" tr="распространение"/>
+    <d v="propagation" p="noun" ts="prɔpəˈgeɪʃn" tr="распространение"/>
+    <d v="propel" p="verb" ts="prəˈpel" tr="стимулировать; продвинуть; двигать; подтолкнуть"/>
+    <d v="propeller" p="noun" ts="prəˈpelə" tr="винт"/>
+    <d v="propeller" p="adjective" ts="prəˈpelə" tr="гребной"/>
+    <d v="propensity" p="noun" ts="prəˈpensɪtɪ" tr="склонность; расположение"/>
+    <d v="proper" p="adjective" ts="ˈprɔpə" tr="надлежащий; правильный; настоящий; приличный"/>
+    <d v="proper" p="participle" ts="ˈprɔpə" tr="подходящий"/>
+    <d v="proper" p="noun" ts="ˈprɔpə" tr="правильность"/>
+    <d v="properly" p="adverb" ts="ˈprɔpəlɪ"
+       tr="правильно; собственно; хорошенько; достойно; надлежаще; толком; прилично"/>
+    <d v="property" p="noun" ts="ˈprɔpətɪ" tr="собственность; свойство; реквизит; хозяйство; бутафория"/>
+    <d v="property" p="adjective" ts="ˈprɔpətɪ" tr="имущественный"/>
+    <d v="prophecy" p="noun" ts="ˈprɔfɪsɪ" tr="пророчество"/>
+    <d v="prophecy" p="verb" ts="ˈprɔfɪsɪ" tr="пророчествовать"/>
+    <d v="prophesy" p="verb" ts="ˈprɔfɪsaɪ" tr="пророчествовать; предсказывать; вещать"/>
+    <d v="prophesy" p="noun" ts="ˈprɔfɪsaɪ" tr="пророчество"/>
+    <d v="prophet" p="noun" ts="ˈprɔfɪt" tr="пророк; проповедник"/>
+    <d v="prophetic" p="adjective" ts="prəˈfetɪk" tr="пророческий; вещий"/>
+    <d v="prophetic" p="noun" ts="prəˈfetɪk" tr="пророчество"/>
+    <d v="prophetic" p="adverb" ts="prəˈfetɪk" tr="пророчески"/>
+    <d v="propitious" p="adjective" ts="prəˈpɪʃəs" tr="благоприятный"/>
+    <d v="propitious" p="participle" ts="prəˈpɪʃəs" tr="подходящий"/>
+    <d v="proponent" p="noun" ts="prəˈpəʊnənt" tr="сторонник"/>
+    <d v="proportion" p="noun" ts="prəˈpɔːʃn" tr="доля; пропорция; пропорциональность; количественное соотношение"/>
+    <d v="proportion" p="participle" ts="prəˈpɔːʃn" tr="пропорциональный"/>
+    <d v="proportion" p="verb" ts="prəˈpɔːʃn" tr="соразмерять; распределять"/>
+    <d v="proportional" p="adjective" ts="prəˈpɔːʃənl" tr="пропорциональный"/>
+    <d v="proposal" p="noun" ts="prəˈpəʊzəl" tr="предложение; план"/>
+    <d v="propose" p="verb" ts="prəˈpəʊz" tr="предлагать; делать предложение"/>
+    <d v="proposition" p="noun" ts="prɔpəˈzɪʃn" tr="предложение; утверждение; проект; дело"/>
+    <d v="proprietary" p="adjective" ts="prəˈpraɪətərɪ" tr="собственный; проприетарный"/>
+    <d v="proprietary" p="noun" ts="prəˈpraɪətərɪ" tr="собственность; право собственности; собственник"/>
+    <d v="proprietary" p="participle" ts="prəˈpraɪətərɪ" tr="запатентованный"/>
+    <d v="proprietor" p="noun" ts="prəˈpraɪətə" tr="собственник; хозяйчик"/>
+    <d v="propriety" p="noun" ts="prəˈpraɪətɪ" tr="приличие; правильность; право собственности"/>
+    <d v="propulsion" p="noun" ts="prəˈpʌlʃn" tr="двигатель; движение; тяга; движущая сила"/>
+    <d v="propulsion" p="adjective" ts="prəˈpʌlʃn" tr="двигательный; тяговый"/>
+    <d v="prosaic" p="adjective" ts="prəʊˈzeɪɪk" tr="прозаический; прозаичный"/>
+    <d v="proscribe" p="verb" ts="prəʊsˈkraɪb" tr="запрещать"/>
+    <d v="proscription" p="noun" ts="prəʊsˈkrɪpʃn" tr="запрет; изгнание; проскрипция"/>
+    <d v="prose" p="noun" ts="prəʊz" tr="проза; прозаик"/>
+    <d v="prose" p="adjective" ts="prəʊz" tr="прозаический; прозаичный"/>
+    <d v="prosecute" p="noun" ts="ˈprɔsɪkjuːt" tr="преследование; судебное преследование"/>
+    <d v="prosecute" p="verb" ts="ˈprɔsɪkjuːt" tr="преследовать; наказывать; судить; вести; преследовать по суду"/>
+    <d v="prosecution" p="noun" ts="prɔsɪˈkjuːʃn"
+       tr="преследование; прокуратура; сторона обвинения; ведение; предъявление иска"/>
+    <d v="prosecution" p="adjective" ts="prɔsɪˈkjuːʃn" tr="прокурорский"/>
+    <d v="prosecutor" p="noun" ts="ˈprɔsɪkjuːtə" tr="прокурор; Истец"/>
+    <d v="prospect" p="noun" ts="ˈprɔspekt" tr="перспектива; проспект; вид; разведка; предполагаемый клиент"/>
+    <d v="prospect" p="verb" ts="ˈprɔspekt" tr="разведывать"/>
+    <d v="prospective" p="adjective" ts="prəsˈpektɪv" tr="перспективный; потенциальный"/>
+    <d v="prospective" p="participle" ts="prəsˈpektɪv" tr="предполагаемый; ожидаемый"/>
+    <d v="prospective" p="noun" ts="prəsˈpektɪv" tr="перспектива"/>
+    <d v="prospector" p="noun" ts="prəsˈpektə" tr="старатель; изыскатель; разведчик"/>
+    <d v="prospectus" p="noun" ts="prəsˈpektəs" tr="проспект; проспект эмиссии"/>
+    <d v="prosper" p="verb" ts="ˈprɔspə" tr="процветать; богатеть"/>
+    <d v="prosper" p="noun" ts="ˈprɔspə" tr="процветание"/>
+    <d v="prosperity" p="noun" ts="prɔsˈperɪtɪ" tr="процветание; благополучие; зажиточность; преуспевание"/>
+    <d v="prosperous" p="participle" ts="ˈprɔspərəs" tr="процветающий; обеспеченный; благоденствующий"/>
+    <d v="prosperous" p="adjective" ts="ˈprɔspərəs" tr="благополучный; преуспевающий; зажиточный; удачливый"/>
+    <d v="prosperous" p="noun" ts="ˈprɔspərəs" tr="процветание"/>
+    <d v="prosperous" p="verb" ts="ˈprɔspərəs" tr="процветать"/>
+    <d v="prostheses" p="noun" ts="prɒsˈθiːsiːz" tr="протез"/>
+    <d v="prosthesis" p="noun" ts="ˈprɔsθɪsɪs" tr="протез"/>
+    <d v="prostitute" p="noun" ts="ˈprɔstɪtjuːt" tr="проститутка"/>
+    <d v="prostitute" p="verb" ts="ˈprɔstɪtjuːt" tr="заниматься проституцией; проституировать"/>
+    <d v="prostitution" p="noun" ts="prɔstɪˈtjuːʃn" tr="проституция"/>
+    <d v="prostrate" p="participle" ts="ˈprɔstreɪt" tr="распростертый; обессиленный"/>
+    <d v="prostrate" p="adjective" ts="ˈprɔstreɪt" tr="поверженный; стелющийся"/>
+    <d v="prostrate" p="verb" ts="ˈprɔstreɪt" tr="простираться; повергнуть"/>
+    <d v="protagonist" p="noun" ts="prəʊˈtægənɪst" tr="протагонист; героиня; главное действующее лицо; поборник"/>
+    <d v="protect" p="verb" ts="prəˈtekt" tr="защищать; охранять"/>
+    <d v="protect" p="noun" ts="prəˈtekt" tr="защита"/>
+    <d v="protection" p="noun" ts="prəˈtekʃn" tr="защита; покровительство; протекционизм; прикрытие"/>
+    <d v="protection" p="adjective" ts="prəˈtekʃn" tr="охранный"/>
+    <d v="protective" p="adjective" ts="prəˈtektɪv" tr="защитный"/>
+    <d v="protective" p="noun" ts="prəˈtektɪv" tr="защита"/>
+    <d v="protector" p="noun" ts="prəˈtektə" tr="защитник; протектор; защитное устройство; предохранитель; чехол"/>
+    <d v="protege" p="noun" ts="ˈprəʊteʒeɪ" tr="протеже; ставленник"/>
+    <d v="protein" p="noun" ts="ˈprəʊtiːn" tr="белок"/>
+    <d v="protein" p="adjective" ts="ˈprəʊtiːn" tr="белковый"/>
+    <d v="protest" p="noun" ts="ˈprəʊtest" tr="протест; опротестование"/>
+    <d v="protest" p="verb" ts="ˈprəʊtest" tr="протестовать; опротестовать"/>
+    <d v="protest" p="adjective" ts="ˈprəʊtest" tr="протестный"/>
+    <d v="protest" p="participle" ts="ˈprəʊtest" tr="протестующий"/>
+    <d v="Protestant" p="adjective" ts="ˈprɔtɪstənt" tr="протестантский"/>
+    <d v="Protestant" p="noun" ts="ˈprɔtɪstənt" tr="протестант"/>
+    <d v="protester" p="participle" ts="prəˈtestər" tr="протестующий; митингующий"/>
+    <d v="protester" p="noun" ts="prəˈtestər" tr="демонстрант"/>
+    <d v="protocol" p="noun" ts="ˈprəʊtəkɔl" tr="протокол"/>
+    <d v="protocol" p="adjective" ts="ˈprəʊtəkɔl" tr="протокольный"/>
+    <d v="proton" p="noun" ts="ˈprəʊtɔn" tr="протон"/>
+    <d v="proton" p="adjective" ts="ˈprəʊtɔn" tr="протонный"/>
+    <d v="prototype" p="noun" ts="ˈprəʊtəʊtaɪp" tr="прототип; образец; опытный образец; первообраз"/>
+    <d v="prototype" p="adjective" ts="ˈprəʊtəʊtaɪp" tr="опытный"/>
+    <d v="protracted" p="adjective" ts="prəˈtræktɪd" tr="затяжной"/>
+    <d v="protracted" p="participle" ts="prəˈtræktɪd" tr="затянувшийся"/>
+    <d v="protraction" p="noun" ts="prəˈtrækʃn" tr="затягивание; промедление"/>
+    <d v="protrude" p="verb" ts="prəˈtruːd" tr="выступать; торчать"/>
+    <d v="protrusion" p="noun" ts="prəˈtruːʒən" tr="выступ; выпячивание; высовывание"/>
+    <d v="proud" p="adjective" ts="praʊd" tr="гордый; самолюбивый; величавый; ретивый"/>
+    <d v="proud" p="noun" ts="praʊd" tr="гордость"/>
+    <d v="proud" p="verb" ts="praʊd" tr="возгордиться"/>
+    <d v="proud" p="participle" ts="praʊd" tr="вздувшийся"/>
+    <d v="proudly" p="adverb" ts="ˈpraʊdlɪ" tr="гордо"/>
+    <d v="proudly" p="noun" ts="ˈpraʊdlɪ" tr="с гордостью"/>
+    <d v="prove" p="verb" ts="pruːv" tr="доказать; подтверждать; обосновать; оказывать; пробовать"/>
+    <d v="prove" p="noun" ts="pruːv" tr="доказательство"/>
+    <d v="proven" p="participle" ts="ˈpruːvən" tr="доказанный; подтвержденный; доказавший; апробированный"/>
+    <d v="proven" p="verb" ts="ˈpruːvən" tr="доказать"/>
+    <d v="proverb" p="noun" ts="ˈprɔvəb" tr="пословица"/>
+    <d v="proverbial" p="adjective" ts="prəˈvɜːbjəl" tr="пресловутый; провербиальный"/>
+    <d v="proverbial" p="noun" ts="prəˈvɜːbjəl" tr="поговорка"/>
+    <d v="proverbial" p="participle" ts="prəˈvɜːbjəl" tr="вошедший в поговорку"/>
+    <d v="provide" p="verb" ts="prəˈvaɪd" tr="обеспечивать; предоставить; предусматривать; снабдить; заготовлять"/>
+    <d v="provide" p="noun" ts="prəˈvaɪd" tr="обеспечение"/>
+    <d v="provided" p="participle" ts="prəˈvaɪdɪd"
+       tr="предусмотренный; предоставленный; предоставляемый; обеспеченный; представленный; обеспечиваемый; поставляемый"/>
+    <d v="provided" p="noun" ts="prəˈvaɪdɪd" tr="при условии"/>
+    <d v="provided" p="conjunction" ts="prəˈvaɪdɪd" tr="если"/>
+    <d v="provided that" p="conjunction" ts="prəˈvaɪdɪd ðæt" tr="при условии что"/>
+    <d v="Providence" p="noun" ts="ˈprɔvɪdəns" tr="провидение; Провиденс"/>
+    <d v="provident" p="adjective" ts="ˈprɔvɪdənt" tr="предусмотрительный; запасливый"/>
+    <d v="providing" p="participle" ts="prəˈvaɪdɪŋ"
+       tr="предоставляющий; предусматривающий; оказывающий; дающий; поставляющий; проводящий"/>
+    <d v="providing" p="noun" ts="prəˈvaɪdɪŋ" tr="при условии"/>
+    <d v="province" p="noun" ts="ˈprɔvɪns" tr="провинция; периферия; компетенция"/>
+    <d v="province" p="adjective" ts="ˈprɔvɪns" tr="губернский"/>
+    <d v="provincial" p="adjective" ts="prəˈvɪnʃəl" tr="провинциальный; областной; периферийный"/>
+    <d v="provincial" p="noun" ts="prəˈvɪnʃəl" tr="провинция; провинциал; архиепископ"/>
+    <d v="provision" p="noun" ts="prəˈvɪʒən"
+       tr="положение; предоставление; провизия; снабжение; заготовка; мера предосторожности; заготовление"/>
+    <d v="provisional" p="adjective" ts="prəˈvɪʒənl" tr="предварительный"/>
+    <d v="proviso" p="noun" ts="prəˈvaɪzəʊ" tr="оговорка"/>
+    <d v="provocation" p="noun" ts="prɔvəˈkeɪʃn" tr="провокация; подстрекательство; вызов; раздражение"/>
+    <d v="provocative" p="adjective" ts="prəˈvɔkətɪv" tr="провокационный; соблазнительный"/>
+    <d v="provocative" p="participle" ts="prəˈvɔkətɪv" tr="провоцирующий"/>
+    <d v="provocative" p="verb" ts="prəˈvɔkətɪv" tr="провоцировать"/>
+    <d v="provoke" p="verb" ts="prəˈvəʊk" tr="спровоцировать; вызвать; раздражать; побуждать; раззадорить"/>
+    <d v="provoke" p="noun" ts="prəˈvəʊk" tr="провоцирование"/>
+    <d v="provost" p="noun" ts="ˈprɔvəst" tr="проректор"/>
+    <d v="prow" p="noun" ts="praʊ" tr="нос"/>
+    <d v="prowess" p="noun" ts="ˈpraʊɪs" tr="доблесть; удаль"/>
+    <d v="prowl" p="verb" ts="praʊl" tr="рыскать"/>
+    <d v="prowl" p="participle" ts="praʊl" tr="рыщущий"/>
+    <d v="prowler" p="noun" ts="ˈpraʊlə" tr="вор; бродяга"/>
+    <d v="proximity" p="noun" ts="prɔkˈsɪmɪtɪ" tr="близость"/>
+    <d v="proximity" p="adjective" ts="prɔkˈsɪmɪtɪ" tr="бесконтактный"/>
+    <d v="proxy" p="noun" ts="ˈprɔksɪ" tr="прокси; полномочие; посредник; заместитель"/>
+    <d v="proxy" p="adjective" ts="ˈprɔksɪ" tr="косвенный"/>
+    <d v="proxy" p="participle" ts="ˈprɔksɪ" tr="уполномоченный"/>
+    <d v="prude" p="noun" ts="pruːd" tr="ханжа"/>
+    <d v="prudence" p="noun" ts="ˈpruːdəns" tr="благоразумие; осторожность; расчетливость"/>
+    <d v="prudent" p="adjective" ts="ˈpruːdənt" tr="благоразумный; осторожный; расчетливый"/>
+    <d v="prudent" p="participle" ts="ˈpruːdənt" tr="взвешенный"/>
+    <d v="prudently" p="adverb" ts="ˈpruːdntlɪ" tr="благоразумно; предусмотрительно; осмотрительно"/>
+    <d v="prudish" p="adjective" ts="ˈpruːdɪʃ" tr="чопорный; ханжеский"/>
+    <d v="prune" p="noun" ts="pruːn" tr="чернослив; подрезка"/>
+    <d v="prune" p="verb" ts="pruːn" tr="подрезать; сокращать; упрощать; удалять"/>
+    <d v="prune" p="adjective" ts="pruːn" tr="сливовый"/>
+    <d v="prurient" p="adjective" ts="ˈprʊərɪənt" tr="похотливый"/>
+    <d v="pry" p="verb" ts="praɪ" tr="вырвать; подглядывать; совать; поддеть; приподнять; любопытствовать"/>
+    <d v="pry" p="noun" ts="praɪ" tr="любопытство; рычаг"/>
+    <d v="pry" p="adjective" ts="praɪ" tr="любопытный"/>
+    <d v="Psalm" p="noun" ts="sɑːm" tr="псалом; Псалтырь"/>
+    <d v="pseudonym" p="noun" ts="ˈpsjuːdənɪm" tr="псевдоним"/>
+    <d v="psych" p="noun" ts="saɪk" tr="психика"/>
+    <d v="psyche" p="noun" ts="ˈsaɪkɪ" tr="психика; душа; психея; псише"/>
+    <d v="psyche" p="adjective" ts="ˈsaɪkɪ" tr="психический"/>
+    <d v="psychedelic" p="adjective" ts="saɪkɪˈdelɪk" tr="психоделический"/>
+    <d v="psychiatric" p="adjective" ts="saɪkɪˈætrɪk" tr="психиатрический"/>
+    <d v="psychiatrist" p="noun" ts="saɪˈkaɪətrɪst" tr="психиатр"/>
+    <d v="psychiatry" p="noun" ts="saɪˈkaɪətrɪ" tr="психиатрия"/>
+    <d v="psychic" p="adjective" ts="ˈsaɪkɪk" tr="психический; телепатический"/>
+    <d v="psychic" p="noun" ts="ˈsaɪkɪk" tr="экстрасенс; медиум; пси; телепат"/>
+    <d v="psycho" p="noun" ts="ˈsaɪkəʊ" tr="психо; псих; психопат"/>
+    <d v="psycho" p="adjective" ts="ˈsaɪkəʊ" tr="психоэмоциональный"/>
+    <d v="psychoanalysis" p="noun" ts="saɪkəʊəˈnæləsɪs" tr="психоанализ; психоаналитик"/>
+    <d v="psychoanalyst" p="noun" ts="saɪkəʊˈænəlɪst" tr="психоаналитик"/>
+    <d v="psychological" p="adjective" ts="saɪkəˈlɔʤɪkəl" tr="психологический"/>
+    <d v="psychological" p="adverb" ts="saɪkəˈlɔʤɪkəl" tr="психологически"/>
+    <d v="psychologically" p="adverb" ts="saɪkəˈlɒʤɪklɪ" tr="психологически"/>
+    <d v="psychologically" p="adjective" ts="saɪkəˈlɒʤɪklɪ" tr="психологический"/>
+    <d v="psychologically" p="noun" ts="saɪkəˈlɒʤɪklɪ" tr="в психологическом отношении"/>
+    <d v="psychologist" p="noun" ts="saɪˈkɔləʤɪst" tr="психолог"/>
+    <d v="psychology" p="noun" ts="saɪˈkɔləʤɪ" tr="психология; психологизм"/>
+    <d v="psychology" p="adjective" ts="saɪˈkɔləʤɪ" tr="психологический"/>
+    <d v="psychopath" p="noun" ts="ˈsaɪkəʊpæθ" tr="психопат; психопатия"/>
+    <d v="psychosis" p="noun" ts="saɪˈkəʊsɪs" tr="психоз; психопатия"/>
+    <d v="psychosomatic" p="adjective" ts="saɪkəʊsəʊˈmætɪk" tr="психосоматический"/>
+    <d v="psychotherapist" p="noun" ts="saɪkəˈθerəpɪst" tr="психотерапевт"/>
+    <d v="psychotherapy" p="noun" ts="saɪkəʊˈθerəpɪ" tr="психотерапия"/>
+    <d v="psychotherapy" p="adjective" ts="saɪkəʊˈθerəpɪ" tr="психотерапевтический"/>
+    <d v="psychotic" p="adjective" ts="saɪˈkɒtɪk" tr="психотический"/>
+    <d v="psychotic" p="noun" ts="saɪˈkɒtɪk" tr="психоз"/>
+    <d v="pub" p="noun" ts="pʌb" tr="паб; пивная; гостиница"/>
+    <d v="puberty" p="noun" ts="ˈpjuːbətɪ" tr="созревание; период полового созревания"/>
+    <d v="pubescence" p="noun" ts="pjuːˈbesns" tr="опушение; созревание; половое созревание"/>
+    <d v="pubescence" p="participle" ts="pjuːˈbesns" tr="опушенный"/>
+    <d v="pubic" p="adjective" ts="ˈpjuːbɪk" tr="лобковый"/>
+    <d v="pubic" p="noun" ts="ˈpjuːbɪk" tr="лобок; на лобке"/>
+    <d v="public" p="adjective" ts="ˈpʌblɪk" tr="общественный"/>
+    <d v="public" p="noun" ts="ˈpʌblɪk" tr="общественность"/>
+    <d v="public" p="participle" ts="ˈpʌblɪk" tr="открытый"/>
+    <d v="public access" p="noun" ts="ˈpʌblɪk ˈækses"
+       tr="общественный доступ; публичный доступ; открытый доступ; общий доступ; доступ общественности; свободный доступ"/>
+    <d v="public address system" p="noun" ts="ˈpʌblɪk əˈdres ˈsɪstɪm" tr="система оповещения"/>
+    <d v="public assistance" p="noun" ts="ˈpʌblɪk əˈsɪstəns"
+       tr="социальная помощь; государственная помощь; общественная помощь"/>
+    <d v="publication" p="noun" ts="pʌblɪˈkeɪʃn" tr="публикация; оглашение"/>
+    <d v="public defender" p="noun" ts="ˈpʌblɪk dɪˈfendə"
+       tr="народный защитник; общественный защитник; государственный защитник"/>
+    <d v="publicist" p="noun" ts="ˈpʌblɪsɪst" tr="публицист"/>
+    <d v="publicist" p="adjective" ts="ˈpʌblɪsɪst" tr="публицистический"/>
+    <d v="publicity" p="noun" ts="pʌbˈlɪsɪtɪ" tr="гласность; реклама; публикуемость; популяризация"/>
+    <d v="publicity" p="adjective" ts="pʌbˈlɪsɪtɪ" tr="рекламный"/>
+    <d v="publicize" p="verb" ts="ˈpʌblɪsaɪz"
+       tr="публиковать; обнародовать; рекламировать; пропагандировать; оповещать; разглашать"/>
+    <d v="publicize" p="noun" ts="ˈpʌblɪsaɪz" tr="пропаганда; гласность; обнародование"/>
+    <d v="publicly" p="adverb" ts="ˈpʌblɪklɪ" tr="публично"/>
+    <d v="publicly" p="noun" ts="ˈpʌblɪklɪ" tr="во всеуслышание"/>
+    <d v="public opinion" p="noun" ts="ˈpʌblɪk əˈpɪnjən"
+       tr="общественное мнение; общественность; общественное сознание; мнение общественности; мнение народа"/>
+    <d v="public relations" p="noun" ts="ˈpʌblɪkrɪˈleɪʃənz" tr="пиар"/>
+    <d v="public school" p="noun" ts="ˈpʌblɪkˈskuːl"
+       tr="государственная школа; общественная школа; общеобразовательная школа"/>
+    <d v="public television" p="noun" ts="ˈpʌblɪk ˈtelɪvɪʒən"
+       tr="общественное телевидение; государственное телевидение; общественная телекомпания; общественный телеканал"/>
+    <d v="public transportation" p="noun" ts="ˈpʌblɪk trænspɔːˈteɪʃn"
+       tr="общественный транспорт; общественный местный транспорт"/>
+    <d v="public utility" p="noun" ts="ˈpʌblɪk juːˈtɪlɪtɪ" tr="коммунальное предприятие; общественная полезность"/>
+    <d v="publish" p="verb" ts="ˈpʌblɪʃ" tr="опубликовать; издавать"/>
+    <d v="publish" p="noun" ts="ˈpʌblɪʃ" tr="публикация"/>
+    <d v="publisher" p="noun" ts="ˈpʌblɪʃə" tr="издатель"/>
+    <d v="publishing" p="participle" ts="ˈpʌblɪʃɪŋ" tr="публикующий; издающий; публикующийся; выпускающий"/>
+    <d v="puck" p="noun" ts="pʌk" tr="шайба; пак"/>
+    <d v="pucker" p="verb" ts="ˈpʌkə" tr="морщиться; морщить"/>
+    <d v="pucker" p="noun" ts="ˈpʌkə" tr="растерянность"/>
+    <d v="pudding" p="noun" ts="ˈpʊdɪŋ" tr="пудинг; запеканка"/>
+    <d v="puddle" p="noun" ts="pʌdl" tr="лужа; Рохля"/>
+    <d v="puddle" p="verb" ts="pʌdl" tr="мутить; месить"/>
+    <d v="pudgy" p="adjective" ts="ˈpʌʤɪ" tr="пухлый"/>
+    <d v="puerile" p="adjective" ts="ˈpjʊəraɪl" tr="ребяческий; легкомысленный; незрелый"/>
+    <d v="puff" p="adjective" ts="pʌf" tr="слоеный"/>
+    <d v="puff" p="noun" ts="pʌf" tr="затяжка; слойка; пуховка; буф; дымок"/>
+    <d v="puff" p="verb" ts="pʌf" tr="пыхтеть; надувать; пудрить; выпячивать; дымить"/>
+    <d v="puffy" p="adjective" ts="ˈpʌfɪ" tr="пухлый; пышный"/>
+    <d v="puffy" p="participle" ts="ˈpʌfɪ" tr="опухший; отекший; кичливый; надутый; запыхавшийся"/>
+    <d v="pugnacious" p="adjective" ts="pʌgˈneɪʃəs" tr="драчливый"/>
+    <d v="puke" p="verb" ts="pjuːk" tr="блевать; тошнить; рвать"/>
+    <d v="puke" p="noun" ts="pjuːk" tr="рвота"/>
+    <d v="pull" p="verb" ts="pʊl"
+       tr="вытащить; дергать; вырвать; вынуть; притянуть; стянуть; оттянуть; рвать; собирать; грести; надвигать; разнести"/>
+    <d v="pull" p="noun" ts="pʊl" tr="тяга; натяжение; растяжение; глоток; ручка; блат; привлекательность"/>
+    <d v="pulley" p="noun" ts="ˈpʊlɪ" tr="шкив"/>
+    <d v="pullout" p="adjective" ts="ˈpʊlaʊt" tr="выдвижной"/>
+    <d v="pullover" p="noun" ts="ˈpʊləʊvər" tr="пуловер; свитер"/>
+    <d v="pulmonary" p="adjective" ts="ˈpʌlmənərɪ" tr="легочный; пульмонологический"/>
+    <d v="pulp" p="noun" ts="pʌlp" tr="целлюлоза; пульпа; шлам"/>
+    <d v="pulp" p="adjective" ts="pʌlp" tr="целлюлозный"/>
+    <d v="pulpit" p="noun" ts="ˈpʊlpɪt" tr="кафедра"/>
+    <d v="pulsate" p="verb" ts="pʌlʌˈseɪt" tr="пульсировать; вибрировать"/>
+    <d v="pulsation" p="noun" ts="pʌlˈseɪʃn" tr="пульсация"/>
+    <d v="pulse" p="noun" ts="pʌls" tr="импульс; пульс"/>
+    <d v="pulse" p="adjective" ts="pʌls" tr="импульсный"/>
+    <d v="pulse" p="verb" ts="pʌls" tr="пульсировать"/>
+    <d v="pulse" p="participle" ts="pʌls" tr="пульсирующий"/>
+    <d v="pulverization" p="noun" ts="pʌlvəraɪˈzeɪʃn" tr="пульверизация"/>
+    <d v="pulverize" p="verb" ts="ˈpʌlvəraɪz" tr="распылить; растирать; размельчать"/>
+    <d v="puma" p="noun" ts="ˈpjuːmə" tr="пума"/>
+    <d v="pumice" p="noun" ts="ˈpʌmɪs" tr="пемза"/>
+    <d v="pumice" p="adjective" ts="ˈpʌmɪs" tr="пемзовый"/>
+    <d v="pummel" p="verb" ts="pʌml" tr="бить"/>
+    <d v="pump" p="noun" ts="pʌmp" tr="насос; перекачка"/>
+    <d v="pump" p="adjective" ts="pʌmp" tr="насосный"/>
+    <d v="pump" p="verb" ts="pʌmp"
+       tr="перекачивать; качать; накачать; накачивать; прокачать; откачать; подкачать; перекачать"/>
+    <d v="pumpkin" p="noun" ts="ˈpʌmpkɪn" tr="тыква"/>
+    <d v="pumpkin" p="adjective" ts="ˈpʌmpkɪn" tr="тыквенный"/>
+    <d v="pun" p="noun" ts="pʌn" tr="каламбур"/>
+    <d v="pun" p="verb" ts="pʌn" tr="каламбурить"/>
+    <d v="punch" p="noun" ts="pʌnʧ"
+       tr="удар; пунш; пуансон; кулак; штамп; перфоратор; перфорация; пробойник; компостер; удар кулаком; сила; перфолента; петрушка; Кернер; коротышка"/>
+    <d v="punch" p="verb" ts="pʌnʧ"
+       tr="пробить; ударить; врезать; перфорировать; штамповать; бить кулаком; компостировать"/>
+    <d v="punching bag" p="noun" ts="ˈpʌnʧɪŋ bæg" tr="боксерская груша; боксерский мешок"/>
+    <d v="punctual" p="adjective" ts="ˈpʌŋktjʊəl" tr="пунктуальный"/>
+    <d v="punctual" p="noun" ts="ˈpʌŋktjʊəl" tr="пунктуальность"/>
+    <d v="punctuality" p="noun" ts="pʌŋktjʊˈælɪtɪ" tr="пунктуальность"/>
+    <d v="punctuate" p="verb" ts="ˈpʌŋktjʊeɪt" tr="акцентировать; перемежать"/>
+    <d v="punctuation" p="noun" ts="pʌŋktjʊˈeɪʃn" tr="пунктуация"/>
+    <d v="punctuation" p="adjective" ts="pʌŋktjʊˈeɪʃn" tr="пунктуационный"/>
+    <d v="punctuation mark" p="noun" ts="pʌŋktjʊˈeɪʃn mɑːk" tr="знак препинания"/>
+    <d v="puncture" p="noun" ts="ˈpʌŋkʧə" tr="прокол; пробой; укол"/>
+    <d v="puncture" p="verb" ts="ˈpʌŋkʧə" tr="проколоть"/>
+    <d v="pundit" p="noun" ts="ˈpʌndɪt" tr="эксперт; ученый муж; брамин"/>
+    <d v="pundit" p="adjective" ts="ˈpʌndɪt" tr="ученый"/>
+    <d v="pungent" p="adjective" ts="ˈpʌnʤənt" tr="острый; едкий"/>
+    <d v="punish" p="verb" ts="ˈpʌnɪʃ" tr="наказать; покарать"/>
+    <d v="punish" p="noun" ts="ˈpʌnɪʃ" tr="наказание"/>
+    <d v="punishable" p="adjective" ts="ˈpʌnɪʃəbl" tr="наказуемый"/>
+    <d v="punishing" p="participle" ts="ˈpʌnɪʃɪŋ" tr="карающий"/>
+    <d v="punishment" p="noun" ts="ˈpʌnɪʃmənt" tr="наказание"/>
+    <d v="punitive" p="adjective" ts="ˈpjuːnɪtɪv" tr="карательный"/>
+    <d v="punk" p="noun" ts="pʌŋk" tr="панк; шпана; гнилое дерево"/>
+    <d v="punt" p="noun" ts="pʌnt" tr="плоскодонка"/>
+    <d v="punt" p="verb" ts="pʌnt" tr="понтировать"/>
+    <d v="puny" p="adjective" ts="ˈpjuːnɪ" tr="жалкий; ничтожный; щуплый"/>
+    <d v="pup" p="noun" ts="pʌp" tr="щенок; тюлененок; лисенок"/>
+    <d v="pupil" p="noun" ts="pjuːpl" tr="ученик; воспитанник; зрачок; отличник; Зеница"/>
+    <d v="puppet" p="noun" ts="ˈpʌpɪt" tr="марионетка"/>
+    <d v="puppet" p="adjective" ts="ˈpʌpɪt" tr="кукольный"/>
+    <d v="puppeteer" p="noun" ts="pʌpɪˈtɪər" tr="кукольник; кукловод"/>
+    <d v="puppy" p="noun" ts="ˈpʌpɪ" tr="щенок"/>
+    <d v="puppy" p="adjective" ts="ˈpʌpɪ" tr="щенячий"/>
+    <d v="purchase" p="noun" ts="ˈpɜːʧəs" tr="покупка; стоимость"/>
+    <d v="purchase" p="verb" ts="ˈpɜːʧəs" tr="купить; приобрести"/>
+    <d v="purchase" p="adjective" ts="ˈpɜːʧəs" tr="покупной"/>
+    <d v="purchaser" p="noun" ts="ˈpɜːʧəsə" tr="покупатель"/>
+    <d v="pure" p="adjective" ts="pjʊə" tr="чистый; непорочный; простой; чистокровный; целомудренный; полнейший"/>
+    <d v="pure" p="noun" ts="pjʊə" tr="чистота"/>
+    <d v="puree" p="noun" ts="ˈpjʊəreɪ" tr="пюре"/>
+    <d v="purely" p="adverb" ts="ˈpjʊəlɪ" tr="чисто; исключительно; совершенно"/>
+    <d v="purgatory" p="noun" ts="ˈpɜːgətərɪ" tr="чистилище"/>
+    <d v="purgatory" p="adjective" ts="ˈpɜːgətərɪ" tr="очистительный"/>
+    <d v="purge" p="noun" ts="pɜːʤ" tr="чистка; слабительное"/>
+    <d v="purge" p="verb" ts="pɜːʤ" tr="очистить; продуть; удалять"/>
+    <d v="purge" p="adjective" ts="pɜːʤ" tr="продувочный"/>
+    <d v="purification" p="noun" ts="pjʊərɪfɪˈkeɪʃn" tr="очистка"/>
+    <d v="purification" p="adjective" ts="pjʊərɪfɪˈkeɪʃn" tr="очистительный"/>
+    <d v="purify" p="verb" ts="ˈpjʊərɪfaɪ" tr="очистить"/>
+    <d v="purify" p="noun" ts="ˈpjʊərɪfaɪ" tr="очистка"/>
+    <d v="purist" p="noun" ts="ˈpjʊərɪst" tr="пурист"/>
+    <d v="Puritan" p="noun" ts="ˈpjʊərɪtən" tr="пуританин"/>
+    <d v="Puritan" p="noun" ts="ˈpjʊərɪtən" tr="пуританин"/>
+    <d v="puritanical" p="adjective" ts="pjʊərɪˈtænɪkəl" tr="пуританский"/>
+    <d v="purity" p="noun" ts="ˈpjʊərɪtɪ" tr="чистота; безупречность; проба"/>
+    <d v="purple" p="adjective" ts="pɜːpl" tr="пурпурный; лиловый"/>
+    <d v="purple" p="noun" ts="pɜːpl" tr="пурпур"/>
+    <d v="purple" p="verb" ts="pɜːpl" tr="багроветь"/>
+    <d v="purport" p="verb" ts="ˈpɜːpət" tr="претендовать; подразумевать"/>
+    <d v="purport" p="noun" ts="ˈpɜːpət" tr="смысл"/>
+    <d v="purpose" p="noun" ts="ˈpɜːpəs" tr="цель; назначение; целеустремленность; воля; успех"/>
+    <d v="purpose" p="verb" ts="ˈpɜːpəs" tr="намереваться"/>
+    <d v="purposeful" p="adjective" ts="ˈpɜːpəsfʊl" tr="целенаправленный; важный"/>
+    <d v="purposely" p="adverb" ts="ˈpɜːpəslɪ" tr="намеренно; нарочно"/>
+    <d v="purr" p="verb" ts="pɜː" tr="мурлыкать"/>
+    <d v="purr" p="noun" ts="pɜː" tr="мурлыканье"/>
+    <d v="purse" p="noun" ts="pɜːs" tr="кошелек; сумочка; деньги; мошна; премия; мотня"/>
+    <d v="purse" p="verb" ts="pɜːs" tr="поджать"/>
+    <d v="purser" p="noun" ts="ˈpɜːsə" tr="казначей; стюард; эконом"/>
+    <d v="pursue" p="verb" ts="pəˈsjuː" tr="преследовать; проводить; продолжать; добиваться; заниматься; ставить"/>
+    <d v="pursue" p="noun" ts="pəˈsjuː" tr="преследование"/>
+    <d v="pursuit" p="noun" ts="pəˈsjuːt" tr="погоня; достижение; занятие"/>
+    <d v="purvey" p="verb" ts="pɜːˈveɪ" tr="поставлять; снабжать"/>
+    <d v="purveyor" p="noun" ts="pɜːˈveɪə" tr="поставщик"/>
+    <d v="pus" p="noun" ts="pʌs" tr="гной"/>
+    <d v="push" p="verb" ts="pʊʃ"
+       tr="толкнуть; толкать; подтолкнуть; нажимать; оттолкнуть; продвигать; отодвинуть; протолкнуть; оттолкнуться; оттеснить; выдвигать; подвигать; рекламировать"/>
+    <d v="push" p="noun" ts="pʊʃ" tr="толчок; нажатие; нажим; проталкивание; поддержка"/>
+    <d v="push button" p="noun" ts="pʊʃ bʌtn" tr="нажимная кнопка"/>
+    <d v="pusher" p="noun" ts="ˈpʊʃə" tr="толкач; толкатель"/>
+    <d v="pushy" p="adjective" ts="ˈpʊʃɪ" tr="напористый; бесцеремонный; нахальный"/>
+    <d v="pussy" p="noun" ts="ˈpʌsɪ" tr="киска"/>
+    <d v="pussy" p="adjective" ts="ˈpʌsɪ" tr="гнойный"/>
+    <d v="Pussycat" p="noun" ts="ˈpʊsɪkæt" tr="Киса; киска; кошечка"/>
+    <d v="put" p="verb" ts="pʊt"
+       tr="положить; поставить; поместить; надеть; вложить; посадить; выставить; приводить; бросать; переводить; выражать; предлагать; направлять; излагать; толкать; приделать; приладить"/>
+    <d v="put" p="participle" ts="pʊt" tr="введенный; поставленный; положенный"/>
+    <d v="putrid" p="adjective" ts="ˈpjuːtrɪd" tr="гнилой; трупный"/>
+    <d v="putt" p="noun" ts="pʌt" tr="удар; патт"/>
+    <d v="putter" p="noun" ts="ˈpʌtə" tr="клюшка; Путтер; короткая клюшка"/>
+    <d v="putty" p="noun" ts="ˈpʌtɪ" tr="замазка"/>
+    <d v="putty" p="verb" ts="ˈpʌtɪ" tr="зашпаклевать"/>
+    <d v="putty" p="adjective" ts="ˈpʌtɪ" tr="шпаклевочный"/>
+    <d v="puzzle" p="noun" ts="pʌzl" tr="головоломка; недоумение"/>
+    <d v="puzzle" p="verb" ts="pʌzl" tr="озадачить; ломать; ломать голову; приводить в затруднение"/>
+    <d v="puzzled" p="participle" ts="pʌzld" tr="озадаченный; удивленный"/>
+    <d v="puzzled" p="noun" ts="pʌzld" tr="недоумение"/>
+    <d v="puzzled" p="adverb" ts="pʌzld" tr="озадаченно"/>
+    <d v="pygmy" p="noun" ts="ˈpɪgmɪ" tr="пигмей; карлик"/>
+    <d v="pygmy" p="adjective" ts="ˈpɪgmɪ" tr="карликовый"/>
+    <d v="pylon" p="noun" ts="ˈpaɪlən" tr="пилон; опора; кабанчик"/>
+    <d v="pyramid" p="noun" ts="ˈpɪrəmɪd" tr="пирамида"/>
+    <d v="pyramid" p="adjective" ts="ˈpɪrəmɪd" tr="пирамидальный"/>
+    <d v="pyre" p="noun" ts="ˈpaɪə" tr="костер; Пайер"/>
+    <d v="python" p="noun" ts="ˈpaɪθən" tr="питон"/>
+    <d v="python" p="adjective" ts="ˈpaɪθən" tr="питоновский"/>
+
+</defs>

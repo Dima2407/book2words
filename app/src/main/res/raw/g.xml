@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+    <d v="Gabby" p="noun" ts="ˈgæbɪ" tr="Габби"/>
+    <d v="Gabby" p="adjective" ts="ˈgæbɪ" tr="словоохотливый; разговорчивый"/>
+    <d v="gable" p="noun" ts="geɪbl" tr="фронтон; щипец"/>
+    <d v="gable" p="adjective" ts="geɪbl" tr="двускатный"/>
+    <d v="gadget" p="noun" ts="ˈgæʤɪt" tr="гаджет; устройство; новинка; техническая новинка; штучка; безделушка"/>
+    <d v="gaffe" p="noun" ts="gæf" tr="оплошность"/>
+    <d v="gag" p="noun" ts="gæg" tr="кляп; шутка; заглушка; отсебятина; импровизация; роторасширитель"/>
+    <d v="gag" p="adjective" ts="gæg" tr="рвотный"/>
+    <d v="gag" p="verb" ts="gæg" tr="затыкать; затыкать рот"/>
+    <d v="gaggle" p="noun" ts="gægl" tr="стайка; гоготанье"/>
+    <d v="gaiety" p="noun" ts="ˈgeɪətɪ" tr="веселье; веселость"/>
+    <d v="gaily" p="adverb" ts="ˈgeɪlɪ" tr="весело"/>
+    <d v="gain" p="verb" ts="geɪn"
+       tr="получить; приобрести; завоевать; набирать; добиваться; выгадывать; извлекать пользу"/>
+    <d v="gain" p="noun" ts="geɪn" tr="прибыль; прирост; усиление; получение; увеличение; корысть"/>
+    <d v="gait" p="noun" ts="geɪt" tr="походка; аллюр"/>
+    <d v="gal" p="noun" ts="gæl" tr="гал; девушка; галлон; глобальный список адресов"/>
+    <d v="gala" p="noun" ts="ˈgɑːlə" tr="гала; празднество"/>
+    <d v="gala" p="adjective" ts="ˈgɑːlə" tr="торжественный"/>
+    <d v="galactic" p="adjective" ts="gəˈlæktɪk" tr="галактический"/>
+    <d v="galaxy" p="noun" ts="ˈgæləksɪ" tr="галактика"/>
+    <d v="gale" p="noun" ts="geɪl" tr="шторм; Гейл; взрыв"/>
+    <d v="gale" p="adjective" ts="geɪl" tr="штормовой"/>
+    <d v="gall" p="adjective" ts="gɔːl" tr="желчный"/>
+    <d v="gall" p="noun" ts="gɔːl" tr="желчь; галл; наглость; злоба"/>
+    <d v="gallant" p="adjective" ts="ˈgælənt" tr="галантный; бравый; доблестный"/>
+    <d v="gallant" p="noun" ts="ˈgælənt" tr="кавалер; любовник"/>
+    <d v="gallantly" p="adverb" ts="ˈgæləntlɪ" tr="галантно"/>
+    <d v="gallantry" p="noun" ts="ˈgæləntrɪ" tr="галантность; отвага; ухаживание"/>
+    <d v="gallbladder" p="adjective" ts="ˈgɒlblædər" tr="желчный"/>
+    <d v="gallbladder" p="noun" ts="ˈgɒlblædər" tr="желчный пузырь"/>
+    <d v="gallery" p="noun" ts="ˈgælərɪ" tr="галерея; штольня; галерист; балкон; штрек; портик"/>
+    <d v="galley" p="noun" ts="ˈgælɪ" tr="камбуз; галера"/>
+    <d v="gallivant" p="verb" ts="gælɪˈvænt" tr="шляться"/>
+    <d v="gallon" p="noun" ts="ˈgælən" tr="галлон"/>
+    <d v="gallop" p="noun" ts="ˈgæləp" tr="галоп"/>
+    <d v="gallop" p="verb" ts="ˈgæləp" tr="скакать; ускакать; галопировать"/>
+    <d v="gallows" p="noun" ts="ˈgæləʊz" tr="виселица"/>
+    <d v="galore" p="noun" ts="gəˈlɔː" tr="изобилие"/>
+    <d v="galvanize" p="verb" ts="ˈgælvənaɪz" tr="гальванизировать; оцинковывать"/>
+    <d v="gambit" p="noun" ts="ˈgæmbɪt" tr="гамбит"/>
+    <d v="gamble" p="noun" ts="gæmbl" tr="азартная игра; спекуляция; авантюра; азарт; рискованное предприятие"/>
+    <d v="gamble" p="adjective" ts="gæmbl" tr="азартный"/>
+    <d v="gamble" p="verb" ts="gæmbl" tr="рисковать; сыграть; спекулировать"/>
+    <d v="gambler" p="noun" ts="ˈgæmblə" tr="игрок; азартный игрок; аферист"/>
+    <d v="gambling" p="adjective" ts="ˈgæmblɪŋ" tr="азартный; игорный; игровой"/>
+    <d v="gambling" p="noun" ts="ˈgæmblɪŋ" tr="игра; игромания"/>
+    <d v="game" p="noun" ts="geɪm" tr="игра; партия; дичь; развлечение; проект; дело"/>
+    <d v="game" p="adjective" ts="geɪm" tr="игровой"/>
+    <d v="game" p="verb" ts="geɪm" tr="подшучивать"/>
+    <d v="game plan" p="noun" ts="geɪm plæn" tr="план игры; игровой план; план на игру"/>
+    <d v="game show" p="noun" ts="geɪm ʃəʊ" tr="игровое шоу"/>
+    <d v="gamut" p="noun" ts="ˈgæmət" tr="гамма"/>
+    <d v="gander" p="noun" ts="ˈgændə" tr="Гусак"/>
+    <d v="gang" p="noun" ts="gæŋ" tr="банда; компания; набор; бандитизм; артель; смена"/>
+    <d v="gang" p="verb" ts="gæŋ" tr="нападать"/>
+    <d v="gangland" p="adjective" ts="ˈgæŋglænd" tr="мафиозный"/>
+    <d v="gangling" p="adjective" ts="ˈgæŋglɪŋ" tr="долговязый"/>
+    <d v="gangrene" p="noun" ts="ˈgæŋgriːn" tr="гангрена; омертвение"/>
+    <d v="gangster" p="noun" ts="ˈgæŋstə" tr="бандит"/>
+    <d v="gangster" p="adjective" ts="ˈgæŋstə" tr="бандитский"/>
+    <d v="gangway" p="noun" ts="ˈgæŋweɪ" tr="трап; сходня; проход"/>
+    <d v="gap" p="noun" ts="gæp" tr="пробел; зазор; промежуток; пропасть; провал; прорыв; глубокое расхождение"/>
+    <d v="gap" p="adverbial participle" ts="gæp" tr="разрыв"/>
+    <d v="gape" p="verb" ts="geɪp" tr="зиять; разинуть; глазеть; зазеваться; зевать; изумляться"/>
+    <d v="gape" p="adverbial participle" ts="geɪp" tr="разинув рот"/>
+    <d v="gape" p="noun" ts="geɪp" tr="зевок"/>
+    <d v="gaping" p="participle" ts="ˈgeɪpɪŋ" tr="зияющий"/>
+    <d v="garage" p="noun" ts="ˈgærɑːʒ" tr="гараж"/>
+    <d v="garage" p="adjective" ts="ˈgærɑːʒ" tr="гаражный"/>
+    <d v="garage sale" p="noun" ts="ˈgærɑːʒ seɪl" tr="гараж продажи; гаражная распродажа"/>
+    <d v="garb" p="noun" ts="gɑːb" tr="одежда"/>
+    <d v="garbage" p="noun" ts="ˈgɑːbɪʤ" tr="мусор; помойка; отброс; фигня; отбросы; барахло; мусоросборник"/>
+    <d v="garbage" p="adjective" ts="ˈgɑːbɪʤ" tr="мусорный"/>
+    <d v="garbage can" p="adjective" ts="ˈgɑːbɪʤ kæn" tr="мусорный"/>
+    <d v="garbage can" p="noun" ts="ˈgɑːbɪʤ kæn" tr="мусорный бак"/>
+    <d v="garbage man" p="noun" ts="ˈgɑːbɪʤ mæn" tr="мусорщик"/>
+    <d v="garden" p="noun" ts="gɑːdn" tr="сад"/>
+    <d v="garden" p="adjective" ts="gɑːdn" tr="садовый"/>
+    <d v="gardener" p="noun" ts="ˈgɑːdnə" tr="садовник; огородник"/>
+    <d v="gardening" p="noun" ts="ˈgɑːdnɪŋ" tr="садоводство; озеленение"/>
+    <d v="gardening" p="adjective" ts="ˈgɑːdnɪŋ" tr="садовый"/>
+    <d v="gargantuan" p="adjective" ts="gɑːˈgæntjʊən" tr="гигантский"/>
+    <d v="gargle" p="noun" ts="gɑːgl" tr="полоскание"/>
+    <d v="gargle" p="verb" ts="gɑːgl" tr="полоскать; полоскать горло"/>
+    <d v="gargoyle" p="noun" ts="ˈgɑːgɔɪl" tr="горгулья"/>
+    <d v="garish" p="adjective" ts="ˈgɛərɪʃ" tr="яркий; показной"/>
+    <d v="garish" p="participle" ts="ˈgɛərɪʃ" tr="кричащий"/>
+    <d v="garland" p="noun" ts="ˈgɑːlənd" tr="гирлянда; пальма первенства"/>
+    <d v="garlic" p="noun" ts="ˈgɑːlɪk" tr="чеснок"/>
+    <d v="garlic" p="adjective" ts="ˈgɑːlɪk" tr="чесночный"/>
+    <d v="garment" p="noun" ts="ˈgɑːmənt" tr="одежда; предмет одежды; покров"/>
+    <d v="garment" p="adjective" ts="ˈgɑːmənt" tr="швейный"/>
+    <d v="garnet" p="noun" ts="ˈgɑːnɪt" tr="гранат"/>
+    <d v="garnet" p="adjective" ts="ˈgɑːnɪt" tr="гранатовый"/>
+    <d v="garnish" p="noun" ts="ˈgɑːnɪʃ" tr="гарнир"/>
+    <d v="garnish" p="verb" ts="ˈgɑːnɪʃ" tr="украсить; гарнировать"/>
+    <d v="garret" p="noun" ts="ˈgærət" tr="чердак; Гаррет"/>
+    <d v="garret" p="adjective" ts="ˈgærət" tr="чердачный"/>
+    <d v="garrison" p="noun" ts="ˈgærɪsn" tr="гарнизон"/>
+    <d v="garrulous" p="adjective" ts="ˈgærʊləs" tr="болтливый"/>
+    <d v="garter" p="noun" ts="ˈgɑːtə" tr="подвязка"/>
+    <d v="gas" p="noun" ts="gæs" tr="газ; газо; метан; бахвальство"/>
+    <d v="gas" p="adjective" ts="gæs" tr="газовый"/>
+    <d v="gas chamber" p="noun" ts="ˈgæsʧeɪmbə" tr="газовая камера"/>
+    <d v="gaseous" p="adjective" ts="ˈgæsjəs" tr="газообразный"/>
+    <d v="gash" p="noun" ts="gæʃ" tr="рана; глубокая рана; запил"/>
+    <d v="gasket" p="noun" ts="ˈgæskɪt" tr="прокладка; уплотнение"/>
+    <d v="gas mask" p="noun" ts="gæs mɑːsk" tr="противогаз"/>
+    <d v="gasoline" p="noun" ts="ˈgæsəʊliːn" tr="бензин"/>
+    <d v="gasoline" p="adjective" ts="ˈgæsəʊliːn" tr="бензиновый"/>
+    <d v="gasp" p="verb" ts="gɑːsp" tr="задыхаться; ахнуть; охнуть; ахать; разинуть"/>
+    <d v="gasp" p="noun" ts="gɑːsp" tr="вздох; ГПБП; удушье"/>
+    <d v="gasp" p="participle" ts="gɑːsp" tr="задыхающийся"/>
+    <d v="gas pedal" p="noun" ts="gæs pedl" tr="педаль газа"/>
+    <d v="gas station" p="noun" ts="gæs steɪʃn"
+       tr="АЗС; автозаправочная станция; заправочная станция; газовая станция"/>
+    <d v="gastric" p="noun" ts="ˈgæstrɪk" tr="желудок"/>
+    <d v="gastric" p="adjective" ts="ˈgæstrɪk" tr="желудочный"/>
+    <d v="gastronomic" p="adjective" ts="gæstrəˈnɔmɪk" tr="гастрономический"/>
+    <d v="gate" p="noun" ts="geɪt" tr="врата; вентиль; затвор; заслонка; шлагбаум; литник; щит"/>
+    <d v="gateway" p="noun" ts="ˈgeɪtweɪ" tr="шлюз; ворота"/>
+    <d v="gateway" p="adjective" ts="ˈgeɪtweɪ" tr="шлюзовой; межсетевой"/>
+    <d v="gather" p="verb" ts="ˈgæðə" tr="собрать; собраться; почерпнуть; снимать; приобретать; рвать; поднимать"/>
+    <d v="gather" p="noun" ts="ˈgæðə" tr="сбор"/>
+    <d v="gathering" p="noun" ts="ˈgæðərɪŋ" tr="сбор; собрание; сход; скопление; тусовка"/>
+    <d v="gathering" p="participle" ts="ˈgæðərɪŋ" tr="собирающий; собравшийся"/>
+    <d v="Gauche" p="adjective" ts="gəʊʃ" tr="неловкий"/>
+    <d v="gaudy" p="adjective" ts="ˈgɔːdɪ" tr="яркий; безвкусный; витиеватый"/>
+    <d v="gaudy" p="participle" ts="ˈgɔːdɪ" tr="кричащий"/>
+    <d v="gauge" p="noun" ts="geɪʤ"
+       tr="датчик; колея; калибр; мера; шаблон; ширина колеи; толщина; масштаб; размер; сортамент; лекало"/>
+    <d v="gauge" p="adjective" ts="geɪʤ" tr="калибровочный"/>
+    <d v="gauge" p="verb" ts="geɪʤ" tr="оценить; измерить; калибровать"/>
+    <d v="gaunt" p="adjective" ts="gɔːnt" tr="изможденный; мрачный"/>
+    <d v="gaunt" p="noun" ts="gɔːnt" tr="гонт"/>
+    <d v="gaunt" p="participle" ts="gɔːnt" tr="вытянутый"/>
+    <d v="gauntlet" p="noun" ts="ˈgɔːntlɪt" tr="перчатка; латная рукавица"/>
+    <d v="gauze" p="noun" ts="gɔːz" tr="марля; сетка; газ; дымка; металлическая сетка"/>
+    <d v="gauze" p="adjective" ts="gɔːz" tr="марлевый"/>
+    <d v="gavel" p="noun" ts="gævl" tr="молоток"/>
+    <d v="gawk" p="verb" ts="gɔːk" tr="поглазеть"/>
+    <d v="gawk" p="noun" ts="gɔːk" tr="простак; разиня"/>
+    <d v="gawky" p="adjective" ts="ˈgɔːkɪ" tr="застенчивый"/>
+    <d v="gay" p="noun" ts="geɪ" tr="гей"/>
+    <d v="gay" p="adjective" ts="geɪ" tr="веселый; нарядный"/>
+    <d v="gaze" p="noun" ts="geɪz" tr="взгляд; пристальный взгляд"/>
+    <d v="gaze" p="verb" ts="geɪz" tr="взглянуть; пристально смотреть; созерцать; внимательно смотреть"/>
+    <d v="gaze" p="adjective" ts="geɪz" tr="пристальный"/>
+    <d v="gazebo" p="noun" ts="gəˈziːbəʊ" tr="беседка; бельведер; застекленный балкон"/>
+    <d v="gazelle" p="noun" ts="gəˈzel" tr="газель; джейран; дзерен"/>
+    <d v="Gazette" p="noun" ts="gəˈzet" tr="газета; вестник; правительственный бюллетень"/>
+    <d v="gear" p="noun" ts="gɪə"
+       tr="передача; шестерня; снаряжение; оборудование; зубчатая передача; шасси; упряжь; такелаж"/>
+    <d v="gear" p="adjective" ts="gɪə" tr="зубчатый"/>
+    <d v="gear" p="verb" ts="gɪə" tr="зацеплять; приспосабливать; запрягать"/>
+    <d v="gearshift" p="noun" ts="ˈgɪəʃɪft" tr="переключение передач"/>
+    <d v="Ged" p="noun" ts="gæd" tr="Гед"/>
+    <d v="gee" p="noun" ts="ʤiː" tr="Джи"/>
+    <d v="gee" p="adverb" ts="ʤiː" tr="вот здорово"/>
+    <d v="geek" p="noun" ts="gɪk" tr="гик; идиот; компьютерщик; фанат; Живоглот; выродок; подонок; технарь; урод"/>
+    <d v="geezer" p="noun" ts="ˈgiːzə" tr="чудак; старикашка"/>
+    <d v="geisha" p="noun" ts="ˈgeɪʃə" tr="гейша"/>
+    <d v="gel" p="noun" ts="ʤel" tr="гель"/>
+    <d v="gel" p="adjective" ts="ʤel" tr="гелевый"/>
+    <d v="gelatin" p="noun" ts="ʤeləˈtiːn" tr="желатин"/>
+    <d v="gelding" p="noun" ts="ˈgeldɪŋ" tr="мерин"/>
+    <d v="gem" p="noun" ts="ʤem" tr="камень; драгоценный камень; самоцвет"/>
+    <d v="gem" p="adjective" ts="ʤem" tr="драгоценный"/>
+    <d v="Gemini" p="noun" ts="ˈʤemɪnaɪ" tr="близнецы"/>
+    <d v="gender" p="adjective" ts="ˈʤendə" tr="гендерный"/>
+    <d v="gender" p="noun" ts="ˈʤendə" tr="пол; род"/>
+    <d v="gene" p="noun" ts="ʤiːn" tr="ген; Джин"/>
+    <d v="gene" p="adjective" ts="ʤiːn" tr="генный"/>
+    <d v="genealogical" p="adjective" ts="ʤiːnjəˈlɔʤɪkəl" tr="генеалогический"/>
+    <d v="genealogist" p="noun" ts="ʤiːnɪˈæləʤɪst" tr="генеалог"/>
+    <d v="genealogy" p="noun" ts="ʤiːnɪˈæləʤɪ" tr="генеалогия"/>
+    <d v="genealogy" p="adjective" ts="ʤiːnɪˈæləʤɪ" tr="генеалогический"/>
+    <d v="general" p="adjective" ts="ˈʤenərəl" tr="общий; генеральный"/>
+    <d v="general" p="noun" ts="ˈʤenərəl" tr="генерал; полководец"/>
+    <d v="general anesthetic" p="noun" ts="ˈʤenərəl ænɪsˈθetɪk" tr="общий наркоз"/>
+    <d v="generalization" p="noun" ts="ʤenərəlaɪˈzeɪʃn" tr="обобщение; обобщенность; общее правило"/>
+    <d v="generalization" p="verb" ts="ʤenərəlaɪˈzeɪʃn" tr="обобщать"/>
+    <d v="generalization" p="participle" ts="ʤenərəlaɪˈzeɪʃn" tr="обобщающий"/>
+    <d v="generalize" p="verb" ts="ˈʤenərəlaɪz" tr="обобщать; распространять"/>
+    <d v="generalize" p="noun" ts="ˈʤenərəlaɪz" tr="обобщение"/>
+    <d v="generalized" p="adjective" ts="ˈʤenərəlaɪzd" tr="обобщенный"/>
+    <d v="generalized" p="participle" ts="ˈʤenərəlaɪzd" tr="генерализированный"/>
+    <d v="generally" p="adverb" ts="ˈʤenərəlɪ" tr="обычно; обобщенно"/>
+    <d v="generally" p="adjective" ts="ˈʤenərəlɪ" tr="целый"/>
+    <d v="generally" p="noun" ts="ˈʤenərəlɪ" tr="в целом; в основном; в большинстве случаев; в общем смысле"/>
+    <d v="general store" p="noun" ts="ˈʤenərəl stɔː" tr="универсальный магазин"/>
+    <d v="generate" p="verb" ts="ˈʤenəreɪt"
+       tr="генерировать; создавать; формировать; порождать; вызвать; сгенерировать"/>
+    <d v="generate" p="noun" ts="ˈʤenəreɪt" tr="создание; генерация"/>
+    <d v="generation" p="noun" ts="ʤenəˈreɪʃn" tr="поколение; генерация; образование; порождение; зарождение"/>
+    <d v="generation gap" p="noun" ts="ʤenəˈreɪʃn gæp" tr="разрыв между поколениями; разрыв поколений"/>
+    <d v="generator" p="noun" ts="ˈʤenəreɪtə" tr="генератор; парогенератор; производитель; источник энергии"/>
+    <d v="generator" p="adjective" ts="ˈʤenəreɪtə" tr="генераторный"/>
+    <d v="generic" p="adjective" ts="ʤɪˈnerɪk" tr="общий; родовой; видовой"/>
+    <d v="generic" p="noun" ts="ʤɪˈnerɪk" tr="общий характер"/>
+    <d v="generically" p="adverb" ts="ʤɪˈnerɪklɪ" tr="генетически"/>
+    <d v="generosity" p="noun" ts="ʤenəˈrɔsɪtɪ" tr="щедрость"/>
+    <d v="generosity" p="adjective" ts="ʤenəˈrɔsɪtɪ" tr="щедрый"/>
+    <d v="generous" p="adjective" ts="ˈʤenərəs" tr="щедрый; большой; интенсивный; плодородный"/>
+    <d v="generous" p="noun" ts="ˈʤenərəs" tr="щедрость"/>
+    <d v="generous" p="participle" ts="ˈʤenərəs" tr="бескорыстный"/>
+    <d v="generously" p="adverb" ts="ˈʤenərəslɪ" tr="щедро"/>
+    <d v="Genesis" p="noun" ts="ˈʤenɪsɪs" tr="бытие; генезис; генез; происхождение; возникновение"/>
+    <d v="genetic" p="adjective" ts="ʤɪˈnetɪk" tr="генетический"/>
+    <d v="genetically" p="adverb" ts="ʤɪˈnetɪklɪ" tr="генетически"/>
+    <d v="genetically" p="adjective" ts="ʤɪˈnetɪklɪ" tr="генетический"/>
+    <d v="genetic engineering" p="noun" ts="ʤɪˈnetɪk enʤɪˈnɪərɪŋ" tr="генная инженерия; генетическая инженерия"/>
+    <d v="genetics" p="noun" ts="ʤɪˈnetɪks" tr="генетика; генетическая предрасположенность"/>
+    <d v="genetics" p="adjective" ts="ʤɪˈnetɪks" tr="генетический"/>
+    <d v="genial" p="adjective" ts="ˈʤiːnjəl"
+       tr="гениальный; добродушный; радушный; мягкий; подбородочный; общительный"/>
+    <d v="genital" p="adjective" ts="ˈʤenɪtl" tr="половой"/>
+    <d v="genital" p="noun" ts="ˈʤenɪtl" tr="половой орган"/>
+    <d v="genitalia" p="noun" ts="ʤenəˈtɑːlɪə" tr="гениталии"/>
+    <d v="genitalia" p="adjective" ts="ʤenəˈtɑːlɪə" tr="половой"/>
+    <d v="genius" p="noun" ts="ˈʤiːnjəs" tr="гений; гениальность; дух; одаренность"/>
+    <d v="genius" p="adjective" ts="ˈʤiːnjəs" tr="гениальный"/>
+    <d v="genocide" p="noun" ts="ˈʤenəʊsaɪd" tr="геноцид"/>
+    <d v="genre" p="noun" ts="ʒɑːŋr" tr="жанр"/>
+    <d v="genre" p="adjective" ts="ʒɑːŋr" tr="жанровый"/>
+    <d v="Gent" p="noun" ts="ʤent" tr="гент"/>
+    <d v="genteel" p="adjective" ts="ʤenˈtiːl" tr="благородный; элегантный; светский"/>
+    <d v="Gentile" p="noun" ts="ˈʤentaɪl" tr="язычник"/>
+    <d v="Gentile" p="adjective" ts="ˈʤentaɪl" tr="языческий; родовой"/>
+    <d v="gentility" p="noun" ts="ʤenˈtɪlɪtɪ" tr="родовитость"/>
+    <d v="gentle" p="adjective" ts="ʤentl" tr="нежный; легкий; тихий; благородный; родовитый; послушный"/>
+    <d v="gentle" p="noun" ts="ʤentl" tr="мягкость"/>
+    <d v="gentleman" p="noun" ts="ˈʤentlmən" tr="джентльмен; барин"/>
+    <d v="gentleness" p="noun" ts="ˈʤentlnɪs" tr="мягкость; нежность"/>
+    <d v="gently" p="adverb" ts="ˈʤentlɪ" tr="осторожно; мягко; нежно; слегка; кротко; помягче"/>
+    <d v="gently" p="adjective" ts="ˈʤentlɪ" tr="ласковый"/>
+    <d v="gentry" p="noun" ts="ˈʤentrɪ" tr="шляхта; Джентри"/>
+    <d v="gentry" p="adjective" ts="ˈʤentrɪ" tr="шляхетский"/>
+    <d v="genuflect" p="verb" ts="ˈʤenjuːflekt" tr="преклонять"/>
+    <d v="genuine" p="adjective" ts="ˈʤenjʊɪn" tr="подлинный; настоящий; неподдельный; натуральный; чистопородный"/>
+    <d v="genuine" p="noun" ts="ˈʤenjʊɪn" tr="подлинность"/>
+    <d v="genuinely" p="adverb" ts="ˈʤenjʊɪnlɪ" tr="действительно; подлинно"/>
+    <d v="genus" p="noun" ts="ˈʤiːnəs" tr="род"/>
+    <d v="geographer" p="noun" ts="ʤɪˈɔgrəfə" tr="географ"/>
+    <d v="geographical" p="adjective" ts="ʤɪəˈgræfɪkəl" tr="географический"/>
+    <d v="geographical" p="noun" ts="ʤɪəˈgræfɪkəl" tr="география"/>
+    <d v="geographical" p="adverb" ts="ʤɪəˈgræfɪkəl" tr="географически"/>
+    <d v="geographically" p="adverb" ts="ʤɪəˈgræfɪklɪ" tr="географически"/>
+    <d v="geographically" p="adjective" ts="ʤɪəˈgræfɪklɪ" tr="географический"/>
+    <d v="geographically" p="noun" ts="ʤɪəˈgræfɪklɪ" tr="география; в географическом отношении"/>
+    <d v="geography" p="noun" ts="ʤɪˈɔgrəfɪ" tr="география; землеведение; географические условия"/>
+    <d v="geography" p="adjective" ts="ʤɪˈɔgrəfɪ" tr="географический"/>
+    <d v="geologic" p="adjective" ts="ʤɪəˈlɔʤɪk" tr="геологический"/>
+    <d v="geologist" p="noun" ts="ʤɪˈɔləʤɪst" tr="геолог"/>
+    <d v="geology" p="noun" ts="ʤɪˈɔləʤɪ" tr="геология"/>
+    <d v="geology" p="adjective" ts="ʤɪˈɔləʤɪ" tr="геологический"/>
+    <d v="geometric" p="adjective" ts="ʤɪəˈmetrɪk" tr="геометрический"/>
+    <d v="geometrically" p="adverb" ts="ʤɪəˈmetrɪkəlɪ" tr="геометрически"/>
+    <d v="geometry" p="noun" ts="ʤɪˈɔmɪtrɪ" tr="геометрия; геометрические размеры"/>
+    <d v="geometry" p="adjective" ts="ʤɪˈɔmɪtrɪ" tr="геометрический"/>
+    <d v="geranium" p="noun" ts="ʤɪˈreɪnjəm" tr="герань"/>
+    <d v="geriatric" p="adjective" ts="ʤerɪˈætrɪk" tr="гериатрический"/>
+    <d v="geriatrics" p="noun" ts="ʤerɪˈætrɪks" tr="гериатрия"/>
+    <d v="germ" p="noun" ts="ʤɜːm" tr="микроб; бактерия; зародыш; росток; завязь"/>
+    <d v="German" p="adjective" ts="ˈʤɜːmən" tr="немецкий"/>
+    <d v="German" p="noun" ts="ˈʤɜːmən" tr="Германия; немец; немецко; Герман; германо"/>
+    <d v="German measles" p="noun" ts="ˈʤɜːmənˈmiːzlz" tr="краснуха; немецкая корь"/>
+    <d v="German shepherd" p="noun" ts="ˈʤɜːmən ˈʃepəd" tr="немецкая овчарка; немецкий чабан"/>
+    <d v="germinate" p="verb" ts="ˈʤɜːmɪneɪt" tr="прорастать"/>
+    <d v="germinate" p="noun" ts="ˈʤɜːmɪneɪt" tr="прорастание"/>
+    <d v="germination" p="noun" ts="ʤɜːmɪˈneɪʃn" tr="прорастание"/>
+    <d v="gerrymander" p="noun" ts="ˈʤerɪmændə" tr="джерримендеринг"/>
+    <d v="gerund" p="noun" ts="ˈʤerənd" tr="герундий"/>
+    <d v="gestation" p="noun" ts="ʤesˈteɪʃn" tr="беременность; созревание"/>
+    <d v="gesticulate" p="verb" ts="ʤesˈtɪkjʊleɪt" tr="жестикулировать"/>
+    <d v="gesture" p="noun" ts="ˈʤesʧə" tr="жест; поступок"/>
+    <d v="gesture" p="verb" ts="ˈʤesʧə" tr="жестикулировать"/>
+    <d v="get" p="verb" ts="get"
+       tr="получить; попасть; доставать; добраться; становиться; заставить; приобретать; иметь; достичь; брать; заполучить; понимать; прибыть; добывать; схватить; доставлять; устанавливать; съедать; вычислять"/>
+    <d v="get" p="noun" ts="get" tr="приплод"/>
+    <d v="getaway" p="noun" ts="ˈgetəweɪ" tr="отдых; бегство; старт"/>
+    <d v="geyser" p="noun" ts="ˈgiːzər" tr="гейзер"/>
+    <d v="ghastly" p="adjective" ts="ˈgɑːstlɪ" tr="ужасный"/>
+    <d v="ghastly" p="adverb" ts="ˈgɑːstlɪ" tr="ужасно"/>
+    <d v="ghetto" p="noun" ts="ˈgetəʊ" tr="гетто"/>
+    <d v="ghost" p="noun" ts="gəʊst" tr="призрак; дух"/>
+    <d v="ghost" p="adjective" ts="gəʊst" tr="призрачный"/>
+    <d v="ghostly" p="adjective" ts="ˈgəʊstlɪ" tr="призрачный; духовный"/>
+    <d v="ghost town" p="noun" ts="gəʊst taʊn" tr="город-призрак"/>
+    <d v="ghoul" p="noun" ts="guːl" tr="вурдалак; Гуля; мертвяк"/>
+    <d v="ghoulish" p="adjective" ts="ˈguːlɪʃ" tr="отвратительный; дьявольский"/>
+    <d v="gi" p="noun" ts="ˈʤiːˈaɪ" tr="Ги"/>
+    <d v="giant" p="noun" ts="ˈʤaɪənt" tr="гигант; титан; гидромонитор"/>
+    <d v="giant" p="adjective" ts="ˈʤaɪənt" tr="гигантский; огромный"/>
+    <d v="gibberish" p="noun" ts="ˈgɪbərɪʃ" tr="тарабарщина; бред"/>
+    <d v="gibe" p="noun" ts="ʤaɪb" tr="насмешка"/>
+    <d v="giblets" p="noun" ts="ˈʤɪblɪts" tr="гусиные потроха"/>
+    <d v="giddy" p="adjective" ts="ˈgɪdɪ" tr="головокружительный"/>
+    <d v="giddy" p="noun" ts="ˈgɪdɪ" tr="головокружение"/>
+    <d v="giddy" p="verb" ts="ˈgɪdɪ" tr="кружиться"/>
+    <d v="giddy" p="participle" ts="ˈgɪdɪ" tr="легкомысленный"/>
+    <d v="gift" p="noun" ts="gɪft" tr="подарок; подношение"/>
+    <d v="gift" p="adjective" ts="gɪft" tr="подарочный"/>
+    <d v="gift" p="verb" ts="gɪft" tr="подарить"/>
+    <d v="gift" p="participle" ts="gɪft" tr="подаренный"/>
+    <d v="gift certificate" p="noun" ts="gɪft səˈtɪfɪkɪt" tr="подарочный сертификат"/>
+    <d v="gifted" p="adjective" ts="ˈgɪftɪd" tr="талантливый; даровитый"/>
+    <d v="gifted" p="participle" ts="ˈgɪftɪd" tr="одаренный"/>
+    <d v="gig" p="noun" ts="gɪg" tr="концерт; двуколка; кабриолет; гичка"/>
+    <d v="Gigabyte" p="noun" ts="ˈgɪgəbaɪt" tr="гигабайт"/>
+    <d v="gigantic" p="adjective" ts="ʤaɪˈgæntɪk" tr="гигантский; огромный"/>
+    <d v="giggle" p="verb" ts="gɪgl" tr="хихикать; хихикнуть"/>
+    <d v="giggle" p="noun" ts="gɪgl" tr="хихиканье; смешок"/>
+    <d v="gild" p="verb" ts="gɪld" tr="позолотить; золотить"/>
+    <d v="gild" p="noun" ts="gɪld" tr="позолота"/>
+    <d v="gill" p="noun" ts="gɪl" tr="Гилл; жабра"/>
+    <d v="gill" p="adjective" ts="gɪl" tr="жаберный"/>
+    <d v="gimmick" p="noun" ts="ˈgɪmɪk" tr="уловка; диковинка; новинка; хитроумное приспособление"/>
+    <d v="gin" p="noun" ts="ʤɪn" tr="Джин; западня"/>
+    <d v="ginger" p="noun" ts="ˈʤɪnʤə" tr="имбирь; Рыжик"/>
+    <d v="ginger" p="adjective" ts="ˈʤɪnʤə" tr="имбирный; рыжий"/>
+    <d v="ginger" p="verb" ts="ˈʤɪnʤə" tr="подстегнуть"/>
+    <d v="ginger ale" p="noun" ts="ˈʤɪnʤə eɪl" tr="имбирный Эль; имбирное пиво; Эль имбиря"/>
+    <d v="gingerbread" p="noun" ts="ˈʤɪnʤəbred" tr="пряник; имбирный пряник; коврижка"/>
+    <d v="gingerbread" p="adjective" ts="ˈʤɪnʤəbred" tr="пряничный; имбирный; пышный"/>
+    <d v="gingerly" p="adverb" ts="ˈʤɪnʤəlɪ" tr="осторожно"/>
+    <d v="gingerly" p="adjective" ts="ˈʤɪnʤəlɪ" tr="осторожный"/>
+    <d v="giraffe" p="noun" ts="ʤɪˈrɑːf" tr="жираф"/>
+    <d v="girder" p="noun" ts="ˈgɜːdə" tr="балка"/>
+    <d v="girder" p="adjective" ts="ˈgɜːdə" tr="балочный"/>
+    <d v="girdle" p="noun" ts="gɜːdl" tr="пояс"/>
+    <d v="girl" p="noun" ts="gɜːl" tr="девушка; продавщица"/>
+    <d v="girlfriend" p="noun" ts="ˈgɜːlfrend" tr="подруга; любимая девушка"/>
+    <d v="girl scout" p="noun" ts="gɜːl skaʊt" tr="девочка-скаут"/>
+    <d v="girth" p="noun" ts="gɜːθ" tr="обхват; подпруга"/>
+    <d v="gist" p="noun" ts="ʤɪst" tr="суть; ГГИП"/>
+    <d v="give" p="verb" ts="gɪv"
+       tr="дать; отдать; придавать; подарить; отдавать; уступить; раздавать; уделить; показывать; производить; высказывать; жертвовать; устраивать; выносить; одаривать; причинять; исполнять; соглашаться; изображать"/>
+    <d v="give" p="noun" ts="gɪv" tr="податливость"/>
+    <d v="giveaway" p="noun" ts="ˈgɪvəweɪ" tr="поддавки; раздача; Бесплатная раздача"/>
+    <d v="given" p="participle" ts="gɪvn"
+       tr="данный; предоставленный; приведенный; отданный; представленный; подаренный; выдаваемый; даваемый; приводимый; придаваемый; склонный"/>
+    <d v="given" p="preposition" ts="gɪvn" tr="при; ввиду"/>
+    <d v="given" p="noun" ts="gɪvn" tr="данность"/>
+    <d v="given name" p="noun" ts="gɪvn neɪm" tr="заданное имя"/>
+    <d v="gizmo" p="noun" ts="ˈgɪzməʊ" tr="вещица; штучка"/>
+    <d v="glacial" p="adjective" ts="ˈgleɪsjəl" tr="ледниковый; ледяной"/>
+    <d v="glacial" p="participle" ts="ˈgleɪsjəl" tr="леденящий"/>
+    <d v="glacier" p="noun" ts="ˈglæsjə" tr="ледник; глетчер"/>
+    <d v="glacier" p="adjective" ts="ˈglæsjə" tr="ледниковый"/>
+    <d v="glad" p="adjective" ts="glæd" tr="радостный"/>
+    <d v="glad" p="verb" ts="glæd" tr="обрадоваться; радовать"/>
+    <d v="glad" p="noun" ts="glæd" tr="радость"/>
+    <d v="glad" p="participle" ts="glæd" tr="обрадовавшийся"/>
+    <d v="glade" p="noun" ts="gleɪd" tr="поляна; просека; вырубка"/>
+    <d v="gladiator" p="noun" ts="ˈglædɪeɪtə" tr="гладиатор"/>
+    <d v="gladiator" p="adjective" ts="ˈglædɪeɪtə" tr="гладиаторский"/>
+    <d v="gladly" p="noun" ts="ˈglædlɪ" tr="с радостью"/>
+    <d v="gladly" p="adverb" ts="ˈglædlɪ" tr="охотно"/>
+    <d v="glamorize" p="verb" ts="ˈglæməraɪz" tr="идеализировать; рекламировать"/>
+    <d v="glamorous" p="adjective" ts="ˈglæmərəs" tr="гламурный; очаровательный; эффектный; блистательный; глянцевый"/>
+    <d v="glamorous" p="adverb" ts="ˈglæmərəs" tr="гламурно"/>
+    <d v="glamour" p="noun" ts="ˈglæmə" tr="гламур; очарование; чары; романтический ореол"/>
+    <d v="glamour" p="verb" ts="ˈglæmə" tr="зачаровать"/>
+    <d v="glamour" p="adjective" ts="ˈglæmə" tr="эффектный"/>
+    <d v="glance" p="noun" ts="glɑːns" tr="взгляд"/>
+    <d v="glance" p="verb" ts="glɑːns"
+       tr="взглянуть; заглянуть; взглядывать; скользнуть; бегло просмотреть; сверкнуть"/>
+    <d v="gland" p="noun" ts="glænd" tr="железа; сальник"/>
+    <d v="glandular" p="adjective" ts="ˈglændjʊlə" tr="железистый"/>
+    <d v="glare" p="noun" ts="glɛə" tr="блик; блеск; яркий свет; ослепление; слепимость; свирепый взгляд"/>
+    <d v="glare" p="verb" ts="glɛə"
+       tr="посмотреть; смотреть; сверкать; свирепо смотреть; оглядеть; ослепительно сверкать"/>
+    <d v="glare" p="adjective" ts="glɛə" tr="яркий"/>
+    <d v="glaring" p="adjective" ts="ˈglɛərɪŋ" tr="вопиющий; яркий"/>
+    <d v="glaring" p="participle" ts="ˈglɛərɪŋ" tr="сверкающий"/>
+    <d v="glass" p="noun" ts="glɑːs"
+       tr="стекло; стакан; очки; бинокль; подзорная труба; стеклышко; парник; склянка; барометр"/>
+    <d v="glass" p="adjective" ts="glɑːs" tr="стеклянный"/>
+    <d v="glass ceiling" p="noun" ts="glɑːs ˈsiːlɪŋ" tr="стеклянный потолок"/>
+    <d v="glasses" p="noun" ts="ˈglɑːsɪz" tr="очки; стекла; бинокль"/>
+    <d v="glassware" p="noun" ts="ˈglɑːsweər" tr="посуда; стеклянная посуда; изделия из стекла; стеклопосуда"/>
+    <d v="glassware" p="participle" ts="ˈglɑːsweər" tr="стеклянный"/>
+    <d v="glassy" p="adjective" ts="ˈglɑːsɪ" tr="стеклянный; стекловидный; прозрачный; безжизненный; тусклый"/>
+    <d v="glassy" p="participle" ts="ˈglɑːsɪ" tr="остекленевший"/>
+    <d v="glaze" p="noun" ts="gleɪz" tr="глазурь; полива; гололед; лессировка; глянец; глазирование; мурава"/>
+    <d v="glaze" p="verb" ts="gleɪz"
+       tr="застеклить; стекленеть; остеклить; застеклять; глазировать; тускнеть; полировать"/>
+    <d v="glaze" p="adjective" ts="gleɪz" tr="глазурный"/>
+    <d v="glazed" p="noun" ts="gleɪzd" tr="остекление"/>
+    <d v="glazed" p="participle" ts="gleɪzd"
+       tr="застекленный; глазированный; глазурованный; остекленный; остекленевший"/>
+    <d v="gleam" p="noun" ts="gliːm" tr="блеск; просвет; луч"/>
+    <d v="gleam" p="verb" ts="gliːm" tr="блестеть"/>
+    <d v="gleaming" p="participle" ts="ˈgliːmɪŋ" tr="сверкающий; сияющий; светящийся"/>
+    <d v="gleaming" p="adjective" ts="ˈgliːmɪŋ" tr="блестящий"/>
+    <d v="gleaming" p="adverbial participle" ts="ˈgliːmɪŋ" tr="сверкая; блестя"/>
+    <d v="glean" p="verb" ts="gliːn" tr="подбирать; почерпнуть; подбирать колосья"/>
+    <d v="glee" p="noun" ts="gliː" tr="радость; ликование; хор; злорадство; песня"/>
+    <d v="gleeful" p="adjective" ts="ˈgliːfʊl" tr="радостный"/>
+    <d v="gleefully" p="adverb" ts="ˈgliːfəlɪ" tr="радостно"/>
+    <d v="gleefully" p="noun" ts="ˈgliːfəlɪ" tr="с ликованием"/>
+    <d v="glib" p="adjective" ts="glɪb" tr="бойкий; говорливый; гладкий"/>
+    <d v="glibly" p="adverb" ts="ˈglɪblɪ" tr="Бойко; многословно"/>
+    <d v="glide" p="verb" ts="glaɪd" tr="скользить; планировать; плыть"/>
+    <d v="glide" p="noun" ts="glaɪd" tr="скольжение; глиссада; плавное движение"/>
+    <d v="glider" p="noun" ts="ˈglaɪdə" tr="планер; дельтаплан"/>
+    <d v="glimmer" p="noun" ts="ˈglɪmə" tr="проблеск; мерцание; слабый проблеск; тусклый свет"/>
+    <d v="glimmer" p="verb" ts="ˈglɪmə" tr="мерцать"/>
+    <d v="glimmer" p="participle" ts="ˈglɪmə" tr="мерцающий"/>
+    <d v="glimpse" p="noun" ts="glɪmps" tr="взгляд; проблеск; мимолетный взгляд; мелькание"/>
+    <d v="glimpse" p="verb" ts="glɪmps" tr="взглянуть; мельком увидеть; промелькнуть; увидеть мельком"/>
+    <d v="glimpse" p="adjective" ts="glɪmps" tr="мимолетный"/>
+    <d v="glint" p="noun" ts="glɪnt" tr="блеск; Клинт"/>
+    <d v="glisten" p="verb" ts="glɪsn" tr="блестеть"/>
+    <d v="glisten" p="noun" ts="glɪsn" tr="блеск"/>
+    <d v="glitch" p="noun" ts="glɪʧ" tr="сбой; глюк; затруднение; небольшое затруднение"/>
+    <d v="glitter" p="noun" ts="ˈglɪtə" tr="блеск; яркий блеск"/>
+    <d v="glitter" p="verb" ts="ˈglɪtə" tr="блестеть"/>
+    <d v="glitter" p="adjective" ts="ˈglɪtə" tr="блестящий"/>
+    <d v="glitter" p="participle" ts="ˈglɪtə" tr="сверкающий"/>
+    <d v="glittering" p="adjective" ts="ˈglɪtərɪŋ" tr="блестящий"/>
+    <d v="glittering" p="adverbial participle" ts="ˈglɪtərɪŋ" tr="блистая"/>
+    <d v="glittering" p="participle" ts="ˈglɪtərɪŋ" tr="сверкающий; сияющий; мерцающий"/>
+    <d v="glitz" p="noun" ts="glɪts" tr="блеск"/>
+    <d v="glitzy" p="adjective" ts="ˈglɪtsɪ" tr="гламурный"/>
+    <d v="gloat" p="verb" ts="gləʊt" tr="злорадствовать; позлорадствовать"/>
+    <d v="gloat" p="noun" ts="gləʊt" tr="злорадство"/>
+    <d v="global" p="adjective" ts="ˈgləʊbəl" tr="глобальный"/>
+    <d v="globally" p="adverb" ts="ˈgləʊblɪ" tr="глобально"/>
+    <d v="globally" p="noun" ts="ˈgləʊblɪ" tr="на глобальном уровне"/>
+    <d v="globe" p="noun" ts="gləʊb" tr="мир; земной шар; глобус; держава"/>
+    <d v="globular" p="adjective" ts="ˈglɔbjʊlə" tr="шаровой; глобулярный"/>
+    <d v="globule" p="noun" ts="ˈglɔbjuːl" tr="глобула; шарик"/>
+    <d v="gloom" p="noun" ts="gluːm" tr="мрак; угрюмость; подавленное настроение"/>
+    <d v="gloom" p="adjective" ts="gluːm" tr="мрачный"/>
+    <d v="gloom" p="verb" ts="gluːm" tr="хмуриться"/>
+    <d v="gloomily" p="adverb" ts="ˈgluːmɪlɪ" tr="мрачно"/>
+    <d v="gloominess" p="noun" ts="ˈgluːmɪnəs" tr="мрачность"/>
+    <d v="gloomy" p="adjective" ts="ˈgluːmɪ" tr="мрачный"/>
+    <d v="gloomy" p="adverbial participle" ts="ˈgluːmɪ" tr="помрачнев"/>
+    <d v="glorification" p="noun" ts="glɔːrɪfɪˈkeɪʃn" tr="прославление"/>
+    <d v="glorification" p="verb" ts="glɔːrɪfɪˈkeɪʃn" tr="прославлять"/>
+    <d v="glorified" p="participle" ts="ˈglɔːrɪfaɪd"
+       tr="прославленный; воспетый; прославляемый; возвеличенный; восславленный"/>
+    <d v="glorify" p="verb" ts="ˈglɔːrɪfaɪ" tr="прославить; прославлять; славить; восславлять"/>
+    <d v="glorify" p="noun" ts="ˈglɔːrɪfaɪ" tr="прославление"/>
+    <d v="glorious" p="adjective" ts="ˈglɔːrɪəs" tr="славный; великолепный; блестящий; доблестный"/>
+    <d v="glorious" p="noun" ts="ˈglɔːrɪəs" tr="слава"/>
+    <d v="glorious" p="participle" ts="ˈglɔːrɪəs" tr="прославленный"/>
+    <d v="gloriously" p="adverb" ts="ˈglɔːrɪəslɪ" tr="славно; восхитительно"/>
+    <d v="glory" p="noun" ts="ˈglɔːrɪ" tr="слава; величие; триумф; ореол"/>
+    <d v="glory" p="verb" ts="ˈglɔːrɪ" tr="хвалиться; упиваться; торжествовать"/>
+    <d v="gloss" p="noun" ts="glɔs" tr="глянец"/>
+    <d v="gloss" p="adjective" ts="glɔs" tr="глянцевый"/>
+    <d v="gloss" p="verb" ts="glɔs" tr="приукрасить"/>
+    <d v="glossary" p="noun" ts="ˈglɔsərɪ" tr="глоссарий; классификатор"/>
+    <d v="glossy" p="adjective" ts="ˈglɔsɪ" tr="глянцевый; глянцевитый; лощеный"/>
+    <d v="glossy" p="noun" ts="ˈglɔsɪ" tr="глянец"/>
+    <d v="glossy" p="participle" ts="ˈglɔsɪ" tr="лоснящийся"/>
+    <d v="glove" p="noun" ts="glʌv" tr="перчатка; бардачок"/>
+    <d v="glove" p="adjective" ts="glʌv" tr="перчаточный"/>
+    <d v="glove compartment" p="noun" ts="glʌv kəmˈpɑːtmənt" tr="бардачок"/>
+    <d v="glow" p="noun" ts="gləʊ" tr="сияние; свечение; накал; румянец; пыл"/>
+    <d v="glow" p="verb" ts="gləʊ" tr="светиться; гореть; накалять; тлеть; рдеть"/>
+    <d v="glow" p="participle" ts="gləʊ" tr="светящийся"/>
+    <d v="glower" p="noun" ts="ˈglaʊə" tr="сердитый взгляд; нить накаливания"/>
+    <d v="glowing" p="adjective" ts="ˈgləʊɪŋ" tr="яркий; пылкий"/>
+    <d v="glowing" p="noun" ts="ˈgləʊɪŋ" tr="свечение"/>
+    <d v="glowing" p="adverb" ts="ˈgləʊɪŋ" tr="добела"/>
+    <d v="glowing" p="participle" ts="ˈgləʊɪŋ"
+       tr="светящийся; сияющий; пылающий; сверкающий; горящий; раскаленный; тлеющий"/>
+    <d v="glowworm" p="noun" ts="ˈglɒwɔːm" tr="светлячок"/>
+    <d v="glucose" p="noun" ts="ˈgluːkəʊs" tr="глюкоза"/>
+    <d v="glue" p="noun" ts="gluː" tr="клей; склеивание"/>
+    <d v="glue" p="verb" ts="gluː" tr="клеить; склеить; проклеить"/>
+    <d v="glue" p="adjective" ts="gluː" tr="клеевой"/>
+    <d v="glue" p="participle" ts="gluː" tr="клеящий; склеивающий"/>
+    <d v="glum" p="adjective" ts="glʌm" tr="мрачный"/>
+    <d v="glut" p="noun" ts="glʌt" tr="избыток; перенасыщение; пресыщение"/>
+    <d v="glutton" p="noun" ts="glʌtn" tr="обжора; росомаха"/>
+    <d v="glutton" p="adjective" ts="glʌtn" tr="жадный"/>
+    <d v="gluttony" p="noun" ts="ˈglʌtnɪ" tr="обжорство; ненасытность"/>
+    <d v="glycerin" p="noun" ts="glɪsəˈriːn" tr="глицерин"/>
+    <d v="glycerin" p="adjective" ts="glɪsəˈriːn" tr="глицериновый"/>
+    <d v="GMAT" p="noun" ts="gmæt" tr="экзамен GMAT"/>
+    <d v="gnarled" p="adjective" ts="nɑːld" tr="узловатый; корявый; шишковатый; угловатый; несговорчивый"/>
+    <d v="gnarly" p="adjective" ts="ʌˈnɑːlɪ" tr="сучковатый; несговорчивый; грубый; угловатый"/>
+    <d v="gnash" p="verb" ts="næʃ" tr="скрежетать"/>
+    <d v="gnash" p="noun" ts="næʃ" tr="скрежет"/>
+    <d v="gnat" p="noun" ts="næt" tr="комар; мошка; козявка"/>
+    <d v="gnaw" p="verb" ts="nɔː" tr="грызть; кусать; прогрызать; перегрызть; терзать; обгладывать; отгрызть"/>
+    <d v="gnawing" p="participle" ts="ˈnɔːɪŋ" tr="грызущий"/>
+    <d v="gnome" p="noun" ts="ˈnəʊmiː" tr="гном; афоризм"/>
+    <d v="GNP" p="noun" ts="np" tr="ВНП"/>
+    <d v="go" p="verb" ts="gəʊ"
+       tr="идти; поехать; пройти; уйти; уходить; продолжать; зайти; уехать; направиться; сходить; говорить; расходиться"/>
+    <d v="go" p="noun" ts="gəʊ" tr="ход"/>
+    <d v="goad" p="verb" ts="gəʊd" tr="подтолкнуть; подстрекать; подгонять"/>
+    <d v="goad" p="noun" ts="gəʊd" tr="стрекало; стимул"/>
+    <d v="goal" p="noun" ts="gəʊl" tr="цель; гол; ворота"/>
+    <d v="goal" p="adjective" ts="gəʊl" tr="голевой"/>
+    <d v="goalie" p="noun" ts="ˈgəʊlɪ" tr="вратарь"/>
+    <d v="goalkeeper" p="noun" ts="ˈgəʊlkiːpə" tr="вратарь"/>
+    <d v="goat" p="noun" ts="gəʊt" tr="коза; козел"/>
+    <d v="goat" p="adjective" ts="gəʊt" tr="козий"/>
+    <d v="goatee" p="noun" ts="gəʊˈtiː" tr="бородка; козлиная бородка"/>
+    <d v="gob" p="noun" ts="gɔb" tr="глотка; плевок"/>
+    <d v="gob" p="verb" ts="gɔb" tr="плевать"/>
+    <d v="gobble" p="verb" ts="gɔbl" tr="сожрать; жрать; кулдыкать"/>
+    <d v="gobbledygook" p="noun" ts="ˈgɒbldɪgʊk" tr="белиберда"/>
+    <d v="goblet" p="noun" ts="ˈgɔblɪt" tr="Кубок"/>
+    <d v="goblin" p="noun" ts="ˈgɔblɪn" tr="гоблин; орк; домовой"/>
+    <d v="God" p="noun" ts="gɔd" tr="Бог; Аллах; идол"/>
+    <d v="God" p="adjective" ts="gɔd" tr="Божий; Всевышний"/>
+    <d v="God" p="verb" ts="gɔd" tr="обожествлять"/>
+    <d v="God" p="noun" ts="gɔd" tr="Бог; Аллах; идол"/>
+    <d v="God" p="adjective" ts="gɔd" tr="Божий; Всевышний"/>
+    <d v="God" p="verb" ts="gɔd" tr="обожествлять"/>
+    <d v="godchild" p="noun" ts="ˈgɔdʧaɪld" tr="крестник; крестница"/>
+    <d v="goddamn" p="adjective" ts="ˈgɒdæm" tr="чертов"/>
+    <d v="goddamned" p="adjective" ts="ˈgɒdæmd" tr="проклятый"/>
+    <d v="goddamned" p="adverb" ts="ˈgɒdæmd" tr="чертовски"/>
+    <d v="goddess" p="noun" ts="ˈgɔdɪs" tr="богиня"/>
+    <d v="godfather" p="adjective" ts="ˈgɒdfɑːðər" tr="крестный"/>
+    <d v="godfather" p="noun" ts="ˈgɒdfɑːðər" tr="крестный отец; кум; восприемник"/>
+    <d v="godforsaken" p="adjective" ts="ˈgɔdfəˈseɪkn" tr="захолустный"/>
+    <d v="godless" p="adjective" ts="ˈgɔdlɪs" tr="безбожный"/>
+    <d v="godless" p="noun" ts="ˈgɔdlɪs" tr="безбожник"/>
+    <d v="godlike" p="adjective" ts="ˈgɔdlaɪk" tr="богоподобный"/>
+    <d v="godly" p="adjective" ts="ˈgɔdlɪ" tr="благочестивый; божественный; богоугодный"/>
+    <d v="godmother" p="noun" ts="ˈgɔdmʌðə" tr="крестная мать; фея; крестная мама"/>
+    <d v="godparent" p="adjective" ts="ˈgɔdpɛərənt" tr="крестный"/>
+    <d v="godsend" p="noun" ts="ˈgɔdsend" tr="находка; удача; настоящая находка; неожиданное счастливое событие"/>
+    <d v="goggles" p="noun" ts="gɒglz" tr="очки"/>
+    <d v="going" p="participle" ts="ˈgəʊɪŋ"
+       tr="идущий; проходящий; направляющийся; едущий; отправлявшийся; уходящий; поступающий; действующий; выезжающий; собирающийся; ходивший; направлявшийся; отправляющийся; существующий"/>
+    <d v="going" p="noun" ts="ˈgəʊɪŋ" tr="выход; переход; поход; отъезд; хождение"/>
+    <d v="going" p="adverbial participle" ts="ˈgəʊɪŋ" tr="направляясь; продвигаясь"/>
+    <d v="gold" p="noun" ts="gəʊld" tr="золото; богатство"/>
+    <d v="gold" p="adjective" ts="gəʊld" tr="золотой"/>
+    <d v="gold digger" p="noun" ts="gəʊld ˈdɪgə" tr="золотоискатель"/>
+    <d v="golden" p="adjective" ts="ˈgəʊldən" tr="золотой"/>
+    <d v="goldfish" p="noun" ts="ˈgəʊldfɪʃ" tr="рыбка; Золотая рыбка; карась; серебряный карась"/>
+    <d v="gold medal" p="noun" ts="gəʊld medl" tr="Золотая медаль"/>
+    <d v="gold mine" p="noun" ts="gəʊld maɪn" tr="золотой рудник; золотой прииск; Золотая жила; Золотая шахта; прииск"/>
+    <d v="gold rush" p="noun" ts="gəʊld rʌʃ" tr="Золотая лихорадка"/>
+    <d v="golf" p="noun" ts="gɔlf" tr="гольф"/>
+    <d v="golf ball" p="noun" ts="gɔlf bɔːl" tr="мяч для гольфа; мячик для гольфа"/>
+    <d v="golf club" p="noun" ts="gɔlf klʌb" tr="гольф-клуб; клюшка для гольфа"/>
+    <d v="golf course" p="noun" ts="gɔlf kɔːs" tr="гольф-поле"/>
+    <d v="golfer" p="noun" ts="ˈgɔlfə" tr="гольфист; гольф"/>
+    <d v="gondola" p="noun" ts="ˈgɔndələ" tr="гондола; полувагон"/>
+    <d v="gone" p="verb" ts="gɔn" tr="исчезнуть"/>
+    <d v="gone" p="noun" ts="gɔn" tr="пропасть"/>
+    <d v="gone" p="predicative" ts="gɔn" tr="нет"/>
+    <d v="gone" p="participle" ts="gɔn" tr="ушедший; пропавший; отправившийся"/>
+    <d v="gone" p="adjective" ts="gɔn" tr="пропащий"/>
+    <d v="goner" p="noun" ts="ˈgɔnə" tr="доходяга; конченый человек"/>
+    <d v="Gong" p="noun" ts="gɔŋ" tr="гонг"/>
+    <d v="gonorrhea" p="noun" ts="gɒnəˈrɪə" tr="гонорея"/>
+    <d v="goo" p="noun" ts="guː" tr="слизь; жижа; липкая масса"/>
+    <d v="goo" p="adjective" ts="guː" tr="липкий"/>
+    <d v="good" p="adjective" ts="gʊd"
+       tr="хороший; добрый; полезный; надлежащий; значительный; умелый; добродетельный; свежий; плодородный"/>
+    <d v="good" p="noun" ts="gʊd" tr="добро; благо"/>
+    <d v="good Friday" p="noun" ts="gʊd ˈfraɪdɪ" tr="страстная пятница; великая пятница"/>
+    <d v="good guy" p="noun" ts="gʊd gaɪ" tr="хороший парень"/>
+    <d v="goodness" p="noun" ts="ˈgʊdnɪs" tr="доброта; добро; совершенство; великодушие"/>
+    <d v="goods" p="noun" ts="gʊdz" tr="товар; вещи"/>
+    <d v="goods" p="adjective" ts="gʊdz" tr="товарный"/>
+    <d v="goodwill" p="noun" ts="ˈgʊdˈwɪl"
+       tr="добрая воля; воля; гудвилл; доброжелательность; благоволение; расположение; благожелательное отношение"/>
+    <d v="goodwill" p="adjective" ts="ˈgʊdˈwɪl" tr="добрый"/>
+    <d v="goody" p="noun" ts="ˈgʊdɪ" tr="лакомство; конфета; ханжа"/>
+    <d v="gooey" p="adjective" ts="ˈguːiː" tr="липкий"/>
+    <d v="goof" p="noun" ts="guːf" tr="дурак; лох; увалень"/>
+    <d v="goofy" p="adjective" ts="ˈguːfɪ" tr="бестолковый; тупой; чокнутый"/>
+    <d v="goofy" p="noun" ts="ˈguːfɪ" tr="Гуфи"/>
+    <d v="goon" p="noun" ts="guːn" tr="головорез; жлоб; ищейка; болван; тупица"/>
+    <d v="goose" p="noun" ts="guːs" tr="гусь; гусыня; мурашки; простушка; дура"/>
+    <d v="goose" p="adjective" ts="guːs" tr="гусиный"/>
+    <d v="goose bumps" p="noun" ts="guːs bʌmps" tr="мурашки"/>
+    <d v="GOP" p="noun" ts="gɒp" tr="Республиканская партия"/>
+    <d v="gopher" p="noun" ts="ˈgəʊfə" tr="суслик; гофер; программа gopher"/>
+    <d v="Gore" p="noun" ts="gɔː" tr="гора; кровь; запекшаяся кровь; ластовица"/>
+    <d v="Gore" p="verb" ts="gɔː" tr="забодать; бодать"/>
+    <d v="gorge" p="noun" ts="gɔːʤ" tr="ущелье; горло; зоб"/>
+    <d v="gorge" p="verb" ts="gɔːʤ" tr="поглощать"/>
+    <d v="gorgeous" p="adjective" ts="ˈgɔːʤəs" tr="великолепный; шикарный"/>
+    <d v="gorgeous" p="participle" ts="ˈgɔːʤəs" tr="потрясающий"/>
+    <d v="gorgeously" p="adverb" ts="ˈgɔːʤəslɪ" tr="великолепно"/>
+    <d v="gorilla" p="noun" ts="gəˈrɪlə" tr="горилла; страшилище"/>
+    <d v="gory" p="adjective" ts="ˈgɔːrɪ" tr="кровавый"/>
+    <d v="gory" p="participle" ts="ˈgɔːrɪ" tr="окровавленный"/>
+    <d v="gosling" p="noun" ts="ˈgɔzlɪŋ" tr="Гусенок"/>
+    <d v="gospel" p="noun" ts="ˈgɔspəl" tr="Евангелие; благовестие; убеждения"/>
+    <d v="gospel" p="adjective" ts="ˈgɔspəl" tr="евангельский"/>
+    <d v="gospel" p="noun" ts="ˈgɔspəl" tr="Евангелие; благовестие; убеждения"/>
+    <d v="gospel" p="adjective" ts="ˈgɔspəl" tr="евангельский"/>
+    <d v="gossip" p="noun" ts="ˈgɔsɪp" tr="сплетня; слухи; сплетница; сплетник; кумушка; болтун"/>
+    <d v="gossip" p="verb" ts="ˈgɔsɪp" tr="сплетничать; посплетничать; судачить; злословить"/>
+    <d v="got" p="participle" ts="gɔt" tr="приобретенный"/>
+    <d v="gouge" p="verb" ts="gaʊʤ" tr="выколоть; обманывать; выдалбливать"/>
+    <d v="gouge" p="noun" ts="gaʊʤ" tr="выемка"/>
+    <d v="goulash" p="noun" ts="ˈguːlæʃ" tr="гуляш"/>
+    <d v="gourd" p="noun" ts="gʊəd" tr="тыква"/>
+    <d v="gourmet" p="noun" ts="ˈgʊəmeɪ" tr="гурман; гастроном"/>
+    <d v="gourmet" p="adjective" ts="ˈgʊəmeɪ" tr="гурманский; элитный"/>
+    <d v="gout" p="noun" ts="gaʊt" tr="подагра; сгусток"/>
+    <d v="govern" p="verb" ts="ˈgʌvən" tr="управлять; регулировать; определять; влиять"/>
+    <d v="government" p="noun" ts="ˈgʌvnmənt" tr="правительство"/>
+    <d v="government" p="adjective" ts="ˈgʌvnmənt" tr="государственный"/>
+    <d v="governmental" p="adjective" ts="gʌvənˈmentl" tr="правительственный"/>
+    <d v="governmental" p="noun" ts="gʌvənˈmentl" tr="правительство"/>
+    <d v="governor" p="noun" ts="ˈgʌvənə" tr="губернатор; управляющий; правитель; регулятор; начальник; отец"/>
+    <d v="governor" p="participle" ts="ˈgʌvənə" tr="заведующий"/>
+    <d v="governorship" p="noun" ts="ˈgʌvənəʃɪp" tr="губернаторство"/>
+    <d v="gown" p="noun" ts="gaʊn" tr="платье; халат"/>
+    <d v="GPA" p="noun" ts="gpə" tr="гПа; ГПД; СПЗ"/>
+    <d v="grab" p="verb" ts="græb" tr="схватить; захватить; схватиться; прихватить; обхватить; отхватить; присваивать"/>
+    <d v="grab" p="noun" ts="græb" tr="захват; самосхват; присвоение; черпак"/>
+    <d v="grab" p="adverbial participle" ts="græb" tr="хватаясь; выхватывая"/>
+    <d v="grab" p="adjective" ts="græb" tr="грейферный"/>
+    <d v="grace" p="noun" ts="greɪs"
+       tr="благодать; милость; изящество; Грейс; отсрочка; фиоритура; привлекательность; любезность; прощение; такт"/>
+    <d v="grace" p="adjective" ts="greɪs" tr="льготный; благодатный"/>
+    <d v="grace" p="verb" ts="greɪs" tr="украшать; удостаивать"/>
+    <d v="graceful" p="adjective" ts="ˈgreɪsfʊl" tr="изящный; благодатный; приятный"/>
+    <d v="gracefully" p="adverb" ts="ˈgreɪsfəlɪ" tr="изящно"/>
+    <d v="gracefulness" p="noun" ts="ˈgreɪsfəlnəs" tr="грациозность"/>
+    <d v="gracious" p="adjective" ts="ˈgreɪʃəs"
+       tr="милостивый; любезный; благодатный; великодушный; милостивейший; благосклонный; снисходительный"/>
+    <d v="gracious" p="verb" ts="ˈgreɪʃəs" tr="помиловать"/>
+    <d v="graciously" p="adverb" ts="ˈgreɪʃəslɪ" tr="любезно; милостиво; грациозно"/>
+    <d v="grad" p="noun" ts="græd" tr="выпускник"/>
+    <d v="gradation" p="noun" ts="grəˈdeɪʃn" tr="градация; ступенчатость; постепенный переход; постепенность"/>
+    <d v="grade" p="noun" ts="greɪd" tr="класс; сорт; оценка; ранг; качество; отметка; градация; уклон"/>
+    <d v="grade" p="adjective" ts="greɪd" tr="марочный"/>
+    <d v="grade" p="verb" ts="greɪd" tr="нивелировать; сортировать"/>
+    <d v="grade point average" p="noun" ts="greɪd pɔɪnt ˈævərɪʤ" tr="средний балл"/>
+    <d v="grader" p="noun" ts="ˈgreɪdə"
+       tr="грейдер; первоклассник; восьмиклассник; сортировщик; Сортировальная машина"/>
+    <d v="grade school" p="noun" ts="ˈgreɪdˈskuːl" tr="начальная школа"/>
+    <d v="gradient" p="noun" ts="ˈgreɪdjənt" tr="градиент; уклон"/>
+    <d v="gradient" p="adjective" ts="ˈgreɪdjənt" tr="градиентный"/>
+    <d v="grad school" p="noun" ts="græd skuːl" tr="школа выпускника"/>
+    <d v="gradual" p="adjective" ts="ˈgrædjʊəl" tr="постепенный"/>
+    <d v="gradual" p="noun" ts="ˈgrædjʊəl" tr="постепенность"/>
+    <d v="gradually" p="adverb" ts="ˈgrædjʊəlɪ" tr="постепенно"/>
+    <d v="graduate" p="noun" ts="ˈgrædjʊət" tr="выпускник"/>
+    <d v="graduate" p="verb" ts="ˈgrædjʊət" tr="закончить; градуировать"/>
+    <d v="graduate" p="adjective" ts="ˈgrædjʊət" tr="дипломированный; выпускной"/>
+    <d v="graduate school" p="noun" ts="ˈgrædjʊətˈskuːl" tr="аспирантура; высшая школа"/>
+    <d v="graduation" p="noun" ts="grædjʊˈeɪʃn"
+       tr="окончание; выпуск; градация; окончание учебы; окончание школы; окончание университета; градуировка; окончание обучения; окончание учебного заведения"/>
+    <d v="graduation" p="adjective" ts="grædjʊˈeɪʃn" tr="выпускной"/>
+    <d v="graffiti" p="noun" ts="grəˈfiːtiː" tr="граффити"/>
+    <d v="graft" p="noun" ts="grɑːft"
+       tr="трансплантат; взяточничество; графт; имплантат; лоскут; привой; пересадка ткани; незаконные доходы"/>
+    <d v="graft" p="verb" ts="grɑːft" tr="прививать"/>
+    <d v="grain" p="noun" ts="greɪn" tr="зерно; песчинка; волокно; крупинка; структура; барда; грануляция"/>
+    <d v="grain" p="adjective" ts="greɪn" tr="зерновой; зернистый"/>
+    <d v="grainy" p="adjective" ts="ˈgreɪnɪ" tr="зернистый; шероховатый; негладкий"/>
+    <d v="grainy" p="noun" ts="ˈgreɪnɪ" tr="зернистость"/>
+    <d v="grainy" p="participle" ts="ˈgreɪnɪ" tr="гранулированный"/>
+    <d v="gram" p="noun" ts="græm" tr="грамм"/>
+    <d v="grammar" p="noun" ts="ˈgræmə" tr="грамматика; гимназия"/>
+    <d v="grammar" p="adjective" ts="ˈgræmə" tr="грамматический"/>
+    <d v="grammar school" p="noun" ts="ˈgræmə skuːl" tr="гимназия"/>
+    <d v="grammatical" p="adjective" ts="grəˈmætɪkəl" tr="грамматический"/>
+    <d v="grammatical" p="adverb" ts="grəˈmætɪkəl" tr="грамматически"/>
+    <d v="Grammy" p="noun" ts="ˈgrænɪ" tr="Грэмми; премия Grammy"/>
+    <d v="Grand" p="adjective" ts="grænd" tr="великий; грандиозный; величественный; торжественный; главный; итоговый"/>
+    <d v="Grand" p="noun" ts="grænd" tr="Гранд; Гран; рояль"/>
+    <d v="grandchild" p="noun" ts="ˈgrænʧaɪld" tr="внук"/>
+    <d v="grandchildren" p="noun" ts="ˈgrænʧɪldrən" tr="внучата"/>
+    <d v="granddad" p="noun" ts="ˈgrændæd" tr="дедушка"/>
+    <d v="granddaughter" p="noun" ts="ˈgrændɔːtə" tr="внучка"/>
+    <d v="grandeur" p="noun" ts="ˈgrænʤə" tr="величие; знатность"/>
+    <d v="grandfather" p="noun" ts="ˈgrændfɑːðə" tr="дед"/>
+    <d v="grandfather" p="adjective" ts="ˈgrændfɑːðə" tr="дедовский"/>
+    <d v="grandfather clock" p="noun" ts="ˈgrændfɑːðə klɔk" tr="старинные часы"/>
+    <d v="grandiose" p="adjective" ts="ˈgrændɪəʊs" tr="грандиозный; помпезный"/>
+    <d v="Grand jury" p="noun" ts="ˈgrændˈʤʊərɪ" tr="жюри; большое жюри"/>
+    <d v="grandly" p="adverb" ts="ˈgrændlɪ" tr="величественно; торжественно"/>
+    <d v="grandma" p="noun" ts="ˈgrænmɑː" tr="бабушка"/>
+    <d v="grandma" p="adjective" ts="ˈgrænmɑː" tr="бабушкин"/>
+    <d v="grandmother" p="noun" ts="ˈgrænmʌðə" tr="бабушка"/>
+    <d v="grandmother" p="adjective" ts="ˈgrænmʌðə" tr="бабушкин"/>
+    <d v="grandmother" p="verb" ts="ˈgrænmʌðə" tr="баловать"/>
+    <d v="grandpa" p="noun" ts="ˈgrænpɑː" tr="дедушка"/>
+    <d v="grandparent" p="noun" ts="ˈgrænpeərənt" tr="дедушка; прародитель"/>
+    <d v="Grand piano" p="noun" ts="ˈgrændˈpjænəʊ" tr="рояль"/>
+    <d v="Grand Prix" p="noun" ts="ˈgrɑːŋˈpriː" tr="Гран; большой приз"/>
+    <d v="Grand slam" p="noun" ts="grænd slæm" tr="большой шлем; шлем; турнир большого шлема"/>
+    <d v="grandson" p="noun" ts="ˈgrænsʌn" tr="внук"/>
+    <d v="grandstand" p="noun" ts="ˈgrændstænd" tr="трибуна"/>
+    <d v="Grand total" p="noun" ts="grænd təʊtl" tr="общий итог"/>
+    <d v="granite" p="noun" ts="ˈgrænɪt" tr="гранит"/>
+    <d v="granite" p="adjective" ts="ˈgrænɪt" tr="гранитный"/>
+    <d v="granny" p="noun" ts="ˈgrænɪ" tr="бабушка; матушка"/>
+    <d v="granny" p="adjective" ts="ˈgrænɪ" tr="бабушкин"/>
+    <d v="grant" p="noun" ts="grɑːnt" tr="грант; субсидия; дар; разрешение"/>
+    <d v="grant" p="verb" ts="grɑːnt" tr="предоставлять; даровать; выдавать; удовлетворить; разрешать"/>
+    <d v="grant" p="adjective" ts="grɑːnt" tr="грантовый"/>
+    <d v="granted" p="participle" ts="ˈgrɑːntɪd"
+       tr="предоставленный; выданный; предоставляемый; дарованный; выдаваемый; подаренный"/>
+    <d v="granular" p="adjective" ts="ˈgrænjʊlə" tr="зернистый"/>
+    <d v="granular" p="participle" ts="ˈgrænjʊlə" tr="гранулированный"/>
+    <d v="granulated" p="participle" ts="ˈgrænjʊleɪtɪd" tr="гранулированный"/>
+    <d v="granule" p="noun" ts="ˈgrænjuːl" tr="гранула"/>
+    <d v="grape" p="noun" ts="greɪp" tr="виноград"/>
+    <d v="grape" p="adjective" ts="greɪp" tr="виноградный"/>
+    <d v="grapefruit" p="noun" ts="ˈgreɪpfruːt" tr="грейпфрут"/>
+    <d v="grapefruit" p="adjective" ts="ˈgreɪpfruːt" tr="грейпфрутовый"/>
+    <d v="grapevine" p="noun" ts="ˈgreɪpvaɪn" tr="виноградная лоза"/>
+    <d v="graph" p="noun" ts="græf" tr="график; кривая"/>
+    <d v="graphic" p="adjective" ts="ˈgræfɪk" tr="графический"/>
+    <d v="graphic" p="noun" ts="ˈgræfɪk" tr="графика"/>
+    <d v="graphically" p="adverb" ts="ˈgræfɪkəlɪ" tr="графически"/>
+    <d v="graphically" p="adjective" ts="ˈgræfɪkəlɪ" tr="графический"/>
+    <d v="graphics" p="noun" ts="ˈgræfɪks" tr="графика"/>
+    <d v="graphics" p="adjective" ts="ˈgræfɪks" tr="графический"/>
+    <d v="graphite" p="noun" ts="ˈgræfaɪt" tr="графит"/>
+    <d v="graphite" p="adjective" ts="ˈgræfaɪt" tr="графитовый"/>
+    <d v="grapple" p="verb" ts="græpl" tr="бороться; сцепиться; схватиться; разрешить"/>
+    <d v="grapple" p="noun" ts="græpl" tr="грейфер; схватка"/>
+    <d v="grasp" p="verb" ts="grɑːsp" tr="понять; схватить; захватить; вникнуть"/>
+    <d v="grasp" p="noun" ts="grɑːsp" tr="понимание; хватка; объятия"/>
+    <d v="grasping" p="adjective" ts="ˈgrɑːspɪŋ" tr="алчный; хватательный; хваткий"/>
+    <d v="grasping" p="noun" ts="ˈgrɑːspɪŋ" tr="цепляние"/>
+    <d v="grasping" p="participle" ts="ˈgrɑːspɪŋ" tr="захвативший"/>
+    <d v="grass" p="noun" ts="grɑːs" tr="трава; луг"/>
+    <d v="grass" p="adjective" ts="grɑːs" tr="травяной"/>
+    <d v="grasshopper" p="noun" ts="ˈgrɑːshɔpə" tr="кузнечик"/>
+    <d v="grassland" p="noun" ts="ˈgrɑːslænd" tr="луг; лугопастбищное угодье; сенокосное угодье"/>
+    <d v="grassy" p="adjective" ts="ˈgrɑːsɪ" tr="травянистый"/>
+    <d v="grassy" p="participle" ts="ˈgrɑːsɪ" tr="поросший травой; покрытый травой"/>
+    <d v="grate" p="noun" ts="greɪt" tr="решетка; колосниковая решетка; камин"/>
+    <d v="grate" p="verb" ts="greɪt" tr="натереть; скрежетать; раздражать"/>
+    <d v="grate" p="adjective" ts="greɪt" tr="колосниковый"/>
+    <d v="grateful" p="adjective" ts="ˈgreɪtfʊl" tr="благодарный"/>
+    <d v="grateful" p="noun" ts="ˈgreɪtfʊl" tr="благодарность"/>
+    <d v="grateful" p="verb" ts="ˈgreɪtfʊl" tr="благодарить"/>
+    <d v="gratefully" p="noun" ts="ˈgreɪtfʊlɪ" tr="с благодарностью"/>
+    <d v="gratefully" p="adverb" ts="ˈgreɪtfʊlɪ" tr="благодарно"/>
+    <d v="grater" p="noun" ts="ˈgreɪtə" tr="терка"/>
+    <d v="gratification" p="noun" ts="grætɪfɪˈkeɪʃn" tr="удовлетворение; удовольствие; вознаграждение"/>
+    <d v="gratify" p="verb" ts="ˈgrætɪfaɪ" tr="удовлетворить; ублажать; потворствовать"/>
+    <d v="gratifying" p="adjective" ts="ˈgrætɪfaɪɪŋ" tr="приятный"/>
+    <d v="gratifying" p="noun" ts="ˈgrætɪfaɪɪŋ" tr="удовлетворение"/>
+    <d v="gratifying" p="adverb" ts="ˈgrætɪfaɪɪŋ" tr="отрадно"/>
+    <d v="grating" p="noun" ts="ˈgreɪtɪŋ" tr="решетка; решетчатый настил"/>
+    <d v="grating" p="adjective" ts="ˈgreɪtɪŋ" tr="скрипучий"/>
+    <d v="grating" p="participle" ts="ˈgreɪtɪŋ" tr="скрежещущий"/>
+    <d v="gratis" p="adverb" ts="ˈgreɪtɪs" tr="бесплатно"/>
+    <d v="gratitude" p="noun" ts="ˈgrætɪtjuːd" tr="благодарность"/>
+    <d v="gratuitous" p="adjective" ts="grəˈtjuːɪtəs" tr="безвозмездный; даровой; беспричинный; дармовой"/>
+    <d v="gratuity" p="noun" ts="grəˈtjuːɪtɪ" tr="вознаграждение; чаевые; денежный подарок"/>
+    <d v="grave" p="noun" ts="greɪv" tr="могила; смерть"/>
+    <d v="grave" p="adjective" ts="greɪv" tr="серьезный; мрачный; могильный; степенный; авторитетный"/>
+    <d v="grave" p="participle" ts="greɪv" tr="угрожающий"/>
+    <d v="gravel" p="noun" ts="ˈgrævəl" tr="гравий"/>
+    <d v="gravel" p="adjective" ts="ˈgrævəl" tr="гравийный"/>
+    <d v="gravely" p="adverb" ts="ˈgreɪvlɪ" tr="серьезно; степенно"/>
+    <d v="gravely" p="noun" ts="ˈgreɪvlɪ" tr="с серьезным видом"/>
+    <d v="gravestone" p="noun" ts="ˈgreɪvstəʊn" tr="надгробие"/>
+    <d v="gravestone" p="adjective" ts="ˈgreɪvstəʊn" tr="надгробный"/>
+    <d v="graveyard" p="noun" ts="ˈgreɪvjɑːd" tr="кладбище"/>
+    <d v="graveyard" p="adjective" ts="ˈgreɪvjɑːd" tr="кладбищенский"/>
+    <d v="gravitate" p="verb" ts="ˈgrævɪteɪt" tr="тяготеть; притягивать"/>
+    <d v="gravitation" p="noun" ts="grævɪˈteɪʃn" tr="гравитация"/>
+    <d v="gravity" p="noun" ts="ˈgrævɪtɪ" tr="гравитация; тяжесть; невесомость; опасность; уравновешенность"/>
+    <d v="gravity" p="adjective" ts="ˈgrævɪtɪ" tr="гравитационный; самотечный"/>
+    <d v="gravy" p="noun" ts="ˈgreɪvɪ" tr="подливка"/>
+    <d v="gray" p="adjective" ts="greɪ" tr="серый"/>
+    <d v="gray" p="noun" ts="greɪ" tr="Грей"/>
+    <d v="gray" p="verb" ts="greɪ" tr="седеть"/>
+    <d v="grayish" p="adjective" ts="ˈgreɪɪʃ" tr="сероватый"/>
+    <d v="gray matter" p="noun" ts="greɪ ˈmætə" tr="серое вещество"/>
+    <d v="graze" p="verb" ts="greɪz" tr="пасти; задеть; щипать; задевать; щипать траву"/>
+    <d v="graze" p="noun" ts="greɪz" tr="выпас; царапина"/>
+    <d v="grease" p="noun" ts="griːs" tr="смазка; пластичная смазка"/>
+    <d v="grease" p="verb" ts="griːs" tr="смазать"/>
+    <d v="grease" p="adjective" ts="griːs" tr="смазочный"/>
+    <d v="greasy" p="adjective" ts="ˈgriːzɪ" tr="жирный; приторный; слащавый"/>
+    <d v="great" p="adjective" ts="greɪt" tr="большой; прекрасный; отличный; здоровый; долгий; искусный"/>
+    <d v="great" p="numeral" ts="greɪt" tr="много"/>
+    <d v="great" p="participle" ts="greɪt" tr="потрясающий"/>
+    <d v="great" p="noun" ts="greɪt" tr="вельможи"/>
+    <d v="great Britain" p="noun" ts="greɪt brɪtn" tr="Великобритания; Англия; Британия"/>
+    <d v="great-granddaughter" p="noun" ts="greɪt-ˈgrændɔːtə" tr="праправнучка"/>
+    <d v="great-grandfather" p="noun" ts="ˈgreɪtˈgrændfɑːðə" tr="прадед"/>
+    <d v="great-grandmother" p="noun" ts="greɪt-ˈgrænmʌðə" tr="прабабушка"/>
+    <d v="great-grandson" p="noun" ts="greɪt-ˈgrænsʌn" tr="праправнук"/>
+    <d v="greatly" p="adverb" ts="ˈgreɪtlɪ" tr="значительно; сильно; очень; благородно; возвышенно"/>
+    <d v="greatness" p="noun" ts="ˈgreɪtnɪs" tr="величие; величина; сила"/>
+    <d v="greed" p="noun" ts="griːd" tr="жадность"/>
+    <d v="greed" p="adjective" ts="griːd" tr="жадный"/>
+    <d v="greedily" p="adverb" ts="ˈgriːdɪlɪ" tr="жадно; взахлеб"/>
+    <d v="greedily" p="noun" ts="ˈgriːdɪlɪ" tr="с жадностью"/>
+    <d v="greedily" p="participle" ts="ˈgriːdɪlɪ" tr="дорвавшийся"/>
+    <d v="greedy" p="adjective" ts="ˈgriːdɪ" tr="жадный"/>
+    <d v="greedy" p="noun" ts="ˈgriːdɪ" tr="жадность; жадина"/>
+    <d v="greedy" p="verb" ts="ˈgriːdɪ" tr="жадничать; пожадничать"/>
+    <d v="Greek" p="adjective" ts="griːk" tr="греческий"/>
+    <d v="Greek" p="noun" ts="griːk" tr="греко; гречанка"/>
+    <d v="green" p="adjective" ts="griːn" tr="зеленый; сырой; молодой; растительный"/>
+    <d v="green" p="noun" ts="griːn" tr="зелень; Грин; луг; молодость"/>
+    <d v="green" p="verb" ts="griːn" tr="зеленеть; позеленеть"/>
+    <d v="greenback" p="noun" ts="ˈgriːnbæk" tr="банкнота"/>
+    <d v="green bean" p="noun" ts="griːn biːn" tr="зеленый боб"/>
+    <d v="green card" p="noun" ts="griːn kɑːd" tr="зеленая карта; гринкарта; зеленая карточка"/>
+    <d v="greenery" p="noun" ts="ˈgriːnərɪ" tr="зелень; озеленение; теплица"/>
+    <d v="greenhorn" p="noun" ts="ˈgriːnhɔːn" tr="новичок"/>
+    <d v="greenhouse" p="adjective" ts="ˈgriːnhaʊs" tr="парниковый"/>
+    <d v="greenhouse" p="noun" ts="ˈgriːnhaʊs" tr="теплица"/>
+    <d v="greenhouse effect" p="noun" ts="ˈgriːnhaʊs ɪˈfekt" tr="парниковый эффект; тепличный эффект"/>
+    <d v="greenish" p="adjective" ts="ˈgriːnɪʃ" tr="зеленоватый"/>
+    <d v="greet" p="verb" ts="griːt" tr="приветствовать; встретить; здороваться"/>
+    <d v="greeting" p="noun" ts="ˈgriːtɪŋ" tr="приветствие"/>
+    <d v="greeting card" p="noun" ts="ˈgriːtɪŋ kɑːd" tr="поздравительная открытка; открытка"/>
+    <d v="gregarious" p="adjective" ts="grɪˈgɛərɪəs" tr="стадный; общительный; стайный"/>
+    <d v="gremlin" p="noun" ts="ˈgremlɪn" tr="гремлин"/>
+    <d v="grenade" p="noun" ts="grɪˈneɪd" tr="граната"/>
+    <d v="greyhound" p="noun" ts="ˈgreɪhaʊnd" tr="борзая"/>
+    <d v="grid" p="noun" ts="grɪd" tr="сетка; сеть; грид; энергетическая система; модулятор"/>
+    <d v="grid" p="adjective" ts="grɪd" tr="сеточный"/>
+    <d v="griddle" p="noun" ts="grɪdl" tr="сковородка"/>
+    <d v="gridiron" p="noun" ts="ˈgrɪdaɪən" tr="рашпер; футбольное поле"/>
+    <d v="gridlock" p="noun" ts="ˈgrɪdlɒk" tr="тупик"/>
+    <d v="grief" p="noun" ts="griːf" tr="горе; печаль"/>
+    <d v="grievance" p="noun" ts="ˈgriːvəns" tr="жалоба; обида; рассмотрение жалоб; повод для недовольства"/>
+    <d v="grieve" p="verb" ts="griːv" tr="скорбеть; печалить; тосковать; оскорблять; тужить"/>
+    <d v="grieve" p="noun" ts="griːv" tr="печаль; грива"/>
+    <d v="grievous" p="adjective" ts="ˈgriːvəs" tr="тяжкий; печальный; вопиющий"/>
+    <d v="grill" p="noun" ts="grɪl" tr="гриль; рашпер"/>
+    <d v="grill" p="verb" ts="grɪl" tr="жарить; жечь"/>
+    <d v="grim" p="adjective" ts="grɪm" tr="мрачный; суровый; жестокий; страшный; неумолимый"/>
+    <d v="grimace" p="noun" ts="grɪˈmeɪs" tr="гримаса; ужимка"/>
+    <d v="grimace" p="verb" ts="grɪˈmeɪs" tr="поморщиться; гримасничать"/>
+    <d v="grime" p="noun" ts="graɪm" tr="грязь; глубоко въевшаяся грязь"/>
+    <d v="grimly" p="adverb" ts="ˈgrɪmlɪ" tr="мрачно"/>
+    <d v="grimy" p="adjective" ts="ˈgraɪmɪ" tr="грязный"/>
+    <d v="grin" p="verb" ts="grɪn" tr="улыбнуться; скалить зубы"/>
+    <d v="grin" p="noun" ts="grɪn" tr="улыбка"/>
+    <d v="grind" p="verb" ts="graɪnd"
+       tr="молоть; шлифовать; измельчить; растереть; размолоть; размалывать; перемолоть; точить; обтачивать; перетереть; зубрить"/>
+    <d v="grind" p="noun" ts="graɪnd" tr="помол; молотилка; заточка"/>
+    <d v="grinder" p="noun" ts="ˈgraɪndə"
+       tr="мясорубка; точильщик; дробилка; кофемолка; шлифовальная машина; Гриндер; мельница; шлифовщик; зубрила"/>
+    <d v="grinder" p="adjective" ts="ˈgraɪndə" tr="шлифовальный"/>
+    <d v="grindstone" p="adjective" ts="ˈgraɪndstəʊn" tr="точильный"/>
+    <d v="grindstone" p="noun" ts="ˈgraɪndstəʊn" tr="точильный камень"/>
+    <d v="gringo" p="noun" ts="ˈgrɪŋgəʊ" tr="гринго"/>
+    <d v="grip" p="noun" ts="grɪp"
+       tr="сцепление; хватка; захват; ручка; сжатие; контроль; власть; хват; пожатие; схватывание; лапа; саквояж"/>
+    <d v="grip" p="verb" ts="grɪp" tr="схватить; сжимать; захватывать; зажимать; крепко держать; понимать"/>
+    <d v="grip" p="participle" ts="grɪp" tr="охваченный"/>
+    <d v="gripe" p="noun" ts="graɪp" tr="нарекание; тиски; зажим; рукоятка"/>
+    <d v="gripe" p="verb" ts="graɪp" tr="схватить; усвоить"/>
+    <d v="gripping" p="noun" ts="ˈgrɪpɪŋ" tr="захват"/>
+    <d v="gripping" p="adjective" ts="ˈgrɪpɪŋ" tr="захватный"/>
+    <d v="gripping" p="participle" ts="ˈgrɪpɪŋ" tr="захватывающий; охвативший"/>
+    <d v="grisly" p="adjective" ts="ˈgrɪzlɪ" tr="ужасный; неприятный"/>
+    <d v="grisly" p="noun" ts="ˈgrɪzlɪ" tr="суеверный страх; вызывающий ужас"/>
+    <d v="gristle" p="noun" ts="grɪsl" tr="хрящ"/>
+    <d v="grit" p="noun" ts="grɪt" tr="песок; крупа; дробь; выдержка; крупка; мужество"/>
+    <d v="grit" p="verb" ts="grɪt" tr="стиснуть; скрежетать"/>
+    <d v="grits" p="noun" ts="grɪts" tr="крупа"/>
+    <d v="gritty" p="adjective" ts="ˈgrɪtɪ" tr="шероховатый; песчаный"/>
+    <d v="gritty" p="noun" ts="ˈgrɪtɪ" tr="с песком"/>
+    <d v="grizzly bear" p="noun" ts="ˈgrɪzlɪ bɛə" tr="гризли; медведь гризли"/>
+    <d v="groan" p="verb" ts="grəʊn" tr="застонать; кряхтеть; охать; скрипеть; тяжело вздыхать"/>
+    <d v="groan" p="noun" ts="grəʊn" tr="стон"/>
+    <d v="grocer" p="noun" ts="ˈgrəʊsə" tr="бакалейщик"/>
+    <d v="groceries" p="noun" ts="ˈgrəʊsərɪz" tr="продовольственные товары"/>
+    <d v="grocery" p="adjective" ts="ˈgrəʊsərɪ" tr="продуктовый"/>
+    <d v="grocery" p="noun" ts="ˈgrəʊsərɪ" tr="продукт; бакалея; гастроном; бакалейный товар"/>
+    <d v="grocery store" p="noun" ts="ˈgrəʊsərɪ stɔː"
+       tr="продуктовый магазин; гастроном; бакалейный магазин; бакалейная лавка"/>
+    <d v="groggy" p="adjective" ts="ˈgrɔgɪ" tr="непрочный"/>
+    <d v="groin" p="noun" ts="grɔɪn" tr="пах; паховая область"/>
+    <d v="groin" p="adjective" ts="grɔɪn" tr="паховой"/>
+    <d v="groom" p="noun" ts="grʊm" tr="жених; конюх"/>
+    <d v="groom" p="verb" ts="grʊm" tr="холить; ухаживать"/>
+    <d v="groove" p="noun" ts="gruːv" tr="паз; бороздка; желоб; колея; шпунт"/>
+    <d v="groovy" p="adjective" ts="ˈgruːvɪ" tr="шпунтовой"/>
+    <d v="grope" p="verb" ts="grəʊp" tr="нащупать; ощупывать; пошарить; искать; блуждать"/>
+    <d v="gross" p="adjective" ts="grəʊs" tr="валовой; грубый; большой; грязный; тучный"/>
+    <d v="gross" p="noun" ts="grəʊs" tr="ВВП; брутто; Гросс; масса"/>
+    <d v="gross" p="participle" ts="grəʊs" tr="жирный"/>
+    <d v="grossly" p="adverb" ts="ˈgrəʊslɪ" tr="грубо; чрезвычайно"/>
+    <d v="grotesque" p="adjective" ts="grəʊˈtesk" tr="гротескный; нелепый; гротесковый"/>
+    <d v="grotesque" p="noun" ts="grəʊˈtesk" tr="гротеск; гротескность; шарж"/>
+    <d v="grotto" p="noun" ts="ˈgrɔtəʊ" tr="грот"/>
+    <d v="grouch" p="noun" ts="graʊʧ" tr="брюзга"/>
+    <d v="grouch" p="verb" ts="graʊʧ" tr="брюзжать"/>
+    <d v="grouchy" p="adjective" ts="ˈgraʊʧɪ" tr="ворчливый"/>
+    <d v="ground" p="noun" ts="graʊnd" tr="земля; основание; площадка; почва; мотив; фон; гуща; плац"/>
+    <d v="ground" p="adjective" ts="graʊnd" tr="наземный; грунтовой"/>
+    <d v="ground" p="verb" ts="graʊnd" tr="заземлять; обосновывать; грунтовать; основывать; приземляться"/>
+    <d v="ground crew" p="noun" ts="ˈgraʊndkruː" tr="наземная команда; наземный персонал"/>
+    <d v="ground floor" p="noun" ts="ˈgraʊndˈflɔː" tr="этаж; цокольный этаж; первый этаж; партерный этаж"/>
+    <d v="groundhog" p="noun" ts="ˈgraʊndhɒg" tr="сурок"/>
+    <d v="groundhog day" p="noun" ts="ˈgraʊndhɒg deɪ" tr="день сурка"/>
+    <d v="grounding" p="noun" ts="ˈgraʊndɪŋ" tr="заземление; обоснование; грунтовка; посадка на мель"/>
+    <d v="grounding" p="participle" ts="ˈgraʊndɪŋ" tr="заземляющий"/>
+    <d v="groundless" p="adjective" ts="ˈgraʊndlɪs" tr="необоснованный"/>
+    <d v="groundlessly" p="adverb" ts="ˈgraʊndlɪslɪ" tr="необоснованно"/>
+    <d v="ground rule" p="noun" ts="graʊnd ruːl" tr="основное правило"/>
+    <d v="groundwork" p="noun" ts="ˈgraʊndwɜːk" tr="основа; задел; наработка; фон"/>
+    <d v="group" p="noun" ts="gruːp" tr="группа; фракция; авиагруппа; радикал"/>
+    <d v="group" p="adjective" ts="gruːp" tr="групповой"/>
+    <d v="group" p="verb" ts="gruːp" tr="группировать; классифицировать"/>
+    <d v="groupie" p="noun" ts="gruːˈpiː" tr="поклонница"/>
+    <d v="grouping" p="noun" ts="ˈgruːpɪŋ" tr="группировка; кучность"/>
+    <d v="grouping" p="participle" ts="ˈgruːpɪŋ" tr="группирующий"/>
+    <d v="grouse" p="noun" ts="graʊs" tr="тетерев; шотландская куропатка"/>
+    <d v="grouse" p="verb" ts="graʊs" tr="ворчать"/>
+    <d v="grove" p="noun" ts="grəʊv" tr="роща; дубрава; лесок"/>
+    <d v="grovel" p="verb" ts="grɔvl" tr="пресмыкаться"/>
+    <d v="grow" p="verb" ts="grəʊ" tr="расти; выращивать; становиться; разрастаться; дорасти; отращивать"/>
+    <d v="grow" p="noun" ts="grəʊ" tr="рост"/>
+    <d v="grower" p="noun" ts="ˈgrəʊə" tr="производитель; садовод; овощевод; растение; плодовод"/>
+    <d v="growing pains" p="noun" ts="ˈgrəʊɪŋ peɪnz" tr="болезнь роста"/>
+    <d v="growl" p="verb" ts="graʊl" tr="рычать; ворчать; урчать; греметь"/>
+    <d v="growl" p="noun" ts="graʊl" tr="рычание; рычанье"/>
+    <d v="growl" p="participle" ts="graʊl" tr="рычащий"/>
+    <d v="grown" p="participle" ts="grəʊn" tr="выращенный; выращиваемый"/>
+    <d v="growth" p="noun" ts="grəʊθ" tr="рост; выращивание; новообразование; произрастание; поросль"/>
+    <d v="grub" p="noun" ts="grʌb" tr="личинка; жратва; загрузчик grub; харчи; еда; грязнуля"/>
+    <d v="grub" p="verb" ts="grʌb" tr="вскапывать; надрываться"/>
+    <d v="grubby" p="adjective" ts="ˈgrʌbɪ" tr="грязный; неряшливый; червивый"/>
+    <d v="grudge" p="noun" ts="grʌʤ" tr="обида; зуб; зависть"/>
+    <d v="grudge" p="verb" ts="grʌʤ" tr="жалеть; обижаться; завидовать"/>
+    <d v="gruel" p="noun" ts="grʊəl" tr="каша; кашица; размазня; жидкая каша"/>
+    <d v="grueling" p="adjective" ts="ˈgruːəlɪŋ" tr="изнурительный"/>
+    <d v="grueling" p="participle" ts="ˈgruːəlɪŋ" tr="изматывающий"/>
+    <d v="gruesome" p="adjective" ts="ˈgruːsəm" tr="ужасный"/>
+    <d v="gruff" p="adjective" ts="grʌf" tr="грубый; сердитый"/>
+    <d v="grumble" p="verb" ts="grʌmbl" tr="ворчать; роптать; поворчать; брюзжать"/>
+    <d v="grumble" p="noun" ts="grʌmbl" tr="ропот"/>
+    <d v="grumpy" p="adjective" ts="ˈgrʌmpɪ" tr="сварливый; ворчливый"/>
+    <d v="grunt" p="verb" ts="grʌnt" tr="хмыкнуть; крякнуть; хрюкать; ворчать"/>
+    <d v="grunt" p="noun" ts="grʌnt" tr="ворчание; хрюканье; ворчанье; хрип"/>
+    <d v="guarantee" p="noun" ts="gærənˈtiː" tr="гарантия; залог; гарант"/>
+    <d v="guarantee" p="verb" ts="gærənˈtiː" tr="гарантировать; ручаться"/>
+    <d v="guarantee" p="participle" ts="gærənˈtiː" tr="гарантированный; гарантирующий"/>
+    <d v="guarantee" p="adjective" ts="gærənˈtiː" tr="гарантийный"/>
+    <d v="guarantor" p="noun" ts="gærənˈtɔː" tr="гарант"/>
+    <d v="guaranty" p="noun" ts="ˈgærəntɪ" tr="гарантия"/>
+    <d v="guaranty" p="verb" ts="ˈgærəntɪ" tr="гарантировать"/>
+    <d v="guard" p="noun" ts="gɑːd" tr="охранник; гвардия; бдительность; конвоир; кондуктор"/>
+    <d v="guard" p="verb" ts="gɑːd" tr="охранять; настораживать; сдерживать"/>
+    <d v="guard" p="adjective" ts="gɑːd" tr="сторожевой; охранный"/>
+    <d v="guarded" p="participle" ts="ˈgɑːdɪd" tr="охраняемый"/>
+    <d v="guardedly" p="adverb" ts="ˈgɑːdɪdlɪ" tr="сдержанно"/>
+    <d v="guardian" p="noun" ts="ˈgɑːdjən" tr="опекун; хранитель; страж; Гардиан; защитник; радетель; опекунша"/>
+    <d v="guardian angel" p="noun" ts="ˈgɑːdjən ˈeɪnʤəl" tr="ангел-хранитель"/>
+    <d v="guardrail" p="noun" ts="ˈgɑːdreɪl" tr="ограждение"/>
+    <d v="gubernatorial" p="adjective" ts="gjʊbɜːnəˈtəʊrɪəl" tr="губернаторский"/>
+    <d v="guerrilla" p="noun" ts="gəˈrɪlə" tr="партизан; боевик"/>
+    <d v="guerrilla" p="adjective" ts="gəˈrɪlə" tr="партизанский"/>
+    <d v="guess" p="verb" ts="ges" tr="думать; угадать; предполагать; разгадать; загадывать; додуматься"/>
+    <d v="guess" p="noun" ts="ges" tr="догадка; угадывание; гадание"/>
+    <d v="guesswork" p="noun" ts="ˈgeswɜːk" tr="догадка"/>
+    <d v="guest" p="noun" ts="gest" tr="гость"/>
+    <d v="guest" p="adjective" ts="gest" tr="гостевой"/>
+    <d v="guff" p="noun" ts="gʌf" tr="болтовня; пустая болтовня"/>
+    <d v="guffaw" p="noun" ts="gʌˈfɔː" tr="гогот"/>
+    <d v="guidance" p="noun" ts="ˈgaɪdəns" tr="руководство; наведение; руководящие материалы; профориентация"/>
+    <d v="guidance" p="participle" ts="ˈgaɪdəns" tr="руководящий"/>
+    <d v="guidance" p="adjective" ts="ˈgaɪdəns" tr="инструктивный"/>
+    <d v="guidance" p="verb" ts="ˈgaɪdəns" tr="руководить"/>
+    <d v="guidance counselor" p="noun" ts="ˈgaɪdəns ˈkaʊnslə" tr="школьный консультант"/>
+    <d v="guide" p="noun" ts="gaɪd"
+       tr="руководство; гид; направляющая; направляющий выступ; вести; пособие; наставник; советчик"/>
+    <d v="guide" p="verb" ts="gaɪd" tr="руководствоваться; провести; ориентироваться"/>
+    <d v="guide" p="participle" ts="gaɪd" tr="направляющий"/>
+    <d v="guidebook" p="noun" ts="ˈgaɪdbʊk" tr="путеводитель"/>
+    <d v="guided" p="participle" ts="ˈgaɪdɪd" tr="направленный; ведомый; направляемый; руководимый"/>
+    <d v="guideline" p="noun" ts="ˈgaɪdlaɪn"
+       tr="руководящий принцип; руководящее указание; руководящее положение; направляющая линия"/>
+    <d v="guideline" p="participle" ts="ˈgaɪdlaɪn" tr="руководящий"/>
+    <d v="guild" p="noun" ts="gɪld" tr="гильдия; цех; Союз"/>
+    <d v="guild" p="adjective" ts="gɪld" tr="цеховой"/>
+    <d v="guile" p="noun" ts="gaɪl" tr="лукавство; коварство"/>
+    <d v="guileless" p="adjective" ts="ˈgaɪllɪs" tr="бесхитростный; простодушный"/>
+    <d v="guillotine" p="noun" ts="gɪləˈtiːn" tr="гильотина"/>
+    <d v="guillotine" p="verb" ts="gɪləˈtiːn" tr="гильотинировать"/>
+    <d v="guilt" p="noun" ts="gɪlt" tr="виновность"/>
+    <d v="guilt" p="adjective" ts="gɪlt" tr="виновный"/>
+    <d v="guiltily" p="adverb" ts="ˈgɪltɪlɪ" tr="виновато"/>
+    <d v="guiltily" p="noun" ts="ˈgɪltɪlɪ" tr="с виноватым видом"/>
+    <d v="guilty" p="adjective" ts="ˈgɪltɪ" tr="виновный; грешный"/>
+    <d v="guilty" p="noun" ts="ˈgɪltɪ" tr="виновник; виновность"/>
+    <d v="guilty" p="participle" ts="ˈgɪltɪ" tr="провинившийся"/>
+    <d v="guilty" p="verb" ts="ˈgɪltɪ" tr="провиниться"/>
+    <d v="Guinea pig" p="noun" ts="ˈgɪnɪ pɪg" tr="свинка; морская свинка"/>
+    <d v="guise" p="noun" ts="gaɪz" tr="вид; маска; прикрытие; ипостась"/>
+    <d v="guitar" p="noun" ts="gɪˈtɑː" tr="гитара"/>
+    <d v="guitar" p="adjective" ts="gɪˈtɑː" tr="гитарный"/>
+    <d v="guitarist" p="noun" ts="gɪˈtɑːrɪst" tr="гитарист"/>
+    <d v="Gulf" p="noun" ts="gʌlf" tr="залив; пропасть; морской залив; водоворот"/>
+    <d v="gull" p="noun" ts="gʌl" tr="чайка"/>
+    <d v="gullet" p="noun" ts="ˈgʌlɪt" tr="пищевод"/>
+    <d v="gullibility" p="noun" ts="gʌlɪˈbɪlɪtɪ" tr="доверчивость"/>
+    <d v="gullible" p="adjective" ts="ˈgʌləbl" tr="доверчивый"/>
+    <d v="gully" p="noun" ts="ˈgʌlɪ" tr="овраг; лог; водосток; буерак"/>
+    <d v="gulp" p="noun" ts="gʌlp" tr="глоток"/>
+    <d v="gulp" p="verb" ts="gʌlp" tr="глотнуть; давиться; сдерживать"/>
+    <d v="gum" p="noun" ts="gʌm" tr="десна; резинка; ГУМ; жвачка; гумми"/>
+    <d v="gum" p="verb" ts="gʌm" tr="склеивать"/>
+    <d v="gumbo" p="noun" ts="ˈgʌmbəʊ" tr="гамбо; гумбо; окра; бамия"/>
+    <d v="gummy" p="adjective" ts="ˈgʌmɪ" tr="клейкий"/>
+    <d v="gummy" p="participle" ts="ˈgʌmɪ" tr="опухший"/>
+    <d v="gumption" p="noun" ts="gʌmpʃn" tr="смекалка; сообразительность; находчивость"/>
+    <d v="gun" p="noun" ts="gʌn" tr="пистолет; пушка; пулемет; ружье; стрелок"/>
+    <d v="gun" p="adjective" ts="gʌn" tr="пушечный; оружейный"/>
+    <d v="gun" p="verb" ts="gʌn" tr="стрелять"/>
+    <d v="gunboat" p="noun" ts="ˈgʌnbəʊt" tr="канонерка; канонерская лодка; катер"/>
+    <d v="gunboat" p="adjective" ts="ˈgʌnbəʊt" tr="Канонерский"/>
+    <d v="gunfire" p="noun" ts="ˈgʌnfaɪər" tr="стрельба; обстрел; орудийный огонь"/>
+    <d v="gunman" p="noun" ts="ˈgʌnmən" tr="боевик; вооруженный человек; убийца; стрелок"/>
+    <d v="gunman" p="adjective" ts="ˈgʌnmən" tr="вооруженный"/>
+    <d v="gunman" p="participle" ts="ˈgʌnmən" tr="стрелявший"/>
+    <d v="gunner" p="noun" ts="ˈgʌnə" tr="пулеметчик; артиллерист; стрелок; комендор"/>
+    <d v="gunpoint" p="noun" ts="ˈgʌnpɔɪnt" tr="дуло; дуло пистолета"/>
+    <d v="gunpowder" p="noun" ts="ˈgʌnpaʊdə" tr="порох"/>
+    <d v="gunpowder" p="adjective" ts="ˈgʌnpaʊdə" tr="пороховой"/>
+    <d v="gunshot" p="adjective" ts="ˈgʌnʃɔt" tr="огнестрельный"/>
+    <d v="gunshot" p="noun" ts="ˈgʌnʃɔt" tr="выстрел; ружейный выстрел"/>
+    <d v="gurgle" p="verb" ts="gɜːgl" tr="булькать; забулькать"/>
+    <d v="gurgle" p="noun" ts="gɜːgl" tr="бульканье"/>
+    <d v="gurgle" p="participle" ts="gɜːgl" tr="булькающий"/>
+    <d v="gurgling" p="noun" ts="ˈgɜːglɪŋ" tr="бульканье; журчание"/>
+    <d v="gurgling" p="participle" ts="ˈgɜːglɪŋ" tr="булькающий; журчащий"/>
+    <d v="guru" p="noun" ts="ˈgʊruː" tr="гуру"/>
+    <d v="gush" p="noun" ts="gʌʃ" tr="Гуш; поток"/>
+    <d v="gush" p="verb" ts="gʌʃ" tr="хлынуть; фонтанировать"/>
+    <d v="gusher" p="noun" ts="ˈgʌʃə" tr="нефтяной фонтан"/>
+    <d v="gust" p="noun" ts="gʌst" tr="порыв"/>
+    <d v="gusto" p="noun" ts="ˈgʌstəʊ" tr="удовольствие"/>
+    <d v="gusty" p="adjective" ts="ˈgʌstɪ" tr="порывистый; бурный; ветреный"/>
+    <d v="gut" p="noun" ts="gʌt" tr="кишка; чутье"/>
+    <d v="gut" p="verb" ts="gʌt" tr="выпотрошить"/>
+    <d v="gutter" p="noun" ts="ˈgʌtə" tr="желоб; водосточный желоб"/>
+    <d v="gutter" p="adjective" ts="ˈgʌtə" tr="водосточный"/>
+    <d v="guttural" p="adjective" ts="ˈgʌtərəl" tr="гортанный"/>
+    <d v="guy" p="noun" ts="gaɪ" tr="парень; Гай; дядька; оттяжка; пугало"/>
+    <d v="guy" p="adjective" ts="gaɪ" tr="малый"/>
+    <d v="guy" p="verb" ts="gaɪ" tr="издеваться"/>
+    <d v="guzzle" p="verb" ts="gʌzl" tr="жрать; проедать"/>
+    <d v="guzzler" p="noun" ts="ˈgʌzlə" tr="обжора; пожиратель; пьяница"/>
+    <d v="gym" p="noun" ts="ʤɪm" tr="тренажерный зал; спортзал; физкультура"/>
+    <d v="gym" p="adjective" ts="ʤɪm" tr="тренажерный"/>
+    <d v="gymnasium" p="noun" ts="ʤɪmˈneɪzjəm" tr="гимназия; спортзал"/>
+    <d v="gymnasium" p="adjective" ts="ʤɪmˈneɪzjəm" tr="гимназический"/>
+    <d v="gymnast" p="noun" ts="ˈʤɪmnæst" tr="гимнастка"/>
+    <d v="gymnastics" p="noun" ts="ʤɪmˈnæstɪks" tr="гимнастика"/>
+    <d v="gymnastics" p="adjective" ts="ʤɪmˈnæstɪks" tr="гимнастический"/>
+    <d v="gynecological" p="adjective" ts="gaɪnɪkəˈlɒʤɪkl" tr="гинекологический"/>
+    <d v="gynecologist" p="noun" ts="gaɪnɪˈkɒləʤɪst" tr="гинеколог"/>
+    <d v="gynecology" p="noun" ts="gaɪnəˈkɒləʤɪ" tr="гинекология"/>
+    <d v="gynecology" p="adjective" ts="gaɪnəˈkɒləʤɪ" tr="гинекологический"/>
+    <d v="Gypsy" p="noun" ts="ˈʤɪpsɪ" tr="цыган"/>
+    <d v="Gypsy" p="adjective" ts="ˈʤɪpsɪ" tr="цыганский"/>
+    <d v="gyrate" p="verb" ts="ˈʤaɪərɪt" tr="вращаться"/>
+    <d v="gyration" p="noun" ts="ʤaɪəˈreɪʃn" tr="вращение"/>
+    <d v="gyroscope" p="noun" ts="ˈʤaɪərəskəʊp" tr="гироскоп; волчок"/>
+
+</defs>
