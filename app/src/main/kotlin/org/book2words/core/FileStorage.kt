@@ -2,6 +2,7 @@ package org.book2words.core
 
 import android.os.Environment
 import org.book2words.dao.LibraryBook
+import org.book2words.dao.LibraryDictionary
 
 import java.io.File
 
@@ -26,12 +27,15 @@ public class FileStorage {
             return createDictionaryFile(book.getDictionaryName(), book.getLanguage())
         }
 
+        public fun createDictionaryFile(item: LibraryDictionary): File {
+            return createDictionaryFile(item.getName(), item.getLanguage())
+        }
 
-        public fun createDictionaryFile(id: String, language : String): File {
+        private fun createDictionaryFile(id: String, language : String): File {
             return createDictionaryFile("${id}.${language}")
         }
 
-        public fun createDictionaryFile(fileName: String): File {
+        public  fun createDictionaryFile(fileName: String): File {
             val root = createDictionaryDirectory()
 
             return File(root, fileName)

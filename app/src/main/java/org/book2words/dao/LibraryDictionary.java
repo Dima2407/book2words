@@ -63,6 +63,7 @@ public class LibraryDictionary implements Parcelable {
         size = in.readInt();
         use = in.readInt() != 0;
         readonly = in.readInt() != 0;
+        language = in.readString();
     }
 
     public LibraryDictionary(String name, String language) {
@@ -139,10 +140,11 @@ public class LibraryDictionary implements Parcelable {
         dest.writeInt(size);
         dest.writeInt(use ? 1 : 0);
         dest.writeInt(readonly ? 1 : 0);
+        dest.writeString(language);
     }
 
     public File getPath() {
-        return FileStorage.Companion.createDictionaryFile(name);
+        return FileStorage.Companion.createDictionaryFile(this);
     }
     // KEEP METHODS END
 
