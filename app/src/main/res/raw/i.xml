@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+	<d v="iceberg" p="noun" ts="ˈaɪsbɜːg" tr="айсберг"/>
+<d v="icebox" p="noun" ts="ˈaɪsbɒks" tr="ледник"/>
+<d v="icebreaker" p="noun" ts="ˈaɪsbreɪkər" tr="ледокол; ледоруб"/>
+<d v="ice cap" p="noun" ts="aɪs kæp" tr="ледяная шапка; ледовая шапка; ледяной покров"/>
+<d v="ice cream" p="noun" ts="aɪs kriːm" tr="мороженое"/>
+<d v="ice cube" p="noun" ts="aɪs kjuːb" tr="кубик льда; ледяной кубик"/>
+<d v="iced" p="participle" ts="aɪst" tr="замороженный"/>
+<d v="ice hockey" p="noun" ts="aɪs ˈhɔkɪ" tr="хоккей на льду; хоккей с шайбой"/>
+<d v="icicle" p="noun" ts="ˈaɪsɪkl" tr="сосулька; льдинка"/>
+<d v="icing" p="noun" ts="ˈaɪsɪŋ" tr="глазурь; обледенение; оледенение"/>
+<d v="icon" p="noun" ts="ˈaɪkɔn" tr="значок"/>
+<d v="icy" p="adjective" ts="ˈaɪsɪ" tr="ледяной"/>
+<d v="icy" p="participle" ts="ˈaɪsɪ" tr="обледеневший"/>
+<d v="ID" p="noun" ts="ɪd" tr="идентификатор"/>
+<d v="ID" p="adjective" ts="ɪd" tr="идентификационный"/>
+<d v="ID card" p="noun" ts="ɪd kɑːd" tr="удостоверение; удостоверение личности; идентификационная карточка; идентификационная карта; карточка удостоверения личности"/>
+<d v="idea" p="noun" ts="aɪˈdɪə" tr="идея; представление; затея; фантазия"/>
+<d v="ideal" p="adjective" ts="aɪˈdɪəl" tr="идеальный; мысленный"/>
+<d v="ideal" p="noun" ts="aɪˈdɪəl" tr="идеал"/>
+<d v="ideal" p="participle" ts="aɪˈdɪəl" tr="воображаемый"/>
+<d v="idealism" p="noun" ts="aɪˈdɪəlɪzm" tr="идеализм"/>
+<d v="idealist" p="noun" ts="aɪˈdɪəlɪst" tr="идеалист"/>
+<d v="idealist" p="adjective" ts="aɪˈdɪəlɪst" tr="идеалистический"/>
+<d v="idealistic" p="adjective" ts="aɪdɪəˈlɪstɪk" tr="идеалистический"/>
+<d v="idealize" p="verb" ts="aɪˈdɪəlaɪz" tr="идеализировать"/>
+<d v="ideally" p="adverb" ts="aɪˈdɪəlɪ" tr="идеально; умозрительно"/>
+<d v="ideally" p="noun" ts="aɪˈdɪəlɪ" tr="в идеале; идеальный случай; в идеальном случае"/>
+<d v="identical" p="participle" ts="aɪˈdentɪkəl" tr="идентичный; совпадающий"/>
+<d v="identical" p="adjective" ts="aɪˈdentɪkəl" tr="одинаковый"/>
+<d v="identical" p="verb" ts="aɪˈdentɪkəl" tr="совпадать"/>
+<d v="identically" p="adverb" ts="aɪˈdentɪklɪ" tr="одинаково; тождественно"/>
+<d v="identical twin" p="noun" ts="aɪˈdentɪkəl twɪn" tr="идентичный близнец"/>
+<d v="identification" p="noun" ts="aɪdentɪfɪˈkeɪʃn" tr="идентификация; определение; установление личности; солидаризация; поддержка"/>
+<d v="identification" p="adjective" ts="aɪdentɪfɪˈkeɪʃn" tr="идентификационный"/>
+<d v="identify" p="verb" ts="aɪˈdentɪfaɪ" tr="определить; выявить; опознать; отождествлять; наметить; устанавливать тождество; солидаризироваться"/>
+<d v="identify" p="noun" ts="aɪˈdentɪfaɪ" tr="выявление"/>
+<d v="identity" p="noun" ts="aɪˈdentɪtɪ" tr="идентичность; личность; удостоверение; самобытность; принадлежность; сущность"/>
+<d v="identity" p="adjective" ts="aɪˈdentɪtɪ" tr="идентификационный"/>
+<d v="ideological" p="adjective" ts="aɪdɪəˈlɔʤɪkəl" tr="идеологический; идеологизированный"/>
+<d v="ideological" p="adverb" ts="aɪdɪəˈlɔʤɪkəl" tr="идеологически"/>
+<d v="ideology" p="noun" ts="aɪdɪˈɔləʤɪ" tr="идеология"/>
+<d v="idiocy" p="noun" ts="ˈɪdɪəsɪ" tr="идиотизм; маразм; идиотство"/>
+<d v="idiom" p="noun" ts="ˈɪdɪəm" tr="идиома; язык; выражение; идиоматическое выражение; говор"/>
+<d v="idiomatic" p="adjective" ts="ɪdɪəˈmætɪk" tr="идиоматический"/>
+<d v="idiosyncrasy" p="noun" ts="ɪdɪəˈsɪŋkrəsɪ" tr="особенность; идиосинкразия; непереносимость; индивидуальная непереносимость"/>
+<d v="idiosyncratic" p="adjective" ts="ɪdɪəsɪŋˈkrætɪk" tr="своеобразный; идиосинкразический"/>
+<d v="idiot" p="noun" ts="ˈɪdɪət" tr="идиот; дурак; недоумок"/>
+<d v="idiot" p="adjective" ts="ˈɪdɪət" tr="слабоумный"/>
+<d v="idiotic" p="adjective" ts="ɪdɪˈɔtɪk" tr="идиотский"/>
+<d v="idiotically" p="adjective" ts="ɪdɪˈɒtɪklɪ" tr="идиотски"/>
+<d v="idle" p="adjective" ts="aɪdl" tr="праздный; холостой; пустой; неактивный; нерабочий; ленивый; неиспользуемый"/>
+<d v="idle" p="noun" ts="aɪdl" tr="простой; режим ожидания; без дела"/>
+<d v="idle" p="verb" ts="aɪdl" tr="простаивать; бездействовать; бездельничать; лениться; работать вхолостую"/>
+<d v="idle" p="participle" ts="aɪdl" tr="простаивающий; бездействующий"/>
+<d v="idleness" p="noun" ts="ˈaɪdlnɪs" tr="праздность; бездействие"/>
+<d v="idly" p="adverb" ts="ˈaɪdlɪ" tr="лениво; праздно"/>
+<d v="idly" p="adverbial participle" ts="ˈaɪdlɪ" tr="сложа; сложа руки"/>
+<d v="idol" p="noun" ts="aɪdl" tr="идол; идолопоклонство; божок"/>
+<d v="idolatrous" p="adjective" ts="aɪˈdɒlətrəs" tr="идолопоклоннический"/>
+<d v="idolatrous" p="noun" ts="aɪˈdɒlətrəs" tr="идолопоклонство"/>
+<d v="idolatry" p="noun" ts="aɪˈdɔlətrɪ" tr="идолопоклонство; идолослужение; поклонение"/>
+<d v="idolize" p="verb" ts="ˈaɪdəlaɪz" tr="боготворить; обожествлять"/>
+<d v="idyllic" p="adjective" ts="aɪˈdɪlɪk" tr="идиллический"/>
+<d v="if" p="conjunction" ts="ɪf" tr="если"/>
+<d v="igloo" p="noun" ts="ˈɪgluː" tr="иглу"/>
+<d v="ignite" p="verb" ts="ɪgˈnaɪt" tr="зажечь; поджигать; вспыхнуть; возгораться"/>
+<d v="ignite" p="noun" ts="ɪgˈnaɪt" tr="воспламенение"/>
+<d v="ignition" p="noun" ts="ɪgˈnɪʃn" tr="зажигание; воспламенение; розжиг; прокаливание; запал"/>
+<d v="ignition" p="adjective" ts="ɪgˈnɪʃn" tr="запальный; зажигательный"/>
+<d v="ignorance" p="noun" ts="ˈɪgnərəns" tr="невежество; безграмотность"/>
+<d v="ignorant" p="adjective" ts="ˈɪgnərənt" tr="невежественный; несведущий; безграмотный; незнающий"/>
+<d v="ignorant" p="noun" ts="ˈɪgnərənt" tr="невежда; невежество; в неведении; невежа"/>
+<d v="ignore" p="verb" ts="ɪgˈnɔː" tr="игнорировать; пренебрегать; пропустить; обойти; замалчивать; отклонять"/>
+<d v="ignore" p="noun" ts="ɪgˈnɔː" tr="игнорирование"/>
+<d v="iguana" p="noun" ts="ɪˈgwɑːnə" tr="игуана"/>
+<d v="ill" p="adjective" ts="ɪl" tr="больной; плохой"/>
+<d v="ill" p="verb" ts="ɪl" tr="заболеть"/>
+<d v="ill" p="adverb" ts="ɪl" tr="плохо; худо; едва ли"/>
+<d v="ill" p="participle" ts="ɪl" tr="заболевший"/>
+<d v="ill" p="noun" ts="ɪl" tr="зло"/>
+<d v="illegal" p="adjective" ts="ɪˈliːgəl" tr="незаконный"/>
+<d v="illegal" p="participle" ts="ɪˈliːgəl" tr="запрещенный"/>
+<d v="illegal" p="noun" ts="ɪˈliːgəl" tr="нелегал"/>
+<d v="illegally" p="adverb" ts="ɪˈliːgəlɪ" tr="незаконно"/>
+<d v="illegible" p="adjective" ts="ɪˈleʤəbl" tr="неразборчивый"/>
+<d v="illegibly" p="adverb" ts="ɪˈleʤəblɪ" tr="неразборчиво"/>
+<d v="illegitimacy" p="noun" ts="ɪlɪˈʤɪtɪməsɪ" tr="незаконность"/>
+<d v="illegitimate" p="adjective" ts="ɪlɪˈʤɪtɪmɪt" tr="незаконный"/>
+<d v="illicit" p="adjective" ts="ɪˈlɪsɪt" tr="незаконный"/>
+<d v="illiteracy" p="noun" ts="ɪˈlɪtərəsɪ" tr="неграмотность; ликбез"/>
+<d v="illiterate" p="adjective" ts="ɪˈlɪtərɪt" tr="неграмотный; необразованный"/>
+<d v="illiterate" p="noun" ts="ɪˈlɪtərɪt" tr="невежда"/>
+<d v="illness" p="noun" ts="ˈɪlnɪs" tr="болезнь; недомогание"/>
+<d v="illogical" p="adjective" ts="ɪˈlɔʤɪkəl" tr="нелогичный; алогичный"/>
+<d v="illogical" p="noun" ts="ɪˈlɔʤɪkəl" tr="нелогичность"/>
+<d v="illogically" p="adverb" ts="ɪˈlɒʤɪklɪ" tr="нелогично"/>
+<d v="illuminate" p="verb" ts="ɪˈljuːmɪneɪt" tr="освещать; иллюминировать; разъяснять; раскрашивать"/>
+<d v="illuminate" p="noun" ts="ɪˈljuːmɪneɪt" tr="подсветка"/>
+<d v="illuminating" p="adjective" ts="ɪˈljuːmɪneɪtɪŋ" tr="осветительный"/>
+<d v="illuminating" p="noun" ts="ɪˈljuːmɪneɪtɪŋ" tr="освещение"/>
+<d v="illumination" p="noun" ts="ɪljuːmɪˈneɪʃn" tr="освещение; озарение; иллюминация"/>
+<d v="illumination" p="adjective" ts="ɪljuːmɪˈneɪʃn" tr="осветительный"/>
+<d v="illusion" p="noun" ts="ɪˈluːʒən" tr="иллюзия; видимость; мираж"/>
+<d v="illusory" p="adjective" ts="ɪˈluːsərɪ" tr="иллюзорный; мнимый"/>
+<d v="illusory" p="noun" ts="ɪˈluːsərɪ" tr="иллюзия"/>
+<d v="illustrate" p="verb" ts="ˈɪləstreɪt" tr="иллюстрировать; показывать; пояснить"/>
+<d v="illustrate" p="noun" ts="ˈɪləstreɪt" tr="иллюстрация"/>
+<d v="illustration" p="noun" ts="ɪləsˈtreɪʃn" tr="иллюстрация; пояснение"/>
+<d v="illustrative" p="adjective" ts="ˈɪləstreɪtɪv" tr="иллюстративный; показательный; пояснительный"/>
+<d v="illustrative" p="noun" ts="ˈɪləstreɪtɪv" tr="иллюстрация"/>
+<d v="illustrator" p="noun" ts="ˈɪləstreɪtər" tr="иллюстратор; программа Illustrator"/>
+<d v="illustrious" p="adjective" ts="ɪˈlʌstrɪəs" tr="знаменитый"/>
+<d v="illustrious" p="participle" ts="ɪˈlʌstrɪəs" tr="прославленный"/>
+<d v="image" p="noun" ts="ˈɪmɪʤ" tr="изображение; подобие; отражение; идол; статуя; метафора"/>
+<d v="image" p="adjective" ts="ˈɪmɪʤ" tr="имиджевый"/>
+<d v="image" p="verb" ts="ˈɪmɪʤ" tr="отображать"/>
+<d v="imagery" p="noun" ts="ˈɪmɪʤərɪ" tr="изображение; образность; воображение"/>
+<d v="imagery" p="adjective" ts="ˈɪmɪʤərɪ" tr="образный"/>
+<d v="imaginable" p="adjective" ts="ɪˈmæʤɪnəbl" tr="мыслимый; вообразимый"/>
+<d v="imaginary" p="adjective" ts="ɪˈmæʤɪnərɪ" tr="мнимый; мысленный; нереальный"/>
+<d v="imaginary" p="participle" ts="ɪˈmæʤɪnərɪ" tr="воображаемый; выдуманный"/>
+<d v="imaginary" p="noun" ts="ɪˈmæʤɪnərɪ" tr="воображение"/>
+<d v="imagination" p="noun" ts="ɪmæʤɪˈneɪʃn" tr="воображение; образ"/>
+<d v="imaginative" p="adjective" ts="ɪˈmæʤɪnətɪv" tr="творческий; образный"/>
+<d v="imaginative" p="noun" ts="ɪˈmæʤɪnətɪv" tr="воображение; богатое воображение"/>
+<d v="imaginative" p="participle" ts="ɪˈmæʤɪnətɪv" tr="воображаемый"/>
+<d v="imaginatively" p="adverb" ts="ɪˈmæʤɪnətɪvlɪ" tr="образно"/>
+<d v="imagine" p="verb" ts="ɪˈmæʤɪn" tr="вообразить; думать; предположить; воображать; представлять себе; себе представлять; придумать; представиться"/>
+<d v="imbalance" p="noun" ts="ɪmˈbæləns" tr="дисбаланс; неустойчивость"/>
+<d v="imbalance" p="adjective" ts="ɪmˈbæləns" tr="несбалансированный"/>
+<d v="imbecile" p="noun" ts="ˈɪmbɪsiːl" tr="идиот; глупец; имбецил; недоумок; дебил"/>
+<d v="imbecile" p="adjective" ts="ˈɪmbɪsiːl" tr="слабоумный; глупый"/>
+<d v="imbibe" p="verb" ts="ɪmˈbaɪb" tr="впитывать; усвоить; всасывать"/>
+<d v="imbue" p="verb" ts="ɪmˈbjuː" tr="наполнить; проникнуться; внушить; пропитывать; напитать; окрашивать"/>
+<d v="imitate" p="verb" ts="ˈɪmɪteɪt" tr="подражать; изображать; перенимать; подделывать"/>
+<d v="imitate" p="noun" ts="ˈɪmɪteɪt" tr="подражание"/>
+<d v="imitation" p="noun" ts="ɪmɪˈteɪʃn" tr="имитация; подражание; подделка; копирование; подражательство; суррогат"/>
+<d v="imitation" p="adjective" ts="ɪmɪˈteɪʃn" tr="искусственный"/>
+<d v="imitation" p="verb" ts="ɪmɪˈteɪʃn" tr="имитировать"/>
+<d v="imitative" p="adjective" ts="ˈɪmɪtətɪv" tr="подражательный; имитационный"/>
+<d v="imitator" p="noun" ts="ˈɪmɪteɪtə" tr="имитатор; эпигон"/>
+<d v="immaculate" p="adjective" ts="ɪˈmækjʊlɪt" tr="непорочный; безупречный"/>
+<d v="immaculately" p="adverb" ts="ɪˈmækjʊlətlɪ" tr="безукоризненно"/>
+<d v="immaterial" p="adjective" ts="ɪməˈtɪərɪəl" tr="нематериальный; бестелесный"/>
+<d v="immature" p="adjective" ts="ɪməˈtjʊə" tr="незрелый; молодой; несформировавшийся"/>
+<d v="immature" p="noun" ts="ɪməˈtjʊə" tr="незрелость"/>
+<d v="immaturity" p="noun" ts="ɪməˈtjʊərɪtɪ" tr="незрелость; неразвитость"/>
+<d v="immediacy" p="noun" ts="ɪˈmiːdjəsɪ" tr="непосредственность; оперативность; безотлагательность"/>
+<d v="immediate" p="adjective" ts="ɪˈmiːdjət" tr="немедленный; непосредственный; срочный; сиюминутный"/>
+<d v="immediate" p="adverb" ts="ɪˈmiːdjət" tr="немедленно"/>
+<d v="immediately" p="adverb" ts="ɪˈmiːdjətlɪ" tr="сразу; немедленно; незамедлительно"/>
+<d v="immediately" p="adjective" ts="ɪˈmiːdjətlɪ" tr="немедленный"/>
+<d v="immense" p="adjective" ts="ɪˈmens" tr="огромный; необъятный; безмерный; безграничный"/>
+<d v="immensely" p="adverb" ts="ɪˈmenslɪ" tr="чрезвычайно; безмерно; колоссально"/>
+<d v="immensely" p="adjective" ts="ɪˈmenslɪ" tr="огромный"/>
+<d v="immensity" p="noun" ts="ɪˈmensɪtɪ" tr="необъятность; безмерность"/>
+<d v="immerse" p="verb" ts="ɪˈmɜːs" tr="погрузиться; поглощать"/>
+<d v="immerse" p="noun" ts="ɪˈmɜːs" tr="погружение"/>
+<d v="immersion" p="noun" ts="ɪˈmɜːʃn" tr="погружение; осадка; крещение"/>
+<d v="immigrant" p="noun" ts="ˈɪmɪgrənt" tr="иммигрант"/>
+<d v="immigrant" p="adjective" ts="ˈɪmɪgrənt" tr="иммигрантский"/>
+<d v="immigrant" p="participle" ts="ˈɪmɪgrənt" tr="переселяющийся"/>
+<d v="immigrate" p="verb" ts="ˈɪmɪgreɪt" tr="иммигрировать"/>
+<d v="immigration" p="noun" ts="ɪmɪˈgreɪʃn" tr="иммиграция"/>
+<d v="immigration" p="adjective" ts="ɪmɪˈgreɪʃn" tr="иммиграционный"/>
+<d v="imminent" p="adjective" ts="ˈɪmɪnənt" tr="неизбежный; непосредственный"/>
+<d v="imminent" p="participle" ts="ˈɪmɪnənt" tr="надвигающийся"/>
+<d v="imminently" p="adverb" ts="ˈɪmɪnəntlɪ" tr="неизбежно"/>
+<d v="immobile" p="adjective" ts="ɪˈməʊbaɪl" tr="неподвижный"/>
+<d v="immobile" p="noun" ts="ɪˈməʊbaɪl" tr="неподвижность"/>
+<d v="immobility" p="noun" ts="ɪməʊˈbɪlɪtɪ" tr="неподвижность; обездвиженность"/>
+<d v="immobilize" p="verb" ts="ɪˈməʊbɪlaɪz" tr="обездвижить; иммобилизовать; иммобилизировать; связывать"/>
+<d v="immobilize" p="noun" ts="ɪˈməʊbɪlaɪz" tr="иммобилизация"/>
+<d v="immoral" p="adjective" ts="ɪˈmɔrəl" tr="аморальный; распутный"/>
+<d v="immorality" p="noun" ts="ɪməˈrælɪtɪ" tr="безнравственность; блуд; нечистота"/>
+<d v="immorally" p="adverb" ts="ɪˈmɒrəlɪ" tr="аморально"/>
+<d v="immortal" p="adjective" ts="ɪˈmɔːtl" tr="бессмертный"/>
+<d v="immortal" p="noun" ts="ɪˈmɔːtl" tr="бессмертие"/>
+<d v="immortality" p="noun" ts="ɪmɔːˈtælɪtɪ" tr="бессмертие; бессмертность"/>
+<d v="immortality" p="adjective" ts="ɪmɔːˈtælɪtɪ" tr="бессмертный"/>
+<d v="immortalize" p="verb" ts="ɪˈmɔːtəlaɪz" tr="увековечить"/>
+<d v="immovable" p="adjective" ts="ɪˈmuːvəbl" tr="недвижимый; непоколебимый"/>
+<d v="immovable" p="noun" ts="ɪˈmuːvəbl" tr="недвижимость"/>
+<d v="immune" p="adjective" ts="ɪˈmjuːn" tr="иммунный; невосприимчивый; свободный; неприкосновенный"/>
+<d v="immune" p="noun" ts="ɪˈmjuːn" tr="иммунитет"/>
+<d v="immune system" p="noun" ts="ɪˈmjuːn ˈsɪstɪm" tr="иммунная система; иммунитет; иммунная система организма"/>
+<d v="immunity" p="noun" ts="ɪˈmjuːnɪtɪ" tr="иммунитет; освобождение"/>
+<d v="immunity" p="adjective" ts="ɪˈmjuːnɪtɪ" tr="иммунный"/>
+<d v="immunization" p="noun" ts="ɪmjuːnaɪˈzeɪʃn" tr="иммунизация"/>
+<d v="immunize" p="noun" ts="ˈɪmjuːnaɪz" tr="иммунизация"/>
+<d v="immunize" p="verb" ts="ˈɪmjuːnaɪz" tr="иммунизировать; привить"/>
+<d v="immutable" p="adjective" ts="ɪˈmjuːtəbl" tr="неизменный"/>
+<d v="imp" p="noun" ts="ɪmp" tr="имп; бес; чертенок; ИПУ; чертик; побег"/>
+<d v="impact" p="noun" ts="ˈɪmpækt" tr="воздействие; удар; отдача; результативность; импульс"/>
+<d v="impact" p="verb" ts="ˈɪmpækt" tr="повлиять; плотно сжимать; ударять; сталкиваться"/>
+<d v="impact" p="adjective" ts="ˈɪmpækt" tr="ударный; импульсный"/>
+<d v="impair" p="verb" ts="ɪmˈpɛə" tr="нарушать; ухудшать; ослаблять; повредить; снижать; препятствовать"/>
+<d v="impair" p="noun" ts="ɪmˈpɛə" tr="нарушение; ущерб"/>
+<d v="impaired" p="participle" ts="ɪmˈpɛəd" tr="поврежденный; нарушенный"/>
+<d v="impairment" p="noun" ts="ɪmˈpɛəmənt" tr="нарушение; ущербность"/>
+<d v="impale" p="verb" ts="ɪmˈpeɪl" tr="сажать; пронзать; прокалывать"/>
+<d v="impart" p="verb" ts="ɪmˈpɑːt" tr="придавать; передавать; прививать; сообщить; поделиться; наделять; преподать"/>
+<d v="impart" p="noun" ts="ɪmˈpɑːt" tr="придание; привитие"/>
+<d v="impartial" p="adjective" ts="ɪmˈpɑːʃəl" tr="беспристрастный; незаинтересованный"/>
+<d v="impartial" p="noun" ts="ɪmˈpɑːʃəl" tr="беспристрастность"/>
+<d v="impartiality" p="noun" ts="ˈɪmpɑːʃɪˈælɪtɪ" tr="беспристрастность"/>
+<d v="impartially" p="adverb" ts="ɪmˈpɑːʃəlɪ" tr="беспристрастно; нелицеприятно"/>
+<d v="impassable" p="adjective" ts="ɪmˈpɑːsəbl" tr="непроходимый; непреодолимый"/>
+<d v="impasse" p="noun" ts="æmˈpɑːs" tr="тупик"/>
+<d v="impassive" p="adjective" ts="ɪmˈpæsɪv" tr="бесстрастный; безразличный"/>
+<d v="impatience" p="noun" ts="ɪmˈpeɪʃəns" tr="нетерпение; раздражительность"/>
+<d v="impatient" p="adjective" ts="ɪmˈpeɪʃənt" tr="нетерпеливый; нетерпимый; раздражительный; нетерпящий"/>
+<d v="impatient" p="participle" ts="ɪmˈpeɪʃənt" tr="раздраженный"/>
+<d v="impatiently" p="noun" ts="ɪmˈpeɪʃntlɪ" tr="нетерпение; с нетерпением"/>
+<d v="impatiently" p="adverb" ts="ɪmˈpeɪʃntlɪ" tr="нетерпеливо"/>
+<d v="impeach" p="noun" ts="ɪmˈpiːʧ" tr="импичмент"/>
+<d v="impeach" p="verb" ts="ɪmˈpiːʧ" tr="обвинять"/>
+<d v="impeachment" p="noun" ts="ɪmˈpiːʧmənt" tr="импичмент; обвинение"/>
+<d v="impeccable" p="adjective" ts="ɪmˈpekəbl" tr="безупречный; непогрешимый"/>
+<d v="impeccably" p="adverb" ts="ɪmˈpekəblɪ" tr="безупречно"/>
+<d v="impeccably" p="adjective" ts="ɪmˈpekəblɪ" tr="безукоризненный"/>
+<d v="impede" p="verb" ts="ɪmˈpiːd" tr="препятствовать; затруднять; тормозить"/>
+<d v="impediment" p="noun" ts="ɪmˈpedɪmənt" tr="препятствие; задержка"/>
+<d v="impel" p="verb" ts="ɪmˈpel" tr="побуждать; заставлять; толкать"/>
+<d v="impending" p="participle" ts="ɪmˈpendɪŋ" tr="надвигающийся; приближающийся"/>
+<d v="impending" p="adjective" ts="ɪmˈpendɪŋ" tr="предстоящий"/>
+<d v="impenetrable" p="adjective" ts="ɪmˈpenɪtrəbl" tr="непроницаемый; непостижимый"/>
+<d v="impenetrable" p="participle" ts="ɪmˈpenɪtrəbl" tr="недоступный"/>
+<d v="imperative" p="noun" ts="ɪmˈperətɪv" tr="императив; веление"/>
+<d v="imperative" p="adjective" ts="ɪmˈperətɪv" tr="императивный; важный; настоятельный"/>
+<d v="imperceptible" p="adjective" ts="ɪmpəˈseptəbl" tr="незаметный"/>
+<d v="imperfect" p="adjective" ts="ɪmˈpɜːfɪkt" tr="несовершенный; дефектный"/>
+<d v="imperfect" p="noun" ts="ɪmˈpɜːfɪkt" tr="имперфект"/>
+<d v="imperfection" p="noun" ts="ɪmpəˈfekʃn" tr="несовершенство; недостаток"/>
+<d v="imperfectly" p="adverb" ts="ɪmˈpɜːfɪktlɪ" tr="несовершенно"/>
+<d v="imperial" p="adjective" ts="ɪmˈpɪərɪəl" tr="императорский; имперский; величественный; высший"/>
+<d v="imperial" p="noun" ts="ɪmˈpɪərɪəl" tr="Империал; империя"/>
+<d v="imperialism" p="noun" ts="ɪmˈpɪərɪəlɪzm" tr="империализм"/>
+<d v="imperialist" p="adjective" ts="ɪmˈpɪərɪəlɪst" tr="империалистический"/>
+<d v="imperialist" p="noun" ts="ɪmˈpɪərɪəlɪst" tr="империалист"/>
+<d v="imperil" p="verb" ts="ɪmˈperɪl" tr="угрожать"/>
+<d v="impersonal" p="adjective" ts="ɪmˈpɜːsnl" tr="безличный; безличностный; безликий; объективный; бесстрастный"/>
+<d v="impersonal" p="verb" ts="ɪmˈpɜːsnl" tr="обезличить"/>
+<d v="impersonate" p="verb" ts="ɪmˈpɜːsəneɪt" tr="олицетворять; имитировать; выдавать себя"/>
+<d v="impersonate" p="noun" ts="ɪmˈpɜːsəneɪt" tr="олицетворение"/>
+<d v="impersonation" p="noun" ts="ɪmpɜːsəˈneɪʃn" tr="олицетворение; подражание; самозванство"/>
+<d v="impersonator" p="noun" ts="ɪmˈpɜːsəneɪtə" tr="подражатель; самозванец"/>
+<d v="impertinence" p="noun" ts="ɪmˈpɜːtɪnəns" tr="дерзость; неуместность"/>
+<d v="impertinent" p="adjective" ts="ɪmˈpɜːtɪnənt" tr="дерзкий; неуместный"/>
+<d v="impervious" p="adjective" ts="ɪmˈpɜːvjəs" tr="непроницаемый; глухой"/>
+<d v="impervious" p="participle" ts="ɪmˈpɜːvjəs" tr="невосприимчивый"/>
+<d v="impetuous" p="adjective" ts="ɪmˈpetjʊəs" tr="импульсивный; стремительный"/>
+<d v="impetuously" p="adverb" ts="ɪmˈpeʧʊəslɪ" tr="стремительно; безудержно"/>
+<d v="impetus" p="noun" ts="ˈɪmpɪtəs" tr="импульс; сила"/>
+<d v="impinge" p="verb" ts="ɪmˈpɪnʤ" tr="посягать; падать; сталкиваться; нарушать"/>
+<d v="impish" p="adjective" ts="ˈɪmpɪʃ" tr="озорной; ехидный"/>
+<d v="implacable" p="adjective" ts="ɪmˈplækəbl" tr="непримиримый; неумолимый; безжалостный"/>
+<d v="implant" p="noun" ts="ɪmˈplɑːnt" tr="имплантат"/>
+<d v="implant" p="verb" ts="ɪmˈplɑːnt" tr="имплантировать; внедрять; насаждать; привить; вживить; насадить"/>
+<d v="implausible" p="adjective" ts="ɪmˈplɔːzɪbl" tr="неправдоподобный"/>
+<d v="implement" p="verb" ts="ˈɪmplɪmənt" tr="реализовать; внедрить; воплотить; применить; имплементировать"/>
+<d v="implement" p="noun" ts="ˈɪmplɪmənt" tr="реализация; орудие; инструмент"/>
+<d v="implement" p="participle" ts="ˈɪmplɪmənt" tr="реализуемый"/>
+<d v="implementation" p="noun" ts="ɪmplɪmenˈteɪʃn" tr="реализация"/>
+<d v="implicate" p="verb" ts="ˈɪmplɪkeɪt" tr="подразумевать; уличить"/>
+<d v="implication" p="noun" ts="ɪmplɪˈkeɪʃn" tr="последствие; смысл; прикосновенность; причастность; вовлечение"/>
+<d v="implicit" p="adjective" ts="ɪmˈplɪsɪt" tr="неявный; безусловный; негласный"/>
+<d v="implicit" p="participle" ts="ɪmˈplɪsɪt" tr="подразумеваемый; скрытый"/>
+<d v="implicitly" p="adverb" ts="ɪmˈplɪsɪtlɪ" tr="неявно; безоговорочно; молчаливо"/>
+<d v="implicitly" p="noun" ts="ɪmˈplɪsɪtlɪ" tr="без колебаний"/>
+<d v="implode" p="verb" ts="ɪmˈpləʊd" tr="взорваться"/>
+<d v="implore" p="verb" ts="ɪmˈplɔː" tr="умолять; просить"/>
+<d v="imply" p="verb" ts="ɪmˈplaɪ" tr="подразумевать; предполагать; намекать"/>
+<d v="impolite" p="adjective" ts="ɪmpəˈlaɪt" tr="невежливый"/>
+<d v="impolite" p="noun" ts="ɪmpəˈlaɪt" tr="невежливость"/>
+<d v="impolitely" p="adverb" ts="ɪmpəˈlaɪtlɪ" tr="невежливо"/>
+<d v="import" p="noun" ts="ˈɪmpɔːt" tr="импорт; значение"/>
+<d v="import" p="verb" ts="ˈɪmpɔːt" tr="импортировать; вносить"/>
+<d v="import" p="adjective" ts="ˈɪmpɔːt" tr="импортный"/>
+<d v="import" p="participle" ts="ˈɪmpɔːt" tr="импортируемый; ввозимый"/>
+<d v="importance" p="noun" ts="ɪmˈpɔːtəns" tr="важность; значение"/>
+<d v="importance" p="adjective" ts="ɪmˈpɔːtəns" tr="важный"/>
+<d v="important" p="adjective" ts="ɪmˈpɔːtənt" tr="важный; существенный; напыщенный"/>
+<d v="importantly" p="parenthetic" ts="ɪmˈpɔːtntlɪ" tr="главное"/>
+<d v="importantly" p="adjective" ts="ɪmˈpɔːtntlɪ" tr="главный"/>
+<d v="importantly" p="adverb" ts="ɪmˈpɔːtntlɪ" tr="важно"/>
+<d v="importation" p="noun" ts="ɪmpɔːˈteɪʃn" tr="импорт"/>
+<d v="importer" p="noun" ts="ɪmˈpɔːtə" tr="импортер"/>
+<d v="impose" p="verb" ts="ɪmˈpəʊz" tr="навязывать; накладывать; ввести; налагать; устанавливать; возлагать; предъявлять; обложить; насадить; верстать; обманывать"/>
+<d v="impose" p="noun" ts="ɪmˈpəʊz" tr="введение"/>
+<d v="imposing" p="noun" ts="ɪmˈpəʊzɪŋ" tr="наложение"/>
+<d v="imposing" p="adjective" ts="ɪmˈpəʊzɪŋ" tr="внушительный; величественный"/>
+<d v="imposing" p="participle" ts="ɪmˈpəʊzɪŋ" tr="навязывающий; устанавливающий; накладывающий"/>
+<d v="imposition" p="noun" ts="ɪmpəˈzɪʃn" tr="введение; верстка; обложение; насаждение; спуск; обман"/>
+<d v="impossibility" p="noun" ts="ɪmpɔsəˈbɪlɪtɪ" tr="невозможность"/>
+<d v="impossible" p="adjective" ts="ɪmˈpɔsəbl" tr="невозможный; невыносимый"/>
+<d v="impossible" p="predicative" ts="ɪmˈpɔsəbl" tr="нельзя"/>
+<d v="impossibly" p="adverb" ts="ɪmˈpɒsəblɪ" tr="невероятно"/>
+<d v="impossibly" p="noun" ts="ɪmˈpɒsəblɪ" tr="до невозможности"/>
+<d v="impostor" p="noun" ts="ɪmˈpɔstə" tr="самозванец; обманщик; самозванка"/>
+<d v="impotence" p="noun" ts="ˈɪmpətəns" tr="импотенция"/>
+<d v="impotent" p="adjective" ts="ˈɪmpətənt" tr="бессильный; импотентный"/>
+<d v="impotent" p="noun" ts="ˈɪmpətənt" tr="импотент"/>
+<d v="impound" p="verb" ts="ɪmˈpaʊnd" tr="конфисковать"/>
+<d v="impoverished" p="adjective" ts="ɪmˈpɔvərɪʃt" tr="бедный"/>
+<d v="impoverished" p="participle" ts="ɪmˈpɔvərɪʃt" tr="обедневший; обнищавший"/>
+<d v="imperfectly" p="adverb" ts="ɪmˈpɜːfɪktlɪ" tr="несовершенно"/>
+<d v="imperial" p="adjective" ts="ɪmˈpɪərɪəl" tr="императорский; имперский; величественный; высший"/>
+<d v="imperial" p="noun" ts="ɪmˈpɪərɪəl" tr="Империал; империя"/>
+<d v="imperialism" p="noun" ts="ɪmˈpɪərɪəlɪzm" tr="империализм"/>
+<d v="imperialist" p="adjective" ts="ɪmˈpɪərɪəlɪst" tr="империалистический"/>
+<d v="imperialist" p="noun" ts="ɪmˈpɪərɪəlɪst" tr="империалист"/>
+<d v="imperil" p="verb" ts="ɪmˈperɪl" tr="угрожать"/>
+<d v="impersonal" p="adjective" ts="ɪmˈpɜːsnl" tr="безличный; безличностный; безликий; объективный; бесстрастный"/>
+<d v="impersonal" p="verb" ts="ɪmˈpɜːsnl" tr="обезличить"/>
+<d v="impersonate" p="verb" ts="ɪmˈpɜːsəneɪt" tr="олицетворять; имитировать; выдавать себя"/>
+<d v="impersonate" p="noun" ts="ɪmˈpɜːsəneɪt" tr="олицетворение"/>
+<d v="impersonation" p="noun" ts="ɪmpɜːsəˈneɪʃn" tr="олицетворение; подражание; самозванство"/>
+<d v="impersonator" p="noun" ts="ɪmˈpɜːsəneɪtə" tr="подражатель; самозванец"/>
+<d v="impertinence" p="noun" ts="ɪmˈpɜːtɪnəns" tr="дерзость; неуместность"/>
+<d v="impertinent" p="adjective" ts="ɪmˈpɜːtɪnənt" tr="дерзкий; неуместный"/>
+<d v="impervious" p="adjective" ts="ɪmˈpɜːvjəs" tr="непроницаемый; глухой"/>
+<d v="impervious" p="participle" ts="ɪmˈpɜːvjəs" tr="невосприимчивый"/>
+<d v="impetuous" p="adjective" ts="ɪmˈpetjʊəs" tr="импульсивный; стремительный"/>
+<d v="impetuously" p="adverb" ts="ɪmˈpeʧʊəslɪ" tr="стремительно; безудержно"/>
+<d v="impetus" p="noun" ts="ˈɪmpɪtəs" tr="импульс; сила"/>
+<d v="impinge" p="verb" ts="ɪmˈpɪnʤ" tr="посягать; падать; сталкиваться; нарушать"/>
+<d v="impish" p="adjective" ts="ˈɪmpɪʃ" tr="озорной; ехидный"/>
+<d v="implacable" p="adjective" ts="ɪmˈplækəbl" tr="непримиримый; неумолимый; безжалостный"/>
+<d v="implant" p="noun" ts="ɪmˈplɑːnt" tr="имплантат"/>
+<d v="implant" p="verb" ts="ɪmˈplɑːnt" tr="имплантировать; внедрять; насаждать; привить; вживить; насадить"/>
+<d v="implausible" p="adjective" ts="ɪmˈplɔːzɪbl" tr="неправдоподобный"/>
+<d v="implement" p="verb" ts="ˈɪmplɪmənt" tr="реализовать; внедрить; воплотить; применить; имплементировать"/>
+<d v="implement" p="noun" ts="ˈɪmplɪmənt" tr="реализация; орудие; инструмент"/>
+<d v="implement" p="participle" ts="ˈɪmplɪmənt" tr="реализуемый"/>
+<d v="implementation" p="noun" ts="ɪmplɪmenˈteɪʃn" tr="реализация"/>
+<d v="implicate" p="verb" ts="ˈɪmplɪkeɪt" tr="подразумевать; уличить"/>
+<d v="implication" p="noun" ts="ɪmplɪˈkeɪʃn" tr="последствие; смысл; прикосновенность; причастность; вовлечение"/>
+<d v="implicit" p="adjective" ts="ɪmˈplɪsɪt" tr="неявный; безусловный; негласный"/>
+<d v="implicit" p="participle" ts="ɪmˈplɪsɪt" tr="подразумеваемый; скрытый"/>
+<d v="implicitly" p="adverb" ts="ɪmˈplɪsɪtlɪ" tr="неявно; безоговорочно; молчаливо"/>
+<d v="implicitly" p="noun" ts="ɪmˈplɪsɪtlɪ" tr="без колебаний"/>
+<d v="implode" p="verb" ts="ɪmˈpləʊd" tr="взорваться"/>
+<d v="implore" p="verb" ts="ɪmˈplɔː" tr="умолять; просить"/>
+<d v="imply" p="verb" ts="ɪmˈplaɪ" tr="подразумевать; предполагать; намекать"/>
+<d v="impolite" p="adjective" ts="ɪmpəˈlaɪt" tr="невежливый"/>
+<d v="impolite" p="noun" ts="ɪmpəˈlaɪt" tr="невежливость"/>
+<d v="impolitely" p="adverb" ts="ɪmpəˈlaɪtlɪ" tr="невежливо"/>
+<d v="import" p="noun" ts="ˈɪmpɔːt" tr="импорт; значение"/>
+<d v="import" p="verb" ts="ˈɪmpɔːt" tr="импортировать; вносить"/>
+<d v="import" p="adjective" ts="ˈɪmpɔːt" tr="импортный"/>
+<d v="import" p="participle" ts="ˈɪmpɔːt" tr="импортируемый; ввозимый"/>
+<d v="importance" p="noun" ts="ɪmˈpɔːtəns" tr="важность; значение"/>
+<d v="importance" p="adjective" ts="ɪmˈpɔːtəns" tr="важный"/>
+<d v="important" p="adjective" ts="ɪmˈpɔːtənt" tr="важный; существенный; напыщенный"/>
+<d v="importantly" p="parenthetic" ts="ɪmˈpɔːtntlɪ" tr="главное"/>
+<d v="importantly" p="adjective" ts="ɪmˈpɔːtntlɪ" tr="главный"/>
+<d v="importantly" p="adverb" ts="ɪmˈpɔːtntlɪ" tr="важно"/>
+<d v="importation" p="noun" ts="ɪmpɔːˈteɪʃn" tr="импорт"/>
+<d v="importer" p="noun" ts="ɪmˈpɔːtə" tr="импортер"/>
+<d v="impose" p="verb" ts="ɪmˈpəʊz" tr="навязывать; накладывать; ввести; налагать; устанавливать; возлагать; предъявлять; обложить; насадить; верстать; обманывать"/>
+<d v="impose" p="noun" ts="ɪmˈpəʊz" tr="введение"/>
+<d v="imposing" p="noun" ts="ɪmˈpəʊzɪŋ" tr="наложение"/>
+<d v="imposing" p="adjective" ts="ɪmˈpəʊzɪŋ" tr="внушительный; величественный"/>
+<d v="imposing" p="participle" ts="ɪmˈpəʊzɪŋ" tr="навязывающий; устанавливающий; накладывающий"/>
+<d v="imposition" p="noun" ts="ɪmpəˈzɪʃn" tr="введение; верстка; обложение; насаждение; спуск; обман"/>
+<d v="impossibility" p="noun" ts="ɪmpɔsəˈbɪlɪtɪ" tr="невозможность"/>
+<d v="impossible" p="adjective" ts="ɪmˈpɔsəbl" tr="невозможный; невыносимый"/>
+<d v="impossible" p="predicative" ts="ɪmˈpɔsəbl" tr="нельзя"/>
+<d v="impossibly" p="adverb" ts="ɪmˈpɒsəblɪ" tr="невероятно"/>
+<d v="impossibly" p="noun" ts="ɪmˈpɒsəblɪ" tr="до невозможности"/>
+<d v="impostor" p="noun" ts="ɪmˈpɔstə" tr="самозванец; обманщик; самозванка"/>
+<d v="impotence" p="noun" ts="ˈɪmpətəns" tr="импотенция"/>
+<d v="imprecise" p="adjective" ts="ɪmprɪˈsaɪs" tr="неточный; неопределенный"/>
+<d v="impregnable" p="adjective" ts="ɪmˈpregnəbl" tr="неприступный; неуязвимый"/>
+<d v="impregnate" p="verb" ts="ɪmˈpregnɪt" tr="пропитывать; оплодотворять"/>
+<d v="impregnate" p="noun" ts="ɪmˈpregnɪt" tr="пропитка"/>
+<d v="impress" p="verb" ts="ˈɪmpres" tr="впечатлить; поразить; впечатлять; внушить; убедить; запечатлеть"/>
+<d v="impress" p="noun" ts="ˈɪmpres" tr="впечатление; отпечаток"/>
+<d v="impression" p="noun" ts="ɪmˈpreʃn" tr="впечатление; оттиск; издание"/>
+<d v="impressionable" p="adjective" ts="ɪmˈpreʃnəbl" tr="впечатлительный"/>
+<d v="impressionistic" p="adjective" ts="ɪmpreʃəˈnɪstɪk" tr="импрессионистический; импрессионистский"/>
+<d v="impressive" p="adjective" ts="ɪmˈpresɪv" tr="впечатляющий; внушительный; импрессивный; выразительный; фактурный; впечатлительный"/>
+<d v="impressive" p="verb" ts="ɪmˈpresɪv" tr="впечатлять"/>
+<d v="impressive" p="participle" ts="ɪmˈpresɪv" tr="потрясающий; производящий глубокое впечатление"/>
+<d v="imprint" p="noun" ts="ˈɪmprɪnt" tr="отпечаток; выходные данные; выходные сведения"/>
+<d v="imprint" p="verb" ts="ˈɪmprɪnt" tr="запечатлеть; отпечатать; запечатлеться; отпечатывать; впечатать; впечатывать"/>
+<d v="imprison" p="verb" ts="ɪmˈprɪzn" tr="посадить; заключить; заточить; сажать в тюрьму; заключить в тюрьму; пленить"/>
+<d v="imprisonment" p="noun" ts="ɪmˈprɪznmənt" tr="заключение"/>
+<d v="imprisonment" p="adjective" ts="ɪmˈprɪznmənt" tr="тюремный"/>
+<d v="improbability" p="noun" ts="ɪmˈprɔbəbɪlɪtɪ" tr="невероятность; неправдоподобие"/>
+<d v="improbable" p="adjective" ts="ɪmˈprɔbəbl" tr="невероятный"/>
+<d v="improbably" p="adverb" ts="ɪmˈprɒbəblɪ" tr="невероятно"/>
+<d v="impromptu" p="adjective" ts="ɪmˈprɔmptjuː" tr="импровизированный"/>
+<d v="impromptu" p="noun" ts="ɪmˈprɔmptjuː" tr="экспромт; импровизация"/>
+<d v="improper" p="adjective" ts="ɪmˈprɔpə" tr="неправильный; неподходящий; неподобающий; несобственный; предосудительный"/>
+<d v="improperly" p="adverb" ts="ɪmˈprɒpəlɪ" tr="неправильно; неправомерно; неприлично"/>
+<d v="impropriety" p="noun" ts="ɪmprəˈpraɪətɪ" tr="неприличие; неуместность; некорректность"/>
+<d v="improve" p="verb" ts="ɪmˈpruːv" tr="улучшить; совершенствовать; улучшиться; поправить; оздоровить; возрасти"/>
+<d v="improve" p="noun" ts="ɪmˈpruːv" tr="улучшение"/>
+<d v="improvement" p="noun" ts="ɪmˈpruːvmənt" tr="улучшение; благоустройство; мелиорация; перестройка; перестановка"/>
+<d v="improvisation" p="noun" ts="ˈɪmprəvaɪˈzeɪʃn" tr="импровизация; импровизационность"/>
+<d v="improvisation" p="verb" ts="ˈɪmprəvaɪˈzeɪʃn" tr="импровизировать"/>
+<d v="improvise" p="verb" ts="ˈɪmprəvaɪz" tr="импровизировать; сымпровизировать; смастерить; фантазировать"/>
+<d v="improvise" p="noun" ts="ˈɪmprəvaɪz" tr="импровизация"/>
+<d v="impudence" p="noun" ts="ˈɪmpjʊdəns" tr="наглость; бесстыдство; бесцеремонность"/>
+<d v="impudent" p="adjective" ts="ˈɪmpjʊdənt" tr="наглый"/>
+<d v="impudent" p="verb" ts="ˈɪmpjʊdənt" tr="наглеть"/>
+<d v="impulse" p="noun" ts="ˈɪmpʌls" tr="импульс; порыв; побуждение; позыв; импульсация"/>
+<d v="impulse" p="adjective" ts="ˈɪmpʌls" tr="импульсный"/>
+<d v="impulsive" p="adjective" ts="ɪmˈpʌlsɪv" tr="импульсивный"/>
+<d v="impulsively" p="adverb" ts="ɪmˈpʌlsɪvlɪ" tr="импульсивно; порывисто"/>
+<d v="impulsiveness" p="noun" ts="ɪmˈpʌlsɪvnəs" tr="импульсивность"/>
+<d v="impunity" p="noun" ts="ɪmˈpjuːnɪtɪ" tr="безнаказанность; ненаказуемость"/>
+<d v="impure" p="adjective" ts="ɪmˈpjʊə" tr="нечистый"/>
+<d v="impure" p="participle" ts="ɪmˈpjʊə" tr="загрязненный"/>
+<d v="impurity" p="noun" ts="ɪmˈpjʊərɪtɪ" tr="примесь; загрязнение; нечистота; нечистоплотность"/>
+<d v="impurity" p="adjective" ts="ɪmˈpjʊərɪtɪ" tr="примесной; нечистый"/>
+<d v="in" p="preposition" ts="ɪn" tr="в; внутри"/>
+<d v="in" p="adverb" ts="ɪn" tr="внутрь"/>
+<d v="inability" p="noun" ts="ɪnəˈbɪlɪtɪ" tr="неспособность; инвалидность"/>
+<d v="inaccessibility" p="noun" ts="ˈɪnækˈsesəˈbɪlɪtɪ" tr="недоступность; труднодоступность; неприступность; недосягаемость"/>
+<d v="inaccessible" p="adjective" ts="ɪnækˈsesəbl" tr="недоступный; недосягаемый"/>
+<d v="inaccessible" p="noun" ts="ɪnækˈsesəbl" tr="недоступность"/>
+<d v="inaccuracy" p="noun" ts="ɪnˈækjʊrəsɪ" tr="неточность; неаккуратность"/>
+<d v="inaccurate" p="adjective" ts="ɪnˈækjʊrɪt" tr="неточный; неверный"/>
+<d v="inaccurate" p="noun" ts="ɪnˈækjʊrɪt" tr="неточность"/>
+<d v="inaction" p="noun" ts="ɪnˈækʃn" tr="бездействие; пассивность"/>
+<d v="inactive" p="adjective" ts="ɪnˈæktɪv" tr="неактивный"/>
+<d v="inactive" p="participle" ts="ɪnˈæktɪv" tr="бездействующий"/>
+<d v="inactive" p="verb" ts="ɪnˈæktɪv" tr="бездействовать"/>
+<d v="inactive" p="noun" ts="ɪnˈæktɪv" tr="неактивность"/>
+<d v="inactivity" p="noun" ts="ɪnækˈtɪvɪtɪ" tr="бездействие; неактивность; пассивность"/>
+<d v="inadequacy" p="noun" ts="ɪnˈædɪkwəsɪ" tr="неадекватность; недостаток; несоответствие; неполноценность; несоответствие требованиям"/>
+<d v="inadequate" p="adjective" ts="ɪnˈædɪkwɪt" tr="неадекватный; неподходящий; недостаточно развитый; несостоятельный"/>
+<d v="inadequate" p="noun" ts="ɪnˈædɪkwɪt" tr="неадекватность"/>
+<d v="inadequate" p="participle" ts="ɪnˈædɪkwɪt" tr="не отвечающий требованиям"/>
+<d v="inadequately" p="adverb" ts="ɪnˈædɪkwətlɪ" tr="неадекватно"/>
+<d v="inadmissible" p="adjective" ts="ɪnədˈmɪsəbl" tr="недопустимый"/>
+<d v="inadvertent" p="adjective" ts="ɪnədˈvɜːtənt" tr="непреднамеренный"/>
+<d v="inadvertently" p="adverb" ts="ɪnədˈvɜːtəntlɪ" tr="случайно; непреднамеренно; невольно; неосторожно"/>
+<d v="inadvertently" p="noun" ts="ɪnədˈvɜːtəntlɪ" tr="по неосторожности"/>
+<d v="impound" p="verb" ts="ɪmˈpaʊnd" tr="конфисковать"/>
+<d v="impoverished" p="adjective" ts="ɪmˈpɔvərɪʃt" tr="бедный"/>
+<d v="impoverished" p="participle" ts="ɪmˈpɔvərɪʃt" tr="обедневший; обнищавший"/>
+<d v="inadvisable" p="adjective" ts="ɪnədˈvaɪzəbl" tr="нецелесообразный"/>
+<d v="inalienable" p="adjective" ts="ɪnˈeɪljənəbl" tr="неотъемлемый"/>
+<d v="inane" p="adjective" ts="ɪˈneɪn" tr="бессмысленный"/>
+<d v="inanimate" p="adjective" ts="ɪnˈænɪmɪt" tr="неодушевленный"/>
+<d v="inappropriate" p="adjective" ts="ɪnəˈprəʊprɪɪt" tr="неуместный; неправильный; неприемлемый"/>
+<d v="inappropriate" p="participle" ts="ɪnəˈprəʊprɪɪt" tr="непригодный"/>
+<d v="inappropriate" p="adverb" ts="ɪnəˈprəʊprɪɪt" tr="некстати"/>
+<d v="inarticulate" p="adjective" ts="ɪnɑːˈtɪkjʊlɪt" tr="нечленораздельный; косноязычный"/>
+<d v="inasmuch as" p="conjunction" ts="ɪnəzˈmʌʧæz" tr="поскольку"/>
+<d v="inasmuch as" p="adverb" ts="ɪnəzˈmʌʧæz" tr="так как"/>
+<d v="inattention" p="noun" ts="ɪnəˈtenʃn" tr="невнимание"/>
+<d v="inattentive" p="adjective" ts="ɪnəˈtentɪv" tr="невнимательный"/>
+<d v="inaudible" p="adjective" ts="ɪnˈɔːdəbl" tr="неслышный; невнятный"/>
+<d v="inaudibly" p="adverb" ts="ɪnˈɔːdəblɪ" tr="неслышно"/>
+<d v="inaugural" p="adjective" ts="ɪˈnɔːgjʊrəl" tr="инаугурационный"/>
+<d v="inaugurate" p="verb" ts="ɪˈnɔːgjʊreɪt" tr="открывать; ознаменовать"/>
+<d v="inauguration" p="noun" ts="ɪnɔːgjʊˈreɪʃn" tr="инаугурация; вступление в должность"/>
+<d v="inauspicious" p="adjective" ts="ɪnɔːsˈpɪʃəs" tr="неблагоприятный; зловещий"/>
+<d v="inbred" p="adjective" ts="ˈɪnˈbred" tr="инбредный; врожденный"/>
+<d v="incalculable" p="adjective" ts="ɪnˈkælkjʊləbl" tr="неисчислимый; непредсказуемый; неоценимый"/>
+<d v="incandescence" p="noun" ts="ˈɪnkænˈdesns" tr="накаливание"/>
+<d v="incandescent" p="participle" ts="ˈɪnkænˈdesnt" tr="раскаленный"/>
+<d v="incandescent" p="adverb" ts="ˈɪnkænˈdesnt" tr="добела"/>
+<d v="incantation" p="noun" ts="ɪnkænˈteɪʃn" tr="заклинание"/>
+<d v="incapable" p="adjective" ts="ɪnˈkeɪpəbl" tr="неспособный"/>
+<d v="incapable" p="participle" ts="ɪnˈkeɪpəbl" tr="не способный"/>
+<d v="incapacitate" p="verb" ts="ɪnkəˈpæsɪteɪt" tr="выводить из строя"/>
+<d v="incapacity" p="noun" ts="ɪnkəˈpæsɪtɪ" tr="неспособность; неправоспособность"/>
+<d v="incarceration" p="noun" ts="ɪnkɑːsəˈreɪʃn" tr="лишение"/>
+<d v="incarceration" p="adjective" ts="ɪnkɑːsəˈreɪʃn" tr="тюремный"/>
+<d v="incarnate" p="verb" ts="ɪnˈkɑːnɪt" tr="воплотиться; воплощаться"/>
+<d v="incarnate" p="participle" ts="ɪnˈkɑːnɪt" tr="воплощенный; воплотившийся; вочеловечившийся"/>
+<d v="incarnate" p="noun" ts="ɪnˈkɑːnɪt" tr="воплощение; инкарнировать"/>
+<d v="incarnation" p="noun" ts="ɪɪnkɑːˈneɪʃn" tr="воплощение; реинкарнация; вочеловечение; Боговоплощение"/>
+<d v="incarnation" p="participle" ts="ɪɪnkɑːˈneɪʃn" tr="воплощенный"/>
+<d v="incendiary" p="adjective" ts="ɪnˈsendjərɪ" tr="зажигательный"/>
+<d v="incendiary" p="noun" ts="ɪnˈsendjərɪ" tr="поджигатель"/>
+<d v="incense" p="noun" ts="ˈɪnsens" tr="ладан"/>
+<d v="incense" p="verb" ts="ˈɪnsens" tr="кадить"/>
+<d v="incentive" p="noun" ts="ɪnˈsentɪv" tr="стимул; мотивация"/>
+<d v="incentive" p="adjective" ts="ɪnˈsentɪv" tr="поощрительный; побудительный; мотивационный"/>
+<d v="incentive" p="participle" ts="ɪnˈsentɪv" tr="стимулирующий"/>
+<d v="inception" p="noun" ts="ɪnˈsepʃn" tr="начало; создание"/>
+<d v="incessant" p="adjective" ts="ɪnˈsesnt" tr="непрекращающийся; неустанный"/>
+<d v="incessantly" p="adverb" ts="ɪnˈsesntlɪ" tr="непрерывно; непрестанно"/>
+<d v="incessantly" p="noun" ts="ɪnˈsesntlɪ" tr="без умолку"/>
+<d v="incest" p="noun" ts="ˈɪnsest" tr="кровосмешение"/>
+<d v="incestuous" p="adjective" ts="ɪnˈsestjʊəs" tr="кровосмесительный; инцестуальный"/>
+<d v="inch" p="noun" ts="ɪnʧ" tr="дюйм; высота"/>
+<d v="incidence" p="noun" ts="ˈɪnsɪdəns" tr="заболеваемость; падение; охват; сфера действия; наклон"/>
+<d v="incident" p="noun" ts="ˈɪnsɪdənt" tr="инцидент; эпизод; казус; происшедшее"/>
+<d v="incident" p="participle" ts="ˈɪnsɪdənt" tr="падающий"/>
+<d v="incident" p="adjective" ts="ˈɪnsɪdənt" tr="свойственный"/>
+<d v="incidental" p="adjective" ts="ɪnsɪˈdentl" tr="случайный"/>
+<d v="incidental" p="participle" ts="ɪnsɪˈdentl" tr="второстепенный"/>
+<d v="incidental" p="noun" ts="ɪnsɪˈdentl" tr="эпизод"/>
+<d v="incidentally" p="adverb" ts="ɪnsɪˈdentlɪ" tr="кстати; попутно; несущественно"/>
+<d v="incidentally" p="noun" ts="ɪnsɪˈdentlɪ" tr="между прочим"/>
+<d v="incidentally" p="conjunction" ts="ɪnsɪˈdentlɪ" tr="впрочем"/>
+<d v="incinerate" p="verb" ts="ɪnˈsɪnəreɪt" tr="сжигать"/>
+<d v="incineration" p="noun" ts="ɪnˈsɪnəˈreɪʃn" tr="сжигание; испепеление"/>
+<d v="incineration" p="adjective" ts="ɪnˈsɪnəˈreɪʃn" tr="мусоросжигательный"/>
+<d v="incinerator" p="adjective" ts="ɪnˈsɪnəreɪtə" tr="мусоросжигательный"/>
+<d v="incinerator" p="noun" ts="ɪnˈsɪnəreɪtə" tr="мусоросжигательный завод; мусоросжигатель; мусоросжигательная печь"/>
+<d v="incision" p="noun" ts="ɪnˈsɪʒən" tr="разрез; взрез; надрезание; разрезание"/>
+<d v="incisive" p="adjective" ts="ɪnˈsaɪsɪv" tr="острый; язвительный"/>
+<d v="incisor" p="noun" ts="ɪnˈsaɪzə" tr="резец; передний зуб"/>
+<d v="incite" p="verb" ts="ɪnˈsaɪt" tr="подстрекать; разжигать; провоцировать; вызвать; побуждать; толкать; натравить; натравливать; подбивать"/>
+<d v="incite" p="noun" ts="ɪnˈsaɪt" tr="разжигание"/>
+<d v="incitement" p="noun" ts="ɪnˈsaɪtmənt" tr="подстрекательство; возбуждение"/>
+<d v="inclination" p="noun" ts="ɪnklɪˈneɪʃn" tr="наклон; склонность; влечение; тяготение; склонение"/>
+<d v="incline" p="verb" ts="ɪnˈklaɪn" tr="склонить"/>
+<d v="incline" p="noun" ts="ɪnˈklaɪn" tr="наклон"/>
+<d v="incline" p="adjective" ts="ɪnˈklaɪn" tr="наклонный"/>
+<d v="inclined" p="adjective" ts="ɪnˈklaɪnd" tr="склонный; наклонный"/>
+<d v="inclined" p="adverbial participle" ts="ɪnˈklaɪnd" tr="склоняясь"/>
+<d v="inclined" p="noun" ts="ɪnˈklaɪnd" tr="склонность"/>
+<d v="include" p="verb" ts="ɪnˈkluːd" tr="включать; входить; относиться; предусматривать; прилагать"/>
+<d v="including" p="noun" ts="ɪnˈkluːdɪŋ" tr="в том числе"/>
+<d v="including" p="participle" ts="ɪnˈkluːdɪŋ" tr="содержащий"/>
+<d v="inclusion" p="noun" ts="ɪnˈkluːʒən" tr="включение; вовлечение; вхождение; инклюзия; вкрапление"/>
+<d v="inclusive" p="adverb" ts="ɪnˈkluːsɪv" tr="включительно"/>
+<d v="inclusive" p="adjective" ts="ɪnˈkluːsɪv" tr="инклюзивный; всеобъемлющий; содержательный"/>
+<d v="inclusive" p="adverbial participle" ts="ɪnˈkluːsɪv" tr="включая"/>
+<d v="inclusive" p="participle" ts="ɪnˈkluːsɪv" tr="включающий в себя; содержащий"/>
+<d v="incoherence" p="noun" ts="ɪnkəʊˈhɪərəns" tr="непоследовательность; бессвязность; несвязность"/>
+<d v="incoherent" p="adjective" ts="ɪnkəʊˈhɪərənt" tr="бессвязный; некогерентный; непоследовательный"/>
+<d v="incoherently" p="adverb" ts="ɪnkəʊˈhɪərəntlɪ" tr="бессвязно"/>
+<d v="income" p="noun" ts="ˈɪnkʌm" tr="доход; приход"/>
+<d v="income" p="adjective" ts="ˈɪnkʌm" tr="подоходный"/>
+<d v="income tax" p="noun" ts="ˈɪnkʌm tæks" tr="подоходный налог; налог на прибыль; налог на доходы"/>
+<d v="incoming" p="participle" ts="ˈɪnkʌmɪŋ" tr="входящий; поступающий; приходящий; прибывающий; вступающий; наступающий"/>
+<d v="incoming" p="adjective" ts="ˈɪnkʌmɪŋ" tr="входной; следующий"/>
+<d v="incoming" p="noun" ts="ˈɪnkʌmɪŋ" tr="приход"/>
+<d v="incomparable" p="adjective" ts="ɪnˈkɔmpərəbl" tr="несравненный; несопоставимый"/>
+<d v="incompatibility" p="noun" ts="ˈɪnkəmpætəˈbɪlɪtɪ" tr="несовместимость; несоответствие"/>
+<d v="incompatible" p="adjective" ts="ɪnkəmˈpætəbl" tr="несовместимый"/>
+<d v="incompatible" p="noun" ts="ɪnkəmˈpætəbl" tr="несовместимость"/>
+<d v="incompetence" p="noun" ts="ɪnˈkɔmpɪtəns" tr="некомпетентность; несостоятельность; непрофессионализм"/>
+<d v="incompetent" p="adjective" ts="ɪnˈkɔmpɪtənt" tr="некомпетентный; недееспособный; слабый"/>
+<d v="incompetent" p="noun" ts="ɪnˈkɔmpɪtənt" tr="некомпетентность"/>
+<d v="incompetently" p="adverb" ts="ɪnˈkɒmpɪtəntlɪ" tr="некомпетентно"/>
+<d v="incomplete" p="adjective" ts="ɪnkəmˈpliːt" tr="неполный; незавершенный"/>
+<d v="incomplete" p="noun" ts="ɪnkəmˈpliːt" tr="неполнота"/>
+<d v="incompletely" p="adverb" ts="ɪnkəmˈpliːtlɪ" tr="не полностью"/>
+<d v="incomprehensible" p="adjective" ts="ɪnˈkɔmprɪˈhensəbl" tr="непонятный; малопонятный"/>
+<d v="inconceivable" p="adjective" ts="ɪnkənˈsiːvəbl" tr="немыслимый"/>
+<d v="inconclusive" p="adjective" ts="ɪnkənˈkluːsɪv" tr="неубедительный; неокончательный"/>
+<d v="incongruity" p="noun" ts="ɪnkɔŋˈgruːɪtɪ" tr="несоответствие; несовместимость"/>
+<d v="incongruous" p="adjective" ts="ɪnˈkɔŋgrʊəs" tr="нелепый"/>
+<d v="incongruous" p="participle" ts="ɪnˈkɔŋgrʊəs" tr="несовместимый"/>
+<d v="inconsequential" p="adjective" ts="ɪnkɔnsɪˈkwenʃəl" tr="несущественный; непоследовательный"/>
+<d v="inconsiderate" p="adjective" ts="ɪnkənˈsɪdərɪt" tr="неосмотрительный; невнимательный; бесцеремонный"/>
+<d v="inconsistency" p="noun" ts="ɪnkənˈsɪstənsɪ" tr="несоответствие; непоследовательность; противоречие; сбивчивость; непостоянство"/>
+<d v="inconsistent" p="adjective" ts="ɪnkənˈsɪstənt" tr="противоречивый; непостоянный"/>
+<d v="inconsistent" p="verb" ts="ɪnkənˈsɪstənt" tr="противоречить"/>
+<d v="inconsistent" p="noun" ts="ɪnkənˈsɪstənt" tr="непоследовательность; несогласованность"/>
+<d v="inconsistent" p="participle" ts="ɪnkənˈsɪstənt" tr="не соответствующий; не отвечающий"/>
+<d v="inconsistently" p="adverb" ts="ɪnkənˈsɪstəntlɪ" tr="непоследовательно"/>
+<d v="inconsolable" p="adjective" ts="ɪnkənˈsəʊləbl" tr="безутешный"/>
+<d v="inconspicuous" p="adjective" ts="ɪnkənˈspɪkjʊəs" tr="незаметный"/>
+<d v="inconspicuously" p="adverb" ts="ɪnkənˈspɪkjʊəslɪ" tr="незаметно"/>
+<d v="incontinence" p="noun" ts="ɪnˈkɔntɪnəns" tr="недержание; несдержанность"/>
+<d v="incontinent" p="adjective" ts="ɪnˈkɔntɪnənt" tr="невоздержанный"/>
+<d v="incontinent" p="participle" ts="ɪnˈkɔntɪnənt" tr="страдающий недержанием"/>
+<d v="inconvenience" p="noun" ts="ɪnkənˈviːnjəns" tr="неудобство"/>
+<d v="inconvenience" p="verb" ts="ɪnkənˈviːnjəns" tr="беспокоить"/>
+<d v="inconvenient" p="adjective" ts="ɪnkənˈviːnjənt" tr="неудобный"/>
+<d v="inconveniently" p="adverb" ts="ɪnkənˈviːnɪəntlɪ" tr="неудобно"/>
+<d v="incorporate" p="verb" ts="ɪnˈkɔːpərɪt" tr="включать; учитывать; внедрить; соединять; вобрать; предусмотреть; регистрировать; оформить; смешивать"/>
+<d v="incorporate" p="noun" ts="ɪnˈkɔːpərɪt" tr="включение"/>
+<d v="incorporate" p="participle" ts="ɪnˈkɔːpərɪt" tr="объединяющий"/>
+<d v="incorporated" p="participle" ts="ɪnˈkɔːpəreɪtɪd" tr="включенный; объединенный; заложенный; инкорпорированный; включаемый"/>
+<d v="incorporation" p="noun" ts="ɪnkɔːpəˈreɪʃn" tr="включение; регистрация; инкорпорация; объединение; корпорация"/>
+<d v="incorrect" p="adjective" ts="ɪnkəˈrekt" tr="неправильный"/>
+<d v="incorrectly" p="adverb" ts="ɪnkəˈrektlɪ" tr="неправильно"/>
+<d v="incorrigible" p="adjective" ts="ɪnˈkɔrɪʤəbl" tr="неисправимый"/>
+<d v="increase" p="noun" ts="ˈɪnkriːs" tr="увеличение; прибавление; размножение"/>
+<d v="increase" p="verb" ts="ˈɪnkriːs" tr="увеличить; повысить; увеличиваться; возрастать; усиливать; наращивать"/>
+<d v="increase" p="adjective" ts="ˈɪnkriːs" tr="повышенный"/>
+<d v="increased" p="participle" ts="ɪnˈkriːst" tr="увеличенный; усиленный"/>
+<d v="increased" p="noun" ts="ɪnˈkriːst" tr="увеличение"/>
+<d v="increasing" p="noun" ts="ɪnˈkriːsɪŋ" tr="увеличение"/>
+<d v="increasing" p="participle" ts="ɪnˈkriːsɪŋ" tr="растущий; нарастающий; повышающий; увеличивающий"/>
+<d v="increasing" p="adjective" ts="ɪnˈkriːsɪŋ" tr="больший"/>
+<d v="increasingly" p="adverb" ts="ɪnˈkriːsɪŋlɪ" tr="более; чаще; шире"/>
+<d v="increasingly" p="pronoun" ts="ɪnˈkriːsɪŋlɪ" tr="все"/>
+<d v="incredible" p="adjective" ts="ɪnˈkredəbl" tr="невероятный; удивительный; потрясающий; небывалый; неописуемый"/>
+<d v="incredibly" p="adverb" ts="ɪnˈkredəblɪ" tr="невероятно; необычайно; чрезвычайно; безумно"/>
+<d v="incredulity" p="noun" ts="ɪnkrɪˈdjuːlɪtɪ" tr="недоверие"/>
+<d v="incredulous" p="adjective" ts="ɪnˈkredjʊləs" tr="недоверчивый"/>
+<d v="increment" p="noun" ts="ˈɪnkrɪmənt" tr="прирост; приращение; надбавка"/>
+<d v="increment" p="verb" ts="ˈɪnkrɪmənt" tr="инкрементировать"/>
+<d v="incremental" p="adjective" ts="ɪnkrəˈmentl" tr="инкрементный; дополнительный; постепенный"/>
+<d v="incremental" p="participle" ts="ɪnkrəˈmentl" tr="возрастающий"/>
+<d v="incriminate" p="verb" ts="ɪnˈkrɪmɪneɪt" tr="инкриминировать; обвинить; уличать"/>
+<d v="incriminating" p="adjective" ts="ɪnˈkrɪmɪneɪtɪŋ" tr="обличительный"/>
+<d v="incrimination" p="noun" ts="ɪnkrɪmɪˈneɪʃn" tr="инкриминирование; изобличение"/>
+<d v="incubate" p="verb" ts="ˈɪnkjʊbeɪt" tr="инкубировать; высиживать; сидеть"/>
+<d v="incubation" p="noun" ts="ɪnkjʊˈbeɪʃn" tr="инкубация; инкубирование; высиживание"/>
+<d v="incubation" p="adjective" ts="ɪnkjʊˈbeɪʃn" tr="инкубационный"/>
+<d v="incubation period" p="noun" ts="ɪnkjʊˈbeɪʃn ˈpɪərɪəd" tr="инкубационный период"/>
+<d v="incubator" p="noun" ts="ˈɪnkjʊbeɪtə" tr="инкубатор"/>
+<d v="incumbent" p="participle" ts="ɪnˈkʌmbənt" tr="действующий"/>
+<d v="incumbent" p="adjective" ts="ɪnˈkʌmbənt" tr="нынешний"/>
+<d v="incumbent" p="noun" ts="ɪnˈkʌmbənt" tr="должностное лицо"/>
+<d v="incur" p="verb" ts="ɪnˈkɜː" tr="нести; брать; подвергаться; брать на себя"/>
+<d v="incurable" p="adjective" ts="ɪnˈkjʊərəbl" tr="неизлечимый; неисцелимый; неисправимый"/>
+<d v="incurably" p="adverb" ts="ɪnˈkjʊərəblɪ" tr="неизлечимо"/>
+<d v="indebted" p="noun" ts="ɪnˈdetɪd" tr="долг; должник"/>
+<d v="indebted" p="adjective" ts="ɪnˈdetɪd" tr="обязанный"/>
+<d v="indebtedness" p="noun" ts="ɪnˈdetɪdnɪs" tr="задолженность; сумма долга"/>
+<d v="indecency" p="noun" ts="ɪnˈdiːsnsɪ" tr="непристойность; неприличие"/>
+<d v="indecent" p="adjective" ts="ɪnˈdiːsnt" tr="неприличный; непорядочный"/>
+<d v="indecently" p="adverb" ts="ɪnˈdiːsntlɪ" tr="неприлично"/>
+<d v="indecision" p="noun" ts="ɪndɪˈsɪʒən" tr="нерешительность; неуверенность"/>
+<d v="indecisive" p="adjective" ts="ɪndɪˈsaɪsɪv" tr="нерешительный; неокончательный"/>
+<d v="indecisively" p="adverb" ts="ɪndɪˈsaɪsɪvlɪ" tr="нерешительно"/>
+<d v="indeed" p="adverb" ts="ɪnˈdiːd" tr="действительно; воистину; более того; впрямь; и впрямь"/>
+<d v="indeed" p="noun" ts="ɪnˈdiːd" tr="на самом деле; правда"/>
+<d v="indeed" p="particle" ts="ɪnˈdiːd" tr="неужели"/>
+<d v="indefensible" p="adjective" ts="ɪndɪˈfensəbl" tr="несостоятельный; неоправданный"/>
+<d v="indefensible" p="participle" ts="ɪndɪˈfensəbl" tr="непригодный для обороны"/>
+<d v="indefinable" p="adjective" ts="ɪndɪˈfaɪnəbl" tr="неопределимый"/>
+<d v="indefinite" p="adjective" ts="ɪnˈdefɪnɪt" tr="неопределенный; бессрочный; неограниченный"/>
+<d v="indefinitely" p="noun" ts="ɪnˈdefɪnətlɪ" tr="неопределенный срок; на неопределенный срок; неопределенное время; до бесконечности; на неопределенное время"/>
+<d v="indefinitely" p="adverb" ts="ɪnˈdefɪnətlɪ" tr="бесконечно; сколь"/>
+<d v="indefinitely" p="adjective" ts="ɪnˈdefɪnətlɪ" tr="неопределенный"/>
+<d v="indelible" p="adjective" ts="ɪnˈdelɪbl" tr="неизгладимый"/>
+<d v="indelibly" p="adverb" ts="ɪnˈdeləblɪ" tr="неизгладимо"/>
+<d v="indelicate" p="adjective" ts="ɪnˈdelɪkɪt" tr="неделикатный; бестактный"/>
+<d v="indemnify" p="verb" ts="ɪnˈdemnɪfaɪ" tr="возместить; освобождать; возместить ущерб; застраховать"/>
+<d v="indemnity" p="noun" ts="ɪnˈdemnɪtɪ" tr="возмещение; освобождение; гарантия от убытков"/>
+<d v="indent" p="noun" ts="ˈɪndent" tr="отступ; выемка"/>
+<d v="independence" p="noun" ts="ɪndɪˈpendəns" tr="независимость"/>
+<d v="independence day" p="noun" ts="ɪndɪˈpendəns deɪ" tr="день независимости"/>
+<d v="independent" p="adjective" ts="ɪndɪˈpendənt" tr="независимый"/>
+<d v="independent" p="noun" ts="ɪndɪˈpendənt" tr="независимость"/>
+<d v="independent" p="participle" ts="ɪndɪˈpendənt" tr="не зависящий"/>
+<d v="independently" p="adverb" ts="ɪndɪˈpendəntlɪ" tr="самостоятельно"/>
+<d v="independently" p="pronoun" ts="ɪndɪˈpendəntlɪ" tr="сам"/>
+<d v="indescribable" p="adjective" ts="ɪndɪsˈkraɪbəbl" tr="неописуемый; непередаваемый; неизъяснимый"/>
+<d v="indescribably" p="adverb" ts="ɪndɪˈskraɪbəblɪ" tr="неописуемо; невыразимо"/>
+<d v="indestructible" p="adjective" ts="ɪndɪsˈtrʌktəbl" tr="неразрушимый; неуничтожимый; несокрушимый; неуязвимый"/>
+<d v="indeterminate" p="adjective" ts="ɪndɪˈtɜːmɪnɪt" tr="неопределенный"/>
+<d v="index" p="noun" ts="ˈɪndeks" tr="индекс; показатель; каталог"/>
+<d v="index" p="adjective" ts="ˈɪndeks" tr="индексный; указательный"/>
+<d v="index" p="verb" ts="ˈɪndeks" tr="проиндексировать"/>
+<d v="index finger" p="noun" ts="ˈɪndeks ˈfɪŋgə" tr="указательный палец"/>
+<d v="Indian" p="adjective" ts="ˈɪndjən" tr="индийский"/>
+<d v="Indian" p="noun" ts="ˈɪndjən" tr="Индия; индеец; индиец"/>
+<d v="Indian ocean" p="noun" ts="ˈɪndjən əʊʃn" tr="индийский океан"/>
+<d v="Indian summer" p="noun" ts="ˈɪndjənˈsʌmə" tr="Бабье лето; индейское лето"/>
+<d v="indicate" p="verb" ts="ˈɪndɪkeɪt" tr="указывать; означать; сообщить; требовать"/>
+<d v="indication" p="noun" ts="ɪndɪˈkeɪʃn" tr="индикация; указание; признак"/>
+<d v="indicative" p="adjective" ts="ɪnˈdɪkətɪv" tr="ориентировочный"/>
+<d v="indicative" p="verb" ts="ɪnˈdɪkətɪv" tr="свидетельствовать"/>
+<d v="indicative" p="participle" ts="ɪnˈdɪkətɪv" tr="свидетельствующий; указывающий"/>
+<d v="indicative" p="noun" ts="ɪnˈdɪkətɪv" tr="изъявительное наклонение"/>
+<d v="indicator" p="noun" ts="ˈɪndɪkeɪtə" tr="показатель"/>
+<d v="indicator" p="adjective" ts="ˈɪndɪkeɪtə" tr="индикаторный"/>
+<d v="indict" p="verb" ts="ɪnˈdaɪt" tr="обвинять; предъявить обвинение; предъявлять обвинение"/>
+<d v="indictment" p="noun" ts="ɪnˈdaɪtmənt" tr="обвинение; обвинительный акт"/>
+<d v="indictment" p="adjective" ts="ɪnˈdaɪtmənt" tr="обвинительный"/>
+<d v="indifference" p="noun" ts="ɪnˈdɪfrəns" tr="безразличие; беспристрастность"/>
+<d v="indifference" p="adjective" ts="ɪnˈdɪfrəns" tr="безразличный"/>
+<d v="indifferent" p="adjective" ts="ɪnˈdɪfrənt" tr="равнодушный; посредственный; беспристрастный"/>
+<d v="indifferent" p="noun" ts="ɪnˈdɪfrənt" tr="безразличие"/>
+<d v="indifferently" p="adverb" ts="ɪnˈdɪfrəntlɪ" tr="равнодушно; посредственно"/>
+<d v="indigenous" p="adjective" ts="ɪnˈdɪʤɪnəs" tr="коренной; туземный"/>
+<d v="indigent" p="adjective" ts="ˈɪndɪʤənt" tr="неимущий"/>
+<d v="indigent" p="participle" ts="ˈɪndɪʤənt" tr="нуждающийся"/>
+<d v="indigestible" p="adjective" ts="ɪndɪˈʤestəbl" tr="неудобоваримый"/>
+<d v="indigestion" p="noun" ts="ɪndɪˈʤesʧən" tr="несварение; пищеварение; диспепсия; расстройство желудка; нарушение пищеварения"/>
+<d v="indignant" p="participle" ts="ɪnˈdɪgnənt" tr="возмущенный"/>
+<d v="indignant" p="verb" ts="ɪnˈdɪgnənt" tr="возмутиться; негодовать"/>
+<d v="indignant" p="noun" ts="ɪnˈdɪgnənt" tr="негодование"/>
+<d v="indignant" p="adjective" ts="ɪnˈdɪgnənt" tr="негодующий"/>
+<d v="indignant" p="adverb" ts="ɪnˈdɪgnənt" tr="возмущенно"/>
+<d v="indignantly" p="noun" ts="ɪnˈdɪgnəntlɪ" tr="с негодованием; негодование"/>
+<d v="indignantly" p="adverb" ts="ɪnˈdɪgnəntlɪ" tr="возмущенно"/>
+<d v="indignation" p="noun" ts="ɪndɪgˈneɪʃn" tr="возмущение"/>
+<d v="indignity" p="noun" ts="ɪnˈdɪgnɪtɪ" tr="унижение"/>
+<d v="indirect" p="adjective" ts="ɪndɪˈrekt" tr="косвенный; окольный"/>
+<d v="indirect" p="adverb" ts="ɪndɪˈrekt" tr="косвенно"/>
+<d v="indirectly" p="adverb" ts="ɪndɪˈrektlɪ" tr="косвенно"/>
+<d v="indirectly" p="adjective" ts="ɪndɪˈrektlɪ" tr="косвенный"/>
+<d v="indiscreet" p="adjective" ts="ɪndɪsˈkriːt" tr="нескромный; неосторожный; неблагоразумный"/>
+<d v="indiscretion" p="noun" ts="ɪndɪsˈkreʃn" tr="неосторожность; нескромность; бестактность; неучтивость; невежливость"/>
+<d v="indiscriminate" p="adjective" ts="ɪndɪsˈkrɪmɪnɪt" tr="неизбирательный; огульный"/>
+<d v="indiscriminate" p="noun" ts="ɪndɪsˈkrɪmɪnɪt" tr="без разбора"/>
+<d v="indiscriminately" p="noun" ts="ɪndɪˈskrɪmɪnətlɪ" tr="разбор; без разбора"/>
+<d v="indiscriminately" p="adverb" ts="ɪndɪˈskrɪmɪnətlɪ" tr="неизбирательно"/>
+<d v="indispensable" p="adjective" ts="ɪndɪsˈpensəbl" tr="необходимый"/>
+<d v="indisputable" p="adjective" ts="ˈɪndɪsˈpjuːtəbl" tr="бесспорный"/>
+<d v="indistinct" p="adjective" ts="ɪndɪsˈtɪŋkt" tr="нечеткий; расплывчатый; неясный; невнятный; неотчетливый; глухой"/>
+<d v="indistinctly" p="adverb" ts="ɪndɪˈstɪŋktlɪ" tr="невнятно"/>
+<d v="indistinguishable" p="adjective" ts="ɪndɪsˈtɪŋgwɪʃəbl" tr="неотличимый"/>
+<d v="indistinguishable" p="verb" ts="ɪndɪsˈtɪŋgwɪʃəbl" tr="невозможно отличить"/>
+<d v="individual" p="adjective" ts="ɪndɪˈvɪdjʊəl" tr="индивидуальный; физический; частный; оригинальный"/>
+<d v="individual" p="noun" ts="ɪndɪˈvɪdjʊəl" tr="человек; физическое лицо; индивидуум"/>
+<d v="individualism" p="noun" ts="ɪndɪˈvɪʤʊəlɪzəm" tr="индивидуализм"/>
+<d v="individualist" p="noun" ts="ɪndɪˈvɪʤʊəlɪst" tr="индивидуалист"/>
+<d v="individualist" p="adjective" ts="ɪndɪˈvɪʤʊəlɪst" tr="индивидуалистический"/>
+<d v="individualistic" p="adjective" ts="ɪndɪvɪdjʊəˈlɪstɪk" tr="индивидуалистический; индивидуальный"/>
+<d v="individualistic" p="noun" ts="ɪndɪvɪdjʊəˈlɪstɪk" tr="индивидуализм"/>
+<d v="individuality" p="noun" ts="ɪndɪvɪdjʊˈælɪtɪ" tr="индивидуальность; особенность; отдельное бытие"/>
+<d v="individually" p="adverb" ts="ɪndɪˈvɪʤʊəlɪ" tr="индивидуально"/>
+<d v="individually" p="noun" ts="ɪndɪˈvɪʤʊəlɪ" tr="отдельности; по отдельности"/>
+<d v="indivisible" p="adjective" ts="ɪndɪˈvɪzəbl" tr="неделимый"/>
+<d v="indoctrinate" p="verb" ts="ɪnˈdɔktrɪneɪt" tr="внушать"/>
+<d v="indoctrination" p="noun" ts="ɪndɔktrɪˈneɪʃn" tr="идеологическая обработка; индоктринация; воспитание"/>
+<d v="indoctrination" p="adjective" ts="ɪndɔktrɪˈneɪʃn" tr="идеологический"/>
+<d v="indolence" p="noun" ts="ˈɪndələns" tr="праздность; леность; вялость"/>
+<d v="indolent" p="adjective" ts="ˈɪndələnt" tr="ленивый; праздный"/>
+<d v="indomitable" p="adjective" ts="ɪnˈdɔmɪtəbl" tr="неукротимый; упрямый"/>
+<d v="indoor" p="adjective" ts="ˈɪndɔː" tr="крытый; внутренний; комнатный"/>
+<d v="indoor" p="noun" ts="ˈɪndɔː" tr="внутри помещений"/>
+<d v="indoors" p="noun" ts="ˈɪnˈdɔːz" tr="помещение; в помещении; в закрытом помещении; внутри дома"/>
+<d v="indoors" p="preposition" ts="ˈɪnˈdɔːz" tr="внутри"/>
+<d v="induce" p="verb" ts="ɪnˈdjuːs" tr="вызывать; побуждать; побудить; заставить; навести; склонить; спровоцировать; индуктировать"/>
+<d v="inducement" p="noun" ts="ɪnˈdjuːsmənt" tr="стимул; склонение; приманка"/>
+<d v="induct" p="verb" ts="ɪnˈdʌkt" tr="вводить; индуктировать"/>
+<d v="induction" p="adjective" ts="ɪnˈdʌkʃn" tr="индукционный; вводный"/>
+<d v="induction" p="noun" ts="ɪnˈdʌkʃn" tr="индукция"/>
+<d v="indulge" p="verb" ts="ɪnˈdʌlʤ" tr="насладиться; потакать; предаваться; заниматься; позволять себе удовольствие; ублажать"/>
+<d v="indulge" p="noun" ts="ɪnˈdʌlʤ" tr="нежить"/>
+<d v="indulgence" p="noun" ts="ɪnˈdʌlʤəns" tr="индульгенция; потворство; снисхождение; послабление; снисходительность; поблажка; баловство; милость; привилегия; отсрочка платежа"/>
+<d v="indulgent" p="adjective" ts="ɪnˈdʌlʤənt" tr="снисходительный"/>
+<d v="indulgent" p="noun" ts="ɪnˈdʌlʤənt" tr="снисходительность"/>
+<d v="industrial" p="adjective" ts="ɪnˈdʌstrɪəl" tr="промышленный; техногенный"/>
+<d v="industrial" p="noun" ts="ɪnˈdʌstrɪəl" tr="промышленник"/>
+<d v="industrialist" p="noun" ts="ɪnˈdʌstrɪəlɪst" tr="промышленник; предприниматель"/>
+<d v="industrialization" p="noun" ts="ɪndʌstrɪəlaɪˈzeɪʃn" tr="индустриализация"/>
+<d v="industrialize" p="adjective" ts="ɪnˈdʌstrɪəlaɪz" tr="промышленный"/>
+<d v="industrialize" p="noun" ts="ɪnˈdʌstrɪəlaɪz" tr="индустриализация"/>
+<d v="industrialize" p="verb" ts="ɪnˈdʌstrɪəlaɪz" tr="индустриализировать"/>
+<d v="industrial park" p="noun" ts="ɪnˈdʌstrɪəl pɑːk" tr="индустриальный парк; промышленный парк; технопарк"/>
+<d v="industrious" p="adjective" ts="ɪnˈdʌstrɪəs" tr="трудолюбивый; работящий"/>
+<d v="industry" p="noun" ts="ˈɪndəstrɪ" tr="промышленность; трудолюбие; прилежание"/>
+<d v="industry" p="adjective" ts="ˈɪndəstrɪ" tr="отраслевой"/>
+<d v="inebriation" p="noun" ts="ɪniːbrɪˈeɪʃn" tr="опьянение"/>
+<d v="ineffective" p="adjective" ts="ɪnɪˈfektɪv" tr="неэффективный"/>
+<d v="ineffective" p="noun" ts="ɪnɪˈfektɪv" tr="неэффективность"/>
+<d v="ineffectiveness" p="noun" ts="ɪnɪˈfektɪvnəs" tr="неэффективность"/>
+<d v="inefficiency" p="noun" ts="ɪnɪˈfɪʃənsɪ" tr="неэффективность; неспособность"/>
+<d v="inefficient" p="adjective" ts="ɪnɪˈfɪʃənt" tr="неэффективный; неспособный"/>
+<d v="inefficient" p="noun" ts="ɪnɪˈfɪʃənt" tr="неэффективность"/>
+<d v="inefficiently" p="adverb" ts="ɪnɪˈfɪʃntlɪ" tr="неэффективно"/>
+<d v="inelegant" p="adjective" ts="ɪnˈelɪgənt" tr="неэлегантный; неизящный; безвкусный"/>
+<d v="Ineligibility" p="noun" ts="ɪnelɪʤəˈbɪlɪtɪ" tr="лишение допуска"/>
+<d v="ineligible" p="adjective" ts="ɪnˈelɪʤəbl" tr="неприемлемый"/>
+<d v="inept" p="adjective" ts="ɪˈnept" tr="неумелый; неподходящий; глупый"/>
+<d v="ineptitude" p="noun" ts="ɪˈneptɪtjuːd" tr="некомпетентность; неумелость; глупость; неумение; неуместность"/>
+<d v="inequality" p="noun" ts="ɪniːˈkwɔlɪtɪ" tr="неравенство; различие; неравноправность"/>
+<d v="inequity" p="noun" ts="ɪnˈekwɪtɪ" tr="неравенство"/>
+<d v="inert" p="adjective" ts="ɪˈnɜːt" tr="инертный; косный; вялый"/>
+<d v="inertia" p="noun" ts="ɪˈnɜːʃjə" tr="инерция; вялость"/>
+<d v="inertia" p="adjective" ts="ɪˈnɜːʃjə" tr="инерционный"/>
+<d v="inescapable" p="adjective" ts="ɪnɪsˈkeɪpəbl" tr="неизбежный; неизбывный"/>
+<d v="inessential" p="adjective" ts="ˈɪnɪˈsenʃəl" tr="несущественный"/>
+<d v="inevitability" p="noun" ts="ɪnevɪtəˈbɪlɪtɪ" tr="неизбежность"/>
+<d v="inevitable" p="adjective" ts="ɪnˈevɪtəbl" tr="неизбежный; неизменный"/>
+<d v="inevitable" p="noun" ts="ɪnˈevɪtəbl" tr="неизбежность"/>
+<d v="inevitably" p="adverb" ts="ɪnˈevɪtəblɪ" tr="неизбежно"/>
+<d v="inevitably" p="noun" ts="ɪnˈevɪtəblɪ" tr="с неизбежностью"/>
+<d v="inexact" p="adjective" ts="ɪnɪgˈzækt" tr="неточный"/>
+<d v="inexact" p="noun" ts="ɪnɪgˈzækt" tr="неточность"/>
+<d v="inexcusable" p="adjective" ts="ɪnɪksˈkjuːzəbl" tr="непростительный"/>
+<d v="inexhaustible" p="adjective" ts="ɪnɪgˈzɔːstəbl" tr="неисчерпаемый"/>
+<d v="inexhaustible" p="noun" ts="ɪnɪgˈzɔːstəbl" tr="неисчерпаемость"/>
+<d v="inexpensive" p="adjective" ts="ɪnɪksˈpensɪv" tr="недорогой; малозатратный"/>
+<d v="inexpensively" p="adjective" ts="ɪnɪkˈspensɪvlɪ" tr="недорогой"/>
+<d v="inexpensively" p="adverb" ts="ɪnɪkˈspensɪvlɪ" tr="недорого"/>
+<d v="inexperience" p="noun" ts="ɪnɪksˈpɪərɪəns" tr="неопытность; неискушенность"/>
+<d v="inexperienced" p="adjective" ts="ɪnɪkˈspɪərɪənst" tr="неопытный; неискушенный; малоопытный"/>
+<d v="inexplicable" p="adjective" ts="ɪnˈeksplɪkəbl" tr="необъяснимый; непонятный"/>
+<d v="inexplicably" p="adverb" ts="ɪnɪkˈsplɪkəblɪ" tr="необъяснимо"/>
+<d v="infallibility" p="noun" ts="ɪnfæləˈbɪlɪtɪ" tr="непогрешимость"/>
+<d v="infallible" p="adjective" ts="ɪnˈfæləbl" tr="непогрешимый; верный"/>
+<d v="infamous" p="adjective" ts="ˈɪnfəməs" tr="печально известный; позорный; скверный; пакостный"/>
+<d v="infamous" p="adverb" ts="ˈɪnfəməs" tr="печально"/>
+<d v="infamy" p="noun" ts="ˈɪnfəmɪ" tr="позор; бесчестье; подлость; гнусность; низость"/>
+<d v="infancy" p="noun" ts="ˈɪnfənsɪ" tr="младенчество; младенческий возраст; грудной возраст; период становления; несовершеннолетие"/>
+<d v="infant" p="noun" ts="ˈɪnfənt" tr="младенец; ребенок"/>
+<d v="infant" p="adjective" ts="ˈɪnfənt" tr="младенческий; грудной"/>
+<d v="infant" p="participle" ts="ˈɪnfənt" tr="зарождающийся"/>
+<d v="infantile" p="adjective" ts="ˈɪnfəntaɪl" tr="инфантильный"/>
+<d v="infantry" p="noun" ts="ˈɪnfəntrɪ" tr="пехота"/>
+<d v="infantry" p="adjective" ts="ˈɪnfəntrɪ" tr="пехотный"/>
+<d v="infatuated" p="participle" ts="ɪnˈfætjʊeɪtɪd" tr="увлеченный"/>
+<d v="infatuation" p="noun" ts="ɪnfætjʊˈeɪʃn" tr="увлечение; влюбленность; безумное увлечение; слепое увлечение"/>
+<d v="infect" p="verb" ts="ɪnˈfekt" tr="заразить; поражать"/>
+<d v="infect" p="noun" ts="ɪnˈfekt" tr="заражение"/>
+<d v="infection" p="noun" ts="ɪnˈfekʃn" tr="инфекция; заражение"/>
+<d v="infection" p="adjective" ts="ɪnˈfekʃn" tr="инфекционный"/>
+<d v="infectious" p="adjective" ts="ɪnˈfekʃəs" tr="инфекционный"/>
+<d v="infer" p="verb" ts="ɪnˈfɜː" tr="вывести; заключить; предположить"/>
+<d v="infer" p="noun" ts="ɪnˈfɜː" tr="вывод"/>
+<d v="inference" p="noun" ts="ˈɪnfərəns" tr="вывод; логический вывод"/>
+<d v="inferior" p="adjective" ts="ɪnˈfɪərɪə" tr="низший; неполноценный; плохонький; второсортный"/>
+<d v="inferior" p="verb" ts="ɪnˈfɪərɪə" tr="уступать"/>
+<d v="inferior" p="noun" ts="ɪnˈfɪərɪə" tr="подчиненный; неполноценность"/>
+<d v="inferior" p="participle" ts="ɪnˈfɪərɪə" tr="уступающий"/>
+<d v="inferiority" p="noun" ts="ɪnfɪərɪˈɔrɪtɪ" tr="неполноценность; ущербность"/>
+<d v="inferiority complex" p="noun" ts="ɪnfɪərɪˈɔrɪtɪ ˈkɔmpleks" tr="комплекс неполноценности; неполноценность"/>
+<d v="inferno" p="noun" ts="ɪnˈfɜːnəʊ" tr="ад; инферно"/>
+<d v="infertile" p="adjective" ts="ɪnˈfɜːtaɪl" tr="бесплодный"/>
+<d v="infertile" p="noun" ts="ɪnˈfɜːtaɪl" tr="бесплодие"/>
+<d v="infertility" p="noun" ts="ɪnfɜːˈtɪlɪtɪ" tr="бесплодие; неплодородность; бесплодность"/>
+<d v="infest" p="verb" ts="ɪnˈfest" tr="кишеть; наводнять; заселить; наводнить"/>
+<d v="infestation" p="noun" ts="ɪnfesˈteɪʃn" tr="заражение; инвазия; зараженность"/>
+<d v="infested" p="participle" ts="ɪnˈfestɪd" tr="зараженный"/>
+<d v="infidel" p="adjective" ts="ˈɪnfɪdəl" tr="неверный"/>
+<d v="infidel" p="noun" ts="ˈɪnfɪdəl" tr="кафир; язычник; безбожник; иноверец"/>
+<d v="infidelity" p="noun" ts="ɪnfɪˈdelɪtɪ" tr="неверность; неверие; безбожие"/>
+<d v="infiltrate" p="verb" ts="ˈɪnfɪltreɪt" tr="проникнуть; фильтровать"/>
+<d v="infiltrate" p="noun" ts="ˈɪnfɪltreɪt" tr="инфильтрат; проникновение"/>
+<d v="infiltration" p="noun" ts="ɪnfɪlˈtreɪʃn" tr="инфильтрация; инфильтрат"/>
+<d v="infiltrator" p="noun" ts="ˈɪnfɪltreɪtər" tr="лазутчик; диверсант"/>
+<d v="infinite" p="adjective" ts="ˈɪnfɪnɪt" tr="бесконечный"/>
+<d v="infinite" p="noun" ts="ˈɪnfɪnɪt" tr="бесконечность; множество"/>
+<d v="infinitely" p="adverb" ts="ˈɪnfɪnətlɪ" tr="бесконечно"/>
+<d v="infinitely" p="particle" ts="ˈɪnfɪnətlɪ" tr="гораздо"/>
+<d v="infinitely" p="noun" ts="ˈɪnfɪnətlɪ" tr="бесконечность; до бесконечности"/>
+<d v="infinitesimal" p="adjective" ts="ɪnfɪnɪˈtesɪməl" tr="бесконечно малый"/>
+<d v="infinitive" p="noun" ts="ɪnˈfɪnɪtɪv" tr="инфинитив"/>
+<d v="infinity" p="noun" ts="ɪnˈfɪnɪtɪ" tr="бесконечность; безграничность; бесконечное множество"/>
+<d v="infinity" p="adjective" ts="ɪnˈfɪnɪtɪ" tr="бесконечный"/>
+<d v="infirm" p="adjective" ts="ɪnˈfɜːm" tr="немощный; дряхлый"/>
+<d v="infirmary" p="noun" ts="ɪnˈfɜːmərɪ" tr="лазарет; больница"/>
+<d v="infirmity" p="noun" ts="ɪnˈfɜːmɪtɪ" tr="немощь; слабохарактерность"/>
+<d v="inflame" p="verb" ts="ɪnˈfleɪm" tr="разгораться; разжигать; воспламенить; распалять; распалить; возбудить; воспалить"/>
+<d v="inflame" p="noun" ts="ɪnˈfleɪm" tr="воспаление"/>
+<d v="inflamed" p="participle" ts="ɪnˈfleɪmd" tr="воспаленный; воспламененный"/>
+<d v="inflammable" p="adjective" ts="ɪnˈflæməbl" tr="легковоспламеняющийся"/>
+<d v="inflammable" p="participle" ts="ɪnˈflæməbl" tr="воспламеняющийся"/>
+<d v="inflammable" p="noun" ts="ɪnˈflæməbl" tr="горючее вещество"/>
+<d v="inflammation" p="noun" ts="ɪnfləˈmeɪʃn" tr="воспаление; воспламенение"/>
+<d v="inflammation" p="adjective" ts="ɪnfləˈmeɪʃn" tr="воспалительный"/>
+<d v="inflammatory" p="adjective" ts="ɪnˈflæmətərɪ" tr="воспалительный; подстрекательский"/>
+<d v="inflammatory" p="noun" ts="ɪnˈflæmətərɪ" tr="воспаление"/>
+<d v="inflatable" p="adjective" ts="ɪnˈfleɪtəbl" tr="надувной"/>
+<d v="inflate" p="verb" ts="ɪnˈfleɪt" tr="надуть; раздувать; завышать; накачать; взвинтить; взвинчивать"/>
+<d v="inflate" p="noun" ts="ɪnˈfleɪt" tr="раздувание"/>
+<d v="inflated" p="adjective" ts="ɪnˈfleɪtɪd" tr="раздутый"/>
+<d v="inflated" p="participle" ts="ɪnˈfleɪtɪd" tr="надутый; накаченный"/>
+<d v="inflation" p="noun" ts="ɪnˈfleɪʃn" tr="инфляция; раздувание; вздутость"/>
+<d v="inflation" p="adjective" ts="ɪnˈfleɪʃn" tr="инфляционный"/>
+<d v="inflationary" p="adjective" ts="ɪnˈfleɪʃnərɪ" tr="инфляционный"/>
+<d v="inflection" p="noun" ts="ɪnˈflekʃn" tr="перегиб; интонация"/>
+<d v="inflexibility" p="noun" ts="ɪnfleksəˈbɪlɪtɪ" tr="жесткость; несгибаемость; непреклонность"/>
+<d v="inflexible" p="adjective" ts="ɪnˈfleksəbl" tr="негибкий; непреклонный; негнущийся"/>
+<d v="inflict" p="verb" ts="ɪnˈflɪkt" tr="нанести; налагать; навлечь"/>
+<d v="inflict" p="noun" ts="ɪnˈflɪkt" tr="нанесение"/>
+<d v="infliction" p="noun" ts="ɪnˈflɪkʃn" tr="причинение"/>
+<d v="influence" p="noun" ts="ˈɪnflʊəns" tr="влияние"/>
+<d v="influence" p="verb" ts="ˈɪnflʊəns" tr="влиять"/>
+<d v="influence" p="participle" ts="ˈɪnflʊəns" tr="влияющий"/>
+<d v="influential" p="adjective" ts="ɪnflʊˈenʃəl" tr="влиятельный; важный"/>
+<d v="influenza" p="noun" ts="ɪnflʊˈenzə" tr="грипп"/>
+<d v="influenza" p="adjective" ts="ɪnflʊˈenzə" tr="гриппозный"/>
+<d v="influx" p="noun" ts="ˈɪnflʌks" tr="приток"/>
+<d v="info" p="noun" ts="ˈɪnfəʊ" tr="информация; Инфо"/>
+<d v="info" p="adjective" ts="ˈɪnfəʊ" tr="информационный"/>
+<d v="inform" p="verb" ts="ɪnˈfɔːm" tr="информировать; сообщать; донести; осведомить; наполнять"/>
+<d v="inform" p="noun" ts="ɪnˈfɔːm" tr="информирование"/>
+<d v="informal" p="adjective" ts="ɪnˈfɔːml" tr="неформальный"/>
+<d v="informality" p="noun" ts="ɪnfɔːˈmælɪtɪ" tr="неформальность; непринужденность"/>
+<d v="informally" p="adverb" ts="ɪnˈfɔːməlɪ" tr="неофициально; неформально"/>
+<d v="informant" p="noun" ts="ɪnˈfɔːmənt" tr="информатор; информант; собеседник"/>
+<d v="information" p="noun" ts="ɪnfəˈmeɪʃn" tr="информация; жалоба"/>
+<d v="information" p="adjective" ts="ɪnfəˈmeɪʃn" tr="информационный"/>
+<d v="information superhighway" p="noun" ts="ɪnfəˈmeɪʃn suːpəˈhaɪweɪ" tr="информационная супермагистраль"/>
+<d v="information technology" p="noun" ts="ɪnfəˈmeɪʃn tekˈnɔləʤɪ" tr="информационная технология; информатика; информационная техника"/>
+<d v="informative" p="adjective" ts="ɪnˈfɔːmətɪv" tr="информативный"/>
+<d v="informative" p="adverb" ts="ɪnˈfɔːmətɪv" tr="информационно"/>
+<d v="informed" p="participle" ts="ɪnˈfɔːmd" tr="информированный; проинформированный; осведомленный; знающий; образованный"/>
+<d v="informed" p="noun" ts="ɪnˈfɔːmd" tr="в курсе"/>
+<d v="informer" p="noun" ts="ɪnˈfɔːmə" tr="доносчик; осведомитель"/>
+<d v="infraction" p="noun" ts="ɪnˈfrækʃn" tr="нарушение"/>
+<d v="infrared" p="adjective" ts="ɪnˈfrred" tr="инфракрасный"/>
+<d v="infrared" p="noun" ts="ɪnˈfrred" tr="ИК"/>
+<d v="infrastructure" p="noun" ts="ˈɪnfrəstrʌkʧər" tr="инфраструктура"/>
+<d v="infrastructure" p="adjective" ts="ˈɪnfrəstrʌkʧər" tr="инфраструктурный"/>
+<d v="infrequent" p="adjective" ts="ɪnˈfriːkwənt" tr="редкий"/>
+<d v="infrequently" p="adverb" ts="ɪnˈfriːkwəntlɪ" tr="нечасто"/>
+<d v="infringe" p="verb" ts="ɪnˈfrɪnʤ" tr="нарушать; посягать"/>
+<d v="infringe" p="noun" ts="ɪnˈfrɪnʤ" tr="ущемление"/>
+<d v="infringement" p="noun" ts="ɪnˈfrɪnʤmənt" tr="нарушение"/>
+<d v="infuriate" p="verb" ts="ɪnˈfjʊərɪeɪt" tr="бесить; возмутить; разъярять"/>
+<d v="infuriate" p="noun" ts="ɪnˈfjʊərɪeɪt" tr="бешенство"/>
+<d v="infuse" p="verb" ts="ɪnˈfjuːz" tr="настаивать; вливать; наполнить; вселять; придать; вдохнуть; влиться; привнести"/>
+<d v="infusion" p="noun" ts="ɪnˈfjuːʒən" tr="инфузия; настой; переливание; внушение; придание; примесь"/>
+<d v="infusion" p="adjective" ts="ɪnˈfjuːʒən" tr="инфузионный"/>
+<d v="ingenious" p="adjective" ts="ɪnˈʤiːnjəs" tr="гениальный; остроумный; оригинальный; хитроумный"/>
+<d v="ingeniously" p="adverb" ts="ɪnˈʤiːnɪəslɪ" tr="гениально; искусно; изобретательно; остроумно"/>
+<d v="ingenuity" p="noun" ts="ɪnʤɪˈnjuːɪtɪ" tr="изобретательность; сообразительность; мастерство; мудреность"/>
+<d v="ingenuity" p="adjective" ts="ɪnʤɪˈnjuːɪtɪ" tr="изобретательный"/>
+<d v="ingest" p="verb" ts="ɪnˈʤest" tr="глотать; употреблять"/>
+<d v="ingrained" p="participle" ts="ˈɪnˈgreɪnd" tr="укоренившийся"/>
+<d v="ingrained" p="adjective" ts="ˈɪnˈgreɪnd" tr="закоренелый"/>
+<d v="ingratiate" p="verb" ts="ɪnˈgreɪʃɪeɪt" tr="снискать"/>
+<d v="ingratiating" p="adjective" ts="ɪnˈgreɪʃɪeɪtɪŋ" tr="вкрадчивый; заискивающий"/>
+<d v="ingratitude" p="noun" ts="ɪnˈgrætɪtjʊd" tr="неблагодарность"/>
+<d v="ingratitude" p="adjective" ts="ɪnˈgrætɪtjʊd" tr="неблагодарный"/>
+<d v="ingredient" p="noun" ts="ɪnˈgriːdjənt" tr="ингредиент; вещество"/>
+<d v="inhabit" p="verb" ts="ɪnˈhæbɪt" tr="обитать; населять"/>
+<d v="inhabit" p="noun" ts="ɪnˈhæbɪt" tr="обитание"/>
+<d v="inhabitant" p="noun" ts="ɪnˈhæbɪtənt" tr="житель"/>
+<d v="inhalation" p="noun" ts="ɪnhəˈleɪʃn" tr="вдыхание"/>
+<d v="inhalation" p="adjective" ts="ɪnhəˈleɪʃn" tr="ингаляционный"/>
+<d v="inhale" p="verb" ts="ɪnˈheɪl" tr="вдыхать; затянуться; надышаться"/>
+<d v="inhale" p="noun" ts="ɪnˈheɪl" tr="вдох"/>
+<d v="inhaler" p="noun" ts="ɪnˈheɪlə" tr="ингалятор"/>
+<d v="inherent" p="participle" ts="ɪnˈhɪərənt" tr="присущий; заложенный"/>
+<d v="inherent" p="adjective" ts="ɪnˈhɪərənt" tr="неотъемлемый; врожденный; имманентный"/>
+<d v="inherit" p="verb" ts="ɪnˈherɪt" tr="наследовать; достаться"/>
+<d v="inherit" p="noun" ts="ɪnˈherɪt" tr="наследство; в наследство"/>
+<d v="inheritance" p="noun" ts="ɪnˈherɪtəns" tr="наследство; наследование"/>
+<d v="inheritance" p="adjective" ts="ɪnˈherɪtəns" tr="наследственный"/>
+<d v="inhibit" p="verb" ts="ɪnˈhɪbɪt" tr="тормозить; препятствовать; подавлять"/>
+<d v="inhibited" p="participle" ts="ɪnˈhɪbɪtɪd" tr="тормозимый"/>
+<d v="inhibition" p="noun" ts="ɪnhɪˈbɪʃn" tr="ингибирование; запрет; задержка; сдерживание"/>
+<d v="inhospitable" p="adjective" ts="ɪnˈhɔspɪtəbl" tr="негостеприимный; неприветливый"/>
+<d v="inhospitable" p="participle" ts="ɪnˈhɔspɪtəbl" tr="суровый"/>
+<d v="inhuman" p="adjective" ts="ɪnˈhjuːmən" tr="бесчеловечный; бесчувственный"/>
+<d v="inhumane" p="adjective" ts="ɪnhjuːˈmeɪn" tr="бесчеловечный"/>
+<d v="inhumanity" p="noun" ts="ɪnhjuːˈmænɪtɪ" tr="бесчеловечность; жестокость"/>
+<d v="initial" p="adjective" ts="ɪˈnɪʃəl" tr="первоначальный; начальный"/>
+<d v="initial" p="numeral" ts="ɪˈnɪʃəl" tr="первый"/>
+<d v="initial" p="noun" ts="ɪˈnɪʃəl" tr="инициал"/>
+<d v="initial" p="verb" ts="ɪˈnɪʃəl" tr="парафировать"/>
+<d v="initially" p="adverb" ts="ɪˈnɪʃəlɪ" tr="первоначально; сначала"/>
+<d v="initially" p="noun" ts="ɪˈnɪʃəlɪ" tr="в начальной стадии"/>
+<d v="initiate" p="verb" ts="ɪˈnɪʃɪɪt" tr="инициировать; начать; приступить; запустить; положить начало; посвящать; вводить"/>
+<d v="initiate" p="participle" ts="ɪˈnɪʃɪɪt" tr="инициированный; посвященный; принятый"/>
+<d v="initiate" p="noun" ts="ɪˈnɪʃɪɪt" tr="инициатор; инициирование; инициализация"/>
+<d v="initiation" p="noun" ts="ɪnɪʃɪˈeɪʃn" tr="посвящение; инициирование; введение; приобщение"/>
+<d v="initiation" p="adjective" ts="ɪnɪʃɪˈeɪʃn" tr="вступительный"/>
+<d v="initiative" p="noun" ts="ɪˈnɪʃɪətɪv" tr="инициатива"/>
+<d v="initiative" p="adjective" ts="ɪˈnɪʃɪətɪv" tr="инициативный; начальный"/>
+<d v="inject" p="verb" ts="ɪnˈʤekt" tr="вводить; впрыскивать; придать; вколоть; вливать; делать инъекции"/>
+<d v="inject" p="noun" ts="ɪnˈʤekt" tr="инъекция"/>
+<d v="injection" p="noun" ts="ɪnˈʤekʃn" tr="инъекция; впрыск; прививка; вдувание; инъецирование"/>
+<d v="injection" p="adjective" ts="ɪnˈʤekʃn" tr="инъекционный; нагнетательный; инжекторный"/>
+<d v="injunction" p="noun" ts="ɪnˈʤʌŋkʃn" tr="запрет; предписание; судебный запрет"/>
+<d v="injure" p="verb" ts="ˈɪnʤə" tr="повредить; ранить; обидеть"/>
+<d v="injure" p="noun" ts="ˈɪnʤə" tr="ранение"/>
+<d v="injured" p="noun" ts="ˈɪnʤəd" tr="травма"/>
+<d v="injured" p="adjective" ts="ˈɪnʤəd" tr="раненый"/>
+<d v="injured" p="participle" ts="ˈɪnʤəd" tr="раненный; травмированный; поврежденный; пострадавший; оскорбленный; обиженный"/>
+<d v="injurious" p="adjective" ts="ɪnˈʤʊərɪəs" tr="вредный; хищнический; оскорбительный; несправедливый"/>
+<d v="injury" p="noun" ts="ˈɪnʤərɪ" tr="травма; повреждение; вред; обида; несправедливость"/>
+<d v="injustice" p="noun" ts="ɪnˈʤʌstɪs" tr="несправедливость"/>
+<d v="injustice" p="adjective" ts="ɪnˈʤʌstɪs" tr="несправедливый"/>
+<d v="ink" p="noun" ts="ɪŋk" tr="чернила"/>
+<d v="ink" p="adjective" ts="ɪŋk" tr="чернильный; красочный"/>
+<d v="inkling" p="noun" ts="ˈɪŋklɪŋ" tr="намек"/>
+<d v="inlaid" p="noun" ts="ˈɪnˈleɪd" tr="инкрустация"/>
+<d v="inlaid" p="participle" ts="ˈɪnˈleɪd" tr="инкрустированный"/>
+<d v="inland" p="adjective" ts="ˈɪnlənd" tr="внутренний"/>
+<d v="inland" p="noun" ts="ˈɪnlənd" tr="территория"/>
+<d v="inlet" p="noun" ts="ˈɪnlet" tr="вход; впуск; входное отверстие; впускной канал; бухта; небольшая бухта; фиорд"/>
+<d v="inlet" p="adjective" ts="ˈɪnlet" tr="входной"/>
+<d v="inmate" p="noun" ts="ˈɪnmeɪt" tr="заключенный; обитатель"/>
+<d v="Inn" p="noun" ts="ɪn" tr="гостиница"/>
+<d v="Inn" p="adjective" ts="ɪn" tr="постоялый"/>
+<d v="innards" p="noun" ts="ˈɪnədz" tr="внутренности"/>
+<d v="innate" p="adjective" ts="ˈɪˈneɪt" tr="врожденный"/>
+<d v="inner" p="adjective" ts="ˈɪnə" tr="внутренний"/>
+<d v="inner" p="adverb" ts="ˈɪnə" tr="внутренне"/>
+<d v="inner city" p="noun" ts="ˈɪnə ˈsɪtɪ" tr="внутренний город"/>
+<d v="innermost" p="adjective" ts="ˈɪnəməʊst" tr="сокровенный"/>
+<d v="innkeeper" p="noun" ts="ˈɪnkiːpə" tr="трактирщик; хозяин; содержатель гостиницы"/>
+<d v="innocence" p="noun" ts="ˈɪnəsəns" tr="невиновность; наивность; чистота; простодушие; безвредность"/>
+<d v="innocence" p="adjective" ts="ˈɪnəsəns" tr="невинный"/>
+<d v="innocent" p="adjective" ts="ˈɪnəsənt" tr="невинный; неповинный; безобидный; чистый"/>
+<d v="innocent" p="noun" ts="ˈɪnəsənt" tr="невиновность; простак"/>
+<d v="innocently" p="adverb" ts="ˈɪnəsntlɪ" tr="невинно; наивно; простодушно"/>
+<d v="innocuous" p="adjective" ts="ɪˈnɔkjʊəs" tr="безобидный; невинный"/>
+<d v="innovate" p="noun" ts="ˈɪnəʊveɪt" tr="инновация"/>
+<d v="innovate" p="adjective" ts="ˈɪnəʊveɪt" tr="инновационный"/>
+<d v="innovate" p="verb" ts="ˈɪnəʊveɪt" tr="вводить новшества; изобретать; заниматься инновациями"/>
+<d v="innovation" p="noun" ts="ɪnəʊˈveɪʃn" tr="инновация; рационализаторство"/>
+<d v="innovation" p="adjective" ts="ɪnəʊˈveɪʃn" tr="инновационный"/>
+<d v="innovative" p="adjective" ts="ˈɪnəveɪtɪv" tr="инновационный; нестандартный"/>
+<d v="innovator" p="noun" ts="ˈɪnəʊveɪtə" tr="новатор; рационализатор; изобретатель"/>
+<d v="innuendo" p="noun" ts="ɪnjuːˈendəʊ" tr="инсинуация; намек; недосказанность; косвенный намек"/>
+<d v="innumerable" p="adjective" ts="ɪˈnjuːmərəbl" tr="бесчисленный"/>
+<d v="innumerable" p="noun" ts="ɪˈnjuːmərəbl" tr="неисчислимое количество"/>
+<d v="inoculate" p="noun" ts="ɪˈnɔkjʊleɪt" tr="прививка"/>
+<d v="inoculate" p="verb" ts="ɪˈnɔkjʊleɪt" tr="прививать; инокулировать"/>
+<d v="inoculation" p="noun" ts="ɪnɔkjʊˈleɪʃn" tr="прививка; модифицирование; посев; окулировка"/>
+<d v="inoffensive" p="adjective" ts="ɪnəˈfensɪv" tr="безобидный; необидный"/>
+<d v="inopportune" p="adjective" ts="ɪnˈɔpətjuːn" tr="неподходящий; несвоевременный"/>
+<d v="inordinate" p="adjective" ts="ɪˈnɔːdɪnɪt" tr="чрезмерный"/>
+<d v="inorganic" p="adjective" ts="ɪnɔːˈgænɪk" tr="неорганический"/>
+<d v="inpatient" p="adjective" ts="ˈɪnpeɪʃnt" tr="стационарный"/>
+<d v="inpatient" p="noun" ts="ˈɪnpeɪʃnt" tr="стационар"/>
+<d v="input" p="noun" ts="ˈɪnpʊt" tr="вход; вклад"/>
+<d v="input" p="adjective" ts="ˈɪnpʊt" tr="входной"/>
+<d v="input" p="participle" ts="ˈɪnpʊt" tr="вводимый"/>
+<d v="inquest" p="noun" ts="ˈɪnkwest" tr="следствие"/>
+<d v="inquire" p="verb" ts="ɪnˈkwaɪə" tr="спросить; запросить; узнать; выяснять; выспрашивать"/>
+<d v="inquire" p="noun" ts="ɪnˈkwaɪə" tr="запрос"/>
+<d v="inquiring" p="adjective" ts="ɪnˈkwaɪərɪŋ" tr="пытливый"/>
+<d v="inquiring" p="participle" ts="ɪnˈkwaɪərɪŋ" tr="вопрошающий"/>
+<d v="inquiry" p="noun" ts="ɪnˈkwaɪərɪ" tr="запрос; расследование; исследование; справочная"/>
+<d v="inquiry" p="adjective" ts="ɪnˈkwaɪərɪ" tr="справочный"/>
+<d v="inquisition" p="noun" ts="ɪnkwɪˈzɪʃn" tr="инквизиция; расследование; пытка"/>
+<d v="inquisitive" p="adjective" ts="ɪnˈkwɪzɪtɪv" tr="любознательный"/>
+<d v="insane" p="adjective" ts="ɪnˈseɪn" tr="безумный; умалишенный; душевнобольной"/>
+<d v="insane" p="noun" ts="ɪnˈseɪn" tr="ум; с ума"/>
+<d v="insane" p="adverbial participle" ts="ɪnˈseɪn" tr="обезумев"/>
+<d v="insane" p="participle" ts="ɪnˈseɪn" tr="обезумевший"/>
+<d v="insane" p="verb" ts="ɪnˈseɪn" tr="свихнуться"/>
+<d v="insanely" p="adverb" ts="ɪnˈseɪnlɪ" tr="безумно"/>
+<d v="insanity" p="noun" ts="ɪnˈsænɪtɪ" tr="безумие; умопомешательство"/>
+<d v="insatiable" p="adjective" ts="ɪnˈseɪʃjəbl" tr="ненасытный"/>
+<d v="inscribe" p="verb" ts="ɪnˈskraɪb" tr="вписать; начертать"/>
+<d v="inscription" p="noun" ts="ɪnˈskrɪpʃn" tr="надпись; начертание"/>
+<d v="inscrutable" p="adjective" ts="ɪnˈskruːtəbl" tr="непостижимый; непроницаемый"/>
+<d v="insect" p="noun" ts="ˈɪnsekt" tr="насекомое; ничтожество"/>
+<d v="insecticide" p="noun" ts="ɪnˈsektɪsaɪd" tr="инсектицид"/>
+<d v="insecure" p="adjective" ts="ɪnsɪˈkjʊə" tr="небезопасный; ненадежный; нестабильный"/>
+<d v="insecure" p="participle" ts="ɪnsɪˈkjʊə" tr="неуверенный"/>
+<d v="insecure" p="noun" ts="ɪnsɪˈkjʊə" tr="неуверенность"/>
+<d v="insecurity" p="noun" ts="ɪnsɪˈkjʊərɪtɪ" tr="неуверенность; незащищенность; отсутствие безопасности; необеспеченность; опасность; опасное положение"/>
+<d v="insemination" p="noun" ts="ɪnˈsemɪˈneɪʃn" tr="оплодотворение; осеменение"/>
+<d v="insensitive" p="adjective" ts="ɪnˈsensɪtɪv" tr="нечувствительный"/>
+<d v="insensitivity" p="noun" ts="ɪnsensəˈtɪvɪtɪ" tr="нечувствительность; невосприимчивость; равнодушие"/>
+<d v="inseparable" p="adjective" ts="ɪnˈsepərəbl" tr="неотделимый; неразделимый"/>
+<d v="insert" p="verb" ts="ˈɪnsət" tr="вставить; помещать"/>
+<d v="insert" p="noun" ts="ˈɪnsət" tr="вставка; вклейка"/>
+<d v="insert" p="participle" ts="ˈɪnsət" tr="вставляемый"/>
+<d v="insertion" p="noun" ts="ɪnˈsɜːʃn" tr="включение; вставка; прошивка; вкладывание; прокладка"/>
+<d v="inside" p="preposition" ts="ˈɪnˈsaɪd" tr="внутри; вглубь"/>
+<d v="inside" p="adverb" ts="ˈɪnˈsaɪd" tr="внутрь; изнутри"/>
+<d v="inside" p="adjective" ts="ˈɪnˈsaɪd" tr="внутренний"/>
+<d v="inside" p="noun" ts="ˈɪnˈsaɪd" tr="внутренность; душа; изнанка"/>
+<d v="inside" p="participle" ts="ˈɪnˈsaɪd" tr="скрытый"/>
+<d v="insider" p="noun" ts="ˈɪnˈsaɪdə" tr="инсайдер; посвященное лицо; свой человек"/>
+<d v="insider" p="adjective" ts="ˈɪnˈsaɪdə" tr="инсайдерский"/>
+<d v="insidious" p="adjective" ts="ɪnˈsɪdɪəs" tr="коварный"/>
+<d v="insidious" p="noun" ts="ɪnˈsɪdɪəs" tr="коварство"/>
+<d v="insight" p="noun" ts="ˈɪnsaɪt" tr="понимание; прозрение; проникновение; интуиция; догадка"/>
+<d v="insight" p="verb" ts="ˈɪnsaɪt" tr="понять"/>
+<d v="insignia" p="noun" ts="ɪnˈsɪgnɪə" tr="знак; знак отличия"/>
+<d v="insignificance" p="noun" ts="ɪnsɪgˈnɪfɪkəns" tr="незначительность; ничтожество"/>
+<d v="insignificant" p="adjective" ts="ɪnsɪgˈnɪfɪkənt" tr="незначительный"/>
+<d v="insignificantly" p="adverb" ts="ɪnsɪgˈnɪfɪkəntlɪ" tr="незначительно"/>
+<d v="insincere" p="adjective" ts="ɪnsɪnˈsɪə" tr="неискренний"/>
+<d v="insincere" p="noun" ts="ɪnsɪnˈsɪə" tr="неискренность"/>
+<d v="insincerely" p="adverb" ts="ɪnsɪnˈsɪəlɪ" tr="неискренне"/>
+<d v="insincerity" p="noun" ts="ɪnsɪnˈserɪtɪ" tr="неискренность; лицемерие"/>
+<d v="insinuate" p="verb" ts="ɪnˈsɪnjʊeɪt" tr="намекать; инсинуировать"/>
+<d v="insinuation" p="noun" ts="ɪnˈsɪnjʊˈeɪʃn" tr="инсинуация; измышление"/>
+<d v="insipid" p="adjective" ts="ɪnˈsɪpɪd" tr="безвкусный; бесцветный; безжизненный; неинтересный"/>
+<d v="insist" p="verb" ts="ɪnˈsɪst" tr="настаивать; утверждать; добиваться; настойчиво утверждать; настойчиво требовать"/>
+<d v="insistence" p="noun" ts="ɪnˈsɪstəns" tr="настояние; настойчивость; требовательность; настойчивое требование; настаивание; настойчивое утверждение"/>
+<d v="insistence" p="adjective" ts="ɪnˈsɪstəns" tr="настойчивый"/>
+<d v="insistence" p="verb" ts="ɪnˈsɪstəns" tr="настаивать"/>
+<d v="insistent" p="adjective" ts="ɪnˈsɪstənt" tr="настойчивый"/>
+<d v="insistent" p="verb" ts="ɪnˈsɪstənt" tr="настаивать"/>
+<d v="insistent" p="noun" ts="ɪnˈsɪstənt" tr="настойчивость"/>
+<d v="insistently" p="adverb" ts="ɪnˈsɪstəntlɪ" tr="настойчиво"/>
+<d v="insofar as" p="conjunction" ts="ɪnsəˈfɑːr əz" tr="поскольку; постольку"/>
+<d v="insolence" p="noun" ts="ˈɪnsələns" tr="наглость; оскорбительное высокомерие"/>
+<d v="insolent" p="adjective" ts="ˈɪnsələnt" tr="наглый; оскорбительный"/>
+<d v="insolent" p="noun" ts="ˈɪnsələnt" tr="наглец; нахал"/>
+<d v="insolent" p="participle" ts="ˈɪnsələnt" tr="обнаглевший"/>
+<d v="insoluble" p="adjective" ts="ɪnˈsɔljʊbl" tr="нерастворимый"/>
+<d v="insoluble" p="participle" ts="ɪnˈsɔljʊbl" tr="не растворимый"/>
+<d v="insolvency" p="noun" ts="ɪnˈsɔlvənsɪ" tr="несостоятельность"/>
+<d v="insolvent" p="adjective" ts="ɪnˈsɔlvənt" tr="неплатежеспособный"/>
+<d v="insolvent" p="noun" ts="ɪnˈsɔlvənt" tr="банкрот"/>
+<d v="insomnia" p="noun" ts="ɪnˈsɔmnɪə" tr="бессонница"/>
+<d v="insomniac" p="participle" ts="ɪnˈsɒmnɪæk" tr="страдающий бессонницей"/>
+<d v="inspect" p="verb" ts="ɪnˈspekt" tr="осмотреть; проинспектировать; досмотреть; провести проверку"/>
+<d v="inspect" p="noun" ts="ɪnˈspekt" tr="проверка"/>
+<d v="inspection" p="noun" ts="ɪnˈspekʃn" tr="проверка; инспекция; осмотр"/>
+<d v="inspection" p="adjective" ts="ɪnˈspekʃn" tr="инспекционный"/>
+<d v="inspector" p="noun" ts="ɪnˈspektə" tr="инспектор; контролер; смотритель; наблюдатель"/>
+<d v="inspiration" p="noun" ts="ɪnspəˈreɪʃn" tr="вдохновение; воодушевленность; вдохновитель; вдох; влияние; внушение; вдохновляющая идея; стимулирование"/>
+<d v="inspiration" p="verb" ts="ɪnspəˈreɪʃn" tr="вдохновлять; вдохновиться"/>
+<d v="inspiration" p="participle" ts="ɪnspəˈreɪʃn" tr="вдохновляющий"/>
+<d v="inspiration" p="adjective" ts="ɪnspəˈreɪʃn" tr="вдохновенный"/>
+<d v="inspirational" p="participle" ts="ɪnspəˈreɪʃənl" tr="вдохновляющий; воодушевляющий"/>
+<d v="inspirational" p="adjective" ts="ɪnspəˈreɪʃənl" tr="вдохновенный"/>
+<d v="inspirational" p="noun" ts="ɪnspəˈreɪʃənl" tr="вдохновение"/>
+<d v="inspire" p="verb" ts="ɪnˈspaɪə" tr="вдохновлять; внушать; вызывать; побудить; вдыхать; вдохновиться; инспирировать; окрылять; окрылить"/>
+<d v="inspire" p="noun" ts="ɪnˈspaɪə" tr="вдохновение"/>
+<d v="inspired" p="noun" ts="ɪnˈspaɪəd" tr="вдохновение"/>
+<d v="inspired" p="adjective" ts="ɪnˈspaɪəd" tr="вдохновенный; богодухновенный"/>
+<d v="inspired" p="participle" ts="ɪnˈspaɪəd" tr="вдохновленный; воодушевленный; инспирированный; навеянный; вдохновляемый; окрыленный"/>
+<d v="inspiring" p="participle" ts="ɪnˈspaɪərɪŋ" tr="вдохновляющий; воодушевляющий; внушающий; вселяющий"/>
+<d v="inspiring" p="adjective" ts="ɪnˈspaɪərɪŋ" tr="вдохновенный"/>
+<d v="instability" p="noun" ts="ɪnstəˈbɪlɪtɪ" tr="нестабильность"/>
+<d v="instability" p="adjective" ts="ɪnstəˈbɪlɪtɪ" tr="нестабильный"/>
+<d v="install" p="verb" ts="ɪnˈstɔːl" tr="установить; помещать; собирать; водворять"/>
+<d v="install" p="noun" ts="ɪnˈstɔːl" tr="установка"/>
+<d v="installation" p="noun" ts="ɪnstəˈleɪʃn" tr="установка; водворение"/>
+<d v="installation" p="adjective" ts="ɪnstəˈleɪʃn" tr="установочный"/>
+<d v="installment" p="noun" ts="ɪnˈstɔːlmənt" tr="взнос; рассрочка"/>
+<d v="instance" p="noun" ts="ˈɪnstəns" tr="случай; экземпляр; просьба"/>
+<d v="instance" p="parenthetic" ts="ˈɪnstəns" tr="например"/>
+<d v="instant" p="adjective" ts="ˈɪnstənt" tr="мгновенный; растворимый; настоятельный; текущий"/>
+<d v="instant" p="noun" ts="ˈɪnstənt" tr="мгновение"/>
+<d v="instantaneous" p="adjective" ts="ɪnstənˈteɪnjəs" tr="мгновенный; проточный"/>
+<d v="instantaneously" p="adverb" ts="ɪnstənˈteɪnɪəslɪ" tr="мгновенно"/>
+<d v="instantaneously" p="adjective" ts="ɪnstənˈteɪnɪəslɪ" tr="мгновенный"/>
+<d v="instantly" p="adverb" ts="ˈɪnstəntlɪ" tr="мгновенно; немедленно"/>
+<d v="instantly" p="adjective" ts="ˈɪnstəntlɪ" tr="мгновенный"/>
+<d v="instead" p="preposition" ts="ɪnˈsted" tr="вместо"/>
+<d v="instead" p="conjunction" ts="ɪnˈsted" tr="а"/>
+<d v="instead" p="noun" ts="ɪnˈsted" tr="вместо того"/>
+<d v="instead" p="adverb" ts="ɪnˈsted" tr="взамен; напротив"/>
+<d v="instep" p="noun" ts="ˈɪnstep" tr="супинатор"/>
+<d v="instigate" p="verb" ts="ˈɪnstɪgeɪt" tr="спровоцировать; подстрекать; инициировать"/>
+<d v="instigation" p="noun" ts="ɪnstɪˈgeɪʃn" tr="подстрекательство; наущение"/>
+<d v="instill" p="verb" ts="ɪnˈstɪl" tr="внушать; привить; вселить; воспитывать; накапать"/>
+<d v="instinct" p="noun" ts="ˈɪnstɪŋkt" tr="инстинкт"/>
+<d v="instinctive" p="adjective" ts="ɪnˈstɪŋktɪv" tr="инстинктивный; бессознательный"/>
+<d v="instinctive" p="noun" ts="ɪnˈstɪŋktɪv" tr="инстинкт"/>
+<d v="instinctively" p="adverb" ts="ɪnˈstɪŋktɪvlɪ" tr="инстинктивно"/>
+<d v="Institute" p="noun" ts="ˈɪnstɪtjuːt" tr="институт; научное учреждение; общество; обычай"/>
+<d v="Institute" p="adjective" ts="ˈɪnstɪtjuːt" tr="институтский"/>
+<d v="Institute" p="verb" ts="ˈɪnstɪtjuːt" tr="учреждать; вводить; начинать; устраивать"/>
+<d v="institution" p="noun" ts="ɪnstɪˈtjuːʃn" tr="учреждение; госучреждение; орден"/>
+<d v="institutional" p="adjective" ts="ɪnstɪˈtjuːʃnəl" tr="институциональный; учрежденческий"/>
+<d v="instruct" p="verb" ts="ɪnˈstrʌkt" tr="поручить; проинструктировать; учить; наставлять; обучить; дать указание; сообщать; давать указания"/>
+<d v="instruct" p="noun" ts="ɪnˈstrʌkt" tr="указание; инструктаж; инструктирование"/>
+<d v="instruction" p="noun" ts="ɪnˈstrʌkʃn" tr="инструкция; обучение; инструктирование"/>
+<d v="instructive" p="adjective" ts="ɪnˈstrʌktɪv" tr="поучительный"/>
+<d v="instructor" p="noun" ts="ɪnˈstrʌktə" tr="инструктор; преподаватель; наставник; руководитель"/>
+<d v="instructor" p="adjective" ts="ɪnˈstrʌktə" tr="инструкторский"/>
+<d v="instrument" p="noun" ts="ˈɪnstrʊmənt" tr="инструмент; прибор; документ"/>
+<d v="instrument" p="adjective" ts="ˈɪnstrʊmənt" tr="приборный"/>
+<d v="instrument" p="verb" ts="ˈɪnstrʊmənt" tr="инструментовать"/>
+<d v="instrumental" p="adjective" ts="ɪnstrʊˈmentl" tr="инструментальный"/>
+<d v="insubordinate" p="adjective" ts="ɪnsəˈbɔːdnɪt" tr="непокорный"/>
+<d v="insubordination" p="noun" ts="ˈɪnsəbɔːdɪˈneɪʃn" tr="неподчинение; нарушение субординации"/>
+<d v="insubstantial" p="adjective" ts="ɪnsəbˈstænʃəl" tr="иллюзорный; несущественный; бесплотный; нереальный; неосновательный"/>
+<d v="insufferable" p="adjective" ts="ɪnˈsʌfərəbl" tr="невыносимый"/>
+<d v="insufficiency" p="noun" ts="ɪnsəˈfɪʃənsɪ" tr="недостаточность; недостаток"/>
+<d v="insufficient" p="adjective" ts="ɪnsəˈfɪʃənt" tr="недостаточный; недостаточно полный"/>
+<d v="insufficient" p="noun" ts="ɪnsəˈfɪʃənt" tr="недостаток; недостаточность"/>
+<d v="insular" p="adjective" ts="ˈɪnsjʊlə" tr="островной; замкнутый"/>
+<d v="insularity" p="noun" ts="ɪnsjʊˈlærɪtɪ" tr="замкнутость; островное положение"/>
+<d v="insulate" p="verb" ts="ˈɪnsjʊleɪt" tr="изолировать; утеплить; заизолировать; утеплять"/>
+<d v="insulation" p="noun" ts="ɪnsjʊˈleɪʃn" tr="изоляция; звукоизоляция; теплозащита"/>
+<d v="insulation" p="adjective" ts="ɪnsjʊˈleɪʃn" tr="изоляционный"/>
+<d v="insulin" p="noun" ts="ˈɪnsjʊlɪn" tr="инсулин"/>
+<d v="insulin" p="adjective" ts="ˈɪnsjʊlɪn" tr="инсулинозависимый"/>
+<d v="insult" p="noun" ts="ˈɪnsʌlt" tr="оскорбление"/>
+<d v="insult" p="verb" ts="ˈɪnsʌlt" tr="оскорблять"/>
+<d v="insult" p="adjective" ts="ˈɪnsʌlt" tr="оскорбительный"/>
+<d v="insult" p="participle" ts="ˈɪnsʌlt" tr="оскорбленный"/>
+<d v="insulting" p="adjective" ts="ɪnˈsʌltɪŋ" tr="оскорбительный"/>
+<d v="insulting" p="noun" ts="ɪnˈsʌltɪŋ" tr="оскорбление"/>
+<d v="insulting" p="adverb" ts="ɪnˈsʌltɪŋ" tr="обидно"/>
+<d v="insulting" p="participle" ts="ɪnˈsʌltɪŋ" tr="оскорбляющий"/>
+<d v="insurance" p="noun" ts="ɪnˈʃʊərəns" tr="страхование"/>
+<d v="insurance" p="adjective" ts="ɪnˈʃʊərəns" tr="страховой"/>
+<d v="insure" p="verb" ts="ɪnˈʃʊə" tr="застраховать; обеспечивать"/>
+<d v="insure" p="noun" ts="ɪnˈʃʊə" tr="страхование"/>
+<d v="insured" p="participle" ts="ɪnˈʃʊəd" tr="застрахованный; страхуемый"/>
+<d v="insurgency" p="noun" ts="ɪnˈsɜːʤənsɪ" tr="мятеж; повстанческие действия"/>
+<d v="insurgent" p="noun" ts="ɪnˈsɜːʤənt" tr="повстанец; боевик"/>
+<d v="insurgent" p="adjective" ts="ɪnˈsɜːʤənt" tr="повстанческий"/>
+<d v="insurgent" p="participle" ts="ɪnˈsɜːʤənt" tr="восставший"/>
+<d v="insurmountable" p="adjective" ts="ɪnsɜːˈmaʊntəbl" tr="непреодолимый"/>
+<d v="insurrection" p="noun" ts="ɪnsəˈrekʃn" tr="восстание"/>
+<d v="intact" p="adjective" ts="ɪnˈtækt" tr="нетронутый; неповрежденный; целый"/>
+<d v="intact" p="noun" ts="ɪnˈtækt" tr="без изменений; в целости"/>
+<d v="intake" p="noun" ts="ˈɪnteɪk" tr="прием; потребление; водозабор; воздухозаборник; всасывание; рацион; литник"/>
+<d v="intake" p="adjective" ts="ˈɪnteɪk" tr="впускной"/>
+<d v="intangible" p="adjective" ts="ɪnˈtænʤəbl" tr="нематериальный; неуловимый"/>
+<d v="integer" p="adjective" ts="ˈɪntɪʤə" tr="целый"/>
+<d v="integral" p="adjective" ts="ˈɪntɪgrəl" tr="неотъемлемый; цельный; целостный"/>
+<d v="integral" p="noun" ts="ˈɪntɪgrəl" tr="интеграл"/>
+<d v="integrate" p="participle" ts="ˈɪntɪgreɪt" tr="интегрированный; встроенный"/>
+<d v="integrate" p="verb" ts="ˈɪntɪgreɪt" tr="интегрировать; объединять; внедрять; укрупнять"/>
+<d v="integrate" p="noun" ts="ˈɪntɪgreɪt" tr="интеграция"/>
+<d v="integrate" p="adjective" ts="ˈɪntɪgreɪt" tr="комплексный"/>
+<d v="integration" p="noun" ts="ɪntɪˈgreɪʃn" tr="интеграция; укрупнение"/>
+<d v="integration" p="adjective" ts="ɪntɪˈgreɪʃn" tr="интеграционный"/>
+<d v="integration" p="verb" ts="ɪntɪˈgreɪʃn" tr="интегрировать"/>
+<d v="integrity" p="noun" ts="ɪnˈtegrɪtɪ" tr="целостность; честность; чистота; неподкупность; принципиальность; нетронутость"/>
+<d v="integrity" p="adjective" ts="ɪnˈtegrɪtɪ" tr="целостный"/>
+<d v="intellect" p="noun" ts="ˈɪntɪlekt" tr="интеллект; разум"/>
+<d v="intellectual" p="adjective" ts="ɪntɪˈlektjʊəl" tr="интеллектуальный"/>
+<d v="intellectual" p="noun" ts="ɪntɪˈlektjʊəl" tr="интеллектуал; интеллигенция"/>
+<d v="intellectual" p="participle" ts="ɪntɪˈlektjʊəl" tr="мыслящий"/>
+<d v="intellectually" p="adverb" ts="ɪntəˈlekʧʊəlɪ" tr="интеллектуально"/>
+<d v="intelligence" p="noun" ts="ɪnˈtelɪʤəns" tr="разведка; интеллект; разум; сведения; разведданные; разведслужба; интеллигенция; понятливость"/>
+<d v="intelligence" p="adjective" ts="ɪnˈtelɪʤəns" tr="разведывательный; умственный"/>
+<d v="intelligent" p="adjective" ts="ɪnˈtelɪʤənt" tr="умный; интеллектуальный; осмысленный; понятливый"/>
+<d v="intelligent" p="participle" ts="ɪnˈtelɪʤənt" tr="образованный; мыслящий; понимающий"/>
+<d v="intelligently" p="adverb" ts="ɪnˈtelɪʤəntlɪ" tr="разумно; интеллектуально; осмысленно; интеллигентно"/>
+<d v="intelligently" p="adjective" ts="ɪnˈtelɪʤəntlɪ" tr="интеллектуальный"/>
+<d v="intelligible" p="adjective" ts="ɪnˈtelɪʤəbl" tr="понятный; вразумительный; умопостигаемый"/>
+<d v="intend" p="verb" ts="ɪnˈtend" tr="собираться; намереваться; планировать; предназначать"/>
+<d v="intend" p="noun" ts="ɪnˈtend" tr="намерение"/>
+<d v="intended" p="adjective" ts="ɪnˈtendɪd" tr="намеренный; суженый"/>
+<d v="intended" p="participle" ts="ɪnˈtendɪd" tr="предназначенный; рассчитанный; намеченный; предназначавшийся; намечаемый"/>
+<d v="intense" p="adjective" ts="ɪnˈtens" tr="интенсивный; сильный; пристальный; впечатлительный"/>
+<d v="intense" p="participle" ts="ɪnˈtens" tr="насыщенный"/>
+<d v="intense" p="noun" ts="ɪnˈtens" tr="интенсивность"/>
+<d v="intense" p="adverb" ts="ɪnˈtens" tr="насыщенно"/>
+<d v="intensely" p="adverb" ts="ɪnˈtenslɪ" tr="интенсивно; сильно"/>
+<d v="intensifier" p="noun" ts="ɪnˈtensɪfaɪər" tr="ЭОП"/>
+<d v="intensify" p="verb" ts="ɪnˈtensɪfaɪ" tr="активизировать; усилить; усилиться; обострять; углублять; обостриться; интенсифицироваться"/>
+<d v="intensify" p="noun" ts="ɪnˈtensɪfaɪ" tr="активизация"/>
+<d v="intensity" p="noun" ts="ɪnˈtensɪtɪ" tr="интенсивность; напряженность; энергоемкость; сила; яркость"/>
+<d v="intensive" p="adjective" ts="ɪnˈtensɪv" tr="интенсивный; наукоемкий; трудоемкий; капиталоемкий"/>
+<d v="intensive care" p="noun" ts="ɪnˈtensɪv kɛə" tr="интенсивная терапия; интенсивный уход; интенсивное лечение"/>
+<d v="intensively" p="adverb" ts="ɪnˈtensɪvlɪ" tr="интенсивно"/>
+<d v="intensively" p="adjective" ts="ɪnˈtensɪvlɪ" tr="интенсивный"/>
+<d v="intent" p="noun" ts="ɪnˈtent" tr="намерение"/>
+<d v="intent" p="adjective" ts="ɪnˈtent" tr="пристальный"/>
+<d v="intent" p="participle" ts="ɪnˈtent" tr="стремившийся; занятый"/>
+<d v="intention" p="noun" ts="ɪnˈtenʃn" tr="намерение; замысел; идея"/>
+<d v="intentional" p="adjective" ts="ɪnˈtenʃənl" tr="преднамеренный"/>
+<d v="intentionally" p="adverb" ts="ɪnˈtenʃnəlɪ" tr="намеренно; вольно"/>
+<d v="intently" p="adverb" ts="ɪnˈtentlɪ" tr="внимательно"/>
+<d v="inter" p="noun" ts="ɪnˈtɜː" tr="Интер"/>
+<d v="inter" p="adjective" ts="ɪnˈtɜː" tr="межучрежденческий"/>
+<d v="inter" p="verb" ts="ɪnˈtɜː" tr="хоронить"/>
+<d v="interact" p="verb" ts="ɪntərˈækt" tr="взаимодействовать; общаться; находиться во взаимодействии; действовать"/>
+<d v="interact" p="noun" ts="ɪntərˈækt" tr="взаимодействие"/>
+<d v="interaction" p="noun" ts="ɪntərˈækʃn" tr="взаимодействие"/>
+<d v="interaction" p="verb" ts="ɪntərˈækʃn" tr="взаимодействовать"/>
+<d v="interactive" p="adjective" ts="ɪntəˈræktɪv" tr="интерактивный"/>
+<d v="interactive" p="participle" ts="ɪntəˈræktɪv" tr="взаимодействующий"/>
+<d v="intercede" p="verb" ts="ɪntəˈsiːd" tr="ходатайствовать; заступиться"/>
+<d v="intercept" p="verb" ts="ˈɪntəsept" tr="перехватить; задерживать; останавливать; прерывать; помешать; отрезать"/>
+<d v="intercept" p="noun" ts="ˈɪntəsept" tr="перехват"/>
+<d v="intercept" p="participle" ts="ˈɪntəsept" tr="отсекаемый"/>
+<d v="interception" p="noun" ts="ɪntəˈsepʃn" tr="перехват; прослушивание; радиоперехват; перехватывание; преграждение"/>
+<d v="interception" p="verb" ts="ɪntəˈsepʃn" tr="перехватывать"/>
+<d v="interchange" p="noun" ts="ˈɪntəˈʧeɪnʤ" tr="обмен; развязка; чередование"/>
+<d v="interchange" p="verb" ts="ˈɪntəˈʧeɪnʤ" tr="обмениваться; поменять; заменять; чередовать"/>
+<d v="interchange" p="adjective" ts="ˈɪntəˈʧeɪnʤ" tr="пересадочный"/>
+<d v="interchangeable" p="adjective" ts="ɪntəˈʧeɪnʤəbl" tr="взаимозаменяемый"/>
+<d v="interchangeably" p="adverb" ts="ɪntəˈʧeɪnʤəblɪ" tr="попеременно"/>
+<d v="intercom" p="noun" ts="ˈɪntəkɔm" tr="домофон; интерком; внутренняя связь; селекторная связь"/>
+<d v="interconnect" p="noun" ts="ˈɪntəkəˈnekt" tr="интерконнект"/>
+<d v="interconnect" p="verb" ts="ˈɪntəkəˈnekt" tr="соединить; взаимодействовать"/>
+<d v="interconnect" p="adjective" ts="ˈɪntəkəˈnekt" tr="соединительный"/>
+<d v="Intercontinental" p="adjective" ts="ˈɪntəkɔntɪˈnentl" tr="межконтинентальный"/>
+<d v="Intercontinental" p="noun" ts="ˈɪntəkɔntɪˈnentl" tr="Интерконтиненталь"/>
+<d v="intercourse" p="noun" ts="ˈɪntəkɔːs" tr="сношение; общение; акт; контакт"/>
+<d v="intercourse" p="adjective" ts="ˈɪntəkɔːs" tr="половой"/>
+<d v="interdependence" p="noun" ts="ɪntədɪˈpendəns" tr="взаимозависимость"/>
+<d v="interdependent" p="participle" ts="ɪntədɪˈpendənt" tr="взаимозависимый"/>
+<d v="interdependent" p="adjective" ts="ɪntədɪˈpendənt" tr="взаимосвязанный"/>
+<d v="interdependent" p="noun" ts="ɪntədɪˈpendənt" tr="взаимозависимость"/>
+<d v="interest" p="noun" ts="ˈɪntrɪst" tr="интерес; процент; выгода; увлечение; значение"/>
+<d v="interest" p="adjective" ts="ˈɪntrɪst" tr="процентный"/>
+<d v="interest" p="verb" ts="ˈɪntrɪst" tr="интересовать"/>
+<d v="interest" p="participle" ts="ˈɪntrɪst" tr="интересующий"/>
+<d v="interested" p="participle" ts="ˈɪntrɪstɪd" tr="заинтересованный; интересующийся; интересующий; интересуемый; заинтересовавшийся"/>
+<d v="interested" p="noun" ts="ˈɪntrɪstɪd" tr="интерес"/>
+<d v="interested" p="adverb" ts="ˈɪntrɪstɪd" tr="заинтересованно"/>
+<d v="interesting" p="adjective" ts="ˈɪntrɪstɪŋ" tr="интересный"/>
+<d v="interesting" p="adverbial participle" ts="ˈɪntrɪstɪŋ" tr="интересуя"/>
+<d v="interestingly" p="adverb" ts="ˈɪntrəstɪŋlɪ" tr="интересно; примечательно"/>
+<d v="interface" p="noun" ts="ˈɪntəfeɪs" tr="интерфейс"/>
+<d v="interfere" p="verb" ts="ɪntəˈfɪə" tr="вмешивать; мешать; нарушать; сталкиваться; конфликтовать; интерферировать; влезать; вредить; докучать"/>
+<d v="interfere" p="adverbial participle" ts="ɪntəˈfɪə" tr="вмешиваясь"/>
+<d v="interfere" p="noun" ts="ɪntəˈfɪə" tr="вмешательство"/>
+<d v="interference" p="noun" ts="ɪntəˈfɪərəns" tr="вмешательство; помеха; взаимовлияние"/>
+<d v="interference" p="adjective" ts="ɪntəˈfɪərəns" tr="интерференционный"/>
+<d v="interim" p="adjective" ts="ˈɪntərɪm" tr="промежуточный; временный"/>
+<d v="interim" p="noun" ts="ˈɪntərɪm" tr="промежуток времени"/>
+<d v="interior" p="noun" ts="ɪnˈtɪərɪə" tr="интерьер; внутренность"/>
+<d v="interior" p="adjective" ts="ɪnˈtɪərɪə" tr="внутренний"/>
+<d v="interior design" p="noun" ts="ɪnˈtɪərɪə dɪˈzaɪn" tr="интерьер; дизайн интерьера; внутренний дизайн; оформление интерьера; внутренняя отделка; внутреннее оформление; проектирование интерьера"/>
+<d v="interject" p="verb" ts="ɪntəˈʤekt" tr="вставлять"/>
+<d v="interjection" p="noun" ts="ɪntəˈʤekʃn" tr="междометие"/>
+<d v="interlock" p="verb" ts="ɪntəˈlɔk" tr="блокировать; переплести"/>
+<d v="interlocking" p="adverbial participle" ts="ɪntəˈlɒkɪŋ" tr="блокируя"/>
+<d v="interlocking" p="participle" ts="ɪntəˈlɒkɪŋ" tr="блокирующий"/>
+<d v="interloper" p="noun" ts="ˈɪntələʊpə" tr="нарушитель"/>
+<d v="interlude" p="noun" ts="ˈɪntəluːd" tr="интерлюдия; интермедия; перерыв"/>
+<d v="intermarriage" p="noun" ts="ɪntəˈmærɪʤ" tr="смешанные браки; брак"/>
+<d v="intermarry" p="verb" ts="ˈɪntəˈmærɪ" tr="породниться"/>
+<d v="intermediary" p="noun" ts="ɪntəˈmiːdjərɪ" tr="посредник"/>
+<d v="intermediary" p="adjective" ts="ɪntəˈmiːdjərɪ" tr="посреднический; промежуточный"/>
+<d v="intermediate" p="adjective" ts="ɪntəˈmiːdjət" tr="промежуточный; посреднический; вспомогательный"/>
+<d v="intermediate" p="noun" ts="ɪntəˈmiːdjət" tr="полуфабрикат"/>
+<d v="interminable" p="adjective" ts="ɪnˈtɜːmɪnəbl" tr="бесконечный"/>
+<d v="intermission" p="noun" ts="ɪntəˈmɪʃn" tr="антракт; перерыв"/>
+<d v="intermittent" p="adjective" ts="ɪntəˈmɪtənt" tr="прерывистый; периодический; скачкообразный"/>
+<d v="intermittent" p="adverb" ts="ɪntəˈmɪtənt" tr="периодически"/>
+<d v="intermittent" p="participle" ts="ɪntəˈmɪtənt" tr="перемежающийся"/>
+<d v="intermittently" p="adverb" ts="ɪntəˈmɪtntlɪ" tr="периодически; прерывисто"/>
+<d v="intermittently" p="noun" ts="ɪntəˈmɪtntlɪ" tr="с перерывами"/>
+<d v="intern" p="noun" ts="ˈɪntɜːn" tr="стажер; интерн; молодой специалист"/>
+<d v="intern" p="verb" ts="ˈɪntɜːn" tr="интернировать"/>
+<d v="internal" p="adjective" ts="ɪnˈtɜːnl" tr="внутренний; очный; внутрифирменный"/>
+<d v="internally" p="adverb" ts="ɪnˈtɜːnəlɪ" tr="внутренне"/>
+<d v="internally" p="adjective" ts="ɪnˈtɜːnəlɪ" tr="внутренний"/>
+<d v="internally" p="preposition" ts="ɪnˈtɜːnəlɪ" tr="внутри"/>
+<d v="internally" p="noun" ts="ɪnˈtɜːnəlɪ" tr="внутри страны"/>
+<d v="international" p="adjective" ts="ɪntəˈnæʃənl" tr="международный"/>
+<d v="international" p="noun" ts="ɪntəˈnæʃənl" tr="Интернационал"/>
+<d v="internationally" p="adjective" ts="ɪntəˈnæʃnəlɪ" tr="международный"/>
+<d v="internationally" p="noun" ts="ɪntəˈnæʃnəlɪ" tr="на международном уровне; международный уровень; на международном рынке; на международном"/>
+<d v="internationally" p="adverb" ts="ɪntəˈnæʃnəlɪ" tr="интернационально"/>
+<d v="Internet" p="noun" ts="ˈɪntɜːnət" tr="интернет"/>
+<d v="Internet" p="adjective" ts="ˈɪntɜːnət" tr="интернетовский"/>
+<d v="internist" p="noun" ts="ɪnˈtɜːnɪst" tr="терапевт"/>
+<d v="internment" p="noun" ts="ɪnˈtɜːnmənt" tr="интернирование"/>
+<d v="internship" p="noun" ts="ˈɪntənʃɪp" tr="стажировка; интернатура"/>
+<d v="internship" p="verb" ts="ˈɪntənʃɪp" tr="стажироваться"/>
+<d v="interpersonal" p="adjective" ts="ɪntəˈpɜːsənəl" tr="межличностный; межабонентский"/>
+<d v="interplanetary" p="adjective" ts="ɪntəˈplænɪtərɪ" tr="межпланетный"/>
+<d v="interplay" p="noun" ts="ˈɪntɜːˈpleɪ" tr="взаимодействие; переплетение"/>
+<d v="interpret" p="verb" ts="ɪnˈtɜːprɪt" tr="интерпретировать; трактовать; воспринимать; переводить; объяснять; осмыслить; растолковывать"/>
+<d v="interpret" p="noun" ts="ɪnˈtɜːprɪt" tr="интерпретация; интерпретирование"/>
+<d v="interpretation" p="noun" ts="ɪntɜːprɪˈteɪʃn" tr="интерпретация; толкование; прочтение; дешифрирование; осмысление; разночтение"/>
+<d v="interpreter" p="noun" ts="ɪnˈtɜːprɪtə" tr="переводчик; интерпретатор; устный переводчик; истолкователь; толмач"/>
+<d v="interracial" p="adjective" ts="ɪntəˈreɪʃl" tr="межрасовый"/>
+<d v="interrelated" p="participle" ts="ɪntərɪˈleɪtɪd" tr="взаимозависимый"/>
+<d v="interrogate" p="verb" ts="ɪnˈterəʊgeɪt" tr="допрашивать; расспрашивать"/>
+<d v="interrogate" p="noun" ts="ɪnˈterəʊgeɪt" tr="допрос"/>
+<d v="interrogation" p="noun" ts="ɪnterəʊˈgeɪʃn" tr="допрос"/>
+<d v="interrogator" p="noun" ts="ɪnˈtereʊgeɪtə" tr="следователь; запросчик"/>
+<d v="interrogator" p="participle" ts="ɪnˈtereʊgeɪtə" tr="допрашивающий"/>
+<d v="interrupt" p="verb" ts="ɪntəˈrʌpt" tr="прервать; перебить; мешать"/>
+<d v="interrupt" p="noun" ts="ɪntəˈrʌpt" tr="прерывание"/>
+<d v="interruption" p="noun" ts="ɪntəˈrʌpʃn" tr="прерывание; перерыв; перебой; обрыв; задержка; заминка"/>
+<d v="interruption" p="verb" ts="ɪntəˈrʌpʃn" tr="прерывать"/>
+<d v="intersect" p="adverbial participle" ts="ɪntəˈsekt" tr="пересекаясь"/>
+<d v="intersect" p="verb" ts="ɪntəˈsekt" tr="пересекать"/>
+<d v="intersect" p="noun" ts="ɪntəˈsekt" tr="пересечение"/>
+<d v="intersection" p="noun" ts="ɪntəˈsekʃn" tr="пересечение"/>
+<d v="intersperse" p="verb" ts="ɪntəˈspɜːs" tr="пересыпать; разнообразить; разбрасывать; усыпать"/>
+<d v="interstate" p="adjective" ts="ˈɪntəˈsteɪt" tr="межгосударственный; междуштатный"/>
+<d v="interstate" p="noun" ts="ˈɪntəˈsteɪt" tr="между Штатами"/>
+<d v="interval" p="noun" ts="ˈɪntəvəl" tr="интервал; перерыв; промежуток времени"/>
+<d v="interval" p="adjective" ts="ˈɪntəvəl" tr="интервальный"/>
+<d v="intervene" p="verb" ts="ɪntəˈviːn" tr="вмешаться; вторгаться; заступиться; находиться"/>
+<d v="intervene" p="noun" ts="ɪntəˈviːn" tr="вмешательство"/>
+<d v="intervene" p="adverbial participle" ts="ɪntəˈviːn" tr="вмешиваясь"/>
+<d v="intervening" p="adjective" ts="ɪntəˈviːnɪŋ" tr="промежуточный"/>
+<d v="intervening" p="participle" ts="ɪntəˈviːnɪŋ" tr="вмешивающийся"/>
+<d v="intervention" p="noun" ts="ɪntəˈvenʃn" tr="вмешательство; мероприятие"/>
+<d v="interview" p="noun" ts="ˈɪntəvjuː" tr="интервью; собеседование"/>
+<d v="interview" p="verb" ts="ˈɪntəvjuː" tr="интервьюировать; опросить"/>
+<d v="interviewer" p="noun" ts="ˈɪntəvjuːə" tr="интервьюер; корреспондент; интервью"/>
+<d v="interweave" p="verb" ts="ɪntəˈwiːv" tr="переплетаться; вплетать"/>
+<d v="interwoven" p="participle" ts="ɪntəˈwəʊən" tr="переплетающийся"/>
+<d v="intestinal" p="adjective" ts="ɪnˈtestɪnl" tr="кишечный"/>
+<d v="intestinal" p="noun" ts="ɪnˈtestɪnl" tr="кишечник"/>
+<d v="intestine" p="noun" ts="ɪnˈtestɪn" tr="кишечник; кишечный тракт"/>
+<d v="intestine" p="adjective" ts="ɪnˈtestɪn" tr="кишечный"/>
+<d v="intimacy" p="noun" ts="ˈɪntɪməsɪ" tr="близость; интимные отношения; тесная связь; сокровенность"/>
+<d v="intimacy" p="adjective" ts="ˈɪntɪməsɪ" tr="интимный"/>
+<d v="intimate" p="adjective" ts="ˈɪntɪmɪt" tr="интимный; близкий"/>
+<d v="intimate" p="noun" ts="ˈɪntɪmɪt" tr="интимность"/>
+<d v="intimate" p="verb" ts="ˈɪntɪmɪt" tr="намекать"/>
+<d v="intimately" p="adverb" ts="ˈɪntɪmətlɪ" tr="тесно; сокровенно"/>
+<d v="intimidate" p="verb" ts="ɪnˈtɪmɪdeɪt" tr="запугать; напугать; устрашать"/>
+<d v="intimidate" p="noun" ts="ɪnˈtɪmɪdeɪt" tr="запугивание"/>
+<d v="intimidated" p="participle" ts="ɪnˈtɪmɪdeɪtɪd" tr="запуганный"/>
+<d v="intimidating" p="participle" ts="ɪnˈtɪmɪdeɪtɪŋ" tr="пугающий; устрашающий; запугивающий"/>
+<d v="intimidation" p="noun" ts="ɪntɪmɪˈdeɪʃn" tr="запугивание; запуганность"/>
+<d v="intimidation" p="verb" ts="ɪntɪmɪˈdeɪʃn" tr="запугивать"/>
+<d v="into" p="preposition" ts="ˈɪntʊ" tr="в; до"/>
+<d v="intolerable" p="adjective" ts="ɪnˈtɔlərəbl" tr="невыносимый; недопустимый"/>
+<d v="intolerably" p="adverb" ts="ɪnˈtɒlərəblɪ" tr="невыносимо"/>
+<d v="intolerance" p="noun" ts="ɪnˈtɔlərəns" tr="нетерпимость; непереносимость; неприятие"/>
+<d v="intolerant" p="adjective" ts="ɪnˈtɔlərənt" tr="нетерпимый"/>
+<d v="intolerant" p="noun" ts="ɪnˈtɔlərənt" tr="нетерпимость"/>
+<d v="intonation" p="noun" ts="ɪntəʊˈneɪʃn" tr="интонация; зачин"/>
+<d v="intoxicated" p="participle" ts="ɪnˈtɒksɪkeɪtɪd" tr="опьяненный; отравленный"/>
+<d v="intoxication" p="noun" ts="ɪntɔksɪˈkeɪʃn" tr="интоксикация; упоение"/>
+<d v="intractable" p="adjective" ts="ɪnˈtræktəbl" tr="неразрешимый; несговорчивый; неподатливый; непокорный; трудновоспитуемый"/>
+<d v="intramural" p="adjective" ts="ˈɪntrəˈmjʊərəl" tr="очный"/>
+<d v="intransitive" p="adjective" ts="ɪnˈtrænsɪtɪv" tr="непереходный"/>
+<d v="intravenous" p="adjective" ts="ɪntrəˈviːnəs" tr="внутривенный"/>
+<d v="intravenous" p="adverb" ts="ɪntrəˈviːnəs" tr="внутривенно"/>
+<d v="intrepid" p="adjective" ts="ɪnˈtrepɪd" tr="бесстрашный; неустрашимый"/>
+<d v="intricacy" p="noun" ts="ˈɪntrɪkəsɪ" tr="сложность; тонкость; замысловатость; лабиринт"/>
+<d v="intricate" p="adjective" ts="ˈɪntrɪkɪt" tr="сложный"/>
+<d v="intricately" p="adverb" ts="ˈɪntrɪkətlɪ" tr="неразрывно; затейливо; замысловато; запутанно"/>
+<d v="intrigue" p="noun" ts="ɪnˈtriːg" tr="интрига; интрижка"/>
+<d v="intrigue" p="verb" ts="ɪnˈtriːg" tr="заинтриговать; интриговать"/>
+<d v="intriguing" p="participle" ts="ɪnˈtriːgɪŋ" tr="интригующий"/>
+<d v="intriguing" p="adjective" ts="ɪnˈtriːgɪŋ" tr="интересный"/>
+<d v="intriguing" p="noun" ts="ɪnˈtriːgɪŋ" tr="интрига"/>
+<d v="intrinsic" p="adjective" ts="ɪnˈtrɪnsɪk" tr="внутренний; неотъемлемый; свойственный"/>
+<d v="intrinsic" p="participle" ts="ɪnˈtrɪnsɪk" tr="присущий"/>
+<d v="intrinsically" p="adverb" ts="ɪnˈtrɪnsɪklɪ" tr="неразрывно"/>
+<d v="intrinsically" p="noun" ts="ɪnˈtrɪnsɪklɪ" tr="по сути"/>
+<d v="introduce" p="verb" ts="ɪntrəˈdjuːs" tr="ввести; представить; внедрить; познакомить; внести; привнести; применять; приобщить; предварять"/>
+<d v="introduce" p="noun" ts="ɪntrəˈdjuːs" tr="внедрение"/>
+<d v="introduction" p="noun" ts="ɪntrəˈdʌkʃn" tr="введение; внесение; ознакомление; привнесение; нововведение"/>
+<d v="introduction" p="adjective" ts="ɪntrəˈdʌkʃn" tr="вводный"/>
+<d v="introductory" p="adjective" ts="ɪntrəˈdʌktərɪ" tr="вступительный"/>
+<d v="introspective" p="adjective" ts="ɪntrəʊˈspektɪv" tr="интроспективный"/>
+<d v="introspective" p="noun" ts="ɪntrəʊˈspektɪv" tr="самоанализ"/>
+<d v="introvert" p="noun" ts="ˈɪntrəʊvɜːt" tr="интроверт"/>
+<d v="introverted" p="noun" ts="ɪntrəˈvɜːtɪd" tr="интроверт"/>
+<d v="intrude" p="verb" ts="ɪnˈtruːd" tr="вторгаться; вмешаться; внедряться; навязывать; лезть; внедриться"/>
+<d v="intruder" p="noun" ts="ɪnˈtruːdə" tr="злоумышленник; вторжение; пришелец; захватчик; самозванец"/>
+<d v="intrusion" p="noun" ts="ɪnˈtruːʒən" tr="вторжение; интрузия; внедрение"/>
+<d v="intrusive" p="adjective" ts="ɪnˈtruːsɪv" tr="навязчивый; интрузивный"/>
+<d v="intrusive" p="noun" ts="ɪnˈtruːsɪv" tr="вмешательство"/>
+<d v="intuition" p="noun" ts="ɪntjuːˈɪʃn" tr="интуиция; интуитивность"/>
+<d v="intuitive" p="adjective" ts="ɪnˈtjuːɪtɪv" tr="интуитивный"/>
+<d v="intuitive" p="participle" ts="ɪnˈtjuːɪtɪv" tr="обладающий интуицией"/>
+<d v="intuitively" p="adverb" ts="ɪnˈtjuːɪtɪvlɪ" tr="интуитивно"/>
+<d v="Inuit" p="noun" ts="ˈɪnjuːt" tr="инуит"/>
+<d v="inundate" p="verb" ts="ˈɪnʌndeɪt" tr="затопить; залить"/>
+<d v="inundate" p="noun" ts="ˈɪnʌndeɪt" tr="затопление"/>
+<d v="inundation" p="noun" ts="ɪnʌnˈdeɪʃn" tr="затопление; наплыв"/>
+<d v="invade" p="verb" ts="ɪnˈveɪd" tr="вторгнуться; захватить; напасть; проникать; ворваться; поражать"/>
+<d v="invade" p="noun" ts="ɪnˈveɪd" tr="вторжение; захват"/>
+<d v="invader" p="noun" ts="ɪnˈveɪdə" tr="захватчик; пришелец; посягатель"/>
+<d v="invalid" p="adjective" ts="ˈɪnvəlɪd" tr="недействительный; неверный; больной; несостоятельный"/>
+<d v="invalid" p="noun" ts="ˈɪnvəlɪd" tr="инвалид"/>
+<d v="invalidate" p="verb" ts="ɪnˈvælɪdeɪt" tr="аннулировать; лишать; обесценивать; признать недействительным; обесценить"/>
+<d v="invaluable" p="adjective" ts="ɪnˈvæljʊəbl" tr="бесценный"/>
+<d v="invariable" p="adjective" ts="ɪnˈvɛərɪəbl" tr="неизменный"/>
+<d v="invariably" p="adverb" ts="ɪnˈveərɪəblɪ" tr="неизменно; неизбежно; беспеременно"/>
+<d v="invasion" p="noun" ts="ɪnˈveɪʒən" tr="вторжение; инвазия"/>
+<d v="invasive" p="adjective" ts="ɪnˈveɪsɪv" tr="инвазивный; агрессивный"/>
+<d v="invent" p="verb" ts="ɪnˈvent" tr="изобрести; сочинять"/>
+<d v="invent" p="noun" ts="ɪnˈvent" tr="изобретение"/>
+<d v="invention" p="noun" ts="ɪnˈvenʃn" tr="изобретение; выдумка; затея; инвенция"/>
+<d v="invention" p="adjective" ts="ɪnˈvenʃn" tr="изобретательский"/>
+<d v="inventive" p="adjective" ts="ɪnˈventɪv" tr="изобретательский; изобретательный"/>
+<d v="inventive" p="noun" ts="ɪnˈventɪv" tr="изобретательность"/>
+<d v="inventor" p="noun" ts="ɪnˈventə" tr="изобретатель"/>
+<d v="inventor" p="adjective" ts="ɪnˈventə" tr="изобретательский"/>
+<d v="inventory" p="noun" ts="ˈɪnvəntrɪ" tr="инвентаризация; инвентарь; товарный запас; предметы"/>
+<d v="inventory" p="adjective" ts="ˈɪnvəntrɪ" tr="инвентарный"/>
+<d v="inverse" p="adjective" ts="ˈɪnˈvɜːs" tr="обратный"/>
+<d v="inverse" p="verb" ts="ˈɪnˈvɜːs" tr="инвертировать"/>
+<d v="inverse" p="noun" ts="ˈɪnˈvɜːs" tr="противоположность"/>
+<d v="inversion" p="noun" ts="ɪnˈvɜːʃn" tr="инверсия; извращение"/>
+<d v="inversion" p="adjective" ts="ɪnˈvɜːʃn" tr="инверсный"/>
+<d v="invert" p="verb" ts="ˈɪnvɜːt" tr="инвертировать; перевернуть; обратить; вывернуть"/>
+<d v="invert" p="adjective" ts="ˈɪnvɜːt" tr="инвертный"/>
+<d v="invert" p="noun" ts="ˈɪnvɜːt" tr="инвертирование"/>
+<d v="invest" p="verb" ts="ɪnˈvest" tr="инвестировать; потратиться"/>
+<d v="invest" p="noun" ts="ɪnˈvest" tr="Инвест; инвестирование"/>
+<d v="investigate" p="verb" ts="ɪnˈvestɪgeɪt" tr="исследовать; разобраться; провести расследование; разузнавать"/>
+<d v="investigate" p="noun" ts="ɪnˈvestɪgeɪt" tr="расследование; исследование"/>
+<d v="investigation" p="noun" ts="ɪnvestɪˈgeɪʃn" tr="расследование; исследование; сыск"/>
+<d v="investigation" p="adjective" ts="ɪnvestɪˈgeɪʃn" tr="следственный"/>
+<d v="investigative" p="adjective" ts="ɪnˈvestɪgeɪtɪv" tr="следственный; исследовательский"/>
+<d v="investigative" p="noun" ts="ɪnˈvestɪgeɪtɪv" tr="расследование; расследователь"/>
+<d v="investigator" p="noun" ts="ɪnˈvestɪgeɪtə" tr="следователь; исследователь; расследователь; испытатель"/>
+<d v="investment" p="noun" ts="ɪnˈvestmənt" tr="инвестиции; вложение; инвестирование; капиталовложения; облечение; осада"/>
+<d v="investment" p="adjective" ts="ɪnˈvestmənt" tr="инвестиционный"/>
+<d v="investor" p="noun" ts="ɪnˈvestə" tr="инвестор"/>
+<d v="investor" p="adjective" ts="ɪnˈvestə" tr="инвесторский"/>
+<d v="inveterate" p="adjective" ts="ɪnˈvetərɪt" tr="заядлый; закоренелый; застарелый; отъявленный"/>
+<d v="invigorate" p="verb" ts="ɪnˈvɪgəreɪt" tr="активизировать; бодрить; подбадривать; давать силы"/>
+<d v="invigorate" p="noun" ts="ɪnˈvɪgəreɪt" tr="активизация"/>
+<d v="invigorating" p="participle" ts="ɪnˈvɪgəreɪtɪŋ" tr="бодрящий; тонизирующий; укрепляющий"/>
+<d v="invincible" p="adjective" ts="ɪnˈvɪnsəbl" tr="непобедимый; неуязвимый; неодолимый; несокрушимый; неукротимый"/>
+<d v="invisibility" p="noun" ts="ɪnvɪzəˈbɪlɪtɪ" tr="невидимость; невидимка"/>
+<d v="invisible" p="adjective" ts="ɪnˈvɪzəbl" tr="невидимый"/>
+<d v="invisible" p="noun" ts="ɪnˈvɪzəbl" tr="невидимка"/>
+<d v="invisibly" p="adverb" ts="ɪnˈvɪzəblɪ" tr="незримо"/>
+<d v="invisibly" p="adjective" ts="ɪnˈvɪzəblɪ" tr="невидимый"/>
+<d v="invitation" p="noun" ts="ɪnvɪˈteɪʃn" tr="приглашение"/>
+<d v="invitation" p="adjective" ts="ɪnvɪˈteɪʃn" tr="пригласительный"/>
+<d v="invite" p="verb" ts="ɪnˈvaɪt" tr="приглашать; предлагать; призывать"/>
+<d v="invite" p="noun" ts="ɪnˈvaɪt" tr="приглашение"/>
+<d v="invite" p="participle" ts="ɪnˈvaɪt" tr="приглашающий"/>
+<d v="inviting" p="adjective" ts="ɪnˈvaɪtɪŋ" tr="привлекательный; уютный; заманчивый"/>
+<d v="inviting" p="noun" ts="ɪnˈvaɪtɪŋ" tr="приглашение"/>
+<d v="inviting" p="participle" ts="ɪnˈvaɪtɪŋ" tr="приглашающий; манящий"/>
+<d v="invoice" p="noun" ts="ˈɪnvɔɪs" tr="счет; фактура"/>
+<d v="invoice" p="adjective" ts="ˈɪnvɔɪs" tr="фактурный"/>
+<d v="invoke" p="verb" ts="ɪnˈvəʊk" tr="вызывать; ссылаться; призвать; взывать; активизировать"/>
+<d v="invoke" p="noun" ts="ɪnˈvəʊk" tr="вызов"/>
+<d v="involuntarily" p="adverb" ts="ɪnˈvɒləntrəlɪ" tr="невольно; вынужденно"/>
+<d v="involuntary" p="adjective" ts="ɪnˈvɔləntərɪ" tr="принудительный; непроизвольный; невольный"/>
+<d v="involuntary" p="adverb" ts="ɪnˈvɔləntərɪ" tr="невольно"/>
+<d v="involve" p="verb" ts="ɪnˈvɔlv" tr="включать; предполагать; привлекать; участвовать; вовлекать; касаться; втягивать; включать в себя; вызывать"/>
+<d v="involve" p="noun" ts="ɪnˈvɔlv" tr="участие; привлечение"/>
+<d v="involved" p="participle" ts="ɪnˈvɔlvd" tr="вовлеченный; связанный; участвующий; задействованный; замешанный; привлеченный; осуществляющий"/>
+<d v="involved" p="noun" ts="ɪnˈvɔlvd" tr="участие"/>
+<d v="involved" p="verb" ts="ɪnˈvɔlvd" tr="ввязываться"/>
+<d v="involved" p="adjective" ts="ɪnˈvɔlvd" tr="сложный"/>
+<d v="involvement" p="noun" ts="ɪnˈvɔlvmənt" tr="участие; вовлечение; запутанность; поражение; сопричастность; втягивание; затруднительное положение"/>
+<d v="inward" p="adverb" ts="ˈɪnwəd" tr="внутрь; внутренне"/>
+<d v="inward" p="adjective" ts="ˈɪnwəd" tr="внутренний"/>
+<d v="inward" p="noun" ts="ˈɪnwəd" tr="внутрь себя"/>
+<d v="inwardly" p="adverb" ts="ˈɪnwədlɪ" tr="внутренне; внутри"/>
+<d v="inwardly" p="noun" ts="ˈɪnwədlɪ" tr="про себя; в душе"/>
+<d v="inwards" p="adverb" ts="ˈɪnwədz" tr="внутрь"/>
+<d v="iodine" p="noun" ts="ˈaɪəʊdiːn" tr="йод"/>
+<d v="iodine" p="adjective" ts="ˈaɪəʊdiːn" tr="йодный"/>
+<d v="iota" p="noun" ts="aɪˈəʊtə" tr="йота"/>
+<d v="IOU" p="noun" ts="ˈaɪəʊˈjuː" tr="долговая расписка"/>
+<d v="Ira" p="noun" ts="aɪɑːˈreɪ" tr="Ира"/>
+<d v="irascible" p="adjective" ts="ɪˈræsɪbl" tr="вспыльчивый"/>
+<d v="irate" p="participle" ts="aɪˈreɪt" tr="разгневанный"/>
+<d v="irate" p="adjective" ts="aɪˈreɪt" tr="гневный"/>
+<d v="iridescent" p="adjective" ts="ɪrɪˈdesnt" tr="радужный"/>
+<d v="iridescent" p="participle" ts="ɪrɪˈdesnt" tr="переливающийся"/>
+<d v="iridescent" p="verb" ts="ɪrɪˈdesnt" tr="переливаться"/>
+<d v="iris" p="noun" ts="ˈaɪərɪs" tr="ирис; радужка; радужная оболочка; радужная оболочка глаза; КСИР; касатик"/>
+<d v="Irish" p="adjective" ts="ˈaɪərɪʃ" tr="ирландский"/>
+<d v="Irish" p="noun" ts="ˈaɪərɪʃ" tr="ирландец"/>
+<d v="irk" p="verb" ts="ɜːk" tr="раздражать"/>
+<d v="iron" p="noun" ts="ˈaɪən" tr="железо; утюг; кандалы; сталь"/>
+<d v="iron" p="adjective" ts="ˈaɪən" tr="железный; жестокий"/>
+<d v="iron" p="verb" ts="ˈaɪən" tr="гладить; утюжить; прогладить"/>
+<d v="iron curtain" p="noun" ts="ˈaɪən kɜːtn" tr="железный занавес"/>
+<d v="ironic" p="adjective" ts="aɪˈrɔnɪk" tr="ироничный"/>
+<d v="ironic" p="noun" ts="aɪˈrɔnɪk" tr="ирония"/>
+<d v="ironically" p="noun" ts="aɪˈrɒnɪklɪ" tr="ирония; по иронии; ирония судьбы; по иронии судьбы"/>
+<d v="ironically" p="adverb" ts="aɪˈrɒnɪklɪ" tr="иронически; как ни странно; усмешливо"/>
+<d v="Ironing" p="adjective" ts="ˈaɪənɪŋ" tr="гладильный"/>
+<d v="Ironing" p="noun" ts="ˈaɪənɪŋ" tr="Глажка; глаженье"/>
+<d v="Ironing board" p="noun" ts="ˈaɪənɪŋ bɔːd" tr="гладильная доска"/>
+<d v="irony" p="noun" ts="ˈaɪərənɪ" tr="ирония; парадокс; ироничность"/>
+<d v="irony" p="adjective" ts="ˈaɪərənɪ" tr="ироничный"/>
+<d v="irrational" p="adjective" ts="ɪˈræʃənl" tr="иррациональный"/>
+<d v="irrational" p="noun" ts="ɪˈræʃənl" tr="иррациональность"/>
+<d v="irrationality" p="noun" ts="ɪræʃəˈnælɪtɪ" tr="иррациональность; нерациональность; неразумность; нелогичность"/>
+<d v="irrationally" p="adverb" ts="ɪˈræʃənəlɪ" tr="нерационально; иррационально; абсурдно"/>
+<d v="irreconcilable" p="adjective" ts="ɪˈrekənsaɪləbl" tr="непримиримый"/>
+<d v="irrefutable" p="adjective" ts="ɪˈrefjʊtəbl" tr="неопровержимый"/>
+<d v="irregular" p="adjective" ts="ɪˈregjʊlə" tr="нерегулярный; нелегальный; неравномерный; беспорядочный; прерывистый"/>
+<d v="irregular" p="noun" ts="ɪˈregjʊlə" tr="нерегулярность"/>
+<d v="irregularity" p="noun" ts="ɪregjʊˈlærɪtɪ" tr="нарушение; неровность; нерегулярность; неправильность"/>
+<d v="irregularly" p="adverb" ts="ɪˈregjʊləlɪ" tr="нерегулярно; неравномерно"/>
+<d v="irrelevance" p="noun" ts="ɪˈrelɪvəns" tr="неуместность; ненужность; неактуальность; нерелевантность"/>
+<d v="irrelevant" p="adjective" ts="ɪˈrelɪvənt" tr="неуместный; неактуальный; несущественный; лишний"/>
+<d v="irrelevant" p="verb" ts="ɪˈrelɪvənt" tr="иметь значение"/>
+<d v="irreparable" p="adjective" ts="ɪˈrepərəbl" tr="непоправимый"/>
+<d v="irreparably" p="adverb" ts="ɪˈrepərəblɪ" tr="непоправимо"/>
+<d v="irreplaceable" p="adjective" ts="ɪrɪˈpleɪsəbl" tr="незаменимый; невосполнимый"/>
+<d v="irrepressible" p="adjective" ts="ɪrɪˈpresəbl" tr="неуемный; неудержимый; неугомонный"/>
+<d v="irreproachable" p="adjective" ts="ɪrɪˈprəʊʧəbl" tr="безупречный"/>
+<d v="irreproachable" p="noun" ts="ɪrɪˈprəʊʧəbl" tr="безупречность"/>
+<d v="irresistible" p="adjective" ts="ɪrɪˈzɪstəbl" tr="непреодолимый; неотразимый"/>
+<d v="irresistibly" p="adverb" ts="ɪrɪˈzɪstəblɪ" tr="неудержимо; неотразимо"/>
+<d v="irrespective" p="noun" ts="ɪrɪsˈpektɪv" tr="независимо от"/>
+<d v="irrespective" p="adverb" ts="ɪrɪsˈpektɪv" tr="независимо"/>
+<d v="irrespective" p="adjective" ts="ɪrɪsˈpektɪv" tr="независимый"/>
+<d v="irresponsibility" p="noun" ts="ˈɪrɪspɔnsəˈbɪlɪtɪ" tr="безответственность; невменяемость"/>
+<d v="irresponsibility" p="adjective" ts="ˈɪrɪspɔnsəˈbɪlɪtɪ" tr="безответственный"/>
+<d v="irresponsible" p="adjective" ts="ɪrɪsˈpɔnsəbl" tr="безответственный; несознательный; невменяемый"/>
+<d v="irresponsible" p="noun" ts="ɪrɪsˈpɔnsəbl" tr="безответственность"/>
+<d v="irresponsibly" p="adverb" ts="ɪrəˈspɒnsəblɪ" tr="безответственно"/>
+<d v="irreverence" p="noun" ts="ɪˈrevərəns" tr="непочтительность"/>
+<d v="irreverent" p="adjective" ts="ɪˈrevərənt" tr="непочтительный"/>
+<d v="irreversible" p="adjective" ts="ɪrɪˈvɜːsəbl" tr="необратимый; непоправимый; нереверсивный"/>
+<d v="irreversible" p="noun" ts="ɪrɪˈvɜːsəbl" tr="необратимость"/>
+<d v="irrigate" p="verb" ts="ˈɪrɪgeɪt" tr="орошать; промывать"/>
+<d v="irrigate" p="noun" ts="ˈɪrɪgeɪt" tr="орошение"/>
+<d v="irrigation" p="noun" ts="ɪrɪˈgeɪʃn" tr="орошение; промывание"/>
+<d v="irrigation" p="adjective" ts="ɪrɪˈgeɪʃn" tr="ирригационный"/>
+<d v="irritability" p="noun" ts="ɪrɪtəˈbɪlɪtɪ" tr="раздражительность; раздражимость"/>
+<d v="irritable" p="adjective" ts="ˈɪrɪtəbl" tr="раздражительный"/>
+<d v="irritable" p="participle" ts="ˈɪrɪtəbl" tr="раздраженный"/>
+<d v="irritable" p="noun" ts="ˈɪrɪtəbl" tr="раздражительность"/>
+<d v="irritably" p="adverb" ts="ˈɪrɪtəblɪ" tr="раздраженно"/>
+<d v="irritant" p="noun" ts="ˈɪrɪtənt" tr="раздражитель; раздражающее вещество"/>
+<d v="irritant" p="participle" ts="ˈɪrɪtənt" tr="раздражающий"/>
+<d v="irritant" p="verb" ts="ˈɪrɪtənt" tr="раздражать"/>
+<d v="irritate" p="verb" ts="ˈɪrɪteɪt" tr="раздражать; разозлить"/>
+<d v="irritate" p="noun" ts="ˈɪrɪteɪt" tr="раздражение"/>
+<d v="irritating" p="participle" ts="ˈɪrɪteɪtɪŋ" tr="раздражающий"/>
+<d v="irritating" p="noun" ts="ˈɪrɪteɪtɪŋ" tr="раздражение"/>
+<d v="irritating" p="adjective" ts="ˈɪrɪteɪtɪŋ" tr="надоедливый; раздражительный"/>
+<d v="irritation" p="noun" ts="ɪrɪˈteɪʃn" tr="раздражение"/>
+<d v="IRS" p="noun" ts="ɪs" tr="ИПС; оиод; ИИИ"/>
+<d v="Islam" p="noun" ts="ˈɪzlɑːm" tr="ислам"/>
+<d v="Islam" p="adjective" ts="ˈɪzlɑːm" tr="исламский"/>
+<d v="Islamic" p="adjective" ts="ɪzˈlæmɪk" tr="исламский"/>
+<d v="island" p="noun" ts="ˈaɪlənd" tr="остров"/>
+<d v="island" p="adjective" ts="ˈaɪlənd" tr="островной"/>
+<d v="islander" p="noun" ts="ˈaɪləndə" tr="островитянин; житель острова"/>
+<d v="Isle" p="noun" ts="aɪl" tr="остров"/>
+<d v="isolate" p="verb" ts="ˈaɪsəleɪt" tr="изолировать; выделить; отделить; вычленить; обособлять; замкнуться"/>
+<d v="isolate" p="noun" ts="ˈaɪsəleɪt" tr="изоляция"/>
+<d v="isolate" p="participle" ts="ˈaɪsəleɪt" tr="изолирующий"/>
+<d v="isolated" p="adjective" ts="ˈaɪsəleɪtɪd" tr="изолированный; обособленный"/>
+<d v="isolated" p="noun" ts="ˈaɪsəleɪtɪd" tr="изоляция"/>
+<d v="isolated" p="adverb" ts="ˈaɪsəleɪtɪd" tr="изолированно"/>
+<d v="isolated" p="participle" ts="ˈaɪsəleɪtɪd" tr="выделенный; отделенный; оторванный"/>
+<d v="isolation" p="noun" ts="aɪsəʊˈleɪʃn" tr="изоляция; изолированность; выделение; отрыв; одиночество; обособленность; оторванность"/>
+<d v="issue" p="noun" ts="ˈɪʃuː" tr="вопрос; выпуск; вытекание; разногласие; истечение; исход; потомство; предмет спора; дети"/>
+<d v="issue" p="verb" ts="ˈɪʃuː" tr="выпустить; выдавать; выходить; исходить"/>
+<d v="issue" p="participle" ts="ˈɪʃuː" tr="выдаваемый"/>
+<d v="isthmus" p="noun" ts="ˈɪsməs" tr="перешеек"/>
+<d v="it" p="pronoun" ts="ɪt" tr="это; она; он; оно; они; тот"/>
+<d v="Italian" p="adjective" ts="ɪˈtæljən" tr="итальянский"/>
+<d v="Italian" p="noun" ts="ɪˈtæljən" tr="итальянец"/>
+<d v="italic" p="noun" ts="ɪˈtælɪk" tr="курсив"/>
+<d v="italic" p="adjective" ts="ɪˈtælɪk" tr="курсивный; италийский"/>
+<d v="italics" p="noun" ts="ɪˈtælɪks" tr="курсив"/>
+<d v="itch" p="noun" ts="ɪʧ" tr="зуд; паршивость; жажда; непреодолимое желание"/>
+<d v="itch" p="verb" ts="ɪʧ" tr="зудеть"/>
+<d v="itchiness" p="noun" ts="ˈɪʧɪnəs" tr="зуд"/>
+<d v="itchy" p="noun" ts="ˈɪʧɪ" tr="зуд"/>
+<d v="itchy" p="participle" ts="ˈɪʧɪ" tr="зудящий; чешущийся"/>
+<d v="itchy" p="verb" ts="ˈɪʧɪ" tr="зудеть"/>
+<d v="item" p="noun" ts="ˈaɪtəm" tr="пункт; элемент; предмет; каждый отдельный предмет; сообщение; номер; новость"/>
+<d v="itemize" p="verb" ts="ˈaɪtəmaɪz" tr="перечислять; классифицировать; детализировать"/>
+<d v="itinerant" p="participle" ts="ɪˈtɪnərənt" tr="странствующий"/>
+<d v="itinerant" p="noun" ts="ɪˈtɪnərənt" tr="передвижник"/>
+<d v="itinerant" p="adjective" ts="ɪˈtɪnərənt" tr="передвижной"/>
+<d v="itinerary" p="noun" ts="aɪˈtɪnərərɪ" tr="маршрут; маршрут следования; путеводитель"/>
+<d v="itinerary" p="adjective" ts="aɪˈtɪnərərɪ" tr="путевой"/>
+<d v="its" p="pronoun" ts="ɪts" tr="свое; его; ее; она"/>
+<d v="itself" p="adjective" ts="ɪtˈself" tr="самостоятельный; непосредственный"/>
+<d v="itself" p="particle" ts="ɪtˈself" tr="собственно"/>
+<d v="IV" p="numeral" ts="ɪv" tr="четвертый"/>
+<d v="ivory" p="noun" ts="ˈaɪvərɪ" tr="слоновая кость; кость"/>
+<d v="ivory" p="adjective" ts="ˈaɪvərɪ" tr="слоновый"/>
+<d v="ivy" p="noun" ts="ˈaɪvɪ" tr="плющ"/>
+<d v="ivy League" p="noun" ts="ˈaɪvɪ liːg" tr="Лига плюща"/>
+
+</defs>

@@ -25,8 +25,8 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
             "e" to R.raw.e,
             "f" to R.raw.f,
             "g" to R.raw.g,
-            "h" to R.raw.h, /*
-            "i" to R.raw.i,*/
+            "h" to R.raw.h,
+            "i" to R.raw.i,
             "j" to R.raw.j,
             "k" to R.raw.k,
             "l" to R.raw.l,
@@ -35,7 +35,7 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
             "o" to R.raw.o,
             "p" to R.raw.p,
             "q" to R.raw.q,
-            "r" to R.raw.r/*,
+            "r" to R.raw.r,
             "s" to R.raw.s,
             "t" to R.raw.t,
             "u" to R.raw.u,
@@ -43,7 +43,7 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
             "w" to R.raw.w,
             "x" to R.raw.x,
             "y" to R.raw.y,
-            "z" to R.raw.z*/)
+            "z" to R.raw.z)
 
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({

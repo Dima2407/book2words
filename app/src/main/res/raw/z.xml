@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="zany" p="noun" ts="ˈzeɪnɪ" tr="шут; фигляр; сумасброд"/>
+<d v="zap" p="noun" ts="zæp" tr="зап; царапка"/>
+<d v="zeal" p="noun" ts="ziːl" tr="рвение; инициативность"/>
+<d v="zealous" p="adjective" ts="ˈzeləs" tr="ревностный; рьяный; усердный"/>
+<d v="zealous" p="verb" ts="ˈzeləs" tr="усердствовать"/>
+<d v="zealously" p="adverb" ts="ˈzeləslɪ" tr="ревностно"/>
+<d v="zebra" p="noun" ts="ˈziːbrə" tr="зебра"/>
+<d v="zero" p="noun" ts="ˈzɪərəʊ" tr="нуль; Зеро; нул"/>
+<d v="zero" p="adjective" ts="ˈzɪərəʊ" tr="нулевой"/>
+<d v="zero" p="verb" ts="ˈzɪərəʊ" tr="обнулить"/>
+<d v="zest" p="noun" ts="zest" tr="изюминка; цедра; пыл; интерес; пикантность; жизнелюбие; живость; склонность"/>
+<d v="zigzag" p="noun" ts="ˈzɪgzæg" tr="зигзаг"/>
+<d v="zigzag" p="adjective" ts="ˈzɪgzæg" tr="зигзагообразный"/>
+<d v="zillion" p="noun" ts="ˈzɪlɪən" tr="мильон"/>
+<d v="zinc" p="noun" ts="zɪŋk" tr="цинк; цинкование"/>
+<d v="zinc" p="adjective" ts="zɪŋk" tr="цинковый"/>
+<d v="zinc" p="participle" ts="zɪŋk" tr="оцинкованный"/>
+<d v="zinc" p="verb" ts="zɪŋk" tr="оцинковывать"/>
+<d v="zip" p="noun" ts="zɪp" tr="почтовый индекс; застежка-молния; застежка; ЗИП; свист пули"/>
+<d v="zip" p="adjective" ts="zɪp" tr="почтовый"/>
+<d v="zip" p="verb" ts="zɪp" tr="промелькнуть"/>
+<d v="zip code" p="noun" ts="ˈzɪpkəʊd" tr="почтовый индекс"/>
+<d v="zipper" p="noun" ts="ˈzɪpə" tr="молния"/>
+<d v="zodiac" p="noun" ts="ˈzəʊdɪæk" tr="зодиак"/>
+<d v="zodiac" p="adjective" ts="ˈzəʊdɪæk" tr="зодиакальный"/>
+<d v="zombie" p="noun" ts="ˈzɔmbɪ" tr="зомби"/>
+<d v="zone" p="noun" ts="zəʊn" tr="зона"/>
+<d v="zone" p="adjective" ts="zəʊn" tr="зональный; поясной; региональный"/>
+<d v="zoo" p="noun" ts="zuː" tr="зоопарк"/>
+<d v="zoological" p="adjective" ts="zəʊəˈlɔʤɪkəl" tr="зоологический"/>
+<d v="zoological" p="noun" ts="zəʊəˈlɔʤɪkəl" tr="зоопарк"/>
+<d v="zoologist" p="noun" ts="zəʊˈɔləʤɪst" tr="зоолог"/>
+<d v="zoology" p="noun" ts="zəʊˈɔləʤɪ" tr="зоология"/>
+<d v="zoology" p="adjective" ts="zəʊˈɔləʤɪ" tr="зоологический"/>
+<d v="zoom" p="noun" ts="zuːm" tr="увеличение; зум"/>
+<d v="zoom" p="verb" ts="zuːm" tr="просигналить"/>
+<d v="zoom lens" p="noun" ts="zuːm lenz" tr="зум-объектив"/>
+<d v="zucchini" p="noun" ts="zʊˈkiːnɪ" tr="кабачок"/>
+
+</defs>

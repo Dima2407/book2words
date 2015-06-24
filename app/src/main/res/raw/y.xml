@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="yacht" p="noun" ts="jɔt" tr="яхта"/>
+<d v="yacht" p="adjective" ts="jɔt" tr="яхтенный"/>
+<d v="Yak" p="noun" ts="jæk" tr="Як"/>
+<d v="Yam" p="noun" ts="jæm" tr="яма; батат"/>
+<d v="yank" p="noun" ts="jæŋk" tr="янки; рывок"/>
+<d v="yank" p="verb" ts="jæŋk" tr="дернуть"/>
+<d v="yank" p="noun" ts="jæŋk" tr="янки; рывок"/>
+<d v="yank" p="verb" ts="jæŋk" tr="дернуть"/>
+<d v="Yankee" p="noun" ts="ˈjæŋkɪ" tr="янки; американец"/>
+<d v="Yankee" p="adjective" ts="ˈjæŋkɪ" tr="американский"/>
+<d v="YAP" p="noun" ts="jæp" tr="Яп; тявканье; хайло; трепло"/>
+<d v="YAP" p="verb" ts="jæp" tr="тявкать"/>
+<d v="yard" p="noun" ts="jɑːd" tr="двор; верфь; парк"/>
+<d v="yard" p="adjective" ts="jɑːd" tr="дворовый"/>
+<d v="yardstick" p="noun" ts="ˈjɑːdstɪk" tr="критерий; мерка"/>
+<d v="yarmulke" p="noun" ts="ˈjɑːmɪk" tr="ермолка"/>
+<d v="yarn" p="noun" ts="jɑːn" tr="пряжа; байка"/>
+<d v="yawn" p="verb" ts="jɔːn" tr="зевнуть; зевать"/>
+<d v="yawn" p="noun" ts="jɔːn" tr="зевок; зевота"/>
+<d v="year" p="noun" ts="jɜː" tr="год"/>
+<d v="yearbook" p="noun" ts="ˈjɜːbʊk" tr="ежегодник"/>
+<d v="yearling" p="adjective" ts="ˈjɜːlɪŋ" tr="годовалый"/>
+<d v="yearly" p="adjective" ts="ˈjɜːlɪ" tr="ежегодный"/>
+<d v="yearly" p="adverb" ts="ˈjɜːlɪ" tr="ежегодно"/>
+<d v="yearly" p="noun" ts="ˈjɜːlɪ" tr="каждый год"/>
+<d v="yearn" p="verb" ts="jɜːn" tr="жаждать; тосковать"/>
+<d v="yearning" p="noun" ts="ˈjɜːnɪŋ" tr="стремление; острая тоска"/>
+<d v="yearning" p="participle" ts="ˈjɜːnɪŋ" tr="тоскующий"/>
+<d v="yeast" p="noun" ts="jiːst" tr="дрожжи; молочница"/>
+<d v="yeast" p="adjective" ts="jiːst" tr="дрожжевой"/>
+<d v="yell" p="verb" ts="jel" tr="кричать; заорать; вопить; наорать; позвать; ругаться"/>
+<d v="yell" p="noun" ts="jel" tr="крик"/>
+<d v="yellow" p="adjective" ts="ˈjeləʊ" tr="желтый"/>
+<d v="yellow" p="verb" ts="ˈjeləʊ" tr="желтеть"/>
+<d v="yellow" p="noun" ts="ˈjeləʊ" tr="желтизна; желток"/>
+<d v="yellowish" p="adjective" ts="ˈjeləʊɪʃ" tr="желтоватый"/>
+<d v="yelp" p="noun" ts="jelp" tr="визг"/>
+<d v="yelp" p="verb" ts="jelp" tr="визжать; тявкать; лаять"/>
+<d v="yen" p="noun" ts="jen" tr="иена"/>
+<d v="yes" p="noun" ts="jes" tr="утвердительный ответ; согласие"/>
+<d v="yesterday" p="adjective" ts="ˈjestədɪ" tr="вчерашний"/>
+<d v="yesterday" p="noun" ts="ˈjestədɪ" tr="позавчера"/>
+<d v="yet" p="particle" ts="jet" tr="еще; пока; даже"/>
+<d v="yet" p="conjunction" ts="jet" tr="но"/>
+<d v="yet" p="adverb" ts="jet" tr="однако; уже; даже более"/>
+<d v="yet" p="pronoun" ts="jet" tr="все же"/>
+<d v="yet" p="noun" ts="jet" tr="до сих пор; кроме того; несмотря на это"/>
+<d v="Yiddish" p="noun" ts="ˈjɪdɪʃ" tr="идиш"/>
+<d v="yield" p="noun" ts="jiːld" tr="доходность; урожайность; выход; текучесть; дебит"/>
+<d v="yield" p="verb" ts="jiːld" tr="уступать; давать; принести; производить; сдаться; соглашаться"/>
+<d v="yodel" p="noun" ts="jəʊdl" tr="йодль"/>
+<d v="yoga" p="noun" ts="ˈjəʊgə" tr="йога"/>
+<d v="yoga" p="adjective" ts="ˈjəʊgə" tr="йогический"/>
+<d v="yogurt" p="noun" ts="ˈjɔgɜːt" tr="йогурт"/>
+<d v="yoke" p="noun" ts="jəʊk" tr="иго; хомут; коромысло; кокетка; бугель; обойма; узы"/>
+<d v="yoke" p="verb" ts="jəʊk" tr="запрячь"/>
+<d v="yokel" p="noun" ts="ˈjəʊkəl" tr="деревенщина"/>
+<d v="yolk" p="noun" ts="jəʊk" tr="желток"/>
+<d v="yonder" p="adverb" ts="ˈjɔndə" tr="там; вон там"/>
+<d v="yonder" p="particle" ts="ˈjɔndə" tr="вон"/>
+<d v="you" p="pronoun" ts="juː" tr="вы; ты"/>
+<d v="young" p="adjective" ts="jʌŋ" tr="молодой"/>
+<d v="young" p="noun" ts="jʌŋ" tr="молодежь; Янг; молодняк"/>
+<d v="young" p="participle" ts="jʌŋ" tr="подрастающий"/>
+<d v="youngster" p="noun" ts="ˈjʌŋstə" tr="ребенок"/>
+<d v="youngster" p="adjective" ts="ˈjʌŋstə" tr="молодой"/>
+<d v="your" p="pronoun" ts="jɔː" tr="ваш; свой; твой; вы"/>
+<d v="yours" p="pronoun" ts="jɔːz" tr="ваш"/>
+<d v="yourself" p="particle" ts="jɔːˈself" tr="себе"/>
+<d v="youth" p="noun" ts="juːθ" tr="молодежь; юность"/>
+<d v="youth" p="adjective" ts="juːθ" tr="молодежный"/>
+<d v="youthful" p="adjective" ts="ˈjuːθfʊl" tr="молодой; юношеский"/>
+<d v="youthful" p="noun" ts="ˈjuːθfʊl" tr="молодость"/>
+<d v="youth hostel" p="noun" ts="juːθ ˈhɔstəl" tr="молодежное общежитие; молодежная турбаза; молодежная гостиница"/>
+<d v="yuletide" p="noun" ts="ˈjuːltaɪd" tr="святки"/>
+<d v="yuletide" p="adjective" ts="ˈjuːltaɪd" tr="Святочный"/>
+<d v="yum" p="noun" ts="jʌm" tr="Юм"/>
+<d v="yummy" p="adjective" ts="ˈjʌmɪ" tr="вкусный"/>
+<d v="yummy" p="noun" ts="ˈjʌmɪ" tr="вкуснятина"/>
+<d v="yuppie" p="noun" ts="ˈjʌpɪ" tr="яппи"/>
+
+</defs>

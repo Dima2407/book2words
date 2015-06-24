@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="wacky" p="adjective" ts="ˈwækɪ" tr="дурацкий; странный; юродивый"/>
+<d v="wad" p="noun" ts="wɔd" tr="пачка; пыж"/>
+<d v="wade" p="noun" ts="weɪd" tr="Уэйд; Брод"/>
+<d v="wade" p="verb" ts="weɪd" tr="пробираться; побрести; идти; переходить вброд"/>
+<d v="wafer" p="noun" ts="ˈweɪfə" tr="вафля; облатка"/>
+<d v="wafer" p="adjective" ts="ˈweɪfə" tr="вафельный"/>
+<d v="waffle" p="noun" ts="wɔfl" tr="вафля"/>
+<d v="waffle" p="adjective" ts="wɔfl" tr="вафельный"/>
+<d v="waft" p="noun" ts="wɑːft" tr="дуновение"/>
+<d v="wag" p="verb" ts="wæg" tr="вилять; вильнуть; помахать; грозить; болтать; прогуливать"/>
+<d v="wag" p="noun" ts="wæg" tr="шутник; остряк; взмах"/>
+<d v="wage" p="noun" ts="weɪʤ" tr="заработная плата; вести; ведение; возмездие"/>
+<d v="wage" p="adjective" ts="weɪʤ" tr="заработный; наемный"/>
+<d v="wage" p="verb" ts="weɪʤ" tr="проводить; бороться"/>
+<d v="wager" p="noun" ts="ˈweɪʤə" tr="ставка"/>
+<d v="wager" p="verb" ts="ˈweɪʤə" tr="рисковать"/>
+<d v="wages" p="noun" ts="ˈweɪʤɪz" tr="заработная плата"/>
+<d v="wagon" p="noun" ts="wægn" tr="вагон; фургон"/>
+<d v="wagon train" p="noun" ts="wægn treɪn" tr="обоз"/>
+<d v="waif" p="adjective" ts="weɪf" tr="беспризорный"/>
+<d v="waif" p="noun" ts="weɪf" tr="бродяжка"/>
+<d v="wail" p="noun" ts="weɪl" tr="вопль"/>
+<d v="wail" p="verb" ts="weɪl" tr="причитать; выть; вопить; голосить; оплакивать"/>
+<d v="waist" p="noun" ts="weɪst" tr="талия; поясница; лиф"/>
+<d v="waist" p="adjective" ts="weɪst" tr="поясной"/>
+<d v="waistband" p="noun" ts="ˈweɪstbænd" tr="пояс"/>
+<d v="waistline" p="noun" ts="ˈweɪstlaɪn" tr="талия; линия талии"/>
+<d v="wait" p="verb" ts="weɪt" tr="ждать; погодить; прождать; откладывать; пережидать; прислуживать; сопутствовать"/>
+<d v="wait" p="noun" ts="weɪt" tr="ожидание; засада; выжидание"/>
+<d v="waiter" p="noun" ts="ˈweɪtə" tr="официант"/>
+<d v="waiting list" p="noun" ts="ˈweɪtɪŋ lɪst" tr="лист ожидания; список очередности; список ожидающих"/>
+<d v="waiting room" p="noun" ts="ˈweɪtɪŋ ruːm" tr="зал ожидания; приемная; комната ожидания; предбанник"/>
+<d v="waitress" p="noun" ts="ˈweɪtrɪs" tr="официантка"/>
+<d v="waive" p="verb" ts="weɪv" tr="отказаться; поступаться"/>
+<d v="waiver" p="noun" ts="ˈweɪvə" tr="отказ; отказ от прав"/>
+<d v="wake" p="verb" ts="weɪk" tr="проснуться; будить; вставать; осознать; опомниться"/>
+<d v="wake" p="noun" ts="weɪk" tr="след; бодрствование; поминки; кильватер"/>
+<d v="waken" p="verb" ts="ˈweɪkən" tr="разбудить; пробудиться"/>
+<d v="walk" p="noun" ts="wɔːk" tr="ходьба; профессия; тропа"/>
+<d v="walk" p="verb" ts="wɔːk" tr="ходить; гулять; прогуливать; идти пешком; обходить; появляться"/>
+<d v="walker" p="noun" ts="ˈwɔːkə" tr="Уокер; Уолкер; ходок; ходунок; пешеход; странник; скороход"/>
+<d v="walking stick" p="noun" ts="ˈwɔːkɪŋ stɪk" tr="трость"/>
+<d v="Walkman" p="noun" ts="ˈwɔːkmən" tr="плеер"/>
+<d v="walkout" p="noun" ts="ˈwɔːkˈaʊt" tr="забастовка"/>
+<d v="wall" p="noun" ts="wɔːl" tr="стена; Уолл; барьер"/>
+<d v="wall" p="adjective" ts="wɔːl" tr="настенный"/>
+<d v="wall" p="verb" ts="wɔːl" tr="замуровывать"/>
+<d v="wallet" p="noun" ts="ˈwɔlɪt" tr="бумажник"/>
+<d v="wallop" p="verb" ts="ˈwɔləp" tr="поколотить; бить"/>
+<d v="wallop" p="noun" ts="ˈwɔləp" tr="грохот"/>
+<d v="wallow" p="verb" ts="ˈwɔləʊ" tr="погрязнуть; барахтаться; купаться; погрязать"/>
+<d v="wallow" p="adverbial participle" ts="ˈwɔləʊ" tr="валяясь"/>
+<d v="wallow" p="noun" ts="ˈwɔləʊ" tr="валяние"/>
+<d v="Wallpaper" p="noun" ts="ˈwɔːlpeɪpə" tr="обои"/>
+<d v="Wallpaper" p="adjective" ts="ˈwɔːlpeɪpə" tr="обойный"/>
+<d v="walnut" p="adjective" ts="ˈwɔːlnʌt" tr="грецкий; ореховый"/>
+<d v="walnut" p="noun" ts="ˈwɔːlnʌt" tr="орех"/>
+<d v="walrus" p="noun" ts="ˈwɔːlrəs" tr="морж"/>
+<d v="walrus" p="adjective" ts="ˈwɔːlrəs" tr="моржовый"/>
+<d v="waltz" p="noun" ts="wɔːls" tr="вальс"/>
+<d v="waltz" p="verb" ts="wɔːls" tr="вальсировать"/>
+<d v="WAN" p="noun" ts="wɔn" tr="ван; сеть WAN; ГВС"/>
+<d v="WAN" p="adjective" ts="wɔn" tr="бледный; болезненный"/>
+<d v="wand" p="noun" ts="wɔnd" tr="палочка; скипетр"/>
+<d v="wander" p="verb" ts="ˈwɔndə" tr="бродить; бродяжничать; шататься; шляться; витать; бредить"/>
+<d v="wander" p="noun" ts="ˈwɔndə" tr="блуждание"/>
+<d v="wanderer" p="noun" ts="ˈwɔndərə" tr="странник; путешественник; бродяга"/>
+<d v="wane" p="verb" ts="weɪn" tr="ослабевать; уменьшаться; падать"/>
+<d v="wane" p="noun" ts="weɪn" tr="убыль; обзол; упадок; убывание"/>
+<d v="wannabe" p="noun" ts="ˈwɒnɪbiː" tr="подражатель"/>
+<d v="want" p="verb" ts="wɔnt" tr="хотеть; требоваться"/>
+<d v="want" p="noun" ts="wɔnt" tr="желание; недостаток; необходимость; потребность"/>
+<d v="wanted" p="participle" ts="ˈwɒntɪd" tr="разыскиваемый"/>
+<d v="wanting" p="participle" ts="ˈwɔntɪŋ" tr="желающий; нуждающийся"/>
+<d v="wanton" p="adjective" ts="ˈwɔntən" tr="бессмысленный; беспричинный; распутный; произвольный; безответственный; экстравагантный; буйный; своенравный"/>
+<d v="wanton" p="noun" ts="ˈwɔntən" tr="распутница"/>
+<d v="war" p="noun" ts="wɔː" tr="война"/>
+<d v="war" p="adjective" ts="wɔː" tr="военный"/>
+<d v="war" p="verb" ts="wɔː" tr="воевать"/>
+<d v="warble" p="noun" ts="wɔːbl" tr="трель"/>
+<d v="warble" p="verb" ts="wɔːbl" tr="петь"/>
+<d v="war crime" p="noun" ts="wɔː kraɪm" tr="военное преступление"/>
+<d v="war criminal" p="noun" ts="wɔː ˈkrɪmɪnl" tr="военный преступник"/>
+<d v="ward" p="noun" ts="wɔːd" tr="палата; подопечный; Уорд; приход; оберег; страж; полог"/>
+<d v="ward" p="verb" ts="wɔːd" tr="отвратить; отогнать"/>
+<d v="ward" p="adjective" ts="wɔːd" tr="палатный"/>
+<d v="ward" p="participle" ts="wɔːd" tr="опекаемый"/>
+<d v="warden" p="noun" ts="wɔːdn" tr="страж; начальник; надзиратель; староста; Уорден; лесничий; начальник тюрьмы; губернатор"/>
+<d v="wardrobe" p="noun" ts="ˈwɔːdrəʊb" tr="гардероб"/>
+<d v="wardrobe" p="adjective" ts="ˈwɔːdrəʊb" tr="гардеробный"/>
+<d v="ware" p="noun" ts="wɛə" tr="изделия; посуда"/>
+<d v="ware" p="adjective" ts="wɛə" tr="продовольственный; вещевой"/>
+<d v="warehouse" p="noun" ts="ˈwɛəhaʊs" tr="склад; пакгауз"/>
+<d v="warehouse" p="adjective" ts="ˈwɛəhaʊs" tr="складской"/>
+<d v="warfare" p="noun" ts="ˈwɔːfɛə" tr="война; ведение войны; столкновение"/>
+<d v="war game" p="noun" ts="wɔː geɪm" tr="военная игра"/>
+<d v="warhead" p="noun" ts="ˈwɔːhed" tr="боеголовка; боевая часть"/>
+<d v="warily" p="adverb" ts="ˈwɛərɪlɪ" tr="осторожно"/>
+<d v="warlike" p="adjective" ts="ˈwɔːlaɪk" tr="воинственный"/>
+<d v="warlock" p="noun" ts="ˈwɔːlɔk" tr="колдун; ведьмак"/>
+<d v="warlord" p="noun" ts="ˈwɔːlɔːd" tr="военачальник; военный барон"/>
+<d v="warm" p="adjective" ts="wɔːm" tr="теплый"/>
+<d v="warm" p="noun" ts="wɔːm" tr="тепло; разминка; согревание"/>
+<d v="warm" p="verb" ts="wɔːm" tr="согревать; подогреть; разогревать; воодушевляться"/>
+<d v="warm" p="participle" ts="wɔːm" tr="подогретый; утепленный; согретый"/>
+<d v="warmly" p="noun" ts="ˈwɔːmlɪ" tr="тепло"/>
+<d v="warmly" p="adverb" ts="ˈwɔːmlɪ" tr="горячо"/>
+<d v="warmonger" p="noun" ts="ˈwɔːmʌŋgə" tr="поджигатель; поджигатель войны"/>
+<d v="warmth" p="noun" ts="wɔːmθ" tr="тепло; сердечность"/>
+<d v="warmth" p="adjective" ts="wɔːmθ" tr="теплый"/>
+<d v="warn" p="verb" ts="wɔːn" tr="предупреждать; предостерегать"/>
+<d v="warn" p="noun" ts="wɔːn" tr="предупреждение"/>
+<d v="warning" p="noun" ts="ˈwɔːnɪŋ" tr="предупреждение; признак"/>
+<d v="warning" p="participle" ts="ˈwɔːnɪŋ" tr="предупреждающий"/>
+<d v="warning" p="adjective" ts="ˈwɔːnɪŋ" tr="предупредительный"/>
+<d v="warp" p="noun" ts="wɔːp" tr="деформация; основа"/>
+<d v="warp" p="verb" ts="wɔːp" tr="деформироваться; коробить; искажать; покоробиться; верповать"/>
+<d v="warped" p="participle" ts="wɔːpt" tr="деформированный; извращенный"/>
+<d v="warrant" p="noun" ts="ˈwɔrənt" tr="ордер; основание; приговор; полномочия; правомочие"/>
+<d v="warrant" p="verb" ts="ˈwɔrənt" tr="гарантировать; оправдывать; потребовать"/>
+<d v="warranty" p="noun" ts="ˈwɔrəntɪ" tr="гарантия; гарантийное обязательство; основание"/>
+<d v="warranty" p="adjective" ts="ˈwɔrəntɪ" tr="гарантийный"/>
+<d v="Warren" p="noun" ts="ˈwɔrən" tr="Уоррен"/>
+<d v="warring" p="participle" ts="ˈwɔːrɪŋ" tr="воюющий; враждующий"/>
+<d v="warrior" p="noun" ts="ˈwɔrɪə" tr="воин; ратник; воительница"/>
+<d v="warship" p="noun" ts="ˈwɔːʃɪp" tr="корабль; военный корабль"/>
+<d v="wart" p="noun" ts="wɔːt" tr="бородавка; бородавочка; нарост"/>
+<d v="wartime" p="adjective" ts="ˈwɔːtaɪm" tr="военный"/>
+<d v="wartime" p="noun" ts="ˈwɔːtaɪm" tr="военное время"/>
+<d v="wary" p="adjective" ts="ˈwɛərɪ" tr="осторожный; настороженный; подозрительный"/>
+<d v="wary" p="verb" ts="ˈwɛərɪ" tr="опасаться; насторожиться"/>
+<d v="wary" p="noun" ts="ˈwɛərɪ" tr="с осторожностью"/>
+<d v="wary" p="adverb" ts="ˈwɛərɪ" tr="настороженно"/>
+<d v="wary" p="participle" ts="ˈwɛərɪ" tr="насторожившийся"/>
+<d v="wash" p="verb" ts="wɔʃ" tr="мыть; вымыть; промыть; стирать; омыть; умываться; отмыть; постирать; вымывать; очищать; переливаться; литься; белить; обогащать"/>
+<d v="wash" p="noun" ts="wɔʃ" tr="мойка; мытье; волна; балка; Бурда; кильватер; помои"/>
+<d v="washable" p="participle" ts="ˈwɔʃəbl" tr="моющийся; стирающийся; смываемый"/>
+<d v="washable" p="noun" ts="ˈwɔʃəbl" tr="стирка"/>
+<d v="washbasin" p="noun" ts="ˈwɔʃbeɪsn" tr="умывальная раковина; таз"/>
+<d v="washcloth" p="noun" ts="ˈwɔʃklɔθ" tr="мочалка"/>
+<d v="washer" p="noun" ts="ˈwɔʃə" tr="шайба; стиральная машина; мойка; омыватель; промывной аппарат"/>
+<d v="washing" p="adjective" ts="ˈwɔʃɪŋ" tr="стиральный; промывочный"/>
+<d v="washing" p="noun" ts="ˈwɔʃɪŋ" tr="мытье; промывка; запиток; омывание"/>
+<d v="washing" p="participle" ts="ˈwɔʃɪŋ" tr="моющий; омывающий; смывающий"/>
+<d v="washing machine" p="noun" ts="ˈwɔʃɪŋ məˈʃiːn" tr="стиральная машина"/>
+<d v="washout" p="noun" ts="ˈwɒʃaʊt" tr="размыв; вымывание"/>
+<d v="washroom" p="noun" ts="ˈwɒʃruːm" tr="умывальная"/>
+<d v="wasp" p="noun" ts="wɔsp" tr="ОСА"/>
+<d v="wasp" p="noun" ts="wɔsp" tr="ОСА"/>
+<d v="waste" p="noun" ts="weɪst" tr="трата; мусор; пустая трата; пустыня; потеря; макулатура; лом; порча"/>
+<d v="waste" p="verb" ts="weɪst" tr="тратить; опустошать; чахнуть; портить; изнурять"/>
+<d v="waste" p="adjective" ts="weɪst" tr="сточный; неныжный; ненужный; пустынный"/>
+<d v="wastebasket" p="noun" ts="ˈweɪstbɑːskɪt" tr="мусорная корзина"/>
+<d v="wasted" p="adverb" ts="ˈweɪstɪd" tr="впустую"/>
+<d v="wasteful" p="adjective" ts="ˈweɪstfʊl" tr="расточительный; затратный"/>
+<d v="wasteland" p="noun" ts="ˈweɪstlænd" tr="пустошь"/>
+<d v="watch" p="verb" ts="wɔʧ" tr="смотреть; бодрствовать; охранять; ждать; дежурить"/>
+<d v="watch" p="noun" ts="wɔʧ" tr="часы; вахта; наблюдение; стража; внимание; сторож"/>
+<d v="watch" p="adjective" ts="wɔʧ" tr="часовой"/>
+<d v="watchdog" p="noun" ts="ˈwɔʧdɔg" tr="сторожевой пес; наблюдатель; барбос; контролер; сторож"/>
+<d v="watchdog" p="adjective" ts="ˈwɔʧdɔg" tr="наблюдательный"/>
+<d v="watchful" p="adjective" ts="ˈwɔʧfʊl" tr="бдительный; внимательный"/>
+<d v="watchmaker" p="noun" ts="ˈwɒʧmeɪkər" tr="часовщик"/>
+<d v="watchman" p="noun" ts="ˈwɔʧmən" tr="сторож; Вочман; страж; дозорный"/>
+<d v="watchword" p="noun" ts="ˈwɔʧwɜːd" tr="лозунг; пароль"/>
+<d v="water" p="noun" ts="ˈwɔːtə" tr="вода; паводок; слюна"/>
+<d v="water" p="adjective" ts="ˈwɔːtə" tr="водный"/>
+<d v="water" p="verb" ts="ˈwɔːtə" tr="поливать; мочить; поить; орошать; слезиться; разбавлять"/>
+<d v="waterbed" p="noun" ts="ˈwɔːtəbed" tr="водяная кровать"/>
+<d v="watercolor" p="noun" ts="ˈwɔːtəkʌlər" tr="акварель"/>
+<d v="watercolor" p="adjective" ts="ˈwɔːtəkʌlər" tr="акварельный"/>
+<d v="waterfall" p="noun" ts="ˈwɔːtəfɔːl" tr="водопад"/>
+<d v="waterfall" p="adjective" ts="ˈwɔːtəfɔːl" tr="водопадный"/>
+<d v="water fountain" p="noun" ts="ˈwɔːtə ˈfaʊntɪn" tr="фонтан; водный фонтан"/>
+<d v="waterfront" p="noun" ts="ˈwɔːtəfrʌnt" tr="набережная"/>
+<d v="waterlogged" p="adjective" ts="ˈwɔːtəlɔgd" tr="заболоченный"/>
+<d v="watermark" p="adjective" ts="ˈwɔːtəmɑːk" tr="водяной"/>
+<d v="watermark" p="noun" ts="ˈwɔːtəmɑːk" tr="водяной знак"/>
+<d v="watermelon" p="noun" ts="ˈwɔːtəmelən" tr="арбуз"/>
+<d v="watermelon" p="adjective" ts="ˈwɔːtəmelən" tr="арбузный"/>
+<d v="water polo" p="noun" ts="ˈwɔːtəˈpəʊləʊ" tr="водное поло"/>
+<d v="waterproof" p="adjective" ts="ˈwɔːtəpruːf" tr="водонепроницаемый; водоустойчивый; водостойкий"/>
+<d v="waterproof" p="noun" ts="ˈwɔːtəpruːf" tr="водонепроницаемость"/>
+<d v="watershed" p="noun" ts="ˈwɔːtəʃed" tr="водораздел"/>
+<d v="watershed" p="adjective" ts="ˈwɔːtəʃed" tr="переломный; водораздельный"/>
+<d v="watertight" p="adjective" ts="ˈwɔːtətaɪt" tr="водонепроницаемый; герметичный; неопровержимый"/>
+<d v="watertight" p="noun" ts="ˈwɔːtətaɪt" tr="водонепроницаемость"/>
+<d v="water tower" p="noun" ts="ˈwɔːtə ˈtaʊə" tr="водонапорная башня; водяная башня"/>
+<d v="waterway" p="noun" ts="ˈwɔːtəweɪ" tr="водный путь; водная артерия; фарватер"/>
+<d v="waterworks" p="noun" ts="ˈwɔːtəwɜːks" tr="водопроводная станция; гидроузел; водопроводные сооружения; водные сооружения; фонтан"/>
+<d v="waterworks" p="adjective" ts="ˈwɔːtəwɜːks" tr="водохозяйственный"/>
+<d v="watery" p="adjective" ts="ˈwɔːtərɪ" tr="водянистый; жидкий; бледный"/>
+<d v="watery" p="verb" ts="ˈwɔːtərɪ" tr="слезиться"/>
+<d v="watt" p="noun" ts="wɔt" tr="ватт"/>
+<d v="wave" p="noun" ts="weɪv" tr="волна; завивка; волнистость"/>
+<d v="wave" p="adjective" ts="weɪv" tr="волновой"/>
+<d v="wave" p="verb" ts="weɪv" tr="махать; помахать; развеваться; волноваться"/>
+<d v="wavelength" p="noun" ts="ˈweɪvleŋθ" tr="длина волны; длина"/>
+<d v="waver" p="verb" ts="ˈweɪvə" tr="колебаться; дрогнуть; поколебаться"/>
+<d v="wavy" p="adjective" ts="ˈweɪvɪ" tr="волнистый"/>
+<d v="wax" p="noun" ts="wæks" tr="воск; вощение; ушная сера"/>
+<d v="wax" p="adjective" ts="wæks" tr="восковой"/>
+<d v="wax" p="verb" ts="wæks" tr="вощить"/>
+<d v="wax paper" p="noun" ts="wæks ˈpeɪpə" tr="вощеная бумага; бумага воска"/>
+<d v="waxy" p="adjective" ts="ˈwæksɪ" tr="восковой; воскообразный"/>
+<d v="way" p="noun" ts="weɪ" tr="способ; путь; вид; отношение; слово; обычай; область; расстояние"/>
+<d v="waylay" p="verb" ts="weɪˈleɪ" tr="подстеречь; подстерегать"/>
+<d v="wayside" p="noun" ts="ˈweɪsaɪd" tr="обочина"/>
+<d v="wayside" p="adjective" ts="ˈweɪsaɪd" tr="придорожный"/>
+<d v="wayward" p="adjective" ts="ˈweɪwəd" tr="своенравный; заблудший"/>
+<d v="wayward" p="participle" ts="ˈweɪwəd" tr="сбившийся с пути"/>
+<d v="we" p="pronoun" ts="wiː" tr="мы"/>
+<d v="weak" p="adjective" ts="wiːk" tr="слабый; слабоватый"/>
+<d v="weak" p="noun" ts="wiːk" tr="слабость; слабак"/>
+<d v="weak" p="participle" ts="wiːk" tr="ослабленный; ослабевший"/>
+<d v="weak" p="verb" ts="wiːk" tr="ослабеть"/>
+<d v="weaken" p="verb" ts="ˈwiːkən" tr="ослабить; ослабевать; слабеть; обессилить"/>
+<d v="weaken" p="noun" ts="ˈwiːkən" tr="ослабление"/>
+<d v="weakling" p="noun" ts="ˈwiːklɪŋ" tr="слабак"/>
+<d v="weakly" p="adverb" ts="ˈwiːklɪ" tr="слабо; слабовато"/>
+<d v="weakly" p="adjective" ts="ˈwiːklɪ" tr="слабый"/>
+<d v="weakness" p="noun" ts="ˈwiːknɪs" tr="слабость; слабая сторона; пристрастие; неубедительность; необоснованность"/>
+<d v="weakness" p="adjective" ts="ˈwiːknɪs" tr="слабый"/>
+<d v="wealth" p="noun" ts="welθ" tr="богатство; благосостояние; материальные ценности"/>
+<d v="wealth" p="adjective" ts="welθ" tr="богатый"/>
+<d v="wealthy" p="adjective" ts="ˈwelθɪ" tr="богатый"/>
+<d v="wealthy" p="participle" ts="ˈwelθɪ" tr="обеспеченный; разбогатевший"/>
+<d v="wealthy" p="noun" ts="ˈwelθɪ" tr="богач"/>
+<d v="wealthy" p="verb" ts="ˈwelθɪ" tr="разбогатеть"/>
+<d v="wean" p="verb" ts="wiːn" tr="отучить; отлучать; отнять; отвыкнуть"/>
+<d v="weapon" p="noun" ts="ˈwepən" tr="оружие"/>
+<d v="weapon" p="adjective" ts="ˈwepən" tr="оружейный"/>
+<d v="weaponry" p="noun" ts="ˈwepənrɪ" tr="оружие"/>
+<d v="wear" p="verb" ts="wɛə" tr="носить; надеть; одевать; изнашивать; стираться; утомлять; изнурять; выглядеть; протирать"/>
+<d v="wear" p="noun" ts="wɛə" tr="износ; одежда; ношение; носкость"/>
+<d v="wear" p="adverbial participle" ts="wɛə" tr="изнашиваясь"/>
+<d v="wear" p="adjective" ts="wɛə" tr="изношенный"/>
+<d v="wearily" p="adverb" ts="ˈwɪərɪlɪ" tr="устало"/>
+<d v="weariness" p="noun" ts="ˈwɪərɪnɪs" tr="усталость; скука"/>
+<d v="wearisome" p="adjective" ts="ˈwɪərɪsəm" tr="изнурительный"/>
+<d v="weary" p="verb" ts="ˈwɪərɪ" tr="устать; томить; тяготиться"/>
+<d v="weary" p="adjective" ts="ˈwɪərɪ" tr="усталый; утомительный"/>
+<d v="weary" p="participle" ts="ˈwɪərɪ" tr="утомленный; измученный"/>
+<d v="weary" p="noun" ts="ˈwɪərɪ" tr="усталость"/>
+<d v="weasel" p="noun" ts="wiːzl" tr="ласка"/>
+<d v="weather" p="noun" ts="ˈweðə" tr="погода; непогода"/>
+<d v="weather" p="adjective" ts="ˈweðə" tr="погодный"/>
+<d v="weather" p="verb" ts="ˈweðə" tr="выдерживать"/>
+<d v="weather forecast" p="noun" ts="ˈweðə ˈfɔːkɑːst" tr="прогноз погоды; метеорологический прогноз"/>
+<d v="weather forecaster" p="noun" ts="ˈweðə ˈfɔːkɑːstər" tr="синоптик"/>
+<d v="weather vane" p="noun" ts="ˈweðə veɪn" tr="флюгер"/>
+<d v="weave" p="verb" ts="wiːv" tr="ткать; сплести; вплетать; сплестись; соединять; сочинять"/>
+<d v="weave" p="noun" ts="wiːv" tr="плетение; узор"/>
+<d v="weave" p="adjective" ts="wiːv" tr="ткацкий"/>
+<d v="web" p="noun" ts="web" tr="веб; ткань; полотно"/>
+<d v="website" p="noun" ts="ˈwebsaɪt" tr="сайт"/>
+<d v="wed" p="verb" ts="wed" tr="жениться"/>
+<d v="wedding" p="noun" ts="ˈwedɪŋ" tr="свадьба; венчание"/>
+<d v="wedding" p="adjective" ts="ˈwedɪŋ" tr="свадебный"/>
+<d v="wedding ring" p="noun" ts="ˈwedɪŋ rɪŋ" tr="обручальное кольцо; свадебное кольцо"/>
+<d v="wedge" p="noun" ts="weʤ" tr="клин"/>
+<d v="wedge" p="adjective" ts="weʤ" tr="клиновой"/>
+<d v="wedge" p="verb" ts="weʤ" tr="заклинить; вклиниться"/>
+<d v="wedlock" p="noun" ts="ˈwedlɔk" tr="брак"/>
+<d v="Wednesday" p="noun" ts="ˈwenzdɪ" tr="среда"/>
+<d v="wee" p="noun" ts="wiː" tr="пи; дите; моча"/>
+<d v="wee" p="adjective" ts="wiː" tr="крошечный"/>
+<d v="weed" p="noun" ts="wiːd" tr="сорняк; трава; сорная трава; табак"/>
+<d v="weed" p="verb" ts="wiːd" tr="полоть; отсеять; отбирать"/>
+<d v="week" p="noun" ts="wiːk" tr="неделя"/>
+<d v="week" p="adjective" ts="wiːk" tr="недельный"/>
+<d v="weekday" p="noun" ts="ˈwiːkdeɪ" tr="будний день; день недели"/>
+<d v="weekday" p="adjective" ts="ˈwiːkdeɪ" tr="будний"/>
+<d v="weekend" p="adjective" ts="ˈwiːkˈend" tr="выходной"/>
+<d v="weekend" p="noun" ts="ˈwiːkˈend" tr="выходной день; уикенд"/>
+<d v="weekly" p="adjective" ts="ˈwiːklɪ" tr="еженедельный"/>
+<d v="weekly" p="noun" ts="ˈwiːklɪ" tr="еженедельник; неделя"/>
+<d v="weep" p="verb" ts="wiːp" tr="плакать; прослезиться; выплакаться; запотевать"/>
+<d v="weep" p="noun" ts="wiːp" tr="плач"/>
+<d v="weigh" p="verb" ts="weɪ" tr="весить; взвесить; давить; оценивать; тяготить; отвешивать; влиять; сравнивать"/>
+<d v="weigh" p="noun" ts="weɪ" tr="вес"/>
+<d v="weigh" p="adjective" ts="weɪ" tr="весовой"/>
+<d v="weight" p="noun" ts="weɪt" tr="вес; тяжесть; значение; похудание; штанга; грузик"/>
+<d v="weight" p="adjective" ts="weɪt" tr="весовой"/>
+<d v="weight" p="verb" ts="weɪt" tr="нагружать; отягощать"/>
+<d v="weightless" p="adjective" ts="ˈweɪtlɪs" tr="невесомый"/>
+<d v="weightless" p="noun" ts="ˈweɪtlɪs" tr="невесомость"/>
+<d v="weightlessness" p="noun" ts="ˈweɪtlɪsnɪs" tr="невесомость"/>
+<d v="weightlifter" p="noun" ts="ˈweɪtlɪftə" tr="тяжелоатлет"/>
+<d v="weightlifting" p="noun" ts="ˈweɪtlɪftɪŋ" tr="атлетика; тяжелая атлетика"/>
+<d v="weighty" p="adjective" ts="ˈweɪtɪ" tr="весомый; увесистый"/>
+<d v="weird" p="adjective" ts="wɪəd" tr="странный; таинственный; сверхъестественный"/>
+<d v="weird" p="noun" ts="wɪəd" tr="странность; судьба"/>
+<d v="weirdo" p="noun" ts="ˈwɪdəʊ" tr="чудак"/>
+<d v="welcome" p="verb" ts="ˈwelkəm" tr="приветствовать; радушно принимать"/>
+<d v="welcome" p="noun" ts="ˈwelkəm" tr="добро; прием; приветствие"/>
+<d v="welcome" p="adjective" ts="ˈwelkəm" tr="приветственный; желанный; радушный; приятный"/>
+<d v="welcome" p="participle" ts="ˈwelkəm" tr="приветствуемый"/>
+<d v="weld" p="adjective" ts="weld" tr="сварной"/>
+<d v="weld" p="noun" ts="weld" tr="сварка"/>
+<d v="weld" p="verb" ts="weld" tr="сварить; сваривать; приварить; приваривать; сплотить; спаять"/>
+<d v="weld" p="participle" ts="weld" tr="свариваемый"/>
+<d v="welder" p="noun" ts="ˈweldə" tr="сварщик; сварочный аппарат"/>
+<d v="welder" p="adjective" ts="ˈweldə" tr="сварочный"/>
+<d v="welfare" p="noun" ts="ˈwelfɛə" tr="благосостояние; обеспечение; социальное обеспечение; благотворительность; вспомоществование"/>
+<d v="welfare" p="adjective" ts="ˈwelfɛə" tr="социальный"/>
+<d v="well" p="conjunction" ts="wel" tr="также; Итак"/>
+<d v="well" p="particle" ts="wel" tr="ну"/>
+<d v="well" p="adjective" ts="wel" tr="хороший"/>
+<d v="well" p="noun" ts="wel" tr="скважина; добро; источник"/>
+<d v="well" p="adverb" ts="wel" tr="ладно"/>
+<d v="well" p="verb" ts="wel" tr="хлынуть"/>
+<d v="Welsh" p="adjective" ts="welʃ" tr="валлийский; Уэльский"/>
+<d v="Welsh" p="noun" ts="welʃ" tr="валлиец"/>
+<d v="Welsh" p="adjective" ts="welʃ" tr="валлийский; Уэльский"/>
+<d v="Welsh" p="noun" ts="welʃ" tr="валлиец"/>
+<d v="welt" p="noun" ts="welt" tr="рубец; рант; фальц"/>
+<d v="welter" p="noun" ts="ˈweltə" tr="сумбур; путаница; столпотворение"/>
+<d v="werewolf" p="noun" ts="ˈwɪəwʊlf" tr="оборотень"/>
+<d v="West" p="noun" ts="west" tr="запад; Вест"/>
+<d v="West" p="adjective" ts="west" tr="западный"/>
+<d v="Western" p="adjective" ts="ˈwestən" tr="западный"/>
+<d v="Western" p="noun" ts="ˈwestən" tr="вестерн"/>
+<d v="Western" p="adjective" ts="ˈwestən" tr="западный"/>
+<d v="Western" p="noun" ts="ˈwestən" tr="вестерн"/>
+<d v="Westerner" p="noun" ts="ˈwestənə" tr="западный человек; западник; житель Запада; западный житель; представитель Запада; человек Запада"/>
+<d v="Westerner" p="noun" ts="ˈwestənə" tr="западный человек; западник; житель Запада; западный житель; представитель Запада; человек Запада"/>
+<d v="westernize" p="verb" ts="ˈwestənaɪz" tr="европеизировать"/>
+<d v="westward" p="noun" ts="ˈwestwəd" tr="запад"/>
+<d v="westwards" p="noun" ts="ˈwestwədz" tr="на запад"/>
+<d v="wet" p="adjective" ts="wet" tr="мокрый; несуразный; плаксивый"/>
+<d v="wet" p="verb" ts="wet" tr="намочить; промокнуть; промочить"/>
+<d v="wet" p="noun" ts="wet" tr="влага"/>
+<d v="wet" p="participle" ts="wet" tr="промокший"/>
+<d v="wet suit" p="noun" ts="wet sjuːt" tr="гидрокостюм"/>
+<d v="whack" p="verb" ts="wæk" tr="ударить; замочить; бить; делить"/>
+<d v="whack" p="noun" ts="wæk" tr="удар; сильный удар"/>
+<d v="whale" p="noun" ts="weɪl" tr="Кит; касатка; Белуха; мастак"/>
+<d v="whale" p="adjective" ts="weɪl" tr="китовый"/>
+<d v="whale" p="verb" ts="weɪl" tr="бить"/>
+<d v="whaler" p="noun" ts="ˈweɪlə" tr="китобой; китобойное судно; вельбот"/>
+<d v="whaling" p="adjective" ts="ˈweɪlɪŋ" tr="китобойный"/>
+<d v="whaling" p="noun" ts="ˈweɪlɪŋ" tr="китобойный промысел; охота на китов"/>
+<d v="wharf" p="noun" ts="wɔːf" tr="причал; верфь"/>
+<d v="what" p="pronoun" ts="wɔt" tr="что; какой"/>
+<d v="what" p="numeral" ts="wɔt" tr="сколько"/>
+<d v="whatever" p="pronoun" ts="wɔtˈevə" tr="какой бы; любой"/>
+<d v="whatever" p="particle" ts="wɔtˈevə" tr="бы"/>
+<d v="whatever" p="noun" ts="wɔtˈevə" tr="независимо от"/>
+<d v="whatsoever" p="particle" ts="wɔtsəʊˈevə" tr="ни"/>
+<d v="whatsoever" p="adverb" ts="wɔtsəʊˈevə" tr="вообще"/>
+<d v="wheat" p="noun" ts="wiːt" tr="пшеница"/>
+<d v="wheat" p="adjective" ts="wiːt" tr="пшеничный"/>
+<d v="wheel" p="noun" ts="wiːl" tr="колесо; руль; велосипед; прялка; механизм; рефрен"/>
+<d v="wheel" p="adjective" ts="wiːl" tr="колесный"/>
+<d v="wheel" p="verb" ts="wiːl" tr="катить"/>
+<d v="wheelbarrow" p="noun" ts="ˈwiːlbærəʊ" tr="тачка"/>
+<d v="wheelchair" p="noun" ts="ˈwiːlʧeər" tr="инвалидная коляска; коляска"/>
+<d v="wheeze" p="noun" ts="wiːz" tr="хрип; одышка; отсебятина; трюк"/>
+<d v="wheeze" p="verb" ts="wiːz" tr="хрипеть; сопеть; дышать с присвистом"/>
+<d v="when" p="adverb" ts="wen" tr="когда"/>
+<d v="when" p="conjunction" ts="wen" tr="если; хотя; в то время как"/>
+<d v="when" p="noun" ts="wen" tr="несмотря на"/>
+<d v="whenever" p="conjunction" ts="wenˈevə" tr="когда"/>
+<d v="whenever" p="pronoun" ts="wenˈevə" tr="всякий"/>
+<d v="whenever" p="adverb" ts="wenˈevə" tr="когда бы; когда это"/>
+<d v="where" p="adverb" ts="wɛə" tr="где"/>
+<d v="where" p="pronoun" ts="wɛə" tr="который"/>
+<d v="where" p="conjunction" ts="wɛə" tr="когда"/>
+<d v="whereabouts" p="noun" ts="ˈwɛərəbaʊts" tr="местонахождение"/>
+<d v="whereas" p="adverb" ts="wɛərˈæz" tr="тогда"/>
+<d v="whereas" p="conjunction" ts="wɛərˈæz" tr="а; поскольку"/>
+<d v="whereas" p="pronoun" ts="wɛərˈæz" tr="что"/>
+<d v="whereas" p="noun" ts="wɛərˈæz" tr="несмотря на то"/>
+<d v="whereby" p="pronoun" ts="wɛəˈbaɪ" tr="который"/>
+<d v="whereby" p="noun" ts="wɛəˈbaɪ" tr="посредством которого; в которой; благодаря чему"/>
+<d v="wherein" p="pronoun" ts="wɛərˈɪn" tr="который"/>
+<d v="wherein" p="adverb" ts="wɛərˈɪn" tr="где"/>
+<d v="wherein" p="noun" ts="wɛərˈɪn" tr="в чем"/>
+<d v="whereupon" p="noun" ts="wɛərəˈpɔn" tr="после чего; вследствие чего"/>
+<d v="whereupon" p="adverb" ts="wɛərəˈpɔn" tr="тогда"/>
+<d v="wherever" p="adverb" ts="wɛərˈevə" tr="где; где бы; везде"/>
+<d v="wherewithal" p="noun" ts="ˈwɛəwɪðɔːl" tr="необходимые средства; деньги"/>
+<d v="whet" p="verb" ts="wet" tr="возбуждать; точить; разжечь"/>
+<d v="whether" p="particle" ts="ˈweðə" tr="ли"/>
+<d v="whew" p="adverb" ts="hwuː" tr="вот так так"/>
+<d v="which" p="pronoun" ts="wɪʧ" tr="который; что; какой"/>
+<d v="whichever" p="pronoun" ts="wɪʧˈevə" tr="какой; какой бы"/>
+<d v="whichever" p="noun" ts="wɪʧˈevə" tr="зависимости от"/>
+<d v="whiff" p="noun" ts="wɪf" tr="дуновение; затяжка; струя; слабый запах"/>
+<d v="while" p="conjunction" ts="waɪl" tr="а; хотя; когда"/>
+<d v="while" p="noun" ts="waɪl" tr="время; во время; несмотря на то"/>
+<d v="while" p="particle" ts="waɪl" tr="пока"/>
+<d v="while" p="adverb" ts="waɪl" tr="тогда"/>
+<d v="while" p="pronoun" ts="waɪl" tr="что"/>
+<d v="whim" p="noun" ts="wɪm" tr="прихоть; каприз; блажь"/>
+<d v="whimper" p="verb" ts="ˈwɪmpə" tr="хныкать"/>
+<d v="whimper" p="noun" ts="ˈwɪmpə" tr="хныканье"/>
+<d v="whimper" p="participle" ts="ˈwɪmpə" tr="хныкающий"/>
+<d v="whimsical" p="adjective" ts="ˈwɪmzɪkəl" tr="причудливый; капризный"/>
+<d v="whine" p="verb" ts="waɪn" tr="скулить; ныть; заскулить; выть; плакаться; подвывать; визжать"/>
+<d v="whine" p="noun" ts="waɪn" tr="вой; нытье; жалобный вой"/>
+<d v="whine" p="adjective" ts="waɪn" tr="жалобный"/>
+<d v="whine" p="participle" ts="waɪn" tr="скулящий"/>
+<d v="whiner" p="noun" ts="ˈwaɪnər" tr="нытик"/>
+<d v="whinny" p="verb" ts="ˈwɪnɪ" tr="ржать"/>
+<d v="whip" p="noun" ts="wɪp" tr="кнут"/>
+<d v="whip" p="verb" ts="wɪp" tr="взбить; хлестать; пороть; сгонять; сечь; подстегнуть; подстегивать; отхлестать; подгонять; ругать"/>
+<d v="whip" p="adjective" ts="wɪp" tr="штыревой"/>
+<d v="whiplash" p="noun" ts="ˈwɪplæʃ" tr="кнут"/>
+<d v="whipping" p="noun" ts="ˈwɪpɪŋ" tr="порка; отпущения"/>
+<d v="whir" p="verb" ts="wɜː" tr="жужжать"/>
+<d v="whirl" p="verb" ts="wɜːl" tr="кружиться; повернуться; вращаться; проноситься"/>
+<d v="whirl" p="noun" ts="wɜːl" tr="вихрь; вихревое движение; круговерть; кружение; смятение"/>
+<d v="whirl" p="adjective" ts="wɜːl" tr="вихревой"/>
+<d v="whirlpool" p="noun" ts="ˈwɜːlpuːl" tr="джакузи; водоворот"/>
+<d v="whirlpool" p="adjective" ts="ˈwɜːlpuːl" tr="гидромассажный"/>
+<d v="whirlwind" p="noun" ts="ˈwɜːlwɪnd" tr="вихрь; буря"/>
+<d v="whirlwind" p="adjective" ts="ˈwɜːlwɪnd" tr="ураганный; вихревой"/>
+<d v="whisk" p="verb" ts="wɪsk" tr="юркнуть; взбить; смахивать"/>
+<d v="whisk" p="noun" ts="wɪsk" tr="венчик; метелка; сбивалка"/>
+<d v="whisker" p="noun" ts="ˈwɪskə" tr="ус"/>
+<d v="whiskey" p="noun" ts="ˈwɪskɪ" tr="виски"/>
+<d v="whisper" p="noun" ts="ˈwɪspə" tr="шепот; слух; шорох"/>
+<d v="whisper" p="verb" ts="ˈwɪspə" tr="шептать; нашептать; шуршать"/>
+<d v="whisper" p="participle" ts="ˈwɪspə" tr="шепчущий"/>
+<d v="whistle" p="noun" ts="wɪsl" tr="свисток; свистулька; посвист; глотка"/>
+<d v="whistle" p="verb" ts="wɪsl" tr="свистеть; свистнуть"/>
+<d v="white" p="adjective" ts="waɪt" tr="белый; седой; бледный; невинный"/>
+<d v="white" p="noun" ts="waɪt" tr="Уайт; белизна; белок; белила"/>
+<d v="white" p="adjective" ts="waɪt" tr="белый; седой; бледный; невинный"/>
+<d v="white" p="noun" ts="waɪt" tr="Уайт; белизна; белок; белила"/>
+<d v="white house" p="noun" ts="waɪt haʊs" tr="белый дом"/>
+<d v="white lie" p="noun" ts="waɪt laɪ" tr="ложь; ложь во спасение"/>
+<d v="whiten" p="verb" ts="waɪtn" tr="отбеливать; забелить; побелить"/>
+<d v="whiten" p="noun" ts="waɪtn" tr="отбеливание"/>
+<d v="white trash" p="noun" ts="waɪt træʃ" tr="белый мусор"/>
+<d v="whitewash" p="noun" ts="ˈwaɪtwɔʃ" tr="побелка; белила; обеление"/>
+<d v="whitewash" p="verb" ts="ˈwaɪtwɔʃ" tr="обелить; побелить; белить"/>
+<d v="white water" p="noun" ts="waɪt ˈwɔːtə" tr="белая вода"/>
+<d v="white wine" p="noun" ts="waɪt waɪn" tr="белое вино"/>
+<d v="whittle" p="verb" ts="wɪtl" tr="строгать"/>
+<d v="whiz" p="noun" ts="wɪz" tr="свист"/>
+<d v="who" p="pronoun" ts="huː" tr="кто; тот"/>
+<d v="whoa" p="interjection" ts="wəʊ" tr="тпру"/>
+<d v="whodunit" p="adjective" ts="ˈhuːdʌnɪt" tr="детективный"/>
+<d v="whodunit" p="noun" ts="ˈhuːdʌnɪt" tr="детективный роман"/>
+<d v="whoever" p="pronoun" ts="huːˈevə" tr="кто; кто бы"/>
+<d v="whole" p="adjective" ts="həʊl" tr="целый; здоровый; родной"/>
+<d v="whole" p="noun" ts="həʊl" tr="итог"/>
+<d v="whole" p="participle" ts="həʊl" tr="непросеянный"/>
+<d v="wholehearted" p="adjective" ts="həʊlˈhɑːtɪd" tr="искренний"/>
+<d v="wholeheartedly" p="noun" ts="həʊlˈhɑːtɪdlɪ" tr="от всего сердца"/>
+<d v="wholeheartedly" p="adverb" ts="həʊlˈhɑːtɪdlɪ" tr="всецело; чистосердечно"/>
+<d v="wholesale" p="adjective" ts="ˈhəʊlseɪl" tr="оптовый; массовый"/>
+<d v="wholesale" p="noun" ts="ˈhəʊlseɪl" tr="опт; оптовик"/>
+<d v="wholesome" p="adjective" ts="ˈhəʊlsəm" tr="здоровый; полезный"/>
+<d v="wholly" p="adverb" ts="ˈhəʊlɪ" tr="полностью; совершенно"/>
+<d v="whoop" p="noun" ts="huːp" tr="возглас"/>
+<d v="whoop" p="verb" ts="huːp" tr="кричать; шуметь"/>
+<d v="whooping cough" p="noun" ts="ˈhuːpɪŋ kɒf" tr="коклюш; судорожный кашель"/>
+<d v="whoosh" p="noun" ts="wʊʃ" tr="свист"/>
+<d v="whopper" p="noun" ts="ˈwɔpə" tr="громадина"/>
+<d v="whore" p="noun" ts="hɔː" tr="шлюха; блудница"/>
+<d v="whore" p="verb" ts="hɔː" tr="развратничать"/>
+<d v="whose" p="pronoun" ts="huːz" tr="который; чья"/>
+<d v="why" p="noun" ts="waɪ" tr="причина; задача"/>
+<d v="wick" p="noun" ts="wɪk" tr="фитиль; фитилек"/>
+<d v="wicked" p="adjective" ts="ˈwɪkɪd" tr="нечестивый; злой; нечистый; нехороший; неприятный; шаловливый"/>
+<d v="wicked" p="noun" ts="ˈwɪkɪd" tr="беззаконник"/>
+<d v="wicked" p="participle" ts="ˈwɪkɪd" tr="испорченный"/>
+<d v="wickedly" p="adverb" ts="ˈwɪkɪdlɪ" tr="злобно"/>
+<d v="wickedness" p="noun" ts="ˈwɪkɪdnɪs" tr="зло; нечестие; беззаконие; порочность; нечестивость"/>
+<d v="wicker" p="adjective" ts="ˈwɪkə" tr="плетеный"/>
+<d v="wicker" p="noun" ts="ˈwɪkə" tr="плетение; плетенка; прутья для плетения"/>
+<d v="wicket" p="noun" ts="ˈwɪkɪt" tr="калитка; воротца; окошко"/>
+<d v="wide" p="adjective" ts="waɪd" tr="широкий"/>
+<d v="wide" p="adverb" ts="waɪd" tr="широко; далеко"/>
+<d v="wide" p="noun" ts="waɪd" tr="ширина"/>
+<d v="widely" p="adverb" ts="ˈwaɪdlɪ" tr="широко"/>
+<d v="widely" p="participle" ts="ˈwaɪdlɪ" tr="распространенный"/>
+<d v="widely" p="noun" ts="ˈwaɪdlɪ" tr="широкое распространение"/>
+<d v="widen" p="verb" ts="waɪdn" tr="расширить"/>
+<d v="widen" p="noun" ts="waɪdn" tr="расширение"/>
+<d v="widespread" p="participle" ts="ˈwaɪdspred" tr="распространенный"/>
+<d v="widespread" p="adjective" ts="ˈwaɪdspred" tr="широкий; расхожий"/>
+<d v="widespread" p="noun" ts="ˈwaɪdspred" tr="широкое распространение"/>
+<d v="widow" p="noun" ts="ˈwɪdəʊ" tr="вдова; вдовушка"/>
+<d v="widow" p="verb" ts="ˈwɪdəʊ" tr="овдоветь"/>
+<d v="widowed" p="noun" ts="ˈwɪdəʊd" tr="вдова"/>
+<d v="widowed" p="participle" ts="ˈwɪdəʊd" tr="овдовевший"/>
+<d v="widower" p="noun" ts="ˈwɪdəʊə" tr="вдовец"/>
+<d v="widower" p="participle" ts="ˈwɪdəʊə" tr="овдовевший"/>
+<d v="width" p="noun" ts="wɪdθ" tr="ширина; широта; расстояние; мощность"/>
+<d v="wield" p="verb" ts="wiːld" tr="обладать; владеть; орудовать; размахивать"/>
+<d v="Wiener" p="noun" ts="ˈwaɪnər" tr="Винер"/>
+<d v="Wiener" p="adjective" ts="ˈwaɪnər" tr="винеровский"/>
+<d v="wife" p="noun" ts="waɪf" tr="жена"/>
+<d v="wig" p="noun" ts="wɪg" tr="парик"/>
+<d v="wiggle" p="verb" ts="wɪgl" tr="пошевелить; покачиваться; извиваться; выкрутиться; ерзать"/>
+<d v="wiggle" p="noun" ts="wɪgl" tr="вихляк; покачивание"/>
+<d v="wigwam" p="noun" ts="ˈwɪgwæm" tr="вигвам"/>
+<d v="wild" p="adjective" ts="waɪld" tr="дикий; безумный; бурный; сумасбродный"/>
+<d v="wild" p="noun" ts="waɪld" tr="Дикая природа; дебри"/>
+<d v="wild" p="verb" ts="waɪld" tr="одичать"/>
+<d v="wild" p="participle" ts="waɪld" tr="одичавший"/>
+<d v="wilderness" p="noun" ts="ˈwɪldənɪs" tr="пустыня; Дикая природа; Дикая местность; пустынное место; дикость"/>
+<d v="wilderness" p="adjective" ts="ˈwɪldənɪs" tr="дикий"/>
+<d v="wildlife" p="noun" ts="ˈwaɪldlaɪf" tr="Дикая природа; природа; заповедник; живность"/>
+<d v="wildlife" p="adjective" ts="ˈwaɪldlaɪf" tr="животный"/>
+<d v="wildly" p="adverb" ts="ˈwaɪldlɪ" tr="дико; бешено; одичало"/>
+<d v="will" p="verb" ts="wɪl" tr="буду; хотеть; начать; дать; заставлять; велеть"/>
+<d v="will" p="noun" ts="wɪl" tr="воля; завещание; энергия"/>
+<d v="willful" p="adjective" ts="ˈwɪlfəl" tr="умышленный; своевольный"/>
+<d v="willfully" p="adverb" ts="ˈwɪlfəlɪ" tr="умышленно; самовольно"/>
+<d v="willing" p="participle" ts="ˈwɪlɪŋ" tr="желающий"/>
+<d v="willing" p="adjective" ts="ˈwɪlɪŋ" tr="готовый; добровольный; охотный; старательный"/>
+<d v="willing" p="adverb" ts="ˈwɪlɪŋ" tr="охотно"/>
+<d v="willing" p="noun" ts="ˈwɪlɪŋ" tr="готовность"/>
+<d v="willingly" p="adverb" ts="ˈwɪlɪŋlɪ" tr="охотно; добровольно"/>
+<d v="willingly" p="noun" ts="ˈwɪlɪŋlɪ" tr="с готовностью; по собственной воле"/>
+<d v="willingness" p="noun" ts="ˈwɪlɪŋnɪs" tr="готовность"/>
+<d v="willow" p="noun" ts="ˈwɪləʊ" tr="ива; Уиллоу; ивняк"/>
+<d v="willow" p="adjective" ts="ˈwɪləʊ" tr="ивовый"/>
+<d v="willpower" p="noun" ts="ˈwɪlpaʊər" tr="воля"/>
+<d v="wilt" p="verb" ts="wɪlt" tr="завянуть; слабеть; поникнуть; губить"/>
+<d v="wilt" p="noun" ts="wɪlt" tr="увядание"/>
+<d v="wily" p="adjective" ts="ˈwaɪlɪ" tr="хитрый"/>
+<d v="wimp" p="noun" ts="wɪmp" tr="слабак; слюнтяй"/>
+<d v="wimpy" p="adjective" ts="ˈwɪmpɪ" tr="трусливый"/>
+<d v="win" p="verb" ts="wɪn" tr="выиграть; победить; получить; добиться; отвоевывать; достигнуть; вырваться"/>
+<d v="win" p="noun" ts="wɪn" tr="победа"/>
+<d v="wince" p="verb" ts="wɪns" tr="вздрогнуть; поморщиться"/>
+<d v="wince" p="noun" ts="wɪns" tr="вздрагивание"/>
+<d v="winch" p="noun" ts="wɪnʧ" tr="лебедка; ворот"/>
+<d v="wind" p="noun" ts="wɪnd" tr="ветер; виток; извилина"/>
+<d v="wind" p="adjective" ts="wɪnd" tr="ветровой; духовой"/>
+<d v="wind" p="verb" ts="wɪnd" tr="обмотать; обматывать; сматывать; заводить; накручивать; извиваться; накрутить; мотать"/>
+<d v="windbreaker" p="noun" ts="ˈwɪndbreɪkər" tr="ветровка"/>
+<d v="winded" p="participle" ts="ˈwɪndɪd" tr="наматываемый"/>
+<d v="windfall" p="noun" ts="ˈwɪndfɔːl" tr="ветробой; ветровал; неожиданная удача; Падалица; бурелом"/>
+<d v="winding" p="noun" ts="ˈwɪndɪŋ" tr="обмотка; поворот"/>
+<d v="winding" p="adjective" ts="ˈwɪndɪŋ" tr="извилистый; обмоточный; заводной; намоточный"/>
+<d v="winding" p="participle" ts="ˈwɪndɪŋ" tr="петляющий"/>
+<d v="wind instrument" p="noun" ts="wɪnd ˈɪnstrʊmənt" tr="духовой инструмент"/>
+<d v="windmill" p="noun" ts="ˈwɪnmɪl" tr="мельница; ветряная мельница; ветряк"/>
+<d v="window" p="noun" ts="ˈwɪndəʊ" tr="окно"/>
+<d v="window" p="adjective" ts="ˈwɪndəʊ" tr="оконный"/>
+<d v="window dressing" p="noun" ts="ˈwɪndəʊ ˈdresɪŋ" tr="витрина; показуха; оформление витрин"/>
+<d v="windowpane" p="noun" ts="ˈwɪndəʊpeɪn" tr="оконное стекло"/>
+<d v="windowsill" p="noun" ts="ˈwɪndəʊsɪl" tr="подоконник"/>
+<d v="windpipe" p="noun" ts="ˈwɪndpaɪp" tr="трахея; дыхательное горло"/>
+<d v="windshield" p="noun" ts="ˈwɪndʃiːld" tr="лобовое стекло"/>
+<d v="windshield wiper" p="noun" ts="ˈwɪndʃiːld ˈwaɪpə" tr="стеклоочиститель ветрового стекла"/>
+<d v="windswept" p="participle" ts="ˈwɪndswept" tr="продуваемый; открытый всем ветрам"/>
+<d v="windy" p="adjective" ts="ˈwɪndɪ" tr="ветреный; болтливый"/>
+<d v="windy" p="adverb" ts="ˈwɪndɪ" tr="ветрено"/>
+<d v="wine" p="noun" ts="waɪn" tr="вино; виноделие"/>
+<d v="wine" p="adjective" ts="waɪn" tr="винный"/>
+<d v="wineglass" p="noun" ts="ˈwaɪnglɑːs" tr="бокал"/>
+<d v="wing" p="noun" ts="wɪŋ" tr="крыло; флигель; створка; авиакрыло"/>
+<d v="wing" p="adjective" ts="wɪŋ" tr="крылатый"/>
+<d v="wing" p="verb" ts="wɪŋ" tr="подстрелить; лететь"/>
+<d v="winged" p="adjective" ts="wɪŋd" tr="крылатый"/>
+<d v="wingspan" p="noun" ts="ˈwɪŋspæn" tr="размах; размах крыльев"/>
+<d v="wingtip" p="noun" ts="ˈwɪŋtaɪp" tr="кончик крыла"/>
+<d v="wink" p="verb" ts="wɪŋk" tr="подмигнуть; подмигивать"/>
+<d v="wink" p="noun" ts="wɪŋk" tr="подмигивание; миг; моргание"/>
+<d v="wink" p="participle" ts="wɪŋk" tr="подмигивающий"/>
+<d v="winner" p="noun" ts="ˈwɪnə" tr="победитель"/>
+<d v="winning" p="noun" ts="ˈwɪnɪŋ" tr="выигрыш"/>
+<d v="winning" p="adjective" ts="ˈwɪnɪŋ" tr="выигрышный; привлекательный"/>
+<d v="winning" p="participle" ts="ˈwɪnɪŋ" tr="выигравший; выигрывающий; побеждающий; победивший; завоевывающий"/>
+<d v="wino" p="noun" ts="ˈwiːnəʊ" tr="пьяница"/>
+<d v="winsome" p="adjective" ts="ˈwɪnsəm" tr="обаятельный"/>
+<d v="winter" p="noun" ts="ˈwɪntə" tr="зима; год"/>
+<d v="winter" p="adjective" ts="ˈwɪntə" tr="зимний"/>
+<d v="winter" p="verb" ts="ˈwɪntə" tr="зимовать"/>
+<d v="wintertime" p="noun" ts="ˈwɪntətaɪm" tr="зима"/>
+<d v="wintertime" p="adjective" ts="ˈwɪntətaɪm" tr="зимний"/>
+<d v="wintry" p="adjective" ts="ˈwɪntrɪ" tr="зимний"/>
+<d v="wipe" p="verb" ts="waɪp" tr="вытереть; протереть; стереть; уничтожить; подтирать; вытереться; замахнуться"/>
+<d v="wipe" p="noun" ts="waɪp" tr="салфетка; стирание; протирка"/>
+<d v="wiper" p="noun" ts="ˈwaɪpə" tr="дворник; дворников"/>
+<d v="wire" p="noun" ts="ˈwaɪə" tr="провод; телеграмма"/>
+<d v="wire" p="adjective" ts="ˈwaɪə" tr="проводной; банковский; телеграфный; метизный"/>
+<d v="wire" p="verb" ts="ˈwaɪə" tr="телеграфировать"/>
+<d v="wiretap" p="noun" ts="ˈwaɪətæp" tr="прослушка"/>
+<d v="wiretap" p="verb" ts="ˈwaɪətæp" tr="прослушивать"/>
+<d v="wiring" p="noun" ts="ˈwaɪərɪŋ" tr="проводка; телеграфирование"/>
+<d v="wiring" p="adjective" ts="ˈwaɪərɪŋ" tr="электромонтажный"/>
+<d v="wiry" p="adjective" ts="ˈwaɪərɪ" tr="жилистый; выносливый; гибкий"/>
+<d v="wisdom" p="noun" ts="ˈwɪzdəm" tr="мудрость; здравый смысл"/>
+<d v="wisdom tooth" p="noun" ts="ˈwɪzdəm tuːθ" tr="зуб мудрости"/>
+<d v="wise" p="adjective" ts="waɪz" tr="мудрый; разумный; мудрейший"/>
+<d v="wise" p="noun" ts="waɪz" tr="мудрец; мудрость; способ"/>
+<d v="wise" p="verb" ts="waɪz" tr="поумнеть; надоумить"/>
+<d v="wise" p="participle" ts="waɪz" tr="знающий"/>
+<d v="wisely" p="adverb" ts="ˈwaɪzlɪ" tr="мудро"/>
+<d v="wisely" p="adjective" ts="ˈwaɪzlɪ" tr="мудрый"/>
+<d v="wisely" p="noun" ts="ˈwaɪzlɪ" tr="с умом"/>
+<d v="wish" p="verb" ts="wɪʃ" tr="хотеть; желать"/>
+<d v="wish" p="noun" ts="wɪʃ" tr="желание"/>
+<d v="wishbone" p="noun" ts="ˈwɪʃbəʊn" tr="поперечный рычаг"/>
+<d v="wisp" p="noun" ts="wɪsp" tr="струйка; пучок; клочок"/>
+<d v="wispy" p="adjective" ts="ˈwɪspɪ" tr="тонкий"/>
+<d v="wistful" p="adjective" ts="ˈwɪstfʊl" tr="задумчивый; тоскливый"/>
+<d v="wistful" p="participle" ts="ˈwɪstfʊl" tr="тоскующий"/>
+<d v="wistfully" p="adverb" ts="ˈwɪstfəlɪ" tr="мечтательно; тоскливо"/>
+<d v="wistfully" p="noun" ts="ˈwɪstfəlɪ" tr="с тоской"/>
+<d v="wit" p="noun" ts="wɪt" tr="ум; остроумие; острословие; смекалка; находчивость; остряк; острослов; острый ум"/>
+<d v="witch" p="noun" ts="wɪʧ" tr="ведьма"/>
+<d v="witch" p="adjective" ts="wɪʧ" tr="ведьмин; колдовской"/>
+<d v="witchcraft" p="noun" ts="ˈwɪʧkrɑːft" tr="колдовство; ведовство"/>
+<d v="witchcraft" p="adjective" ts="ˈwɪʧkrɑːft" tr="колдовской"/>
+<d v="witch hunt" p="noun" ts="wɪʧ hʌnt" tr="охота на ведьм"/>
+<d v="with" p="preposition" ts="wɪð" tr="с; касательно"/>
+<d v="withdraw" p="verb" ts="wɪðˈdrɔː" tr="снять; вывести; отозвать; выйти; уйти; изъять; отойти; забрать; удалиться; сняться; отводить"/>
+<d v="withdraw" p="noun" ts="wɪðˈdrɔː" tr="вывод"/>
+<d v="withdrawal" p="noun" ts="wɪðˈdrɔːəl" tr="снятие; вывод; абстиненция; ломка; увод; отозвание; отвыкание"/>
+<d v="withdrawal" p="adjective" ts="wɪðˈdrɔːəl" tr="абстинентный"/>
+<d v="withdrawn" p="participle" ts="wɪðˈdrɔːn" tr="изъятый; снятый; выведенный; замкнутый; изымаемый"/>
+<d v="wither" p="verb" ts="ˈwɪðə" tr="засохнуть; увядать; вянуть; чахнуть; сохнуть; уничтожать"/>
+<d v="wither" p="noun" ts="ˈwɪðə" tr="увядание"/>
+<d v="withheld" p="participle" ts="wɪðˈheld" tr="удержанный; удерживаемый"/>
+<d v="withhold" p="verb" ts="wɪðˈhəʊld" tr="удерживать; скрывать; отказать; воздержаться; задержать; изъять; умолчать"/>
+<d v="withhold" p="noun" ts="wɪðˈhəʊld" tr="удержание"/>
+<d v="within" p="preposition" ts="wɪˈðɪn" tr="в; внутри"/>
+<d v="within" p="noun" ts="wɪˈðɪn" tr="в течение; в пределах"/>
+<d v="within" p="adverb" ts="wɪˈðɪn" tr="не позднее; не далее"/>
+<d v="without" p="preposition" ts="wɪˈðaʊt" tr="без; вне; безо"/>
+<d v="without" p="particle" ts="wɪˈðaʊt" tr="не"/>
+<d v="without" p="adverb" ts="wɪˈðaʊt" tr="снаружи"/>
+<d v="without" p="conjunction" ts="wɪˈðaʊt" tr="чтобы"/>
+<d v="withstand" p="verb" ts="wɪðˈstænd" tr="выдерживать; противостоять; выстоять"/>
+<d v="withstand" p="participle" ts="wɪðˈstænd" tr="выдерживаемый"/>
+<d v="withstand" p="noun" ts="wɪðˈstænd" tr="противостояние"/>
+<d v="witness" p="noun" ts="ˈwɪtnɪs" tr="свидетель; свидетельство; понятой"/>
+<d v="witness" p="verb" ts="ˈwɪtnɪs" tr="свидетельствовать; видеть; заверять"/>
+<d v="witness" p="adjective" ts="ˈwɪtnɪs" tr="свидетельский"/>
+<d v="witness" p="participle" ts="ˈwɪtnɪs" tr="свидетельствующий"/>
+<d v="witticism" p="noun" ts="ˈwɪtɪsɪzm" tr="острота; остроумие"/>
+<d v="witty" p="adjective" ts="ˈwɪtɪ" tr="остроумный"/>
+<d v="wizard" p="noun" ts="ˈwɪzəd" tr="мастер; волшебник; чудодей; помощник"/>
+<d v="wizard" p="adjective" ts="ˈwɪzəd" tr="колдовской"/>
+<d v="wizened" p="participle" ts="wɪznd" tr="высохший"/>
+<d v="wobble" p="noun" ts="wɔbl" tr="колебание; раскачивание; виляние"/>
+<d v="wobble" p="verb" ts="wɔbl" tr="колебаться; раскачиваться; дрожать; вихлять; вилять"/>
+<d v="wobbly" p="adjective" ts="ˈwɔblɪ" tr="шаткий"/>
+<d v="wobbly" p="participle" ts="ˈwɔblɪ" tr="шатающийся"/>
+<d v="woe" p="noun" ts="wəʊ" tr="горе; беда"/>
+<d v="wok" p="noun" ts="wɔːk" tr="вок"/>
+<d v="woken" p="participle" ts="ˈwəʊkən" tr="пробужденный"/>
+<d v="wolf" p="noun" ts="wʊlf" tr="волк; Вольф; бабник"/>
+<d v="wolf" p="adjective" ts="wʊlf" tr="волчий"/>
+<d v="woman" p="noun" ts="ˈwʊmən" tr="женщина; служанка; любовница; женственность"/>
+<d v="woman" p="adjective" ts="ˈwʊmən" tr="женский"/>
+<d v="womanhood" p="noun" ts="ˈwʊmənhʊd" tr="женственность"/>
+<d v="womb" p="noun" ts="wuːm" tr="утроба; утроба матери"/>
+<d v="won" p="participle" ts="wʌn" tr="выигранный; завоеванный; побежденный"/>
+<d v="wonder" p="verb" ts="ˈwʌndə" tr="задуматься; удивляться; интересовать; удивиться; задаться вопросом; спрашивать себя; поинтересоваться"/>
+<d v="wonder" p="noun" ts="ˈwʌndə" tr="чудо; удивление"/>
+<d v="wonder" p="adjective" ts="ˈwʌndə" tr="удивительный"/>
+<d v="wonderful" p="adjective" ts="ˈwʌndəfʊl" tr="прекрасный; удивительный; чудеснейший"/>
+<d v="wonderful" p="adverb" ts="ˈwʌndəfʊl" tr="здорово"/>
+<d v="wonderfully" p="adverb" ts="ˈwʌndəfəlɪ" tr="прекрасно; удивительно; дивно; чудно"/>
+<d v="wonderfully" p="adjective" ts="ˈwʌndəfəlɪ" tr="удивительный"/>
+<d v="wont" p="noun" ts="wəʊnt" tr="обыкновение"/>
+<d v="woo" p="noun" ts="wuː" tr="ву"/>
+<d v="woo" p="verb" ts="wuː" tr="добиться; ухаживать; обхаживать; посвататься; уговаривать"/>
+<d v="wood" p="noun" ts="wʊd" tr="дерево; древесина; Вуд; Вудс"/>
+<d v="wood" p="adjective" ts="wʊd" tr="древесный; деревянный"/>
+<d v="woodchuck" p="noun" ts="ˈwʊʧʌk" tr="сурок"/>
+<d v="wooded" p="adjective" ts="ˈwʊdɪd" tr="лесистый"/>
+<d v="wooden" p="adjective" ts="wʊdn" tr="деревянный"/>
+<d v="wooden" p="noun" ts="wʊdn" tr="из дерева"/>
+<d v="woodland" p="noun" ts="ˈwʊdlənd" tr="лес; лесистая местность"/>
+<d v="woodland" p="adjective" ts="ˈwʊdlənd" tr="лесной"/>
+<d v="woodpecker" p="noun" ts="ˈwʊdpekə" tr="дятел; Дятлов"/>
+<d v="woodwind" p="adjective" ts="ˈwʊdwɪnd" tr="духовой"/>
+<d v="woodwork" p="noun" ts="ˈwʊdwɜːk" tr="изделия из дерева; деревообработка; столярка; работа по дереву"/>
+<d v="woodwork" p="adjective" ts="ˈwʊdwɜːk" tr="столярный"/>
+<d v="woody" p="adjective" ts="ˈwʊdɪ" tr="древесный"/>
+<d v="woody" p="noun" ts="ˈwʊdɪ" tr="Вуди"/>
+<d v="wool" p="noun" ts="wʊl" tr="шерсть; вата; руно"/>
+<d v="wool" p="adjective" ts="wʊl" tr="шерстяной"/>
+<d v="woolen" p="adjective" ts="ˈwʊlən" tr="шерстяной"/>
+<d v="woolen" p="noun" ts="ˈwʊlən" tr="шерсть"/>
+<d v="word" p="noun" ts="wɜːd" tr="слово; словечко; лозунг; пароль"/>
+<d v="word" p="adjective" ts="wɜːd" tr="текстовый"/>
+<d v="wording" p="noun" ts="ˈwɜːdɪŋ" tr="формулировка"/>
+<d v="word processing" p="noun" ts="wɜːd ˈprəʊsesɪŋ" tr="обработка текстов; текстовый редактор; текстовый процессор"/>
+<d v="word processor" p="noun" ts="wɜːd ˈprəʊsesər" tr="текстовый процессор; текстовый редактор"/>
+<d v="wordy" p="adjective" ts="ˈwɜːdɪ" tr="многословный"/>
+<d v="work" p="noun" ts="wɜːk" tr="работа; механизм; рукоделие"/>
+<d v="work" p="verb" ts="wɜːk" tr="работать; заниматься; обрабатывать; заслужить; ковать; причинять; месить"/>
+<d v="work" p="adjective" ts="wɜːk" tr="рабочий; нормальный"/>
+<d v="workable" p="adjective" ts="ˈwɜːkəbl" tr="выполнимый; работоспособный"/>
+<d v="workaholic" p="noun" ts="ˈwɜːkəhɒlɪk" tr="трудоголик; трудяга"/>
+<d v="workbench" p="noun" ts="ˈwɜːkbenʧ" tr="верстак"/>
+<d v="workbook" p="noun" ts="ˈwɜːkbʊk" tr="книга; рабочая книга"/>
+<d v="worker" p="noun" ts="ˈwɜːkə" tr="работник"/>
+<d v="worker" p="adjective" ts="ˈwɜːkə" tr="рабочий"/>
+<d v="workers&apos; compensation" p="noun" ts="ˈwɜːkəz kɒmpenˈseɪʃn" tr="компенсация работников; рабочая компенсация"/>
+<d v="workforce" p="noun" ts="ˈwɜːkfɔːs" tr="рабочая сила; трудовой коллектив; рабочие кадры"/>
+<d v="working" p="adjective" ts="ˈwɜːkɪŋ" tr="рабочий"/>
+<d v="working" p="participle" ts="ˈwɜːkɪŋ" tr="работающий; действующий"/>
+<d v="working" p="noun" ts="ˈwɜːkɪŋ" tr="работа; практика"/>
+<d v="working class" p="noun" ts="ˈwɜːkɪŋˈklɑːs" tr="рабочий класс; трудящийся класс"/>
+<d v="workload" p="noun" ts="ˈwɜːkləʊd" tr="нагрузка; объем работы"/>
+<d v="workman" p="adjective" ts="ˈwɜːkmən" tr="рабочий; мастеровой"/>
+<d v="workman" p="noun" ts="ˈwɜːkmən" tr="работник"/>
+<d v="workmanlike" p="adverb" ts="ˈwɜːkmənlaɪk" tr="качественно"/>
+<d v="workmanlike" p="adjective" ts="ˈwɜːkmənlaɪk" tr="искусный"/>
+<d v="workmanship" p="noun" ts="ˈwɜːkmənʃɪp" tr="мастерство; качество изготовления; качество исполнения; техническое исполнение"/>
+<d v="workout" p="noun" ts="ˈwɜːkaʊt" tr="тренировка"/>
+<d v="works" p="noun" ts="wɜːks" tr="завод"/>
+<d v="works" p="participle" ts="wɜːks" tr="работающий"/>
+<d v="worksheet" p="noun" ts="ˈwɜːkʃiːt" tr="лист; рабочий лист; рабочая таблица; рабочий листок"/>
+<d v="workshop" p="noun" ts="ˈwɜːkʃɔp" tr="семинар; мастерская; рабочее совещание; секция"/>
+<d v="workshop" p="adjective" ts="ˈwɜːkʃɔp" tr="цеховой"/>
+<d v="workstation" p="noun" ts="ˈwɜːksteɪʃn" tr="рабочая станция; станция; автоматизированное рабочее место"/>
+<d v="world" p="noun" ts="wɜːld" tr="мир"/>
+<d v="world" p="adjective" ts="wɜːld" tr="мировой"/>
+<d v="worldly" p="adjective" ts="ˈwɜːldlɪ" tr="мирской; опытный"/>
+<d v="world power" p="noun" ts="wɜːld ˈpaʊə" tr="мировая держава; мировая сила; мировая власть"/>
+<d v="world series" p="noun" ts="ˈwɜːldˈsɪəriːz" tr="мировая серия; Всемирная серия"/>
+<d v="world war" p="noun" ts="wɜːld wɔː" tr="мировая война; первая мировая война"/>
+<d v="worldwide" p="noun" ts="ˈwɜːldwaɪd" tr="весь мир; во всем мире"/>
+<d v="worldwide" p="adjective" ts="ˈwɜːldwaɪd" tr="мировой"/>
+<d v="world wide web" p="noun" ts="wɜːld waɪd web" tr="Всемирная паутина; Всемирная сеть; мировая паутина"/>
+<d v="worm" p="noun" ts="wɜːm" tr="червь; шнек"/>
+<d v="worm" p="adjective" ts="wɜːm" tr="червячный"/>
+<d v="worm" p="verb" ts="wɜːm" tr="вползать"/>
+<d v="worn" p="adjective" ts="wɔːn" tr="изношенный; потертый"/>
+<d v="worn" p="noun" ts="wɔːn" tr="ношение"/>
+<d v="worn" p="participle" ts="wɔːn" tr="потрепанный; носимый; надетый; надеваемый; одеваемый; носивший"/>
+<d v="worried" p="noun" ts="ˈwʌrɪd" tr="беспокойство"/>
+<d v="worried" p="participle" ts="ˈwʌrɪd" tr="обеспокоенный; озабоченный; встревоженный; беспокоящийся"/>
+<d v="worry" p="verb" ts="ˈwʌrɪ" tr="беспокоиться; переживать; задумываться; терзать; поволноваться; приставать; болеть; надоедать"/>
+<d v="worry" p="noun" ts="ˈwʌrɪ" tr="беспокойство; мучение"/>
+<d v="worrying" p="adjective" ts="ˈwʌrɪɪŋ" tr="тревожный"/>
+<d v="worrying" p="noun" ts="ˈwʌrɪɪŋ" tr="беспокойство"/>
+<d v="worrying" p="participle" ts="ˈwʌrɪɪŋ" tr="беспокоящий; беспокоящийся"/>
+<d v="worse" p="adjective" ts="wɜːs" tr="худший; более плохой"/>
+<d v="worse" p="verb" ts="wɜːs" tr="ухудшаться"/>
+<d v="worse" p="noun" ts="wɜːs" tr="худшее"/>
+<d v="worse" p="adverb" ts="wɜːs" tr="хуже"/>
+<d v="worsen" p="verb" ts="wɜːsn" tr="ухудшаться; ухудшить; усугубить; обостриться; усилиться"/>
+<d v="worsen" p="noun" ts="wɜːsn" tr="ухудшение"/>
+<d v="worship" p="noun" ts="ˈwɜːʃɪp" tr="поклонение"/>
+<d v="worship" p="verb" ts="ˈwɜːʃɪp" tr="поклоняться; служить; обожать"/>
+<d v="worship" p="adjective" ts="ˈwɜːʃɪp" tr="культовый; молитвенный"/>
+<d v="worship" p="participle" ts="ˈwɜːʃɪp" tr="поклоняющийся"/>
+<d v="worshiper" p="noun" ts="ˈwɜːʃɪpər" tr="поклонник; верующий"/>
+<d v="worshiper" p="participle" ts="ˈwɜːʃɪpər" tr="молящийся"/>
+<d v="worshiper" p="verb" ts="ˈwɜːʃɪpər" tr="поклоняться"/>
+<d v="worst" p="adjective" ts="wɜːst" tr="худший; самый плохой"/>
+<d v="worst" p="noun" ts="wɜːst" tr="худшее; самое худшее"/>
+<d v="worth" p="verb" ts="wɜːθ" tr="стоить"/>
+<d v="worth" p="noun" ts="wɜːθ" tr="стоимость"/>
+<d v="worth" p="participle" ts="wɜːθ" tr="достойный; стоящий; заслуживающий"/>
+<d v="worthless" p="adjective" ts="ˈwɜːθlɪs" tr="бесполезный; негожий; негодный; бездарный; недостойный; бросовый; дрянной"/>
+<d v="worthless" p="participle" ts="ˈwɜːθlɪs" tr="ничего не стоящий"/>
+<d v="worthless" p="verb" ts="ˈwɜːθlɪs" tr="обесцениться"/>
+<d v="worthless" p="noun" ts="ˈwɜːθlɪs" tr="ничтожество"/>
+<d v="worthwhile" p="adjective" ts="ˈwɜːθwaɪl" tr="достойный; целесообразный"/>
+<d v="worthwhile" p="participle" ts="ˈwɜːθwaɪl" tr="стоящий; заслуживающий внимания"/>
+<d v="worthwhile" p="verb" ts="ˈwɜːθwaɪl" tr="заслуживать внимания"/>
+<d v="worthy" p="adjective" ts="ˈwɜːðɪ" tr="достойный; подобающий; достопочтенный"/>
+<d v="worthy" p="verb" ts="ˈwɜːðɪ" tr="заслуживать"/>
+<d v="worthy" p="participle" ts="ˈwɜːðɪ" tr="заслуживающий; заслуживающий внимания"/>
+<d v="worthy" p="noun" ts="ˈwɜːðɪ" tr="особа"/>
+<d v="would" p="particle" ts="wʊd" tr="бы"/>
+<d v="would" p="verb" ts="wʊd" tr="быть"/>
+<d v="wound" p="noun" ts="wuːnd" tr="рана; ранение; обида"/>
+<d v="wound" p="adjective" ts="wuːnd" tr="раненый; раневой"/>
+<d v="wound" p="verb" ts="wuːnd" tr="ранить; уязвить; задеть"/>
+<d v="wounded" p="participle" ts="ˈwuːndɪd" tr="раненный; израненный; уязвленный; изъязвленный"/>
+<d v="woven" p="participle" ts="ˈwəʊvən" tr="сплетенный; сотканный; вплетенный; тканный"/>
+<d v="wow" p="interjection" ts="waʊ" tr="вау; ого"/>
+<d v="wow" p="verb" ts="waʊ" tr="поразить; ошеломить"/>
+<d v="wrangle" p="noun" ts="ræŋgl" tr="передряга"/>
+<d v="wrangle" p="verb" ts="ræŋgl" tr="пререкаться; поспорить"/>
+<d v="Wrangler" p="noun" ts="ˈræŋglə" tr="Вранглер; спорщик"/>
+<d v="wrap" p="verb" ts="ræp" tr="обернуть; оборачивать; завернуться; окутать; завертывать; укутать; укутывать; сворачивать; обвиться; закутывать; складывать"/>
+<d v="wrap" p="noun" ts="ræp" tr="обертывание; обруч; шаль"/>
+<d v="wrap" p="participle" ts="ræp" tr="завернутый"/>
+<d v="wrapper" p="noun" ts="ˈræpə" tr="обертка; оболочка; упаковщик; бандероль; покровный лист; халат; суперобложка"/>
+<d v="wrapping" p="noun" ts="ˈræpɪŋ" tr="упаковка; обертывание; перенос; накрутка"/>
+<d v="wrapping" p="adjective" ts="ˈræpɪŋ" tr="упаковочный"/>
+<d v="wrapping paper" p="noun" ts="ˈræpɪŋ ˈpeɪpə" tr="оберточная бумага; упаковочная бумага"/>
+<d v="wrath" p="noun" ts="rɔθ" tr="гнев"/>
+<d v="wreak" p="verb" ts="riːk" tr="нанести; сеять"/>
+<d v="wreath" p="noun" ts="riːθ" tr="венок; завиток"/>
+<d v="wreck" p="noun" ts="rek" tr="крушение; затонувший корабль; затонувший объект; остатки кораблекрушения"/>
+<d v="wreck" p="participle" ts="rek" tr="затонувший"/>
+<d v="wreck" p="verb" ts="rek" tr="разрушить"/>
+<d v="wreckage" p="noun" ts="ˈrekɪʤ" tr="обломки; крушение; останки"/>
+<d v="Wren" p="noun" ts="ren" tr="Рен; крапивник"/>
+<d v="wrench" p="noun" ts="renʧ" tr="ключ; гаечный ключ; торцовый ключ; боль"/>
+<d v="wrench" p="adjective" ts="renʧ" tr="гаечный"/>
+<d v="wrench" p="verb" ts="renʧ" tr="вырывать"/>
+<d v="wrest" p="verb" ts="rest" tr="вырвать; отвоевать; выворачивать; искажать"/>
+<d v="wrestle" p="verb" ts="resl" tr="бороться; побороться"/>
+<d v="wrestle" p="noun" ts="resl" tr="борьба; упорная борьба"/>
+<d v="wrestler" p="noun" ts="ˈreslə" tr="борец"/>
+<d v="wrestling" p="noun" ts="ˈreslɪŋ" tr="борьба"/>
+<d v="wrestling" p="adjective" ts="ˈreslɪŋ" tr="борцовский"/>
+<d v="wretch" p="noun" ts="reʧ" tr="негодяй; бедняга; негодник"/>
+<d v="wretch" p="adjective" ts="reʧ" tr="несчастный"/>
+<d v="wretched" p="adjective" ts="ˈreʧɪd" tr="жалкий; несчастный; ужасный; дрянной; никудышный"/>
+<d v="wriggle" p="verb" ts="rɪgl" tr="извиваться; вывернуться; пошевелить; пробираться; увиливать"/>
+<d v="wring" p="verb" ts="rɪŋ" tr="выжать; отжать; свернуть; ломать; скрутить; скручивать; терзать"/>
+<d v="wrinkle" p="noun" ts="rɪŋkl" tr="морщина"/>
+<d v="wrinkle" p="verb" ts="rɪŋkl" tr="сморщить; сморщиться; морщиться; мять"/>
+<d v="wrinkle" p="adjective" ts="rɪŋkl" tr="сморщенный"/>
+<d v="wrinkled" p="adjective" ts="rɪŋkld" tr="морщинистый"/>
+<d v="wrinkled" p="noun" ts="rɪŋkld" tr="морщина"/>
+<d v="wrist" p="noun" ts="rɪst" tr="запястье"/>
+<d v="wrist" p="adjective" ts="rɪst" tr="наручный"/>
+<d v="writ" p="noun" ts="rɪt" tr="Писание; приказ; исковое заявление; повестка; судебный приказ"/>
+<d v="write" p="verb" ts="raɪt" tr="писать; записать; выписать; вписать"/>
+<d v="write" p="noun" ts="raɪt" tr="запись"/>
+<d v="writer" p="noun" ts="ˈraɪtə" tr="писатель; писец"/>
+<d v="writhe" p="verb" ts="raɪð" tr="корчиться; биться"/>
+<d v="writing" p="noun" ts="ˈraɪtɪŋ" tr="написание; письмо; запись; Писание; сочинение; письменная форма; письменность; почерк; писательство; стиль; форма"/>
+<d v="writing" p="adjective" ts="ˈraɪtɪŋ" tr="письменный; писательский; писчий"/>
+<d v="writing" p="participle" ts="ˈraɪtɪŋ" tr="пишущий"/>
+<d v="written" p="participle" ts="rɪtn" tr="написанный; записанный; писанный; записываемый"/>
+<d v="wrong" p="adjective" ts="rɔŋ" tr="неправильный; плохой; неподходящий; изнаночный; не верный"/>
+<d v="wrong" p="verb" ts="rɔŋ" tr="ошибаться; ошибиться; заблуждаться; обижать; вредить"/>
+<d v="wrong" p="noun" ts="rɔŋ" tr="зло; неправда; неправота; несправедливость; заблуждение; правонарушение; неправильность; ошибочность"/>
+<d v="wrongdoer" p="noun" ts="ˈrɔŋˈdʊə" tr="правонарушитель"/>
+<d v="wrongdoing" p="noun" ts="ˈrɔŋˈduːɪŋ" tr="правонарушение"/>
+<d v="wrongful" p="adjective" ts="ˈrɔŋfʊl" tr="противоправный"/>
+<d v="wrongfully" p="adverb" ts="ˈrɒŋfəlɪ" tr="неправомерно"/>
+<d v="wrongly" p="adverb" ts="ˈrɒŋlɪ" tr="неправильно; ошибочно; несправедливо; неправомерно; напрасно"/>
+<d v="wrought iron" p="noun" ts="ˈrɔːtˈaɪən" tr="кованое железо"/>
+<d v="wrung" p="participle" ts="rʌŋ" tr="отжатый"/>
+<d v="wry" p="adjective" ts="raɪ" tr="кривой; противоречивый"/>
+<d v="wryly" p="adverb" ts="ˈraɪlɪ" tr="криво"/>
+<d v="wryly" p="noun" ts="ˈraɪlɪ" tr="с кривой усмешкой"/>
+<d v="www" p="noun" ts="ww" tr="ВСП"/>
+
+</defs>

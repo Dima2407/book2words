@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="ta" p="interjection" ts="tə" tr="ТС"/>
+<d v="tab" p="noun" ts="tæb" tr="вкладка; табуляция; вешалка; ярлык; ушко; петелька"/>
+<d v="tabby" p="noun" ts="ˈtæbɪ" tr="табби; муар"/>
+<d v="tabby" p="adjective" ts="ˈtæbɪ" tr="полосатый"/>
+<d v="tabernacle" p="noun" ts="ˈtæbɜːnækl" tr="скиния; шатер; дарохранительница; храм; сосуд"/>
+<d v="table" p="noun" ts="teɪbl" tr="таблица; стол; расписание; табель; доска; кухня; рольганг; планшайба"/>
+<d v="table" p="adjective" ts="teɪbl" tr="столовый; табличный"/>
+<d v="tablecloth" p="noun" ts="ˈteɪblklɒθ" tr="скатерть"/>
+<d v="tablespoon" p="noun" ts="ˈteɪblspuːn" tr="ложка; столовая ложка"/>
+<d v="tablet" p="noun" ts="ˈtæblɪt" tr="таблетка; табличка; планшет"/>
+<d v="tablet" p="adjective" ts="ˈtæblɪt" tr="планшетный"/>
+<d v="tabloid" p="noun" ts="ˈtæblɔɪd" tr="таблоид"/>
+<d v="tabloid" p="adjective" ts="ˈtæblɔɪd" tr="бульварный"/>
+<d v="taboo" p="noun" ts="təˈbuː" tr="табу"/>
+<d v="taboo" p="adjective" ts="təˈbuː" tr="запретный"/>
+<d v="taboo" p="participle" ts="təˈbuː" tr="табуированный"/>
+<d v="tabulate" p="noun" ts="ˈtæbjʊleɪt" tr="табулирование"/>
+<d v="tabulate" p="verb" ts="ˈtæbjʊleɪt" tr="табулировать"/>
+<d v="tabulation" p="noun" ts="tæbjʊˈleɪʃn" tr="табуляция; таблица; табулирование; составление таблиц"/>
+<d v="tacit" p="adjective" ts="ˈtæsɪt" tr="молчаливый; неявный"/>
+<d v="tacit" p="participle" ts="ˈtæsɪt" tr="подразумеваемый"/>
+<d v="tacitly" p="adverb" ts="ˈtæsɪtlɪ" tr="молчаливо; негласно"/>
+<d v="taciturn" p="adjective" ts="ˈtæsɪtɜːn" tr="молчаливый"/>
+<d v="tack" p="noun" ts="tæk" tr="Галс; тэкс; тактика; курс; липкость; упряжь"/>
+<d v="tack" p="verb" ts="tæk" tr="лавировать; присоединять"/>
+<d v="tackle" p="verb" ts="tækl" tr="решать; справиться; заниматься; обуздать; схватить"/>
+<d v="tackle" p="noun" ts="tækl" tr="снасть; преодоление; тали; инструмент; такелаж"/>
+<d v="tacky" p="adjective" ts="ˈtækɪ" tr="липкий"/>
+<d v="tact" p="noun" ts="tækt" tr="такт; тактичность"/>
+<d v="tactful" p="adjective" ts="ˈtæktfʊl" tr="тактичный; деликатный"/>
+<d v="tactfully" p="adverb" ts="ˈtæktfəlɪ" tr="тактично; деликатно"/>
+<d v="tactic" p="noun" ts="ˈtæktɪk" tr="тактика"/>
+<d v="tactical" p="adjective" ts="ˈtæktɪkəl" tr="тактический"/>
+<d v="tactically" p="adverb" ts="ˈtæktɪklɪ" tr="тактически"/>
+<d v="tactics" p="noun" ts="ˈtæktɪks" tr="тактика"/>
+<d v="tactics" p="adjective" ts="ˈtæktɪks" tr="тактический"/>
+<d v="tadpole" p="noun" ts="ˈtædpəʊl" tr="головастик"/>
+<d v="taffy" p="noun" ts="ˈtæfɪ" tr="ИрИсКа"/>
+<d v="tag" p="noun" ts="tæg" tr="тег; метка; ярлык; дескриптор; пятнашки; номерок; ушко; припев"/>
+<d v="tag" p="verb" ts="tæg" tr="помечать; добавлять; связывать"/>
+<d v="tag" p="adjective" ts="tæg" tr="свободный"/>
+<d v="tail" p="noun" ts="teɪl" tr="хвост; конец; шлейф; хвостохранилище; фрак; зад; Фалда"/>
+<d v="tail" p="adjective" ts="teɪl" tr="хвостовой"/>
+<d v="tailgate" p="noun" ts="ˈteɪlgeɪt" tr="задняя дверь; задний борт"/>
+<d v="taillight" p="noun" ts="ˈtælɪt" tr="фонарь; задний фонарь"/>
+<d v="tailor" p="noun" ts="ˈteɪlə" tr="портной; пошив"/>
+<d v="tailor" p="verb" ts="ˈteɪlə" tr="адаптировать; портняжничать; подогнать; шить; скроить"/>
+<d v="tailoring" p="noun" ts="ˈteɪlərɪŋ" tr="пошив; портняжное дело"/>
+<d v="tailoring" p="adjective" ts="ˈteɪlərɪŋ" tr="швейный; портняжный"/>
+<d v="tailpipe" p="noun" ts="ˈteɪlpaɪp" tr="выхлопная труба"/>
+<d v="tails" p="noun" ts="teɪlz" tr="решка; фрак"/>
+<d v="tailspin" p="noun" ts="ˈteɪlspɪn" tr="штопор"/>
+<d v="taint" p="noun" ts="teɪnt" tr="порча; пятно; налет; зараза; испорченность; позор"/>
+<d v="taint" p="verb" ts="teɪnt" tr="запятнать; портить; заражать"/>
+<d v="tainted" p="participle" ts="ˈteɪntɪd" tr="испорченный; запятнанный"/>
+<d v="Taiwanese" p="adjective" ts="taɪwəˈniːz" tr="тайваньский"/>
+<d v="Taiwanese" p="noun" ts="taɪwəˈniːz" tr="Тайвань"/>
+<d v="take" p="verb" ts="teɪk" tr="принять; взять; предпринять; требоваться; использовать; получить; отвезти; снимать; считать; отвести; отнять; отнимать; понимать; уносить; доставлять; потреблять; сопровождать; соглашаться; ловить; глотать"/>
+<d v="take" p="noun" ts="teɪk" tr="взятие; дубль"/>
+<d v="taken" p="participle" ts="ˈteɪkən" tr="принятый; взятый; предпринятый; сделанный; принимаемый; предпринимаемый; вывезенный; заимствованный; увезенный"/>
+<d v="takeoff" p="noun" ts="ˈteɪkɒf" tr="взлет"/>
+<d v="takeoff" p="adjective" ts="ˈteɪkɒf" tr="взлетный"/>
+<d v="takeover" p="noun" ts="ˈteɪkəʊvər" tr="поглощение; переворот"/>
+<d v="taking" p="noun" ts="ˈteɪkɪŋ" tr="принятие; взятие; снятие"/>
+<d v="taking" p="participle" ts="ˈteɪkɪŋ" tr="принимающий; берущий; увозящий"/>
+<d v="tale" p="noun" ts="teɪl" tr="сказка; рассказ; сплетня"/>
+<d v="talent" p="noun" ts="ˈtælənt" tr="талант; дарование; талантливость"/>
+<d v="talent" p="adjective" ts="ˈtælənt" tr="талантливый"/>
+<d v="talented" p="adjective" ts="ˈtæləntɪd" tr="талантливый; даровитый"/>
+<d v="talented" p="noun" ts="ˈtæləntɪd" tr="талант"/>
+<d v="talented" p="participle" ts="ˈtæləntɪd" tr="одаренный"/>
+<d v="talisman" p="noun" ts="ˈtælɪzmən" tr="талисман"/>
+<d v="talk" p="verb" ts="tɔːk" tr="говорить; разговаривать; рассказать; уговорить; потолковать"/>
+<d v="talk" p="noun" ts="tɔːk" tr="разговор"/>
+<d v="talkative" p="adjective" ts="ˈtɔːkətɪv" tr="разговорчивый; словоохотливый; говорливый"/>
+<d v="talker" p="noun" ts="ˈtɔːkə" tr="болтун; собеседник; болтушка"/>
+<d v="talks" p="noun" ts="tɔːks" tr="переговоры"/>
+<d v="talk show" p="noun" ts="tɔːk ʃəʊ" tr="ток шоу"/>
+<d v="tall" p="adjective" ts="tɔːl" tr="высокий; высокорослый"/>
+<d v="tall" p="noun" ts="tɔːl" tr="высокий рост"/>
+<d v="tallow" p="noun" ts="ˈtæləʊ" tr="жир"/>
+<d v="tallow" p="adjective" ts="ˈtæləʊ" tr="сальный"/>
+<d v="tally" p="noun" ts="ˈtælɪ" tr="подсчет; бирка; Тэлли"/>
+<d v="tally" p="verb" ts="ˈtælɪ" tr="совпадать; подсчитать"/>
+<d v="Talmud" p="noun" ts="ˈtælmʊd" tr="Талмуд"/>
+<d v="talon" p="noun" ts="ˈtælən" tr="коготь; талон"/>
+<d v="tambourine" p="noun" ts="tæmbəˈriːn" tr="бубен"/>
+<d v="tame" p="verb" ts="teɪm" tr="приручить; смирять; дрессировать; смягчать"/>
+<d v="tame" p="adjective" ts="teɪm" tr="ручной; послушный; скучный"/>
+<d v="tame" p="participle" ts="teɪm" tr="прирученный; укрощенный"/>
+<d v="tame" p="noun" ts="teɪm" tr="приручение; укрощение"/>
+<d v="tamper" p="noun" ts="ˈtæmpə" tr="саботаж; фальсификация; НСД"/>
+<d v="tamper" p="verb" ts="ˈtæmpə" tr="трогать; подделать; искажать; портить"/>
+<d v="tampon" p="noun" ts="ˈtæmpən" tr="тампон"/>
+<d v="tan" p="noun" ts="tæn" tr="загар; Тан; подпал"/>
+<d v="tan" p="verb" ts="tæn" tr="загорать; дубасить; дубить"/>
+<d v="tan" p="adjective" ts="tæn" tr="загорелый"/>
+<d v="tandem" p="noun" ts="ˈtændəm" tr="тандем"/>
+<d v="tangent" p="adjective" ts="ˈtænʤənt" tr="касательный"/>
+<d v="tangent" p="noun" ts="ˈtænʤənt" tr="тангенс; касательная"/>
+<d v="tangential" p="adjective" ts="tænˈʤenʃəl" tr="тангенциальный"/>
+<d v="tangerine" p="noun" ts="tænʤəˈriːn" tr="мандарин; уроженец Танжера"/>
+<d v="tangerine" p="adjective" ts="tænʤəˈriːn" tr="мандариновый"/>
+<d v="tangible" p="adjective" ts="ˈtænʤəbl" tr="ощутимый; материальный"/>
+<d v="tangle" p="noun" ts="tæŋgl" tr="клубок; путаница; переплетение; спутанный клубок"/>
+<d v="tangle" p="verb" ts="tæŋgl" tr="запутаться"/>
+<d v="tangled" p="adjective" ts="tæŋgld" tr="запутанный"/>
+<d v="tangled" p="adverbial participle" ts="tæŋgld" tr="путаясь"/>
+<d v="tangled" p="participle" ts="tæŋgld" tr="спутанный; запутавшийся"/>
+<d v="tango" p="noun" ts="ˈtæŋgəʊ" tr="Танго"/>
+<d v="tank" p="noun" ts="tæŋk" tr="бак; танк; резервуар; танкист; чан"/>
+<d v="tank" p="adjective" ts="tæŋk" tr="танковый"/>
+<d v="tankard" p="noun" ts="ˈtæŋkəd" tr="кружка"/>
+<d v="tanker" p="noun" ts="ˈtæŋkə" tr="танкер; цистерна; автоцистерна; заправщик; наливное судно"/>
+<d v="tanker" p="adjective" ts="ˈtæŋkə" tr="танкерный; наливной"/>
+<d v="tanned" p="adjective" ts="tænd" tr="загорелый"/>
+<d v="tantalize" p="verb" ts="ˈtæntəlaɪz" tr="мучить; дразнить"/>
+<d v="tantalizing" p="participle" ts="ˈtæntəlaɪzɪŋ" tr="дразнящий; мучающий"/>
+<d v="tantamount" p="adjective" ts="ˈtæntəmaʊnt" tr="равносильный"/>
+<d v="tantrum" p="noun" ts="ˈtæntrəm" tr="истерика; вспышка раздражения"/>
+<d v="tap" p="verb" ts="tæp" tr="нажать; постучать; выстучать; задействовать; перехватывать"/>
+<d v="tap" p="noun" ts="tæp" tr="кран; отвод; нажатие; метчик; стук; степ; пробка; отпайка; сорт"/>
+<d v="tap dance" p="noun" ts="tæp dɑːns" tr="степ"/>
+<d v="tape" p="noun" ts="teɪp" tr="лента; кассета; волокита; рулетка"/>
+<d v="tape" p="adjective" ts="teɪp" tr="ленточный"/>
+<d v="tape" p="verb" ts="teɪp" tr="заклеить"/>
+<d v="tape deck" p="noun" ts="teɪp dek" tr="кассетная дека"/>
+<d v="tape measure" p="noun" ts="teɪp ˈmeʒə" tr="рулетка; измерительная лента; мерная лента"/>
+<d v="tape player" p="noun" ts="teɪp ˈpleɪə" tr="магнитофон"/>
+<d v="taper" p="noun" ts="ˈteɪpə" tr="конус; конусность"/>
+<d v="taper" p="adjective" ts="ˈteɪpə" tr="конический"/>
+<d v="taper" p="verb" ts="ˈteɪpə" tr="сужаться"/>
+<d v="tape recorder" p="noun" ts="teɪp rɪˈkɔːdə" tr="магнитофон"/>
+<d v="tapered" p="participle" ts="ˈteɪpəd" tr="сужающийся"/>
+<d v="tapestry" p="noun" ts="ˈtæpɪstrɪ" tr="гобелен; шпалера; декоративная ткань"/>
+<d v="tapeworm" p="noun" ts="ˈteɪpwɜːm" tr="солитер; ленточный червь; лентец"/>
+<d v="tap water" p="noun" ts="tæp ˈwɔːtə" tr="водопроводная вода; вода из крана"/>
+<d v="tar" p="noun" ts="tɑː" tr="смола; ТДО"/>
+<d v="tar" p="adjective" ts="tɑː" tr="смоляной"/>
+<d v="tarantula" p="noun" ts="təˈræntjʊlə" tr="тарантул; птицеед"/>
+<d v="tardiness" p="noun" ts="ˈtɑːdɪnəs" tr="опоздание; медлительность"/>
+<d v="tardy" p="adjective" ts="ˈtɑːdɪ" tr="запоздалый; медлительный"/>
+<d v="target" p="adjective" ts="ˈtɑːgɪt" tr="целевой"/>
+<d v="target" p="noun" ts="ˈtɑːgɪt" tr="цель; контрольная цифра"/>
+<d v="target" p="verb" ts="ˈtɑːgɪt" tr="пристреливать; нацеливать; нацелиться"/>
+<d v="target" p="participle" ts="ˈtɑːgɪt" tr="адресуемый"/>
+<d v="tariff" p="noun" ts="ˈtærɪf" tr="тариф"/>
+<d v="tariff" p="adjective" ts="ˈtærɪf" tr="тарифный"/>
+<d v="tarmac" p="noun" ts="ˈtɑːmæk" tr="асфальт; гудронированное шоссе"/>
+<d v="tarmac" p="adjective" ts="ˈtɑːmæk" tr="асфальтовый"/>
+<d v="tarnish" p="verb" ts="ˈtɑːnɪʃ" tr="запятнать; очернить; порочить; тускнеть; подмочить"/>
+<d v="tarnish" p="noun" ts="ˈtɑːnɪʃ" tr="тусклость"/>
+<d v="tarot" p="noun" ts="tærˈəʊ" tr="таро"/>
+<d v="tarp" p="noun" ts="tɒp" tr="брезент"/>
+<d v="tarpaulin" p="noun" ts="tɑːˈpɔːlɪn" tr="брезент; штормовка"/>
+<d v="tarpaulin" p="adjective" ts="tɑːˈpɔːlɪn" tr="брезентовый"/>
+<d v="tarry" p="verb" ts="ˈtærɪ" tr="медлить; остаться; пробыть; мешкать"/>
+<d v="tarry" p="adjective" ts="ˈtærɪ" tr="смолистый"/>
+<d v="tart" p="noun" ts="tɑːt" tr="пирог; шлюха"/>
+<d v="tart" p="adjective" ts="tɑːt" tr="терпкий"/>
+<d v="tartan" p="noun" ts="ˈtɑːtən" tr="тартан; шотландка"/>
+<d v="tartan" p="adjective" ts="ˈtɑːtən" tr="клетчатый"/>
+<d v="tartar" p="noun" ts="ˈtɑːtə" tr="татарин; тартар; зубной камень; татарка"/>
+<d v="tartar" p="adjective" ts="ˈtɑːtə" tr="татарский; зубной"/>
+<d v="task" p="noun" ts="tɑːsk" tr="задача"/>
+<d v="task" p="adjective" ts="tɑːsk" tr="целевой"/>
+<d v="task" p="verb" ts="tɑːsk" tr="задать работу"/>
+<d v="task force" p="noun" ts="tɑːsk fɔːs" tr="целевая группа; специальная рабочая группа; оперативное соединение"/>
+<d v="tassel" p="noun" ts="ˈtæsəl" tr="кисточка"/>
+<d v="taste" p="noun" ts="teɪst" tr="вкус; стиль; представление; кусочек"/>
+<d v="taste" p="verb" ts="teɪst" tr="попробовать; отведать; почувствовать; дегустировать"/>
+<d v="taste" p="adjective" ts="teɪst" tr="вкусовой"/>
+<d v="tasteful" p="noun" ts="ˈteɪstfʊl" tr="со вкусом"/>
+<d v="tasteful" p="adjective" ts="ˈteɪstfʊl" tr="вкусный; изящный"/>
+<d v="tasteful" p="participle" ts="ˈteɪstfʊl" tr="сделанный со вкусом"/>
+<d v="tastefully" p="noun" ts="ˈteɪstfəlɪ" tr="со вкусом"/>
+<d v="tasteless" p="adjective" ts="ˈteɪstlɪs" tr="безвкусный; невкусный"/>
+<d v="taster" p="noun" ts="ˈteɪstə" tr="дегустатор"/>
+<d v="tasty" p="adjective" ts="ˈteɪstɪ" tr="вкусный"/>
+<d v="tattered" p="participle" ts="ˈtætəd" tr="оборванный"/>
+<d v="tattle" p="verb" ts="tætl" tr="сплетничать; судачить"/>
+<d v="tattle" p="noun" ts="tætl" tr="болтовня"/>
+<d v="tattoo" p="noun" ts="təˈtuː" tr="татуировка; сигнал вечерней зари"/>
+<d v="tattoo" p="participle" ts="təˈtuː" tr="татуированный; вытатуированный"/>
+<d v="tattoo" p="verb" ts="təˈtuː" tr="татуировать"/>
+<d v="taught" p="participle" ts="tɔːt" tr="наученный; преподаваемый; преподанный; изучаемый; обучаемый"/>
+<d v="taunt" p="verb" ts="tɔːnt" tr="дразнить"/>
+<d v="taunt" p="noun" ts="tɔːnt" tr="насмешка"/>
+<d v="Taurus" p="noun" ts="ˈtɔːrəs" tr="телец"/>
+<d v="taut" p="adjective" ts="tɔːt" tr="тугой"/>
+<d v="taut" p="participle" ts="tɔːt" tr="натянутый; подтянутый"/>
+<d v="tavern" p="noun" ts="ˈtævən" tr="таверна; трактир; бар"/>
+<d v="tawdry" p="adjective" ts="ˈtɔːdrɪ" tr="безвкусный; мишурный"/>
+<d v="tawny" p="adjective" ts="ˈtɔːnɪ" tr="смуглый"/>
+<d v="tax" p="adjective" ts="tæks" tr="налоговый"/>
+<d v="tax" p="noun" ts="tæks" tr="налог; бремя"/>
+<d v="tax" p="verb" ts="tæks" tr="таксировать"/>
+<d v="taxable" p="adjective" ts="ˈtæksəbl" tr="налогооблагаемый"/>
+<d v="taxable" p="participle" ts="ˈtæksəbl" tr="облагаемый налогом"/>
+<d v="taxation" p="noun" ts="tækˈseɪʃn" tr="налогообложение"/>
+<d v="taxation" p="adjective" ts="tækˈseɪʃn" tr="налоговый"/>
+<d v="tax-deductible" p="noun" ts="tæks-dɪˈdʌktəbl" tr="налоговый вычет"/>
+<d v="taxi" p="noun" ts="ˈtæksɪ" tr="такси"/>
+<d v="taxi" p="verb" ts="ˈtæksɪ" tr="рулить; вырулить"/>
+<d v="taxing" p="noun" ts="ˈtæksɪŋ" tr="налогообложение"/>
+<d v="taxing" p="adjective" ts="ˈtæksɪŋ" tr="налоговый"/>
+<d v="taxi stand" p="noun" ts="ˈtæksɪ stænd" tr="стоянка такси"/>
+<d v="taxpayer" p="noun" ts="ˈtækspeɪə" tr="налогоплательщик"/>
+<d v="tax shelter" p="noun" ts="tæks ˈʃeltə" tr="налоговое убежище"/>
+<d v="TB" p="invariant" ts="ˈtiːbiː" tr="ТБ"/>
+<d v="TB" p="noun" ts="ˈtiːbiː" tr="туберкулез"/>
+<d v="tea" p="noun" ts="tiː" tr="чай; чайная; заварка; настой"/>
+<d v="tea" p="adjective" ts="tiː" tr="чайный"/>
+<d v="tea bag" p="noun" ts="tiː bæg" tr="чайный пакетик; пакетик; пакетик чая"/>
+<d v="teach" p="verb" ts="tiːʧ" tr="учить; преподавать; обучать; приучить; поучать; проповедовать; преподнести; проучить"/>
+<d v="teach" p="noun" ts="tiːʧ" tr="преподавание"/>
+<d v="teacher" p="noun" ts="ˈtiːʧə" tr="учитель"/>
+<d v="teaching" p="noun" ts="ˈtiːʧɪŋ" tr="учение; обучение; наставление"/>
+<d v="teaching" p="adjective" ts="ˈtiːʧɪŋ" tr="учебный; преподавательский"/>
+<d v="teaching" p="participle" ts="ˈtiːʧɪŋ" tr="обучающий; преподающий; учащий"/>
+<d v="teacup" p="noun" ts="ˈtiːkʌp" tr="чашка; чайная чашка"/>
+<d v="teak" p="noun" ts="tiːk" tr="тик"/>
+<d v="teak" p="adjective" ts="tiːk" tr="тиковый"/>
+<d v="team" p="noun" ts="tiːm" tr="команда; группа; упряжка; артель"/>
+<d v="team" p="adjective" ts="tiːm" tr="командный"/>
+<d v="teammate" p="noun" ts="ˈtiːmeɪt" tr="товарищ; товарищ по команде"/>
+<d v="team player" p="noun" ts="tiːm ˈpleɪə" tr="командный игрок; игрок команды"/>
+<d v="teamster" p="noun" ts="ˈtiːmstə" tr="погонщик; возница"/>
+<d v="teamwork" p="noun" ts="ˈtiːmwɜːk" tr="совместная работа; командная работа; сыгранность; командный дух; коллективизм"/>
+<d v="teamwork" p="adjective" ts="ˈtiːmwɜːk" tr="командный"/>
+<d v="teapot" p="noun" ts="ˈtiːpɒt" tr="чайник"/>
+<d v="tear" p="noun" ts="tɛə" tr="слеза; разрыв; прореха"/>
+<d v="tear" p="verb" ts="tɛə" tr="разорвать; оторвать; сорвать; снести; порваться; прослезиться; поранить; мчаться"/>
+<d v="tear" p="adjective" ts="tɛə" tr="слезоточивый; слезный"/>
+<d v="teardrop" p="noun" ts="ˈtɪədrɒp" tr="слеза"/>
+<d v="tearful" p="adjective" ts="ˈtɪəfʊl" tr="слезливый; печальный"/>
+<d v="tearful" p="participle" ts="ˈtɪəfʊl" tr="плачущий"/>
+<d v="tease" p="verb" ts="tiːz" tr="дразнить; подразнить; поддразнить; позлить; надоедать; приставать"/>
+<d v="tease" p="noun" ts="tiːz" tr="стриптиз"/>
+<d v="teaspoon" p="noun" ts="ˈtiːspuːn" tr="чайная ложка; ложка"/>
+<d v="teaspoonful" p="noun" ts="ˈtiːspuːnfʊl" tr="чайная ложка"/>
+<d v="teat" p="noun" ts="tiːt" tr="сосок"/>
+<d v="technical" p="adjective" ts="ˈteknɪkəl" tr="технический; специальный; техничный; промышленный"/>
+<d v="technicality" p="noun" ts="teknɪˈkælɪtɪ" tr="формальность; техническая деталь"/>
+<d v="technically" p="adverb" ts="ˈteknɪklɪ" tr="технически; формально"/>
+<d v="technically" p="noun" ts="ˈteknɪklɪ" tr="с технической точки"/>
+<d v="technically" p="adjective" ts="ˈteknɪklɪ" tr="техничный"/>
+<d v="technician" p="noun" ts="tekˈnɪʃn" tr="техник; специалист; технический специалист; технический работник; сантехник; технарь"/>
+<d v="technician" p="adjective" ts="tekˈnɪʃn" tr="технический"/>
+<d v="technique" p="noun" ts="tekˈniːk" tr="метод; техника; технический прием"/>
+<d v="technological" p="adjective" ts="teknəˈlɒʤɪkl" tr="технологический; техногенный"/>
+<d v="technological" p="noun" ts="teknəˈlɒʤɪkl" tr="технологичность"/>
+<d v="technologist" p="noun" ts="tekˈnɔləʤɪst" tr="технолог; политтехнолог"/>
+<d v="technology" p="noun" ts="tekˈnɔləʤɪ" tr="технология"/>
+<d v="technology" p="adjective" ts="tekˈnɔləʤɪ" tr="технологический"/>
+<d v="teddy bear" p="noun" ts="ˈtedɪˈbɛə" tr="мишка; плюшевый мишка; плюшевый медведь; плюшевый медвежонок"/>
+<d v="tedious" p="adjective" ts="ˈtiːdjəs" tr="утомительный; трудоемкий"/>
+<d v="tedium" p="noun" ts="ˈtiːdjəm" tr="скука"/>
+<d v="tee" p="noun" ts="tiː" tr="тройник; мишень"/>
+<d v="teem" p="verb" ts="tiːm" tr="кишеть"/>
+<d v="teen" p="noun" ts="tiːn" tr="подросток; горе"/>
+<d v="teen" p="adjective" ts="tiːn" tr="подростковый"/>
+<d v="teenage" p="adjective" ts="ˈtiːneɪʤ" tr="подростковый"/>
+<d v="teenage" p="noun" ts="ˈtiːneɪʤ" tr="подросток"/>
+<d v="teenager" p="noun" ts="ˈtiːneɪʤər" tr="подросток"/>
+<d v="teenager" p="adjective" ts="ˈtiːneɪʤər" tr="подростковый"/>
+<d v="teens" p="noun" ts="tiːnz" tr="подросток"/>
+<d v="teeter" p="verb" ts="ˈtiːtə" tr="балансировать"/>
+<d v="teeter" p="noun" ts="ˈtiːtə" tr="пошатывание"/>
+<d v="teeth" p="noun" ts="tiːθ" tr="оскал"/>
+<d v="teetotaler" p="noun" ts="tiːtəʊˈteɪlər" tr="трезвенник"/>
+<d v="Teflon" p="noun" ts="ˈteflɪn" tr="тефлон; фторопласт"/>
+<d v="Teflon" p="adjective" ts="ˈteflɪn" tr="тефлоновый"/>
+<d v="telecommunications" p="adjective" ts="telɪkəmjuːnɪˈkeɪʃnz" tr="коммуникационный"/>
+<d v="telecommuting" p="noun" ts="telɪkəˈmjuːtɪŋ" tr="телеработа"/>
+<d v="telegram" p="noun" ts="ˈtelɪgræm" tr="телеграмма; депеша"/>
+<d v="Telegraph" p="noun" ts="ˈtelɪgrɑːf" tr="Телеграф"/>
+<d v="Telegraph" p="adjective" ts="ˈtelɪgrɑːf" tr="телеграфный"/>
+<d v="Telegraph" p="verb" ts="ˈtelɪgrɑːf" tr="телеграфировать"/>
+<d v="telepathy" p="noun" ts="tɪˈlepəθɪ" tr="телепатия"/>
+<d v="telepathy" p="adjective" ts="tɪˈlepəθɪ" tr="телепатический"/>
+<d v="telephone" p="noun" ts="ˈtelɪfəʊn" tr="телефон"/>
+<d v="telephone" p="adjective" ts="ˈtelɪfəʊn" tr="телефонный"/>
+<d v="telephone" p="verb" ts="ˈtelɪfəʊn" tr="звонить; телефонировать"/>
+<d v="telephoto lens" p="noun" ts="telɪˈfəʊtəʊ lɒns" tr="телеобъектив"/>
+<d v="telescope" p="noun" ts="ˈtelɪskəʊp" tr="телескоп"/>
+<d v="telescope" p="adjective" ts="ˈtelɪskəʊp" tr="телескопический"/>
+<d v="telescopic" p="adjective" ts="telɪˈskɒpɪk" tr="телескопический"/>
+<d v="televise" p="verb" ts="ˈtelɪvaɪz" tr="транслировать по телевидению"/>
+<d v="television" p="noun" ts="ˈtelɪvɪʒən" tr="телевидение; телесериал; телешоу"/>
+<d v="television" p="adjective" ts="ˈtelɪvɪʒən" tr="телевизионный"/>
+<d v="tell" p="verb" ts="tel" tr="сказать; сообщать; велеть; указывать; подсказать; показать; назвать; попросить; судить; уверять; сказываться; свидетельствовать; отличать; считать; выдавать"/>
+<d v="teller" p="noun" ts="ˈtelə" tr="кассир; Теллер; банкомат; рассказчик; гадалка"/>
+<d v="teller" p="adjective" ts="ˈtelə" tr="кассовый"/>
+<d v="telling" p="adjective" ts="ˈtelɪŋ" tr="красноречивый; показательный"/>
+<d v="telling" p="noun" ts="ˈtelɪŋ" tr="рассказ; рассказывание"/>
+<d v="telling" p="participle" ts="ˈtelɪŋ" tr="рассказывающий; говорящий; повествующий; сообщающий; сказавший"/>
+<d v="telltale" p="adjective" ts="ˈtelteɪl" tr="контрольный; предательский"/>
+<d v="temp" p="adjective" ts="temp" tr="временный"/>
+<d v="temper" p="noun" ts="ˈtempə" tr="характер; терпение; гнев; закал; вспыльчивость; закалка; Норов"/>
+<d v="temper" p="verb" ts="ˈtempə" tr="закалять; умерить; смягчать; закалиться; регулировать; темперировать"/>
+<d v="temper" p="adjective" ts="ˈtempə" tr="вспыльчивый"/>
+<d v="temperament" p="noun" ts="ˈtempərəmənt" tr="темперамент; темперация"/>
+<d v="temperamental" p="adjective" ts="tempərəˈmentl" tr="темпераментный"/>
+<d v="temperance" p="noun" ts="ˈtempərəns" tr="воздержание; трезвость; трезвенность"/>
+<d v="temperate" p="adjective" ts="ˈtempərɪt" tr="умеренный"/>
+<d v="temperate" p="participle" ts="ˈtempərɪt" tr="воздержанный"/>
+<d v="temperature" p="noun" ts="ˈtemprɪʧə" tr="температура"/>
+<d v="temperature" p="adjective" ts="ˈtemprɪʧə" tr="температурный"/>
+<d v="tempest" p="adverbial participle" ts="ˈtempɪst" tr="буря"/>
+<d v="tempestuous" p="adjective" ts="temˈpestjʊəs" tr="бурный"/>
+<d v="template" p="noun" ts="ˈtemplɪt" tr="шаблон; лекало"/>
+<d v="template" p="adjective" ts="ˈtemplɪt" tr="шаблонный"/>
+<d v="temple" p="noun" ts="templ" tr="храм; висок"/>
+<d v="temple" p="adjective" ts="templ" tr="храмовой"/>
+<d v="tempo" p="noun" ts="ˈtempəʊ" tr="темп"/>
+<d v="temporarily" p="adverb" ts="ˈtemprərəlɪ" tr="временно"/>
+<d v="temporarily" p="adjective" ts="ˈtemprərəlɪ" tr="временной"/>
+<d v="temporary" p="adjective" ts="ˈtempərərɪ" tr="временный"/>
+<d v="tempt" p="verb" ts="tempt" tr="искушать; соблазнить; искусить; испытывать; склонить"/>
+<d v="tempt" p="noun" ts="tempt" tr="искушение"/>
+<d v="temptation" p="noun" ts="tempˈteɪʃn" tr="искушение; заманчивость"/>
+<d v="tempting" p="adjective" ts="ˈtemptɪŋ" tr="заманчивый"/>
+<d v="tempting" p="noun" ts="ˈtemptɪŋ" tr="искушение"/>
+<d v="tempting" p="participle" ts="ˈtemptɪŋ" tr="искушающий"/>
+<d v="ten" p="numeral" ts="ten" tr="десять; десятый"/>
+<d v="ten" p="noun" ts="ten" tr="десятка"/>
+<d v="tenacious" p="adjective" ts="tɪˈneɪʃəs" tr="упорный; цепкий; живучий; вязкий"/>
+<d v="tenacity" p="noun" ts="tɪˈnæsɪtɪ" tr="упорство; стойкость; цепкость; выдержка"/>
+<d v="tenancy" p="noun" ts="ˈtenənsɪ" tr="аренда"/>
+<d v="tenant" p="noun" ts="ˈtenənt" tr="арендатор; жилец"/>
+<d v="tend" p="noun" ts="tend" tr="тенденция"/>
+<d v="tend" p="verb" ts="tend" tr="стремиться; клонить; ухаживать; иметь тенденцию; направляться; пасти; клониться; обслуживать"/>
+<d v="tendency" p="noun" ts="ˈtendənsɪ" tr="тенденция; склонность"/>
+<d v="tendency" p="adjective" ts="ˈtendənsɪ" tr="тенденциозный"/>
+<d v="tender" p="noun" ts="ˈtendə" tr="тендер"/>
+<d v="tender" p="adjective" ts="ˈtendə" tr="нежный; тендерный; чувствительный; молодой"/>
+<d v="tender" p="verb" ts="ˈtendə" tr="предлагать"/>
+<d v="tender" p="participle" ts="ˈtendə" tr="любящий"/>
+<d v="tenderhearted" p="adjective" ts="tendəˈhɑːtɪd" tr="мягкосердечный"/>
+<d v="tenderize" p="verb" ts="ˈtendərɪz" tr="разваривать"/>
+<d v="tenderly" p="adverb" ts="ˈtendəlɪ" tr="нежно; умиленно"/>
+<d v="tenderly" p="noun" ts="ˈtendəlɪ" tr="нежность; с нежностью"/>
+<d v="tenderness" p="noun" ts="ˈtendənɪs" tr="нежность; умиление; отзывчивость"/>
+<d v="tendon" p="noun" ts="ˈtendən" tr="сухожилие"/>
+<d v="tendon" p="adjective" ts="ˈtendən" tr="сухожильный"/>
+<d v="tendril" p="noun" ts="ˈtendrɪl" tr="усик; завиток"/>
+<d v="tenement" p="adjective" ts="ˈtenɪmənt" tr="многоквартирный"/>
+<d v="tenement" p="noun" ts="ˈtenɪmənt" tr="многоквартирный дом; обитель"/>
+<d v="tenet" p="noun" ts="ˈtiːnet" tr="принцип; тенета"/>
+<d v="tennis" p="noun" ts="ˈtenɪs" tr="теннис; теннисист"/>
+<d v="tennis" p="adjective" ts="ˈtenɪs" tr="теннисный"/>
+<d v="tenor" p="noun" ts="ˈtenə" tr="тенор; уклад; направление; течение; развитие"/>
+<d v="tenor" p="adjective" ts="ˈtenə" tr="теноровый"/>
+<d v="tense" p="adjective" ts="tens" tr="напряженный; тугой"/>
+<d v="tense" p="noun" ts="tens" tr="время"/>
+<d v="tense" p="verb" ts="tens" tr="напрячься; напрягать; натягивать"/>
+<d v="tense" p="participle" ts="tens" tr="натянутый; напрягшийся"/>
+<d v="tense" p="adverbial participle" ts="tens" tr="напрягаясь"/>
+<d v="tension" p="noun" ts="tenʃn" tr="напряженность; натяжение; натянутость; упругость"/>
+<d v="tension" p="adjective" ts="tenʃn" tr="напряженный; натяжной"/>
+<d v="tent" p="noun" ts="tent" tr="палатка; тент; шалаш; чум"/>
+<d v="tent" p="adjective" ts="tent" tr="палаточный; шатровый"/>
+<d v="tentacle" p="noun" ts="ˈtentəkl" tr="щупальце"/>
+<d v="tentative" p="adjective" ts="ˈtentətɪv" tr="предварительный; ориентировочный; пробный; робкий"/>
+<d v="tentatively" p="adverb" ts="ˈtentətɪvlɪ" tr="предварительно; ориентировочно; осторожно; неуверенно"/>
+<d v="tenth" p="numeral" ts="tenθ" tr="десятый"/>
+<d v="tenuous" p="adjective" ts="ˈtenjʊəs" tr="слабый; непрочный; разреженный"/>
+<d v="tenure" p="noun" ts="ˈtenjʊə" tr="владение; пребывание; землепользование; владение жильем; пребывание в должности; срок пребывания; срок владения"/>
+<d v="tepee" p="noun" ts="ˈtiːpiː" tr="вигвам"/>
+<d v="tepid" p="adjective" ts="ˈtepɪd" tr="прохладный"/>
+<d v="tequila" p="noun" ts="təˈkɪlə" tr="текила"/>
+<d v="term" p="noun" ts="tɜːm" tr="срок; термин; член; язык; предел; договор; элемент; гонорар"/>
+<d v="term" p="verb" ts="tɜːm" tr="называть"/>
+<d v="terminal" p="noun" ts="ˈtɜːmɪnl" tr="терминал; конечная станция"/>
+<d v="terminal" p="adjective" ts="ˈtɜːmɪnl" tr="терминальный; конечный"/>
+<d v="terminally" p="adverb" ts="ˈtɜːmɪnəlɪ" tr="неизлечимо; терминально"/>
+<d v="terminate" p="verb" ts="ˈtɜːmɪneɪt" tr="прекратить; расторгнуть; завершить; прервать; разорвать; ставить предел; ограничивать; положить конец"/>
+<d v="terminate" p="noun" ts="ˈtɜːmɪneɪt" tr="прекращение"/>
+<d v="termination" p="noun" ts="tɜːmɪˈneɪʃn" tr="прекращение; окончание; расторжение; исход"/>
+<d v="terminology" p="noun" ts="tɜːmɪˈnɔləʤɪ" tr="терминология"/>
+<d v="terminology" p="adjective" ts="tɜːmɪˈnɔləʤɪ" tr="терминологический"/>
+<d v="Terminus" p="noun" ts="ˈtɜːmɪnəs" tr="Терминус; вокзал; конечная станция"/>
+<d v="termite" p="noun" ts="ˈtɜːmaɪt" tr="термит; термитник"/>
+<d v="term paper" p="adjective" ts="tɜːm ˈpeɪpə" tr="курсовой"/>
+<d v="term paper" p="noun" ts="tɜːm ˈpeɪpə" tr="курсовая работа"/>
+<d v="terrace" p="noun" ts="ˈterəs" tr="терраса; уступ"/>
+<d v="terrain" p="noun" ts="ˈtereɪn" tr="местность; рельеф"/>
+<d v="terrain" p="adjective" ts="ˈtereɪn" tr="земной"/>
+<d v="terrestrial" p="adjective" ts="tɪˈrestrɪəl" tr="земной"/>
+<d v="terrestrial" p="noun" ts="tɪˈrestrɪəl" tr="суша; землянин"/>
+<d v="terrible" p="adjective" ts="ˈterəbl" tr="страшный"/>
+<d v="terrible" p="noun" ts="ˈterəbl" tr="ужас; внушающий страх"/>
+<d v="terribly" p="adverb" ts="ˈterəblɪ" tr="ужасно; очень; грозно"/>
+<d v="terrier" p="noun" ts="ˈterɪə" tr="терьер; экстерьер"/>
+<d v="terrific" p="participle" ts="təˈrɪfɪk" tr="потрясающий"/>
+<d v="terrific" p="adjective" ts="təˈrɪfɪk" tr="ужасный; фантастический"/>
+<d v="terrified" p="participle" ts="ˈterɪfaɪd" tr="напуганный; запуганный; охваченный ужасом"/>
+<d v="terrify" p="verb" ts="ˈterɪfaɪ" tr="пугать; ужасать; запугать"/>
+<d v="terrify" p="noun" ts="ˈterɪfaɪ" tr="ужас"/>
+<d v="terrifying" p="participle" ts="ˈterɪfaɪɪŋ" tr="пугающий; устрашающий"/>
+<d v="territorial" p="adjective" ts="terɪˈtɔːrɪəl" tr="территориальный; земельный"/>
+<d v="territory" p="noun" ts="ˈterɪtərɪ" tr="территория; земля"/>
+<d v="terror" p="noun" ts="ˈterə" tr="террор; ужас"/>
+<d v="terror" p="adjective" ts="ˈterə" tr="террористический"/>
+<d v="terrorism" p="noun" ts="ˈterərɪzm" tr="терроризм"/>
+<d v="terrorism" p="adjective" ts="ˈterərɪzm" tr="террористический"/>
+<d v="terrorist" p="noun" ts="ˈterərɪst" tr="террорист"/>
+<d v="terrorist" p="adjective" ts="ˈterərɪst" tr="террористический"/>
+<d v="terrorize" p="verb" ts="ˈterəraɪz" tr="терроризировать; запугать"/>
+<d v="terrorize" p="noun" ts="ˈterəraɪz" tr="терроризирование; устрашение"/>
+<d v="terse" p="adjective" ts="tɜːs" tr="краткий"/>
+<d v="terse" p="participle" ts="tɜːs" tr="сжатый"/>
+<d v="test" p="noun" ts="test" tr="испытание; тест; тесто; анализ; контрольная работа; реактив"/>
+<d v="test" p="adjective" ts="test" tr="тестовый; контрольный"/>
+<d v="test" p="verb" ts="test" tr="проверить; тестировать"/>
+<d v="test" p="participle" ts="test" tr="тестируемый"/>
+<d v="Testament" p="noun" ts="ˈtestəmənt" tr="завет; завещание"/>
+<d v="Testament" p="adjective" ts="ˈtestəmənt" tr="новозаветный"/>
+<d v="test case" p="noun" ts="test keɪs" tr="контрольный пример; тестовый пример; тестовый случай; тестовый сценарий"/>
+<d v="test case" p="adjective" ts="test keɪs" tr="тестовый"/>
+<d v="test drive" p="noun" ts="test draɪv" tr="тест-драйв; пробная поездка"/>
+<d v="test-drive" p="noun" ts="test-draɪv" tr="тест-драйв"/>
+<d v="testicle" p="noun" ts="ˈtestɪkl" tr="яичко"/>
+<d v="testify" p="verb" ts="ˈtestɪfaɪ" tr="свидетельствовать; давать показания"/>
+<d v="testimonial" p="noun" ts="testɪˈməʊnjəl" tr="отзыв; характеристика"/>
+<d v="testimonial" p="adjective" ts="testɪˈməʊnjəl" tr="свидетельский; приветственный"/>
+<d v="testimony" p="noun" ts="ˈtestɪmənɪ" tr="свидетельство; свидетельствование; заявление; показание свидетеля"/>
+<d v="testimony" p="verb" ts="ˈtestɪmənɪ" tr="засвидетельствовать"/>
+<d v="test tube" p="noun" ts="test tjuːb" tr="пробирка"/>
+<d v="testy" p="adjective" ts="ˈtestɪ" tr="вспыльчивый"/>
+<d v="tetanus" p="noun" ts="ˈtetənəs" tr="столбняк"/>
+<d v="tetanus" p="adjective" ts="ˈtetənəs" tr="столбнячный"/>
+<d v="tether" p="noun" ts="ˈteðə" tr="трос; привязь; страховочный трос; фал"/>
+<d v="tether" p="verb" ts="ˈteðə" tr="привязать; привязывать"/>
+<d v="text" p="noun" ts="tekst" tr="текст; тема"/>
+<d v="text" p="adjective" ts="tekst" tr="текстовый"/>
+<d v="textbook" p="noun" ts="ˈtekstbʊk" tr="учебник"/>
+<d v="textbook" p="adjective" ts="ˈtekstbʊk" tr="хрестоматийный"/>
+<d v="textile" p="adjective" ts="ˈtekstaɪl" tr="текстильный"/>
+<d v="textile" p="noun" ts="ˈtekstaɪl" tr="текстиль; тканье"/>
+<d v="texture" p="noun" ts="ˈteksʧə" tr="текстура; фактура; сплетение"/>
+<d v="texture" p="adjective" ts="ˈteksʧə" tr="текстурный; фактурный"/>
+<d v="texture" p="participle" ts="ˈteksʧə" tr="текстурированный"/>
+<d v="texture" p="verb" ts="ˈteksʧə" tr="текстурировать"/>
+<d v="than" p="conjunction" ts="ðæn" tr="чем; нежели"/>
+<d v="than" p="pronoun" ts="ðæn" tr="что"/>
+<d v="than" p="particle" ts="ðæn" tr="не"/>
+<d v="thank" p="verb" ts="θæŋk" tr="благодарить"/>
+<d v="thank" p="noun" ts="θæŋk" tr="слава"/>
+<d v="thankful" p="adjective" ts="ˈθæŋkfʊl" tr="благодарный"/>
+<d v="thankful" p="verb" ts="ˈθæŋkfʊl" tr="благодарить"/>
+<d v="thankful" p="noun" ts="ˈθæŋkfʊl" tr="благодарность"/>
+<d v="thankfully" p="noun" ts="ˈθæŋkfəlɪ" tr="к счастью"/>
+<d v="thankfully" p="adverb" ts="ˈθæŋkfəlɪ" tr="благодарно"/>
+<d v="thankless" p="adjective" ts="ˈθæŋklɪs" tr="неблагодарный"/>
+<d v="thanks" p="preposition" ts="θæŋks" tr="благодаря"/>
+<d v="thanks" p="noun" ts="θæŋks" tr="спасибо"/>
+<d v="thanksgiving" p="noun" ts="θænksˈgɪvɪŋ" tr="благодарение"/>
+<d v="thanksgiving" p="adjective" ts="θænksˈgɪvɪŋ" tr="благодарственный"/>
+<d v="thank-you" p="adjective" ts="θæŋk-juː" tr="благодарственный"/>
+<d v="that" p="pronoun" ts="ðæt" tr="что; который; это; кто"/>
+<d v="that" p="conjunction" ts="ðæt" tr="чтобы"/>
+<d v="that" p="invariant" ts="ðæt" tr="то"/>
+<d v="thatch" p="adjective" ts="θæʧ" tr="соломенный"/>
+<d v="thatch" p="noun" ts="θæʧ" tr="солома"/>
+<d v="thaw" p="noun" ts="θɔː" tr="оттепель; таяние; потепление; капель"/>
+<d v="thaw" p="verb" ts="θɔː" tr="таять; растаять; оттаять; размораживать"/>
+<d v="the" p="pronoun" ts="ðiː" tr="этот; тот; самый; свой; что; все; сам; такой; его"/>
+<d v="theater" p="noun" ts="ˈθɪətə" tr="театр"/>
+<d v="theater" p="adjective" ts="ˈθɪətə" tr="театральный"/>
+<d v="theatrical" p="adjective" ts="θɪˈætrɪkəl" tr="театральный"/>
+<d v="theatrical" p="noun" ts="θɪˈætrɪkəl" tr="спектакль"/>
+<d v="theft" p="noun" ts="θeft" tr="кража"/>
+<d v="their" p="pronoun" ts="ðɛə" tr="их; свои; они"/>
+<d v="theirs" p="pronoun" ts="ðɛəz" tr="их"/>
+<d v="thematic" p="adjective" ts="θɪˈmætɪk" tr="тематический"/>
+<d v="theme" p="noun" ts="θiːm" tr="тема"/>
+<d v="theme" p="adjective" ts="θiːm" tr="тематический"/>
+<d v="theme park" p="noun" ts="θiːm pɑːk" tr="тематический парк; парк развлечений; развлекательный парк"/>
+<d v="theme song" p="noun" ts="θiːm sɔŋ" tr="музыкальная тема; песня темы"/>
+<d v="then" p="adverb" ts="ðen" tr="затем"/>
+<d v="then" p="pronoun" ts="ðen" tr="то"/>
+<d v="then" p="preposition" ts="ðen" tr="после"/>
+<d v="then" p="noun" ts="ðen" tr="после этого; в таком случае"/>
+<d v="then" p="adjective" ts="ðen" tr="тогдашний"/>
+<d v="then" p="conjunction" ts="ðen" tr="зато"/>
+<d v="theologian" p="noun" ts="θɪəˈləʊʤjən" tr="богослов"/>
+<d v="theological" p="adjective" ts="θɪəˈlɔʤɪkəl" tr="богословский"/>
+<d v="theological" p="noun" ts="θɪəˈlɔʤɪkəl" tr="богословие"/>
+<d v="theology" p="noun" ts="θɪˈɔləʤɪ" tr="теология"/>
+<d v="theology" p="adjective" ts="θɪˈɔləʤɪ" tr="богословский"/>
+<d v="theoretical" p="adjective" ts="θɪəˈretɪkəl" tr="теоретический"/>
+<d v="theoretical" p="adverb" ts="θɪəˈretɪkəl" tr="теоретически"/>
+<d v="theoretically" p="adverb" ts="θɪəˈretɪklɪ" tr="теоретически"/>
+<d v="theoretically" p="noun" ts="θɪəˈretɪklɪ" tr="в теории"/>
+<d v="theoretician" p="noun" ts="θɪərəˈtɪʃn" tr="теоретик"/>
+<d v="theorist" p="noun" ts="ˈθɪərɪst" tr="теоретик"/>
+<d v="theorize" p="verb" ts="ˈθɪəraɪz" tr="теоретизировать"/>
+<d v="theory" p="noun" ts="ˈθɪərɪ" tr="теория"/>
+<d v="theory" p="adjective" ts="ˈθɪərɪ" tr="теоретический"/>
+<d v="therapeutic" p="adjective" ts="θerəˈpjuːtɪk" tr="терапевтический; лечебный"/>
+<d v="therapist" p="noun" ts="ˈθerəpɪst" tr="терапевт; физиотерапевт; психотерапевт"/>
+<d v="therapy" p="noun" ts="ˈθerəpɪ" tr="терапия"/>
+<d v="therapy" p="adjective" ts="ˈθerəpɪ" tr="терапевтический"/>
+<d v="there" p="adverb" ts="ðɛə" tr="там"/>
+<d v="there" p="verb" ts="ðɛə" tr="существовать; идти; остаться"/>
+<d v="there" p="noun" ts="ðɛə" tr="наличие; на этом месте"/>
+<d v="there" p="particle" ts="ðɛə" tr="вот; ну"/>
+<d v="thereabouts" p="noun" ts="ˈðɛərəbaʊts" tr="около того"/>
+<d v="thereabouts" p="adverb" ts="ˈðɛərəbaʊts" tr="поблизости; приблизительно"/>
+<d v="thereafter" p="noun" ts="ðɛərˈɑːftə" tr="после этого; в дальнейшем"/>
+<d v="thereafter" p="adverb" ts="ðɛərˈɑːftə" tr="затем"/>
+<d v="thereby" p="pronoun" ts="ˈðɛəˈbaɪ" tr="тот"/>
+<d v="thereby" p="conjunction" ts="ˈðɛəˈbaɪ" tr="тем"/>
+<d v="therefore" p="conjunction" ts="ˈðɛəfɔː" tr="поэтому"/>
+<d v="therefore" p="noun" ts="ˈðɛəfɔː" tr="образ"/>
+<d v="therefore" p="parenthetic" ts="ˈðɛəfɔː" tr="следовательно"/>
+<d v="therefore" p="adverb" ts="ˈðɛəfɔː" tr="потому"/>
+<d v="therein" p="noun" ts="ðɛərˈɪn" tr="в нем; в них; в этом отношении; в том"/>
+<d v="therein" p="adverb" ts="ðɛərˈɪn" tr="там"/>
+<d v="thereof" p="noun" ts="ðɛərˈɔv" tr="из этого"/>
+<d v="thereupon" p="noun" ts="ˈðɛərəˈpɔn" tr="в этой связи; вслед за этим; вслед за тем"/>
+<d v="thermal" p="adjective" ts="ˈθɜːməl" tr="тепловой; горячий; теплоэнергетический"/>
+<d v="thermal" p="noun" ts="ˈθɜːməl" tr="тепло"/>
+<d v="thermometer" p="noun" ts="θəˈmɔmɪtə" tr="термометр"/>
+<d v="thermonuclear" p="adjective" ts="ˈθɜːməʊˈnjuːklɪə" tr="термоядерный"/>
+<d v="thermos" p="noun" ts="ˈθɜːmɔs" tr="термос"/>
+<d v="thermostat" p="noun" ts="ˈθɜːməstæt" tr="термостат"/>
+<d v="thesaurus" p="noun" ts="θiːˈsɔːrəs" tr="тезаурус; словарь; энциклопедия; сокровищница"/>
+<d v="these" p="pronoun" ts="ðiːz" tr="они"/>
+<d v="thesis" p="noun" ts="ˈθiːsɪs" tr="диссертация; тезис"/>
+<d v="thesis" p="adjective" ts="ˈθiːsɪs" tr="дипломный"/>
+<d v="they" p="pronoun" ts="ðeɪ" tr="они"/>
+<d v="thick" p="adjective" ts="θɪk" tr="толстый; густой; утолщенный; тупой; хриплый; низкий; мутный"/>
+<d v="thick" p="noun" ts="θɪk" tr="толщина; толстой; гуща; пекло; тупица"/>
+<d v="thicken" p="verb" ts="ˈθɪkən" tr="сгущаться; загустеть; сгуститься; утолщать; загустевать; загущать"/>
+<d v="thicken" p="noun" ts="ˈθɪkən" tr="сгущение"/>
+<d v="thicket" p="noun" ts="ˈθɪkɪt" tr="заросль; дебри; чащоба"/>
+<d v="thickly" p="adverb" ts="ˈθɪklɪ" tr="густо; толще"/>
+<d v="thickness" p="noun" ts="ˈθɪknɪs" tr="толщина; плотность"/>
+<d v="thief" p="noun" ts="θiːf" tr="вор"/>
+<d v="thigh" p="noun" ts="θaɪ" tr="бедро"/>
+<d v="thigh" p="adjective" ts="θaɪ" tr="бедренный"/>
+<d v="thimble" p="noun" ts="θɪmbl" tr="наперсток; коуш; наконечник"/>
+<d v="thin" p="adjective" ts="θɪn" tr="тонкий; худой; тоненький; жидкий; слабый; редкий; разреженный; полупустой"/>
+<d v="thin" p="verb" ts="θɪn" tr="худеть; редеть; утончать; пустеть; заострять"/>
+<d v="thin" p="participle" ts="θɪn" tr="исхудавший"/>
+<d v="thing" p="noun" ts="θɪŋ" tr="вещь; дело; штука; существо; обстоятельство; понятие; рассказ; утварь"/>
+<d v="think" p="verb" ts="θɪŋk" tr="думать; придумать; предполагать; понимать; подуматься; мечтать; представлять себе"/>
+<d v="think" p="noun" ts="θɪŋk" tr="мышление"/>
+<d v="thinker" p="noun" ts="ˈθɪŋkə" tr="мыслитель; единомышленник"/>
+<d v="thinker" p="participle" ts="ˈθɪŋkə" tr="мыслящий"/>
+<d v="thinker" p="verb" ts="ˈθɪŋkə" tr="мыслить"/>
+<d v="thinking" p="noun" ts="ˈθɪŋkɪŋ" tr="мышление; мысль; размышление"/>
+<d v="thinking" p="adjective" ts="ˈθɪŋkɪŋ" tr="мыслительный; разумный"/>
+<d v="thinking" p="participle" ts="ˈθɪŋkɪŋ" tr="мыслящий; думающий; размышляющий"/>
+<d v="thinly" p="adverb" ts="ˈθɪnlɪ" tr="тонко; плохо"/>
+<d v="third" p="numeral" ts="θɜːd" tr="третий"/>
+<d v="third" p="noun" ts="θɜːd" tr="треть; терция"/>
+<d v="third degree" p="noun" ts="θɜːd dɪˈgriː" tr="третья степень"/>
+<d v="third party" p="noun" ts="θɜːd ˈpɑːtɪ" tr="третье лицо; третья сторона; третья партия; третий участник"/>
+<d v="third party" p="adjective" ts="θɜːd ˈpɑːtɪ" tr="сторонний"/>
+<d v="third person" p="noun" ts="θɜːd pɜːsn" tr="третье лицо; третий человек; третья личность"/>
+<d v="third world" p="noun" ts="θɜːd wɜːld" tr="третий мир"/>
+<d v="thirst" p="noun" ts="θɜːst" tr="жажда"/>
+<d v="thirst" p="verb" ts="θɜːst" tr="жаждать"/>
+<d v="thirst" p="participle" ts="θɜːst" tr="жаждущий"/>
+<d v="thirstily" p="adverb" ts="ˈθɜːstɪlɪ" tr="жадно"/>
+<d v="thirsty" p="verb" ts="ˈθɜːstɪ" tr="пить; жаждать"/>
+<d v="thirsty" p="noun" ts="ˈθɜːstɪ" tr="жажда"/>
+<d v="thirsty" p="participle" ts="ˈθɜːstɪ" tr="жаждущий; измученный жаждой; томимый жаждой"/>
+<d v="thirsty" p="adjective" ts="ˈθɜːstɪ" tr="жадный"/>
+<d v="thirteen" p="numeral" ts="ˈθɜːˈtiːn" tr="тринадцать; тринадцатый"/>
+<d v="thirteenth" p="numeral" ts="ˈθɜːˈtiːnθ" tr="тринадцатый"/>
+<d v="thirtieth" p="numeral" ts="ˈθɜːtɪɪθ" tr="тридцатый"/>
+<d v="thirtieth" p="noun" ts="ˈθɜːtɪɪθ" tr="тридцатилетие"/>
+<d v="thirty" p="numeral" ts="ˈθɜːtɪ" tr="тридцать"/>
+<d v="thirty" p="noun" ts="ˈθɜːtɪ" tr="три десятка; тридцатка"/>
+<d v="this" p="pronoun" ts="ðɪs" tr="этот; такой"/>
+<d v="thistle" p="noun" ts="θɪsl" tr="чертополох; волчец; расторопша; репейник"/>
+<d v="thong" p="noun" ts="θɔŋ" tr="ремешок; ушивальник; трусики; стринг"/>
+<d v="thorn" p="noun" ts="θɔːn" tr="шип; терн"/>
+<d v="thorn" p="adjective" ts="θɔːn" tr="колючий"/>
+<d v="thorny" p="adjective" ts="ˈθɔːnɪ" tr="тернистый; колючий; острый; щекотливый; противоречивый"/>
+<d v="thorough" p="adjective" ts="ˈθʌrə" tr="тщательный; полный; капитальный"/>
+<d v="thorough" p="participle" ts="ˈθʌrə" tr="углубленный; законченный"/>
+<d v="thorough" p="adverb" ts="ˈθʌrə" tr="капитально"/>
+<d v="thoroughbred" p="adjective" ts="ˈθʌrəbred" tr="чистокровный"/>
+<d v="thoroughfare" p="noun" ts="ˈθʌrəfeər" tr="магистраль; проезд"/>
+<d v="thoroughly" p="adverb" ts="ˈθʌrəlɪ" tr="тщательно; подробно; совершенно; насквозь"/>
+<d v="thoroughly" p="adjective" ts="ˈθʌrəlɪ" tr="тщательный"/>
+<d v="thoroughly" p="noun" ts="ˈθʌrəlɪ" tr="до конца"/>
+<d v="thoroughness" p="noun" ts="ˈθʌrənɪs" tr="тщательность; основательность; обстоятельность; доскональность; законченность"/>
+<d v="those" p="pronoun" ts="ðəʊz" tr="те"/>
+<d v="though" p="conjunction" ts="ðəʊ" tr="хотя; если; будто"/>
+<d v="though" p="adverb" ts="ðəʊ" tr="однако"/>
+<d v="though" p="particle" ts="ðəʊ" tr="хоть; даже"/>
+<d v="though" p="noun" ts="ðəʊ" tr="несмотря на"/>
+<d v="thought" p="noun" ts="θɔːt" tr="мысль; размышление; помысел; внимание"/>
+<d v="thought" p="adjective" ts="θɔːt" tr="мыслительный"/>
+<d v="thoughtful" p="adjective" ts="θɔːtfʊl" tr="вдумчивый; заботливый; продуманный; глубокомысленный; содержательный"/>
+<d v="thoughtful" p="participle" ts="θɔːtfʊl" tr="мыслящий"/>
+<d v="thoughtful" p="verb" ts="θɔːtfʊl" tr="призадуматься"/>
+<d v="thoughtfully" p="adverb" ts="ˈθɔːtfəlɪ" tr="задумчиво; вдумчиво"/>
+<d v="thoughtfully" p="noun" ts="ˈθɔːtfəlɪ" tr="в задумчивости"/>
+<d v="thoughtfulness" p="noun" ts="ˈθɔːtfəlnəs" tr="задумчивость; вдумчивость"/>
+<d v="thoughtless" p="adjective" ts="ˈθɔːtlɪs" tr="бездумный; легкомысленный; необдуманный; бессмысленный"/>
+<d v="thoughtlessly" p="adverb" ts="ˈθɔːtləslɪ" tr="бездумно; легкомысленно"/>
+<d v="thoughtlessness" p="noun" ts="ˈθɔːtləsnəs" tr="недомыслие; легкомыслие; бездумность; безмыслие"/>
+<d v="thousand" p="numeral" ts="ˈθaʊzənd" tr="тысяч; тысяча"/>
+<d v="thousand" p="noun" ts="ˈθaʊzənd" tr="тыс; множество"/>
+<d v="thousandth" p="adjective" ts="ˈθaʊzəntθ" tr="тысячный"/>
+<d v="thousandth" p="noun" ts="ˈθaʊzəntθ" tr="тысячная"/>
+<d v="thrash" p="noun" ts="θræʃ" tr="трэш"/>
+<d v="thrash" p="verb" ts="θræʃ" tr="избивать; молотить; пороть; извиваться"/>
+<d v="thrashing" p="noun" ts="ˈθræʃɪŋ" tr="обмолот; порка; пробуксовка"/>
+<d v="thread" p="noun" ts="θred" tr="поток; нить; резьба; нитка; тема; цепочка; нарезка"/>
+<d v="thread" p="verb" ts="θred" tr="пробираться"/>
+<d v="threadbare" p="adjective" ts="ˈθredbɛə" tr="изношенный; поношенный"/>
+<d v="threadbare" p="participle" ts="ˈθredbɛə" tr="потертый"/>
+<d v="threat" p="noun" ts="θret" tr="угроза"/>
+<d v="threaten" p="verb" ts="θretn" tr="угрожать; запугать; пугать"/>
+<d v="threaten" p="noun" ts="θretn" tr="угроза"/>
+<d v="threatening" p="adjective" ts="ˈθretnɪŋ" tr="угрожающий"/>
+<d v="threatening" p="noun" ts="ˈθretnɪŋ" tr="угроза"/>
+<d v="threatening" p="participle" ts="ˈθretnɪŋ" tr="опасный; грозящий"/>
+<d v="threateningly" p="adverb" ts="ˈθretnɪŋlɪ" tr="угрожающе"/>
+<d v="three" p="numeral" ts="θriː" tr="три; трое"/>
+<d v="three" p="noun" ts="θriː" tr="тройка"/>
+<d v="thresh" p="verb" ts="θreʃ" tr="молотить; обмолотить"/>
+<d v="thresh" p="noun" ts="θreʃ" tr="треша"/>
+<d v="thresher" p="noun" ts="ˈθreʃə" tr="молотилка; молотильщик"/>
+<d v="threshold" p="noun" ts="ˈθreʃhəʊld" tr="порог; предел"/>
+<d v="threshold" p="adjective" ts="ˈθreʃhəʊld" tr="пороговый"/>
+<d v="thrift" p="noun" ts="θrɪft" tr="бережливость; хозяйственность; экономность"/>
+<d v="thrifty" p="adjective" ts="ˈθrɪftɪ" tr="экономный; запасливый; расчетливый"/>
+<d v="thrill" p="noun" ts="θrɪl" tr="трепет; ощущение; волнение; кайф; нервная дрожь; глубокое волнение; вибрация"/>
+<d v="thrill" p="verb" ts="θrɪl" tr="трепетать; волновать"/>
+<d v="thrill" p="adverbial participle" ts="θrɪl" tr="возбуждая"/>
+<d v="thrilled" p="noun" ts="θrɪld" tr="восторг; в восторге"/>
+<d v="thrilled" p="participle" ts="θrɪld" tr="взволнованный; заинтригованный"/>
+<d v="thriller" p="noun" ts="ˈθrɪlə" tr="триллер"/>
+<d v="thrilling" p="participle" ts="ˈθrɪlɪŋ" tr="захватывающий"/>
+<d v="thrilling" p="adjective" ts="ˈθrɪlɪŋ" tr="увлекательный"/>
+<d v="thrive" p="verb" ts="θraɪv" tr="процветать; расцветать; разрастаться"/>
+<d v="thrive" p="noun" ts="θraɪv" tr="процветание"/>
+<d v="thriving" p="participle" ts="ˈθraɪvɪŋ" tr="процветающий; цветущий"/>
+<d v="throat" p="noun" ts="θrəʊt" tr="горло"/>
+<d v="throaty" p="adjective" ts="ˈθrəʊtɪ" tr="гортанный; грудной"/>
+<d v="throb" p="verb" ts="θrɔb" tr="пульсировать; ныть"/>
+<d v="throb" p="noun" ts="θrɔb" tr="биение"/>
+<d v="throb" p="participle" ts="θrɔb" tr="пульсирующий"/>
+<d v="throne" p="noun" ts="θrəʊn" tr="престол"/>
+<d v="throne" p="adjective" ts="θrəʊn" tr="тронный"/>
+<d v="throng" p="noun" ts="θrɔŋ" tr="толпа; множество"/>
+<d v="throng" p="verb" ts="θrɔŋ" tr="стекаться; переполнять"/>
+<d v="throttle" p="adjective" ts="θrɔtl" tr="дроссельный"/>
+<d v="throttle" p="noun" ts="θrɔtl" tr="дроссель"/>
+<d v="throttle" p="verb" ts="θrɔtl" tr="задушить; дросселировать"/>
+<d v="through" p="preposition" ts="θruː" tr="через; по; сквозь; благодаря; от; посредством; вследствие"/>
+<d v="through" p="adverb" ts="θruː" tr="насквозь; совершенно"/>
+<d v="throughout" p="pronoun" ts="θruːˈaʊt" tr="весь"/>
+<d v="throughout" p="noun" ts="θruːˈaʊt" tr="на протяжении; в продолжение"/>
+<d v="throughout" p="preposition" ts="θruːˈaʊt" tr="по; через"/>
+<d v="throughout" p="adverb" ts="θruːˈaʊt" tr="повсюду; совершенно"/>
+<d v="throw" p="verb" ts="θrəʊ" tr="бросить; выбросить; сбросить; скинуть; закинуть; набрасывать; устраивать; давать; навести"/>
+<d v="throw" p="noun" ts="θrəʊ" tr="бросок; ход; сброс; расстояние"/>
+<d v="throwaway" p="adjective" ts="ˈθrəʊəweɪ" tr="одноразовый"/>
+<d v="throwback" p="noun" ts="ˈθrəʊbæk" tr="пережиток; атавизм"/>
+<d v="thrown" p="participle" ts="θrəʊn" tr="брошенный; выброшенный; заброшенный; отброшенный; сброшенный; выбрасываемый; перекинутый; подброшенный; кинутый; отбрасываемый"/>
+<d v="thrust" p="noun" ts="θrʌst" tr="тяга; направление; удар; упор; надвиг; осевая нагрузка; опора"/>
+<d v="thrust" p="verb" ts="θrʌst" tr="сунуть; толкнуть; навязывать; совать; всадить; колоть; лезть"/>
+<d v="thrust" p="adjective" ts="θrʌst" tr="упорный"/>
+<d v="thrust" p="participle" ts="θrʌst" tr="воткнутый"/>
+<d v="thud" p="noun" ts="θʌd" tr="стук"/>
+<d v="thud" p="adjective" ts="θʌd" tr="глухой"/>
+<d v="thud" p="verb" ts="θʌd" tr="свалиться"/>
+<d v="thug" p="noun" ts="θʌg" tr="бандит; громила; отморозок"/>
+<d v="thumb" p="noun" ts="θʌm" tr="палец; большой палец; большой палец руки"/>
+<d v="thumb" p="verb" ts="θʌm" tr="листать"/>
+<d v="thumbnail" p="noun" ts="ˈθʌmniːl" tr="эскиз"/>
+<d v="thumbtack" p="noun" ts="ˈθʌmtæk" tr="чертежная кнопка"/>
+<d v="thump" p="noun" ts="θʌmp" tr="удар; глухой удар"/>
+<d v="thump" p="verb" ts="θʌmp" tr="колотить; ударять"/>
+<d v="thunder" p="noun" ts="ˈθʌndə" tr="гром; грохот"/>
+<d v="thunder" p="verb" ts="ˈθʌndə" tr="греметь; громить"/>
+<d v="thunder" p="adjective" ts="ˈθʌndə" tr="громовой; грозовой"/>
+<d v="thunderbolt" p="noun" ts="ˈθʌndəbəʊlt" tr="молния"/>
+<d v="thunderous" p="adjective" ts="ˈθʌndərəs" tr="оглушительный; грозовой; громогласный"/>
+<d v="thunderstorm" p="noun" ts="ˈθʌndəstɔːm" tr="гроза"/>
+<d v="thunderstorm" p="adjective" ts="ˈθʌndəstɔːm" tr="грозовой"/>
+<d v="Thursday" p="noun" ts="ˈθɜːzdɪ" tr="четверг"/>
+<d v="thus" p="adverb" ts="ðʌs" tr="так"/>
+<d v="thus" p="preposition" ts="ðʌs" tr="при"/>
+<d v="thus" p="noun" ts="ðʌs" tr="при этом"/>
+<d v="thus" p="conjunction" ts="ðʌs" tr="поэтому"/>
+<d v="thus" p="pronoun" ts="ðʌs" tr="то"/>
+<d v="thus" p="parenthetic" ts="ðʌs" tr="следовательно"/>
+<d v="thwart" p="verb" ts="θwɔːt" tr="помешать; сорвать; пресечь; перечить"/>
+<d v="thyroid" p="adjective" ts="ˈθaɪrɔːɪd" tr="щитовидный"/>
+<d v="thyroid" p="noun" ts="ˈθaɪrɔːɪd" tr="щитовидка"/>
+<d v="tiara" p="noun" ts="tɪˈɑːrə" tr="тиара; диадема"/>
+<d v="tic" p="noun" ts="tɪk" tr="тик; тИЦ"/>
+<d v="tick" p="noun" ts="tɪk" tr="галочка; клещ; тик; тикание; такт; чехол; мгновение"/>
+<d v="tick" p="verb" ts="tɪk" tr="тикать; пометить"/>
+<d v="tick" p="adjective" ts="tɪk" tr="тиковый"/>
+<d v="ticket" p="noun" ts="ˈtɪkɪt" tr="билет; объявление"/>
+<d v="ticket" p="adjective" ts="ˈtɪkɪt" tr="билетный"/>
+<d v="tickle" p="verb" ts="tɪkl" tr="щекотать; защекотать"/>
+<d v="tickle" p="noun" ts="tɪkl" tr="щекотка; щекотание; першение"/>
+<d v="ticklish" p="adjective" ts="ˈtɪklɪʃ" tr="щекотливый"/>
+<d v="ticklish" p="noun" ts="ˈtɪklɪʃ" tr="щекотно"/>
+<d v="tidal" p="adjective" ts="taɪdl" tr="приливный"/>
+<d v="tidal" p="noun" ts="taɪdl" tr="прилив"/>
+<d v="tidal wave" p="noun" ts="taɪdl weɪv" tr="приливная волна; цунами"/>
+<d v="tidbit" p="adjective" ts="ˈtɪdbɪt" tr="лакомый"/>
+<d v="tidbit" p="noun" ts="ˈtɪdbɪt" tr="лакомый кусок; пикантная новость"/>
+<d v="tide" p="noun" ts="taɪd" tr="прилив; море; направление"/>
+<d v="tidy" p="adjective" ts="ˈtaɪdɪ" tr="аккуратный; неплохой"/>
+<d v="tidy" p="noun" ts="ˈtaɪdɪ" tr="порядок"/>
+<d v="tidy" p="verb" ts="ˈtaɪdɪ" tr="убирать; прибрать; прибраться; приводить в порядок"/>
+<d v="tie" p="noun" ts="taɪ" tr="галстук; связь; ничья; шпала; завязка; узел; шнурок; затяжка"/>
+<d v="tie" p="verb" ts="taɪ" tr="связать; завязать; повязать; перевязывать; обвязывать; подвязывать; завязаться; шнуровать"/>
+<d v="tie" p="participle" ts="taɪ" tr="связанный"/>
+<d v="tiebreaker" p="noun" ts="ˈtɪbreɪkər" tr="тай-брейк"/>
+<d v="tier" p="noun" ts="ˈtaɪə" tr="уровень; метод уровня; ень"/>
+<d v="TIFF" p="noun" ts="tɪf" tr="размолвка; кальцит; стычка"/>
+<d v="tiger" p="noun" ts="ˈtaɪgə" tr="тигр; задира"/>
+<d v="tiger" p="adjective" ts="ˈtaɪgə" tr="тигровый"/>
+<d v="tight" p="adjective" ts="taɪt" tr="плотный; жесткий; герметичный; тайтовый; ограниченный; скудный; пьяный"/>
+<d v="tight" p="adverb" ts="taɪt" tr="плотно"/>
+<d v="tight" p="participle" ts="taɪt" tr="сжатый; плотно прилегающий"/>
+<d v="tight" p="verb" ts="taɪt" tr="облегать"/>
+<d v="tighten" p="verb" ts="taɪtn" tr="затянуть; ужесточить; сжаться; подтягивать; напрячься; закручивать; прикрутить"/>
+<d v="tighten" p="noun" ts="taɪtn" tr="ужесточение"/>
+<d v="tightly" p="adverb" ts="ˈtaɪtlɪ" tr="плотно"/>
+<d v="tightly" p="adjective" ts="ˈtaɪtlɪ" tr="строгий"/>
+<d v="tightness" p="noun" ts="ˈtaɪtnɪs" tr="герметичность; плотность; напряжение; теснота; стесненность"/>
+<d v="tightrope" p="noun" ts="ˈtaɪtrəʊp" tr="канатоходец; эквилибристика"/>
+<d v="tights" p="noun" ts="taɪts" tr="колготки; трико"/>
+<d v="tile" p="noun" ts="taɪl" tr="плитка"/>
+<d v="tile" p="adjective" ts="taɪl" tr="плиточный; кафельный"/>
+<d v="till" p="preposition" ts="tɪl" tr="по"/>
+<d v="till" p="particle" ts="tɪl" tr="пока"/>
+<d v="till" p="verb" ts="tɪl" tr="возделывать"/>
+<d v="tilt" p="noun" ts="tɪlt" tr="наклон; тент"/>
+<d v="tilt" p="verb" ts="tɪlt" tr="наклонить; откинуть; опрокидывать; поворачивать"/>
+<d v="tilt" p="adjective" ts="tɪlt" tr="наклонный"/>
+<d v="timber" p="noun" ts="ˈtɪmbə" tr="древесина; брус; деревообработка; строевой лес; шпангоут"/>
+<d v="timber" p="adjective" ts="ˈtɪmbə" tr="лесной; деревянный"/>
+<d v="time" p="noun" ts="taɪm" tr="время; эпоха; такт; темп"/>
+<d v="time" p="verb" ts="taɪm" tr="приурочивать; рассчитывать"/>
+<d v="time" p="adjective" ts="taɪm" tr="повременный"/>
+<d v="time bomb" p="noun" ts="ˈtaɪmbɔm" tr="бомба замедленного действия; часовая бомба; мина замедленного действия"/>
+<d v="timekeeper" p="noun" ts="ˈtaɪmkiːpə" tr="хронометрист"/>
+<d v="timeless" p="adjective" ts="ˈtaɪmlɪs" tr="вечный; вневременный"/>
+<d v="timeless" p="participle" ts="ˈtaɪmlɪs" tr="неподвластный времени"/>
+<d v="timeless" p="noun" ts="ˈtaɪmlɪs" tr="вне времени; безвременье"/>
+<d v="time limit" p="noun" ts="taɪm ˈlɪmɪt" tr="срок; временное ограничение; регламент; лимит времени; временной лимит; ограничение времени"/>
+<d v="timely" p="adjective" ts="ˈtaɪmlɪ" tr="своевременный"/>
+<d v="timely" p="noun" ts="ˈtaɪmlɪ" tr="своевременность"/>
+<d v="timer" p="noun" ts="ˈtaɪmə" tr="таймер; отметчик; часы; хронометр"/>
+<d v="timetable" p="noun" ts="ˈtaɪmteɪbl" tr="расписание"/>
+<d v="time zone" p="noun" ts="taɪm zəʊn" tr="часовой пояс; временный пояс; часовая зона"/>
+<d v="timid" p="adjective" ts="ˈtɪmɪd" tr="робкий; пугливый; трепетный"/>
+<d v="timid" p="verb" ts="ˈtɪmɪd" tr="робеть"/>
+<d v="timidity" p="noun" ts="tɪˈmɪdɪtɪ" tr="робость; нерешительность; боязливость"/>
+<d v="timidly" p="adverb" ts="ˈtɪmɪdlɪ" tr="робко; боязливо; несмело; пугливо"/>
+<d v="timing" p="noun" ts="ˈtaɪmɪŋ" tr="срок; синхронизация; выбор времени; расчет времени"/>
+<d v="timing" p="adjective" ts="ˈtaɪmɪŋ" tr="временной"/>
+<d v="tin" p="noun" ts="tɪn" tr="олово; жесть; жестянка; деньги"/>
+<d v="tin" p="adjective" ts="tɪn" tr="жестяной; свеженький"/>
+<d v="tin" p="verb" ts="tɪn" tr="лудить; консервировать"/>
+<d v="tinder" p="noun" ts="ˈtɪndə" tr="трут"/>
+<d v="tinderbox" p="adjective" ts="ˈtɪndəbɒks" tr="пороховой"/>
+<d v="tinderbox" p="noun" ts="ˈtɪndəbɒks" tr="пороховая бочка"/>
+<d v="tinfoil" p="noun" ts="ˈtɪnfɔɪl" tr="фольга"/>
+<d v="tinge" p="noun" ts="tɪnʤ" tr="оттенок"/>
+<d v="tingle" p="noun" ts="tɪŋgl" tr="покалывание; пощипывание"/>
+<d v="tingle" p="verb" ts="tɪŋgl" tr="покалывать; дрожать; испытывать покалывание"/>
+<d v="tinker" p="noun" ts="ˈtɪŋkə" tr="Тинкер; лудильщик; медник"/>
+<d v="tinker" p="verb" ts="ˈtɪŋkə" tr="возиться; чинить"/>
+<d v="tinkle" p="verb" ts="tɪŋkl" tr="звякнуть; звякать"/>
+<d v="tinkle" p="noun" ts="tɪŋkl" tr="звяканье"/>
+<d v="tinny" p="adjective" ts="ˈtɪnɪ" tr="жестяной"/>
+<d v="tinsel" p="noun" ts="ˈtɪnsəl" tr="мишура; блестки"/>
+<d v="tinsel" p="adjective" ts="ˈtɪnsəl" tr="мишурный; показной"/>
+<d v="tint" p="noun" ts="tɪnt" tr="оттенок; подкраска; тонировка"/>
+<d v="tint" p="verb" ts="tɪnt" tr="подкрашивать; подкрасить"/>
+<d v="tint" p="adjective" ts="tɪnt" tr="светлый"/>
+<d v="tiny" p="adjective" ts="ˈtaɪnɪ" tr="крошечный; маленький; очень маленький"/>
+<d v="tip" p="noun" ts="tɪp" tr="Совет; подсказка; кончик; оконечность; отзыв; тонкий конец; полезный Совет; чаевые; зонд; сведения; наклон; прикосновение"/>
+<d v="tip" p="verb" ts="tɪp" tr="наклонять; опрокидывать; перевешивать; предупреждать"/>
+<d v="tipsy" p="participle" ts="ˈtɪpsɪ" tr="подвыпивший"/>
+<d v="tipsy" p="adverb" ts="ˈtɪpsɪ" tr="навеселе"/>
+<d v="tipsy" p="adjective" ts="ˈtɪpsɪ" tr="пьяный"/>
+<d v="tiptoe" p="noun" ts="ˈtɪptəʊ" tr="цыпочки"/>
+<d v="tirade" p="noun" ts="taɪˈreɪd" tr="тирада"/>
+<d v="tire" p="noun" ts="ˈtaɪə" tr="шина; колесо"/>
+<d v="tire" p="verb" ts="ˈtaɪə" tr="устать; утомлять; надоедать"/>
+<d v="tire" p="adjective" ts="ˈtaɪə" tr="шинный"/>
+<d v="tired" p="participle" ts="ˈtaɪəd" tr="утомленный; уставший; измученный"/>
+<d v="tired" p="adjective" ts="ˈtaɪəd" tr="усталый"/>
+<d v="tired" p="noun" ts="ˈtaɪəd" tr="усталость"/>
+<d v="tiredness" p="noun" ts="ˈtaɪədnəs" tr="усталость"/>
+<d v="tireless" p="adjective" ts="ˈtaɪəlɪs" tr="неутомимый"/>
+<d v="tireless" p="noun" ts="ˈtaɪəlɪs" tr="неутомимость"/>
+<d v="tiresome" p="adjective" ts="ˈtaɪəsəm" tr="утомительный"/>
+<d v="tiresome" p="verb" ts="ˈtaɪəsəm" tr="утомлять"/>
+<d v="tiring" p="adjective" ts="ˈtaɪərɪŋ" tr="утомительный"/>
+<d v="tissue" p="noun" ts="ˈtɪʃuː" tr="ткань; салфетка; сплетение; бумажный носовой платок"/>
+<d v="tissue" p="adjective" ts="ˈtɪʃuː" tr="тканевый"/>
+<d v="tissue paper" p="noun" ts="ˈtɪʃuː ˈpeɪpə" tr="салфетка; папиросная бумага"/>
+<d v="tit" p="noun" ts="tɪt" tr="синица; око; девка"/>
+<d v="titillate" p="verb" ts="ˈtɪtɪleɪt" tr="щекотать"/>
+<d v="title" p="noun" ts="taɪtl" tr="название; титул; право; право собственности; документ"/>
+<d v="title" p="adjective" ts="taɪtl" tr="титульный; правоустанавливающий"/>
+<d v="title" p="verb" ts="taɪtl" tr="называться; озаглавить"/>
+<d v="title role" p="noun" ts="taɪtl rəʊl" tr="главная роль; заглавная роль"/>
+<d v="titter" p="verb" ts="ˈtɪtə" tr="хихикнуть"/>
+<d v="titter" p="noun" ts="ˈtɪtə" tr="хихиканье"/>
+<d v="tizzy" p="noun" ts="ˈtɪzɪ" tr="волнение"/>
+<d v="TLC" p="noun" ts="tlk" tr="ТЛК; ТСХ"/>
+<d v="TM" p="invariant" ts="tm" tr="ТМ"/>
+<d v="TNT" p="noun" ts="tnt" tr="тнт; компания TNT"/>
+<d v="TNT" p="adjective" ts="tnt" tr="тротиловый"/>
+<d v="to" p="preposition" ts="tuː" tr="в; к; для; до; по; под"/>
+<d v="to" p="conjunction" ts="tuː" tr="чтобы"/>
+<d v="toad" p="noun" ts="təʊd" tr="жаба; гадина"/>
+<d v="toadstool" p="noun" ts="ˈtəʊdstuːl" tr="поганка"/>
+<d v="toast" p="noun" ts="təʊst" tr="тост"/>
+<d v="toast" p="verb" ts="təʊst" tr="обжаривать; поджарить"/>
+<d v="toaster" p="noun" ts="ˈtəʊstə" tr="тостер; тамада"/>
+<d v="tobacco" p="noun" ts="təˈbækəʊ" tr="табак; табачные изделия; курево"/>
+<d v="tobacco" p="adjective" ts="təˈbækəʊ" tr="табачный"/>
+<d v="tobacconist" p="adjective" ts="təˈbækənɪst" tr="табачный"/>
+<d v="toboggan" p="noun" ts="təˈbɔgən" tr="тобогган"/>
+<d v="today" p="adjective" ts="təˈdeɪ" tr="сегодняшний"/>
+<d v="today" p="noun" ts="təˈdeɪ" tr="сегодняшний день"/>
+<d v="toddle" p="verb" ts="tɔdl" tr="ковылять; уходить"/>
+<d v="toddler" p="noun" ts="ˈtɔdlə" tr="малыш; ребенок ясельного возраста; ползунок"/>
+<d v="toddler" p="adjective" ts="ˈtɔdlə" tr="детский"/>
+<d v="toe" p="noun" ts="təʊ" tr="палец; пята; палец на ноге"/>
+<d v="TOEFL" p="noun" ts="təʊfl" tr="экзамен TOEFL"/>
+<d v="toehold" p="verb" ts="ˈtəʊhəʊld" tr="закрепиться"/>
+<d v="toenail" p="noun" ts="ˈtəʊneɪl" tr="ноготь"/>
+<d v="toffee" p="noun" ts="ˈtɔfɪ" tr="ирис"/>
+<d v="tofu" p="noun" ts="ˈtəʊfjuː" tr="тофу"/>
+<d v="together" p="adverb" ts="təˈgeðə" tr="вместе"/>
+<d v="together" p="noun" ts="təˈgeðə" tr="друг с другом; подряд"/>
+<d v="together" p="verb" ts="təˈgeðə" tr="сойтись"/>
+<d v="togetherness" p="noun" ts="təˈgeðənəs" tr="единение"/>
+<d v="toggle" p="noun" ts="tɔgl" tr="переключение; продолговатая деревянная пуговица"/>
+<d v="toggle" p="verb" ts="tɔgl" tr="переключать"/>
+<d v="toil" p="noun" ts="tɔɪl" tr="труд; тяжелый труд; непосильный труд"/>
+<d v="toil" p="verb" ts="tɔɪl" tr="трудиться"/>
+<d v="toilet" p="noun" ts="ˈtɔɪlɪt" tr="туалет; костюм"/>
+<d v="toilet" p="adjective" ts="ˈtɔɪlɪt" tr="туалетный"/>
+<d v="toilet paper" p="noun" ts="ˈtɔɪlɪt ˈpeɪpə" tr="туалетная бумага"/>
+<d v="token" p="noun" ts="ˈtəʊkən" tr="маркер; знак; жетон; лексема; знак внимания"/>
+<d v="token" p="adjective" ts="ˈtəʊkən" tr="символический"/>
+<d v="told" p="participle" ts="təʊld" tr="сказанный"/>
+<d v="tolerable" p="adjective" ts="ˈtɔlərəbl" tr="допустимый; сносный"/>
+<d v="tolerance" p="noun" ts="ˈtɔlərəns" tr="толерантность; допуск"/>
+<d v="tolerant" p="adjective" ts="ˈtɔlərənt" tr="толерантный; отказоустойчивый"/>
+<d v="tolerant" p="noun" ts="ˈtɔlərənt" tr="терпимость"/>
+<d v="tolerant" p="verb" ts="ˈtɔlərənt" tr="терпеть"/>
+<d v="tolerate" p="verb" ts="ˈtɔləreɪt" tr="терпеть; допускать; мириться; потерпеть; выдержать; терпимо относиться"/>
+<d v="toll" p="noun" ts="təʊl" tr="пошлина; потери; дань; звон; Благовест"/>
+<d v="toll" p="adjective" ts="təʊl" tr="платный"/>
+<d v="toll" p="verb" ts="təʊl" tr="звонить"/>
+<d v="tomato" p="noun" ts="təˈmɑːtəʊ" tr="помидор"/>
+<d v="tomato" p="adjective" ts="təˈmɑːtəʊ" tr="томатный"/>
+<d v="tomb" p="noun" ts="tuːm" tr="могила; могильник"/>
+<d v="Tomboy" p="noun" ts="ˈtɔmbɔɪ" tr="сорванец"/>
+<d v="tombstone" p="noun" ts="ˈtuːmstəʊn" tr="надгробие; надгробная плита; надгробный камень; надгробный памятник"/>
+<d v="tombstone" p="adjective" ts="ˈtuːmstəʊn" tr="надгробный"/>
+<d v="tomcat" p="noun" ts="ˈtɒmkæt" tr="кот"/>
+<d v="tome" p="noun" ts="təʊm" tr="том"/>
+<d v="tomfoolery" p="noun" ts="tɔmˈfuːlərɪ" tr="дурачество"/>
+<d v="tomorrow" p="adjective" ts="təˈmɔrəʊ" tr="завтрашний"/>
+<d v="tomorrow" p="noun" ts="təˈmɔrəʊ" tr="послезавтра; будущее"/>
+<d v="ton" p="noun" ts="tʌn" tr="тонна; масса"/>
+<d v="tone" p="noun" ts="təʊn" tr="тон; гудок; настроение; характер; модуляция; общая атмосфера"/>
+<d v="tone" p="adjective" ts="təʊn" tr="тональный"/>
+<d v="tone" p="verb" ts="təʊn" tr="тонизировать"/>
+<d v="tongs" p="noun" ts="tɔŋz" tr="щипцы; клещи"/>
+<d v="tongue" p="noun" ts="tʌŋ" tr="язык; шип; дышло; коса; шпунт"/>
+<d v="tongue twister" p="noun" ts="tʌŋ ˈtwɪstə" tr="скороговорка"/>
+<d v="tonic" p="noun" ts="ˈtɔnɪk" tr="тоник; тонизирующее средство; тонизирующее; укрепляющее средство"/>
+<d v="tonic" p="participle" ts="ˈtɔnɪk" tr="тонизирующий"/>
+<d v="tonic" p="adjective" ts="ˈtɔnɪk" tr="тонический"/>
+<d v="tonight" p="noun" ts="təˈnaɪt" tr="вечер; эта ночь; сегодняшняя ночь"/>
+<d v="tonight" p="adjective" ts="təˈnaɪt" tr="сегодняшний"/>
+<d v="tonnage" p="noun" ts="ˈtʌnɪʤ" tr="тоннаж; вместимость; грузовместимость"/>
+<d v="tonnage" p="adjective" ts="ˈtʌnɪʤ" tr="корабельный"/>
+<d v="tonsil" p="noun" ts="tɔnsl" tr="миндалина"/>
+<d v="tonsillitis" p="noun" ts="tɔnsɪˈlaɪtɪs" tr="тонзиллит"/>
+<d v="too" p="adverb" ts="tuː" tr="слишком; тоже"/>
+<d v="too" p="noun" ts="tuː" tr="к тому же"/>
+<d v="tool" p="noun" ts="tuːl" tr="инструмент; средства; станок"/>
+<d v="tool" p="adjective" ts="tuːl" tr="инструментальный"/>
+<d v="toolbar" p="noun" ts="ˈtəʊlbɑːr" tr="панель; панель инструментов"/>
+<d v="Toot" p="noun" ts="tuːt" tr="гудок; зуммер"/>
+<d v="tooth" p="noun" ts="tuːθ" tr="зуб"/>
+<d v="tooth" p="adjective" ts="tuːθ" tr="зубной"/>
+<d v="toothache" p="adjective" ts="ˈtuːθeɪk" tr="зубной"/>
+<d v="toothache" p="noun" ts="ˈtuːθeɪk" tr="зубная боль"/>
+<d v="toothbrush" p="noun" ts="ˈtuːθbrʌʃ" tr="зубная щетка; щетка"/>
+<d v="toothbrush" p="adjective" ts="ˈtuːθbrʌʃ" tr="зубной"/>
+<d v="toothpaste" p="noun" ts="ˈtuːθpeɪst" tr="зубная паста; паста"/>
+<d v="toothpaste" p="adjective" ts="ˈtuːθpeɪst" tr="зубной"/>
+<d v="toothpick" p="noun" ts="ˈtuːθpɪk" tr="зубочистка"/>
+<d v="top" p="adjective" ts="tɔp" tr="верхний; высший; лучший"/>
+<d v="top" p="noun" ts="tɔp" tr="вершина; столешница; крышка; довершение; волчок; кровля; купол; Марс; колошник"/>
+<d v="top" p="verb" ts="tɔp" tr="превышать; покрывать"/>
+<d v="top hat" p="noun" ts="ˈtɔpˈhæt" tr="цилиндр"/>
+<d v="topic" p="noun" ts="ˈtɔpɪk" tr="тема; предмет обсуждения"/>
+<d v="topic" p="adjective" ts="ˈtɔpɪk" tr="тематический"/>
+<d v="topical" p="adjective" ts="ˈtɔpɪkəl" tr="актуальный; местный"/>
+<d v="topographer" p="noun" ts="təˈpɔgrəfə" tr="топограф"/>
+<d v="topography" p="noun" ts="təˈpɔgrəfɪ" tr="топография"/>
+<d v="topography" p="adjective" ts="təˈpɔgrəfɪ" tr="топографический"/>
+<d v="topping" p="noun" ts="ˈtɔpɪŋ" tr="начинка; отбензинивание; топпинг; верхушка"/>
+<d v="topping" p="adjective" ts="ˈtɔpɪŋ" tr="превосходный"/>
+<d v="topping" p="participle" ts="ˈtɔpɪŋ" tr="главенствующий"/>
+<d v="topple" p="verb" ts="tɔpl" tr="свергнуть; опрокинуть; рухнуть; опрокинуться"/>
+<d v="topple" p="noun" ts="tɔpl" tr="свержение"/>
+<d v="torch" p="noun" ts="tɔːʧ" tr="факел; горелка"/>
+<d v="torch" p="adjective" ts="tɔːʧ" tr="факельный"/>
+<d v="torch" p="verb" ts="tɔːʧ" tr="поджечь"/>
+<d v="tore" p="adverbial participle" ts="tɔː" tr="вырвав; разрывая"/>
+<d v="tore" p="noun" ts="tɔː" tr="Тор"/>
+<d v="torment" p="noun" ts="ˈtɔːmənt" tr="мучение; терзание"/>
+<d v="torment" p="verb" ts="ˈtɔːmənt" tr="мучить; терзать; помучить; досаждать; измучить"/>
+<d v="torment" p="adjective" ts="ˈtɔːmənt" tr="мучительный"/>
+<d v="tormentor" p="noun" ts="tɔːˈmentə" tr="мучитель; палач; мучительница"/>
+<d v="torn" p="participle" ts="tɔːn" tr="порванный; оторванный; раздираемый; разорванный; вырванный; оборванный; разрываемый; терзаемый"/>
+<d v="torn" p="adverbial participle" ts="tɔːn" tr="разрываясь"/>
+<d v="torn" p="adjective" ts="tɔːn" tr="рваный"/>
+<d v="tornado" p="noun" ts="tɔːˈneɪdəʊ" tr="торнадо; смерч"/>
+<d v="torpedo" p="noun" ts="tɔːˈpiːdəʊ" tr="торпеда; электрический скат"/>
+<d v="torpedo" p="adjective" ts="tɔːˈpiːdəʊ" tr="торпедный"/>
+<d v="torpedo" p="verb" ts="tɔːˈpiːdəʊ" tr="торпедировать; подорвать"/>
+<d v="torrent" p="noun" ts="ˈtɔrənt" tr="поток; стремительный поток; словоизвержение"/>
+<d v="torrential" p="adjective" ts="tɔˈrenʃəl" tr="проливной"/>
+<d v="torrid" p="adjective" ts="ˈtɔrɪd" tr="жаркий"/>
+<d v="torso" p="noun" ts="ˈtɔːsəʊ" tr="туловище"/>
+<d v="tort" p="noun" ts="tɔːt" tr="правонарушение; гражданское правонарушение"/>
+<d v="tort" p="adjective" ts="tɔːt" tr="деликтный"/>
+<d v="tortilla" p="noun" ts="tɔːˈtɪljə" tr="лепешка; маисовая лепешка"/>
+<d v="tortoise" p="noun" ts="ˈtɔːtəs" tr="черепаха"/>
+<d v="tortuous" p="adjective" ts="ˈtɔːtjʊəs" tr="извилистый; мучительный; уклончивый"/>
+<d v="torture" p="noun" ts="ˈtɔːʧə" tr="пытка; застенок"/>
+<d v="torture" p="verb" ts="ˈtɔːʧə" tr="пытать"/>
+<d v="torturer" p="noun" ts="ˈtɔːʧərə" tr="мучитель; палач; истязатель"/>
+<d v="toss" p="verb" ts="tɔs" tr="бросить; подбросить; отбросить; взметнуть; вскидывать; реять"/>
+<d v="toss" p="noun" ts="tɔs" tr="бросок"/>
+<d v="tot" p="noun" ts="tɔt" tr="малыш"/>
+<d v="total" p="adjective" ts="təʊtl" tr="общий; полный"/>
+<d v="total" p="noun" ts="təʊtl" tr="сумма"/>
+<d v="total" p="verb" ts="təʊtl" tr="насчитывать; подсчитывать"/>
+<d v="totalitarian" p="adjective" ts="təʊtælɪˈtɛərɪən" tr="тоталитарный"/>
+<d v="totalitarian" p="noun" ts="təʊtælɪˈtɛərɪən" tr="тоталитаризм"/>
+<d v="totalitarianism" p="noun" ts="təʊtælɪˈteərɪənɪzəm" tr="тоталитаризм"/>
+<d v="totalitarianism" p="adjective" ts="təʊtælɪˈteərɪənɪzəm" tr="тоталитарный"/>
+<d v="totality" p="noun" ts="təʊˈtælɪtɪ" tr="совокупность; целостность; тотальность; всеобщность; общность"/>
+<d v="totally" p="adverb" ts="ˈtəʊtəlɪ" tr="полностью; совершенно; суммарно"/>
+<d v="tote" p="noun" ts="təʊt" tr="тотализатор; груз"/>
+<d v="tote" p="verb" ts="təʊt" tr="нести"/>
+<d v="totem pole" p="noun" ts="ˈtəʊtəm pəʊl" tr="тотемный столб"/>
+<d v="totter" p="verb" ts="ˈtɔtə" tr="шататься; ковылять; разрушаться"/>
+<d v="toucan" p="noun" ts="ˈtuːkən" tr="тукан"/>
+<d v="touch" p="verb" ts="tʌʧ" tr="трогать; прикасаться; касаться; затрагивать; соприкасаться; притрагиваться; сравниться; есть"/>
+<d v="touch" p="noun" ts="tʌʧ" tr="прикосновение; связь; штрих; оттенок; подход; примесь; туше; манера"/>
+<d v="touch" p="adjective" ts="tʌʧ" tr="сенсорный"/>
+<d v="touchdown" p="noun" ts="ˈtʌʧdaʊn" tr="приземление"/>
+<d v="touched" p="participle" ts="tʌʧt" tr="тронутый; растроганный; затрагиваемый"/>
+<d v="touched" p="noun" ts="tʌʧt" tr="прикосновение"/>
+<d v="touching" p="adjective" ts="ˈtʌʧɪŋ" tr="трогательный"/>
+<d v="touching" p="participle" ts="ˈtʌʧɪŋ" tr="затрагивающий"/>
+<d v="touching" p="noun" ts="ˈtʌʧɪŋ" tr="касание"/>
+<d v="touching" p="preposition" ts="ˈtʌʧɪŋ" tr="относительно"/>
+<d v="touchstone" p="noun" ts="ˈtʌʧstəʊn" tr="пробный камень; критерий; оселок; пробирный камень"/>
+<d v="touchstone" p="adjective" ts="ˈtʌʧstəʊn" tr="пробный"/>
+<d v="touchy" p="adjective" ts="ˈtʌʧɪ" tr="обидчивый; раздражительный"/>
+<d v="touchy" p="noun" ts="ˈtʌʧɪ" tr="недотрога"/>
+<d v="tough" p="adjective" ts="tʌf" tr="жесткий; трудный; крепкий; грубый; жестокий; упорный; вязкий; бандитский"/>
+<d v="tough" p="noun" ts="tʌf" tr="хулиган"/>
+<d v="toughen" p="verb" ts="tʌfn" tr="ужесточить; закалить"/>
+<d v="toughen" p="noun" ts="tʌfn" tr="ужесточение"/>
+<d v="toughness" p="noun" ts="ˈtʌfnəs" tr="прочность; вязкость; крутизна"/>
+<d v="toupee" p="noun" ts="ˈtuːpeɪ" tr="парик; хохол"/>
+<d v="tour" p="noun" ts="tʊə" tr="тур; экскурсия; поездка; туристическая поездка; объезд"/>
+<d v="tour" p="adjective" ts="tʊə" tr="гастрольный"/>
+<d v="tour" p="verb" ts="tʊə" tr="путешествовать"/>
+<d v="tourism" p="noun" ts="ˈtʊərɪzəm" tr="туризм"/>
+<d v="tourism" p="adjective" ts="ˈtʊərɪzəm" tr="туристический"/>
+<d v="tourist" p="adjective" ts="ˈtʊərɪst" tr="туристический"/>
+<d v="tourist" p="noun" ts="ˈtʊərɪst" tr="турист; турагентство"/>
+<d v="tournament" p="noun" ts="ˈtʊənəmənt" tr="турнир"/>
+<d v="tournament" p="adjective" ts="ˈtʊənəmənt" tr="турнирный"/>
+<d v="tourniquet" p="noun" ts="ˈtʊənɪkeɪ" tr="жгут; турникет"/>
+<d v="tousle" p="verb" ts="taʊzl" tr="взъерошить"/>
+<d v="tout" p="verb" ts="taʊt" tr="рекламировать; расхваливать; зазывать"/>
+<d v="tow" p="noun" ts="təʊ" tr="буксир; пакля; жгут; кудель; бечева"/>
+<d v="tow" p="verb" ts="təʊ" tr="буксировать"/>
+<d v="tow" p="adjective" ts="təʊ" tr="буксирный"/>
+<d v="tow" p="participle" ts="təʊ" tr="буксируемый"/>
+<d v="toward" p="preposition" ts="ˈtəʊəd" tr="к; навстречу"/>
+<d v="toward" p="noun" ts="ˈtəʊəd" tr="в сторону"/>
+<d v="towards" p="preposition" ts="təˈwɔːdz" tr="к; навстречу"/>
+<d v="towards" p="noun" ts="təˈwɔːdz" tr="в направлении; по отношению к; с тем"/>
+<d v="towards" p="conjunction" ts="təˈwɔːdz" tr="чтобы"/>
+<d v="towel" p="noun" ts="ˈtaʊəl" tr="полотенце; полотенцесушитель"/>
+<d v="tower" p="noun" ts="ˈtaʊə" tr="башня; Тауэр; опора; крепость; терем"/>
+<d v="tower" p="adjective" ts="ˈtaʊə" tr="башенный"/>
+<d v="tower" p="verb" ts="ˈtaʊə" tr="возвышаться"/>
+<d v="towering" p="participle" ts="ˈtaʊərɪŋ" tr="возвышающийся; возвышавшийся; вздымающийся"/>
+<d v="towering" p="adjective" ts="ˈtaʊərɪŋ" tr="высокий; неистовый"/>
+<d v="town" p="noun" ts="taʊn" tr="город; ратуша"/>
+<d v="town" p="adjective" ts="taʊn" tr="городской"/>
+<d v="town hall" p="noun" ts="taʊn hɔːl" tr="ратуша; мэрия; городская ратуша; городской зал"/>
+<d v="townhouse" p="noun" ts="ˈtaʊnhaʊs" tr="таунхаус"/>
+<d v="township" p="noun" ts="ˈtaʊnʃɪp" tr="поселок"/>
+<d v="township" p="adjective" ts="ˈtaʊnʃɪp" tr="поселковый"/>
+<d v="tow truck" p="noun" ts="təʊ trʌk" tr="эвакуатор; тягач"/>
+<d v="toxic" p="adjective" ts="ˈtɔksɪk" tr="токсичный"/>
+<d v="toxic" p="participle" ts="ˈtɔksɪk" tr="отравляющий"/>
+<d v="toxicity" p="noun" ts="tɒkˈsɪsɪtɪ" tr="токсичность; интоксикация"/>
+<d v="toxicology" p="noun" ts="tɔksɪˈkɔləʤɪ" tr="токсикология"/>
+<d v="toxicology" p="adjective" ts="tɔksɪˈkɔləʤɪ" tr="токсикологический"/>
+<d v="toxin" p="noun" ts="ˈtɔksɪn" tr="токсин"/>
+<d v="toy" p="noun" ts="tɔɪ" tr="игрушка; забава"/>
+<d v="toy" p="adjective" ts="tɔɪ" tr="игрушечный; кукольный"/>
+<d v="toy" p="verb" ts="tɔɪ" tr="играть; флиртовать"/>
+<d v="trace" p="noun" ts="treɪs" tr="след; трассировка; микроэлемент; незначительное количество"/>
+<d v="trace" p="verb" ts="treɪs" tr="отслеживать; проследить; трассировать; обнаружить; установить; чертить; выводить; усматривать; набрасывать"/>
+<d v="trace" p="adjective" ts="treɪs" tr="следовой; трассировочный"/>
+<d v="tracer" p="noun" ts="ˈtreɪsə" tr="трассер; трейсер; трассирующий снаряд"/>
+<d v="tracer" p="adjective" ts="ˈtreɪsə" tr="трассировочный; индикаторный"/>
+<d v="track" p="noun" ts="træk" tr="трек; дорожка; трасса; отслеживание; колея; рельс; гусеница; курс; фонограмма"/>
+<d v="track" p="verb" ts="træk" tr="отслеживать; выследить; наследить"/>
+<d v="track" p="adjective" ts="træk" tr="гусеничный; путевой"/>
+<d v="track record" p="noun" ts="træk ˈrekɔːd" tr="послужной список; репутация; достижение"/>
+<d v="track record" p="adjective" ts="træk ˈrekɔːd" tr="послужной"/>
+<d v="tract" p="noun" ts="trækt" tr="тракт; брошюра"/>
+<d v="traction" p="noun" ts="trækʃn" tr="тяга; вытяжение; сила сцепления"/>
+<d v="traction" p="adjective" ts="trækʃn" tr="тяговый"/>
+<d v="tractor" p="noun" ts="ˈtræktə" tr="трактор"/>
+<d v="tractor" p="adjective" ts="ˈtræktə" tr="тракторный"/>
+<d v="trade" p="noun" ts="treɪd" tr="торговля; профессия; ремесло; магазин"/>
+<d v="trade" p="adjective" ts="treɪd" tr="торговый; профсоюзный"/>
+<d v="trade" p="verb" ts="treɪd" tr="торговать; обменять"/>
+<d v="trademark" p="noun" ts="ˈtreɪdmɑːk" tr="товарный знак"/>
+<d v="trademark" p="adjective" ts="ˈtreɪdmɑːk" tr="фирменный"/>
+<d v="trader" p="noun" ts="ˈtreɪdə" tr="трейдер; торговец; предприниматель; спекулянт; биржевой маклер"/>
+<d v="trade school" p="noun" ts="ˈtreɪdˈskuːl" tr="профессиональное училище; ремесленное училище"/>
+<d v="trade secret" p="noun" ts="treɪd ˈsiːkrɪt" tr="коммерческая тайна; торговый секрет; промышленный секрет; коммерческий секрет; секрет производства; профессиональный секрет; профессиональная тайна; торговая тайна"/>
+<d v="tradition" p="noun" ts="trəˈdɪʃn" tr="традиция; традиционность"/>
+<d v="traditional" p="adjective" ts="trəˈdɪʃənl" tr="традиционный"/>
+<d v="traditionalist" p="noun" ts="trəˈdɪʃnəlɪst" tr="традиционалист"/>
+<d v="traditionalist" p="adjective" ts="trəˈdɪʃnəlɪst" tr="традиционалистский"/>
+<d v="traditionally" p="adverb" ts="trəˈdɪʃnəlɪ" tr="традиционно"/>
+<d v="traditionally" p="noun" ts="trəˈdɪʃnəlɪ" tr="по традиции"/>
+<d v="traffic" p="noun" ts="ˈtræfɪk" tr="трафик; движение; перевозка; грузы"/>
+<d v="traffic" p="adjective" ts="ˈtræfɪk" tr="дорожный"/>
+<d v="traffic" p="verb" ts="ˈtræfɪk" tr="торговать"/>
+<d v="traffic jam" p="noun" ts="ˈtræfɪk ʤæm" tr="пробка; автомобильная пробка; дорожная пробка; транспортная пробка"/>
+<d v="traffic light" p="noun" ts="ˈtræfɪk laɪt" tr="светофор"/>
+<d v="tragedy" p="noun" ts="ˈtræʤɪdɪ" tr="трагедия; трагизм; трагичность"/>
+<d v="tragic" p="adjective" ts="ˈtræʤɪk" tr="трагический; трагичный; печальный"/>
+<d v="tragic" p="noun" ts="ˈtræʤɪk" tr="трагедия"/>
+<d v="tragically" p="adverb" ts="ˈtræʤɪklɪ" tr="трагически; катастрофически"/>
+<d v="trail" p="noun" ts="treɪl" tr="тропа; трасса; шлейф"/>
+<d v="trail" p="verb" ts="treɪl" tr="тащить; отставать; выслеживать; свисать"/>
+<d v="trailblazer" p="noun" ts="ˈtreɪlbleɪzər" tr="первопроходец"/>
+<d v="trailer" p="noun" ts="ˈtreɪlə" tr="прицеп; вагончик; анонс; киноафиша"/>
+<d v="trailer park" p="noun" ts="ˈtreɪlə pɑːk" tr="трейлерный парк; парк трейлеров"/>
+<d v="train" p="noun" ts="treɪn" tr="поезд; обучение; состав; кортеж; шлейф; свита; цепь"/>
+<d v="train" p="verb" ts="treɪn" tr="обучать; тренироваться; дрессировать; объезжать"/>
+<d v="train" p="adjective" ts="treɪn" tr="железнодорожный; поездной"/>
+<d v="trained" p="participle" ts="treɪnd" tr="обученный; подготовленный; тренированный; обучаемый; обучавшийся; вышколенный; дрессированный"/>
+<d v="trained" p="noun" ts="treɪnd" tr="подготовка"/>
+<d v="trained" p="adjective" ts="treɪnd" tr="натренированный"/>
+<d v="trainee" p="noun" ts="treɪˈniː" tr="стажер; слушатель; стажировка"/>
+<d v="trainee" p="participle" ts="treɪˈniː" tr="обучаемый; обучающийся"/>
+<d v="trainer" p="noun" ts="ˈtreɪnə" tr="тренер; тренажер; дрессировщик; ополченец"/>
+<d v="training" p="noun" ts="ˈtreɪnɪŋ" tr="обучение; культура; выучка; закалка"/>
+<d v="training" p="adjective" ts="ˈtreɪnɪŋ" tr="учебный"/>
+<d v="training" p="participle" ts="ˈtreɪnɪŋ" tr="обучающий"/>
+<d v="trait" p="noun" ts="treɪ" tr="черта; свойство; штрих"/>
+<d v="traitor" p="noun" ts="ˈtreɪtə" tr="предатель"/>
+<d v="trajectory" p="noun" ts="ˈtræʤɪktərɪ" tr="траектория"/>
+<d v="tramp" p="noun" ts="træmp" tr="бродяга; топот; босяк; бродяжка"/>
+<d v="tramp" p="adjective" ts="træmp" tr="трамповый"/>
+<d v="tramp" p="verb" ts="træmp" tr="бродяжничать; топтать"/>
+<d v="trample" p="verb" ts="træmpl" tr="попирать; вытаптывать; растаптывать; втоптать; подавлять; втаптывать; давить"/>
+<d v="trample" p="noun" ts="træmpl" tr="попрание; топтание"/>
+<d v="trampoline" p="noun" ts="ˈtræmpəliːn" tr="батут"/>
+<d v="trance" p="noun" ts="trɑːns" tr="транс"/>
+<d v="tranquil" p="adjective" ts="ˈtræŋkwɪl" tr="спокойный"/>
+<d v="tranquility" p="noun" ts="trænˈkwɪlɪtɪ" tr="спокойствие; безмятежность"/>
+<d v="tranquilizer" p="noun" ts="ˈtrænkwɪlaɪzər" tr="транквилизатор"/>
+<d v="Transact" p="verb" ts="trænˈzækt" tr="вести; заключать"/>
+<d v="transaction" p="noun" ts="trænˈzækʃn" tr="сделка; транзакция; ведение"/>
+<d v="transaction" p="adjective" ts="trænˈzækʃn" tr="операционный"/>
+<d v="transatlantic" p="adjective" ts="ˈtrænzətˈlæntɪk" tr="трансатлантический; заокеанский"/>
+<d v="transcend" p="verb" ts="trænˈsend" tr="превосходить; преодолеть; переступать; выйти; переступать пределы"/>
+<d v="transcend" p="noun" ts="trænˈsend" tr="трансцендировать"/>
+<d v="transcendence" p="noun" ts="trænˈsendəns" tr="трансцендентность; превосходство; преодоление; превосхождение; трансцендирование"/>
+<d v="transcendental" p="adjective" ts="trænsenˈdentl" tr="трансцендентный; заоблачный"/>
+<d v="transcontinental" p="adjective" ts="ˈtrænzkɔntɪˈnentl" tr="трансконтинентальный"/>
+<d v="transcribe" p="verb" ts="trænsˈkraɪb" tr="транскрибировать; переписывать; записать; расшифровать; аранжировать"/>
+<d v="transcript" p="noun" ts="ˈtrænskrɪpt" tr="стенограмма; расшифровка; копия"/>
+<d v="transcription" p="noun" ts="trænsˈkrɪpʃn" tr="транскрипция; расшифровка; запись; аранжировка"/>
+<d v="transfer" p="noun" ts="ˈtrænsfɜː" tr="передача; трансфер; перенос; пересадка; уступка"/>
+<d v="transfer" p="verb" ts="ˈtrænsfɜː" tr="передавать; перенести; перевести; перемещать"/>
+<d v="transfer" p="adjective" ts="ˈtrænsfɜː" tr="трансфертный; передаточный"/>
+<d v="transferable" p="participle" ts="trænsˈfɜːrəbl" tr="передаваемый; переносимый; подлежащий передаче"/>
+<d v="transferable" p="adjective" ts="trænsˈfɜːrəbl" tr="переводный"/>
+<d v="transferable" p="verb" ts="trænsˈfɜːrəbl" tr="переносить"/>
+<d v="transform" p="verb" ts="trænsˈfɔːm" tr="преобразовать; превратить; изменить; преобразить; переходить; перевоплощаться"/>
+<d v="transform" p="noun" ts="trænsˈfɔːm" tr="преобразование"/>
+<d v="transformation" p="noun" ts="trænsfəˈmeɪʃn" tr="преобразование; перевоплощение"/>
+<d v="transformer" p="noun" ts="trænsˈfɔːmə" tr="трансформатор; трансформер"/>
+<d v="transformer" p="adjective" ts="trænsˈfɔːmə" tr="трансформаторный"/>
+<d v="transfusion" p="noun" ts="trænsˈfjuːʒən" tr="переливание"/>
+<d v="transgress" p="verb" ts="trænsˈgres" tr="преступать; нарушать; грешить"/>
+<d v="transgression" p="noun" ts="trænsˈgreʃn" tr="преступление; грех; беззаконие; трансгрессия"/>
+<d v="transient" p="adjective" ts="ˈtrænzɪənt" tr="переходной; преходящий"/>
+<d v="transistor" p="noun" ts="trænˈzɪstər" tr="транзистор"/>
+<d v="transit" p="noun" ts="ˈtrænsɪt" tr="транзит; перевозка; теодолит"/>
+<d v="transit" p="adjective" ts="ˈtrænsɪt" tr="транзитный"/>
+<d v="transit" p="verb" ts="ˈtrænsɪt" tr="переходить"/>
+<d v="transition" p="noun" ts="trænˈsɪʒən" tr="переход; модуляция"/>
+<d v="transition" p="adjective" ts="trænˈsɪʒən" tr="переходной"/>
+<d v="transitional" p="adjective" ts="trænˈsɪʒənl" tr="переходной"/>
+<d v="transitive" p="adjective" ts="ˈtrænsɪtɪv" tr="переходной; транзитивный"/>
+<d v="transitory" p="adjective" ts="ˈtrænsɪtərɪ" tr="преходящий; переходной; временный"/>
+<d v="translate" p="verb" ts="trænsˈleɪt" tr="перевести; переводить; преобразовать; транслировать; воплотить; осуществлять; толковать"/>
+<d v="translate" p="noun" ts="trænsˈleɪt" tr="перевод"/>
+<d v="translation" p="noun" ts="trænsˈleɪʃn" tr="перевод; трансляция; перемещение"/>
+<d v="translation" p="adjective" ts="trænsˈleɪʃn" tr="переводческий; письменный"/>
+<d v="translator" p="noun" ts="trænsˈleɪtə" tr="переводчик; транслятор"/>
+<d v="translucent" p="adjective" ts="trænzˈluːsnt" tr="полупрозрачный"/>
+<d v="translucent" p="participle" ts="trænzˈluːsnt" tr="просвечивающий"/>
+<d v="transmission" p="noun" ts="trænzˈmɪʃn" tr="передача; трансляция; пропускание"/>
+<d v="transmission" p="adjective" ts="trænzˈmɪʃn" tr="трансмиссионный"/>
+<d v="transmission" p="participle" ts="trænzˈmɪʃn" tr="передающий"/>
+<d v="transmission" p="verb" ts="trænzˈmɪʃn" tr="передавать"/>
+<d v="transmit" p="verb" ts="trænzˈmɪt" tr="передавать; препроводить; препровождать; посылать; пропускать"/>
+<d v="transmit" p="noun" ts="trænzˈmɪt" tr="передача"/>
+<d v="transmit" p="participle" ts="trænzˈmɪt" tr="передаваемый"/>
+<d v="transmitter" p="noun" ts="trænzˈmɪtə" tr="передатчик; трансмиттер; рация; отправитель; переносчик"/>
+<d v="transparency" p="noun" ts="trænsˈpɛərənsɪ" tr="прозрачность"/>
+<d v="transparent" p="adjective" ts="trænsˈpɛərənt" tr="прозрачный; понятный; ясный; очевидный; сквозной"/>
+<d v="transparent" p="noun" ts="trænsˈpɛərənt" tr="прозрачность"/>
+<d v="transparently" p="adverb" ts="trænsˈpærəntlɪ" tr="прозрачно"/>
+<d v="transparently" p="adjective" ts="trænsˈpærəntlɪ" tr="транспарентный"/>
+<d v="transpire" p="verb" ts="trænsˈpaɪə" tr="произойти; обнаруживаться"/>
+<d v="transplant" p="noun" ts="trænsˈplɑːnt" tr="пересадка"/>
+<d v="transplant" p="verb" ts="trænsˈplɑːnt" tr="пересадить"/>
+<d v="transplant" p="adjective" ts="trænsˈplɑːnt" tr="трансплантационный"/>
+<d v="transport" p="noun" ts="ˈtrænspɔːt" tr="транспорт; автотранспорт"/>
+<d v="transport" p="adjective" ts="ˈtrænspɔːt" tr="транспортный"/>
+<d v="transport" p="verb" ts="ˈtrænspɔːt" tr="перевозить; транспортировать; перемещать"/>
+<d v="transportation" p="noun" ts="trænspɔːˈteɪʃn" tr="перевозка; проезд; трансфер"/>
+<d v="transportation" p="adjective" ts="trænspɔːˈteɪʃn" tr="транспортный"/>
+<d v="transpose" p="verb" ts="trænsˈpəʊz" tr="перенести; транспонировать; переставлять; перемещать"/>
+<d v="transpose" p="noun" ts="trænsˈpəʊz" tr="транспонирование"/>
+<d v="transvestite" p="noun" ts="trænzˈvestaɪt" tr="трансвестит; травести"/>
+<d v="trap" p="noun" ts="træp" tr="ловушка; трап; сифон"/>
+<d v="trap" p="verb" ts="træp" tr="поймать; заманить; подстерегать; поглощать; задерживать; застрять; отлавливать"/>
+<d v="trap door" p="noun" ts="træp dɔː" tr="люк"/>
+<d v="trapeze" p="noun" ts="trəˈpiːz" tr="трапеция"/>
+<d v="trapper" p="noun" ts="ˈtræpə" tr="охотник; траппер"/>
+<d v="trappings" p="noun" ts="ˈtræpɪŋz" tr="атрибутика; сбруя; украшения; попона"/>
+<d v="trash" p="noun" ts="træʃ" tr="мусор; корзина; погань; макулатура; халтура"/>
+<d v="trash" p="adjective" ts="træʃ" tr="мусорный"/>
+<d v="trash" p="verb" ts="træʃ" tr="разгромить"/>
+<d v="trash can" p="noun" ts="træʃ kæn" tr="мусорный бак; урна"/>
+<d v="trash can" p="adjective" ts="træʃ kæn" tr="мусорный"/>
+<d v="trashy" p="adjective" ts="ˈtræʃɪ" tr="дрянной"/>
+<d v="trauma" p="noun" ts="ˈtrɔːmə" tr="травма"/>
+<d v="trauma" p="adjective" ts="ˈtrɔːmə" tr="травматологический"/>
+<d v="traumatic" p="adjective" ts="trɔːˈmætɪk" tr="травматический; травматичный; травмоопасный"/>
+<d v="traumatic" p="participle" ts="trɔːˈmætɪk" tr="травмирующий"/>
+<d v="traumatic" p="verb" ts="trɔːˈmætɪk" tr="травмировать"/>
+<d v="traumatize" p="verb" ts="ˈtrɔːmətaɪz" tr="травмировать"/>
+<d v="travel" p="noun" ts="trævl" tr="путешествие; передвижение; туризм; подача"/>
+<d v="travel" p="verb" ts="trævl" tr="путешествовать; ездить; перемещаться; распространяться; перебирать"/>
+<d v="travel" p="adjective" ts="trævl" tr="туристический; путевой; проездной"/>
+<d v="travel agency" p="noun" ts="trævl ˈeɪʤənsɪ" tr="туристическое агентство; турагентство; туристическая компания; турфирма; туристическая фирма; бюро путешествий; туристическое бюро; агентство путешествий; транспортное агентство"/>
+<d v="travel agent" p="noun" ts="trævl ˈeɪʤənt" tr="турагент; туристическое агентство; туристический агент; турагентство"/>
+<d v="traveler" p="noun" ts="ˈtrævlər" tr="путешественник; путешественница"/>
+<d v="traveler&apos;s check" p="noun" ts="ˈtrævləz ʧek" tr="дорожный чек"/>
+<d v="traverse" p="verb" ts="ˈtrævɜːs" tr="пройти; пересекать"/>
+<d v="traverse" p="noun" ts="ˈtrævɜːs" tr="траверс; поход; обход; траверз; поперечина"/>
+<d v="travesty" p="noun" ts="ˈtrævɪstɪ" tr="пародия; травести; карикатура; издевательство"/>
+<d v="trawl" p="noun" ts="trɔːl" tr="трал"/>
+<d v="trawl" p="adjective" ts="trɔːl" tr="траловый"/>
+<d v="trawl" p="verb" ts="trɔːl" tr="тралить"/>
+<d v="trawler" p="noun" ts="ˈtrɔːlə" tr="траулер; тральщик"/>
+<d v="tray" p="noun" ts="treɪ" tr="лоток; поднос; трея"/>
+<d v="treacherous" p="adjective" ts="ˈtreʧərəs" tr="предательский"/>
+<d v="treacherous" p="noun" ts="ˈtreʧərəs" tr="предатель"/>
+<d v="treacherous" p="adverb" ts="ˈtreʧərəs" tr="предательски"/>
+<d v="treachery" p="noun" ts="ˈtreʧərɪ" tr="предательство; вероломство"/>
+<d v="treachery" p="adjective" ts="ˈtreʧərɪ" tr="предательский"/>
+<d v="tread" p="noun" ts="tred" tr="протектор; проступь; поступь; ступень; колея; поверхность катания"/>
+<d v="tread" p="verb" ts="tred" tr="ступать; наступать; топтать; идти; давить; протаптывать"/>
+<d v="treadmill" p="noun" ts="ˈtredmɪl" tr="беговая дорожка; бегущая дорожка; однообразный механический труд; топчак"/>
+<d v="treason" p="noun" ts="triːzn" tr="измена"/>
+<d v="treasure" p="noun" ts="ˈtreʒə" tr="сокровище; казна; кладоискатель"/>
+<d v="treasure" p="verb" ts="ˈtreʒə" tr="дорожить"/>
+<d v="treasurer" p="noun" ts="ˈtreʒərə" tr="казначей; хранитель"/>
+<d v="treasury" p="noun" ts="ˈtrəʒərɪ" tr="казначейство; Министерство финансов; касса"/>
+<d v="treasury" p="adjective" ts="ˈtrəʒərɪ" tr="казначейский"/>
+<d v="treat" p="verb" ts="triːt" tr="относиться; лечить; обработать; угощать; побаловать; обходиться; подлечить"/>
+<d v="treat" p="noun" ts="triːt" tr="лечение; угощение; удовольствие"/>
+<d v="treatable" p="adjective" ts="ˈtriːtəbl" tr="излечимый"/>
+<d v="treatable" p="participle" ts="ˈtriːtəbl" tr="поддающийся"/>
+<d v="treatise" p="noun" ts="ˈtriːtɪz" tr="трактат; монография; курс"/>
+<d v="treatment" p="noun" ts="ˈtriːtmənt" tr="лечение; трактовка; пропитка; обогащение"/>
+<d v="treatment" p="adjective" ts="ˈtriːtmənt" tr="лечебный"/>
+<d v="treaty" p="noun" ts="ˈtriːtɪ" tr="договор"/>
+<d v="treaty" p="adjective" ts="ˈtriːtɪ" tr="договорный"/>
+<d v="treble" p="verb" ts="trebl" tr="утроить"/>
+<d v="treble" p="adjective" ts="trebl" tr="тройной; дискантовый"/>
+<d v="treble" p="noun" ts="trebl" tr="дискант; утроение"/>
+<d v="tree" p="noun" ts="triː" tr="дерево; вал; виселица"/>
+<d v="tree" p="adjective" ts="triː" tr="древесный"/>
+<d v="treetop" p="noun" ts="trɪˈtɔːp" tr="верхушка дерева; верхушка; вершина дерева"/>
+<d v="trek" p="noun" ts="trek" tr="поход; переселение"/>
+<d v="trellis" p="noun" ts="ˈtrelɪs" tr="решетка; шпалера"/>
+<d v="tremble" p="verb" ts="trembl" tr="дрожать; трепетать; дрогнуть; вздрогнуть; опасаться"/>
+<d v="tremble" p="noun" ts="trembl" tr="дрожь"/>
+<d v="tremendous" p="adjective" ts="trɪˈmendəs" tr="огромный; ужасный"/>
+<d v="tremendous" p="participle" ts="trɪˈmendəs" tr="потрясающий"/>
+<d v="tremendously" p="adverb" ts="trɪˈmendəslɪ" tr="чрезвычайно; колоссально"/>
+<d v="tremor" p="noun" ts="ˈtremə" tr="толчок; дрожь; подземный толчок; дрожание"/>
+<d v="tremor" p="verb" ts="ˈtremə" tr="дрожать"/>
+<d v="trench" p="noun" ts="trenʧ" tr="траншея; окоп"/>
+<d v="trench" p="adjective" ts="trenʧ" tr="траншейный; окопный"/>
+<d v="trench" p="verb" ts="trenʧ" tr="вскапывать"/>
+<d v="trenchant" p="adjective" ts="ˈtrenʧənt" tr="резкий"/>
+<d v="trench coat" p="noun" ts="ˈtrenʧkəʊt" tr="плащ"/>
+<d v="trend" p="noun" ts="trend" tr="тенденция; направление"/>
+<d v="trend" p="adjective" ts="trend" tr="трендовый"/>
+<d v="trend" p="verb" ts="trend" tr="отклоняться"/>
+<d v="trendy" p="adjective" ts="ˈtrendɪ" tr="модный"/>
+<d v="trepidation" p="noun" ts="trepɪˈdeɪʃn" tr="трепет; тревога"/>
+<d v="trespass" p="noun" ts="ˈtrespəs" tr="согрешение; проступок"/>
+<d v="trespass" p="verb" ts="ˈtrespəs" tr="посягать; злоупотреблять"/>
+<d v="trespasser" p="noun" ts="ˈtrespəsə" tr="нарушитель"/>
+<d v="trestle" p="noun" ts="tresl" tr="эстакада"/>
+<d v="trial" p="noun" ts="ˈtraɪəl" tr="суд; испытание; исследование; попытка; мытарство"/>
+<d v="trial" p="adjective" ts="ˈtraɪəl" tr="пробный; судебный"/>
+<d v="trial run" p="noun" ts="ˈtraɪəl rʌn" tr="пробный запуск; пробный прогон"/>
+<d v="triangle" p="noun" ts="ˈtraɪæŋgl" tr="треугольник"/>
+<d v="triangle" p="adjective" ts="ˈtraɪæŋgl" tr="треугольный"/>
+<d v="triangular" p="adjective" ts="traɪˈæŋgjʊlə" tr="треугольный; трехсторонний"/>
+<d v="triangular" p="noun" ts="traɪˈæŋgjʊlə" tr="треугольник"/>
+<d v="tribal" p="adjective" ts="ˈtraɪbəl" tr="племенной; межплеменной"/>
+<d v="tribal" p="noun" ts="ˈtraɪbəl" tr="племя"/>
+<d v="tribe" p="noun" ts="traɪb" tr="племя; триба; компания"/>
+<d v="tribe" p="adjective" ts="traɪb" tr="племенной"/>
+<d v="tribulation" p="noun" ts="trɪbjʊˈleɪʃn" tr="скорбь"/>
+<d v="tribunal" p="noun" ts="traɪˈbjuːnl" tr="трибунал"/>
+<d v="tributary" p="noun" ts="ˈtrɪbjʊtərɪ" tr="приток; данник"/>
+<d v="tribute" p="noun" ts="ˈtrɪbjuːt" tr="дань; награда; подношение"/>
+<d v="triceps" p="noun" ts="ˈtraɪseps" tr="трицепс"/>
+<d v="triceps" p="adjective" ts="ˈtraɪseps" tr="трехглавый"/>
+<d v="trick" p="noun" ts="trɪk" tr="трюк; хитрость; шутка; подвох; проделка; пакость; взятка; особенность; привычка; сноровка; игрушка; забава; манера"/>
+<d v="trick" p="verb" ts="trɪk" tr="обмануть; обхитрить; обманом заставить"/>
+<d v="trick" p="adjective" ts="trɪk" tr="трюковой; сложный"/>
+<d v="trickery" p="noun" ts="ˈtrɪkərɪ" tr="обман; плутовство"/>
+<d v="trickle" p="noun" ts="trɪkl" tr="струйка; тонкая струйка; просачивание"/>
+<d v="trickle" p="verb" ts="trɪkl" tr="сочиться"/>
+<d v="trickle" p="adjective" ts="trɪkl" tr="капельный"/>
+<d v="trickster" p="noun" ts="ˈtrɪkstə" tr="обманщик; ловкач; фокусник"/>
+<d v="tricky" p="adjective" ts="ˈtrɪkɪ" tr="сложный; хитрый; мудреный"/>
+<d v="tricycle" p="noun" ts="ˈtraɪsɪkl" tr="трехколесный велосипед; трицикл; трехколесный мотоцикл"/>
+<d v="tricycle" p="adjective" ts="ˈtraɪsɪkl" tr="трехколесный"/>
+<d v="trident" p="noun" ts="ˈtraɪdənt" tr="трезубец; Трайдент"/>
+<d v="trifle" p="noun" ts="traɪfl" tr="мелочь; безделица; пустячок; малость"/>
+<d v="trifle" p="verb" ts="traɪfl" tr="шутить; теребить; играть"/>
+<d v="trifling" p="adjective" ts="ˈtraɪflɪŋ" tr="пустяковый; ничтожный"/>
+<d v="trifling" p="noun" ts="ˈtraɪflɪŋ" tr="пустяк"/>
+<d v="trigger" p="noun" ts="ˈtrɪgə" tr="триггер; курок; толчок; собачка"/>
+<d v="trigger" p="verb" ts="ˈtrɪgə" tr="вызвать; инициировать; спровоцировать"/>
+<d v="trigger" p="adjective" ts="ˈtrɪgə" tr="спусковой"/>
+<d v="trigonometry" p="noun" ts="trɪgəˈnɔmɪtrɪ" tr="тригонометрия"/>
+<d v="trike" p="noun" ts="traɪk" tr="мотодельтаплан"/>
+<d v="trill" p="noun" ts="trɪl" tr="трель"/>
+<d v="trillion" p="noun" ts="ˈtrɪljən" tr="триллион"/>
+<d v="trilogy" p="noun" ts="ˈtrɪləʤɪ" tr="трилогия; кинотрилогия"/>
+<d v="trim" p="noun" ts="trɪm" tr="отделка; уравновешивание; дифферент; триммер; подрезка; готовность; стрижка"/>
+<d v="trim" p="verb" ts="trɪm" tr="обрезать; отделывать; подстригать; уравновешивать; подровнять; приводить в порядок; торцевать"/>
+<d v="trim" p="adjective" ts="trɪm" tr="нарядный; обрезной; элегантный"/>
+<d v="trim" p="participle" ts="trɪm" tr="подтянутый"/>
+<d v="trimester" p="noun" ts="traɪˈmestə" tr="триместр"/>
+<d v="trimmings" p="noun" ts="ˈtrɪmɪŋz" tr="отделка; обрезь; гарнир"/>
+<d v="Trinity" p="noun" ts="ˈtrɪnɪtɪ" tr="троица; Тринити"/>
+<d v="Trinity" p="adjective" ts="ˈtrɪnɪtɪ" tr="Троицкий; троичный; триединый"/>
+<d v="trinket" p="noun" ts="ˈtrɪŋkɪt" tr="безделушка; брелок; пустяк"/>
+<d v="trio" p="noun" ts="ˈtriːəʊ" tr="трио; троица"/>
+<d v="trio" p="numeral" ts="ˈtriːəʊ" tr="три; трое"/>
+<d v="trip" p="noun" ts="trɪp" tr="поездка; экскурсия; отключение; подножка; ошибка; падение"/>
+<d v="trip" p="verb" ts="trɪp" tr="споткнуться; опрокинуть; падать; запутать; поймать"/>
+<d v="tripe" p="noun" ts="traɪp" tr="рубец; требуха; чушь; дрянь"/>
+<d v="triple" p="adjective" ts="trɪpl" tr="тройной"/>
+<d v="triple" p="verb" ts="trɪpl" tr="утроить"/>
+<d v="triple" p="noun" ts="trɪpl" tr="тройка"/>
+<d v="triple" p="participle" ts="trɪpl" tr="строенный"/>
+<d v="triplet" p="noun" ts="ˈtrɪplɪt" tr="триплет; тройня; тройка; тройняшка; триоль; близнец"/>
+<d v="triplet" p="adjective" ts="ˈtrɪplɪt" tr="триплетный"/>
+<d v="tripod" p="noun" ts="ˈtraɪpɔd" tr="штатив; тренога"/>
+<d v="trite" p="adjective" ts="traɪt" tr="банальный"/>
+<d v="triumph" p="noun" ts="ˈtraɪəmf" tr="триумф; ликование"/>
+<d v="triumph" p="verb" ts="ˈtraɪəmf" tr="восторжествовать"/>
+<d v="triumph" p="adjective" ts="ˈtraɪəmf" tr="триумфальный"/>
+<d v="triumph" p="participle" ts="ˈtraɪəmf" tr="торжествующий"/>
+<d v="triumphant" p="adjective" ts="traɪˈʌmfənt" tr="триумфальный; ликующий"/>
+<d v="triumphant" p="participle" ts="traɪˈʌmfənt" tr="торжествующий"/>
+<d v="triumphant" p="verb" ts="traɪˈʌmfənt" tr="торжествовать"/>
+<d v="triumphant" p="noun" ts="traɪˈʌmfənt" tr="триумф"/>
+<d v="triumphantly" p="adverb" ts="traɪˈʌmfəntlɪ" tr="триумфально; торжественно"/>
+<d v="triumphantly" p="noun" ts="traɪˈʌmfəntlɪ" tr="с торжеством; торжество"/>
+<d v="trivia" p="noun" ts="ˈtrɪvɪə" tr="пустяки; викторина"/>
+<d v="trivial" p="adjective" ts="ˈtrɪvɪəl" tr="тривиальный; незначительный; пустяковый; пустой; ненаучный"/>
+<d v="trivial" p="noun" ts="ˈtrɪvɪəl" tr="пустяк"/>
+<d v="trivialize" p="verb" ts="ˈtrɪvɪəlaɪz" tr="опошлять"/>
+<d v="troll" p="noun" ts="trəʊl" tr="тролль; блесна"/>
+<d v="troll" p="verb" ts="trəʊl" tr="распевать"/>
+<d v="trolley" p="noun" ts="ˈtrɔlɪ" tr="тележка; троллейбус; троллей; дрезина"/>
+<d v="trolley" p="adjective" ts="ˈtrɔlɪ" tr="троллейбусный"/>
+<d v="trombone" p="noun" ts="trɔmˈbəʊn" tr="тромбон"/>
+<d v="troop" p="noun" ts="truːp" tr="отряд; труппа; стадо"/>
+<d v="troop" p="adjective" ts="truːp" tr="десантный"/>
+<d v="trooper" p="noun" ts="ˈtruːpə" tr="солдат; десантник; полицейский"/>
+<d v="trooper" p="adjective" ts="ˈtruːpə" tr="патрульный"/>
+<d v="troops" p="noun" ts="truːps" tr="войска"/>
+<d v="trophy" p="noun" ts="ˈtrəʊfɪ" tr="трофей; приз; памятный подарок"/>
+<d v="trophy" p="adjective" ts="ˈtrəʊfɪ" tr="трофейный"/>
+<d v="tropic" p="noun" ts="ˈtrɔpɪk" tr="тропик"/>
+<d v="tropic" p="adjective" ts="ˈtrɔpɪk" tr="тропический"/>
+<d v="tropical" p="adjective" ts="ˈtrɔpɪkəl" tr="тропический"/>
+<d v="trot" p="noun" ts="trɔt" tr="рысь; Трот; шпаргалка"/>
+<d v="trot" p="verb" ts="trɔt" tr="бежать; идти рысью; спешить"/>
+<d v="troubadour" p="noun" ts="ˈtruːbədʊə" tr="трубадур"/>
+<d v="trouble" p="noun" ts="trʌbl" tr="проблема; неприятность; беда; тревога; неисправность; смута; невзгод; неблагополучие; передряга; помеха"/>
+<d v="trouble" p="verb" ts="trʌbl" tr="беспокоить; затруднять; трудиться; приставать; надоедать"/>
+<d v="trouble" p="adjective" ts="trʌbl" tr="трудный; аварийный"/>
+<d v="troubled" p="adjective" ts="trʌbld" tr="беспокойный"/>
+<d v="troubled" p="noun" ts="trʌbld" tr="беспокойство"/>
+<d v="troubled" p="participle" ts="trʌbld" tr="обеспокоенный; побеспокоенный; встревоженный; озабоченный"/>
+<d v="troublemaker" p="noun" ts="ˈtrʌblmeɪkə" tr="нарушитель; смутьян; нарушитель спокойствия"/>
+<d v="troubleshooter" p="noun" ts="ˈtrʌblʃuːtər" tr="устранение неполадок; средство устранения неполадок"/>
+<d v="troubleshooting" p="noun" ts="ˈtrʌblʃuːtɪŋ" tr="неполадки; поиск неисправностей"/>
+<d v="troublesome" p="adjective" ts="ˈtrʌblsəm" tr="трудный; хлопотный; проблемный; мучительный; назойливый; хлопотливый; недисциплинированный"/>
+<d v="troublesome" p="noun" ts="ˈtrʌblsəm" tr="беспокойство"/>
+<d v="troublesome" p="participle" ts="ˈtrʌblsəm" tr="причиняющий беспокойство"/>
+<d v="trough" p="noun" ts="trɔf" tr="желоб; корыто; кормушка; впадина; мульда; квашня"/>
+<d v="troupe" p="noun" ts="truːp" tr="труппа"/>
+<d v="trousers" p="noun" ts="ˈtraʊzəz" tr="брюки"/>
+<d v="trout" p="noun" ts="traʊt" tr="форель"/>
+<d v="trout" p="adjective" ts="traʊt" tr="форелевый"/>
+<d v="truancy" p="noun" ts="ˈtruːənsɪ" tr="прогул"/>
+<d v="truant" p="noun" ts="ˈtruːənt" tr="прогульщик"/>
+<d v="truce" p="noun" ts="truːs" tr="перемирие; передышка"/>
+<d v="truck" p="noun" ts="trʌk" tr="грузовик; тележка; самосвал; автотранспорт; погрузчик; мена; каток"/>
+<d v="truck" p="adjective" ts="trʌk" tr="грузовой"/>
+<d v="trucker" p="noun" ts="ˈtrʌkə" tr="дальнобойщик"/>
+<d v="trucking" p="adjective" ts="ˈtrʌkɪŋ" tr="автотранспортный; траковый"/>
+<d v="trucking" p="noun" ts="ˈtrʌkɪŋ" tr="автоперевозка; автотранспорт"/>
+<d v="truckload" p="noun" ts="ˈtrʌkləʊd" tr="грузовик"/>
+<d v="truculent" p="adjective" ts="ˈtrʌkjʊlənt" tr="агрессивный; свирепый"/>
+<d v="trudge" p="verb" ts="trʌʤ" tr="тащить; поплестись; брести"/>
+<d v="true" p="adjective" ts="truː" tr="истинный; верный; правдивый"/>
+<d v="true" p="noun" ts="truː" tr="правда; значение true"/>
+<d v="true" p="adverb" ts="truː" tr="верно; правдиво"/>
+<d v="true" p="verb" ts="truː" tr="относиться; сбыться"/>
+<d v="true" p="parenthetic" ts="truː" tr="точно"/>
+<d v="truffle" p="noun" ts="trʌfl" tr="трюфель"/>
+<d v="truffle" p="adjective" ts="trʌfl" tr="трюфельный"/>
+<d v="truism" p="noun" ts="ˈtruːɪzm" tr="трюизм; прописная истина; азбучная истина"/>
+<d v="truly" p="adverb" ts="ˈtruːlɪ" tr="действительно; поистине; правдиво; искренне"/>
+<d v="truly" p="noun" ts="ˈtruːlɪ" tr="действительность; по настоящему; по истине; покорный слуга"/>
+<d v="truly" p="particle" ts="ˈtruːlɪ" tr="точно"/>
+<d v="trump" p="noun" ts="trʌmp" tr="козырь; Трамп; трубный глас"/>
+<d v="trump" p="adjective" ts="trʌmp" tr="козырный; козырной"/>
+<d v="trump" p="verb" ts="trʌmp" tr="превзойти; козырять; козырнуть; перевешивать"/>
+<d v="trumpet" p="noun" ts="ˈtrʌmpɪt" tr="труба; трубный звук; рупор"/>
+<d v="trumpet" p="adjective" ts="ˈtrʌmpɪt" tr="трубный"/>
+<d v="trumpet" p="verb" ts="ˈtrʌmpɪt" tr="трубить; возвещать"/>
+<d v="trumpeter" p="noun" ts="ˈtrʌmpɪtə" tr="трубач"/>
+<d v="truncated" p="participle" ts="ˈtrʌŋkeɪtɪd" tr="усеченный"/>
+<d v="truncated" p="noun" ts="ˈtrʌŋkeɪtɪd" tr="усечение"/>
+<d v="trundle" p="verb" ts="trʌndl" tr="катить"/>
+<d v="trunk" p="noun" ts="trʌŋk" tr="ствол; сундук; туловище; соединительная линия; хобот; магистраль; внешняя линия; баул; главная линия; штамб"/>
+<d v="trunk" p="adjective" ts="trʌŋk" tr="магистральный; междугородный"/>
+<d v="trust" p="noun" ts="trʌst" tr="доверие; Траст; трест; фонд; доверенный; упование; долг; опека"/>
+<d v="trust" p="verb" ts="trʌst" tr="доверять; надеяться; полагаться"/>
+<d v="trust" p="adjective" ts="trʌst" tr="целевой"/>
+<d v="trustee" p="noun" ts="trʌsˈtiː" tr="попечитель; доверенное лицо; доверительный управляющий; доверительный собственник; доверитель; распорядитель; член правления"/>
+<d v="trustee" p="adjective" ts="trʌsˈtiː" tr="трастовый"/>
+<d v="trustful" p="adjective" ts="ˈtrʌstfʊl" tr="доверчивый; доверительный"/>
+<d v="trusting" p="adjective" ts="ˈtrʌstɪŋ" tr="доверительный"/>
+<d v="trusting" p="noun" ts="ˈtrʌstɪŋ" tr="доверие"/>
+<d v="trusting" p="participle" ts="ˈtrʌstɪŋ" tr="доверяющий"/>
+<d v="trustworthy" p="adjective" ts="ˈtrʌstwɜːðɪ" tr="надежный"/>
+<d v="trustworthy" p="participle" ts="ˈtrʌstwɜːðɪ" tr="заслуживающий"/>
+<d v="trustworthy" p="noun" ts="ˈtrʌstwɜːðɪ" tr="доверие"/>
+<d v="trustworthy" p="verb" ts="ˈtrʌstwɜːðɪ" tr="доверять; заслуживать доверия"/>
+<d v="truth" p="noun" ts="truːθ" tr="истина; точность"/>
+<d v="truthful" p="adjective" ts="ˈtruːθfʊl" tr="правдивый; достоверный; верный"/>
+<d v="truthfully" p="adverb" ts="ˈtruːθfəlɪ" tr="правдиво"/>
+<d v="truthfully" p="adverbial participle" ts="ˈtruːθfəlɪ" tr="честно говоря"/>
+<d v="truthfully" p="noun" ts="ˈtruːθfəlɪ" tr="по правде"/>
+<d v="try" p="verb" ts="traɪ" tr="пытаться; испытать; примерить; судить; перепробовать; расследовать"/>
+<d v="try" p="noun" ts="traɪ" tr="попытка; испытание"/>
+<d v="trying" p="noun" ts="ˈtraɪɪŋ" tr="попытка"/>
+<d v="trying" p="adjective" ts="ˈtraɪɪŋ" tr="трудный"/>
+<d v="trying" p="participle" ts="ˈtraɪɪŋ" tr="пытающийся; старающийся; пробующий"/>
+<d v="tub" p="noun" ts="tʌb" tr="ванна; бадья; кадка; корыто; бочонок"/>
+<d v="tuba" p="noun" ts="ˈtjuːbə" tr="туба"/>
+<d v="tubby" p="adjective" ts="ˈtʌbɪ" tr="бочкообразный"/>
+<d v="tube" p="noun" ts="tjuːb" tr="трубка; тюбик; камера; туннель; электронная лампа; метрополитен"/>
+<d v="tube" p="adjective" ts="tjuːb" tr="ламповый"/>
+<d v="tuberculosis" p="noun" ts="tjuːbɜːkjʊˈləʊsɪs" tr="туберкулез"/>
+<d v="tuberculosis" p="adjective" ts="tjuːbɜːkjʊˈləʊsɪs" tr="туберкулезный"/>
+<d v="tubing" p="noun" ts="ˈtjuːbɪŋ" tr="труба; тюбинг"/>
+<d v="tubular" p="adjective" ts="ˈtjuːbjʊlə" tr="трубчатый"/>
+<d v="tuck" p="verb" ts="tʌk" tr="заправить; сунуть; спрятать; уложить; подобрать; поджать; подворачивать; подвернуть; зажать; подсовывать; подгибать"/>
+<d v="tuck" p="noun" ts="tʌk" tr="вытачка; складка"/>
+<d v="Tuesday" p="noun" ts="ˈtjuːzdɪ" tr="вторник"/>
+<d v="tuft" p="noun" ts="tʌft" tr="пучок; крона; прядь; эспаньолка"/>
+<d v="tug" p="noun" ts="tʌg" tr="буксир; перетягивание; гуж; рывок; усилие; состязание"/>
+<d v="tug" p="verb" ts="tʌg" tr="тянуть"/>
+<d v="tug" p="adjective" ts="tʌg" tr="буксирный"/>
+<d v="tugboat" p="noun" ts="ˈtʌgbəʊt" tr="буксир; буксирное судно"/>
+<d v="tugboat" p="adjective" ts="ˈtʌgbəʊt" tr="буксирный"/>
+<d v="tug of war" p="noun" ts="tʌg ɔv wɔː" tr="перетягивание каната"/>
+<d v="tuition" p="noun" ts="tjuːˈɪʃn" tr="обучение; стоимость обучения"/>
+<d v="Tulip" p="noun" ts="ˈtjuːlɪp" tr="тюльпан"/>
+<d v="tumble" p="verb" ts="tʌmbl" tr="упасть; ввалиться; швырять"/>
+<d v="tumble" p="noun" ts="tʌmbl" tr="падение; беспорядок"/>
+<d v="tumbler" p="noun" ts="ˈtʌmblə" tr="стакан; тумблер; акробат; неваляшка"/>
+<d v="tummy" p="noun" ts="ˈtʌmɪ" tr="живот"/>
+<d v="tumor" p="noun" ts="ˈtjuːmər" tr="опухоль"/>
+<d v="tumor" p="adjective" ts="ˈtjuːmər" tr="опухолевый"/>
+<d v="tumult" p="noun" ts="ˈtjuːmʌlt" tr="смятение; буйство"/>
+<d v="tumultuous" p="adjective" ts="tjuːˈmʌltjʊəs" tr="бурный"/>
+<d v="tuna" p="noun" ts="ˈtuːnə" tr="тунец"/>
+<d v="tundra" p="noun" ts="ˈtʌndrə" tr="тундра"/>
+<d v="tune" p="noun" ts="tjuːn" tr="мелодия; настройка; гармония; тюнинг; звук; строй"/>
+<d v="tune" p="verb" ts="tjuːn" tr="настроить; подстроить; заиграть; приспосабливать; звучать; играть; петь"/>
+<d v="tune" p="adjective" ts="tjuːn" tr="созвучный"/>
+<d v="tuner" p="noun" ts="ˈtjuːnə" tr="тюнер; Настройщик"/>
+<d v="tunic" p="noun" ts="ˈtjuːnɪk" tr="туника; китель; рубашка; оболочка"/>
+<d v="tunnel" p="noun" ts="tʌnl" tr="туннель; штольня"/>
+<d v="tunnel" p="adjective" ts="tʌnl" tr="туннельный"/>
+<d v="turban" p="noun" ts="ˈtɜːbən" tr="тюрбан"/>
+<d v="turbine" p="noun" ts="ˈtɜːbɪn" tr="турбина"/>
+<d v="turbine" p="adjective" ts="ˈtɜːbɪn" tr="газотурбинный; турбинный"/>
+<d v="turbulence" p="noun" ts="ˈtɜːbjʊləns" tr="турбулентность; завихрение; нестабильность; бурность"/>
+<d v="turbulent" p="adjective" ts="ˈtɜːbjʊlənt" tr="турбулентный; бурный; неспокойный"/>
+<d v="turbulent" p="participle" ts="ˈtɜːbjʊlənt" tr="бушующий"/>
+<d v="turbulent" p="adverb" ts="ˈtɜːbjʊlənt" tr="бурно"/>
+<d v="turd" p="noun" ts="tɜːd" tr="дерьмо"/>
+<d v="tureen" p="noun" ts="təˈriːn" tr="супница; миска"/>
+<d v="turf" p="noun" ts="tɜːf" tr="дерн; газон; торф; территория; дерновина"/>
+<d v="turf" p="adjective" ts="tɜːf" tr="торфяной; дерновый"/>
+<d v="turgid" p="adjective" ts="ˈtɜːʤɪd" tr="напыщенный"/>
+<d v="turgid" p="participle" ts="ˈtɜːʤɪd" tr="опухший"/>
+<d v="Turkey" p="noun" ts="ˈtɜːkɪ" tr="Турция; индейка; индюк"/>
+<d v="turmoil" p="noun" ts="ˈtɜːmɔɪl" tr="беспорядок; суматоха"/>
+<d v="turn" p="verb" ts="tɜːn" tr="повернуть; оказаться; превратить; обратиться; превратиться; получиться; направлять; вертеть; изменять; точить; огибать; обтачивать; пахать; подвернуть"/>
+<d v="turn" p="noun" ts="tɜːn" tr="очередь; поворот; перемена; склад; выход; поездка; сценка; шок; стиль"/>
+<d v="turn" p="adverbial participle" ts="tɜːn" tr="оказываясь"/>
+<d v="turnaround" p="adjective" ts="ˈtɜːnəraʊnd" tr="оборотный; антикризисный"/>
+<d v="turnaround" p="noun" ts="ˈtɜːnəraʊnd" tr="поворот"/>
+<d v="turncoat" p="noun" ts="ˈtɜːnkəʊt" tr="перебежчик; отступник"/>
+<d v="turning point" p="noun" ts="ˈtɜːnɪŋ pɔɪnt" tr="поворотный момент; перелом; поворотная точка; точка поворота; поворотный этап"/>
+<d v="turnip" p="noun" ts="ˈtɜːnɪp" tr="репа; репка"/>
+<d v="turnout" p="noun" ts="ˈtɜːnaʊt" tr="явка"/>
+<d v="turnover" p="noun" ts="ˈtɜːnəʊvə" tr="оборот; оборачиваемость; текучесть; опрокидывание"/>
+<d v="turnover" p="adjective" ts="ˈtɜːnəʊvə" tr="оборотный"/>
+<d v="turnpike" p="noun" ts="ˈtɜːnpaɪk" tr="рогатка; застава"/>
+<d v="turn signal" p="noun" ts="tɜːn sɪgnl" tr="сигнал поворота; поворотник"/>
+<d v="turnstile" p="noun" ts="ˈtɜːnstaɪl" tr="турникет"/>
+<d v="turntable" p="noun" ts="ˈtɜːnteɪbl" tr="вертушка; поворотный круг"/>
+<d v="turpentine" p="noun" ts="ˈtɜːpəntaɪn" tr="скипидар"/>
+<d v="turpentine" p="adjective" ts="ˈtɜːpəntaɪn" tr="скипидарный"/>
+<d v="turquoise" p="adjective" ts="ˈtɜːkwɑːz" tr="бирюзовый"/>
+<d v="turquoise" p="noun" ts="ˈtɜːkwɑːz" tr="бирюза"/>
+<d v="turret" p="noun" ts="ˈtʌrɪt" tr="башня"/>
+<d v="turtle" p="noun" ts="tɜːtl" tr="черепаха; горлица"/>
+<d v="turtle" p="adjective" ts="tɜːtl" tr="черепаший"/>
+<d v="turtleneck" p="noun" ts="ˈtɜːtlnek" tr="водолазка"/>
+<d v="tush" p="noun" ts="tʌʃ" tr="туш"/>
+<d v="tush" p="interjection" ts="tʌʃ" tr="тьфу"/>
+<d v="tusk" p="noun" ts="tʌsk" tr="бивень"/>
+<d v="tussle" p="noun" ts="tʌsl" tr="борьба"/>
+<d v="tutor" p="noun" ts="ˈtjuːtə" tr="репетитор; преподаватель; домашний учитель"/>
+<d v="tutor" p="verb" ts="ˈtjuːtə" tr="обучать; наставлять"/>
+<d v="tutorial" p="noun" ts="tjuːˈtɜːrɪəl" tr="учебник; обучающая программа"/>
+<d v="tutorial" p="participle" ts="tjuːˈtɜːrɪəl" tr="обучающий"/>
+<d v="tutorial" p="adjective" ts="tjuːˈtɜːrɪəl" tr="наставнический; опекунский"/>
+<d v="tutoring" p="participle" ts="ˈtjuːtərɪŋ" tr="обучающий"/>
+<d v="tux" p="noun" ts="tʌks" tr="смокинг"/>
+<d v="tuxedo" p="noun" ts="tʌkˈsiːdəʊ" tr="смокинг"/>
+<d v="TV" p="noun" ts="telɪˈvɪʒn" tr="телевизор"/>
+<d v="TV" p="invariant" ts="telɪˈvɪʒn" tr="ТВ"/>
+<d v="TV" p="adjective" ts="telɪˈvɪʒn" tr="телевизионный"/>
+<d v="twang" p="verb" ts="twæŋ" tr="гнусавить"/>
+<d v="twang" p="noun" ts="twæŋ" tr="привкус"/>
+<d v="tweak" p="verb" ts="twiːk" tr="настроить; ущипнуть; подправить; щипать; щипнуть"/>
+<d v="tweak" p="noun" ts="twiːk" tr="настройка; щипок; тонкая настройка"/>
+<d v="tweed" p="noun" ts="twiːd" tr="твид"/>
+<d v="tweed" p="adjective" ts="twiːd" tr="твидовый"/>
+<d v="tweet" p="noun" ts="twiːt" tr="твит; птичий щебет; чириканье"/>
+<d v="tweet" p="verb" ts="twiːt" tr="чирикать"/>
+<d v="tweezers" p="noun" ts="ˈtwiːzəz" tr="пинцет"/>
+<d v="twelfth" p="numeral" ts="twelfθ" tr="двенадцатый"/>
+<d v="twelve" p="numeral" ts="twelv" tr="двенадцать; двенадцатый"/>
+<d v="twentieth" p="numeral" ts="ˈtwentɪɪθ" tr="двадцатый"/>
+<d v="twenty" p="numeral" ts="ˈtwentɪ" tr="двадцать"/>
+<d v="twenty" p="noun" ts="ˈtwentɪ" tr="двадцатка"/>
+<d v="twerp" p="noun" ts="twɜːp" tr="грубиян; хам"/>
+<d v="twice" p="adverb" ts="twaɪs" tr="дважды"/>
+<d v="twice" p="noun" ts="twaɪs" tr="раз"/>
+<d v="twice" p="numeral" ts="twaɪs" tr="два"/>
+<d v="twiddle" p="verb" ts="twɪdl" tr="вертеть; бить баклуши"/>
+<d v="twig" p="noun" ts="twɪg" tr="ветка; прут; сучок"/>
+<d v="twig" p="verb" ts="twɪg" tr="понять"/>
+<d v="twilight" p="noun" ts="ˈtwaɪlaɪt" tr="сумерки"/>
+<d v="twilight" p="adjective" ts="ˈtwaɪlaɪt" tr="сумеречный; сумрачный"/>
+<d v="twin" p="noun" ts="twɪn" tr="близнец; Твин; двойник; побратим; близняшка; парная вещь"/>
+<d v="twin" p="adjective" ts="twɪn" tr="двухместный; близнецовый"/>
+<d v="twin" p="numeral" ts="twɪn" tr="два"/>
+<d v="twin" p="participle" ts="twɪn" tr="сдвоенный"/>
+<d v="twine" p="noun" ts="twaɪn" tr="шпагат"/>
+<d v="twine" p="verb" ts="twaɪn" tr="обвивать; сплетать"/>
+<d v="twinge" p="noun" ts="twɪnʤ" tr="приступ; укол"/>
+<d v="twinkle" p="noun" ts="twɪŋkl" tr="огонек; мерцание; мгновение; мигание"/>
+<d v="twinkle" p="verb" ts="twɪŋkl" tr="мерцать; подмигнуть"/>
+<d v="twinkle" p="participle" ts="twɪŋkl" tr="мерцающий"/>
+<d v="twirl" p="verb" ts="twɜːl" tr="вертеть; закрутить; крутить; вращать"/>
+<d v="twirl" p="noun" ts="twɜːl" tr="вращение; вихрь; завитушка"/>
+<d v="twist" p="noun" ts="twɪst" tr="поворот; закрутка; скручивание; ирония; завихрение; искажение; скрутка; уловка; вывих; ловкость; шнурок"/>
+<d v="twist" p="verb" ts="twɪst" tr="крутить; выкручивать; скрутить; извиваться; искажать; закручиваться; вить; искривлять"/>
+<d v="twisted" p="participle" ts="ˈtwɪstɪd" tr="витой; скрученный; искривленный; извращенный; искаженный; скрюченный"/>
+<d v="twister" p="noun" ts="ˈtwɪstə" tr="Твистер; смерч; обманщик"/>
+<d v="twit" p="noun" ts="twɪt" tr="колкость; твит"/>
+<d v="twit" p="verb" ts="twɪt" tr="упрекать"/>
+<d v="twitch" p="verb" ts="twɪʧ" tr="дернуться; дергать; подергивать; извиваться"/>
+<d v="twitch" p="noun" ts="twɪʧ" tr="подергивание; судорога"/>
+<d v="Twitter" p="noun" ts="ˈtwɪtə" tr="твиттер; щебет"/>
+<d v="Twitter" p="verb" ts="ˈtwɪtə" tr="щебетать; хихикать"/>
+<d v="two" p="numeral" ts="tuː" tr="два; двое"/>
+<d v="two" p="noun" ts="tuː" tr="пара"/>
+<d v="two-tone" p="adjective" ts="tuː-təʊn" tr="двухцветный"/>
+<d v="tycoon" p="noun" ts="taɪˈkuːn" tr="магнат; воротила"/>
+<d v="tyke" p="noun" ts="taɪk" tr="дворняжка; грубиян"/>
+<d v="type" p="noun" ts="taɪp" tr="тип; модель; шрифт; символ"/>
+<d v="type" p="adjective" ts="taɪp" tr="характерный"/>
+<d v="typeface" p="noun" ts="ˈtaɪpfeɪs" tr="шрифт"/>
+<d v="typewriter" p="noun" ts="ˈtaɪpraɪtə" tr="машинка; пишущая машинка; печатная машинка; машинистка"/>
+<d v="typewritten" p="adjective" ts="ˈtaɪprɪtn" tr="машинописный"/>
+<d v="typewritten" p="participle" ts="ˈtaɪprɪtn" tr="напечатанный на машинке"/>
+<d v="typhoid" p="noun" ts="ˈtaɪfɔɪd" tr="тиф"/>
+<d v="typhoid" p="adjective" ts="ˈtaɪfɔɪd" tr="тифозный"/>
+<d v="typhoon" p="noun" ts="taɪˈfuːn" tr="тайфун"/>
+<d v="typical" p="adjective" ts="ˈtɪpɪkəl" tr="типичный; типовой"/>
+<d v="typical" p="participle" ts="ˈtɪpɪkəl" tr="свойственный"/>
+<d v="typically" p="adverb" ts="ˈtɪpɪklɪ" tr="обычно"/>
+<d v="typically" p="noun" ts="ˈtɪpɪklɪ" tr="правило"/>
+<d v="typify" p="verb" ts="ˈtɪpɪfaɪ" tr="типизировать; символизировать"/>
+<d v="typing" p="noun" ts="ˈtaɪpɪŋ" tr="ввод; набор; печать; типизация; опечатка; набор текста; машинопись"/>
+<d v="typist" p="noun" ts="ˈtaɪpɪst" tr="машинистка"/>
+<d v="typo" p="noun" ts="ˈtaɪpəʊ" tr="опечатка"/>
+<d v="tyrannical" p="adjective" ts="tɪˈrænɪkəl" tr="тиранический; деспотичный"/>
+<d v="tyrannical" p="noun" ts="tɪˈrænɪkəl" tr="тиран"/>
+<d v="tyrannize" p="verb" ts="ˈtɪrənaɪz" tr="тиранить; тиранствовать"/>
+<d v="tyranny" p="noun" ts="ˈtɪrənɪ" tr="тирания; тиранство; произвол"/>
+<d v="tyrant" p="noun" ts="ˈtaɪərənt" tr="тиран"/>
+</defs>

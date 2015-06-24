@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="ubiquitous" p="adjective" ts="juːˈbɪkwɪtəs" tr="вездесущий"/>
+<d v="ubiquitous" p="participle" ts="juːˈbɪkwɪtəs" tr="распространенный"/>
+<d v="ubiquitous" p="adverb" ts="juːˈbɪkwɪtəs" tr="повсюду"/>
+<d v="ubiquity" p="noun" ts="juːˈbɪkwɪtɪ" tr="повсеместность"/>
+<d v="ubiquity" p="adjective" ts="juːˈbɪkwɪtɪ" tr="повсеместный"/>
+<d v="udder" p="noun" ts="ˈʌdə" tr="вымя"/>
+<d v="UFO" p="noun" ts="juːeˈfəʊ" tr="НЛО"/>
+<d v="ugh" p="interjection" ts="ʊh" tr="тьфу"/>
+<d v="ugliness" p="noun" ts="ˈʌglɪnɪs" tr="уродство; безобразие; некрасивость; мерзость"/>
+<d v="ugly" p="adjective" ts="ˈʌglɪ" tr="уродливый; отвратительный; уродский; опасный; склочный; вздорный; задиристый"/>
+<d v="ugly" p="noun" ts="ˈʌglɪ" tr="урод; уродина; дурнушка"/>
+<d v="ulcer" p="noun" ts="ˈʌlsə" tr="язва; гнойник"/>
+<d v="ulcer" p="adjective" ts="ˈʌlsə" tr="язвенный"/>
+<d v="ulterior" p="participle" ts="ʌlˈtɪərɪə" tr="скрытый"/>
+<d v="ultimate" p="adjective" ts="ˈʌltɪmɪt" tr="конечный; предельный; типичный; основной; первичный"/>
+<d v="ultimately" p="noun" ts="ˈʌltɪmɪtlɪ" tr="в конечном счете; в конечном итоге; конечный итог"/>
+<d v="ultimately" p="adverb" ts="ˈʌltɪmɪtlɪ" tr="окончательно"/>
+<d v="ultimatum" p="noun" ts="ʌltɪˈmeɪtəm" tr="ультиматум"/>
+<d v="ultimatum" p="adjective" ts="ʌltɪˈmeɪtəm" tr="ультимативный"/>
+<d v="ultrasonic" p="adjective" ts="ˈʌltrəˈsɔnɪk" tr="ультразвуковой"/>
+<d v="ultrasonic" p="noun" ts="ˈʌltrəˈsɔnɪk" tr="УЗИ"/>
+<d v="ultrasound" p="noun" ts="ʌltrəˈsaʊnd" tr="ультразвук"/>
+<d v="ultrasound" p="adjective" ts="ʌltrəˈsaʊnd" tr="ультразвуковой"/>
+<d v="ultraviolet" p="adjective" ts="ʌltrəˈvaɪələt" tr="ультрафиолетовый"/>
+<d v="ultraviolet" p="noun" ts="ʌltrəˈvaɪələt" tr="ультрафиолет"/>
+<d v="ultraviolet" p="interjection" ts="ʌltrəˈvaɪələt" tr="УФ"/>
+<d v="umbilical cord" p="noun" ts="ʌmbɪˈlaɪkəl kɔːd" tr="пуповина"/>
+<d v="umbrella" p="noun" ts="ʌmˈbrelə" tr="зонтик; прикрытие; ширма"/>
+<d v="umbrella" p="adjective" ts="ʌmˈbrelə" tr="зонтичный"/>
+<d v="umpire" p="noun" ts="ˈʌmpaɪə" tr="судья"/>
+<d v="umpteen" p="adjective" ts="ˈʌmptiːn" tr="бесчисленный"/>
+<d v="umpteen" p="participle" ts="ˈʌmptiːn" tr="многочисленный"/>
+<d v="UN" p="noun" ts="ʌn" tr="ООН"/>
+<d v="unabashed" p="adjective" ts="ˈʌnəˈbæʃt" tr="беззастенчивый; бессовестный"/>
+<d v="unabated" p="adverbial participle" ts="ˈʌnəˈbeɪtɪd" tr="не ослабевая"/>
+<d v="unabated" p="adjective" ts="ˈʌnəˈbeɪtɪd" tr="неослабный"/>
+<d v="unable" p="verb" ts="ˈʌnˈeɪbl" tr="не мочь"/>
+<d v="unable" p="adjective" ts="ˈʌnˈeɪbl" tr="неспособный"/>
+<d v="unabridged" p="adjective" ts="ˈʌnəˈbrɪʤd" tr="полный; несокращенный"/>
+<d v="unacceptable" p="adjective" ts="ˈʌnəkˈseptəbl" tr="неприемлемый"/>
+<d v="unacceptably" p="adverb" ts="ʌnəkˈseptəblɪ" tr="неприемлемо"/>
+<d v="unaccompanied" p="adjective" ts="ˈʌnəˈkʌmpənɪd" tr="несопровождаемый"/>
+<d v="unaccompanied" p="noun" ts="ˈʌnəˈkʌmpənɪd" tr="без сопровождения"/>
+<d v="unaccompanied" p="participle" ts="ˈʌnəˈkʌmpənɪd" tr="не сопровождаемый"/>
+<d v="unaccountable" p="adjective" ts="ˈʌnəˈkaʊntəbl" tr="необъяснимый; неподотчетный; непонятный; безответственный"/>
+<d v="unaccountably" p="adverb" ts="ʌnəˈkaʊntəblɪ" tr="необъяснимо; безотчетно"/>
+<d v="unadulterated" p="adjective" ts="ʌnəˈdʌltəreɪtɪd" tr="чистейший; неподдельный"/>
+<d v="unaffected" p="adjective" ts="ʌnəˈfektɪd" tr="незатронутый"/>
+<d v="unaffected" p="adverbial participle" ts="ʌnəˈfektɪd" tr="не затрагивая"/>
+<d v="unaffected" p="participle" ts="ʌnəˈfektɪd" tr="не затронутый"/>
+<d v="unaided" p="adjective" ts="ˈʌnˈeɪdɪd" tr="невооруженный"/>
+<d v="unaided" p="noun" ts="ˈʌnˈeɪdɪd" tr="без посторонней помощи"/>
+<d v="unanimity" p="noun" ts="juːnəˈnɪmɪtɪ" tr="единодушие; единогласие"/>
+<d v="unanimous" p="adjective" ts="juːˈnænɪməs" tr="единодушный; дружный"/>
+<d v="unanimously" p="adverb" ts="juːˈnænɪməslɪ" tr="единогласно"/>
+<d v="unanimously" p="noun" ts="juːˈnænɪməslɪ" tr="в один голос"/>
+<d v="unarmed" p="adjective" ts="ˈʌnˈɑːmd" tr="безоружный"/>
+<d v="unarmed" p="noun" ts="ˈʌnˈɑːmd" tr="без оружия"/>
+<d v="unassuming" p="adjective" ts="ˈʌnəˈsjuːmɪŋ" tr="скромный"/>
+<d v="unattached" p="adjective" ts="ˈʌnəˈtæʧt" tr="непривязанный"/>
+<d v="unattended" p="adjective" ts="ˈʌnəˈtendɪd" tr="автоматический; необслуживаемый; бесхозный; несопровождаемый"/>
+<d v="unattended" p="noun" ts="ˈʌnəˈtendɪd" tr="без присмотра"/>
+<d v="unattended" p="participle" ts="ˈʌnəˈtendɪd" tr="оставленный без присмотра"/>
+<d v="unattractive" p="adjective" ts="ʌnəˈtræktɪv" tr="непривлекательный; неприглядный; некрасивый; невзрачный"/>
+<d v="unauthorized" p="adjective" ts="ˈʌnˈɔːθəraɪzd" tr="несанкционированный"/>
+<d v="unavailable" p="adjective" ts="ˈʌnəˈveɪləbl" tr="недоступный"/>
+<d v="unavoidable" p="adjective" ts="ʌnəˈvɔɪdəbl" tr="неизбежный"/>
+<d v="unavoidably" p="adverb" ts="ʌnəˈvɔɪdəblɪ" tr="неизбежно"/>
+<d v="unaware" p="verb" ts="ˈʌnəˈwɛə" tr="не знать; догадываться"/>
+<d v="unaware" p="adverbial participle" ts="ˈʌnəˈwɛə" tr="не ведая"/>
+<d v="unaware" p="adverb" ts="ˈʌnəˈwɛə" tr="врасплох"/>
+<d v="unaware" p="participle" ts="ˈʌnəˈwɛə" tr="не подозревающий"/>
+<d v="unawares" p="adverb" ts="ˈʌnəˈwɛəz" tr="врасплох; нечаянно"/>
+<d v="unbalanced" p="adjective" ts="ˈʌnˈbælənst" tr="несбалансированный; несимметричный; неустойчивый"/>
+<d v="unbearable" p="adjective" ts="ʌnˈbɛərəbl" tr="невыносимый"/>
+<d v="unbearably" p="adverb" ts="ʌnˈbeərəblɪ" tr="невыносимо; непереносимо"/>
+<d v="unbeatable" p="adjective" ts="ʌnˈbiːtəbl" tr="непревзойденный"/>
+<d v="unbeaten" p="adjective" ts="ˈʌnˈbiːtn" tr="непобедимый"/>
+<d v="unbelievable" p="adjective" ts="ʌʌnbɪˈliːvəbl" tr="невероятный"/>
+<d v="unbelievably" p="adverb" ts="ʌnbɪˈliːvəblɪ" tr="невероятно"/>
+<d v="unbelievably" p="adjective" ts="ʌnbɪˈliːvəblɪ" tr="невероятный"/>
+<d v="unborn" p="adjective" ts="ˈʌnˈbɔːn" tr="нерожденный; будущий"/>
+<d v="unbounded" p="adjective" ts="ʌnˈbaʊndɪd" tr="неограниченный; безграничный"/>
+<d v="unbridled" p="adjective" ts="ʌnˈbraɪdld" tr="необузданный"/>
+<d v="unbroken" p="adjective" ts="ˈʌnˈbrəʊkən" tr="непрерывный; неразрывный; целый; ненарушенный"/>
+<d v="unbutton" p="verb" ts="ˈʌnˈbʌtn" tr="расстегнуть"/>
+<d v="uncannily" p="adverb" ts="ʌnˈkænɪlɪ" tr="сверхъестественно"/>
+<d v="uncanny" p="adjective" ts="ʌnˈkænɪ" tr="сверхъестественный; жуткий"/>
+<d v="uncertain" p="adjective" ts="ʌnˈsɜːtn" tr="неопределенный; неуверенный; непредсказуемый; точно не известный"/>
+<d v="uncertain" p="noun" ts="ʌnˈsɜːtn" tr="неопределенность"/>
+<d v="uncertainly" p="adverb" ts="ʌnˈsɜːtnlɪ" tr="неуверенно; неопределенно"/>
+<d v="uncertainty" p="noun" ts="ʌnˈsɜːtntɪ" tr="неопределенность; нерешительность; изменчивость"/>
+<d v="unchanged" p="adjective" ts="ˈʌnˈʧeɪnʤd" tr="неизменный; неизменившийся"/>
+<d v="unchanged" p="noun" ts="ˈʌnˈʧeɪnʤd" tr="без изменений"/>
+<d v="unchanged" p="participle" ts="ˈʌnˈʧeɪnʤd" tr="изменившийся; не изменившийся"/>
+<d v="uncharacteristic" p="adjective" ts="ʌnkærəktəˈrɪstɪk" tr="нехарактерный"/>
+<d v="uncharacteristic" p="participle" ts="ʌnkærəktəˈrɪstɪk" tr="несвойственный"/>
+<d v="uncharacteristically" p="adverb" ts="ʌnkærəktəˈrɪstɪklɪ" tr="непривычно"/>
+<d v="uncharted" p="adjective" ts="ˈʌnˈʧɑːtɪd" tr="неизведанный"/>
+<d v="unchecked" p="adjective" ts="ˈʌnˈʧekt" tr="неконтролируемый; непроверенный; неограниченный"/>
+<d v="unchecked" p="adverb" ts="ˈʌnˈʧekt" tr="беспрепятственно"/>
+<d v="unchecked" p="verb" ts="ˈʌnˈʧekt" tr="ее не остановить"/>
+<d v="uncle" p="noun" ts="ʌŋkl" tr="дядя; дядька; дяденька"/>
+<d v="unclean" p="adjective" ts="ˈʌnˈkliːn" tr="нечистый; неопрятный"/>
+<d v="unclear" p="adjective" ts="ʌnˈklɪər" tr="неясный"/>
+<d v="unclear" p="adverb" ts="ʌnˈklɪər" tr="не ясно"/>
+<d v="unclear" p="noun" ts="ʌnˈklɪər" tr="нечеткость"/>
+<d v="unclear" p="participle" ts="ʌnˈklɪər" tr="малопонятный"/>
+<d v="uncle Sam" p="noun" ts="ʌŋkl sæm" tr="дядя Сэм; дядюшка Сэм"/>
+<d v="uncomfortable" p="adjective" ts="ʌnˈkʌmfətəbl" tr="неудобный; неприятный; неуютный"/>
+<d v="uncomfortable" p="noun" ts="ʌnˈkʌmfətəbl" tr="дискомфорт"/>
+<d v="uncomfortable" p="adverb" ts="ʌnˈkʌmfətəbl" tr="плохо"/>
+<d v="uncomfortable" p="verb" ts="ʌnˈkʌmfətəbl" tr="смущать"/>
+<d v="uncomfortably" p="adverb" ts="ʌnˈkʌmfətəblɪ" tr="неловко"/>
+<d v="uncommon" p="adjective" ts="ʌnˈkɔmən" tr="необычный; редкий; незаурядный"/>
+<d v="uncommon" p="noun" ts="ʌnˈkɔmən" tr="редкость"/>
+<d v="uncommon" p="adverb" ts="ʌnˈkɔmən" tr="редко"/>
+<d v="uncommonly" p="adverb" ts="ʌnˈkɔmənlɪ" tr="необычайно; замечательно"/>
+<d v="uncommonly" p="noun" ts="ʌnˈkɔmənlɪ" tr="редкость"/>
+<d v="uncompromising" p="adjective" ts="ʌnˈkɔmprəmaɪzɪŋ" tr="бескомпромиссный"/>
+<d v="uncompromising" p="noun" ts="ʌnˈkɔmprəmaɪzɪŋ" tr="бескомпромиссность"/>
+<d v="unconcerned" p="adjective" ts="ˈʌnkənˈsɜːnd" tr="равнодушный; беззаботный"/>
+<d v="unconcerned" p="adverbial participle" ts="ˈʌnkənˈsɜːnd" tr="не заботясь"/>
+<d v="unconditional" p="adjective" ts="ˈʌnkənˈdɪʃənl" tr="безусловный"/>
+<d v="unconditional" p="adverb" ts="ˈʌnkənˈdɪʃənl" tr="безоговорочно"/>
+<d v="unconditionally" p="adverb" ts="ʌnkənˈdɪʃənəlɪ" tr="безоговорочно"/>
+<d v="unconditionally" p="noun" ts="ʌnkənˈdɪʃənəlɪ" tr="без условий"/>
+<d v="unconfirmed" p="adjective" ts="ʌnkənˈfɜːmd" tr="неподтвержденный"/>
+<d v="unconscionable" p="adjective" ts="ʌnˈkɔnʃnəbl" tr="бессовестный; неумеренный"/>
+<d v="unconscious" p="adjective" ts="ʌnˈkɔnʃəs" tr="бессознательный; невольный"/>
+<d v="unconscious" p="noun" ts="ʌnˈkɔnʃəs" tr="сознание"/>
+<d v="unconscious" p="verb" ts="ʌnˈkɔnʃəs" tr="потерять сознание; не осознавать"/>
+<d v="unconscious" p="participle" ts="ʌnˈkɔnʃəs" tr="потерявший сознание; не сознающий"/>
+<d v="unconsciously" p="adverb" ts="ʌnˈkɒnʃəslɪ" tr="бессознательно; подсознательно; невольно"/>
+<d v="unconsciousness" p="noun" ts="ʌnˈkɒnʃəsnəs" tr="бессознательное состояние; бессознательность; беспамятство; несознание"/>
+<d v="unconsciousness" p="adjective" ts="ʌnˈkɒnʃəsnəs" tr="бессознательный"/>
+<d v="unconstitutional" p="adjective" ts="ˈʌnkɔnstɪˈtjuːʃənl" tr="неконституционный"/>
+<d v="unconstitutional" p="participle" ts="ˈʌnkɔnstɪˈtjuːʃənl" tr="противоречащий Конституции"/>
+<d v="uncontrollable" p="adjective" ts="ʌnkənˈtrəʊləbl" tr="неконтролируемый; неудержимый"/>
+<d v="uncontrollable" p="participle" ts="ʌnkənˈtrəʊləbl" tr="не поддающийся контролю"/>
+<d v="uncontrollably" p="adverb" ts="ʌnkənˈtrəʊləblɪ" tr="неудержимо; бесконтрольно; неконтролируемо"/>
+<d v="uncontrolled" p="adjective" ts="ʌnkənˈtrəʊld" tr="неконтролируемый"/>
+<d v="unconventional" p="adjective" ts="ˈʌnkənˈvenʃənl" tr="нетрадиционный; нестандартный; нешаблонный"/>
+<d v="unconventional" p="participle" ts="ˈʌnkənˈvenʃənl" tr="чуждый условности"/>
+<d v="uncouth" p="adjective" ts="ʌnˈkuːθ" tr="неотесанный; неуклюжий; грубоватый"/>
+<d v="uncover" p="verb" ts="ʌnˈkʌvə" tr="раскрыть; обнаружить; расчехлить; выявлять; снимать"/>
+<d v="uncover" p="noun" ts="ʌnˈkʌvə" tr="выявление"/>
+<d v="uncut" p="adjective" ts="ˈʌnˈkʌt" tr="неразрезанный; необработанный; необрезанный"/>
+<d v="undaunted" p="adjective" ts="ʌnˈdɔːntɪd" tr="неустрашимый"/>
+<d v="undaunted" p="adverbial participle" ts="ʌnˈdɔːntɪd" tr="не испугавшись"/>
+<d v="undecided" p="adjective" ts="ˈʌndɪˈsaɪdɪd" tr="неопределившийся; нерешенный; нерешительный"/>
+<d v="undeniable" p="adjective" ts="ʌndɪˈnaɪəbl" tr="неоспоримый"/>
+<d v="undeniable" p="verb" ts="ʌndɪˈnaɪəbl" tr="невозможно отрицать"/>
+<d v="undeniably" p="adverb" ts="ʌndɪˈnaɪəblɪ" tr="несомненно; неоспоримо"/>
+<d v="undeniably" p="parenthetic" ts="ʌndɪˈnaɪəblɪ" tr="бесспорно"/>
+<d v="under" p="preposition" ts="ˈʌndə" tr="под; по; в; при; согласно"/>
+<d v="under" p="noun" ts="ˈʌndə" tr="в соответствии; в рамках; параграф"/>
+<d v="under" p="adverb" ts="ˈʌndə" tr="ниже"/>
+<d v="under" p="adjective" ts="ˈʌndə" tr="меньший"/>
+<d v="underage" p="noun" ts="ˈʌndəˈreɪʤ" tr="несовершеннолетний"/>
+<d v="underage" p="adjective" ts="ˈʌndəˈreɪʤ" tr="малолетний"/>
+<d v="underclass" p="noun" ts="ˈʌndəklæs" tr="подкласс; низший класс"/>
+<d v="undercover" p="adjective" ts="ˈʌndəkʌvə" tr="тайный; агентурный"/>
+<d v="undercover" p="noun" ts="ˈʌndəkʌvə" tr="прикрытие; под прикрытием"/>
+<d v="undercover" p="participle" ts="ˈʌndəkʌvə" tr="переодетый"/>
+<d v="undercurrent" p="noun" ts="ˈʌndəkʌrənt" tr="подводное течение; подтекст; скрытая тенденция"/>
+<d v="undercut" p="verb" ts="ˈʌndəkʌt" tr="подорвать; подрезать"/>
+<d v="undercut" p="noun" ts="ˈʌndəkʌt" tr="вырезка; подрез; поднутрение"/>
+<d v="underdog" p="noun" ts="ˈʌndədɔg" tr="аутсайдер; неудачник"/>
+<d v="underestimate" p="verb" ts="ˈʌndərˈestɪmɪt" tr="недооценивать; занижать"/>
+<d v="underestimate" p="noun" ts="ˈʌndərˈestɪmɪt" tr="недооценка"/>
+<d v="undergo" p="verb" ts="ʌndəˈgəʊ" tr="проходить; подвергаться; претерпевать; испытывать"/>
+<d v="undergo" p="noun" ts="ʌndəˈgəʊ" tr="прохождение"/>
+<d v="undergrad" p="noun" ts="ˈʌndəgræd" tr="старшекурсник"/>
+<d v="undergraduate" p="noun" ts="ʌndəˈgrædjʊɪt" tr="студент"/>
+<d v="underground" p="adjective" ts="ˈʌndəgraʊnd" tr="подземный; подпольный; андеграундный"/>
+<d v="underground" p="noun" ts="ˈʌndəgraʊnd" tr="метро"/>
+<d v="undergrowth" p="noun" ts="ˈʌndəgrəʊθ" tr="подлесок; заросли"/>
+<d v="underhanded" p="adjective" ts="ʌndəˈhændɪd" tr="закулисный"/>
+<d v="underline" p="verb" ts="ˈʌndəlaɪn" tr="подчеркнуть"/>
+<d v="underline" p="noun" ts="ˈʌndəlaɪn" tr="подчеркивание; линия"/>
+<d v="underline" p="participle" ts="ˈʌndəlaɪn" tr="подчеркнутый"/>
+<d v="underlying" p="adjective" ts="ʌndəˈlaɪɪŋ" tr="базовый; нижележащий; подспудный"/>
+<d v="underlying" p="noun" ts="ʌndəˈlaɪɪŋ" tr="подоплека"/>
+<d v="underlying" p="participle" ts="ʌndəˈlaɪɪŋ" tr="лежащий; лежащий в основе"/>
+<d v="undermine" p="verb" ts="ʌndəˈmaɪn" tr="подрывать; ослабить; разрушать; препятствовать; минировать; подкапывать; подточить; подмывать"/>
+<d v="undermine" p="noun" ts="ʌndəˈmaɪn" tr="подрыв"/>
+<d v="underneath" p="noun" ts="ʌndəˈniːθ" tr="сопровождение"/>
+<d v="underpants" p="noun" ts="ˈʌndəpænts" tr="трусы"/>
+<d v="underpass" p="noun" ts="ˈʌndəpɑːs" tr="подземный переход; путепровод"/>
+<d v="underpass" p="adjective" ts="ˈʌndəpɑːs" tr="подземный"/>
+<d v="underprivileged" p="participle" ts="ˈʌndəˈprɪvɪlɪʤd" tr="обездоленный"/>
+<d v="underprivileged" p="adjective" ts="ˈʌndəˈprɪvɪlɪʤd" tr="малообеспеченный"/>
+<d v="underrate" p="verb" ts="ʌndəˈreɪt" tr="недооценивать"/>
+<d v="underrated" p="participle" ts="ʌndəˈreɪtɪd" tr="недооцененный"/>
+<d v="underscore" p="verb" ts="ʌndəˈskɔː" tr="подчеркнуть"/>
+<d v="underscore" p="noun" ts="ʌndəˈskɔː" tr="подчеркивание; знак подчеркивания"/>
+<d v="undershirt" p="noun" ts="ˈʌndəʃɜːt" tr="майка; распашонка; нижняя рубашка; нижняя рубаха"/>
+<d v="underside" p="noun" ts="ˈʌndəsaɪd" tr="нижняя сторона"/>
+<d v="underside" p="adjective" ts="ˈʌndəsaɪd" tr="нижний"/>
+<d v="understaffed" p="adjective" ts="ˈʌndəˈstɑːft" tr="неукомплектованный"/>
+<d v="understaffed" p="noun" ts="ˈʌndəˈstɑːft" tr="укомплектованность"/>
+<d v="understand" p="verb" ts="ʌndəˈstænd" tr="понимать; разобраться; смыслить; истолковывать"/>
+<d v="understand" p="noun" ts="ʌndəˈstænd" tr="понимание"/>
+<d v="understandable" p="adjective" ts="ʌndəˈstændəbl" tr="понятный"/>
+<d v="understandable" p="participle" ts="ʌndəˈstændəbl" tr="понимаемый"/>
+<d v="understandably" p="adverb" ts="ʌndəˈstændəblɪ" tr="понятно"/>
+<d v="understandably" p="noun" ts="ʌndəˈstændəblɪ" tr="по понятным причинам"/>
+<d v="understandably" p="parenthetic" ts="ʌndəˈstændəblɪ" tr="разумеется"/>
+<d v="understanding" p="noun" ts="ʌndəˈstændɪŋ" tr="понимание; договоренность; разум"/>
+<d v="understanding" p="participle" ts="ʌndəˈstændɪŋ" tr="понимающий"/>
+<d v="understanding" p="adjective" ts="ʌndəˈstændɪŋ" tr="разумный; чуткий"/>
+<d v="understate" p="verb" ts="ˈʌndəˈsteɪt" tr="занижать; преуменьшать"/>
+<d v="understated" p="participle" ts="ʌndəˈsteɪtɪd" tr="недооцененный"/>
+<d v="understatement" p="noun" ts="ˈʌndəˈsteɪtmənt" tr="занижение; недосказанность; сдержанность"/>
+<d v="understood" p="participle" ts="ʌndəˈstʊd" tr="понятый"/>
+<d v="understood" p="adjective" ts="ʌndəˈstʊd" tr="понятный"/>
+<d v="understudy" p="noun" ts="ˈʌndəstʌdɪ" tr="дублер"/>
+<d v="undertake" p="verb" ts="ʌndəˈteɪk" tr="предпринять; обязаться; провести; заниматься; гарантировать"/>
+<d v="undertake" p="noun" ts="ʌndəˈteɪk" tr="проведение"/>
+<d v="undertaken" p="participle" ts="ʌndəˈteɪkən" tr="предпринятый; проведенный; предпринимаемый; проводимый; осуществляемый; принятый; осуществленный"/>
+<d v="undertaker" p="noun" ts="ˈʌndəteɪkər" tr="гробовщик; могильщик; владелец похоронного бюро"/>
+<d v="undertaking" p="noun" ts="ʌndəˈteɪkɪŋ" tr="предприятие; обязательство; начинание; мероприятие; затея"/>
+<d v="undertaking" p="participle" ts="ʌndəˈteɪkɪŋ" tr="осуществляющий"/>
+<d v="undertone" p="noun" ts="ˈʌndətəʊn" tr="оттенок"/>
+<d v="underwater" p="adjective" ts="ˈʌndəwɔːtər" tr="подводной"/>
+<d v="underwear" p="noun" ts="ˈʌndəwɛə" tr="белье"/>
+<d v="underwear" p="adjective" ts="ˈʌndəwɛə" tr="бельевой"/>
+<d v="underweight" p="noun" ts="ʌndəˈweɪt" tr="недостаточный вес; пониженный вес; пониженная масса"/>
+<d v="underworld" p="noun" ts="ˈʌndəwɜːld" tr="подземный мир; преисподняя; преступный мир"/>
+<d v="underworld" p="adjective" ts="ˈʌndəwɜːld" tr="подземный; преступный"/>
+<d v="underwrite" p="verb" ts="ˈʌndəraɪt" tr="гарантировать"/>
+<d v="underwrite" p="noun" ts="ˈʌndəraɪt" tr="андеррайтинг"/>
+<d v="underwritten" p="adjective" ts="ˈʌndərɪtn" tr="нижеизложенный"/>
+<d v="undesirable" p="adjective" ts="ˈʌndɪˈzaɪərəbl" tr="нежелательный; неудобный"/>
+<d v="undetermined" p="adjective" ts="ˈʌndɪˈtɜːmɪnd" tr="неопределенный"/>
+<d v="undeveloped" p="adjective" ts="ˈʌndɪˈveləpt" tr="неразвитый; неосвоенный; непроявленный; незастроенный; неразвитой"/>
+<d v="undeveloped" p="noun" ts="ˈʌndɪˈveləpt" tr="неразвитость"/>
+<d v="undisclosed" p="adjective" ts="ʌndɪsˈkləʊzd" tr="нераскрытый; неназванный"/>
+<d v="undisturbed" p="adjective" ts="ʌndɪˈstɜːbd" tr="ненарушенный; спокойный"/>
+<d v="undo" p="verb" ts="ˈʌnˈduː" tr="отменить; расстегнуть; развязать; исправить; уничтожить; отвинтить; уничтожать сделанное; открывать; разбирать"/>
+<d v="undo" p="noun" ts="ˈʌnˈduː" tr="отмена"/>
+<d v="undoing" p="noun" ts="ˈʌnˈduːɪŋ" tr="отмена; гибель"/>
+<d v="undone" p="participle" ts="ˈʌnˈdʌn" tr="расстегнутый"/>
+<d v="undoubtedly" p="adverb" ts="ʌnˈdaʊtɪdlɪ" tr="несомненно; однозначно"/>
+<d v="undoubtedly" p="noun" ts="ʌnˈdaʊtɪdlɪ" tr="без сомнения"/>
+<d v="undoubtedly" p="parenthetic" ts="ʌnˈdaʊtɪdlɪ" tr="бесспорно"/>
+<d v="undress" p="verb" ts="ˈʌnˈdres" tr="раздеться"/>
+<d v="undress" p="adjective" ts="ˈʌnˈdres" tr="повседневный"/>
+<d v="undressed" p="participle" ts="ˈʌnˈdrest" tr="раздетый"/>
+<d v="undue" p="adjective" ts="ˈʌnˈdjuː" tr="неоправданный; чрезмерный"/>
+<d v="unduly" p="adverb" ts="ˈʌnˈdjuːlɪ" tr="излишне; неоправданно; неправильно"/>
+<d v="undying" p="adjective" ts="ʌnˈdaɪɪŋ" tr="бессмертный"/>
+<d v="unearth" p="verb" ts="ˈʌnˈɜːθ" tr="раскопать; откопать; отрыть"/>
+<d v="unearthly" p="adjective" ts="ʌnˈəθlɪ" tr="неземной; Нездешний"/>
+<d v="unease" p="noun" ts="ʌnˈiːz" tr="беспокойство"/>
+<d v="uneasily" p="adverb" ts="ʌnˈiːzɪlɪ" tr="беспокойно; нелегко"/>
+<d v="uneasily" p="noun" ts="ʌnˈiːzɪlɪ" tr="с беспокойством"/>
+<d v="uneasiness" p="noun" ts="ʌnˈiːzɪnɪs" tr="беспокойство"/>
+<d v="uneasy" p="adjective" ts="ʌnˈiːzɪ" tr="непростой; беспокойный; неловкий"/>
+<d v="uneasy" p="noun" ts="ʌnˈiːzɪ" tr="беспокойство"/>
+<d v="uneasy" p="verb" ts="ʌnˈiːzɪ" tr="беспокоиться; нервничать; смущать; встревожить"/>
+<d v="uneasy" p="participle" ts="ʌnˈiːzɪ" tr="встревоженный; взволнованный"/>
+<d v="uneducated" p="adjective" ts="ˈʌnˈedjʊkeɪtɪd" tr="необразованный; непросвещенный; неученый"/>
+<d v="unemployed" p="adjective" ts="ˈʌnɪmˈplɔɪd" tr="безработный"/>
+<d v="unemployment" p="noun" ts="ˈʌnɪmˈplɔɪmənt" tr="безработица"/>
+<d v="unemployment compensation" p="noun" ts="ˈʌnɪmˈplɔɪmənt kɔmpenˈseɪʃn" tr="пособие по безработице; компенсация по безработице"/>
+<d v="unending" p="adjective" ts="ʌnˈendɪŋ" tr="бесконечный"/>
+<d v="unequal" p="adjective" ts="ˈʌnˈiːkwəl" tr="неравный; неравноценный; неадекватный"/>
+<d v="unequal" p="noun" ts="ˈʌnˈiːkwəl" tr="неравенство"/>
+<d v="unequally" p="adverb" ts="ʌnˈiːkwəlɪ" tr="неравномерно"/>
+<d v="unequivocal" p="adjective" ts="ˈʌnɪˈkwɪvəkəl" tr="однозначный"/>
+<d v="unerring" p="adjective" ts="ˈʌnˈɜːrɪŋ" tr="безошибочный; верный"/>
+<d v="uneven" p="adjective" ts="ˈʌnˈiːvən" tr="неравномерный; неровный; нечетный"/>
+<d v="uneven" p="noun" ts="ˈʌnˈiːvən" tr="неравномерность"/>
+<d v="unevenly" p="adverb" ts="ʌnˈiːvnlɪ" tr="неравномерно"/>
+<d v="unexpected" p="adjective" ts="ˈʌnɪksˈpektɪd" tr="неожиданный"/>
+<d v="unexpected" p="noun" ts="ˈʌnɪksˈpektɪd" tr="неожиданность"/>
+<d v="unexpectedly" p="adverb" ts="ʌnɪkˈspektɪdlɪ" tr="неожиданно"/>
+<d v="unfailing" p="adjective" ts="ʌnˈfeɪlɪŋ" tr="неизменный; неисчерпаемый; безотказный; верный"/>
+<d v="unfair" p="adjective" ts="ˈʌnˈfɛə" tr="несправедливый; недобросовестный; шестякин; пристрастный"/>
+<d v="unfair" p="noun" ts="ˈʌnˈfɛə" tr="несправедливость; недобросовестность"/>
+<d v="unfairly" p="adverb" ts="ʌnˈfeəlɪ" tr="несправедливо; нечестно"/>
+<d v="unfairness" p="noun" ts="ʌnˈfeənəs" tr="несправедливость; недобросовестность"/>
+<d v="unfaithful" p="adjective" ts="ˈʌnˈfeɪθfʊl" tr="неверный"/>
+<d v="unfaithful" p="noun" ts="ˈʌnˈfeɪθfʊl" tr="неверность"/>
+<d v="unfamiliar" p="adjective" ts="ˈʌnfəˈmɪljə" tr="незнакомый"/>
+<d v="unfamiliar" p="participle" ts="ˈʌnfəˈmɪljə" tr="не знакомый"/>
+<d v="unfashionable" p="adjective" ts="ˈʌnˈfæʃnəbl" tr="немодный"/>
+<d v="unfasten" p="verb" ts="ˈʌnˈfɑːsn" tr="отстегнуть; расстегнуть; открепить; откреплять"/>
+<d v="unfavorable" p="adjective" ts="ʌnˈfeɪvərəbl" tr="неблагоприятный"/>
+<d v="unfeeling" p="adjective" ts="ʌnˈfiːlɪŋ" tr="бесчувственный"/>
+<d v="unfit" p="adjective" ts="ˈʌnˈfɪt" tr="непригодный; нездоровый"/>
+<d v="unfit" p="participle" ts="ˈʌnˈfɪt" tr="негодный"/>
+<d v="unfit" p="noun" ts="ˈʌnˈfɪt" tr="негодность"/>
+<d v="unfold" p="verb" ts="ˈʌnˈfəʊld" tr="разворачиваться; раскрывать; развернуться"/>
+<d v="unforeseen" p="adjective" ts="ˈʌnfɔːˈsiːn" tr="непредвиденный"/>
+<d v="unforgettable" p="adjective" ts="ˈʌnfəˈgetəbl" tr="незабываемый"/>
+<d v="unforgettable" p="participle" ts="ˈʌnfəˈgetəbl" tr="запоминающийся"/>
+<d v="unfortunate" p="adjective" ts="ʌnˈfɔːʧnɪt" tr="несчастный; неудачный; прискорбный; печальный"/>
+<d v="unfortunate" p="noun" ts="ʌnˈfɔːʧnɪt" tr="сожаление; неудачник; горемыка"/>
+<d v="unfortunate" p="predicative" ts="ʌnˈfɔːʧnɪt" tr="жаль"/>
+<d v="unfortunately" p="noun" ts="ʌnˈfɔːʧʊnətlɪ" tr="к сожалению"/>
+<d v="unfortunately" p="adverb" ts="ʌnˈfɔːʧʊnətlɪ" tr="несчастливо"/>
+<d v="unfortunately" p="interjection" ts="ʌnˈfɔːʧʊnətlɪ" tr="увы"/>
+<d v="unfounded" p="adjective" ts="ˈʌnˈfaʊndɪd" tr="необоснованный"/>
+<d v="unfriendly" p="adjective" ts="ˈʌnˈfrendlɪ" tr="недружественный"/>
+<d v="unfurl" p="verb" ts="ʌnˈfɜːl" tr="развернуть"/>
+<d v="ungainly" p="adjective" ts="ʌnˈgeɪnlɪ" tr="неуклюжий"/>
+<d v="ungrateful" p="adjective" ts="ʌnˈgreɪtfʊl" tr="неблагодарный"/>
+<d v="unhappily" p="noun" ts="ʌnˈhæpɪlɪ" tr="к несчастью"/>
+<d v="unhappily" p="adverb" ts="ʌnˈhæpɪlɪ" tr="грустно"/>
+<d v="unhappiness" p="noun" ts="ʌnˈhæpɪnəs" tr="несчастье; недовольство"/>
+<d v="unhappy" p="adjective" ts="ʌnˈhæpɪ" tr="несчастный; недовольный; печальный"/>
+<d v="unhappy" p="noun" ts="ʌnˈhæpɪ" tr="несчастье"/>
+<d v="unhealthy" p="adjective" ts="ʌnˈhelθɪ" tr="нездоровый; вредный; болезненный"/>
+<d v="unholy" p="adjective" ts="ʌnˈhəʊlɪ" tr="нечестивый; нечистый; жуткий; дьявольский; несвятой; безобразный"/>
+<d v="unhook" p="verb" ts="ˈʌnˈhʊk" tr="отцепить; снять; расстегнуть; отцепиться"/>
+<d v="unicorn" p="noun" ts="ˈjuːnɪkɔːn" tr="единорог"/>
+<d v="unidentified" p="adjective" ts="ʌnaɪˈdentɪfaɪd" tr="неопознанный; неопределенный"/>
+<d v="unification" p="noun" ts="juːnɪfɪˈkeɪʃn" tr="объединение"/>
+<d v="unification" p="adjective" ts="juːnɪfɪˈkeɪʃn" tr="объединительный"/>
+<d v="unification" p="verb" ts="juːnɪfɪˈkeɪʃn" tr="объединиться"/>
+<d v="uniform" p="adjective" ts="ˈjuːnɪfɔːm" tr="единый; равномерный"/>
+<d v="uniform" p="noun" ts="ˈjuːnɪfɔːm" tr="форма; униформа; форменная одежда; однородность"/>
+<d v="uniformed" p="participle" ts="ˈjuːnɪfɔːmd" tr="одетый в форму"/>
+<d v="uniformity" p="noun" ts="juːnɪˈfɔːmɪtɪ" tr="однородность; единообразие; единство"/>
+<d v="uniformly" p="adverb" ts="ˈjuːnɪfɔːmlɪ" tr="равномерно; однообразно"/>
+<d v="unify" p="verb" ts="ˈjuːnɪfaɪ" tr="объединить; унифицировать"/>
+<d v="unify" p="noun" ts="ˈjuːnɪfaɪ" tr="объединение"/>
+<d v="unilateral" p="adjective" ts="ˈjuːnɪˈlætərəl" tr="односторонний"/>
+<d v="unimportant" p="adjective" ts="ˈʌnɪmˈpɔtənt" tr="неважный; незначительный; маловажный"/>
+<d v="uninhabitable" p="adjective" ts="ˈʌnɪnˈhæbɪtəbl" tr="необитаемый"/>
+<d v="uninhibited" p="participle" ts="ˈʌnɪnˈhɪbɪtɪd" tr="раскованный"/>
+<d v="uninhibited" p="adjective" ts="ˈʌnɪnˈhɪbɪtɪd" tr="свободный; несдерживаемый"/>
+<d v="uninsured" p="adjective" ts="ˈʌnɪnˈʃʊəd" tr="незастрахованный"/>
+<d v="unintelligible" p="adjective" ts="ˈʌnɪnˈtelɪʤɪbl" tr="непонятный; неразборчивый"/>
+<d v="uninterested" p="adjective" ts="ˈʌnˈɪntrɪstɪd" tr="незаинтересованный; равнодушный"/>
+<d v="Union" p="noun" ts="ˈjuːnjən" tr="Союз; профсоюз; Евросоюз; объединение; единение; штуцер; ниппель"/>
+<d v="Union" p="adjective" ts="ˈjuːnjən" tr="профсоюзный"/>
+<d v="unique" p="adjective" ts="juːˈniːk" tr="уникальный"/>
+<d v="unique" p="noun" ts="juːˈniːk" tr="уникальность; уникум"/>
+<d v="uniquely" p="adverb" ts="juːˈniːklɪ" tr="однозначно; исключительно"/>
+<d v="uniquely" p="adjective" ts="juːˈniːklɪ" tr="уникальный"/>
+<d v="unisex" p="adjective" ts="ˈjuːnɪseks" tr="однополый"/>
+<d v="unisex" p="noun" ts="ˈjuːnɪseks" tr="унисекс"/>
+<d v="unison" p="noun" ts="ˈjuːnɪzn" tr="унисон; согласие"/>
+<d v="unit" p="noun" ts="ˈjuːnɪt" tr="единица; устройство; блок; узел; часть; юнит; пай"/>
+<d v="unit" p="adjective" ts="ˈjuːnɪt" tr="единичный; удельный"/>
+<d v="unite" p="verb" ts="juːˈnaɪt" tr="объединять; соединять; сближать"/>
+<d v="unite" p="noun" ts="juːˈnaɪt" tr="объединение"/>
+<d v="unite" p="adverbial participle" ts="juːˈnaɪt" tr="объединяясь"/>
+<d v="United" p="participle" ts="ˈjʊˈnaɪtɪd" tr="объединенный; соединенный"/>
+<d v="United" p="noun" ts="ˈjʊˈnaɪtɪd" tr="США"/>
+<d v="United" p="adjective" ts="ˈjʊˈnaɪtɪd" tr="совместный; дружный"/>
+<d v="United Kingdom" p="noun" ts="ˈjʊˈnaɪtɪd ˈkɪŋdəm" tr="Великобритания; Соединенное Королевство; объединенное Королевство"/>
+<d v="United Nations" p="noun" ts="juːˈnaɪtɪd neɪʃnz" tr="организация Объединенных Наций; ООН"/>
+<d v="United States" p="noun" ts="juːˈnaɪtɪd steɪts" tr="США; Соединенных Штатов; Соединенные Штаты Америки"/>
+<d v="unity" p="noun" ts="ˈjuːnɪtɪ" tr="единство; единица; дружба"/>
+<d v="universal" p="adjective" ts="juːnɪˈvɜːsəl" tr="универсальный; поголовный"/>
+<d v="universal" p="noun" ts="juːnɪˈvɜːsəl" tr="универсальность"/>
+<d v="universally" p="adjective" ts="juːnɪˈvɜːsəlɪ" tr="общепризнанный; универсальный"/>
+<d v="universally" p="adverb" ts="juːnɪˈvɜːsəlɪ" tr="повсеместно"/>
+<d v="universe" p="noun" ts="ˈjuːnɪvɜːs" tr="вселенная; универсум"/>
+<d v="universe" p="participle" ts="ˈjuːnɪvɜːs" tr="вселенный"/>
+<d v="universe" p="adjective" ts="ˈjuːnɪvɜːs" tr="вселенский"/>
+<d v="University" p="noun" ts="juːnɪˈvɜːsɪtɪ" tr="университет"/>
+<d v="University" p="adjective" ts="juːnɪˈvɜːsɪtɪ" tr="университетский"/>
+<d v="unjust" p="adjective" ts="ˈʌnˈʤʌst" tr="несправедливый; неправый"/>
+<d v="unjust" p="noun" ts="ˈʌnˈʤʌst" tr="несправедливость"/>
+<d v="unjustified" p="adjective" ts="ʌnˈʤʌstɪfaɪd" tr="необоснованный; неоправданный"/>
+<d v="unkempt" p="adjective" ts="ˈʌnˈkempt" tr="неопрятный; нечесаный; неухоженный; неряшливый; непричесанный"/>
+<d v="unkind" p="adjective" ts="ʌnˈkaɪnd" tr="недобрый"/>
+<d v="unknowingly" p="adverb" ts="ʌnˈnəʊɪŋlɪ" tr="неосознанно"/>
+<d v="unknowingly" p="noun" ts="ʌnˈnəʊɪŋlɪ" tr="по незнанию"/>
+<d v="unknowingly" p="adverbial participle" ts="ʌnˈnəʊɪŋlɪ" tr="не подозревая"/>
+<d v="unknown" p="adjective" ts="ˈʌnˈnəʊn" tr="неизвестный; небывалый; непознанный"/>
+<d v="unknown" p="noun" ts="ˈʌnˈnəʊn" tr="неизвестное; неизвестность; незнакомец"/>
+<d v="unknown" p="participle" ts="ˈʌnˈnəʊn" tr="не известный"/>
+<d v="unlawful" p="adjective" ts="ˈʌnˈlɔːfʊl" tr="незаконный"/>
+<d v="unleaded" p="adjective" ts="ənˈledɪd" tr="неэтилированный"/>
+<d v="unleash" p="verb" ts="ˈʌnˈliːʃ" tr="развязать; выпустить; раскрыть; раскрутить; натравить"/>
+<d v="unleash" p="noun" ts="ˈʌnˈliːʃ" tr="развязывание"/>
+<d v="unless" p="conjunction" ts="ənˈles" tr="если; разве"/>
+<d v="unless" p="particle" ts="ənˈles" tr="пока"/>
+<d v="unless" p="noun" ts="ənˈles" tr="за исключением"/>
+<d v="unlike" p="noun" ts="ˈʌnˈlaɪk" tr="в отличие; отличие от"/>
+<d v="unlike" p="adverb" ts="ˈʌnˈlaɪk" tr="как"/>
+<d v="unlikely" p="adverb" ts="ʌnˈlaɪklɪ" tr="вряд; менее вероятной"/>
+<d v="unlikely" p="adjective" ts="ʌnˈlaɪklɪ" tr="маловероятный"/>
+<d v="unlimited" p="adjective" ts="ʌnˈlɪmɪtɪd" tr="неограниченный; безграничный"/>
+<d v="unload" p="verb" ts="ˈʌnˈləʊd" tr="выгрузить; разрядить; разгрузиться; сгружать"/>
+<d v="unload" p="noun" ts="ˈʌnˈləʊd" tr="выгрузка"/>
+<d v="unload" p="adjective" ts="ˈʌnˈləʊd" tr="разгрузочный"/>
+<d v="unlock" p="verb" ts="ˈʌnˈlɔk" tr="открыть; разблокировать; отпереть; размыкать"/>
+<d v="unlock" p="noun" ts="ˈʌnˈlɔk" tr="разблокировка"/>
+<d v="unlucky" p="adjective" ts="ʌnˈlʌkɪ" tr="несчастливый; незадачливый; невезучий; неудачливый"/>
+<d v="unlucky" p="verb" ts="ʌnˈlʌkɪ" tr="не повезти; везти"/>
+<d v="unlucky" p="noun" ts="ʌnˈlʌkɪ" tr="неудачник"/>
+<d v="unmarked" p="adjective" ts="ˈʌnˈmɑːkt" tr="немаркированный; неотмеченный; непомеченный"/>
+<d v="unmarked" p="noun" ts="ˈʌnˈmɑːkt" tr="без опознавательных знаков"/>
+<d v="unmarried" p="adjective" ts="ˈʌnˈmærɪd" tr="незамужний"/>
+<d v="unmarried" p="noun" ts="ˈʌnˈmærɪd" tr="в браке"/>
+<d v="unmask" p="verb" ts="ˈʌnˈmɑːsk" tr="разоблачать; демаскировать; обличать; снять маску"/>
+<d v="unmask" p="noun" ts="ˈʌnˈmɑːsk" tr="разоблачение; размаскировать"/>
+<d v="unmistakable" p="adjective" ts="ˈʌnmɪsˈteɪkəbl" tr="безошибочный; очевидный; несомненный; неповторимый"/>
+<d v="unmistakably" p="adverb" ts="ʌnmɪˈsteɪkəblɪ" tr="безошибочно; несомненно"/>
+<d v="unmitigated" p="adjective" ts="ʌnˈmɪtɪgeɪtɪd" tr="абсолютный"/>
+<d v="unmoved" p="adjective" ts="ˈʌnˈmuːvd" tr="равнодушный; невозмутимый; непреклонный"/>
+<d v="unnatural" p="adjective" ts="ʌnˈnæʧrəl" tr="неестественный; странный; бессердечный"/>
+<d v="unnaturally" p="adverb" ts="ʌnˈnæʧrəlɪ" tr="неестественно; противоестественно"/>
+<d v="unnecessarily" p="adverb" ts="ʌnˈnesəsərəlɪ" tr="излишне; неоправданно; напрасно"/>
+<d v="unnecessarily" p="noun" ts="ʌnˈnesəsərəlɪ" tr="без необходимости"/>
+<d v="unnecessarily" p="adjective" ts="ʌnˈnesəsərəlɪ" tr="ненужный"/>
+<d v="unnecessary" p="adjective" ts="ʌnˈnesɪsərɪ" tr="ненужный; лишний; неоправданный; бесполезный"/>
+<d v="unnecessary" p="participle" ts="ʌnˈnesɪsərɪ" tr="не нужный"/>
+<d v="unnecessary" p="predicative" ts="ʌnˈnesɪsərɪ" tr="нет необходимости"/>
+<d v="unnecessary" p="noun" ts="ʌnˈnesɪsərɪ" tr="ненадобность"/>
+<d v="unnerve" p="verb" ts="ˈʌnˈnɜːv" tr="нервировать; расстраивать"/>
+<d v="unnerving" p="participle" ts="ʌnˈnɜːvɪŋ" tr="пугающий"/>
+<d v="unnoticed" p="adjective" ts="ˈʌnˈnəʊtɪst" tr="незамеченный"/>
+<d v="unnoticed" p="adverb" ts="ˈʌnˈnəʊtɪst" tr="незаметно"/>
+<d v="unnoticed" p="participle" ts="ˈʌnˈnəʊtɪst" tr="не замеченный"/>
+<d v="unobtrusive" p="adjective" ts="ˈʌnəbˈtruːsɪv" tr="ненавязчивый; незаметный"/>
+<d v="unoccupied" p="adjective" ts="ˈʌnˈɔkjʊpaɪd" tr="незанятый; необитаемый"/>
+<d v="unofficial" p="adjective" ts="ˈʌnəˈfɪʃəl" tr="неофициальный; неслужебный"/>
+<d v="unofficially" p="adverb" ts="ʌnəˈfɪʃəlɪ" tr="неофициально"/>
+<d v="unorthodox" p="adjective" ts="ʌnˈɔːθədɒks" tr="неортодоксальный"/>
+<d v="unorthodox" p="participle" ts="ʌnˈɔːθədɒks" tr="неординарный"/>
+<d v="unpack" p="verb" ts="ˈʌnˈpæk" tr="распаковать; распаковаться"/>
+<d v="unpack" p="noun" ts="ˈʌnˈpæk" tr="распаковка"/>
+<d v="unpaid" p="adjective" ts="ˈʌnˈpeɪd" tr="неоплаченный; неоплачиваемый"/>
+<d v="unpaid" p="noun" ts="ˈʌnˈpeɪd" tr="невыплата"/>
+<d v="unparalleled" p="adjective" ts="ʌnˈpærəleld" tr="беспрецедентный; непревзойденный"/>
+<d v="unpleasant" p="adjective" ts="ʌnˈpleznt" tr="неприятный"/>
+<d v="unpleasant" p="noun" ts="ʌnˈpleznt" tr="неприятность"/>
+<d v="unplug" p="verb" ts="ʌnˈplʌg" tr="отключить"/>
+<d v="unpopular" p="adjective" ts="ˈʌnˈpɔpjʊlə" tr="непопулярный"/>
+<d v="unpopularity" p="noun" ts="ʌnpɒpjʊˈlærɪtɪ" tr="непопулярность"/>
+<d v="unprecedented" p="adjective" ts="ʌnˈpresɪdəntɪd" tr="беспрецедентный"/>
+<d v="unpredictable" p="adjective" ts="ˈʌnprɪˈdɪktəbl" tr="непредсказуемый"/>
+<d v="unpredictable" p="noun" ts="ˈʌnprɪˈdɪktəbl" tr="непредсказуемость"/>
+<d v="unprepared" p="adjective" ts="ˈʌnprɪˈpɛəd" tr="неподготовленный"/>
+<d v="unprepared" p="adverb" ts="ˈʌnprɪˈpɛəd" tr="врасплох"/>
+<d v="unprepared" p="noun" ts="ˈʌnprɪˈpɛəd" tr="без подготовки"/>
+<d v="unprincipled" p="adjective" ts="ʌnˈprɪnsəpld" tr="беспринципный; безнравственный; безыдейный"/>
+<d v="unprincipled" p="noun" ts="ʌnˈprɪnsəpld" tr="беспринципность"/>
+<d v="unprintable" p="adjective" ts="ˈʌnˈprɪntəbl" tr="непечатный; нецензурный"/>
+<d v="unproductive" p="adjective" ts="ˈʌnprəˈdʌktɪv" tr="непродуктивный"/>
+<d v="unprofessional" p="adjective" ts="ˈʌnprəˈfeʃənl" tr="непрофессиональный"/>
+<d v="unprofessional" p="noun" ts="ˈʌnprəˈfeʃənl" tr="непрофессионализм; непрофессионал"/>
+<d v="unprofitable" p="adjective" ts="ʌnˈprɔfɪtəbl" tr="невыгодный; убыточный; неприбыльный"/>
+<d v="unprofitable" p="noun" ts="ʌnˈprɔfɪtəbl" tr="убыточность; нерентабельность"/>
+<d v="unprotected" p="adjective" ts="ˈʌnprəˈtektɪd" tr="незащищенный"/>
+<d v="unprotected" p="noun" ts="ˈʌnprəˈtektɪd" tr="незащищенность"/>
+<d v="unprovoked" p="adjective" ts="ˈʌnprəˈvəʊkt" tr="неспровоцированный"/>
+<d v="unqualified" p="adjective" ts="ˈʌnˈkwɔlɪfaɪd" tr="безусловный"/>
+<d v="unquestionable" p="adjective" ts="ʌnˈkwesʧənəbl" tr="неоспоримый"/>
+<d v="unquestionably" p="adverb" ts="ʌnˈkwesʧənəblɪ" tr="несомненно"/>
+<d v="unquestionably" p="parenthetic" ts="ʌnˈkwesʧənəblɪ" tr="бесспорно"/>
+<d v="unquestioned" p="adjective" ts="ʌnˈkwesʧənd" tr="бесспорный"/>
+<d v="unravel" p="verb" ts="ʌnˈrævəl" tr="разгадать; распутать; развалиться"/>
+<d v="unreal" p="adjective" ts="ˈʌnˈrɪəl" tr="нереальный; ненастоящий; ирреальный; призрачный"/>
+<d v="unreal" p="noun" ts="ˈʌnˈrɪəl" tr="нереальность"/>
+<d v="unreal" p="participle" ts="ˈʌnˈrɪəl" tr="воображаемый"/>
+<d v="unrealistic" p="adjective" ts="ʌnrɪəˈlɪstɪk" tr="нереалистичный"/>
+<d v="unreasonable" p="adjective" ts="ʌnˈriːznəbl" tr="необоснованный; неразумный; непомерный"/>
+<d v="unreasonably" p="adverb" ts="ʌnˈriːznəblɪ" tr="необоснованно"/>
+<d v="unrelenting" p="adjective" ts="ˈʌnrɪˈlentɪŋ" tr="безжалостный; неослабевающий; неумолимый"/>
+<d v="unreliable" p="adjective" ts="ˈʌnrɪˈlaɪəbl" tr="ненадежный; недостоверный"/>
+<d v="unreliable" p="noun" ts="ˈʌnrɪˈlaɪəbl" tr="ненадежность"/>
+<d v="unreserved" p="adjective" ts="ˈʌnrɪˈzɜːvd" tr="безоговорочный"/>
+<d v="unresponsive" p="adjective" ts="ˈʌnrɪsˈpɔnsɪv" tr="безразличный; неотзывчивый"/>
+<d v="unresponsive" p="participle" ts="ˈʌnrɪsˈpɔnsɪv" tr="не реагирующий"/>
+<d v="unresponsive" p="verb" ts="ˈʌnrɪsˈpɔnsɪv" tr="отвечать на запросы"/>
+<d v="unrest" p="noun" ts="ˈʌnˈrest" tr="беспорядки; волнения; беспокойство; нестабильность; брожение; смута; неповиновение"/>
+<d v="unrestrained" p="adjective" ts="ˈʌnrɪsˈtreɪnd" tr="безудержный; несдержанный"/>
+<d v="unrivaled" p="adjective" ts="ʌnˈraɪvəld" tr="непревзойденный"/>
+<d v="unrivaled" p="noun" ts="ʌnˈraɪvəld" tr="вне конкуренции"/>
+<d v="unroll" p="verb" ts="ʌnˈrəʊl" tr="развернуться; развернуть; раскатать"/>
+<d v="unruliness" p="noun" ts="ʌnˈruːlɪnəs" tr="разнузданность"/>
+<d v="unruly" p="adjective" ts="ʌnˈruːlɪ" tr="непослушный; неугомонный; необузданный"/>
+<d v="unsafe" p="adjective" ts="ˈʌnˈseɪf" tr="небезопасный"/>
+<d v="unsafe" p="noun" ts="ˈʌnˈseɪf" tr="небезопасность"/>
+<d v="unsanitary" p="adjective" ts="ʌnˈsænɪtrɪ" tr="антисанитарный"/>
+<d v="unsanitary" p="noun" ts="ʌnˈsænɪtrɪ" tr="антисанитария"/>
+<d v="unsatisfactory" p="adjective" ts="ˈʌnsætɪsˈfæktərɪ" tr="неудовлетворительный"/>
+<d v="unsavory" p="adjective" ts="ʌnˈseɪvərɪ" tr="неприятный; невкусный"/>
+<d v="unscathed" p="adjective" ts="ˈʌnˈskeɪðd" tr="невредимый"/>
+<d v="unscrew" p="verb" ts="ˈʌnˈskruː" tr="открутить; отвинтить; вывинчивать; раскручивать; развинчивать"/>
+<d v="unscrupulous" p="adjective" ts="ʌnˈskruːpjʊləs" tr="недобросовестный; бессовестный; неразборчивый"/>
+<d v="unseat" p="verb" ts="ˈʌnˈsiːt" tr="свергнуть"/>
+<d v="unseemly" p="adjective" ts="ʌnˈsiːmlɪ" tr="неприличный; неподобающий; неблаговидный"/>
+<d v="unseen" p="adjective" ts="ˈʌnˈsiːn" tr="невидимый; невиданный; незамеченный"/>
+<d v="unsettled" p="adjective" ts="ˈʌnˈsetld" tr="неустроенный"/>
+<d v="unsightly" p="adjective" ts="ʌnˈsaɪtlɪ" tr="неприглядный"/>
+<d v="unskilled" p="adjective" ts="ˈʌnˈskɪld" tr="неквалифицированный; неопытный"/>
+<d v="unsolicited" p="adjective" ts="ʌnsəˈlɪsɪtɪd" tr="нежелательный; незатребованный; незапрошенный; непрошеный"/>
+<d v="unsophisticated" p="adjective" ts="ˈʌnsəˈfɪstɪkeɪtɪd" tr="неискушенный; простой; простодушный"/>
+<d v="unsound" p="adjective" ts="ˈʌnˈsaʊnd" tr="необоснованный; нездоровый"/>
+<d v="unspeakable" p="adjective" ts="ʌnˈspiːkəbl" tr="невыразимый; неизреченный; отвратительный"/>
+<d v="unspecified" p="adjective" ts="ʌnˈspesɪfaɪd" tr="неопределенный; неуказанный; неустановленный; неспецифицированный"/>
+<d v="unspecified" p="participle" ts="ʌnˈspesɪfaɪd" tr="не указанный"/>
+<d v="unspoken" p="adjective" ts="ˈʌnˈspəʊkən" tr="невысказанный; негласный; непроизнесенный"/>
+<d v="unsportsmanlike" p="adjective" ts="ˈʌnˈspɔːtsmənlaɪk" tr="неспортивный"/>
+<d v="unstable" p="adjective" ts="ˈʌnˈsteɪbl" tr="нестабильный; непостоянный; неуравновешенный"/>
+<d v="unstable" p="noun" ts="ˈʌnˈsteɪbl" tr="нестабильность"/>
+<d v="unstable" p="participle" ts="ˈʌnˈsteɪbl" tr="колеблющийся"/>
+<d v="unsteady" p="adjective" ts="ˈʌnˈstedɪ" tr="неустойчивый; нестационарный"/>
+<d v="unsteady" p="verb" ts="ˈʌnˈstedɪ" tr="шататься"/>
+<d v="unsteady" p="participle" ts="ˈʌnˈstedɪ" tr="дрожащий; колеблющийся"/>
+<d v="unstoppable" p="adjective" ts="ʌnˈstɒpəbl" tr="неудержимый; неостановимый; непобедимый; непреклонный; безостановочный"/>
+<d v="unstoppable" p="verb" ts="ʌnˈstɒpəbl" tr="невозможно остановить"/>
+<d v="unsuccessful" p="adjective" ts="ˈʌnsəkˈsesfʊl" tr="неудачный"/>
+<d v="unsuccessful" p="noun" ts="ˈʌnsəkˈsesfʊl" tr="неудача"/>
+<d v="unsuccessfully" p="adverb" ts="ʌnsəkˈsesfəlɪ" tr="безуспешно"/>
+<d v="unsuitable" p="adjective" ts="ˈʌnˈsjuːtəbl" tr="непригодный"/>
+<d v="unsung" p="adjective" ts="ˈʌnˈsʌŋ" tr="невоспетый; неспетый"/>
+<d v="unsure" p="adjective" ts="ˈʌnˈʃʊə" tr="неуверенный"/>
+<d v="unsure" p="noun" ts="ˈʌnˈʃʊə" tr="неуверенность"/>
+<d v="unsuspecting" p="participle" ts="ˈʌnsəsˈpektɪŋ" tr="не подозревающий"/>
+<d v="unsuspecting" p="adjective" ts="ˈʌnsəsˈpektɪŋ" tr="неподозревающий"/>
+<d v="untangle" p="verb" ts="ˈʌnˈtæŋgl" tr="распутать; выпутаться"/>
+<d v="untenable" p="adjective" ts="ˈʌnˈtenəbl" tr="несостоятельный"/>
+<d v="unthinkable" p="adjective" ts="ʌnˈθɪŋkəbl" tr="немыслимый; невероятный"/>
+<d v="unthinking" p="adjective" ts="ˈʌnˈθɪŋkɪŋ" tr="бездумный; немыслящий"/>
+<d v="unthinkingly" p="adverb" ts="ʌnˈθɪŋkɪŋlɪ" tr="бездумно"/>
+<d v="untie" p="verb" ts="ˈʌnˈtaɪ" tr="развязать; отвязать"/>
+<d v="until" p="preposition" ts="ənˈtɪl" tr="до"/>
+<d v="until" p="particle" ts="ənˈtɪl" tr="пока"/>
+<d v="until" p="adverb" ts="ənˈtɪl" tr="доколе"/>
+<d v="untimely" p="adjective" ts="ʌnˈtaɪmlɪ" tr="несвоевременный; преждевременный"/>
+<d v="untimely" p="adverb" ts="ʌnˈtaɪmlɪ" tr="безвременно; несвоевременно; неуместно"/>
+<d v="untiring" p="adjective" ts="ʌnˈtaɪərɪŋ" tr="неутомимый"/>
+<d v="untold" p="adjective" ts="ˈʌnˈtəʊld" tr="невыразимый; нерассказанный; неслыханный"/>
+<d v="untouchable" p="adjective" ts="ʌnˈtʌʧəbl" tr="неприкасаемый; недосягаемый"/>
+<d v="untoward" p="adjective" ts="ʌnˈtəʊəd" tr="неблагоприятный"/>
+<d v="untried" p="adjective" ts="ˈʌnˈtraɪd" tr="подследственный; непроверенный"/>
+<d v="untried" p="participle" ts="ˈʌnˈtraɪd" tr="неиспытанный"/>
+<d v="untrue" p="adjective" ts="ˈʌnˈtruː" tr="неверный"/>
+<d v="untrue" p="noun" ts="ˈʌnˈtruː" tr="неправда"/>
+<d v="untrue" p="verb" ts="ˈʌnˈtruː" tr="соответствовать действительности"/>
+<d v="untrue" p="participle" ts="ˈʌnˈtruː" tr="соответствующий действительности; не соответствующий действительности"/>
+<d v="untruthful" p="adjective" ts="ʌnˈtruːθfəl" tr="неправдивый"/>
+<d v="unused" p="adjective" ts="ʌnˈjuːzd" tr="неиспользованный; незанятый; непривычный"/>
+<d v="unusual" p="adjective" ts="ʌnˈjuːʒʊəl" tr="необычный; нестандартный"/>
+<d v="unusual" p="noun" ts="ʌnˈjuːʒʊəl" tr="необычность; редкость"/>
+<d v="unusually" p="adverb" ts="ʌnˈjuːʒʊəlɪ" tr="необычайно; необычно"/>
+<d v="unusually" p="adjective" ts="ʌnˈjuːʒʊəlɪ" tr="необычный"/>
+<d v="unusually" p="noun" ts="ʌnˈjuːʒʊəlɪ" tr="редкость"/>
+<d v="unveil" p="verb" ts="ʌnˈveɪl" tr="раскрыть; обнародовать"/>
+<d v="unwanted" p="adjective" ts="ˈʌnˈwɔntɪd" tr="нежелательный; ненужный"/>
+<d v="unwarranted" p="adjective" ts="ˈʌnˈwɔrəntɪd" tr="необоснованный; самовольный"/>
+<d v="unwelcome" p="adjective" ts="ʌnˈwelkəm" tr="нежелательный; непрошеный; нежеланный"/>
+<d v="unwieldy" p="adjective" ts="ʌnˈwiːldɪ" tr="громоздкий"/>
+<d v="unwilling" p="adverbial participle" ts="ˈʌnˈwɪlɪŋ" tr="не желая"/>
+<d v="unwilling" p="adjective" ts="ˈʌnˈwɪlɪŋ" tr="невольный; несклонный; нерасположенный"/>
+<d v="unwind" p="verb" ts="ˈʌnˈwaɪnd" tr="расслабиться; размотать; раскручиваться; разматывать; разматываться"/>
+<d v="unwise" p="adjective" ts="ˈʌnˈwaɪz" tr="неразумный; неумный"/>
+<d v="unwitting" p="adjective" ts="ʌnˈwɪtɪŋ" tr="невольный"/>
+<d v="unwitting" p="adverb" ts="ʌnˈwɪtɪŋ" tr="невольно"/>
+<d v="unwittingly" p="adverb" ts="ʌnˈwɪtɪŋlɪ" tr="невольно"/>
+<d v="unwritten" p="adjective" ts="ˈʌnˈrɪtn" tr="неписаный; ненаписанный; чистый"/>
+<d v="unyielding" p="adjective" ts="ʌnˈjiːldɪŋ" tr="непреклонный; неуступчивый"/>
+<d v="unyielding" p="noun" ts="ʌnˈjiːldɪŋ" tr="неуступчивость"/>
+<d v="unzip" p="verb" ts="ʌnˈzɪp" tr="распаковать; расстегнуть; расстегнуть молнию"/>
+<d v="unzip" p="noun" ts="ʌnˈzɪp" tr="распаковка"/>
+<d v="up" p="preposition" ts="ʌp" tr="до"/>
+<d v="up" p="adverb" ts="ʌp" tr="вверх; вплоть; выше"/>
+<d v="up" p="noun" ts="ʌp" tr="на себя; в руки"/>
+<d v="upbeat" p="adjective" ts="ˈʌpbiːt" tr="оптимистичный"/>
+<d v="upbeat" p="noun" ts="ˈʌpbiːt" tr="оптимизм"/>
+<d v="upbeat" p="participle" ts="ˈʌpbiːt" tr="приподнятый"/>
+<d v="upbringing" p="noun" ts="ˈʌpbrɪŋɪŋ" tr="воспитание; воспитанность"/>
+<d v="upbringing" p="adjective" ts="ˈʌpbrɪŋɪŋ" tr="воспитательный"/>
+<d v="upcoming" p="adjective" ts="ˈʌpkʌmɪŋ" tr="предстоящий"/>
+<d v="upcoming" p="participle" ts="ˈʌpkʌmɪŋ" tr="наступающий; приближающийся; готовящийся"/>
+<d v="update" p="noun" ts="ʌpˈdeɪt" tr="обновление"/>
+<d v="update" p="verb" ts="ʌpˈdeɪt" tr="обновить; обновлять; актуализировать"/>
+<d v="update" p="participle" ts="ʌpˈdeɪt" tr="обновленный; обновляемый; обновляющий"/>
+<d v="upend" p="verb" ts="juːˈpend" tr="перевернуть"/>
+<d v="upfront" p="adjective" ts="ˈʌpfrʌnt" tr="авансовый"/>
+<d v="upfront" p="noun" ts="ˈʌpfrʌnt" tr="аванс"/>
+<d v="upgrade" p="noun" ts="ˈʌpgreɪd" tr="обновление; подъем"/>
+<d v="upgrade" p="verb" ts="ˈʌpgreɪd" tr="обновить; усовершенствовать; перейти; повышать; обновиться"/>
+<d v="upgrade" p="participle" ts="ˈʌpgreɪd" tr="модернизированный"/>
+<d v="upheaval" p="noun" ts="ʌpˈhiːvəl" tr="потрясение; переворот; беспорядки; сдвиг; подъем"/>
+<d v="uphill" p="noun" ts="ˈʌpˈhɪl" tr="в гору"/>
+<d v="uphill" p="adjective" ts="ˈʌpˈhɪl" tr="трудный"/>
+<d v="uphill" p="participle" ts="ˈʌpˈhɪl" tr="идущий в гору"/>
+<d v="uphold" p="verb" ts="ʌpˈhəʊld" tr="поддерживать; отстаивать; придерживаться"/>
+<d v="uphold" p="noun" ts="ʌpˈhəʊld" tr="поддержание; отстаивание"/>
+<d v="uphold" p="participle" ts="ʌpˈhəʊld" tr="придерживающийся"/>
+<d v="upholster" p="verb" ts="ʌpˈhəʊlstə" tr="обивать"/>
+<d v="upholstered" p="participle" ts="ʌpˈhəʊlstəd" tr="обитый"/>
+<d v="upholstered" p="noun" ts="ʌpˈhəʊlstəd" tr="обивка"/>
+<d v="upholstery" p="noun" ts="ʌpˈhəʊlstərɪ" tr="обивка; драпирование"/>
+<d v="upholstery" p="adjective" ts="ʌpˈhəʊlstərɪ" tr="обивочный"/>
+<d v="upkeep" p="noun" ts="ˈʌpkiːp" tr="содержание; уход"/>
+<d v="uplifting" p="noun" ts="ʌpˈlɪftɪŋ" tr="подъем; поднимающее настроение"/>
+<d v="uplifting" p="participle" ts="ʌpˈlɪftɪŋ" tr="поднимающий; возвышающий; поднимающий настроение"/>
+<d v="upon" p="preposition" ts="əˈpɔn" tr="на; по; после; при"/>
+<d v="upper" p="adjective" ts="ˈʌpə" tr="верхний"/>
+<d v="upper" p="noun" ts="ˈʌpə" tr="верх"/>
+<d v="uppercase" p="noun" ts="ˈʌpəks" tr="верхний регистр"/>
+<d v="uppercase" p="adjective" ts="ˈʌpəks" tr="прописной"/>
+<d v="upper class" p="noun" ts="ˈʌpə klɑːs" tr="высший класс; высшее сословие; верхний класс; высший слой"/>
+<d v="upperclassman" p="noun" ts="ˈʌpəklɑːsmeɪn" tr="старшеклассник"/>
+<d v="uppermost" p="noun" ts="ˈʌpəməʊst" tr="прежде всего"/>
+<d v="uppermost" p="adverb" ts="ˈʌpəməʊst" tr="наверху"/>
+<d v="uppermost" p="adjective" ts="ˈʌpəməʊst" tr="самый верхний"/>
+<d v="upright" p="adjective" ts="ˈʌpraɪt" tr="вертикальный; праведный; честный"/>
+<d v="upright" p="noun" ts="ˈʌpraɪt" tr="вертикальное положение; стойка; пианино; подпорка"/>
+<d v="upright" p="verb" ts="ˈʌpraɪt" tr="выпрямиться"/>
+<d v="uprising" p="noun" ts="ʌpˈraɪzɪŋ" tr="восстание"/>
+<d v="uproar" p="noun" ts="ˈʌprɔː" tr="шум; дебош"/>
+<d v="uproot" p="verb" ts="ʌpˈruːt" tr="искоренить; вырвать; выкорчевывать"/>
+<d v="uproot" p="noun" ts="ʌpˈruːt" tr="искоренение"/>
+<d v="upscale" p="adjective" ts="ˈʌpskeɪl" tr="высококлассный"/>
+<d v="upset" p="verb" ts="ʌpˈset" tr="расстроить; расстроиться; нарушить; огорчить; опрокидывать; переживать; огорчиться; раздражать; осаживать"/>
+<d v="upset" p="noun" ts="ʌpˈset" tr="расстройство; опрокидывание"/>
+<d v="upset" p="participle" ts="ʌpˈset" tr="расстроенный; огорченный"/>
+<d v="upshot" p="noun" ts="ˈʌpʃɔt" tr="результат"/>
+<d v="upstairs" p="noun" ts="ˈʌpˈstɛəz" tr="лестница; верхний этаж"/>
+<d v="upstairs" p="verb" ts="ˈʌpˈstɛəz" tr="подняться наверх"/>
+<d v="upstart" p="noun" ts="ˈʌpstɑːt" tr="выскочка"/>
+<d v="upstate" p="noun" ts="ˈʌpˈsteɪt" tr="Северная часть штата; север штата"/>
+<d v="upstream" p="adverb" ts="ʌpˈstriːm" tr="вверх"/>
+<d v="upstream" p="noun" ts="ʌpˈstriːm" tr="верховье; по течению"/>
+<d v="upsurge" p="noun" ts="ʌpˈsɜːʤ" tr="подъем; рост; всплеск"/>
+<d v="upswing" p="noun" ts="ˈʌpswɪŋ" tr="подъем"/>
+<d v="uptake" p="noun" ts="ˈʌpteɪk" tr="поглощение"/>
+<d v="uptight" p="participle" ts="ʌpˈtaɪt" tr="встревоженный"/>
+<d v="uptown" p="noun" ts="ˈʌpˈtaʊn" tr="верхняя часть города"/>
+<d v="upturn" p="noun" ts="ʌpˈtɜːn" tr="подъем; улучшение"/>
+<d v="upward" p="adverb" ts="ˈʌpwəd" tr="вверх"/>
+<d v="upward" p="adjective" ts="ˈʌpwəd" tr="восходящий"/>
+<d v="upward" p="participle" ts="ˈʌpwəd" tr="направленный вверх"/>
+<d v="upwards" p="adverb" ts="ˈʌpwədz" tr="вверх; выше; старше"/>
+<d v="uranium" p="noun" ts="jʊˈreɪnjəm" tr="уран"/>
+<d v="uranium" p="adjective" ts="jʊˈreɪnjəm" tr="урановый"/>
+<d v="Uranus" p="noun" ts="ˈjʊərənəs" tr="уран"/>
+<d v="urban" p="adjective" ts="ˈɜːbən" tr="городской"/>
+<d v="urban" p="noun" ts="ˈɜːbən" tr="город; градостроительство; Урбан"/>
+<d v="urban" p="participle" ts="ˈɜːbən" tr="урбанизированный"/>
+<d v="urbane" p="adjective" ts="ɜːˈbeɪn" tr="вежливый"/>
+<d v="urban renewal" p="noun" ts="ˈɜːbən rɪˈnjuːəl" tr="обновление городов"/>
+<d v="urban sprawl" p="noun" ts="ˈɜːbən sprɔːl" tr="разрастание городов"/>
+<d v="urchin" p="noun" ts="ˈɜːʧɪn" tr="еж; мальчишка; сорванец; пострел; постреленок"/>
+<d v="urge" p="verb" ts="ɜːʤ" tr="призвать; убеждать; побуждать; понуждать; настоятельно советовать; подстегнуть; упрашивать; подгонять; погонять"/>
+<d v="urge" p="noun" ts="ɜːʤ" tr="желание; побуждение; толчок"/>
+<d v="urgency" p="noun" ts="ˈɜːʤənsɪ" tr="актуальность; срочность; безотлагательность; настойчивость; назойливость"/>
+<d v="urgency" p="adjective" ts="ˈɜːʤənsɪ" tr="неотложный; настойчивый"/>
+<d v="urgent" p="adjective" ts="ˈɜːʤənt" tr="срочный; неотложный; актуальный; спешный; наболевший"/>
+<d v="urgently" p="adverb" ts="ˈɜːʤəntlɪ" tr="срочно"/>
+<d v="urgently" p="adjective" ts="ˈɜːʤəntlɪ" tr="срочный"/>
+<d v="urinate" p="verb" ts="ˈjʊərɪneɪt" tr="мочить; пописать"/>
+<d v="urinate" p="noun" ts="ˈjʊərɪneɪt" tr="мочеиспускание"/>
+<d v="urine" p="noun" ts="ˈjʊərɪn" tr="моча"/>
+<d v="urine" p="verb" ts="ˈjʊərɪn" tr="мочь"/>
+<d v="urine" p="adjective" ts="ˈjʊərɪn" tr="мочевой"/>
+<d v="urn" p="noun" ts="ɜːn" tr="урна"/>
+<d v="USA" p="noun" ts="juːesˈeɪ" tr="США"/>
+<d v="usage" p="noun" ts="ˈjuːzɪʤ" tr="использование; обычай; словоупотребление; обыкновение"/>
+<d v="use" p="verb" ts="juːs" tr="использовать; израсходовать; обходиться"/>
+<d v="use" p="noun" ts="juːs" tr="использование; толк; привычка"/>
+<d v="use" p="participle" ts="juːs" tr="используемый"/>
+<d v="used" p="participle" ts="juːzd" tr="используемый; применяемый; подержанный; употребляемый"/>
+<d v="used to" p="participle" ts="juːst" tr="привыкший"/>
+<d v="useful" p="adjective" ts="ˈjuːsfʊl" tr="полезный; успешный"/>
+<d v="useful" p="verb" ts="ˈjuːsfʊl" tr="пригодиться"/>
+<d v="useful" p="noun" ts="ˈjuːsfʊl" tr="полезность"/>
+<d v="usefully" p="noun" ts="ˈjuːsfəlɪ" tr="с пользой"/>
+<d v="usefully" p="adverb" ts="ˈjuːsfəlɪ" tr="целесообразно"/>
+<d v="usefulness" p="noun" ts="ˈjuːsfəlnəs" tr="полезность; целесообразность; пригодность; полноценность"/>
+<d v="useless" p="adjective" ts="ˈjuːslɪs" tr="бесполезный; никудышный; непригодный; никуда не годный"/>
+<d v="uselessly" p="adverb" ts="ˈjuːsləslɪ" tr="бесполезно"/>
+<d v="uselessly" p="noun" ts="ˈjuːsləslɪ" tr="без толку"/>
+<d v="uselessness" p="noun" ts="ˈjuːsləsnəs" tr="бесполезность; ненужность; никчемность"/>
+<d v="user" p="noun" ts="ˈjuːzə" tr="пользователь"/>
+<d v="user" p="adjective" ts="ˈjuːzə" tr="пользовательский"/>
+<d v="user" p="participle" ts="ˈjuːzə" tr="употребляющий"/>
+<d v="user-friendly" p="adjective" ts="ˈjuːzə-ˈfrendlɪ" tr="удобный"/>
+<d v="user-friendly" p="participle" ts="ˈjuːzə-ˈfrendlɪ" tr="удобный для пользователя"/>
+<d v="usher" p="noun" ts="ˈʌʃə" tr="Ашер; швейцар; пристав; билетер"/>
+<d v="usher" p="verb" ts="ˈʌʃə" tr="возвестить; вступить; проводить"/>
+<d v="usual" p="adjective" ts="ˈjuːʒʊəl" tr="обычный"/>
+<d v="usually" p="adverb" ts="ˈjuːʒʊəlɪ" tr="обычно"/>
+<d v="usually" p="noun" ts="ˈjuːʒʊəlɪ" tr="правило"/>
+<d v="usurp" p="verb" ts="juːˈzɜːp" tr="узурпировать; присваивать; незаконно захватывать"/>
+<d v="utensil" p="noun" ts="juːˈtensl" tr="принадлежность"/>
+<d v="uterus" p="noun" ts="ˈjuːtərəs" tr="матка"/>
+<d v="utility" p="noun" ts="juːˈtɪlɪtɪ" tr="утилита; полезность; программа; водоканал; практичность; утилитарность; выгодность"/>
+<d v="utility" p="adjective" ts="juːˈtɪlɪtɪ" tr="коммунальный; служебный; утилитарный; практичный"/>
+<d v="utility room" p="noun" ts="juːˈtɪlɪtɪ ruːm" tr="подсобное помещение; хозяйственное помещение; хозяйственная комната"/>
+<d v="utilization" p="noun" ts="juːtɪlaɪˈzeɪʃn" tr="использование"/>
+<d v="utilize" p="verb" ts="ˈjuːtɪlaɪz" tr="использовать"/>
+<d v="utmost" p="adjective" ts="ˈʌtməʊst" tr="предельный"/>
+<d v="utmost" p="adverb" ts="ˈʌtməʊst" tr="предельно"/>
+<d v="utopia" p="noun" ts="juːˈtəʊpjə" tr="утопия"/>
+<d v="utopian" p="adjective" ts="juːˈtəʊpjən" tr="утопический"/>
+<d v="utopian" p="noun" ts="juːˈtəʊpjən" tr="утопист"/>
+<d v="utter" p="verb" ts="ˈʌtə" tr="произнести; издавать; высказывать"/>
+<d v="utter" p="adjective" ts="ˈʌtə" tr="полный"/>
+<d v="utterance" p="noun" ts="ˈʌtərəns" tr="высказывание; произнесение; речение; дар слова"/>
+<d v="utterly" p="adverb" ts="ˈʌtəlɪ" tr="совершенно; крайне"/>
+
+</defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="xenophobia" p="noun" ts="zenəʊˈfəʊbɪə" tr="ксенофобия"/>
+<d v="xenophobia" p="adjective" ts="zenəʊˈfəʊbɪə" tr="ксенофобский"/>
+<d v="xenophobic" p="adjective" ts="zentɪˈfɒbɪk" tr="ксенофобский"/>
+<d v="xenophobic" p="noun" ts="zentɪˈfɒbɪk" tr="ксенофобия"/>
+<d v="Xerox" p="noun" ts="ˈzɪərɔks" tr="ксерокс; компания Xerox"/>
+<d v="Xerox" p="adjective" ts="ˈzɪərɔks" tr="копировальный"/>
+<d v="xmas" p="noun" ts="ˈkrɪsməs" tr="Рождество"/>
+<d v="xmas" p="adjective" ts="ˈkrɪsməs" tr="рождественский"/>
+<d v="x-ray" p="noun" ts="ˈeksˈreɪ" tr="рентген"/>
+<d v="x-ray" p="verb" ts="ˈeksˈreɪ" tr="просвечивать"/>
+<d v="xylophone" p="noun" ts="ˈzaɪləfəʊn" tr="ксилофон"/>
+
+</defs>

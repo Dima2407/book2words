@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defs>
+<d v="vacancy" p="noun" ts="ˈveɪkənsɪ" tr="вакансия; пустота"/>
+<d v="vacancy" p="adjective" ts="ˈveɪkənsɪ" tr="вакантный"/>
+<d v="vacant" p="adjective" ts="ˈveɪkənt" tr="вакантный; незастроенный; отсутствующий"/>
+<d v="vacant" p="participle" ts="ˈveɪkənt" tr="пустующий; освободившийся"/>
+<d v="vacant" p="verb" ts="ˈveɪkənt" tr="пустовать"/>
+<d v="vacantly" p="adverb" ts="ˈveɪkəntlɪ" tr="рассеянно; бессмысленно"/>
+<d v="vacate" p="verb" ts="vəˈkeɪt" tr="освободить; покидать; аннулировать; упразднять"/>
+<d v="vacation" p="noun" ts="vəˈkeɪʃn" tr="отпуск; отдых; оставление; освобождение"/>
+<d v="vacation" p="verb" ts="vəˈkeɪʃn" tr="отдыхать"/>
+<d v="vacation" p="adjective" ts="vəˈkeɪʃn" tr="отпускной"/>
+<d v="vacationer" p="noun" ts="vəˈkeɪʃənər" tr="отдыхающий"/>
+<d v="vaccinate" p="noun" ts="ˈvæksɪneɪt" tr="вакцинация"/>
+<d v="vaccinate" p="verb" ts="ˈvæksɪneɪt" tr="вакцинировать; прививать"/>
+<d v="vaccination" p="noun" ts="væksɪˈneɪʃn" tr="вакцинация; вакцинопрофилактика"/>
+<d v="vaccination" p="adjective" ts="væksɪˈneɪʃn" tr="прививочный"/>
+<d v="vaccine" p="noun" ts="ˈvæksiːn" tr="вакцина; прививка"/>
+<d v="vaccine" p="adjective" ts="ˈvæksiːn" tr="вакцинный"/>
+<d v="vacillate" p="verb" ts="ˈvæsɪleɪt" tr="колебаться"/>
+<d v="vacuum" p="noun" ts="ˈvækjʊəm" tr="вакуум; вакуумирование; безвоздушное пространство; пониженное давление"/>
+<d v="vacuum" p="adjective" ts="ˈvækjʊəm" tr="вакуумный"/>
+<d v="vacuum" p="verb" ts="ˈvækjʊəm" tr="пылесосить"/>
+<d v="vacuum" p="participle" ts="ˈvækjʊəm" tr="вакуумированный"/>
+<d v="vacuum cleaner" p="noun" ts="ˈvækjʊəmkliːnə" tr="пылесос"/>
+<d v="vacuum-packed" p="noun" ts="ˈvækjʊəm-pækt" tr="вакуумная упаковка"/>
+<d v="vagina" p="noun" ts="vəˈʤaɪnə" tr="влагалище"/>
+<d v="vaginal" p="adjective" ts="vəˈʤaɪnəl" tr="вагинальный"/>
+<d v="vaginal" p="noun" ts="vəˈʤaɪnəl" tr="влагалище"/>
+<d v="vagrant" p="noun" ts="ˈveɪgrənt" tr="бродяга"/>
+<d v="vagrant" p="adjective" ts="ˈveɪgrənt" tr="бродячий; праздношатающийся"/>
+<d v="vagrant" p="participle" ts="ˈveɪgrənt" tr="блуждающий; странствующий"/>
+<d v="vague" p="adjective" ts="veɪg" tr="неопределенный; смутный; расплывчатый; неуловимый; пространный"/>
+<d v="vaguely" p="adverb" ts="ˈveɪglɪ" tr="смутно"/>
+<d v="vaguely" p="adjective" ts="ˈveɪglɪ" tr="неопределенный"/>
+<d v="vagueness" p="noun" ts="ˈveɪgnəs" tr="неопределенность; расплывчатость; туманность"/>
+<d v="vain" p="adverb" ts="veɪn" tr="напрасно; зря"/>
+<d v="vain" p="adjective" ts="veɪn" tr="тщетный; тщеславный; самодовольный; глупый"/>
+<d v="vainly" p="adverb" ts="ˈveɪnlɪ" tr="тщетно; безуспешно; тщеславно"/>
+<d v="Valentine" p="noun" ts="ˈvæləntaɪn" tr="Валентин; Валентайн; возлюбленный"/>
+<d v="Valentine&apos;s day" p="noun" ts="ˈvæləntaɪn&apos;ses deɪ" tr="день святого Валентина; день valentine"/>
+<d v="Valet" p="noun" ts="ˈvælɪt" tr="камердинер; слуга"/>
+<d v="valiant" p="adjective" ts="ˈvæljənt" tr="доблестный; храбрый"/>
+<d v="valiantly" p="adverb" ts="ˈvælɪəntlɪ" tr="доблестно; мужественно"/>
+<d v="valid" p="adjective" ts="ˈvælɪd" tr="действительный; правильный; уважительный"/>
+<d v="valid" p="participle" ts="ˈvælɪd" tr="действующий"/>
+<d v="valid" p="verb" ts="ˈvælɪd" tr="действовать"/>
+<d v="valid" p="noun" ts="ˈvælɪd" tr="сила"/>
+<d v="validate" p="verb" ts="ˈvælɪdeɪt" tr="проверять; подтвердить; утверждать; обосновывать"/>
+<d v="validate" p="noun" ts="ˈvælɪdeɪt" tr="проверка"/>
+<d v="validity" p="noun" ts="vəˈlɪdɪtɪ" tr="действие; действительность; обоснованность; достоверность; законная сила; состоятельность; вескость"/>
+<d v="valley" p="noun" ts="ˈvælɪ" tr="долина; ендова"/>
+<d v="valor" p="noun" ts="ˈvælə" tr="доблесть; отвага"/>
+<d v="valuable" p="adjective" ts="ˈvæljʊəbl" tr="ценный; полноценный; ценностный"/>
+<d v="valuable" p="noun" ts="ˈvæljʊəbl" tr="драгоценность"/>
+<d v="value" p="noun" ts="ˈvæljuː" tr="значение; стоимость; длительность"/>
+<d v="value" p="verb" ts="ˈvæljuː" tr="ценить; обесцениться"/>
+<d v="value" p="adjective" ts="ˈvæljuː" tr="ценностный"/>
+<d v="valve" p="noun" ts="vælv" tr="клапан"/>
+<d v="valve" p="adjective" ts="vælv" tr="клапанный; ламповый"/>
+<d v="vampire" p="noun" ts="ˈvæmpaɪə" tr="вампир"/>
+<d v="vampire" p="adjective" ts="ˈvæmpaɪə" tr="вампирский"/>
+<d v="van" p="noun" ts="væn" tr="ван; фургон; авангард"/>
+<d v="vandal" p="noun" ts="ˈvændəl" tr="вандал"/>
+<d v="vandal" p="adjective" ts="ˈvændəl" tr="антивандальный"/>
+<d v="vandalism" p="noun" ts="ˈvændəlɪzm" tr="вандализм"/>
+<d v="vandalize" p="verb" ts="ˈvændəlaɪz" tr="хулиганить; бесчинствовать; разрушать"/>
+<d v="vanguard" p="noun" ts="ˈvængɑːd" tr="авангард; головной отряд"/>
+<d v="vanguard" p="adjective" ts="ˈvængɑːd" tr="авангардный"/>
+<d v="vanilla" p="noun" ts="vəˈnɪlə" tr="ваниль"/>
+<d v="vanilla" p="adjective" ts="vəˈnɪlə" tr="ванильный"/>
+<d v="vanish" p="verb" ts="ˈvænɪʃ" tr="исчезать; скрыться; кануть; бесследно исчезать"/>
+<d v="vanishing" p="noun" ts="ˈvænɪʃɪŋ" tr="исчезновение"/>
+<d v="vanishing" p="participle" ts="ˈvænɪʃɪŋ" tr="исчезающий"/>
+<d v="vanity" p="noun" ts="ˈvænɪtɪ" tr="тщеславие; суета; тщета; суетность"/>
+<d v="vanquish" p="verb" ts="ˈvæŋkwɪʃ" tr="победить; покорить"/>
+<d v="vapor" p="noun" ts="ˈveɪpə" tr="пар"/>
+<d v="vapor" p="adjective" ts="ˈveɪpə" tr="паровой; парообразный"/>
+<d v="vaporize" p="verb" ts="ˈveɪpəraɪz" tr="испаряться"/>
+<d v="vaporize" p="noun" ts="ˈveɪpəraɪz" tr="испарение"/>
+<d v="variability" p="noun" ts="vɛərɪəˈbɪlɪtɪ" tr="изменчивость; вариативность; переменность"/>
+<d v="variable" p="noun" ts="ˈvɛərɪəbl" tr="переменная"/>
+<d v="variable" p="adjective" ts="ˈvɛərɪəbl" tr="переменный; изменчивый"/>
+<d v="variable" p="participle" ts="ˈvɛərɪəbl" tr="изменяющийся"/>
+<d v="variance" p="noun" ts="ˈvɛərɪəns" tr="дисперсия; отклонение; расхождение; разница; вариативность"/>
+<d v="variance" p="verb" ts="ˈvɛərɪəns" tr="расходиться"/>
+<d v="variance" p="adjective" ts="ˈvɛərɪəns" tr="дисперсионный"/>
+<d v="variant" p="noun" ts="ˈvɛərɪənt" tr="вариант"/>
+<d v="variation" p="noun" ts="vɛərɪˈeɪʃn" tr="вариация; изменение; различие; изменчивость; вариантность"/>
+<d v="varied" p="adjective" ts="ˈvɛərɪd" tr="разнообразный; различный"/>
+<d v="varied" p="participle" ts="ˈvɛərɪd" tr="дифференцированный; изменяющийся"/>
+<d v="variety" p="noun" ts="vəˈraɪətɪ" tr="разнообразие; сорт; множество; выбор; эстрада; многосторонность"/>
+<d v="variety" p="adjective" ts="vəˈraɪətɪ" tr="различный; эстрадный"/>
+<d v="various" p="adjective" ts="ˈvɛərɪəs" tr="различный"/>
+<d v="variously" p="adverb" ts="ˈveərɪəslɪ" tr="различно; разнообразно"/>
+<d v="varnish" p="noun" ts="ˈvɑːnɪʃ" tr="лак; глазурь; лоск"/>
+<d v="varnish" p="adjective" ts="ˈvɑːnɪʃ" tr="лакокрасочный"/>
+<d v="varnish" p="verb" ts="ˈvɑːnɪʃ" tr="лакировать"/>
+<d v="varsity" p="adjective" ts="ˈvɑːsɪtɪ" tr="университетский"/>
+<d v="varsity" p="noun" ts="ˈvɑːsɪtɪ" tr="Университетская спортивная команда; университет"/>
+<d v="vary" p="verb" ts="ˈvɛərɪ" tr="меняться; изменять; разнообразить"/>
+<d v="vary" p="adjective" ts="ˈvɛərɪ" tr="различный"/>
+<d v="vary" p="noun" ts="ˈvɛərɪ" tr="варьирование"/>
+<d v="vase" p="noun" ts="vɑːz" tr="ваза; вазочка"/>
+<d v="vast" p="adjective" ts="vɑːst" tr="огромный; обширный; необъятный; обширнейший"/>
+<d v="vast" p="noun" ts="vɑːst" tr="простор; обширность"/>
+<d v="vastly" p="adverb" ts="ˈvɑːstlɪ" tr="значительно; очень"/>
+<d v="vastly" p="particle" ts="ˈvɑːstlɪ" tr="гораздо"/>
+<d v="vastly" p="noun" ts="ˈvɑːstlɪ" tr="в значительной степени"/>
+<d v="VAT" p="noun" ts="væt" tr="НДС; чан; бак; бочка"/>
+<d v="VAT" p="adjective" ts="væt" tr="кубовый"/>
+<d v="vault" p="noun" ts="vɔːlt" tr="свод; хранилище; подвал; склеп; Сейф; убежище; прыжок; опорный прыжок"/>
+<d v="vault" p="adjective" ts="vɔːlt" tr="сводчатый"/>
+<d v="vault" p="verb" ts="vɔːlt" tr="вольтижировать; прыгать"/>
+<d v="VCR" p="noun" ts="vkr" tr="видеомагнитофон"/>
+<d v="veal" p="noun" ts="viːl" tr="телятина"/>
+<d v="veal" p="adjective" ts="viːl" tr="телячий"/>
+<d v="veer" p="verb" ts="vɪə" tr="свернуть; травить; менять направление"/>
+<d v="veer" p="noun" ts="vɪə" tr="Вира"/>
+<d v="vegan" p="adjective" ts="ˈvegən" tr="веганский"/>
+<d v="vegan" p="noun" ts="ˈvegən" tr="вегетарианец; строгий вегетарианец"/>
+<d v="vegetable" p="adjective" ts="ˈveʤɪtəbl" tr="растительный"/>
+<d v="vegetable" p="noun" ts="ˈveʤɪtəbl" tr="овощ"/>
+<d v="vegetarian" p="adjective" ts="veʤɪˈtɛərɪən" tr="вегетарианский"/>
+<d v="vegetarian" p="noun" ts="veʤɪˈtɛərɪən" tr="вегетарианец"/>
+<d v="vegetation" p="noun" ts="veʤɪˈteɪʃn" tr="растительность; вегетация; прозябание"/>
+<d v="vegetation" p="adjective" ts="veʤɪˈteɪʃn" tr="растительный; вегетационный"/>
+<d v="veggie" p="noun" ts="ˈveʤɪ" tr="овощ"/>
+<d v="veggie" p="adjective" ts="ˈveʤɪ" tr="вегетарианский"/>
+<d v="vehement" p="adjective" ts="ˈviːɪmənt" tr="яростный"/>
+<d v="vehemently" p="adverb" ts="ˈviːəməntlɪ" tr="яростно; категорически; горячо"/>
+<d v="vehicle" p="adjective" ts="ˈviːɪkl" tr="транспортный"/>
+<d v="vehicle" p="noun" ts="ˈviːɪkl" tr="автомобиль; средство передвижения; проводник; повозка; перевозочное средство"/>
+<d v="vehicular" p="adjective" ts="vɪˈhɪkjʊlə" tr="автомобильный; перевозочный"/>
+<d v="veil" p="noun" ts="veɪl" tr="завеса; вуаль; чадра; Флер"/>
+<d v="veil" p="verb" ts="veɪl" tr="скрывать; прикрывать"/>
+<d v="veiled" p="participle" ts="veɪld" tr="завуалированный"/>
+<d v="vein" p="noun" ts="veɪn" tr="жила; жилка; русло; кровеносный сосуд; настроение"/>
+<d v="Velcro" p="noun" ts="ˈvelkrə" tr="липучка"/>
+<d v="velocity" p="noun" ts="vɪˈlɔsɪtɪ" tr="скорость"/>
+<d v="velocity" p="adjective" ts="vɪˈlɔsɪtɪ" tr="скоростной"/>
+<d v="velour" p="noun" ts="vəˈlʊər" tr="велюр"/>
+<d v="velour" p="adjective" ts="vəˈlʊər" tr="велюровый"/>
+<d v="velvet" p="adjective" ts="ˈvelvɪt" tr="бархатный"/>
+<d v="velvet" p="noun" ts="ˈvelvɪt" tr="бархат; бархатистость"/>
+<d v="velvety" p="adjective" ts="ˈvelvɪtɪ" tr="бархатистый"/>
+<d v="velvety" p="noun" ts="ˈvelvɪtɪ" tr="бархатистость"/>
+<d v="vendetta" p="noun" ts="venˈdetə" tr="вендетта"/>
+<d v="vending machine" p="noun" ts="ˈvendɪŋməʃiːn" tr="автомат; торговый автомат; торговый аппарат"/>
+<d v="vendor" p="noun" ts="ˈvendɔː" tr="поставщик; продавец"/>
+<d v="veneer" p="noun" ts="vɪˈnɪə" tr="шпон; винир; лоск; внешний лоск"/>
+<d v="veneer" p="adjective" ts="vɪˈnɪə" tr="фанерный"/>
+<d v="veneer" p="verb" ts="vɪˈnɪə" tr="облицовывать"/>
+<d v="venerable" p="adjective" ts="ˈvenərəbl" tr="почтенный; преподобный; досточтимый; маститый; древний"/>
+<d v="venerate" p="verb" ts="ˈvenəreɪt" tr="почитать; поклониться; почтить"/>
+<d v="venereal disease" p="noun" ts="vɪˈnɪərɪəl dɪˈziːz" tr="венерическое заболевание; венерическая болезнь"/>
+<d v="Venetian blind" p="noun" ts="vɪˈniːʃn blaɪnd" tr="жалюзи"/>
+<d v="vengeance" p="noun" ts="ˈvenʤəns" tr="месть"/>
+<d v="vengeance" p="verb" ts="ˈvenʤəns" tr="отомстить"/>
+<d v="vengeful" p="adjective" ts="ˈvenʤfʊl" tr="мстительный"/>
+<d v="vengeful" p="noun" ts="ˈvenʤfʊl" tr="мстительность"/>
+<d v="venison" p="noun" ts="venzn" tr="оленина"/>
+<d v="venom" p="noun" ts="ˈvenəm" tr="яд; злоба"/>
+<d v="venom" p="adjective" ts="ˈvenəm" tr="ядовитый"/>
+<d v="venomous" p="adjective" ts="ˈvenəməs" tr="ядовитый; язвительный"/>
+<d v="vent" p="noun" ts="vent" tr="отверстие; вентиляционное отверстие; клапан; выход; вытяжка"/>
+<d v="vent" p="adjective" ts="vent" tr="вентиляционный"/>
+<d v="vent" p="verb" ts="vent" tr="излить; провентилировать; вымещать; выражать; выместить; выпускать; выплеснуть; испускать"/>
+<d v="ventilate" p="verb" ts="ˈventɪleɪt" tr="проветрить; вентилировать"/>
+<d v="ventilate" p="noun" ts="ˈventɪleɪt" tr="проветривание"/>
+<d v="ventilation" p="noun" ts="ventɪˈleɪʃn" tr="вентиляция"/>
+<d v="ventilation" p="adjective" ts="ventɪˈleɪʃn" tr="вентиляционный"/>
+<d v="ventilator" p="noun" ts="ˈventɪleɪtə" tr="вентилятор"/>
+<d v="ventriloquism" p="noun" ts="venˈtrɪləkwɪzm" tr="чревовещание"/>
+<d v="ventriloquist" p="noun" ts="venˈtrɪləkwɪst" tr="чревовещатель"/>
+<d v="venture" p="noun" ts="ˈvenʧə" tr="предприятие; начинание; авантюра; спекуляция"/>
+<d v="venture" p="adjective" ts="ˈvenʧə" tr="венчурный"/>
+<d v="venture" p="verb" ts="ˈvenʧə" tr="решиться; рискнуть"/>
+<d v="venue" p="noun" ts="ˈvenjuː" tr="место; место встречи"/>
+<d v="Venus" p="noun" ts="ˈviːnəs" tr="Венера"/>
+<d v="Venus" p="adjective" ts="ˈviːnəs" tr="венерианский"/>
+<d v="veranda" p="noun" ts="vəˈrændə" tr="веранда"/>
+<d v="verb" p="noun" ts="vɜːb" tr="глагол"/>
+<d v="verb" p="adjective" ts="vɜːb" tr="глагольный"/>
+<d v="verbal" p="adjective" ts="ˈvɜːbəl" tr="словесный; глагольный"/>
+<d v="verbally" p="adjective" ts="ˈvɜːbəlɪ" tr="устный"/>
+<d v="verbally" p="adverb" ts="ˈvɜːbəlɪ" tr="устно; вслух"/>
+<d v="verbally" p="noun" ts="ˈvɜːbəlɪ" tr="учтно; на словах"/>
+<d v="verbatim" p="adjective" ts="vɜːˈbeɪtɪm" tr="дословный; стенографический"/>
+<d v="verbatim" p="noun" ts="vɜːˈbeɪtɪm" tr="компания Verbatim; слово в слово"/>
+<d v="verbose" p="adjective" ts="vɜːˈbəʊs" tr="подробный; многословный"/>
+<d v="verdict" p="noun" ts="ˈvɜːdɪkt" tr="приговор; мнение"/>
+<d v="verge" p="noun" ts="vɜːʤ" tr="грань; обочина"/>
+<d v="verification" p="noun" ts="verɪfɪˈkeɪʃn" tr="проверка; засвидетельствование"/>
+<d v="verification" p="adjective" ts="verɪfɪˈkeɪʃn" tr="проверочный"/>
+<d v="verify" p="verb" ts="ˈverɪfaɪ" tr="проверить; подтвердить"/>
+<d v="verify" p="noun" ts="ˈverɪfaɪ" tr="проверка"/>
+<d v="veritable" p="adjective" ts="ˈverɪtəbl" tr="истинный; настоящий"/>
+<d v="vermin" p="noun" ts="ˈvɜːmɪn" tr="паразит; подонок; преступник"/>
+<d v="vernacular" p="adjective" ts="vəˈnækjʊlə" tr="народный; родной"/>
+<d v="vernacular" p="noun" ts="vəˈnækjʊlə" tr="диалект; просторечие"/>
+<d v="versatile" p="adjective" ts="ˈvɜːsətaɪl" tr="универсальный; разносторонний; многофункциональный; многосторонний; изменчивый"/>
+<d v="versatile" p="noun" ts="ˈvɜːsətaɪl" tr="универсал; универсальность"/>
+<d v="versatility" p="noun" ts="vɜːsəˈtɪlɪtɪ" tr="универсальность; разносторонность; многосторонность; многопрофильность"/>
+<d v="verse" p="noun" ts="vɜːs" tr="стих; вирши; отрывок; поэзия"/>
+<d v="verse" p="adjective" ts="vɜːs" tr="стихотворный"/>
+<d v="version" p="noun" ts="vɜːʃn" tr="версия; текст"/>
+<d v="versus" p="preposition" ts="ˈvɜːsəs" tr="против"/>
+<d v="versus" p="noun" ts="ˈvɜːsəs" tr="в сравнении с; в противовес"/>
+<d v="vertebra" p="noun" ts="ˈvɜːtɪbrə" tr="позвонок"/>
+<d v="vertical" p="adjective" ts="ˈvɜːtɪkəl" tr="вертикальный"/>
+<d v="vertical" p="noun" ts="ˈvɜːtɪkəl" tr="вертикаль"/>
+<d v="vertically" p="adverb" ts="ˈvɜːtɪklɪ" tr="вертикально"/>
+<d v="vertically" p="adjective" ts="ˈvɜːtɪklɪ" tr="вертикальный"/>
+<d v="vertically" p="noun" ts="ˈvɜːtɪklɪ" tr="вертикаль; по вертикали"/>
+<d v="vertigo" p="noun" ts="ˈvɜːtɪgəʊ" tr="головокружение"/>
+<d v="very" p="adverb" ts="ˈverɪ" tr="очень"/>
+<d v="very" p="adjective" ts="ˈverɪ" tr="истинный; предельный"/>
+<d v="vessel" p="noun" ts="vesl" tr="судно"/>
+<d v="vest" p="noun" ts="vest" tr="жилет; тельняшка; облачение"/>
+<d v="vest" p="verb" ts="vest" tr="наделять; возлагать; облечь"/>
+<d v="vestibule" p="noun" ts="ˈvestɪbjuːl" tr="вестибюль; преддверие"/>
+<d v="vestige" p="noun" ts="ˈvestɪʤ" tr="пережиток; рудимент"/>
+<d v="vet" p="noun" ts="vet" tr="ветеринар; ПОО; ветеран"/>
+<d v="vet" p="adjective" ts="vet" tr="ветеринарный"/>
+<d v="vet" p="verb" ts="vet" tr="проверять; исследовать"/>
+<d v="veteran" p="noun" ts="ˈvetərən" tr="ветеран; участник войны"/>
+<d v="veteran" p="adjective" ts="ˈvetərən" tr="ветеранский; опытный; маститый; многолетний"/>
+<d v="veteran" p="participle" ts="ˈvetərən" tr="заслуженный"/>
+<d v="veterinarian" p="noun" ts="vetərɪˈnɛərɪən" tr="ветеринар"/>
+<d v="veterinarian" p="adjective" ts="vetərɪˈnɛərɪən" tr="ветеринарный"/>
+<d v="veterinary" p="adjective" ts="ˈvetərɪnərɪ" tr="ветеринарный"/>
+<d v="veterinary" p="noun" ts="ˈvetərɪnərɪ" tr="ветеринария; ветеринар"/>
+<d v="veto" p="noun" ts="ˈviːtəʊ" tr="вето"/>
+<d v="veto" p="verb" ts="ˈviːtəʊ" tr="запрещать"/>
+<d v="vex" p="verb" ts="veks" tr="досаждать; беспокоить; дразнить"/>
+<d v="via" p="preposition" ts="ˈvaɪə" tr="через; по"/>
+<d v="via" p="noun" ts="ˈvaɪə" tr="с помощью"/>
+<d v="viability" p="noun" ts="vaɪəˈbɪlɪtɪ" tr="жизнеспособность; выживаемость"/>
+<d v="viable" p="adjective" ts="ˈvaɪəbl" tr="жизнеспособный; целесообразный; рентабельный; конкурентоспособный"/>
+<d v="viable" p="noun" ts="ˈvaɪəbl" tr="жизнеспособность"/>
+<d v="viaduct" p="noun" ts="ˈvaɪədʌkt" tr="виадук"/>
+<d v="vial" p="noun" ts="ˈvaɪəl" tr="флакон; чаша"/>
+<d v="vibes" p="noun" ts="vaɪbz" tr="вибрация"/>
+<d v="vibrant" p="adjective" ts="ˈvaɪbrənt" tr="яркий; энергичный"/>
+<d v="vibrant" p="participle" ts="ˈvaɪbrənt" tr="вибрирующий; динамично развивающийся; пульсирующий; резонирующий; трепещущий; дрожащий"/>
+<d v="vibrate" p="verb" ts="vaɪˈbreɪt" tr="вибрировать; завибрировать; дрожать; звучать"/>
+<d v="vibration" p="noun" ts="vaɪˈbreɪʃn" tr="вибрация; вибро; вибрирование"/>
+<d v="vibration" p="adjective" ts="vaɪˈbreɪʃn" tr="вибрационный"/>
+<d v="vice" p="noun" ts="vaɪs" tr="порок; тиски; зло; Норов"/>
+<d v="vice versa" p="adverb" ts="ˈvaɪsɪˈvɜːsə" tr="наоборот"/>
+<d v="vicinity" p="noun" ts="vɪˈsɪnɪtɪ" tr="близость; окрестность"/>
+<d v="vicious" p="adjective" ts="ˈvɪʃəs" tr="порочный; злобный; жестокий; ошибочный; норовистый"/>
+<d v="vicious circle" p="noun" ts="ˈvɪʃəs sɜːkl" tr="порочный круг; замкнутый круг; заколдованный круг"/>
+<d v="viciously" p="adverb" ts="ˈvɪʃəslɪ" tr="злобно; порочно"/>
+<d v="victim" p="noun" ts="ˈvɪktɪm" tr="жертва; пострадавший"/>
+<d v="victimization" p="noun" ts="vɪktɪmaɪˈzeɪʃn" tr="виктимизация; преследование"/>
+<d v="victimize" p="verb" ts="ˈvɪktɪmaɪz" tr="мучить"/>
+<d v="Victor" p="noun" ts="ˈvɪktə" tr="Виктор; победитель; Витя"/>
+<d v="victorious" p="adjective" ts="vɪkˈtɔːrɪəs" tr="победоносный"/>
+<d v="victorious" p="noun" ts="vɪkˈtɔːrɪəs" tr="победа; победительница"/>
+<d v="victorious" p="verb" ts="vɪkˈtɔːrɪəs" tr="побеждать; одержать победу"/>
+<d v="victory" p="noun" ts="ˈvɪktərɪ" tr="победа"/>
+<d v="victory" p="verb" ts="ˈvɪktərɪ" tr="победить"/>
+<d v="victory" p="adjective" ts="ˈvɪktərɪ" tr="победный"/>
+<d v="video" p="noun" ts="ˈvɪdɪəʊ" tr="видео; видеозапись; телевидение; видеоданные; видеосюжет; видеоряд; видеофрагмент"/>
+<d v="video" p="adjective" ts="ˈvɪdɪəʊ" tr="телевизионный"/>
+<d v="videocassette" p="noun" ts="ˈvɪdɪəʊkæset" tr="видеокассета"/>
+<d v="video game" p="noun" ts="ˈvɪdɪəʊ geɪm" tr="видеоигра; видео игры; компьютерная игра"/>
+<d v="videotape" p="noun" ts="ˈvɪdɪəʊteɪp" tr="видеозапись"/>
+<d v="vie" p="verb" ts="vaɪ" tr="соперничать; бороться"/>
+<d v="vie" p="noun" ts="vaɪ" tr="Вика"/>
+<d v="view" p="noun" ts="vjuː" tr="вид; взгляд; зрение; цель; пейзаж"/>
+<d v="view" p="verb" ts="vjuː" tr="просмотреть; рассматривать; оценивать; узреть"/>
+<d v="viewer" p="noun" ts="ˈvjuːə" tr="зритель; просмотр; средство просмотра; программа просмотра"/>
+<d v="viewing" p="participle" ts="ˈvjuːɪŋ" tr="рассматривающий"/>
+<d v="viewpoint" p="noun" ts="ˈvjuːpɔɪnt" tr="зрение; позиция"/>
+<d v="vigil" p="noun" ts="ˈvɪʤɪl" tr="бдение; вахта; пикет; бодрствование"/>
+<d v="vigil" p="verb" ts="ˈvɪʤɪl" tr="дежурить"/>
+<d v="vigilance" p="noun" ts="ˈvɪʤɪləns" tr="бдительность; зоркость; бодрствование"/>
+<d v="vigilant" p="adjective" ts="ˈvɪʤɪlənt" tr="бдительный"/>
+<d v="vigilant" p="noun" ts="ˈvɪʤɪlənt" tr="бдительность"/>
+<d v="vigilant" p="verb" ts="ˈvɪʤɪlənt" tr="проявлять бдительность"/>
+<d v="vigilante" p="noun" ts="vɪʤɪˈlæntɪ" tr="бдительность; линчеватель"/>
+<d v="vigor" p="noun" ts="ˈvɪgə" tr="сила; тонус"/>
+<d v="vigorous" p="adjective" ts="ˈvɪgərəs" tr="энергичный; активный; сильный; решительный; ядреный"/>
+<d v="vigorously" p="adverb" ts="ˈvɪgərəslɪ" tr="энергично; бодро"/>
+<d v="vile" p="adjective" ts="vaɪl" tr="мерзкий; низкий"/>
+<d v="vile" p="noun" ts="vaɪl" tr="подлость"/>
+<d v="vilify" p="verb" ts="ˈvɪlɪfaɪ" tr="очернять; поносить; сурово критиковать"/>
+<d v="villa" p="noun" ts="ˈvɪlə" tr="вилла"/>
+<d v="village" p="noun" ts="ˈvɪlɪʤ" tr="деревня"/>
+<d v="village" p="adjective" ts="ˈvɪlɪʤ" tr="сельский"/>
+<d v="villager" p="noun" ts="ˈvɪlɪʤə" tr="житель; сельчанин; сельский житель; житель деревни; деревенский житель"/>
+<d v="villain" p="noun" ts="ˈvɪlən" tr="злодей; хитрец"/>
+<d v="villainy" p="noun" ts="ˈvɪlənɪ" tr="злодейство; злодеяние"/>
+<d v="vindicate" p="verb" ts="ˈvɪndɪkeɪt" tr="подтвердить; оправдать; доказать; отстаивать"/>
+<d v="vindication" p="noun" ts="vɪndɪˈkeɪʃn" tr="подтверждение; оправдание; защита"/>
+<d v="vindictive" p="adjective" ts="vɪnˈdɪktɪv" tr="мстительный; карательный"/>
+<d v="vine" p="noun" ts="vaɪn" tr="лоза; лиана"/>
+<d v="vine" p="adjective" ts="vaɪn" tr="виноградный"/>
+<d v="vinegar" p="noun" ts="ˈvɪnɪgə" tr="уксус"/>
+<d v="vinegar" p="adjective" ts="ˈvɪnɪgə" tr="уксусный"/>
+<d v="vineyard" p="noun" ts="ˈvɪnjəd" tr="виноградник"/>
+<d v="vintage" p="adjective" ts="ˈvɪntɪʤ" tr="винтажный"/>
+<d v="vintage" p="noun" ts="ˈvɪntɪʤ" tr="винтаж; урожай"/>
+<d v="vinyl" p="adjective" ts="ˈvaɪnɪl" tr="виниловый"/>
+<d v="vinyl" p="noun" ts="ˈvaɪnɪl" tr="винил"/>
+<d v="viola" p="noun" ts="vɪˈəʊlə" tr="альт; виола; фиалка"/>
+<d v="violate" p="verb" ts="ˈvaɪəleɪt" tr="нарушать; насиловать; осквернять; вторгаться"/>
+<d v="violate" p="noun" ts="ˈvaɪəleɪt" tr="нарушение"/>
+<d v="violation" p="noun" ts="vaɪəˈleɪʃn" tr="нарушение"/>
+<d v="violence" p="noun" ts="ˈvaɪələns" tr="насилие; сила; буйство; неистовство; стремительность"/>
+<d v="violent" p="adjective" ts="ˈvaɪələnt" tr="насильственный; жестокий; яростный; бурный; сильный; агрессивный"/>
+<d v="violent" p="noun" ts="ˈvaɪələnt" tr="насилие"/>
+<d v="violently" p="adverb" ts="ˈvaɪələntlɪ" tr="яростно; насильно; сильно; бурно; буйно"/>
+<d v="violet" p="adjective" ts="ˈvaɪəlɪt" tr="фиолетовый; лиловый; ультрафиолетовый"/>
+<d v="violet" p="noun" ts="ˈvaɪəlɪt" tr="фиалка"/>
+<d v="violin" p="noun" ts="vaɪəˈlɪn" tr="скрипка; скрипач"/>
+<d v="violin" p="adjective" ts="vaɪəˈlɪn" tr="скрипичный"/>
+<d v="violinist" p="noun" ts="ˈvaɪəlɪnɪst" tr="скрипач; скрипачка"/>
+<d v="VIP" p="noun" ts="vaɪp" tr="ВИП"/>
+<d v="viper" p="noun" ts="ˈvaɪpə" tr="гадюка"/>
+<d v="viral" p="adjective" ts="ˈvaɪərəl" tr="вирусный"/>
+<d v="viral" p="noun" ts="ˈvaɪərəl" tr="вирус"/>
+<d v="virgin" p="noun" ts="ˈvɜːʤɪn" tr="дева; Богородица; девственник"/>
+<d v="virgin" p="adjective" ts="ˈvɜːʤɪn" tr="девственный; виргинский; девичий"/>
+<d v="virgin" p="numeral" ts="ˈvɜːʤɪn" tr="первый"/>
+<d v="virginity" p="noun" ts="vɜːˈʤɪnɪtɪ" tr="девственность"/>
+<d v="Virgo" p="noun" ts="ˈvɜːgəʊ" tr="дева"/>
+<d v="virile" p="adjective" ts="ˈvɪraɪl" tr="мужественный; зрелый; сильный"/>
+<d v="virility" p="noun" ts="vɪˈrɪlɪtɪ" tr="мужественность; возмужалость"/>
+<d v="virtual" p="adjective" ts="ˈvɜːtjʊəl" tr="виртуальный; фактический"/>
+<d v="virtual" p="noun" ts="ˈvɜːtjʊəl" tr="виртуальность"/>
+<d v="virtually" p="adverb" ts="ˈvɜːtjʊəlɪ" tr="практически"/>
+<d v="virtually" p="noun" ts="ˈvɜːtjʊəlɪ" tr="в сущности"/>
+<d v="virtual reality" p="noun" ts="ˈvɜːtjʊəl riːˈælɪtɪ" tr="виртуальная реальность; виртуальный мир"/>
+<d v="virtue" p="noun" ts="ˈvɜːtjuː" tr="добродетель; сила; доблесть; нравственность; свойство; добродетельность; хорошее качество"/>
+<d v="virtue" p="adjective" ts="ˈvɜːtjuː" tr="добродетельный"/>
+<d v="virtuoso" p="noun" ts="vɜːtjʊˈəʊzəʊ" tr="виртуоз; ценитель искусства"/>
+<d v="virtuoso" p="adjective" ts="vɜːtjʊˈəʊzəʊ" tr="виртуозный"/>
+<d v="virtuous" p="adjective" ts="ˈvɜːtjʊəs" tr="добродетельный; целомудренный"/>
+<d v="virtuous" p="noun" ts="ˈvɜːtjʊəs" tr="добродетель"/>
+<d v="virulent" p="adjective" ts="ˈvɪrʊlənt" tr="вирулентный; опасный; злобный; страшный"/>
+<d v="virus" p="noun" ts="ˈvaɪərəs" tr="вирус; зараза"/>
+<d v="virus" p="adjective" ts="ˈvaɪərəs" tr="вирусный"/>
+<d v="visa" p="noun" ts="ˈviːzə" tr="виза"/>
+<d v="visa" p="adjective" ts="ˈviːzə" tr="визовой"/>
+<d v="visa" p="verb" ts="ˈviːzə" tr="визировать"/>
+<d v="visage" p="noun" ts="ˈvɪzɪʤ" tr="лицо; облик"/>
+<d v="viscosity" p="noun" ts="vɪsˈkɔsɪtɪ" tr="вязкость; тягучесть; клейкость"/>
+<d v="viscous" p="adjective" ts="ˈvɪskəs" tr="вязкий; густой"/>
+<d v="vise" p="noun" ts="vaɪz" tr="тиски"/>
+<d v="visibility" p="noun" ts="vɪzɪˈbɪlɪtɪ" tr="видимость; наглядность; обзор; обзорность; заметность; известность; обозримость"/>
+<d v="visibility" p="adjective" ts="vɪzɪˈbɪlɪtɪ" tr="заметный"/>
+<d v="visible" p="adjective" ts="ˈvɪzəbl" tr="видимый; видный; зримый; очевидный"/>
+<d v="visible" p="adverb" ts="ˈvɪzəbl" tr="видимо"/>
+<d v="visibly" p="adverb" ts="ˈvɪzəblɪ" tr="заметно; видимо"/>
+<d v="vision" p="noun" ts="ˈvɪʒən" tr="видение; мечта; дальновидность; мировоззрение; проницательность"/>
+<d v="visionary" p="noun" ts="ˈvɪʒnərɪ" tr="провидец; мечтатель; фантаст; прорицатель; мистик"/>
+<d v="visionary" p="adjective" ts="ˈvɪʒnərɪ" tr="дальновидный; визионерский; призрачный; фантастический; мечтательный; провидческий"/>
+<d v="visionary" p="participle" ts="ˈvɪʒnərɪ" tr="воображаемый"/>
+<d v="visit" p="noun" ts="ˈvɪzɪt" tr="визит; посещение; гости"/>
+<d v="visit" p="verb" ts="ˈvɪzɪt" tr="посещать; навестить; бывать; наведаться; гостить; проведать; наведываться; осматривать; останавливаться; отмщать"/>
+<d v="visit" p="participle" ts="ˈvɪzɪt" tr="посещаемый; побывавший"/>
+<d v="visitation" p="noun" ts="vɪzɪˈteɪʃn" tr="посещение; Кара; испытание"/>
+<d v="visitor" p="noun" ts="ˈvɪzɪtə" tr="посетитель; инспектор; ревизор"/>
+<d v="visitor" p="adjective" ts="ˈvɪzɪtə" tr="приезжий"/>
+<d v="visor" p="noun" ts="ˈvaɪzə" tr="козырек; забрало; смотровой козырек; щиток; маска"/>
+<d v="Vista" p="noun" ts="ˈvɪstə" tr="перспектива; вист; вид; аллея; вереница; просека"/>
+<d v="visual" p="adjective" ts="ˈvɪzjʊəl" tr="визуальный"/>
+<d v="visual" p="participle" ts="ˈvɪzjʊəl" tr="видимый"/>
+<d v="visual aid" p="noun" ts="ˈvɪzjʊəl eɪd" tr="наглядное пособие"/>
+<d v="visualize" p="verb" ts="ˈvɪzjʊəlaɪz" tr="визуализировать; представить; мысленно видеть"/>
+<d v="visualize" p="noun" ts="ˈvɪzjʊəlaɪz" tr="визуализация"/>
+<d v="visually" p="adverb" ts="ˈvɪʒʊəlɪ" tr="визуально"/>
+<d v="vital" p="adjective" ts="vaɪtl" tr="важный; жизненно важный; жизненный; жизнеспособный; жизнеутверждающий; энергичный; гибельный"/>
+<d v="vital" p="adverb" ts="vaɪtl" tr="жизненно"/>
+<d v="vitality" p="noun" ts="vaɪˈtælɪtɪ" tr="жизнеспособность; жизненная сила; витальность; тонус; энергия; жизненный тонус; живость; жизнерадостность"/>
+<d v="vitality" p="adjective" ts="vaɪˈtælɪtɪ" tr="жизненный"/>
+<d v="vitally" p="adverb" ts="ˈvaɪtəlɪ" tr="жизненно"/>
+<d v="vital statistics" p="noun" ts="vaɪtl stəˈtɪstɪks" tr="демографическая статистика"/>
+<d v="vitamin" p="noun" ts="ˈvɪtəmɪn" tr="витамин"/>
+<d v="vitamin" p="adjective" ts="ˈvɪtəmɪn" tr="витаминный"/>
+<d v="vivacious" p="adjective" ts="vɪˈveɪʃəs" tr="живой"/>
+<d v="vivacity" p="noun" ts="vɪˈvæsɪtɪ" tr="бодрость; живость"/>
+<d v="vivid" p="adjective" ts="ˈvɪvɪd" tr="яркий; сочный; пылкий"/>
+<d v="vivid" p="participle" ts="ˈvɪvɪd" tr="насыщенный"/>
+<d v="vividly" p="adjective" ts="ˈvɪvɪdlɪ" tr="яркий"/>
+<d v="vividly" p="adverb" ts="ˈvɪvɪdlɪ" tr="наглядно"/>
+<d v="vivisection" p="noun" ts="vɪvɪˈsekʃn" tr="вивисекция"/>
+<d v="vocabulary" p="noun" ts="vəʊˈkæbjʊlərɪ" tr="словарь; запас слов"/>
+<d v="vocabulary" p="adjective" ts="vəʊˈkæbjʊlərɪ" tr="словарный"/>
+<d v="vocal" p="adjective" ts="ˈvəʊkəl" tr="вокальный; голосовой; шумный; крикливый; гласный; звучный"/>
+<d v="vocal" p="noun" ts="ˈvəʊkəl" tr="вокал"/>
+<d v="vocalist" p="noun" ts="ˈvəʊkəlɪst" tr="вокалист; вокалистка"/>
+<d v="vocation" p="noun" ts="veʊˈkeɪʃn" tr="призвание; профессия; отпуск; склонность"/>
+<d v="vocational" p="adjective" ts="vəʊˈkeɪʃənl" tr="профессиональный"/>
+<d v="vocational" p="noun" ts="vəʊˈkeɪʃənl" tr="ПТУ"/>
+<d v="vociferous" p="adjective" ts="vəʊˈsɪfərəs" tr="громогласный; многоголосый"/>
+<d v="vociferous" p="participle" ts="vəʊˈsɪfərəs" tr="горластый"/>
+<d v="vociferously" p="adverb" ts="vəˈsɪfərəslɪ" tr="громогласно; громко"/>
+<d v="vodka" p="noun" ts="ˈvɔdkə" tr="водка"/>
+<d v="vodka" p="adjective" ts="ˈvɔdkə" tr="водочный"/>
+<d v="vogue" p="noun" ts="vəʊg" tr="мода"/>
+<d v="vogue" p="adjective" ts="vəʊg" tr="модный"/>
+<d v="voice" p="noun" ts="vɔɪs" tr="голос; мнение; залог"/>
+<d v="voice" p="adjective" ts="vɔɪs" tr="голосовой"/>
+<d v="voice" p="verb" ts="vɔɪs" tr="озвучить"/>
+<d v="voice mail" p="noun" ts="vɔɪs meɪl" tr="голосовая почта; голосовое сообщение; звуковое послание"/>
+<d v="void" p="noun" ts="vɔɪd" tr="пустота; бездна"/>
+<d v="void" p="adjective" ts="vɔɪd" tr="недействительный; пустой"/>
+<d v="void" p="verb" ts="vɔɪd" tr="аннулировать; опорожнять"/>
+<d v="volatile" p="adjective" ts="ˈvɔlətaɪl" tr="летучий; нестабильный; изменчивый; энергозависимый; неуловимый"/>
+<d v="volatile" p="noun" ts="ˈvɔlətaɪl" tr="летучесть"/>
+<d v="volatility" p="noun" ts="vɔləˈtɪlɪtɪ" tr="волатильность; нестабильность; летучесть"/>
+<d v="volcanic" p="adjective" ts="vɔlˈkænɪk" tr="вулканический; бурный"/>
+<d v="volcanic" p="noun" ts="vɔlˈkænɪk" tr="извержение"/>
+<d v="volcano" p="noun" ts="vɔlˈkeɪnəʊ" tr="вулкан"/>
+<d v="volcano" p="adjective" ts="vɔlˈkeɪnəʊ" tr="вулканический"/>
+<d v="volition" p="noun" ts="vəʊˈlɪʃn" tr="воля; воление; волевой акт"/>
+<d v="volition" p="adjective" ts="vəʊˈlɪʃn" tr="волевой"/>
+<d v="volley" p="noun" ts="ˈvɔlɪ" tr="залп; волейбол; поток"/>
+<d v="volley" p="adjective" ts="ˈvɔlɪ" tr="залповый"/>
+<d v="volleyball" p="noun" ts="ˈvɒlɪbɔːl" tr="волейбол"/>
+<d v="volleyball" p="adjective" ts="ˈvɒlɪbɔːl" tr="волейбольный"/>
+<d v="volt" p="adjective" ts="vɔlt" tr="вольтовый"/>
+<d v="voltage" p="noun" ts="ˈvəʊltɪʤ" tr="напряжение; вольтаж"/>
+<d v="volume" p="noun" ts="ˈvɔljʊm" tr="объем; том; громкость; книга; масса; сила; полнота; вместительность"/>
+<d v="volume" p="adjective" ts="ˈvɔljʊm" tr="объемный"/>
+<d v="voluminous" p="adjective" ts="vəˈljuːmɪnəs" tr="объемный; обширный; объемистый; массивный"/>
+<d v="voluntarily" p="adverb" ts="ˈvɒləntrəlɪ" tr="добровольно"/>
+<d v="voluntarily" p="adjective" ts="ˈvɒləntrəlɪ" tr="добровольный"/>
+<d v="voluntarily" p="noun" ts="ˈvɒləntrəlɪ" tr="на добровольной основе"/>
+<d v="voluntary" p="adjective" ts="ˈvɔləntərɪ" tr="добровольный; произвольный; сознательный"/>
+<d v="voluntary" p="noun" ts="ˈvɔləntərɪ" tr="добровольность"/>
+<d v="volunteer" p="noun" ts="vɔlənˈtɪə" tr="доброволец; волонтерство"/>
+<d v="volunteer" p="adjective" ts="vɔlənˈtɪə" tr="добровольный"/>
+<d v="volunteer" p="verb" ts="vɔlənˈtɪə" tr="вызваться; добровольно вызваться"/>
+<d v="volunteer" p="participle" ts="vɔlənˈtɪə" tr="желающий"/>
+<d v="voluptuous" p="adjective" ts="vəˈlʌptjʊəs" tr="сладострастный; чувственный; роскошный; сластолюбивый"/>
+<d v="vomit" p="noun" ts="ˈvɔmɪt" tr="рвота; рвотные массы"/>
+<d v="vomit" p="verb" ts="ˈvɔmɪt" tr="рвать; стошнить; извергнуть"/>
+<d v="voodoo" p="noun" ts="ˈvuːduː" tr="вуду; колдовство; шаманство; знахарь; шаман"/>
+<d v="voodoo" p="adjective" ts="ˈvuːduː" tr="колдовской"/>
+<d v="voracious" p="adjective" ts="vəˈreɪʃəs" tr="прожорливый"/>
+<d v="voracity" p="noun" ts="vɔˈræsɪtɪ" tr="прожорливость; ненасытность"/>
+<d v="vortex" p="noun" ts="ˈvɔːteks" tr="вихрь"/>
+<d v="vortex" p="adjective" ts="ˈvɔːteks" tr="вихревой"/>
+<d v="vote" p="noun" ts="vəʊt" tr="голос; решение"/>
+<d v="vote" p="verb" ts="vəʊt" tr="голосовать; признавать"/>
+<d v="voter" p="noun" ts="ˈvəʊtə" tr="избиратель"/>
+<d v="voter" p="participle" ts="ˈvəʊtə" tr="голосующий"/>
+<d v="voting booth" p="noun" ts="ˈvəʊtɪŋ buːð" tr="кабина для голосования"/>
+<d v="vouch" p="verb" ts="vaʊʧ" tr="поручиться"/>
+<d v="voucher" p="noun" ts="ˈvaʊʧə" tr="ваучер; поручитель; оправдательный документ"/>
+<d v="voucher" p="adjective" ts="ˈvaʊʧə" tr="чековый"/>
+<d v="vow" p="noun" ts="vaʊ" tr="обет"/>
+<d v="vow" p="verb" ts="vaʊ" tr="поклясться"/>
+<d v="vowel" p="adjective" ts="ˈvaʊəl" tr="гласный"/>
+<d v="voyage" p="noun" ts="ˈvɔɪɪʤ" tr="путешествие; рейс; морское путешествие"/>
+<d v="voyage" p="verb" ts="ˈvɔɪɪʤ" tr="путешествовать; плавать"/>
+<d v="voyage" p="adjective" ts="ˈvɔɪɪʤ" tr="рейсовый"/>
+<d v="Voyager" p="noun" ts="ˈvɔɪəʤə" tr="Вояджер; путешественник; мореплаватель"/>
+<d v="voyeur" p="noun" ts="vwaɪˈjɜː" tr="вуайерист"/>
+<d v="vulgar" p="adjective" ts="ˈvʌlgə" tr="вульгарный; простонародный; плебейский; народный"/>
+<d v="vulgar" p="noun" ts="ˈvʌlgə" tr="вульгарность; пошляк; простонародье"/>
+<d v="vulgarity" p="noun" ts="vʌlˈgærɪtɪ" tr="пошлость"/>
+<d v="vulnerability" p="noun" ts="vʌlnərəˈbɪlɪtɪ" tr="уязвимость; уязвимое место; незащищенность"/>
+<d v="vulnerability" p="adjective" ts="vʌlnərəˈbɪlɪtɪ" tr="уязвимый"/>
+<d v="vulnerable" p="adjective" ts="ˈvʌlnərəbl" tr="уязвимый"/>
+<d v="vulnerable" p="participle" ts="ˈvʌlnərəbl" tr="ранимый"/>
+<d v="vulture" p="noun" ts="ˈvʌlʧə" tr="стервятник; коршун"/>
+
+</defs>
