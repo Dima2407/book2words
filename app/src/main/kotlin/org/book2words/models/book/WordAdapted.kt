@@ -72,12 +72,13 @@ public class WordAdapted(private val start: Int,
         return offset
     }
 
-    fun removeSpannable(adapted: SpannableStringBuilder) {
+    fun removeSpannable(adapted: SpannableStringBuilder): IntRange {
         adapted.removeSpan(foregroundSpan)
         adapted.removeSpan(styleSpan)
         adapted.removeSpan(sizeSpan)
         adapted.removeSpan(clickSpan)
         adapted.replace(transcriptionStart, transcriptionEnd, "")
+        return IntRange(transcriptionStart, transcriptionEnd)
     }
 
     private class WordClickSpan(private val wordAdapted: WordAdapted, private val function: (WordAdapted) -> Unit) : ClickableSpan() {
@@ -150,5 +151,10 @@ public class WordAdapted(private val start: Int,
 
     fun hasDefinitions(): Boolean {
         return word.hasDefinitions()
+    }
+
+    fun updateSpannable(offset: Int) {
+        transcriptionStart -= offset
+        transcriptionEnd -= offset
     }
 }

@@ -165,10 +165,11 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
 
     public fun removeWord(word: WordAdapted) {
         val removed = TreeSet(words.filter { it.equals(word) }).reverse()
+        var offsets = ArrayList<Int>()
         removed.forEach {
             val success = words.remove(it)
             if (success) {
-                it.removeSpannable(adapted)
+                offsets + it.removeSpannable(adapted)
             }
         }
     }
