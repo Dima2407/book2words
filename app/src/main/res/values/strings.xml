@@ -29,4 +29,6 @@
     <string name="default_dictionary">Default</string>
     <string name="action_menu">Menu</string>
     <string name="i_know">I know this word</string>
+    <string name="library">Library</string>
+    <string name="settings">Settings</string>
 </resources>

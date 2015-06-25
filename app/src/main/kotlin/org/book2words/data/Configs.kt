@@ -7,15 +7,15 @@ import java.io.File
 public class Configs (private val preferences: SharedPreferences) {
 
     public fun getParagraphsInStep(): Int {
-        return preferences.getInt(PARAGRAPHS_IN_STEP, 20)
+        return preferences.getInt(PARAGRAPHS_IN_STEP, 10)
     }
 
     public fun getMaxParagraphsInStep(): Int {
-        return preferences.getInt(MAX_PARAGRAPHS_IN_STEP, 200)
+        return preferences.getInt(MAX_PARAGRAPHS_IN_STEP, 50)
     }
 
     public fun getCurrentParagraphsInStep(): Int {
-        return preferences.getInt(CURRENT_PARAGRAPHS_IN_STEP, 20)
+        return preferences.getInt(CURRENT_PARAGRAPHS_IN_STEP, 10)
     }
 
     public fun setCurrentParagraphsInStep(paragraphs: Int) {

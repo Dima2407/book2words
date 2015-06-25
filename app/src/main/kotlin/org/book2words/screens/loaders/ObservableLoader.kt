@@ -1,8 +1,8 @@
 package org.book2words.screens.loaders
 
-import android.content.AsyncTaskLoader
 import android.content.BroadcastReceiver
 import android.content.Context
+import android.support.v4.content.AsyncTaskLoader
 
 public abstract class ObservableLoader<T>(context: Context, private val onDataChanged: (() -> Unit)? = null) : AsyncTaskLoader<List<T>>(context) {
 

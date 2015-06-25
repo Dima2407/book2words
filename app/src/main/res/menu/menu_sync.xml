@@ -5,10 +5,6 @@
             android:orderInCategory="100"
             android:showAsAction="always">
         <menu>
-            <item android:id="@+id/action_add"
-                  android:title="@string/action_add_book"
-                  android:orderInCategory="100"
-                  android:showAsAction="ifRoom"/>
             <item android:id="@+id/action_import"
                   android:title="@string/action_import_dictionaries"
                   android:orderInCategory="100"

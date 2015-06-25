@@ -1,22 +1,25 @@
 package org.book2words.screens
 
 import android.app.Activity
-import android.app.Fragment
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.content.Loader
+import android.graphics.Rect
 import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.support.v4.content.Loader
+import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.*
 import android.widget.ImageView
-import android.widget.TextView
+import android.widget.ProgressBar
 import com.nostra13.universalimageloader.core.ImageLoader
 import org.book2words.R
 import org.book2words.SelectFileActivity
 import org.book2words.SplitActivity
 import org.book2words.activities.ReaderActivity
 import org.book2words.core.FileStorage
+import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
 import org.book2words.dao.LibraryDictionary
 import org.book2words.data.DataContext
@@ -41,8 +44,28 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        val spanCount = getResources().getInteger(R.integer.span_count)
+        addItemDecoration(GridSpacingItemDecoration(spanCount, 10, true))
         val adapter = LibraryFileAdapter(getActivity())
         setListAdapter(adapter)
+    }
+
+    override fun createLayoutManager(): RecyclerView.LayoutManager {
+        val spanCount = getResources().getInteger(R.integer.span_count)
+        Logger.debug("createLayoutManager() ${spanCount}")
+        val layoutManager = GridLayoutManager(getActivity(), spanCount)
+        layoutManager.setSpanSizeLookup(object : GridLayoutManager.SpanSizeLookup() {
+            override fun getSpanSize(position: Int): Int {
+                val line = position / spanCount
+                if (line % 2 != 0) {
+                    return 1
+                } else {
+                    return 2
+                }
+            }
+
+        })
+        return layoutManager
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
@@ -87,12 +110,6 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if (item?.getItemId() == R.id.action_add) {
-            val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
-            intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "epub")
-            startActivityForResult(intent, REQUEST_CODE_BOOK)
-            return true;
-        }
         if (item?.getItemId() == R.id.action_import) {
             val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
             intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "zip")
@@ -136,16 +153,14 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         override fun onBindViewHolder(holder: BookViewHolder, item: LibraryBook, position: Int) {
             if (item.getAdapted() == LibraryBook.ADAPTED) {
                 holder.wordsView.setVisibility(View.VISIBLE)
-                holder.wordsView.setText("${item.getUnknownWordsCount()} / ${item.getWordsCount()}")
+                holder.wordsView.setMax(item.getCountPartitions())
+                holder.wordsView.setProgress(item.getCurrentPartition())
             } else {
                 holder.wordsView.setVisibility(View.GONE)
             }
             val coverUri = FileStorage.imageCoverUri(item.getId())
 
             ImageLoader.getInstance().displayImage(coverUri, holder.coverView)
-            holder.titleView.setText(item.getName())
-            holder.authorsView.setText(item.getAuthors())
-            holder.languageView.setText(item.getLanguage())
         }
 
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
@@ -157,17 +172,11 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     private class BookViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val titleView: TextView
-        val authorsView: TextView
-        val languageView: TextView
-        val wordsView: TextView
+        val wordsView: ProgressBar
         val coverView: ImageView
 
         init {
-            titleView = view.findViewById(R.id.text_title) as TextView
-            wordsView = view.findViewById(R.id.text_words) as TextView
-            languageView = view.findViewById(R.id.text_language) as TextView
-            authorsView = view.findViewById(R.id.text_author) as TextView
+            wordsView = view.findViewById(R.id.text_words) as ProgressBar
             coverView = view.findViewById(R.id.image_cover) as ImageView
         }
     }
@@ -180,6 +189,32 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
         override fun loadInBackground(): List<LibraryBook> {
             return DataContext.getLibraryBookDao(context).loadAll()
+        }
+    }
+
+    private class GridSpacingItemDecoration(private val spanCount: Int,
+                                            private val spacing: Int,
+                                            private val includeEdge: Boolean) : RecyclerView.ItemDecoration() {
+
+        override fun getItemOffsets(outRect: Rect?, view: View?, parent: RecyclerView?, state: RecyclerView.State?) {
+            val position = parent!!.getChildAdapterPosition(view)
+            val column = position % spanCount
+            if (includeEdge) {
+                outRect!!.left = spacing - column * spacing / spanCount; // spacing - column * ((1f / spanCount) * spacing)
+                outRect.right = (column + 1) * spacing / spanCount; // (column + 1) * ((1f / spanCount) * spacing)
+
+                if (position < spanCount) {
+                    // top edge
+                    outRect.top = spacing;
+                }
+                outRect.bottom = spacing; // item bottom
+            } else {
+                outRect!!.left = column * spacing / spanCount; // column * ((1f / spanCount) * spacing)
+                outRect.right = spacing - (column + 1) * spacing / spanCount; // spacing - (column + 1) * ((1f /    spanCount) * spacing)
+                if (position >= spanCount) {
+                    outRect.top = spacing; // item top
+                }
+            }
         }
     }
 }

@@ -1,6 +1,10 @@
 package org.book2words.screens.loaders
 
-import android.content.*
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.support.v4.content.AsyncTaskLoader
 
 public class BaseObserver<T>(private val mLoader: AsyncTaskLoader<T>, vararg filters: String) : BroadcastReceiver() {
 

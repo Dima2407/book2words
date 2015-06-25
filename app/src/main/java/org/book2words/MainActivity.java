@@ -1,47 +1,62 @@
 package org.book2words;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
+import android.content.Context;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import org.book2words.screens.DictionarySettingsFragment;
 import org.book2words.screens.LibraryListFragment;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
 
-    public static final String FRAGMENT_TAG = "fragment1";
+    private ViewPager mPager;
 
-    public static final String FRAGMENT_MENU_TAG = "fragment2";
+    private PagerAdapter mPagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        loadContentFragment(FRAGMENT_TAG);
-
-        loadMenuFragment(FRAGMENT_MENU_TAG);
+        // Instantiate a ViewPager and a PagerAdapter.
+        mPager = (ViewPager) findViewById(R.id.pager);
+        mPagerAdapter = new ScreenSlidePagerAdapter(this);
+        mPager.setAdapter(mPagerAdapter);
+        mPager.setCurrentItem(1);
     }
 
-    private void loadMenuFragment(String tag) {
-        Fragment fragment = getFragmentManager().findFragmentByTag(tag);
-        if (fragment == null) {
-            fragment = new DictionarySettingsFragment();
+    private static class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
+        private final Context context;
 
-            FragmentTransaction transaction = getFragmentManager().beginTransaction();
-            transaction.add(R.id.dictionary_frame, fragment, tag);
-            transaction.commit();
+        public ScreenSlidePagerAdapter(FragmentActivity activity) {
+            super(activity.getSupportFragmentManager());
+            this.context = activity;
         }
-    }
 
-    private void loadContentFragment(String tag) {
-        Fragment fragment = getFragmentManager().findFragmentByTag(tag);
-        if (fragment == null) {
-            fragment = LibraryListFragment.Companion.create();
+        @Override
+        public Fragment getItem(int position) {
+            if (position == 0) {
+                return new DictionarySettingsFragment();
+            } else {
+                return LibraryListFragment.Companion.create();
+            }
+        }
 
-            FragmentTransaction transaction = getFragmentManager().beginTransaction();
-            transaction.add(R.id.content_frame, fragment, tag);
-            transaction.commit();
+        @Override
+        public CharSequence getPageTitle(int position) {
+            if (position == 0) {
+                return context.getString(R.string.settings);
+            } else {
+                return context.getString(R.string.library);
+            }
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
         }
     }
 

@@ -1,9 +1,10 @@
 package org.book2words.screens.core
 
-import android.app.Fragment
-import android.app.LoaderManager
-import android.content.Loader
+import android.graphics.Rect
 import android.os.Bundle
+import android.support.v4.app.Fragment
+import android.support.v4.app.LoaderManager
+import android.support.v4.content.Loader
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.View
@@ -19,9 +20,21 @@ public abstract class ObservableListFragment<T> : Fragment(), LoaderManager.Load
         super<Fragment>.onActivityCreated(savedInstanceState)
         getLoaderManager().initLoader(0, getArguments(), this)
         progressView!!.setVisibility(View.VISIBLE)
-        listView!!.setHasFixedSize(true);
+        listView!!.setHasFixedSize(true)
+        listView!!.addItemDecoration(object : RecyclerView.ItemDecoration(){
+            override fun getItemOffsets(outRect: Rect?, view: View?, parent: RecyclerView?, state: RecyclerView.State?) {
+                super.getItemOffsets(outRect, view, parent, state)
+            }
+        })
+        listView!!.setLayoutManager(createLayoutManager())
+    }
 
-        listView!!.setLayoutManager(LinearLayoutManager(getActivity()))
+    protected open fun createLayoutManager() : RecyclerView.LayoutManager {
+        return LinearLayoutManager(getActivity())
+    }
+
+    protected fun addItemDecoration(decoration : RecyclerView.ItemDecoration){
+        listView!!.addItemDecoration(decoration)
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
