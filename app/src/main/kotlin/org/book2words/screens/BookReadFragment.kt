@@ -26,7 +26,7 @@ public class BookReadFragment : Fragment() {
     private var progressView: View? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_read, null);
+        return inflater.inflate(R.layout.fragment_read, null)
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
@@ -131,7 +131,7 @@ public class BookReadFragment : Fragment() {
                         .setPositiveButton(R.string.i_know, { dialog, id ->
                             onIKnowClickListener()
                         })
-                        .setNegativeButton(android.R.string.ok, null);
+                        .setNegativeButton(android.R.string.ok, null)
                 val dialog = builder.create()
                 dialog.show()
             }
@@ -146,9 +146,9 @@ public class BookReadFragment : Fragment() {
 
         override fun onCreateViewHolder(p0: ViewGroup?, p1: Int): ParagraphViewHolder? {
             val view = LayoutInflater.from(context)
-                    .inflate(R.layout.list_item_paragraph, p0, false);
-            val vh = ParagraphViewHolder(view);
-            return vh;
+                    .inflate(R.layout.list_item_paragraph, p0, false)
+            val vh = ParagraphViewHolder(view)
+            return vh
         }
     }
 

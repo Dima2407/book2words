@@ -12,9 +12,9 @@ private abstract class BookReader(private val spine: Spine,
 
     private var length = 0
 
-    abstract fun onChapter(chapter: Int, text: String);
+    abstract fun onChapter(chapter: Int, text: String)
 
-    abstract fun onFinished();
+    abstract fun onFinished()
 
     public fun getCurrent(): Int {
         return current + 1
@@ -68,7 +68,7 @@ private abstract class BookReader(private val spine: Spine,
         try {
             val stream = resource.getInputStream()
             try {
-                val reader = stream.bufferedReader(encoding);
+                val reader = stream.bufferedReader(encoding)
                 reader.forEachLine {
                     string.append(it)
                 }

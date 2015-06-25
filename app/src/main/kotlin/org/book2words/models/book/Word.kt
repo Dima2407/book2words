@@ -10,14 +10,14 @@ public open class Word(value: String) : Comparable<Word>, Serializable {
     SerializedName("p")
     val paragraphs: MutableList<Paragraph> = ArrayList()
     SerializedName("v")
-    val value: String;
+    val value: String
     Expose
     var definitions: Array<out Definition>? = null
     Expose
     var translated: Boolean = false
 
     init {
-        this.value = value.toLowerCase();
+        this.value = value.toLowerCase()
     }
 
     override fun compareTo(other: Word): Int {
@@ -29,7 +29,7 @@ public open class Word(value: String) : Comparable<Word>, Serializable {
     }
 
     override fun toString(): String {
-        return "${value}";
+        return "${value}"
     }
 
     override fun equals(other: Any?): Boolean {

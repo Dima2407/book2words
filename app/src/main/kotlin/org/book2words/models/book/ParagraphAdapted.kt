@@ -155,7 +155,7 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
     }
 
     public fun prepareTextWithWords() {
-        var offset = 0;
+        var offset = 0
         adapted.clearSpans()
         words.forEach {
             offset = it.applySpannable(adapted, offset, onWordClickListener)

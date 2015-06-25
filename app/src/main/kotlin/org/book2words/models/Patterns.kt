@@ -3,13 +3,13 @@ package org.book2words.models
 import java.util.regex.Pattern
 
 public object Patterns {
-    val WITH_APOSTROPHE = Pattern.compile("\\w+[’'](ve|re|ll|s|d|t|m)", Pattern.CASE_INSENSITIVE);
+    val WITH_APOSTROPHE = Pattern.compile("\\w+[’'](ve|re|ll|s|d|t|m)", Pattern.CASE_INSENSITIVE)
 
-    val DUPLICATES = Pattern.compile(buildDuplicates(), Pattern.CASE_INSENSITIVE);
+    val DUPLICATES = Pattern.compile(buildDuplicates(), Pattern.CASE_INSENSITIVE)
 
-    val CAPITAL_WORD = Pattern.compile("[^.!?'`\"-]\\s\\b([A-Z][a-z'`’]+)\\b");
+    val CAPITAL_WORD = Pattern.compile("[^.!?'`\"-]\\s\\b([A-Z][a-z'`’]+)\\b")
 
-    val WORD = Pattern.compile("\\b((([a-zA-Z'`’]+-)*[a-zA-Z'`’]+){3,})\\b");
+    val WORD = Pattern.compile("\\b((([a-zA-Z'`’]+-)*[a-zA-Z'`’]+){3,})\\b")
 
     val MAX_CAPITALS = 10
 
@@ -23,6 +23,6 @@ public object Patterns {
                 builder.append("|")
             }
         }
-        return builder.toString();
+        return builder.toString()
     }
 }

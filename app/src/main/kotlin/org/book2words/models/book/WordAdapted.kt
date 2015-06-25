@@ -23,7 +23,7 @@ public class WordAdapted(private val start: Int,
 
     private var transcriptionStart = 0
 
-    private var transcriptionEnd = 0;
+    private var transcriptionEnd = 0
 
     override fun compareTo(other: WordAdapted): Int {
         return start - other.start

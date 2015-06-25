@@ -1,4 +1,4 @@
-package org.book2words.translate;
+package org.book2words.translate
 
 import android.content.res.Resources
 import org.book2words.R
@@ -14,11 +14,11 @@ import javax.xml.xpath.XPathFactory
 private class VerbsDictionary(private val resources: Resources) : Dictionary {
 
     private val xPath = XPathFactory.newInstance().newXPath()
-    private var executor = Executors.newSingleThreadExecutor();
+    private var executor = Executors.newSingleThreadExecutor()
 
     override fun find(input: String, onFound: (String, Array<out Definition>) -> Unit) {
         executor.submit({
-            onFound(input, find(input));
+            onFound(input, find(input))
         })
     }
 

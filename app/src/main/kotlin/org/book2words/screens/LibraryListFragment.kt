@@ -105,7 +105,7 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
-        inflater!!.inflate(R.menu.menu_sync, menu);
+        inflater!!.inflate(R.menu.menu_sync, menu)
         super.onCreateOptionsMenu(menu, inflater)
     }
 
@@ -114,11 +114,11 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
             val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
             intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "zip")
             startActivityForResult(intent, REQUEST_CODE_IMPORT)
-            return true;
+            return true
         }
         if (item?.getItemId() == R.id.action_export) {
             LibraryService.export(getActivity())
-            return true;
+            return true
         }
         return super.onOptionsItemSelected(item)
     }
@@ -165,9 +165,9 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
             val view = LayoutInflater.from(context)
-                    .inflate(R.layout.list_item_book, parent, false);
-            val vh = BookViewHolder(view);
-            return vh;
+                    .inflate(R.layout.list_item_book, parent, false)
+            val vh = BookViewHolder(view)
+            return vh
         }
     }
 
@@ -200,19 +200,19 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
             val position = parent!!.getChildAdapterPosition(view)
             val column = position % spanCount
             if (includeEdge) {
-                outRect!!.left = spacing - column * spacing / spanCount; // spacing - column * ((1f / spanCount) * spacing)
-                outRect.right = (column + 1) * spacing / spanCount; // (column + 1) * ((1f / spanCount) * spacing)
+                outRect!!.left = spacing - column * spacing / spanCount // spacing - column * ((1f / spanCount) * spacing)
+                outRect.right = (column + 1) * spacing / spanCount // (column + 1) * ((1f / spanCount) * spacing)
 
                 if (position < spanCount) {
                     // top edge
-                    outRect.top = spacing;
+                    outRect.top = spacing
                 }
-                outRect.bottom = spacing; // item bottom
+                outRect.bottom = spacing // item bottom
             } else {
-                outRect!!.left = column * spacing / spanCount; // column * ((1f / spanCount) * spacing)
-                outRect.right = spacing - (column + 1) * spacing / spanCount; // spacing - (column + 1) * ((1f /    spanCount) * spacing)
+                outRect!!.left = column * spacing / spanCount // column * ((1f / spanCount) * spacing)
+                outRect.right = spacing - (column + 1) * spacing / spanCount // spacing - (column + 1) * ((1f /    spanCount) * spacing)
                 if (position >= spanCount) {
-                    outRect.top = spacing; // item top
+                    outRect.top = spacing // item top
                 }
             }
         }

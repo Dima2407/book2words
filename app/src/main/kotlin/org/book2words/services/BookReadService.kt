@@ -57,14 +57,14 @@ public class BookReadService : Service() {
             val intent = Intent(context, javaClass<BookReadService>())
             intent.setAction(ACTION_READ)
             intent.putExtra(EXTRA_BOOK, book)
-            context.bindService(intent, connection, Context.BIND_AUTO_CREATE);
+            context.bindService(intent, connection, Context.BIND_AUTO_CREATE)
         }
 
         public fun bindForAdapt(context: Context, connection: ServiceConnection, book: LibraryBook) {
             val intent = Intent(context, javaClass<BookReadService>())
             intent.setAction(ACTION_ADAPT)
             intent.putExtra(EXTRA_BOOK, book)
-            context.bindService(intent, connection, Context.BIND_AUTO_CREATE);
+            context.bindService(intent, connection, Context.BIND_AUTO_CREATE)
         }
     }
 }

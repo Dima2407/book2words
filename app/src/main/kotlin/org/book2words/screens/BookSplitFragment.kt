@@ -24,7 +24,7 @@ public class BookSplitFragment : Fragment() {
 
     private var reader: BookAdapterBinder? = null
 
-    private var book: LibraryBook? = null;
+    private var book: LibraryBook? = null
 
     private var bound = false
 
@@ -32,18 +32,18 @@ public class BookSplitFragment : Fragment() {
 
         override public fun onServiceConnected(className: ComponentName, service: IBinder) {
             reader = service as BookAdapterBinder
-            bound = true;
+            bound = true
             split()
         }
 
         override public fun onServiceDisconnected(arg0: ComponentName) {
-            bound = false;
+            bound = false
         }
     }
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_split, null);
+        return inflater.inflate(R.layout.fragment_split, null)
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
@@ -54,7 +54,7 @@ public class BookSplitFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY);
+        book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY)
     }
 
     override fun onStart() {
@@ -65,8 +65,8 @@ public class BookSplitFragment : Fragment() {
     override fun onStop() {
         super.onStop()
         if (bound) {
-            getActivity().unbindService(connection);
-            bound = false;
+            getActivity().unbindService(connection)
+            bound = false
         }
     }
 

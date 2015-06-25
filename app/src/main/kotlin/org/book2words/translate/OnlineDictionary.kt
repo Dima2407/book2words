@@ -19,11 +19,11 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
 
     private val deserializer = Gson()
 
-    private var executor = Executors.newSingleThreadExecutor();
+    private var executor = Executors.newSingleThreadExecutor()
 
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({
-            onFound(input, find(input));
+            onFound(input, find(input))
         })
     }
 
@@ -109,7 +109,7 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
     companion object {
 
         private val TAG = javaClass<OnlineDictionary>().getSimpleName()
-        private val API_KEY = "dict.1.1.20150121T133416Z.012b4f6033891237.6f0842fdef230f439d6de551d88d58831e4203e3";
+        private val API_KEY = "dict.1.1.20150121T133416Z.012b4f6033891237.6f0842fdef230f439d6de551d88d58831e4203e3"
         //private val API_KEY = "dict.1.1.20150106T111220Z.9a21fb953b9a84b1.b2c75f2ccb09ec04eff11a41590d35894dcf6124"
 
         private val QUERY = "https://dictionary.yandex.net/api/v1/dicservice.json/lookup"

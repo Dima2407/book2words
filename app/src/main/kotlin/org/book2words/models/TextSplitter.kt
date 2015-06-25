@@ -20,11 +20,11 @@ public class TextSplitter private constructor() {
     private var partitions = 0
 
     public fun findCapital(text: String) {
-        val wordPattern = Patterns.CAPITAL_WORD;
-        val matcher = wordPattern.matcher(text);
-        var offset = 0;
+        val wordPattern = Patterns.CAPITAL_WORD
+        val matcher = wordPattern.matcher(text)
+        var offset = 0
         while (matcher.find(offset)) {
-            offset = matcher.start(1);
+            offset = matcher.start(1)
             val word = matcher.group(1).toLowerCase()
             val value = capitals.getOrElse(word, { 0 })
             capitals.put(word, value + 1)
@@ -86,7 +86,7 @@ public class TextSplitter private constructor() {
     }
 
     public fun clearWithApostrophe() {
-        val pattern = Patterns.WITH_APOSTROPHE;
+        val pattern = Patterns.WITH_APOSTROPHE
         clear {
             pattern.matcher(it).matches()
         }
@@ -94,7 +94,7 @@ public class TextSplitter private constructor() {
 
 
     public fun clearWithDuplicates() {
-        val pattern = Patterns.DUPLICATES;
+        val pattern = Patterns.DUPLICATES
         clear {
             pattern.matcher(it).matches()
         }

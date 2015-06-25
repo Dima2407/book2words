@@ -26,21 +26,21 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
             val builder = Notification.Builder(this)
             builder.setSmallIcon(R.drawable.ic_launcher)
-            builder.setProgress(100, 0, true);
+            builder.setProgress(100, 0, true)
 
             val notificationIntent = Intent(this, javaClass<MainActivity>())
             val pendingIntent = PendingIntent.getActivity(this, 0,
-                    notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+                    notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
             builder.setContentIntent(pendingIntent)
-            startForeground(NOTIFICATION_ID, builder.build());
+            startForeground(NOTIFICATION_ID, builder.build())
 
             when (action) {
                 OPEN_ACTION -> {
                     val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
 
                     builder.setContentTitle("Adapting ${book.getName()}")
-                    startForeground(NOTIFICATION_ID, builder.build());
+                    startForeground(NOTIFICATION_ID, builder.build())
 
                     startBook(book)
 
@@ -49,7 +49,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
                     val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
 
                     builder.setContentTitle("Adapting ${book.getName()}")
-                    startForeground(NOTIFICATION_ID, builder.build());
+                    startForeground(NOTIFICATION_ID, builder.build())
 
                     stopBook(book)
                 }
@@ -59,7 +59,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
                     val text = intent.getStringExtra(EXTRA_TEXT)
 
                     builder.setContentTitle("Processing ${index} chapter")
-                    startForeground(NOTIFICATION_ID, builder.build());
+                    startForeground(NOTIFICATION_ID, builder.build())
 
                     splitText(id, index, text)
                 }
@@ -101,7 +101,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
         Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)
 
-        val file = FileStorage.createWordsFile(book.getId());
+        val file = FileStorage.createWordsFile(book.getId())
         val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
         val words = textSplitter.getWords()
@@ -178,7 +178,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         private val EXTRA_BOOK: String = "_book"
 
         public fun save(context: Context, id: Long, index: Int, text: String) {
-            val intent = Intent(context, javaClass<BookSplitService>());
+            val intent = Intent(context, javaClass<BookSplitService>())
             intent.setAction(SPLIT_ACTION)
             intent.putExtra(EXTRA_ID, id)
             intent.putExtra(EXTRA_INDEX, index)
@@ -187,14 +187,14 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         }
 
         public fun openBook(context: Context, book: LibraryBook) {
-            val intent = Intent(context, javaClass<BookSplitService>());
+            val intent = Intent(context, javaClass<BookSplitService>())
             intent.setAction(OPEN_ACTION)
             intent.putExtra(EXTRA_BOOK, book)
             context.startService(intent)
         }
 
         public fun closeBook(context: Context, book: LibraryBook) {
-            val intent = Intent(context, javaClass<BookSplitService>());
+            val intent = Intent(context, javaClass<BookSplitService>())
             intent.setAction(CLOSE_ACTION)
             intent.putExtra(EXTRA_BOOK, book)
             context.startService(intent)

@@ -98,9 +98,9 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
 
         override fun onCreateViewHolder(p0: ViewGroup?, p1: Int): DictionaryViewHolder? {
             val view = LayoutInflater.from(context)
-                    .inflate(R.layout.list_item_dictionary, p0, false);
-            val vh = DictionaryViewHolder(view);
-            return vh;
+                    .inflate(R.layout.list_item_dictionary, p0, false)
+            val vh = DictionaryViewHolder(view)
+            return vh
         }
     }
 

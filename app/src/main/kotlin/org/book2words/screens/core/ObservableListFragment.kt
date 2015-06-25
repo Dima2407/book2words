@@ -46,13 +46,13 @@ public abstract class ObservableListFragment<T> : Fragment(), LoaderManager.Load
     override fun onLoaderReset(loader: Loader<List<T>>?) {
         progressView!!.setVisibility(View.GONE)
         listView!!.setVisibility(View.VISIBLE)
-        adapter?.onLoaderReset();
+        adapter?.onLoaderReset()
     }
 
     override fun onLoadFinished(loader: Loader<List<T>>?, data: List<T>?) {
         progressView!!.setVisibility(View.GONE)
         listView!!.setVisibility(View.VISIBLE)
-        adapter?.onLoadFinished(data);
+        adapter?.onLoadFinished(data)
     }
 
     public fun setListAdapter(adapter: ObservableAdapter<T, out RecyclerView.ViewHolder>) {

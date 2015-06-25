@@ -98,7 +98,7 @@ public class SelectBookDialogFragment : Fragment() {
         override fun getView(position: Int, convertView: View?, parent: ViewGroup): View? {
             var view = convertView
             if (view == null) {
-                view = View.inflate(getContext(), android.R.layout.simple_list_item_1, null);
+                view = View.inflate(getContext(), android.R.layout.simple_list_item_1, null)
             }
             val textView = view as TextView
             val name = getItem(position).getName()

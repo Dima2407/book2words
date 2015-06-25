@@ -48,7 +48,7 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({
 
-            onFound(input, find(input));
+            onFound(input, find(input))
         })
     }
 

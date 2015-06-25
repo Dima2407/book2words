@@ -28,22 +28,22 @@ public class WebViewBookReader(private val surface: WebView,
         Logger.debug("onChapter(${chapter})")
         surface.post {
             Logger.debug("loadData(${text})")
-            surface.loadData(text, MIME_TYPE, encoding);
+            surface.loadData(text, MIME_TYPE, encoding)
         }
     }
 
     override fun onFinished() {
         Logger.debug("onFinished()")
         surface.post {
-            surface.removeJavascriptInterface(JAVASCRIPT_INTERFACE);
+            surface.removeJavascriptInterface(JAVASCRIPT_INTERFACE)
             onRelease()
-        };
+        }
     }
 
     override fun start(offset: Int, length: Int, fetcher: BodyTextFetcher?) {
         surface.post {
-            surface.addJavascriptInterface(fetcher, JAVASCRIPT_INTERFACE);
-            surface.reload();
+            surface.addJavascriptInterface(fetcher, JAVASCRIPT_INTERFACE)
+            surface.reload()
             super.start(offset, length)
         }
     }

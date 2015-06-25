@@ -31,7 +31,7 @@ public class BookReaderBinder(
     }
 
     override fun release() {
-        val file = FileStorage.createWordsFile(book.getId());
+        val file = FileStorage.createWordsFile(book.getId())
         val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
         unknownWords.forEach {

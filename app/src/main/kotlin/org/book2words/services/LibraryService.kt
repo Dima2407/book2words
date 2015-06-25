@@ -37,15 +37,15 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
                 val notificationIntent = Intent(this, javaClass<MainActivity>())
                 val pendingIntent = PendingIntent.getActivity(this, 0,
-                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
                 val builder = Notification.Builder(this)
                 builder.setSmallIcon(R.drawable.ic_launcher)
                 builder.setContentTitle("Book processing")
-                builder.setProgress(100, 0, true);
+                builder.setProgress(100, 0, true)
                 builder.setContentIntent(pendingIntent)
 
-                startForeground(NOTIFICATION_ID, builder.build());
+                startForeground(NOTIFICATION_ID, builder.build())
 
                 val path = intent.getStringExtra(EXTRA_PATH)
 
@@ -57,29 +57,29 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             } else if (ACTION_EXPORT == action) {
                 val notificationIntent = Intent(this, javaClass<MainActivity>())
                 val pendingIntent = PendingIntent.getActivity(this, 0,
-                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
                 val builder = Notification.Builder(this)
                 builder.setSmallIcon(R.drawable.ic_launcher)
                 builder.setContentTitle("Dictionaries exporting")
-                builder.setProgress(100, 0, true);
+                builder.setProgress(100, 0, true)
                 builder.setContentIntent(pendingIntent)
 
-                startForeground(NOTIFICATION_ID, builder.build());
+                startForeground(NOTIFICATION_ID, builder.build())
 
                 exportDictionaries()
             } else if (ACTION_IMPORT == action) {
                 val notificationIntent = Intent(this, javaClass<MainActivity>())
                 val pendingIntent = PendingIntent.getActivity(this, 0,
-                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+                        notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
                 val builder = Notification.Builder(this)
                 builder.setSmallIcon(R.drawable.ic_launcher)
                 builder.setContentTitle("Dictionaries importing")
-                builder.setProgress(100, 0, true);
+                builder.setProgress(100, 0, true)
                 builder.setContentIntent(pendingIntent)
 
-                startForeground(NOTIFICATION_ID, builder.build());
+                startForeground(NOTIFICATION_ID, builder.build())
 
                 val path = intent.getStringExtra(EXTRA_PATH)
 
