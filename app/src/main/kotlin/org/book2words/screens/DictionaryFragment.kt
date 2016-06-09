@@ -8,46 +8,45 @@ import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.dao.LibraryDictionary
 import java.io.FileInputStream
-import java.util.ArrayList
-import java.util.TreeSet
+import java.util.*
 
-public class DictionaryFragment : ListFragment() {
+class DictionaryFragment : ListFragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val args = getArguments()
+        val args = arguments
         val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY)
         val list = TreeSet<String>()
-        if(book.getId() != -1L){
+        if (book.id != -1L) {
             val file = FileStorage.createDictionaryFile(book)
-            if(file.exists()) {
+            if (file.exists()) {
                 val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
                 bos.forEachLine {
                     list.add(it)
                 }
                 bos.close()
             }
-        }else {
-            val strings = getResources().getStringArray(R.array.worlds_english)
+        } else {
+            val strings = resources.getStringArray(R.array.worlds_english)
             list.addAll(strings)
         }
-        setListAdapter(ArrayAdapter(
-                getActivity(),
+        listAdapter = ArrayAdapter(
+                activity,
                 android.R.layout.simple_list_item_1, android.R.id.text1,
-                ArrayList(list)))
+                ArrayList(list))
     }
 
     companion object {
 
         private val DICTIONARY_KEY = "book"
 
-        public fun create(root: LibraryDictionary?): Fragment {
+        fun create(root: LibraryDictionary?): Fragment {
             val fragment = DictionaryFragment()
 
             if (root != null) {
                 val args = Bundle()
                 args.putParcelable(DICTIONARY_KEY, root)
-                fragment.setArguments(args)
+                fragment.arguments = args
             }
             return fragment
         }

@@ -58,16 +58,16 @@ public class WordAdapted(private val start: Int,
             val trans = " [${word.definitions?.get(0)?.getTranscription()}]"
 
             adapted.insert(end, trans)
-            adapted.setSpan(foregroundSpan, start, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            adapted.setSpan(foregroundSpan, start, end + trans.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
             if (onWordClickListener != null) {
                 clickSpan = WordClickSpan(this, onWordClickListener)
-                adapted.setSpan(clickSpan, start, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                adapted.setSpan(clickSpan, start, end + trans.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
             }
-            adapted.setSpan(styleSpan, end, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
-            adapted.setSpan(sizeSpan, end, end + trans.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            adapted.setSpan(styleSpan, end, end + trans.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+            adapted.setSpan(sizeSpan, end, end + trans.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
             transcriptionStart = end
-            transcriptionEnd = end + trans.length()
-            return offset + trans.length()
+            transcriptionEnd = end + trans.length
+            return offset + trans.length
         }
         return offset
     }
@@ -113,7 +113,7 @@ public class WordAdapted(private val start: Int,
                 content.append("<i>")
                 content.append(it.getTranslate())
                 content.append("</i>")
-                if (i < definitions.size() - 1) {
+                if (i < definitions.size - 1) {
                     content.append("<br/>")
                 }
             }
@@ -129,7 +129,7 @@ public class WordAdapted(private val start: Int,
                 content.append("<i>")
                 content.append(it.getTranslate())
                 content.append("</i>")
-                if (i < definitions.size() - 1) {
+                if (i < definitions.size - 1) {
                     content.append("<br/>")
                 }
             }

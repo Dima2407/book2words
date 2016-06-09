@@ -141,7 +141,7 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
     }
 
     public fun modify(pIndex: Int, chapterId: Int, word: Word) {
-        var index = words.size() % COLORS.size()
+        var index = words.size % COLORS.size
         val color = Color.parseColor(COLORS[index])
         val founds = word.paragraphs.filter {
             pIndex == it.index && chapterId == it.key
@@ -164,7 +164,7 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
     }
 
     public fun removeWord(word: WordAdapted) {
-        val removed = TreeSet(words.filter { it.equals(word) }).reverse()
+        val removed = TreeSet(words.filter { it.equals(word) }).reversed()
         var offsets = ArrayList<Int>()
         removed.forEach {
             val success = words.remove(it)
@@ -192,6 +192,10 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
             }
         }
         return unique
+    }
+
+    fun hasWords(): Boolean {
+        return words.isEmpty();
     }
 
     public fun setOnWordClickListener(onWordClickListener: ((word: WordAdapted) -> Unit)?) {

@@ -18,13 +18,13 @@ import org.book2words.data.Configs
 import org.book2words.data.ConfigsContext
 import java.io.File
 
-public class SelectBookDialogFragment : Fragment() {
+class SelectBookDialogFragment : Fragment() {
 
     private var directoriesView: ListView? = null
     private var selectedView: EditText? = null
     private var currentRoot: File? = null
     private var selectedFile: File? = null
-    private var extension = ""
+    private var extension : List<String> = arrayListOf();
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_root, null)
@@ -35,17 +35,17 @@ public class SelectBookDialogFragment : Fragment() {
         view!!.findViewById(android.R.id.button1).setOnClickListener({
             if (selectedFile != null) {
                 val intent = Intent()
-                intent.putExtra(SelectFileActivity.EXTRA_OUTPUT, selectedFile!!.getAbsolutePath())
-                getActivity().setResult(Activity.RESULT_OK, intent)
+                intent.putExtra(SelectFileActivity.EXTRA_OUTPUT, selectedFile!!.absolutePath)
+                activity.setResult(Activity.RESULT_OK, intent)
             } else {
-                getActivity().setResult(Activity.RESULT_CANCELED)
+                activity.setResult(Activity.RESULT_CANCELED)
             }
-            getActivity().finish()
+            activity.finish()
         })
 
         view.findViewById(android.R.id.button2).setOnClickListener({
-            getActivity().setResult(Activity.RESULT_CANCELED)
-            getActivity().finish()
+            activity.setResult(Activity.RESULT_CANCELED)
+            activity.finish()
         })
 
         directoriesView = view.findViewById(android.R.id.list) as ListView
@@ -53,13 +53,13 @@ public class SelectBookDialogFragment : Fragment() {
         view.findViewById(R.id.button_back).setOnClickListener({
             if (Configs.getRelativePath(currentRoot!!) != "/") {
                 selectedFile = null
-                currentRoot = currentRoot!!.getParentFile()
+                currentRoot = currentRoot!!.parentFile
                 updateView()
             }
         })
         directoriesView!!.setOnItemClickListener { adapterView, view, i, l ->
             val item = adapterView.getItemAtPosition(i) as File
-            if (item.isDirectory()) {
+            if (item.isDirectory) {
                 currentRoot = item
                 selectedFile = null
             } else {
@@ -71,8 +71,8 @@ public class SelectBookDialogFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        extension = getArguments().getString(EXTRA_EXTENSION)
-        val configs = ConfigsContext.getConfigs(getActivity())
+        extension = arguments.getStringArrayList(EXTRA_EXTENSION)
+        val configs = ConfigsContext.getConfigs(activity)
         currentRoot = configs.getCurrentRoot()
         updateView()
     }
@@ -84,10 +84,10 @@ public class SelectBookDialogFragment : Fragment() {
             selectedView!!.setText(Configs.getRelativePath(currentRoot!!))
             val directories = currentRoot!!.listFiles({ file ->
                 val ext = file.extension
-                (file.isDirectory() || ext.equals(extension)) && !file.isHidden()
+                (file.isDirectory || extension.contains(ext)) && !file.isHidden
             })
-            val directoriesAdapter = DirectoriesAdapter(getActivity(), directories)
-            directoriesView!!.setAdapter(directoriesAdapter)
+            val directoriesAdapter = DirectoriesAdapter(activity, directories)
+            directoriesView!!.adapter = directoriesAdapter
         }
     }
 
@@ -98,23 +98,25 @@ public class SelectBookDialogFragment : Fragment() {
         override fun getView(position: Int, convertView: View?, parent: ViewGroup): View? {
             var view = convertView
             if (view == null) {
-                view = View.inflate(getContext(), android.R.layout.simple_list_item_1, null)
+                view = View.inflate(context, android.R.layout.simple_list_item_1, null)
             }
             val textView = view as TextView
-            val name = getItem(position).getName()
-            textView.setText(name)
+            val name = getItem(position).name
+            textView.text = name
             return view
         }
     }
 
     companion object {
         private val EXTRA_EXTENSION = "_extension"
-        public fun create(extension: String): Fragment {
+        fun create(vararg extension: String): Fragment {
             val fragment = SelectBookDialogFragment()
             val args = Bundle()
-            args.putString(EXTRA_EXTENSION, extension)
+            val list = arrayListOf<String>()
+            list.addAll(extension)
+            args.putStringArrayList(EXTRA_EXTENSION, list)
 
-            fragment.setArguments(args)
+            fragment.arguments = args
             return fragment
         }
     }

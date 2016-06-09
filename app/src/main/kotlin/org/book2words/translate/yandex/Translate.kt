@@ -3,22 +3,22 @@ package org.book2words.translate.yandex
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-private class Translate {
-    SerializedName("text")
+class Translate {
+    @SerializedName("text")
     var text: String = ""
 
-    SerializedName("pos")
+    @SerializedName("pos")
     var pos: String = ""
 
     //SerializedName("mean")
-    Expose
+    @Expose
     var means: Array<Mean>? = null
 
     //SerializedName("syn")
-    Expose
+    @Expose
     var syns: Array<Syn>? = null
 
     //SerializedName("ex")
-    Expose
+    @Expose
     var examples: Array<Example>? = null
 }

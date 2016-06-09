@@ -5,7 +5,7 @@ import org.book2words.translate.core.Definition
 import org.book2words.translate.core.DictionaryResult
 
 class YDictionaryResult : DictionaryResult {
-    SerializedName("def")
+    @SerializedName("def")
     val definitions: Array<YDefinition> = arrayOf()
 
     override fun getResults(): Array<out Definition> {

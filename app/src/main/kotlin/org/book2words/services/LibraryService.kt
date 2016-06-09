@@ -22,7 +22,7 @@ import java.util.zip.ZipEntry
 import java.util.zip.ZipInputStream
 import java.util.zip.ZipOutputStream
 
-public class LibraryService : IntentService(javaClass<LibraryService>().getSimpleName()) {
+public class LibraryService : IntentService(LibraryService::class.simpleName) {
 
     private val NOTIFICATION_ID = 100
 
@@ -35,7 +35,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             val action = intent.getAction()
             if (ACTION_SYNC == action) {
 
-                val notificationIntent = Intent(this, javaClass<MainActivity>())
+                val notificationIntent = Intent(this, MainActivity::class.java)
                 val pendingIntent = PendingIntent.getActivity(this, 0,
                         notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
@@ -55,7 +55,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
                 sendBroadcast(Intent(ACTION_PREPARED))
             } else if (ACTION_EXPORT == action) {
-                val notificationIntent = Intent(this, javaClass<MainActivity>())
+                val notificationIntent = Intent(this, MainActivity::class.java)
                 val pendingIntent = PendingIntent.getActivity(this, 0,
                         notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
@@ -69,7 +69,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
 
                 exportDictionaries()
             } else if (ACTION_IMPORT == action) {
-                val notificationIntent = Intent(this, javaClass<MainActivity>())
+                val notificationIntent = Intent(this, MainActivity::class.java)
                 val pendingIntent = PendingIntent.getActivity(this, 0,
                         notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
@@ -149,7 +149,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
             writer.close()
 
             val libraryDictionary = LibraryDictionary(dictionaryFile.nameWithoutExtension, dictionaryFile.extension)
-            libraryDictionary.setSize(lines.size())
+            libraryDictionary.setSize(lines.size)
             DataContext.getLibraryDictionaryDao(this@LibraryService)
                     .insertOrReplace(libraryDictionary)
 
@@ -172,7 +172,7 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
                 authorsString.append(author.getFirstname())
                 authorsString.append(" ")
                 authorsString.append(author.getLastname())
-                if (i != authors.size() - 1) {
+                if (i != authors.size - 1) {
                     authorsString.append(", ")
                 }
             }
@@ -226,20 +226,20 @@ public class LibraryService : IntentService(javaClass<LibraryService>().getSimpl
         private val EXTRA_PATH = "_root"
 
         public fun addBook(context: Context, path: File) {
-            val intent = Intent(context, javaClass<LibraryService>())
+            val intent = Intent(context, LibraryService::class.java)
             intent.setAction(ACTION_SYNC)
             intent.putExtra(EXTRA_PATH, path.getAbsolutePath())
             context.startService(intent)
         }
 
         public fun export(context: Context) {
-            val intent = Intent(context, javaClass<LibraryService>())
+            val intent = Intent(context, LibraryService::class.java)
             intent.setAction(ACTION_EXPORT)
             context.startService(intent)
         }
 
         public fun import(context: Context, path: File) {
-            val intent = Intent(context, javaClass<LibraryService>())
+            val intent = Intent(context, LibraryService::class.java)
             intent.setAction(ACTION_IMPORT)
             intent.putExtra(EXTRA_PATH, path.getAbsolutePath())
             context.startService(intent)

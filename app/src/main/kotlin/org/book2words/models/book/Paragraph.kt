@@ -4,10 +4,10 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 public class Paragraph(
-        SerializedName("i") val index: Int,
-        SerializedName("k") val key: Int,
-        SerializedName("s") val start: Int,
-        SerializedName("e") val end: Int) : Serializable {
+        @SerializedName("i") val index: Int,
+        @SerializedName("k") val key: Int,
+        @SerializedName("s") val start: Int,
+        @SerializedName("e") val end: Int) : Serializable {
 
     override fun equals(other: Any?): Boolean {
         if (other == null) {

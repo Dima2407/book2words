@@ -3,8 +3,9 @@ package org.book2words.models.split
 import android.text.TextUtils
 import nl.siegmann.epublib.domain.Spine
 import org.book2words.core.Logger
+import java.nio.charset.Charset
 
-private abstract class BookReader(private val spine: Spine,
+abstract class BookReader(private val spine: Spine,
                                   private val encoding: String) {
     private var current = 0
 
@@ -68,7 +69,7 @@ private abstract class BookReader(private val spine: Spine,
         try {
             val stream = resource.getInputStream()
             try {
-                val reader = stream.bufferedReader(encoding)
+                val reader = stream.bufferedReader(Charset.forName(encoding))
                 reader.forEachLine {
                     string.append(it)
                 }

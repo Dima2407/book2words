@@ -18,32 +18,32 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
     private var executor = Executors.newSingleThreadExecutor()
 
     private val map = mapOf(
-            "a" to R.raw.a,
-            "b" to R.raw.b,
-            "c" to R.raw.c,
-            "d" to R.raw.d,
-            "e" to R.raw.e,
-            "f" to R.raw.f,
-            "g" to R.raw.g,
-            "h" to R.raw.h,
-            "i" to R.raw.i,
-            "j" to R.raw.j,
-            "k" to R.raw.k,
-            "l" to R.raw.l,
-            "m" to R.raw.m,
-            "n" to R.raw.n,
-            "o" to R.raw.o,
-            "p" to R.raw.p,
-            "q" to R.raw.q,
-            "r" to R.raw.r,
-            "s" to R.raw.s,
-            "t" to R.raw.t,
-            "u" to R.raw.u,
-            "v" to R.raw.v,
-            "w" to R.raw.w,
-            "x" to R.raw.x,
-            "y" to R.raw.y,
-            "z" to R.raw.z)
+            'a' to R.raw.a,
+            'b' to R.raw.b,
+            'c' to R.raw.c,
+            'd' to R.raw.d,
+            'e' to R.raw.e,
+            'f' to R.raw.f,
+            'g' to R.raw.g,
+            'h' to R.raw.h,
+            'i' to R.raw.i,
+            'j' to R.raw.j,
+            'k' to R.raw.k,
+            'l' to R.raw.l,
+            'm' to R.raw.m,
+            'n' to R.raw.n,
+            'o' to R.raw.o,
+            'p' to R.raw.p,
+            'q' to R.raw.q,
+            'r' to R.raw.r,
+            's' to R.raw.s,
+            't' to R.raw.t,
+            'u' to R.raw.u,
+            'v' to R.raw.v,
+            'w' to R.raw.w,
+            'x' to R.raw.x,
+            'y' to R.raw.y,
+            'z' to R.raw.z)
 
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({
@@ -53,7 +53,7 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
     }
 
     override fun find(input: String): Array<out Definition> {
-        val resourceId = map.get(input[0])
+        val resourceId = map[input[0]]
         var items = arrayOf<Definition>()
         if (resourceId != null) {
             items = findInternal(input, resourceId)
@@ -119,6 +119,6 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
 
     companion object {
 
-        private val TAG = javaClass<OfflineDictionary>().getSimpleName()
+        private val TAG = OfflineDictionary::class.simpleName
     }
 }

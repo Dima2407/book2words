@@ -7,13 +7,13 @@ import java.io.Serializable
 import java.util.ArrayList
 
 public open class Word(value: String) : Comparable<Word>, Serializable {
-    SerializedName("p")
+    @SerializedName("p")
     val paragraphs: MutableList<Paragraph> = ArrayList()
-    SerializedName("v")
+    @SerializedName("v")
     val value: String
-    Expose
+    @Expose
     var definitions: Array<out Definition>? = null
-    Expose
+    @Expose
     var translated: Boolean = false
 
     init {

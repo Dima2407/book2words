@@ -11,7 +11,7 @@ import java.util.concurrent.Executors
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathFactory
 
-private class VerbsDictionary(private val resources: Resources) : Dictionary {
+class VerbsDictionary(private val resources: Resources) : Dictionary {
 
     private val xPath = XPathFactory.newInstance().newXPath()
     private var executor = Executors.newSingleThreadExecutor()
@@ -76,6 +76,6 @@ private class VerbsDictionary(private val resources: Resources) : Dictionary {
 
     companion object {
 
-        private val TAG = javaClass<VerbsDictionary>().getSimpleName()
+        private val TAG = VerbsDictionary::class.simpleName
     }
 }

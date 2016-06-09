@@ -38,8 +38,8 @@ public class Configs (private val preferences: SharedPreferences) {
         public fun getRelativePath(file: File): String {
             val storageDirectory = Environment.getExternalStorageDirectory().getAbsolutePath()
             val root = file.getAbsolutePath()
-            val path = root.substring(storageDirectory.length())
-            return if (path.length() == 0) "/" else path
+            val path = root.substring(storageDirectory.length)
+            return if (path.length == 0) "/" else path
         }
     }
 

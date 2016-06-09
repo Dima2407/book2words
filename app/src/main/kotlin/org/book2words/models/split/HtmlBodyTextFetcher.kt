@@ -5,7 +5,7 @@ import org.book2words.core.Logger
 
 public class HtmlBodyTextFetcher(private val onProcess: (text : String)-> Unit) : BodyTextFetcher{
 
-    JavascriptInterface
+    @JavascriptInterface
     override public fun processContent(text: String){
         Logger.debug("processContent()")
         onProcess(text)

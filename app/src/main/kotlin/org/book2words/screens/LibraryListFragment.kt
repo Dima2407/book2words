@@ -33,7 +33,7 @@ import java.io.File
 public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<LibraryBook>>? {
-        return BooksLoader(getActivity())
+        return BooksLoader(activity)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,14 +46,14 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         super.onActivityCreated(savedInstanceState)
         val spanCount = getResources().getInteger(R.integer.span_count)
         addItemDecoration(GridSpacingItemDecoration(spanCount, 10, true))
-        val adapter = LibraryFileAdapter(getActivity())
+        val adapter = LibraryFileAdapter(activity)
         setListAdapter(adapter)
     }
 
     override fun createLayoutManager(): RecyclerView.LayoutManager {
         val spanCount = getResources().getInteger(R.integer.span_count)
         Logger.debug("createLayoutManager() ${spanCount}")
-        val layoutManager = GridLayoutManager(getActivity(), spanCount)
+        val layoutManager = GridLayoutManager(activity, spanCount)
         layoutManager.setSpanSizeLookup(object : GridLayoutManager.SpanSizeLookup() {
             override fun getSpanSize(position: Int): Int {
                 val line = position / spanCount
@@ -75,31 +75,31 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         view!!.findViewById(R.id.button_add).setOnClickListener({
-            val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
-            intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "epub")
+            val intent = Intent(activity, SelectFileActivity::class.java)
+            intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, arrayOf("epub", "txt"))
             startActivityForResult(intent, REQUEST_CODE_BOOK)
         })
     }
 
     override fun onItemClick(item: LibraryBook, position: Int, id: Long) {
-        if (item.getAdapted() == LibraryBook.ADAPTED) {
+        if (item.adapted == LibraryBook.ADAPTED) {
             openReadActivity(item)
-        } else if (item.getAdapted() == LibraryBook.NONE) {
-            val dictionary = LibraryDictionary(item.getDictionaryName(), item.getLanguage())
-            DataContext.getLibraryDictionaryDao(getActivity()).insertOrIgnore(dictionary)
-            getActivity().sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
+        } else if (item.adapted == LibraryBook.NONE) {
+            val dictionary = LibraryDictionary(item.dictionaryName, item.language)
+            DataContext.getLibraryDictionaryDao(activity).insertOrIgnore(dictionary)
+            activity.sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
             openSplitActivity(item)
         }
     }
 
     private fun openReadActivity(book: LibraryBook) {
-        val intent = Intent(getActivity(), javaClass<ReaderActivity>())
+        val intent = Intent(activity, ReaderActivity::class.java)
         intent.putExtra(ReaderActivity.EXTRA_BOOK, book)
         startActivityForResult(intent, 0)
     }
 
     private fun openSplitActivity(book: LibraryBook) {
-        val intent = Intent(getActivity(), javaClass<SplitActivity>())
+        val intent = Intent(activity, SplitActivity::class.java)
         intent.putExtra(SplitActivity.EXTRA_BOOK, book)
         startActivity(intent)
     }
@@ -110,14 +110,14 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if (item?.getItemId() == R.id.action_import) {
-            val intent = Intent(getActivity(), javaClass<SelectFileActivity>())
+        if (item?.itemId == R.id.action_import) {
+            val intent = Intent(activity, SelectFileActivity::class.java)
             intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, "zip")
             startActivityForResult(intent, REQUEST_CODE_IMPORT)
             return true
         }
-        if (item?.getItemId() == R.id.action_export) {
-            LibraryService.export(getActivity())
+        if (item?.itemId == R.id.action_export) {
+            LibraryService.export(activity)
             return true
         }
         return super.onOptionsItemSelected(item)
@@ -127,11 +127,11 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         if (resultCode == Activity.RESULT_OK) {
             if (REQUEST_CODE_BOOK == requestCode) {
                 val path = data!!.getStringExtra(SelectFileActivity.EXTRA_OUTPUT)
-                LibraryService.addBook(getActivity(), File(path))
+                LibraryService.addBook(activity, File(path))
             }
             if (REQUEST_CODE_IMPORT == requestCode) {
                 val path = data!!.getStringExtra(SelectFileActivity.EXTRA_OUTPUT)
-                LibraryService.import(getActivity(), File(path))
+                LibraryService.import(activity, File(path))
             }
         }
         super.onActivityResult(requestCode, resultCode, data)

@@ -7,14 +7,14 @@ import android.text.TextUtils
 import android.widget.TextView
 import org.book2words.models.book.WordAdapted
 
-public class WordView(context: Context, word: WordAdapted) : TextView(context) {
+class WordView(context: Context, word: WordAdapted) : TextView(context) {
 
     init {
         setPadding(6, 6, 6, 6)
-        setMaxLines(2)
+        maxLines = 2
         setTextColor(Color.BLACK)
-        setEllipsize(TextUtils.TruncateAt.END)
+        ellipsize = TextUtils.TruncateAt.END
         setBackgroundColor(word.getColor())
-        setText(Html.fromHtml(word.getDefinitionsShort()))
+        text = Html.fromHtml(word.getDefinitionsShort())
     }
 }

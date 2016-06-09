@@ -13,7 +13,7 @@ import java.net.URLEncoder
 import java.util.HashMap
 import java.util.concurrent.Executors
 
-private class OnlineDictionary(private val dictionary: CacheDictionary,
+class OnlineDictionary(private val dictionary: CacheDictionary,
                                private val from: String,
                                private val to: String) : Dictionary {
 
@@ -48,7 +48,7 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
         if (cached != null) {
             Logger.debug("find at cache - ${input}", TAG)
             return deserializer.fromJson(cached,
-                    javaClass<YDictionaryResult>())
+                    YDictionaryResult::class.java)
         }
         val queryString = buildQueryString(input)
         Logger.debug("query string - ${queryString}", TAG)
@@ -71,7 +71,7 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
                         resonse.append(it)
                     }
                     result = deserializer.fromJson(resonse.toString(),
-                            javaClass<YDictionaryResult>())
+                            YDictionaryResult::class.java)
                     if (result.getResults().isNotEmpty()) {
                         dictionary.save(input, resonse.toString())
                     }
@@ -95,10 +95,10 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
 
         var index = 0
         params.forEach {
-            queryString.append(it.getKey())
+            queryString.append(it.key)
             queryString.append("=")
-            queryString.append(it.getValue())
-            if (index < params.size() - 1) {
+            queryString.append(it.value)
+            if (index < params.size - 1) {
                 queryString.append("&")
             }
             index++
@@ -108,9 +108,9 @@ private class OnlineDictionary(private val dictionary: CacheDictionary,
 
     companion object {
 
-        private val TAG = javaClass<OnlineDictionary>().getSimpleName()
-        private val API_KEY = "dict.1.1.20150121T133416Z.012b4f6033891237.6f0842fdef230f439d6de551d88d58831e4203e3"
-        //private val API_KEY = "dict.1.1.20150106T111220Z.9a21fb953b9a84b1.b2c75f2ccb09ec04eff11a41590d35894dcf6124"
+        private val TAG = OnlineDictionary::class.simpleName
+        //private val API_KEY = "dict.1.1.20150121T133416Z.012b4f6033891237.6f0842fdef230f439d6de551d88d58831e4203e3"
+        private val API_KEY = "dict.1.1.20150106T111220Z.9a21fb953b9a84b1.b2c75f2ccb09ec04eff11a41590d35894dcf6124"
 
         private val QUERY = "https://dictionary.yandex.net/api/v1/dicservice.json/lookup"
     }

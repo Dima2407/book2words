@@ -19,7 +19,7 @@ public object Patterns {
         for (i in alphabet.indices) {
             val character = alphabet[i]
             builder.append("(\\w*").append(character).append("{3,}\\w*)")
-            if (i != alphabet.size() - 1) {
+            if (i != alphabet.size - 1) {
                 builder.append("|")
             }
         }

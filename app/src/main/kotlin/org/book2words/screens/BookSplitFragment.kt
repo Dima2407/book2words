@@ -54,12 +54,12 @@ public class BookSplitFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        book : LibraryBook = getArguments()!!.getParcelable(BOOK_PATH_KEY)
+        book  = arguments!!.getParcelable(BOOK_PATH_KEY)
     }
 
     override fun onStart() {
         super.onStart()
-        BookReadService.bindForAdapt(getActivity(), connection, book!!)
+        BookReadService.bindForAdapt(activity, connection, book!!)
     }
 
     override fun onStop() {

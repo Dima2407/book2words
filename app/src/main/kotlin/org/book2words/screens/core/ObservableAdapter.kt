@@ -16,7 +16,7 @@ public abstract class ObservableAdapter<T, V : RecyclerView.ViewHolder> : Recycl
     }
 
     override fun getItemCount(): Int {
-        return items.size()
+        return items.size
     }
 
     public fun getItem(position: Int): T {

@@ -12,52 +12,52 @@ import org.book2words.dao.LibraryDictionaryDao
 public class DataContext {
 
     companion object {
-        public fun setup<T : Application> (context: T) where T : DaoHolder {
+        public fun <T> setup(context: T) where T : Application, T : DaoHolder {
             val helper = DaoMaster.DevOpenHelper(context, "b2w", null)
-            val db = helper.getWritableDatabase()
+            val db = helper.writableDatabase
             val daoMaster = DaoMaster(db)
             context.setDaoSession(daoMaster.newSession())
         }
 
-        private fun getSession<T : Application>(context: T): DaoSession {
+        private fun <T : Application> getSession(context: T): DaoSession {
             val application = context as DaoHolder
             return application.getDaoSession()
         }
 
-        private fun getSession<T : Activity>(context: T): DaoSession {
-            return getSession(context.getApplication())
+        private fun <T : Activity> getSession(context: T): DaoSession {
+            return getSession(context.application)
         }
 
-        private fun getSession<T : Service>(context: T): DaoSession {
-            return getSession(context.getApplication())
+        private fun <T : Service> getSession(context: T): DaoSession {
+            return getSession(context.application)
         }
 
-        private fun getSession<T : Fragment>(context: T): DaoSession {
-            return getSession(context.getActivity())
+        private fun <T : Fragment> getSession(context: T): DaoSession {
+            return getSession(context.activity)
         }
 
-        public fun getLibraryBookDao<T : Activity>(context: T): LibraryBookDao {
-            return getSession(context).getLibraryBookDao()
+        public fun <T : Activity> getLibraryBookDao(context: T): LibraryBookDao {
+            return getSession(context).libraryBookDao
         }
 
-        public fun getLibraryBookDao<T : Service>(context: T): LibraryBookDao {
-            return getSession(context).getLibraryBookDao()
+        public fun <T : Service> getLibraryBookDao(context: T): LibraryBookDao {
+            return getSession(context).libraryBookDao
         }
 
-        public fun getLibraryBookDao<T : Fragment>(context: T): LibraryBookDao {
-            return getSession(context).getLibraryBookDao()
+        public fun <T : Fragment> getLibraryBookDao(context: T): LibraryBookDao {
+            return getSession(context).libraryBookDao
         }
 
-        public fun getLibraryDictionaryDao<T : Activity>(context: T): LibraryDictionaryDao {
-            return getSession(context).getLibraryDictionaryDao()
+        public fun <T : Activity> getLibraryDictionaryDao(context: T): LibraryDictionaryDao {
+            return getSession(context).libraryDictionaryDao
         }
 
-        public fun getLibraryDictionaryDao<T : Service>(context: T): LibraryDictionaryDao {
-            return getSession(context).getLibraryDictionaryDao()
+        public fun <T : Service> getLibraryDictionaryDao(context: T): LibraryDictionaryDao {
+            return getSession(context).libraryDictionaryDao
         }
 
-        public fun getLibraryDictionaryDao<T : Fragment>(context: T): LibraryDictionaryDao {
-            return getSession(context).getLibraryDictionaryDao()
+        public fun <T : Fragment> getLibraryDictionaryDao(context: T): LibraryDictionaryDao {
+            return getSession(context).libraryDictionaryDao
         }
     }
 }

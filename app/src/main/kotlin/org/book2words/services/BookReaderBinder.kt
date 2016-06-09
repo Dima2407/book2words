@@ -17,11 +17,11 @@ import org.book2words.translate.Dictionary
 import org.book2words.translate.EnglishDictionary
 import java.io.FileInputStream
 import java.io.FileOutputStream
-import java.util.ArrayList
+import java.util.*
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.Executors
 
-public class BookReaderBinder(
+class BookReaderBinder(
         private val book: LibraryBook,
         private val service: Service) : Binder(), BookBinder {
     val wordsDictionary: Dictionary
@@ -31,7 +31,7 @@ public class BookReaderBinder(
     }
 
     override fun release() {
-        val file = FileStorage.createWordsFile(book.getId())
+        val file = FileStorage.createWordsFile(book.id)
         val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
         unknownWords.forEach {
@@ -49,14 +49,14 @@ public class BookReaderBinder(
     private var unknownWords: MutableList<Word> = ArrayList()
     private var dictionary: LibraryDictionary? = null
 
-    public fun prepare(callback: () -> Unit) {
+    fun prepare(callback: () -> Unit) {
         executor.execute({
 
             dictionary = DataContext.getLibraryDictionaryDao(service)
                     .queryBuilder()
                     .where(LibraryDictionaryDao.Properties.Name.eq(book.getDictionaryName())).unique()
 
-            var file = FileStorage.createWordsFile(book.getId())
+            var file = FileStorage.createWordsFile(book.id)
             val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
             bos.forEachLine {
                 unknownWords.add(Word.fromSeparatedString(it, ";"))
@@ -69,33 +69,33 @@ public class BookReaderBinder(
         })
     }
 
-    public fun read(callback: (paragraphs: List<ParagraphAdapted>) -> Unit) {
+    fun read(callback: (paragraphs: List<ParagraphAdapted>) -> Unit) {
 
         executor.execute({
 
-            Logger.debug("words = ${book.getCurrentPartition()} - ${unknownWords.size()}")
+            Logger.debug("words = ${book.currentPartition} - ${unknownWords.size}")
 
             val words = unknownWords.filter {
                 it.paragraphs.any {
-                    it.key == book.getCurrentPartition()
+                    it.key == book.currentPartition
                 }
             }
 
-            Logger.debug("words = ${book.getCurrentPartition()} - ${words.size()}")
+            Logger.debug("words = ${book.currentPartition} - ${words.size}")
 
-            val file = FileStorage.createChapterFile(book.getId(), book.getCurrentPartition())
+            val file = FileStorage.createChapterFile(book.id, book.currentPartition)
             val stream = FileInputStream(file).bufferedReader(Charsets.UTF_8)
             val pars = ArrayList<ParagraphAdapted>()
             var index = 0
             stream.forEachLine {
-                Logger.debug("line(${index})- ${it}")
+                Logger.debug("line($index)- $it")
 
                 if (!it.trim().isEmpty()) {
                     val paragraph = ParagraphAdapted(it)
 
                     words.forEach {
-                        Logger.debug("word(${index})- ${it}")
-                        paragraph.modify(index, book.getCurrentPartition(), it)
+                        Logger.debug("word($index)- $it")
+                        paragraph.modify(index, book.currentPartition, it)
                     }
 
                     pars.add(paragraph)
@@ -109,9 +109,9 @@ public class BookReaderBinder(
 
     }
 
-    public fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
+    fun translate(paragraph: ParagraphAdapted, onTranslated: () -> Unit) {
         executor.execute {
-            val counter = CountDownLatch(paragraph.getNotTranslatedWords().size())
+            val counter = CountDownLatch(paragraph.getNotTranslatedWords().size)
             paragraph.getNotTranslatedWords().forEach { word ->
                 wordsDictionary.find(word.getValue(), { input, result ->
                     word.setDefinitions(result)
@@ -126,13 +126,13 @@ public class BookReaderBinder(
 
     }
 
-    public fun add(word: WordAdapted) {
+    fun add(word: WordAdapted) {
 
     }
 
-    public fun remove(word: WordAdapted) {
-        unknownWords.remove(word)
-        dictionary!!.setSize(dictionary!!.getSize() + 1)
+    fun remove(word: WordAdapted) {
+        unknownWords.remove(word as Word)
+        dictionary?.size = dictionary!!.size + 1
         DataContext.getLibraryDictionaryDao(service).update(dictionary)
         val writer = FileOutputStream(FileStorage.createDictionaryFile(book), true)
                 .bufferedWriter(Charsets.UTF_8)
@@ -142,27 +142,27 @@ public class BookReaderBinder(
         service.sendBroadcast(Intent(LibraryDictionary.ACTION_UPDATED))
     }
 
-    public fun previousPartition(): Boolean {
-        val index = book.getCurrentPartition() - 1
+    fun previousPartition(): Boolean {
+        val index = book.currentPartition - 1
         if (index >= 1) {
-            book.setCurrentPartition(index)
+            book.currentPartition = index
             DataContext.getLibraryBookDao(service).update(book)
             return true
         }
         return false
     }
 
-    public fun nextPartition(): Boolean {
-        val index = book.getCurrentPartition() + 1
-        if (index <= book.getCountPartitions()) {
-            book.setCurrentPartition(index)
+    fun nextPartition(): Boolean {
+        val index = book.currentPartition + 1
+        if (index <= book.countPartitions) {
+            book.currentPartition = index
             DataContext.getLibraryBookDao(service).update(book)
             return true
         }
         return false
     }
 
-    public fun getBook(): LibraryBook {
+    fun getBook(): LibraryBook {
         return book
     }
 }

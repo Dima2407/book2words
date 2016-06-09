@@ -10,7 +10,7 @@ public interface Dictionary {
 
     public fun find(input: String): Array<out Definition>
 
-    protected fun forms(input: String): List<String> {
+    fun forms(input: String): List<String> {
         val forms = ArrayList<String>()
         var matcher = VERB_PAST.matcher(input)
         if (matcher.matches()) {

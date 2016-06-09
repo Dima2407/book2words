@@ -4,6 +4,7 @@ import android.app.Activity
 import android.app.AlertDialog
 import android.app.Fragment
 import android.graphics.Point
+import android.opengl.Visibility
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -39,18 +40,18 @@ public class BookReadFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         listView!!.setHasFixedSize(true)
 
-        listView!!.setLayoutManager(LinearLayoutManager(getActivity()))
+        listView!!.layoutManager = LinearLayoutManager(activity)
         read()
     }
 
     private fun read() {
-        listView!!.setVisibility(View.GONE)
-        progressView!!.setVisibility(View.VISIBLE)
-        val reader = (getActivity() as ReaderScreen).getReader()
+        listView!!.visibility = View.GONE
+        progressView!!.visibility = View.VISIBLE
+        val reader = (activity as ReaderScreen).getReader()
         reader.read({ paragraphs ->
-            listView!!.setAdapter(ParagraphAdapter(getActivity(), reader, paragraphs))
-            listView!!.setVisibility(View.VISIBLE)
-            progressView!!.setVisibility(View.GONE)
+            listView!!.adapter = ParagraphAdapter(activity, reader, paragraphs)
+            listView!!.visibility = View.VISIBLE
+            progressView!!.visibility = View.GONE
         })
     }
 
@@ -70,32 +71,31 @@ public class BookReadFragment : Fragment() {
         val size: Point = Point()
 
         init {
-            context.getWindowManager()
-                    .getDefaultDisplay()
+            context.windowManager
+                    .defaultDisplay
                     .getSize(size)
         }
 
 
         override fun getItemCount(): Int {
-            return items.size()
+            return items.size
         }
 
         override fun onBindViewHolder(holder: ParagraphViewHolder?, p1: Int) {
             val item = items[p1]
             holder?.wordsView?.removeAllViews()
-            val layoutParams = holder?.wordsView?.getLayoutParams()
-            layoutParams?.width = size.x / 3
+            if(item.hasWords()) {
+                val layoutParams = holder?.wordsView?.layoutParams
+                layoutParams?.width = size.x / 3
+                holder?.wordsView?.visibility = View.VISIBLE
+            }else{
+                holder?.wordsView?.visibility = View.GONE
+            }
             if (item.translated) {
-                holder?.loadingView?.setVisibility(View.GONE)
-                holder?.contentView?.setVisibility(View.VISIBLE)
                 bindData(holder, item)
             } else {
-                holder?.loadingView?.setVisibility(View.VISIBLE)
-                holder?.contentView?.setVisibility(View.GONE)
                 binder.translate(item, {
                     item.translated = true
-                    holder?.loadingView?.setVisibility(View.GONE)
-                    holder?.contentView?.setVisibility(View.VISIBLE)
                     bindData(holder, item)
                 })
             }
@@ -155,15 +155,11 @@ public class BookReadFragment : Fragment() {
     private class ParagraphViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val titleView: TextView
         val wordsView: ViewGroup
-        val loadingView: View
-        val contentView: View
 
         init {
             titleView = view.findViewById(R.id.text_text) as TextView
             wordsView = view.findViewById(R.id.text_words) as ViewGroup
-            loadingView = view.findViewById(R.id.progress_loading)
-            contentView = view.findViewById(R.id.content_frame)
-            titleView.setMovementMethod(LinkMovementMethod.getInstance())
+            titleView.movementMethod = LinkMovementMethod.getInstance()
         }
     }
 }

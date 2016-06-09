@@ -13,7 +13,7 @@ import org.book2words.services.BookReadService
 import org.book2words.services.BookReaderBinder
 
 
-public class ReaderActivity : Activity(), ReaderScreen {
+class ReaderActivity : Activity(), ReaderScreen {
     override fun getReader(): BookReaderBinder {
         return reader!!
     }
@@ -24,13 +24,13 @@ public class ReaderActivity : Activity(), ReaderScreen {
     private var book: LibraryBook? = null
     private val connection = object : ServiceConnection {
 
-        override public fun onServiceConnected(className: ComponentName, service: IBinder) {
+        override fun onServiceConnected(className: ComponentName, service: IBinder) {
             reader = service as BookReaderBinder
             bound = true
             prepareReader()
         }
 
-        override public fun onServiceDisconnected(className: ComponentName) {
+        override fun onServiceDisconnected(className: ComponentName) {
             bound = false
         }
     }
@@ -42,9 +42,9 @@ public class ReaderActivity : Activity(), ReaderScreen {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super<Activity>.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_read)
-        book = getIntent().getParcelableExtra(EXTRA_BOOK)
+        book = intent.getParcelableExtra(EXTRA_BOOK)
         findViewById(R.id.button_previous).setOnClickListener({
             goToPrevious()
         })
@@ -56,24 +56,24 @@ public class ReaderActivity : Activity(), ReaderScreen {
     }
 
     private fun loadPartition() {
-        progressLoading!!.setIndeterminate(false)
+        progressLoading!!.isIndeterminate = false
         val book = reader!!.getBook()
-        progressLoading!!.setMax(book.getCountPartitions())
-        progressLoading!!.setProgress(book.getCurrentPartition())
+        progressLoading!!.max = book.countPartitions
+        progressLoading!!.progress = book.currentPartition
         var fragment = BookReadFragment.create()
 
-        val transaction = getFragmentManager().beginTransaction()
+        val transaction = fragmentManager.beginTransaction()
         transaction.replace(R.id.frame_text, fragment, FRAGMENT_TAG)
         transaction.commit()
     }
 
     override fun onStart() {
-        super<Activity>.onStart()
+        super.onStart()
         BookReadService.bindForRead(this, connection, book!!)
     }
 
     override fun onStop() {
-        super<Activity>.onStop()
+        super.onStop()
         if (bound) {
             unbindService(connection)
             bound = false
@@ -94,7 +94,7 @@ public class ReaderActivity : Activity(), ReaderScreen {
 
     companion object {
 
-        public val EXTRA_BOOK: String = "_book"
+        val EXTRA_BOOK: String = "_book"
         private val FRAGMENT_TAG = "_fragment"
     }
 }

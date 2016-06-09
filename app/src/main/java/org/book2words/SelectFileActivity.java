@@ -16,7 +16,7 @@ public class SelectFileActivity extends Activity {
         super.onCreate(savedInstanceState);
         Fragment fragment = getFragmentManager().findFragmentByTag(FRAGMENT_TAG);
         if (fragment == null) {
-            String extension = getIntent().getStringExtra(EXTRA_EXTENSION);
+            String[] extension = getIntent().getStringArrayExtra(EXTRA_EXTENSION);
             fragment = SelectBookDialogFragment.Companion.create(extension);
             FragmentTransaction transaction = getFragmentManager().beginTransaction();
             transaction.add(android.R.id.content, fragment, FRAGMENT_TAG);

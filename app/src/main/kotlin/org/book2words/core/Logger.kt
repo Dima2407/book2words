@@ -2,31 +2,31 @@ package org.book2words.core
 
 import android.util.Log
 
-public class Logger {
+class Logger {
     companion object {
 
         private val debuggable = true
-        public val TAG: String = "book2words"
+        val TAG: String = "book2words"
 
-        public fun debug(message: String, tag: String = "") {
+        fun debug(message: String, tag: String? = "") {
             if (debuggable) {
-                Log.d(TAG, "${tag} ${message}")
+                Log.d(TAG, "$tag $message")
             }
         }
 
-        public fun info(message: String) {
+        fun info(message: String) {
             Log.i(TAG, message)
         }
 
-        public fun error(message: String) {
+        fun error(message: String) {
             Log.e(TAG, message, null)
         }
 
-        public fun error(e: Throwable) {
+        fun error(e: Throwable) {
             error("", e)
         }
 
-        public fun error(message: String, e: Throwable) {
+        fun error(message: String, e: Throwable) {
             Log.e(TAG, message, e)
         }
     }

@@ -16,7 +16,7 @@ import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
 import java.io.FileOutputStream
 
-public class BookSplitService : IntentService(javaClass<BookSplitService>().getSimpleName()) {
+public class BookSplitService : IntentService(BookSplitService::class.simpleName) {
 
     private val NOTIFICATION_ID = 101
 
@@ -28,7 +28,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
             builder.setSmallIcon(R.drawable.ic_launcher)
             builder.setProgress(100, 0, true)
 
-            val notificationIntent = Intent(this, javaClass<MainActivity>())
+            val notificationIntent = Intent(this, MainActivity::class.java)
             val pendingIntent = PendingIntent.getActivity(this, 0,
                     notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK)
 
@@ -84,7 +84,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
         val strings = getResources().getStringArray(R.array.worlds_english)
-        Logger.debug("default words ${strings.size()}", TAG)
+        Logger.debug("default words ${strings.size}", TAG)
         textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
@@ -144,7 +144,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         textSplitter.findCapital(text)
         val partitions = textSplitter.toPartitions(index, text, configs.getCurrentParagraphsInStep())
         partitions.forEach {
-            val partition = it.getValue()
+            val partition = it.value
             textSplitter.nextPartition()
 
             textSplitter.split(partition)
@@ -162,10 +162,10 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
 
     companion object {
 
-        Deprecated
+        @Deprecated("")
         var time = 0L
 
-        private val TAG = javaClass<BookSplitService>().getSimpleName()
+        private val TAG = BookSplitService::class.simpleName
 
         private val OPEN_ACTION = "org.book2words.intent.action.OPEN"
         private val CLOSE_ACTION = "org.book2words.intent.action.CLOSE"
@@ -178,7 +178,7 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         private val EXTRA_BOOK: String = "_book"
 
         public fun save(context: Context, id: Long, index: Int, text: String) {
-            val intent = Intent(context, javaClass<BookSplitService>())
+            val intent = Intent(context, BookSplitService::class.java)
             intent.setAction(SPLIT_ACTION)
             intent.putExtra(EXTRA_ID, id)
             intent.putExtra(EXTRA_INDEX, index)
@@ -187,14 +187,14 @@ public class BookSplitService : IntentService(javaClass<BookSplitService>().getS
         }
 
         public fun openBook(context: Context, book: LibraryBook) {
-            val intent = Intent(context, javaClass<BookSplitService>())
+            val intent = Intent(context, BookSplitService::class.java)
             intent.setAction(OPEN_ACTION)
             intent.putExtra(EXTRA_BOOK, book)
             context.startService(intent)
         }
 
         public fun closeBook(context: Context, book: LibraryBook) {
-            val intent = Intent(context, javaClass<BookSplitService>())
+            val intent = Intent(context, BookSplitService::class.java)
             intent.setAction(CLOSE_ACTION)
             intent.putExtra(EXTRA_BOOK, book)
             context.startService(intent)

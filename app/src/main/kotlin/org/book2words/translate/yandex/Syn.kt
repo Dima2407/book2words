@@ -2,11 +2,11 @@ package org.book2words.translate.yandex
 
 import com.google.gson.annotations.SerializedName
 
-private class Syn {
+class Syn {
 
-    SerializedName("text")
+    @SerializedName("text")
     var text: String = ""
 
-    SerializedName("pos")
+    @SerializedName("pos")
     var pos: String = ""
 }

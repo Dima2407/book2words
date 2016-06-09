@@ -74,7 +74,7 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
     }
 
     override fun onItemClick(item: LibraryDictionary, position: Int, id: Long) {
-        val intent = Intent(getActivity(), javaClass<DictionaryActivity>())
+        val intent = Intent(getActivity(), DictionaryActivity::class.java)
         intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item)
         startActivity(intent)
     }
