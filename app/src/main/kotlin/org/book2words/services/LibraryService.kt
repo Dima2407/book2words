@@ -14,7 +14,7 @@ import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
-import org.book2words.dao.LibraryDictionary
+import org.book2words.models.LibraryDictionary
 import org.book2words.data.DataContext
 import java.io.*
 import java.util.TreeSet
@@ -147,11 +147,6 @@ public class LibraryService : IntentService(LibraryService::class.simpleName) {
                 writer.flush()
             }
             writer.close()
-
-            val libraryDictionary = LibraryDictionary(dictionaryFile.nameWithoutExtension, dictionaryFile.extension)
-            libraryDictionary.setSize(lines.size)
-            DataContext.getLibraryDictionaryDao(this@LibraryService)
-                    .insertOrReplace(libraryDictionary)
 
             sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
 

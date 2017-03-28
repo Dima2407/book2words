@@ -4,15 +4,16 @@ import android.app.Activity
 import android.app.Application
 import android.app.Fragment
 import android.app.Service
+import org.book2words.core.FileStorage
 import org.book2words.dao.DaoMaster
 import org.book2words.dao.DaoSession
 import org.book2words.dao.LibraryBookDao
-import org.book2words.dao.LibraryDictionaryDao
+import org.book2words.models.LibraryDictionary
 
-public class DataContext {
+class DataContext {
 
     companion object {
-        public fun <T> setup(context: T) where T : Application, T : DaoHolder {
+        fun <T> setup(context: T) where T : Application, T : DaoHolder {
             val helper = DaoMaster.DevOpenHelper(context, "b2w", null)
             val db = helper.writableDatabase
             val daoMaster = DaoMaster(db)
@@ -36,28 +37,27 @@ public class DataContext {
             return getSession(context.activity)
         }
 
-        public fun <T : Activity> getLibraryBookDao(context: T): LibraryBookDao {
+        fun <T : Activity> getLibraryBookDao(context: T): LibraryBookDao {
             return getSession(context).libraryBookDao
         }
 
-        public fun <T : Service> getLibraryBookDao(context: T): LibraryBookDao {
+        fun <T : Service> getLibraryBookDao(context: T): LibraryBookDao {
             return getSession(context).libraryBookDao
         }
 
-        public fun <T : Fragment> getLibraryBookDao(context: T): LibraryBookDao {
+        fun <T : Fragment> getLibraryBookDao(context: T): LibraryBookDao {
             return getSession(context).libraryBookDao
         }
 
-        public fun <T : Activity> getLibraryDictionaryDao(context: T): LibraryDictionaryDao {
-            return getSession(context).libraryDictionaryDao
-        }
-
-        public fun <T : Service> getLibraryDictionaryDao(context: T): LibraryDictionaryDao {
-            return getSession(context).libraryDictionaryDao
-        }
-
-        public fun <T : Fragment> getLibraryDictionaryDao(context: T): LibraryDictionaryDao {
-            return getSession(context).libraryDictionaryDao
+        fun getDictionaries(): List<LibraryDictionary> {
+            val dir = FileStorage.createDictionaryDirectory()
+            val dictionaries = dir.listFiles().map { file ->
+                val reader = file.bufferedReader()
+                val readLine = reader.readLine()
+                reader.close()
+                LibraryDictionary(file.nameWithoutExtension, Integer.parseInt(readLine))
+            }.toList();
+            return dictionaries
         }
     }
 }

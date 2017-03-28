@@ -10,7 +10,6 @@ import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
-import org.book2words.dao.LibraryDictionaryDao
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
@@ -83,20 +82,15 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
         Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}", TAG)
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
-        val strings = getResources().getStringArray(R.array.worlds_english)
+        val strings = resources.getStringArray(R.array.worlds_english)
         Logger.debug("default words ${strings.size}", TAG)
         textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
-        val dictionaries = DataContext.getLibraryDictionaryDao(this)
-                .queryBuilder()
-                .where(LibraryDictionaryDao.Properties.Use.eq(true))
-                .list()
+        val dictionaries = DataContext.getDictionaries()
 
         dictionaries.forEach {
-            if (book.getLanguage().equals(it.getLanguage())) {
-                textSplitter.clearFromDictionary(it.getPath())
-            }
+            textSplitter.clearFromDictionary(it.path)
         }
 
         Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)

@@ -11,17 +11,13 @@ import android.support.v4.content.Loader
 import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.*
-import android.widget.ImageView
-import android.widget.ProgressBar
-import com.nostra13.universalimageloader.core.ImageLoader
+import android.widget.TextView
 import org.book2words.R
 import org.book2words.SelectFileActivity
 import org.book2words.SplitActivity
 import org.book2words.activities.ReaderActivity
-import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
-import org.book2words.dao.LibraryDictionary
 import org.book2words.data.DataContext
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
@@ -30,7 +26,7 @@ import org.book2words.screens.loaders.ObservableLoader
 import org.book2words.services.LibraryService
 import java.io.File
 
-public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
+class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<LibraryBook>>? {
         return BooksLoader(activity)
@@ -38,23 +34,23 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setRetainInstance(true)
+        retainInstance = true
         setHasOptionsMenu(true)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val spanCount = getResources().getInteger(R.integer.span_count)
+        val spanCount = resources.getInteger(R.integer.span_count)
         addItemDecoration(GridSpacingItemDecoration(spanCount, 10, true))
         val adapter = LibraryFileAdapter(activity)
         setListAdapter(adapter)
     }
 
     override fun createLayoutManager(): RecyclerView.LayoutManager {
-        val spanCount = getResources().getInteger(R.integer.span_count)
+        val spanCount = resources.getInteger(R.integer.span_count)
         Logger.debug("createLayoutManager() ${spanCount}")
         val layoutManager = GridLayoutManager(activity, spanCount)
-        layoutManager.setSpanSizeLookup(object : GridLayoutManager.SpanSizeLookup() {
+        layoutManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
             override fun getSpanSize(position: Int): Int {
                 val line = position / spanCount
                 if (line % 2 != 0) {
@@ -64,7 +60,7 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
                 }
             }
 
-        })
+        }
         return layoutManager
     }
 
@@ -85,9 +81,6 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         if (item.adapted == LibraryBook.ADAPTED) {
             openReadActivity(item)
         } else if (item.adapted == LibraryBook.NONE) {
-            val dictionary = LibraryDictionary(item.dictionaryName, item.language)
-            DataContext.getLibraryDictionaryDao(activity).insertOrIgnore(dictionary)
-            activity.sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
             openSplitActivity(item)
         }
     }
@@ -142,7 +135,7 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         private val REQUEST_CODE_IMPORT = 10
         private val REQUEST_CODE_BOOK = 20
 
-        public fun create(): Fragment {
+        fun create(): Fragment {
             val fragment = LibraryListFragment()
             return fragment
         }
@@ -151,16 +144,7 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     private class LibraryFileAdapter(private val context: Context) :
             ObservableAdapter<LibraryBook, BookViewHolder>() {
         override fun onBindViewHolder(holder: BookViewHolder, item: LibraryBook, position: Int) {
-            if (item.getAdapted() == LibraryBook.ADAPTED) {
-                holder.wordsView.setVisibility(View.VISIBLE)
-                holder.wordsView.setMax(item.getCountPartitions())
-                holder.wordsView.setProgress(item.getCurrentPartition())
-            } else {
-                holder.wordsView.setVisibility(View.GONE)
-            }
-            val coverUri = FileStorage.imageCoverUri(item.getId())
-
-            ImageLoader.getInstance().displayImage(coverUri, holder.coverView)
+            holder.wordsView.text = File(item.path).name
         }
 
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
@@ -172,12 +156,10 @@ public class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     private class BookViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val wordsView: ProgressBar
-        val coverView: ImageView
+        val wordsView: TextView
 
         init {
-            wordsView = view.findViewById(R.id.text_words) as ProgressBar
-            coverView = view.findViewById(R.id.image_cover) as ImageView
+            wordsView = view.findViewById(R.id.text_title) as TextView
         }
     }
 

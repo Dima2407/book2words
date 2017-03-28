@@ -5,6 +5,7 @@ import de.greenrobot.dao.AbstractDao;
 import de.greenrobot.dao.AbstractDaoSession;
 import de.greenrobot.dao.identityscope.IdentityScopeType;
 import de.greenrobot.dao.internal.DaoConfig;
+import org.book2words.models.LibraryDictionary;
 
 import java.util.Map;
 
@@ -18,10 +19,8 @@ import java.util.Map;
 public class DaoSession extends AbstractDaoSession {
 
     private final DaoConfig libraryBookDaoConfig;
-    private final DaoConfig libraryDictionaryDaoConfig;
 
     private final LibraryBookDao libraryBookDao;
-    private final LibraryDictionaryDao libraryDictionaryDao;
 
     public DaoSession(SQLiteDatabase db, IdentityScopeType type, Map<Class<? extends AbstractDao<?, ?>>, DaoConfig>
             daoConfigMap) {
@@ -30,27 +29,17 @@ public class DaoSession extends AbstractDaoSession {
         libraryBookDaoConfig = daoConfigMap.get(LibraryBookDao.class).clone();
         libraryBookDaoConfig.initIdentityScope(type);
 
-        libraryDictionaryDaoConfig = daoConfigMap.get(LibraryDictionaryDao.class).clone();
-        libraryDictionaryDaoConfig.initIdentityScope(type);
-
         libraryBookDao = new LibraryBookDao(libraryBookDaoConfig, this);
-        libraryDictionaryDao = new LibraryDictionaryDao(libraryDictionaryDaoConfig, this);
 
         registerDao(LibraryBook.class, libraryBookDao);
-        registerDao(LibraryDictionary.class, libraryDictionaryDao);
     }
     
     public void clear() {
         libraryBookDaoConfig.getIdentityScope().clear();
-        libraryDictionaryDaoConfig.getIdentityScope().clear();
     }
 
     public LibraryBookDao getLibraryBookDao() {
         return libraryBookDao;
-    }
-
-    public LibraryDictionaryDao getLibraryDictionaryDao() {
-        return libraryDictionaryDao;
     }
 
 }

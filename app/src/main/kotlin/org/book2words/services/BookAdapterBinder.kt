@@ -48,7 +48,7 @@ public class BookAdapterBinder(
                 handler.post({
                     onProgress(index, length)
                 })
-                BookSplitService.save(service, book.getId(), index, text)
+                BookSplitService.save(service, book.id, index, text)
             })
         }
     }

@@ -5,76 +5,49 @@ import android.content.BroadcastReceiver
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.content.Loader
+import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.SeekBar
 import android.widget.Switch
 import android.widget.TextView
 import org.book2words.DictionaryActivity
 import org.book2words.R
-import org.book2words.dao.LibraryDictionary
-import org.book2words.data.ConfigsContext
+import org.book2words.core.FileStorage
+import org.book2words.models.LibraryDictionary
 import org.book2words.data.DataContext
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
 import org.book2words.screens.loaders.BaseObserver
 import org.book2words.screens.loaders.ObservableLoader
-import java.util.ArrayList
 
-public class DictionarySettingsFragment : ObservableListFragment<LibraryDictionary>() {
+class DictionarySettingsFragment : ObservableListFragment<LibraryDictionary>() {
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<LibraryDictionary>>? {
-        return DictionariesLoader(getActivity())
+        return DictionariesLoader(activity)
     }
-
-    private var paragraphsView: SeekBar? = null
-    private var paragraphsSplitView: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setRetainInstance(true)
+        retainInstance = true
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_dictionary, null)
-    }
-
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        paragraphsView = view!!.findViewById(R.id.seek_paragraphs) as SeekBar
-        paragraphsSplitView = view!!.findViewById(R.id.text_paragraphs) as TextView
-
-        val configs = ConfigsContext.getConfigs(getActivity())
-        paragraphsSplitView!!.setText("${configs.getCurrentParagraphsInStep()}")
-        paragraphsView!!.setMax(configs.getMaxParagraphsInStep() / configs.getParagraphsInStep())
-        paragraphsView!!.setProgress(configs.getCurrentParagraphsInStep() / configs.getParagraphsInStep())
-        paragraphsView!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-            override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
-                val paragraphs = progress * configs.getParagraphsInStep()
-                paragraphsSplitView!!.setText("$paragraphs")
-                configs.setCurrentParagraphsInStep(paragraphs)
-            }
-
-            override fun onStartTrackingTouch(seekBar: SeekBar?) {
-
-            }
-
-            override fun onStopTrackingTouch(seekBar: SeekBar) {
-
-            }
-
-        })
+        return inflater.inflate(R.layout.fragment_dictionary, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val adapter = LibraryDictionaryAdapter(getActivity())
+        val adapter = LibraryDictionaryAdapter(activity)
         setListAdapter(adapter)
     }
 
+    override fun createLayoutManager(): RecyclerView.LayoutManager {
+        return GridLayoutManager(activity, 1)
+    }
+
     override fun onItemClick(item: LibraryDictionary, position: Int, id: Long) {
-        val intent = Intent(getActivity(), DictionaryActivity::class.java)
+        val intent = Intent(activity, DictionaryActivity::class.java)
         intent.putExtra(DictionaryActivity.EXTRA_DICTIONARY, item)
         startActivity(intent)
     }
@@ -83,17 +56,8 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
             private val context: Activity) :
             ObservableAdapter<LibraryDictionary, DictionaryViewHolder>() {
         override fun onBindViewHolder(holder: DictionaryViewHolder, item: LibraryDictionary, position: Int) {
-            holder.titleView.setText(item.getName())
-            holder.countView.setText("${item.getSize()}")
-
-            holder.useView.setEnabled(!item.getReadonly())
-            holder.useView.setChecked(item.getUse())
-            holder.useView.setOnCheckedChangeListener { compoundButton, b ->
-                if (b != item.getUse()) {
-                    item.setUse(b)
-                    DataContext.getLibraryDictionaryDao(context).update(item)
-                }
-            }
+            holder.titleView.text = item.name
+            holder.countView.text = "${item.size}"
         }
 
         override fun onCreateViewHolder(p0: ViewGroup?, p1: Int): DictionaryViewHolder? {
@@ -107,12 +71,10 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
     private class DictionaryViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val titleView: TextView
         val countView: TextView
-        val useView: Switch
 
         init {
             titleView = view.findViewById(R.id.text_title) as TextView
             countView = view.findViewById(R.id.text_words) as TextView
-            useView = view.findViewById(R.id.button_use) as Switch
         }
     }
 
@@ -125,13 +87,21 @@ public class DictionarySettingsFragment : ObservableListFragment<LibraryDictiona
         }
 
         override fun loadInBackground(): List<LibraryDictionary> {
-            val dictionaries = ArrayList<LibraryDictionary>()
+            val dir = FileStorage.createDictionaryDirectory()
+            val dictionaries = dir.listFiles().map { file ->
+                val reader = file.bufferedReader()
+                val size = reader.readLines().size
+                reader.close()
+                LibraryDictionary(file.nameWithoutExtension, size)
+            }.toList();
+/*
             val title = context.getString(R.string.default_dictionary)
-            val size = context.getResources().getInteger(R.integer.default_dictionary)
-            dictionaries.add(LibraryDictionary(-1, title, true, true, "en" ,size))
+            val size = context.resources.getInteger(R.integer.default_dictionary)
+            dictionaries.add(LibraryDictionary(-1, title, true, true, "en", size))
 
             val stored = DataContext.getLibraryDictionaryDao(context).loadAll()
             dictionaries.addAll(stored)
+*/
             return dictionaries
         }
     }

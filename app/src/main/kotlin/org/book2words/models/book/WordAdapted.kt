@@ -11,10 +11,10 @@ import android.text.style.StyleSpan
 import android.view.View
 import org.book2words.translate.core.Definition
 
-public class WordAdapted(private val start: Int,
-                         private val end: Int,
-                         private val word: Word,
-                         private val color: Int) : Comparable<WordAdapted> {
+class WordAdapted(private val start: Int,
+                  private val end: Int,
+                  val word: Word,
+                  private val color: Int) : Comparable<WordAdapted> {
 
     private val foregroundSpan = ForegroundColorSpan(color)
     private val styleSpan = StyleSpan(Typeface.ITALIC)
@@ -44,7 +44,7 @@ public class WordAdapted(private val start: Int,
         return false
     }
 
-    public fun setDefinitions(definitions: Array<out Definition>) {
+    fun setDefinitions(definitions: Array<out Definition>) {
         if (!word.translated) {
             word.definitions = definitions
         }

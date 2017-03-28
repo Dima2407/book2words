@@ -7,8 +7,7 @@ import android.os.Handler
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
 import org.book2words.dao.LibraryBook
-import org.book2words.dao.LibraryDictionary
-import org.book2words.dao.LibraryDictionaryDao
+import org.book2words.models.LibraryDictionary
 import org.book2words.data.DataContext
 import org.book2words.models.book.ParagraphAdapted
 import org.book2words.models.book.Word
@@ -47,15 +46,9 @@ class BookReaderBinder(
     private val executor = Executors.newSingleThreadExecutor()
 
     private var unknownWords: MutableList<Word> = ArrayList()
-    private var dictionary: LibraryDictionary? = null
 
     fun prepare(callback: () -> Unit) {
         executor.execute({
-
-            dictionary = DataContext.getLibraryDictionaryDao(service)
-                    .queryBuilder()
-                    .where(LibraryDictionaryDao.Properties.Name.eq(book.getDictionaryName())).unique()
-
             var file = FileStorage.createWordsFile(book.id)
             val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
             bos.forEachLine {
@@ -131,9 +124,7 @@ class BookReaderBinder(
     }
 
     fun remove(word: WordAdapted) {
-        unknownWords.remove(word as Word)
-        dictionary?.size = dictionary!!.size + 1
-        DataContext.getLibraryDictionaryDao(service).update(dictionary)
+        unknownWords.remove(word.word)
         val writer = FileOutputStream(FileStorage.createDictionaryFile(book), true)
                 .bufferedWriter(Charsets.UTF_8)
         writer.appendln(word.getValue())

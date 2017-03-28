@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import org.book2words.dao.LibraryDictionary;
+import org.book2words.models.LibraryDictionary;
 import org.book2words.screens.DictionaryFragment;
 
 

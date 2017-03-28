@@ -84,13 +84,8 @@ public class BookReadFragment : Fragment() {
         override fun onBindViewHolder(holder: ParagraphViewHolder?, p1: Int) {
             val item = items[p1]
             holder?.wordsView?.removeAllViews()
-            if(item.hasWords()) {
-                val layoutParams = holder?.wordsView?.layoutParams
-                layoutParams?.width = size.x / 3
-                holder?.wordsView?.visibility = View.VISIBLE
-            }else{
-                holder?.wordsView?.visibility = View.GONE
-            }
+            val layoutParams = holder?.wordsView?.layoutParams
+            layoutParams?.width = size.x / 4
             if (item.translated) {
                 bindData(holder, item)
             } else {

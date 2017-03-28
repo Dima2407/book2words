@@ -2,7 +2,7 @@ package org.book2words.core
 
 import android.os.Environment
 import org.book2words.dao.LibraryBook
-import org.book2words.dao.LibraryDictionary
+import org.book2words.models.LibraryDictionary
 
 import java.io.File
 
@@ -24,21 +24,26 @@ class FileStorage {
         }
 
         fun createDictionaryFile(book: LibraryBook): File {
-            return createDictionaryFile(book.dictionaryName, book.language)
+            return createDictionaryFile(File(book.path).nameWithoutExtension, "en")
         }
 
         fun createDictionaryFile(item: LibraryDictionary): File {
-            return createDictionaryFile(item.name, item.language)
+            return createDictionaryFile(item.name, "en")
         }
 
-        private fun createDictionaryFile(id: String, language : String): File {
+        private fun createDictionaryFile(id: String, language: String): File {
             return createDictionaryFile("${id}.${language}")
         }
 
         fun createDictionaryFile(fileName: String): File {
             val root = createDictionaryDirectory()
 
-            return File(root, fileName)
+            val file = File(root, fileName)
+            println(file.absolutePath)
+            if (!file.exists()) {
+                //file.createNewFile()
+            }
+            return file
         }
 
         fun getDictionaryNameFromFile(id: String): String {
@@ -52,7 +57,7 @@ class FileStorage {
         }
 
         fun createDictionaryDirectory(): File {
-            val root = File(Environment.getExternalStorageDirectory(), ".b2w${File.separator}dictionaries")
+            val root = File(Environment.getExternalStorageDirectory(), "Book2Words${File.separator}dictionaries")
             root.mkdirs()
 
             return root

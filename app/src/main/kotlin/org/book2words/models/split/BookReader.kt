@@ -63,11 +63,11 @@ abstract class BookReader(private val spine: Spine,
     public abstract fun start(offset: Int = 0, length: Int = spine.size(), fetcher : BodyTextFetcher? = null)
 
     private fun getText(): String {
-        Logger.debug("getText() ${current}")
+        Logger.debug("getText() $current")
         val resource = spine.getResource(current)
         val string = StringBuilder()
         try {
-            val stream = resource.getInputStream()
+            val stream = resource.inputStream
             try {
                 val reader = stream.bufferedReader(Charset.forName(encoding))
                 reader.forEachLine {

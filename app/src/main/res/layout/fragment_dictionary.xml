@@ -7,55 +7,19 @@
               android:paddingTop="@dimen/activity_vertical_margin"
               android:paddingBottom="@dimen/activity_vertical_margin">
 
-    <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:paddingBottom="@dimen/activity_vertical_margin">
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/pars_in_parts"
-                android:layout_alignParentLeft="true"
-                android:lines="1"/>
-        <SeekBar
-                android:id="@+id/seek_paragraphs"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/text_paragraphs"/>
-        <TextView
-                android:id="@+id/text_paragraphs"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:lines="1"/>
-
-    </RelativeLayout>
-
-    <FrameLayout
+    <ProgressBar
+            android:id="@+id/progress_loading"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:paddingBottom="@dimen/activity_vertical_margin">
+            android:indeterminate="true"
+            style="@android:style/Widget.ProgressBar.Large"/>
 
-        <ProgressBar
-                android:id="@+id/progress_loading"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:indeterminate="true"
-                style="@android:style/Widget.ProgressBar.Large"/>
-
-        <android.support.v7.widget.RecyclerView
-                android:id="@android:id/list"
-                android:scrollbars="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:visibility="gone"
-                />
-    </FrameLayout>
-
+    <android.support.v7.widget.RecyclerView
+            android:id="@android:id/list"
+            android:scrollbars="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+    />
 
 </LinearLayout>

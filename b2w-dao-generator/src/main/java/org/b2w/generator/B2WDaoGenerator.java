@@ -24,15 +24,6 @@ public class B2WDaoGenerator {
         book.addStringProperty("path").notNull().unique();
         book.implementsInterface("Parcelable");
 
-        Entity dictionary = schema.addEntity("LibraryDictionary");
-        dictionary.addIdProperty();
-        dictionary.addStringProperty("name").notNull().unique();
-        dictionary.addBooleanProperty("use").notNull();
-        dictionary.addBooleanProperty("readonly").notNull();
-        dictionary.addStringProperty("language").notNull();
-        dictionary.addIntProperty("size").notNull();
-        dictionary.implementsInterface("Parcelable");
-
         new DaoGenerator().generateAll(schema, args[0]);
     }
 }

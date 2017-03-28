@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import org.book2words.R
 import org.book2words.core.FileStorage
-import org.book2words.dao.LibraryDictionary
+import org.book2words.models.LibraryDictionary
 import java.io.FileInputStream
 import java.util.*
 
@@ -15,20 +15,15 @@ class DictionaryFragment : ListFragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val args = arguments
-        val book: LibraryDictionary = args.getParcelable(DICTIONARY_KEY)
+        val dict: LibraryDictionary = args.getParcelable(DICTIONARY_KEY)
         val list = TreeSet<String>()
-        if (book.id != -1L) {
-            val file = FileStorage.createDictionaryFile(book)
-            if (file.exists()) {
-                val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
-                bos.forEachLine {
-                    list.add(it)
-                }
-                bos.close()
+        val file = dict.path
+        if (file.exists()) {
+            val bos = FileInputStream(file).bufferedReader(Charsets.UTF_8)
+            bos.forEachLine {
+                list.add(it)
             }
-        } else {
-            val strings = resources.getStringArray(R.array.worlds_english)
-            list.addAll(strings)
+            bos.close()
         }
         listAdapter = ArrayAdapter(
                 activity,

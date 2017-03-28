@@ -18,19 +18,16 @@ public class DaoMaster extends AbstractDaoMaster {
     public DaoMaster(SQLiteDatabase db) {
         super(db, SCHEMA_VERSION);
         registerDaoClass(LibraryBookDao.class);
-        registerDaoClass(LibraryDictionaryDao.class);
     }
     
     /** Creates underlying database table using DAOs. */
     public static void createAllTables(SQLiteDatabase db, boolean ifNotExists) {
         LibraryBookDao.createTable(db, ifNotExists);
-        LibraryDictionaryDao.createTable(db, ifNotExists);
     }
     
     /** Drops underlying database table using DAOs. */
     public static void dropAllTables(SQLiteDatabase db, boolean ifExists) {
         LibraryBookDao.dropTable(db, ifExists);
-        LibraryDictionaryDao.dropTable(db, ifExists);
     }
     
     public DaoSession newSession() {
