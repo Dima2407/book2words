@@ -10,13 +10,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Switch
 import android.widget.TextView
 import org.book2words.DictionaryActivity
 import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.models.LibraryDictionary
-import org.book2words.data.DataContext
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
 import org.book2words.screens.loaders.BaseObserver
@@ -69,21 +67,15 @@ class DictionarySettingsFragment : ObservableListFragment<LibraryDictionary>() {
     }
 
     private class DictionaryViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val titleView: TextView
-        val countView: TextView
+        val titleView: TextView = view.findViewById(R.id.text_title) as TextView
+        val countView: TextView = view.findViewById(R.id.text_words) as TextView
 
-        init {
-            titleView = view.findViewById(R.id.text_title) as TextView
-            countView = view.findViewById(R.id.text_words) as TextView
-        }
     }
 
-    private class DictionariesLoader(private val context: Activity) : ObservableLoader<LibraryDictionary>(context) {
+    private class DictionariesLoader(context: Activity) : ObservableLoader<LibraryDictionary>(context) {
         override fun createObserver(): BroadcastReceiver {
             return BaseObserver(this,
-                    LibraryDictionary.ACTION_UPDATED,
-                    LibraryDictionary.ACTION_CREATED,
-                    LibraryDictionary.ACTION_DELETED)
+                    LibraryDictionary.ACTION_MODIFIED)
         }
 
         override fun loadInBackground(): List<LibraryDictionary> {
@@ -94,14 +86,6 @@ class DictionarySettingsFragment : ObservableListFragment<LibraryDictionary>() {
                 reader.close()
                 LibraryDictionary(file.nameWithoutExtension, size)
             }.toList();
-/*
-            val title = context.getString(R.string.default_dictionary)
-            val size = context.resources.getInteger(R.integer.default_dictionary)
-            dictionaries.add(LibraryDictionary(-1, title, true, true, "en", size))
-
-            val stored = DataContext.getLibraryDictionaryDao(context).loadAll()
-            dictionaries.addAll(stored)
-*/
             return dictionaries
         }
     }

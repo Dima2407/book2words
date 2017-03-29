@@ -4,13 +4,15 @@ import android.app.Activity
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.graphics.Rect
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.content.Loader
 import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.view.*
+import android.widget.ImageView
 import android.widget.TextView
 import org.book2words.R
 import org.book2words.SelectFileActivity
@@ -26,9 +28,9 @@ import org.book2words.screens.loaders.ObservableLoader
 import org.book2words.services.LibraryService
 import java.io.File
 
-class LibraryListFragment : ObservableListFragment<LibraryBook>() {
+class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBookView>() {
 
-    override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<LibraryBook>>? {
+    override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<LibraryBookView>>? {
         return BooksLoader(activity)
     }
 
@@ -40,8 +42,6 @@ class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val spanCount = resources.getInteger(R.integer.span_count)
-        addItemDecoration(GridSpacingItemDecoration(spanCount, 10, true))
         val adapter = LibraryFileAdapter(activity)
         setListAdapter(adapter)
     }
@@ -50,17 +50,6 @@ class LibraryListFragment : ObservableListFragment<LibraryBook>() {
         val spanCount = resources.getInteger(R.integer.span_count)
         Logger.debug("createLayoutManager() ${spanCount}")
         val layoutManager = GridLayoutManager(activity, spanCount)
-        layoutManager.spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
-            override fun getSpanSize(position: Int): Int {
-                val line = position / spanCount
-                if (line % 2 != 0) {
-                    return 1
-                } else {
-                    return 2
-                }
-            }
-
-        }
         return layoutManager
     }
 
@@ -70,18 +59,19 @@ class LibraryListFragment : ObservableListFragment<LibraryBook>() {
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view!!.findViewById(R.id.button_add).setOnClickListener({
+    }
+
+    override fun onItemClick(item: LibraryBookView, position: Int, id: Long) {
+        if (item.book == null) {
             val intent = Intent(activity, SelectFileActivity::class.java)
             intent.putExtra(SelectFileActivity.EXTRA_EXTENSION, arrayOf("epub", "txt"))
             startActivityForResult(intent, REQUEST_CODE_BOOK)
-        })
-    }
-
-    override fun onItemClick(item: LibraryBook, position: Int, id: Long) {
-        if (item.adapted == LibraryBook.ADAPTED) {
-            openReadActivity(item)
-        } else if (item.adapted == LibraryBook.NONE) {
-            openSplitActivity(item)
+            return
+        }
+        if (item.book!!.adapted == LibraryBook.ADAPTED) {
+            openReadActivity(item.book!!)
+        } else if (item.book!!.adapted == LibraryBook.NONE) {
+            openSplitActivity(item.book!!)
         }
     }
 
@@ -142,9 +132,19 @@ class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     private class LibraryFileAdapter(private val context: Context) :
-            ObservableAdapter<LibraryBook, BookViewHolder>() {
-        override fun onBindViewHolder(holder: BookViewHolder, item: LibraryBook, position: Int) {
-            holder.wordsView.text = File(item.path).name
+            ObservableAdapter<LibraryBookView, BookViewHolder>() {
+        override fun onBindViewHolder(holder: BookViewHolder, item: LibraryBookView, position: Int) {
+            if (item.book == null) {
+                holder.wordsView.text = "Add Book"
+                holder.coverView.setImageDrawable(ColorDrawable(Color.RED));
+            } else {
+                if (item.book!!.adapted == LibraryBook.ADAPTED) {
+                    holder.coverView.setImageDrawable(ColorDrawable(Color.GREEN));
+                } else {
+                    holder.coverView.setImageDrawable(ColorDrawable(Color.BLUE));
+                }
+                holder.wordsView.text = File(item.book!!.path).name
+            }
         }
 
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
@@ -156,47 +156,34 @@ class LibraryListFragment : ObservableListFragment<LibraryBook>() {
     }
 
     private class BookViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val wordsView: TextView
+        val wordsView: TextView = view.findViewById(R.id.text_title) as TextView
+        val coverView: ImageView = view.findViewById(R.id.image_cover) as ImageView
 
-        init {
-            wordsView = view.findViewById(R.id.text_title) as TextView
-        }
     }
 
-    private class BooksLoader(private val context: Activity) : ObservableLoader<LibraryBook>(context) {
+    private class BooksLoader(private val context: Activity) : ObservableLoader<LibraryBookView>(context) {
         override fun createObserver(): BroadcastReceiver {
             return BaseObserver(this, LibraryService.ACTION_PREPARED,
                     LibraryService.ACTION_CLEARED)
         }
 
-        override fun loadInBackground(): List<LibraryBook> {
-            return DataContext.getLibraryBookDao(context).loadAll()
-        }
-    }
-
-    private class GridSpacingItemDecoration(private val spanCount: Int,
-                                            private val spacing: Int,
-                                            private val includeEdge: Boolean) : RecyclerView.ItemDecoration() {
-
-        override fun getItemOffsets(outRect: Rect?, view: View?, parent: RecyclerView?, state: RecyclerView.State?) {
-            val position = parent!!.getChildAdapterPosition(view)
-            val column = position % spanCount
-            if (includeEdge) {
-                outRect!!.left = spacing - column * spacing / spanCount // spacing - column * ((1f / spanCount) * spacing)
-                outRect.right = (column + 1) * spacing / spanCount // (column + 1) * ((1f / spanCount) * spacing)
-
-                if (position < spanCount) {
-                    // top edge
-                    outRect.top = spacing
-                }
-                outRect.bottom = spacing // item bottom
-            } else {
-                outRect!!.left = column * spacing / spanCount // column * ((1f / spanCount) * spacing)
-                outRect.right = spacing - (column + 1) * spacing / spanCount // spacing - (column + 1) * ((1f /    spanCount) * spacing)
-                if (position >= spanCount) {
-                    outRect.top = spacing // item top
+        override fun loadInBackground(): List<LibraryBookView> {
+            val all = DataContext.getLibraryBookDao(context).loadAll()
+            val n = 30
+            val data = IntRange(1, n).map {
+                LibraryBookView(null)
+            }
+            data.forEachIndexed { index, bookView ->
+                if (all.size > index) {
+                    bookView.book = all[index]
                 }
             }
+            return data
         }
     }
+
+    class LibraryBookView(var book: LibraryBook?) {
+        var empty = book == null
+    }
+
 }

@@ -55,7 +55,7 @@ class DataContext {
                 val reader = file.bufferedReader()
                 val readLine = reader.readLine()
                 reader.close()
-                LibraryDictionary(file.nameWithoutExtension, Integer.parseInt(readLine))
+                LibraryDictionary(file.nameWithoutExtension, 0)
             }.toList();
             return dictionaries
         }

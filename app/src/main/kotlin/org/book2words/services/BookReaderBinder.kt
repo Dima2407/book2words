@@ -130,7 +130,7 @@ class BookReaderBinder(
         writer.appendln(word.getValue())
         writer.flush()
         writer.close()
-        service.sendBroadcast(Intent(LibraryDictionary.ACTION_UPDATED))
+        service.sendBroadcast(Intent(LibraryDictionary.ACTION_MODIFIED))
     }
 
     fun previousPartition(): Boolean {

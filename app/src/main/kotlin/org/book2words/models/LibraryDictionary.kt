@@ -26,9 +26,7 @@ class LibraryDictionary(val name: String, var size: Int) : Parcelable {
 
     companion object {
 
-        val ACTION_CREATED = "org.book2words.intent.action.DICTIONARY_CREATED"
-        val ACTION_UPDATED = "org.book2words.intent.action.DICTIONARY_UPDATED"
-        val ACTION_DELETED = "org.book2words.intent.action.DICTIONARY_DELETED"
+        val ACTION_MODIFIED = "org.book2words.intent.action.DICTIONARY_MODIFIED"
 
         @JvmField val CREATOR: Parcelable.Creator<LibraryDictionary> = object : Parcelable.Creator<LibraryDictionary> {
 

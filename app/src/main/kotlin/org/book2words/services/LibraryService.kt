@@ -22,7 +22,7 @@ import java.util.zip.ZipEntry
 import java.util.zip.ZipInputStream
 import java.util.zip.ZipOutputStream
 
-public class LibraryService : IntentService(LibraryService::class.simpleName) {
+class LibraryService : IntentService(LibraryService::class.simpleName) {
 
     private val NOTIFICATION_ID = 100
 
@@ -32,7 +32,7 @@ public class LibraryService : IntentService(LibraryService::class.simpleName) {
 
     override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
-            val action = intent.getAction()
+            val action = intent.action
             if (ACTION_SYNC == action) {
 
                 val notificationIntent = Intent(this, MainActivity::class.java)
@@ -148,7 +148,7 @@ public class LibraryService : IntentService(LibraryService::class.simpleName) {
             }
             writer.close()
 
-            sendBroadcast(Intent(LibraryDictionary.ACTION_CREATED))
+            sendBroadcast(Intent(LibraryDictionary.ACTION_MODIFIED))
 
             zipEntry = stream.getNextEntry()
         }
@@ -210,9 +210,9 @@ public class LibraryService : IntentService(LibraryService::class.simpleName) {
 
     companion object {
 
-        public val ACTION_PREPARED: String = "org.book2words.intent.action.PREPARED"
+        val ACTION_PREPARED: String = "org.book2words.intent.action.PREPARED"
 
-        public val ACTION_CLEARED: String = "org.book2words.intent.action.CLEARED"
+        val ACTION_CLEARED: String = "org.book2words.intent.action.CLEARED"
 
         private val ACTION_IMPORT = "org.book2words.intent.action.IMPORT"
         private val ACTION_EXPORT = "org.book2words.intent.action.EXPORT"
@@ -220,23 +220,23 @@ public class LibraryService : IntentService(LibraryService::class.simpleName) {
 
         private val EXTRA_PATH = "_root"
 
-        public fun addBook(context: Context, path: File) {
+        fun addBook(context: Context, path: File) {
             val intent = Intent(context, LibraryService::class.java)
-            intent.setAction(ACTION_SYNC)
-            intent.putExtra(EXTRA_PATH, path.getAbsolutePath())
+            intent.action = ACTION_SYNC
+            intent.putExtra(EXTRA_PATH, path.absolutePath)
             context.startService(intent)
         }
 
-        public fun export(context: Context) {
+        fun export(context: Context) {
             val intent = Intent(context, LibraryService::class.java)
-            intent.setAction(ACTION_EXPORT)
+            intent.action = ACTION_EXPORT
             context.startService(intent)
         }
 
-        public fun import(context: Context, path: File) {
+        fun import(context: Context, path: File) {
             val intent = Intent(context, LibraryService::class.java)
-            intent.setAction(ACTION_IMPORT)
-            intent.putExtra(EXTRA_PATH, path.getAbsolutePath())
+            intent.action = ACTION_IMPORT
+            intent.putExtra(EXTRA_PATH, path.absolutePath)
             context.startService(intent)
         }
     }

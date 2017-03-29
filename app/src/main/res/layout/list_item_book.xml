@@ -2,14 +2,14 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:orientation="vertical"
              android:layout_width="match_parent"
-             android:layout_height="wrap_content">
+             android:layout_height="wrap_content"
+             android:padding="1dp">
 
     <ImageView
             android:id="@+id/image_cover"
             android:layout_width="170dp"
             android:layout_height="110dp"
             android:scaleType="fitXY"
-            android:src="@drawable/ic_book"
             android:padding="3dp"
             android:layout_gravity="bottom|center_horizontal"
             android:background="@android:color/transparent"/>
