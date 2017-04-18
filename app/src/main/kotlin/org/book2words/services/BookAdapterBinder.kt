@@ -3,7 +3,7 @@ package org.book2words.services
 import android.app.Service
 import android.os.Binder
 import android.os.Handler
-import org.book2words.dao.LibraryBook
+import org.book2words.database.model.LibraryBook
 import org.book2words.models.split.BookSplitter
 import java.util.concurrent.Executors
 

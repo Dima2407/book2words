@@ -1,8 +1,8 @@
 package org.book2words.data
 
-import org.book2words.dao.DaoSession
+import org.book2words.database.DaoSession
 
-public interface DaoHolder {
+interface DaoHolder {
     fun setDaoSession(newSession: DaoSession)
     fun getDaoSession(): DaoSession
 

@@ -11,7 +11,7 @@ import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
 import org.book2words.R
-import org.book2words.dao.LibraryBook
+import org.book2words.database.model.LibraryBook
 import org.book2words.services.BookAdapterBinder
 import org.book2words.services.BookReadService
 

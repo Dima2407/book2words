@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.os.IBinder
 import android.widget.ProgressBar
 import org.book2words.R
-import org.book2words.dao.LibraryBook
+import org.book2words.database.model.LibraryBook
 import org.book2words.screens.BookReadFragment
 import org.book2words.services.BookReadService
 import org.book2words.services.BookReaderBinder

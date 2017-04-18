@@ -2,7 +2,7 @@ package org.book2words.models.split
 
 import nl.siegmann.epublib.epub.EpubReader
 import org.book2words.core.Logger
-import org.book2words.dao.LibraryBook
+import org.book2words.database.model.LibraryBook
 import java.io.FileInputStream
 
 public class BookSplitter(private val libraryBook: LibraryBook) {

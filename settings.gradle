@@ -1,1 +1,1 @@
-include ':app', ':b2w-dao-generator', ':green-dao-core'
+include ':app'

@@ -1,7 +1,7 @@
 package org.book2words.core
 
 import android.os.Environment
-import org.book2words.dao.LibraryBook
+import org.book2words.database.model.LibraryBook
 import org.book2words.models.LibraryDictionary
 
 import java.io.File

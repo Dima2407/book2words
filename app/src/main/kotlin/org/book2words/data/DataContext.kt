@@ -5,19 +5,15 @@ import android.app.Application
 import android.app.Fragment
 import android.app.Service
 import org.book2words.core.FileStorage
-import org.book2words.dao.DaoMaster
-import org.book2words.dao.DaoSession
-import org.book2words.dao.LibraryBookDao
+import org.book2words.database.DaoSession
+import org.book2words.database.LibraryBookDao
 import org.book2words.models.LibraryDictionary
 
 class DataContext {
 
     companion object {
         fun <T> setup(context: T) where T : Application, T : DaoHolder {
-            val helper = DaoMaster.DevOpenHelper(context, "b2w", null)
-            val db = helper.writableDatabase
-            val daoMaster = DaoMaster(db)
-            context.setDaoSession(daoMaster.newSession())
+            context.setDaoSession(DaoSession())
         }
 
         private fun <T : Application> getSession(context: T): DaoSession {

@@ -19,7 +19,7 @@ import org.book2words.SelectFileActivity
 import org.book2words.SplitActivity
 import org.book2words.activities.ReaderActivity
 import org.book2words.core.Logger
-import org.book2words.dao.LibraryBook
+import org.book2words.database.model.LibraryBook
 import org.book2words.data.DataContext
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
@@ -168,7 +168,7 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
         }
 
         override fun loadInBackground(): List<LibraryBookView> {
-            val all = DataContext.getLibraryBookDao(context).loadAll()
+            val all = DataContext.getLibraryBookDao(context).allBooks
             val n = 30
             val data = IntRange(1, n).map {
                 LibraryBookView(null)
