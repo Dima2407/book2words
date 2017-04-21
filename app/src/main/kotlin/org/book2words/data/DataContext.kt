@@ -71,6 +71,19 @@ class DataContext {
             return getSession(context).partsDao
         }
 
+
+        fun <T : Activity> getUsedWordsDao(context: T): UsedWordsDao {
+            return getSession(context).usedWordsDao
+        }
+
+        fun <T : Service> getUsedWordsDao(context: T): UsedWordsDao {
+            return getSession(context).usedWordsDao
+        }
+
+        fun <T : Fragment> getUsedWordsDao(context: T): UsedWordsDao {
+            return getSession(context).usedWordsDao
+        }
+
         fun getDictionaries(): List<LibraryDictionary> {
             val dir = FileStorage.createDictionaryDirectory()
             val dictionaries = dir.listFiles().map { file ->

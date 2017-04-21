@@ -182,9 +182,6 @@ public class LibraryBookDao {
         updateBook(book);
     }
 
-   /* public Long insertOrReplace(LibraryBook book) {
-        return book.getId();
-    }*/
 
     @NonNull
     static String obtainCreateInstancesQuery() {

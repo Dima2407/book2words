@@ -31,24 +31,13 @@ public class WordsFoundDao {
     private static final String COLUMN_PARAGRAPHS = "paragraphs";
     private static final String COLUMN_TRANSLATED = "translated";
 
-   // private static HashMap<Long, WordsFoundDao> wordsFoundDaos = new HashMap<>();
     private SQLiteDatabase sqLiteDatabase;
-   // private SQLiteOpenHelper sqLiteOpenHelper;
-    //private Long bookId;
 
     WordsFoundDao(SQLiteDatabase database) {
-       /* this.bookId = bookId;
-        TABLE_NAME = "FOUND_WORDS_" + bookId;
-        sqLiteOpenHelper = new WordsFoundOpenHelper(context);*/
+
         sqLiteDatabase = database;
     }
 
-  /*  public static WordsFoundDao getWordsFoundDao(Context context, Long bookId) {
-        //Log.i(TAG, "getWordsFoundDao");
-        if (!wordsFoundDaos.containsKey(bookId))
-            wordsFoundDaos.put(bookId, new WordsFoundDao(context, bookId));
-        return wordsFoundDaos.get(bookId);
-    }*/
 
     public Word getWord(int id) {
         Cursor cursor = sqLiteDatabase.query(TABLE_NAME, null, COLUMN_ID + "=?", new String[]{String.valueOf(id)}, null, null, null);
@@ -103,7 +92,6 @@ public class WordsFoundDao {
                 allWords.add(word);
             } while (cursor.moveToNext());
         }
-        // Log.i(TAG, "getAllWords");
         return allWords;
     }
 
@@ -138,7 +126,6 @@ public class WordsFoundDao {
         contentValues.put(COLUMN_PARAGRAPHS, sb.toString());
         contentValues.put(COLUMN_TRANSLATED, word.getTranslated() ? WORD_TRANSLATED : WORD_NOT_TRANSLATED);
         sqLiteDatabase.insert(TABLE_NAME, null, contentValues);
-        // Log.i(TAG, "addWord");
     }
 
     public void deleteWord(int id) {
@@ -166,26 +153,6 @@ public class WordsFoundDao {
             word.addParagraph(values.get(0), values.get(1), values.get(2), values.get(3));
         }
     }
-
-
-  /*  public class WordsFoundOpenHelper extends SQLiteOpenHelper {
-
-
-        public WordsFoundOpenHelper(Context context) {
-            super(context, DaoSession.DB_NAME, null, DaoSession.DB_VERSION);
-        }
-
-        @Override
-        public void onCreate(SQLiteDatabase db) {
-            db.execSQL("CREATE TABLE IF NOT EXISTS '" + TABLE_NAME + "' ('" + COLUMN_ID + "' INTEGER PRIMARY KEY AUTOINCREMENT," +
-                    "'" + COLUMN_VALUE + "' TEXT NOT NULL UNIQUE, '" + COLUMN_PARAGRAPHS + "' TEXT,'" + COLUMN_TRANSLATED + "' INTEGER );");
-        }
-
-        @Override
-        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-            onCreate(db);
-        }
-    }*/
 
     @NonNull
     static String obtainCreateInstancesQuery() {

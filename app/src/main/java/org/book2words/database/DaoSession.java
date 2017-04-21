@@ -19,9 +19,9 @@ public class DaoSession {
 
     @NotNull
     private LibraryBookDao libraryBookDao;
-   // private PartitionsBookDao partitionsBookDao;
     private WordsFoundDao wordsFoundDao;
     private PartsDao partsDao;
+    private UsedWordsDao usedWordsDao;
 
     public DaoSession(Context context) {
 
@@ -29,9 +29,9 @@ public class DaoSession {
             @Override
             public void onCreate(SQLiteDatabase db) {
                 db.execSQL(LibraryBookDao.obtainCreateInstancesQuery());
-               // db.execSQL(PartitionsBookDao.obtainCreateInstancesQuery());
                 db.execSQL(WordsFoundDao.obtainCreateInstancesQuery());
                 db.execSQL(PartsDao.obtainCreateInstancesQuery());
+                db.execSQL(UsedWordsDao.obtainCreateInstancesQuery());
 
             }
 
@@ -43,9 +43,9 @@ public class DaoSession {
 
         SQLiteDatabase database = curentHelper.getWritableDatabase();
         libraryBookDao = new LibraryBookDao(database);
-       // partitionsBookDao = new PartitionsBookDao(database);
         wordsFoundDao = new WordsFoundDao(database);
         partsDao = new PartsDao(database);
+        usedWordsDao = new UsedWordsDao(database);
     }
 
 
@@ -54,15 +54,15 @@ public class DaoSession {
         return libraryBookDao;
     }
 
-    /*public PartitionsBookDao getPartitionsBookDao() {
-        return partitionsBookDao;
-    }*/
-
     public WordsFoundDao getWordsFoundDao() {
         return wordsFoundDao;
     }
 
     public PartsDao getPartsDao() {
         return partsDao;
+    }
+
+    public UsedWordsDao getUsedWordsDao() {
+        return usedWordsDao;
     }
 }
