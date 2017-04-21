@@ -12,13 +12,6 @@ public class Partition(val key: String) {
     }
 
 
-/*fun getText() : String{
-        var text = StringBuilder()
-        paragraphs.forEach {
-            text.append(it).append("\n")
-        }
-        return text.toString()
-    }*/
     public fun forEach(operation: (String) -> Unit): Unit {
         for (element in paragraphs) operation(element)
     }

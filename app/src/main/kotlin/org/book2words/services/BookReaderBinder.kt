@@ -74,7 +74,6 @@ class BookReaderBinder(
             handler.post({
                 callback()
             })
-            // unknownWords.add(WordsFoundDao.getWordsFoundDao(service.applicationContext).allWords)
         })
     }
 
@@ -82,7 +81,7 @@ class BookReaderBinder(
 
         executor.execute({
 
-            // Logger.debug("words = ${book.currentPartition} - ${unknownWords.size}")
+             Logger.debug("words = ${book.currentPartition} - ${unknownWords.size}")
 
             val words = unknownWords.filter {
                 it.paragraphs.any {
@@ -90,7 +89,7 @@ class BookReaderBinder(
                 }
             }
 
-            // Logger.debug("words = ${book.currentPartition} - ${words.size}")
+             Logger.debug("words = ${book.currentPartition} - ${words.size}")
 
             // val file = FileStorage.createChapterFile(book.id, book.currentPartition)
             // val stream = FileInputStream(file).bufferedReader(Charsets.UTF_8)
@@ -105,14 +104,12 @@ class BookReaderBinder(
                 val paragraph = ParagraphAdapted(it.getText())
 
                 words.forEach {
-                    // Logger.debug("word($index)- $it")
+                    Logger.debug("word($index)- $it")
                     paragraph.modify(index, book.currentPartition, it)
                 }
 
                 pars.add(paragraph)
-                //    }
                 index++
-                //  }
             }
             handler.post({
                 callback(pars)

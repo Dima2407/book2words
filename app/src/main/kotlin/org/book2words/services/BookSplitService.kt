@@ -23,7 +23,6 @@ import java.io.FileOutputStream
 public class BookSplitService : IntentService(BookSplitService::class.simpleName) {
 
     private val NOTIFICATION_ID = 101
-   // private val WordFoundDao wordFoundDao
 
     override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
@@ -74,7 +73,7 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
     }
 
     private fun stopBook(book: LibraryBook) {
-       // Logger.debug("stopBook(${book.getId()})", TAG)
+        Logger.debug("stopBook(${book.getId()})", TAG)
 
         val textSplitter = TextSplitter.getInstance()
 
@@ -85,11 +84,11 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
         book.setCurrentPartition(1)
         book.setCountPartitions(textSplitter.getPartitionsCount())
 
-      //  Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}", TAG)
+        Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}", TAG)
         textSplitter.clearCapital()
         textSplitter.clearWithApostrophe()
         val strings = resources.getStringArray(R.array.worlds_english)
-       // Logger.debug("default words ${strings.size}", TAG)
+        Logger.debug("default words ${strings.size}", TAG)
         textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
@@ -99,10 +98,9 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
             textSplitter.clearFromDictionary(it.path)
         }
 
-        //Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)
+        Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)
 
        // val file = FileStorage.createWordsFile(book.getId())
-       // val wordFoundDao = DaoSession.ge
         //val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
 
         val words = textSplitter.getWords()
@@ -112,44 +110,34 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
 
         //bos.close()
 
-        //Logger.debug("stopBook(${book.getId()})", TAG)
+        Logger.debug("stopBook(${book.getId()})", TAG)
 
         book.setUnknownWordsCount(textSplitter.getUnknownWordsCount())
 
         textSplitter.release()
 
         DataContext.getLibraryBookDao(this).updateBook(book)
-        //LibraryBookDao.getInstance(this).updateBook(book)
 
         sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
-        Log.i("BookSplitService", "All books : " + DataContext.getLibraryBookDao(this).allBooks.toString())
-        Log.i("BookSplitService", "All words : " + DataContext.getWordsFoundDao(this).allWords.toString())
-        DataContext.getPartsDao(this).allParts.forEach {
-            Log.i("BookSplitService", "Parts " + it.partitionNumber + ", - " + it.text + "\n")
-        }
-       // Log.i("BookSplitService", "All partitions : " + DataContext.getPartitionsBookDao(this).allPartitionsInBook.toString())
-       // Logger.debug("time store ${(System.currentTimeMillis() - time) / 1000}", TAG)
-       // Log.i(WordsFoundDao.TAG, "AllWords" + WordsFoundDao.getWordsFoundDao(applicationContext).allWords.toString())
+
     }
 
     private fun startBook(book: LibraryBook) {
         time = System.currentTimeMillis()
-        //Logger.debug("startBook(${book.getId()})", TAG)
+        Logger.debug("startBook(${book.getId()})", TAG)
         book.setAdapted(LibraryBook.ADAPTING)
 
         DataContext.getLibraryBookDao(this).updateBook(book)
-        //LibraryBookDao.getInstance(this).updateBook(book)
 
         sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
 
        // FileStorage.clearBook(book.getId())
-        //LibraryBookDao.getInstance(this).clearBook(book.id)
         DataContext.getLibraryBookDao(this).clearBook(book.id)
         TextSplitter.getInstance().release()
     }
 
     private fun splitText(id: Long, index: Int, text: String) {
-       // Logger.debug("splitText(${index})", TAG)
+        Logger.debug("splitText(${index})", TAG)
         val textSplitter = TextSplitter.getInstance()
         val configs = ConfigsContext.getConfigs(this)
         textSplitter.findCapital(text)

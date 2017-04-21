@@ -45,18 +45,6 @@ class DataContext {
         }
 
 
-        /*fun <T : Activity> getPartitionsBookDao(context: T): PartitionsBookDao {
-            return getSession(context).partitionsBookDao
-        }
-
-        fun <T : Service> getPartitionsBookDao(context: T): PartitionsBookDao {
-            return getSession(context).partitionsBookDao
-        }
-
-        fun <T : Fragment> getPartitionsBookDao(context: T): PartitionsBookDao {
-            return getSession(context).partitionsBookDao
-        }*/
-
 
         fun <T : Activity> getWordsFoundDao(context: T): WordsFoundDao {
             return getSession(context).wordsFoundDao

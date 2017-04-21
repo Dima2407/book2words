@@ -2,6 +2,7 @@ package org.book2words.models
 
 import android.app.Service
 import android.content.Context
+import android.util.Log
 import org.book2words.core.Logger
 import org.book2words.data.DataContext
 import org.book2words.database.model.Part
@@ -22,6 +23,8 @@ class TextSplitter private constructor() {
 
     private var partitions = 0
 
+    private var numberOfPartition = 0
+
     fun findCapital(text: String) {
         val wordPattern = Patterns.CAPITAL_WORD
         val matcher = wordPattern.matcher(text)
@@ -40,14 +43,17 @@ class TextSplitter private constructor() {
 
         Logger.debug("split chapter ${key}")
 
-        var numberOfPartition = 0
+        Log.i("TextSplitter", "toPartitions was coused!\n\n")
         val paragraphs = text.split("\n+".toRegex())
         val partitions = TreeMap<String, Partition>()
         paragraphs.forEachIndexed { i, item ->
             val p = "${key}-${i / partitionSize}"
             var part = Part()
             part.bookId = bookId
-            part.partitionNumber = numberOfPartition++
+            if (i % partitionSize == 0)
+                numberOfPartition++
+            part.partitionNumber = numberOfPartition
+            Log.i("TextSplitter", "numberOfPartition = " + numberOfPartition)
             part.text = item
             part.amountOfSymbols = item.length
             part.amountOfWords = item.split(Patterns.WORD).size
@@ -57,7 +63,6 @@ class TextSplitter private constructor() {
             })
             partition.add(item)
         }
-        Logger.debug("chapter ${key} - contains ${partitions.size} partitions")
         return partitions
     }
 
@@ -71,7 +76,6 @@ class TextSplitter private constructor() {
             val matcher = wordPattern.matcher(item)
             while (matcher.find()) {
                 val w = matcher.group(1)
-               // val key = w.toLowerCase() + "-" + bookId
                 val start = matcher.start(1)
                 val end = matcher.end(1)
                 var word = words.getOrPut(w.toLowerCase(), {
@@ -127,6 +131,7 @@ class TextSplitter private constructor() {
         capitals.clear()
         partitions = 0
         allWordsCount = 0
+        numberOfPartition = 0
     }
 
     companion object {
