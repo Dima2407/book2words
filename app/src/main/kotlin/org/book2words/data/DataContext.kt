@@ -5,15 +5,14 @@ import android.app.Application
 import android.app.Fragment
 import android.app.Service
 import org.book2words.core.FileStorage
-import org.book2words.database.DaoSession
-import org.book2words.database.LibraryBookDao
+import org.book2words.database.*
 import org.book2words.models.LibraryDictionary
 
 class DataContext {
 
     companion object {
         fun <T> setup(context: T) where T : Application, T : DaoHolder {
-            context.setDaoSession(DaoSession())
+            context.setDaoSession(DaoSession(context))
         }
 
         private fun <T : Application> getSession(context: T): DaoSession {
@@ -43,6 +42,45 @@ class DataContext {
 
         fun <T : Fragment> getLibraryBookDao(context: T): LibraryBookDao {
             return getSession(context).libraryBookDao
+        }
+
+
+        /*fun <T : Activity> getPartitionsBookDao(context: T): PartitionsBookDao {
+            return getSession(context).partitionsBookDao
+        }
+
+        fun <T : Service> getPartitionsBookDao(context: T): PartitionsBookDao {
+            return getSession(context).partitionsBookDao
+        }
+
+        fun <T : Fragment> getPartitionsBookDao(context: T): PartitionsBookDao {
+            return getSession(context).partitionsBookDao
+        }*/
+
+
+        fun <T : Activity> getWordsFoundDao(context: T): WordsFoundDao {
+            return getSession(context).wordsFoundDao
+        }
+
+        fun <T : Service> getWordsFoundDao(context: T): WordsFoundDao {
+            return getSession(context).wordsFoundDao
+        }
+
+        fun <T : Fragment> getWordsFoundDao(context: T): WordsFoundDao {
+            return getSession(context).wordsFoundDao
+        }
+
+
+        fun <T : Activity> getPartsDao(context: T): PartsDao {
+            return getSession(context).partsDao
+        }
+
+        fun <T : Service> getPartsDao(context: T): PartsDao {
+            return getSession(context).partsDao
+        }
+
+        fun <T : Fragment> getPartsDao(context: T): PartsDao {
+            return getSession(context).partsDao
         }
 
         fun getDictionaries(): List<LibraryDictionary> {

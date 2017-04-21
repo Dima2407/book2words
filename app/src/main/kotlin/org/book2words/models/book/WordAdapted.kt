@@ -8,6 +8,7 @@ import android.text.style.ClickableSpan
 import android.text.style.ForegroundColorSpan
 import android.text.style.RelativeSizeSpan
 import android.text.style.StyleSpan
+import android.util.Log
 import android.view.View
 import org.book2words.translate.core.Definition
 
@@ -57,6 +58,8 @@ class WordAdapted(private val start: Int,
         if (word.hasDefinitions()) {
             val trans = " [${word.definitions?.get(0)?.getTranscription()}]"
 
+            Log.i("WordAdapted", "start=" + start + ", end=" + end + ", trans = " + trans + ", lenght=" + adapted.length)
+            Log.i("WordAdapted", "adapted : " + adapted.toString())
             adapted.insert(end, trans)
             adapted.setSpan(foregroundSpan, start, end + trans.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
             if (onWordClickListener != null) {

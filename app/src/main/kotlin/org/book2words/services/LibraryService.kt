@@ -178,8 +178,8 @@ class LibraryService : IntentService(LibraryService::class.simpleName) {
             libraryBook.setAuthors(authorsString.toString())
             libraryBook.setPath(path)
 
-            val id = DataContext.getLibraryBookDao(this).insertOrReplace(libraryBook)
-
+            DataContext.getLibraryBookDao(this).updateBook(libraryBook)
+            val id = DataContext.getLibraryBookDao(this).getBook(libraryBook.path).id
             Logger.debug("prepareBook() ${id}")
             val coverImage = eBook.getCoverImage()
             if (coverImage != null) {

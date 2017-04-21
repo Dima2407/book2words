@@ -7,6 +7,10 @@ import java.io.Serializable
 import java.util.ArrayList
 
 public open class Word(value: String) : Comparable<Word>, Serializable {
+    @SerializedName("id")
+    var id: Int ?= null
+    @SerializedName("book_id")
+    var bookId: Long ?= null
     @SerializedName("p")
     val paragraphs: MutableList<Paragraph> = ArrayList()
     @SerializedName("v")
@@ -22,6 +26,10 @@ public open class Word(value: String) : Comparable<Word>, Serializable {
 
     override fun compareTo(other: Word): Int {
         return value.compareTo(other.value.toLowerCase())
+    }
+
+    fun setId (id : Int){
+        this.id = id
     }
 
     public fun addParagraph(index: Int, partition: Int, start: Int, end: Int) {

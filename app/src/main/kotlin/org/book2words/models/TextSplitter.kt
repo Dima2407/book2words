@@ -1,13 +1,16 @@
 package org.book2words.models
 
+import android.app.Service
+import android.content.Context
 import org.book2words.core.Logger
+import org.book2words.data.DataContext
+import org.book2words.database.model.Part
 import org.book2words.models.book.Partition
 import org.book2words.models.book.Word
 import java.io.File
 import java.io.FileInputStream
-import java.util.LinkedHashMap
-import java.util.TreeMap
-import java.util.TreeSet
+import java.util.*
+
 
 class TextSplitter private constructor() {
 
@@ -33,14 +36,22 @@ class TextSplitter private constructor() {
         Logger.debug("capitals = ${capitals.size}")
     }
 
-    fun toPartitions(key: Int, text: String, partitionSize: Int): TreeMap<String, Partition> {
+    fun toPartitions(context : Service, bookId : Long, key: Int, text: String, partitionSize: Int): TreeMap<String, Partition> {
 
         Logger.debug("split chapter ${key}")
 
+        var numberOfPartition = 0
         val paragraphs = text.split("\n+".toRegex())
         val partitions = TreeMap<String, Partition>()
         paragraphs.forEachIndexed { i, item ->
             val p = "${key}-${i / partitionSize}"
+            var part = Part()
+            part.bookId = bookId
+            part.partitionNumber = numberOfPartition++
+            part.text = item
+            part.amountOfSymbols = item.length
+            part.amountOfWords = item.split(Patterns.WORD).size
+            DataContext.getPartsDao(context).addPart(part)      // add paragraphs
             val partition = partitions.getOrPut(p, {
                 Partition(p)
             })
@@ -54,17 +65,19 @@ class TextSplitter private constructor() {
         partitions++
     }
 
-    fun split(partition: Partition) {
+    fun split(partition: Partition, bookId : Long) {
         val wordPattern = Patterns.WORD
         partition.forEachIndexed { i, item ->
             val matcher = wordPattern.matcher(item)
             while (matcher.find()) {
                 val w = matcher.group(1)
+               // val key = w.toLowerCase() + "-" + bookId
                 val start = matcher.start(1)
                 val end = matcher.end(1)
                 var word = words.getOrPut(w.toLowerCase(), {
                     Word(w)
                 })
+                word.bookId = bookId
                 word.addParagraph(i, partitions, start, end)
                 allWordsCount++
             }

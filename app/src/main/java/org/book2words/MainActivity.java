@@ -7,12 +7,16 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
+
+import org.book2words.core.Logger;
 import org.book2words.screens.DictionarySettingsFragment;
 import org.book2words.screens.LibraryListFragment;
 
 
 public class MainActivity extends FragmentActivity {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
     private ViewPager mPager;
 
     private PagerAdapter mPagerAdapter;

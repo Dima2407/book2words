@@ -5,7 +5,7 @@ import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
-import org.book2words.dao.DaoSession;
+import org.book2words.database.DaoSession;
 import org.book2words.data.*;
 import org.jetbrains.annotations.NotNull;
 
