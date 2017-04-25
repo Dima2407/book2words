@@ -1,6 +1,7 @@
 package org.book2words.translate
 
 import android.content.res.Resources
+import android.util.Log
 import org.book2words.R
 import org.book2words.core.Logger
 import org.book2words.translate.core.Definition
@@ -24,6 +25,7 @@ class VerbsDictionary(private val resources: Resources) : Dictionary {
 
     override fun find(input: String): Array<out Definition> {
         val source = InputSource(resources.openRawResource(R.raw.wrong_verbs))
+        //Log.i("VerbDictionary", "input = " + input)
         val expression = "/defs/d[@v='${input}']"
         Logger.debug("find verb : ${input}", TAG)
         val nodes = xPath.evaluate(expression, source, XPathConstants.NODESET) as NodeList?

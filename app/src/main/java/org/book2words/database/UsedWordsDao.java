@@ -21,7 +21,7 @@ public class UsedWordsDao {
     private static final String COLUMN_WORD = "word";
     private static final String COLUMN_SPEECH_PART = "speech_part";
     private static final String COLUMN_TRANSCRIPTION = "transcription";
-    private static final String COLUMN_TRANSLATE = "transcription";
+    private static final String COLUMN_TRANSLATE = "translate";
     private static final String SEPARATOR = ";";
 
     private SQLiteDatabase sqLiteDatabase;

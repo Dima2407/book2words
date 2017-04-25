@@ -27,12 +27,32 @@ public class Configs (private val preferences: SharedPreferences) {
         return Environment.getExternalStorageDirectory()
     }
 
+
+    fun setIsFirstLaunching(isFirst : Boolean){
+        var launching : Int
+        if (isFirst)
+            launching = 1
+        else
+            launching = 2
+        preferences.edit().
+                putInt(IS_FIRST_LAUNCHING, launching).commit()
+    }
+
+    fun getIsFirstLaunching() : Boolean {
+        val launching = preferences.getInt(IS_FIRST_LAUNCHING, 1)
+        if (launching == 1)
+            return true
+        else
+            return false
+    }
+
     companion object {
 
         private val PARAGRAPHS_IN_STEP = "_paragraphs_in_step"
         private val MAX_PARAGRAPHS_IN_STEP = "_max_paragraphs_in_step"
         private val CURRENT_PARAGRAPHS_IN_STEP = "_current_paragraphs_in_step"
         private val CURRENT_USER_ID = "_current_user_id"
+        private val IS_FIRST_LAUNCHING = "_is_first_launching"
 
 
         public fun getRelativePath(file: File): String {

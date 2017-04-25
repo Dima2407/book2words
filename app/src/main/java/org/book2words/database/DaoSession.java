@@ -22,6 +22,7 @@ public class DaoSession {
     private WordsFoundDao wordsFoundDao;
     private PartsDao partsDao;
     private UsedWordsDao usedWordsDao;
+    private DictionaryDao dictionaryDao;
 
     public DaoSession(Context context) {
 
@@ -32,6 +33,7 @@ public class DaoSession {
                 db.execSQL(WordsFoundDao.obtainCreateInstancesQuery());
                 db.execSQL(PartsDao.obtainCreateInstancesQuery());
                 db.execSQL(UsedWordsDao.obtainCreateInstancesQuery());
+                db.execSQL(DictionaryDao.obtainCreateInstancesQuery());
 
             }
 
@@ -46,6 +48,7 @@ public class DaoSession {
         wordsFoundDao = new WordsFoundDao(database);
         partsDao = new PartsDao(database);
         usedWordsDao = new UsedWordsDao(database);
+        dictionaryDao = new DictionaryDao(database);
     }
 
 
@@ -64,5 +67,9 @@ public class DaoSession {
 
     public UsedWordsDao getUsedWordsDao() {
         return usedWordsDao;
+    }
+
+    public DictionaryDao getDictionaryDao() {
+        return dictionaryDao;
     }
 }

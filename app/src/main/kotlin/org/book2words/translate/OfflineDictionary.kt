@@ -1,8 +1,14 @@
 package org.book2words.translate
 
+import android.app.Application
+import android.app.Service
+import android.content.Context
 import android.content.res.Resources
+import android.util.Log
 import org.book2words.R
 import org.book2words.core.Logger
+import org.book2words.data.DataContext
+import org.book2words.database.model.WordDefinition
 import org.book2words.translate.core.Definition
 import org.w3c.dom.Node
 import org.w3c.dom.NodeList
@@ -11,13 +17,15 @@ import java.util.concurrent.Executors
 import javax.xml.xpath.XPathConstants
 import javax.xml.xpath.XPathFactory
 
-public class OfflineDictionary(private val resources: Resources) : Dictionary {
+public class OfflineDictionary(private val resources: Resources, private val context : Service) : Dictionary {
 
     private val xPath = XPathFactory.newInstance().newXPath()
 
     private var executor = Executors.newSingleThreadExecutor()
 
-    private val map = mapOf(
+
+
+    /*private val map = mapOf(
             'a' to R.raw.a,
             'b' to R.raw.b,
             'c' to R.raw.c,
@@ -43,7 +51,7 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
             'w' to R.raw.w,
             'x' to R.raw.x,
             'y' to R.raw.y,
-            'z' to R.raw.z)
+            'z' to R.raw.z)*/
 
     override fun find(input: String, onFound: (input: String, result: Array<out Definition>) -> Unit) {
         executor.submit({
@@ -53,26 +61,26 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
     }
 
     override fun find(input: String): Array<out Definition> {
-        val resourceId = map[input[0]]
+        //val resourceId = map[input[0]]
         var items = arrayOf<Definition>()
-        if (resourceId != null) {
-            items = findInternal(input, resourceId)
-            if (items.isEmpty()) {
+       // if (resourceId != null) {
+            items = findInternal(input/*, resourceId*/)
+            /*if (items.isEmpty()) {
                 val forms = forms(input)
                 Logger.debug("forms - ${forms}", TAG)
                 for (item in forms) {
-                    items = findInternal(item, resourceId)
+                    items = findInternal(item*//*, resourceId*//*)
                     if (items.isNotEmpty()) {
                         break
                     }
                 }
-            }
-        }
+            }*/
+       // }
         return items
     }
 
-    private fun findInternal(input: String, resourceId: Int): Array<Definition> {
-        Logger.debug("find : ${input}", TAG)
+    private fun findInternal(input: String/*, resourceId: Int*/): Array<Definition> {
+     /*   Logger.debug("find : ${input}", TAG)
         val source = InputSource(resources.openRawResource(resourceId))
         val expression = "/defs/d[@v='${input}']"
         val nodes = xPath.evaluate(expression, source, XPathConstants.NODESET) as NodeList?
@@ -83,8 +91,21 @@ public class OfflineDictionary(private val resources: Resources) : Dictionary {
                 WordDefinition(node)
             })
         }
-        return items
-    }
+        return items*/
+          // Log.i(TAG, "find Internal started")
+           var items = arrayOf<Definition>()
+           val words = DataContext.getDictionaryDao(context).getWord(input)
+           if (words.size > 0) {
+               items = Array(words.size, {
+                   val word = words.get(it)
+                   word
+               })
+           }
+        /*   items.forEach {
+               Log.i(TAG, "found word = " + it.getText())
+           }*/
+           return items
+       }
 
     private class WordDefinition(definition: Node) : Definition {
         private val text: String

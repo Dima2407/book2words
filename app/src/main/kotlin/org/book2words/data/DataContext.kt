@@ -4,6 +4,7 @@ import android.app.Activity
 import android.app.Application
 import android.app.Fragment
 import android.app.Service
+import android.content.Context
 import org.book2words.core.FileStorage
 import org.book2words.database.*
 import org.book2words.models.LibraryDictionary
@@ -82,6 +83,23 @@ class DataContext {
 
         fun <T : Fragment> getUsedWordsDao(context: T): UsedWordsDao {
             return getSession(context).usedWordsDao
+        }
+
+
+        fun <T : Activity> getDictionaryDao(context: T): DictionaryDao {
+            return getSession(context).dictionaryDao
+        }
+
+        fun <T : Service> getDictionaryDao(context: T): DictionaryDao {
+            return getSession(context).dictionaryDao
+        }
+
+        fun <T : Fragment> getDictionaryDao(context: T): DictionaryDao {
+            return getSession(context).dictionaryDao
+        }
+
+        fun <T : Application> getDictionaryDao(context: T): DictionaryDao {
+            return getSession(context).dictionaryDao
         }
 
         fun getDictionaries(): List<LibraryDictionary> {

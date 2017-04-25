@@ -7,7 +7,7 @@ import java.util.concurrent.Executors
 
 public class EnglishDictionary(service: Service) : Dictionary {
 
-    private val offline = OfflineDictionary(service.getResources())
+    private val offline = OfflineDictionary(service.getResources(), service)
 
     private val online = OnlineDictionary(DictionaryContext.getConfigs(service), "en", "ru")
 

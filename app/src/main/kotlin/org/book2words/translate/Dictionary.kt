@@ -1,5 +1,6 @@
 package org.book2words.translate
 
+import android.app.Service
 import android.content.Context
 import org.book2words.data.CacheDictionary
 import org.book2words.translate.core.Definition
@@ -47,7 +48,7 @@ public interface Dictionary {
         }
 
         public fun createOffline(context: Context): Dictionary {
-            return OfflineDictionary(context.getResources())
+            return OfflineDictionary(context.getResources(), context as Service)
         }
 
         val VERB_PAST = "((\\w{3,})e)d$".toPattern()

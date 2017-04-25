@@ -122,7 +122,7 @@ class BookReaderBinder(
         executor.execute {
             val counter = CountDownLatch(paragraph.getNotTranslatedWords().size)
             paragraph.getNotTranslatedWords().forEach { word ->
-                Log.i("BookReaderBinder", "word : " + word.getValue())
+                //Log.i("BookReaderBinder", "word : " + word.getValue())
                 wordsDictionary.find(word.getValue(), { input, result ->
                     word.setDefinitions(result)
                     counter.countDown()
