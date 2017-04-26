@@ -6,7 +6,7 @@ import android.content.Intent
 import android.content.ServiceConnection
 import android.os.IBinder
 import org.book2words.core.Logger
-import org.book2words.database.model.LibraryBook
+import org.book2words.database.models.LibraryBook
 import java.util.HashMap
 
 class BookReadService : Service() {

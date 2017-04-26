@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
-import org.book2words.database.model.LibraryBook;
+import org.book2words.database.models.LibraryBook;
 import org.book2words.screens.BookSplitFragment;
 
 public class SplitActivity extends Activity {

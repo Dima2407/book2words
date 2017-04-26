@@ -140,11 +140,11 @@ public class ParagraphAdapted(val original: String, var ready: Boolean = false) 
         return adapted
     }
 
-    public fun modify(pIndex: Int, chapterId: Int, word: Word) {
+    fun modify(pIndex: Int, chapterId: Int, word: Word) {
         var index = words.size % COLORS.size
         val color = Color.parseColor(COLORS[index])
-        val founds = word.paragraphs.filter {
-            pIndex == it.index && chapterId == it.key
+        val founds = word.locations.filter {
+            pIndex == it.paragraph && chapterId == it.chapter
         }
         founds.forEach {
             val start = it.start

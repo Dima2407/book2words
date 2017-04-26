@@ -19,7 +19,7 @@ import org.book2words.SelectFileActivity
 import org.book2words.SplitActivity
 import org.book2words.activities.ReaderActivity
 import org.book2words.core.Logger
-import org.book2words.database.model.LibraryBook
+import org.book2words.database.models.LibraryBook
 import org.book2words.data.DataContext
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment

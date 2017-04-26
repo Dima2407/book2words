@@ -3,21 +3,17 @@ package org.book2words.database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Created by user on 18.04.2017.
- */
+import java.util.List;
 
 public class DaoSession {
 
-    public static final String DB_NAME = "book2word.db";
-    public static final int DB_VERSION = 1;
+    private static final String DB_NAME = "book2word.db";
+    private static final int DB_VERSION = 1;
 
-    private final SQLiteOpenHelper curentHelper;
+    private final SQLiteOpenHelper dbHelper;
 
-    @NotNull
     private LibraryBookDao libraryBookDao;
     private WordsFoundDao wordsFoundDao;
     private PartsDao partsDao;
@@ -25,15 +21,16 @@ public class DaoSession {
     private DictionaryDao dictionaryDao;
 
     public DaoSession(Context context) {
-
-        curentHelper = new SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
+        dbHelper = new SQLiteOpenHelper(context, DB_NAME, null, DB_VERSION) {
             @Override
             public void onCreate(SQLiteDatabase db) {
                 db.execSQL(LibraryBookDao.obtainCreateInstancesQuery());
-                db.execSQL(WordsFoundDao.obtainCreateInstancesQuery());
-                db.execSQL(PartsDao.obtainCreateInstancesQuery());
                 db.execSQL(UsedWordsDao.obtainCreateInstancesQuery());
                 db.execSQL(DictionaryDao.obtainCreateInstancesQuery());
+                final List<String> setup = new Schema().setup();
+                for (String query : setup){
+                    db.execSQL(query);
+                }
 
             }
 
@@ -42,34 +39,43 @@ public class DaoSession {
 
             }
         };
-
-        SQLiteDatabase database = curentHelper.getWritableDatabase();
-        libraryBookDao = new LibraryBookDao(database);
-        wordsFoundDao = new WordsFoundDao(database);
-        partsDao = new PartsDao(database);
-        usedWordsDao = new UsedWordsDao(database);
-        dictionaryDao = new DictionaryDao(database);
     }
 
 
     @NotNull
     public LibraryBookDao getLibraryBookDao() {
+        if(libraryBookDao == null){
+            libraryBookDao = new LibraryBookDao(dbHelper.getWritableDatabase());
+        }
         return libraryBookDao;
     }
 
+    @NotNull
     public WordsFoundDao getWordsFoundDao() {
+        if(wordsFoundDao == null){
+            wordsFoundDao = new WordsFoundDao(dbHelper.getWritableDatabase());
+        }
         return wordsFoundDao;
     }
 
     public PartsDao getPartsDao() {
+        if(partsDao == null){
+            partsDao = new PartsDao(dbHelper.getWritableDatabase());
+        }
         return partsDao;
     }
 
     public UsedWordsDao getUsedWordsDao() {
+        if(usedWordsDao == null){
+            usedWordsDao = new UsedWordsDao(dbHelper.getWritableDatabase());
+        }
         return usedWordsDao;
     }
 
     public DictionaryDao getDictionaryDao() {
+        if(dictionaryDao == null){
+            dictionaryDao = new DictionaryDao(dbHelper.getWritableDatabase());
+        }
         return dictionaryDao;
     }
 }

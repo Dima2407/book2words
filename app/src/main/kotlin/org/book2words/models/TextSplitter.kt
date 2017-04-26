@@ -1,13 +1,9 @@
 package org.book2words.models
 
-import android.app.Service
-import android.content.Context
-import android.util.Log
 import org.book2words.core.Logger
-import org.book2words.data.DataContext
 import org.book2words.database.model.Part
-import org.book2words.models.book.Partition
 import org.book2words.models.book.Word
+import org.book2words.models.book.WordLocation
 import java.io.File
 import java.io.FileInputStream
 import java.util.*
@@ -39,53 +35,38 @@ class TextSplitter private constructor() {
         Logger.debug("capitals = ${capitals.size}")
     }
 
-    fun toPartitions(context : Service, bookId : Long, key: Int, text: String, partitionSize: Int): TreeMap<String, Partition> {
+    fun toPartitions(bookId: Long, key: Int, text: String): List<Part> {
 
-        Logger.debug("split chapter ${key}")
+        Logger.debug("split chapter $key")
 
-        Log.i("TextSplitter", "toPartitions was coused!\n\n")
-        val paragraphs = text.split("\n+".toRegex())
-        val partitions = TreeMap<String, Partition>()
-        paragraphs.forEachIndexed { i, item ->
-            val p = "${key}-${i / partitionSize}"
+        val parts = text.split("\n+".toRegex()).asSequence().filter { it.trim().isNotEmpty() }.mapIndexed { i, item ->
             var part = Part()
             part.bookId = bookId
-            if (i % partitionSize == 0)
-                numberOfPartition++
-            part.partitionNumber = numberOfPartition
-            Log.i("TextSplitter", "numberOfPartition = " + numberOfPartition)
+            part.partitionNumber = key
+            part.paragraphNumber = i
             part.text = item
             part.amountOfSymbols = item.length
-            part.amountOfWords = item.split(Patterns.WORD).size
-            DataContext.getPartsDao(context).addPart(part)      // add paragraphs
-            val partition = partitions.getOrPut(p, {
-                Partition(p)
-            })
-            partition.add(item)
+            part
         }
-        return partitions
-    }
-
-    fun nextPartition() {
         partitions++
+        return parts.toList();
     }
 
-    fun split(partition: Partition, bookId : Long) {
+
+    fun split(partition: Part, bookId: Long) {
         val wordPattern = Patterns.WORD
-        partition.forEachIndexed { i, item ->
-            val matcher = wordPattern.matcher(item)
-            while (matcher.find()) {
-                val w = matcher.group(1)
-                val start = matcher.start(1)
-                val end = matcher.end(1)
-                var word = words.getOrPut(w.toLowerCase(), {
-                    Word(w)
-                })
-                word.bookId = bookId
-                word.addParagraph(i, partitions, start, end)
-                allWordsCount++
-            }
+        val matcher = wordPattern.matcher(partition.text)
+        while (matcher.find()) {
+            val w = matcher.group(1)
+            val start = matcher.start(1)
+            val end = matcher.end(1)
+            val word = words.getOrPut(w.toLowerCase(), {
+                Word(w)
+            })
+            word.locations.add(WordLocation(bookId, partition.partitionNumber, partition.paragraphNumber, start, end));
+            partition.amountOfWords++
         }
+        allWordsCount += partition.amountOfWords;
     }
 
     fun clearCapital() {

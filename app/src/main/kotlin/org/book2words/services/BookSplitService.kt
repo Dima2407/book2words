@@ -5,20 +5,13 @@ import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
-import android.util.Log
 import org.book2words.MainActivity
 import org.book2words.R
-import org.book2words.core.FileStorage
 import org.book2words.core.Logger
-import org.book2words.database.DaoSession
-import org.book2words.database.model.LibraryBook
+import org.book2words.database.models.LibraryBook
 import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
-import org.book2words.database.LibraryBookDao
-import org.book2words.database.PartitionsBookDao
-import org.book2words.database.WordsFoundDao
 import org.book2words.models.TextSplitter
-import java.io.FileOutputStream
 
 public class BookSplitService : IntentService(BookSplitService::class.simpleName) {
 
@@ -26,7 +19,7 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
 
     override fun onHandleIntent(intent: Intent?) {
         if (intent != null) {
-            val action = intent.getAction()
+            val action = intent.action
 
             val builder = Notification.Builder(this)
             builder.setSmallIcon(R.drawable.ic_launcher)
@@ -43,7 +36,7 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
                 OPEN_ACTION -> {
                     val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
 
-                    builder.setContentTitle("Adapting ${book.getName()}")
+                    builder.setContentTitle("Adapting ${book.name}")
                     startForeground(NOTIFICATION_ID, builder.build())
 
                     startBook(book)
@@ -52,7 +45,7 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
                 CLOSE_ACTION -> {
                     val book: LibraryBook = intent.getParcelableExtra(EXTRA_BOOK)
 
-                    builder.setContentTitle("Adapting ${book.getName()}")
+                    builder.setContentTitle("Adapting ${book.name}")
                     startForeground(NOTIFICATION_ID, builder.build())
 
                     stopBook(book)
@@ -73,16 +66,16 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
     }
 
     private fun stopBook(book: LibraryBook) {
-        Logger.debug("stopBook(${book.getId()})", TAG)
+        Logger.debug("stopBook(${book.id})", TAG)
 
         val textSplitter = TextSplitter.getInstance()
 
-        book.setAdapted(LibraryBook.ADAPTED)
-        book.setWordsCount(textSplitter.getAllFoundWordsCount())
-        book.setUniqueWordsCount(textSplitter.getUniqueWordsCount())
+        book.adapted = LibraryBook.ADAPTED
+        book.wordsCount = textSplitter.getAllFoundWordsCount()
+        book.uniqueWordsCount = textSplitter.getUniqueWordsCount()
 
-        book.setCurrentPartition(1)
-        book.setCountPartitions(textSplitter.getPartitionsCount())
+        book.currentPartition = 1
+        book.countPartitions = textSplitter.getPartitionsCount()
 
         Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}", TAG)
         textSplitter.clearCapital()
@@ -100,23 +93,15 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
 
         Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)
 
-       // val file = FileStorage.createWordsFile(book.getId())
-        //val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
+        DataContext.getWordsFoundDao(this).save(textSplitter.getWords())
 
-        val words = textSplitter.getWords()
-        words.forEach {
-            DataContext.getWordsFoundDao(this).addWord(it)
-        }
+        Logger.debug("stopBook(${book.id})", TAG)
 
-        //bos.close()
-
-        Logger.debug("stopBook(${book.getId()})", TAG)
-
-        book.setUnknownWordsCount(textSplitter.getUnknownWordsCount())
+        book.unknownWordsCount = textSplitter.getUnknownWordsCount()
 
         textSplitter.release()
 
-        DataContext.getLibraryBookDao(this).updateBook(book)
+        DataContext.getLibraryBookDao(this).save(book)
 
         sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
 
@@ -124,37 +109,25 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
 
     private fun startBook(book: LibraryBook) {
         time = System.currentTimeMillis()
-        Logger.debug("startBook(${book.getId()})", TAG)
-        book.setAdapted(LibraryBook.ADAPTING)
+        Logger.debug("startBook(${book.id})", TAG)
+        book.adapted = LibraryBook.ADAPTING
 
-        DataContext.getLibraryBookDao(this).updateBook(book)
+        DataContext.getLibraryBookDao(this).save(book)
 
         sendBroadcast(Intent(LibraryService.ACTION_PREPARED))
 
-       // FileStorage.clearBook(book.getId())
-        DataContext.getLibraryBookDao(this).clearBook(book.id)
         TextSplitter.getInstance().release()
     }
 
     private fun splitText(id: Long, index: Int, text: String) {
-        Logger.debug("splitText(${index})", TAG)
+        Logger.debug("splitText($index)", TAG)
         val textSplitter = TextSplitter.getInstance()
-        val configs = ConfigsContext.getConfigs(this)
         textSplitter.findCapital(text)
-        val partitions = textSplitter.toPartitions(this, id, index, text, configs.getCurrentParagraphsInStep())
+        val partitions = textSplitter.toPartitions(id, index, text)
         partitions.forEach {
-            val partition = it.value
-            textSplitter.nextPartition()
-
+            val partition = it
             textSplitter.split(partition, id)
-            //DataContext.getPartitionsBookDao(this).addPartition(partition)
-        /*    val file = FileStorage.createChapterFile(id, textSplitter.getPartitionsCount())
-            val bos = FileOutputStream(file).bufferedWriter(Charsets.UTF_8)
-            partition.forEach {
-                bos.appendln(it)
-                bos.flush()
-            }
-            bos.close()*/
+            DataContext.getPartsDao(this).save(partition);
         }
 
     }

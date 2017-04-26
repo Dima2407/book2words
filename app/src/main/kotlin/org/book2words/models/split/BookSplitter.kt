@@ -2,7 +2,7 @@ package org.book2words.models.split
 
 import nl.siegmann.epublib.epub.EpubReader
 import org.book2words.core.Logger
-import org.book2words.database.model.LibraryBook
+import org.book2words.database.models.LibraryBook
 import java.io.FileInputStream
 
 public class BookSplitter(private val libraryBook: LibraryBook) {
@@ -12,7 +12,7 @@ public class BookSplitter(private val libraryBook: LibraryBook) {
     private var size = 0
 
     public fun prepare(onPrepared: (title: String, length: Int) -> Unit, onReleased: () -> Unit) {
-        val inputStream = FileInputStream(libraryBook.getPath())
+        val inputStream = FileInputStream(libraryBook.path)
 
         var book = EpubReader().readEpub(inputStream, ENCODING)
         val title = book.getTitle()

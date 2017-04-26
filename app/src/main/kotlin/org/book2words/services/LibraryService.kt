@@ -13,7 +13,7 @@ import org.book2words.MainActivity
 import org.book2words.R
 import org.book2words.core.FileStorage
 import org.book2words.core.Logger
-import org.book2words.database.model.LibraryBook
+import org.book2words.database.models.LibraryBook
 import org.book2words.models.LibraryDictionary
 import org.book2words.data.DataContext
 import java.io.*
@@ -49,9 +49,7 @@ class LibraryService : IntentService(LibraryService::class.simpleName) {
 
                 val path = intent.getStringExtra(EXTRA_PATH)
 
-                val libraryBook = LibraryBook()
-
-                prepareBook(libraryBook, path)
+                prepareBook(path)
 
                 sendBroadcast(Intent(ACTION_PREPARED))
             } else if (ACTION_EXPORT == action) {
@@ -155,33 +153,33 @@ class LibraryService : IntentService(LibraryService::class.simpleName) {
     }
 
 
-    private fun prepareBook(libraryBook: LibraryBook, path: String) {
-        Logger.debug("prepareBook() ${path}")
+    private fun prepareBook(path: String) {
+        Logger.debug("prepareBook() $path")
         try {
             val eBook = EpubReader().readEpubLazy(ZipFile(path), Charsets.UTF_8.name())
 
-            libraryBook.setName(eBook.getTitle())
+
             val authorsString = StringBuilder()
-            val authors = eBook.getMetadata().getAuthors()
+            val authors = eBook.metadata.authors
             authors.forEachIndexed { i, author ->
-                authorsString.append(author.getFirstname())
+                authorsString.append(author.firstname)
                 authorsString.append(" ")
-                authorsString.append(author.getLastname())
+                authorsString.append(author.lastname)
                 if (i != authors.size - 1) {
                     authorsString.append(", ")
                 }
             }
-            val language = eBook.getMetadata().getLanguage()
-            Logger.debug("prepareBook() ${authorsString}")
+            val language = eBook.metadata.language
+            Logger.debug("prepareBook() $authorsString")
 
-            libraryBook.setLanguage(language)
-            libraryBook.setAuthors(authorsString.toString())
-            libraryBook.setPath(path)
-
-            DataContext.getLibraryBookDao(this).updateBook(libraryBook)
-            val id = DataContext.getLibraryBookDao(this).getBook(libraryBook.path).id
-            Logger.debug("prepareBook() ${id}")
-            val coverImage = eBook.getCoverImage()
+            val libraryBook = LibraryBook(name = eBook.title,
+                    authors = authorsString.toString(),
+                    language = language,
+                    path = path)
+            DataContext.getLibraryBookDao(this).save(libraryBook)
+            val id = libraryBook.id!!
+            Logger.debug("prepareBook() $id")
+            val coverImage = eBook.coverImage
             if (coverImage != null) {
                 saveCover(id, coverImage)
             } else {

@@ -6,9 +6,10 @@ package org.book2words.database.model;
 
 public class Part {
 
-    private int id;
-    private Long bookId;
+    private long id;
+    private long bookId;
     private int partitionNumber;
+    private int paragraphNumber;
     private int amountOfWords;
     private int amountOfSymbols;
     private String text;
@@ -29,11 +30,11 @@ public class Part {
         this.text = text;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -75,5 +76,13 @@ public class Part {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    public int getParagraphNumber() {
+        return paragraphNumber;
+    }
+
+    public void setParagraphNumber(int paragraphNumber) {
+        this.paragraphNumber = paragraphNumber;
     }
 }
