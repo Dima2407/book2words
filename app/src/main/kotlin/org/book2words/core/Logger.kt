@@ -5,7 +5,7 @@ import android.util.Log
 class Logger {
     companion object {
 
-        private val debuggable = false
+        private val debuggable = true
         val TAG: String = "book2words"
 
         fun debug(message: String, tag: String? = "") {

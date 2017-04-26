@@ -14,8 +14,8 @@ public class TagBookReader(private val spine: Spine,
     }
 
     override fun onChapter(chapter: Int, text: String) {
-        Logger.debug("onChapter(${chapter})")
-        Logger.debug("loadData(${text})")
+        Logger.debug("onChapter($chapter)")
+        Logger.debug("loadData($text)")
         fetcher?.processContent(text)
     }
 

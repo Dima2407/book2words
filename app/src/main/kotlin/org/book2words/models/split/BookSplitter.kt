@@ -11,12 +11,12 @@ public class BookSplitter(private val libraryBook: LibraryBook) {
 
     private var size = 0
 
-    public fun prepare(onPrepared: (title: String, length: Int) -> Unit, onReleased: () -> Unit) {
+    fun prepare(onPrepared: (title: String, length: Int) -> Unit, onReleased: () -> Unit) {
         val inputStream = FileInputStream(libraryBook.path)
 
         var book = EpubReader().readEpub(inputStream, ENCODING)
-        val title = book.getTitle()
-        val spine = book.getSpine()
+        val title = book.title
+        val spine = book.spine
         size = spine.size()
         reader = TagBookReader(spine, {
             onReleased()
@@ -25,11 +25,12 @@ public class BookSplitter(private val libraryBook: LibraryBook) {
         onPrepared(title, spine.size())
     }
 
-    public fun split(offset: Int = 0, length: Int = size, onSpiltProgress: (current: Int, length: Int, text: String) -> Unit) {
+    fun split(offset: Int = 0, length: Int = size, onSpiltProgress: (current: Int, length: Int, text: String) -> Unit) {
+        var index = 0
         reader!!.start(offset, length, HtmlTagContentFetcher({
             if(!it.isBlank()){
-                val current = reader!!.getCurrent()
-                Logger.debug("process() : ${it}")
+                val current = index++
+                Logger.debug("process() : $it")
                 onSpiltProgress(current, length, it)
             }
             reader!!.next()

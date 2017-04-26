@@ -41,7 +41,7 @@ public class BookAdapterBinder(
         }
     }
 
-    public fun start(onProgress: (progress: Int, limit: Int) -> Unit) {
+    fun start(onProgress: (progress: Int, limit: Int) -> Unit) {
         executor.execute {
             splitter.split(onSpiltProgress = {
                 index, length, text ->

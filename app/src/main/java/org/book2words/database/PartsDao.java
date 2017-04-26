@@ -43,18 +43,30 @@ public class PartsDao {
         return parts;
     }
 
-    public void save(Part part) {
-        ContentValues contentValues = new ContentValues();
-        if (part.getId() > 0)
-            contentValues.put(PartTable._ID, part.getId());
-        contentValues.put(PartTable.COLUMN_BOOK_ID, part.getBookId());
-        contentValues.put(PartTable.COLUMN_PARTITION_NUMBER, part.getPartitionNumber());
-        contentValues.put(PartTable.COLUMN_PARAGRAPH_NUMBER, part.getParagraphNumber());
-        contentValues.put(PartTable.COLUMN_AMOUNT_OF_SYMBOLS, part.getAmountOfSymbols());
-        contentValues.put(PartTable.COLUMN_AMOUNT_OF_WORDS, part.getAmountOfWords());
-        contentValues.put(PartTable.COLUMN_TEXT, part.getText());
-        long id = sqLiteDatabase.insertWithOnConflict(PartTable.TABLE, null, contentValues, SQLiteDatabase.CONFLICT_REPLACE);
-        part.setId(id);
+    public void save(Iterable<Part> parts) {
+        sqLiteDatabase.beginTransaction();
+        try {
+
+            ContentValues contentValues = new ContentValues();
+            for(Part part : parts) {
+                if (part.getId() > 0) {
+                    contentValues.put(PartTable._ID, part.getId());
+                }
+                contentValues.put(PartTable.COLUMN_BOOK_ID, part.getBookId());
+                contentValues.put(PartTable.COLUMN_PARTITION_NUMBER, part.getPartitionNumber());
+                contentValues.put(PartTable.COLUMN_PARAGRAPH_NUMBER, part.getParagraphNumber());
+                contentValues.put(PartTable.COLUMN_AMOUNT_OF_SYMBOLS, part.getAmountOfSymbols());
+                contentValues.put(PartTable.COLUMN_AMOUNT_OF_WORDS, part.getAmountOfWords());
+                contentValues.put(PartTable.COLUMN_TEXT, part.getText());
+                long id = sqLiteDatabase.insertWithOnConflict(PartTable.TABLE, null, contentValues, SQLiteDatabase.CONFLICT_REPLACE);
+                part.setId(id);
+            }
+
+            sqLiteDatabase.setTransactionSuccessful();
+        } finally {
+            sqLiteDatabase.endTransaction();
+        }
+
     }
 
 }

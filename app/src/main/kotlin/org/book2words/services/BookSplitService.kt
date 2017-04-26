@@ -9,7 +9,6 @@ import org.book2words.MainActivity
 import org.book2words.R
 import org.book2words.core.Logger
 import org.book2words.database.models.LibraryBook
-import org.book2words.data.ConfigsContext
 import org.book2words.data.DataContext
 import org.book2words.models.TextSplitter
 
@@ -74,7 +73,6 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
         book.wordsCount = textSplitter.getAllFoundWordsCount()
         book.uniqueWordsCount = textSplitter.getUniqueWordsCount()
 
-        book.currentPartition = 1
         book.countPartitions = textSplitter.getPartitionsCount()
 
         Logger.debug("time split ${(System.currentTimeMillis() - time) / 1000}", TAG)
@@ -127,8 +125,9 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
         partitions.forEach {
             val partition = it
             textSplitter.split(partition, id)
-            DataContext.getPartsDao(this).save(partition);
         }
+
+        DataContext.getPartsDao(this).save(partitions);
 
     }
 
@@ -149,9 +148,9 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
 
         private val EXTRA_BOOK: String = "_book"
 
-        public fun save(context: Context, id: Long, index: Int, text: String) {
+        fun save(context: Context, id: Long, index: Int, text: String) {
             val intent = Intent(context, BookSplitService::class.java)
-            intent.setAction(SPLIT_ACTION)
+            intent.action = SPLIT_ACTION
             intent.putExtra(EXTRA_ID, id)
             intent.putExtra(EXTRA_INDEX, index)
             intent.putExtra(EXTRA_TEXT, text)

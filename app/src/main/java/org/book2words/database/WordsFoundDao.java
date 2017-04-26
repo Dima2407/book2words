@@ -113,17 +113,4 @@ public class WordsFoundDao {
         }
         return words.values();
     }
-/*
-    private void setParagraphsFromDataBase(Cursor cursor, Word word) {
-        String textParagraphs = cursor.getString(cursor.getColumnIndex(COLUMN_PARAGRAPHS));
-        String[] arrayParagraphs = textParagraphs.split(";");
-        for (String str : arrayParagraphs) {
-            String[] valuesParagraph = str.split(",");
-            List<Integer> values = new ArrayList<>();
-            for (String s : valuesParagraph) {
-                values.add(Integer.valueOf(s));
-            }
-            word.addParagraph(values.get(0), values.get(1), values.get(2), values.get(3));
-        }
-    }*/
 }
