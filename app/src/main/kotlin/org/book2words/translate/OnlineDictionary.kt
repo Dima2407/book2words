@@ -31,7 +31,7 @@ class OnlineDictionary(private val dictionary: CacheDictionary,
         var items = translate(input).getResults()
         if(items.isEmpty()){
             val forms = forms(input)
-            Logger.debug("forms - ${forms}", TAG)
+            Logger.debug("forms - $forms", TAG)
             for (item in forms) {
                 items = translate(item).getResults()
                 if (items.isNotEmpty()) {
@@ -43,7 +43,7 @@ class OnlineDictionary(private val dictionary: CacheDictionary,
     }
 
     private fun translate(input: String): DictionaryResult {
-        Logger.debug("find - ${input}", TAG)
+        Logger.debug("find - $input", TAG)
         val cached = dictionary.take(input)
         if (cached != null) {
             Logger.debug("find at cache - ${input}", TAG)
@@ -51,7 +51,7 @@ class OnlineDictionary(private val dictionary: CacheDictionary,
                     YDictionaryResult::class.java)
         }
         val queryString = buildQueryString(input)
-        Logger.debug("query string - ${queryString}", TAG)
+        Logger.debug("query string - $queryString", TAG)
         var result: DictionaryResult = YDictionaryResult()
         try {
             val url = URL(queryString)
@@ -62,10 +62,10 @@ class OnlineDictionary(private val dictionary: CacheDictionary,
             connection.setDoInput(true)
             // Starts the query
             connection.connect()
-            val responseCode = connection.getResponseCode()
+            val responseCode = connection.responseCode
             if (responseCode == HttpURLConnection.HTTP_OK) {
                 try {
-                    val reader = connection.getInputStream().bufferedReader(Charsets.UTF_8)
+                    val reader = connection.inputStream.bufferedReader(Charsets.UTF_8)
                     val resonse = StringBuilder()
                     reader.forEachLine {
                         resonse.append(it)
@@ -88,7 +88,7 @@ class OnlineDictionary(private val dictionary: CacheDictionary,
     private fun buildQueryString(input: String): String {
         val params = HashMap<String, Any>()
         params.put("key", API_KEY)
-        params.put("lang", URLEncoder.encode("${from}-${to}", Charsets.UTF_8.name()))
+        params.put("lang", URLEncoder.encode("$from-$to", Charsets.UTF_8.name()))
         params.put("text", URLEncoder.encode(input, Charsets.UTF_8.name()))
 
         val queryString = StringBuilder(QUERY + "?")

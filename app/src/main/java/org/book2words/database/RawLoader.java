@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.util.Log;
 
+import org.book2words.B2WApplication;
 import org.book2words.R;
 import org.book2words.data.DataContext;
 import org.book2words.database.model.WordDefinition;
@@ -27,63 +28,24 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-/**
- * Created by dima on 24.04.17.
- */
-
 public class RawLoader {
 
     private static final String TAG = RawLoader.class.getCanonicalName();
 
     private XPath xPath;
-    private Executor executor;
     private Resources resources;
     private int[] arrayOfResources = {R.raw.a, R.raw.b, R.raw.c, R.raw.d, R.raw.e, R.raw.f, R.raw.g, R.raw.h, R.raw.i, R.raw.j, R.raw.k,
             R.raw.l, R.raw.m, R.raw.n, R.raw.o, R.raw.p, R.raw.q, R.raw.r, R.raw.s, R.raw.t, R.raw.u, R.raw.v, R.raw.w, R.raw.x, R.raw.y, R.raw.z};
- /*   private HashMap<Character, Integer> map = new HashMap<Character, Integer>(){{
-        put('a', R.raw.a);
-        put('b', R.raw.b);
-        put('c', R.raw.c);
-        put('d', R.raw.d);
-        put('e', R.raw.e);
-        put('f', R.raw.f);
-        put('g', R.raw.g);
-        put('h', R.raw.h);
-        put('i', R.raw.i);
-        put('j', R.raw.j);
-        put('k', R.raw.k);
-        put('l', R.raw.l);
-        put('m', R.raw.m);
-        put('n', R.raw.n);
-        put('o', R.raw.o);
-        put('p', R.raw.p);
-        put('q', R.raw.q);
-        put('r', R.raw.r);
-        put('s', R.raw.s);
-        put('t', R.raw.t);
-        put('u', R.raw.u);
-        put('v', R.raw.v);
-        put('w', R.raw.w);
-        put('x', R.raw.x);
-        put('y', R.raw.y);
-        put('z', R.raw.z);
-    }};*/
 
     public RawLoader(Resources resources){
         this.resources = resources;
         xPath = XPathFactory.newInstance().newXPath();
-        executor = Executors.newSingleThreadExecutor();
     }
 
-  /*  public void transportRawToBb(Context context){
-        executor.execute(fromRawToDB(context));
-    }*/
-
-    public void fromRawToDB(final Context context){
+    public void fromRawToDB(final DictionaryDao dictionaryDao){
         new Thread(new Runnable() {
             @Override
             public void run() {
-                // for (Map.Entry entry : map.entrySet()) {
                 for (int resourceId : arrayOfResources) {
                     String expression = "/defs/d";
                     InputSource source = new InputSource(resources.openRawResource(resourceId));
@@ -92,7 +54,8 @@ public class RawLoader {
                         if (nodes == null) {
                             Log.i(TAG, " nodes = null !");
                         }
-                        Log.i(TAG, "nodes lenght = " + nodes.getLength());
+                        Log.i(TAG, "nodes length = " + nodes.getLength());
+                        List<WordDefinition> wordDefinitions = new ArrayList<>();
                         for (int i = 0; i < nodes.getLength(); i++) {
                             Node node = nodes.item(i);
                             NamedNodeMap attributes = node.getAttributes();
@@ -101,16 +64,14 @@ public class RawLoader {
                             word.setTranslate(attributes.getNamedItem("tr").getNodeValue());
                             word.setPos(attributes.getNamedItem("p").getNodeValue());
                             word.setTranscription(attributes.getNamedItem("ts").getNodeValue());
-                            DataContext.Companion.getDictionaryDao((Application) context).addWord(word);
+                            wordDefinitions.add(word);
                         }
+                        dictionaryDao.save(wordDefinitions);
                     }
                     catch (XPathExpressionException e) {
                         e.printStackTrace();
                     }
 
-                }
-                for (WordDefinition word : DataContext.Companion.getDictionaryDao((Application) context).getAllWords()) {
-                    Log.i(TAG, "word = " + word.getText());
                 }
             }
         }).start();

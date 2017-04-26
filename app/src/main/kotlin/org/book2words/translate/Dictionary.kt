@@ -48,7 +48,7 @@ public interface Dictionary {
         }
 
         public fun createOffline(context: Context): Dictionary {
-            return OfflineDictionary(context.getResources(), context as Service)
+            return OfflineDictionary(context as Service)
         }
 
         val VERB_PAST = "((\\w{3,})e)d$".toPattern()

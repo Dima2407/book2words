@@ -37,7 +37,7 @@ public class B2WApplication extends Application implements DaoHolder, Preference
 
         if (configs.getIsFirstLaunching()) {
             rawLoader = new RawLoader(getResources());
-            rawLoader.fromRawToDB(getApplicationContext());
+            rawLoader.fromRawToDB(DataContext.Companion.getDictionaryDao(this));
             configs.setIsFirstLaunching(false);
         }
     }

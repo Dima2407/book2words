@@ -29,6 +29,9 @@ class BookReaderBinder(
     }
 
     override fun release() {
+        book.currentPartition = currentPartition
+        book.visibleParagraph = currentParagraph
+        DataContext.getLibraryBookDao(service).save(book)
     }
 
     private val handler = Handler()
@@ -115,13 +118,16 @@ class BookReaderBinder(
     }
 
     fun previousPartition(): Boolean {
-        val index = book.currentPartition - 1
-        if (index >= 1) {
-            book.currentPartition = index
-            DataContext.getLibraryBookDao(service).save(book)
+        if (paragraphsCount > 10) {
+            currentParagraph -= 10
             return true
         }
-        return false
+        currentPartition--
+        if (currentPartition < 0) {
+            currentPartition = 0
+            return false
+        }
+        return true
     }
 
     fun nextPartition(): Boolean {
@@ -129,9 +135,9 @@ class BookReaderBinder(
             currentPartition++
         } else {
             currentParagraph += paragraphsCount;
+            return true
         }
         if (currentPartition <= book.countPartitions) {
-            DataContext.getLibraryBookDao(service).save(book)
             return true
         }
         return false

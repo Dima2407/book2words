@@ -4,9 +4,7 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.NonNull;
-
 import org.book2words.database.model.WordDefinition;
-import org.book2words.translate.OfflineDictionary;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,25 +28,14 @@ public class DictionaryDao {
         sqLiteDatabase = database;
     }
 
-    /*public WordDefinition getWord(String word){
-        Cursor cursor = sqLiteDatabase.query(TABLE_NAME, null, COLUMN_TEXT + "=?", new String[]{String.valueOf(word)}, null, null, null);
-        if (cursor.moveToFirst()) {
-            final int columnTextIndex = cursor.getColumnIndex(COLUMN_TEXT);
-            final int columnTranscriptionIndex = cursor.getColumnIndex(COLUMN_TRANSCRIPTION);
-            final int columnPosIndex = cursor.getColumnIndex(COLUMN_POS);
-            final int columnTranslateIndex = cursor.getColumnIndex(COLUMN_TRANSLATE);
+    @NonNull
+    static String obtainCreateInstancesQuery() {
+        return "CREATE TABLE IF NOT EXISTS '" + TABLE_NAME + "' ('" + COLUMN_ID + "' INTEGER PRIMARY KEY, '" + COLUMN_TEXT + "' TEXT NOT NULL, " +
+                "'" + COLUMN_POS + "' TEXT NOT NULL, '" + COLUMN_TRANSCRIPTION + "' TEXT, '" + COLUMN_TRANSLATE + "' TEXT NOT NULL );" +
+                "CREATE INDEX IF NOT EXISTS internal_words_index ON " + TABLE_NAME + "(" + COLUMN_TEXT + ");";
+    }
 
-            WordDefinition wordDefinition = new WordDefinition();
-            wordDefinition.setText(cursor.getString(columnTextIndex));
-            wordDefinition.setPos(cursor.getString(columnPosIndex));
-            wordDefinition.setTranscription(cursor.getString(columnTranscriptionIndex));
-            wordDefinition.setTranslate(cursor.getString(columnTranslateIndex));
-            return wordDefinition;
-        }
-        return null;
-    }*/
-
-    public List<WordDefinition> getWord(String word) {
+    public List<WordDefinition> findWordDefinitions(String word) {
         List<WordDefinition> words = new ArrayList<>();
         Cursor cursor = sqLiteDatabase.query(TABLE_NAME, null, COLUMN_TEXT + "=?", new String[]{String.valueOf(word)}, null, null, null);
         if (cursor.moveToFirst()) {
@@ -68,7 +55,7 @@ public class DictionaryDao {
         return words;
     }
 
-    public void addWord(WordDefinition word){
+    public void save(WordDefinition word) {
         ContentValues contentValues = new ContentValues();
         contentValues.put(COLUMN_TEXT, word.getText());
         contentValues.put(COLUMN_POS, word.getPos());
@@ -77,29 +64,20 @@ public class DictionaryDao {
         sqLiteDatabase.insert(TABLE_NAME, null, contentValues);
     }
 
-    public List<WordDefinition> getAllWords() {
-        List<WordDefinition> words = new ArrayList<>();
-        Cursor cursor = sqLiteDatabase.query(TABLE_NAME, null, null, null, null, null, null);
-        if (cursor.moveToFirst()) {
-            final int columnTextIndex = cursor.getColumnIndex(COLUMN_TEXT);
-            final int columnTranscriptionIndex = cursor.getColumnIndex(COLUMN_TRANSCRIPTION);
-            final int columnPosIndex = cursor.getColumnIndex(COLUMN_POS);
-            final int columnTranslateIndex = cursor.getColumnIndex(COLUMN_TRANSLATE);
-            do {
-                WordDefinition wordDefinition = new WordDefinition();
-                wordDefinition.setText(cursor.getString(columnTextIndex));
-                wordDefinition.setPos(cursor.getString(columnPosIndex));
-                wordDefinition.setTranscription(cursor.getString(columnTranscriptionIndex));
-                wordDefinition.setTranslate(cursor.getString(columnTranslateIndex));
-                words.add(wordDefinition);
-            } while (cursor.moveToNext());
+    public void save(List<WordDefinition> wordDefinitions) {
+        sqLiteDatabase.beginTransaction();
+        try {
+            ContentValues contentValues = new ContentValues();
+            for (WordDefinition word : wordDefinitions) {
+                contentValues.put(COLUMN_TEXT, word.getText());
+                contentValues.put(COLUMN_POS, word.getPos());
+                contentValues.put(COLUMN_TRANSCRIPTION, word.getTranscription());
+                contentValues.put(COLUMN_TRANSLATE, word.getTranslate());
+                sqLiteDatabase.insert(TABLE_NAME, null, contentValues);
+            }
+            sqLiteDatabase.setTransactionSuccessful();
+        } finally {
+            sqLiteDatabase.endTransaction();
         }
-        return words;
-    }
-
-    @NonNull
-    static String obtainCreateInstancesQuery() {
-        return "CREATE TABLE IF NOT EXISTS '" + TABLE_NAME + "' ('" + COLUMN_ID + "' INTEGER PRIMARY KEY, '" + COLUMN_TEXT + "' TEXT NOT NULL, " +
-                "'" + COLUMN_POS + "' TEXT NOT NULL, '" + COLUMN_TRANSCRIPTION + "' TEXT, '" + COLUMN_TRANSLATE + "' TEXT NOT NULL );";
     }
 }
