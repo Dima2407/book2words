@@ -18,13 +18,12 @@ public class PartsDao {
         this.sqLiteDatabase = sqLiteDatabase;
     }
 
-    public List<Part> getPartsInPartition(long bookId, int partitionNumber, int firstVisibleParagraph) {
+    public List<Part> getPartsInPartition(long bookId, int firstVisibleParagraph) {
         List<Part> parts = new ArrayList<>();
-        Cursor cursor = sqLiteDatabase.query(PartTable.TABLE, null, PartTable.COLUMN_BOOK_ID + "=? AND " + PartTable.COLUMN_PARTITION_NUMBER + "=? AND " + PartTable.COLUMN_PARAGRAPH_NUMBER + ">=?", new String[]{String.valueOf(bookId), String.valueOf(partitionNumber), String.valueOf(firstVisibleParagraph)}, null, null, PartTable.COLUMN_PARAGRAPH_NUMBER, "10");
+        Cursor cursor = sqLiteDatabase.query(PartTable.TABLE, null, PartTable.COLUMN_BOOK_ID + "=? AND "  + PartTable.COLUMN_PARAGRAPH_NUMBER + ">=?", new String[]{String.valueOf(bookId), String.valueOf(firstVisibleParagraph)}, null, null, PartTable.COLUMN_PARAGRAPH_NUMBER, "10");
         if (cursor.moveToFirst()) {
             final int columnIdIndex = cursor.getColumnIndex(PartTable._ID);
             final int columnBookIdIndex = cursor.getColumnIndex(PartTable.COLUMN_BOOK_ID);
-            final int columnPartitionKeyIndex = cursor.getColumnIndex(PartTable.COLUMN_PARTITION_NUMBER);
             final int columnParagraphKeyIndex = cursor.getColumnIndex(PartTable.COLUMN_PARAGRAPH_NUMBER);
             final int columnAmountOfWordsIndex = cursor.getColumnIndex(PartTable.COLUMN_AMOUNT_OF_WORDS);
             final int columnAmountOfSymbolsIndex = cursor.getColumnIndex(PartTable.COLUMN_AMOUNT_OF_SYMBOLS);
@@ -32,7 +31,6 @@ public class PartsDao {
             do {
                 Part part = new Part(cursor.getInt(columnIdIndex));
                 part.setBookId(cursor.getLong(columnBookIdIndex));
-                part.setPartitionNumber(cursor.getInt(columnPartitionKeyIndex));
                 part.setParagraphNumber(cursor.getInt(columnParagraphKeyIndex));
                 part.setAmountOfWords(cursor.getInt(columnAmountOfWordsIndex));
                 part.setAmountOfSymbols(cursor.getInt(columnAmountOfSymbolsIndex));
@@ -53,7 +51,6 @@ public class PartsDao {
                     contentValues.put(PartTable._ID, part.getId());
                 }
                 contentValues.put(PartTable.COLUMN_BOOK_ID, part.getBookId());
-                contentValues.put(PartTable.COLUMN_PARTITION_NUMBER, part.getPartitionNumber());
                 contentValues.put(PartTable.COLUMN_PARAGRAPH_NUMBER, part.getParagraphNumber());
                 contentValues.put(PartTable.COLUMN_AMOUNT_OF_SYMBOLS, part.getAmountOfSymbols());
                 contentValues.put(PartTable.COLUMN_AMOUNT_OF_WORDS, part.getAmountOfWords());

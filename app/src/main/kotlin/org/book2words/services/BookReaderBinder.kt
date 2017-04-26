@@ -30,7 +30,6 @@ class BookReaderBinder(
 
     override fun release() {
         book.currentPartition = currentPartition
-        book.visibleParagraph = currentParagraph
         DataContext.getLibraryBookDao(service).save(book)
     }
 
@@ -38,18 +37,11 @@ class BookReaderBinder(
 
     private val executor = Executors.newSingleThreadExecutor()
 
-    private var unknownWords: MutableList<Word> = ArrayList()
     private var currentPartition = 0;
-    private var currentParagraph = 0;
-    private var paragraphsCount = 0;
 
     fun prepare(callback: () -> Unit) {
-        currentParagraph = book.visibleParagraph;
         currentPartition = book.currentPartition;
         executor.execute({
-            DataContext.getWordsFoundDao(service).getAllFoundWordsInBook(book.id).forEach {
-                unknownWords.add(it)
-            }
             handler.post({
                 callback()
             })
@@ -60,19 +52,16 @@ class BookReaderBinder(
 
         executor.execute({
 
-            Logger.debug("words = ${book.currentPartition} - ${unknownWords.size}")
+            val partitions = DataContext.getPartsDao(service).getPartsInPartition(book.id!!, currentPartition)
 
-            val partitions = DataContext.getPartsDao(service).getPartsInPartition(book.id!!, currentPartition, currentParagraph)
-            paragraphsCount = partitions.size
-
-            val words = DataContext.getWordsFoundDao(service).getWordsInBook(book.id!!, currentPartition, partitions.map { it.paragraphNumber });
+            val words = DataContext.getWordsFoundDao(service).getWordsInBook(book.id!!, partitions.map { it.paragraphNumber });
 
             val pars = partitions.asSequence().map {
                 val p = it
                 val paragraph = ParagraphAdapted(p.text)
 
                 words.forEach {
-                    paragraph.modify(p.paragraphNumber, p.partitionNumber, it)
+                    paragraph.modify(p.paragraphNumber, it)
                 }
                 paragraph
             }.toList();
@@ -106,7 +95,6 @@ class BookReaderBinder(
     }
 
     fun remove(word: WordAdapted) {
-        unknownWords.remove(word.word)
         DataContext.getWordsFoundDao(service).delete(word.word);
 
         val writer = FileOutputStream(FileStorage.createDictionaryFile(book), true)
@@ -118,28 +106,21 @@ class BookReaderBinder(
     }
 
     fun previousPartition(): Boolean {
-        if (paragraphsCount > 10) {
-            currentParagraph -= 10
+
+        currentPartition -= 10
+        if (currentPartition > 0) {
             return true
         }
-        currentPartition--
-        if (currentPartition < 0) {
-            currentPartition = 0
-            return false
-        }
-        return true
+        currentPartition = 0
+        return false
     }
 
     fun nextPartition(): Boolean {
-        if (paragraphsCount < 10) {
-            currentPartition++
-        } else {
-            currentParagraph += paragraphsCount;
-            return true
-        }
+        currentPartition += 10
         if (currentPartition <= book.countPartitions) {
             return true
         }
+        currentPartition = book.countPartitions;
         return false
     }
 

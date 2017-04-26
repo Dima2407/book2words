@@ -57,7 +57,7 @@ public class BookReadFragment : Fragment() {
 
     companion object {
 
-        public fun create(): Fragment {
+        fun create(): Fragment {
             val fragment = BookReadFragment()
 
             return fragment

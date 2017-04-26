@@ -121,7 +121,7 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
         Logger.debug("splitText($index)", TAG)
         val textSplitter = TextSplitter.getInstance()
         textSplitter.findCapital(text)
-        val partitions = textSplitter.toPartitions(id, index, text)
+        val partitions = textSplitter.toPartitions(id, text)
         partitions.forEach {
             val partition = it
             textSplitter.split(partition, id)

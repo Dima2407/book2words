@@ -9,7 +9,10 @@ import org.book2words.models.book.Word;
 import org.book2words.models.book.WordLocation;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 
 public class WordsFoundDao {
@@ -23,24 +26,6 @@ public class WordsFoundDao {
     WordsFoundDao(SQLiteDatabase database) {
 
         sqLiteDatabase = database;
-    }
-
-    public List<Word> getAllFoundWordsInBook(Long bookId) {
-        List<Word> words = new ArrayList<>();
-        Cursor cursor = sqLiteDatabase.rawQuery("select * from " + WordLocationTable.TABLE + " left join " + WordTable.TABLE + " on " + WordTable._ID + "=" + WordLocationTable.COLUMN_WORD_ID + " where " + WordLocationTable.COLUMN_BOOK_ID + "=?", new String[]{String.valueOf(bookId)});
-        if (cursor.moveToFirst()) {
-            final int columnIdIndex = cursor.getColumnIndex(WordTable._ID);
-            final int columnValueIndex = cursor.getColumnIndex(WordTable.COLUMN_VALUE);
-            final int columnTranslatedIndex = cursor.getColumnIndex(WordTable.COLUMN_TRANSLATED);
-            do {
-                Word word = new Word(cursor.getString(columnValueIndex));
-                word.setId(cursor.getInt(columnIdIndex));
-                word.setTranslated(cursor.getInt(columnTranslatedIndex) == WORD_TRANSLATED);
-                //setParagraphsFromDataBase(cursor, word);
-                words.add(word);
-            } while (cursor.moveToNext());
-        }
-        return words;
     }
 
     public void save(Iterable<Word> words) {
@@ -57,7 +42,6 @@ public class WordsFoundDao {
                 for (WordLocation location : word.getLocations()) {
                     wordLocationValues.put(WordLocationTable.COLUMN_WORD_ID, id);
                     wordLocationValues.put(WordLocationTable.COLUMN_BOOK_ID, location.getBook());
-                    wordLocationValues.put(WordLocationTable.COLUMN_CHAPTER_ID, location.getChapter());
                     wordLocationValues.put(WordLocationTable.COLUMN_PARAGRAPH_ID, location.getParagraph());
                     wordLocationValues.put(WordLocationTable.COLUMN_START, location.getStart());
                     wordLocationValues.put(WordLocationTable.COLUMN_END, location.getEnd());
@@ -85,10 +69,10 @@ public class WordsFoundDao {
     }
 
     @NotNull
-    public Collection<Word> getWordsInBook(long book, int partition, List<Integer> paragraphs) {
+    public Collection<Word> getWordsInBook(long book, List<Integer> paragraphs) {
         Map<String, Word> words = new TreeMap<>();
 
-        Cursor cursor = sqLiteDatabase.rawQuery("select * from " + WordLocationTable.TABLE + " left join " + WordTable.TABLE + " on " + WordTable._ID + "=" + WordLocationTable.COLUMN_WORD_ID + " where " + WordLocationTable.COLUMN_BOOK_ID + "=? AND " + WordLocationTable.COLUMN_CHAPTER_ID + "=?", new String[]{String.valueOf(book), String.valueOf(partition)});
+        Cursor cursor = sqLiteDatabase.rawQuery("select * from " + WordLocationTable.TABLE + " left join " + WordTable.TABLE + " on " + WordTable._ID + "=" + WordLocationTable.COLUMN_WORD_ID + " where " + WordLocationTable.COLUMN_BOOK_ID + "=? AND " + WordLocationTable.COLUMN_PARAGRAPH_ID + " between ? and ?", new String[]{String.valueOf(book), String.valueOf(paragraphs.get(0)), String.valueOf(paragraphs.get(paragraphs.size() - 1))});
         if (cursor.moveToFirst()) {
             final int columnIdIndex = cursor.getColumnIndex(WordTable._ID);
             final int columnValueIndex = cursor.getColumnIndex(WordTable.COLUMN_VALUE);
@@ -99,13 +83,13 @@ public class WordsFoundDao {
             do {
                 final String value = cursor.getString(columnValueIndex);
                 Word word = words.get(value);
-                if(word == null){
+                if (word == null) {
                     word = new Word(value);
                     word.setId(cursor.getInt(columnIdIndex));
                     word.setTranslated(cursor.getInt(columnTranslatedIndex) == WORD_TRANSLATED);
                     words.put(value, word);
                 }
-                WordLocation location = new WordLocation(book, partition, cursor.getInt(columnParagraphIndex),
+                WordLocation location = new WordLocation(book, cursor.getInt(columnParagraphIndex),
                         cursor.getInt(columnStartIndex),
                         cursor.getInt(columnEndIndex));
                 word.getLocations().add(location);

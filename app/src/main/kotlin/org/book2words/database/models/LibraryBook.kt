@@ -9,7 +9,6 @@ class LibraryBook(var id: Long? = null,
                   val authors: String,
                   var adapted: Int = LibraryBook.NONE,
                   var currentPartition: Int = 0,
-                  var visibleParagraph: Int = 0,
                   var countPartitions: Int = 0,
                   var wordsCount: Int = 0,
                   var uniqueWordsCount: Int = 0,
@@ -22,7 +21,6 @@ class LibraryBook(var id: Long? = null,
             this(`in`.readLong(),
                     `in`.readString(),
                     `in`.readString(),
-                    `in`.readInt(),
                     `in`.readInt(),
                     `in`.readInt(),
                     `in`.readInt(),
@@ -42,9 +40,8 @@ class LibraryBook(var id: Long? = null,
                     cursor.getInt(indexes[6]),
                     cursor.getInt(indexes[7]),
                     cursor.getInt(indexes[8]),
-                    cursor.getInt(indexes[9]),
-                    cursor.getString(indexes[10]),
-                    cursor.getString(indexes[11]))
+                    cursor.getString(indexes[9]),
+                    cursor.getString(indexes[10]))
 
     override fun equals(o: Any?): Boolean {
         if (this === o) return true
@@ -70,7 +67,6 @@ class LibraryBook(var id: Long? = null,
         dest.writeString(authors)
         dest.writeInt(adapted)
         dest.writeInt(currentPartition)
-        dest.writeInt(visibleParagraph)
         dest.writeInt(countPartitions)
         dest.writeInt(wordsCount)
         dest.writeInt(uniqueWordsCount)

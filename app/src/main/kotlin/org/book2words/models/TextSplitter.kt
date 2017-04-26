@@ -19,8 +19,6 @@ class TextSplitter private constructor() {
 
     private var partitions = 0
 
-    private var numberOfPartition = 0
-
     fun findCapital(text: String) {
         val wordPattern = Patterns.CAPITAL_WORD
         val matcher = wordPattern.matcher(text)
@@ -35,21 +33,17 @@ class TextSplitter private constructor() {
         Logger.debug("capitals = ${capitals.size}")
     }
 
-    fun toPartitions(bookId: Long, key: Int, text: String): List<Part> {
-
-        Logger.debug("split chapter $key")
+    fun toPartitions(bookId: Long, text: String): List<Part> {
 
         val parts = text.split("\n+".toRegex()).asSequence().filter { it.trim().isNotEmpty() }.mapIndexed { i, item ->
             var part = Part()
             part.bookId = bookId
-            part.partitionNumber = key
-            part.paragraphNumber = i
+            part.paragraphNumber = partitions++
             part.text = item
             part.amountOfSymbols = item.length
             part
         }
-        partitions++
-        return parts.toList();
+        return parts.toList()
     }
 
 
@@ -63,7 +57,7 @@ class TextSplitter private constructor() {
             val word = words.getOrPut(w.toLowerCase(), {
                 Word(w)
             })
-            word.locations.add(WordLocation(bookId, partition.partitionNumber, partition.paragraphNumber, start, end));
+            word.locations.add(WordLocation(bookId, partition.paragraphNumber, start, end));
             partition.amountOfWords++
         }
         allWordsCount += partition.amountOfWords;
@@ -112,7 +106,6 @@ class TextSplitter private constructor() {
         capitals.clear()
         partitions = 0
         allWordsCount = 0
-        numberOfPartition = 0
     }
 
     companion object {

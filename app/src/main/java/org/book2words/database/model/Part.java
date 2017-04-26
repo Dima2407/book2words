@@ -8,7 +8,6 @@ public class Part {
 
     private long id;
     private long bookId;
-    private int partitionNumber;
     private int paragraphNumber;
     private int amountOfWords;
     private int amountOfSymbols;
@@ -19,15 +18,6 @@ public class Part {
 
     public Part(int id) {
         this.id = id;
-    }
-
-    public Part(int id, Long bookId, int partitionNumber, int amountOfWords, int amountOfSymbols, String text) {
-        this.id = id;
-        this.bookId = bookId;
-        this.partitionNumber = partitionNumber;
-        this.amountOfWords = amountOfWords;
-        this.amountOfSymbols = amountOfSymbols;
-        this.text = text;
     }
 
     public long getId() {
@@ -44,14 +34,6 @@ public class Part {
 
     public void setBookId(Long bookId) {
         this.bookId = bookId;
-    }
-
-    public int getPartitionNumber() {
-        return partitionNumber;
-    }
-
-    public void setPartitionNumber(int partitionNumber) {
-        this.partitionNumber = partitionNumber;
     }
 
     public int getAmountOfWords() {

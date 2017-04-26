@@ -1,7 +1,6 @@
 package org.book2words;
 
 import android.app.Application;
-import android.content.SharedPreferences;
 
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -17,7 +16,6 @@ public class B2WApplication extends Application implements DaoHolder, Preference
     private DaoSession daoSession;
     private Configs configs;
     private CacheDictionary dictionary;
-    private RawLoader rawLoader;
 
     @Override
     public void onCreate() {
@@ -35,10 +33,10 @@ public class B2WApplication extends Application implements DaoHolder, Preference
         configs = ConfigsContext.Companion.setup(this);
         dictionary = DictionaryContext.Companion.setup(this);
 
-        if (configs.getIsFirstLaunching()) {
-            rawLoader = new RawLoader(getResources());
+        if (configs.isDictionariesLoaded()) {
+            RawLoader rawLoader = new RawLoader(getResources());
             rawLoader.fromRawToDB(DataContext.Companion.getDictionaryDao(this));
-            configs.setIsFirstLaunching(false);
+            configs.dictionariesLoaded(true);
         }
     }
 

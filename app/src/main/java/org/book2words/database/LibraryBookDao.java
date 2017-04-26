@@ -25,7 +25,6 @@ public class LibraryBookDao {
     private static final String COLUMN_UNKNOWN_WORDS_COUNT = "UNKNOWN_WORDS_COUNT";
     private static final String COLUMN_LANGUAGE = "LANGUAGE";
     private static final String COLUMN_PATH = "PATH";
-    private static final String COLUMN_VISIBLE_PARAGRAPH = "CURRENT_PARAGRAPH";
 
     private SQLiteDatabase sqLiteDatabase;
 
@@ -37,7 +36,6 @@ public class LibraryBookDao {
     static String obtainCreateInstancesQuery() {
         return "CREATE TABLE IF NOT EXISTS '" + TABLE_NAME + "' ('" + COLUMN_ID + "' INTEGER PRIMARY KEY, '" + COLUMN_NAME + "' TEXT NOT NULL, " +
                 "'" + COLUMN_AUTHORS + "' TEXT NOT NULL, '" + COLUMN_WORDS_ID + "' TEXT, '" + COLUMN_ADAPTED + "' INTEGER NOT NULL, '" + COLUMN_CURRENT_PARTITION + "' INTEGER NOT NULL, " +
-                "'" + COLUMN_VISIBLE_PARAGRAPH + "' INTEGER NOT NULL, " +
                 "'" + COLUMN_COUNT_PARTITIONS + "' INTEGER NOT NULL, '" + COLUMN_WORDS_COUNT + "' INTEGER NOT NULL, '" + COLUMN_UNIQUE_WORDS_COUNT + "' INTEGER NOT NULL, " +
                 "'" + COLUMN_UNKNOWN_WORDS_COUNT + "' INTEGER NOT NULL, '" + COLUMN_LANGUAGE + "' TEXT NOT NULL, '" + COLUMN_PATH + "' TEXT NOT NULL UNIQUE );";
     }
@@ -53,7 +51,6 @@ public class LibraryBookDao {
                 final int columnAuthorsIndex = cursor.getColumnIndex(COLUMN_AUTHORS);
                 final int columnAdaptedIndex = cursor.getColumnIndex(COLUMN_ADAPTED);
                 final int columnCurrentPartIndex = cursor.getColumnIndex(COLUMN_CURRENT_PARTITION);
-                final int columnVisiblePartIndex = cursor.getColumnIndex(COLUMN_VISIBLE_PARAGRAPH);
                 final int columnCountPartitionPartIndex = cursor.getColumnIndex(COLUMN_COUNT_PARTITIONS);
                 final int columnWordCountPartIndex = cursor.getColumnIndex(COLUMN_WORDS_COUNT);
                 final int columnUniqueWordCountIndex = cursor.getColumnIndex(COLUMN_UNIQUE_WORDS_COUNT);
@@ -68,7 +65,6 @@ public class LibraryBookDao {
                             columnAuthorsIndex,
                             columnAdaptedIndex,
                             columnCurrentPartIndex,
-                            columnVisiblePartIndex,
                             columnCountPartitionPartIndex,
                             columnWordCountPartIndex,
                             columnUniqueWordCountIndex,
@@ -96,7 +92,6 @@ public class LibraryBookDao {
         contentValues.put(COLUMN_AUTHORS, book.getAuthors());
         contentValues.put(COLUMN_ADAPTED, book.getAdapted());
         contentValues.put(COLUMN_CURRENT_PARTITION, book.getCurrentPartition());
-        contentValues.put(COLUMN_VISIBLE_PARAGRAPH, book.getVisibleParagraph());
         contentValues.put(COLUMN_COUNT_PARTITIONS, book.getCountPartitions());
         contentValues.put(COLUMN_WORDS_COUNT, book.getWordsCount());
         contentValues.put(COLUMN_UNIQUE_WORDS_COUNT, book.getUniqueWordsCount());
