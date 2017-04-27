@@ -9,10 +9,6 @@ import org.book2words.database.model.WordDefinition;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by dima on 24.04.17.
- */
-
 public class DictionaryDao {
 
     private static final String TABLE_NAME = "VOCABULARY";

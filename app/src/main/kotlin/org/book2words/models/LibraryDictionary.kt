@@ -21,9 +21,6 @@ class LibraryDictionary(val name: String, var size: Int) : Parcelable {
         dest.writeInt(size)
     }
 
-    val path: File
-        get() = FileStorage.createDictionaryFile(this)
-
     companion object {
 
         val ACTION_MODIFIED = "org.book2words.intent.action.DICTIONARY_MODIFIED"

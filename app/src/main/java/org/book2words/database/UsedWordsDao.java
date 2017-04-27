@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import org.book2words.database.Schema.KnownWordTable;
 import org.book2words.database.models.KnownWord;
+import org.book2words.models.LibraryDictionary;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,18 +19,6 @@ public class UsedWordsDao {
 
     UsedWordsDao(SQLiteDatabase database) {
         sqLiteDatabase = database;
-    }
-
-    public KnownWord getUsedWord(String word) {
-        Cursor cursor = sqLiteDatabase.query(KnownWordTable.TABLE, null, KnownWordTable.COLUMN_WORD + "=?", new String[]{String.valueOf(word)}, null, null, null);
-        if (cursor.moveToFirst()) {
-            final int columnIdIndex = cursor.getColumnIndex(KnownWordTable._ID);
-            final int columnWordIndex = cursor.getColumnIndex(KnownWordTable.COLUMN_WORD);
-
-            KnownWord knownWord = new KnownWord(cursor.getInt(columnIdIndex), cursor.getString(columnWordIndex));
-            return knownWord;
-        }
-        return null;
     }
 
     public void save(KnownWord word) {
@@ -51,5 +41,29 @@ public class UsedWordsDao {
 
     public void delete(String word) {
         sqLiteDatabase.delete(KnownWordTable.TABLE, KnownWordTable.COLUMN_WORD + "=?", new String[]{word});
+    }
+
+    public List<LibraryDictionary> getDictionaries() {
+        List<LibraryDictionary> knownWords = new ArrayList<>();
+        Cursor cursor = sqLiteDatabase.query(KnownWordTable.TABLE, new String[]{"SUBSTR(" + KnownWordTable.COLUMN_WORD + ",1,1)", "COUNT(" + KnownWordTable.COLUMN_WORD + ")"}, null, null, "SUBSTR(" + KnownWordTable.COLUMN_WORD + ",1,1)", null, null);
+        if (cursor.moveToFirst()) {
+            do {
+                knownWords.add(new LibraryDictionary(cursor.getString(0), cursor.getInt(1)));
+            } while (cursor.moveToNext());
+        }
+        return knownWords;
+    }
+
+    @NotNull
+    public List<String> findByStartCharacter(String name) {
+        Set<String> knownWords = new TreeSet<>();
+        Cursor cursor = sqLiteDatabase.query(KnownWordTable.TABLE, null, KnownWordTable.COLUMN_WORD + " LIKE '" + name + "%'", null, null, null, null);
+        if (cursor.moveToFirst()) {
+            final int columnWordIndex = cursor.getColumnIndex(KnownWordTable.COLUMN_WORD);
+            do {
+                knownWords.add(cursor.getString(columnWordIndex));
+            } while (cursor.moveToNext());
+        }
+        return new ArrayList<>(knownWords);
     }
 }

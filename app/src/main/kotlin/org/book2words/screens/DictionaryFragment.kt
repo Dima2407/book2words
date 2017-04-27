@@ -4,6 +4,7 @@ import android.app.Fragment
 import android.app.ListFragment
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import org.book2words.data.DataContext
 import org.book2words.models.LibraryDictionary
 
 class DictionaryFragment : ListFragment() {
@@ -12,15 +13,11 @@ class DictionaryFragment : ListFragment() {
         super.onActivityCreated(savedInstanceState)
         val args = arguments
         val dict: LibraryDictionary = args.getParcelable(DICTIONARY_KEY)
-        val file = dict.path
-        if (file.exists()) {
-            val list = file.readLines(Charsets.UTF_8).toSortedSet().toList();
-            listAdapter = ArrayAdapter(
-                    activity,
-                    android.R.layout.simple_list_item_1, android.R.id.text1,
-                    list)
-        }
-
+        val list = DataContext.getUsedWordsDao(activity).findByStartCharacter(dict.name);
+        listAdapter = ArrayAdapter(
+                activity,
+                android.R.layout.simple_list_item_1, android.R.id.text1,
+                list)
     }
 
     companion object {

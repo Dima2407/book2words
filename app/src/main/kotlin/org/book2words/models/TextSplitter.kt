@@ -52,6 +52,9 @@ class TextSplitter private constructor() {
         val matcher = wordPattern.matcher(partition.text)
         while (matcher.find()) {
             val w = matcher.group(1)
+            if(w.isBlank()){
+                continue
+            }
             val start = matcher.start(1)
             val end = matcher.end(1)
             val word = words.getOrPut(w.toLowerCase(), {

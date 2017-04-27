@@ -14,6 +14,7 @@ import android.widget.TextView
 import org.book2words.DictionaryActivity
 import org.book2words.R
 import org.book2words.core.FileStorage
+import org.book2words.data.DataContext
 import org.book2words.models.LibraryDictionary
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
@@ -72,21 +73,14 @@ class DictionarySettingsFragment : ObservableListFragment<LibraryDictionary>() {
 
     }
 
-    private class DictionariesLoader(context: Activity) : ObservableLoader<LibraryDictionary>(context) {
+    private class DictionariesLoader(val context: Activity) : ObservableLoader<LibraryDictionary>(context) {
         override fun createObserver(): BroadcastReceiver {
             return BaseObserver(this,
                     LibraryDictionary.ACTION_MODIFIED)
         }
 
         override fun loadInBackground(): List<LibraryDictionary> {
-            val dir = FileStorage.createDictionaryDirectory()
-            val dictionaries = dir.listFiles().map { file ->
-                val reader = file.bufferedReader()
-                val size = reader.readLines().size
-                reader.close()
-                LibraryDictionary(file.nameWithoutExtension, size)
-            }.toList();
-            return dictionaries
+            return DataContext.getUsedWordsDao(context).dictionaries
         }
     }
 }
