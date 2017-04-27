@@ -48,7 +48,8 @@ public class UsedWordsDao {
         Cursor cursor = sqLiteDatabase.query(KnownWordTable.TABLE, new String[]{"SUBSTR(" + KnownWordTable.COLUMN_WORD + ",1,1)", "COUNT(" + KnownWordTable.COLUMN_WORD + ")"}, null, null, "SUBSTR(" + KnownWordTable.COLUMN_WORD + ",1,1)", null, null);
         if (cursor.moveToFirst()) {
             do {
-                knownWords.add(new LibraryDictionary(cursor.getString(0), cursor.getInt(1)));
+                final LibraryDictionary dictionary = new LibraryDictionary(cursor.getString(0), cursor.getInt(1));
+                knownWords.add(dictionary);
             } while (cursor.moveToNext());
         }
         return knownWords;

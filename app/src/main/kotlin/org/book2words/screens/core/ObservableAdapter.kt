@@ -3,13 +3,13 @@ package org.book2words.screens.core
 import android.support.v7.widget.RecyclerView
 import java.util.ArrayList
 
-public abstract class ObservableAdapter<T, V : RecyclerView.ViewHolder> : RecyclerView.Adapter<V>() {
+abstract class ObservableAdapter<T, V : RecyclerView.ViewHolder> : RecyclerView.Adapter<V>() {
 
     private val items: MutableList<T> = ArrayList()
 
     private var itemClick: ((item: T, position: Int) -> Unit)? = null
 
-    public open fun onLoadFinished(data: List<T>?) {
+    open fun onLoadFinished(data: List<T>?) {
         items.clear()
         items.addAll(data!!)
         notifyDataSetChanged()
@@ -19,11 +19,11 @@ public abstract class ObservableAdapter<T, V : RecyclerView.ViewHolder> : Recycl
         return items.size
     }
 
-    public fun getItem(position: Int): T {
-        return items.get(position)
+    fun getItem(position: Int): T {
+        return items[position]
     }
 
-    public open fun onLoaderReset() {
+    open fun onLoaderReset() {
         items.clear()
         notifyDataSetChanged()
     }
@@ -40,7 +40,7 @@ public abstract class ObservableAdapter<T, V : RecyclerView.ViewHolder> : Recycl
         onBindViewHolder(holder, item, position)
     }
 
-    public abstract fun onBindViewHolder(holder: V, item : T, position: Int)
+    abstract fun onBindViewHolder(holder: V, item : T, position: Int)
 
     fun setItemClickListener(itemClick: ((item: T, position: Int) -> Unit)?) {
         this.itemClick = itemClick
