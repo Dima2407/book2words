@@ -5,17 +5,15 @@ import android.content.Intent
 import android.os.Binder
 import android.os.Handler
 import org.book2words.core.FileStorage
-import org.book2words.core.Logger
 import org.book2words.data.DataContext
+import org.book2words.database.models.KnownWord
 import org.book2words.database.models.LibraryBook
 import org.book2words.models.LibraryDictionary
 import org.book2words.models.book.ParagraphAdapted
-import org.book2words.models.book.Word
 import org.book2words.models.book.WordAdapted
 import org.book2words.translate.Dictionary
 import org.book2words.translate.EnglishDictionary
 import java.io.FileOutputStream
-import java.util.*
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.Executors
 
@@ -95,13 +93,9 @@ class BookReaderBinder(
     }
 
     fun remove(word: WordAdapted) {
-        DataContext.getWordsFoundDao(service).delete(word.word);
-
-        val writer = FileOutputStream(FileStorage.createDictionaryFile(book), true)
-                .bufferedWriter(Charsets.UTF_8)
-        writer.appendln(word.getValue())
-        writer.flush()
-        writer.close()
+        DataContext.getWordsFoundDao(service).delete(word.word)
+        val knownWord = KnownWord(word = word.word.value)
+        DataContext.getUsedWordsDao(service).save(knownWord)
         service.sendBroadcast(Intent(LibraryDictionary.ACTION_MODIFIED))
     }
 

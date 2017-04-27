@@ -25,7 +25,6 @@ public class DaoSession {
             @Override
             public void onCreate(SQLiteDatabase db) {
                 db.execSQL(LibraryBookDao.obtainCreateInstancesQuery());
-                db.execSQL(UsedWordsDao.obtainCreateInstancesQuery());
                 db.execSQL(DictionaryDao.obtainCreateInstancesQuery());
                 final List<String> setup = new Schema().setup();
                 for (String query : setup){

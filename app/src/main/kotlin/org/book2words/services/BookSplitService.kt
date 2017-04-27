@@ -83,11 +83,9 @@ public class BookSplitService : IntentService(BookSplitService::class.simpleName
         textSplitter.clearWidelyUsed(strings)
         textSplitter.clearWithDuplicates()
 
-        val dictionaries = DataContext.getDictionaries()
+        val knownWords = DataContext.getUsedWordsDao(this).all;
 
-        dictionaries.forEach {
-            textSplitter.clearFromDictionary(it.path)
-        }
+        textSplitter.clearFromDictionary(knownWords)
 
         Logger.debug("time clear ${(System.currentTimeMillis() - time) / 1000}", TAG)
 
