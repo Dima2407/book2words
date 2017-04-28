@@ -5,6 +5,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
+import android.graphics.Rect
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -19,14 +20,15 @@ import org.book2words.SelectFileActivity
 import org.book2words.SplitActivity
 import org.book2words.activities.ReaderActivity
 import org.book2words.core.Logger
-import org.book2words.database.models.LibraryBook
 import org.book2words.data.DataContext
+import org.book2words.database.models.LibraryBook
 import org.book2words.screens.core.ObservableAdapter
 import org.book2words.screens.core.ObservableListFragment
 import org.book2words.screens.loaders.BaseObserver
 import org.book2words.screens.loaders.ObservableLoader
 import org.book2words.services.LibraryService
 import java.io.File
+
 
 class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBookView>() {
 
@@ -42,13 +44,26 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        val adapter = LibraryFileAdapter(activity)
+        val padding = 2 * (1 * resources.displayMetrics.density).toInt()//both sides
+        val contentMargin = 2 * (6 * resources.displayMetrics.density).toInt()
+        val topBarHeight = (24 * resources.displayMetrics.density).toInt()
+        val adapter = LibraryFileAdapter(activity,
+                context.resources.displayMetrics.widthPixels,
+                context.resources.displayMetrics.heightPixels - topBarHeight - contentMargin
+                ,
+                context.resources.getDimensionPixelSize(R.dimen.book_width)
+                + padding,
+                context.resources.getDimensionPixelSize(R.dimen.book_height)
+                        + padding)
         setListAdapter(adapter)
+
+        addItemDecoration(GridSpacingItemDecoration(adapter.columnsCount, adapter.spaceWidth, true))
     }
 
     override fun createLayoutManager(): RecyclerView.LayoutManager {
-        val spanCount = resources.getInteger(R.integer.span_count)
-        Logger.debug("createLayoutManager() ${spanCount}")
+        val dpWidth = context.resources.displayMetrics.widthPixels
+        val spanCount = dpWidth / context.resources.getDimensionPixelSize(R.dimen.book_width)
+        Logger.debug("createLayoutManager() $spanCount")
         val layoutManager = GridLayoutManager(activity, spanCount)
         return layoutManager
     }
@@ -122,6 +137,8 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
 
     companion object {
 
+        val TAG = LibraryListFragment::class.simpleName
+
         private val REQUEST_CODE_IMPORT = 10
         private val REQUEST_CODE_BOOK = 20
 
@@ -131,7 +148,11 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
         }
     }
 
-    private class LibraryFileAdapter(private val context: Context) :
+    private class LibraryFileAdapter(private val context: Context,
+                                     private val containerWidth: Int,
+                                     private val containerHeight: Int,
+                                     private val itemWidth: Int,
+                                     private val itemHeight: Int) :
             ObservableAdapter<LibraryBookView, BookViewHolder>() {
         override fun onBindViewHolder(holder: BookViewHolder, item: LibraryBookView, position: Int) {
             if (item.book == null) {
@@ -147,11 +168,39 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
             }
         }
 
+
         override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): BookViewHolder? {
             val view = LayoutInflater.from(context)
                     .inflate(R.layout.list_item_book, parent, false)
             val vh = BookViewHolder(view)
             return vh
+        }
+
+        val columnsCount: Int
+            get () = containerWidth / itemWidth
+
+        val rowsCount: Int
+            get () = containerHeight / itemHeight
+
+        val spaceWidth: Int
+            get() = (containerWidth - (columnsCount * itemWidth)) / columnsCount
+
+
+        override fun onLoadFinished(data: List<LibraryBookView>?) {
+            var visibleRows = rowsCount
+            while (visibleRows * (itemHeight + spaceWidth) + spaceWidth > containerHeight){
+                visibleRows--
+            }
+            var items = visibleRows * columnsCount
+            (data?.size).let {
+                if(items < it!!){
+                    items = it
+                }
+            }
+            val result = MutableList(items, { index ->
+                LibraryBookView(data?.getOrNull(index)?.book)
+            })
+            super.onLoadFinished(result)
         }
     }
 
@@ -168,17 +217,8 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
         }
 
         override fun loadInBackground(): List<LibraryBookView> {
-            val all = DataContext.getLibraryBookDao(context).allBooks
-            val n = 30
-            val data = IntRange(1, n).map {
-                LibraryBookView(null)
-            }
-            data.forEachIndexed { index, bookView ->
-                if (all.size > index) {
-                    bookView.book = all[index]
-                }
-            }
-            return data
+            return DataContext.getLibraryBookDao(context).allBooks
+                    .map { LibraryBookView(it) }
         }
     }
 
@@ -186,4 +226,28 @@ class LibraryListFragment : ObservableListFragment<LibraryListFragment.LibraryBo
         var empty = book == null
     }
 
+
+    inner class GridSpacingItemDecoration(private val spanCount: Int, private val spacing: Int, private val includeEdge: Boolean) : RecyclerView.ItemDecoration() {
+
+        override fun getItemOffsets(outRect: Rect, view: View, parent: RecyclerView, state: RecyclerView.State) {
+            val position = parent.getChildAdapterPosition(view) // item position
+            val column = position % spanCount // item column
+
+            if (includeEdge) {
+                outRect.left = spacing - column * spacing / spanCount // spacing - column * ((1f / spanCount) * spacing)
+                outRect.right = (column + 1) * spacing / spanCount // (column + 1) * ((1f / spanCount) * spacing)
+
+                if (position < spanCount) { // top edge
+                    outRect.top = spacing
+                }
+                outRect.bottom = spacing // item bottom
+            } else {
+                outRect.left = column * spacing / spanCount // column * ((1f / spanCount) * spacing)
+                outRect.right = spacing - (column + 1) * spacing / spanCount // spacing - (column + 1) * ((1f /    spanCount) * spacing)
+                if (position >= spanCount) {
+                    outRect.top = spacing // item top
+                }
+            }
+        }
+    }
 }

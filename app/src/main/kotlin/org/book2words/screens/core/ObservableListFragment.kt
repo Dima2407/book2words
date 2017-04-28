@@ -18,19 +18,14 @@ public abstract class ObservableListFragment<T> : Fragment(), LoaderManager.Load
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super<Fragment>.onActivityCreated(savedInstanceState)
-        getLoaderManager().initLoader(0, getArguments(), this)
-        progressView!!.setVisibility(View.VISIBLE)
+        loaderManager.initLoader(0, arguments, this)
+        progressView!!.visibility = View.VISIBLE
         listView!!.setHasFixedSize(true)
-        listView!!.addItemDecoration(object : RecyclerView.ItemDecoration(){
-            override fun getItemOffsets(outRect: Rect?, view: View?, parent: RecyclerView?, state: RecyclerView.State?) {
-                super.getItemOffsets(outRect, view, parent, state)
-            }
-        })
-        listView!!.setLayoutManager(createLayoutManager())
+        listView!!.layoutManager = createLayoutManager()
     }
 
     protected open fun createLayoutManager() : RecyclerView.LayoutManager {
-        return LinearLayoutManager(getActivity())
+        return LinearLayoutManager(activity)
     }
 
     protected fun addItemDecoration(decoration : RecyclerView.ItemDecoration){
